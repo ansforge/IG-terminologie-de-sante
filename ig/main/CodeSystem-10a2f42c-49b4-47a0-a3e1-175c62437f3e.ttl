@@ -1,0 +1,4656 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/10a2f42c-49b4-47a0-a3e1-175c62437f3e> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "10a2f42c-49b4-47a0-a3e1-175c62437f3e"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-09-08T16:10:10.856+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2015-03-25T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.10" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R212-Equipement"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2015-03-25T00:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Equipement"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "date de mise à jours d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "date de fin d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "Equipement de rééducation pour obésité massive" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "109" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipement de rééducation pour obésité massive" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "155" ] ;
+     fhir:display [ fhir:v "Rails de transfert" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "155" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Rails de transfert" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "127" ] ;
+     fhir:display [ fhir:v "Système de traction halo-crânienne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Système de traction halo-crânienne" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "127" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "008" ] ;
+     fhir:display [ fhir:v "Caisson hyperbare" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "008" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Caisson hyperbare" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "123" ] ;
+     fhir:display [ fhir:v "Chambre domotisée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre domotisée" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "123" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "131" ] ;
+     fhir:display [ fhir:v "Module fixe de décontamination" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Module fixe de décontamination" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "131" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "083" ] ;
+     fhir:display [ fhir:v "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "083" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:display [ fhir:v "Appartement pour mise en situation d'autonomie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "116" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appartement pour mise en situation d'autonomie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "175" ] ;
+     fhir:display [ fhir:v "Spectromètre de masse haute résolution" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Spectromètre de masse haute résolution" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "175" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "049" ] ;
+     fhir:display [ fhir:v "Imagerie pédiatrique sans sédation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "049" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Imagerie pédiatrique sans sédation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "037" ] ;
+     fhir:display [ fhir:v "Endoscopie urologique (fibroscopie urétro-vésicale)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Endoscopie urologique (fibroscopie urétro-vésicale)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "037" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "187" ] ;
+     fhir:display [ fhir:v "Table réfrigérée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table réfrigérée" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "187" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Appareil d'isocinétisme" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil d'isocinétisme" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "102" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:display [ fhir:v "Prises d'oxygène dans les chambres" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prises d'oxygène dans les chambres" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "115" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "026" ] ;
+     fhir:display [ fhir:v "Echo-doppler vasculaire d'effort" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "026" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler vasculaire d'effort" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "177" ] ;
+     fhir:display [ fhir:v "Chromatographe en phase gazeuse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographe en phase gazeuse" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "177" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "028" ] ;
+     fhir:display [ fhir:v "Echo-endoscopie biliaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "028" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-endoscopie biliaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "183" ] ;
+     fhir:display [ fhir:v "Equipement d'oxygénothérapie de déambulation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "183" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipement d'oxygénothérapie de déambulation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "171" ] ;
+     fhir:display [ fhir:v "Séquençage du génome viral" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "171" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Séquençage du génome viral" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "174" ] ;
+     fhir:display [ fhir:v "CGH Array" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "174" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CGH Array" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "014" ] ;
+     fhir:display [ fhir:v "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "014" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:display [ fhir:v "Plateforme verticale subjective" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "159" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateforme verticale subjective" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "Prises d'oxygène en salle de rééducation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prises d'oxygène en salle de rééducation" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "113" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "130" ] ;
+     fhir:display [ fhir:v "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "130" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "143" ] ;
+     fhir:display [ fhir:v "Oxymètre de pouls (SpO2)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oxymètre de pouls (SpO2)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "143" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "193" ] ;
+     fhir:display [ fhir:v "Appareils de renforcement musculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareils de renforcement musculaire" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "193" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "042" ] ;
+     fhir:display [ fhir:v "Explorations électrophysiologiques visuelles (Potentiels évoqués visuels PEV, électro-rétinogramme ERG, électro-oculogramme EOG)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "042" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Explorations électrophysiologiques visuelles (Potentiels évoqués visuels PEV, électro-rétinogramme ERG, électro-oculogramme EOG)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "108" ] ;
+     fhir:display [ fhir:v "Hotte à flux laminaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "108" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hotte à flux laminaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "079" ] ;
+     fhir:display [ fhir:v "Potentiels évoqués auditifs (PEA) et vestibulaires sous anesthésie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Potentiels évoqués auditifs (PEA) et vestibulaires sous anesthésie générale" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "079" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-06-03T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "197" ] ;
+     fhir:display [ fhir:v "Fauteuil obésité (poids entre 250 et 350 kg) bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "197" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fauteuil obésité (poids entre 250 et 350 kg) bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "003" ] ;
+     fhir:display [ fhir:v "Angioscope" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "003" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Angioscope" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "018" ] ;
+     fhir:display [ fhir:v "Cystographie pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "018" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cystographie pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "073" ] ;
+     fhir:display [ fhir:v "Tomographie en cohérence optique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "073" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tomographie en cohérence optique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "077" ] ;
+     fhir:display [ fhir:v "Ventilation non invasive (VNI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ventilation non invasive (VNI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "077" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:display [ fhir:v "Cytomètre de flux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "168" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cytomètre de flux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "036" ] ;
+     fhir:display [ fhir:v "Electromyographe (EMG)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Electromyographe (EMG)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "036" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "186" ] ;
+     fhir:display [ fhir:v "Lit fluidisé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "186" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lit fluidisé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "075" ] ;
+     fhir:display [ fhir:v "Tomographie par scinigraphie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "075" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tomographie par scinigraphie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "072" ] ;
+     fhir:display [ fhir:v "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "072" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "071" ] ;
+     fhir:display [ fhir:v "Spectromètre de masse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Spectromètre de masse" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "071" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "078" ] ;
+     fhir:display [ fhir:v "Ventilation non invasive (VNI) à pression positive continue (CPAP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ventilation non invasive (VNI) à pression positive continue (CPAP)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "078" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "Assistance robotisée des membres supérieurs et de la préhension" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Assistance robotisée des membres supérieurs et de la préhension" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "104" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "012" ] ;
+     fhir:display [ fhir:v "Chambre stérile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "012" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre stérile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "068" ] ;
+     fhir:display [ fhir:v "Réaction en chaîne par polymérase (PCR)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Réaction en chaîne par polymérase (PCR)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "068" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "081" ] ;
+     fhir:display [ fhir:v "Echocardiographe 3D" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "081" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echocardiographe 3D" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "133" ] ;
+     fhir:display [ fhir:v "Planche à masser cardiaque automatique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Planche à masser cardiaque automatique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "133" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "144" ] ;
+     fhir:display [ fhir:v "Système EOS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "144" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Système EOS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "038" ] ;
+     fhir:display [ fhir:v "Entéro-IRM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Entéro-IRM" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "038" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "039" ] ;
+     fhir:display [ fhir:v "Entéroscopie du grêle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Entéroscopie du grêle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "039" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "163" ] ;
+     fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient non intubé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Caisson hyperbare occupation multiple patient non intubé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "163" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:display [ fhir:v "Plateau ou salle de rééducation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateau ou salle de rééducation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "150" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "080" ] ;
+     fhir:display [ fhir:v "Générateur d'hémodialyse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Générateur d'hémodialyse" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "080" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "025" ] ;
+     fhir:display [ fhir:v "Echo-doppler transcrânien" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler transcrânien" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "025" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:display [ fhir:v "Mur d'escalade" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "122" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mur d'escalade" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "034" ] ;
+     fhir:display [ fhir:v "Echographie obstétricale 2nd et 3ème trimestres" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographie obstétricale 2nd et 3ème trimestres" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "034" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "124" ] ;
+     fhir:display [ fhir:v "Atelier de confection de prothèses" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "124" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier de confection de prothèses" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "176" ] ;
+     fhir:display [ fhir:v "Chromatographe haute performance en phase liquide" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "176" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographe haute performance en phase liquide" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "160" ] ;
+     fhir:display [ fhir:v "Appartement domotisé pour mise en situation d'autonomie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appartement domotisé pour mise en situation d'autonomie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "160" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "017" ] ;
+     fhir:display [ fhir:v "Coronaroscanner" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "017" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Coronaroscanner" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "004" ] ;
+     fhir:display [ fhir:v "Arthroscope" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "004" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arthroscope" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "164" ] ;
+     fhir:display [ fhir:v "Cabine de cryothérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cabine de cryothérapie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "164" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "Douche filiforme pour brûlés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Douche filiforme pour brûlés" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "111" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "200" ] ;
+     fhir:display [ fhir:v "Fauteuil dentaire adapté au handicap moteur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "200" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fauteuil dentaire adapté au handicap moteur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "196" ] ;
+     fhir:display [ fhir:v "Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "196" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "023" ] ;
+     fhir:display [ fhir:v "Echo-doppler des troncs supra-aortiques (vaisseaux du cou)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler des troncs supra-aortiques (vaisseaux du cou)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "023" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "162" ] ;
+     fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient intubé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "162" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Caisson hyperbare occupation multiple patient intubé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "029" ] ;
+     fhir:display [ fhir:v "Echo-endoscopie pulmonaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "029" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-endoscopie pulmonaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "051" ] ;
+     fhir:display [ fhir:v "Impédance masse graisseuse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "051" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Impédance masse graisseuse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "041" ] ;
+     fhir:display [ fhir:v "Ergorameur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "041" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ergorameur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "076" ] ;
+     fhir:display [ fhir:v "Topographie cornéenne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Topographie cornéenne" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "076" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "084" ] ;
+     fhir:display [ fhir:v "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "084" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "059" ] ;
+     fhir:display [ fhir:v "Lithotriptie extracorporelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lithotriptie extracorporelle" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "059" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "013" ] ;
+     fhir:display [ fhir:v "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "013" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "179" ] ;
+     fhir:display [ fhir:v "Véhicules adaptés au transport de personnes à mobilité réduite" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "179" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Véhicules adaptés au transport de personnes à mobilité réduite" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Equipement pour monitorage par télémétrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipement pour monitorage par télémétrie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "112" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "199" ] ;
+     fhir:display [ fhir:v "Appareil d'imagerie volumétrique par faisceau conique (CBCT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil d'imagerie volumétrique par faisceau conique (CBCT)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "199" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "097" ] ;
+     fhir:display [ fhir:v "Chambre d'isolement et de contention" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "097" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre d'isolement et de contention" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "021" ] ;
+     fhir:display [ fhir:v "Echographe transportable" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "021" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographe transportable" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "135" ] ;
+     fhir:display [ fhir:v "Incubateur de transport" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "135" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Incubateur de transport" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "030" ] ;
+     fhir:display [ fhir:v "Echographe 3D" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographe 3D" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "030" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "066" ] ;
+     fhir:display [ fhir:v "Potentiels évoqués auditifs (PEA) et vestibulaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "066" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Potentiels évoqués auditifs (PEA) et vestibulaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "005" ] ;
+     fhir:display [ fhir:v "Autotransfuseur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "005" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autotransfuseur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "188" ] ;
+     fhir:display [ fhir:v "Case réfrigérée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Case réfrigérée" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "188" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:display [ fhir:v "Equipement de géolocalisation des personnes vulnérables" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipement de géolocalisation des personnes vulnérables" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "152" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "032" ] ;
+     fhir:display [ fhir:v "Echographie des artères cervicocéphaliques (artères de la tête et du cou)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "032" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographie des artères cervicocéphaliques (artères de la tête et du cou)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "007" ] ;
+     fhir:display [ fhir:v "Bili-IRM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "007" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Bili-IRM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "015" ] ;
+     fhir:display [ fhir:v "Coloscanner (TDM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "015" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Coloscanner (TDM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "044" ] ;
+     fhir:display [ fhir:v "Fibroscopie oeso-gastro-duodénale (FOGD) (endoscopie digestive haute)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fibroscopie oeso-gastro-duodénale (FOGD) (endoscopie digestive haute)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "044" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "Salle aménagée pour la thérapie systémique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "100" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Salle aménagée pour la thérapie systémique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "011" ] ;
+     fhir:display [ fhir:v "Chambre d'isolement avec sas" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre d'isolement avec sas" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "011" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "132" ] ;
+     fhir:display [ fhir:v "Module transportable de décontamination" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Module transportable de décontamination" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "132" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:display [ fhir:v "Locaux adaptés à la désorientation temporo-spatiale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Locaux adaptés à la désorientation temporo-spatiale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "114" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "173" ] ;
+     fhir:display [ fhir:v "SNP Array" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "SNP Array" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "173" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "056" ] ;
+     fhir:display [ fhir:v "Laboratoire du sommeil (polysomnographe)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "056" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Laboratoire du sommeil (polysomnographe)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "157" ] ;
+     fhir:display [ fhir:v "Systèmes corporels d'alerte sans fil" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Systèmes corporels d'alerte sans fil" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "157" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "106" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "167" ] ;
+     fhir:display [ fhir:v "Séquenceurs haut débit (NGS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "167" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Séquenceurs haut débit (NGS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "107" ] ;
+     fhir:display [ fhir:v "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "107" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "010" ] ;
+     fhir:display [ fhir:v "Chambre à pression positive (chambre stérile)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "010" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre à pression positive (chambre stérile)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "070" ] ;
+     fhir:display [ fhir:v "Scanner dentaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "070" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Scanner dentaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "178" ] ;
+     fhir:display [ fhir:v "Agrégomètre optique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "178" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Agrégomètre optique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "057" ] ;
+     fhir:display [ fhir:v "Laser" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Laser" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "057" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "145" ] ;
+     fhir:display [ fhir:v "Salle physiologique (salle nature accouchement)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "145" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Salle physiologique (salle nature accouchement)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "092" ] ;
+     fhir:display [ fhir:v "Brancard obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Brancard obésité (poids entre 250 et 350 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "092" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "165" ] ;
+     fhir:display [ fhir:v "PCA ou autre injecteur automatique d'antalgiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "165" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PCA ou autre injecteur automatique d'antalgiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "185" ] ;
+     fhir:display [ fhir:v "PSM pédiatriques (Poste Sanitaire Mobile)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PSM pédiatriques (Poste Sanitaire Mobile)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "185" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "161" ] ;
+     fhir:display [ fhir:v "Caisson hyperbare occupation simple" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "161" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Caisson hyperbare occupation simple" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "089" ] ;
+     fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "089" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "148" ] ;
+     fhir:display [ fhir:v "Jardin pédagogique et-ou thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "148" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jardin pédagogique et-ou thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "136" ] ;
+     fhir:display [ fhir:v "Respirateur néonatal et pédiatrique de transport" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "136" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Respirateur néonatal et pédiatrique de transport" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "091" ] ;
+     fhir:display [ fhir:v "Brancard obésité (poids entre 180 et 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "091" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Brancard obésité (poids entre 180 et 250 kg) - bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:display [ fhir:v "Poste médical avancé (PMA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Poste médical avancé (PMA)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "141" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "Monitoring cardiaque portatif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Monitoring cardiaque portatif" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "118" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-10-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "063" ] ;
+     fhir:display [ fhir:v "Pachymètrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "063" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pachymètrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "198" ] ;
+     fhir:display [ fhir:v "Holter tensionnel bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "198" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Holter tensionnel bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "Echographe cardiaque" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographe cardiaque" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "117" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "180" ] ;
+     fhir:display [ fhir:v "Pupillomètre" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pupillomètre" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "180" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "147" ] ;
+     fhir:display [ fhir:v "Espace de calme-retrait, d'apaisement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "147" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Espace de calme-retrait, d'apaisement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "047" ] ;
+     fhir:display [ fhir:v "Holter tensionnel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Holter tensionnel" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "047" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "189" ] ;
+     fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "189" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "009" ] ;
+     fhir:display [ fhir:v "Chambre à pression négative" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "009" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre à pression négative" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "052" ] ;
+     fhir:display [ fhir:v "IRM obésité diamètre de 70 cm - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "IRM obésité diamètre de 70 cm - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "052" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "125" ] ;
+     fhir:display [ fhir:v "Gymnase" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "125" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gymnase" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "Atelier d'appareillage" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier d'appareillage" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "105" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "195" ] ;
+     fhir:display [ fhir:v "Appareil de massage par vacuo-aspiration" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "195" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil de massage par vacuo-aspiration" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "086" ] ;
+     fhir:display [ fhir:v "Scanner (TDM) obésité champ ouvert - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "086" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Scanner (TDM) obésité champ ouvert - bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "154" ] ;
+     fhir:display [ fhir:v "Chambre à double flux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "154" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre à double flux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "067" ] ;
+     fhir:display [ fhir:v "Potentiels évoqués somesthésiques cérébraux (PESc)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Potentiels évoqués somesthésiques cérébraux (PESc)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "067" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "085" ] ;
+     fhir:display [ fhir:v "Scanner (TDM) obésité diamètre de 80 cm - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Scanner (TDM) obésité diamètre de 80 cm - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "085" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "027" ] ;
+     fhir:display [ fhir:v "Echo-doppler veineux des membres" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler veineux des membres" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "027" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:display [ fhir:v "Equipement de télémédecine (chariot, cabine)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "153" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipement de télémédecine (chariot, cabine)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "045" ] ;
+     fhir:display [ fhir:v "Guidage échographique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Guidage échographique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "045" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "058" ] ;
+     fhir:display [ fhir:v "Lithotripsie des glandes salivaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "058" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lithotripsie des glandes salivaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "020" ] ;
+     fhir:display [ fhir:v "Défécographe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Défécographe" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "020" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "024" ] ;
+     fhir:display [ fhir:v "Echo-doppler ostéoarticulaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler ostéoarticulaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "024" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "001" ] ;
+     fhir:display [ fhir:v "Angiographie biplan rotationnelle (reconstruction scanner integrée)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Angiographie biplan rotationnelle (reconstruction scanner integrée)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "001" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "181" ] ;
+     fhir:display [ fhir:v "Accélérateur réchauffeur de sang" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accélérateur réchauffeur de sang" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "181" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "062" ] ;
+     fhir:display [ fhir:v "Ostéodensitométrie (densitométrie osseuse)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "062" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ostéodensitométrie (densitométrie osseuse)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "146" ] ;
+     fhir:display [ fhir:v "Cabine d'audiologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cabine d'audiologie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "146" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "035" ] ;
+     fhir:display [ fhir:v "Electroencéphalographe (EEG)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "035" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Electroencéphalographe (EEG)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:display [ fhir:v "Salle d'activité physique adaptée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Salle d'activité physique adaptée" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "151" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "053" ] ;
+     fhir:display [ fhir:v "IRM cardiaque" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "IRM cardiaque" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "053" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "182" ] ;
+     fhir:display [ fhir:v "Défibrillateur automatisé externe (DAE)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "182" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Défibrillateur automatisé externe (DAE)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "099" ] ;
+     fhir:display [ fhir:v "Piscine pour balnéothérapie (>20m2)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Piscine pour balnéothérapie (>20m2)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "099" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "121" ] ;
+     fhir:display [ fhir:v "Véhicules adaptés à la conduite en situation de handicap" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Véhicules adaptés à la conduite en situation de handicap" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "121" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "194" ] ;
+     fhir:display [ fhir:v "Appareil d'ondes de choc pour traitement non invasif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil d'ondes de choc pour traitement non invasif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "194" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "040" ] ;
+     fhir:display [ fhir:v "Ergocycle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "040" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ergocycle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "129" ] ;
+     fhir:display [ fhir:v "Plateau d'analyse informatisée du rachis" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "129" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateau d'analyse informatisée du rachis" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "006" ] ;
+     fhir:display [ fhir:v "Baignoire stationnaire pour grands brûlés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "006" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Baignoire stationnaire pour grands brûlés" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "090" ] ;
+     fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "090" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "055" ] ;
+     fhir:display [ fhir:v "IRM foetale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "IRM foetale" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "055" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "096" ] ;
+     fhir:display [ fhir:v "Laboratoire microbiologie P4" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "096" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Laboratoire microbiologie P4" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "098" ] ;
+     fhir:display [ fhir:v "Bassin thérapeutique pour balnéothérapie (<20m2)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Bassin thérapeutique pour balnéothérapie (<20m2)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "098" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "156" ] ;
+     fhir:display [ fhir:v "Moniteur multiparamétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Moniteur multiparamétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "156" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "128" ] ;
+     fhir:display [ fhir:v "Plateforme multitest équilibre" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "128" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateforme multitest équilibre" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "172" ] ;
+     fhir:display [ fhir:v "Analyse automatique du sperme (CASA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Analyse automatique du sperme (CASA)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "172" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "094" ] ;
+     fhir:display [ fhir:v "Mammographe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mammographe" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "094" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "191" ] ;
+     fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "191" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "060" ] ;
+     fhir:display [ fhir:v "Mesure de la pression des loges musculaires (syndrome des loges)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mesure de la pression des loges musculaires (syndrome des loges)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "060" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "088" ] ;
+     fhir:display [ fhir:v "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "088" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "095" ] ;
+     fhir:display [ fhir:v "Laboratoire microbiologie P3" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Laboratoire microbiologie P3" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "095" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "061" ] ;
+     fhir:display [ fhir:v "Neuro-imagerie fonctionnelle, spectroscopie, tractographie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "061" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro-imagerie fonctionnelle, spectroscopie, tractographie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "048" ] ;
+     fhir:display [ fhir:v "Hystérographie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "048" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hystérographie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "016" ] ;
+     fhir:display [ fhir:v "Colposcopie - laser" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Colposcopie - laser" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "016" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Salle de stimulation multi-sensorielle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Salle de stimulation multi-sensorielle" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "101" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "074" ] ;
+     fhir:display [ fhir:v "Tomographie par émissions de positons (TEP ou PET SCAN)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "074" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tomographie par émissions de positons (TEP ou PET SCAN)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "033" ] ;
+     fhir:display [ fhir:v "Echographie obstétricale 1er trimestre" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographie obstétricale 1er trimestre" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "033" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "050" ] ;
+     fhir:display [ fhir:v "Imagerie vasculaire diagnostique et interventionnelle : artériographie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "050" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Imagerie vasculaire diagnostique et interventionnelle : artériographie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "190" ] ;
+     fhir:display [ fhir:v "Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "190" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "Plateau technique neuropsycho cognitif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateau technique neuropsycho cognitif" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "119" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "169" ] ;
+     fhir:display [ fhir:v "Atelier de confection d'orthèse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier de confection d'orthèse" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "169" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "142" ] ;
+     fhir:display [ fhir:v "Appareil de mesure de la glycémie capillaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "142" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil de mesure de la glycémie capillaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "166" ] ;
+     fhir:display [ fhir:v "PCR multiplex (Film array)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "166" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PCR multiplex (Film array)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "137" ] ;
+     fhir:display [ fhir:v "Chambre carcérale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "137" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre carcérale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "138" ] ;
+     fhir:display [ fhir:v "PSM1 (Poste Sanitaire Mobile niveau 1)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PSM1 (Poste Sanitaire Mobile niveau 1)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "138" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "054" ] ;
+     fhir:display [ fhir:v "IRM corps entier" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "IRM corps entier" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "054" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "022" ] ;
+     fhir:display [ fhir:v "Echo-doppler artériel des membres" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echo-doppler artériel des membres" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "022" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "149" ] ;
+     fhir:display [ fhir:v "Ferme pédagogique et-ou thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "149" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ferme pédagogique et-ou thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:display [ fhir:v "Studio pré-greffe et post-greffe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "110" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Studio pré-greffe et post-greffe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "069" ] ;
+     fhir:display [ fhir:v "Robot opératoire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "069" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Robot opératoire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "082" ] ;
+     fhir:display [ fhir:v "Unité fixe de décontamination" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "082" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité fixe de décontamination" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "093" ] ;
+     fhir:display [ fhir:v "ECMO transportable" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "ECMO transportable" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "093" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "046" ] ;
+     fhir:display [ fhir:v "Holter ECG" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Holter ECG" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "046" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-10-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-10-26T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "139" ] ;
+     fhir:display [ fhir:v "PSM2 (Poste Sanitaire Mobile niveau 2)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PSM2 (Poste Sanitaire Mobile niveau 2)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "139" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "Assistance robotisée à la marche" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "103" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Assistance robotisée à la marche" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "002" ] ;
+     fhir:display [ fhir:v "Angiographie monoplan" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "002" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Angiographie monoplan" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "134" ] ;
+     fhir:display [ fhir:v "Appareil de biologie délocalisé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "134" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appareil de biologie délocalisé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "192" ] ;
+     fhir:display [ fhir:v "Arthromoteur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arthromoteur" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "192" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "043" ] ;
+     fhir:display [ fhir:v "Fibroscopie broncho-pulmonaire (endoscopie bronchique)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "043" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fibroscopie broncho-pulmonaire (endoscopie bronchique)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "140" ] ;
+     fhir:display [ fhir:v "PSM3 (Poste Sanitaire Mobile niveau 3)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "140" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "PSM3 (Poste Sanitaire Mobile niveau 3)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "087" ] ;
+     fhir:display [ fhir:v "IRM à champ ouvert" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "IRM à champ ouvert" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "087" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "019" ] ;
+     fhir:display [ fhir:v "Dacryoscanner" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "019" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dacryoscanner" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "170" ] ;
+     fhir:display [ fhir:v "Atelier de confection aide technique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier de confection aide technique" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "170" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-12-14T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "184" ] ;
+     fhir:display [ fhir:v "Système d'aide à la marche par allègement du poids du corps (anti-gravité)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "184" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Système d'aide à la marche par allègement du poids du corps (anti-gravité)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "126" ] ;
+     fhir:display [ fhir:v "Cuisine thérapeutique et éducative" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cuisine thérapeutique et éducative" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "126" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "120" ] ;
+     fhir:display [ fhir:v "Plateau de simulation de conduite automobile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateau de simulation de conduite automobile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "120" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "031" ] ;
+     fhir:display [ fhir:v "Echographe de contraste" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "031" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Echographe de contraste" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "065" ] ;
+     fhir:display [ fhir:v "Polysomnographe portatif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "065" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Polysomnographe portatif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "158" ] ;
+     fhir:display [ fhir:v "Fauteuil rotatoire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fauteuil rotatoire" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "158" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "064" ] ;
+     fhir:display [ fhir:v "Planche à massage cardiaque automatique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "064" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.10"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Planche à massage cardiaque automatique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-04-08T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

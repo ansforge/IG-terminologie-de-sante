@@ -1,0 +1,191 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R73-ESPIC",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2023-07-18T13:29:11.921+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2013-06-28T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.45"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_R73_ESPIC",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-07-18T12:00:00-00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Etablissement de santé privé d'intérêt collectif",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "0",
+    "display" : "Non concerné",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1994-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "1",
+    "display" : "Etablissement public de santé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab public de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1996-09-23T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1996-09-23T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "PSPH par intégration",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1997-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1997-03-03T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "PSPH par concession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1994-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-12-20T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "PSPH par association",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1997-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1997-03-03T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Assoc 1901 act. Psy",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1994-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-12-20T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Etablissement de santé privé d'intérêt collectif",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ESPIC"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Etab de santé privé non lucratif, non déclar intérêt collect",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "NON ESPIC"
+    },
+    {
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etablissement de santé privé non lucratif, non déclaré d'intérêt collectif"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "9",
+    "display" : "Indéterminé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2003-02-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2003-02-05T00:00:00+01:00"
+    }]
+  }]
+}

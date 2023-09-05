@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>ANS.FR.NOS\TRE_R275-ModaliteActivite - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+
+      <!-- CSS only -->
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"12.336"}
+    h3,h4,h5,h6{--heading-prefix:"12.336"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+  </div>
+  <div id="ans-nav">
+    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
+  </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Nomenclature des Objets de Santé (NOS)</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="migration.html">Changement (Terminology Service)</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies de référence (TRE)</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs (JDV)</a>
+  </li>
+  <li>
+    <a href="ass.html">Association (ASS)</a>
+  </li>
+  <li>
+    <a href="smt.html">Terminologie</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html" target="_blank">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a href="https://esante.gouv.fr/" target="_blank">Site de l'ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>TRE_R275-ModaliteActivite</b></li>
+
+          <span style="float:right;">
+
+            <a href="CodeSystem-TRE-R274-ActiviteSanitaireRegulee.ttl.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.xml.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.ttl.html">TTL</a>
+    </li>
+  
+ 
+  
+    <li id="Adownload" class="null">
+      <a href="#">Téléchargement</a>
+    </li>
+  
+   
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: TRE_R275-ModaliteActivite
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite<button data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite" title="Click to copy URL" class="btn-copy"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.1.0<button data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite|1.1.0" title="Click to copy versioned URL" class="btn-copy"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2018-07-27
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">TRE_R275-ModaliteActivite</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> id:&nbsp;urn:oid:1.2.250.1.213.1.6.1.127
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Mode d’application ou type de soins encadrant une activité</p>
+
+</p>
+
+
+<div id="orig">
+    <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+
+
+  <div><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>date de mise à jours d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>date de fin d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style="white-space:nowrap">04<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-04"> </a></td><td>Réanimation néonatale</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U4"> </a></td><td>Chimiothérapie - Tumeurs solides - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N3"> </a></td><td>Lits identifiés (Médecine) - pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">68<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-68"> </a></td><td>Radiothérapie externe</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">F1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F1"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">C8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C8"> </a></td><td>Pneumologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">C2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C2"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">F7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F7"> </a></td><td>USI Hématologie avec système de traitement de l'air</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">V4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V4"> </a></td><td>Chirurgie cancer - Pathologies orthopédiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">M7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M7"> </a></td><td>CSH sang périphérique allogéniques</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">23<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-23"> </a></td><td>SU Structure des urgences</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E4"> </a></td><td>Traumatismes cranio-cérébraux et médullaires</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">B2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B2"> </a></td><td>Chirurgie pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">W3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W3"> </a></td><td>Lits identifiés (SSR) - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">76<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-76"> </a></td><td>Adulte et pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">99<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-99"> </a></td><td>Sans autre indication</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P0<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P0"> </a></td><td>USC polyvalente - pédiatrique (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">D7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D7"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">06<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-06"> </a></td><td>Générale</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">W5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W5"> </a></td><td>USPC - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">05<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-05"> </a></td><td>Centre périnatal de proximité</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">AR<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AR"> </a></td><td>1ère administration à l'homme autre que médicament</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">63<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-63"> </a></td><td>DPN : Analyse de biochimie, y compris analyse portant sur les marqueurs sériques maternels</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td></tr><tr><td style="white-space:nowrap">F8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F8"> </a></td><td>USI hépato-gastro-entérologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">30<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-30"> </a></td><td>USI Pneumologie Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">E7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E7"> </a></td><td>Unité d'Hébergement Renforcée</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">41<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-41"> </a></td><td>Hémodialyse en centre pour enfants</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E8"> </a></td><td>Unités de soins palliatifs à vocation régionale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">67<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-67"> </a></td><td>Chimiothérapie ou autres traitements médicaux spécifiques du cancer</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">80<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-80"> </a></td><td>AMP Bio : activité relative à la FIV avec ou sans micromanipulation</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">C5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C5"> </a></td><td>Obstétrique - Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">G1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G1"> </a></td><td>USI Maladie infectieuse - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">U8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U8"> </a></td><td>Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">60<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-60"> </a></td><td>DPN : Les examens de cytogénétique, y compris les examens moléculaires appliqués à la cytogénétique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">G5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G5"> </a></td><td>USI Neuro - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">78<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-78"> </a></td><td>Juvénile (age &gt;= 6 ans et &lt; 18 ans)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M4"> </a></td><td>A usage intérieur et extérieur</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E9"> </a></td><td>Urologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">V9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V9"> </a></td><td>Chirurgie digestive et viscérale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">82<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-82"> </a></td><td>Actes portant sur les cardiopathies de l'enfant, y compris les éventuelles ré-interventions à l'âge adulte</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E3"> </a></td><td>Traitements médicaux - Endoscopies digestives interventionnelles - Adulte (âge &gt;= 18 ans )</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N2"> </a></td><td>Lits identifiés (Médecine) - adulte</td><td>2018-07-27T12:00:00+02:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">M6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M6"> </a></td><td>CSH moelle osseuse autologues</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">50<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-50"> </a></td><td>AMP clinique : transfert des embryons en vue de leur implantation</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">24<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-24"> </a></td><td>SUP Structure des urgences pédiatriques</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">10<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-10"> </a></td><td>Pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M5"> </a></td><td>CSH moelle osseuse allogéniques</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P7"> </a></td><td>Cardiologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">73<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-73"> </a></td><td>AMP Clinique : mise en oeuvre de l'accueil des embryons</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">W2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W2"> </a></td><td>Lits identifiés (SSR) - adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N9"> </a></td><td>USC polyvalente - pédiatrique (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M8"> </a></td><td>CSH sang périphérique autologues</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">C7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C7"> </a></td><td>Pédiatrique - Traitement dont chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">22<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-22"> </a></td><td>SAMU Service d'aide médicale urgente</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">G9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G9"> </a></td><td>USI Oncologie - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N6"> </a></td><td>Unité de soins intensifs en cardiologie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">85<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-85"> </a></td><td>Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">87<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-87"> </a></td><td>Fonctionnelle cérébrale</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U2"> </a></td><td>Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">P9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P9"> </a></td><td>Centre de référence</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">26<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-26"> </a></td><td>SMUR Structure mobile d'urgence et de réanimation</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">D8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D8"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans )</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">54<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-54"> </a></td><td>AMP Bio : préparation, conservation et mise à disposition d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">11<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-11"> </a></td><td>Poumon</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">N7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N7"> </a></td><td>USC polyvalente - adulte (adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U1"> </a></td><td>Chambre stérile en hématologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">AP<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AP"> </a></td><td>DPN : Examens de génétique portant sur l'ADN foetal libre circulant dans le sang maternel</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M0<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M0"> </a></td><td>Dépôt d'urgence</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">V7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V7"> </a></td><td>Chirurgie cancer - Système nerveux central - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">29<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-29"> </a></td><td>SMUR Antenne</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M3"> </a></td><td>A usage intérieur</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">93<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-93"> </a></td><td>Chirurgie des cancers : thorax</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">92<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-92"> </a></td><td>Chirurgie des cancers : urologie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">81<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-81"> </a></td><td>Actes électrophysiologiques de rythmologie interventionnelle, de stimulation multi sites et de défibrillation</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">B4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B4"> </a></td><td>Gériatrie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">V1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V1"> </a></td><td>Chirurgie cancer - Cancers cutanés - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">95<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-95"> </a></td><td>Chirurgie des cancers : ORL et maxillo-faciale</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">83<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-83"> </a></td><td>Actes portant sur les autres cardiopathies de l'adulte</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">03<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-03"> </a></td><td>Néonatologie avec soins intensifs</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">H9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-H9"> </a></td><td>Vasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">U3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U3"> </a></td><td>Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">43<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-43"> </a></td><td>Hémodialyse en unité d'auto dialyse simple</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">49<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-49"> </a></td><td>AMP clinique : prélèvement de spermatozoïdes</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">W6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W6"> </a></td><td>USPC - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">00<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-00"> </a></td><td>Pas de modalité</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">31<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-31"> </a></td><td>Multi-organes</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">88<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-88"> </a></td><td>Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">AL<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AL"> </a></td><td>DPN : Les examens de biochimie portant sur les marqueurs sériques maternels</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">B8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B8"> </a></td><td>Orthogénie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">D4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D4"> </a></td><td>Structure de sevrage niveau 2</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">98<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-98"> </a></td><td>Pédiatrique spécialisée</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U6"> </a></td><td>Chirurgie cancer - Autres traitements spécifiques - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">P4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P4"> </a></td><td>A l'occasion d'un prélèvement multi-organes</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E5"> </a></td><td>Unité Cognitivo-Comportementale - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">27<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-27"> </a></td><td>SMURP Structure mobile d'urgence et de réanimation pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">42<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-42"> </a></td><td>Hémodialyse en unité médicalisée</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">62<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-62"> </a></td><td>DPN : Les examens en vue du diagnostic de maladies infectieuses</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">51<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-51"> </a></td><td>AMP Bio : préparation et conservation du sperme en vue d'une insémination artificielle</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">40<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-40"> </a></td><td>Hémodialyse en centre pour adultes</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">H5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-H5"> </a></td><td>USI Urologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N5"> </a></td><td>Unité de soins intensifs (hors cardiologie)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">B5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B5"> </a></td><td>Grands brûlés</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N0<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N0"> </a></td><td>Structure de sevrage niveau 2 ou 3</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">D2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D2"> </a></td><td>Réhabilitation et réinsertion psycho-sociale</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">94<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-94"> </a></td><td>Chirurgie des cancers : gynécologie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">V8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V8"> </a></td><td>Chirurgie complexe de la main</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">V6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V6"> </a></td><td>Chirurgie cancer - Système nerveux central - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">C9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C9"> </a></td><td>Polytraumatismes graves et complexes multiples</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">74<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-74"> </a></td><td>AMP Bio : conservation des embryons en vue d'un projet parental</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">47<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-47"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'une AMP</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">48<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-48"> </a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'un don</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P3"> </a></td><td>USC chirurgicale individualisée - pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U5"> </a></td><td>Chirurgie cancer - Os et tissus mous - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">90<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-90"> </a></td><td>Chirurgie des cancers : digestif</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">B1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B1"> </a></td><td>Chirurgie orthopédique et traumatologique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">E2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E2"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">AM<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AM"> </a></td><td>DPN : Les examens de biochimie foetale à visée diagnostique</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">01<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-01"> </a></td><td>Gynécologie obstétrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">F3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F3"> </a></td><td>USI Dermato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">C4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C4"> </a></td><td>Neurovasculaire</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">G8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G8"> </a></td><td>Lit de Soins Intensifs - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">12<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-12"> </a></td><td>Foie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">W4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W4"> </a></td><td>Lit de Soins Intensifs - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N4"> </a></td><td>Equipe mobile</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">08<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-08"> </a></td><td>En milieu pénitentiaire</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">46<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-46"> </a></td><td>Dialyse péritonéale à domicile</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">V5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V5"> </a></td><td>Chirurgie cancer - Pathologies viscérales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">U9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U9"> </a></td><td>Chirurgie cancer - Cancer Thyroïde - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">B3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B3"> </a></td><td>Clinique ouverte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">F6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F6"> </a></td><td>USI Hémato - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">D3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D3"> </a></td><td>S.O.S. mains</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">F2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F2"> </a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">V3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V3"> </a></td><td>Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">65<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-65"> </a></td><td>DPN : Analyses d'immunologie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td></tr><tr><td style="white-space:nowrap">91<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-91"> </a></td><td>Chirurgie des cancers : sein</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P6"> </a></td><td>Anesthésie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">44<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-44"> </a></td><td>Hémodialyse en unité d'auto dialyse assistée</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P5"> </a></td><td>Adulte (âge &gt;=18 ans) - Traitement sans chimiothérapie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">B7<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B7"> </a></td><td>Grands brûlés - Adulte</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">71<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-71"> </a></td><td>Utilisation thérapeutique de radioéléments en sources non scellées</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M2"> </a></td><td>Dépôt relais</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">84<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-84"> </a></td><td>Analyses de cytogénétique, y compris les analyses de cytogénétique moléculaire</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">89<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-89"> </a></td><td>Radiothérapie externe dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">09<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-09"> </a></td><td>Adulte (age &gt;=18 ans)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">M9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M9"> </a></td><td>CSH sang de cordon ou sang placentaire</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">V2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-V2"> </a></td><td>Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">W1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-W1"> </a></td><td>Unité péri-opératoire gériatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">AN<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AN"> </a></td><td>DPN : Les examens de génétique moléculaire</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">72<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-72"> </a></td><td>Unité de dialyse saisonnière</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">52<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-52"> </a></td><td>AMP Bio : recueil, préparation, conservation et mise à disposition du sperme en vue d'un don</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">07<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-07"> </a></td><td>Infanto-juvénile</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">D9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D9"> </a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">G6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G6"> </a></td><td>USI Neuro - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">59<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-59"> </a></td><td>AMP Bio : Conservation des embryons en vue de leur accueil et mise en oeuvre de celui-ci</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">75<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-75"> </a></td><td>AMP Bio : conservation à usage autologue des gamètes et tissus germinaux en application de l'article L.2141-11</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">02<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-02"> </a></td><td>Néonatologie sans soins intensifs</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">N1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N1"> </a></td><td>Unité de soins palliatifs</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">13<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-13"> </a></td><td>Rein</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">F5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-F5"> </a></td><td>USI Hémato - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">61<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-61"> </a></td><td>DPN : Analyses de génétique moléculaire</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td></tr><tr><td style="white-space:nowrap">45<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-45"> </a></td><td>Hémodialyse à domicile</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">AQ<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-AQ"> </a></td><td>1ère administration à l'homme d'un médicament</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">70<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-70"> </a></td><td>Curiethérapie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">77<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-77"> </a></td><td>Enfant (&lt; de 6 ans)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">E1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-E1"> </a></td><td>Traitements médicaux - Autres traitements spécifiques - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">M1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-M1"> </a></td><td>Dépôt de délivrance</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">P8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P8"> </a></td><td>Cardiologie interventionnelle</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">N8<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-N8"> </a></td><td>USC polyvalente - adulte (non adossée à une unité de réanimation)</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">B9<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-B9"> </a></td><td>Grands brûlés - Pédiatrique</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">64<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-64"> </a></td><td>DPN : Analyses d'hématologie</td><td>2018-07-27T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td><td>2018-09-28T12:00:00+02:00</td></tr><tr><td style="white-space:nowrap">P1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P1"> </a></td><td>USC spécialisée cancérologie- pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">U0<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-U0"> </a></td><td>Neurologie - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">D5<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D5"> </a></td><td>Structure de sevrage niveau 3</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">C6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-C6"> </a></td><td>Odontologie</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">H1<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-H1"> </a></td><td>USI Oncologie- Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">G3<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-G3"> </a></td><td>USI Néphrologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">D6<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-D6"> </a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">79<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-79"> </a></td><td>Pédiatrie - âges non différenciés</td><td>2018-07-27T12:00:00+02:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">97<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-97"> </a></td><td>Adulte (age &gt;=18 ans) dérogatoire éloignement géographique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">H4<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-H4"> </a></td><td>USI Pneumologie - Adulte (âge &gt;=18 ans)</td><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">P2<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-P2"> </a></td><td>USC spécialisée transplantation d'organes - pédiatrique</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr><tr><td style="white-space:nowrap">69<a name="a8ef09ae-e963-4249-b33e-9a8fc2c068ea-69"> </a></td><td>Chirurgie des cancers hors soumis à seuil</td><td>2018-07-27T12:00:00+02:00</td><td>2018-07-27T12:00:00+02:00</td><td/></tr></table></div>
+
+</div>
+<div style="display:none" id="download">
+<table class="grid table table-bordered">
+	<tbody>
+		<tr>
+			<td><a name="l2680">​</a><a href="./CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.xslx">xlsx</a> </td>
+			<td> Fichier excel </td>
+		</tr>	
+	
+		<tr>
+			<td><a name="l2691">​</a><a href="./NOS/CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.tabs">csv</a> </td>
+			<td> Fichier csv </td>
+		</tr>
+		<tr>
+			<td><a name="l2702">​</a><a href="./NOS/CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.pdf" class="file-link">Pdf</a> </td>
+			<td> Fichier PDF </td>
+		</tr>	
+		
+		<tr>
+			<td><a name="l2713">​</a><a href="./NOS/CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea-svs.xml">svs</a> </td>
+			<td>  Fichier xml (Sharing Value Sets) </td>
+		</tr>
+		<tr>
+			<td><a href="./CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.json">fhir</a> </td>
+			<td>  Fichier Fhir Json  </td>
+		</tr>
+		<tr>
+			<td><a href="./CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.xml">fhir</a> </td>
+			<td>  Fichier Fhir Xml  </td>
+		</tr>		
+		
+	</tbody>
+	</table>
+
+</div>
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+		$( "#Adownload" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#download" ).css("display", "");
+
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#Adownload" ).addClass("active");	
+
+		} );
+	} );
+</script>    
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&nbsp;
+
+                <a href="CodeSystem-TRE-R274-ActiviteSanitaireRegulee.ttl.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&nbsp;
+
+                <a href="CodeSystem-a8ef09ae-e963-4249-b33e-9a8fc2c068ea.xml.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.nos#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 5, 2023 13:42+0000">2023-09-05</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: #81BEF7" href="https://interop.esante.gouv.fr/ig/nos/history.html" target="_blank">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-NOS/issues/new" target="_blank">New Issue</a>
+                
+
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+
+    <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+    <script src="assets/js/addNos.js" type="text/javascript"> </script>
+    <!-- Fin ajout ANS -->
+
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+
+
+    <!-- AJOUT ANS -->
+
+<footer role="contentinfo" class="footer footer-principal">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a rel="nofollow" href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" loading="lazy" height="77"/>
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a rel="nofollow" href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" loading="lazy" height="74"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+            <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg aria-hidden="true" focusable="false" class="svg-icon svg-angle-right"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+                <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li> -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+      <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>

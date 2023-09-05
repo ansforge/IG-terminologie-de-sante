@@ -1,0 +1,615 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/5841af48-ff81-42aa-902e-61b38fe58879> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "5841af48-ff81-42aa-902e-61b38fe58879"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-09-08T16:09:24.970+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_A05-TypeDocComplementaire"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type de document en complément des nomenclatures internationales"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "date de mise à jours d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "date de fin d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PRESC-PEDI" ] ;
+     fhir:display [ fhir:v "Prescription d'actes de pédicurie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription pédicurie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes de pédicurie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRESC-KINE" ] ;
+     fhir:display [ fhir:v "Prescription d'actes de kinésithérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription kinésithérapie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes de kinésithérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRESC-ORTHOPTIE" ] ;
+     fhir:display [ fhir:v "Prescription d'actes d'orthoptie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes d'orthoptie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription orthoptie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT04" ] ;
+     fhir:display [ fhir:v "Imagerie déposée par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Imagerie dép. par patient" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Imagerie déposée par le patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT01" ] ;
+     fhir:display [ fhir:v "Synthèse déposée par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse déposée par le patient" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse dép. par patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRESC-ORTHOPHO" ] ;
+     fhir:display [ fhir:v "Prescription d'actes d'orthophonie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription orthophonie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes d'orthophonie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRESC-BIO" ] ;
+     fhir:display [ fhir:v "Prescription d'actes de biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes de biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PROT_ALD" ] ;
+     fhir:display [ fhir:v "Protocole de soins ALD" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Protocole de soins ALD" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Protocole de soins ALD" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRESC-INF" ] ;
+     fhir:display [ fhir:v "Prescription d'actes infirmiers" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes infirmiers" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription actes infirmiers" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-07-30T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EXPPAT_3" ] ;
+     fhir:display [ fhir:v "Directives anticipées" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Directives anticipées" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Directives anticipées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-02-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-02-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT03" ] ;
+     fhir:display [ fhir:v "CR déposé par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR déposé par le patient" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR déposé par le patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT07" ] ;
+     fhir:display [ fhir:v "Certificat déposé par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat déposé par le patient" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Certif dép. par patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT06" ] ;
+     fhir:display [ fhir:v "CR de prévention déposé par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de prévention déposé par le patient" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR prévention dép. par patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CERT_DECL" ] ;
+     fhir:display [ fhir:v "Certificat, déclaration" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat, déclaration" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat, déclaration" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT05" ] ;
+     fhir:display [ fhir:v "CR de biologie déposé par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR bio dép. par patient" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de biologie déposé par le patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "REMB" ] ;
+     fhir:display [ fhir:v "Données de remboursement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Données de remboursement" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Données de remboursement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BIL_AUTO" ] ;
+     fhir:display [ fhir:v "CR de bilan d'évaluation de la perte d'autonomie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de bilan d'évaluation de la perte d'autonomie" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR bilan éval perte auto" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "INSCR_RCP" ] ;
+     fhir:display [ fhir:v "Données d'inscription en RCP" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Données d'inscrip RCP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Données d'inscription en RCP" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT02" ] ;
+     fhir:display [ fhir:v "Traitement ou document de soins déposé par le patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Traitement ou document de soins déposé par le patient" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Trait / soins dép. par patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT09" ] ;
+     fhir:display [ fhir:v "Document médico-administratif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Document médico-administratif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Document médico-administratif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DOCPAT08" ] ;
+     fhir:display [ fhir:v "Profil médical Mon espace santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Profil médical Mon espace sant" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Profil médical Mon espace santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-09-24T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-09-24T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SYNTH" ] ;
+     fhir:display [ fhir:v "Synthèse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DISP_AUT" ] ;
+     fhir:display [ fhir:v "Dispensation (autre)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dispensation (autre)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispensation (autre)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EXPPAT_2" ] ;
+     fhir:display [ fhir:v "Autre document du patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autre document du patient" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.12"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autre document du patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EXPPAT_1" ] ;
+     fhir:display [ fhir:v "Volontés et droits du patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Volontés droits patient" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Volontés et droits du patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-05-19T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

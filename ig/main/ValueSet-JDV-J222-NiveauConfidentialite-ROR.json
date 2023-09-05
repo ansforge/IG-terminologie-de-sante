@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J222-NiveauConfidentialite-ROR",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2023-07-19T13:22:49.042+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J222-NiveauConfidentialite-ROR/FHIR/JDV-J222-NiveauConfidentialite-ROR",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.54"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J222_NiveauConfidentialite_ROR",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-07-03T12:00:00-00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Niveau de restriction d'accès",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Accès libre"
+      },
+      {
+        "code" : "2",
+        "display" : "Accès restreint"
+      },
+      {
+        "code" : "3",
+        "display" : "Accès très restreint"
+      }]
+    }]
+  }
+}

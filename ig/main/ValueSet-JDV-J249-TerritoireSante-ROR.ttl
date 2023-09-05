@@ -1,0 +1,453 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J249-TerritoireSante-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J249-TerritoireSante-ROR"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-07-19T13:23:08.893+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J249-TerritoireSante-ROR/FHIR/JDV-J249-TerritoireSante-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.113" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J249_TerritoireSante_ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-07-03T12:00:00-00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Territoire de Santé (au sens ARS) en France - ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "001" ] ;
+         fhir:display [ fhir:v "Sud Yonne Haut-Nivernais" ]
+       ] [
+         fhir:code [ fhir:v "002" ] ;
+         fhir:display [ fhir:v "Bourgogne méridionale" ]
+       ] [
+         fhir:code [ fhir:v "011" ] ;
+         fhir:display [ fhir:v "Centre" ]
+       ] [
+         fhir:code [ fhir:v "012" ] ;
+         fhir:display [ fhir:v "Sud Basse-Terre" ]
+       ] [
+         fhir:code [ fhir:v "013" ] ;
+         fhir:display [ fhir:v "Iles du nord" ]
+       ] [
+         fhir:code [ fhir:v "021" ] ;
+         fhir:display [ fhir:v "Nord Caraïbe" ]
+       ] [
+         fhir:code [ fhir:v "022" ] ;
+         fhir:display [ fhir:v "Nord Atlantique" ]
+       ] [
+         fhir:code [ fhir:v "023" ] ;
+         fhir:display [ fhir:v "Centre" ]
+       ] [
+         fhir:code [ fhir:v "024" ] ;
+         fhir:display [ fhir:v "Sud" ]
+       ] [
+         fhir:code [ fhir:v "031" ] ;
+         fhir:display [ fhir:v "Guyane" ]
+       ] [
+         fhir:code [ fhir:v "041" ] ;
+         fhir:display [ fhir:v "Territoire Ouest" ]
+       ] [
+         fhir:code [ fhir:v "042" ] ;
+         fhir:display [ fhir:v "Territoire Nord-Est" ]
+       ] [
+         fhir:code [ fhir:v "043" ] ;
+         fhir:display [ fhir:v "Territoire Sud" ]
+       ] [
+         fhir:code [ fhir:v "061" ] ;
+         fhir:display [ fhir:v "Mayotte" ]
+       ] [
+         fhir:code [ fhir:v "111" ] ;
+         fhir:display [ fhir:v "Essonne" ]
+       ] [
+         fhir:code [ fhir:v "112" ] ;
+         fhir:display [ fhir:v "Hauts-de-Seine" ]
+       ] [
+         fhir:code [ fhir:v "113" ] ;
+         fhir:display [ fhir:v "Paris" ]
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Seine-et-Marne" ]
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Seine-Saint-Denis" ]
+       ] [
+         fhir:code [ fhir:v "116" ] ;
+         fhir:display [ fhir:v "Val-de-Marne" ]
+       ] [
+         fhir:code [ fhir:v "117" ] ;
+         fhir:display [ fhir:v "Val-d'Oise" ]
+       ] [
+         fhir:code [ fhir:v "118" ] ;
+         fhir:display [ fhir:v "Yvelines" ]
+       ] [
+         fhir:code [ fhir:v "211" ] ;
+         fhir:display [ fhir:v "Nord (51-08)" ]
+       ] [
+         fhir:code [ fhir:v "212" ] ;
+         fhir:display [ fhir:v "Sud (52-10)" ]
+       ] [
+         fhir:code [ fhir:v "221" ] ;
+         fhir:display [ fhir:v "Oise Est" ]
+       ] [
+         fhir:code [ fhir:v "222" ] ;
+         fhir:display [ fhir:v "Oise Ouest" ]
+       ] [
+         fhir:code [ fhir:v "223" ] ;
+         fhir:display [ fhir:v "Aisne Nord Haute Somme" ]
+       ] [
+         fhir:code [ fhir:v "224" ] ;
+         fhir:display [ fhir:v "Somme" ]
+       ] [
+         fhir:code [ fhir:v "225" ] ;
+         fhir:display [ fhir:v "Aisne Sud" ]
+       ] [
+         fhir:code [ fhir:v "231" ] ;
+         fhir:display [ fhir:v "Rouen-Elbeuf" ]
+       ] [
+         fhir:code [ fhir:v "232" ] ;
+         fhir:display [ fhir:v "Dieppe" ]
+       ] [
+         fhir:code [ fhir:v "233" ] ;
+         fhir:display [ fhir:v "Le Havre" ]
+       ] [
+         fhir:code [ fhir:v "234" ] ;
+         fhir:display [ fhir:v "Evreux-Vernon" ]
+       ] [
+         fhir:code [ fhir:v "241" ] ;
+         fhir:display [ fhir:v "Territoire Cher (18)" ]
+       ] [
+         fhir:code [ fhir:v "242" ] ;
+         fhir:display [ fhir:v "Territoire Eure et Loir (28)" ]
+       ] [
+         fhir:code [ fhir:v "243" ] ;
+         fhir:display [ fhir:v "Territoire Indre (36)" ]
+       ] [
+         fhir:code [ fhir:v "244" ] ;
+         fhir:display [ fhir:v "Territoire Indre et Loire (37)" ]
+       ] [
+         fhir:code [ fhir:v "245" ] ;
+         fhir:display [ fhir:v "Territoire Loir et Cher (41)" ]
+       ] [
+         fhir:code [ fhir:v "246" ] ;
+         fhir:display [ fhir:v "Territoire Loiret (45)" ]
+       ] [
+         fhir:code [ fhir:v "251" ] ;
+         fhir:display [ fhir:v "Calvados" ]
+       ] [
+         fhir:code [ fhir:v "252" ] ;
+         fhir:display [ fhir:v "Manche" ]
+       ] [
+         fhir:code [ fhir:v "253" ] ;
+         fhir:display [ fhir:v "Orne" ]
+       ] [
+         fhir:code [ fhir:v "261" ] ;
+         fhir:display [ fhir:v "Côte d'Or" ]
+       ] [
+         fhir:code [ fhir:v "262" ] ;
+         fhir:display [ fhir:v "Nièvre" ]
+       ] [
+         fhir:code [ fhir:v "263" ] ;
+         fhir:display [ fhir:v "Saône et Loire Bresse-Morvan" ]
+       ] [
+         fhir:code [ fhir:v "264" ] ;
+         fhir:display [ fhir:v "Nord Yonne" ]
+       ] [
+         fhir:code [ fhir:v "311" ] ;
+         fhir:display [ fhir:v "Artois" ]
+       ] [
+         fhir:code [ fhir:v "312" ] ;
+         fhir:display [ fhir:v "Hainaut" ]
+       ] [
+         fhir:code [ fhir:v "313" ] ;
+         fhir:display [ fhir:v "Littoral" ]
+       ] [
+         fhir:code [ fhir:v "314" ] ;
+         fhir:display [ fhir:v "Métropole" ]
+       ] [
+         fhir:code [ fhir:v "321" ] ;
+         fhir:display [ fhir:v "Aisne" ]
+       ] [
+         fhir:code [ fhir:v "322" ] ;
+         fhir:display [ fhir:v "Métropole Flandre" ]
+       ] [
+         fhir:code [ fhir:v "323" ] ;
+         fhir:display [ fhir:v "Hainaut" ]
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Oise" ]
+       ] [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:display [ fhir:v "Pas de Calais" ]
+       ] [
+         fhir:code [ fhir:v "326" ] ;
+         fhir:display [ fhir:v "Somme" ]
+       ] [
+         fhir:code [ fhir:v "411" ] ;
+         fhir:display [ fhir:v "Meuse" ]
+       ] [
+         fhir:code [ fhir:v "412" ] ;
+         fhir:display [ fhir:v "Meurthe-et-Moselle" ]
+       ] [
+         fhir:code [ fhir:v "413" ] ;
+         fhir:display [ fhir:v "Moselle" ]
+       ] [
+         fhir:code [ fhir:v "414" ] ;
+         fhir:display [ fhir:v "Vosges" ]
+       ] [
+         fhir:code [ fhir:v "421" ] ;
+         fhir:display [ fhir:v "Haguenau" ]
+       ] [
+         fhir:code [ fhir:v "422" ] ;
+         fhir:display [ fhir:v "Strasbourg" ]
+       ] [
+         fhir:code [ fhir:v "423" ] ;
+         fhir:display [ fhir:v "Colmar" ]
+       ] [
+         fhir:code [ fhir:v "424" ] ;
+         fhir:display [ fhir:v "Mulhouse" ]
+       ] [
+         fhir:code [ fhir:v "431" ] ;
+         fhir:display [ fhir:v "Centre Franche-Comté" ]
+       ] [
+         fhir:code [ fhir:v "432" ] ;
+         fhir:display [ fhir:v "Jura" ]
+       ] [
+         fhir:code [ fhir:v "433" ] ;
+         fhir:display [ fhir:v "Haute-Saône" ]
+       ] [
+         fhir:code [ fhir:v "434" ] ;
+         fhir:display [ fhir:v "Nord Franche-Comté" ]
+       ] [
+         fhir:code [ fhir:v "521" ] ;
+         fhir:display [ fhir:v "Territoire 1 Loire-Atlantique" ]
+       ] [
+         fhir:code [ fhir:v "522" ] ;
+         fhir:display [ fhir:v "Territoire 2 Maine et Loire" ]
+       ] [
+         fhir:code [ fhir:v "523" ] ;
+         fhir:display [ fhir:v "Territoire 3 Mayenne" ]
+       ] [
+         fhir:code [ fhir:v "524" ] ;
+         fhir:display [ fhir:v "Territoire 4 Sarthe" ]
+       ] [
+         fhir:code [ fhir:v "525" ] ;
+         fhir:display [ fhir:v "Territoire 5 Vendée" ]
+       ] [
+         fhir:code [ fhir:v "531" ] ;
+         fhir:display [ fhir:v "Brest/Carhaix/Morlaix" ]
+       ] [
+         fhir:code [ fhir:v "532" ] ;
+         fhir:display [ fhir:v "Quimper/Douarnenez/Pont l'Abbé" ]
+       ] [
+         fhir:code [ fhir:v "533" ] ;
+         fhir:display [ fhir:v "Lorient/Quimperlé" ]
+       ] [
+         fhir:code [ fhir:v "534" ] ;
+         fhir:display [ fhir:v "Vannes/Ploërmel/Malestroit" ]
+       ] [
+         fhir:code [ fhir:v "535" ] ;
+         fhir:display [ fhir:v "Rennes/Fougères/Vitré/Redon" ]
+       ] [
+         fhir:code [ fhir:v "536" ] ;
+         fhir:display [ fhir:v "Saint-Malo/Dinan" ]
+       ] [
+         fhir:code [ fhir:v "537" ] ;
+         fhir:display [ fhir:v "Saint-Brieuc/Guingamp/Lannion" ]
+       ] [
+         fhir:code [ fhir:v "538" ] ;
+         fhir:display [ fhir:v "Pontivy/Loudéac" ]
+       ] [
+         fhir:code [ fhir:v "541" ] ;
+         fhir:display [ fhir:v "Charente" ]
+       ] [
+         fhir:code [ fhir:v "543" ] ;
+         fhir:display [ fhir:v "Charente Maritime" ]
+       ] [
+         fhir:code [ fhir:v "544" ] ;
+         fhir:display [ fhir:v "Deux-Sèvres" ]
+       ] [
+         fhir:code [ fhir:v "545" ] ;
+         fhir:display [ fhir:v "Vienne" ]
+       ] [
+         fhir:code [ fhir:v "721" ] ;
+         fhir:display [ fhir:v "Dordogne" ]
+       ] [
+         fhir:code [ fhir:v "722" ] ;
+         fhir:display [ fhir:v "Gironde" ]
+       ] [
+         fhir:code [ fhir:v "723" ] ;
+         fhir:display [ fhir:v "Landes" ]
+       ] [
+         fhir:code [ fhir:v "724" ] ;
+         fhir:display [ fhir:v "Lot et Garonne" ]
+       ] [
+         fhir:code [ fhir:v "725" ] ;
+         fhir:display [ fhir:v "Navarre Côte Basque" ]
+       ] [
+         fhir:code [ fhir:v "726" ] ;
+         fhir:display [ fhir:v "Béarn et Soule" ]
+       ] [
+         fhir:code [ fhir:v "727" ] ;
+         fhir:display [ fhir:v "Pyrénées Atlantiques" ]
+       ] [
+         fhir:code [ fhir:v "731" ] ;
+         fhir:display [ fhir:v "Ariège" ]
+       ] [
+         fhir:code [ fhir:v "732" ] ;
+         fhir:display [ fhir:v "Aveyron" ]
+       ] [
+         fhir:code [ fhir:v "733" ] ;
+         fhir:display [ fhir:v "Hte Garonne" ]
+       ] [
+         fhir:code [ fhir:v "734" ] ;
+         fhir:display [ fhir:v "Gers" ]
+       ] [
+         fhir:code [ fhir:v "735" ] ;
+         fhir:display [ fhir:v "Lot" ]
+       ] [
+         fhir:code [ fhir:v "736" ] ;
+         fhir:display [ fhir:v "Htes-Pyrénées" ]
+       ] [
+         fhir:code [ fhir:v "737" ] ;
+         fhir:display [ fhir:v "Tarn" ]
+       ] [
+         fhir:code [ fhir:v "738" ] ;
+         fhir:display [ fhir:v "Tarn et Garonne" ]
+       ] [
+         fhir:code [ fhir:v "741" ] ;
+         fhir:display [ fhir:v "Corrèze" ]
+       ] [
+         fhir:code [ fhir:v "742" ] ;
+         fhir:display [ fhir:v "Creuse" ]
+       ] [
+         fhir:code [ fhir:v "743" ] ;
+         fhir:display [ fhir:v "Haute Vienne" ]
+       ] [
+         fhir:code [ fhir:v "821" ] ;
+         fhir:display [ fhir:v "TS01 - Centre" ]
+       ] [
+         fhir:code [ fhir:v "822" ] ;
+         fhir:display [ fhir:v "TS02 - Est" ]
+       ] [
+         fhir:code [ fhir:v "823" ] ;
+         fhir:display [ fhir:v "TS03 - Nord" ]
+       ] [
+         fhir:code [ fhir:v "824" ] ;
+         fhir:display [ fhir:v "TS04 - Ouest" ]
+       ] [
+         fhir:code [ fhir:v "825" ] ;
+         fhir:display [ fhir:v "TS05 - Sud" ]
+       ] [
+         fhir:code [ fhir:v "832" ] ;
+         fhir:display [ fhir:v "Cantal" ]
+       ] [
+         fhir:code [ fhir:v "833" ] ;
+         fhir:display [ fhir:v "Haute-Loire" ]
+       ] [
+         fhir:code [ fhir:v "834" ] ;
+         fhir:display [ fhir:v "Puy de Dôme" ]
+       ] [
+         fhir:code [ fhir:v "835" ] ;
+         fhir:display [ fhir:v "Ain" ]
+       ] [
+         fhir:code [ fhir:v "836" ] ;
+         fhir:display [ fhir:v "Allier-Puy-de-Dôme" ]
+       ] [
+         fhir:code [ fhir:v "837" ] ;
+         fhir:display [ fhir:v "Drôme-Ardèche" ]
+       ] [
+         fhir:code [ fhir:v "838" ] ;
+         fhir:display [ fhir:v "Haute-Savoie" ]
+       ] [
+         fhir:code [ fhir:v "839" ] ;
+         fhir:display [ fhir:v "Isère" ]
+       ] [
+         fhir:code [ fhir:v "840" ] ;
+         fhir:display [ fhir:v "Loire" ]
+       ] [
+         fhir:code [ fhir:v "841" ] ;
+         fhir:display [ fhir:v "Rhône" ]
+       ] [
+         fhir:code [ fhir:v "842" ] ;
+         fhir:display [ fhir:v "Savoie" ]
+       ] [
+         fhir:code [ fhir:v "911" ] ;
+         fhir:display [ fhir:v "Aude" ]
+       ] [
+         fhir:code [ fhir:v "912" ] ;
+         fhir:display [ fhir:v "Gard" ]
+       ] [
+         fhir:code [ fhir:v "913" ] ;
+         fhir:display [ fhir:v "Hérault" ]
+       ] [
+         fhir:code [ fhir:v "914" ] ;
+         fhir:display [ fhir:v "Lozère" ]
+       ] [
+         fhir:code [ fhir:v "915" ] ;
+         fhir:display [ fhir:v "Pyrénées Orientales" ]
+       ] [
+         fhir:code [ fhir:v "931" ] ;
+         fhir:display [ fhir:v "Alpes de Haute Provence" ]
+       ] [
+         fhir:code [ fhir:v "932" ] ;
+         fhir:display [ fhir:v "Alpes Maritimes" ]
+       ] [
+         fhir:code [ fhir:v "933" ] ;
+         fhir:display [ fhir:v "Bouches du Rhône" ]
+       ] [
+         fhir:code [ fhir:v "934" ] ;
+         fhir:display [ fhir:v "Hautes Alpes" ]
+       ] [
+         fhir:code [ fhir:v "935" ] ;
+         fhir:display [ fhir:v "Var" ]
+       ] [
+         fhir:code [ fhir:v "936" ] ;
+         fhir:display [ fhir:v "Vaucluse" ]
+       ] [
+         fhir:code [ fhir:v "941" ] ;
+         fhir:display [ fhir:v "Corse Nord" ]
+       ] [
+         fhir:code [ fhir:v "942" ] ;
+         fhir:display [ fhir:v "Corse Sud" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

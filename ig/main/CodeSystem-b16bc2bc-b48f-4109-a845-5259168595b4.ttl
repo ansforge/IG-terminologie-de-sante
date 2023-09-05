@@ -1,0 +1,585 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/b16bc2bc-b48f-4109-a845-5259168595b4> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "b16bc2bc-b48f-4109-a845-5259168595b4"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-09-08T16:12:33.402+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2013-06-28T00:00:00+02:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R17-TypeAutorisation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2013-06-28T00:00:00+02:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type d'autorisation"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "date de mise à jours d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "date de fin d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AM04" ] ;
+     fhir:display [ fhir:v "Autorisation Propharmacie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation Propharmacie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation Propharmacie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM03" ] ;
+     fhir:display [ fhir:v "Autorisation d'exercice limité à un seul hôpital" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation d'exercice limité à un seul hôpital" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Auto exerc limité à un hôpital" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM15" ] ;
+     fhir:display [ fhir:v "Article L 4131-1-1 du CSP" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Article L 4131-1-1 du CSP" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Article L 4131-1-1 du CSP" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM11" ] ;
+     fhir:display [ fhir:v "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Nombre par arrête" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AMGP" ] ;
+     fhir:display [ fhir:v "En cours de validation au Guichet principal" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "En cours de validation au Guichet principal" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "En cours de validation GP" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM20" ] ;
+     fhir:display [ fhir:v "Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de la DREETS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM06" ] ;
+     fhir:display [ fhir:v "Autorisation préfectorale de Guyane art L4131-5" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation préfectorale de Guyane art L4131-5" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Auto préf Guyane" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM14" ] ;
+     fhir:display [ fhir:v "Arrangement France-Québec (art L 4111-3-1 CSP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arrangement France-Québec" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arrangement France-Québec (art L 4111-3-1 CSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM01" ] ;
+     fhir:display [ fhir:v "Autorisation ministérielle de plein exercice" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Auto ministér plein exercice" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation ministérielle de plein exercice" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM05" ] ;
+     fhir:display [ fhir:v "Directeur de laboratoire (scientifique, médecin, pharmacien)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Directeur de laboratoire" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Directeur de laboratoire (scientifique, médecin, pharmacien)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM10" ] ;
+     fhir:display [ fhir:v "Traité de Rome" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Traité de Rome" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Traité de Rome" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM07" ] ;
+     fhir:display [ fhir:v "Autorisation préfectorale de Saint-Pierre-et-Miquelon art L4131-5" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation préfectorale de Saint-Pierre-et-Miquelon art L4131-5" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Auto préf St-Pierre-Miquelon" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM12" ] ;
+     fhir:display [ fhir:v "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Loi HPST du 21-07-2009" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM00" ] ;
+     fhir:display [ fhir:v "Autre type d'autorisation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autre type d'autorisation" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autre type d'autorisation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM08" ] ;
+     fhir:display [ fhir:v "Pays avec convention inter-état" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Convention inter-état" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pays avec convention inter-état" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM21" ] ;
+     fhir:display [ fhir:v "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Aut ARS DROM/PréfSPM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-10-29T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM02" ] ;
+     fhir:display [ fhir:v "Autorisation ministérielle d'exercice en qualité de PAC" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Auto ministérielle PAC" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation ministérielle d'exercice en qualité de PAC" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T17:43:20+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM18" ] ;
+     fhir:display [ fhir:v "Autorisation de l'Agence régionale de santé (ARS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de l'ARS" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de l'Agence régionale de santé (ARS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM09" ] ;
+     fhir:display [ fhir:v "Code de la santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Code de la santé" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Code de la santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM19" ] ;
+     fhir:display [ fhir:v "Autorisation de la Direction régionale (et départementale) de la jeunesse, des sports et de la cohésion sociale (DR-D-JSCS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de la Direction régionale (et départementale) de la jeunesse, des sports et de la cohésion sociale (DR-D-JSCS)" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autorisation de la DR-D-JSCS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-06-25T12:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM17" ] ;
+     fhir:display [ fhir:v "Emirats Arabes Unis décret n°2012-863 du 5-07-2012" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Emirats Arabes décret 2012-863" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Emirats Arabes Unis décret n°2012-863 du 5-07-2012" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2012-07-05T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM16" ] ;
+     fhir:display [ fhir:v "Arabie Saoudite décret n°2012-1123 du 03-10-2012" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Arabie Saoud décret 2012-1123" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Arabie Saoudite décret n°2012-1123 du 03-10-2012" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2013-03-08T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AM13" ] ;
+     fhir:display [ fhir:v "Hôpital Américain exclusivement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hôpital Américain exclusivement" ]
+     ] [
+       fhir:use [
+         fhir:system [ fhir:v "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.6.1.14"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hôp Américain exclusivement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+02:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+02:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

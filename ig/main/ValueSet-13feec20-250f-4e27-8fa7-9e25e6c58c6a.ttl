@@ -1,0 +1,198 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/13feec20-250f-4e27-8fa7-9e25e6c58c6a> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "13feec20-250f-4e27-8fa7-9e25e6c58c6a"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-07-05T14:19:53.203+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.123" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J48_ProfessionNonPS_CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-07-03T12:00:00-00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeux de Valeurs des professions/spécialités des Non Ps"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Ostéopathe" ]
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Psychothérapeute" ]
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Chiropracteur" ]
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Psychologue" ]
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Assistant de service social" ]
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ]
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ]
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ]
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ]
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Assistant familial" ]
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ]
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ]
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ]
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ]
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ]
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "300" ] ;
+         fhir:display [ fhir:v "Assistant de service social (PAERPA)" ]
+       ] [
+         fhir:code [ fhir:v "301" ] ;
+         fhir:display [ fhir:v "Coordination territoriale d'appui (PAERPA)" ]
+       ] [
+         fhir:code [ fhir:v "302" ] ;
+         fhir:display [ fhir:v "Aide et accompagnement à domicile (PAERPA)" ]
+       ] [
+         fhir:code [ fhir:v "303" ] ;
+         fhir:display [ fhir:v "Avocat participant aux processus de soins sans consentement (eSSS)" ]
+       ] [
+         fhir:code [ fhir:v "307" ] ;
+         fhir:display [ fhir:v "Mandataire judiciaire à la protection des majeurs (MJPM)" ]
+       ] [
+         fhir:code [ fhir:v "308" ] ;
+         fhir:display [ fhir:v "Pilote MAIA" ]
+       ] [
+         fhir:code [ fhir:v "309" ] ;
+         fhir:display [ fhir:v "Gestionnaire de cas MAIA" ]
+       ] [
+         fhir:code [ fhir:v "310" ] ;
+         fhir:display [ fhir:v "Equipe médico-sociale APA" ]
+       ] [
+         fhir:code [ fhir:v "311" ] ;
+         fhir:display [ fhir:v "Autre acteur mettant en oeuvre la méthode MAIA" ]
+       ] [
+         fhir:code [ fhir:v "312" ] ;
+         fhir:display [ fhir:v "Autre professionnel" ]
+       ] [
+         fhir:code [ fhir:v "313" ] ;
+         fhir:display [ fhir:v "Aide-soignant" ]
+       ] [
+         fhir:code [ fhir:v "314" ] ;
+         fhir:display [ fhir:v "Ambulancier" ]
+       ] [
+         fhir:code [ fhir:v "315" ] ;
+         fhir:display [ fhir:v "Auxiliaire de puériculture" ]
+       ] [
+         fhir:code [ fhir:v "316" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie hospitalière" ]
+       ] [
+         fhir:code [ fhir:v "317" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie (officine)" ]
+       ] [
+         fhir:code [ fhir:v "318" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ]
+       ] [
+         fhir:code [ fhir:v "319" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ]
+       ] [
+         fhir:code [ fhir:v "320" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ]
+       ] [
+         fhir:code [ fhir:v "321" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ]
+       ] [
+         fhir:code [ fhir:v "322" ] ;
+         fhir:display [ fhir:v "Assistant familial" ]
+       ] [
+         fhir:code [ fhir:v "323" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ]
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ]
+       ] [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ]
+       ] [
+         fhir:code [ fhir:v "326" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ]
+       ] [
+         fhir:code [ fhir:v "327" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ]
+       ] [
+         fhir:code [ fhir:v "328" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ]
+       ] [
+         fhir:code [ fhir:v "329" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ]
+       ] [
+         fhir:code [ fhir:v "350" ] ;
+         fhir:display [ fhir:v "Aide à domicile" ]
+       ] [
+         fhir:code [ fhir:v "351" ] ;
+         fhir:display [ fhir:v "Assistant(e) maternel(le)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,125 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e3a4fda4-81bb-4bd3-b52d-be466a213a5f",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-09-08T16:12:13.134+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-05-18T00:00:00+02:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R218-ModeAuthentification",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.323"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_R218-ModeAuthentification",
+  "status" : "active",
+  "date" : "2016-05-18T00:00:00+02:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Mode d'authentification",
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "date de mise à jours d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "date de fin d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "DELEGUEE",
+    "display" : "Authentification déléguée",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Authentification déléguée"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Authentification déléguée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-18T00:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "DIRECTE",
+    "display" : "Authentification directe",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Authentification directe"
+    },
+    {
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "Authentification directe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-18T00:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "INDIRECTE",
+    "display" : "Authentification indirecte",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.323",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Authentification indirecte"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.323",
+        "code" : "LibelleCourt"
+      },
+      "value" : "Authentification indirecte"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-18T00:00:00+02:00"
+    }]
+  }]
+}

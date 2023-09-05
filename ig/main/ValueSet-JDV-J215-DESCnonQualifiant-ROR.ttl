@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J215-DESCnonQualifiant-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J215-DESCnonQualifiant-ROR"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "2" ] ;
+     fhir:lastUpdated [ fhir:v "2023-07-19T13:22:40.115+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2022-08-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J215-DESCnonQualifiant-ROR/FHIR/JDV-J215-DESCnonQualifiant-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.47" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J215_DESCnonQualifiant_ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-07-03T12:00:00-00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "DESC non qualifiant"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "DSM200" ] ;
+         fhir:display [ fhir:v "Addictologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM201" ] ;
+         fhir:display [ fhir:v "Allergologie et Immunologie clinique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM202" ] ;
+         fhir:display [ fhir:v "Andrologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM203" ] ;
+         fhir:display [ fhir:v "Biochimie hormonale et métabolique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM204" ] ;
+         fhir:display [ fhir:v "Biologie des agents infectieux (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM205" ] ;
+         fhir:display [ fhir:v "Biologie moléculaire (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM206" ] ;
+         fhir:display [ fhir:v "Cancérologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM207" ] ;
+         fhir:display [ fhir:v "Chirurgie de la face et du cou (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM208" ] ;
+         fhir:display [ fhir:v "Chirurgie plastique et reconstructrice (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM209" ] ;
+         fhir:display [ fhir:v "Chirurgie vasculaire (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM210" ] ;
+         fhir:display [ fhir:v "Cytogénétique humaine (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM211" ] ;
+         fhir:display [ fhir:v "Dermatopathologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM212" ] ;
+         fhir:display [ fhir:v "Foetopathologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM213" ] ;
+         fhir:display [ fhir:v "Gériatrie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM214" ] ;
+         fhir:display [ fhir:v "Hématologie biologique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM215" ] ;
+         fhir:display [ fhir:v "Hématologie maladies du sang (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM216" ] ;
+         fhir:display [ fhir:v "Hémobiologie-transfusion (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM217" ] ;
+         fhir:display [ fhir:v "Immunologie et Immunopathologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM218" ] ;
+         fhir:display [ fhir:v "Médecine de la reproduction (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM219" ] ;
+         fhir:display [ fhir:v "Médecine du sport (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM220" ] ;
+         fhir:display [ fhir:v "Médecine d'urgence (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM221" ] ;
+         fhir:display [ fhir:v "Médecine légale et Expertises médicales (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM222" ] ;
+         fhir:display [ fhir:v "Médecine nucléaire (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM223" ] ;
+         fhir:display [ fhir:v "Médecine vasculaire (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM224" ] ;
+         fhir:display [ fhir:v "Néonatalogie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM225" ] ;
+         fhir:display [ fhir:v "Neuropathologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM226" ] ;
+         fhir:display [ fhir:v "Nutrition (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM227" ] ;
+         fhir:display [ fhir:v "Orthopédie dento-maxillo-faciale (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM228" ] ;
+         fhir:display [ fhir:v "Pathologie infectieuse et tropicale, clinique et biologique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM229" ] ;
+         fhir:display [ fhir:v "Pharmacocinétique et Métabolisme des médicaments (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM230" ] ;
+         fhir:display [ fhir:v "Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM231" ] ;
+         fhir:display [ fhir:v "Psychiatrie de l'enfant et de l'adolescent (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM232" ] ;
+         fhir:display [ fhir:v "Radiopharmacie et Radiobiologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM233" ] ;
+         fhir:display [ fhir:v "Réanimation médicale (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM234" ] ;
+         fhir:display [ fhir:v "Toxicologie biologique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM235" ] ;
+         fhir:display [ fhir:v "Médecine de la douleur et Médecine palliative (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM236" ] ;
+         fhir:display [ fhir:v "Cancérologie, option Traitements médicaux des cancers (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM237" ] ;
+         fhir:display [ fhir:v "Cancérologie, option Chirurgie cancérologique (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM238" ] ;
+         fhir:display [ fhir:v "Cancérologie, option Réseaux de cancérologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM239" ] ;
+         fhir:display [ fhir:v "Cancérologie, option Biologie cancérologie (DNQ)" ]
+       ] [
+         fhir:code [ fhir:v "DSM240" ] ;
+         fhir:display [ fhir:v "Cancérologie, option Imagerie cancérologie (DNQ)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

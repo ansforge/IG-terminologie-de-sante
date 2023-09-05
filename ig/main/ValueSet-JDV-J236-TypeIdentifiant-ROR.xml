@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J236-TypeIdentifiant-ROR"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2023-07-19T13:23:00.117+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2023-03-31T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J236-TypeIdentifiant-ROR/FHIR/JDV-J236-TypeIdentifiant-ROR"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.3.4.110"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J236_TypeIdentifiant_ROR"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-07-03T12:00:00-00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Types d'identifiants utilisés dans le ROR"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre"/>
+      <concept>
+        <code value="42"/>
+        <display value="Identifiant fonctionnel de l'OI connu par l'instance ROR"/>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Identifiant interne de l'OI connu par l'instance ROR"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre"/>
+      <concept>
+        <code value="35"/>
+        <display value="Identifiant fonctionnel de l'offre connu par l'instance ROR"/>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Identifiant interne de l'offre connu par l'instance ROR"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle"/>
+      <concept>
+        <code value="25"/>
+        <display value="Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"/>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Identifiant de la zone d'hébergement connu par l'établissement"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"/>
+      <concept>
+        <code value="30"/>
+        <display value="Identifiant de la situation opérationnelle"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"/>
+      <concept>
+        <code value="40"/>
+        <display value="Identifiant national de structure"/>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Identifiant interne de l'établissement connu par l'instance ROR"/>
+      </concept>
+      <concept>
+        <code value="0"/>
+        <display value="Id Cabinet ADELI"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="FINESS"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="SIREN"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="SIRET"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Id Cabinet RPPS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

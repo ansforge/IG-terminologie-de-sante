@@ -1,0 +1,112 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R68-FinessAgregatStatutJuridiqueNiv1",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2023-07-18T13:23:20.249+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "1979-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.63"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_R68_FinessAgregatStatutJuridiqueNiv1",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-07-18T12:00:00-00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Agrégats de statuts juridiques FINESS niveau 1",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1000",
+    "display" : "Organismes et Etablissements Publics",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orga Etab. Publics"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2000",
+    "display" : "Organismes Privés",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3000",
+    "display" : "Personne Morale de Droit Etranger",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pers.Moral.Etranger"
+    },
+    {
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Personne morale de droit étranger"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
+    }]
+  }]
+}

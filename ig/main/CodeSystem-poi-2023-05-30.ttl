@@ -1,0 +1,2458 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/poi-2023-05-30> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "poi-2023-05-30"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "2" ] ;
+     fhir:lastUpdated [ fhir:v "2023-05-31T08:35:51.010+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ans-smt.coexya.eu/terminologies/poi"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "Point d'intérêt"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-09-05T13:42:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "139"^^xsd:nonNegativeInteger] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "subClass" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "Uri du parent." ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "Code of parent" ]
+  ] [
+     fhir:code [ fhir:v "altLabelFr" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "Synonyme français" ]
+  ] [
+     fhir:code [ fhir:v "altLabelEn" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "Synonyme anglais" ]
+  ] [
+     fhir:code [ fhir:v "altLabel" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "Synonyme non localisé" ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:description [ fhir:v "Parent codes." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "subClass" ] ;
+     fhir:description [ fhir:v "Sous classe de." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "altLabelFr" ] ;
+     fhir:description [ fhir:v "Syn fr." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "altLabelEn" ] ;
+     fhir:description [ fhir:v "Syn en." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "altLabel" ] ;
+     fhir:description [ fhir:v "Syn." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "POI" ] ;
+     fhir:display [ fhir:v "Points d'intérêts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelFr" ] ;
+       fhir:value [ fhir:v "Ce qu'il faut voir et goûter au moins une fois" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "COUNTRIES" ] ;
+     fhir:display [ fhir:v "Pays" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/POI" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "POI" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BY_COUNTRY" ] ;
+     fhir:display [ fhir:v "Par pays" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/POI" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "POI" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BY_TYPE" ] ;
+     fhir:display [ fhir:v "Par type" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/POI" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "POI" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ALL" ] ;
+     fhir:display [ fhir:v "Tous les POI" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/POI" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "POI" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ALL_TYPES" ] ;
+     fhir:display [ fhir:v "Tous les types" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/POI" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "POI" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FRA" ] ;
+     fhir:display [ fhir:v "France" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelFr" ] ;
+       fhir:value [ fhir:v "Royaume de France" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelFr" ] ;
+       fhir:value [ fhir:v "Royaume de France" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelFr" ] ;
+       fhir:value [ fhir:v "Pays des Francs" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelFr" ] ;
+       fhir:value [ fhir:v "Pays des Francs" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LUX" ] ;
+     fhir:display [ fhir:v "Luxembourg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Forests departement" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_COUNTRY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Forests departement" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "COUNTRIES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FRA-21" ] ;
+     fhir:display [ fhir:v "Côte d'Or" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FRA-52" ] ;
+     fhir:display [ fhir:v "Haute Marne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LUX-LUX" ] ;
+     fhir:display [ fhir:v "Luxembourg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LUX-VIANDEN" ] ;
+     fhir:display [ fhir:v "Vianden" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LUX-ECHT" ] ;
+     fhir:display [ fhir:v "Echternach" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LUX-GREV" ] ;
+     fhir:display [ fhir:v "Grevenmacher" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLES" ] ;
+     fhir:display [ fhir:v "Châteaux" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Manoirs" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Manoirs" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Places fortes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Places fortes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Remparts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Remparts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Fortifications" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabel" ] ;
+       fhir:value [ fhir:v "Fortifications" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY" ] ;
+     fhir:display [ fhir:v "Gastronomie" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Dishes" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Cheese" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Desserts" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Gourmandise" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPES" ] ;
+     fhir:display [ fhir:v "Paysages" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Rivers" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Mountains" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Spring" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Curiosity" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MAJOR_TOWNS" ] ;
+     fhir:display [ fhir:v "Grandes villes" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Sub-Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Sub-Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Sub-Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "BY_TYPE" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Sub-Prefecture" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL_TYPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_MALAIN" ] ;
+     fhir:display [ fhir:v "Château de Malain" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_PAILLY" ] ;
+     fhir:display [ fhir:v "Château du Pailly" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_ARC_EN_BAROIS" ] ;
+     fhir:display [ fhir:v "Château d'Arc-en-Barrois" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_CIREY" ] ;
+     fhir:display [ fhir:v "Château de Cirey" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_DIJON" ] ;
+     fhir:display [ fhir:v "Palais des Ducs et des États de Bourgogne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_EPOISSES" ] ;
+     fhir:display [ fhir:v "Château d'Époisses" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_VIANDEN" ] ;
+     fhir:display [ fhir:v "Château de Vianden" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX-VIANDEN" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX-VIANDEN" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_LUXEMBOURG" ] ;
+     fhir:display [ fhir:v "Citadelle de Luxembourg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX-LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX-LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CASTLE_BEAUFORT" ] ;
+     fhir:display [ fhir:v "Citadelle de Beaufort" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "CASTLES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX-GREV" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX-GREV" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_MEURETTE" ] ;
+     fhir:display [ fhir:v "Oeufs en meurette" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_GOUGERES" ] ;
+     fhir:display [ fhir:v "Gougères" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_SAULXUROIS" ] ;
+     fhir:display [ fhir:v "Saulxurois" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_EPOISSES" ] ;
+     fhir:display [ fhir:v "Époisses" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_LANGRES" ] ;
+     fhir:display [ fhir:v "Langres" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_GRUMPERE" ] ;
+     fhir:display [ fhir:v "Galettes de pommes de terre" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX-LUX" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX-LUX" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GASTRONOMY_CHOUE" ] ;
+     fhir:display [ fhir:v "Bière de la Choue" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "GASTRONOMY" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_SOURCE_MARNE" ] ;
+     fhir:display [ fhir:v "Source de la Marne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_ESCARGOTS_COHONS" ] ;
+     fhir:display [ fhir:v "Escargots de Cohons" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_GORGES_VINGEANNE" ] ;
+     fhir:display [ fhir:v "Gorges de la Vingeanne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_VINGEANNE" ] ;
+     fhir:display [ fhir:v "Vallée de la Vingeanne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-52" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_MULLERTHAL" ] ;
+     fhir:display [ fhir:v "Mullerthal" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Little Switzerland" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Little Switzerland" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LUX-GREV" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LUX-GREV" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "altLabelEn" ] ;
+       fhir:value [ fhir:v "Little Switzerland" ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LANDSCAPE_AUXOIS" ] ;
+     fhir:display [ fhir:v "Auxois" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "LANDSCAPES" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "FRA-21" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_DIJON" ] ;
+     fhir:display [ fhir:v "Dijon" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_MONTBARD" ] ;
+     fhir:display [ fhir:v "Montbard" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_BEAUNE" ] ;
+     fhir:display [ fhir:v "Beaune" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_CHAUMONT" ] ;
+     fhir:display [ fhir:v "Chaumont" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_LANGRES" ] ;
+     fhir:display [ fhir:v "Langres" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_SAINT_DIZIER" ] ;
+     fhir:display [ fhir:v "Saint-Dizier" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_LUXEMBOURG" ] ;
+     fhir:display [ fhir:v "Luxembourg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_PARIS" ] ;
+     fhir:display [ fhir:v "Paris" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_MALAIN" ] ;
+     fhir:display [ fhir:v "Mâlain" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_LE_PAILLY" ] ;
+     fhir:display [ fhir:v "Le Pailly" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_ARC_EN_BARROIS" ] ;
+     fhir:display [ fhir:v "Arc-en-Barrois" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_CIREY_SUR_BLAISE" ] ;
+     fhir:display [ fhir:v "Cirey-sur-Blaise" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_EPOISSES" ] ;
+     fhir:display [ fhir:v "Époisses" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_VIANDEN" ] ;
+     fhir:display [ fhir:v "Vianden" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_BEAUFORT" ] ;
+     fhir:display [ fhir:v "Beaufort" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_SAULXURES" ] ;
+     fhir:display [ fhir:v "Saulxures" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_GIEY_SUR_AUJON" ] ;
+     fhir:display [ fhir:v "Giey-sur-Aujon" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_BALESMES_SUR_MARNE" ] ;
+     fhir:display [ fhir:v "Balesmes-sur-Marne" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_COHONS" ] ;
+     fhir:display [ fhir:v "Cohons" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOWN_APREY" ] ;
+     fhir:display [ fhir:v "Aprey" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "MAJOR_TOWNS" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "subClass" ] ;
+       fhir:value [ fhir:v "http://data.esante.gouv.fr/ddx/point_of_interests/ALL" ]
+     ] [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [ fhir:v "ALL" ]
+     ] [
+       fhir:code [ fhir:v "root" ] ;
+       fhir:value [ fhir:v "false"^^xsd:boolean ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

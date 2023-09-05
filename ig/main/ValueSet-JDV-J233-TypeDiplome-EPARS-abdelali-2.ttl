@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/JDV-J233-TypeDiplome-EPARS-abdelali-2> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J233-TypeDiplome-EPARS-abdelali-2"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-08-25T10:04:12.117+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS-abdelali-2"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J233-TypeDiplome-EPARS-abdelali-2"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeu de valeur intégrant les types de diplômes pour EPARS"] ; # 
+  fhir:expansion [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/valueset-expansionSource"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir/ValueSet/example-extensional"^^xsd:anyURI ]
+     ] ) ;
+     fhir:identifier [ fhir:v "42badab5-b656-4b72-91d4-164da67098d6"^^xsd:anyURI ] ;
+     fhir:timestamp [ fhir:v "2022-08-25T09:48:49+00:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v "2"^^xsd:integer ] ;
+     fhir:offset [ fhir:v "0"^^xsd:integer ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome-abdelali|20200424120000"^^xsd:anyURI ]
+     ] [
+       fhir:name [ fhir:v "count" ] ;
+       fhir:value [ fhir:v "2147483647"^^xsd:integer ]
+     ] [
+       fhir:name [ fhir:v "offset" ] ;
+       fhir:value [ fhir:v "0"^^xsd:integer ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome-abdelali"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "AU" ] ;
+       fhir:display [ fhir:v "Autre type de diplôme" ]
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome-abdelali"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "DE" ] ;
+       fhir:display [ fhir:v "Diplôme d'Etat français" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

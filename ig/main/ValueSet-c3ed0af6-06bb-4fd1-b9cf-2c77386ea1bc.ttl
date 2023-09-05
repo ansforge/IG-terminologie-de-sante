@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/c3ed0af6-06bb-4fd1-b9cf-2c77386ea1bc> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "c3ed0af6-06bb-4fd1-b9cf-2c77386ea1bc"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-06-02T11:47:22.677+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/ValueSet/JDV-UFCV-MotImpl-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "0123456789" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_UFCV_MotImpl-CISIS"] ; # 
+  fhir:title [ fhir:v "JDV_UFCV_MotImpl-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-09-05T13:42:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "1.2.250.1.213.1.1.4.2"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "D0016-6" ] ;
+         fhir:display [ fhir:v "Prévention primaire d'un sujet à haut risque" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "2.16.840.1.113883.6.3"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "G45.9" ] ;
+         fhir:display [ fhir:v "Accident ischémique cérébral transitoire" ]
+       ] [
+         fhir:code [ fhir:v "I20.9" ] ;
+         fhir:display [ fhir:v "Syndrome Angineux" ]
+       ] [
+         fhir:code [ fhir:v "I64" ] ;
+         fhir:display [ fhir:v "Accident cérébrovasculaire" ]
+       ] [
+         fhir:code [ fhir:v "I65.2" ] ;
+         fhir:display [ fhir:v "Sténose de l'artère carotide" ]
+       ] [
+         fhir:code [ fhir:v "I74.3" ] ;
+         fhir:display [ fhir:v "Thrombose progressive des artères des membres inférieurs" ]
+       ] [
+         fhir:code [ fhir:v "I74.4" ] ;
+         fhir:display [ fhir:v "Embolie et thrombose des artères distales" ]
+       ] [
+         fhir:code [ fhir:v "K55.0" ] ;
+         fhir:display [ fhir:v "Artérite Mésentérique" ]
+       ] [
+         fhir:code [ fhir:v "N28.0" ] ;
+         fhir:display [ fhir:v "Occlusion et thrombose de l'artère rénale" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,220 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/CodeSystem/900000000000207008-20210731> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "900000000000207008-20210731"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-06-28T07:45:55.349+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:contained ( [
+     a fhir:Provenance ;
+     fhir:id [ fhir:v "1" ] ;
+     fhir:target ( [
+       fhir:reference [ fhir:v "900000000000207008-20210731" ]
+     ] ) ;
+     fhir:recorded [ fhir:v "2022-06-28T07:45:55.349+00:00"^^xsd:dateTime ] ;
+     fhir:activity [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Usage" ] ;
+         fhir:display [ fhir:v "used" ]
+       ] )
+     ] ;
+     fhir:agent ( [
+       fhir:role ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "dataprocessor" ]
+         ] )
+       ] ) ;
+       fhir:who [
+         fhir:reference [ fhir:v "#2" ]
+       ]
+     ] ) ;
+     fhir:entity ( [
+       fhir:role [ fhir:v "source" ] ;
+       fhir:what [
+         fhir:reference [ fhir:v "#3" ]
+       ]
+     ] )
+  ] [
+     a fhir:Device ;
+     fhir:id [ fhir:v "2" ] ;
+     fhir:identifier ( [
+       fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "http://ontoserver.csiro.au" ]
+     ] ) ;
+     fhir:version ( [
+       fhir:value [ fhir:v "6.8.1" ]
+     ] )
+  ] [
+     a fhir:DocumentReference ;
+     fhir:id [ fhir:v "3" ] ;
+     fhir:status [ fhir:v "current" ] ;
+     fhir:content ( [
+       fhir:attachment [
+         fhir:extension ( [
+           fhir:extension ( [
+             fhir:url [ fhir:v "id"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "http://ns.electronichealth.net.au/ncts/syndication/asf/extensions/1.0.0#@sha256Hash"^^xsd:anyURI ]
+           ] [
+             fhir:url [ fhir:v "hash"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "755b49272addd3e801651bb129e83db82ff5c432cdad27c93ba2c677825547ca" ]
+           ] ) ;
+           fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/attachment-sha256"^^xsd:anyURI ]
+         ] [
+           fhir:extension ( [
+             fhir:url [ fhir:v "id"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "http://www.w3.org/2005/Atom#@length"^^xsd:anyURI ]
+           ] [
+             fhir:url [ fhir:v "len"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "994011373" ]
+           ] ) ;
+           fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/attachment-len"^^xsd:anyURI ]
+         ] ) ;
+         fhir:url [ fhir:v "https://r4.ontoserver.csiro.au/synd/getBinaryIndexZip?codeSystemId=http%3A%2F%2Fsnomed.info%2Fsct&codeSystemVersion=http%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20210731&indexVersion=2.0.6"^^xsd:anyURI ] ;
+         fhir:hash [ fhir:v "NDNkZGViYTc5ZTRhNTkxZTFjODQzMDVmN2YwZDc5YzNmOGNjOTUxNg=="^^xsd:base64Binary ] ;
+         fhir:title [ fhir:v "BINARY" ]
+       ]
+     ] )
+  ] ) ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "provenance"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Reference ;
+         fhir:reference [ fhir:v "#1" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "source"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Attachment ;
+         fhir:extension ( [
+           fhir:extension ( [
+             fhir:url [ fhir:v "id"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "http://ns.electronichealth.net.au/ncts/syndication/asf/extensions/1.0.0#@sha256Hash"^^xsd:anyURI ]
+           ] [
+             fhir:url [ fhir:v "hash"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "755b49272addd3e801651bb129e83db82ff5c432cdad27c93ba2c677825547ca" ]
+           ] ) ;
+           fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/attachment-sha256"^^xsd:anyURI ]
+         ] [
+           fhir:extension ( [
+             fhir:url [ fhir:v "id"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "http://www.w3.org/2005/Atom#@length"^^xsd:anyURI ]
+           ] [
+             fhir:url [ fhir:v "len"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "994011373" ]
+           ] ) ;
+           fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/attachment-len"^^xsd:anyURI ]
+         ] ) ;
+         fhir:url [ fhir:v "https://r4.ontoserver.csiro.au/synd/getBinaryIndexZip?codeSystemId=http%3A%2F%2Fsnomed.info%2Fsct&codeSystemVersion=http%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20210731&indexVersion=2.0.6"^^xsd:anyURI ] ;
+         fhir:hash [ fhir:v "NDNkZGViYTc5ZTRhNTkxZTFjODQzMDVmN2YwZDc5YzNmOGNjOTUxNg=="^^xsd:base64Binary ] ;
+         fhir:title [ fhir:v "BINARY" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "sha256"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "755b49272addd3e801651bb129e83db82ff5c432cdad27c93ba2c677825547ca" ]
+     ] ) ;
+     fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://snomed.info/sct"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.96" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "SNOMED_CT"] ; # 
+  fhir:title [ fhir:v "SNOMED CT core"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-07-31T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."] ; # 
+  fhir:copyright [ fhir:v "© 2002-2016 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. \"SNOMED\" and \"SNOMED CT\" are registered trademarks of the IHTSDO http://www.ihtsdo.org/snomed-ct/get-snomed-ct"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "http://snomed.info/sct/900000000000207008/version/20210731?fhir_vs"^^xsd:anyURI ;
+     fhir:link <http://snomed.info/sct/900000000000207008/version/20210731?fhir_vs>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "concept" ] ;
+     fhir:description [ fhir:v "Includes all concept ids that have a transitive is-a relationship with the code provided as the value." ] ;
+     fhir:operator ( [ fhir:v "is-a" ] ) ;
+     fhir:value [ fhir:v "A SNOMED CT code" ]
+  ] [
+     fhir:code [ fhir:v "concept" ] ;
+     fhir:description [ fhir:v "Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself." ] ;
+     fhir:operator ( [ fhir:v "descendent-of" ] ) ;
+     fhir:value [ fhir:v "A SNOMED CT code" ]
+  ] [
+     fhir:code [ fhir:v "concept" ] ;
+     fhir:description [ fhir:v "Includes all concept ids that are active members of the reference set identified by the concept id provided as the value." ] ;
+     fhir:operator ( [ fhir:v "in" ] ) ;
+     fhir:value [ fhir:v "A SNOMED CT concept id" ]
+  ] [
+     fhir:code [ fhir:v "constraint" ] ;
+     fhir:description [ fhir:v "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint." ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "A SNOMED CT Expression Constraint" ]
+  ] [
+     fhir:code [ fhir:v "expression" ] ;
+     fhir:description [ fhir:v "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint." ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "A SNOMED CT Expression Constraint" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:description [ fhir:v "Includes all concept ids that have/do not have a parent concept." ] ;
+     fhir:operator ( [ fhir:v "exists" ] [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "A boolean, to specifiy whether or not the property has a value." ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:description [ fhir:v "Includes all concept ids that have/do not have a child concept." ] ;
+     fhir:operator ( [ fhir:v "exists" ] [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "A boolean, to specifiy whether or not the property has a value." ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "inactive" ] ;
+     fhir:description [ fhir:v "Whether the code is active or not (defaults to false)." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "sufficientlyDefined" ] ;
+     fhir:description [ fhir:v "True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive)." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:description [ fhir:v "The SNOMED CT concept id that is a direct parent of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:description [ fhir:v "The SNOMED CT concept id that is a direct child of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "moduleId" ] ;
+     fhir:description [ fhir:v "The SNOMED CT concept id of the module that the concept belongs to." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

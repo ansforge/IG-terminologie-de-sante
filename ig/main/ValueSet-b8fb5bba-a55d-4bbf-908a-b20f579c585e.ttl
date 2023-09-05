@@ -1,0 +1,172 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/nos/ValueSet/b8fb5bba-a55d-4bbf-908a-b20f579c585e> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "b8fb5bba-a55d-4bbf-908a-b20f579c585e"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-07-11T13:37:19.832+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-03-15"^^xsd:date ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/fhir/ValueSet/JDV_J11-RelationPatient-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.16" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J11-RelationPatient-CISIS"] ; # 
+  fhir:title [ fhir:v "JDV_J11-RelationPatient-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-09-05T13:42:28+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "JDV_J11-RelationPatient-CISIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "2.16.840.1.113883.5.111"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "MTH" ] ;
+         fhir:display [ fhir:v "Mère" ]
+       ] [
+         fhir:code [ fhir:v "FTH" ] ;
+         fhir:display [ fhir:v "Père" ]
+       ] [
+         fhir:code [ fhir:v "NMTH" ] ;
+         fhir:display [ fhir:v "Mère biologique" ]
+       ] [
+         fhir:code [ fhir:v "NFTH" ] ;
+         fhir:display [ fhir:v "Père biologique" ]
+       ] [
+         fhir:code [ fhir:v "STPMTH" ] ;
+         fhir:display [ fhir:v "Belle-mère - épouse du père ou de la mère" ]
+       ] [
+         fhir:code [ fhir:v "STPFTH" ] ;
+         fhir:display [ fhir:v "Beau-père - époux du père ou de la mère" ]
+       ] [
+         fhir:code [ fhir:v "GRMTH" ] ;
+         fhir:display [ fhir:v "Grand-mère" ]
+       ] [
+         fhir:code [ fhir:v "GRFTH" ] ;
+         fhir:display [ fhir:v "Grand-père" ]
+       ] [
+         fhir:code [ fhir:v "GGRMTH" ] ;
+         fhir:display [ fhir:v "Arrière-grand-mère" ]
+       ] [
+         fhir:code [ fhir:v "GGRFTH" ] ;
+         fhir:display [ fhir:v "Arrière-grand-père" ]
+       ] [
+         fhir:code [ fhir:v "DAU" ] ;
+         fhir:display [ fhir:v "Fille biologique" ]
+       ] [
+         fhir:code [ fhir:v "SON" ] ;
+         fhir:display [ fhir:v "Fils biologique" ]
+       ] [
+         fhir:code [ fhir:v "BRO" ] ;
+         fhir:display [ fhir:v "Frère" ]
+       ] [
+         fhir:code [ fhir:v "SIS" ] ;
+         fhir:display [ fhir:v "Soeur" ]
+       ] [
+         fhir:code [ fhir:v "HBRO" ] ;
+         fhir:display [ fhir:v "Demi-frère" ]
+       ] [
+         fhir:code [ fhir:v "HSIS" ] ;
+         fhir:display [ fhir:v "Demi-soeur" ]
+       ] [
+         fhir:code [ fhir:v "GRNDDAU" ] ;
+         fhir:display [ fhir:v "Petite-fille" ]
+       ] [
+         fhir:code [ fhir:v "GRNDSO" ] ;
+         fhir:display [ fhir:v "Petit-fils" ]
+       ] [
+         fhir:code [ fhir:v "UNCLE" ] ;
+         fhir:display [ fhir:v "Oncle" ]
+       ] [
+         fhir:code [ fhir:v "AUNT" ] ;
+         fhir:display [ fhir:v "Tante" ]
+       ] [
+         fhir:code [ fhir:v "NEPHEW" ] ;
+         fhir:display [ fhir:v "Neveu" ]
+       ] [
+         fhir:code [ fhir:v "NIECE" ] ;
+         fhir:display [ fhir:v "Nièce" ]
+       ] [
+         fhir:code [ fhir:v "HUSB" ] ;
+         fhir:display [ fhir:v "Epoux" ]
+       ] [
+         fhir:code [ fhir:v "WIFE" ] ;
+         fhir:display [ fhir:v "Epouse" ]
+       ] [
+         fhir:code [ fhir:v "DOMPART" ] ;
+         fhir:display [ fhir:v "Concubin(e) ou partenaire PACS" ]
+       ] [
+         fhir:code [ fhir:v "ROOM" ] ;
+         fhir:display [ fhir:v "Personne vivant sous le même toit" ]
+       ] [
+         fhir:code [ fhir:v "FRND" ] ;
+         fhir:display [ fhir:v "Autre proche" ]
+       ] [
+         fhir:code [ fhir:v "NBOR" ] ;
+         fhir:display [ fhir:v "Voisin(e)" ]
+       ] [
+         fhir:code [ fhir:v "FAMMEMB" ] ;
+         fhir:display [ fhir:v "Autre membre de la famille" ]
+       ] [
+         fhir:code [ fhir:v "CHILD" ] ;
+         fhir:display [ fhir:v "Enfant" ]
+       ] [
+         fhir:code [ fhir:v "COUSN" ] ;
+         fhir:display [ fhir:v "Cousin(e)" ]
+       ] [
+         fhir:code [ fhir:v "SIGOTHR" ] ;
+         fhir:display [ fhir:v "Conjoint" ]
+       ] [
+         fhir:code [ fhir:v "DAUC" ] ;
+         fhir:display [ fhir:v "Fille" ]
+       ] [
+         fhir:code [ fhir:v "SONC" ] ;
+         fhir:display [ fhir:v "Fils" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "1.2.250.1.213.1.1.4.327"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "TUTEUR" ] ;
+         fhir:display [ fhir:v "Tuteur" ]
+       ] [
+         fhir:code [ fhir:v "CURATEUR" ] ;
+         fhir:display [ fhir:v "Curateur" ]
+       ] [
+         fhir:code [ fhir:v "MSVG" ] ;
+         fhir:display [ fhir:v "Mandataire de sauvegarde" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

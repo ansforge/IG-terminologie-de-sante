@@ -1,0 +1,558 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "dba225b8-4206-458a-a8c8-fd1269dc2873",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-09-08T16:09:51.905+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-03-30T12:00:00+02:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.337"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_R254-TypeEvenement",
+  "status" : "active",
+  "date" : "2018-03-30T12:00:00+02:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Liste de types d'évènement",
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "date de mise à jours d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "date de fin d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "ESD",
+    "display" : "Entrée de stock des dispositifs médicaux au sein de l'établissement de santé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "ESD"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Entrée de stock des dispositifs médicaux au sein de l'établissement de santé"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "NRE",
+    "display" : "Réception non valide du dispositif médical par l'établissement de santé",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "NRE"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Réception non valide du dispositif médical par l'établissement de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "NCO",
+    "display" : "Dispositif médical non-conforme, présentant un risque inacceptable pour la santé et la sécurité",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "NCO"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Dispositif médical non-conforme, présentant un risque inacceptable pour la santé et la sécurité"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "TRA",
+    "display" : "Transport des dispositifs médicaux",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "TRA"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Transport des dispositifs médicaux"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "DEM",
+    "display" : "Demande de dispositifs médicaux à la pharmacie de l'établissement de santé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "DEM"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Demande de dispositifs médicaux à la pharmacie de l'établissement de santé"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "ECH",
+    "display" : "Echec de pose du dispositif médical",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Echec de pose du dispositif médical"
+    },
+    {
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "ECH"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "POS",
+    "display" : "Pose du dispositif médical",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "POS"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Pose du dispositif médical"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "SDM",
+    "display" : "Suppression de la demande de dispositif médicaux",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Suppression de la demande de dispositif médicaux"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "SDM"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "DOC",
+    "display" : "Dépôt de document pour un patient",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "DOC"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Dépôt de document pour un patient"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "REC",
+    "display" : "Réception valide du dispositif médical par l'établissement de santé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "REC"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Réception valide du dispositif médical par l'établissement de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "DEL",
+    "display" : "Délivrance des dispositifs médicaux au service en charge de la pose chez le patient",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "DEL"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Délivrance des dispositifs médicaux au service en charge de la pose chez le patient"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "NOT",
+    "display" : "Création d'une note pour un patient dans le cahier de liaison",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "NOT"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Création d'une note pour un patient dans le cahier de liaison"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "AUT",
+    "display" : "Autorisation de paiement de la facture des dispositifs médicaux",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "AUT"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Autorisation de paiement de la facture des dispositifs médicaux"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "NREC",
+    "display" : "Réception non valide d'un dispositif médical par l'établissement de santé ou le service utilisateur",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "NREC"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Réception non valide d'un dispositif médical par l'établissement de santé ou le service utilisateur"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "SSD",
+    "display" : "Sortie de stock des dispositifs médicaux",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "SSD"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Sortie de stock des dispositifs médicaux"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "REA",
+    "display" : "Demande de réassort en dispositifs médicaux",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Demande de réassort en dispositifs médicaux"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "REA"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "REP",
+    "display" : "Réponse de la pharmacie de l'établissement de santé au service responsable de la demande",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "REP"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Réponse de la pharmacie de l'établissement de santé au service responsable de la demande"
+    }],
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-08-28T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "PER",
+    "display" : "Dispositif médical périmé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Dispositif médical périmé"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "PER"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "SOR",
+    "display" : "Sortie d'un patient de l'établissement de santé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Sortie d'un patient de l'établissement de santé"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "SOR"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    }]
+  },
+  {
+    "code" : "ADM",
+    "display" : "Admission d'un patient dans un établissement de santé",
+    "designation" : [{
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleCourt"
+      },
+      "value" : "ADM"
+    },
+    {
+      "use" : {
+        "system" : "http://data.esante.gouv.fr/nos/1.2.250.1.213.1.1.4.337",
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Admission d'un patient dans un établissement de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+02:00"
+    }]
+  }]
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TRE-R327-TypeDecision"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2023-07-18T12:54:16.066+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-09-24T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.3.3.82"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="TRE_R327_TypeDecision"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-07-18T12:00:00-00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (un individu ou son représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager"/>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <property>
+    <code value="dateValid"/>
+    <description value="date de validité d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateMaj"/>
+    <description value="Date de mise à jour d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="dateFin"/>
+    <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="Attribution"/>
+    <designation>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="La CDAPH a décidé d'attribuer un droit ou une prestation à l'usager"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Rejet"/>
+    <designation>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="La CDAPH a décidé de rejeter une demande de compensation ou un recours"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Sursis"/>
+    <designation>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="La CDAPH a sursis à sa décision parce qu'elle estime ne pas avoir suffisamment d'éléments pour statuer. L'équipe pluridisciplinaire devra apporter les informations manquantes et/ou faire de nouvelles propositions."/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Non attribution supplémentaire"/>
+    <designation>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="La CDAPH a pris une décision de &quot;non attribution supplémentaire&quot; lorsque, convoquée plusieurs fois pour prendre les décisions répondant à une demande, elle a décidé de ne rien attribuer lors de la dernière séance"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Clôture de droit"/>
+    <designation>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit"/>
+    </designation>
+    <property>
+      <code value="dateValid"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="dateMaj"/>
+      <valueDateTime value="2021-09-24T12:00:00+01:00"/>
+    </property>
+  </concept>
+</CodeSystem>
