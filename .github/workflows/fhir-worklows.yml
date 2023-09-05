@@ -1,0 +1,133 @@
+name: ghpages
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+
+
+
+# The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
+# https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+
+      - name: Install modules
+        run: npm install -g fsh-sushi
+      - name: Run sushi
+        run: sushi .
+                
+
+      # Downloads the newest version of the IG Publisher, this could probable be cached.
+      - name: 📥 Download IG Publisher
+        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
+
+
+      - name: Install modules
+        run: npm install -g fsh-sushi
+      - name: Build and test with Rake        
+        run: |
+          sudo apt-get install ruby-full
+          sudo gem install jekyll
+      # Builds the HTML page for the IG.
+      - name: 🏃‍♂️ Run IG Publisher
+        run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
+
+
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Install saxon
+        run : pip install saxonche
+
+      - name: Run script python
+        run: python ./tools/transform.py './output' './tools/xsl'
+
+      #- name:  1 ZIP JDV PDF
+      #  run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf        
+        
+      - name:  1 ZIP JDV SVS
+        run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./output/NOS/ValueSet*-svs.xml  -x "*FHIR*"   
+        
+      - name:  1 ZIP JDV FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./output/ValueSet*.json     
+        
+      - name:  1 ZIP JDV FHIR XML
+        run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./output/ValueSet*.xml        
+        
+      - name:  1 ZIP JDV FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./output/NOS/ValueSet*.tabs 
+        
+      #- name:  2 ZIP TRE PDF
+      #  run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./input/images/NOS/TRE_*.pdf        
+        
+      - name:  2 ZIP TRE SVS
+        run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./output/NOS/CodeSystem*-svs.xml  -x "*FHIR*"   
+        
+      - name:  2 ZIP TRE FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./output/CodeSystem*.json     
+        
+      - name:  2 ZIP TRE FHIR XML
+        run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./output/CodeSystem*.xml         
+        
+      - name:  2 ZIP TRE FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/CodeSystem*.tabs
+        
+    
+      - name:  3 ZIP ASS PDF
+        run :  zip -rj ./output/NOS/NOS-ass-pdf.zip ./input/images/NOS/ASS_*.pdf        
+        
+      - name:  3 ZIP ASS SVS
+        run :  zip -rj ./output/NOS/NOS-ass-svs.zip ./input/images/NOS/ASS*.xml  -x "*FHIR*"   
+        
+      - name:  3 ZIP ASS FHIR JSON
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-json.zip ./input/images/NOS/ASS*-FHIR.json     
+        
+      - name:  3 ZIP ASS FHIR XML
+        run :  zip -rj ./output/NOS/NOS-ass-fhir-xml.zip ./input/images/NOS/ASS*-FHIR.xml         
+        
+      - name:  3 ZIP ASS FHIR tabs
+        run :  zip -rj ./output/NOS/NOS-ass-tabs.zip ./input/images/NOS/ASS*.tabs     
+    
+        
+      - name:  ZIP Ensemble des NOS au format CSV 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics.zip ./output/NOS/*.tabs  
+ 
+      - name:  ZIP Ensemble des NOS au format XML/SVS 
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/NOS/*-svs.xml  -x "*FHIR*"    
+
+      - name:  ZIP Ensemble des NOS au format JSON/FHIR (ZIP)
+        run :  zip -rj ./output/NOS/NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/*.json    
+
+      - name:  ZIP Ensemble des NOS au format XML/FHIR (ZIP)
+        run :  zip -rj ./output/NOS/Nos-fichiers_publics-versions_xml_fhir.zip ./output/*.xml   
+
+      - name:  ZIP Jeux de valeurs du CI-SIS (ZIP
+        run :  zip -rj ./output/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/*CISIS*  
+
+
+
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v4.3
+        
+        
+          
+      
+        
+      # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
+      # This will overwrite the currently published HTML page.
+      - name: 🚀 Deploy to GitHub-Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
+          exclude_assets: '**.zip,**.tgz,**.pack'
+          commit_message: ' ${{ github.event.head_commit.message }}'

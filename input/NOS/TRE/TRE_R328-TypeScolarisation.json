@@ -1,0 +1,105 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "5228bfe6-1512-475a-af3c-6b548e1d1c28",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-09-08T16:10:56.569+00:00"
+  },
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod": {
+      "start": "2021-09-24T12:00:00+02:00"
+    }
+  } ],
+  "url": "https://mos.esante.gouv.fr/NOS/TRE_R328-TypeScolarisation",
+  "identifier": [ {
+    "value": "urn:oid:1.2.250.1.213.3.3.83"
+  } ],
+  "version": "20210924120000",
+  "name": "TRE_R328-TypeScolarisation",
+  "status": "active",
+  "date": "2021-09-24T12:00:00+02:00",
+  "description": "Caractérise la situation scolaire de la personne",
+  "content": "complete",
+  "property": [ {
+    "code": "dateValid",
+    "description": "date de validité d'un code concept",
+    "type": "dateTime"
+  }, {
+    "code": "dateMaj",
+    "description": "date de mise à jours d'un code concept",
+    "type": "dateTime"
+  }, {
+    "code": "dateFin",
+    "description": "date de fin d'un code concept",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "Etudiant/Apprenti",
+    "designation": [ {
+      "use": {
+        "system": "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.83",
+        "code": "LibelleCourt"
+      },
+      "value": "Etudiant/Apprenti"
+    }, {
+      "use": {
+        "system": "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.83",
+        "code": "LibelleAdapte"
+      },
+      "value": "Etudiant/Apprenti"
+    } ],
+    "property": [ {
+      "code": "dateMaj",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    }, {
+      "code": "dateValid",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    } ]
+  }, {
+    "code": "02",
+    "display": "Enfant scolarisé",
+    "designation": [ {
+      "use": {
+        "code": "LibelleCourt"
+      },
+      "value": "Enfant scolarisé"
+    }, {
+      "use": {
+        "code": "LibelleAdapte"
+      },
+      "value": "Enfant scolarisé"
+    } ],
+    "property": [ {
+      "code": "dateMaj",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    }, {
+      "code": "dateValid",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    } ]
+  }, {
+    "code": "03",
+    "display": "Enfant non scolarisé",
+    "designation": [ {
+      "use": {
+        "system": "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.83",
+        "code": "LibelleAdapte"
+      },
+      "value": "Enfant non scolarisé"
+    }, {
+      "use": {
+        "system": "http://data.esante.gouv.fr/nos/1.2.250.1.213.3.3.83",
+        "code": "LibelleCourt"
+      },
+      "value": "Enfant non scolarisé"
+    } ],
+    "property": [ {
+      "code": "dateValid",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    }, {
+      "code": "dateMaj",
+      "valueDateTime": "2021-09-24T12:00:00+02:00"
+    } ]
+  } ]
+}

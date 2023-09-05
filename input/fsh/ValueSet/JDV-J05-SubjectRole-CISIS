@@ -1,0 +1,1623 @@
+Instance: JDV-J05-SubjectRole-CISIS
+InstanceOf: ValueSet
+Usage: #definition
+* extension.url = "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod"
+* extension.valuePeriod.start = "2012-10-06T00:00:00+01:00"
+* url = "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"
+* identifier.value = "urn:oid:1.2.250.1.213.1.1.5.470"
+* version = "20230217120000"
+* name = "JDV_J05-SubjectRole-CISIS"
+* status = #active
+* date = "2023-02-17T12:00:00+01:00"
+* description = "subjectRole CI-SIS"
+* compose.include[0].system = "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"
+* compose.include[=].concept[0].code = #ALIM_AM
+* compose.include[=].concept[=].display = "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.1.4.6"
+* compose.include[=].concept[+].code = #DISPOSITIF
+* compose.include[=].concept[=].display = "Dispositif médical"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.1.4.6"
+* compose.include[=].concept[+].code = #EXP_PATIENT
+* compose.include[=].concept[=].display = "Expression personnelle du patient"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.1.4.6"
+* compose.include[=].concept[+].code = #SECRETARIAT_MEDICAL
+* compose.include[=].concept[=].display = "Secrétariat médical"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.1.4.6"
+* compose.include[=].concept[+].code = #AUTOMATE
+* compose.include[=].concept[=].display = "Automate"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.1.4.6"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
+* compose.include[=].concept[0].code = #10
+* compose.include[=].concept[=].display = "Médecin"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #21
+* compose.include[=].concept[=].display = "Pharmacien"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #26
+* compose.include[=].concept[=].display = "Audioprothésiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #28
+* compose.include[=].concept[=].display = "Opticien-Lunetier"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #31
+* compose.include[=].concept[=].display = "Assistant dentaire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #32
+* compose.include[=].concept[=].display = "Physicien médical"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #35
+* compose.include[=].concept[=].display = "Aide-soignant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #36
+* compose.include[=].concept[=].display = "Ambulancier"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #37
+* compose.include[=].concept[=].display = "Auxiliaire de puériculture"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #38
+* compose.include[=].concept[=].display = "Préparateur en pharmacie hospitalière"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #39
+* compose.include[=].concept[=].display = "Préparateur en pharmacie (officine)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #40
+* compose.include[=].concept[=].display = "Chirurgien-Dentiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #50
+* compose.include[=].concept[=].display = "Sage-Femme"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #60
+* compose.include[=].concept[=].display = "Infirmier"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #69
+* compose.include[=].concept[=].display = "Infirmier psychiatrique"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #70
+* compose.include[=].concept[=].display = "Masseur-Kinésithérapeute"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #80
+* compose.include[=].concept[=].display = "Pédicure-Podologue"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #81
+* compose.include[=].concept[=].display = "Orthoprothésiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #82
+* compose.include[=].concept[=].display = "Podo-Orthésiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #83
+* compose.include[=].concept[=].display = "Orthopédiste-Orthésiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #84
+* compose.include[=].concept[=].display = "Oculariste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #85
+* compose.include[=].concept[=].display = "Epithésiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #86
+* compose.include[=].concept[=].display = "Technicien de laboratoire médical"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #91
+* compose.include[=].concept[=].display = "Orthophoniste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #92
+* compose.include[=].concept[=].display = "Orthoptiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #94
+* compose.include[=].concept[=].display = "Ergothérapeute"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #95
+* compose.include[=].concept[=].display = "Diététicien"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #96
+* compose.include[=].concept[=].display = "Psychomotricien"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[=].concept[+].code = #98
+* compose.include[=].concept[=].display = "Manipulateur ERM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.7"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"
+* compose.include[=].concept[0].code = #71
+* compose.include[=].concept[=].display = "Ostéopathe"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.109"
+* compose.include[=].concept[+].code = #72
+* compose.include[=].concept[=].display = "Psychothérapeute"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.109"
+* compose.include[=].concept[+].code = #73
+* compose.include[=].concept[=].display = "Chiropracteur"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.109"
+* compose.include[=].concept[+].code = #93
+* compose.include[=].concept[=].display = "Psychologue"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.109"
+* compose.include[=].concept[+].code = #97
+* compose.include[=].concept[=].display = "Conseiller en génétique"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.109"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"
+* compose.include[=].concept[0].code = #41
+* compose.include[=].concept[=].display = "Assistant de service social"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #42
+* compose.include[=].concept[=].display = "Auxiliaire de vie sociale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #43
+* compose.include[=].concept[=].display = "Technicien de l'intervention sociale et familiale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #44
+* compose.include[=].concept[=].display = "Conseiller en économie sociale et familiale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #45
+* compose.include[=].concept[=].display = "Médiateur familial"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #46
+* compose.include[=].concept[=].display = "Assistant familial"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #47
+* compose.include[=].concept[=].display = "Aide médico-psychologique (AMP)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #48
+* compose.include[=].concept[=].display = "Moniteur éducateur"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #49
+* compose.include[=].concept[=].display = "Educateur de jeunes enfants"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #51
+* compose.include[=].concept[=].display = "Educateur spécialisé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #52
+* compose.include[=].concept[=].display = "Educateur technique spécialisé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[=].concept[+].code = #53
+* compose.include[=].concept[=].display = "Accompagnant éducatif et social"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.4"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"
+* compose.include[=].concept.code = #99
+* compose.include[=].concept.display = "Acteur caractérisé par son rôle"
+* compose.include[=].concept.designation.use.code = #OID
+* compose.include[=].concept.designation.value = "urn:oid:1.2.250.1.213.1.6.1.140"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"
+* compose.include[=].concept[0].code = #10
+* compose.include[=].concept[=].display = "Médecin en formation"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.8"
+* compose.include[=].concept[+].code = #21
+* compose.include[=].concept[=].display = "Pharmacien en formation"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.8"
+* compose.include[=].concept[+].code = #40
+* compose.include[=].concept[=].display = "Chirurgien-Dentiste en formation"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.8"
+* compose.include[=].concept[+].code = #50
+* compose.include[=].concept[=].display = "Sage-Femme en formation"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.1.2.8"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
+* compose.include[=].concept[0].code = #SCD01
+* compose.include[=].concept[=].display = "Orthopédie dento-faciale (SCD)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCD02
+* compose.include[=].concept[=].display = "Chirurgie orale (SCD)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCD03
+* compose.include[=].concept[=].display = "Médecine bucco-dentaire (SCD)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #PAC00
+* compose.include[=].concept[=].display = "Qualifié Praticien Adjoint Contractuel (PAC)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM01
+* compose.include[=].concept[=].display = "Anatomie et cytologie pathologiques (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM02
+* compose.include[=].concept[=].display = "Anesthésie-réanimation (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM03
+* compose.include[=].concept[=].display = "Biologie médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM04
+* compose.include[=].concept[=].display = "Cardiologie et maladies vasculaires (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM05
+* compose.include[=].concept[=].display = "Chirurgie générale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM06
+* compose.include[=].concept[=].display = "Chirurgie maxillo-faciale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM07
+* compose.include[=].concept[=].display = "Chirurgie maxillo-faciale et stomatologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM08
+* compose.include[=].concept[=].display = "Chirurgie orthopédique et traumatologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM09
+* compose.include[=].concept[=].display = "Chirurgie infantile (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM10
+* compose.include[=].concept[=].display = "Chirurgie plastique reconstructrice et esthétique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM11
+* compose.include[=].concept[=].display = "Chirurgie thoracique et cardio-vasculaire (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM12
+* compose.include[=].concept[=].display = "Chirurgie urologique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM13
+* compose.include[=].concept[=].display = "Chirurgie vasculaire (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM14
+* compose.include[=].concept[=].display = "Chirurgie viscérale et digestive (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM15
+* compose.include[=].concept[=].display = "Dermatologie et vénéréologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM16
+* compose.include[=].concept[=].display = "Endocrinologie et métabolisme (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM17
+* compose.include[=].concept[=].display = "Génétique médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM18
+* compose.include[=].concept[=].display = "Gériatrie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM19
+* compose.include[=].concept[=].display = "Gynécologie médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM20
+* compose.include[=].concept[=].display = "Gynécologie-obstétrique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM21
+* compose.include[=].concept[=].display = "Hématologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM22
+* compose.include[=].concept[=].display = "Hématologie option Maladie du sang (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM23
+* compose.include[=].concept[=].display = "Hématologie option Onco-hématologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM24
+* compose.include[=].concept[=].display = "Gastro-entérologie et hépatologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM25
+* compose.include[=].concept[=].display = "Médecine du travail (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM26
+* compose.include[=].concept[=].display = "Qualifié en médecine générale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM27
+* compose.include[=].concept[=].display = "Médecine interne (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM28
+* compose.include[=].concept[=].display = "Médecine nucléaire (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM29
+* compose.include[=].concept[=].display = "Médecine physique et réadaptation (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM30
+* compose.include[=].concept[=].display = "Néphrologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM31
+* compose.include[=].concept[=].display = "Neuro-chirurgie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM32
+* compose.include[=].concept[=].display = "Neurologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM33
+* compose.include[=].concept[=].display = "Neuro-psychiatrie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM34
+* compose.include[=].concept[=].display = "ORL et chirurgie cervico-faciale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM35
+* compose.include[=].concept[=].display = "Oncologie option onco-hématologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM36
+* compose.include[=].concept[=].display = "Oncologie option médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM37
+* compose.include[=].concept[=].display = "Oncologie option radiothérapie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM38
+* compose.include[=].concept[=].display = "Ophtalmologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM39
+* compose.include[=].concept[=].display = "Oto-rhino-laryngologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM40
+* compose.include[=].concept[=].display = "Pédiatrie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM41
+* compose.include[=].concept[=].display = "Pneumologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM42
+* compose.include[=].concept[=].display = "Psychiatrie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM43
+* compose.include[=].concept[=].display = "Psychiatrie option enfant et adolescent (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM44
+* compose.include[=].concept[=].display = "Radiodiagnostic (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM45
+* compose.include[=].concept[=].display = "Radiothérapie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM46
+* compose.include[=].concept[=].display = "Médecine intensive-réanimation (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM47
+* compose.include[=].concept[=].display = "Recherche médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM48
+* compose.include[=].concept[=].display = "Rhumatologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM49
+* compose.include[=].concept[=].display = "Santé publique et médecine sociale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM50
+* compose.include[=].concept[=].display = "Stomatologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM51
+* compose.include[=].concept[=].display = "Gynéco-obstétrique et Gynéco médicale option Gynéco-obst. (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM52
+* compose.include[=].concept[=].display = "Gynéco-obstétrique et Gynéco médicale option Gynéco-médicale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM53
+* compose.include[=].concept[=].display = "Spécialiste en médecine générale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM54
+* compose.include[=].concept[=].display = "Médecine générale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM55
+* compose.include[=].concept[=].display = "Radiodiagnostic et radiothérapie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM56
+* compose.include[=].concept[=].display = "Chirurgie orale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM57
+* compose.include[=].concept[=].display = "Allergologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM58
+* compose.include[=].concept[=].display = "Maladies infectieuses et tropicales (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM59
+* compose.include[=].concept[=].display = "Médecine d'urgence (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM60
+* compose.include[=].concept[=].display = "Médecine légale et expertises médicales (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM61
+* compose.include[=].concept[=].display = "Médecine vasculaire (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM62
+* compose.include[=].concept[=].display = "Endocrinologie, diabétologie, nutrition (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM63
+* compose.include[=].concept[=].display = "Biologie médicale option biologie générale (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM64
+* compose.include[=].concept[=].display = "Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM65
+* compose.include[=].concept[=].display = "Biologie médicale option hématologie et immunologie (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM66
+* compose.include[=].concept[=].display = "Biologie médicale option agents infectieux (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM67
+* compose.include[=].concept[=].display = "Biologie médicale option biologie de la reproduction (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM68
+* compose.include[=].concept[=].display = "Chirurgie maxillo-faciale (réforme 2017) (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM69
+* compose.include[=].concept[=].display = "Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM70
+* compose.include[=].concept[=].display = "Chirurgie pédiatrique option orthopédie pédiatrique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM71
+* compose.include[=].concept[=].display = "Hématologie (réforme 2017) (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SM72
+* compose.include[=].concept[=].display = "Médecine interne et immunologie clinique (SM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CEX22
+* compose.include[=].concept[=].display = "Gynécologie médicale et obstétrique (CEX)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CEX24
+* compose.include[=].concept[=].display = "Gynécologie médicale (CEX)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CEX26
+* compose.include[=].concept[=].display = "Obstétrique (CEX)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CEX64
+* compose.include[=].concept[=].display = "Urologie (CEX)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH01
+* compose.include[=].concept[=].display = "Anatomie et cytologie pathologiques (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH02
+* compose.include[=].concept[=].display = "Anesthésie-réanimation (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH03
+* compose.include[=].concept[=].display = "Bactériologie-virologie, hygiène hospitalière (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH04
+* compose.include[=].concept[=].display = "Biochimie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH05
+* compose.include[=].concept[=].display = "Biologie cellulaire, histologie, biologie du développement et de la reproduction (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH06
+* compose.include[=].concept[=].display = "Biologie médicale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH07
+* compose.include[=].concept[=].display = "Biophysique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH08
+* compose.include[=].concept[=].display = "Oncologie médicale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH09
+* compose.include[=].concept[=].display = "Cardiologie et maladies vasculaires (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH10
+* compose.include[=].concept[=].display = "Chirurgie générale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH11
+* compose.include[=].concept[=].display = "Chirurgie viscérale et digestive (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH12
+* compose.include[=].concept[=].display = "Chirurgie infantile (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH13
+* compose.include[=].concept[=].display = "Chirurgie maxillo-faciale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH14
+* compose.include[=].concept[=].display = "Chirurgie orthopédique et traumatologique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH15
+* compose.include[=].concept[=].display = "Chirurgie plastique reconstructrice et esthétique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH16
+* compose.include[=].concept[=].display = "Chirurgie thoracique et cardio-vasculaire (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH17
+* compose.include[=].concept[=].display = "Chirurgie urologique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH18
+* compose.include[=].concept[=].display = "Chirurgie vasculaire (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH19
+* compose.include[=].concept[=].display = "Dermatologie et vénéréologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH20
+* compose.include[=].concept[=].display = "Endocrinologie et métabolisme (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH21
+* compose.include[=].concept[=].display = "Santé publique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH22
+* compose.include[=].concept[=].display = "Explorations fonctionnelles (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH23
+* compose.include[=].concept[=].display = "Gastro-entérologie et hépatologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH24
+* compose.include[=].concept[=].display = "Génétique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH25
+* compose.include[=].concept[=].display = "Génétique médicale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH26
+* compose.include[=].concept[=].display = "Gynécologie et obstétrique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH27
+* compose.include[=].concept[=].display = "Hématologie biologique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH28
+* compose.include[=].concept[=].display = "Hématologie clinique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH29
+* compose.include[=].concept[=].display = "Hémobiologie-transfusion (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH30
+* compose.include[=].concept[=].display = "Hygiène hospitalière (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH31
+* compose.include[=].concept[=].display = "Immunologie biologique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH32
+* compose.include[=].concept[=].display = "Immunologie clinique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH33
+* compose.include[=].concept[=].display = "Maladies infectieuses, maladies tropicales (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH34
+* compose.include[=].concept[=].display = "Médecine de la reproduction et gynécologie médicale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH35
+* compose.include[=].concept[=].display = "Médecine du travail (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH36
+* compose.include[=].concept[=].display = "Médecine d'urgence (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH37
+* compose.include[=].concept[=].display = "Médecine générale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH38
+* compose.include[=].concept[=].display = "Gériatrie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH39
+* compose.include[=].concept[=].display = "Médecine interne (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH40
+* compose.include[=].concept[=].display = "Médecine légale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH41
+* compose.include[=].concept[=].display = "Médecine nucléaire (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH42
+* compose.include[=].concept[=].display = "Médecine physique et de réadaptation (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH43
+* compose.include[=].concept[=].display = "Néphrologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH44
+* compose.include[=].concept[=].display = "Neurochirurgie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH45
+* compose.include[=].concept[=].display = "Neurologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH46
+* compose.include[=].concept[=].display = "Odontologie polyvalente (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH47
+* compose.include[=].concept[=].display = "Ophtalmologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH48
+* compose.include[=].concept[=].display = "Oto-rhino-laryngologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH49
+* compose.include[=].concept[=].display = "Parasitologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH50
+* compose.include[=].concept[=].display = "Pédiatrie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH51
+* compose.include[=].concept[=].display = "Pharmacie polyvalente et pharmacie hospitalière (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH52
+* compose.include[=].concept[=].display = "Pharmacologie clinique et toxicologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH53
+* compose.include[=].concept[=].display = "Pneumologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH54
+* compose.include[=].concept[=].display = "Psychiatrie polyvalente (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH55
+* compose.include[=].concept[=].display = "Radiologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH56
+* compose.include[=].concept[=].display = "Oncologie radiothérapique (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH57
+* compose.include[=].concept[=].display = "Réanimation médicale (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH58
+* compose.include[=].concept[=].display = "Rhumatologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH59
+* compose.include[=].concept[=].display = "Stomatologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SCH60
+* compose.include[=].concept[=].display = "Toxicologie et pharmacologie (SCH)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SI01
+* compose.include[=].concept[=].display = "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SI02
+* compose.include[=].concept[=].display = "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SI03
+* compose.include[=].concept[=].display = "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SI04
+* compose.include[=].concept[=].display = "Exercice infirmier en pratique avancée santé mentale (SI)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #SI05
+* compose.include[=].concept[=].display = "Exercice infirmier en pratique avancée urgences"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C01
+* compose.include[=].concept[=].display = "Anatomie et cytologie pathologiques humaines (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C03
+* compose.include[=].concept[=].display = "Anesthésie-réanimation (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C05
+* compose.include[=].concept[=].display = "Médecine appliquée aux sports (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C07
+* compose.include[=].concept[=].display = "Cardiologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C09
+* compose.include[=].concept[=].display = "Chirurgie plastique reconstructrice et esthétique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C10
+* compose.include[=].concept[=].display = "Chirurgie maxillo-faciale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C11
+* compose.include[=].concept[=].display = "Chirurgie thoracique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C12
+* compose.include[=].concept[=].display = "Chirurgie orthopédique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C13
+* compose.include[=].concept[=].display = "Urologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C15
+* compose.include[=].concept[=].display = "Dermato-vénéréologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C20
+* compose.include[=].concept[=].display = "Hémobiologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C23
+* compose.include[=].concept[=].display = "Gynécologie médicale et obstétrique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C25
+* compose.include[=].concept[=].display = "Gynécologie médicale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C27
+* compose.include[=].concept[=].display = "Obstétrique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C29
+* compose.include[=].concept[=].display = "Maladies de l'appareil digestif (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C30
+* compose.include[=].concept[=].display = "Néphrologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C31
+* compose.include[=].concept[=].display = "Médecine exotique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C33
+* compose.include[=].concept[=].display = "Allergologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C34
+* compose.include[=].concept[=].display = "Angéiologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C35
+* compose.include[=].concept[=].display = "Cancérologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C36
+* compose.include[=].concept[=].display = "Diabétologie-nutrition (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C37
+* compose.include[=].concept[=].display = "Endocrinologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C38
+* compose.include[=].concept[=].display = "Maladies du sang (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C39
+* compose.include[=].concept[=].display = "Réanimation (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C40
+* compose.include[=].concept[=].display = "Médecine légale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C41
+* compose.include[=].concept[=].display = "Médecine du travail (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C43
+* compose.include[=].concept[=].display = "Neurologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C45
+* compose.include[=].concept[=].display = "Neuro-chirurgie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C47
+* compose.include[=].concept[=].display = "Neuro-psychiatrie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C51
+* compose.include[=].concept[=].display = "Pédiatrie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C52
+* compose.include[=].concept[=].display = "Phoniatrie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C54
+* compose.include[=].concept[=].display = "Pneumologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C57
+* compose.include[=].concept[=].display = "Psychiatrie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C58
+* compose.include[=].concept[=].display = "Psychiatrie option enfant et adolescent (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C60
+* compose.include[=].concept[=].display = "Médecine physique et réadaptation (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C62
+* compose.include[=].concept[=].display = "Rhumatologie (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C68
+* compose.include[=].concept[=].display = "Chirurgie pédiatrique (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C69
+* compose.include[=].concept[=].display = "Médecine nucléaire (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C71
+* compose.include[=].concept[=].display = "Médecine thermale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C72
+* compose.include[=].concept[=].display = "Génétique médicale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C75
+* compose.include[=].concept[=].display = "Endocrinologie maladies métaboliques (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C76
+* compose.include[=].concept[=].display = "Orthopédie dento-maxillo-faciale (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #C83
+* compose.include[=].concept[=].display = "Chirurgie de la face et du cou (C)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA01
+* compose.include[=].concept[=].display = "Addictologie clinique (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA02
+* compose.include[=].concept[=].display = "Aide médicale urgente (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA03
+* compose.include[=].concept[=].display = "Allergologie (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA04
+* compose.include[=].concept[=].display = "Angéiologie (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA05
+* compose.include[=].concept[=].display = "Evaluation et traitement de la douleur (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA06
+* compose.include[=].concept[=].display = "Gérontologie (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA07
+* compose.include[=].concept[=].display = "Hydrologie et climatologie médicales (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA08
+* compose.include[=].concept[=].display = "Médecine aérospatiale (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA09
+* compose.include[=].concept[=].display = "Médecine de catastrophe (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA10
+* compose.include[=].concept[=].display = "Médecine et biologie du sport (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA11
+* compose.include[=].concept[=].display = "Médecine de santé au travail et prévention des risques professionnels (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA12
+* compose.include[=].concept[=].display = "Médecine pénitentiaire (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA13
+* compose.include[=].concept[=].display = "Médecine tropicale (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA14
+* compose.include[=].concept[=].display = "Pratiques médico-judiciaires (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA15
+* compose.include[=].concept[=].display = "Technologie transfusionnelle (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #CAPA16
+* compose.include[=].concept[=].display = "Toxicomanies et alcoologies (CAPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM200
+* compose.include[=].concept[=].display = "Addictologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM201
+* compose.include[=].concept[=].display = "Allergologie et Immunologie clinique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM202
+* compose.include[=].concept[=].display = "Andrologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM203
+* compose.include[=].concept[=].display = "Biochimie hormonale et métabolique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM204
+* compose.include[=].concept[=].display = "Biologie des agents infectieux (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM205
+* compose.include[=].concept[=].display = "Biologie moléculaire (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM206
+* compose.include[=].concept[=].display = "Cancérologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM207
+* compose.include[=].concept[=].display = "Chirurgie de la face et du cou (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM208
+* compose.include[=].concept[=].display = "Chirurgie plastique et reconstructrice (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM209
+* compose.include[=].concept[=].display = "Chirurgie vasculaire (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM210
+* compose.include[=].concept[=].display = "Cytogénétique humaine (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM211
+* compose.include[=].concept[=].display = "Dermatopathologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM212
+* compose.include[=].concept[=].display = "Foetopathologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM213
+* compose.include[=].concept[=].display = "Gériatrie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM214
+* compose.include[=].concept[=].display = "Hématologie biologique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM215
+* compose.include[=].concept[=].display = "Hématologie maladies du sang (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM216
+* compose.include[=].concept[=].display = "Hémobiologie-transfusion (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM217
+* compose.include[=].concept[=].display = "Immunologie et Immunopathologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM218
+* compose.include[=].concept[=].display = "Médecine de la reproduction (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM219
+* compose.include[=].concept[=].display = "Médecine du sport (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM220
+* compose.include[=].concept[=].display = "Médecine d'urgence (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM221
+* compose.include[=].concept[=].display = "Médecine légale et Expertises médicales (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM222
+* compose.include[=].concept[=].display = "Médecine nucléaire (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM223
+* compose.include[=].concept[=].display = "Médecine vasculaire (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM224
+* compose.include[=].concept[=].display = "Néonatalogie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM225
+* compose.include[=].concept[=].display = "Neuropathologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM226
+* compose.include[=].concept[=].display = "Nutrition (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM227
+* compose.include[=].concept[=].display = "Orthopédie dento-maxillo-faciale (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM228
+* compose.include[=].concept[=].display = "Pathologie infectieuse et tropicale, clinique et biologique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM229
+* compose.include[=].concept[=].display = "Pharmacocinétique et Métabolisme des médicaments (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM230
+* compose.include[=].concept[=].display = "Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM231
+* compose.include[=].concept[=].display = "Psychiatrie de l'enfant et de l'adolescent (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM232
+* compose.include[=].concept[=].display = "Radiopharmacie et radiobiologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM233
+* compose.include[=].concept[=].display = "Réanimation médicale (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM234
+* compose.include[=].concept[=].display = "Toxicologie biologique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM235
+* compose.include[=].concept[=].display = "Médecine de la douleur et Médecine palliative (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM236
+* compose.include[=].concept[=].display = "Cancérologie, option Traitements médicaux des cancers (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM237
+* compose.include[=].concept[=].display = "Cancérologie, option Chirurgie cancérologique (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM238
+* compose.include[=].concept[=].display = "Cancérologie, option Réseaux de cancérologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM239
+* compose.include[=].concept[=].display = "Cancérologie, option Biologie cancérologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[=].concept[+].code = #DSM240
+* compose.include[=].concept[=].display = "Cancérologie, option Imagerie cancérologie (DNQ)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.5"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"
+* compose.include[=].concept[0].code = #A
+* compose.include[=].concept[=].display = "Pharmacien titulaire d'officine"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #B
+* compose.include[=].concept[=].display = "Pharmacien d'entreprise - industrie"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #C
+* compose.include[=].concept[=].display = "Pharmacien d'entreprise - distribution"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #D
+* compose.include[=].concept[=].display = "Pharmacien adjoint, remplaçant ou gérant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #DA
+* compose.include[=].concept[=].display = "Pharmacien adjoint"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #DM
+* compose.include[=].concept[=].display = "Pharmacien mutualiste ou minier"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #E
+* compose.include[=].concept[=].display = "Pharmacien d'Outre-Mer"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #EA
+* compose.include[=].concept[=].display = "Pharmacien titulaire d'officine - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #EB
+* compose.include[=].concept[=].display = "Pharmacien d'entreprise - industrie - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #EC
+* compose.include[=].concept[=].display = "Pharmacien d'entreprise - distribution - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #ED
+* compose.include[=].concept[=].display = "Pharmacien adjoint - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #EG
+* compose.include[=].concept[=].display = "Pharmacien biologiste - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #EH
+* compose.include[=].concept[=].display = "Pharmacien d'établissement de santé - OM"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #G
+* compose.include[=].concept[=].display = "Pharmacien biologiste"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #H
+* compose.include[=].concept[=].display = "Pharmacien d'établissement de santé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[=].concept[+].code = #M
+* compose.include[=].concept[=].display = "Pharmacien militaire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.71.4.2.6"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"
+* compose.include[=].concept[0].code = #GENR01
+* compose.include[=].concept[=].display = "Activité de soin et de pharmacie"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR02
+* compose.include[=].concept[=].display = "Activité de soins ou de pharmacien en tant que remplaçant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR03
+* compose.include[=].concept[=].display = "Remplacement dans une activité de soins"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR04
+* compose.include[=].concept[=].display = "Activité non soignante"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR06
+* compose.include[=].concept[=].display = "Délégation de responsabilité pour continuité de service"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR08
+* compose.include[=].concept[=].display = "Activité de coordination et d'orientation"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR09
+* compose.include[=].concept[=].display = "Activité de professionnel du secteur social et médico-social exerçant des fonctions administratives ou d'appui à l'organisation de l'accompagnement"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR10
+* compose.include[=].concept[=].display = "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement à la vie sociale, professionnelle et éducative"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR11
+* compose.include[=].concept[=].display = "Activité de professionnel du secteur social et médico-social exerçant des fonctions d'accompagnement au soin"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[=].concept[+].code = #GENR12
+* compose.include[=].concept[=].display = "Activité de professionnel du social et médico-social exerçant des fonctions d'encadrement et d'organisation de l'accompagnement"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.19"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"
+* compose.include[=].concept[0].code = #FON-01
+* compose.include[=].concept[=].display = "Titulaire de cabinet"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-02
+* compose.include[=].concept[=].display = "Associé dans une société d'exercice (SEL ou SCP)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-03
+* compose.include[=].concept[=].display = "Titulaire d'officine"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-04
+* compose.include[=].concept[=].display = "Remplaçant du titulaire d'officine"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-05
+* compose.include[=].concept[=].display = "Adjoint"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-07
+* compose.include[=].concept[=].display = "Gérant après décès"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-09
+* compose.include[=].concept[=].display = "Responsable d'établissement"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-15
+* compose.include[=].concept[=].display = "Directeur de laboratoire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-16
+* compose.include[=].concept[=].display = "Directeur-adjoint de laboratoire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-17
+* compose.include[=].concept[=].display = "Collaborateur"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-18
+* compose.include[=].concept[=].display = "Assistant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-19
+* compose.include[=].concept[=].display = "Praticien Conseil"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-21
+* compose.include[=].concept[=].display = "Médecin scolaire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-22
+* compose.include[=].concept[=].display = "Remplaçant, intérimaire, intermittent"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-23
+* compose.include[=].concept[=].display = "Gérant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-24
+* compose.include[=].concept[=].display = "Médecin de santé publique"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-29
+* compose.include[=].concept[=].display = "Médecin du travail"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-32
+* compose.include[=].concept[=].display = "Régulateur libéral"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-33
+* compose.include[=].concept[=].display = "Salarié en poste fixe"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-36
+* compose.include[=].concept[=].display = "Délégué"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-37
+* compose.include[=].concept[=].display = "Gérant de pharmacie à usage intérieur (PUI)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-39
+* compose.include[=].concept[=].display = "Exercice en PMI"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-40
+* compose.include[=].concept[=].display = "Biologiste responsable"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-41
+* compose.include[=].concept[=].display = "Biologiste médical"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-42
+* compose.include[=].concept[=].display = "Assistant collaborateur"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-43
+* compose.include[=].concept[=].display = "Cadre de santé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-45
+* compose.include[=].concept[=].display = "Directeur des soins"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-46
+* compose.include[=].concept[=].display = "Enseignant salarié"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-47
+* compose.include[=].concept[=].display = "Etudiant remplaçant, adjoint"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-48
+* compose.include[=].concept[=].display = "Interne"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-49
+* compose.include[=].concept[=].display = "Pharmacien responsable Bonnes Pratiques de Dispensation d'Oxygène"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-50
+* compose.include[=].concept[=].display = "Pharmacien adjoint Bonnes Pratiques de Dispensation d'Oxygène"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-51
+* compose.include[=].concept[=].display = "Remplacement partiel"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-52
+* compose.include[=].concept[=].display = "Etudiant militaire"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-53
+* compose.include[=].concept[=].display = "Médecin assistant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-54
+* compose.include[=].concept[=].display = "Permanence des soins"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-55
+* compose.include[=].concept[=].display = "Participation libérale aux missions de service public d'un établissement de santé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-56
+* compose.include[=].concept[=].display = "Intervention libérale dans le cadre d'un GCS"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-57
+* compose.include[=].concept[=].display = "Docteur junior"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[=].concept[+].code = #FON-AU
+* compose.include[=].concept[=].display = "Fonction non définie"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.17"
+* compose.include[+].system = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
+* compose.include[=].concept[0].code = #300
+* compose.include[=].concept[=].display = "Assistant de service social (PAERPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #301
+* compose.include[=].concept[=].display = "Coordination territoriale d'appui (PAERPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #302
+* compose.include[=].concept[=].display = "Aide et accompagnement à domicile (PAERPA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #303
+* compose.include[=].concept[=].display = "Avocat participant aux processus de soins sans consentement (eSSS)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #304
+* compose.include[=].concept[=].display = "Assistant de service social (Expérimentation MAIA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #305
+* compose.include[=].concept[=].display = "Psychologue (Expérimentation MAIA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #306
+* compose.include[=].concept[=].display = "Psychothérapeute (Expérimentation MAIA)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #307
+* compose.include[=].concept[=].display = "Mandataire judiciaire à la protection des majeurs (MJPM)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #308
+* compose.include[=].concept[=].display = "Pilote MAIA"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #309
+* compose.include[=].concept[=].display = "Gestionnaire de cas MAIA"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #310
+* compose.include[=].concept[=].display = "Equipe médico-sociale APA"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #311
+* compose.include[=].concept[=].display = "Autre acteur mettant en oeuvre la méthode MAIA"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #312
+* compose.include[=].concept[=].display = "Autre professionnel"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #313
+* compose.include[=].concept[=].display = "Aide-soignant"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #314
+* compose.include[=].concept[=].display = "Ambulancier"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #315
+* compose.include[=].concept[=].display = "Auxiliaire de puériculture"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #316
+* compose.include[=].concept[=].display = "Préparateur en pharmacie hospitalière"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #317
+* compose.include[=].concept[=].display = "Préparateur en pharmacie (officine)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #318
+* compose.include[=].concept[=].display = "Auxiliaire de vie sociale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #319
+* compose.include[=].concept[=].display = "Technicien de l'intervention sociale et familiale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #320
+* compose.include[=].concept[=].display = "Conseiller en économie sociale et familiale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #321
+* compose.include[=].concept[=].display = "Médiateur familial"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #322
+* compose.include[=].concept[=].display = "Assistant familial"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #323
+* compose.include[=].concept[=].display = "Aide médico-psychologique (AMP)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #324
+* compose.include[=].concept[=].display = "Moniteur éducateur"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #325
+* compose.include[=].concept[=].display = "Educateur de jeunes enfants"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #326
+* compose.include[=].concept[=].display = "Educateur spécialisé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #327
+* compose.include[=].concept[=].display = "Educateur technique spécialisé"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #328
+* compose.include[=].concept[=].display = "Accompagnant éducatif et social"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #329
+* compose.include[=].concept[=].display = "Conseiller en génétique"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #350
+* compose.include[=].concept[=].display = "Aide à domicile"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #351
+* compose.include[=].concept[=].display = "Assistant(e) maternel(le)"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
+* compose.include[=].concept[+].code = #352
+* compose.include[=].concept[=].display = "Autre salarié de la structure sociale"
+* compose.include[=].concept[=].designation.use.code = #OID
+* compose.include[=].concept[=].designation.value = "urn:oid:1.2.250.1.213.1.6.1.107"
