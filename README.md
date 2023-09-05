@@ -1,13 +1,13 @@
 [![Workflow sushi/test/deploy](https://github.com/ansforge/IG-NOS/actions/workflows/fhir-worklows.yml/badge.svg)](https://github.com/ansforge/IG-NOS/actions/workflows/fhir-worklows.yml)
 
 # Contexte
-En cours de contruction
-## Contexte métier du projet
+Ce guide d'implementation correspond à l'ensemble des terminologies et jeux de valeurs gérés par ontoserser.
+## NOS : Contexte métier du projet
 Les nomenclatures des objets de santé (NOS) sont indissociables du Modèle des Objets de Santé (MOS) et sont mises à disposition du secteur santé-social par l’agence du numérique en santé.
 
 Les NOS reposent sur un système de codification (code et libellé) des éléments structurés du MOS (catégorie d'établissement, profession, etc.).
 
-## Contexte technique du projet
+### Contexte technique du projet
 Les NOS sont découpées en trois familles :
 
 * **Les terminologies de référence (TRE)** sont des nomenclatures officielles créées et maintenues 
