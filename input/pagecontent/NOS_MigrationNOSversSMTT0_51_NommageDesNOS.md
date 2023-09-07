@@ -145,7 +145,7 @@ Cela se traduit par un espace de nom pour chaque nomenclature et à l'intérieur
 
 Exemple des fichiers de la nomenclature TRE_A03-ClassDocument :
 
-<center><img src="images/NOS_MigVersSMT_ExempleStockageExistant.jpg" alt="Exemple URL NOS - Existant" width=600 height=400/>
+<center><img src="/NOS_MigVersSMT_ExempleStockageExistant.jpg" alt="Exemple URL NOS - Existant" width=600 height=400/>
 
 <b>Exemple URL NOS - Existant</b>
 </center>
@@ -213,7 +213,7 @@ A compléter
 ### Image de l'existant 
 
 
-<center><img src="images/NOS_MigVersSMT_NommageExistant.jpg" alt="Exemple de nommage d'une nomenclature sur le JDV_J53 - Existant" width=600 height=400/>
+<center><img src="/NOS_MigVersSMT_NommageExistant.jpg" alt="Exemple de nommage d'une nomenclature sur le JDV_J53 - Existant" width=600 height=400/>
 
 <b>Exemple de nommage d'une nomenclature sur le JDV_J53 - Existant</b>
 </center>
@@ -221,7 +221,7 @@ A compléter
 
 ### Résultat attendu en cible - étape 2/3
 
-<center><img src="images/NOS_MigVersSMT_NommageProposition.jpg" alt="Exemple de nommage d'une nomenclature sur le JDV_J53 - Proposition" width=800 height=500/>
+<center><img src="/NOS_MigVersSMT_NommageProposition.jpg" alt="Exemple de nommage d'une nomenclature sur le JDV_J53 - Proposition" width=800 height=500/>
 
 <b>Exemple de nommage d'une nomenclature sur le JDV_J53 -Cible Etape 2 sur 3</b>
 </center>

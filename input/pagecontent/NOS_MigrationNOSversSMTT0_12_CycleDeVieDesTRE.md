@@ -28,7 +28,7 @@
 - Modifier une entrée de la TRE (code, type de libellé, date de modification)
 - Réactiver un code d'une TRE (code, date de fin de validité, date de modification)
 
-<center><img src="images/NOS_CycleDeVieTREExistant.jpg" alt="NOS_Cycle de vie existant d'une TRE" width=600 height=400/>
+<center><img src="/NOS_CycleDeVieTREExistant.jpg" alt="NOS_Cycle de vie existant d'une TRE" width=600 height=400/>
 
 <b>Cycle de vie d'une nomenclature TRE - Existant</b>
 </center>
@@ -45,7 +45,7 @@
 - Desativer une entrée de la TRE (code concept, statut)
 - Modifier une entrée de la TRE (code concept, display, designation 1 , désignation 2, traduction)
 
-<center><img src="images/NOS_CycleDeVieTREOnSMT.jpg" alt="NOS_Cycle de vie d'une TRE dans le SMT" width=600 height=400/>
+<center><img src="/NOS_CycleDeVieTREOnSMT.jpg" alt="NOS_Cycle de vie d'une TRE dans le SMT" width=600 height=400/>
 
 <b>Cycle de vie d'une nomenclature TRE - Dans le SMT</b>
 </center>

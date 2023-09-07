@@ -17,7 +17,7 @@
 - Ajouter une entrée dans le JDV (ref TRE, code , libellé retenu)
 - Retirer une entrée du JDV (ref TRE, code)
 
-<center><img src="images/NOS_CycleDeVieJDVExistant.jpg" alt="NOS_Cycle de vie existant d'un JDV" width=600 height=400/>
+<center><img src="/NOS_CycleDeVieJDVExistant.jpg" alt="NOS_Cycle de vie existant d'un JDV" width=600 height=400/>
 
 <b>Cycle de vie d'une nomenclature JDV - Existant</b>
 </center>
@@ -33,7 +33,7 @@
 - Ajouter une entrée dans le JDV (ref TRE, code , libellé retenu)
 - Retirer une entrée du JDV (ref TRE, code)
 
-<center><img src="images/NOS_CycleDeVieJDVOnSMT.jpg" alt="NOS_Cycle de vie d'un Jeu de valeurs dans le SMT" width=600 height=400/>
+<center><img src="/NOS_CycleDeVieJDVOnSMT.jpg" alt="NOS_Cycle de vie d'un Jeu de valeurs dans le SMT" width=600 height=400/>
 
 <b>Cycle de vie d'un jeu de valeurs - Dans le SMT</b>
 </center>
