@@ -17,7 +17,7 @@ Jeu de valeur applicatif : Jeu de valeurs certifié dans un ensembles d'usages p
 Jeu de valeurs fonctionnels :Lorsque le jeu de valeurs représente des valeurs d'un noeud d'une Terminologie de référence et non de l'ensemble de la terminologie.
 
 Exemple :
-<center><img src="/NOS_ExempleJeuDeValeurs.jpg" alt="NOS_exemple d'un jeu de valeurs" width=800 height=400/>
+<center><img src="NOS_ExempleJeuDeValeurs.jpg" alt="NOS_exemple d'un jeu de valeurs" width=800 height=400/>
 
 <b>Exemple de jeu de valeur  - Existant</b>
 </center>

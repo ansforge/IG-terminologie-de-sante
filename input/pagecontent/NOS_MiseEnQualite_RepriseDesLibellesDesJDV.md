@@ -24,7 +24,7 @@ Exemple :
 Dans cet exemple, le JDV J247 fait bien référence au libellé adapté du code pays "Afrique du Sud" de la TRE_R20_Pays alors que le JDV J74 fait référence au libellé long.
 
 <br>
-<center><img src="/NOS_MiseEnQualiteDesLibellesDesJDV.jpg" alt="NOS JDV Existant - Choix du libellé " width=700 height=400/>
+<center><img src="NOS_MiseEnQualiteDesLibellesDesJDV.jpg" alt="NOS JDV Existant - Choix du libellé " width=700 height=400/>
 
 <b>NOS - Existant - Exemple de JDV avec des libellés différents </b>
 </center>

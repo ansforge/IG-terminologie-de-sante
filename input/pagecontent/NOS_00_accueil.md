@@ -70,7 +70,7 @@ La migration des NOS dans le SMT entraîne des modifications dans la structure, 
 
 
 ## Planning S2 2023
-<center><img src="images/NOS_MigVersSMT_planning.jpg" alt="NOS_Planning NOS de la migration vers le SMT" width=600 height=400/>
+<center><img src="NOS_MigVersSMT_planning.jpg" alt="NOS_Planning NOS de la migration vers le SMT" width=600 height=400/>
 
 <b>Planning NOS de la migration vers le SMT</b>
 </center>

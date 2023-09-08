@@ -19,7 +19,7 @@
 - Il faut recodifier toutes les TRE externes qui sont déjà traduites (peu de cas)
 
 <br>
-<center><img src="/NOS_MigVersSMT_ImpactsSurLaStructureDesTRE.jpg" alt="NOS Migration vers le SMT : Impacts Sur La Structure DesTRE" width=600 height=400/>
+<center><img src="NOS_MigVersSMT_ImpactsSurLaStructureDesTRE.jpg" alt="NOS Migration vers le SMT : Impacts Sur La Structure DesTRE" width=600 height=400/>
 
 <b>Migration des NOS vers le SMT : Impacts sur la structure des TRE</b>
 </center>

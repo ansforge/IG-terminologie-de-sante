@@ -21,7 +21,7 @@ Critique de l'existant :
 - Des contrôles manuels sur la constitution des JDV des NOS ne permettent pas une qualité optimale
 - Pas de gestion de version 
 
-<center><img src="/NOS_MigrationVersSMT_Existant.jpg" alt="NOS_Vue des NOS et du SMT aujourd'hui pour les nomenclatures NOS" width=500 height=300/>
+<center><img src="NOS_MigrationVersSMT_Existant.jpg" alt="NOS_Vue des NOS et du SMT aujourd'hui pour les nomenclatures NOS" width=500 height=300/>
 
 <b>Vue des NOS et du SMT aujourd'hui pour les nomenclatures NOS</b>
 </center>
@@ -59,7 +59,7 @@ Limites :
 
 
 <br>
-<center><img src="/NOS_MigrationVersSMT_Etape1.jpg" alt="NOS_Peuplement des NOS dans le SMT " width=500 height=300/>
+<center><img src="NOS_MigrationVersSMT_Etape1.jpg" alt="NOS_Peuplement des NOS dans le SMT " width=500 height=300/>
 
 <b>Peuplement des NOS dans le SMT</b>
 </center>
@@ -81,7 +81,7 @@ Résultats attendus:
 
 
 <br>
-<center><img src="/NOS_MigrationVersSMT_Etape2.jpg" alt="NOS_Constitution des Terminologies de référence par Unité de production ANS " width=500 height=300/>
+<center><img src="NOS_MigrationVersSMT_Etape2.jpg" alt="NOS_Constitution des Terminologies de référence par Unité de production ANS " width=500 height=300/>
 
 <b>Constitution des Terminologies de référence par Unité de production ANS</b>
 </center>
