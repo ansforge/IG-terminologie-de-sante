@@ -89,6 +89,15 @@
   <li>
     <a href="index.html">Accueil</a>
   </li>
+  <li>
+    <a href="tre.html">Terminologies de référence</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">NOS
       <b class="caret"></b>
@@ -128,15 +137,6 @@
         <a href="NOS_MiseEnQualiteCorrectionDuMappingNOSversFhir.html">Mapping NOS to FHIR</a>
       </li>
     </ul>
-  </li>
-  <li>
-    <a href="tre.html">Terminologies de référence</a>
-  </li>
-  <li>
-    <a href="jdv.html">Jeux de valeurs</a>
-  </li>
-  <li>
-    <a href="ass.html">Association</a>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
@@ -208,7 +208,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!--ReleaseHeader--><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p><!--EndReleaseHeader-->
   <h2>Accueil</h2>
   
-  
+
+
+
+
+
 
   <table class="colsi">
 
@@ -239,160 +243,81 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">NOS</span></td>
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">Terminologie</span></td>
     </tr>
 
 
 
 
   </table>
-  
-  
-  
-  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#1">Nomenclatures des objets de Santé (NOS)</a></li><li><a href="#evolution">SMT</a></li></ul></div>
-<a name="intro">  </a>
-<p>
-	<ul>Dans ce guide, nous retrouvons l'ensemble des termminologies de santé plubliés par l'ANS : 
-<li>NOS</li>
-<li> SMT</li>
-	<li>HL7</li>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#les-nomenclatures-des-objets-de-santé-nos" id="markdown-toc-les-nomenclatures-des-objets-de-santé-nos">Les Nomenclatures des Objets de Santé (NOS)</a></li>
+  <li><a href="#le-serveur-multi-terminologies-smt" id="markdown-toc-le-serveur-multi-terminologies-smt">Le Serveur Multi Terminologies (SMT)</a></li>
 </ul>
-</p>
-
-<a name="1"/><h3>Nomenclatures des objets de Santé (NOS)</h3>
-<p>Les nomenclatures des objets de santé (NOS) sont indissociables du Modèle des Objets de Santé (MOS) et sont mises à disposition du secteur santé-social par l’agence du numérique en santé. Les NOS reposent sur un système de codification (code et libellé) des éléments structurés du MOS (catégorie d'établissement, profession, etc.).
-</p>
-<a name="indicateur">  </a>
-<h4>Indicateur</h4>
-<p>Chaque mois, les indicateurs sont mis à jour comptabilisant le nombre de nomenclatures présentes : terminologie de référence, jeux de valeurs et tables d’association. Les NOS sont disponibles en plusieurs formats : PDF, CSV (.tabs), XML, SVS, XML/FHIR et JSON/FHIR.
-</p>
-
-<a name="referentiel">  </a>
-<h4>Un référentiel commun</h4>
-<p>Les NOS sont découpées en trois familles :
-
-<ul>
-	<li><b>Les terminologies de référence (TRE) </b>sont des nomenclatures officielles créées et maintenues :
-	<ul>
-		<li>soit par l'agence du numérique en santé qui en est propriétaire. <br/>
-		Par exemple, la TRE_R87-TypeCarte est une nomenclature regroupant les différents types de cartes des professionnels (CPx) fournies par l’agence du numérique en santé ;</li>
-		<li>soit par une organisation externe à l'agence du numérique en santé ; dans ce cas, l'agence du numérique en santé extrait la terminologie, la formate selon ses conventions de nommage et de structure, pour l'intégrer dans ses systèmes.</li>
-	</ul>
-	</li>
-	<li><b>Les jeux de valeurs</b> <b>(JDV)</b> sont des nomenclatures constituées de codes extraits d’une ou plusieurs TRE. Un jeu de valeurs est créé à des fins applicatives. <br/>
-	Par exemple avec les JDV du répertoire opérationnel des ressources (ROR) ou bien du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS).</li>
-	<li><b>Les tables d'association (ASS)</b> sont des tables assurant la correspondance entre les codes issus d'au moins deux TRE. <br/>
-	Par exemple, la codification des secteurs d'activité dans le répertoire ADELI est remplacée par une codification RPPS. Cette migration nécessite de créer une table associant les codes de secteurs d’activité ADELI à ceux des secteurs d’activité RPPS.</li>
-</ul>
-Pour plus d'informations sur la constitution de ces nomenclatures, se reporter au document « Conventions de nommage et de structure des nomenclatures et des tables ».
-</p>
-<a name="evolution">  </a>
-<h4>Des évolutions constantes et une publication mensuelle</h4>
-<p>Les nomenclatures des objets de santé sont sujettes à des mises à jour continues pour suivre au mieux les évolutions des différents domaines. Ces mises à jour suivent un processus formalisé au sein de l’agence du numérique en santé et sont publiées mensuellement. Le document « Historique des modifications des NOS » recense toutes les mises à jour des NOS, triées par date de publication.
-    <table>
-		<tr>
-			<td align="center"><img alt="" data-align="center" src="Process_1.png"/></td>
-		</tr>
-	</table>	
-</p>
-<a name="avantage">  </a>
-<h4>Un avantage pour les acteurs de la e-santé</h4>
-<p>Depuis sa publication en septembre 2013, la nomenclature des acteurs de santé (NAS) avait gardé un périmètre circonscrit aux acteurs de santé. Les NOS, remplacent la NAS et étendent le périmètre d'origine en couvrant désormais les nomenclatures associées aux :
-</p>
-<p>
-	<ul>
-		<li>attributs du modèle des objets de santé (MOS) dont les valeurs sont codifiées ;</li>
-		<li>nomenclatures et tables des systèmes ou domaines sur lesquels l'agence du numérique en santé est amenée à intervenir, tels que :
-			<ul>
-				<li>le Répertoire Partagé des Professionnels de Santé (RPPS), pour les nomenclatures spécifiques à des objets de son périmètre ;</li>
-				<li>le Répertoire Opérationnel des Ressources (ROR), avec toutes les nomenclatures relatives aux offres de soins ;</li>
-				<li>le système d'information des Cartes de Professionnel de Santé (SI-CPS), concernant les nomenclatures spécifiques aux cartes CPx et aux certificats des infrastructures de gestion de clés de l'agence du numérique en santé ;</li>
-				<li>le cadre d'interopérabilité des systèmes d'information de santé (CI-SIS) pour les nomenclatures créées pour les besoins des volets techniques.</li>
-			</ul>
-		</li>
-</ul>
-</p>
-<p>Le recours aux NOS permet également aux acteurs de santé, consommateurs de données de:
-</p>
-<p>
-	<ul>
-		<li>connaitre l’historique des termes avec l’indication d’une date d’obsolescence lorsque le code n'est plus utilisé (la suppression des codes est interdite);</li>
-		<li>s’accorder à tout environnement en proposant trois types de libellé :
-			<ul>
-				<li>Adapté, qui a comme vocation d’être le plus compréhensible pour un acteur humain ;</li>
-				<li>Court, utilisable par les systèmes avec des problèmes de ressources ;</li>
-				<li>Long, compatible avec les dispositifs mobiles.</li>
-			</ul>
-		</li>
-	</ul>
-</p>
-   <table>
-		<tr>
-			<td align="center"><img alt="" data-align="center" height="615" width="531" src="MicrosoftTeams-image.png"/></td>
-		</tr>
-	</table>
-	<p>Pour nous écrire : <a href="mailto:ANS-NOS-GESTION-DM@esante.gouv.fr">ANS-NOS-GESTION-DM@esante.gouv.fr</a></p>
-
-<p style="margin-bottom:11px"/>
-
-<p align="center" style="text-align:center"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:&#34;Calibri&#34;,sans-serif"><i><span style="font-size:12.0pt"><span style="font-family:&#34;Times New Roman&#34;,serif">" Ce que l'on conçoit bien s'énonce clairement "<br/>
-Nicolas Boileau</span></span></i></span></span></span></p>
-	
-<a name="evolution">  </a>
-<h3>SMT</h3>
-
-<a name="evolution">  </a>
-<h4>Consultez le catalogues des terminologies</h4>
-<p>
-	Lien vers le SMT : <a href="https://smt.esante.gouv.fr/catalogue-des-terminologies/"/>
-</p>
-
-<a name="evolution">  </a>
-<h4>Qu'est-ce que le Serveur Multi-Terminologies?</h4>
-<p>
-	L’Agence du numérique en Santé (ANS) est chargée de l'application de la politique de e-santé en France. Cette démarche est à mettre en lien avec le volet numérique du Ségur de la Santé. Afin de garantir les droits des usagers, nous définissons le cadre et les règles qui garantissent la sécurité et l’interopérabilité de nos systèmes d’information de santé.
-	Acteurs de santé, industriels du secteur sanitaire, pour échanger de manière efficace, vous devez parler le même langage. Pour cela, nous mettons à votre disposition notre Serveur Multi-Terminologies. Cet espace de publication de ressources sémantiques est indispensable à la dématérialisation de notre système de soins.
-	Le SMT donne accès à différents types de ressources (dictionnaires, taxonomies, thésaurus, terminologies et ontologies) du domaine santé-social.
-	Notre espace de publication des terminologies de santé regroupe, à travers un guichet unique, plusieurs outils et services :
-	
-	* Un catalogue de terminologies standardisées s’appuyant sur les critères du web sémantique ; 
-	* Une plateforme de formation dédiée à l’amélioration des connaissances autour des terminologies de santé ; 
-	* L’actualité récente en matière de concepts et de termes spécifique au domaine de la la santé ;
-	* La liste des API (interface de programmation interactive) disponibles pour communiquer avec le serveur ;
-	* Un SPARQL (SPARQL Protocol and RDF Query Language), langage informatique normalisé servant à rechercher les terminologies indexées dans le SMT. 
-	* Un service d’aide à la recherche des terminologies et des concepts s’y référant.
-</p>
-
-<a name="evolution">  </a>
-<h4>Une diffusion standardisée des terminologies de santé.</h4>
-<p>
-	Il existe une grande quantité de termes spécifiques au secteur sanitaire et social. La mise en commun des ressources sémantiques par le biais de notre serveur informatique va dans le sens de la dématérialisation des pratiques de santé. Une terminologie unique est ainsi nécessaire à la coordination des soins, à la recherche médicale ou encore à la gestion économique d’un établissement de santé.
-	</p>
-
-	<a name="evolution">  </a>
-	<h4>Un point d’entrée unique et institutionnel à destination de tous.</h4>
-	<p>
-		Les pages du SMT sont ouvertes aussi bien aux acteurs de santé qu’au grand public.
-		Leur accès est facilité par une adresse unique.
-	</p>
-
-	<a name="evolution">  </a>
-	<h4> Une gestion centralisée</h4>
-	<p>
-		L’hébergement et la gestion de l’ensemble des terminologies sont réunies au sein d’une même entité : le Centre de Gestion des Terminologies de Santé (CGST).
-	</p>
-	<a name="evolution">  </a>
-	<h4>Une amélioration des processus de gestion et de diffusion des terminologies </h4>
-	<p>
-		L’Agence du Numérique en Santé veille à l’administration et à la publication des terminologies. Elle assure le suivi et l’amélioration continue du SMT en mettant en place l’organisation des certifications et des labels destinés aux logiciels métiers auxquels ont recours les institutions.
-		Elle s’appuie aussi sur des critères d’évaluation précis et spécifiques à la terminologie.
-	</p>
-
-
-
-
 
 </div>
+
+<p>Dans ce guide, nous retrouvons l’ensemble des termminologies de santé et jeux de valeurs plubliés par l’ANS :</p>
+<ul>
+  <li>NOS</li>
+  <li>SMT</li>
+  <li>HL7</li>
+</ul>
+
+<h3 id="les-nomenclatures-des-objets-de-santé-nos">Les Nomenclatures des Objets de Santé (NOS)</h3>
+
+<p>Les NOS de l’ANS reposent sur un système de codification (code et libellé) permettant de décrire des domaines de valeurs de certains attributs des classes du Modèle des Objets de Santé (MOS).</p>
+
+<p>Suivant de près le périmètre du MOS, l’ensemble des NOS évolue au fil des projets pour prendre en compte le vocabulaire du secteur sanitaire, des spécificités du secteur médico-administratif, médico-social et social.</p>
+
+<p>Les NOS sont de trois types :</p>
+<ul>
+  <li>Les terminologies de référence (TRE), nomenclatures officielles créées et maintenues soit par :
+    <ul>
+      <li>l’ANS qui en est propriétaire ;</li>
+      <li>une organisation externe à l’ANS.</li>
+    </ul>
+  </li>
+  <li>Les jeux de valeurs (JDV), nomenclatures constituées de codes extraits d’une ou plusieurs TRE.</li>
+  <li>Les tables d’association (ASS), tables assurant la correspondance entre les codes issus d’au moins deux TRE/JDV.</li>
+</ul>
+
+<p>Les NOS, référencées dans le MOS et dans les volets du CI-SIS, sont mises à disposition du public via le site de l’ANS à l’adresse https://mos.esante.gouv.fr/NOS/</p>
+
+<h3 id="le-serveur-multi-terminologies-smt">Le Serveur Multi Terminologies (SMT)</h3>
+
+<p>Le SMT de l’ANS est un espace d’hébergement et de gestion des terminologies de référence propres à l’ANS ou externes et offre :</p>
+
+<ul>
+  <li>Un point d’entrée unique et institutionnel à destination des professionnels et du grand publique</li>
+  <li>Plusieurs outils et services :
+    <ul>
+      <li>Un catalogue de terminologies standardisées s’appuyant sur les critères du web sémantique</li>
+      <li>Une plateforme de formation dédiée à l’amélioration des connaissances autour des terminologies de santé</li>
+      <li>L’actualité récente en matière de concepts et de termes spécifique au domaine de la santé</li>
+      <li>La liste des API (interface de programmation interactive) disponibles pour communiquer avec le serveur</li>
+      <li>Un SPARQL (SPARQL Protocol and RDF Query Language), langage informatique normalisé servant à rechercher les terminologies indexées dans le SMT</li>
+      <li>Un service d’aide à la recherche des terminologies et des concepts s’y référant.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Le SMT est accessible via le site de l’ANS à l’adresse https://industriels.esante.gouv.fr/produits-et-services/smt-serveur-multi-terminologies</p>
+
+
+
+
 </div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
@@ -450,7 +375,7 @@ Nicolas Boileau</span></span></i></span></span></span></p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 8, 2023 07:36+0000">2023-09-08</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Sep 9, 2023 14:52+0000">2023-09-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -601,6 +526,4 @@ anchors.add()</script>
   </footer>
   </body>
 </html>
-
-
 
