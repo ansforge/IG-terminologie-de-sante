@@ -1,4 +1,4 @@
-[![Workflow sushi/test/deploy](https://github.com/ansforge/IG-NOS/actions/workflows/fhir-worklows.yml/badge.svg)](https://github.com/ansforge/IG-NOS/actions/workflows/fhir-worklows.yml)
+
 
 # Contexte
 Ce guide d'implementation correspond à l'ensemble des terminologies et jeux de valeurs gérés par ontoserser.
