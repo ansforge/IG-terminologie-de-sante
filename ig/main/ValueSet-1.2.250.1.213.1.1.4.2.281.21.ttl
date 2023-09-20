@@ -1,0 +1,2230 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/1.2.250.1.213.1.1.4.2.281.21> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "1.2.250.1.213.1.1.4.2.281.21"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-09-15T12:24:08.485+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-03-15"^^xsd:date ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/JDV_Tumeur_CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.281.21" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_Tumeur_CISIS"] ; # 
+  fhir:title [ fhir:v "JDV_Tumeur_CISIS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-09-23T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "JDV_Tumeur_CISIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://smt.esante.gouv.fr/terminologie-cim-10"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "B21" ] ;
+         fhir:display [ fhir:v "Immunodéficience humaine virale [VIH], à l'origine de tumeurs malignes" ]
+       ] [
+         fhir:code [ fhir:v "B21.0" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'un sarcome de Kaposi" ]
+       ] [
+         fhir:code [ fhir:v "B21.1" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'un lymphome de Burkitt" ]
+       ] [
+         fhir:code [ fhir:v "B21.2" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'autres lymphomes non hodgkiniens" ]
+       ] [
+         fhir:code [ fhir:v "B21.3" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'autres tumeurs malignes des tissus lymphoïde, hématopoïétique et apparentés" ]
+       ] [
+         fhir:code [ fhir:v "B21.7" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine de tumeurs malignes multiples" ]
+       ] [
+         fhir:code [ fhir:v "B21.8" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'autres tumeurs malignes" ]
+       ] [
+         fhir:code [ fhir:v "B21.9" ] ;
+         fhir:display [ fhir:v "Maladie par VIH à l'origine d'une tumeur maligne, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C00" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C00.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre supérieure, (bord libre)" ]
+       ] [
+         fhir:code [ fhir:v "C00.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre inférieure, (bord libre)" ]
+       ] [
+         fhir:code [ fhir:v "C00.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre, sans précision, bord libre" ]
+       ] [
+         fhir:code [ fhir:v "C00.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre supérieure, face interne" ]
+       ] [
+         fhir:code [ fhir:v "C00.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre inférieure, face interne" ]
+       ] [
+         fhir:code [ fhir:v "C00.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre, sans précision, face interne" ]
+       ] [
+         fhir:code [ fhir:v "C00.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la commissure des lèvres" ]
+       ] [
+         fhir:code [ fhir:v "C00.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C00.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C01" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la base de la langue" ]
+       ] [
+         fhir:code [ fhir:v "C02" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la langue, parties autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C02.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la face dorsale de la langue" ]
+       ] [
+         fhir:code [ fhir:v "C02.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la point et du bord latéral de la langue" ]
+       ] [
+         fhir:code [ fhir:v "C02.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la face antérieure de la langue" ]
+       ] [
+         fhir:code [ fhir:v "C02.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des deux tiers antérieurs de la langue, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C02.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'une amygdale linguale" ]
+       ] [
+         fhir:code [ fhir:v "C02.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la langue" ]
+       ] [
+         fhir:code [ fhir:v "C02.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la langue, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C03" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la gencive" ]
+       ] [
+         fhir:code [ fhir:v "C03.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la gencive supérieure" ]
+       ] [
+         fhir:code [ fhir:v "C03.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la gencive inférieure" ]
+       ] [
+         fhir:code [ fhir:v "C03.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la gencive, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C04" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du plancher de la bouche" ]
+       ] [
+         fhir:code [ fhir:v "C04.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du plancher antérieur de la bouche" ]
+       ] [
+         fhir:code [ fhir:v "C04.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du plancher latéral de la bouche" ]
+       ] [
+         fhir:code [ fhir:v "C04.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du plancher de la bouche" ]
+       ] [
+         fhir:code [ fhir:v "C04.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du plancher de la bouche, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C05" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du palais" ]
+       ] [
+         fhir:code [ fhir:v "C05.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la voûte palatine" ]
+       ] [
+         fhir:code [ fhir:v "C05.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du voile du palais" ]
+       ] [
+         fhir:code [ fhir:v "C05.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la luette" ]
+       ] [
+         fhir:code [ fhir:v "C05.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du palais" ]
+       ] [
+         fhir:code [ fhir:v "C05.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du palais, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C06" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la bouche, parties autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C06.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la muqueuse de la joue" ]
+       ] [
+         fhir:code [ fhir:v "C06.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du vestibule de la bouche" ]
+       ] [
+         fhir:code [ fhir:v "C06.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la région rétromolaire" ]
+       ] [
+         fhir:code [ fhir:v "C06.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la bouche, parties autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C06.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la bouche, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C07" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande parotide" ]
+       ] [
+         fhir:code [ fhir:v "C08" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des glandes salivaires principales, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C08.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande sous-maxillaire" ]
+       ] [
+         fhir:code [ fhir:v "C08.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande sublinguale" ]
+       ] [
+         fhir:code [ fhir:v "C08.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des glandes salivaires principales" ]
+       ] [
+         fhir:code [ fhir:v "C08.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande salivaire (principale), sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C09" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'amygdale" ]
+       ] [
+         fhir:code [ fhir:v "C09.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la fosse amygdalienne" ]
+       ] [
+         fhir:code [ fhir:v "C09.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pilier de l'amygdale (antérieur) (postérieur)" ]
+       ] [
+         fhir:code [ fhir:v "C09.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'amygdale" ]
+       ] [
+         fhir:code [ fhir:v "C09.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'amygdale, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C10" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oropharynx" ]
+       ] [
+         fhir:code [ fhir:v "C10.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sillon glosso-épiglottique" ]
+       ] [
+         fhir:code [ fhir:v "C10.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la face antérieure de l'épiglotte" ]
+       ] [
+         fhir:code [ fhir:v "C10.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi latérale de l'oropharynx" ]
+       ] [
+         fhir:code [ fhir:v "C10.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi postérieure de l'oropharynx" ]
+       ] [
+         fhir:code [ fhir:v "C10.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la fente branchiale" ]
+       ] [
+         fhir:code [ fhir:v "C10.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'oropharynx" ]
+       ] [
+         fhir:code [ fhir:v "C10.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oropharynx, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C11" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi supérieure du rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi postérieure du rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi latérale du rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi antérieure du rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de rhinopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C11.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rhinopharynx, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C12" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sinus piriforme" ]
+       ] [
+         fhir:code [ fhir:v "C13" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'hypopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C13.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la région rétro-cricoïdienne" ]
+       ] [
+         fhir:code [ fhir:v "C13.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du repli ary-épiglottique, (versant hypopharyngé)" ]
+       ] [
+         fhir:code [ fhir:v "C13.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi postérieure de l'hypopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C13.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'hypopharynx" ]
+       ] [
+         fhir:code [ fhir:v "C13.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'hypopharynx, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C14" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la lèvre, de la cavité buccale et du pharynx, de sièges autres et mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C14.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pharynx, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C14.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'anneau de Waldeyer" ]
+       ] [
+         fhir:code [ fhir:v "C14.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la lèvre, de la cavité buccale et du pharynx" ]
+       ] [
+         fhir:code [ fhir:v "C15" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "C15.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oesophage cervical" ]
+       ] [
+         fhir:code [ fhir:v "C15.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oesophage thoracique" ]
+       ] [
+         fhir:code [ fhir:v "C15.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oesophage abdominal" ]
+       ] [
+         fhir:code [ fhir:v "C15.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tiers supérieur de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "C15.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tiers moyen de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "C15.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tiers inférieur de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "C15.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "C15.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oesophage, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C16" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "C16.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cardia" ]
+       ] [
+         fhir:code [ fhir:v "C16.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du fundus" ]
+       ] [
+         fhir:code [ fhir:v "C16.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "C16.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'antre pylorique" ]
+       ] [
+         fhir:code [ fhir:v "C16.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pylore" ]
+       ] [
+         fhir:code [ fhir:v "C16.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la petite courbure de l'estomac, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C16.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la grande courbure de l'estomac, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C16.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "C16.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'estomac, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C16.9+0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'estomac, familiale liée au gène CDH 1" ]
+       ] [
+         fhir:code [ fhir:v "C16.9+8" ] ;
+         fhir:display [ fhir:v "Tumeurs malignes de l'estomac, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C17" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'intestin grêle" ]
+       ] [
+         fhir:code [ fhir:v "C17.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du duodénum" ]
+       ] [
+         fhir:code [ fhir:v "C17.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du jéjunum" ]
+       ] [
+         fhir:code [ fhir:v "C17.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'iléon" ]
+       ] [
+         fhir:code [ fhir:v "C17.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du diverticule de Meckel" ]
+       ] [
+         fhir:code [ fhir:v "C17.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'intestin grêle" ]
+       ] [
+         fhir:code [ fhir:v "C17.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'intestin grêle, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C18" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon" ]
+       ] [
+         fhir:code [ fhir:v "C18.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cæcum" ]
+       ] [
+         fhir:code [ fhir:v "C18.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'appendice" ]
+       ] [
+         fhir:code [ fhir:v "C18.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon ascendant" ]
+       ] [
+         fhir:code [ fhir:v "C18.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'angle droit du côlon" ]
+       ] [
+         fhir:code [ fhir:v "C18.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon transverse" ]
+       ] [
+         fhir:code [ fhir:v "C18.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'angle gauche du côlon" ]
+       ] [
+         fhir:code [ fhir:v "C18.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon descendant" ]
+       ] [
+         fhir:code [ fhir:v "C18.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon sigmoïde" ]
+       ] [
+         fhir:code [ fhir:v "C18.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du côlon" ]
+       ] [
+         fhir:code [ fhir:v "C18.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du côlon, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C18.9+0" ] ;
+         fhir:display [ fhir:v "Syndrome de Lynch" ]
+       ] [
+         fhir:code [ fhir:v "C18.9+8" ] ;
+         fhir:display [ fhir:v "Tumeurs malignes du côlon, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C19" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la jonction recto-sigmoïdienne" ]
+       ] [
+         fhir:code [ fhir:v "C20" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rectum" ]
+       ] [
+         fhir:code [ fhir:v "C21" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'anus et du canal anal" ]
+       ] [
+         fhir:code [ fhir:v "C21.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'anus, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C21.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du canal anal" ]
+       ] [
+         fhir:code [ fhir:v "C21.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la zone cloacale" ]
+       ] [
+         fhir:code [ fhir:v "C21.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du rectum, de l'anus et du canal anal" ]
+       ] [
+         fhir:code [ fhir:v "C22" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du foie et des voies biliaires intrahépatiques" ]
+       ] [
+         fhir:code [ fhir:v "C22.0" ] ;
+         fhir:display [ fhir:v "Carcinome hépatocellulaire" ]
+       ] [
+         fhir:code [ fhir:v "C22.1" ] ;
+         fhir:display [ fhir:v "Carcinome du canal biliaire intrahépatique" ]
+       ] [
+         fhir:code [ fhir:v "C22.2" ] ;
+         fhir:display [ fhir:v "Hépatoblastome" ]
+       ] [
+         fhir:code [ fhir:v "C22.3" ] ;
+         fhir:display [ fhir:v "Angiosarcome du foie" ]
+       ] [
+         fhir:code [ fhir:v "C22.4" ] ;
+         fhir:display [ fhir:v "Autres sarcomes du foie" ]
+       ] [
+         fhir:code [ fhir:v "C22.7" ] ;
+         fhir:display [ fhir:v "Autres carcinomes du foie précisés" ]
+       ] [
+         fhir:code [ fhir:v "C22.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du foie, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C23" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la vésicule biliaire" ]
+       ] [
+         fhir:code [ fhir:v "C24" ] ;
+         fhir:display [ fhir:v "Tumeurs malignes des voies biliaires, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C24.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du canal biliaire extra-hépatique" ]
+       ] [
+         fhir:code [ fhir:v "C24.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'ampoule de Vater" ]
+       ] [
+         fhir:code [ fhir:v "C24.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des voies biliaires" ]
+       ] [
+         fhir:code [ fhir:v "C24.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des voies biliaires, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C25" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la tête du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la queue du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du canal pancréatique" ]
+       ] [
+         fhir:code [ fhir:v "C25.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas endocrine" ]
+       ] [
+         fhir:code [ fhir:v "C25.4+0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas endocrine avec néoplasie endocrine multiple de type I [NEM 1]" ]
+       ] [
+         fhir:code [ fhir:v "C25.4+8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas endocrine, autre et non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C25.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'autres parties du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du pancréas" ]
+       ] [
+         fhir:code [ fhir:v "C25.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C25.9+0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas, familiale" ]
+       ] [
+         fhir:code [ fhir:v "C25.9+8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du pancréas, autre et non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C26" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des organes digestifs, de sièges autres et mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C26.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tractus intestinal, (partie non précisée)" ]
+       ] [
+         fhir:code [ fhir:v "C26.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la rate" ]
+       ] [
+         fhir:code [ fhir:v "C26.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'appareil digestif" ]
+       ] [
+         fhir:code [ fhir:v "C26.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de sièges mal définis de l'appareil digestif" ]
+       ] [
+         fhir:code [ fhir:v "C30" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des fosses nasales et de l'oreille moyenne" ]
+       ] [
+         fhir:code [ fhir:v "C30.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des fosses nasales" ]
+       ] [
+         fhir:code [ fhir:v "C30.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oreille moyenne" ]
+       ] [
+         fhir:code [ fhir:v "C31" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des sinus de la face" ]
+       ] [
+         fhir:code [ fhir:v "C31.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sinus maxillaire" ]
+       ] [
+         fhir:code [ fhir:v "C31.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sinus ethmoïdal" ]
+       ] [
+         fhir:code [ fhir:v "C31.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sinus frontal" ]
+       ] [
+         fhir:code [ fhir:v "C31.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sinus sphénoïdal" ]
+       ] [
+         fhir:code [ fhir:v "C31.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des sinus de la face" ]
+       ] [
+         fhir:code [ fhir:v "C31.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des sinus de la face, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C32" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du larynx" ]
+       ] [
+         fhir:code [ fhir:v "C32.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glotte" ]
+       ] [
+         fhir:code [ fhir:v "C32.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'étage sus-glottique" ]
+       ] [
+         fhir:code [ fhir:v "C32.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'étage sous-glottique" ]
+       ] [
+         fhir:code [ fhir:v "C32.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cartilage laryngé" ]
+       ] [
+         fhir:code [ fhir:v "C32.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du larynx" ]
+       ] [
+         fhir:code [ fhir:v "C32.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du larynx, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C33" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la trachée" ]
+       ] [
+         fhir:code [ fhir:v "C34" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des bronches et du poumon" ]
+       ] [
+         fhir:code [ fhir:v "C34.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la bronche souche" ]
+       ] [
+         fhir:code [ fhir:v "C34.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe supérieur, bronches ou poumon" ]
+       ] [
+         fhir:code [ fhir:v "C34.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe moyen, bronches ou poumon" ]
+       ] [
+         fhir:code [ fhir:v "C34.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe inférieur, bronches ou poumon" ]
+       ] [
+         fhir:code [ fhir:v "C34.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des bronches et du poumon" ]
+       ] [
+         fhir:code [ fhir:v "C34.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de bronche ou du poumon, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C37" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du thymus" ]
+       ] [
+         fhir:code [ fhir:v "C38" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du coeur, du médiastin et de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "C38.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du coeur" ]
+       ] [
+         fhir:code [ fhir:v "C38.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du médiastin antérieur" ]
+       ] [
+         fhir:code [ fhir:v "C38.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du médiastin postérieur" ]
+       ] [
+         fhir:code [ fhir:v "C38.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du médiastin, partie non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C38.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "C38.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du coeur, du médiastin et de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "C39" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'appareil respiratoire et des organes intrathoraciques, de sièges autres et mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C39.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des voies respiratoires supérieures, partie non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C39.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des organes respiratoires et intrathoraciques" ]
+       ] [
+         fhir:code [ fhir:v "C39.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de sièges mal définis de l'appareil respiratoire" ]
+       ] [
+         fhir:code [ fhir:v "C40" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os et du cartilage articulaire des membres" ]
+       ] [
+         fhir:code [ fhir:v "C40.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'omoplate et des os longs du membre supérieur" ]
+       ] [
+         fhir:code [ fhir:v "C40.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os courts du membre supérieur" ]
+       ] [
+         fhir:code [ fhir:v "C40.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os longs du membre inférieur" ]
+       ] [
+         fhir:code [ fhir:v "C40.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os courts du membre inférieur" ]
+       ] [
+         fhir:code [ fhir:v "C40.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des os et du cartilage articulaire des membres" ]
+       ] [
+         fhir:code [ fhir:v "C40.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os et du cartilage articulaire d'un membre, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C41" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os et du cartilage articulaire, de sièges autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C41.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os du crâne et de la face" ]
+       ] [
+         fhir:code [ fhir:v "C41.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la mandibule" ]
+       ] [
+         fhir:code [ fhir:v "C41.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rachis" ]
+       ] [
+         fhir:code [ fhir:v "C41.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des côtes, du sternum et de la clavicule" ]
+       ] [
+         fhir:code [ fhir:v "C41.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os du pelvis, du sacrum et du coccyx" ]
+       ] [
+         fhir:code [ fhir:v "C41.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des os et du cartilage articulaire" ]
+       ] [
+         fhir:code [ fhir:v "C41.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des os et du cartilage articulaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C43" ] ;
+         fhir:display [ fhir:v "Mélanome malin de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C43.0" ] ;
+         fhir:display [ fhir:v "Mélanome malin de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C43.1" ] ;
+         fhir:display [ fhir:v "Mélanome malin de la paupière, y compris le canthus" ]
+       ] [
+         fhir:code [ fhir:v "C43.2" ] ;
+         fhir:display [ fhir:v "Mélanome malin de l'oreille et du conduit auditif externe" ]
+       ] [
+         fhir:code [ fhir:v "C43.3" ] ;
+         fhir:display [ fhir:v "Mélanome malin de la face, parties autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C43.4" ] ;
+         fhir:display [ fhir:v "Mélanome malin du cuir chevelu et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C43.5" ] ;
+         fhir:display [ fhir:v "Mélanome malin du tronc" ]
+       ] [
+         fhir:code [ fhir:v "C43.6" ] ;
+         fhir:display [ fhir:v "Mélanome malin du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "C43.7" ] ;
+         fhir:display [ fhir:v "Mélanome malin du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "C43.8" ] ;
+         fhir:display [ fhir:v "Lésion à localisations contiguës d'un mélanome malin de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C43.9" ] ;
+         fhir:display [ fhir:v "Mélanome malin de la peau, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C44" ] ;
+         fhir:display [ fhir:v "Autres tumeurs malignes de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C44.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la face cutanée de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C44.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau de la paupière, y compris le canthus" ]
+       ] [
+         fhir:code [ fhir:v "C44.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau de l'oreille et du conduit auditif externe" ]
+       ] [
+         fhir:code [ fhir:v "C44.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau de la face, parties autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C44.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau du cuir chevelu et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C44.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau du tronc" ]
+       ] [
+         fhir:code [ fhir:v "C44.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "C44.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "C44.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C44.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la peau, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C45" ] ;
+         fhir:display [ fhir:v "Mésothéliome" ]
+       ] [
+         fhir:code [ fhir:v "C45.0" ] ;
+         fhir:display [ fhir:v "Mésothéliome de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "C45.1" ] ;
+         fhir:display [ fhir:v "Mésothéliome du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "C45.2" ] ;
+         fhir:display [ fhir:v "Mésothéliome du péricarde" ]
+       ] [
+         fhir:code [ fhir:v "C45.7" ] ;
+         fhir:display [ fhir:v "Mésothéliome d'autres sièges" ]
+       ] [
+         fhir:code [ fhir:v "C45.9" ] ;
+         fhir:display [ fhir:v "Mésothéliome, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C46" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi" ]
+       ] [
+         fhir:code [ fhir:v "C46.0" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C46.1" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi des tissus mous" ]
+       ] [
+         fhir:code [ fhir:v "C46.2" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi du palais" ]
+       ] [
+         fhir:code [ fhir:v "C46.3" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi des ganglions lymphatiques" ]
+       ] [
+         fhir:code [ fhir:v "C46.7" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi d'autres sièges" ]
+       ] [
+         fhir:code [ fhir:v "C46.70" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi de la sphère O.R.L." ]
+       ] [
+         fhir:code [ fhir:v "C46.71" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi digestif" ]
+       ] [
+         fhir:code [ fhir:v "C46.72" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi pulmonaire" ]
+       ] [
+         fhir:code [ fhir:v "C46.78" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi d'autres localisations" ]
+       ] [
+         fhir:code [ fhir:v "C46.8" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi d'organes multiples" ]
+       ] [
+         fhir:code [ fhir:v "C46.9" ] ;
+         fhir:display [ fhir:v "Sarcome de Kaposi, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C47" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques et du système nerveux autonome" ]
+       ] [
+         fhir:code [ fhir:v "C47.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques de la tête, de la face et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C47.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "C47.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "C47.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques du thorax" ]
+       ] [
+         fhir:code [ fhir:v "C47.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques de l'abdomen" ]
+       ] [
+         fhir:code [ fhir:v "C47.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques du pelvis" ]
+       ] [
+         fhir:code [ fhir:v "C47.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques du tronc, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C47.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des nerfs périphériques et du système nerveux autonome" ]
+       ] [
+         fhir:code [ fhir:v "C47.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs périphériques et du système nerveux autonome, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C48" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rétropéritoine et du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "C48.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rétropéritoine" ]
+       ] [
+         fhir:code [ fhir:v "C48.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des parties précisées du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "C48.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du péritoine, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C48.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du rétropéritoine et du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "C49" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous" ]
+       ] [
+         fhir:code [ fhir:v "C49.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous de la tête, de la face et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C49.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "C49.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "C49.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous du thorax" ]
+       ] [
+         fhir:code [ fhir:v "C49.30" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des vaisseaux (sanguins) (lymphatiques) du thorax" ]
+       ] [
+         fhir:code [ fhir:v "C49.38" ] ;
+         fhir:display [ fhir:v "Autres tumeurs malignes du tissu conjonctif et autres tissus mous du thorax" ]
+       ] [
+         fhir:code [ fhir:v "C49.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous de l'abdomen" ]
+       ] [
+         fhir:code [ fhir:v "C49.40" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des vaisseaux (sanguins) (lymphatiques) de l'abdomen" ]
+       ] [
+         fhir:code [ fhir:v "C49.48" ] ;
+         fhir:display [ fhir:v "Autres tumeurs malignes du tissu conjonctif et autres tissus mous de l'abdomen" ]
+       ] [
+         fhir:code [ fhir:v "C49.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous du pelvis" ]
+       ] [
+         fhir:code [ fhir:v "C49.50" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des vaisseaux (sanguins) (lymphatiques) du bassin" ]
+       ] [
+         fhir:code [ fhir:v "C49.58" ] ;
+         fhir:display [ fhir:v "Tissu conjonctif et autres tissus mous du pelvis, autres" ]
+       ] [
+         fhir:code [ fhir:v "C49.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous du tronc, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C49.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du tissu conjonctif et des autres tissus mous" ]
+       ] [
+         fhir:code [ fhir:v "C49.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tissu conjonctif et des autres tissus mous, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C50" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du mamelon et de l'aréole" ]
+       ] [
+         fhir:code [ fhir:v "C50.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la partie centrale du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du quadrant supéro-interne du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du quadrant inféro-interne du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du quadrant supéro-externe du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du quadrant inféro-externe du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du prolongement axillaire du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du sein" ]
+       ] [
+         fhir:code [ fhir:v "C50.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du sein, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C51" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la vulve" ]
+       ] [
+         fhir:code [ fhir:v "C51.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la grande lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C51.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la petite lèvre" ]
+       ] [
+         fhir:code [ fhir:v "C51.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du clitoris" ]
+       ] [
+         fhir:code [ fhir:v "C51.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la vulve" ]
+       ] [
+         fhir:code [ fhir:v "C51.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la vulve, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C52" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du vagin" ]
+       ] [
+         fhir:code [ fhir:v "C53" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du col de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C53.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'endocol" ]
+       ] [
+         fhir:code [ fhir:v "C53.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'exocol" ]
+       ] [
+         fhir:code [ fhir:v "C53.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du col de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C53.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du col de l'utérus, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C54" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C54.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'isthme de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C54.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'endomètre" ]
+       ] [
+         fhir:code [ fhir:v "C54.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du myomètre" ]
+       ] [
+         fhir:code [ fhir:v "C54.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du fond de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C54.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës du corps de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "C54.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps de l'utérus, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C55" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'utérus, partie non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C56" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'ovaire" ]
+       ] [
+         fhir:code [ fhir:v "C57" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des organes génitaux de la femme, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C57.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'une trompe de Fallope" ]
+       ] [
+         fhir:code [ fhir:v "C57.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un ligament large" ]
+       ] [
+         fhir:code [ fhir:v "C57.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un ligament rond" ]
+       ] [
+         fhir:code [ fhir:v "C57.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un paramètre" ]
+       ] [
+         fhir:code [ fhir:v "C57.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des annexes de l'utérus, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C57.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'autres organes génitaux de la femme précisés" ]
+       ] [
+         fhir:code [ fhir:v "C57.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des organes génitaux de la femme" ]
+       ] [
+         fhir:code [ fhir:v "C57.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un organe génital de la femme, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C58" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du placenta" ]
+       ] [
+         fhir:code [ fhir:v "C60" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la verge" ]
+       ] [
+         fhir:code [ fhir:v "C60.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du prépuce" ]
+       ] [
+         fhir:code [ fhir:v "C60.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du gland" ]
+       ] [
+         fhir:code [ fhir:v "C60.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps de la verge" ]
+       ] [
+         fhir:code [ fhir:v "C60.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la verge" ]
+       ] [
+         fhir:code [ fhir:v "C60.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la verge, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C61" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la prostate" ]
+       ] [
+         fhir:code [ fhir:v "C62" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du testicule" ]
+       ] [
+         fhir:code [ fhir:v "C62.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du testicule ectopique" ]
+       ] [
+         fhir:code [ fhir:v "C62.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du testicule descendu" ]
+       ] [
+         fhir:code [ fhir:v "C62.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un testicule, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C63" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des organes génitaux de l'homme, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C63.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'épididyme" ]
+       ] [
+         fhir:code [ fhir:v "C63.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cordon spermatique" ]
+       ] [
+         fhir:code [ fhir:v "C63.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du scrotum" ]
+       ] [
+         fhir:code [ fhir:v "C63.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'autres organes génitaux de l'homme précisés" ]
+       ] [
+         fhir:code [ fhir:v "C63.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des organes génitaux de l'homme" ]
+       ] [
+         fhir:code [ fhir:v "C63.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un organe génital de l'homme, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C64" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du rein, à l'exception du bassinet" ]
+       ] [
+         fhir:code [ fhir:v "C65" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du bassinet" ]
+       ] [
+         fhir:code [ fhir:v "C66" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'uretère" ]
+       ] [
+         fhir:code [ fhir:v "C67" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du trigone de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du dôme de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi latérale de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi antérieure de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la paroi postérieure de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du col vésical" ]
+       ] [
+         fhir:code [ fhir:v "C67.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'orifice urétéral" ]
+       ] [
+         fhir:code [ fhir:v "C67.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'ouraque" ]
+       ] [
+         fhir:code [ fhir:v "C67.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "C67.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la vessie, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C68" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des organes urinaires, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C68.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'urètre" ]
+       ] [
+         fhir:code [ fhir:v "C68.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande urétrale" ]
+       ] [
+         fhir:code [ fhir:v "C68.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës des organes urinaires" ]
+       ] [
+         fhir:code [ fhir:v "C68.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un organe urinaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C69" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oeil et de ses annexes" ]
+       ] [
+         fhir:code [ fhir:v "C69.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la conjonctive" ]
+       ] [
+         fhir:code [ fhir:v "C69.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la cornée" ]
+       ] [
+         fhir:code [ fhir:v "C69.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la rétine" ]
+       ] [
+         fhir:code [ fhir:v "C69.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la choroïde" ]
+       ] [
+         fhir:code [ fhir:v "C69.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corps ciliaire" ]
+       ] [
+         fhir:code [ fhir:v "C69.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la glande lacrymale et du canal lacrymal" ]
+       ] [
+         fhir:code [ fhir:v "C69.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'orbite" ]
+       ] [
+         fhir:code [ fhir:v "C69.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'oeil et de ses annexes" ]
+       ] [
+         fhir:code [ fhir:v "C69.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'oeil, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C70" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des méninges" ]
+       ] [
+         fhir:code [ fhir:v "C70.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des méninges cérébrales" ]
+       ] [
+         fhir:code [ fhir:v "C70.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des méninges rachidiennes" ]
+       ] [
+         fhir:code [ fhir:v "C70.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des méninges, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C71" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'encéphale" ]
+       ] [
+         fhir:code [ fhir:v "C71.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cerveau, sauf lobes et ventricules" ]
+       ] [
+         fhir:code [ fhir:v "C71.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe frontal" ]
+       ] [
+         fhir:code [ fhir:v "C71.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe temporal" ]
+       ] [
+         fhir:code [ fhir:v "C71.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe pariétal" ]
+       ] [
+         fhir:code [ fhir:v "C71.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du lobe occipital" ]
+       ] [
+         fhir:code [ fhir:v "C71.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'un ventricule cérébral" ]
+       ] [
+         fhir:code [ fhir:v "C71.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cervelet" ]
+       ] [
+         fhir:code [ fhir:v "C71.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tronc cérébral" ]
+       ] [
+         fhir:code [ fhir:v "C71.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'encéphale" ]
+       ] [
+         fhir:code [ fhir:v "C71.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'encéphale, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C72" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la moelle épinière, des nerfs crâniens et d'autres parties du système nerveux central" ]
+       ] [
+         fhir:code [ fhir:v "C72.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la moelle épinière" ]
+       ] [
+         fhir:code [ fhir:v "C72.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la queue de cheval" ]
+       ] [
+         fhir:code [ fhir:v "C72.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du nerf olfactif" ]
+       ] [
+         fhir:code [ fhir:v "C72.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du nerf optique" ]
+       ] [
+         fhir:code [ fhir:v "C72.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du nerf auditif" ]
+       ] [
+         fhir:code [ fhir:v "C72.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des nerfs crâniens, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C72.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de l'encéphale et d'autres parties du système nerveux central" ]
+       ] [
+         fhir:code [ fhir:v "C72.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du système nerveux (central), sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C73" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la thyroïde" ]
+       ] [
+         fhir:code [ fhir:v "C74" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la surrénale" ]
+       ] [
+         fhir:code [ fhir:v "C74.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du cortex de la surrénale" ]
+       ] [
+         fhir:code [ fhir:v "C74.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la médullosurrénale" ]
+       ] [
+         fhir:code [ fhir:v "C74.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la surrénale, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C75" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'autres glandes endocrines et structures apparentées" ]
+       ] [
+         fhir:code [ fhir:v "C75.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de la parathyroïde" ]
+       ] [
+         fhir:code [ fhir:v "C75.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'hypophyse" ]
+       ] [
+         fhir:code [ fhir:v "C75.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du tractus cranio-pharyngien" ]
+       ] [
+         fhir:code [ fhir:v "C75.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de l'épiphyse" ]
+       ] [
+         fhir:code [ fhir:v "C75.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du corpuscule carotidien" ]
+       ] [
+         fhir:code [ fhir:v "C75.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne du glomus aortique et autres paraganglions" ]
+       ] [
+         fhir:code [ fhir:v "C75.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de plusieurs glandes endocrines, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C75.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'une glande endocrine, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C76" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de sièges autres et mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C76.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini de la tête, de la face et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C76.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini du thorax" ]
+       ] [
+         fhir:code [ fhir:v "C76.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini de l'abdomen" ]
+       ] [
+         fhir:code [ fhir:v "C76.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini du pelvis" ]
+       ] [
+         fhir:code [ fhir:v "C76.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini d'un membre supérieur" ]
+       ] [
+         fhir:code [ fhir:v "C76.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège mal défini d'un membre inférieur" ]
+       ] [
+         fhir:code [ fhir:v "C76.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne d'autres sièges mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C76.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à localisations contiguës de sièges autres et mal définis" ]
+       ] [
+         fhir:code [ fhir:v "C77" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des ganglions lymphatiques, secondaire et non précisée" ]
+       ] [
+         fhir:code [ fhir:v "C77.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques de la tête, de la face et du cou" ]
+       ] [
+         fhir:code [ fhir:v "C77.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques intrathoraciques" ]
+       ] [
+         fhir:code [ fhir:v "C77.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques intra-abdominaux" ]
+       ] [
+         fhir:code [ fhir:v "C77.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques de l'aisselle et du membre supérieur" ]
+       ] [
+         fhir:code [ fhir:v "C77.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques inguinaux et du membre inférieur" ]
+       ] [
+         fhir:code [ fhir:v "C77.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques intrapelviens" ]
+       ] [
+         fhir:code [ fhir:v "C77.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée des ganglions lymphatiques de sièges multiples" ]
+       ] [
+         fhir:code [ fhir:v "C77.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire et non précisée d'un ganglion lymphatique, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C78" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire des organes respiratoires et digestifs" ]
+       ] [
+         fhir:code [ fhir:v "C78.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du poumon" ]
+       ] [
+         fhir:code [ fhir:v "C78.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du médiastin" ]
+       ] [
+         fhir:code [ fhir:v "C78.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "C78.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire des organes respiratoires, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C78.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de l'intestin grêle" ]
+       ] [
+         fhir:code [ fhir:v "C78.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du gros intestin et du rectum" ]
+       ] [
+         fhir:code [ fhir:v "C78.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du rétropéritoine et du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "C78.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du foie et des voies biliaires intrahépatiques" ]
+       ] [
+         fhir:code [ fhir:v "C78.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire des organes digestifs, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C79" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de sièges autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C79.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du rein et du bassinet" ]
+       ] [
+         fhir:code [ fhir:v "C79.1" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de la vessie et des organes urinaires, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C79.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de la peau" ]
+       ] [
+         fhir:code [ fhir:v "C79.3" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire du cerveau et des méninges cérébrales" ]
+       ] [
+         fhir:code [ fhir:v "C79.4" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de parties du système nerveux, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C79.5" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire des os et de la moelle osseuse" ]
+       ] [
+         fhir:code [ fhir:v "C79.6" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de l'ovaire" ]
+       ] [
+         fhir:code [ fhir:v "C79.7" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de la glande surrénale" ]
+       ] [
+         fhir:code [ fhir:v "C79.8" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire d'autres sièges précisés" ]
+       ] [
+         fhir:code [ fhir:v "C79.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne secondaire de siège non précisé" ]
+       ] [
+         fhir:code [ fhir:v "C80" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège non précisé" ]
+       ] [
+         fhir:code [ fhir:v "C80.0" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège primitif inconnu, ainsi décrit" ]
+       ] [
+         fhir:code [ fhir:v "C80.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne de siège primitif non précisé" ]
+       ] [
+         fhir:code [ fhir:v "C81" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin" ]
+       ] [
+         fhir:code [ fhir:v "C81.0" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin à prédominance lymphocytaire, à forme nodulaire" ]
+       ] [
+         fhir:code [ fhir:v "C81.1" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin (classique), à sclérose nodulaire" ]
+       ] [
+         fhir:code [ fhir:v "C81.2" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin (classique), à cellularité mixte" ]
+       ] [
+         fhir:code [ fhir:v "C81.3" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin (classique), à déplétion lymphocytaire" ]
+       ] [
+         fhir:code [ fhir:v "C81.4" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin (classique), riche en lymphocytes" ]
+       ] [
+         fhir:code [ fhir:v "C81.7" ] ;
+         fhir:display [ fhir:v "Autres formes de la maladie lymphome de Hodgkin (classique)" ]
+       ] [
+         fhir:code [ fhir:v "C81.9" ] ;
+         fhir:display [ fhir:v "Lymphome de Hodgkin, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C82" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire" ]
+       ] [
+         fhir:code [ fhir:v "C82.0" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, grade I" ]
+       ] [
+         fhir:code [ fhir:v "C82.1" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, grade II" ]
+       ] [
+         fhir:code [ fhir:v "C82.2" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, grade III, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C82.3" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, grade IIIa" ]
+       ] [
+         fhir:code [ fhir:v "C82.4" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, grade IIIb" ]
+       ] [
+         fhir:code [ fhir:v "C82.5" ] ;
+         fhir:display [ fhir:v "Lymphome centrofolliculaire diffus" ]
+       ] [
+         fhir:code [ fhir:v "C82.6" ] ;
+         fhir:display [ fhir:v "Lymphome centrofolliculaire cutané" ]
+       ] [
+         fhir:code [ fhir:v "C82.7" ] ;
+         fhir:display [ fhir:v "Autres formes de lymphome, folliculaire" ]
+       ] [
+         fhir:code [ fhir:v "C82.9" ] ;
+         fhir:display [ fhir:v "Lymphome folliculaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C83" ] ;
+         fhir:display [ fhir:v "Lymphome non folliculaire" ]
+       ] [
+         fhir:code [ fhir:v "C83.0" ] ;
+         fhir:display [ fhir:v "Lymphome à petites cellules B" ]
+       ] [
+         fhir:code [ fhir:v "C83.1" ] ;
+         fhir:display [ fhir:v "Lymphome à cellules du manteau" ]
+       ] [
+         fhir:code [ fhir:v "C83.3" ] ;
+         fhir:display [ fhir:v "Lymphome à grandes cellules B" ]
+       ] [
+         fhir:code [ fhir:v "C83.5" ] ;
+         fhir:display [ fhir:v "Lymphome lymphoblastique (diffus)" ]
+       ] [
+         fhir:code [ fhir:v "C83.7" ] ;
+         fhir:display [ fhir:v "Lymphome de Burkitt" ]
+       ] [
+         fhir:code [ fhir:v "C83.8" ] ;
+         fhir:display [ fhir:v "Autres lymphomes non folliculaires" ]
+       ] [
+         fhir:code [ fhir:v "C83.9" ] ;
+         fhir:display [ fhir:v "Lymphome (diffus) non folliculaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C84" ] ;
+         fhir:display [ fhir:v "Lymphomes à cellules T/NK matures" ]
+       ] [
+         fhir:code [ fhir:v "C84.0" ] ;
+         fhir:display [ fhir:v "Mycosis fongoïde" ]
+       ] [
+         fhir:code [ fhir:v "C84.1" ] ;
+         fhir:display [ fhir:v "Réticulose de Sézary" ]
+       ] [
+         fhir:code [ fhir:v "C84.4" ] ;
+         fhir:display [ fhir:v "Lymphome périphérique à cellules T, non classé ailleurs" ]
+       ] [
+         fhir:code [ fhir:v "C84.5" ] ;
+         fhir:display [ fhir:v "Autres lymphomes à cellules T/NK matures" ]
+       ] [
+         fhir:code [ fhir:v "C84.6" ] ;
+         fhir:display [ fhir:v "Lymphome anaplasique à grandes cellules ALK positives" ]
+       ] [
+         fhir:code [ fhir:v "C84.7" ] ;
+         fhir:display [ fhir:v "Lymphome anaplasique à grandes cellules ALK négatives" ]
+       ] [
+         fhir:code [ fhir:v "C84.8" ] ;
+         fhir:display [ fhir:v "Lymphome cutané à cellules T, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C84.9" ] ;
+         fhir:display [ fhir:v "Lymphome à cellules T/NK matures, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C85" ] ;
+         fhir:display [ fhir:v "Lymphome non hodgkinien, de types autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "C85.1" ] ;
+         fhir:display [ fhir:v "Lymphomes à cellules B, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C85.2" ] ;
+         fhir:display [ fhir:v "Lymphome médiastinal (thymique) à grandes cellules B" ]
+       ] [
+         fhir:code [ fhir:v "C85.7" ] ;
+         fhir:display [ fhir:v "Autres types précisés de lymphome non hodgkinien" ]
+       ] [
+         fhir:code [ fhir:v "C85.9" ] ;
+         fhir:display [ fhir:v "Lymphome non hodgkinien, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C86" ] ;
+         fhir:display [ fhir:v "Autres types précisés de lymphomes à cellules T/NK" ]
+       ] [
+         fhir:code [ fhir:v "C86.0" ] ;
+         fhir:display [ fhir:v "Lymphome extranodal à cellules T/NK, type nasal" ]
+       ] [
+         fhir:code [ fhir:v "C86.1" ] ;
+         fhir:display [ fhir:v "Lymphome hépatosplénique à cellules T" ]
+       ] [
+         fhir:code [ fhir:v "C86.2" ] ;
+         fhir:display [ fhir:v "Lymphome (intestinal) à cellules T, type entéropathique" ]
+       ] [
+         fhir:code [ fhir:v "C86.3" ] ;
+         fhir:display [ fhir:v "Lymphome à cellules T simulant une panniculite" ]
+       ] [
+         fhir:code [ fhir:v "C86.4" ] ;
+         fhir:display [ fhir:v "Lymphome à cellules NK blastiques" ]
+       ] [
+         fhir:code [ fhir:v "C86.5" ] ;
+         fhir:display [ fhir:v "Lymphome angio-immunoblastique à cellules T" ]
+       ] [
+         fhir:code [ fhir:v "C86.6" ] ;
+         fhir:display [ fhir:v "Syndrome lymphoprolifératif cutané primitif à cellules T CD30 positives" ]
+       ] [
+         fhir:code [ fhir:v "C88" ] ;
+         fhir:display [ fhir:v "Maladies immunoprolifératives malignes" ]
+       ] [
+         fhir:code [ fhir:v "C88.0" ] ;
+         fhir:display [ fhir:v "Macroglobulinémie de Waldenström" ]
+       ] [
+         fhir:code [ fhir:v "C88.2" ] ;
+         fhir:display [ fhir:v "Maladie d'autres chaines lourdes" ]
+       ] [
+         fhir:code [ fhir:v "C88.3" ] ;
+         fhir:display [ fhir:v "Maladie immunoproliférative de l'intestin grêle" ]
+       ] [
+         fhir:code [ fhir:v "C88.4" ] ;
+         fhir:display [ fhir:v "Lymphome de la zone marginale à cellules B des tissus lymphoïdes associés aux muqueuses [lymphome MALT]" ]
+       ] [
+         fhir:code [ fhir:v "C88.7" ] ;
+         fhir:display [ fhir:v "Autres maladies immunoprolifératives malignes" ]
+       ] [
+         fhir:code [ fhir:v "C88.9" ] ;
+         fhir:display [ fhir:v "Maladie immunoproliférative (maligne), sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C90" ] ;
+         fhir:display [ fhir:v "Myélome multiple et tumeurs malignes à plasmocytes" ]
+       ] [
+         fhir:code [ fhir:v "C90.0" ] ;
+         fhir:display [ fhir:v "Myélome multiple" ]
+       ] [
+         fhir:code [ fhir:v "C90.1" ] ;
+         fhir:display [ fhir:v "Leucémie à plasmocytes" ]
+       ] [
+         fhir:code [ fhir:v "C90.2" ] ;
+         fhir:display [ fhir:v "Plasmocytome extra-médullaire" ]
+       ] [
+         fhir:code [ fhir:v "C90.3" ] ;
+         fhir:display [ fhir:v "Plasmocytome solitaire" ]
+       ] [
+         fhir:code [ fhir:v "C91" ] ;
+         fhir:display [ fhir:v "Leucémie lymphoïde" ]
+       ] [
+         fhir:code [ fhir:v "C91.0" ] ;
+         fhir:display [ fhir:v "Leucémie lymphoblastique aigüe [LLA]" ]
+       ] [
+         fhir:code [ fhir:v "C91.1" ] ;
+         fhir:display [ fhir:v "Leucémie lymphoïde chronique à cellules B" ]
+       ] [
+         fhir:code [ fhir:v "C91.3" ] ;
+         fhir:display [ fhir:v "Leucémie prolymphocytaire B" ]
+       ] [
+         fhir:code [ fhir:v "C91.4" ] ;
+         fhir:display [ fhir:v "Leucémie à tricholeucocytes" ]
+       ] [
+         fhir:code [ fhir:v "C91.5" ] ;
+         fhir:display [ fhir:v "Leucémie/lymphome T de l'adulte (associée à HTLV-1)" ]
+       ] [
+         fhir:code [ fhir:v "C91.6" ] ;
+         fhir:display [ fhir:v "Leucémie prolymphocytaire T" ]
+       ] [
+         fhir:code [ fhir:v "C91.7" ] ;
+         fhir:display [ fhir:v "Autres leucémies lymphoïdes" ]
+       ] [
+         fhir:code [ fhir:v "C91.8" ] ;
+         fhir:display [ fhir:v "Leucémie à cellules B matures, de type Burkitt" ]
+       ] [
+         fhir:code [ fhir:v "C91.9" ] ;
+         fhir:display [ fhir:v "Leucémie lymphoïde, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C92" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde" ]
+       ] [
+         fhir:code [ fhir:v "C92.0" ] ;
+         fhir:display [ fhir:v "Leucémie aigüe myéloblastique [LAM]" ]
+       ] [
+         fhir:code [ fhir:v "C92.1" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde chronique [LMC] ABL-BCR positif" ]
+       ] [
+         fhir:code [ fhir:v "C92.2" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde chronique atypique, ABL-BCR négatif" ]
+       ] [
+         fhir:code [ fhir:v "C92.3" ] ;
+         fhir:display [ fhir:v "Sarcome myéloïde" ]
+       ] [
+         fhir:code [ fhir:v "C92.4" ] ;
+         fhir:display [ fhir:v "Leucémie promyélocytaire aigüe" ]
+       ] [
+         fhir:code [ fhir:v "C92.5" ] ;
+         fhir:display [ fhir:v "Leucémie myélomonocytaire aigüe" ]
+       ] [
+         fhir:code [ fhir:v "C92.6" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde aigüe avec anomalies 11q23" ]
+       ] [
+         fhir:code [ fhir:v "C92.7" ] ;
+         fhir:display [ fhir:v "Autres leucémies myéloïdes" ]
+       ] [
+         fhir:code [ fhir:v "C92.8" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde aigüe avec dysplasie de plusieurs lignées cellulaires" ]
+       ] [
+         fhir:code [ fhir:v "C92.9" ] ;
+         fhir:display [ fhir:v "Leucémie myéloïde, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C93" ] ;
+         fhir:display [ fhir:v "Leucémie monocytaire" ]
+       ] [
+         fhir:code [ fhir:v "C93.0" ] ;
+         fhir:display [ fhir:v "Leucémie monoblastique/monocytaire aigüe" ]
+       ] [
+         fhir:code [ fhir:v "C93.1" ] ;
+         fhir:display [ fhir:v "Leucémie myélomonocytaire chronique" ]
+       ] [
+         fhir:code [ fhir:v "C93.3" ] ;
+         fhir:display [ fhir:v "Leucémie myélomonocytaire juvénile" ]
+       ] [
+         fhir:code [ fhir:v "C93.7" ] ;
+         fhir:display [ fhir:v "Autres leucémies monocytaires" ]
+       ] [
+         fhir:code [ fhir:v "C93.9" ] ;
+         fhir:display [ fhir:v "Leucémie monocytaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C94" ] ;
+         fhir:display [ fhir:v "Autres leucémies à cellules précisées" ]
+       ] [
+         fhir:code [ fhir:v "C94.0" ] ;
+         fhir:display [ fhir:v "Leucémie érythroïde aigüe" ]
+       ] [
+         fhir:code [ fhir:v "C94.2" ] ;
+         fhir:display [ fhir:v "Leucémie aigüe à mégacaryocytes" ]
+       ] [
+         fhir:code [ fhir:v "C94.3" ] ;
+         fhir:display [ fhir:v "Leucémie à mastocytes" ]
+       ] [
+         fhir:code [ fhir:v "C94.4" ] ;
+         fhir:display [ fhir:v "Panmyélose aigüe avec myélofibrose" ]
+       ] [
+         fhir:code [ fhir:v "C94.6" ] ;
+         fhir:display [ fhir:v "Maladie myélodysplasique et myéloproliférative, non classée ailleurs" ]
+       ] [
+         fhir:code [ fhir:v "C94.7" ] ;
+         fhir:display [ fhir:v "Autres leucémies précisées" ]
+       ] [
+         fhir:code [ fhir:v "C95" ] ;
+         fhir:display [ fhir:v "Leucémie à cellules non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C95.0" ] ;
+         fhir:display [ fhir:v "Leucémie aigüe à cellules non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C95.1" ] ;
+         fhir:display [ fhir:v "Leucémie chronique à cellules non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C95.7" ] ;
+         fhir:display [ fhir:v "Autres leucémies à cellules non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C95.9" ] ;
+         fhir:display [ fhir:v "Leucémie, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C96" ] ;
+         fhir:display [ fhir:v "Tumeurs malignes des tissus lymphoïde, hématopoïétique et apparentés, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "C96.0" ] ;
+         fhir:display [ fhir:v "Histiocytose à cellules de Langerhans multifocale et multisystémique (disséminée) [maladie de Letterer-Siwe]" ]
+       ] [
+         fhir:code [ fhir:v "C96.2" ] ;
+         fhir:display [ fhir:v "Tumeur maligne à mastocytes" ]
+       ] [
+         fhir:code [ fhir:v "C96.4" ] ;
+         fhir:display [ fhir:v "Sarcome à cellules dendritiques [cellules accessoires]" ]
+       ] [
+         fhir:code [ fhir:v "C96.5" ] ;
+         fhir:display [ fhir:v "Histiocytose à cellules de Langerhans multifocale et unisystémique" ]
+       ] [
+         fhir:code [ fhir:v "C96.6" ] ;
+         fhir:display [ fhir:v "Histiocytose à cellules de Langerhans unifocale" ]
+       ] [
+         fhir:code [ fhir:v "C96.7" ] ;
+         fhir:display [ fhir:v "Autres tumeurs malignes précisées des tissus lymphoïde, hématopoïétique et apparentés" ]
+       ] [
+         fhir:code [ fhir:v "C96.8" ] ;
+         fhir:display [ fhir:v "Sarcome histiocytaire" ]
+       ] [
+         fhir:code [ fhir:v "C96.9" ] ;
+         fhir:display [ fhir:v "Tumeur maligne des tissus lymphoïde, hématopoïétique et apparentés, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "C97" ] ;
+         fhir:display [ fhir:v "Tumeurs malignes de sièges multiples indépendants (primitifs)" ]
+       ] [
+         fhir:code [ fhir:v "D00" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la cavité buccale, de l'osophage et de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "D00.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la lèvre, de la cavité buccale et du pharynx" ]
+       ] [
+         fhir:code [ fhir:v "D00.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'oesophage" ]
+       ] [
+         fhir:code [ fhir:v "D00.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "D01" ] ;
+         fhir:display [ fhir:v "Carcinome in situ des organes digestifs, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D01.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du côlon" ]
+       ] [
+         fhir:code [ fhir:v "D01.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la jonction recto-sigmoïdienne" ]
+       ] [
+         fhir:code [ fhir:v "D01.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du rectum" ]
+       ] [
+         fhir:code [ fhir:v "D01.3" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'anus et du canal anal" ]
+       ] [
+         fhir:code [ fhir:v "D01.4" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de parties de l'intestin, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "D01.5" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du foie, de la vésicule et des voies biliaires" ]
+       ] [
+         fhir:code [ fhir:v "D01.7" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'autres organes digestifs précisés" ]
+       ] [
+         fhir:code [ fhir:v "D01.9" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'un organe digestif, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D02" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'oreille moyenne et de l'appareil respiratoire" ]
+       ] [
+         fhir:code [ fhir:v "D02.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du larynx" ]
+       ] [
+         fhir:code [ fhir:v "D02.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la trachée" ]
+       ] [
+         fhir:code [ fhir:v "D02.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ des bronches et du poumon" ]
+       ] [
+         fhir:code [ fhir:v "D02.3" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'autres parties de l'appareil respiratoire" ]
+       ] [
+         fhir:code [ fhir:v "D02.4" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'appareil respiratoire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D03" ] ;
+         fhir:display [ fhir:v "Mélanome in situ" ]
+       ] [
+         fhir:code [ fhir:v "D03.0" ] ;
+         fhir:display [ fhir:v "Mélanome in situ de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "D03.1" ] ;
+         fhir:display [ fhir:v "Mélanome in situ de la paupière, y compris le canthus" ]
+       ] [
+         fhir:code [ fhir:v "D03.2" ] ;
+         fhir:display [ fhir:v "Mélanome in situ de l'oreille et du conduit auditif externe" ]
+       ] [
+         fhir:code [ fhir:v "D03.3" ] ;
+         fhir:display [ fhir:v "Mélanome in situ de parties de la face, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "D03.4" ] ;
+         fhir:display [ fhir:v "Mélanome in situ du cuir chevelu et du cou" ]
+       ] [
+         fhir:code [ fhir:v "D03.5" ] ;
+         fhir:display [ fhir:v "Mélanome in situ du tronc" ]
+       ] [
+         fhir:code [ fhir:v "D03.6" ] ;
+         fhir:display [ fhir:v "Mélanome in situ du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "D03.7" ] ;
+         fhir:display [ fhir:v "Mélanome in situ du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "D03.8" ] ;
+         fhir:display [ fhir:v "Mélanome in situ d'autres sièges" ]
+       ] [
+         fhir:code [ fhir:v "D03.9" ] ;
+         fhir:display [ fhir:v "Mélanome in situ, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D04" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau" ]
+       ] [
+         fhir:code [ fhir:v "D04.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau de la lèvre" ]
+       ] [
+         fhir:code [ fhir:v "D04.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau de la paupière, y compris le canthus" ]
+       ] [
+         fhir:code [ fhir:v "D04.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau de l'oreille et du conduit auditif externe" ]
+       ] [
+         fhir:code [ fhir:v "D04.3" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau des parties de la face, autres et non précisées" ]
+       ] [
+         fhir:code [ fhir:v "D04.4" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau du cuir chevelu et du cou" ]
+       ] [
+         fhir:code [ fhir:v "D04.5" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau du tronc" ]
+       ] [
+         fhir:code [ fhir:v "D04.6" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau du membre supérieur, y compris l'épaule" ]
+       ] [
+         fhir:code [ fhir:v "D04.7" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau du membre inférieur, y compris la hanche" ]
+       ] [
+         fhir:code [ fhir:v "D04.8" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau d'autres sièges" ]
+       ] [
+         fhir:code [ fhir:v "D04.9" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la peau, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D05" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du sein" ]
+       ] [
+         fhir:code [ fhir:v "D05.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ lobulaire" ]
+       ] [
+         fhir:code [ fhir:v "D05.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ intracanaliculaire" ]
+       ] [
+         fhir:code [ fhir:v "D05.7" ] ;
+         fhir:display [ fhir:v "Autres carcinomes in situ du sein" ]
+       ] [
+         fhir:code [ fhir:v "D05.9" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du sein, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D06" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du col de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "D06.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'endocol" ]
+       ] [
+         fhir:code [ fhir:v "D06.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'exocol" ]
+       ] [
+         fhir:code [ fhir:v "D06.7" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'autres parties du col de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "D06.9" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du col de l'utérus, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D07" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'organes génitaux, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D07.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'endomètre" ]
+       ] [
+         fhir:code [ fhir:v "D07.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la vulve" ]
+       ] [
+         fhir:code [ fhir:v "D07.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ du vagin" ]
+       ] [
+         fhir:code [ fhir:v "D07.3" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'organes génitaux de la femme, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D07.4" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la verge" ]
+       ] [
+         fhir:code [ fhir:v "D07.5" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la prostate" ]
+       ] [
+         fhir:code [ fhir:v "D07.6" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'organes génitaux de l'homme, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D09" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de sièges autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D09.0" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "D09.1" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'organes urinaires, autres et non précisés" ]
+       ] [
+         fhir:code [ fhir:v "D09.2" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de l'oeil" ]
+       ] [
+         fhir:code [ fhir:v "D09.3" ] ;
+         fhir:display [ fhir:v "Carcinome in situ de la thyroïde et autres glandes endocrines" ]
+       ] [
+         fhir:code [ fhir:v "D09.7" ] ;
+         fhir:display [ fhir:v "Carcinome in situ d'autres sièges précisés" ]
+       ] [
+         fhir:code [ fhir:v "D09.9" ] ;
+         fhir:display [ fhir:v "Carcinome in situ, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D37" ] ;
+         fhir:display [ fhir:v "Tumeur de la cavité buccale et des organes digestifs à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D37.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la lèvre, de la cavité buccale et du pharynx" ]
+       ] [
+         fhir:code [ fhir:v "D37.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'estomac" ]
+       ] [
+         fhir:code [ fhir:v "D37.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'intestin grêle" ]
+       ] [
+         fhir:code [ fhir:v "D37.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'appendice" ]
+       ] [
+         fhir:code [ fhir:v "D37.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du côlon" ]
+       ] [
+         fhir:code [ fhir:v "D37.5" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du rectum" ]
+       ] [
+         fhir:code [ fhir:v "D37.6" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du foie, de la vésicule et des voies biliaires" ]
+       ] [
+         fhir:code [ fhir:v "D37.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres organes digestifs" ]
+       ] [
+         fhir:code [ fhir:v "D37.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'appareil digestif, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D38" ] ;
+         fhir:display [ fhir:v "Tumeur de l'oreille moyenne et des organes respiratoires et intrathoraciques à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D38.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du larynx" ]
+       ] [
+         fhir:code [ fhir:v "D38.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la trachée, des bronches et du poumon" ]
+       ] [
+         fhir:code [ fhir:v "D38.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la plèvre" ]
+       ] [
+         fhir:code [ fhir:v "D38.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du médiastin" ]
+       ] [
+         fhir:code [ fhir:v "D38.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du thymus" ]
+       ] [
+         fhir:code [ fhir:v "D38.5" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres organes respiratoires" ]
+       ] [
+         fhir:code [ fhir:v "D38.6" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'appareil respiratoire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D39" ] ;
+         fhir:display [ fhir:v "Tumeur des organes génitaux de la femme à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D39.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'utérus" ]
+       ] [
+         fhir:code [ fhir:v "D39.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'ovaire" ]
+       ] [
+         fhir:code [ fhir:v "D39.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du placenta" ]
+       ] [
+         fhir:code [ fhir:v "D39.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres organes génitaux de la femme" ]
+       ] [
+         fhir:code [ fhir:v "D39.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'un organe génital de la femme, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D40" ] ;
+         fhir:display [ fhir:v "Tumeur des organes génitaux de l'homme à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D40.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la prostate" ]
+       ] [
+         fhir:code [ fhir:v "D40.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du testicule" ]
+       ] [
+         fhir:code [ fhir:v "D40.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres organes génitaux de l'homme" ]
+       ] [
+         fhir:code [ fhir:v "D40.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'un organe génital de l'homme, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D41" ] ;
+         fhir:display [ fhir:v "Tumeur des organes urinaires à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D41.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du rein" ]
+       ] [
+         fhir:code [ fhir:v "D41.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du bassinet" ]
+       ] [
+         fhir:code [ fhir:v "D41.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'uretère" ]
+       ] [
+         fhir:code [ fhir:v "D41.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'urètre" ]
+       ] [
+         fhir:code [ fhir:v "D41.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la vessie" ]
+       ] [
+         fhir:code [ fhir:v "D41.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres organes urinaires" ]
+       ] [
+         fhir:code [ fhir:v "D41.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'un organe urinaire, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D42" ] ;
+         fhir:display [ fhir:v "Tumeur des méninges à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D42.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue des méninges cérébrales" ]
+       ] [
+         fhir:code [ fhir:v "D42.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue des méninges rachidiennes" ]
+       ] [
+         fhir:code [ fhir:v "D42.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue des méninges, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D43" ] ;
+         fhir:display [ fhir:v "Tumeur de l'encéphale et du système nerveux central à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D43.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'encéphale, supratentoriel" ]
+       ] [
+         fhir:code [ fhir:v "D43.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'encéphale, infratentoriel" ]
+       ] [
+         fhir:code [ fhir:v "D43.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'encéphale, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D43.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue des nerfs crâniens" ]
+       ] [
+         fhir:code [ fhir:v "D43.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la moelle épinière" ]
+       ] [
+         fhir:code [ fhir:v "D43.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'autres parties du système nerveux central" ]
+       ] [
+         fhir:code [ fhir:v "D43.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du système nerveux (central), sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D44" ] ;
+         fhir:display [ fhir:v "Tumeur des glandes endocrines à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D44.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la thyroïde" ]
+       ] [
+         fhir:code [ fhir:v "D44.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de la surrénale" ]
+       ] [
+         fhir:code [ fhir:v "D44.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'une parathyroïde" ]
+       ] [
+         fhir:code [ fhir:v "D44.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'hypophyse" ]
+       ] [
+         fhir:code [ fhir:v "D44.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du canal craniopharyngien" ]
+       ] [
+         fhir:code [ fhir:v "D44.40" ] ;
+         fhir:display [ fhir:v "Craniopharyngiome" ]
+       ] [
+         fhir:code [ fhir:v "D44.48" ] ;
+         fhir:display [ fhir:v "Autres tumeur à évolution imprévisible ou inconnue du canal craniopharyngien" ]
+       ] [
+         fhir:code [ fhir:v "D44.5" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de l'épiphyse" ]
+       ] [
+         fhir:code [ fhir:v "D44.6" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du corpuscule carotidien" ]
+       ] [
+         fhir:code [ fhir:v "D44.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue du glomus aortique et autres paraganglions" ]
+       ] [
+         fhir:code [ fhir:v "D44.8" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue de plusieurs glandes endocrines" ]
+       ] [
+         fhir:code [ fhir:v "D44.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue d'une glande endocrine, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D45" ] ;
+         fhir:display [ fhir:v "Polyglobulie essentielle" ]
+       ] [
+         fhir:code [ fhir:v "D46" ] ;
+         fhir:display [ fhir:v "Syndromes myélodysplasiques" ]
+       ] [
+         fhir:code [ fhir:v "D46.0" ] ;
+         fhir:display [ fhir:v "Anémie réfractaire sans sidéroblastes en couronne, ainsi précisée" ]
+       ] [
+         fhir:code [ fhir:v "D46.1" ] ;
+         fhir:display [ fhir:v "Anémie réfractaire avec sidéroblastes en couronne" ]
+       ] [
+         fhir:code [ fhir:v "D46.2" ] ;
+         fhir:display [ fhir:v "AAnémie réfractaire avec excès de blastes [AREB]" ]
+       ] [
+         fhir:code [ fhir:v "D46.4" ] ;
+         fhir:display [ fhir:v "Anémie réfractaire, non précisée" ]
+       ] [
+         fhir:code [ fhir:v "D46.5" ] ;
+         fhir:display [ fhir:v "Anémie réfractaire avec dysplasie de plusieurs lignées cellulaires" ]
+       ] [
+         fhir:code [ fhir:v "D46.6" ] ;
+         fhir:display [ fhir:v "Syndrome myélodysplasique avec syndrome de délétion isolée du chromosome 5 [del(5q)]" ]
+       ] [
+         fhir:code [ fhir:v "D46.7" ] ;
+         fhir:display [ fhir:v "Autres syndromes myélodysplasiques" ]
+       ] [
+         fhir:code [ fhir:v "D46.9" ] ;
+         fhir:display [ fhir:v "Syndrome myélodysplasique, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D47" ] ;
+         fhir:display [ fhir:v "Autres tumeurs des tissus lymphoïde, hématopoïétique et apparentés à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D47.0" ] ;
+         fhir:display [ fhir:v "Tumeurs à histiocytes et mastocytes à évolution imprévisible et inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D47.1" ] ;
+         fhir:display [ fhir:v "Maladie myéloproliférative chronique" ]
+       ] [
+         fhir:code [ fhir:v "D47.2" ] ;
+         fhir:display [ fhir:v "Gammapathie monoclonale de signification indéterminée [GMSI]" ]
+       ] [
+         fhir:code [ fhir:v "D47.3" ] ;
+         fhir:display [ fhir:v "Thrombocytémie essentielle (hémorragique)" ]
+       ] [
+         fhir:code [ fhir:v "D47.4" ] ;
+         fhir:display [ fhir:v "Ostéomyélofibrose" ]
+       ] [
+         fhir:code [ fhir:v "D47.5" ] ;
+         fhir:display [ fhir:v "Leucémie chronique à éosinophiles [syndrome hyperéosinophilique]" ]
+       ] [
+         fhir:code [ fhir:v "D47.7" ] ;
+         fhir:display [ fhir:v "Autres tumeurs précisées des tissus lymphoïde, hématopoïétique et apparentés à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D47.9" ] ;
+         fhir:display [ fhir:v "Tumeur des tissus lymphoïde, hématopoïétique et apparentés à évolution imprévisible ou inconnue, sans précision" ]
+       ] [
+         fhir:code [ fhir:v "D48" ] ;
+         fhir:display [ fhir:v "Tumeur de sièges autres et non précisés à évolution imprévisible ou inconnue" ]
+       ] [
+         fhir:code [ fhir:v "D48.0" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue des os et du cartilage articulaire" ]
+       ] [
+         fhir:code [ fhir:v "D48.1" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue du tissu conjonctif et des autres tissus mous" ]
+       ] [
+         fhir:code [ fhir:v "D48.2" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue des nerfs périphériques et du système nerveux autonome" ]
+       ] [
+         fhir:code [ fhir:v "D48.3" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue du rétropéritoine" ]
+       ] [
+         fhir:code [ fhir:v "D48.30" ] ;
+         fhir:display [ fhir:v "Tératome [dysembryome] sacrococcygien" ]
+       ] [
+         fhir:code [ fhir:v "D48.38" ] ;
+         fhir:display [ fhir:v "Autres tumeurs à évolution imprévisible ou inconnue du rétropéritoine" ]
+       ] [
+         fhir:code [ fhir:v "D48.4" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible du péritoine" ]
+       ] [
+         fhir:code [ fhir:v "D48.5" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue de la peau" ]
+       ] [
+         fhir:code [ fhir:v "D48.6" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue du sein" ]
+       ] [
+         fhir:code [ fhir:v "D48.7" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible et inconnue d'autres sièges précisés" ]
+       ] [
+         fhir:code [ fhir:v "D48.9" ] ;
+         fhir:display [ fhir:v "Tumeur à évolution imprévisible ou inconnue, sans précision" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
