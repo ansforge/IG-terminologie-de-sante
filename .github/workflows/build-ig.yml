@@ -15,7 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-
+      - name: Get From ontoserver      
+        run: |
+          cd ./tools/hapi
+          java -cp ./lib/* .\TestApplication.java
 
       - name: Build and test with Rake        
         run: |
