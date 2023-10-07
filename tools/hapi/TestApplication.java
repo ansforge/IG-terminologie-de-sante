@@ -39,10 +39,10 @@ public class TestApplication {
         for (Bundle.BundleEntryComponent entry : results.getEntry()) {
          ValueSet valueSet = (ValueSet) entry.getResource();
          ValueSet valueSetExp = client.read().resource(ValueSet.class).withId(valueSet.getId()).execute();
-         System.out.println(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
+         System.out.println(valueSet.getId());
 
          try{
-            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("./json/JDV/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/JDV/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
             writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
             writer.close();
 
@@ -60,11 +60,11 @@ public class TestApplication {
      for (Bundle.BundleEntryComponent entry : results.getEntry()) {
       CodeSystem valueSet = (CodeSystem) entry.getResource();
       CodeSystem valueSetExp = client.read().resource(CodeSystem.class).withId(valueSet.getId()).execute();
-      System.out.println(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
+      System.out.println(valueSet.getId());
 
       try{
          //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
-         BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("./json/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+         BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
          writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
          writer.close();
 
