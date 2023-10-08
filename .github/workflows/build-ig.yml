@@ -21,6 +21,14 @@ jobs:
       #  with:
       #    distribution: 'oracle'
       #    java-version: '17' 
+
+      - name: Setup Python # Set Python version
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Install saxon
+        run : pip install saxonche
           
       - name: Get From ontoserver      
         run: |
