@@ -22,6 +22,8 @@ jobs:
           
       - name: Get From ontoserver      
         run: |
+          mkdir ./input/ontoserver/JDV
+          mkdir ./input/ontoserver/TRE
           cd ./tools/hapi
           javac -cp "./lib/*" TestApplication.java
           java -cp "./lib/*" TestApplication.java
