@@ -1,0 +1,82 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "terminologie-emdn",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-09-20T04:58:52.471+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>EMDN Terminology</p></div>"
+  },
+  "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.2.68"
+  }],
+  "version" : "1.1.0",
+  "name" : "EMDN",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-08T15:18:08+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "EMDN Terminology",
+  "valueSet" : "https://smt.esante.gouv.fr/terminologie-emdn?vs",
+  "hierarchyMeaning" : "is-a",
+  "compositional" : false,
+  "versionNeeded" : false,
+  "content" : "complete",
+  "count" : 8345,
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "parent",
+    "description" : "Parent codes.",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "description" : "Child codes.",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)",
+    "type" : "boolean"
+  },
+  {
+    "code" : "deprecated",
+    "description" : "Indicates if this concept is deprecated.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "type",
+    "type" : "string"
+  }]
+}

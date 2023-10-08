@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VS-Atelier-Exo1"/>
+  <meta>
+    <versionId value="2"/>
+    <lastUpdated value="2023-09-14T11:28:40.162+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="CodeSystem-terminologie-cladimed.html"><code>https://smt.esante.gouv.fr/terminologie-cladimed</code></a> where parent  =  <a href="CodeSystem-terminologie-cladimed.html#terminologie-cladimed-G">G</a></li></ul></div>
+  </text>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/VS-Atelier-Exo1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1F.2F.250.1.213.3.3.66"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="VS_Atelier_Exo1"/>
+  <title value="ValueSet pour l'exercice #1 de l'atelier FTS du SMT pour le projecthaton 2023"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2023-08-30T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Jeu de valeurs pour l'exercice #1 de l'atlier FTS du SMT pour le projecthaton 2023"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/terminologie-cladimed"/>
+      <filter>
+        <property value="parent"/>
+        <op value="="/>
+        <value value="G"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

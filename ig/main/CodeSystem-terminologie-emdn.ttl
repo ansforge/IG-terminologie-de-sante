@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-emdn> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "terminologie-emdn"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "6" ] ;
+     fhir:lastUpdated [ fhir:v "2023-09-20T04:58:52.471+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>EMDN Terminology</p></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.68" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "EMDN"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-10-08T15:18:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "EMDN Terminology"] ; # 
+  fhir:valueSet [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-emdn?vs"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-emdn?vs>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8345"^^xsd:nonNegativeInteger] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false" ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:description [ fhir:v "Parent codes." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:description [ fhir:v "Child codes." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:description [ fhir:v "Indicates if the concept is imported from another code system." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is deprecated." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "type" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
