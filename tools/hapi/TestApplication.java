@@ -61,7 +61,7 @@ public class TestApplication {
       CodeSystem valueSet = (CodeSystem) entry.getResource();
       CodeSystem valueSetExp = client.read().resource(CodeSystem.class).withId(valueSet.getId()).execute();
       System.out.println("nom" + valueSet.getCount());
-      if(valueSet.getCount()>5000) {
+      if(valueSet.getCount()>1000) {
             valueSetExp.setConcept(null);
             System.out.println("null");
       }
