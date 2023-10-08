@@ -43,6 +43,9 @@ jobs:
         run: |
           sudo apt-get install ruby-full
           sudo gem install jekyll
+      - name: Run sushi
+        run: sushi .
+          
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
         run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
