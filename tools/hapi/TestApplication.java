@@ -39,7 +39,7 @@ public class TestApplication {
         for (Bundle.BundleEntryComponent entry : results.getEntry()) {
          ValueSet valueSet = (ValueSet) entry.getResource();
          ValueSet valueSetExp = client.read().resource(ValueSet.class).withId(valueSet.getId()).execute();
-         System.out.println(valueSet.getId());
+         System.out.println(valueSet.getName());
 
          try{
             BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/JDV/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
@@ -47,7 +47,7 @@ public class TestApplication {
             writer.close();
 
          } catch (IOException e) {
-            System.err.format("IOException: %s%n", e);
+            //System.err.format("IOException: %s%n", e);
          }        
 
 
@@ -60,18 +60,21 @@ public class TestApplication {
      for (Bundle.BundleEntryComponent entry : results.getEntry()) {
       CodeSystem valueSet = (CodeSystem) entry.getResource();
       CodeSystem valueSetExp = client.read().resource(CodeSystem.class).withId(valueSet.getId()).execute();
-      System.out.println(valueSet.getId());
-
-      try{
+      System.out.println("nom" + valueSet.getCount());
+      if(valueSet.getCount()>5000) {
+            valueSetExp.setConcept(null);
+            System.out.println("null");
+      }
+         try{
          //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
          BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
          writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
          writer.close();
 
-      } catch (IOException e) {
-         System.err.format("IOException: %s%n", e);
-      }        
-
+         } catch (IOException e) {
+         // System.err.format("IOException: %s%n", e);
+         }        
+     
 
 
   }  
