@@ -31,15 +31,6 @@ jobs:
           javac -cp "./lib/*" TestApplication.java
           java -cp "./lib/*" TestApplication.java
 
-      - name: Build and test with Rake        
-        run: |
-          sudo apt-get install ruby-full
-          sudo gem install jekyll
-      - name: Install modules
-        run: npm install -g fsh-sushi
-      - name: Run sushi
-        run: sushi .
-                
 
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
