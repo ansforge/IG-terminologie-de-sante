@@ -8,6 +8,7 @@ import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.ValueSet;
 import org.hl7.fhir.r4.model.CodeSystem;
 import org.hl7.fhir.r4.model.ConceptMap;
+import org.hl7.fhir.r4.model.NamingSystem;
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -100,7 +101,26 @@ public class TestApplication {
    
          }    
    
+          results = client.search().forResource(NamingSystem.class).returnBundle(Bundle.class).execute();
+      // Parcourir les résultats et afficher les identifiants des ValueSets
+      for (Bundle.BundleEntryComponent entry : results.getEntry()) {
+         NamingSystem valueSet = (NamingSystem) entry.getResource();
+         NamingSystem valueSetExp = client.read().resource(NamingSystem.class).withId(valueSet.getId()).execute();
+
+ 
+            try{
+            //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/NamingSystem/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
+            writer.close();
    
+            } catch (IOException e) {
+            // System.err.format("IOException: %s%n", e);
+            }        
+        
+   
+   
+         }      
    
    
    
