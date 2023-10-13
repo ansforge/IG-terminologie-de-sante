@@ -1,0 +1,102 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "alignement-cladimed-emdn",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2023-09-22T07:26:44.580+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Alignement CLADIMED EMDN</h2><tt>urn:x-evn-master:alignement-cladimed-emdn</tt><p>Alignment entre CLADIMED et EMDN pour les DMs</p></div>"
+  },
+  "url" : "urn:x-evn-master:alignement-cladimed-emdn",
+  "version" : "1.1.0",
+  "name" : "Alignement_CLADIMED_EMDN",
+  "title" : "Alignement CLADIMED EMDN",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-09-11",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Alignment entre CLADIMED et EMDN pour les DMs",
+  "useContext" : [{
+    "code" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code" : "task"
+    },
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+        "code" : "C142485",
+        "display" : "alignement des données"
+      }],
+      "text" : "Aligner la terminologie CLADIMED avec la terminologie EMDN pour se conformer aux nouvelles réglementations."
+    }
+  }],
+  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-cladimed/valueset",
+  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-emdn/valueset",
+  "group" : [{
+    "source" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "target" : "https://smt.esante.gouv.fr/terminologie-emdn",
+    "element" : [{
+      "code" : "A51CB01",
+      "display" : "LIGATURE POLYPE DIGESTIF",
+      "target" : [{
+        "modifierExtension" : [{
+          "url" : "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence",
+          "valueCode" : "equivalent"
+        }],
+        "code" : "G03020302",
+        "display" : "DISPOSITIFS DE LIGATURE DES POLYPES DIGESTIFS",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "A51CD01",
+      "display" : "LIGATURE HEMORROIDE",
+      "target" : [{
+        "modifierExtension" : [{
+          "url" : "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence",
+          "valueCode" : "equivalent"
+        }],
+        "code" : "G020401",
+        "display" : "SETS DE LIGATURE DES HÉMORROÏDES",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "A51CA01",
+      "display" : "LIGATURE VARICE DIGESTIVE",
+      "target" : [{
+        "modifierExtension" : [{
+          "url" : "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence",
+          "valueCode" : "inexact"
+        }],
+        "code" : "G03020301",
+        "display" : "SYSTÈMES DE LIGATURE DES VARICES ŒSOPHAGIENNES",
+        "equivalence" : "inexact",
+        "comment" : "La relation est close Match"
+      }]
+    },
+    {
+      "code" : "A56BA01",
+      "display" : "PROTHESE METAL EXPANSIVE COUVERTE OESOPHAGE",
+      "target" : [{
+        "modifierExtension" : [{
+          "url" : "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence",
+          "valueCode" : "narrower"
+        }],
+        "code" : "P0501",
+        "display" : "PROTHÈSES ŒSOPHAGIENNES",
+        "equivalence" : "narrower",
+        "comment" : "le code cladimed est plus précis que le code emdn"
+      }]
+    }]
+  }]
+}

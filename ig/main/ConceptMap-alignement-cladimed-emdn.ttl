@@ -1,0 +1,115 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/alignement-cladimed-emdn> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "alignement-cladimed-emdn"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "8" ] ;
+     fhir:lastUpdated [ fhir:v "2023-09-22T07:26:44.580+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Alignement CLADIMED EMDN</h2><tt>urn:x-evn-master:alignement-cladimed-emdn</tt><p>Alignment entre CLADIMED et EMDN pour les DMs</p></div>"
+  ] ; # 
+  fhir:url [ fhir:v "urn:x-evn-master:alignement-cladimed-emdn"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "Alignement_CLADIMED_EMDN"] ; # 
+  fhir:title [ fhir:v "Alignement CLADIMED EMDN"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-09-11"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Alignment entre CLADIMED et EMDN pour les DMs"] ; # 
+  fhir:useContext ( [
+     fhir:code [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/usage-context-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "task" ]
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://smt.esante.gouv.fr/terminologie-ncit"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "C142485" ] ;
+         fhir:display [ fhir:v "alignement des données" ]
+       ] ) ;
+       fhir:text [ fhir:v "Aligner la terminologie CLADIMED avec la terminologie EMDN pour se conformer aux nouvelles réglementations." ]
+     ]
+  ] ) ; # 
+  fhir:source [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-cladimed/valueset"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-cladimed/valueset>
+  ] ; # 
+  fhir:target [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-emdn/valueset"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-emdn/valueset>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "https://smt.esante.gouv.fr/terminologie-cladimed"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "A51CB01" ] ;
+       fhir:display [ fhir:v "LIGATURE POLYPE DIGESTIF" ] ;
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
+         fhir:code [ fhir:v "G03020302" ] ;
+         fhir:display [ fhir:v "DISPOSITIFS DE LIGATURE DES POLYPES DIGESTIFS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "A51CD01" ] ;
+       fhir:display [ fhir:v "LIGATURE HEMORROIDE" ] ;
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
+         fhir:code [ fhir:v "G020401" ] ;
+         fhir:display [ fhir:v "SETS DE LIGATURE DES HÉMORROÏDES" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "A51CA01" ] ;
+       fhir:display [ fhir:v "LIGATURE VARICE DIGESTIVE" ] ;
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "inexact" ]
+         ] ) ;
+         fhir:code [ fhir:v "G03020301" ] ;
+         fhir:display [ fhir:v "SYSTÈMES DE LIGATURE DES VARICES ŒSOPHAGIENNES" ] ;
+         fhir:equivalence [ fhir:v "inexact" ] ;
+         fhir:comment [ fhir:v "La relation est close Match" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "A56BA01" ] ;
+       fhir:display [ fhir:v "PROTHESE METAL EXPANSIVE COUVERTE OESOPHAGE" ] ;
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "narrower" ]
+         ] ) ;
+         fhir:code [ fhir:v "P0501" ] ;
+         fhir:display [ fhir:v "PROTHÈSES ŒSOPHAGIENNES" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "le code cladimed est plus précis que le code emdn" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

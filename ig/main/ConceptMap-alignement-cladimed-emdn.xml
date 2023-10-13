@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="alignement-cladimed-emdn"/>
+  <meta>
+    <versionId value="8"/>
+    <lastUpdated value="2023-09-22T07:26:44.580+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Alignement CLADIMED EMDN</h2><tt>urn:x-evn-master:alignement-cladimed-emdn</tt><p>Alignment entre CLADIMED et EMDN pour les DMs</p></div>
+  </text>
+  <url value="urn:x-evn-master:alignement-cladimed-emdn"/>
+  <version value="1.1.0"/>
+  <name value="Alignement_CLADIMED_EMDN"/>
+  <title value="Alignement CLADIMED EMDN"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-09-11"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Alignment entre CLADIMED et EMDN pour les DMs"/>
+  <useContext>
+    <code>
+      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+      <code value="task"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://smt.esante.gouv.fr/terminologie-ncit"/>
+        <code value="C142485"/>
+        <display value="alignement des données"/>
+      </coding>
+      <text value="Aligner la terminologie CLADIMED avec la terminologie EMDN pour se conformer aux nouvelles réglementations."/>
+    </valueCodeableConcept>
+  </useContext>
+  <sourceCanonical value="https://smt.esante.gouv.fr/terminologie-cladimed/valueset"/>
+  <targetCanonical value="https://smt.esante.gouv.fr/terminologie-emdn/valueset"/>
+  <group>
+    <source value="https://smt.esante.gouv.fr/terminologie-cladimed"/>
+    <target value="https://smt.esante.gouv.fr/terminologie-emdn"/>
+    <element>
+      <code value="A51CB01"/>
+      <display value="LIGATURE POLYPE DIGESTIF"/>
+      <target>
+        <modifierExtension url="http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence">
+          <valueCode value="equivalent"/>
+        </modifierExtension>
+        <code value="G03020302"/>
+        <display value="DISPOSITIFS DE LIGATURE DES POLYPES DIGESTIFS"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="A51CD01"/>
+      <display value="LIGATURE HEMORROIDE"/>
+      <target>
+        <modifierExtension url="http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence">
+          <valueCode value="equivalent"/>
+        </modifierExtension>
+        <code value="G020401"/>
+        <display value="SETS DE LIGATURE DES HÉMORROÏDES"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="A51CA01"/>
+      <display value="LIGATURE VARICE DIGESTIVE"/>
+      <target>
+        <modifierExtension url="http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence">
+          <valueCode value="inexact"/>
+        </modifierExtension>
+        <code value="G03020301"/>
+        <display value="SYSTÈMES DE LIGATURE DES VARICES ŒSOPHAGIENNES"/>
+        <equivalence value="inexact"/>
+        <comment value="La relation est close Match"/>
+      </target>
+    </element>
+    <element>
+      <code value="A56BA01"/>
+      <display value="PROTHESE METAL EXPANSIVE COUVERTE OESOPHAGE"/>
+      <target>
+        <modifierExtension url="http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence">
+          <valueCode value="narrower"/>
+        </modifierExtension>
+        <code value="P0501"/>
+        <display value="PROTHÈSES ŒSOPHAGIENNES"/>
+        <equivalence value="narrower"/>
+        <comment value="le code cladimed est plus précis que le code emdn"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>
