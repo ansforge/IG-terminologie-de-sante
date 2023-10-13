@@ -7,6 +7,7 @@ import org.hl7.fhir.r4.model.Patient;
 import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.ValueSet;
 import org.hl7.fhir.r4.model.CodeSystem;
+import org.hl7.fhir.r4.model.ConceptMap;
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -61,7 +62,7 @@ public class TestApplication {
       CodeSystem valueSet = (CodeSystem) entry.getResource();
       CodeSystem valueSetExp = client.read().resource(CodeSystem.class).withId(valueSet.getId()).execute();
       System.out.println("nom" + valueSet.getCount());
-      if(valueSet.getCount()>5000) {
+      if(valueSet.getCount()>1000) {
             valueSetExp.setConcept(null);
             System.out.println("null");
       }
@@ -77,9 +78,27 @@ public class TestApplication {
      
 
 
-  }  
+      }  
+         results = client.search().forResource(ConceptMap.class).returnBundle(Bundle.class).execute();
+      // Parcourir les résultats et afficher les identifiants des ValueSets
+      for (Bundle.BundleEntryComponent entry : results.getEntry()) {
+         ConceptMap valueSet = (ConceptMap) entry.getResource();
+         ConceptMap valueSetExp = client.read().resource(ConceptMap.class).withId(valueSet.getId()).execute();
+
+ 
+            try{
+            //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/ASS/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
+            writer.close();
+   
+            } catch (IOException e) {
+            // System.err.format("IOException: %s%n", e);
+            }        
+        
    
    
+         }    
    
    
    
