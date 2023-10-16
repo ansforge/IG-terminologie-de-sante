@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VS-Bacterial-intensinal-infectious",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2023-10-16T12:09:55.491+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Other bacterial intestinal infectious</h2><tt>https://smt.esante.gouv.fr/fhir/ValueSet/02</tt></div>"
+  },
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-Bacterial-intensinal-infectious",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1Y.2Y.250.1.213.3.3.90"
+  }],
+  "version" : "1.1.0",
+  "name" : "Other bacterial intestinal infectious",
+  "title" : "ValueSet pour pour toutes les Infections intestinales bactériennes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-01-01T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Jeu de valeurs pour les Infections intestinales bactériennes",
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "A04"
+      }]
+    }]
+  }
+}
