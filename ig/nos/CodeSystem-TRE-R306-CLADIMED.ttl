@@ -1,0 +1,188 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R306-CLADIMED> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R306-CLADIMED"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">K50BI02<a name=\"TRE-R306-CLADIMED-K50BI02\"> </a></td><td>Balance</td><td>2021-04-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">K51FC01<a name=\"TRE-R306-CLADIMED-K51FC01\"> </a></td><td>Tensiomètre</td><td>2021-04-30T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">K50BF<a name=\"TRE-R306-CLADIMED-K50BF\"> </a></td><td>MESURE OXYMETRIE</td><td>2021-04-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">K50BC10<a name=\"TRE-R306-CLADIMED-K50BC10\"> </a></td><td>THERMOMETRE ELECTRONIQUE</td><td>2021-04-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">K50BC03<a name=\"TRE-R306-CLADIMED-K50BC03\"> </a></td><td>THERMOMETRE INFRAROUGE</td><td>2021-04-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C56AB03<a name=\"TRE-R306-CLADIMED-C56AB03\"> </a></td><td>TENSIOMETRE</td><td>2023-03-31T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.65" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R306-CLADIMED"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classification française des Dispositifs Médicaux"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "K50BI02" ] ;
+     fhir:display [ fhir:v "Balance" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Balance" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Balance" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "K51FC01" ] ;
+     fhir:display [ fhir:v "Tensiomètre" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Tensiomètre" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Tensiomètre" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "K50BF" ] ;
+     fhir:display [ fhir:v "MESURE OXYMETRIE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "MESURE OXYMETRIE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "MESURE OXYMETRIE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "K50BC10" ] ;
+     fhir:display [ fhir:v "THERMOMETRE ELECTRONIQUE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "THERMOMETRE ELECTRONIQUE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "THERMOMETRE ELECTRONIQUE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "K50BC03" ] ;
+     fhir:display [ fhir:v "THERMOMETRE INFRAROUGE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "THERMOMETRE INFRAROUGE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "THERMOMETRE INFRAROUGE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C56AB03" ] ;
+     fhir:display [ fhir:v "TENSIOMETRE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "TENSIOMETRE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "TENSIOMETRE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

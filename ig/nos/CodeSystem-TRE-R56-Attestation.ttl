@@ -1,0 +1,412 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R56-Attestation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R56-Attestation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">DIP24<a name=\"TRE-R56-Attestation-DIP24\"> </a></td><td>Attestation études Léprologie</td><td>2008-03-20T10:49:21+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP25<a name=\"TRE-R56-Attestation-DIP25\"> </a></td><td>Attestation études Electroencéphalographie clinique</td><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP26<a name=\"TRE-R56-Attestation-DIP26\"> </a></td><td>Attestation études Endoscopie digestive</td><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP27<a name=\"TRE-R56-Attestation-DIP27\"> </a></td><td>Attestation EU Réparation juridique du dommage corporel</td><td>2008-03-20T10:49:17+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP28<a name=\"TRE-R56-Attestation-DIP28\"> </a></td><td>Attestation études Exploration fonctionnelle neuromusculaire</td><td>2008-03-20T10:49:23+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP29<a name=\"TRE-R56-Attestation-DIP29\"> </a></td><td>Attestation EU Vertébrothérapie et Médecine manuelle</td><td>2008-03-20T10:49:24+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP194<a name=\"TRE-R56-Attestation-DIP194\"> </a></td><td>Attestation EU Echographie générale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP200<a name=\"TRE-R56-Attestation-DIP200\"> </a></td><td>Attestation études supérieures de Proctologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP202<a name=\"TRE-R56-Attestation-DIP202\"> </a></td><td>Attestation études Thérapeutiques manuelles et Médecine physique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP205<a name=\"TRE-R56-Attestation-DIP205\"> </a></td><td>Attestation formation à l'Ostéodensitométrie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP208<a name=\"TRE-R56-Attestation-DIP208\"> </a></td><td>Attestation étude complémentaire Echographie hépato-gastro-entérologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP217<a name=\"TRE-R56-Attestation-DIP217\"> </a></td><td>Attestation étude complémentaire Echographie, option Echotomographie</td><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP307<a name=\"TRE-R56-Attestation-DIP307\"> </a></td><td>Attestation de 5ième année de médecine validée</td><td>2020-01-31T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP363<a name=\"TRE-R56-Attestation-DIP363\"> </a></td><td>Attestation de connaissances d'Ergothérapeute</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP366<a name=\"TRE-R56-Attestation-DIP366\"> </a></td><td>Attestation de connaissances de Psychomotricien</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP370<a name=\"TRE-R56-Attestation-DIP370\"> </a></td><td>Attestation de connaissances de MER</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.27" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R56-Attestation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Attestation"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DIP24" ] ;
+     fhir:display [ fhir:v "Attestation études Léprologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu Léprologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études Léprologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:21+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP25" ] ;
+     fhir:display [ fhir:v "Attestation études Electroencéphalographie clinique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu Electroencéphalograph" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études Electroencéphalographie clinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:22+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP26" ] ;
+     fhir:display [ fhir:v "Attestation études Endoscopie digestive" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu Endoscopie digestive" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études Endoscopie digestive" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:22+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP27" ] ;
+     fhir:display [ fhir:v "Attestation EU Réparation juridique du dommage corporel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att EU Répar jur domm corporel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation EU Réparation juridique du dommage corporel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:17+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP28" ] ;
+     fhir:display [ fhir:v "Attestation études Exploration fonctionnelle neuromusculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu Explor fonct neuromusc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études Exploration fonctionnelle neuromusculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:23+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP29" ] ;
+     fhir:display [ fhir:v "Attestation EU Vertébrothérapie et Médecine manuelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att EU Vertébrothérap, Méd man" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation EU Vertébrothérapie et Médecine manuelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T10:49:24+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP194" ] ;
+     fhir:display [ fhir:v "Attestation EU Echographie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att EU Echographie générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation EU Echographie générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP200" ] ;
+     fhir:display [ fhir:v "Attestation études supérieures de Proctologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu sup Proctologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études supérieures de Proctologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP202" ] ;
+     fhir:display [ fhir:v "Attestation études Thérapeutiques manuelles et Médecine physique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att étu Thérap man, Méd phys" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation études Thérapeutiques manuelles et Médecine physique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP205" ] ;
+     fhir:display [ fhir:v "Attestation formation à l'Ostéodensitométrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att form Ostéodensitométrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation formation à l'Ostéodensitométrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP208" ] ;
+     fhir:display [ fhir:v "Attestation étude complémentaire Echographie hépato-gastro-entérologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att EC Echograph hép-gast-enté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation étude complémentaire Echographie hépato-gastro-entérologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP217" ] ;
+     fhir:display [ fhir:v "Attestation étude complémentaire Echographie, option Echotomographie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Att EC Echograph Echotomograph" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation étude complémentaire Echographie, option Echotomographie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP307" ] ;
+     fhir:display [ fhir:v "Attestation de 5ième année de médecine validée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Attest5ièmeannéeméd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation de 5ième année de médecine validée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-07-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP363" ] ;
+     fhir:display [ fhir:v "Attestation de connaissances d'Ergothérapeute" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation Ergothérapeute" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation de vérification de connaissances d'Ergothérapeute" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Article L4331-5 du code de la santé publique (CSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP366" ] ;
+     fhir:display [ fhir:v "Attestation de connaissances de Psychomotricien" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation Psychomotricien" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation de vérification de connaissances de Psychomotricien" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Article L4332-5 du code de la santé publique (CSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP370" ] ;
+     fhir:display [ fhir:v "Attestation de connaissances de MER" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation MER" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Attestation de vérification de connaissances de Manipulateur d'Electro-Radiologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Article L4351-6 2° du code de la santé publique (CSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

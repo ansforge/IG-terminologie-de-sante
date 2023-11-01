@@ -1,0 +1,2558 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R244-CategorieOrganisation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R244-CategorieOrganisation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R244-CategorieOrganisation-01\"> </a></td><td>Appartement thérapeutique</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R244-CategorieOrganisation-02\"> </a></td><td>Atelier thérapeutique</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R244-CategorieOrganisation-03\"> </a></td><td>Cellule d'Urgences Médico-Psychologique (CUMP)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R244-CategorieOrganisation-04\"> </a></td><td>Centre d'Accueil Permanent (CAP)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R244-CategorieOrganisation-05\"> </a></td><td>Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R244-CategorieOrganisation-06\"> </a></td><td>Centre de crise</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R244-CategorieOrganisation-07\"> </a></td><td>Centre de post-cure</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R244-CategorieOrganisation-08\"> </a></td><td>Centre de Ressources Autisme (CRA)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R244-CategorieOrganisation-09\"> </a></td><td>Centre Expert</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R244-CategorieOrganisation-10\"> </a></td><td>Centre Médico-Psychologique (CMP)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R244-CategorieOrganisation-11\"> </a></td><td>Hôpital De Jour (HDJ)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R244-CategorieOrganisation-12\"> </a></td><td>Hôpital De Nuit (HDN)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R244-CategorieOrganisation-13\"> </a></td><td>Service d'Accueil Familial Thérapeutique</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R244-CategorieOrganisation-14\"> </a></td><td>Service Médico-Psychologique Régional (SMPR)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R244-CategorieOrganisation-15\"> </a></td><td>Unité de Soins Intensifs Psychiatriques (USIP)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R244-CategorieOrganisation-16\"> </a></td><td>Unité d'hospitalisation (hors HDJ)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R244-CategorieOrganisation-17\"> </a></td><td>Unité Hospitalière Spécialement Aménagé (UHSA)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R244-CategorieOrganisation-18\"> </a></td><td>Unité Malade Difficile (UMD)</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R244-CategorieOrganisation-19\"> </a></td><td>Unités Soins Etudes</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R244-CategorieOrganisation-20\"> </a></td><td>Urgences</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R244-CategorieOrganisation-21\"> </a></td><td>Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R244-CategorieOrganisation-22\"> </a></td><td>Accueil ou hébergement pour personnes âgées autonomes, sans spécificité</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R244-CategorieOrganisation-23\"> </a></td><td>Accueil pour personnes âgées dépendantes, avec spécificité UHR</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R244-CategorieOrganisation-24\"> </a></td><td>Accueil pour personnes âgées dépendantes, avec spécificité Unité de vie protégée</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R244-CategorieOrganisation-25\"> </a></td><td>Pôle d'activité de Soins Adaptés (PASA)</td><td>2018-01-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R244-CategorieOrganisation-26\"> </a></td><td>Accueil ou hébergement personnes âgées dépendantes, avec spécificité PUV</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R244-CategorieOrganisation-27\"> </a></td><td>Accueil pour personnes âgées autonomes, avec spécificité MARPA</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R244-CategorieOrganisation-28\"> </a></td><td>Services Soins infirmiers à domicile (SSIAD)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R244-CategorieOrganisation-29\"> </a></td><td>Equipe spécialisée Alzheimer (ESA)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R244-CategorieOrganisation-30\"> </a></td><td>Service d'aide et d'Accompagnement à Domicile (SAAD)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R244-CategorieOrganisation-31\"> </a></td><td>Service d'Accompagnement à la Vie Sociale (SAVS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R244-CategorieOrganisation-32\"> </a></td><td>Service d'accompagnement médico-social adultes handicapés (SAMSAH)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R244-CategorieOrganisation-33\"> </a></td><td>Service de portage de repas à domicile</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R244-CategorieOrganisation-34\"> </a></td><td>Service de Téléassistance</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R244-CategorieOrganisation-35\"> </a></td><td>Foyer restaurant</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R244-CategorieOrganisation-36\"> </a></td><td>Dispositif d'accueil familial</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R244-CategorieOrganisation-37\"> </a></td><td>Centre d'accueil familial spécialisé (CAFS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R244-CategorieOrganisation-38\"> </a></td><td>Plateforme d'accompagnement et de répit</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R244-CategorieOrganisation-39\"> </a></td><td>Foyer ou établissement d'accueil médicalisé (FAM ou EAM)</td><td>2018-01-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R244-CategorieOrganisation-40\"> </a></td><td>Maison d'accueil spécialisé (MAS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R244-CategorieOrganisation-41\"> </a></td><td>EANM dont foyer de vie et foyer d'hébergement</td><td>2018-01-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R244-CategorieOrganisation-42\"> </a></td><td>Foyer d'hébergement (Etablissement d'accueil non médicalisé)</td><td>2018-01-26T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td><td>2019-03-29T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R244-CategorieOrganisation-43\"> </a></td><td>Unité d'aide par le travail (ESAT)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R244-CategorieOrganisation-44\"> </a></td><td>Centre de rééducation professionnel (CRP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R244-CategorieOrganisation-45\"> </a></td><td>Unités évaluation réentraînement et orientation sociale et professionnel (UEROS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R244-CategorieOrganisation-46\"> </a></td><td>Établissements et Services de Pré-Orientation (ESPO)</td><td>2018-01-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R244-CategorieOrganisation-47\"> </a></td><td>Dispositif d'emploi accompagné</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R244-CategorieOrganisation-48\"> </a></td><td>Institut médico-éducatif (IME)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R244-CategorieOrganisation-49\"> </a></td><td>Institut d'éducation motrice (IEM)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R244-CategorieOrganisation-50\"> </a></td><td>Institut thérapeutique éducatif et pédagogique (ITEP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R244-CategorieOrganisation-51\"> </a></td><td>Etablissement pour enfant ou ado polyhandicapé (EEAP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R244-CategorieOrganisation-52\"> </a></td><td>Institut déficient visuel</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R244-CategorieOrganisation-53\"> </a></td><td>Institut déficient auditif</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R244-CategorieOrganisation-54\"> </a></td><td>Institut déficient Visuel et Auditif</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R244-CategorieOrganisation-55\"> </a></td><td>Unité d'enseignement interne</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R244-CategorieOrganisation-56\"> </a></td><td>Unité d'enseignement externe</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R244-CategorieOrganisation-57\"> </a></td><td>Service d'Education Spécialisée de Soins à Domicile (SESSAD)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R244-CategorieOrganisation-58\"> </a></td><td>Service d'Accompagnement Familial et d'Education Précoce (SAFEP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R244-CategorieOrganisation-59\"> </a></td><td>Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R244-CategorieOrganisation-60\"> </a></td><td>Serv Aide à l'Acquisition de l'Autono et à l'Intégration Sco (S3AIS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-R244-CategorieOrganisation-61\"> </a></td><td>Centre d'action médico-sociale précoce (CAMSP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-R244-CategorieOrganisation-62\"> </a></td><td>Centre médico-psycho-pédagogique (CMPP)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-R244-CategorieOrganisation-63\"> </a></td><td>Jardin d'enfants spécialisé</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-R244-CategorieOrganisation-64\"> </a></td><td>Bureau d'Aide Psychologique Universitaire (B.A.P.U.)</td><td>2018-01-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-R244-CategorieOrganisation-65\"> </a></td><td>Pôles de compétences et de prestations externalisées (PCPE)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-R244-CategorieOrganisation-66\"> </a></td><td>Equipe Relai Handicap rare</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-R244-CategorieOrganisation-67\"> </a></td><td>Lieu de vie et d'accueil (hors ESMS)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-R244-CategorieOrganisation-68\"> </a></td><td>Unité d'hospitalisation fermée</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"TRE-R244-CategorieOrganisation-69\"> </a></td><td>Consultation externe en établissement de santé</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"TRE-R244-CategorieOrganisation-70\"> </a></td><td>Unité d'intervention extra-hospitalière</td><td>2018-01-26T12:00:00+01:00</td><td>2018-02-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-R244-CategorieOrganisation-71\"> </a></td><td>Equipe de liaison et de soins (intra-hospitalière)</td><td>2018-01-26T12:00:00+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-R244-CategorieOrganisation-72\"> </a></td><td>Guichet d'accueil, écoute, conseil, orientation</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"TRE-R244-CategorieOrganisation-73\"> </a></td><td>Gestion de cas MAIA</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"TRE-R244-CategorieOrganisation-74\"> </a></td><td>Logement inclusif</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-R244-CategorieOrganisation-75\"> </a></td><td>Services Soins infirmiers à domicile renforcé (SSIAD renforcé)</td><td>2018-05-31T12:00:00+01:00</td><td>2018-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"TRE-R244-CategorieOrganisation-76\"> </a></td><td>Unité d'évaluation et de régulation des admissions en psychiatrie</td><td>2018-06-29T12:00:00+01:00</td><td>2018-06-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"TRE-R244-CategorieOrganisation-77\"> </a></td><td>Equipe Mobile Psychiatrie et Précarité (EMPP)</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"TRE-R244-CategorieOrganisation-78\"> </a></td><td>Equipe Mobile Géronto-Psychiatrie (EMGP)</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"TRE-R244-CategorieOrganisation-79\"> </a></td><td>Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-R244-CategorieOrganisation-80\"> </a></td><td>Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-R244-CategorieOrganisation-81\"> </a></td><td>CAARUD</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"TRE-R244-CategorieOrganisation-82\"> </a></td><td>Pharmacie à Usage Intérieur (PUI)</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"TRE-R244-CategorieOrganisation-83\"> </a></td><td>Chambre mortuaire</td><td>2019-07-05T12:00:00+01:00</td><td>2019-07-05T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R244-CategorieOrganisation-84\"> </a></td><td>Plateforme de Coordination et d'Orientation (PCO)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R244-CategorieOrganisation-85\"> </a></td><td>Equipe Mobile Autisme</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-R244-CategorieOrganisation-86\"> </a></td><td>Consultation Jeune Consommateur (CJC)</td><td>2022-04-29T12:00:00+01:00</td><td>2022-04-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R244-CategorieOrganisation-87\"> </a></td><td>Dispositif VigilanS</td><td>2022-06-24T12:00:00+01:00</td><td>2022-06-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R244-CategorieOrganisation-88\"> </a></td><td>Dispositif expérimental</td><td>2022-10-28T12:00:00+01:00</td><td>2022-10-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R244-CategorieOrganisation-89\"> </a></td><td>Centre de santé sexuelle</td><td>2022-10-28T12:00:00+01:00</td><td>2022-10-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R244-CategorieOrganisation-90\"> </a></td><td>Equipe mobile de prévention du risque infectieux</td><td>2022-10-28T12:00:00+01:00</td><td>2022-10-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R244-CategorieOrganisation-91\"> </a></td><td>Equipe opérationnelle d'hygiène (EOH)</td><td>2022-10-28T12:00:00+01:00</td><td>2022-10-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R244-CategorieOrganisation-92\"> </a></td><td>Unité de soins non-programmés</td><td>2022-10-28T12:00:00+01:00</td><td>2022-10-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R244-CategorieOrganisation-93\"> </a></td><td>Lits halte soins santé (LHSS)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-R244-CategorieOrganisation-94\"> </a></td><td>Appartement de coordination thérapeutique (ACT)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R244-CategorieOrganisation-95\"> </a></td><td>Lits d'accueil médicalisés (L.A.M.)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">96<a name=\"TRE-R244-CategorieOrganisation-96\"> </a></td><td>Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">97<a name=\"TRE-R244-CategorieOrganisation-97\"> </a></td><td>Etablissement d'accueil non médicalisé (EANM) - foyer de vie</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R244-CategorieOrganisation-98\"> </a></td><td>Espaces de vie affective, relationnelle et sexuelle (EVARS)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R244-CategorieOrganisation-99\"> </a></td><td>Maison de santé pluriprofessionnelle (MSP)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-R244-CategorieOrganisation-100\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) polyvalent</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"TRE-R244-CategorieOrganisation-101\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) gériatrie</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"TRE-R244-CategorieOrganisation-102\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) locomoteur</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"TRE-R244-CategorieOrganisation-103\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) système nerveux</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"TRE-R244-CategorieOrganisation-104\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">105<a name=\"TRE-R244-CategorieOrganisation-105\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) pneumologie</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">106<a name=\"TRE-R244-CategorieOrganisation-106\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) sys dig, endocrino, diabéto, nutrition</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"TRE-R244-CategorieOrganisation-107\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) brûlés</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"TRE-R244-CategorieOrganisation-108\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) conduites addictives</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-R244-CategorieOrganisation-109\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">110<a name=\"TRE-R244-CategorieOrganisation-110\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enf, ado)</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"TRE-R244-CategorieOrganisation-111\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) oncologie</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-R244-CategorieOrganisation-112\"> </a></td><td>Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-R244-CategorieOrganisation-113\"> </a></td><td>Centre de Réhabilitation Psychosociale</td><td>2023-05-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-R244-CategorieOrganisation-114\"> </a></td><td>Centre Ressource pour les Interv. auprès des Aut. de Violences Sex. (CRIAVS)</td><td>2023-05-26T12:00:00+01:00</td><td>2023-05-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-R244-CategorieOrganisation-115\"> </a></td><td>Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-R244-CategorieOrganisation-116\"> </a></td><td>Unité de chirurgie oncologique</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-R244-CategorieOrganisation-117\"> </a></td><td>Unité de radiothérapie</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-R244-CategorieOrganisation-118\"> </a></td><td>Unité de traitements médicamenteux systémiques du cancer</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-R244-CategorieOrganisation-119\"> </a></td><td>Unité mère-enfant</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.39" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R244-CategorieOrganisation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Catégorie d'organisation"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "Appartement thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Appartement thérapeutique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appartement thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Atelier thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier thérapeutique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Atelier thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Cellule d'Urgences Médico-Psychologique (CUMP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CUMP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cellule d'Urgences Médico-Psychologique (CUMP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Centre d'Accueil Permanent (CAP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CAP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre d'Accueil Permanent (CAP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CATTP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "06" ] ;
+     fhir:display [ fhir:v "Centre de crise" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de crise" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de crise" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "07" ] ;
+     fhir:display [ fhir:v "Centre de post-cure" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de post-cure" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de post-cure" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "08" ] ;
+     fhir:display [ fhir:v "Centre de Ressources Autisme (CRA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CRA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de Ressources Autisme (CRA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "09" ] ;
+     fhir:display [ fhir:v "Centre Expert" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Centre Expert" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre Expert" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Centre Médico-Psychologique (CMP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CMP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre Médico-Psychologique (CMP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Hôpital De Jour (HDJ)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "HDJ" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hôpital De Jour (HDJ)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Hôpital De Nuit (HDN)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "HDN" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hôpital De Nuit (HDN)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Service d'Accueil Familial Thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Service Accueil Famil Thérap" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'Accueil Familial Thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Service Médico-Psychologique Régional (SMPR)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMPR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service Médico-Psychologique Régional (SMPR)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Unité de Soins Intensifs Psychiatriques (USIP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "USIP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de Soins Intensifs Psychiatriques (USIP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Unité d'hospitalisation (hors HDJ)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'hosp (hors HDJ)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'hospitalisation (hors HDJ)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Unité Hospitalière Spécialement Aménagé (UHSA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "UHSA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité Hospitalière Spécialement Aménagé (UHSA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Unité Malade Difficile (UMD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "UMD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité Malade Difficile (UMD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Unités Soins Etudes" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unités Soins Etudes" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unités Soins Etudes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Urgences" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Urgences" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Urgences" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PA sans spécificité" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Accueil ou hébergement pour personnes âgées autonomes, sans spécificité" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PH sans spécificité" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées autonomes, sans spécificité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Accueil pour personnes âgées dépendantes, avec spécificité UHR" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PA spé UHR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité d'Hébergement Renforcé (UHR)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Accueil pour personnes âgées dépendantes, avec spécificité Unité de vie protégée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PA spé UVP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité de vie protégée (UVP, Cantou,...)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Pôle d'activité de Soins Adaptés (PASA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PASA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pôle d'activité de Soins Adaptés (PASA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Accueil ou hébergement personnes âgées dépendantes, avec spécificité PUV" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PA spé PUV" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Petites unités de vie (PUV)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Accueil pour personnes âgées autonomes, avec spécificité MARPA" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc PA spé MARPA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil ou hébergement pour personnes âgées autonomes, avec spécificité Maison d'accueil rural (MARPA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Services Soins infirmiers à domicile (SSIAD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SSIAD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Services Soins infirmiers à domicile (SSIAD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Equipe spécialisée Alzheimer (ESA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ESA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe spécialisée Alzheimer (ESA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Service d'aide et d'Accompagnement à Domicile (SAAD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SAAD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'aide et d'Accompagnement à Domicile (SAAD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Service d'Accompagnement à la Vie Sociale (SAVS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SAVS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'Accompagnement à la Vie Sociale (SAVS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Service d'accompagnement médico-social adultes handicapés (SAMSAH)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SAMSAH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'accompagnement médico-social adultes handicapés (SAMSAH)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "Service de portage de repas à domicile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Portage de repas à domicile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service de portage de repas à domicile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "Service de Téléassistance" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Service de Téléassistance" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service de Téléassistance" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Foyer restaurant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Foyer restaurant" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Foyer restaurant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Dispositif d'accueil familial" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif d'accueil familial" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif d'accueil familial" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Centre d'accueil familial spécialisé (CAFS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CAFS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre d'accueil familial spécialisé (CAFS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Plateforme d'accompagnement et de répit" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Plat accompagnement et répit" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateforme d'accompagnement et de répit" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Foyer ou établissement d'accueil médicalisé (FAM ou EAM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FAM ou EAM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Foyer ou établissement d'accueil médicalisé (FAM ou EAM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Maison d'accueil spécialisé (MAS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "MAS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Maison d'accueil spécialisé (MAS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "EANM dont foyer de vie et foyer d'hébergement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EANM, foyer de vie/foyer d'héb" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement d'accueil non médicalisé (EANM) dont foyer de vie et foyer d'hébergement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Foyer d'hébergement (Etablissement d'accueil non médicalisé)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Foyer d'hébergement" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Foyer d'hébergement (Etablissement d'accueil non médicalisé)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Unité d'aide par le travail (ESAT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ESAT" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'aide par le travail (ESAT)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Centre de rééducation professionnel (CRP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CRP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de rééducation professionnel (CRP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Unités évaluation réentraînement et orientation sociale et professionnel (UEROS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "UEROS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Établissements et Services de Pré-Orientation (ESPO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ESPO" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Établissements et Services de Pré-Orientation (ESPO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "Dispositif d'emploi accompagné" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Disp emploi accompagné" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif d'emploi accompagné" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "Institut médico-éducatif (IME)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IME" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut médico-éducatif (IME)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "Institut d'éducation motrice (IEM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IEM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut d'éducation motrice (IEM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "Institut thérapeutique éducatif et pédagogique (ITEP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ITEP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut thérapeutique éducatif et pédagogique (ITEP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Etablissement pour enfant ou ado polyhandicapé (EEAP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EEAP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement pour enfant ou ado polyhandicapé (EEAP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "Institut déficient visuel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient visuel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient visuel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "Institut déficient auditif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient auditif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient auditif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "Institut déficient Visuel et Auditif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient Vis et Aud" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Institut déficient Visuel et Auditif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Unité d'enseignement interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'enseignement interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'enseignement interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Unité d'enseignement externe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'enseignement externe" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'enseignement externe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Service d'Education Spécialisée de Soins à Domicile (SESSAD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SESSAD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'accompagnement, Service d'Education Spécialisée de Soins à Domicile (SESSAD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Service d'Accompagnement Familial et d'Education Précoce (SAFEP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SAFEP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'accompagnement, Service d'Accompagnement Familial et d'Education Précoce (SAFEP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SSEFIS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'accompagnement, Services de Soutien à l'Education Familiale et à la Scolarisation (SSEFIS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "Serv Aide à l'Acquisition de l'Autono et à l'Intégration Sco (S3AIS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "S3AIS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Service d'accompagnement, Service d'Aide à l'Acquisition de l'Autonomie et à l'Intégration Scolaire (S3AIS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Centre d'action médico-sociale précoce (CAMSP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CAMSP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre d'action médico-sociale précoce (CAMSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "Centre médico-psycho-pédagogique (CMPP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CMPP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre médico-psycho-pédagogique (CMPP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "Jardin d'enfants spécialisé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Jardin d'enfants spécialisé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Jardin d'enfants spécialisé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "BAPU" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "Pôles de compétences et de prestations externalisées (PCPE)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PCPE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pôles de compétences et de prestations externalisées (PCPE)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "Equipe Relai Handicap rare" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Relai Handicap rare" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Relai Handicap rare" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "Lieu de vie et d'accueil (hors ESMS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Lieu de vie et d'accueil" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lieu de vie et d'accueil (hors ESMS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "Unité d'hospitalisation fermée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'hospitalisation fermée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'hospitalisation fermée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Consultation externe en établissement de santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Consult ext étab de santé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Consultation externe en établissement de santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Unité d'intervention extra-hospitalière" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité intervention extra-hosp" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'intervention extra-hospitalière" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-02-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Equipe de liaison et de soins (intra-hospitalière)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe de liaison et de soins" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe de liaison et de soins (intra-hospitalière)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Guichet d'accueil, écoute, conseil, orientation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Guichet d'acc/écoute/conseil" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Guichet d'accueil, écoute, conseil, orientation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Gestion de cas MAIA" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gestion de cas MAIA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gestion de cas MAIA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "Logement inclusif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Logement inclusif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Logement inclusif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "Services Soins infirmiers à domicile renforcé (SSIAD renforcé)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SSIAD renforcé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Services Soins infirmiers à domicile renforcé (SSIAD renforcé)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-05-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Unité d'évaluation et de régulation des admissions en psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'éval et de régul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité d'évaluation et de régulation des admissions en psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-06-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "Equipe Mobile Psychiatrie et Précarité (EMPP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EMPP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Mobile Psychiatrie et Précarité (EMPP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "Equipe Mobile Géronto-Psychiatrie (EMGP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EMGP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Mobile Géronto-Psychiatrie (EMGP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EARS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CSAPA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "CAARUD" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CAARUD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre d'Accueil et d'Accompagnement à la Réduction des risques pour Usagers de Drogues (CAARUD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Pharmacie à Usage Intérieur (PUI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PUI" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacie à Usage Intérieur (PUI)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:display [ fhir:v "Chambre mortuaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre mortuaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chambre mortuaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "Plateforme de Coordination et d'Orientation (PCO)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PCO" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plateforme de Coordination et d'Orientation (PCO)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "Equipe Mobile Autisme" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Mobile Autisme" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Mobile Autisme" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "Consultation Jeune Consommateur (CJC)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CJC" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Consultation Jeune Consommateur (CJC)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-04-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-04-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "Dispositif VigilanS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif VigilanS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif VigilanS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-06-24T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "Dispositif expérimental" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif expérimental" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispositif expérimental" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "Centre de santé sexuelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de santé sexuelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de santé sexuelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "Equipe mobile de prévention du risque infectieux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe mob de prév risque inf" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe mobile de prévention du risque infectieux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:display [ fhir:v "Equipe opérationnelle d'hygiène (EOH)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EOH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe opérationnelle d'hygiène (EOH)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:display [ fhir:v "Unité de soins non-programmés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de soins non-programmés" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de soins non-programmés" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-10-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:display [ fhir:v "Lits halte soins santé (LHSS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "LHSS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lits halte soins santé (LHSS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "94" ] ;
+     fhir:display [ fhir:v "Appartement de coordination thérapeutique (ACT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ACT" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Appartement de coordination thérapeutique (ACT)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:display [ fhir:v "Lits d'accueil médicalisés (L.A.M.)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "LAM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lits d'accueil médicalisés (L.A.M.)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:display [ fhir:v "Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EANM - foyer d'hébergement" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement d'accueil non médicalisé (EANM) - foyer d'hébergement (classique ou en milieu ouvert)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "97" ] ;
+     fhir:display [ fhir:v "Etablissement d'accueil non médicalisé (EANM) - foyer de vie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EANM - foyer de vie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement d'accueil non médicalisé (EANM) - foyer de vie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:display [ fhir:v "Espaces de vie affective, relationnelle et sexuelle (EVARS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "EVARS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Espaces de vie affective, relationnelle et sexuelle (EVARS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Maison de santé pluriprofessionnelle (MSP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "MSP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Maison de santé pluriprofessionnelle (MSP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) polyvalent" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Polyvalent" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) polyvalent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) gériatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Gériatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) gériatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) locomoteur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Locomoteur" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) locomoteur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) système nerveux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Système Nerveux" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) système nerveux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Cardio-Vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pneumologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Pneumologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pneumologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) sys dig, endocrino, diabéto, nutrition" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Sys dig, endo, diab, nut" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) système digestif, endocrinologie, diabétologie, nutrition" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "107" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) brûlés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Brûlés" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) brûlés" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "108" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) conduites addictives" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Conduites Addictives" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) conduites addictives" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Pédiatrique (Enf et Ado)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pédiatriques (enfants et adolescents)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enf, ado)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Péd (Jeunes Enf, Enf, Ado)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) pédiatriques (jeunes enfants, enfants et adolescents)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) oncologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Oncologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) oncologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SMR Oncologie Et Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins Médicaux et de Réadaptation (SMR) oncologie et hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "Centre de Réhabilitation Psychosociale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de Réhab Psychosociale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre de Réhabilitation Psychosociale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:display [ fhir:v "Centre Ressource pour les Interv. auprès des Aut. de Violences Sex. (CRIAVS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CRIAVS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Centre Ressource pour les Intervenants auprès des Auteurs de Violences Sexuelles (CRIAVS)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:display [ fhir:v "Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ESSIP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:display [ fhir:v "Unité de chirurgie oncologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de chirurgie oncologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de chirurgie oncologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "Unité de radiothérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de radiothérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de radiothérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "Unité de traitements médicamenteux systémiques du cancer" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité trtmt médic syst cancer" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité de traitements médicamenteux systémiques du cancer" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "Unité mère-enfant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Unité mère-enfant" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Unité mère-enfant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

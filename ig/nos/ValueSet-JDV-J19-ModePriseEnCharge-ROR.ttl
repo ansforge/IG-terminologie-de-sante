@@ -1,0 +1,380 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J19-ModePriseEnCharge-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J19-ModePriseEnCharge-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-01\">01</a></td><td>Accueil Permanence des soins en établissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-02\">02</a></td><td>Accueil spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-09\">09</a></td><td>Chirurgie ambulatoire</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-11\">11</a></td><td>Equipe mobile extra-hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-13\">13</a></td><td>Hospitalisation courte durée (UHCD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-14\">14</a></td><td>Hospitalisation kangourou</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-17\">17</a></td><td>Précarité, permanence d'accès aux soins de santé (PASS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-20\">20</a></td><td>Soins externes et traitements ambulatoires</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-27\">27</a></td><td>Télémédecine</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-28\">28</a></td><td>Hospitalisation complète (HC)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-29\">29</a></td><td>Hospitalisation de jour (HJ)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-30\">30</a></td><td>Hospitalisation de nuit (HN)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-31\">31</a></td><td>Hospitalisation à domicile (HAD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-32\">32</a></td><td>Consultation (CS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-33\">33</a></td><td>Accueil des urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-34\">34</a></td><td>Hospitalisation de semaine (HS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-35\">35</a></td><td>Téléexpertise</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-36\">36</a></td><td>Téléassistance</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-37\">37</a></td><td>Télésurveillance médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-38\">38</a></td><td>Isolement de secteur (unité de cohorting)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-39\">39</a></td><td>Réunion de Concertation Pluridisciplinaire (RCP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-40\">40</a></td><td>Réunion de Concertation Pluridisciplinaire (RCP) de recours</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-41\">41</a></td><td>Accueil familial thérapeutique</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-42\">42</a></td><td>Prise en charge de groupe</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-46\">46</a></td><td>Hébergement (accueil jour et nuit)</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-47\">47</a></td><td>Accueil de jour</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-48\">48</a></td><td>Accueil de nuit</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-49\">49</a></td><td>Sur les lieux de vie</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-50\">50</a></td><td>Placement famille d'accueil</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-52\">52</a></td><td>Equipe mobile intra-hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-53\">53</a></td><td>Equipe mobile extra et intra-hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-54\">54</a></td><td>Accueil individuel ou collectif</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-55\">55</a></td><td>Plateau technique</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-56\">56</a></td><td>Accueil non programmé</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-57\">57</a></td><td>Centre spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-58\">58</a></td><td>Coordination de parcours</td></tr><tr><td><a href=\"CodeSystem-TRE-R213-ModePriseEnCharge.html#TRE-R213-ModePriseEnCharge-59\">59</a></td><td>Equipe d'intervention mobile</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J19-ModePriseEnCharge-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Mode de la prise en charge - ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Accueil Permanence des soins en établissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "02" ] ;
+         fhir:display [ fhir:v "Accueil spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "09" ] ;
+         fhir:display [ fhir:v "Chirurgie ambulatoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Equipe mobile extra-hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Hospitalisation courte durée (UHCD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "Hospitalisation kangourou" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Précarité, permanence d'accès aux soins de santé (PASS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "Soins externes et traitements ambulatoires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "Télémédecine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "Hospitalisation complète (HC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "Hospitalisation de jour (HJ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "Hospitalisation de nuit (HN)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "Hospitalisation à domicile (HAD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "Consultation (CS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "Accueil des urgences" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34" ] ;
+         fhir:display [ fhir:v "Hospitalisation de semaine (HS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "Téléexpertise" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "Téléassistance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "Télésurveillance médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "Isolement de secteur (unité de cohorting)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "Réunion de Concertation Pluridisciplinaire (RCP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Réunion de Concertation Pluridisciplinaire (RCP) de recours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Accueil familial thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Prise en charge de groupe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Hébergement (accueil jour et nuit)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Accueil de jour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Accueil de nuit" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Sur les lieux de vie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Placement famille d'accueil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Equipe mobile intra-hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Equipe mobile extra et intra-hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "Accueil individuel ou collectif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "Plateau technique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "Accueil non programmé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57" ] ;
+         fhir:display [ fhir:v "Centre spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "58" ] ;
+         fhir:display [ fhir:v "Coordination de parcours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "Equipe d'intervention mobile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.13" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

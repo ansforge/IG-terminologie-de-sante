@@ -1,0 +1,182 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J87-NiveauFormAcquis-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J87-NiveauFormAcquis-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-A06\">A06</a></td><td>6ième année validée</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-A07\">A07</a></td><td>7ième année validée</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-A08\">A08</a></td><td>8ième année validée</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-A09\">A09</a></td><td>9ième année validée</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-C02\">C02</a></td><td>2ième cycle validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S01\">S01</a></td><td>1er semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S02\">S02</a></td><td>2ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S03\">S03</a></td><td>3ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S04\">S04</a></td><td>4ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S05\">S05</a></td><td>5ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S06\">S06</a></td><td>6ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S07\">S07</a></td><td>7ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S08\">S08</a></td><td>8ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S09\">S09</a></td><td>9ième semestre internat validé</td></tr><tr><td><a href=\"CodeSystem-TRE-R224-NiveauFormAcquis.html#TRE-R224-NiveauFormAcquis-S10\">S10</a></td><td>10ième semestre internat validé</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J87-NiveauFormAcquis-RASS/FHIR/JDV-J87-NiveauFormAcquis-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.155" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J87-NiveauFormAcquis-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Niveau de formation acquis dans le cycle de formation des professionnels du RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "A06" ] ;
+         fhir:display [ fhir:v "6ième année validée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "A07" ] ;
+         fhir:display [ fhir:v "7ième année validée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "A08" ] ;
+         fhir:display [ fhir:v "8ième année validée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "A09" ] ;
+         fhir:display [ fhir:v "9ième année validée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C02" ] ;
+         fhir:display [ fhir:v "2ième cycle validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S01" ] ;
+         fhir:display [ fhir:v "1er semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S02" ] ;
+         fhir:display [ fhir:v "2ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S03" ] ;
+         fhir:display [ fhir:v "3ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S04" ] ;
+         fhir:display [ fhir:v "4ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S05" ] ;
+         fhir:display [ fhir:v "5ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S06" ] ;
+         fhir:display [ fhir:v "6ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S07" ] ;
+         fhir:display [ fhir:v "7ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S08" ] ;
+         fhir:display [ fhir:v "8ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S09" ] ;
+         fhir:display [ fhir:v "9ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "S10" ] ;
+         fhir:display [ fhir:v "10ième semestre internat validé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.116" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

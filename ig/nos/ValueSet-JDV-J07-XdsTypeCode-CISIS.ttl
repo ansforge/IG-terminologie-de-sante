@@ -1,0 +1,992 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J07-XdsTypeCode-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J07-XdsTypeCode-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-ATTEST-ASS-COMPL\">ATTEST-ASS-COMPL</a></td><td>Attestation assurance complémentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-ATTEST-RESID\">ATTEST-RESID</a></td><td>Attestation de résidence</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-ATTEST-HEBGT\">ATTEST-HEBGT</a></td><td>Attestation d'hébergement</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-ATTEST-VITALE\">ATTEST-VITALE</a></td><td>Attestation de carte vitale</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-AUTORIS-SOINS\">AUTORIS-SOINS</a></td><td>Autorisation de soins et actes non usuels sanitaires</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-BIL_AUTO\">BIL_AUTO</a></td><td>CR de bilan d'évaluation de la perte d'autonomie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-CERT_DECL\">CERT_DECL</a></td><td>Certificat, déclaration</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DISP_AUT\">DISP_AUT</a></td><td>Dispensation (autre)</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-EXPPAT_1\">EXPPAT_1</a></td><td>Volontés et droits du patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-EXPPAT_2\">EXPPAT_2</a></td><td>Autre document du patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-EXPPAT_3\">EXPPAT_3</a></td><td>Directives anticipées</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-IMG-KOS\">IMG-KOS</a></td><td>Reference d'objets d'un examen d'imagerie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PROT_ALD\">PROT_ALD</a></td><td>Protocole de soins ALD</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-REMB\">REMB</a></td><td>Données de remboursement</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-SYNTH\">SYNTH</a></td><td>Synthèse</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT01\">DOCPAT01</a></td><td>Synthèse déposée par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT02\">DOCPAT02</a></td><td>Traitement ou document de soins déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT03\">DOCPAT03</a></td><td>CR déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT04\">DOCPAT04</a></td><td>Imagerie déposée par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT05\">DOCPAT05</a></td><td>CR de biologie déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT06\">DOCPAT06</a></td><td>CR de prévention déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT07\">DOCPAT07</a></td><td>Certificat déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT08\">DOCPAT08</a></td><td>Profil médical Mon espace santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-DOCPAT09\">DOCPAT09</a></td><td>Document administratif déposé par le patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PIECE-IDENTITE\">PIECE-IDENTITE</a></td><td>Copie pièce d'identité</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-BIO\">PRESC-BIO</a></td><td>Prescription d'actes de biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-KINE\">PRESC-KINE</a></td><td>Prescription d'actes de kinésithérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-INF\">PRESC-INF</a></td><td>Prescription d'actes infirmiers</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-PEDI\">PRESC-PEDI</a></td><td>Prescription d'actes de pédicurie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-ORTHOPHO\">PRESC-ORTHOPHO</a></td><td>Prescription d'actes d'orthophonie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-PRESC-ORTHOPTIE\">PRESC-ORTHOPTIE</a></td><td>Prescription d'actes d'orthoptie</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-FEUILLE-DE-STYLE\">FEUILLE-DE-STYLE</a></td><td>Feuille de style</td></tr><tr><td><a href=\"CodeSystem-TRE-A05-TypeDocComplementaire.html#TRE-A05-TypeDocComplementaire-FICHE-CONTACTS\">FICHE-CONTACTS</a></td><td>Fiche contacts</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A04-Loinc.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11369-6\">11369-6</a></td><td>Historique des vaccinations</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11488-4\">11488-4</a></td><td>CR ou fiche de consultation ou de visite</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11490-0\">11490-0</a></td><td>Lettre de liaison à la sortie d'un établissement de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34112-3\">34112-3</a></td><td>CR hospitalier (séjour)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11502-2\">11502-2</a></td><td>CR d'examens biologiques</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11505-5\">11505-5</a></td><td>CR d'acte thérapeutique (autre)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11506-3\">11506-3</a></td><td>CR ou fiche de suivi de soins par auxiliaire médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-11526-1\">11526-1</a></td><td>CR d'anatomie et de cytologie pathologiques</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-15507-7\">15507-7</a></td><td>CR de passage aux urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-15508-5\">15508-5</a></td><td>CR d'accouchement</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-18776-5\">18776-5</a></td><td>Plan personnalisé de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-18748-4\">18748-4</a></td><td>CR d'imagerie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-18761-7\">18761-7</a></td><td>Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-28653-4\">28653-4</a></td><td>Document du secteur social / médico-social</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-29274-8\">29274-8</a></td><td>Mesures de signes vitaux</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34133-9\">34133-9</a></td><td>Synthèse d'épisode de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34749-2\">34749-2</a></td><td>CR de consultation pré-anesthésique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34794-8\">34794-8</a></td><td>CR de réunion de concertation pluridisciplinaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34842-5\">34842-5</a></td><td>Grille d'évaluation médico-social</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34874-8\">34874-8</a></td><td>CR opératoire</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-34875-5\">34875-5</a></td><td>Évaluation postopératoire et note de suivi</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-47420-5\">47420-5</a></td><td>CR de bilan fonctionnel (par auxiliaire médical)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-51969-4\">51969-4</a></td><td>CR de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-52040-3\">52040-3</a></td><td>Document encapsulant une image d'illustration non DICOM</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-55115-0\">55115-0</a></td><td>Demande d'actes d'imagerie</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-56445-0\">56445-0</a></td><td>Bilan médicamenteux (Officine)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57828-6\">57828-6</a></td><td>Prescription (autre)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57832-8\">57832-8</a></td><td>Prescription de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57833-6\">57833-6</a></td><td>Prescription de produits de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-59283-2\">59283-2</a></td><td>CR d'examen de l'enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-60591-5\">60591-5</a></td><td>Synthèse du dossier médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-60593-1\">60593-1</a></td><td>Dispensation médicamenteuse</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-61357-0\">61357-0</a></td><td>Intervention pharmaceutique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-61358-8\">61358-8</a></td><td>Consentement chirurgical</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-61359-6\">61359-6</a></td><td>Consentement anesthésique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-67851-6\">67851-6</a></td><td>CR d'admission</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-68599-0\">68599-0</a></td><td>Synthèse psychiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-68817-6\">68817-6</a></td><td>Bilan de santé et de prévention de l'enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-70004-7\">70004-7</a></td><td>CR d'acte diagnostique (autre)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-74207-2\">74207-2</a></td><td>Dossier de liaison d'urgence</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-74465-6\">74465-6</a></td><td>Questionnaire patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-75468-9\">75468-9</a></td><td>Renouvellement ordonnance par pharmacien correspondant</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-75482-0\">75482-0</a></td><td>CR d'acte thérapeutique à visée préventive</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-75492-9\">75492-9</a></td><td>CR d'acte diagnostique à visée préventive ou de dépistage</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-75496-0\">75496-0</a></td><td>Demande d'acte de télémédecine</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-77436-4\">77436-4</a></td><td>CR d'anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-77604-7\">77604-7</a></td><td>Planification thérapeutique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-78513-9\">78513-9</a></td><td>CR de consultation en ophtalmologie</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-78601-2\">78601-2</a></td><td>CR d'entretien pharmaceutique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-80565-5\">80565-5</a></td><td>CR d'administration de médicaments</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-80771-9\">80771-9</a></td><td>Projet d'accueil individualisé</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-80788-3\">80788-3</a></td><td>Projet personnalisé d'accompagnement</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-80820-4\">80820-4</a></td><td>Formulaire de conciliation médicamenteuse (Hôpital)</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-83836-7\">83836-7</a></td><td>Schéma dentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-83901-9\">83901-9</a></td><td>Bilan psychologique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-83981-1\">83981-1</a></td><td>Lettre de liaison à la sortie d'une structure sociale ou médico-sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-85208-7\">85208-7</a></td><td>CR de télémédecine</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-86531-1\">86531-1</a></td><td>Attestation de sortie</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-87273-9\">87273-9</a></td><td>Note de vaccination</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-88348-8\">88348-8</a></td><td>Lettre de liaison d'entrée en structure sociale ou médico-sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-89601-9\">89601-9</a></td><td>Certificat médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-93024-8\">93024-8</a></td><td>CR de consultation pharmaceutique</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-96349-6\">96349-6</a></td><td>Lettre d'adressage</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-96874-3\">96874-3</a></td><td>COVID-19 Attestation de vaccination</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-96173-0\">96173-0</a></td><td>Attestation de dépistage</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A12-NomenclatureASTM.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A12-NomenclatureASTM.html#TRE-A12-NomenclatureASTM-E1762\">E1762</a></td><td>Full Document</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A04-Loinc.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57055-6\">57055-6</a></td><td>Synthèse antepartum</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57057-2\">57057-2</a></td><td>Synthèse Salle de Naissance Mère</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-57075-4\">57075-4</a></td><td>Synthèse Salle de Naissance Enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-89235-6\">89235-6</a></td><td>Synthèse Suites de Couches Mère</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-78489-2\">78489-2</a></td><td>Synthèse Enfant en Maternité</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2013-01-23T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.471" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J07-XdsTypeCode-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "XDS typeCode CI-SIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ATTEST-ASS-COMPL" ] ;
+         fhir:display [ fhir:v "Attestation assurance complémentaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ATTEST-RESID" ] ;
+         fhir:display [ fhir:v "Attestation de résidence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ATTEST-HEBGT" ] ;
+         fhir:display [ fhir:v "Attestation d'hébergement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ATTEST-VITALE" ] ;
+         fhir:display [ fhir:v "Attestation de carte vitale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AUTORIS-SOINS" ] ;
+         fhir:display [ fhir:v "Autorisation de soins et actes non usuels sanitaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "BIL_AUTO" ] ;
+         fhir:display [ fhir:v "CR de bilan d'évaluation de la perte d'autonomie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "CERT_DECL" ] ;
+         fhir:display [ fhir:v "Certificat, déclaration" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DISP_AUT" ] ;
+         fhir:display [ fhir:v "Dispensation (autre)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "EXPPAT_1" ] ;
+         fhir:display [ fhir:v "Volontés et droits du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "EXPPAT_2" ] ;
+         fhir:display [ fhir:v "Autre document du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "EXPPAT_3" ] ;
+         fhir:display [ fhir:v "Directives anticipées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "IMG-KOS" ] ;
+         fhir:display [ fhir:v "Reference d'objets d'un examen d'imagerie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PROT_ALD" ] ;
+         fhir:display [ fhir:v "Protocole de soins ALD" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "REMB" ] ;
+         fhir:display [ fhir:v "Données de remboursement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SYNTH" ] ;
+         fhir:display [ fhir:v "Synthèse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT01" ] ;
+         fhir:display [ fhir:v "Synthèse déposée par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT02" ] ;
+         fhir:display [ fhir:v "Traitement ou document de soins déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT03" ] ;
+         fhir:display [ fhir:v "CR déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT04" ] ;
+         fhir:display [ fhir:v "Imagerie déposée par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT05" ] ;
+         fhir:display [ fhir:v "CR de biologie déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT06" ] ;
+         fhir:display [ fhir:v "CR de prévention déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT07" ] ;
+         fhir:display [ fhir:v "Certificat déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT08" ] ;
+         fhir:display [ fhir:v "Profil médical Mon espace santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DOCPAT09" ] ;
+         fhir:display [ fhir:v "Document administratif déposé par le patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PIECE-IDENTITE" ] ;
+         fhir:display [ fhir:v "Copie pièce d'identité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-BIO" ] ;
+         fhir:display [ fhir:v "Prescription d'actes de biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-KINE" ] ;
+         fhir:display [ fhir:v "Prescription d'actes de kinésithérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-INF" ] ;
+         fhir:display [ fhir:v "Prescription d'actes infirmiers" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-PEDI" ] ;
+         fhir:display [ fhir:v "Prescription d'actes de pédicurie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-ORTHOPHO" ] ;
+         fhir:display [ fhir:v "Prescription d'actes d'orthophonie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRESC-ORTHOPTIE" ] ;
+         fhir:display [ fhir:v "Prescription d'actes d'orthoptie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "FEUILLE-DE-STYLE" ] ;
+         fhir:display [ fhir:v "Feuille de style" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "FICHE-CONTACTS" ] ;
+         fhir:display [ fhir:v "Fiche contacts" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.12" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "11369-6" ] ;
+         fhir:display [ fhir:v "Historique des vaccinations" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11488-4" ] ;
+         fhir:display [ fhir:v "CR ou fiche de consultation ou de visite" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11490-0" ] ;
+         fhir:display [ fhir:v "Lettre de liaison à la sortie d'un établissement de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34112-3" ] ;
+         fhir:display [ fhir:v "CR hospitalier (séjour)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11502-2" ] ;
+         fhir:display [ fhir:v "CR d'examens biologiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11505-5" ] ;
+         fhir:display [ fhir:v "CR d'acte thérapeutique (autre)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11506-3" ] ;
+         fhir:display [ fhir:v "CR ou fiche de suivi de soins par auxiliaire médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11526-1" ] ;
+         fhir:display [ fhir:v "CR d'anatomie et de cytologie pathologiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "15507-7" ] ;
+         fhir:display [ fhir:v "CR de passage aux urgences" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "15508-5" ] ;
+         fhir:display [ fhir:v "CR d'accouchement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "18776-5" ] ;
+         fhir:display [ fhir:v "Plan personnalisé de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "18748-4" ] ;
+         fhir:display [ fhir:v "CR d'imagerie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "18761-7" ] ;
+         fhir:display [ fhir:v "Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "28653-4" ] ;
+         fhir:display [ fhir:v "Document du secteur social / médico-social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "29274-8" ] ;
+         fhir:display [ fhir:v "Mesures de signes vitaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34133-9" ] ;
+         fhir:display [ fhir:v "Synthèse d'épisode de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34749-2" ] ;
+         fhir:display [ fhir:v "CR de consultation pré-anesthésique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34794-8" ] ;
+         fhir:display [ fhir:v "CR de réunion de concertation pluridisciplinaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34842-5" ] ;
+         fhir:display [ fhir:v "Grille d'évaluation médico-social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34874-8" ] ;
+         fhir:display [ fhir:v "CR opératoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34875-5" ] ;
+         fhir:display [ fhir:v "Évaluation postopératoire et note de suivi" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47420-5" ] ;
+         fhir:display [ fhir:v "CR de bilan fonctionnel (par auxiliaire médical)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51969-4" ] ;
+         fhir:display [ fhir:v "CR de génétique moléculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52040-3" ] ;
+         fhir:display [ fhir:v "Document encapsulant une image d'illustration non DICOM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "55115-0" ] ;
+         fhir:display [ fhir:v "Demande d'actes d'imagerie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "56445-0" ] ;
+         fhir:display [ fhir:v "Bilan médicamenteux (Officine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57828-6" ] ;
+         fhir:display [ fhir:v "Prescription (autre)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57832-8" ] ;
+         fhir:display [ fhir:v "Prescription de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57833-6" ] ;
+         fhir:display [ fhir:v "Prescription de produits de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "59283-2" ] ;
+         fhir:display [ fhir:v "CR d'examen de l'enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60591-5" ] ;
+         fhir:display [ fhir:v "Synthèse du dossier médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60593-1" ] ;
+         fhir:display [ fhir:v "Dispensation médicamenteuse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "61357-0" ] ;
+         fhir:display [ fhir:v "Intervention pharmaceutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "61358-8" ] ;
+         fhir:display [ fhir:v "Consentement chirurgical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "61359-6" ] ;
+         fhir:display [ fhir:v "Consentement anesthésique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "67851-6" ] ;
+         fhir:display [ fhir:v "CR d'admission" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "68599-0" ] ;
+         fhir:display [ fhir:v "Synthèse psychiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "68817-6" ] ;
+         fhir:display [ fhir:v "Bilan de santé et de prévention de l'enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "70004-7" ] ;
+         fhir:display [ fhir:v "CR d'acte diagnostique (autre)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "74207-2" ] ;
+         fhir:display [ fhir:v "Dossier de liaison d'urgence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "74465-6" ] ;
+         fhir:display [ fhir:v "Questionnaire patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75468-9" ] ;
+         fhir:display [ fhir:v "Renouvellement ordonnance par pharmacien correspondant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75482-0" ] ;
+         fhir:display [ fhir:v "CR d'acte thérapeutique à visée préventive" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75492-9" ] ;
+         fhir:display [ fhir:v "CR d'acte diagnostique à visée préventive ou de dépistage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75496-0" ] ;
+         fhir:display [ fhir:v "Demande d'acte de télémédecine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "77436-4" ] ;
+         fhir:display [ fhir:v "CR d'anesthésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "77604-7" ] ;
+         fhir:display [ fhir:v "Planification thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "78513-9" ] ;
+         fhir:display [ fhir:v "CR de consultation en ophtalmologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "78601-2" ] ;
+         fhir:display [ fhir:v "CR d'entretien pharmaceutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80565-5" ] ;
+         fhir:display [ fhir:v "CR d'administration de médicaments" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80771-9" ] ;
+         fhir:display [ fhir:v "Projet d'accueil individualisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80788-3" ] ;
+         fhir:display [ fhir:v "Projet personnalisé d'accompagnement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80820-4" ] ;
+         fhir:display [ fhir:v "Formulaire de conciliation médicamenteuse (Hôpital)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83836-7" ] ;
+         fhir:display [ fhir:v "Schéma dentaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83901-9" ] ;
+         fhir:display [ fhir:v "Bilan psychologique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83981-1" ] ;
+         fhir:display [ fhir:v "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "85208-7" ] ;
+         fhir:display [ fhir:v "CR de télémédecine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "86531-1" ] ;
+         fhir:display [ fhir:v "Attestation de sortie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "87273-9" ] ;
+         fhir:display [ fhir:v "Note de vaccination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "88348-8" ] ;
+         fhir:display [ fhir:v "Lettre de liaison d'entrée en structure sociale ou médico-sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "89601-9" ] ;
+         fhir:display [ fhir:v "Certificat médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93024-8" ] ;
+         fhir:display [ fhir:v "CR de consultation pharmaceutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "96349-6" ] ;
+         fhir:display [ fhir:v "Lettre d'adressage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "96874-3" ] ;
+         fhir:display [ fhir:v "COVID-19 Attestation de vaccination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "96173-0" ] ;
+         fhir:display [ fhir:v "Attestation de dépistage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "E1762" ] ;
+         fhir:display [ fhir:v "Full Document" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:ASTM" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "57055-6" ] ;
+         fhir:display [ fhir:v "Synthèse antepartum" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57057-2" ] ;
+         fhir:display [ fhir:v "Synthèse Salle de Naissance Mère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57075-4" ] ;
+         fhir:display [ fhir:v "Synthèse Salle de Naissance Enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "89235-6" ] ;
+         fhir:display [ fhir:v "Synthèse Suites de Couches Mère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "78489-2" ] ;
+         fhir:display [ fhir:v "Synthèse Enfant en Maternité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

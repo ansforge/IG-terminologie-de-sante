@@ -1,0 +1,92 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J147-MethodHeartrate-ENS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R306-CLADIMED.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R306-CLADIMED.html#TRE-R306-CLADIMED-K50BF\">K50BF</a></td><td>MESURE OXYMETRIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R306-CLADIMED.html#TRE-R306-CLADIMED-C56AB03\">C56AB03</a></td><td>TENSIOMETRE</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R307-NCIT.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C153216\">C153216</a></td><td>objet connecté</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R308-TAASIP.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R308-TAASIP.html#TRE-R308-TAASIP-MED-873\">MED-873</a></td><td>Cardiofréquencemètre</td></tr><tr><td><a href=\"CodeSystem-TRE-R308-TAASIP.html#TRE-R308-TAASIP-MED-1244\">MED-1244</a></td><td>Estimation sans matériel (prise du pouls)</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J147-MethodHeartrate-ENS/FHIR/JDV-J147-MethodHeartrate-ENS",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.602"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J147-MethodHeartrate-ENS",
+  "status" : "active",
+  "date" : "2023-09-22T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "JDV pour la méthode de mesure de fréquence cardiaque",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED",
+      "concept" : [{
+        "code" : "K50BF",
+        "display" : "MESURE OXYMETRIE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.65"
+        }]
+      },
+      {
+        "code" : "C56AB03",
+        "display" : "TENSIOMETRE",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.2.65"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT",
+      "concept" : [{
+        "code" : "C153216",
+        "display" : "objet connecté",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.3.26.1.1"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
+      "concept" : [{
+        "code" : "MED-873",
+        "display" : "Cardiofréquencemètre",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      },
+      {
+        "code" : "MED-1244",
+        "display" : "Estimation sans matériel (prise du pouls)",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
+        }]
+      }]
+    }]
+  }
+}

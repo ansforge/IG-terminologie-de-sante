@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J113-Civilite-ENREG"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R81-Civilite.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R81-Civilite.html#TRE-R81-Civilite-M">M</a></td><td>Monsieur</td></tr><tr><td><a href="CodeSystem-TRE-R81-Civilite.html#TRE-R81-Civilite-MME">MME</a></td><td>Madame</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2020-05-29T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J113-Civilite-ENREG/FHIR/JDV-J113-Civilite-ENREG"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.184"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J113-Civilite-ENREG"/>
+  <status value="active"/>
+  <date value="2020-05-29T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Civilité pour ENREG"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite"/>
+      <concept>
+        <code value="M"/>
+        <display value="Monsieur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.69"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MME"/>
+        <display value="Madame"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.6.1.69"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

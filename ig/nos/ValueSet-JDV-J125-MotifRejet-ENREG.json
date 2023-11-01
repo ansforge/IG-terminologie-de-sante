@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J125-MotifRejet-ENREG",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html#TRE-R302-ContexteCodeComplementaire-AUT\">AUT</a></td><td>Autre motif</td></tr><tr><td><a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html#TRE-R302-ContexteCodeComplementaire-CHA\">CHA</a></td><td>Changement d'activité</td></tr><tr><td><a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html#TRE-R302-ContexteCodeComplementaire-def\">def</a></td><td>Rejet par votre gestionnaire d'autorité d'enregistrement</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-11-27T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J125-MotifRejet-ENREG/FHIR/JDV-J125-MotifRejet-ENREG",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.210"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J125-MotifRejet-ENREG",
+  "status" : "active",
+  "date" : "2020-11-27T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+      "concept" : [{
+        "code" : "AUT",
+        "display" : "Autre motif",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.70"
+        }]
+      },
+      {
+        "code" : "CHA",
+        "display" : "Changement d'activité",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.70"
+        }]
+      },
+      {
+        "code" : "def",
+        "display" : "Rejet par votre gestionnaire d'autorité d'enregistrement",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.70"
+        }]
+      }]
+    }]
+  }
+}

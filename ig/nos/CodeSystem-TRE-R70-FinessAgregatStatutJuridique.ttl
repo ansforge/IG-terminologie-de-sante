@@ -1,0 +1,518 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R70-FinessAgregatStatutJuridique> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R70-FinessAgregatStatutJuridique"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">1110<a name=\"TRE-R70-FinessAgregatStatutJuridique-1110\"> </a></td><td>Etat</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1120<a name=\"TRE-R70-FinessAgregatStatutJuridique-1120\"> </a></td><td>Collectivité Territoriale</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1210<a name=\"TRE-R70-FinessAgregatStatutJuridique-1210\"> </a></td><td>Etablissement Public à Caractère Administratif</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1220<a name=\"TRE-R70-FinessAgregatStatutJuridique-1220\"> </a></td><td>Etablissement Public à Caractère Industriel et Commercial</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2110<a name=\"TRE-R70-FinessAgregatStatutJuridique-2110\"> </a></td><td>Organisme Gérant un Régime de Protection Sociale à Adhésion</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2120<a name=\"TRE-R70-FinessAgregatStatutJuridique-2120\"> </a></td><td>Organisme Mutualiste</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2130<a name=\"TRE-R70-FinessAgregatStatutJuridique-2130\"> </a></td><td>Comité d'Entreprise et Comité d'Etablissement</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2140<a name=\"TRE-R70-FinessAgregatStatutJuridique-2140\"> </a></td><td>Organisme Professionnel</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2150<a name=\"TRE-R70-FinessAgregatStatutJuridique-2150\"> </a></td><td>Syndicat de Propriétaires</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2160<a name=\"TRE-R70-FinessAgregatStatutJuridique-2160\"> </a></td><td>Association</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2170<a name=\"TRE-R70-FinessAgregatStatutJuridique-2170\"> </a></td><td>Fondation</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2180<a name=\"TRE-R70-FinessAgregatStatutJuridique-2180\"> </a></td><td>Congrégation</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2190<a name=\"TRE-R70-FinessAgregatStatutJuridique-2190\"> </a></td><td>Autre Organisme Privé à But non Lucratif</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2210<a name=\"TRE-R70-FinessAgregatStatutJuridique-2210\"> </a></td><td>Personne Physique</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2220<a name=\"TRE-R70-FinessAgregatStatutJuridique-2220\"> </a></td><td>Société en Nom Collectif (S.N.C.)</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2230<a name=\"TRE-R70-FinessAgregatStatutJuridique-2230\"> </a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2240<a name=\"TRE-R70-FinessAgregatStatutJuridique-2240\"> </a></td><td>Société Anonyme (S.A.)</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2250<a name=\"TRE-R70-FinessAgregatStatutJuridique-2250\"> </a></td><td>Société Civile</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2260<a name=\"TRE-R70-FinessAgregatStatutJuridique-2260\"> </a></td><td>Autre Société</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2270<a name=\"TRE-R70-FinessAgregatStatutJuridique-2270\"> </a></td><td>Groupement Privé à Caractère Commercial</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">2280<a name=\"TRE-R70-FinessAgregatStatutJuridique-2280\"> </a></td><td>Autre Organisme Privé à Caractère Commercial</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">3110<a name=\"TRE-R70-FinessAgregatStatutJuridique-3110\"> </a></td><td>Personne Morale de Droit Etranger</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.65" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R70-FinessAgregatStatutJuridique"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Agrégat de statuts juridiques FINESS"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1110" ] ;
+     fhir:display [ fhir:v "Etat" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Etat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etat" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1120" ] ;
+     fhir:display [ fhir:v "Collectivité Territoriale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Col. Territoriale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Collectivité territoriale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1210" ] ;
+     fhir:display [ fhir:v "Etablissement Public à Caractère Administratif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Etb.Pub. Administr." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement public à caractère administratif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1220" ] ;
+     fhir:display [ fhir:v "Etablissement Public à Caractère Industriel et Commercial" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Etb.Pub. Indus. Com." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Etablissement public à caractère industriel et commercial" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2110" ] ;
+     fhir:display [ fhir:v "Organisme Gérant un Régime de Protection Sociale à Adhésion" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Org.Régime Prot.Soc." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Organisme gérant un régime de protection sociale à adhésion" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2120" ] ;
+     fhir:display [ fhir:v "Organisme Mutualiste" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Org. Mutualiste" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Organisme mutualiste" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2130" ] ;
+     fhir:display [ fhir:v "Comité d'Entreprise et Comité d'Etablissement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Comité d'Entreprise" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Comité d'entreprise ou Comité d'établissement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2140" ] ;
+     fhir:display [ fhir:v "Organisme Professionnel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Org. professionnel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Organisme professionnel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2150" ] ;
+     fhir:display [ fhir:v "Syndicat de Propriétaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Synd. Propriétaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Syndicat de propriétaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2160" ] ;
+     fhir:display [ fhir:v "Association" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Association" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Association" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2170" ] ;
+     fhir:display [ fhir:v "Fondation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fondation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fondation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2180" ] ;
+     fhir:display [ fhir:v "Congrégation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Congrégation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Congrégation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2190" ] ;
+     fhir:display [ fhir:v "Autre Organisme Privé à But non Lucratif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autre Org. Privé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autre organisme privé à but non lucratif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2210" ] ;
+     fhir:display [ fhir:v "Personne Physique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Personne Physique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Personne physique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2220" ] ;
+     fhir:display [ fhir:v "Société en Nom Collectif (S.N.C.)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Soc.en Nom Collectif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Société en nom collectif (SNC)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2230" ] ;
+     fhir:display [ fhir:v "Société A Responsabilité Limitée (S.A.R.L.)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "S.A.R.L." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Société à responsabilité limitée (SARL)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2240" ] ;
+     fhir:display [ fhir:v "Société Anonyme (S.A.)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Société Anonyme" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Société anonyme (SA)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2250" ] ;
+     fhir:display [ fhir:v "Société Civile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Société Civile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Société civile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2260" ] ;
+     fhir:display [ fhir:v "Autre Société" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autre Société" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autre société" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2270" ] ;
+     fhir:display [ fhir:v "Groupement Privé à Caractère Commercial" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gr.Privé.Caract.Com." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Groupement privé à caractère commercial" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2280" ] ;
+     fhir:display [ fhir:v "Autre Organisme Privé à Caractère Commercial" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Autre Org.Priv.Com." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Autre organisme privé à caractère commercial" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3110" ] ;
+     fhir:display [ fhir:v "Personne Morale de Droit Etranger" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pers.Moral.Etranger" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Personne morale de droit étranger" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "1979-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

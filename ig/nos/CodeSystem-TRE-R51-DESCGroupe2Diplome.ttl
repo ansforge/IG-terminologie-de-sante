@@ -1,0 +1,308 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R51-DESCGroupe2Diplome> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R51-DESCGroupe2Diplome"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">DSM400<a name=\"TRE-R51-DESCGroupe2Diplome-DSM400\"> </a></td><td>DESC2 Chirurgie infantile</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM401<a name=\"TRE-R51-DESCGroupe2Diplome-DSM401\"> </a></td><td>DESC2 Chirurgie maxillo-faciale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM402<a name=\"TRE-R51-DESCGroupe2Diplome-DSM402\"> </a></td><td>DESC2 Chirurgie maxillo-faciale et Stomatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM403<a name=\"TRE-R51-DESCGroupe2Diplome-DSM403\"> </a></td><td>DESC2 Chirurgie de la face et du cou</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM404<a name=\"TRE-R51-DESCGroupe2Diplome-DSM404\"> </a></td><td>DESC2 Chirurgie orthopédique et Traumatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM405<a name=\"TRE-R51-DESCGroupe2Diplome-DSM405\"> </a></td><td>DESC2 Chirurgie plastique, reconstructrice et esthétique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM406<a name=\"TRE-R51-DESCGroupe2Diplome-DSM406\"> </a></td><td>DESC2 Chirurgie thoracique et cardio-vasculaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM407<a name=\"TRE-R51-DESCGroupe2Diplome-DSM407\"> </a></td><td>DESC2 Chirurgie urologique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM408<a name=\"TRE-R51-DESCGroupe2Diplome-DSM408\"> </a></td><td>DESC2 Chirurgie vasculaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM409<a name=\"TRE-R51-DESCGroupe2Diplome-DSM409\"> </a></td><td>DESC2 Chirurgie viscérale et digestive</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM410<a name=\"TRE-R51-DESCGroupe2Diplome-DSM410\"> </a></td><td>DESC2 Gériatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSM411<a name=\"TRE-R51-DESCGroupe2Diplome-DSM411\"> </a></td><td>DESC2 Réanimation médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.49" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R51-DESCGroupe2Diplome"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "DESC Groupe 2 (diplôme)"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DSM400" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM401" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie maxillo-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir maxillo-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie maxillo-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM402" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie maxillo-faciale et Stomatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir maxil-fac, Stomato" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie maxillo-faciale et Stomatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM403" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie de la face et du cou" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir face et cou" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie de la face et du cou" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM404" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie orthopédique et Traumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir orthop, Trauma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie orthopédique et Traumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM405" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir plastiq recon esthé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie plastique, reconstructrice et esthétique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM406" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir thoraciq, card-vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie thoracique et cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM407" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie urologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir urologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie urologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM408" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM409" ] ;
+     fhir:display [ fhir:v "DESC2 Chirurgie viscérale et digestive" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chir viscérale, digestiv" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Chirurgie viscérale et digestive" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM410" ] ;
+     fhir:display [ fhir:v "DESC2 Gériatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Gériatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Gériatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM411" ] ;
+     fhir:display [ fhir:v "DESC2 Réanimation médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Réanimation médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DESC2 Réanimation médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

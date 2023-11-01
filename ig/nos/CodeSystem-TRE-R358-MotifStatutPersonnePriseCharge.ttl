@@ -1,0 +1,1109 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R358-MotifStatutPersonnePriseCharge> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R358-MotifStatutPersonnePriseCharge"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-84\"> </a></td><td>Le demandeur ne remplit pas les exigences d'admission</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-85\"> </a></td><td>Volonté du demandeur</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-86\"> </a></td><td>Le plateau technique n'est pas adapté à la prise en charge de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-87\"> </a></td><td>L'usager est admis dans un autre ESMS suite à un déménagement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-88\"> </a></td><td>Suite à la décision de la CDAPH</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-89\"> </a></td><td>L'usager ne souhaite plus être pris en charge par l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-90\"> </a></td><td>Décès</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-91\"> </a></td><td>L'usager est admis dans un autre ESMS suite à une réorientation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-92\"> </a></td><td>Amélioration notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-93\"> </a></td><td>Aggravation notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-95\"> </a></td><td>Annulation automatique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-98\"> </a></td><td>Fin de validité de la notification</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-100\"> </a></td><td>Volonté de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-109\"> </a></td><td>Déménagement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-112\"> </a></td><td>Erreur d'utilisation du logiciel</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-113\"> </a></td><td>Eloignement géographique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-114\"> </a></td><td>Les ressources de l'ESMS ne sont pas suffisantes</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-115\"> </a></td><td>L'ESMS n'est pas adapté au projet de vie actuel de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-116\"> </a></td><td>Le type de handicap ne relève pas de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-117\"> </a></td><td>La situation de l'usager a changé, l'ESMS n'est pas adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-118\"> </a></td><td>L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-119\"> </a></td><td>L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">120<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-120\"> </a></td><td>L'usager a déménagé, l'orientation n'est plus pertinente géographiquement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">121<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-121\"> </a></td><td>L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">122<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-122\"> </a></td><td>L'âge de l'usager est incompatible</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">124<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-124\"> </a></td><td>L'usager est décédé</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">125<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-125\"> </a></td><td>L'usager a démissionné (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">126<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-126\"> </a></td><td>Prise en charge invalidité SS (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">127<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-127\"> </a></td><td>Retraite (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">128<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-128\"> </a></td><td>Fin de contrat (SAVS/SAMSAH/SESSAD)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">135<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-135\"> </a></td><td>Fin de période d'essai</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">136<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-136\"> </a></td><td>Renouvellement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">146<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-146\"> </a></td><td>Entrée en apprentissage</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">147<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-147\"> </a></td><td>Réinsertion en milieu ordinaire</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">148<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-148\"> </a></td><td>L'ESMS n'a pas réussi à joindre l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">150<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-150\"> </a></td><td>L'usager a pris contact avec l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">151<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-151\"> </a></td><td>L'ESMS a pris contact avec l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">152<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-152\"> </a></td><td>L'usager a visité l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">153<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-153\"> </a></td><td>L'ESMS a envoyé une documentation à l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">157<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-157\"> </a></td><td>Hospitalisation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">158<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-158\"> </a></td><td>Admission en établissement pour personnes âgées</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">159<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-159\"> </a></td><td>Fin de formation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">168<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-168\"> </a></td><td>Pour placer l'usager en liste d'attente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">170<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-170\"> </a></td><td>Pour prendre en charge l'usager à temps adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">172<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-172\"> </a></td><td>Changement de situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">173<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-173\"> </a></td><td>Une autre décision annule et remplace cette décision</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">174<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-174\"> </a></td><td>Décision clôturée par la MDPH</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">184<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-184\"> </a></td><td>L'usager est accueilli en famille d'accueil</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">204<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-204\"> </a></td><td>Fin de l'accueil temporaire</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">253<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-253\"> </a></td><td>L'usager est transféré dans une autre unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.248" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R358-MotifStatutPersonnePriseCharge"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Motif du statut de la personne prise en charge"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "Le demandeur ne remplit pas les exigences d'admission" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Remplit pas exigence admission" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Le demandeur ne remplit pas les exigences d'admission" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "Volonté du demandeur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Volonté du demandeur" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Volonté du demandeur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "Le plateau technique n'est pas adapté à la prise en charge de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Plateau technique pas adapté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Le plateau technique n'est pas adapté à la prise en charge de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "L'usager est admis dans un autre ESMS suite à un déménagement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Déménagement ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est admis dans un autre ESMS suite à un déménagement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "Suite à la décision de la CDAPH" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Décision CDAPH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Suite à la décision de la CDAPH" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "L'usager ne souhaite plus être pris en charge par l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Décision usager" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager ne souhaite plus être pris en charge par l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "Décès" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Décès" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Décès" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:display [ fhir:v "L'usager est admis dans un autre ESMS suite à une réorientation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Réorientation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est admis dans un autre ESMS suite à une réorientation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:display [ fhir:v "Amélioration notoire de la situation de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Amélioration" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Amélioration notoire de la situation de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:display [ fhir:v "Aggravation notoire de la situation de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Aggravation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Aggravation notoire de la situation de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:display [ fhir:v "Annulation automatique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Annulation automatique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Annulation automatique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:display [ fhir:v "Fin de validité de la notification" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de validité" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de validité de la notification" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "Volonté de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Volonté de l'usager" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Volonté de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "Déménagement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Déménagement" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Déménagement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Erreur d'utilisation du logiciel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Erreur utilisation logiciel" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Erreur d'utilisation du logiciel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "Eloignement géographique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Eloignement géographique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Eloignement géographique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:display [ fhir:v "Les ressources de l'ESMS ne sont pas suffisantes" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Ressources ESMS insuffisantes" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Les ressources de l'ESMS ne sont pas suffisantes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:display [ fhir:v "L'ESMS n'est pas adapté au projet de vie actuel de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "L'ESMS n'est pas adapté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'ESMS n'est pas adapté au projet de vie actuel de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:display [ fhir:v "Le type de handicap ne relève pas de l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Handicap pas PEC par l'ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Le type de handicap ne relève pas de l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "La situation de l'usager a changé, l'ESMS n'est pas adapté" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Situation de l'usager changée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "La situation de l'usager a changé, l'ESMS n'est pas adapté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Refus inscription dans l'ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Usager admis dans autre ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "120" ] ;
+     fhir:display [ fhir:v "L'usager a déménagé, l'orientation n'est plus pertinente géographiquement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a déménagé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a déménagé, l'orientation n'est plus pertinente géographiquement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "121" ] ;
+     fhir:display [ fhir:v "L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Refus projet de vie de l'ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:display [ fhir:v "L'âge de l'usager est incompatible" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Age usager est incompatible" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'âge de l'usager est incompatible" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "124" ] ;
+     fhir:display [ fhir:v "L'usager est décédé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est décédé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est décédé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "125" ] ;
+     fhir:display [ fhir:v "L'usager a démissionné (ESAT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Démission (ESAT)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a démissionné (ESAT)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "126" ] ;
+     fhir:display [ fhir:v "Prise en charge invalidité SS (ESAT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prise charge invalidité SS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est pris en charge par la sécurité sociale au titre de l'invalidité (ESAT)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "127" ] ;
+     fhir:display [ fhir:v "Retraite (ESAT)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Retraite (ESAT)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a fait valoir ses droits à la retraite (ESAT)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "128" ] ;
+     fhir:display [ fhir:v "Fin de contrat (SAVS/SAMSAH/SESSAD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fin contrat SAVS/SAMSAH/SESSAD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est arrivé à la fin du contrat de prise en charge (SAVS/SAMSAH/SESSAD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "135" ] ;
+     fhir:display [ fhir:v "Fin de période d'essai" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de période d'essai" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de période d'essai" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "136" ] ;
+     fhir:display [ fhir:v "Renouvellement" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Renouvellement" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Renouvellement" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "146" ] ;
+     fhir:display [ fhir:v "Entrée en apprentissage" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Entrée en apprentissage" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a pu entrer en apprentissage" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "147" ] ;
+     fhir:display [ fhir:v "Réinsertion en milieu ordinaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Réinsertion milieu ordinaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a pu se réinsérer en milieu ordinaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "148" ] ;
+     fhir:display [ fhir:v "L'ESMS n'a pas réussi à joindre l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Usager injoignable par ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'ESMS n'a pas réussi à joindre l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:display [ fhir:v "L'usager a pris contact avec l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prise de contact avec l'ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a pris contact avec l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:display [ fhir:v "L'ESMS a pris contact avec l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prise de contact avec usager" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'ESMS a pris contact avec l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:display [ fhir:v "L'usager a visité l'ESMS" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a visité l'ESMS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager a visité l'ESMS" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:display [ fhir:v "L'ESMS a envoyé une documentation à l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Documentation ESMS envoyée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'ESMS a envoyé une documentation à l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "157" ] ;
+     fhir:display [ fhir:v "Hospitalisation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hospitalisation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hospitalisation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "158" ] ;
+     fhir:display [ fhir:v "Admission en établissement pour personnes âgées" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Adm étab. pr personnes âgées" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est admis dans un établissement pour personnes âgées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:display [ fhir:v "Fin de formation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de formation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de formation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:display [ fhir:v "Pour placer l'usager en liste d'attente" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Usager en liste d'attente" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pour placer l'usager en liste d'attente" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "170" ] ;
+     fhir:display [ fhir:v "Pour prendre en charge l'usager à temps adapté" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PEC de l'usager à temps adapté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pour prendre en charge l'usager à temps adapté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "172" ] ;
+     fhir:display [ fhir:v "Changement de situation de l'usager" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Changement de situation usager" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Changement de situation de l'usager" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "173" ] ;
+     fhir:display [ fhir:v "Une autre décision annule et remplace cette décision" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Annule et remplace décision" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Une autre décision annule et remplace cette décision" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "174" ] ;
+     fhir:display [ fhir:v "Décision clôturée par la MDPH" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Décision clôturée par la MDPH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Décision clôturée par la MDPH" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "184" ] ;
+     fhir:display [ fhir:v "L'usager est accueilli en famille d'accueil" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Usager en famille d'accueil" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est accueilli en famille d'accueil" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "204" ] ;
+     fhir:display [ fhir:v "Fin de l'accueil temporaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de l'accueil temporaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fin de l'accueil temporaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "253" ] ;
+     fhir:display [ fhir:v "L'usager est transféré dans une autre unité" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Usager transféré - autre unité" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "L'usager est transféré dans une autre unité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

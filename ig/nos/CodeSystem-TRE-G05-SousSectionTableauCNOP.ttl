@@ -1,0 +1,416 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-G05-SousSectionTableauCNOP> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-G05-SousSectionTableauCNOP"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"TRE-G05-SousSectionTableauCNOP-A\"> </a></td><td>Pharmacien titulaire d'officine</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">B<a name=\"TRE-G05-SousSectionTableauCNOP-B\"> </a></td><td>Pharmacien d'entreprise - industrie</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-G05-SousSectionTableauCNOP-C\"> </a></td><td>Pharmacien d'entreprise - distribution</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"TRE-G05-SousSectionTableauCNOP-D\"> </a></td><td>Pharmacien adjoint, remplaçant ou gérant</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DA<a name=\"TRE-G05-SousSectionTableauCNOP-DA\"> </a></td><td>Pharmacien adjoint</td><td>2000-12-19T00:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DH<a name=\"TRE-G05-SousSectionTableauCNOP-DH\"> </a></td><td>Pharmacien d'établissement de santé</td><td>2000-12-19T00:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DM<a name=\"TRE-G05-SousSectionTableauCNOP-DM\"> </a></td><td>Pharmacien mutualiste ou minier</td><td>2000-12-19T00:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">E<a name=\"TRE-G05-SousSectionTableauCNOP-E\"> </a></td><td>Pharmacien d'Outre-Mer</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EA<a name=\"TRE-G05-SousSectionTableauCNOP-EA\"> </a></td><td>Pharmacien titulaire d'officine - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EB<a name=\"TRE-G05-SousSectionTableauCNOP-EB\"> </a></td><td>Pharmacien d'entreprise - industrie - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EC<a name=\"TRE-G05-SousSectionTableauCNOP-EC\"> </a></td><td>Pharmacien d'entreprise - distribution - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">ED<a name=\"TRE-G05-SousSectionTableauCNOP-ED\"> </a></td><td>Pharmacien adjoint - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EG<a name=\"TRE-G05-SousSectionTableauCNOP-EG\"> </a></td><td>Pharmacien biologiste - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">EH<a name=\"TRE-G05-SousSectionTableauCNOP-EH\"> </a></td><td>Pharmacien d'établissement de santé - OM</td><td>2010-09-13T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-G05-SousSectionTableauCNOP-G\"> </a></td><td>Pharmacien biologiste</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">H<a name=\"TRE-G05-SousSectionTableauCNOP-H\"> </a></td><td>Pharmacien d'établissement de santé</td><td>2000-12-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">M<a name=\"TRE-G05-SousSectionTableauCNOP-M\"> </a></td><td>Pharmacien militaire</td><td>2012-04-12T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2012-04-12T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.6" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_G05-SousSectionTableauCNOP"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Sous-Section du tableau de l'Ordre des Pharmaciens"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "Pharmacien titulaire d'officine" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien titulaire officine" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien titulaire d'officine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "B" ] ;
+     fhir:display [ fhir:v "Pharmacien d'entreprise - industrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien entreprise, indus" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'entreprise - industrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "Pharmacien d'entreprise - distribution" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien entreprise, distrib" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'entreprise - distribution" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "D" ] ;
+     fhir:display [ fhir:v "Pharmacien adjoint, remplaçant ou gérant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharm adjoint, remplaç, gérant" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint, remplaçant ou gérant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DA" ] ;
+     fhir:display [ fhir:v "Pharmacien adjoint" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-01T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DH" ] ;
+     fhir:display [ fhir:v "Pharmacien d'établissement de santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint étab santé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'établissement de santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DM" ] ;
+     fhir:display [ fhir:v "Pharmacien mutualiste ou minier" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien mutualiste, minier" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien mutualiste ou minier" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-01T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "E" ] ;
+     fhir:display [ fhir:v "Pharmacien d'Outre-Mer" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien Outre-Mer" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'Outre-Mer" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EA" ] ;
+     fhir:display [ fhir:v "Pharmacien titulaire d'officine - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien officine - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien titulaire d'officine - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EB" ] ;
+     fhir:display [ fhir:v "Pharmacien d'entreprise - industrie - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien industrie - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'entreprise - industrie - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EC" ] ;
+     fhir:display [ fhir:v "Pharmacien d'entreprise - distribution - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien distribution - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'entreprise - distribution - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ED" ] ;
+     fhir:display [ fhir:v "Pharmacien adjoint - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien adjoint - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EG" ] ;
+     fhir:display [ fhir:v "Pharmacien biologiste - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien biologiste - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien biologiste - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EH" ] ;
+     fhir:display [ fhir:v "Pharmacien d'établissement de santé - OM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'étab santé - OM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'établissement de santé - OM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-09-13T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "G" ] ;
+     fhir:display [ fhir:v "Pharmacien biologiste" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien biologiste" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien biologiste" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "H" ] ;
+     fhir:display [ fhir:v "Pharmacien d'établissement de santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'étab de santé" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien d'établissement de santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2000-12-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "M" ] ;
+     fhir:display [ fhir:v "Pharmacien militaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien militaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacien militaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2012-04-12T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,413 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R52-CapaciteDiplome> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R52-CapaciteDiplome"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">CAPA01<a name=\"TRE-R52-CapaciteDiplome-CAPA01\"> </a></td><td>Addictologie clinique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA02<a name=\"TRE-R52-CapaciteDiplome-CAPA02\"> </a></td><td>Aide médicale urgente</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA03<a name=\"TRE-R52-CapaciteDiplome-CAPA03\"> </a></td><td>Allergologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA04<a name=\"TRE-R52-CapaciteDiplome-CAPA04\"> </a></td><td>Angéiologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA05<a name=\"TRE-R52-CapaciteDiplome-CAPA05\"> </a></td><td>Evaluation et traitement de la douleur</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA06<a name=\"TRE-R52-CapaciteDiplome-CAPA06\"> </a></td><td>Gérontologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA07<a name=\"TRE-R52-CapaciteDiplome-CAPA07\"> </a></td><td>Hydrologie et Climatologie médicales</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA08<a name=\"TRE-R52-CapaciteDiplome-CAPA08\"> </a></td><td>Médecine aérospatiale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA09<a name=\"TRE-R52-CapaciteDiplome-CAPA09\"> </a></td><td>Médecine de catastrophe</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA10<a name=\"TRE-R52-CapaciteDiplome-CAPA10\"> </a></td><td>Médecine et Biologie du sport</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA11<a name=\"TRE-R52-CapaciteDiplome-CAPA11\"> </a></td><td>Médecine de santé au travail et prévention des risques professionnelles</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA12<a name=\"TRE-R52-CapaciteDiplome-CAPA12\"> </a></td><td>Médecine pénitentiaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA13<a name=\"TRE-R52-CapaciteDiplome-CAPA13\"> </a></td><td>Médecine tropicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA14<a name=\"TRE-R52-CapaciteDiplome-CAPA14\"> </a></td><td>Pratiques médico-judiciaires</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA15<a name=\"TRE-R52-CapaciteDiplome-CAPA15\"> </a></td><td>Technologie transfusionnelle</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA16<a name=\"TRE-R52-CapaciteDiplome-CAPA16\"> </a></td><td>Toxicomanies et alcoologies</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">CAPA17<a name=\"TRE-R52-CapaciteDiplome-CAPA17\"> </a></td><td>Acupuncture</td><td>2007-07-25T00:00:00+01:00</td><td>2009-11-24T00:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2013-06-28T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.50" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R52-CapaciteDiplome"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Capacité (diplôme)"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CAPA01" ] ;
+     fhir:display [ fhir:v "Addictologie clinique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Addictologie clinique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Addictologie clinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA02" ] ;
+     fhir:display [ fhir:v "Aide médicale urgente" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Aide médicale urgente" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Aide médicale urgente" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA03" ] ;
+     fhir:display [ fhir:v "Allergologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Allergologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Allergologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA04" ] ;
+     fhir:display [ fhir:v "Angéiologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Angéiologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Angéiologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA05" ] ;
+     fhir:display [ fhir:v "Evaluation et traitement de la douleur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Eval, traitement douleur" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Evaluation et traitement de la douleur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA06" ] ;
+     fhir:display [ fhir:v "Gérontologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gérontologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gérontologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA07" ] ;
+     fhir:display [ fhir:v "Hydrologie et Climatologie médicales" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hydrologie, Climatologie médic" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hydrologie et Climatologie médicales" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA08" ] ;
+     fhir:display [ fhir:v "Médecine aérospatiale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine aérospatiale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine aérospatiale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA09" ] ;
+     fhir:display [ fhir:v "Médecine de catastrophe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine de catastrophe" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine de catastrophe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA10" ] ;
+     fhir:display [ fhir:v "Médecine et Biologie du sport" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine et Biologie du sport" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine et Biologie du sport" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA11" ] ;
+     fhir:display [ fhir:v "Médecine de santé au travail et prévention des risques professionnelles" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Méd santé trav, Prév risq pro" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine de santé au travail et prévention des risques professionnelles" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA12" ] ;
+     fhir:display [ fhir:v "Médecine pénitentiaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine pénitentiaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine pénitentiaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA13" ] ;
+     fhir:display [ fhir:v "Médecine tropicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine tropicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine tropicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA14" ] ;
+     fhir:display [ fhir:v "Pratiques médico-judiciaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pratiques médico-judiciaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pratiques médico-judiciaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA15" ] ;
+     fhir:display [ fhir:v "Technologie transfusionnelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Technologie transfusionnelle" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Technologie transfusionnelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA16" ] ;
+     fhir:display [ fhir:v "Toxicomanies et alcoologies" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Toxicomanies et alcoologies" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Toxicomanies et alcoologies" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAPA17" ] ;
+     fhir:display [ fhir:v "Acupuncture" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acupuncture" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Acupuncture" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2009-11-24T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

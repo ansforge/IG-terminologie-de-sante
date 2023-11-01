@@ -1,0 +1,1988 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R36-AutreDiplomeObtenu> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R36-AutreDiplomeObtenu"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">AUT001<a name=\"TRE-R36-AutreDiplomeObtenu-AUT001\"> </a></td><td>Diplôme Université Kabul (Afghanistan)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT002<a name=\"TRE-R36-AutreDiplomeObtenu-AUT002\"> </a></td><td>Faculté de Médecine de Annaba (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT003<a name=\"TRE-R36-AutreDiplomeObtenu-AUT003\"> </a></td><td>Diplôme Université Alger (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT004<a name=\"TRE-R36-AutreDiplomeObtenu-AUT004\"> </a></td><td>Diplôme Université Constantine (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT005<a name=\"TRE-R36-AutreDiplomeObtenu-AUT005\"> </a></td><td>Diplôme Université Oran (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT006<a name=\"TRE-R36-AutreDiplomeObtenu-AUT006\"> </a></td><td>Diplôme Université Buenos Aires (Argentine)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT007<a name=\"TRE-R36-AutreDiplomeObtenu-AUT007\"> </a></td><td>Diplôme Université Australie</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT008<a name=\"TRE-R36-AutreDiplomeObtenu-AUT008\"> </a></td><td>Diplôme Université Santa-Catarina (Brésil)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT009<a name=\"TRE-R36-AutreDiplomeObtenu-AUT009\"> </a></td><td>Diplôme Université de Médecine de Sofia</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT010<a name=\"TRE-R36-AutreDiplomeObtenu-AUT010\"> </a></td><td>Diplôme Université Santiago (Chili)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT011<a name=\"TRE-R36-AutreDiplomeObtenu-AUT011\"> </a></td><td>Diplôme Université Congo</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT012<a name=\"TRE-R36-AutreDiplomeObtenu-AUT012\"> </a></td><td>Diplôme Université Danemark</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT013<a name=\"TRE-R36-AutreDiplomeObtenu-AUT013\"> </a></td><td>Diplôme Université Alexandrie (Egypte)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT014<a name=\"TRE-R36-AutreDiplomeObtenu-AUT014\"> </a></td><td>Diplôme Université Le Caire (Egypte)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT015<a name=\"TRE-R36-AutreDiplomeObtenu-AUT015\"> </a></td><td>Diplôme Université Athènes (Grèce)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT016<a name=\"TRE-R36-AutreDiplomeObtenu-AUT016\"> </a></td><td>Diplôme Université San Carlos (Guatemala)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT017<a name=\"TRE-R36-AutreDiplomeObtenu-AUT017\"> </a></td><td>Diplôme Université Conakry (Guinée)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT018<a name=\"TRE-R36-AutreDiplomeObtenu-AUT018\"> </a></td><td>Diplôme Université Téhéran (Iran)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT019<a name=\"TRE-R36-AutreDiplomeObtenu-AUT019\"> </a></td><td>Faculté de Pharmacie Université Saint-Joseph Beyrouth</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT020<a name=\"TRE-R36-AutreDiplomeObtenu-AUT020\"> </a></td><td>Diplôme Université Bamako (Mali)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT021<a name=\"TRE-R36-AutreDiplomeObtenu-AUT021\"> </a></td><td>Diplôme Université Bucarest</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT022<a name=\"TRE-R36-AutreDiplomeObtenu-AUT022\"> </a></td><td>Diplôme Université Cluj-Napoca (Roumanie)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT023<a name=\"TRE-R36-AutreDiplomeObtenu-AUT023\"> </a></td><td>Diplôme Université Roumanie</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT024<a name=\"TRE-R36-AutreDiplomeObtenu-AUT024\"> </a></td><td>Diplôme Université Kharkov (Russie)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT025<a name=\"TRE-R36-AutreDiplomeObtenu-AUT025\"> </a></td><td>Faculté de Médecine, Pharmacie de Dakar</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT026<a name=\"TRE-R36-AutreDiplomeObtenu-AUT026\"> </a></td><td>Diplôme Université Damas (Syrie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT027<a name=\"TRE-R36-AutreDiplomeObtenu-AUT027\"> </a></td><td>Diplôme Université Monastir (Tunisie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT028<a name=\"TRE-R36-AutreDiplomeObtenu-AUT028\"> </a></td><td>Faculté de Médecine Hanoï (Viêt Nam)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT029<a name=\"TRE-R36-AutreDiplomeObtenu-AUT029\"> </a></td><td>Diplôme Université Saigon (Viêt Nam)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT030<a name=\"TRE-R36-AutreDiplomeObtenu-AUT030\"> </a></td><td>Diplôme Faculté Médecine, Pharmacie Rabat (Maroc)</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT031<a name=\"TRE-R36-AutreDiplomeObtenu-AUT031\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Médecin</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT032<a name=\"TRE-R36-AutreDiplomeObtenu-AUT032\"> </a></td><td>Diplôme éq de Pharmacie d'un pays hors EEE</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT033<a name=\"TRE-R36-AutreDiplomeObtenu-AUT033\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT034<a name=\"TRE-R36-AutreDiplomeObtenu-AUT034\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Sage-Femme</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT035<a name=\"TRE-R36-AutreDiplomeObtenu-AUT035\"> </a></td><td>Diplôme Université d'Etat Méd Pharm Erevan (Arménie)</td><td>2008-12-15T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT036<a name=\"TRE-R36-AutreDiplomeObtenu-AUT036\"> </a></td><td>Diplôme Université Tichrine (Syrie)</td><td>2009-09-07T00:00:00+01:00</td><td>2009-09-07T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT100<a name=\"TRE-R36-AutreDiplomeObtenu-AUT100\"> </a></td><td>Diplôme d'Etat français de docteur en Pharmacie</td><td>2008-12-19T09:01:44+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT101<a name=\"TRE-R36-AutreDiplomeObtenu-AUT101\"> </a></td><td>DEES Médecine générale</td><td>2009-01-30T16:33:56+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT102<a name=\"TRE-R36-AutreDiplomeObtenu-AUT102\"> </a></td><td>DEES Anesthésie réanimation</td><td>2009-01-30T16:34:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT103<a name=\"TRE-R36-AutreDiplomeObtenu-AUT103\"> </a></td><td>DEES Chirurgie générale</td><td>2009-01-30T16:34:06+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT104<a name=\"TRE-R36-AutreDiplomeObtenu-AUT104\"> </a></td><td>DEES Médecine physique et de réadaptation</td><td>2009-01-30T16:34:54+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT105<a name=\"TRE-R36-AutreDiplomeObtenu-AUT105\"> </a></td><td>DEES Radio-diagnostic et Imagerie médicale</td><td>2009-01-30T16:35:12+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT106<a name=\"TRE-R36-AutreDiplomeObtenu-AUT106\"> </a></td><td>DEES Rhumatologie</td><td>2009-01-30T16:35:15+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT107<a name=\"TRE-R36-AutreDiplomeObtenu-AUT107\"> </a></td><td>DEES Médecine du travail</td><td>2009-01-30T16:35:26+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT108<a name=\"TRE-R36-AutreDiplomeObtenu-AUT108\"> </a></td><td>DEES Neurologie</td><td>2009-01-30T16:35:41+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT109<a name=\"TRE-R36-AutreDiplomeObtenu-AUT109\"> </a></td><td>DEES Pédiatrie</td><td>2009-01-30T16:36:01+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT110<a name=\"TRE-R36-AutreDiplomeObtenu-AUT110\"> </a></td><td>DEES Neuro-chirurgie</td><td>2009-01-30T16:36:09+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT111<a name=\"TRE-R36-AutreDiplomeObtenu-AUT111\"> </a></td><td>DEES Psychiatrie</td><td>2009-01-30T16:36:25+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT112<a name=\"TRE-R36-AutreDiplomeObtenu-AUT112\"> </a></td><td>DEES Médecine générale nouveau régime</td><td>2009-01-30T16:36:38+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT113<a name=\"TRE-R36-AutreDiplomeObtenu-AUT113\"> </a></td><td>DEES Cardiologie et Maladies vasculaires</td><td>2009-01-30T16:36:55+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT114<a name=\"TRE-R36-AutreDiplomeObtenu-AUT114\"> </a></td><td>DEES Ophtalmologie</td><td>2009-01-30T16:36:56+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT115<a name=\"TRE-R36-AutreDiplomeObtenu-AUT115\"> </a></td><td>DEES Biologie médicale</td><td>2009-01-30T16:37:16+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT116<a name=\"TRE-R36-AutreDiplomeObtenu-AUT116\"> </a></td><td>DEES Chirurgie orthopédique et traumatologique</td><td>2009-01-30T16:37:19+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT117<a name=\"TRE-R36-AutreDiplomeObtenu-AUT117\"> </a></td><td>DEES hématologie</td><td>2009-01-30T16:37:45+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT118<a name=\"TRE-R36-AutreDiplomeObtenu-AUT118\"> </a></td><td>DEES Gynécologie-obstétrique</td><td>2009-01-30T16:37:56+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT119<a name=\"TRE-R36-AutreDiplomeObtenu-AUT119\"> </a></td><td>DEES Chirurgie plastique, reconstructrice et esthétique</td><td>2009-01-30T16:38:45+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT120<a name=\"TRE-R36-AutreDiplomeObtenu-AUT120\"> </a></td><td>DEES Médecine interne</td><td>2009-01-30T16:39:18+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT121<a name=\"TRE-R36-AutreDiplomeObtenu-AUT121\"> </a></td><td>DEES Chirurgie urologique</td><td>2009-01-30T16:40:54+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT122<a name=\"TRE-R36-AutreDiplomeObtenu-AUT122\"> </a></td><td>DEES Pathologie cardio-vasculaire</td><td>2009-01-30T16:42:17+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT123<a name=\"TRE-R36-AutreDiplomeObtenu-AUT123\"> </a></td><td>DEES Radio-thérapie</td><td>2009-01-30T16:43:08+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT124<a name=\"TRE-R36-AutreDiplomeObtenu-AUT124\"> </a></td><td>DEES Chirurgie vasculaire</td><td>2009-01-30T16:45:09+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT125<a name=\"TRE-R36-AutreDiplomeObtenu-AUT125\"> </a></td><td>DEES Dermato-vénéréologie</td><td>2009-01-30T16:45:13+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT126<a name=\"TRE-R36-AutreDiplomeObtenu-AUT126\"> </a></td><td>DEES Chirurgie orthopédique et traumatologique</td><td>2009-01-30T16:46:32+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT127<a name=\"TRE-R36-AutreDiplomeObtenu-AUT127\"> </a></td><td>DEES Chirurgie vasculaire</td><td>2009-01-30T16:47:49+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT128<a name=\"TRE-R36-AutreDiplomeObtenu-AUT128\"> </a></td><td>DEES Pneumologie</td><td>2009-01-30T16:48:23+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT129<a name=\"TRE-R36-AutreDiplomeObtenu-AUT129\"> </a></td><td>DEES Anatomie et Cytologie pathologiques</td><td>2009-01-30T16:48:55+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT130<a name=\"TRE-R36-AutreDiplomeObtenu-AUT130\"> </a></td><td>DEES Chirurgie thoracique et cardio-vasculaire</td><td>2009-01-30T16:49:50+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT131<a name=\"TRE-R36-AutreDiplomeObtenu-AUT131\"> </a></td><td>DEES Psychiatrie infantile</td><td>2009-01-30T16:50:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT132<a name=\"TRE-R36-AutreDiplomeObtenu-AUT132\"> </a></td><td>DEES ORL et Chirurgie cervico-faciale</td><td>2009-01-30T16:53:05+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT133<a name=\"TRE-R36-AutreDiplomeObtenu-AUT133\"> </a></td><td>DEES ORL</td><td>2009-01-30T16:53:54+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT134<a name=\"TRE-R36-AutreDiplomeObtenu-AUT134\"> </a></td><td>DEES Chirurgie thoracique et cardio-vasculaire</td><td>2009-01-30T16:55:03+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT135<a name=\"TRE-R36-AutreDiplomeObtenu-AUT135\"> </a></td><td>DEES Génétique médicale</td><td>2009-01-30T17:34:38+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT136<a name=\"TRE-R36-AutreDiplomeObtenu-AUT136\"> </a></td><td>DEES Néphrologie</td><td>2009-01-30T16:32:23+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT140<a name=\"TRE-R36-AutreDiplomeObtenu-AUT140\"> </a></td><td>Dip d'un pays hors EEE profession Médecin</td><td>2009-02-23T11:19:55+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT141<a name=\"TRE-R36-AutreDiplomeObtenu-AUT141\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Médecin</td><td>2009-06-26T11:57:32+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT142<a name=\"TRE-R36-AutreDiplomeObtenu-AUT142\"> </a></td><td>Dip Université Montréal (Canada)</td><td>2009-12-30T09:12:39+01:00</td><td>2009-12-30T09:12:39+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT143<a name=\"TRE-R36-AutreDiplomeObtenu-AUT143\"> </a></td><td>Dip Faculté Pharm Univ Cocody (Côte d'Ivoire)</td><td>2010-04-21T09:21:07+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT144<a name=\"TRE-R36-AutreDiplomeObtenu-AUT144\"> </a></td><td>Dip Université Beyrouth</td><td>2011-04-14T09:01:37+01:00</td><td>2011-04-14T09:01:37+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT145<a name=\"TRE-R36-AutreDiplomeObtenu-AUT145\"> </a></td><td>Dip Faculté Pharm Univ Lattaquié (Syrie)</td><td>2012-02-28T16:28:14+01:00</td><td>2015-12-29T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT154<a name=\"TRE-R36-AutreDiplomeObtenu-AUT154\"> </a></td><td>Dip Université Saint-Joseph Beyrouth</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT159<a name=\"TRE-R36-AutreDiplomeObtenu-AUT159\"> </a></td><td>Dip Faculté Pharm Univ Alep (Syrie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT164<a name=\"TRE-R36-AutreDiplomeObtenu-AUT164\"> </a></td><td>Dip Faculté Pharm Univ Koursk (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT169<a name=\"TRE-R36-AutreDiplomeObtenu-AUT169\"> </a></td><td>Dip Université Mogi das Cruzes (Brésil)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT174<a name=\"TRE-R36-AutreDiplomeObtenu-AUT174\"> </a></td><td>Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT179<a name=\"TRE-R36-AutreDiplomeObtenu-AUT179\"> </a></td><td>Dip Université Al Baath (Homs,Syrie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT184<a name=\"TRE-R36-AutreDiplomeObtenu-AUT184\"> </a></td><td>Dip Université de Saint-Petersbourg (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT189<a name=\"TRE-R36-AutreDiplomeObtenu-AUT189\"> </a></td><td>Dip Université Lima (Pérou)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT194<a name=\"TRE-R36-AutreDiplomeObtenu-AUT194\"> </a></td><td>Dip Université Cordoba (Argentine)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT199<a name=\"TRE-R36-AutreDiplomeObtenu-AUT199\"> </a></td><td>Nomenclature interne</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT204<a name=\"TRE-R36-AutreDiplomeObtenu-AUT204\"> </a></td><td>Dip Université Chisinau (Moldavie)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT209<a name=\"TRE-R36-AutreDiplomeObtenu-AUT209\"> </a></td><td>Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">AUT214<a name=\"TRE-R36-AutreDiplomeObtenu-AUT214\"> </a></td><td>Dip Université de Moscou (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.54" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R36-AutreDiplomeObtenu"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Autre diplôme obtenu"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AUT001" ] ;
+     fhir:display [ fhir:v "Diplôme Université Kabul (Afghanistan)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Kabul (Afghanistan)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Kabul (Afghanistan)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT002" ] ;
+     fhir:display [ fhir:v "Faculté de Médecine de Annaba (Algérie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fac Médecine Annaba (Algérie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Faculté de Médecine de Annaba (Algérie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT003" ] ;
+     fhir:display [ fhir:v "Diplôme Université Alger (Algérie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Alger (Algérie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Alger (Algérie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT004" ] ;
+     fhir:display [ fhir:v "Diplôme Université Constantine (Algérie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Constantine (Algérie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Constantine (Algérie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT005" ] ;
+     fhir:display [ fhir:v "Diplôme Université Oran (Algérie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Oran (Algérie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Oran (Algérie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT006" ] ;
+     fhir:display [ fhir:v "Diplôme Université Buenos Aires (Argentine)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Buenos Aires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Buenos Aires (Argentine)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT007" ] ;
+     fhir:display [ fhir:v "Diplôme Université Australie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Australie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Australie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT008" ] ;
+     fhir:display [ fhir:v "Diplôme Université Santa-Catarina (Brésil)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Sta-Catarina (Brésil)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Santa-Catarina (Brésil)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT009" ] ;
+     fhir:display [ fhir:v "Diplôme Université de Médecine de Sofia" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ de Médecine de Sofia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université de Médecine de Sofia" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT010" ] ;
+     fhir:display [ fhir:v "Diplôme Université Santiago (Chili)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Santiago (Chili)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Santiago (Chili)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT011" ] ;
+     fhir:display [ fhir:v "Diplôme Université Congo" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Congo" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Congo" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT012" ] ;
+     fhir:display [ fhir:v "Diplôme Université Danemark" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Danemark" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Danemark" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT013" ] ;
+     fhir:display [ fhir:v "Diplôme Université Alexandrie (Egypte)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Alexandrie (Egypte)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Alexandrie (Egypte)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT014" ] ;
+     fhir:display [ fhir:v "Diplôme Université Le Caire (Egypte)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Le Caire (Egypte)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Le Caire (Egypte)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT015" ] ;
+     fhir:display [ fhir:v "Diplôme Université Athènes (Grèce)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Athènes (Grèce)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Athènes (Grèce)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT016" ] ;
+     fhir:display [ fhir:v "Diplôme Université San Carlos (Guatemala)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ SanCarlos (Guatemala)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université San Carlos (Guatemala)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT017" ] ;
+     fhir:display [ fhir:v "Diplôme Université Conakry (Guinée)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Conakry (Guinée)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Conakry (Guinée)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT018" ] ;
+     fhir:display [ fhir:v "Diplôme Université Téhéran (Iran)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Téhéran (Iran)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Téhéran (Iran)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT019" ] ;
+     fhir:display [ fhir:v "Faculté de Pharmacie Université Saint-Joseph Beyrouth" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fac Pharm St-Joseph Beyrouth" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Faculté de Pharmacie Université Saint-Joseph Beyrouth" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT020" ] ;
+     fhir:display [ fhir:v "Diplôme Université Bamako (Mali)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Bamako (Mali)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Bamako (Mali)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT021" ] ;
+     fhir:display [ fhir:v "Diplôme Université Bucarest" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Bucarest" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Bucarest" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT022" ] ;
+     fhir:display [ fhir:v "Diplôme Université Cluj-Napoca (Roumanie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Cluj-Napoca, Roumanie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Cluj-Napoca (Roumanie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT023" ] ;
+     fhir:display [ fhir:v "Diplôme Université Roumanie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Roumanie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Roumanie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT024" ] ;
+     fhir:display [ fhir:v "Diplôme Université Kharkov (Russie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Kharkov (Russie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Kharkov (Russie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT025" ] ;
+     fhir:display [ fhir:v "Faculté de Médecine, Pharmacie de Dakar" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fac Médecine, Pharmacie, Dakar" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Faculté de Médecine, de Pharmacie de Dakar" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT026" ] ;
+     fhir:display [ fhir:v "Diplôme Université Damas (Syrie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Damas (Syrie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Damas (Syrie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT027" ] ;
+     fhir:display [ fhir:v "Diplôme Université Monastir (Tunisie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Monastir (Tunisie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Monastir (Tunisie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT028" ] ;
+     fhir:display [ fhir:v "Faculté de Médecine Hanoï (Viêt Nam)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Fac Médecine Hanoï (Viêt Nam)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Faculté de Médecine Hanoï (Viêt Nam)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT029" ] ;
+     fhir:display [ fhir:v "Diplôme Université Saigon (Viêt Nam)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Saigon (Viêt Nam)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Saigon (Viêt Nam)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT030" ] ;
+     fhir:display [ fhir:v "Diplôme Faculté Médecine, Pharmacie Rabat (Maroc)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Méd, Pharm Rabat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Méd Pharm Rabat (Maroc)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT031" ] ;
+     fhir:display [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Médecin" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip éq pays hors EEE Médecin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Médecin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT032" ] ;
+     fhir:display [ fhir:v "Diplôme éq de Pharmacie d'un pays hors EEE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip éq Pharmacie pays hors EEE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme équivalent de Pharmacie d'un pays hors EEE" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT033" ] ;
+     fhir:display [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip éq pays hors EEE Chir-Dent" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT034" ] ;
+     fhir:display [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Sage-Femme" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip éq pays hors EEE Sage-Fem" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Sage-Femme" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT035" ] ;
+     fhir:display [ fhir:v "Diplôme Université d'Etat Méd Pharm Erevan (Arménie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Etat Méd, Phar Erevan" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université d'Etat Méd Pharm Erevan (Arménie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-15T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT036" ] ;
+     fhir:display [ fhir:v "Diplôme Université Tichrine (Syrie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Tichrine (Syrie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Tichrine (Syrie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-09-07T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2009-09-07T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT100" ] ;
+     fhir:display [ fhir:v "Diplôme d'Etat français de docteur en Pharmacie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DE français docteur Pharmacie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme d'Etat français de docteur en Pharmacie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-12-19T09:01:44+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT101" ] ;
+     fhir:display [ fhir:v "DEES Médecine générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:33:56+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT102" ] ;
+     fhir:display [ fhir:v "DEES Anesthésie réanimation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anesthésie réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anesthésie réanimation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:34:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT103" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:34:06+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT104" ] ;
+     fhir:display [ fhir:v "DEES Médecine physique et de réadaptation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine physiq, réadapt" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine physique et de réadaptation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:34:54+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT105" ] ;
+     fhir:display [ fhir:v "DEES Radio-diagnostic et Imagerie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diag, Imagerie méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diagnostic et Imagerie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:35:12+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT106" ] ;
+     fhir:display [ fhir:v "DEES Rhumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Rhumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Rhumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:35:15+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT107" ] ;
+     fhir:display [ fhir:v "DEES Médecine du travail" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine du travail" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine du travail" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:35:26+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT108" ] ;
+     fhir:display [ fhir:v "DEES Neurologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neurologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neurologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:35:41+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT109" ] ;
+     fhir:display [ fhir:v "DEES Pédiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pédiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pédiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:01+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT110" ] ;
+     fhir:display [ fhir:v "DEES Neuro-chirurgie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:09+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT111" ] ;
+     fhir:display [ fhir:v "DEES Psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:25+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT112" ] ;
+     fhir:display [ fhir:v "DEES Médecine générale nouveau régime" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES MG nouveau régime" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine générale nouveau régime" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT113" ] ;
+     fhir:display [ fhir:v "DEES Cardiologie et Maladies vasculaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie, Malad vascul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie et Maladies vasculaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:55+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT114" ] ;
+     fhir:display [ fhir:v "DEES Ophtalmologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Ophtalmologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Ophtalmologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:36:56+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT115" ] ;
+     fhir:display [ fhir:v "DEES Biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:37:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT116" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie orthopédique et traumatologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir orthopédique, trauma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie orthopédique et traumatologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:37:19+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT117" ] ;
+     fhir:display [ fhir:v "DEES hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:37:45+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT118" ] ;
+     fhir:display [ fhir:v "DEES Gynécologie-obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie-obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie-obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:37:56+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT119" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir plastiq recon esthét" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie plastique, reconstructrice et esthétique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:38:45+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT120" ] ;
+     fhir:display [ fhir:v "DEES Médecine interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:39:18+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT121" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie urologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir urologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie urologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:40:54+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT122" ] ;
+     fhir:display [ fhir:v "DEES Pathologie cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pathologie cardio-vascul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pathologie cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:42:17+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT123" ] ;
+     fhir:display [ fhir:v "DEES Radio-thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:43:08+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT124" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:45:09+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT125" ] ;
+     fhir:display [ fhir:v "DEES Dermato-vénéréologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Dermato-vénéréologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Dermato-vénéréologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:45:13+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT126" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie orthopédique et traumatologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir orthopédique, trauma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie orthopédique et traumatologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:46:32+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT127" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:47:49+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT128" ] ;
+     fhir:display [ fhir:v "DEES Pneumologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pneumologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pneumologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:48:23+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT129" ] ;
+     fhir:display [ fhir:v "DEES Anatomie et Cytologie pathologiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anatomie, Cytologie patho" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anatomie et Cytologie pathologiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:48:55+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT130" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir thoraciq cardio-vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:49:50+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT131" ] ;
+     fhir:display [ fhir:v "DEES Psychiatrie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:50:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT132" ] ;
+     fhir:display [ fhir:v "DEES ORL et Chirurgie cervico-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL, Chir cervico-fac" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL et Chirurgie cervico-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:53:05+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT133" ] ;
+     fhir:display [ fhir:v "DEES ORL" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:53:54+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT134" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir thoraciq cardio-vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:55:03+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT135" ] ;
+     fhir:display [ fhir:v "DEES Génétique médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Génétique médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Génétique médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T17:34:38+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT136" ] ;
+     fhir:display [ fhir:v "DEES Néphrologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Néphrologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Néphrologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-01-30T16:32:23+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT140" ] ;
+     fhir:display [ fhir:v "Dip d'un pays hors EEE profession Médecin" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip pays hors EEE Médecin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme d'un pays hors EEE profession Médecin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-02-23T11:19:55+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT141" ] ;
+     fhir:display [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Médecin" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip éq pays hors EEE Médecin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme équivalent d'un pays hors EEE profession Médecin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-06-26T11:57:32+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT142" ] ;
+     fhir:display [ fhir:v "Dip Université Montréal (Canada)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Montréal (Canada)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Montréal (Canada)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2009-12-30T09:12:39+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2009-12-30T09:12:39+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT143" ] ;
+     fhir:display [ fhir:v "Dip Faculté Pharm Univ Cocody (Côte d'Ivoire)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Pharm Univ Cocody" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Pharm Univ Cocody (Côte d'Ivoire)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2010-04-21T09:21:07+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT144" ] ;
+     fhir:display [ fhir:v "Dip Université Beyrouth" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Beyrouth" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Beyrouth" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2011-04-14T09:01:37+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-04-14T09:01:37+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT145" ] ;
+     fhir:display [ fhir:v "Dip Faculté Pharm Univ Lattaquié (Syrie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Pharm Univ Lattaquié" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Pharm Univ Lattaquié (Syrie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2012-02-28T16:28:14+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT154" ] ;
+     fhir:display [ fhir:v "Dip Université Saint-Joseph Beyrouth" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Saint-Joseph Beyrouth" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Saint-Joseph Beyrouth" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT159" ] ;
+     fhir:display [ fhir:v "Dip Faculté Pharm Univ Alep (Syrie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Pharm Alep (Syrie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Pharm Univ Alep (Syrie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT164" ] ;
+     fhir:display [ fhir:v "Dip Faculté Pharm Univ Koursk (Russie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Pharm Koursk (Russie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Pharm Univ Koursk (Russie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT169" ] ;
+     fhir:display [ fhir:v "Dip Université Mogi das Cruzes (Brésil)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Mogi Cruzes (Brésil)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Mogi das Cruzes (Brésil)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT174" ] ;
+     fhir:display [ fhir:v "Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Fac Méd Univ Pharm, Tirana" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT179" ] ;
+     fhir:display [ fhir:v "Dip Université Al Baath (Homs,Syrie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Al Baath (Homs,Syrie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Al Baath (Homs,Syrie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT184" ] ;
+     fhir:display [ fhir:v "Dip Université de Saint-Petersbourg (Russie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Saint-Petersbourg" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université de Saint-Petersbourg (Russie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT189" ] ;
+     fhir:display [ fhir:v "Dip Université Lima (Pérou)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Lima (Pérou)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Lima (Pérou)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT194" ] ;
+     fhir:display [ fhir:v "Dip Université Cordoba (Argentine)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Cordoba (Argentine)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Cordoba (Argentine)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT199" ] ;
+     fhir:display [ fhir:v "Nomenclature interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Nomenclature interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Nomenclature interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT204" ] ;
+     fhir:display [ fhir:v "Dip Université Chisinau (Moldavie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Chisinau (Moldavie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université Chisinau (Moldavie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT209" ] ;
+     fhir:display [ fhir:v "Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ Djil Liabès, SB Abbès" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AUT214" ] ;
+     fhir:display [ fhir:v "Dip Université de Moscou (Russie)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dip Univ de Moscou (Russie)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Diplôme Université de Moscou (Russie)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

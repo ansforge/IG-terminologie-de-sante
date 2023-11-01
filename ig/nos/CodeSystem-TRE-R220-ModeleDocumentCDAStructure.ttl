@@ -1,0 +1,1681 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R220-ModeleDocumentCDAStructure> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R220-ModeleDocumentCDAStructure"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.10<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4610\"> </a></td><td>Carnet de vaccination électronique</td><td>2016-09-01T00:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.12.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4612.461\"> </a></td><td>Synthèse antepartum</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.12.2<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4612.462\"> </a></td><td>Synthèse Salle de Naissance Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.12.3<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4612.463\"> </a></td><td>Synthèse Salle de Naissance Enfant</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.12.4<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4612.464\"> </a></td><td>Synthèse Suites de Couches Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.12.5<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4612.465\"> </a></td><td>Synthèse Enfant en Maternité</td><td>2016-09-01T00:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.13<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4613\"> </a></td><td>Synthèse médicale</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.15<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4615\"> </a></td><td>Fiche d'admission en unité neuro-vasculaire</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.16<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4616\"> </a></td><td>Fiche d'épisode de soin en unité neuro-vasculaire</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.17<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4617\"> </a></td><td>Fiche de sortie d'unité neuro-vasculaire</td><td>2016-09-01T00:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.18<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4618\"> </a></td><td>Compte-rendu de rétinographie</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.2.1.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.462.461.461\"> </a></td><td>Fiche patient à risque en cardiologie - Traitement AVK</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.2.1.2<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.462.461.462\"> </a></td><td>Fiche patient à risque en cardiologie - Trait. antiagrég. plaquettaire, stent</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.2.1.3<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.462.461.463\"> </a></td><td>Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.2.1.4<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.462.461.464\"> </a></td><td>Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.2.1.5<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.462.461.465\"> </a></td><td>Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.20<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4620\"> </a></td><td>Plan Personnalisé de Santé - PAERPA</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.21<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4621\"> </a></td><td>Lettre de Liaison à l'entrée d'un établissement de santé</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.22<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4622\"> </a></td><td>Document de liaison d'urgence</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.23<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4623\"> </a></td><td>Fiche de liaison d'urgence -Transfert de l'EHPAD vers les urgences</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.24<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4624\"> </a></td><td>Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.25<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4625\"> </a></td><td>CR consultation d'évaluation pluri-professionnelle post AVC</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.26<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4626\"> </a></td><td>Programme Personnalisé de Soins - Cancer</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.27<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4627\"> </a></td><td>D2LM - Fiche d'interprétation nationale</td><td>2017-07-07T10:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.28<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4628\"> </a></td><td>D2LM - Fiche d'interprétation du bilan de diagnostic différé</td><td>2017-07-07T10:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.29<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4629\"> </a></td><td>Lettre de Liaison à la sortie de l'établissement de santé</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.3.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.463.461\"> </a></td><td>Compte rendu d'hospitalisation</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.30<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4630\"> </a></td><td>Set de Données Minimum - Maladies Rares</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.32<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4632\"> </a></td><td>Compte rendu de génétique moléculaire</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.36<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4636\"> </a></td><td>Historique des remboursements</td><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.37<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4637\"> </a></td><td>Historique des vaccinations</td><td>2019-10-25T12:00:00+01:00</td><td>2022-09-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.38<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4638\"> </a></td><td>Demande d'acte de télémédecine</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.39<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4639\"> </a></td><td>Prescription de médicaments</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.40<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4640\"> </a></td><td>Compte rendu d'anesthésie</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.41<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4641\"> </a></td><td>Compte rendu de consultation pré-anesthésique</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.42<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4642\"> </a></td><td>CR de consultation en ophtalmologie - Bilan de réfraction</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.43<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4643\"> </a></td><td>CR de consultation en ophtalmologie - Bilan cataracte</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.44<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4644\"> </a></td><td>CR de consultation en ophtalmologie - Bilan DMLA</td><td>2020-12-17T12:00:00+01:00</td><td>2020-12-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.45<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4645\"> </a></td><td>Compte-rendu d'imagerie médicale</td><td>2021-04-30T12:00:00+01:00</td><td>2021-04-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.46<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4646\"> </a></td><td>Note de vaccination</td><td>2021-04-30T12:00:00+01:00</td><td>2021-04-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.47<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4647\"> </a></td><td>Demande d'actes d'imagerie</td><td>2021-12-17T12:00:00+01:00</td><td>2022-07-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.48<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4648\"> </a></td><td>Document de liaison d'urgence DOM</td><td>2022-03-25T12:00:00+01:00</td><td>2022-03-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.49<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4649\"> </a></td><td>Fiche de liaison d'urgence -Transfert du domicile vers les urgences</td><td>2022-03-25T12:00:00+01:00</td><td>2022-03-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.5.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.465.461\"> </a></td><td>Certificat de santé du 8ème jour de l'enfant</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.5.2<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.465.462\"> </a></td><td>Certificat de santé du 9ème mois de l'enfant</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.5.3<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.465.463\"> </a></td><td>Certificat de santé du 24ème mois de l'enfant</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.5.4<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.465.464\"> </a></td><td>Mesures de signes vitaux</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.50<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4650\"> </a></td><td>Fiche de liaison d'urgence - Retour des urgences vers le domicile</td><td>2022-03-25T12:00:00+01:00</td><td>2022-03-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.51<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4651\"> </a></td><td>Synthèse du dossier médical</td><td>2022-04-29T12:00:00+01:00</td><td>2022-04-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.52<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4652\"> </a></td><td>Prescription d'actes de biologie médicale</td><td>2022-07-29T12:00:00+01:00</td><td>2022-07-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.54<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4654\"> </a></td><td>Dispensation médicamenteuse</td><td>2023-02-17T12:00:00+01:00</td><td>2023-02-17T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.55<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.4655\"> </a></td><td>CR d'examens biologiques</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.8<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.468\"> </a></td><td>Fiche de réunion de concertation pluridisciplinaire</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.2.250.1.213.1.1.1.9<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.462.46250.461.46213.461.461.461.469\"> </a></td><td>Document d'information et de directives anticipées du patient</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.3.3<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.463.463\"> </a></td><td>Compte rendu structuré d'examens de biologie médicale</td><td>2016-09-01T00:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td><td>2023-07-28T09:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.461\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.1<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.461\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Sein</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.2<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.462\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Côlon</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.3<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.463\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Prostate</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.4<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.464\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.5<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.465\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Poumon</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.6<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.466\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.7<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.467\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Rein</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.8<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.468\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.9<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.469\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.10<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4610\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Ovaires</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.11<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4611\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Oesophage</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.12<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4612\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Estomac</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.13<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4613\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Foie</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.14<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4614\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Pancréas</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.15<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4615\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Testicule</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.16<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4616\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Vessie</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.17<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4617\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.18<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4618\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Pharynx</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.19<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4619\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">1.3.6.1.4.1.19376.1.8.1.1.2.20<a name=\"TRE-R220-ModeleDocumentCDAStructure-1.463.466.461.464.461.4619376.461.468.461.461.462.4620\"> </a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Larynx</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.328" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R220-ModeleDocumentCDAStructure"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifiant des modèles de CDA structurés"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.10" ] ;
+     fhir:display [ fhir:v "Carnet de vaccination électronique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CVA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Carnet de vaccination électronique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.12.1" ] ;
+     fhir:display [ fhir:v "Synthèse antepartum" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OBP-SAP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse antepartum" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.12.2" ] ;
+     fhir:display [ fhir:v "Synthèse Salle de Naissance Mère" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OBP-SNM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse Salle de Naissance Mère" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.12.3" ] ;
+     fhir:display [ fhir:v "Synthèse Salle de Naissance Enfant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OBP-SNE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse Salle de Naissance Enfant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.12.4" ] ;
+     fhir:display [ fhir:v "Synthèse Suites de Couches Mère" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OBP-SCM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse Suites de Couches Mère" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.12.5" ] ;
+     fhir:display [ fhir:v "Synthèse Enfant en Maternité" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OBP-SEM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse Enfant en Maternité" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse Enfant en Maternité" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.13" ] ;
+     fhir:display [ fhir:v "Synthèse médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "VSM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.15" ] ;
+     fhir:display [ fhir:v "Fiche d'admission en unité neuro-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "AVC-AUVN" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche d'admission en unité neuro-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.16" ] ;
+     fhir:display [ fhir:v "Fiche d'épisode de soin en unité neuro-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "AVC-EUVN" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche d'épisode de soin en unité neuro-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.17" ] ;
+     fhir:display [ fhir:v "Fiche de sortie d'unité neuro-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "AVC-SUNV" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de sortie d'unité neuro-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-09-24T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.18" ] ;
+     fhir:display [ fhir:v "Compte-rendu de rétinographie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-RTN" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte-rendu de rétinographie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.2.1.1" ] ;
+     fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Traitement AVK" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FPRC-AVK" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche patient à risque en cardiologie - Traitement AVK" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.2.1.2" ] ;
+     fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Trait. antiagrég. plaquettaire, stent" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FPRC-TAP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche patient à risque en cardiologie - Traitement antiagrégant plaquettaire, stent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.2.1.3" ] ;
+     fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FPRC-DCI" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.2.1.4" ] ;
+     fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FPRC-PSC" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.2.1.5" ] ;
+     fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FPRC-PPV" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.20" ] ;
+     fhir:display [ fhir:v "Plan Personnalisé de Santé - PAERPA" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PPS-PAERPA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Plan Personnalisé de Santé - PAERPA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.21" ] ;
+     fhir:display [ fhir:v "Lettre de Liaison à l'entrée d'un établissement de santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "LDL-EES" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lettre de Liaison à l'entrée d'un établissement de santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.22" ] ;
+     fhir:display [ fhir:v "Document de liaison d'urgence" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Document de liaison d'urgence" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.23" ] ;
+     fhir:display [ fhir:v "Fiche de liaison d'urgence -Transfert de l'EHPAD vers les urgences" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU-FLUDT" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de liaison d'urgence -Transfert de l'EHPAD vers les urgences" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.24" ] ;
+     fhir:display [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU-FLUDR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.25" ] ;
+     fhir:display [ fhir:v "CR consultation d'évaluation pluri-professionnelle post AVC" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "AVC-PAVC" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte-rendu de consultation d'évaluation pluri-professionnelle post AVC" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.26" ] ;
+     fhir:display [ fhir:v "Programme Personnalisé de Soins - Cancer" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "PPS-CANCER" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Programme Personnalisé de Soins - Cancer" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.27" ] ;
+     fhir:display [ fhir:v "D2LM - Fiche d'interprétation nationale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "D2LM-FIN" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Seconde lecture de mammographie - Fiche d'interprétation nationale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.28" ] ;
+     fhir:display [ fhir:v "D2LM - Fiche d'interprétation du bilan de diagnostic différé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "D2LM-FIDD" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Seconde lecture de mammographie - Fiche d'interprétation du bilan de diagnostic différé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.29" ] ;
+     fhir:display [ fhir:v "Lettre de Liaison à la sortie de l'établissement de santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "LDL-SES" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Lettre de Liaison à la sortie de l'établissement de santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.3.1" ] ;
+     fhir:display [ fhir:v "Compte rendu d'hospitalisation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CRH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'hospitalisation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.30" ] ;
+     fhir:display [ fhir:v "Set de Données Minimum - Maladies Rares" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "SDM-MR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Set de Données Minimum - Maladies Rares" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.32" ] ;
+     fhir:display [ fhir:v "Compte rendu de génétique moléculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-GM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu de génétique moléculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.36" ] ;
+     fhir:display [ fhir:v "Historique des remboursements" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CNAM-HR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Historique des remboursements" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.37" ] ;
+     fhir:display [ fhir:v "Historique des vaccinations" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "VAC" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Historique des vaccinations" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-09-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.38" ] ;
+     fhir:display [ fhir:v "Demande d'acte de télémédecine" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "TLM-DA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Demande d'acte de télémédecine" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.39" ] ;
+     fhir:display [ fhir:v "Prescription de médicaments" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "eP-MED" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription de médicaments" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.40" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anesthésie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ANEST-CR-ANEST" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anesthésie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.41" ] ;
+     fhir:display [ fhir:v "Compte rendu de consultation pré-anesthésique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ANEST-CR-CPA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu de consultation pré-anesthésique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.42" ] ;
+     fhir:display [ fhir:v "CR de consultation en ophtalmologie - Bilan de réfraction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OPH-BRE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de consultation en ophtalmologie - Bilan de réfraction" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.43" ] ;
+     fhir:display [ fhir:v "CR de consultation en ophtalmologie - Bilan cataracte" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OPH-BCAT" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de consultation en ophtalmologie - Bilan cataracte" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.44" ] ;
+     fhir:display [ fhir:v "CR de consultation en ophtalmologie - Bilan DMLA" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "OPH-BDMLA" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR de consultation en ophtalmologie - Bilan DMLA" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.45" ] ;
+     fhir:display [ fhir:v "Compte-rendu d'imagerie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IMG-CR-IMG" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte-rendu d'imagerie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.46" ] ;
+     fhir:display [ fhir:v "Note de vaccination" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "VAC-NOTE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Note de vaccination" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.47" ] ;
+     fhir:display [ fhir:v "Demande d'actes d'imagerie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IMG-DA-IMG" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Demande d'actes d'imagerie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Demande d'actes d'imagerie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-12-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.48" ] ;
+     fhir:display [ fhir:v "Document de liaison d'urgence DOM" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU-DLU-DOM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Document de liaison d'urgence DOM" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.49" ] ;
+     fhir:display [ fhir:v "Fiche de liaison d'urgence -Transfert du domicile vers les urgences" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU-FLUDT-DOM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de liaison d'urgence -Transfert du domicile vers les urgences" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.1" ] ;
+     fhir:display [ fhir:v "Certificat de santé du 8ème jour de l'enfant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CSE-CS8" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat de santé du 8ème jour de l'enfant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.2" ] ;
+     fhir:display [ fhir:v "Certificat de santé du 9ème mois de l'enfant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CSE-CS9" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat de santé du 9ème mois de l'enfant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.3" ] ;
+     fhir:display [ fhir:v "Certificat de santé du 24ème mois de l'enfant" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CSE-CS24" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Certificat de santé du 24ème mois de l'enfant" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.4" ] ;
+     fhir:display [ fhir:v "Mesures de signes vitaux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CSE-MDE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mesures de signes vitaux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.50" ] ;
+     fhir:display [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers le domicile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DLU-FLUDR-DOM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers le domicile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.51" ] ;
+     fhir:display [ fhir:v "Synthèse du dossier médical" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPS-FR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse du dossier médical" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Synthèse du dossier médical" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-04-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-04-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.52" ] ;
+     fhir:display [ fhir:v "Prescription d'actes de biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "BIO-eP-BIO" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes de biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Prescription d'actes de biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.54" ] ;
+     fhir:display [ fhir:v "Dispensation médicamenteuse" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "MED-eD-MED" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dispensation médicamenteuse" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-02-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-02-17T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.55" ] ;
+     fhir:display [ fhir:v "CR d'examens biologiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "BIO-CR-BIO" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "CR d'examens biologiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.8" ] ;
+     fhir:display [ fhir:v "Fiche de réunion de concertation pluridisciplinaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FRCP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Fiche de réunion de concertation pluridisciplinaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.2.250.1.213.1.1.1.9" ] ;
+     fhir:display [ fhir:v "Document d'information et de directives anticipées du patient" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IDAP" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Document d'information et de directives anticipées du patient" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.3.3" ] ;
+     fhir:display [ fhir:v "Compte rendu structuré d'examens de biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR BIO" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu structuré d'examens de biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-07-28T09:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.1" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Générique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.1" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Sein" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Sein" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Sein" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.2" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Côlon" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Côlon" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Côlon" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.3" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Prostate" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Prostate" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Prostate" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.4" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Thyroïde" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.5" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Poumon" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Poumon" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Poumon" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.6" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Mélanome cutané" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.7" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Rein" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Rein" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Rein" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.8" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Col de l'utérus" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.9" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Corps utérin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.10" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Ovaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.11" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Oesophage" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.12" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Estomac" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Estomac" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Estomac" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.13" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Foie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Foie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Foie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.14" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Pancréas" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.15" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Testicule" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Testicule" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Testicule" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.16" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Vessie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Vessie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Vessie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.17" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Cavité buccale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.18" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Pharynx" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.19" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Glandes salivaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.8.1.1.2.20" ] ;
+     fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Larynx" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CR-ACP - Larynx" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Larynx" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

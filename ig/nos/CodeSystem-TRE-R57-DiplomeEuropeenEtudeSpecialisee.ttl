@@ -1,0 +1,1736 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R57-DiplomeEuropeenEtudeSpecialisee"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">DIP94<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP94\"> </a></td><td>DEES Allergologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP95<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP95\"> </a></td><td>DEES Anatomie et Cytologie pathologiques humaines</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP97<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP97\"> </a></td><td>DEES Anesthésie-réanimation</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP98<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP98\"> </a></td><td>DEES Angéiologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP99<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP99\"> </a></td><td>DEES Biologie médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP100<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP100\"> </a></td><td>DEES Cancérologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP101<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP101\"> </a></td><td>DEES Cardiologie et Maladies vasculaires</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP102<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP102\"> </a></td><td>DEES Cardiologie et Médecine des affections vasculaires</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP103<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP103\"> </a></td><td>DEES Chirurgie de la face et du cou</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP104<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP104\"> </a></td><td>DEES Chirurgie générale</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP105<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP105\"> </a></td><td>DEES Chirurgie infantile</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP106<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP106\"> </a></td><td>DEES Chirurgie maxillo-faciale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP107<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP107\"> </a></td><td>DEES Chirurgie maxillo-faciale et Stomatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP108<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP108\"> </a></td><td>DEES Chirurgie orthopédique et Traumatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP109<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP109\"> </a></td><td>DEES Chirurgie pédiatrique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP110<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP110\"> </a></td><td>DEES Chirurgie plastique, reconstructrice et esthétique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP111<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP111\"> </a></td><td>DEES Chirurgie thoracique et cardio-vasculaire</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP112<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP112\"> </a></td><td>DEES Chirurgie urologique</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP113<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP113\"> </a></td><td>DEES Chirurgie vasculaire</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP114<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP114\"> </a></td><td>DEES Chirurgie viscérale et digestive</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP115<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP115\"> </a></td><td>DEES Dermato-vénéréologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP116<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP116\"> </a></td><td>DEES Diabétologie-nutrition</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP117<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP117\"> </a></td><td>DEES Electro-radiologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP118<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP118\"> </a></td><td>DEES Endocrinologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP119<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP119\"> </a></td><td>DEES Endocrinologie, diabète, Maladies métaboliques</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP120<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP120\"> </a></td><td>DEES Gastro-entérologie et Hépatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP121<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP121\"> </a></td><td>DEES Génétique médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP122<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP122\"> </a></td><td>DEES Gériatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP123<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP123\"> </a></td><td>DEES Gynécologie médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP124<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP124\"> </a></td><td>DEES Gynécologie médicale et obstétrique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP125<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP125\"> </a></td><td>DEES Gynécologie-obstétrique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP126<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP126\"> </a></td><td>DEES Hématologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP127<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP127\"> </a></td><td>DEES Maladies de l'appareil digestif</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP128<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP128\"> </a></td><td>DEES Maladies du sang</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP129<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP129\"> </a></td><td>DEES Médecine physique et Réadaptation fonctionnelle</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP130<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP130\"> </a></td><td>DEES Médecine appliquée aux sports</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP131<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP131\"> </a></td><td>DEES Médecine du travail</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP132<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP132\"> </a></td><td>DEES Médecine exotique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP133<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP133\"> </a></td><td>DEES Médecine générale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP134<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP134\"> </a></td><td>DEES Médecine interne</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP135<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP135\"> </a></td><td>DEES Médecine légale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP136<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP136\"> </a></td><td>DEES Médecine nucléaire</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP137<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP137\"> </a></td><td>DEES Médecine physique et Réadapt fonctionnelle</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP138<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP138\"> </a></td><td>DEES Médecine thermale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP139<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP139\"> </a></td><td>DEES Néphrologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP140<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP140\"> </a></td><td>DEES Neuro-chirurgie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP141<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP141\"> </a></td><td>DEES Neuro-psychiatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP142<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP142\"> </a></td><td>DEES Neuro-chirurgie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP143<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP143\"> </a></td><td>DEES Neurologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP145<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP145\"> </a></td><td>DEES Obstétrique</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP146<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP146\"> </a></td><td>DEES Oncologie médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP147<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP147\"> </a></td><td>DEES Oncologie, option médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP148<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP148\"> </a></td><td>DEES Oncologie, option Radio-thérapie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP150<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP150\"> </a></td><td>DEES Ophtalmologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP151<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP151\"> </a></td><td>DEES ORL et Chirurgie cervico-faciale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP152<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP152\"> </a></td><td>DEES Orthopédie dento-maxillo-faciale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP153<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP153\"> </a></td><td>DEES Oto-rhino-laryngologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP154<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP154\"> </a></td><td>DEES Pathologie cardio-vasculaire</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP155<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP155\"> </a></td><td>DEES Pédiatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP156<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP156\"> </a></td><td>DEES Phoniatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP157<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP157\"> </a></td><td>DEES Pneumologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP158<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP158\"> </a></td><td>DEES Psychiatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP159<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP159\"> </a></td><td>DEES Psychiatrie infantile</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP160<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP160\"> </a></td><td>DEES Psychiatrie, option enfant adolescent</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP161<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP161\"> </a></td><td>DEES Radio-diagnostic</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP162<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP162\"> </a></td><td>DEES Radio-diagnostic et Thérapie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP163<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP163\"> </a></td><td>DEES Radio-thérapie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP164<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP164\"> </a></td><td>DEES Radio-diagnostic et Imagerie médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP166<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP166\"> </a></td><td>DEES Réanimation</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP167<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP167\"> </a></td><td>DEES Réanimation médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP168<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP168\"> </a></td><td>DEES Recherche médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP169<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP169\"> </a></td><td>DEES Rhumatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP170<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP170\"> </a></td><td>DEES Santé publique et Médecine sociale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP171<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP171\"> </a></td><td>DEES Stomatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP172<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP172\"> </a></td><td>DEES Urologie</td><td>2007-07-25T00:00:00+01:00</td><td>2011-05-11T14:59:12+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP195<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP195\"> </a></td><td>DEES Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP196<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP196\"> </a></td><td>DEES Hématologie, option Maladies du sang</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP197<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP197\"> </a></td><td>DEES Hématologie, option Onco-hématologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP198<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP198\"> </a></td><td>DEES Oncologie, option Onco-hématologie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DIP209<a name=\"TRE-R57-DiplomeEuropeenEtudeSpecialisee-DIP209\"> </a></td><td>DEES Gyneco-obs et Gynéco-médicale, option Gynéco-médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2013-06-28T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.33" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R57-DiplomeEuropeenEtudeSpecialisee"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Diplôme Européen d'Etudes Spécialisées"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DIP94" ] ;
+     fhir:display [ fhir:v "DEES Allergologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Allergologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Allergologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP95" ] ;
+     fhir:display [ fhir:v "DEES Anatomie et Cytologie pathologiques humaines" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anatomie, Cytol patho hum" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anatomie et Cytologie pathologiques humaines" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP97" ] ;
+     fhir:display [ fhir:v "DEES Anesthésie-réanimation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anesthésie-réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Anesthésie-réanimation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP98" ] ;
+     fhir:display [ fhir:v "DEES Angéiologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Angéiologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Angéiologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP99" ] ;
+     fhir:display [ fhir:v "DEES Biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP100" ] ;
+     fhir:display [ fhir:v "DEES Cancérologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cancérologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cancérologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP101" ] ;
+     fhir:display [ fhir:v "DEES Cardiologie et Maladies vasculaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie, Mal vascul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie et Maladies vasculaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP102" ] ;
+     fhir:display [ fhir:v "DEES Cardiologie et Médecine des affections vasculaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie, Mal aff vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Cardiologie et Médecine des affections vasculaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP103" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie de la face et du cou" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir de la face et du cou" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie de la face et du cou" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP104" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP105" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP106" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie maxillo-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir maxillo-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie maxillo-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP107" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie maxillo-faciale et Stomatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir maxillo-fac, Stomato" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie maxillo-faciale et Stomatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP108" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie orthopédique et Traumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir orthopédique, Trauma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie orthopédique et Traumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP109" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie pédiatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP110" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir plastiq recon esthét" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie plastique, reconstructrice et esthétique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP111" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir thoraciq, card-vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie thoracique et cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP112" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie urologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir urologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie urologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP113" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP114" ] ;
+     fhir:display [ fhir:v "DEES Chirurgie viscérale et digestive" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chir viscérale, digestive" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Chirurgie viscérale et digestive" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP115" ] ;
+     fhir:display [ fhir:v "DEES Dermato-vénéréologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Dermato-vénéréologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Dermato-vénéréologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP116" ] ;
+     fhir:display [ fhir:v "DEES Diabétologie-nutrition" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Diabétologie-nutrition" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Diabétologie-nutrition" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP117" ] ;
+     fhir:display [ fhir:v "DEES Electro-radiologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Electro-radiologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Electro-radiologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP118" ] ;
+     fhir:display [ fhir:v "DEES Endocrinologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Endocrinologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Endocrinologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP119" ] ;
+     fhir:display [ fhir:v "DEES Endocrinologie, diabète, Maladies métaboliques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Endocrin, diab, Mal métab" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Endocrinologie, diabète, Maladies métaboliques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP120" ] ;
+     fhir:display [ fhir:v "DEES Gastro-entérologie et Hépatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gastro-entéro, Hépatolog" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gastro-entérologie et Hépatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP121" ] ;
+     fhir:display [ fhir:v "DEES Génétique médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Génétique médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Génétique médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP122" ] ;
+     fhir:display [ fhir:v "DEES Gériatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gériatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gériatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP123" ] ;
+     fhir:display [ fhir:v "DEES Gynécologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP124" ] ;
+     fhir:display [ fhir:v "DEES Gynécologie médicale et obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynéco-méd, obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie médicale et obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP125" ] ;
+     fhir:display [ fhir:v "DEES Gynécologie-obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynéco-obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynécologie-obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP126" ] ;
+     fhir:display [ fhir:v "DEES Hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP127" ] ;
+     fhir:display [ fhir:v "DEES Maladies de l'appareil digestif" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Malad appareil digestif" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Maladies de l'appareil digestif" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP128" ] ;
+     fhir:display [ fhir:v "DEES Maladies du sang" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Maladies du sang" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Maladies du sang" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP129" ] ;
+     fhir:display [ fhir:v "DEES Médecine physique et Réadaptation fonctionnelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Méd phys, Réadap fonct" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine physique et Réadaptation fonctionnelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP130" ] ;
+     fhir:display [ fhir:v "DEES Médecine appliquée aux sports" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Méd appliquée sports" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine appliquée aux sports" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP131" ] ;
+     fhir:display [ fhir:v "DEES Médecine du travail" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine du travail" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine du travail" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP132" ] ;
+     fhir:display [ fhir:v "DEES Médecine exotique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine exotique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine exotique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP133" ] ;
+     fhir:display [ fhir:v "DEES Médecine générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP134" ] ;
+     fhir:display [ fhir:v "DEES Médecine interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP135" ] ;
+     fhir:display [ fhir:v "DEES Médecine légale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine légale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine légale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP136" ] ;
+     fhir:display [ fhir:v "DEES Médecine nucléaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine nucléaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine nucléaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP137" ] ;
+     fhir:display [ fhir:v "DEES Médecine physique et Réadapt fonctionnelle" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Méd physiq, Réadapt fonct" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine physique et Réadapt fonctionnelle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP138" ] ;
+     fhir:display [ fhir:v "DEES Médecine thermale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine thermale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Médecine thermale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP139" ] ;
+     fhir:display [ fhir:v "DEES Néphrologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Néphrologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Néphrologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP140" ] ;
+     fhir:display [ fhir:v "DEES Neuro-chirurgie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP141" ] ;
+     fhir:display [ fhir:v "DEES Neuro-psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP142" ] ;
+     fhir:display [ fhir:v "DEES Neuro-chirurgie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neuro-chirurgie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP143" ] ;
+     fhir:display [ fhir:v "DEES Neurologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neurologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Neurologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP145" ] ;
+     fhir:display [ fhir:v "DEES Obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP146" ] ;
+     fhir:display [ fhir:v "DEES Oncologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP147" ] ;
+     fhir:display [ fhir:v "DEES Oncologie, option médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, opt médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, option médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP148" ] ;
+     fhir:display [ fhir:v "DEES Oncologie, option Radio-thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, opt Radio-thér" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, option Radio-thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP150" ] ;
+     fhir:display [ fhir:v "DEES Ophtalmologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Ophtalmologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Ophtalmologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP151" ] ;
+     fhir:display [ fhir:v "DEES ORL et Chirurgie cervico-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL, Chir cervico-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL et Chirurgie cervico-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP152" ] ;
+     fhir:display [ fhir:v "DEES Orthopédie dento-maxillo-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Orthopédie dento-max-fac" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Orthopédie dento-maxillo-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP153" ] ;
+     fhir:display [ fhir:v "DEES Oto-rhino-laryngologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES ORL" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oto-rhino-laryngologie (ORL)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP154" ] ;
+     fhir:display [ fhir:v "DEES Pathologie cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pathologie cardio-vascul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pathologie cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP155" ] ;
+     fhir:display [ fhir:v "DEES Pédiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pédiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pédiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP156" ] ;
+     fhir:display [ fhir:v "DEES Phoniatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Phoniatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Phoniatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP157" ] ;
+     fhir:display [ fhir:v "DEES Pneumologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pneumologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Pneumologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP158" ] ;
+     fhir:display [ fhir:v "DEES Psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP159" ] ;
+     fhir:display [ fhir:v "DEES Psychiatrie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP160" ] ;
+     fhir:display [ fhir:v "DEES Psychiatrie, option enfant adolescent" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiat, opt enfant ado" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Psychiatrie, option enfant adolescent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP161" ] ;
+     fhir:display [ fhir:v "DEES Radio-diagnostic" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diagnostic" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diagnostic" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP162" ] ;
+     fhir:display [ fhir:v "DEES Radio-diagnostic et Thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diag, Thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diagnostic et Thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP163" ] ;
+     fhir:display [ fhir:v "DEES Radio-thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP164" ] ;
+     fhir:display [ fhir:v "DEES Radio-diagnostic et Imagerie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diag, Imagerie méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Radio-diagnostic et Imagerie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP166" ] ;
+     fhir:display [ fhir:v "DEES Réanimation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Réanimation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP167" ] ;
+     fhir:display [ fhir:v "DEES Réanimation médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Réanimation médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Réanimation médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP168" ] ;
+     fhir:display [ fhir:v "DEES Recherche médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Recherche médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Recherche médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP169" ] ;
+     fhir:display [ fhir:v "DEES Rhumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Rhumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Rhumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP170" ] ;
+     fhir:display [ fhir:v "DEES Santé publique et Médecine sociale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Santé pub, Médecine soc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Santé publique et Médecine sociale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP171" ] ;
+     fhir:display [ fhir:v "DEES Stomatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Stomatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Stomatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP172" ] ;
+     fhir:display [ fhir:v "DEES Urologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Urologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Urologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-05-11T14:59:12+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP195" ] ;
+     fhir:display [ fhir:v "DEES Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gyn-obs, Gyn-méd, opt obs" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP196" ] ;
+     fhir:display [ fhir:v "DEES Hématologie, option Maladies du sang" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie, opt Mal sang" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie, option Maladies du sang" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP197" ] ;
+     fhir:display [ fhir:v "DEES Hématologie, option Onco-hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématolog, opt Onco-hémat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Hématologie, option Onco-hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP198" ] ;
+     fhir:display [ fhir:v "DEES Oncologie, option Onco-hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, opt Onco-hémat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Oncologie, option Onco-hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP209" ] ;
+     fhir:display [ fhir:v "DEES Gyneco-obs et Gynéco-médicale, option Gynéco-médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gyn-obs, Gyn-méd, opt méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DEES Gyneco-obs et Gynéco-médicale, option Gynéco-médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

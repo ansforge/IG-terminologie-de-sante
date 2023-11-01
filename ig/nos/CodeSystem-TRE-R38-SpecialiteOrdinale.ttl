@@ -1,0 +1,2340 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R38-SpecialiteOrdinale> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R38-SpecialiteOrdinale"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">SCD01<a name=\"TRE-R38-SpecialiteOrdinale-SCD01\"> </a></td><td>Orthopédie dento-faciale (SCD)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SCD02<a name=\"TRE-R38-SpecialiteOrdinale-SCD02\"> </a></td><td>Chirurgie orale (SCD)</td><td>2012-03-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SCD03<a name=\"TRE-R38-SpecialiteOrdinale-SCD03\"> </a></td><td>Médecine bucco-dentaire (SCD)</td><td>2012-03-19T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SI01<a name=\"TRE-R38-SpecialiteOrdinale-SI01\"> </a></td><td>Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)</td><td>2019-10-25T12:00:00+01:00</td><td>2020-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SI02<a name=\"TRE-R38-SpecialiteOrdinale-SI02\"> </a></td><td>Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)</td><td>2019-10-25T12:00:00+01:00</td><td>2020-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SI03<a name=\"TRE-R38-SpecialiteOrdinale-SI03\"> </a></td><td>Exercice infirmier en pratique avancée maladie rénale chronique (SI)</td><td>2019-10-25T12:00:00+01:00</td><td>2020-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SI04<a name=\"TRE-R38-SpecialiteOrdinale-SI04\"> </a></td><td>Exercice infirmier en pratique avancée santé mentale (SI)</td><td>2019-10-25T12:00:00+01:00</td><td>2020-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SI05<a name=\"TRE-R38-SpecialiteOrdinale-SI05\"> </a></td><td>Exercice infirmier en pratique avancée urgences (SI)</td><td>2022-08-26T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM01<a name=\"TRE-R38-SpecialiteOrdinale-SM01\"> </a></td><td>Anatomie et Cytologie pathologiques (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM02<a name=\"TRE-R38-SpecialiteOrdinale-SM02\"> </a></td><td>Anesthésie-réanimation (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM03<a name=\"TRE-R38-SpecialiteOrdinale-SM03\"> </a></td><td>Biologie médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2015-12-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM04<a name=\"TRE-R38-SpecialiteOrdinale-SM04\"> </a></td><td>Cardiologie et Maladies vasculaires (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM05<a name=\"TRE-R38-SpecialiteOrdinale-SM05\"> </a></td><td>Chirurgie générale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM06<a name=\"TRE-R38-SpecialiteOrdinale-SM06\"> </a></td><td>Chirurgie maxillo-faciale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM07<a name=\"TRE-R38-SpecialiteOrdinale-SM07\"> </a></td><td>Chirurgie maxillo-faciale et Stomatologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM08<a name=\"TRE-R38-SpecialiteOrdinale-SM08\"> </a></td><td>Chirurgie orthopédique et Traumatologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM09<a name=\"TRE-R38-SpecialiteOrdinale-SM09\"> </a></td><td>Chirurgie infantile (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM10<a name=\"TRE-R38-SpecialiteOrdinale-SM10\"> </a></td><td>Chirurgie plastique reconstructrice et esthétique (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM11<a name=\"TRE-R38-SpecialiteOrdinale-SM11\"> </a></td><td>Chirurgie thoracique et cardio-vasculaire (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM12<a name=\"TRE-R38-SpecialiteOrdinale-SM12\"> </a></td><td>Chirurgie urologique (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM13<a name=\"TRE-R38-SpecialiteOrdinale-SM13\"> </a></td><td>Chirurgie vasculaire (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM14<a name=\"TRE-R38-SpecialiteOrdinale-SM14\"> </a></td><td>Chirurgie viscérale et digestive (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM15<a name=\"TRE-R38-SpecialiteOrdinale-SM15\"> </a></td><td>Dermatologie et Vénéréologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM16<a name=\"TRE-R38-SpecialiteOrdinale-SM16\"> </a></td><td>Endocrinologie et Métabolisme (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM17<a name=\"TRE-R38-SpecialiteOrdinale-SM17\"> </a></td><td>Génétique médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM18<a name=\"TRE-R38-SpecialiteOrdinale-SM18\"> </a></td><td>Gériatrie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM19<a name=\"TRE-R38-SpecialiteOrdinale-SM19\"> </a></td><td>Gynécologie médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM20<a name=\"TRE-R38-SpecialiteOrdinale-SM20\"> </a></td><td>Gynécologie-obstétrique (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM21<a name=\"TRE-R38-SpecialiteOrdinale-SM21\"> </a></td><td>Hématologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM22<a name=\"TRE-R38-SpecialiteOrdinale-SM22\"> </a></td><td>Hématologie, option Maladie du sang (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM23<a name=\"TRE-R38-SpecialiteOrdinale-SM23\"> </a></td><td>Hématologie, option Onco-hématologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM24<a name=\"TRE-R38-SpecialiteOrdinale-SM24\"> </a></td><td>Gastro-entérologie et Hépatologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM25<a name=\"TRE-R38-SpecialiteOrdinale-SM25\"> </a></td><td>Médecine du travail (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM26<a name=\"TRE-R38-SpecialiteOrdinale-SM26\"> </a></td><td>Qualifié en Médecine générale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-10-08T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM27<a name=\"TRE-R38-SpecialiteOrdinale-SM27\"> </a></td><td>Médecine interne (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM28<a name=\"TRE-R38-SpecialiteOrdinale-SM28\"> </a></td><td>Médecine nucléaire (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM29<a name=\"TRE-R38-SpecialiteOrdinale-SM29\"> </a></td><td>Médecine physique et de réadaptation (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM30<a name=\"TRE-R38-SpecialiteOrdinale-SM30\"> </a></td><td>Néphrologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM31<a name=\"TRE-R38-SpecialiteOrdinale-SM31\"> </a></td><td>Neuro-chirurgie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM32<a name=\"TRE-R38-SpecialiteOrdinale-SM32\"> </a></td><td>Neurologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM33<a name=\"TRE-R38-SpecialiteOrdinale-SM33\"> </a></td><td>Neuro-psychiatrie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM34<a name=\"TRE-R38-SpecialiteOrdinale-SM34\"> </a></td><td>ORL et Chirurgie cervico-faciale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM35<a name=\"TRE-R38-SpecialiteOrdinale-SM35\"> </a></td><td>Oncologie, option Onco-hématologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM36<a name=\"TRE-R38-SpecialiteOrdinale-SM36\"> </a></td><td>Oncologie, option médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM37<a name=\"TRE-R38-SpecialiteOrdinale-SM37\"> </a></td><td>Oncologie, option radiothérapie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM38<a name=\"TRE-R38-SpecialiteOrdinale-SM38\"> </a></td><td>Ophtalmologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM39<a name=\"TRE-R38-SpecialiteOrdinale-SM39\"> </a></td><td>Oto-rhino-laryngologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM40<a name=\"TRE-R38-SpecialiteOrdinale-SM40\"> </a></td><td>Pédiatrie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM41<a name=\"TRE-R38-SpecialiteOrdinale-SM41\"> </a></td><td>Pneumologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM42<a name=\"TRE-R38-SpecialiteOrdinale-SM42\"> </a></td><td>Psychiatrie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM43<a name=\"TRE-R38-SpecialiteOrdinale-SM43\"> </a></td><td>Psychiatrie, option enfant et adolescent (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM44<a name=\"TRE-R38-SpecialiteOrdinale-SM44\"> </a></td><td>Radio-diagnostic (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM45<a name=\"TRE-R38-SpecialiteOrdinale-SM45\"> </a></td><td>Radio-thérapie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM46<a name=\"TRE-R38-SpecialiteOrdinale-SM46\"> </a></td><td>Médecine intensive-réanimation (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2018-01-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM47<a name=\"TRE-R38-SpecialiteOrdinale-SM47\"> </a></td><td>Recherche médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM48<a name=\"TRE-R38-SpecialiteOrdinale-SM48\"> </a></td><td>Rhumatologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM49<a name=\"TRE-R38-SpecialiteOrdinale-SM49\"> </a></td><td>Santé publique et Médecine sociale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM50<a name=\"TRE-R38-SpecialiteOrdinale-SM50\"> </a></td><td>Stomatologie (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM51<a name=\"TRE-R38-SpecialiteOrdinale-SM51\"> </a></td><td>Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM52<a name=\"TRE-R38-SpecialiteOrdinale-SM52\"> </a></td><td>Gynéco-obstétrique et Gynéco-médicale, option Gynéco-médicale (SM)</td><td>2007-07-26T16:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM53<a name=\"TRE-R38-SpecialiteOrdinale-SM53\"> </a></td><td>Spécialiste en Médecine générale (SM)</td><td>2007-07-26T00:00:00+01:00</td><td>2008-10-08T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM54<a name=\"TRE-R38-SpecialiteOrdinale-SM54\"> </a></td><td>Médecine générale (SM)</td><td>2008-06-16T00:00:00+01:00</td><td>2008-10-08T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM55<a name=\"TRE-R38-SpecialiteOrdinale-SM55\"> </a></td><td>Radio-diagnostic et Radio-thérapie (SM)</td><td>2008-10-08T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM56<a name=\"TRE-R38-SpecialiteOrdinale-SM56\"> </a></td><td>Chirurgie orale (SM)</td><td>2016-04-28T00:00:00+01:00</td><td>2016-04-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM57<a name=\"TRE-R38-SpecialiteOrdinale-SM57\"> </a></td><td>Allergologie (SM)</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM58<a name=\"TRE-R38-SpecialiteOrdinale-SM58\"> </a></td><td>Maladies infectieuses et tropicales (SM)</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM59<a name=\"TRE-R38-SpecialiteOrdinale-SM59\"> </a></td><td>Médecine d'urgence (SM)</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM60<a name=\"TRE-R38-SpecialiteOrdinale-SM60\"> </a></td><td>Médecine légale et expertises médicales (SM)</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM61<a name=\"TRE-R38-SpecialiteOrdinale-SM61\"> </a></td><td>Médecine vasculaire (SM)</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM62<a name=\"TRE-R38-SpecialiteOrdinale-SM62\"> </a></td><td>Endocrinologie, diabétologie, nutrition (SM)</td><td>2018-09-28T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM63<a name=\"TRE-R38-SpecialiteOrdinale-SM63\"> </a></td><td>Biologie médicale option biologie générale (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM64<a name=\"TRE-R38-SpecialiteOrdinale-SM64\"> </a></td><td>Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM65<a name=\"TRE-R38-SpecialiteOrdinale-SM65\"> </a></td><td>Biologie médicale option hématologie et immunologie (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM66<a name=\"TRE-R38-SpecialiteOrdinale-SM66\"> </a></td><td>Biologie médicale option agents infectieux (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM67<a name=\"TRE-R38-SpecialiteOrdinale-SM67\"> </a></td><td>Biologie médicale option biologie de la reproduction (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM68<a name=\"TRE-R38-SpecialiteOrdinale-SM68\"> </a></td><td>Chirurgie maxillo-faciale (réforme 2017) (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM69<a name=\"TRE-R38-SpecialiteOrdinale-SM69\"> </a></td><td>Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM70<a name=\"TRE-R38-SpecialiteOrdinale-SM70\"> </a></td><td>Chirurgie pédiatrique option orthopédie pédiatrique (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM71<a name=\"TRE-R38-SpecialiteOrdinale-SM71\"> </a></td><td>Hématologie (réforme 2017) (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM72<a name=\"TRE-R38-SpecialiteOrdinale-SM72\"> </a></td><td>Médecine interne et immunologie clinique (SM)</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM73<a name=\"TRE-R38-SpecialiteOrdinale-SM73\"> </a></td><td>Médecine cardiovasculaire (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM74<a name=\"TRE-R38-SpecialiteOrdinale-SM74\"> </a></td><td>Radiologie imagerie médicale (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM75<a name=\"TRE-R38-SpecialiteOrdinale-SM75\"> </a></td><td>Santé publique (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM76<a name=\"TRE-R38-SpecialiteOrdinale-SM76\"> </a></td><td>Anesthésie-réanimation opt anesthésie-pédiatrique (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM77<a name=\"TRE-R38-SpecialiteOrdinale-SM77\"> </a></td><td>Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM78<a name=\"TRE-R38-SpecialiteOrdinale-SM78\"> </a></td><td>Chirurgie viscérale et digestive opt endo chir (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM79<a name=\"TRE-R38-SpecialiteOrdinale-SM79\"> </a></td><td>Méd cardiovasculaire opt card interventionnelle (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM80<a name=\"TRE-R38-SpecialiteOrdinale-SM80\"> </a></td><td>Méd cardiovasculaire opt imagerie cardio d'expert (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM81<a name=\"TRE-R38-SpecialiteOrdinale-SM81\"> </a></td><td>Méd cardiovasculaire opt rythmo inter stimu card (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM82<a name=\"TRE-R38-SpecialiteOrdinale-SM82\"> </a></td><td>Médecine intensive-réanimation opt réa pédiatrique (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM83<a name=\"TRE-R38-SpecialiteOrdinale-SM83\"> </a></td><td>Néphrologie option soins intensifs néphrologiques (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM84<a name=\"TRE-R38-SpecialiteOrdinale-SM84\"> </a></td><td>Neurologie opt trait interv ischémie céréb aigüe (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM85<a name=\"TRE-R38-SpecialiteOrdinale-SM85\"> </a></td><td>Ophtalmologie opt chir ophtalmopéd strabologique (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM86<a name=\"TRE-R38-SpecialiteOrdinale-SM86\"> </a></td><td>ORL - chir cervico-faciale opt audiophonologie (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM87<a name=\"TRE-R38-SpecialiteOrdinale-SM87\"> </a></td><td>Pédiatrie option néonatologie (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM88<a name=\"TRE-R38-SpecialiteOrdinale-SM88\"> </a></td><td>Pédiatrie option neuropédiatrie (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM89<a name=\"TRE-R38-SpecialiteOrdinale-SM89\"> </a></td><td>Pédiatrie option pneumopédiatrie (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM90<a name=\"TRE-R38-SpecialiteOrdinale-SM90\"> </a></td><td>Pédiatrie option réanimation pédiatrique (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM91<a name=\"TRE-R38-SpecialiteOrdinale-SM91\"> </a></td><td>Pneumologie option soins intensifs respiratoires (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM92<a name=\"TRE-R38-SpecialiteOrdinale-SM92\"> </a></td><td>Psychiatrie option enfant et adolescent (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM93<a name=\"TRE-R38-SpecialiteOrdinale-SM93\"> </a></td><td>Psychiatrie option psychiatrie de la personne âgée (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM94<a name=\"TRE-R38-SpecialiteOrdinale-SM94\"> </a></td><td>Radiologie et imagerie médicale opt radio inter av (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SM95<a name=\"TRE-R38-SpecialiteOrdinale-SM95\"> </a></td><td>Santé publique option administration de la santé (SM)</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SP01<a name=\"TRE-R38-SpecialiteOrdinale-SP01\"> </a></td><td>Radio-pharmacie (SP)</td><td>2007-07-26T00:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SP02<a name=\"TRE-R38-SpecialiteOrdinale-SP02\"> </a></td><td>Hygiène (SP)</td><td>2007-07-26T00:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SP03<a name=\"TRE-R38-SpecialiteOrdinale-SP03\"> </a></td><td>Pharmacovigilance (SP)</td><td>2007-07-26T00:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SP04<a name=\"TRE-R38-SpecialiteOrdinale-SP04\"> </a></td><td>Hémovigilance (SP)</td><td>2007-07-26T00:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2015-12-28T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.28" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R38-SpecialiteOrdinale"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Spécialité ordinale"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "SCD01" ] ;
+     fhir:display [ fhir:v "Orthopédie dento-faciale (SCD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Orthopédie dento-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Orthopédie dento-faciale (SCD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SCD02" ] ;
+     fhir:display [ fhir:v "Chirurgie orale (SCD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie orale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie orale (SCD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2012-03-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SCD03" ] ;
+     fhir:display [ fhir:v "Médecine bucco-dentaire (SCD)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine bucco-dentaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine bucco-dentaire (SCD)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2012-03-19T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SI01" ] ;
+     fhir:display [ fhir:v "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPA pathologies chroniques" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier autorisé en pratique avancée pour les pathologies chroniques stabilisées.  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SI02" ] ;
+     fhir:display [ fhir:v "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPA oncologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier autorisé en pratique avancée en oncologie et hémato-oncologie  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SI03" ] ;
+     fhir:display [ fhir:v "Exercice infirmier en pratique avancée maladie rénale chronique (SI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPA maladie rénale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier autorisé en pratique avancée en maladie rénale. chronique, dialyse et transplantation rénale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SI04" ] ;
+     fhir:display [ fhir:v "Exercice infirmier en pratique avancée santé mentale (SI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPA santé mentale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier en pratique avancée santé mentale (SI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier autorisé en pratique avancée en santé mentale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SI05" ] ;
+     fhir:display [ fhir:v "Exercice infirmier en pratique avancée urgences (SI)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "IPA urgences" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Exercice infirmier en pratique avancée urgences (SI)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Le décret n°2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers (IPA) dans le domaine d'intervention des urgences a inscrit les « urgences » comme nouveau domaine d'intervention de l'infirmier en pratique avancé. C'est le 5e domaine d'exercice des IPA ainsi acté (après pathologies chroniques stabilisées ; oncologie et hémato-oncologie ; maladie rénale chronique, dialyse et transplantation rénale ; santé mentale)." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2022-08-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM01" ] ;
+     fhir:display [ fhir:v "Anatomie et Cytologie pathologiques (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Anatomie, Cyto pathologiques" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Anatomie et Cytologie pathologiques (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM02" ] ;
+     fhir:display [ fhir:v "Anesthésie-réanimation (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Anesthésie-réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Anesthésie-réanimation (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM03" ] ;
+     fhir:display [ fhir:v "Biologie médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-12-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM04" ] ;
+     fhir:display [ fhir:v "Cardiologie et Maladies vasculaires (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cardio et Maladies vasculaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Cardiologie et Maladies vasculaires (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM05" ] ;
+     fhir:display [ fhir:v "Chirurgie générale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie générale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM06" ] ;
+     fhir:display [ fhir:v "Chirurgie maxillo-faciale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir maxillo-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie maxillo-faciale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM07" ] ;
+     fhir:display [ fhir:v "Chirurgie maxillo-faciale et Stomatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir maxillo-fac, Stomatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie maxillo-faciale et Stomatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM08" ] ;
+     fhir:display [ fhir:v "Chirurgie orthopédique et Traumatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir orthop, Traumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie orthopédique et Traumatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM09" ] ;
+     fhir:display [ fhir:v "Chirurgie infantile (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie infantile (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM10" ] ;
+     fhir:display [ fhir:v "Chirurgie plastique reconstructrice et esthétique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir plast reconstr, esthétiq" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie plastique reconstructrice et esthétique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM11" ] ;
+     fhir:display [ fhir:v "Chirurgie thoracique et cardio-vasculaire (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir thoraciq, cardio-vascul" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie thoracique et cardio-vasculaire (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM12" ] ;
+     fhir:display [ fhir:v "Chirurgie urologique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir urologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie urologique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM13" ] ;
+     fhir:display [ fhir:v "Chirurgie vasculaire (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie vasculaire (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM14" ] ;
+     fhir:display [ fhir:v "Chirurgie viscérale et digestive (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir viscérale, digestive" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie viscérale et digestive (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM15" ] ;
+     fhir:display [ fhir:v "Dermatologie et Vénéréologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Dermatologie, Vénéréologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Dermatologie et Vénéréologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM16" ] ;
+     fhir:display [ fhir:v "Endocrinologie et Métabolisme (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Endocrinologie, Métabolisme" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Endocrinologie et Métabolisme (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM17" ] ;
+     fhir:display [ fhir:v "Génétique médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Génétique médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Génétique médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM18" ] ;
+     fhir:display [ fhir:v "Gériatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gériatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gériatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM19" ] ;
+     fhir:display [ fhir:v "Gynécologie médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gynécologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gynécologie médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM20" ] ;
+     fhir:display [ fhir:v "Gynécologie-obstétrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gynécologie-obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gynécologie-obstétrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM21" ] ;
+     fhir:display [ fhir:v "Hématologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM22" ] ;
+     fhir:display [ fhir:v "Hématologie, option Maladie du sang (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie, opt Maladie sang" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie, option Maladie du sang (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM23" ] ;
+     fhir:display [ fhir:v "Hématologie, option Onco-hématologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie, opt Onco-hématol" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie, option Onco-hématologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM24" ] ;
+     fhir:display [ fhir:v "Gastro-entérologie et Hépatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gastro-entéro, Hépatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gastro-entérologie et Hépatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM25" ] ;
+     fhir:display [ fhir:v "Médecine du travail (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine du travail" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine du travail (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM26" ] ;
+     fhir:display [ fhir:v "Qualifié en Médecine générale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Qualifié MG" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Qualifié en Médecine générale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-10-08T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM27" ] ;
+     fhir:display [ fhir:v "Médecine interne (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine interne (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM28" ] ;
+     fhir:display [ fhir:v "Médecine nucléaire (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine nucléaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine nucléaire (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM29" ] ;
+     fhir:display [ fhir:v "Médecine physique et de réadaptation (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine physique, réadapt" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine physique et de réadaptation (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM30" ] ;
+     fhir:display [ fhir:v "Néphrologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Néphrologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Néphrologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM31" ] ;
+     fhir:display [ fhir:v "Neuro-chirurgie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro-chirurgie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro-chirurgie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM32" ] ;
+     fhir:display [ fhir:v "Neurologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Neurologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Neurologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM33" ] ;
+     fhir:display [ fhir:v "Neuro-psychiatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro-psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro-psychiatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM34" ] ;
+     fhir:display [ fhir:v "ORL et Chirurgie cervico-faciale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ORL, Chir cervico-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "ORL et Chirurgie cervico-faciale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM35" ] ;
+     fhir:display [ fhir:v "Oncologie, option Onco-hématologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, opt Onco-hématolog" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, option Onco-hématologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM36" ] ;
+     fhir:display [ fhir:v "Oncologie, option médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, opt médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, option médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM37" ] ;
+     fhir:display [ fhir:v "Oncologie, option radiothérapie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, opt radiothérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oncologie, option radiothérapie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM38" ] ;
+     fhir:display [ fhir:v "Ophtalmologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Ophtalmologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ophtalmologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM39" ] ;
+     fhir:display [ fhir:v "Oto-rhino-laryngologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ORL" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Oto-rhino-laryngologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM40" ] ;
+     fhir:display [ fhir:v "Pédiatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM41" ] ;
+     fhir:display [ fhir:v "Pneumologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pneumologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pneumologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM42" ] ;
+     fhir:display [ fhir:v "Psychiatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM43" ] ;
+     fhir:display [ fhir:v "Psychiatrie, option enfant et adolescent (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie, opt enfant et ado" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie, option enfant et adolescent (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM44" ] ;
+     fhir:display [ fhir:v "Radio-diagnostic (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-diagnostic" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-diagnostic (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM45" ] ;
+     fhir:display [ fhir:v "Radio-thérapie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-thérapie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM46" ] ;
+     fhir:display [ fhir:v "Médecine intensive-réanimation (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine intensive-réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine intensive-réanimation (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM47" ] ;
+     fhir:display [ fhir:v "Recherche médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Recherche médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Recherche médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM48" ] ;
+     fhir:display [ fhir:v "Rhumatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Rhumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Rhumatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM49" ] ;
+     fhir:display [ fhir:v "Santé publique et Médecine sociale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique, Méd sociale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique et Médecine sociale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM50" ] ;
+     fhir:display [ fhir:v "Stomatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Stomatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Stomatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM51" ] ;
+     fhir:display [ fhir:v "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gyn-obs, Gyn-méd, opt Gyn-obs" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-obstétrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM52" ] ;
+     fhir:display [ fhir:v "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Gyn-obs, Gyn-méd, opt Gyn-méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Gynéco-obstétrique et Gynéco-médicale, option Gynéco-médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T16:49:16+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM53" ] ;
+     fhir:display [ fhir:v "Spécialiste en Médecine générale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Spécialiste MG" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Spécialiste en Médecine générale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-10-08T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM54" ] ;
+     fhir:display [ fhir:v "Médecine générale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine générale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-06-16T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2008-10-08T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM55" ] ;
+     fhir:display [ fhir:v "Radio-diagnostic et Radio-thérapie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-diag, Radio-thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-diagnostic et Radio-thérapie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2008-10-08T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM56" ] ;
+     fhir:display [ fhir:v "Chirurgie orale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie orale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie orale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-04-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-04-28T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM57" ] ;
+     fhir:display [ fhir:v "Allergologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Allergologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Allergologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM58" ] ;
+     fhir:display [ fhir:v "Maladies infectieuses et tropicales (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Maladies infect. et tropicales" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Maladies infectieuses et tropicales (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM59" ] ;
+     fhir:display [ fhir:v "Médecine d'urgence (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine d'urgence" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine d'urgence (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM60" ] ;
+     fhir:display [ fhir:v "Médecine légale et expertises médicales (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine légale & expert. méd." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine légale et expertises médicales (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM61" ] ;
+     fhir:display [ fhir:v "Médecine vasculaire (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine vasculaire (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM62" ] ;
+     fhir:display [ fhir:v "Endocrinologie, diabétologie, nutrition (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Endocrino-diabéto-nutrition" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Endocrinologie, diabétologie, nutrition (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM63" ] ;
+     fhir:display [ fhir:v "Biologie médicale option biologie générale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bio méd opt biologie générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale option biologie générale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM64" ] ;
+     fhir:display [ fhir:v "Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bio méd opt méd molé géné phar" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM65" ] ;
+     fhir:display [ fhir:v "Biologie médicale option hématologie et immunologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bio méd opt hémato et immuno" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale option hématologie et immunologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM66" ] ;
+     fhir:display [ fhir:v "Biologie médicale option agents infectieux (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bio méd opt agents infectieux" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale option agents infectieux (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM67" ] ;
+     fhir:display [ fhir:v "Biologie médicale option biologie de la reproduction (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Bio méd opt bio reproduction" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Biologie médicale option biologie de la reproduction (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM68" ] ;
+     fhir:display [ fhir:v "Chirurgie maxillo-faciale (réforme 2017) (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir maxillo-faciale (2017)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie maxillo-faciale (réforme 2017) (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM69" ] ;
+     fhir:display [ fhir:v "Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir pédia opt chir visc pédia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM70" ] ;
+     fhir:display [ fhir:v "Chirurgie pédiatrique option orthopédie pédiatrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir pédia opt orthopéd pédia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie pédiatrique option orthopédie pédiatrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM71" ] ;
+     fhir:display [ fhir:v "Hématologie (réforme 2017) (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie (2017)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hématologie (réforme 2017) (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM72" ] ;
+     fhir:display [ fhir:v "Médecine interne et immunologie clinique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Méd interne et immuno clinique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine interne et immunologie clinique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM73" ] ;
+     fhir:display [ fhir:v "Médecine cardiovasculaire (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine cardiovasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine cardiovasculaire (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM74" ] ;
+     fhir:display [ fhir:v "Radiologie imagerie médicale (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radiologie et imagerie méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radiologie et imagerie médicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM75" ] ;
+     fhir:display [ fhir:v "Santé publique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM76" ] ;
+     fhir:display [ fhir:v "Anesthésie-réanimation opt anesthésie-pédiatrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Anesth-réa pédia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Anesthésie-réanimation option anesthésie-pédiatrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM77" ] ;
+     fhir:display [ fhir:v "Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "CMF orthod dysm m-f" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie maxillo-faciale option orthodontie des dysmorphies maxillo-faciales (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM78" ] ;
+     fhir:display [ fhir:v "Chirurgie viscérale et digestive opt endo chir (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Chir visc dig endo" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Chirurgie viscérale et digestive option endoscopie chirurgicale (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM79" ] ;
+     fhir:display [ fhir:v "Méd cardiovasculaire opt card interventionnelle (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cardio intervent" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine cardiovasculaire option cardiologie interventionnelle (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM80" ] ;
+     fhir:display [ fhir:v "Méd cardiovasculaire opt imagerie cardio d'expert (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cardio imag expert" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine cardiovasculaire option imagerie cardio d'expert (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM81" ] ;
+     fhir:display [ fhir:v "Méd cardiovasculaire opt rythmo inter stimu card (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Cardio rythmo stimu" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine cardiovasculaire option rythmologie interventionnelle et stimulation cardiaque (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM82" ] ;
+     fhir:display [ fhir:v "Médecine intensive-réanimation opt réa pédiatrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "MIR réa pédiatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Médecine intensive-réanimation option réanimation pédiatrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM83" ] ;
+     fhir:display [ fhir:v "Néphrologie option soins intensifs néphrologiques (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Néphro soins int" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Néphrologie option soins intensifs néphrologiques (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM84" ] ;
+     fhir:display [ fhir:v "Neurologie opt trait interv ischémie céréb aigüe (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Neuro trait isch cér" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM85" ] ;
+     fhir:display [ fhir:v "Ophtalmologie opt chir ophtalmopéd strabologique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Ophta chir péd strab" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Ophtalmo option chirurgie ophtalmopédiatrique et strabologique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM86" ] ;
+     fhir:display [ fhir:v "ORL - chir cervico-faciale opt audiophonologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ORL-CCF audiophono" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "ORL et chirurgie cervico-faciale option audiophonologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM87" ] ;
+     fhir:display [ fhir:v "Pédiatrie option néonatologie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie néonat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie option néonatologie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM88" ] ;
+     fhir:display [ fhir:v "Pédiatrie option neuropédiatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie neuropéd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie option neuropédiatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM89" ] ;
+     fhir:display [ fhir:v "Pédiatrie option pneumopédiatrie (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie pneumopéd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie option pneumopédiatrie (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM90" ] ;
+     fhir:display [ fhir:v "Pédiatrie option réanimation pédiatrique (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie réa péd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pédiatrie option réanimation pédiatrique (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM91" ] ;
+     fhir:display [ fhir:v "Pneumologie option soins intensifs respiratoires (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pneumo soins int" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pneumologie option soins intensifs respiratoires (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM92" ] ;
+     fhir:display [ fhir:v "Psychiatrie option enfant et adolescent (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Psy enfant ado" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie option enfant et adolescent (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM93" ] ;
+     fhir:display [ fhir:v "Psychiatrie option psychiatrie de la personne âgée (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Psy personne âgée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie option psychiatrie personne âgée (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM94" ] ;
+     fhir:display [ fhir:v "Radiologie et imagerie médicale opt radio inter av (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radiologie inter av" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radiologie imagerie médicale option radiologie interventionnelle avancée (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SM95" ] ;
+     fhir:display [ fhir:v "Santé publique option administration de la santé (SM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique admin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Santé publique option administration de la santé (SM)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SP01" ] ;
+     fhir:display [ fhir:v "Radio-pharmacie (SP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-pharmacie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Radio-pharmacie (SP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SP02" ] ;
+     fhir:display [ fhir:v "Hygiène (SP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hygiène" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hygiène (SP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SP03" ] ;
+     fhir:display [ fhir:v "Pharmacovigilance (SP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacovigilance" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pharmacovigilance (SP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SP04" ] ;
+     fhir:display [ fhir:v "Hémovigilance (SP)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hémovigilance" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hémovigilance (SP)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

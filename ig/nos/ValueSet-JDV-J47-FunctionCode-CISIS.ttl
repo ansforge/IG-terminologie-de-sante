@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J47-FunctionCode-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J47-FunctionCode-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R258-RelationPriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R258-RelationPriseCharge.html#TRE-R258-RelationPriseCharge-CORRE\">CORRE</a></td><td>Correspondant</td></tr><tr><td><a href=\"CodeSystem-TRE-R258-RelationPriseCharge.html#TRE-R258-RelationPriseCharge-PRELV\">PRELV</a></td><td>Préleveur</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R259-HL7ParticipationFunction.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R259-HL7ParticipationFunction.html#TRE-R259-HL7ParticipationFunction-ADMPHYS\">ADMPHYS</a></td><td>Responsable de l'admission</td></tr><tr><td><a href=\"CodeSystem-TRE-R259-HL7ParticipationFunction.html#TRE-R259-HL7ParticipationFunction-ATTPHYS\">ATTPHYS</a></td><td>Référent - Responsable du patient dans la structure de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-R259-HL7ParticipationFunction.html#TRE-R259-HL7ParticipationFunction-DISPHYS\">DISPHYS</a></td><td>Responsable de la sortie</td></tr><tr><td><a href=\"CodeSystem-TRE-R259-HL7ParticipationFunction.html#TRE-R259-HL7ParticipationFunction-PCP\">PCP</a></td><td>Médecin traitant</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R85-RolePriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-353\">353</a></td><td>Membre de l'équipe de soins</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J47-FunctionCode-CISIS/FHIR/JDV-J47-FunctionCode-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.124" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J47-FunctionCode-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CORRE" ] ;
+         fhir:display [ fhir:v "Correspondant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.280" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PRELV" ] ;
+         fhir:display [ fhir:v "Préleveur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.280" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ADMPHYS" ] ;
+         fhir:display [ fhir:v "Responsable de l'admission" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.88" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ATTPHYS" ] ;
+         fhir:display [ fhir:v "Référent - Responsable du patient dans la structure de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.88" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DISPHYS" ] ;
+         fhir:display [ fhir:v "Responsable de la sortie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.88" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PCP" ] ;
+         fhir:display [ fhir:v "Médecin traitant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.88" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "353" ] ;
+         fhir:display [ fhir:v "Membre de l'équipe de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

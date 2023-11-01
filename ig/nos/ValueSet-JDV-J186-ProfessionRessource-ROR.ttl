@@ -1,0 +1,1334 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J186-ProfessionRessource-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J186-ProfessionRessource-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-G15-ProfessionSante.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-10\">10</a></td><td>Médecin</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-21\">21</a></td><td>Pharmacien</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-26\">26</a></td><td>Audioprothésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-28\">28</a></td><td>Opticien-Lunetier</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-31\">31</a></td><td>Assistant dentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-32\">32</a></td><td>Physicien médical</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-35\">35</a></td><td>Aide-soignant</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-36\">36</a></td><td>Ambulancier</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-37\">37</a></td><td>Auxiliaire de puériculture</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-38\">38</a></td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-39\">39</a></td><td>Préparateur en pharmacie (officine)</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-40\">40</a></td><td>Chirurgien-Dentiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-50\">50</a></td><td>Sage-Femme</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-60\">60</a></td><td>Infirmier</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-69\">69</a></td><td>Infirmier psychiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-70\">70</a></td><td>Masseur-Kinésithérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-80\">80</a></td><td>Pédicure-Podologue</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-81\">81</a></td><td>Orthoprothésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-82\">82</a></td><td>Podo-Orthésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-83\">83</a></td><td>Orthopédiste-Orthésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-84\">84</a></td><td>Oculariste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-85\">85</a></td><td>Epithésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-86\">86</a></td><td>Technicien de laboratoire médical</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-91\">91</a></td><td>Orthophoniste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-92\">92</a></td><td>Orthoptiste</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-94\">94</a></td><td>Ergothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-95\">95</a></td><td>Diététicien</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-96\">96</a></td><td>Psychomotricien</td></tr><tr><td><a href=\"CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-98\">98</a></td><td>Manipulateur ERM</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R94-ProfessionSocial.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-41\">41</a></td><td>Assistant de service social</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-42\">42</a></td><td>Auxiliaire de vie sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-43\">43</a></td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-44\">44</a></td><td>Conseiller en économie sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-45\">45</a></td><td>Médiateur familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-46\">46</a></td><td>Assistant familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-47\">47</a></td><td>Aide médico-psychologique</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-48\">48</a></td><td>Moniteur éducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-49\">49</a></td><td>Educateur de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-51\">51</a></td><td>Educateur spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-52\">52</a></td><td>Educateur technique spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-53\">53</a></td><td>Accompagnant éducatif et social</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R85-RolePriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-350\">350</a></td><td>Aide à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-351\">351</a></td><td>Assistant(e) maternel(le)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R96-AutreFonctionSanitaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R96-AutreFonctionSanitaire.html#TRE-R96-AutreFonctionSanitaire-407\">407</a></td><td>Tatoueur</td></tr><tr><td><a href=\"CodeSystem-TRE-R96-AutreFonctionSanitaire.html#TRE-R96-AutreFonctionSanitaire-408\">408</a></td><td>Perceur corporel</td></tr><tr><td><a href=\"CodeSystem-TRE-R96-AutreFonctionSanitaire.html#TRE-R96-AutreFonctionSanitaire-409\">409</a></td><td>Maquilleur permanent</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R95-UsagerTitre.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-71\">71</a></td><td>Ostéopathe</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-72\">72</a></td><td>Psychothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-73\">73</a></td><td>Chiropracteur</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-93\">93</a></td><td>Psychologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-97\">97</a></td><td>Conseiller en génétique</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-G16-ProfessionFormation.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-G16-ProfessionFormation.html#TRE-G16-ProfessionFormation-10\">10</a></td><td>Médecin en formation</td></tr><tr><td><a href=\"CodeSystem-TRE-G16-ProfessionFormation.html#TRE-G16-ProfessionFormation-21\">21</a></td><td>Pharmacien en formation</td></tr><tr><td><a href=\"CodeSystem-TRE-G16-ProfessionFormation.html#TRE-G16-ProfessionFormation-40\">40</a></td><td>Chirurgien-Dentiste en formation </td></tr><tr><td><a href=\"CodeSystem-TRE-G16-ProfessionFormation.html#TRE-G16-ProfessionFormation-50\">50</a></td><td>Sage-Femme en formation</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R356-ProfessionRessource.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-04\">04</a></td><td>Art-thérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-05\">05</a></td><td>Neuropsychologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-08\">08</a></td><td>Médiateur de santé pair</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-10\">10</a></td><td>Socio-esthéticienne</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-11\">11</a></td><td>Enseignant du 1er degré</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-12\">12</a></td><td>Enseignant du 2nd degré</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-13\">13</a></td><td>Enseignant du supérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-14\">14</a></td><td>Puéricultrice</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-17\">17</a></td><td>Aide humaine en milieu scolaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-19\">19</a></td><td>Médecin coordonnateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-20\">20</a></td><td>Infirmier coordonnateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-21\">21</a></td><td>Phoniatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-22\">22</a></td><td>Audio phonologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-23\">23</a></td><td>Ingénieur en analyse du mouvement</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-24\">24</a></td><td>Psychologue clinicien</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-25\">25</a></td><td>Animateur socio-culturel</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-26\">26</a></td><td>Moniteur d'atelier</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-38\">38</a></td><td>Enseignant en Activité Physique Adaptée (EAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-39\">39</a></td><td>Accompagnant des Élèves en Situation de Handicap (AESH)</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-43\">43</a></td><td>Pédopsychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-44\">44</a></td><td>Veilleur de nuit</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-45\">45</a></td><td>Assistant(e) de soins en gérontologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-47\">47</a></td><td>Aide médico psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-50\">50</a></td><td>Avéjiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-51\">51</a></td><td>Instructeur en locomotion</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-52\">52</a></td><td>Educateur sportif</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-53\">53</a></td><td>Conseiller en insertion professionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-54\">54</a></td><td>Coordonnateur et gestionnaire de parcours handicap</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-55\">55</a></td><td>Neuropédiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-56\">56</a></td><td>Psychopédagogue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-59\">59</a></td><td>Tabacologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-60\">60</a></td><td>Addictologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-61\">61</a></td><td>Allergologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-63\">63</a></td><td>Cardiologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-64\">64</a></td><td>Chercheur médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-65\">65</a></td><td>Chirurgien digestif</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-66\">66</a></td><td>Chirurgien général</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-67\">67</a></td><td>Chirurgien maxillo-facial</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-69\">69</a></td><td>Chirurgien oral</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-70\">70</a></td><td>Chirurgien orthopédiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-71\">71</a></td><td>Chirurgien pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-72\">72</a></td><td>Chirurgien plastique, plasticien</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-73\">73</a></td><td>Chirurgien thoracique et cardiaque</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-74\">74</a></td><td>Chirurgien urologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-75\">75</a></td><td>Chirurgien vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-76\">76</a></td><td>Dentiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-77\">77</a></td><td>Dermatologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-78\">78</a></td><td>Endocrinologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-79\">79</a></td><td>Gastro-entérologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-80\">80</a></td><td>Généticien médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-81\">81</a></td><td>Gériatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-82\">82</a></td><td>Gynécologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-83\">83</a></td><td>Gynéco-obstétricien</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-84\">84</a></td><td>Hématologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-85\">85</a></td><td>Infectiologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-86\">86</a></td><td>Infirmier en pratique avancée (IPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-87\">87</a></td><td>Médecin anesthésiste-réanimateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-90\">90</a></td><td>Médecin généraliste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-91\">91</a></td><td>Médecin interniste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-92\">92</a></td><td>Médecin légiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-93\">93</a></td><td>Médecin nucléaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-94\">94</a></td><td>Médecin rééducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-95\">95</a></td><td>Médecin vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-96\">96</a></td><td>Néphrologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-97\">97</a></td><td>Neurochirurgien</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-98\">98</a></td><td>Neurologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-99\">99</a></td><td>Neuro-psychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-100\">100</a></td><td>Onco-hématologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-101\">101</a></td><td>Oncologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-102\">102</a></td><td>Ophtalmologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-103\">103</a></td><td>ORL</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-104\">104</a></td><td>Pathologiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-105\">105</a></td><td>Pédiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-106\">106</a></td><td>Pédopsychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-107\">107</a></td><td>Pneumologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-108\">108</a></td><td>Psychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-109\">109</a></td><td>Radiologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-110\">110</a></td><td>Radiologue et radiothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-111\">111</a></td><td>Radiothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-112\">112</a></td><td>Réanimateur intensiviste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-113\">113</a></td><td>Rhumatologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-114\">114</a></td><td>Stomatologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-115\">115</a></td><td>Urgentiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-116\">116</a></td><td>Biologiste médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-117\">117</a></td><td>Médecin du travail</td></tr><tr><td><a href=\"CodeSystem-TRE-R356-ProfessionRessource.html#TRE-R356-ProfessionRessource-118\">118</a></td><td>Médecin de santé public</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.19" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J186-ProfessionRessource-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Profession Ressource des offres dans le ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Médecin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Pharmacien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "Audioprothésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "Opticien-Lunetier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "Assistant dentaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "Physicien médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "Aide-soignant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "Ambulancier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "Auxiliaire de puériculture" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie (officine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Sage-Femme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "Infirmier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "69" ] ;
+         fhir:display [ fhir:v "Infirmier psychiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "70" ] ;
+         fhir:display [ fhir:v "Masseur-Kinésithérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80" ] ;
+         fhir:display [ fhir:v "Pédicure-Podologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "81" ] ;
+         fhir:display [ fhir:v "Orthoprothésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "82" ] ;
+         fhir:display [ fhir:v "Podo-Orthésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83" ] ;
+         fhir:display [ fhir:v "Orthopédiste-Orthésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "84" ] ;
+         fhir:display [ fhir:v "Oculariste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "85" ] ;
+         fhir:display [ fhir:v "Epithésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "86" ] ;
+         fhir:display [ fhir:v "Technicien de laboratoire médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "91" ] ;
+         fhir:display [ fhir:v "Orthophoniste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "92" ] ;
+         fhir:display [ fhir:v "Orthoptiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "94" ] ;
+         fhir:display [ fhir:v "Ergothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "95" ] ;
+         fhir:display [ fhir:v "Diététicien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "96" ] ;
+         fhir:display [ fhir:v "Psychomotricien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "98" ] ;
+         fhir:display [ fhir:v "Manipulateur ERM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.7" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Assistant de service social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Assistant familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "350" ] ;
+         fhir:display [ fhir:v "Aide à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "351" ] ;
+         fhir:display [ fhir:v "Assistant(e) maternel(le)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "407" ] ;
+         fhir:display [ fhir:v "Tatoueur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.110" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "408" ] ;
+         fhir:display [ fhir:v "Perceur corporel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.110" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "409" ] ;
+         fhir:display [ fhir:v "Maquilleur permanent" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.110" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Ostéopathe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Psychothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Chiropracteur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Psychologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Médecin en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Pharmacien en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste en formation " ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Sage-Femme en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.8" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Art-thérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "05" ] ;
+         fhir:display [ fhir:v "Neuropsychologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "08" ] ;
+         fhir:display [ fhir:v "Médiateur de santé pair" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Socio-esthéticienne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Enseignant du 1er degré" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "Enseignant du 2nd degré" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Enseignant du supérieur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "Puéricultrice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Aide humaine en milieu scolaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "Médecin coordonnateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "Infirmier coordonnateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Phoniatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "Audio phonologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "Ingénieur en analyse du mouvement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "Psychologue clinicien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "Animateur socio-culturel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "Moniteur d'atelier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "Enseignant en Activité Physique Adaptée (EAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "Accompagnant des Élèves en Situation de Handicap (AESH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Pédopsychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Veilleur de nuit" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Assistant(e) de soins en gérontologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Avéjiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Instructeur en locomotion" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur sportif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Conseiller en insertion professionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "Coordonnateur et gestionnaire de parcours handicap" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "Neuropédiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "Psychopédagogue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "Tabacologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "Addictologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "61" ] ;
+         fhir:display [ fhir:v "Allergologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "63" ] ;
+         fhir:display [ fhir:v "Cardiologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "64" ] ;
+         fhir:display [ fhir:v "Chercheur médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "65" ] ;
+         fhir:display [ fhir:v "Chirurgien digestif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "66" ] ;
+         fhir:display [ fhir:v "Chirurgien général" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "67" ] ;
+         fhir:display [ fhir:v "Chirurgien maxillo-facial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "69" ] ;
+         fhir:display [ fhir:v "Chirurgien oral" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "70" ] ;
+         fhir:display [ fhir:v "Chirurgien orthopédiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Chirurgien pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Chirurgien plastique, plasticien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Chirurgien thoracique et cardiaque" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "74" ] ;
+         fhir:display [ fhir:v "Chirurgien urologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75" ] ;
+         fhir:display [ fhir:v "Chirurgien vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "76" ] ;
+         fhir:display [ fhir:v "Dentiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "77" ] ;
+         fhir:display [ fhir:v "Dermatologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "78" ] ;
+         fhir:display [ fhir:v "Endocrinologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "79" ] ;
+         fhir:display [ fhir:v "Gastro-entérologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80" ] ;
+         fhir:display [ fhir:v "Généticien médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "81" ] ;
+         fhir:display [ fhir:v "Gériatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "82" ] ;
+         fhir:display [ fhir:v "Gynécologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83" ] ;
+         fhir:display [ fhir:v "Gynéco-obstétricien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "84" ] ;
+         fhir:display [ fhir:v "Hématologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "85" ] ;
+         fhir:display [ fhir:v "Infectiologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "86" ] ;
+         fhir:display [ fhir:v "Infirmier en pratique avancée (IPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "87" ] ;
+         fhir:display [ fhir:v "Médecin anesthésiste-réanimateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "90" ] ;
+         fhir:display [ fhir:v "Médecin généraliste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "91" ] ;
+         fhir:display [ fhir:v "Médecin interniste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "92" ] ;
+         fhir:display [ fhir:v "Médecin légiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Médecin nucléaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "94" ] ;
+         fhir:display [ fhir:v "Médecin rééducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "95" ] ;
+         fhir:display [ fhir:v "Médecin vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "96" ] ;
+         fhir:display [ fhir:v "Néphrologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Neurochirurgien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "98" ] ;
+         fhir:display [ fhir:v "Neurologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99" ] ;
+         fhir:display [ fhir:v "Neuro-psychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "100" ] ;
+         fhir:display [ fhir:v "Onco-hématologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "Oncologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "102" ] ;
+         fhir:display [ fhir:v "Ophtalmologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "103" ] ;
+         fhir:display [ fhir:v "ORL" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "104" ] ;
+         fhir:display [ fhir:v "Pathologiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "105" ] ;
+         fhir:display [ fhir:v "Pédiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "106" ] ;
+         fhir:display [ fhir:v "Pédopsychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "107" ] ;
+         fhir:display [ fhir:v "Pneumologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "108" ] ;
+         fhir:display [ fhir:v "Psychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "109" ] ;
+         fhir:display [ fhir:v "Radiologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "110" ] ;
+         fhir:display [ fhir:v "Radiologue et radiothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "111" ] ;
+         fhir:display [ fhir:v "Radiothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "112" ] ;
+         fhir:display [ fhir:v "Réanimateur intensiviste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "113" ] ;
+         fhir:display [ fhir:v "Rhumatologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Stomatologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Urgentiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "116" ] ;
+         fhir:display [ fhir:v "Biologiste médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "117" ] ;
+         fhir:display [ fhir:v "Médecin du travail" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "118" ] ;
+         fhir:display [ fhir:v "Médecin de santé public" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.246" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

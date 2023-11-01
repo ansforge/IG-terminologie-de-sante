@@ -1,0 +1,95 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-R305-TypeRencontre",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">EXTERNE<a name=\"TRE-R305-TypeRencontre-EXTERNE\"> </a></td><td>Acte et consultation externe (établissement)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">SEANCE<a name=\"TRE-R305-TypeRencontre-SEANCE\"> </a></td><td>Séance (établissement ou libéral)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-03-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.291"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_R305-TypeRencontre",
+  "status" : "active",
+  "date" : "2021-03-26T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type de rencontre",
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "EXTERNE",
+    "display" : "Acte et consultation externe (établissement)",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "EXTERNE"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Acte et consultation externe (établissement)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "SEANCE",
+    "display" : "Séance (établissement ou libéral)",
+    "designation" : [{
+      "use" : {
+        "code" : "LibelleCourt"
+      },
+      "value" : "SEANCE"
+    },
+    {
+      "use" : {
+        "code" : "LibelleAdapte"
+      },
+      "value" : "Séance (établissement ou libéral)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    }]
+  }]
+}

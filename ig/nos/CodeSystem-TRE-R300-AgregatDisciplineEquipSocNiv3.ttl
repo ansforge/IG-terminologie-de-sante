@@ -1,0 +1,539 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R300-AgregatDisciplineEquipSocNiv3> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R300-AgregatDisciplineEquipSocNiv3"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">4310<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4310\"> </a></td><td>Insertion professionnelle et sociale des adultes handicapés</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4320<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4320\"> </a></td><td>Hébergement des adultes handicapés</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4330<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4330\"> </a></td><td>Accueil et accompagnement pour personnes handicapées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4410<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4410\"> </a></td><td>Soins médico sociaux aux personnes âgées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4420<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4420\"> </a></td><td>Hébergement personnes âgées</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4510<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4510\"> </a></td><td>Accueil au titre de la protection de l'enfance</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4520<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4520\"> </a></td><td>Observation orientation mineurs en difficulté</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4530<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4530\"> </a></td><td>Soutien personnalisé enfants et ado en difficulté sociale</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4610<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4610\"> </a></td><td>Réinsertion professionnelle et sociale adultes en difficulté</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4620<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4620\"> </a></td><td>Hébergement des adultes en difficulté</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4630<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4630\"> </a></td><td>Hébergement des autres adultes</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4640<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4640\"> </a></td><td>Prise en charge des personnes en difficultés spécifiques</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4650<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4650\"> </a></td><td>Mesures de protection des majeurs</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4710<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4710\"> </a></td><td>Soins médico-sociaux enfance handicapée</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4720<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4720\"> </a></td><td>Education spéciale enfance handicapée</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4730<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4730\"> </a></td><td>Hébergement enfance handicapée</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4740<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4740\"> </a></td><td>Education adaptée et accompagnement social et médico-social</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4810<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4810\"> </a></td><td>Garde des enfants</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4820<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4820\"> </a></td><td>Services à la famille</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4910<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4910\"> </a></td><td>Services medico-sociaux à domicile</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4920<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4920\"> </a></td><td>Recherche et administration domaine social</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4930<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4930\"> </a></td><td>Activité expérimentale dans établissements sociaux</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">4940<a name=\"TRE-R300-AgregatDisciplineEquipSocNiv3-4940\"> </a></td><td>Activité des centres de ressources</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.204" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R300-AgregatDisciplineEquipSocNiv3"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Agrégats de disciplines d'équipement pour le social niveau 3"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "4310" ] ;
+     fhir:display [ fhir:v "Insertion professionnelle et sociale des adultes handicapés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Inser.prof.soc.adultes hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Insertion professionnelle et sociale des adultes handicapés" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4320" ] ;
+     fhir:display [ fhir:v "Hébergement des adultes handicapés" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement adultes hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement des adultes handicapés" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4330" ] ;
+     fhir:display [ fhir:v "Accueil et accompagnement pour personnes handicapées" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil acc.pers.hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil et accompagnement pour personnes handicapées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4410" ] ;
+     fhir:display [ fhir:v "Soins médico sociaux aux personnes âgées" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Soins médico soc.pers.âgées" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins médico sociaux aux personnes âgées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4420" ] ;
+     fhir:display [ fhir:v "Hébergement personnes âgées" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement personnes âgées" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement personnes âgées" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4510" ] ;
+     fhir:display [ fhir:v "Accueil au titre de la protection de l'enfance" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Acc.Protec.Enfance" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Accueil au titre de la protection de l'enfance" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4520" ] ;
+     fhir:display [ fhir:v "Observation orientation mineurs en difficulté" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Obs.orient.min.difficulté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Observation orientation mineurs en difficulté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4530" ] ;
+     fhir:display [ fhir:v "Soutien personnalisé enfants et ado en difficulté sociale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Soutien pers.enf.ado.dif.soc." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soutien personnalisé enfants et ado en difficulté sociale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4610" ] ;
+     fhir:display [ fhir:v "Réinsertion professionnelle et sociale adultes en difficulté" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Réins.prof.soc.adlts.dif." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Réinsertion professionnelle et sociale adultes en difficulté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4620" ] ;
+     fhir:display [ fhir:v "Hébergement des adultes en difficulté" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement adultes difficulté" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement des adultes en difficulté" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4630" ] ;
+     fhir:display [ fhir:v "Hébergement des autres adultes" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement autres adultes" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement des autres adultes" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4640" ] ;
+     fhir:display [ fhir:v "Prise en charge des personnes en difficultés spécifiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Prise charge pers.dif.spéc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Prise en charge des personnes en difficultés spécifiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4650" ] ;
+     fhir:display [ fhir:v "Mesures de protection des majeurs" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Mesures protection majeurs" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Mesures de protection des majeurs" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4710" ] ;
+     fhir:display [ fhir:v "Soins médico-sociaux enfance handicapée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Soins médico-soc.enf.hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Soins médico-sociaux enfance handicapée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4720" ] ;
+     fhir:display [ fhir:v "Education spéciale enfance handicapée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Education spéc.enf.hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Education spéciale enfance handicapée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4730" ] ;
+     fhir:display [ fhir:v "Hébergement enfance handicapée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement enfance hand." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Hébergement enfance handicapée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4740" ] ;
+     fhir:display [ fhir:v "Education adaptée et accompagnement social et médico-social" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Educ.adap.acc.soc.médic.soc." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Education adaptée et accompagnement social et médico-social" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4810" ] ;
+     fhir:display [ fhir:v "Garde des enfants" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Garde des enfants" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Garde des enfants" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4820" ] ;
+     fhir:display [ fhir:v "Services à la famille" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Services à la famille" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Services à la famille" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4910" ] ;
+     fhir:display [ fhir:v "Services medico-sociaux à domicile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Services medico-soc.dom." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Services medico-sociaux à domicile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4920" ] ;
+     fhir:display [ fhir:v "Recherche et administration domaine social" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Recherche admin.dom.soc." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Recherche et administration domaine social" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4930" ] ;
+     fhir:display [ fhir:v "Activité expérimentale dans établissements sociaux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Activité exp.étab.soc." ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Activité expérimentale dans établissements sociaux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4940" ] ;
+     fhir:display [ fhir:v "Activité des centres de ressources" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Activité centres ressources" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Activité des centres de ressources" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

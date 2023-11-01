@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J142-TypeRencontre-CISIS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R304-HL7v3ActCode.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-IMP">IMP</a></td><td>Hospitalisation (établissement, y compris HAD)</td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-EMER">EMER</a></td><td>Passage aux urgences (établissement)</td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-AMB">AMB</a></td><td>Ambulatoire (hors établissement)</td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-FLD">FLD</a></td><td>Terrain (voie publique, hélicoptère, ambulance, etc.)</td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-HH">HH</a></td><td>Soins à domicile (hors établissement)</td></tr><tr><td><a href="CodeSystem-TRE-R304-HL7v3ActCode.html#TRE-R304-HL7v3ActCode-VR">VR</a></td><td>Virtuelle (exemple : RCP en l'absence du patient)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-TRE-R305-TypeRencontre.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R305-TypeRencontre.html#TRE-R305-TypeRencontre-EXTERNE">EXTERNE</a></td><td>Acte et consultation externe (établissement)</td></tr><tr><td><a href="CodeSystem-TRE-R305-TypeRencontre.html#TRE-R305-TypeRencontre-SEANCE">SEANCE</a></td><td>Séance (établissement ou libéral)</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-03-26T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J142-TypeRencontre-CISIS/FHIR/JDV-J142-TypeRencontre-CISIS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.589"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J142-TypeRencontre-CISIS"/>
+  <status value="active"/>
+  <date value="2021-03-26T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="Type de prise en charge CI-SIS"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode"/>
+      <concept>
+        <code value="IMP"/>
+        <display value="Hospitalisation (établissement, y compris HAD)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EMER"/>
+        <display value="Passage aux urgences (établissement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="AMB"/>
+        <display value="Ambulatoire (hors établissement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FLD"/>
+        <display value="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HH"/>
+        <display value="Soins à domicile (hors établissement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="VR"/>
+        <display value="Virtuelle (exemple : RCP en l'absence du patient)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.5.4"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre"/>
+      <concept>
+        <code value="EXTERNE"/>
+        <display value="Acte et consultation externe (établissement)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.291"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SEANCE"/>
+        <display value="Séance (établissement ou libéral)"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:1.2.250.1.213.1.1.4.2.291"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

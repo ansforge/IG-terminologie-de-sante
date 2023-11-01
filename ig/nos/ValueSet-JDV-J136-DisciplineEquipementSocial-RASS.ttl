@@ -1,0 +1,857 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J136-DisciplineEquipementSocial-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J136-DisciplineEquipementSocial-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-177\">177</a></td><td>Section Cure Médicale (dont)</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-246\">246</a></td><td>Hébergement Accueil Mère Enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-247\">247</a></td><td>Hébergement en centre parental</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-257\">257</a></td><td>Aide éducative à Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-258\">258</a></td><td>Action Éducative en Milieu Ouvert</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-259\">259</a></td><td>Activ.Club et Équipe de Prévention</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-278\">278</a></td><td>Aide Psychologique Universitaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-320\">320</a></td><td>Activité C.M.P.P.</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-354\">354</a></td><td>Restaurant pour Personnes Âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-357\">357</a></td><td>Activité soins d'accompagnement et de réhabilitation</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-358\">358</a></td><td>Soins infirmiers à Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-359\">359</a></td><td>Repas à Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-360\">360</a></td><td>Blanchisserie à Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-365\">365</a></td><td>Alarme Médico-Sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-377\">377</a></td><td>Stationnement Pour Nomades</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-380\">380</a></td><td>Mesure judiciaire aide gestion budget familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-381\">381</a></td><td>Héberg. non médicalisé de patients, accompagnants, aidants</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-382\">382</a></td><td>Tutelle aux Prestations Sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-399\">399</a></td><td>Préorientation pour Adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-410\">410</a></td><td>Information,conseil, expertise, coordination</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-411\">411</a></td><td>Evaluation des situations des personnes</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-412\">412</a></td><td>Centre de ressources territorial pour les personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-442\">442</a></td><td>Veille sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-443\">443</a></td><td>Soutien et accompagnement social</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-445\">445</a></td><td>Aide Psychopédagogique</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-469\">469</a></td><td>Aide à Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-506\">506</a></td><td>Evaluat réentraînem orientat soc. et socioprof cérébro-lésés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-507\">507</a></td><td>Hébergement médico soc personnes en difficultés spécifiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-508\">508</a></td><td>Accueil orientation soins accompagnement diff spécifiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-511\">511</a></td><td>Equipe mobile santé précarité</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-512\">512</a></td><td>Equipe spécialisée de soins infirmiers précarité</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-520\">520</a></td><td>Tutelle curatelle mandat spécial sauvegarde justice pers maj</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-521\">521</a></td><td>Mesure d'accompagnement judiciaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-522\">522</a></td><td>Mesure d'accompagnement social personnalisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-523\">523</a></td><td>Information des tuteurs familiaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-633\">633</a></td><td>Services expérimentaux en faveur des personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-655\">655</a></td><td>Prestation de Service Pr Association</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-657\">657</a></td><td>Accueil temporaire pour Personnes Âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-660\">660</a></td><td>Réalisation d'Enquêtes sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-661\">661</a></td><td>Permanence des Assistants de Service Social</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-697\">697</a></td><td>Intermédiaire de placement Social</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-714\">714</a></td><td>Recherche dans Domaine Social</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-840\">840</a></td><td>Accompagnement précoce de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-841\">841</a></td><td>Acc. dans l'acquisition de l'autonomie et la scolarisation</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-842\">842</a></td><td>Préparation à la vie professionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-843\">843</a></td><td>Accompagnement enseignement supérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-844\">844</a></td><td>Tous projets éducatifs thérapeutiques et pédagogiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-900\">900</a></td><td>Action Médico-Sociale Précoce</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-906\">906</a></td><td>Réadaptation Professionnelle pour Adultes Handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-907\">907</a></td><td>Adaptation à la vie active</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-908\">908</a></td><td>Aide par le travail pour Adultes Handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-909\">909</a></td><td>Travail protégé pour Adultes Handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-912\">912</a></td><td>Accueil au titre de la protection de l'enfance</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-913\">913</a></td><td>Accueil d'urgence protection de l'enfance</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-914\">914</a></td><td>Accueil temporaire saisonnier ou week-end protection de l'enfance</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-916\">916</a></td><td>Hébergement Réadapt. Sociale Pers.Familles en Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-920\">920</a></td><td>Hébergement Ouvert en Ets Pr Adultes &amp; Familles</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-921\">921</a></td><td>Séjours de rupture/distanciation/apaisement</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-922\">922</a></td><td>Accueil Temporaire d'Urgence Pr Adultes &amp; Familles</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-923\">923</a></td><td>Accueil Temp.Saisonnier ou W E Adultes &amp; Familles</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-924\">924</a></td><td>Accueil pour Personnes Âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-925\">925</a></td><td>Hébergement résidence autonomie personnes âgées seules F1</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-926\">926</a></td><td>Hébergement résidence autonomie personnes âgées couple F2</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-927\">927</a></td><td>Hébergement résidence autonomie personnes âgées F1BIS</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-928\">928</a></td><td>Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O)</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-929\">929</a></td><td>Consultation d'Orientation Pour Mineurs Justice</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-930\">930</a></td><td>Observation Orientation Pour Mineurs Justice</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-931\">931</a></td><td>Suivi Social en Milieu Ouvert</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-932\">932</a></td><td>Animation de la Vie Sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-935\">935</a></td><td>Activités des Établissements Expérimentaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-937\">937</a></td><td>Réinsertion Par l'Économie</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-939\">939</a></td><td>Accueil médicalisé pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-941\">941</a></td><td>Maisons Relais - Résidence Accueil</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-942\">942</a></td><td>Maisons Relais pour Personnes Vieillissantes</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-943\">943</a></td><td>Maisons Relais &quot;Classique&quot;</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-944\">944</a></td><td>Résidences Sociales ex Foyer Jeunes Travailleurs</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-945\">945</a></td><td>Résidences Sociales ex Foyers Travailleurs Migrants</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-946\">946</a></td><td>Résidences Sociales créées ex Nihilo</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-947\">947</a></td><td>Résidence sociale FJT</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-948\">948</a></td><td>C.H.R.S. Hors les murs</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-957\">957</a></td><td>Hébergement d'insertion Adultes,Familles Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-958\">958</a></td><td>Hébergement de Stabilisation Adultes,familles Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-959\">959</a></td><td>Hébergement d'Urgence Adultes, Familles Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-960\">960</a></td><td>Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.)</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-961\">961</a></td><td>Pôles d'activité et de soins adaptés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-962\">962</a></td><td>Unités d'hébergement renforcées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-963\">963</a></td><td>Plateforme d'accompagnement et de répit des aidants (PFR)</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-964\">964</a></td><td>Accueil et accompagnement spécialisé personnes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-965\">965</a></td><td>Accueil et accompagnement non médical. personnes handicapées</td></tr><tr><td><a href=\"CodeSystem-TRE-R280-DisciplineEquipementSocial.html#TRE-R280-DisciplineEquipementSocial-966\">966</a></td><td>Accueil et accompagnement médicalisé personnes handicapées</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.222" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J136-DisciplineEquipementSocial-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-09-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Disciplines d'équipement pour le social dans le RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "177" ] ;
+         fhir:display [ fhir:v "Section Cure Médicale (dont)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "246" ] ;
+         fhir:display [ fhir:v "Hébergement Accueil Mère Enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "247" ] ;
+         fhir:display [ fhir:v "Hébergement en centre parental" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "257" ] ;
+         fhir:display [ fhir:v "Aide éducative à Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "258" ] ;
+         fhir:display [ fhir:v "Action Éducative en Milieu Ouvert" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "259" ] ;
+         fhir:display [ fhir:v "Activ.Club et Équipe de Prévention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "278" ] ;
+         fhir:display [ fhir:v "Aide Psychologique Universitaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "320" ] ;
+         fhir:display [ fhir:v "Activité C.M.P.P." ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "354" ] ;
+         fhir:display [ fhir:v "Restaurant pour Personnes Âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "357" ] ;
+         fhir:display [ fhir:v "Activité soins d'accompagnement et de réhabilitation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "358" ] ;
+         fhir:display [ fhir:v "Soins infirmiers à Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "359" ] ;
+         fhir:display [ fhir:v "Repas à Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "360" ] ;
+         fhir:display [ fhir:v "Blanchisserie à Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "365" ] ;
+         fhir:display [ fhir:v "Alarme Médico-Sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "377" ] ;
+         fhir:display [ fhir:v "Stationnement Pour Nomades" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "380" ] ;
+         fhir:display [ fhir:v "Mesure judiciaire aide gestion budget familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "381" ] ;
+         fhir:display [ fhir:v "Héberg. non médicalisé de patients, accompagnants, aidants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "382" ] ;
+         fhir:display [ fhir:v "Tutelle aux Prestations Sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "399" ] ;
+         fhir:display [ fhir:v "Préorientation pour Adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "410" ] ;
+         fhir:display [ fhir:v "Information,conseil, expertise, coordination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "411" ] ;
+         fhir:display [ fhir:v "Evaluation des situations des personnes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "412" ] ;
+         fhir:display [ fhir:v "Centre de ressources territorial pour les personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "442" ] ;
+         fhir:display [ fhir:v "Veille sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "443" ] ;
+         fhir:display [ fhir:v "Soutien et accompagnement social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "445" ] ;
+         fhir:display [ fhir:v "Aide Psychopédagogique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "469" ] ;
+         fhir:display [ fhir:v "Aide à Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "506" ] ;
+         fhir:display [ fhir:v "Evaluat réentraînem orientat soc. et socioprof cérébro-lésés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "507" ] ;
+         fhir:display [ fhir:v "Hébergement médico soc personnes en difficultés spécifiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "508" ] ;
+         fhir:display [ fhir:v "Accueil orientation soins accompagnement diff spécifiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "511" ] ;
+         fhir:display [ fhir:v "Equipe mobile santé précarité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "512" ] ;
+         fhir:display [ fhir:v "Equipe spécialisée de soins infirmiers précarité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "520" ] ;
+         fhir:display [ fhir:v "Tutelle curatelle mandat spécial sauvegarde justice pers maj" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "521" ] ;
+         fhir:display [ fhir:v "Mesure d'accompagnement judiciaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "522" ] ;
+         fhir:display [ fhir:v "Mesure d'accompagnement social personnalisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "523" ] ;
+         fhir:display [ fhir:v "Information des tuteurs familiaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "633" ] ;
+         fhir:display [ fhir:v "Services expérimentaux en faveur des personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "655" ] ;
+         fhir:display [ fhir:v "Prestation de Service Pr Association" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "657" ] ;
+         fhir:display [ fhir:v "Accueil temporaire pour Personnes Âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "660" ] ;
+         fhir:display [ fhir:v "Réalisation d'Enquêtes sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "661" ] ;
+         fhir:display [ fhir:v "Permanence des Assistants de Service Social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "697" ] ;
+         fhir:display [ fhir:v "Intermédiaire de placement Social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "714" ] ;
+         fhir:display [ fhir:v "Recherche dans Domaine Social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "840" ] ;
+         fhir:display [ fhir:v "Accompagnement précoce de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "841" ] ;
+         fhir:display [ fhir:v "Acc. dans l'acquisition de l'autonomie et la scolarisation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "842" ] ;
+         fhir:display [ fhir:v "Préparation à la vie professionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "843" ] ;
+         fhir:display [ fhir:v "Accompagnement enseignement supérieur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "844" ] ;
+         fhir:display [ fhir:v "Tous projets éducatifs thérapeutiques et pédagogiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "900" ] ;
+         fhir:display [ fhir:v "Action Médico-Sociale Précoce" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "906" ] ;
+         fhir:display [ fhir:v "Réadaptation Professionnelle pour Adultes Handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "907" ] ;
+         fhir:display [ fhir:v "Adaptation à la vie active" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "908" ] ;
+         fhir:display [ fhir:v "Aide par le travail pour Adultes Handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "909" ] ;
+         fhir:display [ fhir:v "Travail protégé pour Adultes Handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "912" ] ;
+         fhir:display [ fhir:v "Accueil au titre de la protection de l'enfance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "913" ] ;
+         fhir:display [ fhir:v "Accueil d'urgence protection de l'enfance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "914" ] ;
+         fhir:display [ fhir:v "Accueil temporaire saisonnier ou week-end protection de l'enfance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "916" ] ;
+         fhir:display [ fhir:v "Hébergement Réadapt. Sociale Pers.Familles en Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "920" ] ;
+         fhir:display [ fhir:v "Hébergement Ouvert en Ets Pr Adultes & Familles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "921" ] ;
+         fhir:display [ fhir:v "Séjours de rupture/distanciation/apaisement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "922" ] ;
+         fhir:display [ fhir:v "Accueil Temporaire d'Urgence Pr Adultes & Familles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "923" ] ;
+         fhir:display [ fhir:v "Accueil Temp.Saisonnier ou W E Adultes & Familles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "924" ] ;
+         fhir:display [ fhir:v "Accueil pour Personnes Âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "925" ] ;
+         fhir:display [ fhir:v "Hébergement résidence autonomie personnes âgées seules F1" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "926" ] ;
+         fhir:display [ fhir:v "Hébergement résidence autonomie personnes âgées couple F2" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "927" ] ;
+         fhir:display [ fhir:v "Hébergement résidence autonomie personnes âgées F1BIS" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "928" ] ;
+         fhir:display [ fhir:v "Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "929" ] ;
+         fhir:display [ fhir:v "Consultation d'Orientation Pour Mineurs Justice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "930" ] ;
+         fhir:display [ fhir:v "Observation Orientation Pour Mineurs Justice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "931" ] ;
+         fhir:display [ fhir:v "Suivi Social en Milieu Ouvert" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "932" ] ;
+         fhir:display [ fhir:v "Animation de la Vie Sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "935" ] ;
+         fhir:display [ fhir:v "Activités des Établissements Expérimentaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "937" ] ;
+         fhir:display [ fhir:v "Réinsertion Par l'Économie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "939" ] ;
+         fhir:display [ fhir:v "Accueil médicalisé pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "941" ] ;
+         fhir:display [ fhir:v "Maisons Relais - Résidence Accueil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "942" ] ;
+         fhir:display [ fhir:v "Maisons Relais pour Personnes Vieillissantes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "943" ] ;
+         fhir:display [ fhir:v "Maisons Relais \"Classique\"" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "944" ] ;
+         fhir:display [ fhir:v "Résidences Sociales ex Foyer Jeunes Travailleurs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "945" ] ;
+         fhir:display [ fhir:v "Résidences Sociales ex Foyers Travailleurs Migrants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "946" ] ;
+         fhir:display [ fhir:v "Résidences Sociales créées ex Nihilo" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "947" ] ;
+         fhir:display [ fhir:v "Résidence sociale FJT" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "948" ] ;
+         fhir:display [ fhir:v "C.H.R.S. Hors les murs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "957" ] ;
+         fhir:display [ fhir:v "Hébergement d'insertion Adultes,Familles Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "958" ] ;
+         fhir:display [ fhir:v "Hébergement de Stabilisation Adultes,familles Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "959" ] ;
+         fhir:display [ fhir:v "Hébergement d'Urgence Adultes, Familles Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "960" ] ;
+         fhir:display [ fhir:v "Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "961" ] ;
+         fhir:display [ fhir:v "Pôles d'activité et de soins adaptés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "962" ] ;
+         fhir:display [ fhir:v "Unités d'hébergement renforcées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "963" ] ;
+         fhir:display [ fhir:v "Plateforme d'accompagnement et de répit des aidants (PFR)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "964" ] ;
+         fhir:display [ fhir:v "Accueil et accompagnement spécialisé personnes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "965" ] ;
+         fhir:display [ fhir:v "Accueil et accompagnement non médical. personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "966" ] ;
+         fhir:display [ fhir:v "Accueil et accompagnement médicalisé personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.133" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

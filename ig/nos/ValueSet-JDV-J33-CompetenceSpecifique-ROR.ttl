@@ -1,0 +1,533 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J33-CompetenceSpecifique-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J33-CompetenceSpecifique-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-01\">01</a></td><td>Maîtrise de la Langue des Signes Française (LSF)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-02\">02</a></td><td>Maîtrise de la Langue Parlé Complété (LPC)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-03\">03</a></td><td>Maîtrise de la lecture et de l'écriture du Braille</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-04\">04</a></td><td>Art-thérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-05\">05</a></td><td>Neuropsychologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-06\">06</a></td><td>Maîtrise de langue étrangère</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-07\">07</a></td><td>Maîtrise de langue régionale</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-08\">08</a></td><td>Intervenant pair (médiateur, pair-aidant)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-10\">10</a></td><td>Socio-esthéticienne</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-11\">11</a></td><td>Enseignant du 1er degré</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-12\">12</a></td><td>Enseignant du 2nd degré</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-13\">13</a></td><td>Enseignant du supérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-14\">14</a></td><td>Puéricultrice</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-19\">19</a></td><td>Médecin coordonnateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-20\">20</a></td><td>Infirmier coordonnateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-21\">21</a></td><td>Phoniatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-22\">22</a></td><td>Audio phonologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-23\">23</a></td><td>Ingénieur en analyse du mouvement</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-24\">24</a></td><td>Psychologue clinicien</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-25\">25</a></td><td>Animateur socio-culturel</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-26\">26</a></td><td>Moniteur d'atelier</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-27\">27</a></td><td>Maîtrise de la Méthode verbo-tonale : aide à l'apprentissage de la parole</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-29\">29</a></td><td>Maîtrise du PECS</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-30\">30</a></td><td>Maîtrise de la Méthode ABA</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-31\">31</a></td><td>Maîtrise du MAKATON</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-32\">32</a></td><td>Maîtrise des Gestes Borel-Maisonny</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-33\">33</a></td><td>Maîtrise de la COGHAMO</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-34\">34</a></td><td>Maîtrise des Codes de communication pictographiques (classeurs, planches)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-35\">35</a></td><td>Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-36\">36</a></td><td>Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-37\">37</a></td><td>Ostéopathe</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-38\">38</a></td><td>Enseignant en Activité Physique Adaptée (EAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-39\">39</a></td><td>Accompagnant des Élèves en Situation de Handicap (AESH)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-40\">40</a></td><td>Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-41\">41</a></td><td>Psychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-42\">42</a></td><td>Gériatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-43\">43</a></td><td>Pédopsychiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-44\">44</a></td><td>Veilleur de nuit</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-45\">45</a></td><td>Assistant(e) de soins en gérontologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-46\">46</a></td><td>Conseillère en économie sociale et familiale (CESF)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-47\">47</a></td><td>Aide médico psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-48\">48</a></td><td>Auxiliaire de vie sociale (AVS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-49\">49</a></td><td>Accompagnant Educatif et Social (AES)</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-50\">50</a></td><td>Avéjiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-51\">51</a></td><td>Instructeur en locomotion</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-52\">52</a></td><td>Educateur sportif</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-53\">53</a></td><td>Conseiller en insertion professionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-54\">54</a></td><td>Coordonnateur et gestionnaire de parcours handicap</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-55\">55</a></td><td>Neuropédiatre</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-56\">56</a></td><td>Psychopédagogue</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-57\">57</a></td><td>Ergonome</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-58\">58</a></td><td>Psychologue du travail</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-59\">59</a></td><td>Tabacologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R243-CompetenceSpecifique.html#TRE-R243-CompetenceSpecifique-60\">60</a></td><td>Addictologue</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J33-CompetenceSpecifique-ROR/FHIR/JDV-J33-CompetenceSpecifique-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.38" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J33-CompetenceSpecifique-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Compétence spécifique - ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Maîtrise de la Langue des Signes Française (LSF)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "02" ] ;
+         fhir:display [ fhir:v "Maîtrise de la Langue Parlé Complété (LPC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "03" ] ;
+         fhir:display [ fhir:v "Maîtrise de la lecture et de l'écriture du Braille" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Art-thérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "05" ] ;
+         fhir:display [ fhir:v "Neuropsychologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "06" ] ;
+         fhir:display [ fhir:v "Maîtrise de langue étrangère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "07" ] ;
+         fhir:display [ fhir:v "Maîtrise de langue régionale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "08" ] ;
+         fhir:display [ fhir:v "Intervenant pair (médiateur, pair-aidant)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Socio-esthéticienne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Enseignant du 1er degré" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "Enseignant du 2nd degré" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Enseignant du supérieur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "Puéricultrice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "Médecin coordonnateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "Infirmier coordonnateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Phoniatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "Audio phonologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "Ingénieur en analyse du mouvement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "Psychologue clinicien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "Animateur socio-culturel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "Moniteur d'atelier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "Maîtrise de la Méthode verbo-tonale : aide à l'apprentissage de la parole" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "Maîtrise du PECS" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "Maîtrise de la Méthode ABA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "Maîtrise du MAKATON" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "Maîtrise des Gestes Borel-Maisonny" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "Maîtrise de la COGHAMO" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "34" ] ;
+         fhir:display [ fhir:v "Maîtrise des Codes de communication pictographiques (classeurs, planches)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "Ostéopathe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "Enseignant en Activité Physique Adaptée (EAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "Accompagnant des Élèves en Situation de Handicap (AESH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Psychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Gériatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Pédopsychiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Veilleur de nuit" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Assistant(e) de soins en gérontologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Conseillère en économie sociale et familiale (CESF)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale (AVS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Accompagnant Educatif et Social (AES)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Avéjiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Instructeur en locomotion" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur sportif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Conseiller en insertion professionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "Coordonnateur et gestionnaire de parcours handicap" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "Neuropédiatre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "Psychopédagogue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "57" ] ;
+         fhir:display [ fhir:v "Ergonome" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "58" ] ;
+         fhir:display [ fhir:v "Psychologue du travail" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "Tabacologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "Addictologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.37" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

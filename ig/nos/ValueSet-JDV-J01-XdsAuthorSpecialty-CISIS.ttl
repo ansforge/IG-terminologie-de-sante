@@ -1,0 +1,3425 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J01-XdsAuthorSpecialty-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-ALIM_AM\">ALIM_AM</a></td><td>Alimentation automatique à partir du Système d'Information de l'Assurance Maladie</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-DISPOSITIF\">DISPOSITIF</a></td><td>Dispositif médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT\">EXP_PATIENT</a></td><td>Expression personnelle du patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SECRETARIAT_MEDICAL\">SECRETARIAT_MEDICAL</a></td><td>Secrétariat médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-AUTOMATE\">AUTOMATE</a></td><td>Automate</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SNR\">SNR</a></td><td>Service numérique référencé</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10\">G15_10</a></td><td>Médecin</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47PAC00\">G15_10/PAC00</a></td><td>Médecin - Qualification Praticien adjoint contractuel (PAC)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM01\">G15_10/SM01</a></td><td>Médecin - Anatomie et Cytologie pathologiques (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM02\">G15_10/SM02</a></td><td>Médecin - Anesthésie-réanimation (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM03\">G15_10/SM03</a></td><td>Médecin - Biologie médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM04\">G15_10/SM04</a></td><td>Médecin - Cardiologie et maladies vasculaires (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM05\">G15_10/SM05</a></td><td>Médecin - Chirurgie générale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM06\">G15_10/SM06</a></td><td>Médecin - Chirurgie maxillo-faciale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM07\">G15_10/SM07</a></td><td>Médecin - Chirurgie maxillo-faciale et Stomatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM08\">G15_10/SM08</a></td><td>Médecin - Chirurgie orthopédique et Traumatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM09\">G15_10/SM09</a></td><td>Médecin - Chirurgie infantile (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM10\">G15_10/SM10</a></td><td>Médecin - Chirurgie plastique reconstruct et esthétique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM11\">G15_10/SM11</a></td><td>Médecin - Chirurgie thoracique et cardio-vasculaire (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM12\">G15_10/SM12</a></td><td>Médecin - Chirurgie urologique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM13\">G15_10/SM13</a></td><td>Médecin - Chirurgie vasculaire (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM14\">G15_10/SM14</a></td><td>Médecin - Chirurgie viscérale et digestive (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM15\">G15_10/SM15</a></td><td>Médecin - Dermatologie et Vénéréologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM16\">G15_10/SM16</a></td><td>Médecin - Endocrinologie et métabolisme (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM17\">G15_10/SM17</a></td><td>Médecin - Génétique médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM18\">G15_10/SM18</a></td><td>Médecin - Gériatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM19\">G15_10/SM19</a></td><td>Médecin - Gynécologie médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM20\">G15_10/SM20</a></td><td>Médecin - Gynécologie-obstétrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM21\">G15_10/SM21</a></td><td>Médecin - Hématologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM22\">G15_10/SM22</a></td><td>Médecin - Hématologie, opt Maladie du sang (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM23\">G15_10/SM23</a></td><td>Médecin - Hématologie, opt Onco-hématologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM24\">G15_10/SM24</a></td><td>Médecin - Gastro-entérologie et hépatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM25\">G15_10/SM25</a></td><td>Médecin - Médecine du travail (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM26\">G15_10/SM26</a></td><td>Médecin - Qualifié en Médecine Générale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM27\">G15_10/SM27</a></td><td>Médecin - Médecine interne (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM28\">G15_10/SM28</a></td><td>Médecin - Médecine nucléaire (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM29\">G15_10/SM29</a></td><td>Médecin - Médecine physique et réadaptation (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM30\">G15_10/SM30</a></td><td>Médecin - Néphrologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM31\">G15_10/SM31</a></td><td>Médecin - Neuro-chirurgie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM32\">G15_10/SM32</a></td><td>Médecin - Neurologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM33\">G15_10/SM33</a></td><td>Médecin - Neuro-psychiatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM34\">G15_10/SM34</a></td><td>Médecin - ORL et Chirurgie cervico-faciale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM35\">G15_10/SM35</a></td><td>Médecin - Oncologie, opt Onco-hématologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM36\">G15_10/SM36</a></td><td>Médecin - Oncologie, opt médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM37\">G15_10/SM37</a></td><td>Médecin - Oncologie, opt radiothérapie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM38\">G15_10/SM38</a></td><td>Médecin - Ophtalmologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM39\">G15_10/SM39</a></td><td>Médecin - Oto-rhino-laryngologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM40\">G15_10/SM40</a></td><td>Médecin - Pédiatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM41\">G15_10/SM41</a></td><td>Médecin - Pneumologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM42\">G15_10/SM42</a></td><td>Médecin - Psychiatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM43\">G15_10/SM43</a></td><td>Médecin - Psychiatrie, opt enfant et adolescent (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM44\">G15_10/SM44</a></td><td>Médecin - Radio-diagnostic (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM45\">G15_10/SM45</a></td><td>Médecin - Radio-thérapie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM46\">G15_10/SM46</a></td><td>Médecin - Médecine intensive-réanimation (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM47\">G15_10/SM47</a></td><td>Médecin - Recherche médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM48\">G15_10/SM48</a></td><td>Médecin - Rhumatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM49\">G15_10/SM49</a></td><td>Médecin - Santé publique et Médecine sociale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM50\">G15_10/SM50</a></td><td>Médecin - Stomatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM51\">G15_10/SM51</a></td><td>Médecin - Gynéco-obstétrique et Gynéco méd, opt Gyn-obs (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM52\">G15_10/SM52</a></td><td>Médecin - Gynéco-obstétrique et Gynéco méd, opt Gyn-méd (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM53\">G15_10/SM53</a></td><td>Médecin - Spécialiste en Médecine Générale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM54\">G15_10/SM54</a></td><td>Médecin - Médecine Générale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM55\">G15_10/SM55</a></td><td>Médecin - Radio-diagnostic et Radio-Thérapie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM56\">G15_10/SM56</a></td><td>Médecin - Chirurgie orale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM57\">G15_10/SM57</a></td><td>Médecin - Allergologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM58\">G15_10/SM58</a></td><td>Médecin - Maladies infectieuses et tropicales (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM59\">G15_10/SM59</a></td><td>Médecin - Médecine d'urgence (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM60\">G15_10/SM60</a></td><td>Médecin - Médecine légale et expertises médicales (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM61\">G15_10/SM61</a></td><td>Médecin - Médecine vasculaire (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM62\">G15_10/SM62</a></td><td>Médecin - Endocrinologie, diabétologie, nutrition (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM63\">G15_10/SM63</a></td><td>Médecin - Biologie médicale option biologie générale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM64\">G15_10/SM64</a></td><td>Médecin - Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM65\">G15_10/SM65</a></td><td>Médecin - Biologie médicale option hématologie et immunologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM66\">G15_10/SM66</a></td><td>Médecin - Biologie médicale option agents infectieux (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM67\">G15_10/SM67</a></td><td>Médecin - Biologie médicale option biologie de la reproduction (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM68\">G15_10/SM68</a></td><td>Médecin - Chirurgie maxillo-faciale (réforme 2017) (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM69\">G15_10/SM69</a></td><td>Médecin - Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM70\">G15_10/SM70</a></td><td>Médecin - Chirurgie pédiatrique option orthopédie pédiatrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM71\">G15_10/SM71</a></td><td>Médecin - Hématologie (réforme 2017) (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM72\">G15_10/SM72</a></td><td>Médecin - Médecine interne et immunologie clinique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM73\">G15_10/SM73</a></td><td>Médecin - Médecine cardiovasculaire (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM74\">G15_10/SM74</a></td><td>Médecin - Radiologie et imagerie médicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM75\">G15_10/SM75</a></td><td>Médecin - Santé publique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM76\">G15_10/SM76</a></td><td>Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM77\">G15_10/SM77</a></td><td>Médecin - Chirurgie maxillo-faciale option orthodontie des dysmorphies maxillo-faciales (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM78\">G15_10/SM78</a></td><td>Médecin - Chirurgie viscérale et digestive option endoscopie chirurgicale (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM79\">G15_10/SM79</a></td><td>Médecin - Médecine cardiovasculaire option cardiologie interventionnelle (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM80\">G15_10/SM80</a></td><td>Médecin - Médecine cardiovasculaire option imagerie cardio d'expert (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM81\">G15_10/SM81</a></td><td>Médecin - Médecine cardiovasculaire option rythmologie interventionnelle et stimulation cardiaque (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM82\">G15_10/SM82</a></td><td>Médecin - Médecine intensive-réanimation option réanimation pédiatrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM83\">G15_10/SM83</a></td><td>Médecin - Néphrologie option soins intensifs néphrologiques (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM84\">G15_10/SM84</a></td><td>Médecin - Neurologie option traitement interventionnel de l’ischémie cérébrale aigüe (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM85\">G15_10/SM85</a></td><td>Médecin - Ophtalmo option chirurgie ophtalmopédiatrique et strabologique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM86\">G15_10/SM86</a></td><td>Médecin - ORL et chirurgie cervico-faciale option audiophonologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM87\">G15_10/SM87</a></td><td>Médecin - Pédiatrie option néonatologie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM88\">G15_10/SM88</a></td><td>Médecin - Pédiatrie option neuropédiatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM89\">G15_10/SM89</a></td><td>Médecin - Pédiatrie option pneumopédiatrie (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM90\">G15_10/SM90</a></td><td>Médecin - Pédiatrie option réanimation pédiatrique (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM91\">G15_10/SM91</a></td><td>Médecin - Pneumologie option soins intensifs respiratoires (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM92\">G15_10/SM92</a></td><td>Médecin - Psychiatrie option enfant et adolescent (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM93\">G15_10/SM93</a></td><td>Médecin - Psychiatrie option psychiatrie personne âgée (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM94\">G15_10/SM94</a></td><td>Médecin - Radiologie imagerie médicale option radiologie interventionnelle avancée (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SM95\">G15_10/SM95</a></td><td>Médecin - Santé publique option administration de la santé (SM)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CEX22\">G15_10/CEX22</a></td><td>Médecin - Gynécologie médicale et obstétrique (CEX)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CEX24\">G15_10/CEX24</a></td><td>Médecin - Gynécologie médicale (CEX)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CEX26\">G15_10/CEX26</a></td><td>Médecin - Obstétrique (CEX)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CEX64\">G15_10/CEX64</a></td><td>Médecin - Urologie (CEX)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH01\">G15_10/SCH01</a></td><td>Médecin - Anatomie et cytologie pathologiques (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH02\">G15_10/SCH02</a></td><td>Médecin - Anesthésie-réanimation (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH03\">G15_10/SCH03</a></td><td>Médecin - Bactériologie-virologie, hygiène hosp (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH04\">G15_10/SCH04</a></td><td>Médecin - Biochimie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH05\">G15_10/SCH05</a></td><td>Médecin - Biologie cellulaire, histologie, bio du dév (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH06\">G15_10/SCH06</a></td><td>Médecin - Biologie médicale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH07\">G15_10/SCH07</a></td><td>Médecin - Biophysique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH08\">G15_10/SCH08</a></td><td>Médecin - Oncologie médicale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH09\">G15_10/SCH09</a></td><td>Médecin - Cardiologie et maladies vasculaires (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH10\">G15_10/SCH10</a></td><td>Médecin - Chirurgie générale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH11\">G15_10/SCH11</a></td><td>Médecin - Chirurgie viscérale et digestive (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH12\">G15_10/SCH12</a></td><td>Médecin - Chirurgie infantile (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH13\">G15_10/SCH13</a></td><td>Médecin - Chirurgie maxillo-faciale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH14\">G15_10/SCH14</a></td><td>Médecin - Chirurgie orthopédique et Traumatologique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH15\">G15_10/SCH15</a></td><td>Médecin - Chirurgie plast reconstruct, esthétique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH16\">G15_10/SCH16</a></td><td>Médecin - Chirurgie thoracique et cardio-vasculaire (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH17\">G15_10/SCH17</a></td><td>Médecin - Chirurgie urologique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH18\">G15_10/SCH18</a></td><td>Médecin - Chirurgie vasculaire (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH19\">G15_10/SCH19</a></td><td>Médecin - Dermatologie et Vénéréologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH20\">G15_10/SCH20</a></td><td>Médecin - Endocrinologie et Métabolisme (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH21\">G15_10/SCH21</a></td><td>Médecin - Santé publique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH22\">G15_10/SCH22</a></td><td>Médecin - Explorations fonctionnelles (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH23\">G15_10/SCH23</a></td><td>Médecin - Gastro-entérologie et Hépatologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH24\">G15_10/SCH24</a></td><td>Médecin - Génétique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH25\">G15_10/SCH25</a></td><td>Médecin - Génétique médicale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH26\">G15_10/SCH26</a></td><td>Médecin - Gynécologie et Obstétrique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH27\">G15_10/SCH27</a></td><td>Médecin - Hématologie biologique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH28\">G15_10/SCH28</a></td><td>Médecin - Hématologie clinique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH29\">G15_10/SCH29</a></td><td>Médecin - Hémobiologie-transfusion (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH30\">G15_10/SCH30</a></td><td>Médecin - Hygiène hospitalière (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH31\">G15_10/SCH31</a></td><td>Médecin - Immunologie biologique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH32\">G15_10/SCH32</a></td><td>Médecin - Immunologie clinique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH33\">G15_10/SCH33</a></td><td>Médecin - Maladies infectieuses, maladies tropicales (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH34\">G15_10/SCH34</a></td><td>Médecin - Médecine de la repro et Gynécologie médicale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH35\">G15_10/SCH35</a></td><td>Médecin - Médecine du travail (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH36\">G15_10/SCH36</a></td><td>Médecin - Médecine d'urgence (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH37\">G15_10/SCH37</a></td><td>Médecin - Médecine générale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH38\">G15_10/SCH38</a></td><td>Médecin - Gériatrie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH39\">G15_10/SCH39</a></td><td>Médecin - Médecine interne (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH40\">G15_10/SCH40</a></td><td>Médecin - Médecine légale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH41\">G15_10/SCH41</a></td><td>Médecin - Médecine nucléaire (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH42\">G15_10/SCH42</a></td><td>Médecin - Médecine physique et de réadaptation (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH43\">G15_10/SCH43</a></td><td>Médecin - Néphrologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH44\">G15_10/SCH44</a></td><td>Médecin - neuro-chirurgie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH45\">G15_10/SCH45</a></td><td>Médecin - Neurologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH46\">G15_10/SCH46</a></td><td>Médecin - Odontologie polyvalente (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH47\">G15_10/SCH47</a></td><td>Médecin - Ophtalmologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH48\">G15_10/SCH48</a></td><td>Médecin - Oto-rhino-laryngologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH49\">G15_10/SCH49</a></td><td>Médecin - Parasitologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH50\">G15_10/SCH50</a></td><td>Médecin - Pédiatrie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH51\">G15_10/SCH51</a></td><td>Médecin - Pharmacie polyvalente et Pharmacie hosp (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH52\">G15_10/SCH52</a></td><td>Médecin - Pharmacologie clinique et Toxicologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH53\">G15_10/SCH53</a></td><td>Médecin - Pneumologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH54\">G15_10/SCH54</a></td><td>Médecin - Psychiatrie polyvalente (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH55\">G15_10/SCH55</a></td><td>Médecin - Radiologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH56\">G15_10/SCH56</a></td><td>Médecin - Oncologie radiothérapique (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH57\">G15_10/SCH57</a></td><td>Médecin - Réanimation médicale (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH58\">G15_10/SCH58</a></td><td>Médecin - Rhumatologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH59\">G15_10/SCH59</a></td><td>Médecin - Stomatologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47SCH60\">G15_10/SCH60</a></td><td>Médecin - Toxicologie et Pharmacologie (SCH)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C01\">G15_10/C01</a></td><td>Médecin - Anatomie et Cytologie pathologiques humaines (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C03\">G15_10/C03</a></td><td>Médecin - Anesthésie-réanimation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C05\">G15_10/C05</a></td><td>Médecin - Médecine appliquée aux sports (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C07\">G15_10/C07</a></td><td>Médecin - Cardiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C09\">G15_10/C09</a></td><td>Médecin - Chirurgie plast reconstruct, esthétique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C10\">G15_10/C10</a></td><td>Médecin - Chirurgie maxillo-faciale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C11\">G15_10/C11</a></td><td>Médecin - Chirurgie thoracique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C12\">G15_10/C12</a></td><td>Médecin - Chirurgie orthopédique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C13\">G15_10/C13</a></td><td>Médecin - Urologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C15\">G15_10/C15</a></td><td>Médecin - Dermato-vénéréologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C20\">G15_10/C20</a></td><td>Médecin - Hémobiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C23\">G15_10/C23</a></td><td>Médecin - Gynécologie médicale et Obstétrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C25\">G15_10/C25</a></td><td>Médecin - Gynécologie médicale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C27\">G15_10/C27</a></td><td>Médecin - Obstétrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C29\">G15_10/C29</a></td><td>Médecin - Maladies de l'appareil digestif (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C30\">G15_10/C30</a></td><td>Médecin - Néphrologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C31\">G15_10/C31</a></td><td>Médecin - Médecine exotique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C33\">G15_10/C33</a></td><td>Médecin - Allergologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C34\">G15_10/C34</a></td><td>Médecin - Angéiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C35\">G15_10/C35</a></td><td>Médecin - Cancérologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C36\">G15_10/C36</a></td><td>Médecin - Diabétologie-nutrition (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C37\">G15_10/C37</a></td><td>Médecin - Endocrinologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C38\">G15_10/C38</a></td><td>Médecin - Maladies du sang (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C39\">G15_10/C39</a></td><td>Médecin - Réanimation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C40\">G15_10/C40</a></td><td>Médecin - Médecine légale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C41\">G15_10/C41</a></td><td>Médecin - Médecine du travail (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C43\">G15_10/C43</a></td><td>Médecin - Neurologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C45\">G15_10/C45</a></td><td>Médecin - Neuro-chirurgie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C47\">G15_10/C47</a></td><td>Médecin - Neuro-psychiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C51\">G15_10/C51</a></td><td>Médecin - Pédiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C52\">G15_10/C52</a></td><td>Médecin - Phoniatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C54\">G15_10/C54</a></td><td>Médecin - Pneumologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C57\">G15_10/C57</a></td><td>Médecin - Psychiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C58\">G15_10/C58</a></td><td>Médecin - Psychiatrie, opt enfant et adolescent (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C60\">G15_10/C60</a></td><td>Médecin - Médecine physique et réadaptation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C62\">G15_10/C62</a></td><td>Médecin - Rhumatologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C68\">G15_10/C68</a></td><td>Médecin - Chirurgie pédiatrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C69\">G15_10/C69</a></td><td>Médecin - Médecine nucléaire (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C71\">G15_10/C71</a></td><td>Médecin - Médecine thermale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C72\">G15_10/C72</a></td><td>Médecin - Génétique médicale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C75\">G15_10/C75</a></td><td>Médecin - Endocrinologie et Maladies métaboliques (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C76\">G15_10/C76</a></td><td>Médecin - Orthopédie dento-maxillo-faciale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47C83\">G15_10/C83</a></td><td>Médecin - Chirurgie face et cou (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA01\">G15_10/CAPA01</a></td><td>Médecin - Addictologie clinique (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA02\">G15_10/CAPA02</a></td><td>Médecin - Aide médicale urgente (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA03\">G15_10/CAPA03</a></td><td>Médecin - Allergologie (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA04\">G15_10/CAPA04</a></td><td>Médecin - Angéiologie (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA05\">G15_10/CAPA05</a></td><td>Médecin - Evaluation et traitement de la douleur (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA06\">G15_10/CAPA06</a></td><td>Médecin - Gérontologie (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA07\">G15_10/CAPA07</a></td><td>Médecin - Hydrologie et climatologie médicales (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA08\">G15_10/CAPA08</a></td><td>Médecin - Médecine aérospatiale (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA09\">G15_10/CAPA09</a></td><td>Médecin - Médecine de catastrophe (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA10\">G15_10/CAPA10</a></td><td>Médecin - Médecine et biologie du sport (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA11\">G15_10/CAPA11</a></td><td>Médecin - Médecine de travail, prév risques prof (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA12\">G15_10/CAPA12</a></td><td>Médecin - Médecine pénitentiaire (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA13\">G15_10/CAPA13</a></td><td>Médecin - Médecine tropicale (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA14\">G15_10/CAPA14</a></td><td>Médecin - Pratiques médico-judiciaires (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA15\">G15_10/CAPA15</a></td><td>Médecin - Technologie transfusionnelle (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47CAPA16\">G15_10/CAPA16</a></td><td>Médecin - Toxicomanies et Alcoologies (CAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM200\">G15_10/DSM200</a></td><td>Médecin - Addictologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM201\">G15_10/DSM201</a></td><td>Médecin - Allergologie et Immunologie clinique (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM202\">G15_10/DSM202</a></td><td>Médecin - Andrologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM203\">G15_10/DSM203</a></td><td>Médecin - Biochimie hormonale et métabolique (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM204\">G15_10/DSM204</a></td><td>Médecin - Biologie des agents infectieux (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM205\">G15_10/DSM205</a></td><td>Médecin - Biologie moléculaire (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM206\">G15_10/DSM206</a></td><td>Médecin - Cancérologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM207\">G15_10/DSM207</a></td><td>Médecin - Chirurgie de la face et du cou (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM208\">G15_10/DSM208</a></td><td>Médecin - Chirurgie plastique et reconstructrice (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM209\">G15_10/DSM209</a></td><td>Médecin - Chirurgie vasculaire (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM210\">G15_10/DSM210</a></td><td>Médecin - Cytogénétique humaine (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM211\">G15_10/DSM211</a></td><td>Médecin - Dermatopathologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM212\">G15_10/DSM212</a></td><td>Médecin - Foetopathologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM213\">G15_10/DSM213</a></td><td>Médecin - Gériatrie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM214\">G15_10/DSM214</a></td><td>Médecin - Hématologie biologique (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM215\">G15_10/DSM215</a></td><td>Médecin - Hématologie maladies du sang (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM216\">G15_10/DSM216</a></td><td>Médecin - Hémobiologie-transfusion (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM217\">G15_10/DSM217</a></td><td>Médecin - Immunologie et Immunopathologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM218\">G15_10/DSM218</a></td><td>Médecin - Médecine de la reproduction (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM219\">G15_10/DSM219</a></td><td>Médecin - Médecine du sport (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM220\">G15_10/DSM220</a></td><td>Médecin - Médecine d'urgence (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM221\">G15_10/DSM221</a></td><td>Médecin - Médecine légale et Expertises médicales (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM222\">G15_10/DSM222</a></td><td>Médecin - Médecine nucléaire (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM223\">G15_10/DSM223</a></td><td>Médecin - Médecine vasculaire (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM224\">G15_10/DSM224</a></td><td>Médecin - Néonatalogie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM225\">G15_10/DSM225</a></td><td>Médecin - Neuropathologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM226\">G15_10/DSM226</a></td><td>Médecin - Nutrition (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM227\">G15_10/DSM227</a></td><td>Médecin - Orthopédie dento-maxillo-faciale (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM228\">G15_10/DSM228</a></td><td>Médecin - Pathologie infect et trop, clin et bio (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM229\">G15_10/DSM229</a></td><td>Médecin - Pharmacocinétique et Métabolisme des méd (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM230\">G15_10/DSM230</a></td><td>Médecin - Pharmacologie clin et Eval thérapeutiq (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM231\">G15_10/DSM231</a></td><td>Médecin - Psychiatrie de l'enfant et de l'ado (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM232\">G15_10/DSM232</a></td><td>Médecin - Radiopharmacie et radiobiologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM233\">G15_10/DSM233</a></td><td>Médecin - Réanimation médicale (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM234\">G15_10/DSM234</a></td><td>Médecin - Toxicologie biologique (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM235\">G15_10/DSM235</a></td><td>Médecin - Médecine de la douleur et Méd palliative (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM236\">G15_10/DSM236</a></td><td>Médecin - Cancérologie, opt Trait méd des cancers (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM237\">G15_10/DSM237</a></td><td>Médecin - Cancérologie, opt Chir cancérologique (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM238\">G15_10/DSM238</a></td><td>Médecin - Cancérologie, opt Réseaux cancérologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM239\">G15_10/DSM239</a></td><td>Médecin - Cancérologie, opt Biologie cancérologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10.47DSM240\">G15_10/DSM240</a></td><td>Médecin - Cancérologie, opt Imagerie cancérologie (DNQ)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21\">G15_21</a></td><td>Pharmacien</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47A\">G15_21/A</a></td><td>Pharmacien titulaire d'officine</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47B\">G15_21/B</a></td><td>Pharmacien d'entreprise - industrie</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47C\">G15_21/C</a></td><td>Pharmacien d'entreprise - distribution</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47D\">G15_21/D</a></td><td>Pharmacien adjoint, remplaçant ou gérant</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47DA\">G15_21/DA</a></td><td>Pharmacien adjoint</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47DM\">G15_21/DM</a></td><td>Pharmacien mutualiste ou minier</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47E\">G15_21/E</a></td><td>Pharmacien d'Outre-Mer</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47EA\">G15_21/EA</a></td><td>Pharmacien titulaire d'officine - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47EB\">G15_21/EB</a></td><td>Pharmacien d'entreprise - industrie - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47EC\">G15_21/EC</a></td><td>Pharmacien d'entreprise - distribution - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47ED\">G15_21/ED</a></td><td>Pharmacien adjoint - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47EG\">G15_21/EG</a></td><td>Pharmacien biologiste - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47EH\">G15_21/EH</a></td><td>Pharmacien d'un établissement de santé - OM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47G\">G15_21/G</a></td><td>Pharmacien biologiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47H\">G15_21/H</a></td><td>Pharmacien d'établissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_21.47M\">G15_21/M</a></td><td>Pharmacien militaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_26\">G15_26</a></td><td>Audioprothésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_28\">G15_28</a></td><td>Opticien-Lunetier</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_31\">G15_31</a></td><td>Assistant dentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_32\">G15_32</a></td><td>Physicien médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_35\">G15_35</a></td><td>Aide-soignant</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_36\">G15_36</a></td><td>Ambulancier</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_37\">G15_37</a></td><td>Auxiliaire de puériculture</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_38\">G15_38</a></td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_39\">G15_39</a></td><td>Préparateur en pharmacie</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_40\">G15_40</a></td><td>Chirurgien-Dentiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_40.47SCD01\">G15_40/SCD01</a></td><td>Chirurgien-Dentiste - Orthopédie dento-faciale (SCD)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_40.47SCD02\">G15_40/SCD02</a></td><td>Chirurgien-Dentiste - Chirurgie orale (SCD)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_40.47SCD03\">G15_40/SCD03</a></td><td>Chirurgien-Dentiste - Médecine bucco-dentaire (SCD)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_50\">G15_50</a></td><td>Sage-Femme</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60\">G15_60</a></td><td>Infirmier</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60.47SI01\">G15_60/SI01</a></td><td>Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60.47SI02\">G15_60/SI02</a></td><td>Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60.47SI03\">G15_60/SI03</a></td><td>Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60.47SI04\">G15_60/SI04</a></td><td>Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60.47SI05\">G15_60/SI05</a></td><td>Infirmier - Exercice infirmier en pratique avancée urgences (SI)</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_69\">G15_69</a></td><td>Infirmier psychiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_70\">G15_70</a></td><td>Masseur-Kinésithérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_80\">G15_80</a></td><td>Pédicure-Podologue</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_81\">G15_81</a></td><td>Orthoprothésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_82\">G15_82</a></td><td>Podo-Orthésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_83\">G15_83</a></td><td>Orthopédiste-Orthésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_84\">G15_84</a></td><td>Oculariste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_85\">G15_85</a></td><td>Epithésiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_86\">G15_86</a></td><td>Technicien de laboratoire médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_91\">G15_91</a></td><td>Orthophoniste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_92\">G15_92</a></td><td>Orthoptiste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_94\">G15_94</a></td><td>Ergothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_95\">G15_95</a></td><td>Diététicien</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_96\">G15_96</a></td><td>Psychomotricien</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_98\">G15_98</a></td><td>Manipulateur ERM</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G16_10\">G16_10</a></td><td>Médecin en formation</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G16_21\">G16_21</a></td><td>Pharmacien en formation</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G16_40\">G16_40</a></td><td>Chirurgien-Dentiste en formation</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G16_50\">G16_50</a></td><td>Sage-Femme en formation</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R95-UsagerTitre.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-71\">71</a></td><td>Ostéopathe</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-72\">72</a></td><td>Psychothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-73\">73</a></td><td>Chiropracteur</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-93\">93</a></td><td>Psychologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-97\">97</a></td><td>Conseiller en génétique</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R94-ProfessionSocial.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-41\">41</a></td><td>Assistant de service social</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-42\">42</a></td><td>Auxiliaire de vie sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-43\">43</a></td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-44\">44</a></td><td>Conseiller en économie sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-45\">45</a></td><td>Médiateur familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-46\">46</a></td><td>Assistant familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-47\">47</a></td><td>Aide médico-psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-48\">48</a></td><td>Moniteur éducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-49\">49</a></td><td>Educateur de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-51\">51</a></td><td>Educateur spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-52\">52</a></td><td>Educateur technique spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-53\">53</a></td><td>Accompagnant éducatif et social</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R85-RolePriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-300\">300</a></td><td>Assistant de service social (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-301\">301</a></td><td>Coordination territoriale d'appui (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-302\">302</a></td><td>Aide et accompagnement à domicile (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-303\">303</a></td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-304\">304</a></td><td>Assistant de service social (Expérimentation MAIA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-305\">305</a></td><td>Psychologue (Expérimentation MAIA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-306\">306</a></td><td>Psychothérapeute (Expérimentation MAIA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-307\">307</a></td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-308\">308</a></td><td>Pilote MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-309\">309</a></td><td>Gestionnaire de cas MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-310\">310</a></td><td>Equipe médico-sociale APA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-311\">311</a></td><td>Autre acteur mettant en oeuvre la méthode MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-312\">312</a></td><td>Autre professionnel</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-313\">313</a></td><td>Aide-soignant</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-314\">314</a></td><td>Ambulancier</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-315\">315</a></td><td>Auxiliaire de puériculture</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-316\">316</a></td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-317\">317</a></td><td>Préparateur en pharmacie (officine)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-318\">318</a></td><td>Auxiliaire de vie sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-319\">319</a></td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-320\">320</a></td><td>Conseiller en économie sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-321\">321</a></td><td>Médiateur familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-322\">322</a></td><td>Assistant familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-323\">323</a></td><td>Aide médico-psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-324\">324</a></td><td>Moniteur éducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-325\">325</a></td><td>Educateur de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-326\">326</a></td><td>Educateur spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-327\">327</a></td><td>Educateur technique spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-328\">328</a></td><td>Accompagnant éducatif et social</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-329\">329</a></td><td>Conseiller en génétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-331\">331</a></td><td>Secrétaire médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-332\">332</a></td><td>Assistant médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-350\">350</a></td><td>Aide à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-351\">351</a></td><td>Assistant(e) maternel(le)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2012-11-12T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.461" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J01-XdsAuthorSpecialty-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "XDS authorSpecialty CI-SIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ALIM_AM" ] ;
+         fhir:display [ fhir:v "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DISPOSITIF" ] ;
+         fhir:display [ fhir:v "Dispositif médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "EXP_PATIENT" ] ;
+         fhir:display [ fhir:v "Expression personnelle du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SECRETARIAT_MEDICAL" ] ;
+         fhir:display [ fhir:v "Secrétariat médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AUTOMATE" ] ;
+         fhir:display [ fhir:v "Automate" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SNR" ] ;
+         fhir:display [ fhir:v "Service numérique référencé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "G15_10" ] ;
+         fhir:display [ fhir:v "Médecin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/PAC00" ] ;
+         fhir:display [ fhir:v "Médecin - Qualification Praticien adjoint contractuel (PAC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM01" ] ;
+         fhir:display [ fhir:v "Médecin - Anatomie et Cytologie pathologiques (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM02" ] ;
+         fhir:display [ fhir:v "Médecin - Anesthésie-réanimation (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM03" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM04" ] ;
+         fhir:display [ fhir:v "Médecin - Cardiologie et maladies vasculaires (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM05" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie générale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM06" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM07" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale et Stomatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM08" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie orthopédique et Traumatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM09" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie infantile (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM10" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie plastique reconstruct et esthétique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM11" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie thoracique et cardio-vasculaire (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM12" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie urologique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM13" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie vasculaire (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM14" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie viscérale et digestive (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM15" ] ;
+         fhir:display [ fhir:v "Médecin - Dermatologie et Vénéréologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM16" ] ;
+         fhir:display [ fhir:v "Médecin - Endocrinologie et métabolisme (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM17" ] ;
+         fhir:display [ fhir:v "Médecin - Génétique médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM18" ] ;
+         fhir:display [ fhir:v "Médecin - Gériatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM19" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM20" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie-obstétrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM21" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM22" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie, opt Maladie du sang (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM23" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie, opt Onco-hématologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM24" ] ;
+         fhir:display [ fhir:v "Médecin - Gastro-entérologie et hépatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM25" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine du travail (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM26" ] ;
+         fhir:display [ fhir:v "Médecin - Qualifié en Médecine Générale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM27" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine interne (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM28" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine nucléaire (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM29" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine physique et réadaptation (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM30" ] ;
+         fhir:display [ fhir:v "Médecin - Néphrologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM31" ] ;
+         fhir:display [ fhir:v "Médecin - Neuro-chirurgie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM32" ] ;
+         fhir:display [ fhir:v "Médecin - Neurologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM33" ] ;
+         fhir:display [ fhir:v "Médecin - Neuro-psychiatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM34" ] ;
+         fhir:display [ fhir:v "Médecin - ORL et Chirurgie cervico-faciale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM35" ] ;
+         fhir:display [ fhir:v "Médecin - Oncologie, opt Onco-hématologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM36" ] ;
+         fhir:display [ fhir:v "Médecin - Oncologie, opt médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM37" ] ;
+         fhir:display [ fhir:v "Médecin - Oncologie, opt radiothérapie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM38" ] ;
+         fhir:display [ fhir:v "Médecin - Ophtalmologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM39" ] ;
+         fhir:display [ fhir:v "Médecin - Oto-rhino-laryngologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM40" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM41" ] ;
+         fhir:display [ fhir:v "Médecin - Pneumologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM42" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM43" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie, opt enfant et adolescent (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM44" ] ;
+         fhir:display [ fhir:v "Médecin - Radio-diagnostic (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM45" ] ;
+         fhir:display [ fhir:v "Médecin - Radio-thérapie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM46" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine intensive-réanimation (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM47" ] ;
+         fhir:display [ fhir:v "Médecin - Recherche médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM48" ] ;
+         fhir:display [ fhir:v "Médecin - Rhumatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM49" ] ;
+         fhir:display [ fhir:v "Médecin - Santé publique et Médecine sociale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM50" ] ;
+         fhir:display [ fhir:v "Médecin - Stomatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM51" ] ;
+         fhir:display [ fhir:v "Médecin - Gynéco-obstétrique et Gynéco méd, opt Gyn-obs (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM52" ] ;
+         fhir:display [ fhir:v "Médecin - Gynéco-obstétrique et Gynéco méd, opt Gyn-méd (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM53" ] ;
+         fhir:display [ fhir:v "Médecin - Spécialiste en Médecine Générale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM54" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine Générale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM55" ] ;
+         fhir:display [ fhir:v "Médecin - Radio-diagnostic et Radio-Thérapie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM56" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie orale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM57" ] ;
+         fhir:display [ fhir:v "Médecin - Allergologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM58" ] ;
+         fhir:display [ fhir:v "Médecin - Maladies infectieuses et tropicales (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM59" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine d'urgence (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM60" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine légale et expertises médicales (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM61" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine vasculaire (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM62" ] ;
+         fhir:display [ fhir:v "Médecin - Endocrinologie, diabétologie, nutrition (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM63" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale option biologie générale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM64" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM65" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale option hématologie et immunologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM66" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale option agents infectieux (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM67" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale option biologie de la reproduction (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM68" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale (réforme 2017) (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM69" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie pédiatrique option chirurgie viscérale pédiatrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM70" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie pédiatrique option orthopédie pédiatrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM71" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie (réforme 2017) (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM72" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine interne et immunologie clinique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM73" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine cardiovasculaire (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM74" ] ;
+         fhir:display [ fhir:v "Médecin - Radiologie et imagerie médicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM75" ] ;
+         fhir:display [ fhir:v "Médecin - Santé publique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM76" ] ;
+         fhir:display [ fhir:v "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM77" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale option orthodontie des dysmorphies maxillo-faciales (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM78" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie viscérale et digestive option endoscopie chirurgicale (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM79" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine cardiovasculaire option cardiologie interventionnelle (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM80" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine cardiovasculaire option imagerie cardio d'expert (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM81" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine cardiovasculaire option rythmologie interventionnelle et stimulation cardiaque (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM82" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine intensive-réanimation option réanimation pédiatrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM83" ] ;
+         fhir:display [ fhir:v "Médecin - Néphrologie option soins intensifs néphrologiques (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM84" ] ;
+         fhir:display [ fhir:v "Médecin - Neurologie option traitement interventionnel de l’ischémie cérébrale aigüe (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM85" ] ;
+         fhir:display [ fhir:v "Médecin - Ophtalmo option chirurgie ophtalmopédiatrique et strabologique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM86" ] ;
+         fhir:display [ fhir:v "Médecin - ORL et chirurgie cervico-faciale option audiophonologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM87" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie option néonatologie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM88" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie option neuropédiatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM89" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie option pneumopédiatrie (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM90" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie option réanimation pédiatrique (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM91" ] ;
+         fhir:display [ fhir:v "Médecin - Pneumologie option soins intensifs respiratoires (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM92" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie option enfant et adolescent (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM93" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie option psychiatrie personne âgée (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM94" ] ;
+         fhir:display [ fhir:v "Médecin - Radiologie imagerie médicale option radiologie interventionnelle avancée (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SM95" ] ;
+         fhir:display [ fhir:v "Médecin - Santé publique option administration de la santé (SM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CEX22" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie médicale et obstétrique (CEX)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CEX24" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie médicale (CEX)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CEX26" ] ;
+         fhir:display [ fhir:v "Médecin - Obstétrique (CEX)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CEX64" ] ;
+         fhir:display [ fhir:v "Médecin - Urologie (CEX)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH01" ] ;
+         fhir:display [ fhir:v "Médecin - Anatomie et cytologie pathologiques (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH02" ] ;
+         fhir:display [ fhir:v "Médecin - Anesthésie-réanimation (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH03" ] ;
+         fhir:display [ fhir:v "Médecin - Bactériologie-virologie, hygiène hosp (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH04" ] ;
+         fhir:display [ fhir:v "Médecin - Biochimie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH05" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie cellulaire, histologie, bio du dév (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH06" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie médicale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH07" ] ;
+         fhir:display [ fhir:v "Médecin - Biophysique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH08" ] ;
+         fhir:display [ fhir:v "Médecin - Oncologie médicale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH09" ] ;
+         fhir:display [ fhir:v "Médecin - Cardiologie et maladies vasculaires (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH10" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie générale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH11" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie viscérale et digestive (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH12" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie infantile (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH13" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH14" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie orthopédique et Traumatologique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH15" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie plast reconstruct, esthétique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH16" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie thoracique et cardio-vasculaire (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH17" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie urologique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH18" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie vasculaire (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH19" ] ;
+         fhir:display [ fhir:v "Médecin - Dermatologie et Vénéréologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH20" ] ;
+         fhir:display [ fhir:v "Médecin - Endocrinologie et Métabolisme (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH21" ] ;
+         fhir:display [ fhir:v "Médecin - Santé publique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH22" ] ;
+         fhir:display [ fhir:v "Médecin - Explorations fonctionnelles (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH23" ] ;
+         fhir:display [ fhir:v "Médecin - Gastro-entérologie et Hépatologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH24" ] ;
+         fhir:display [ fhir:v "Médecin - Génétique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH25" ] ;
+         fhir:display [ fhir:v "Médecin - Génétique médicale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH26" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie et Obstétrique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH27" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie biologique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH28" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie clinique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH29" ] ;
+         fhir:display [ fhir:v "Médecin - Hémobiologie-transfusion (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH30" ] ;
+         fhir:display [ fhir:v "Médecin - Hygiène hospitalière (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH31" ] ;
+         fhir:display [ fhir:v "Médecin - Immunologie biologique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH32" ] ;
+         fhir:display [ fhir:v "Médecin - Immunologie clinique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH33" ] ;
+         fhir:display [ fhir:v "Médecin - Maladies infectieuses, maladies tropicales (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH34" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine de la repro et Gynécologie médicale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH35" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine du travail (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH36" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine d'urgence (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH37" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine générale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH38" ] ;
+         fhir:display [ fhir:v "Médecin - Gériatrie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH39" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine interne (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH40" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine légale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH41" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine nucléaire (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH42" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine physique et de réadaptation (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH43" ] ;
+         fhir:display [ fhir:v "Médecin - Néphrologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH44" ] ;
+         fhir:display [ fhir:v "Médecin - neuro-chirurgie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH45" ] ;
+         fhir:display [ fhir:v "Médecin - Neurologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH46" ] ;
+         fhir:display [ fhir:v "Médecin - Odontologie polyvalente (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH47" ] ;
+         fhir:display [ fhir:v "Médecin - Ophtalmologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH48" ] ;
+         fhir:display [ fhir:v "Médecin - Oto-rhino-laryngologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH49" ] ;
+         fhir:display [ fhir:v "Médecin - Parasitologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH50" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH51" ] ;
+         fhir:display [ fhir:v "Médecin - Pharmacie polyvalente et Pharmacie hosp (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH52" ] ;
+         fhir:display [ fhir:v "Médecin - Pharmacologie clinique et Toxicologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH53" ] ;
+         fhir:display [ fhir:v "Médecin - Pneumologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH54" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie polyvalente (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH55" ] ;
+         fhir:display [ fhir:v "Médecin - Radiologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH56" ] ;
+         fhir:display [ fhir:v "Médecin - Oncologie radiothérapique (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH57" ] ;
+         fhir:display [ fhir:v "Médecin - Réanimation médicale (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH58" ] ;
+         fhir:display [ fhir:v "Médecin - Rhumatologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH59" ] ;
+         fhir:display [ fhir:v "Médecin - Stomatologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/SCH60" ] ;
+         fhir:display [ fhir:v "Médecin - Toxicologie et Pharmacologie (SCH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C01" ] ;
+         fhir:display [ fhir:v "Médecin - Anatomie et Cytologie pathologiques humaines (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C03" ] ;
+         fhir:display [ fhir:v "Médecin - Anesthésie-réanimation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C05" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine appliquée aux sports (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C07" ] ;
+         fhir:display [ fhir:v "Médecin - Cardiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C09" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie plast reconstruct, esthétique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C10" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie maxillo-faciale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C11" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie thoracique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C12" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie orthopédique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C13" ] ;
+         fhir:display [ fhir:v "Médecin - Urologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C15" ] ;
+         fhir:display [ fhir:v "Médecin - Dermato-vénéréologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C20" ] ;
+         fhir:display [ fhir:v "Médecin - Hémobiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C23" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie médicale et Obstétrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C25" ] ;
+         fhir:display [ fhir:v "Médecin - Gynécologie médicale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C27" ] ;
+         fhir:display [ fhir:v "Médecin - Obstétrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C29" ] ;
+         fhir:display [ fhir:v "Médecin - Maladies de l'appareil digestif (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C30" ] ;
+         fhir:display [ fhir:v "Médecin - Néphrologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C31" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine exotique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C33" ] ;
+         fhir:display [ fhir:v "Médecin - Allergologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C34" ] ;
+         fhir:display [ fhir:v "Médecin - Angéiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C35" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C36" ] ;
+         fhir:display [ fhir:v "Médecin - Diabétologie-nutrition (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C37" ] ;
+         fhir:display [ fhir:v "Médecin - Endocrinologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C38" ] ;
+         fhir:display [ fhir:v "Médecin - Maladies du sang (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C39" ] ;
+         fhir:display [ fhir:v "Médecin - Réanimation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C40" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine légale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C41" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine du travail (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C43" ] ;
+         fhir:display [ fhir:v "Médecin - Neurologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C45" ] ;
+         fhir:display [ fhir:v "Médecin - Neuro-chirurgie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C47" ] ;
+         fhir:display [ fhir:v "Médecin - Neuro-psychiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C51" ] ;
+         fhir:display [ fhir:v "Médecin - Pédiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C52" ] ;
+         fhir:display [ fhir:v "Médecin - Phoniatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C54" ] ;
+         fhir:display [ fhir:v "Médecin - Pneumologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C57" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C58" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie, opt enfant et adolescent (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C60" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine physique et réadaptation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C62" ] ;
+         fhir:display [ fhir:v "Médecin - Rhumatologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C68" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie pédiatrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C69" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine nucléaire (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C71" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine thermale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C72" ] ;
+         fhir:display [ fhir:v "Médecin - Génétique médicale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C75" ] ;
+         fhir:display [ fhir:v "Médecin - Endocrinologie et Maladies métaboliques (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C76" ] ;
+         fhir:display [ fhir:v "Médecin - Orthopédie dento-maxillo-faciale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/C83" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie face et cou (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA01" ] ;
+         fhir:display [ fhir:v "Médecin - Addictologie clinique (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA02" ] ;
+         fhir:display [ fhir:v "Médecin - Aide médicale urgente (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA03" ] ;
+         fhir:display [ fhir:v "Médecin - Allergologie (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA04" ] ;
+         fhir:display [ fhir:v "Médecin - Angéiologie (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA05" ] ;
+         fhir:display [ fhir:v "Médecin - Evaluation et traitement de la douleur (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA06" ] ;
+         fhir:display [ fhir:v "Médecin - Gérontologie (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA07" ] ;
+         fhir:display [ fhir:v "Médecin - Hydrologie et climatologie médicales (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA08" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine aérospatiale (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA09" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine de catastrophe (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA10" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine et biologie du sport (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA11" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine de travail, prév risques prof (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA12" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine pénitentiaire (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA13" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine tropicale (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA14" ] ;
+         fhir:display [ fhir:v "Médecin - Pratiques médico-judiciaires (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA15" ] ;
+         fhir:display [ fhir:v "Médecin - Technologie transfusionnelle (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/CAPA16" ] ;
+         fhir:display [ fhir:v "Médecin - Toxicomanies et Alcoologies (CAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM200" ] ;
+         fhir:display [ fhir:v "Médecin - Addictologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM201" ] ;
+         fhir:display [ fhir:v "Médecin - Allergologie et Immunologie clinique (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM202" ] ;
+         fhir:display [ fhir:v "Médecin - Andrologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM203" ] ;
+         fhir:display [ fhir:v "Médecin - Biochimie hormonale et métabolique (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM204" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie des agents infectieux (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM205" ] ;
+         fhir:display [ fhir:v "Médecin - Biologie moléculaire (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM206" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM207" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie de la face et du cou (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM208" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie plastique et reconstructrice (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM209" ] ;
+         fhir:display [ fhir:v "Médecin - Chirurgie vasculaire (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM210" ] ;
+         fhir:display [ fhir:v "Médecin - Cytogénétique humaine (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM211" ] ;
+         fhir:display [ fhir:v "Médecin - Dermatopathologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM212" ] ;
+         fhir:display [ fhir:v "Médecin - Foetopathologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM213" ] ;
+         fhir:display [ fhir:v "Médecin - Gériatrie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM214" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie biologique (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM215" ] ;
+         fhir:display [ fhir:v "Médecin - Hématologie maladies du sang (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM216" ] ;
+         fhir:display [ fhir:v "Médecin - Hémobiologie-transfusion (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM217" ] ;
+         fhir:display [ fhir:v "Médecin - Immunologie et Immunopathologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM218" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine de la reproduction (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM219" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine du sport (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM220" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine d'urgence (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM221" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine légale et Expertises médicales (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM222" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine nucléaire (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM223" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine vasculaire (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM224" ] ;
+         fhir:display [ fhir:v "Médecin - Néonatalogie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM225" ] ;
+         fhir:display [ fhir:v "Médecin - Neuropathologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM226" ] ;
+         fhir:display [ fhir:v "Médecin - Nutrition (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM227" ] ;
+         fhir:display [ fhir:v "Médecin - Orthopédie dento-maxillo-faciale (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM228" ] ;
+         fhir:display [ fhir:v "Médecin - Pathologie infect et trop, clin et bio (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM229" ] ;
+         fhir:display [ fhir:v "Médecin - Pharmacocinétique et Métabolisme des méd (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM230" ] ;
+         fhir:display [ fhir:v "Médecin - Pharmacologie clin et Eval thérapeutiq (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM231" ] ;
+         fhir:display [ fhir:v "Médecin - Psychiatrie de l'enfant et de l'ado (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM232" ] ;
+         fhir:display [ fhir:v "Médecin - Radiopharmacie et radiobiologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM233" ] ;
+         fhir:display [ fhir:v "Médecin - Réanimation médicale (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM234" ] ;
+         fhir:display [ fhir:v "Médecin - Toxicologie biologique (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM235" ] ;
+         fhir:display [ fhir:v "Médecin - Médecine de la douleur et Méd palliative (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM236" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie, opt Trait méd des cancers (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM237" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie, opt Chir cancérologique (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM238" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie, opt Réseaux cancérologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM239" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie, opt Biologie cancérologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_10/DSM240" ] ;
+         fhir:display [ fhir:v "Médecin - Cancérologie, opt Imagerie cancérologie (DNQ)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21" ] ;
+         fhir:display [ fhir:v "Pharmacien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/A" ] ;
+         fhir:display [ fhir:v "Pharmacien titulaire d'officine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/B" ] ;
+         fhir:display [ fhir:v "Pharmacien d'entreprise - industrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/C" ] ;
+         fhir:display [ fhir:v "Pharmacien d'entreprise - distribution" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/D" ] ;
+         fhir:display [ fhir:v "Pharmacien adjoint, remplaçant ou gérant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/DA" ] ;
+         fhir:display [ fhir:v "Pharmacien adjoint" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/DM" ] ;
+         fhir:display [ fhir:v "Pharmacien mutualiste ou minier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/E" ] ;
+         fhir:display [ fhir:v "Pharmacien d'Outre-Mer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/EA" ] ;
+         fhir:display [ fhir:v "Pharmacien titulaire d'officine - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/EB" ] ;
+         fhir:display [ fhir:v "Pharmacien d'entreprise - industrie - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/EC" ] ;
+         fhir:display [ fhir:v "Pharmacien d'entreprise - distribution - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/ED" ] ;
+         fhir:display [ fhir:v "Pharmacien adjoint - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/EG" ] ;
+         fhir:display [ fhir:v "Pharmacien biologiste - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/EH" ] ;
+         fhir:display [ fhir:v "Pharmacien d'un établissement de santé - OM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/G" ] ;
+         fhir:display [ fhir:v "Pharmacien biologiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/H" ] ;
+         fhir:display [ fhir:v "Pharmacien d'établissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_21/M" ] ;
+         fhir:display [ fhir:v "Pharmacien militaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_26" ] ;
+         fhir:display [ fhir:v "Audioprothésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_28" ] ;
+         fhir:display [ fhir:v "Opticien-Lunetier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_31" ] ;
+         fhir:display [ fhir:v "Assistant dentaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_32" ] ;
+         fhir:display [ fhir:v "Physicien médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_35" ] ;
+         fhir:display [ fhir:v "Aide-soignant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_36" ] ;
+         fhir:display [ fhir:v "Ambulancier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_37" ] ;
+         fhir:display [ fhir:v "Auxiliaire de puériculture" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_38" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_39" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_40" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_40/SCD01" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste - Orthopédie dento-faciale (SCD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_40/SCD02" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste - Chirurgie orale (SCD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_40/SCD03" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste - Médecine bucco-dentaire (SCD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_50" ] ;
+         fhir:display [ fhir:v "Sage-Femme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60" ] ;
+         fhir:display [ fhir:v "Infirmier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60/SI01" ] ;
+         fhir:display [ fhir:v "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60/SI02" ] ;
+         fhir:display [ fhir:v "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60/SI03" ] ;
+         fhir:display [ fhir:v "Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60/SI04" ] ;
+         fhir:display [ fhir:v "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_60/SI05" ] ;
+         fhir:display [ fhir:v "Infirmier - Exercice infirmier en pratique avancée urgences (SI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_69" ] ;
+         fhir:display [ fhir:v "Infirmier psychiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_70" ] ;
+         fhir:display [ fhir:v "Masseur-Kinésithérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_80" ] ;
+         fhir:display [ fhir:v "Pédicure-Podologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_81" ] ;
+         fhir:display [ fhir:v "Orthoprothésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_82" ] ;
+         fhir:display [ fhir:v "Podo-Orthésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_83" ] ;
+         fhir:display [ fhir:v "Orthopédiste-Orthésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_84" ] ;
+         fhir:display [ fhir:v "Oculariste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_85" ] ;
+         fhir:display [ fhir:v "Epithésiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_86" ] ;
+         fhir:display [ fhir:v "Technicien de laboratoire médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_91" ] ;
+         fhir:display [ fhir:v "Orthophoniste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_92" ] ;
+         fhir:display [ fhir:v "Orthoptiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_94" ] ;
+         fhir:display [ fhir:v "Ergothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_95" ] ;
+         fhir:display [ fhir:v "Diététicien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_96" ] ;
+         fhir:display [ fhir:v "Psychomotricien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G15_98" ] ;
+         fhir:display [ fhir:v "Manipulateur ERM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G16_10" ] ;
+         fhir:display [ fhir:v "Médecin en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G16_21" ] ;
+         fhir:display [ fhir:v "Pharmacien en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G16_40" ] ;
+         fhir:display [ fhir:v "Chirurgien-Dentiste en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G16_50" ] ;
+         fhir:display [ fhir:v "Sage-Femme en formation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.5" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Ostéopathe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Psychothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Chiropracteur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Psychologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Assistant de service social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Assistant familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "300" ] ;
+         fhir:display [ fhir:v "Assistant de service social (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "301" ] ;
+         fhir:display [ fhir:v "Coordination territoriale d'appui (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "302" ] ;
+         fhir:display [ fhir:v "Aide et accompagnement à domicile (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "303" ] ;
+         fhir:display [ fhir:v "Avocat participant aux processus de soins sans consentement (eSSS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "304" ] ;
+         fhir:display [ fhir:v "Assistant de service social (Expérimentation MAIA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "305" ] ;
+         fhir:display [ fhir:v "Psychologue (Expérimentation MAIA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "306" ] ;
+         fhir:display [ fhir:v "Psychothérapeute (Expérimentation MAIA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "307" ] ;
+         fhir:display [ fhir:v "Mandataire judiciaire à la protection des majeurs (MJPM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "308" ] ;
+         fhir:display [ fhir:v "Pilote MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "309" ] ;
+         fhir:display [ fhir:v "Gestionnaire de cas MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "310" ] ;
+         fhir:display [ fhir:v "Equipe médico-sociale APA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "311" ] ;
+         fhir:display [ fhir:v "Autre acteur mettant en oeuvre la méthode MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "312" ] ;
+         fhir:display [ fhir:v "Autre professionnel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "313" ] ;
+         fhir:display [ fhir:v "Aide-soignant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "314" ] ;
+         fhir:display [ fhir:v "Ambulancier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "315" ] ;
+         fhir:display [ fhir:v "Auxiliaire de puériculture" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "316" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "317" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie (officine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "318" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "319" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "320" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "321" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "322" ] ;
+         fhir:display [ fhir:v "Assistant familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "323" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "326" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "327" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "328" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "329" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "331" ] ;
+         fhir:display [ fhir:v "Secrétaire médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "332" ] ;
+         fhir:display [ fhir:v "Assistant médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "350" ] ;
+         fhir:display [ fhir:v "Aide à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "351" ] ;
+         fhir:display [ fhir:v "Assistant(e) maternel(le)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

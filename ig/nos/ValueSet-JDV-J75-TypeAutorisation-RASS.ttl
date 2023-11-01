@@ -1,0 +1,395 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J75-TypeAutorisation-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J75-TypeAutorisation-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R17-TypeAutorisation.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM00\">AM00</a></td><td>Autre type d'autorisation</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM01\">AM01</a></td><td>Autorisation de plein exercice</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM02\">AM02</a></td><td>Autorisation ministérielle d'exercice en qualité de PAC</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM03\">AM03</a></td><td>Autorisation d'exercice limité à un seul hôpital</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM04\">AM04</a></td><td>Autorisation Propharmacie</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM05\">AM05</a></td><td>Directeur de laboratoire (scientifique, médecin, pharmacien)</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM08\">AM08</a></td><td>Pays avec convention inter-état</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM09\">AM09</a></td><td>Code de la santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM10\">AM10</a></td><td>Traité de Rome</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM11\">AM11</a></td><td>Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM12\">AM12</a></td><td>Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM13\">AM13</a></td><td>Hôpital Américain exclusivement</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM14\">AM14</a></td><td>Arrangement France-Québec (art L 4111-3-1 CSP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM15\">AM15</a></td><td>Article L 4131-1-1 du CSP</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM16\">AM16</a></td><td>Arabie Saoudite décret n°2012-1123 du 03-10-2012</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM17\">AM17</a></td><td>Emirats Arabes Unis décret n°2012-863 du 5-07-2012</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AMGP\">AMGP</a></td><td>En cours de validation au Guichet principal</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM18\">AM18</a></td><td>Autorisation de l'Agence régionale de santé (ARS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM20\">AM20</a></td><td>Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R17-TypeAutorisation.html#TRE-R17-TypeAutorisation-AM21\">AM21</a></td><td>Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM22\">AM22</a></td><td>Agrément de la Caisse Régionale d'Assurance Maladie</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM23\">AM23</a></td><td>Agrément du Ministère des anciens combattants</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM24\">AM24</a></td><td>Exerce comme technicien de laboratoire avant le 08/11/1976</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM25\">AM25</a></td><td>Exerce comme technicien de laboratoire au 29/11/1997</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM26\">AM26</a></td><td>Exerce comme technicien de laboratoire au 30/05/2013</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM27\">AM27</a></td><td>Autorisation d'exercice pour diplôme de l'UE/EEE</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM28\">AM28</a></td><td>Autorisation d'user du titre d'Ostéopathe</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM29\">AM29</a></td><td>Autorisation d'user du titre de diététicien, décision administrative en 1986</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM30\">AM30</a></td><td>Autorisation d'user du titre de diététicien, emploi permanent en 1986</td></tr><tr><td><a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html#TRE-R48-DiplomeEtatFrancais-AM31\">AM31</a></td><td>Autorisation d'exercice de psychologue diplôme étranger</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM32\">AM32</a></td><td>Autorisation préfectorale d'exercice de psychologue décret 90-259</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM33\">AM33</a></td><td>Autorisation d'exercice de psychothérapeute pour médecin spécialisé psychiatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM34\">AM34</a></td><td>Autorisation d'exercice d'audioprothésiste pour médecin</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM35\">AM35</a></td><td>Autorisation d'user du titre de Chiropraxie</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM36\">AM36</a></td><td>Autorisation d'exercice d'épithésiste pour chirurgien-dentiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM37\">AM37</a></td><td>Autorisation d'exercice d'épithésiste pour médecin stomatologue ou chirurgie maxillo-faciale</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM38\">AM38</a></td><td>Arrêté de Nomination de Manipulateur d'Electro-Radiologie du Secteur Public</td></tr><tr><td><a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html#TRE-R54-DiplomeUniversiteInterUniversitaire-AM39\">AM39</a></td><td>Autorisation d'exercice de psychothérapeute pour médecin</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J75-TypeAutorisation-RASS/FHIR/JDV-J75-TypeAutorisation-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.143" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J75-TypeAutorisation-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AM00" ] ;
+         fhir:display [ fhir:v "Autre type d'autorisation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM01" ] ;
+         fhir:display [ fhir:v "Autorisation de plein exercice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM02" ] ;
+         fhir:display [ fhir:v "Autorisation ministérielle d'exercice en qualité de PAC" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM03" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice limité à un seul hôpital" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM04" ] ;
+         fhir:display [ fhir:v "Autorisation Propharmacie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM05" ] ;
+         fhir:display [ fhir:v "Directeur de laboratoire (scientifique, médecin, pharmacien)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM08" ] ;
+         fhir:display [ fhir:v "Pays avec convention inter-état" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM09" ] ;
+         fhir:display [ fhir:v "Code de la santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM10" ] ;
+         fhir:display [ fhir:v "Traité de Rome" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM11" ] ;
+         fhir:display [ fhir:v "Nombre par arrête (NPA art L 4111-2 1 et 1bis du CSP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM12" ] ;
+         fhir:display [ fhir:v "Loi Hôpital, patients, santé et territoires (HPST) du 21 Juillet 2009" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM13" ] ;
+         fhir:display [ fhir:v "Hôpital Américain exclusivement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM14" ] ;
+         fhir:display [ fhir:v "Arrangement France-Québec (art L 4111-3-1 CSP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM15" ] ;
+         fhir:display [ fhir:v "Article L 4131-1-1 du CSP" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM16" ] ;
+         fhir:display [ fhir:v "Arabie Saoudite décret n°2012-1123 du 03-10-2012" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM17" ] ;
+         fhir:display [ fhir:v "Emirats Arabes Unis décret n°2012-863 du 5-07-2012" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AMGP" ] ;
+         fhir:display [ fhir:v "En cours de validation au Guichet principal" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM18" ] ;
+         fhir:display [ fhir:v "Autorisation de l'Agence régionale de santé (ARS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM20" ] ;
+         fhir:display [ fhir:v "Autorisation de la Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM21" ] ;
+         fhir:display [ fhir:v "Autorisation DGARS Guadeloupe, Guyane, Martinique ou préfet SPM (art. L4131-5 et L4221-14-3)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.14" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AM22" ] ;
+         fhir:display [ fhir:v "Agrément de la Caisse Régionale d'Assurance Maladie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM23" ] ;
+         fhir:display [ fhir:v "Agrément du Ministère des anciens combattants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM24" ] ;
+         fhir:display [ fhir:v "Exerce comme technicien de laboratoire avant le 08/11/1976" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM25" ] ;
+         fhir:display [ fhir:v "Exerce comme technicien de laboratoire au 29/11/1997" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM26" ] ;
+         fhir:display [ fhir:v "Exerce comme technicien de laboratoire au 30/05/2013" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM27" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice pour diplôme de l'UE/EEE" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM28" ] ;
+         fhir:display [ fhir:v "Autorisation d'user du titre d'Ostéopathe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM29" ] ;
+         fhir:display [ fhir:v "Autorisation d'user du titre de diététicien, décision administrative en 1986" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM30" ] ;
+         fhir:display [ fhir:v "Autorisation d'user du titre de diététicien, emploi permanent en 1986" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM31" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice de psychologue diplôme étranger" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.31" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AM32" ] ;
+         fhir:display [ fhir:v "Autorisation préfectorale d'exercice de psychologue décret 90-259" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM33" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice de psychothérapeute pour médecin spécialisé psychiatrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM34" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice d'audioprothésiste pour médecin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM35" ] ;
+         fhir:display [ fhir:v "Autorisation d'user du titre de Chiropraxie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM36" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice d'épithésiste pour chirurgien-dentiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM37" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice d'épithésiste pour médecin stomatologue ou chirurgie maxillo-faciale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM38" ] ;
+         fhir:display [ fhir:v "Arrêté de Nomination de Manipulateur d'Electro-Radiologie du Secteur Public" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM39" ] ;
+         fhir:display [ fhir:v "Autorisation d'exercice de psychothérapeute pour médecin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.34" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

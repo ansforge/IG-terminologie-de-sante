@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>ANS.FR.TERMINOLOGIE\Terminologies - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+
+      <!-- CSS only -->
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+  </div>
+  <div id="ans-nav">
+    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
+  </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l'ANS)</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
+  <li>
+    <a href="namingSystem.html">namingSystem</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">NOS
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_01_PresDesNOSetSMT.html">Présentation</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_10_QuestCeQuneTRE.html">TRE (définition)</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_11_ProprietesDesTRE.html">TRE (Propriété)</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_12_CycleDeVieDesTRE.html">TRE (Cycle de vie)</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_20_QuestCeQunJDV.html">JDV (définition)</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_23_CycleDeVieDesJDV.html">JDV (Cycle de vie)</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_50_Publication.html">Publication</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_51_NommageDesNOS.html">Nommage</a>
+      </li>
+      <li>
+        <a href="NOS_MigrationNOSversSMTT0_02_LaMigration.html">Migration</a>
+      </li>
+      <li>
+        <a href="NOS_MiseEnQualite_RepriseDesLibellesDesJDV.html">Reprise des libellés</a>
+      </li>
+      <li>
+        <a href="NOS_MiseEnQualiteCorrectionDuMappingNOSversFhir.html">Mapping NOS to FHIR</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html" target="_blank">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a href="https://esante.gouv.fr/" target="_blank">Site de l'ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Terminologies</b></li>
+
+          <span style="float:right;">
+
+            <a href="NOS_MiseEnQualiteCorrectionDuMappingNOSversFhir.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="telechargement-tre.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p>  <!-- EndReleaseHeader -->
+  <h2>Terminologies</h2>
+  
+  
+  
+  <div>
+
+
+    Les terminologies sont des nomenclatures officielles créées et maintenues :
+    <br/>- soit par l'agence du numérique en santé qui en est propriétaire.
+    Par exemple, la TRE_R87-TypeCarte est une nomenclature regroupant les différents types de cartes des professionnels (CPx) fournies par l’agence du numérique en santé ;
+    <br/>- soit par une organisation externe à l'agence du numérique en santé ; dans ce cas, l'agence du numérique en santé extrait la terminologie, la formate selon ses conventions de nommage et de structure, pour l'intégrer dans ses systèmes.
+    
+    <br/>
+    <br/>
+    <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Ensemble des TRE</a></li>
+    <li><a name="l405">​</a><a href="codesystems-NOS.html">NOS</a></li>
+    <li><a name="l409">​</a><a href="codesystems-CDA.html">CDA</a></li>
+    <li><a href="telechargement-tre.html">Téléchargement</a></li>
+  </ul>
+      <p>
+       Liste des TRE
+      </p>
+      <ul class="columns-3">
+         <li><a href="CodeSystem-TRE-A00-ProducteurDocNonPS.html">TRE_A00-ProducteurDocNonPS</a></li>
+ <li><a href="CodeSystem-TRE-A01-CadreExercice.html">TRE_A01-CadreExercice</a></li>
+ <li><a href="CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html">TRE_A02-ProfessionSavFaire-CISIS</a></li>
+ <li><a href="CodeSystem-TRE-A03-ClasseDocument.html">TRE_A03-ClasseDocument</a></li>
+ <li><a href="CodeSystem-TRE-A04-Loinc.html">TRE_A04-Loinc</a></li>
+ <li><a href="CodeSystem-TRE-A05-TypeDocComplementaire.html">TRE_A05-TypeDocComplementaire</a></li>
+ <li><a href="CodeSystem-TRE-A06-FormatCodeComplementaire.html">TRE_A06-FormatCodeComplementaire</a></li>
+ <li><a href="CodeSystem-TRE-A07-StatutVisibiliteDocument.html">TRE_A07-StatutVisibiliteDocument</a></li>
+ <li><a href="CodeSystem-TRE-A08-HL7Confidentiality.html">TRE_A08-HL7Confidentiality</a></li>
+ <li><a href="CodeSystem-TRE-A09-DICOMuidRegistry.html">TRE_A09-DICOMuidRegistry</a></li>
+ <li><a href="CodeSystem-TRE-A10-NomenclatureURN.html">TRE_A10-NomenclatureURN</a></li>
+ <li><a href="CodeSystem-TRE-A11-IheFormatCode.html">TRE_A11-IheFormatCode</a></li>
+ <li><a href="CodeSystem-TRE-A12-NomenclatureASTM.html">TRE_A12-NomenclatureASTM</a></li>
+ <li><a href="CodeSystem-TRE-A13-HL7ParticipationType.html">TRE_A13-HL7ParticipationType</a></li>
+ <li><a href="CodeSystem-TRE-G00-Langue.html">TRE_G00-Langue</a></li>
+ <li><a href="CodeSystem-TRE-G01-CategorieProduit.html">TRE_G01-CategorieProduit</a></li>
+ <li><a href="CodeSystem-TRE-G02-TypeProduit.html">TRE_G02-TypeProduit</a></li>
+ <li><a href="CodeSystem-TRE-G03-CiviliteCPx.html">TRE_G03-CiviliteCPx</a></li>
+ <li><a href="CodeSystem-TRE-G04-NiveauResponsabiliteCPx.html">TRE_G04-NiveauResponsabiliteCPx</a></li>
+ <li><a href="CodeSystem-TRE-G05-SousSectionTableauCNOP.html">TRE_G05-SousSectionTableauCNOP</a></li>
+ <li><a href="CodeSystem-TRE-G07-TypeIdentifiantStructure.html">TRE_G07-TypeIdentifiantStructure</a></li>
+ <li><a href="CodeSystem-TRE-G08-TypeIdentifiantPersonne.html">TRE_G08-TypeIdentifiantPersonne</a></li>
+ <li><a href="CodeSystem-TRE-G09-DepartementOM.html">TRE_G09-DepartementOM</a></li>
+ <li><a href="CodeSystem-TRE-G100-Specialite-AM.html">TRE_G100-Specialite-AM</a></li>
+ <li><a href="CodeSystem-TRE-G11-NatureQualificationADELI.html">TRE_G11-NatureQualificationADELI</a></li>
+ <li><a href="CodeSystem-TRE-G12-SpecialiteADELI.html">TRE_G12-SpecialiteADELI</a></li>
+ <li><a href="CodeSystem-TRE-G13-OrientationParticuliere.html">TRE_G13-OrientationParticuliere</a></li>
+ <li><a href="CodeSystem-TRE-G15-ProfessionSante.html">TRE_G15-ProfessionSante</a></li>
+ <li><a href="CodeSystem-TRE-G16-ProfessionFormation.html">TRE_G16-ProfessionFormation</a></li>
+ <li><a href="CodeSystem-TRE-G17-ModeExerciceCPx.html">TRE_G17-ModeExerciceCPx</a></li>
+ <li><a href="CodeSystem-TRE-G18-AttributionParticuliereADELI.html">TRE_G18-AttributionParticuliereADELI</a></li>
+ <li><a href="CodeSystem-TRE-G19-SecteurActiviteADELI.html">TRE_G19-SecteurActiviteADELI</a></li>
+ <li><a href="CodeSystem-TRE-G20-Specialisation.html">TRE_G20-Specialisation</a></li>
+ <li><a href="CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.html">TRE_R01-EnsembleSavoirFaire-CISIS</a></li>
+ <li><a href="CodeSystem-TRE-R02-SecteurActivite.html">TRE_R02-SecteurActivite</a></li>
+ <li><a href="CodeSystem-TRE-R03-AttributionParticuliere.html">TRE_R03-AttributionParticuliere</a></li>
+ <li><a href="CodeSystem-TRE-R04-TypeSavoirFaire.html">TRE_R04-TypeSavoirFaire</a></li>
+ <li><a href="CodeSystem-TRE-R06-SectionTableauCNOP.html">TRE_R06-SectionTableauCNOP</a></li>
+ <li><a href="CodeSystem-TRE-R09-CategorieProfessionnelle.html">TRE_R09-CategorieProfessionnelle</a></li>
+ <li><a href="CodeSystem-TRE-R10-SexeAdministratif.html">TRE_R10-SexeAdministratif</a></li>
+ <li><a href="CodeSystem-TRE-R11-CiviliteExercice.html">TRE_R11-CiviliteExercice</a></li>
+ <li><a href="CodeSystem-TRE-R14-TypeDiplome.html">TRE_R14-TypeDiplome</a></li>
+ <li><a href="CodeSystem-TRE-R16-LieuFormation.html">TRE_R16-LieuFormation</a></li>
+ <li><a href="CodeSystem-TRE-R17-TypeAutorisation.html">TRE_R17-TypeAutorisation</a></li>
+ <li><a href="CodeSystem-TRE-R18-DisciplineAutorisation.html">TRE_R18-DisciplineAutorisation</a></li>
+ <li><a href="CodeSystem-TRE-R20-Pays.html">TRE_R20-Pays</a></li>
+ <li><a href="CodeSystem-TRE-R200-CanalCommunication.html">TRE_R200-CanalCommunication</a></li>
+ <li><a href="CodeSystem-TRE-R201-TypeDivisionTerritoriale.html">TRE_R201-TypeDivisionTerritoriale</a></li>
+ <li><a href="CodeSystem-TRE-R202-AccessibiliteLieu.html">TRE_R202-AccessibiliteLieu</a></li>
+ <li><a href="CodeSystem-TRE-R203-StatutLieu.html">TRE_R203-StatutLieu</a></li>
+ <li><a href="CodeSystem-TRE-R204-DirectionLongitude.html">TRE_R204-DirectionLongitude</a></li>
+ <li><a href="CodeSystem-TRE-R205-DirectionLatitude.html">TRE_R205-DirectionLatitude</a></li>
+ <li><a href="CodeSystem-TRE-R206-TypeContact.html">TRE_R206-TypeContact</a></li>
+ <li><a href="CodeSystem-TRE-R207-TypeOrganisationInterne.html">TRE_R207-TypeOrganisationInterne</a></li>
+ <li><a href="CodeSystem-TRE-R208-ClasseAge.html">TRE_R208-ClasseAge</a></li>
+ <li><a href="CodeSystem-TRE-R209-TypeActivite.html">TRE_R209-TypeActivite</a></li>
+ <li><a href="CodeSystem-TRE-R21-Fonction.html">TRE_R21-Fonction</a></li>
+ <li><a href="CodeSystem-TRE-R210-ActeSpecifique.html">TRE_R210-ActeSpecifique</a></li>
+ <li><a href="CodeSystem-TRE-R211-ActiviteOperationnelle.html">TRE_R211-ActiviteOperationnelle</a></li>
+ <li><a href="CodeSystem-TRE-R212-Equipement.html">TRE_R212-Equipement</a></li>
+ <li><a href="CodeSystem-TRE-R213-ModePriseEnCharge.html">TRE_R213-ModePriseEnCharge</a></li>
+ <li><a href="CodeSystem-TRE-R214-SpecialiteUnite.html">TRE_R214-SpecialiteUnite</a></li>
+ <li><a href="CodeSystem-TRE-R215-UniteTemps.html">TRE_R215-UniteTemps</a></li>
+ <li><a href="CodeSystem-TRE-R216-HL7RoleCode.html">TRE_R216-HL7RoleCode</a></li>
+ <li><a href="CodeSystem-TRE-R217-ProtectionJuridique.html">TRE_R217-ProtectionJuridique</a></li>
+ <li><a href="CodeSystem-TRE-R218-ModeAuthentification.html">TRE_R218-ModeAuthentification</a></li>
+ <li><a href="CodeSystem-TRE-R219-AutreResponsableConsent.html">TRE_R219-AutreResponsableConsent</a></li>
+ <li><a href="CodeSystem-TRE-R22-GenreActivite.html">TRE_R22-GenreActivite</a></li>
+ <li><a href="CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html">TRE_R220-ModeleDocumentCDAStructure</a></li>
+ <li><a href="CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.html">TRE_R221-ModeleDocumentCDANonStructure</a></li>
+ <li><a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html">TRE_R222-MediaTypeCorpsCDANonStructure</a></li>
+ <li><a href="CodeSystem-TRE-R223-NatCycleForm.html">TRE_R223-NatCycleForm</a></li>
+ <li><a href="CodeSystem-TRE-R224-NiveauFormAcquis.html">TRE_R224-NiveauFormAcquis</a></li>
+ <li><a href="CodeSystem-TRE-R225-AnneeUniversitaire.html">TRE_R225-AnneeUniversitaire</a></li>
+ <li><a href="CodeSystem-TRE-R226-Dip2iemeCycleNQ.html">TRE_R226-Dip2iemeCycleNQ</a></li>
+ <li><a href="CodeSystem-TRE-R227-ChampActivite.html">TRE_R227-ChampActivite</a></li>
+ <li><a href="CodeSystem-TRE-R228-UnitePrix.html">TRE_R228-UnitePrix</a></li>
+ <li><a href="CodeSystem-TRE-R23-ModeExercice.html">TRE_R23-ModeExercice</a></li>
+ <li><a href="CodeSystem-TRE-R230-Devise.html">TRE_R230-Devise</a></li>
+ <li><a href="CodeSystem-TRE-R231-PalierAuthentification.html">TRE_R231-PalierAuthentification</a></li>
+ <li><a href="CodeSystem-TRE-R232-TypeFermetureEJ.html">TRE_R232-TypeFermetureEJ</a></li>
+ <li><a href="CodeSystem-TRE-R233-TypeFermetureEG.html">TRE_R233-TypeFermetureEG</a></li>
+ <li><a href="CodeSystem-TRE-R234-TypeNote.html">TRE_R234-TypeNote</a></li>
+ <li><a href="CodeSystem-TRE-R236-ModeGestion.html">TRE_R236-ModeGestion</a></li>
+ <li><a href="CodeSystem-TRE-R237-GroupeTarifaireDependance.html">TRE_R237-GroupeTarifaireDependance</a></li>
+ <li><a href="CodeSystem-TRE-R238-OuvertureAnnuelle.html">TRE_R238-OuvertureAnnuelle</a></li>
+ <li><a href="CodeSystem-TRE-R239-PublicPrisEnCharge.html">TRE_R239-PublicPrisEnCharge</a></li>
+ <li><a href="CodeSystem-TRE-R24-TypeActiviteLiberale.html">TRE_R24-TypeActiviteLiberale</a></li>
+ <li><a href="CodeSystem-TRE-R240-TemporaliteAccueil.html">TRE_R240-TemporaliteAccueil</a></li>
+ <li><a href="CodeSystem-TRE-R241-AideFinanciere.html">TRE_R241-AideFinanciere</a></li>
+ <li><a href="CodeSystem-TRE-R242-TypeHabitation.html">TRE_R242-TypeHabitation</a></li>
+ <li><a href="CodeSystem-TRE-R243-CompetenceSpecifique.html">TRE_R243-CompetenceSpecifique</a></li>
+ <li><a href="CodeSystem-TRE-R244-CategorieOrganisation.html">TRE_R244-CategorieOrganisation</a></li>
+ <li><a href="CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.html">TRE_R245-SpecialisationDePriseEnCharge</a></li>
+ <li><a href="CodeSystem-TRE-R246-TypeTarif.html">TRE_R246-TypeTarif</a></li>
+ <li><a href="CodeSystem-TRE-R247-UcumUniteMesure.html">TRE_R247-UcumUniteMesure</a></li>
+ <li><a href="CodeSystem-TRE-R248-ModeAcces.html">TRE_R248_ModeAcces</a></li>
+ <li><a href="CodeSystem-TRE-R249-Sexe.html">TRE_R249-Sexe</a></li>
+ <li><a href="CodeSystem-TRE-R25-MotifFinActivite.html">TRE_R25-MotifFinActivite</a></li>
+ <li><a href="CodeSystem-TRE-R250-ConditionTarifaire.html">TRE_R250-ConditionTarifaire</a></li>
+ <li><a href="CodeSystem-TRE-R251-FonctionContact.html">TRE_R251-FonctionContact</a></li>
+ <li><a href="CodeSystem-TRE-R252-TypeHoraire.html">TRE_R252-TypeHoraire</a></li>
+ <li><a href="CodeSystem-TRE-R253-TypeMaternite.html">TRE_R253-TypeMaternite</a></li>
+ <li><a href="CodeSystem-TRE-R254-TypeEvenement.html">TRE_R254-TypeEvenement</a></li>
+ <li><a href="CodeSystem-TRE-R255-FluxStandardise.html">TRE_R255-FluxStandardise</a></li>
+ <li><a href="CodeSystem-TRE-R256-TypeMessagerie.html">TRE_R256-TypeMessagerie</a></li>
+ <li><a href="CodeSystem-TRE-R257-TypeBAL.html">TRE_R257-TypeBAL</a></li>
+ <li><a href="CodeSystem-TRE-R258-RelationPriseCharge.html">TRE_R258-RelationPriseCharge</a></li>
+ <li><a href="CodeSystem-TRE-R259-HL7ParticipationFunction.html">TRE_R259-HL7ParticipationFunction</a></li>
+ <li><a href="CodeSystem-TRE-R260-HL7RoleClass.html">TRE_R260-HL7RoleClass</a></li>
+ <li><a href="CodeSystem-TRE-R261-AutreSalarieStructureSante.html">TRE_R261-AutreSalarieStructureSante</a></li>
+ <li><a href="CodeSystem-TRE-R262-CategorieSocioProfessionnelle.html">TRE_R262-CategorieSocioProfessionnelle</a></li>
+ <li><a href="CodeSystem-TRE-R263-TypeNumeroIdentification.html">TRE_R263-TypeNumeroIdentification</a></li>
+ <li><a href="CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.html">TRE_R264-PrestationNonObligatoireIncluse</a></li>
+ <li><a href="CodeSystem-TRE-R265-PrestationPilotageSerafin.html">TRE_R265-PrestationPilotageSerafin</a></li>
+ <li><a href="CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.html">TRE_R266-FamilleActiviteOperationnelleHorsSerafin</a></li>
+ <li><a href="CodeSystem-TRE-R267-SexeProvenanceISO.html">TRE_R267-SexeProvenanceISO</a></li>
+ <li><a href="CodeSystem-TRE-R268-PaysProvenanceISO.html">TRE_R268-PaysProvenanceISO</a></li>
+ <li><a href="CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html">TRE_R269-AvailabilityStatusProvenanceOasis</a></li>
+ <li><a href="CodeSystem-TRE-R270-AvailabilityStatus.html">TRE_R270-AvailabilityStatus</a></li>
+ <li><a href="CodeSystem-TRE-R271-TypeRequete.html">TRE_R271-TypeRequete</a></li>
+ <li><a href="CodeSystem-TRE-R272-EquipementMaterielLourd.html">TRE_R272-EquipementMaterielLourd</a></li>
+ <li><a href="CodeSystem-TRE-R274-ActiviteSanitaireRegulee.html">TRE_R274-ActiviteSanitaireRegulee</a></li>
+ <li><a href="CodeSystem-TRE-R275-ModaliteActivite.html">TRE_R275-ModaliteActivite</a></li>
+ <li><a href="CodeSystem-TRE-R276-FormeActivite.html">TRE_R276-FormeActivite</a></li>
+ <li><a href="CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.html">TRE_R277-CategorieActiviteSanitaireRegulee</a></li>
+ <li><a href="CodeSystem-TRE-R278-FinessConvention.html">TRE_R278-FinessConvention</a></li>
+ <li><a href="CodeSystem-TRE-R279-Clientele.html">TRE_R279-Clientele</a></li>
+ <li><a href="CodeSystem-TRE-R280-DisciplineEquipementSocial.html">TRE_R280-DisciplineEquipementSocial</a></li>
+ <li><a href="CodeSystem-TRE-R281-DisciplineEnseignement.html">TRE_R281-DisciplineEnseignement</a></li>
+ <li><a href="CodeSystem-TRE-R282-CNAMAmeliSecteurConventionnement.html">TRE_R282-CNAMAmeliSecteurConventionnement</a></li>
+ <li><a href="CodeSystem-TRE-R283-NiveauConfidentialite.html">TRE_R283-NiveauConfidentialite</a></li>
+ <li><a href="CodeSystem-TRE-R284-NiveauRecoursORSAN.html">TRE_R284-NiveauRecoursORSAN</a></li>
+ <li><a href="CodeSystem-TRE-R285-TraitementDocument.html">TRE_R285-TraitementDocument</a></li>
+ <li><a href="CodeSystem-TRE-R286-TypeFermeture.html">TRE_R286-TypeFermeture</a></li>
+ <li><a href="CodeSystem-TRE-R287-NatureContact.html">TRE_R287-NatureContact</a></li>
+ <li><a href="CodeSystem-TRE-R288-TypeProfession.html">TRE_R288-TypeProfession</a></li>
+ <li><a href="CodeSystem-TRE-R289-TypeFonction.html">TRE_R289-TypeFonction</a></li>
+ <li><a href="CodeSystem-TRE-R290-RoleAdmTechSanitaireSocial.html">TRE_R290-RoleAdmTechSanitaireSocial</a></li>
+ <li><a href="CodeSystem-TRE-R291-AutreProfession.html">TRE_R291-AutreProfession</a></li>
+ <li><a href="CodeSystem-TRE-R292-INSEECategorieSocioProfessionnelleAgrNiv1.html">TRE_R292-INSEECategorieSocioProfessionnelleAgrNiv1</a></li>
+ <li><a href="CodeSystem-TRE-R293-AgregatClienteleNiv2.html">TRE_R293-AgregatClienteleNiv2</a></li>
+ <li><a href="CodeSystem-TRE-R294-AgregatClienteleNiv3.html">TRE_R294-AgregatClienteleNiv3</a></li>
+ <li><a href="CodeSystem-TRE-R295-AgregatDisciplineEnseignNiv1.html">TRE_R295-AgregatDisciplineEnseignNiv1</a></li>
+ <li><a href="CodeSystem-TRE-R296-AgregatDisciplineEnseignNiv2.html">TRE_R296-AgregatDisciplineEnseignNiv2</a></li>
+ <li><a href="CodeSystem-TRE-R297-AgregatDisciplineEnseignNiv3.html">TRE_R297-AgregatDisciplineEnseignNiv3</a></li>
+ <li><a href="CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.html">TRE_R298-AgregatDisciplineEquipSocNiv1</a></li>
+ <li><a href="CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.html">TRE_R299-AgregatDisciplineEquipSocNiv2</a></li>
+ <li><a href="CodeSystem-TRE-R30-RegionOM.html">TRE_R30-RegionOM</a></li>
+ <li><a href="CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.html">TRE_R300-AgregatDisciplineEquipSocNiv3</a></li>
+ <li><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html">TRE_R301-SourceInformationInstallation</a></li>
+ <li><a href="CodeSystem-TRE-R302-ContexteCodeComplementaire.html">TRE_R302-ContexteCodeComplementaire</a></li>
+ <li><a href="CodeSystem-TRE-R303-HL7v3AdministrativeGender.html">TRE_R303-HL7v3AdministrativeGender</a></li>
+ <li><a href="CodeSystem-TRE-R304-HL7v3ActCode.html">TRE_R304-HL7v3ActCode</a></li>
+ <li><a href="CodeSystem-TRE-R305-TypeRencontre.html">TRE_R305-TypeRencontre</a></li>
+ <li><a href="CodeSystem-TRE-R306-CLADIMED.html">TRE_R306-CLADIMED</a></li>
+ <li><a href="CodeSystem-TRE-R307-NCIT.html">TRE_R307-NCIT</a></li>
+ <li><a href="CodeSystem-TRE-R308-TAASIP.html">TRE_R308-TAASIP</a></li>
+ <li><a href="CodeSystem-TRE-R309-FMA.html">TRE_R309-FMA</a></li>
+ <li><a href="CodeSystem-TRE-R31-StatutEtatCivil.html">TRE_R31-StatutEtatCivil</a></li>
+ <li><a href="CodeSystem-TRE-R310-CIM10ATIH.html">TRE_R310-CIM10ATIH</a></li>
+ <li><a href="CodeSystem-TRE-R311-RegroupementSurCIM10ATIH.html">TRE_R311-RegroupementSurCIM10ATIH</a></li>
+ <li><a href="CodeSystem-TRE-R312-LPP.html">TRE_R312-LPP</a></li>
+ <li><a href="CodeSystem-TRE-R313-CISP2.html">TRE_R313-CISP2</a></li>
+ <li><a href="CodeSystem-TRE-R314-TypeCreneau.html">TRE_R314-TypeCreneau</a></li>
+ <li><a href="CodeSystem-TRE-R316-AutreCategorieEtablissement.html">TRE_R316-AutreCategorieEtablissement</a></li>
+ <li><a href="CodeSystem-TRE-R317-SituationVieQuotidienne.html">TRE_R317-SituationVieQuotidienne</a></li>
+ <li><a href="CodeSystem-TRE-R318-BesoinAideMobilite.html">TRE_R318-BesoinAideMobilite</a></li>
+ <li><a href="CodeSystem-TRE-R319-BesoinAideVieSociale.html">TRE_R319-BesoinAideVieSociale</a></li>
+ <li><a href="CodeSystem-TRE-R32-StatutHospitalier.html">TRE_R32-StatutHospitalier</a></li>
+ <li><a href="CodeSystem-TRE-R320-BesoinCommunication.html">TRE_R320-BesoinCommunication</a></li>
+ <li><a href="CodeSystem-TRE-R321-BesoinEntretienPersonnel.html">TRE_R321-BesoinEntretienPersonnel</a></li>
+ <li><a href="CodeSystem-TRE-R322-BesoinMobilite.html">TRE_R322-BesoinMobilite</a></li>
+ <li><a href="CodeSystem-TRE-R323-BesoinScolarite.html">TRE_R323-BesoinScolarite</a></li>
+ <li><a href="CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.html">TRE_R324-BesoinSoutienProjetProfessionnel</a></li>
+ <li><a href="CodeSystem-TRE-R325-SituationProfessionnelle.html">TRE_R325-SituationProfessionnelle</a></li>
+ <li><a href="CodeSystem-TRE-R326-SituationSansEmploi.html">TRE_R326-SituationSansEmploi</a></li>
+ <li><a href="CodeSystem-TRE-R327-TypeDecision.html">TRE_R327-TypeDecision</a></li>
+ <li><a href="CodeSystem-TRE-R328-TypeScolarisation.html">TRE_R328-TypeScolarisation</a></li>
+ <li><a href="CodeSystem-TRE-R329-NatureCapacite.html">TRE_R329-NatureCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R33-StatutInscription.html">TRE_R33-StatutInscription</a></li>
+ <li><a href="CodeSystem-TRE-R330-TypeStatutCapacite.html">TRE_R330-TypeStatutCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R331-TemporaliteCapacite.html">TRE_R331-TemporaliteCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R332-GenreCapacite.html">TRE_R332-GenreCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R333-TypeFermetureCapacite.html">TRE_R333-TypeFermetureCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R334-TypeLitSupplementaire.html">TRE_R334-TypeLitSupplementaire</a></li>
+ <li><a href="CodeSystem-TRE-R335-TypeSourceCapacite.html">TRE_R335-TypeSourceCapacite</a></li>
+ <li><a href="CodeSystem-TRE-R336-TypeCrise.html">TRE_R336-TypeCrise</a></li>
+ <li><a href="CodeSystem-TRE-R337-AffectationTemporaire.html">TRE_R337-AffectationTemporaire</a></li>
+ <li><a href="CodeSystem-TRE-R338-ModaliteAccueil.html">TRE_R338-ModaliteAccueil</a></li>
+ <li><a href="CodeSystem-TRE-R34-StatutProfessionnelSSA.html">TRE_R34-StatutProfessionnelSSA</a></li>
+ <li><a href="CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.html">TRE_R340-TypeCaracteristiqueEquipement</a></li>
+ <li><a href="CodeSystem-TRE-R341-StatutCommunication.html">TRE_R341-StatutCommunication</a></li>
+ <li><a href="CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.html">TRE_R342-XdsTypesIdentifiantsReferenceId</a></li>
+ <li><a href="CodeSystem-TRE-R343-FonctionLieu.html">TRE_R343-FonctionLieu</a></li>
+ <li><a href="CodeSystem-TRE-R344-NiveauExpertise.html">TRE_R344-NiveauExpertise</a></li>
+ <li><a href="CodeSystem-TRE-R345-TypeIdentifiantAutre.html">TRE_R345-TypeIdentifiantAutre</a></li>
+ <li><a href="CodeSystem-TRE-R348-FormationSpecialiseeTransversale.html">TRE_R348-FormationSpecialiseeTransversale</a></li>
+ <li><a href="CodeSystem-TRE-R349-ActionAnomalie.html">TRE_R349-ActionAnomalie</a></li>
+ <li><a href="CodeSystem-TRE-R35-TypeVoie.html">TRE_R35-TypeVoie</a></li>
+ <li><a href="CodeSystem-TRE-R350-ThematiqueAnomalie.html">TRE_R350-ThematiqueAnomalie</a></li>
+ <li><a href="CodeSystem-TRE-R352-StatutMetierAnomalie.html">TRE_R352-StatutMetierAnomalie</a></li>
+ <li><a href="CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.html">TRE_R354-TypeIdentifiantRessourceOperationnelle</a></li>
+ <li><a href="CodeSystem-TRE-R355-TypeIdentifiantOffre.html">TRE_R355-TypeIdentifiantOffre</a></li>
+ <li><a href="CodeSystem-TRE-R356-ProfessionRessource.html">TRE_R356-ProfessionRessource</a></li>
+ <li><a href="CodeSystem-TRE-R357-StatutPersonnePriseCharge.html">TRE_R357-StatutPersonnePriseCharge</a></li>
+ <li><a href="CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.html">TRE_R358-MotifStatutPersonnePriseCharge</a></li>
+ <li><a href="CodeSystem-TRE-R359-SurspecialiteTransversale.html">TRE_R359-SurspecialiteTransversale</a></li>
+ <li><a href="CodeSystem-TRE-R36-AutreDiplomeObtenu.html">TRE_R36-AutreDiplomeObtenu</a></li>
+ <li><a href="CodeSystem-TRE-R37-TypeProfessionFonction.html">TRE_R37-TypeProfessionFonction</a></li>
+ <li><a href="CodeSystem-TRE-R38-SpecialiteOrdinale.html">TRE_R38-SpecialiteOrdinale</a></li>
+ <li><a href="CodeSystem-TRE-R39-Competence.html">TRE_R39-Competence</a></li>
+ <li><a href="CodeSystem-TRE-R40-CompetenceExclusive.html">TRE_R40-CompetenceExclusive</a></li>
+ <li><a href="CodeSystem-TRE-R42-DESCnonQualifiant.html">TRE_R42-DESCnonQualifiant</a></li>
+ <li><a href="CodeSystem-TRE-R43-CapaciteSavoirFaire.html">TRE_R43-CapaciteSavoirFaire</a></li>
+ <li><a href="CodeSystem-TRE-R44-QualificationPAC.html">TRE_R44-QualificationPAC</a></li>
+ <li><a href="CodeSystem-TRE-R45-FonctionQualifiee.html">TRE_R45-FonctionQualifiee</a></li>
+ <li><a href="CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.html">TRE_R46-SpecialiteConcoursHospitalier</a></li>
+ <li><a href="CodeSystem-TRE-R48-DiplomeEtatFrancais.html">TRE_R48-DiplomeEtatFrancais</a></li>
+ <li><a href="CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.html">TRE_R49-DiplomeEtudeSpecialisee</a></li>
+ <li><a href="CodeSystem-TRE-R50-DESCGroupe1Diplome.html">TRE_R50-DESCGroupe1Diplome</a></li>
+ <li><a href="CodeSystem-TRE-R51-DESCGroupe2Diplome.html">TRE_R51-DESCGroupe2Diplome</a></li>
+ <li><a href="CodeSystem-TRE-R52-CapaciteDiplome.html">TRE_R52-CapaciteDiplome</a></li>
+ <li><a href="CodeSystem-TRE-R53-DiplomePaysEEE.html">TRE_R53-DiplomePaysEEE</a></li>
+ <li><a href="CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html">TRE_R54-DiplomeUniversiteInterUniversitaire</a></li>
+ <li><a href="CodeSystem-TRE-R55-CertificatEtudeSpeciale.html">TRE_R55-CertificatEtudeSpeciale</a></li>
+ <li><a href="CodeSystem-TRE-R56-Attestation.html">TRE_R56-Attestation</a></li>
+ <li><a href="CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.html">TRE_R57-DiplomeEuropeenEtudeSpecialisee</a></li>
+ <li><a href="CodeSystem-TRE-R58-AutreTypeDiplome.html">TRE_R58-AutreTypeDiplome</a></li>
+ <li><a href="CodeSystem-TRE-R60-AutoriteEnregistrement.html">TRE_R60-AutoriteEnregistrement</a></li>
+ <li><a href="CodeSystem-TRE-R62-Domaine.html">TRE_R62-Domaine</a></li>
+ <li><a href="CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.html">TRE_R63-AgregatCategorieEtablissementNiv1</a></li>
+ <li><a href="CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.html">TRE_R64-AgregatCategorieEtablissementNiv2</a></li>
+ <li><a href="CodeSystem-TRE-R65-AgregatCategorieEtablissement.html">TRE_R65-AgregatCategorieEtablissement</a></li>
+ <li><a href="CodeSystem-TRE-R66-CategorieEtablissement.html">TRE_R66-CategorieEtablissement</a></li>
+ <li><a href="CodeSystem-TRE-R67-TypeStructure-EJ-EG.html">TRE_R67-TypeStructure-EJ-EG</a></li>
+ <li><a href="CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.html">TRE_R68-FinessAgregatStatutJuridiqueNiv1</a></li>
+ <li><a href="CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.html">TRE_R69-FinessAgregatStatutJuridiqueNiv2</a></li>
+ <li><a href="CodeSystem-TRE-R70-FinessAgregatStatutJuridique.html">TRE_R70-FinessAgregatStatutJuridique</a></li>
+ <li><a href="CodeSystem-TRE-R72-FinessStatutJuridique.html">TRE_R72-FinessStatutJuridique</a></li>
+ <li><a href="CodeSystem-TRE-R73-ESPIC.html">TRE_R73-ESPIC</a></li>
+ <li><a href="CodeSystem-TRE-R74-ModeFixationTarifaire.html">TRE_R74-ModeFixationTarifaire</a></li>
+ <li><a href="CodeSystem-TRE-R75-InseeNAFrev2Niveau5.html">TRE_R75-InseeNAFrev2Niveau5</a></li>
+ <li><a href="CodeSystem-TRE-R78-ProfilAccesReferentiel.html">TRE_R78-ProfilAccesReferentiel</a></li>
+ <li><a href="CodeSystem-TRE-R81-Civilite.html">TRE_R81-Civilite</a></li>
+ <li><a href="CodeSystem-TRE-R82-Ordre.html">TRE_R82-Ordre</a></li>
+ <li><a href="CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.html">TRE_R84-ProfilAccesAnnuaire-MSSante</a></li>
+ <li><a href="CodeSystem-TRE-R85-RolePriseCharge.html">TRE_R85-RolePriseCharge</a></li>
+ <li><a href="CodeSystem-TRE-R86-ProfilVIHF.html">TRE_R86-ProfilVIHF</a></li>
+ <li><a href="CodeSystem-TRE-R87-TypeCarte.html">TRE_R87-TypeCarte</a></li>
+ <li><a href="CodeSystem-TRE-R88-TerritoireSante.html">TRE_R88-TerritoireSante</a></li>
+ <li><a href="CodeSystem-TRE-R89-RegroupementPays.html">TRE_R89-RegroupementPays</a></li>
+ <li><a href="CodeSystem-TRE-R90-TypeAE.html">TRE_R90-TypeAE</a></li>
+ <li><a href="CodeSystem-TRE-R94-ProfessionSocial.html">TRE_R94-ProfessionSocial</a></li>
+ <li><a href="CodeSystem-TRE-R95-UsagerTitre.html">TRE_R95-UsagerTitre</a></li>
+ <li><a href="CodeSystem-TRE-R96-AutreFonctionSanitaire.html">TRE_R96-AutreFonctionSanitaire</a></li>
+ <li><a href="CodeSystem-TRE-R97-DroitExerciceCompl.html">TRE_R97-DroitExerciceCompl</a></li>
+
+      </ul>    
+  </div>
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+		$( "#Adownload" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#download" ).css("display", "");
+
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#Adownload" ).addClass("active");	
+
+		} );
+	} );
+</script>    
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&nbsp;
+
+                <a href="NOS_MiseEnQualiteCorrectionDuMappingNOSversFhir.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&nbsp;
+
+                <a href="telechargement-tre.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 1, 2023 16:06+0000">2023-11-01</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: #81BEF7" href="https://interop.esante.gouv.fr/ig/terminologie/history.html" target="_blank">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-NOS/issues/new" target="_blank">New Issue</a>
+                
+
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+
+    <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+    <script src="assets/js/addNos.js" type="text/javascript"> </script>
+    <!-- Fin ajout ANS -->
+
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+
+
+    <!-- AJOUT ANS -->
+
+<footer role="contentinfo" class="footer footer-principal">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a rel="nofollow" href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" loading="lazy" height="77"/>
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a rel="nofollow" href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" loading="lazy" height="74"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+            <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg aria-hidden="true" focusable="false" class="svg-icon svg-angle-right"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+                <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li> -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+      <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>

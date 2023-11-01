@@ -1,0 +1,602 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R348-FormationSpecialiseeTransversale> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R348-FormationSpecialiseeTransversale"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style=\"white-space:nowrap\">FST01<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST01\"> </a></td><td>FST Addictologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST02<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST02\"> </a></td><td>FST Bio-informatique médicale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST03<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST03\"> </a></td><td>FST Cancérologie déc. hémato-cancéro pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST04<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST04\"> </a></td><td>FST Cancérologie traitements médicaux des cancers</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST05<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST05\"> </a></td><td>FST Cardiologie pédiatrique et congénitale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST06<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST06\"> </a></td><td>FST Chirurgie de la main</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST07<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST07\"> </a></td><td>FST Chirurgie situation de guerre ou catastrophe</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST08<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST08\"> </a></td><td>FST Chirurgie orbito-palpébro-lacrymale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST09<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST09\"> </a></td><td>FST Douleur</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST10<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST10\"> </a></td><td>FST Expertise médicale-préjudice corporel</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST11<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST11\"> </a></td><td>FST Foetopathologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST12<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST12\"> </a></td><td>FST Génétique et médecine moléculaire bioclinique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST13<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST13\"> </a></td><td>FST Hématologie bioclinique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST14<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST14\"> </a></td><td>FST Hygiène-prévention de l'infection, résistances</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST15<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST15\"> </a></td><td>FST Maladies allergiques</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST16<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST16\"> </a></td><td>FST Médecine hospitalière polyvalente</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST17<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST17\"> </a></td><td>FST Médecine palliative</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST18<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST18\"> </a></td><td>FST Médecine scolaire</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST19<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST19\"> </a></td><td>FST Médecine en situation de guerre ou en SSE</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST20<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST20\"> </a></td><td>FST Médecine et biologie reproduction-andrologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST21<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST21\"> </a></td><td>FST Médecine du sport</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST22<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST22\"> </a></td><td>FST Nutrition appliquée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST23<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST23\"> </a></td><td>FST Pharmacologie médicale/ thérapeutique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST24<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST24\"> </a></td><td>FST Sommeil</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST25<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST25\"> </a></td><td>FST Thérapie cellulaire/ transfusion</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">FST26<a name=\"TRE-R348-FormationSpecialiseeTransversale-FST26\"> </a></td><td>FST Urgences pédiatriques</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.251" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R348-FormationSpecialiseeTransversale"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Formation Spécialisée Transversale (FST)"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "FST01" ] ;
+     fhir:display [ fhir:v "FST Addictologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Addictologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Addictologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST02" ] ;
+     fhir:display [ fhir:v "FST Bio-informatique médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Bio-info médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Bio-informatique médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST03" ] ;
+     fhir:display [ fhir:v "FST Cancérologie déc. hémato-cancéro pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Cancéro hém-canc péd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST cancérologie déclinaison hémato-cancérologie pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST04" ] ;
+     fhir:display [ fhir:v "FST Cancérologie traitements médicaux des cancers" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Cancéro tts médicaux" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Cancérologie traitements médicaux des cancers" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST05" ] ;
+     fhir:display [ fhir:v "FST Cardiologie pédiatrique et congénitale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Cardio pédiatr congénitale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Cardiologie pédiatrique et congénitale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST06" ] ;
+     fhir:display [ fhir:v "FST Chirurgie de la main" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chirurgie de la main" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chirurgie de la main" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST07" ] ;
+     fhir:display [ fhir:v "FST Chirurgie situation de guerre ou catastrophe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chir guerre catastr" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chirurgie en situation de guerre ou de catastrophe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST08" ] ;
+     fhir:display [ fhir:v "FST Chirurgie orbito-palpébro-lacrymale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chir orb-palp-lacry" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Chirurgie orbito-palpébro-lacrymale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST09" ] ;
+     fhir:display [ fhir:v "FST Douleur" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Douleur" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Douleur" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST10" ] ;
+     fhir:display [ fhir:v "FST Expertise médicale-préjudice corporel" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Exp méd-préjud corp" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Expertise médicale-préjudice corporel" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST11" ] ;
+     fhir:display [ fhir:v "FST Foetopathologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Foetopathologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Foetopathologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST12" ] ;
+     fhir:display [ fhir:v "FST Génétique et médecine moléculaire bioclinique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Gén méd mol biocl" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Génétique et médecine moléculaire bioclinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST13" ] ;
+     fhir:display [ fhir:v "FST Hématologie bioclinique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Hémato bioclinique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Hématologie bioclinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST14" ] ;
+     fhir:display [ fhir:v "FST Hygiène-prévention de l'infection, résistances" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Hyg-prév inf résist" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Hygiène-prévention de l'infection, résistances" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST15" ] ;
+     fhir:display [ fhir:v "FST Maladies allergiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Maladies allergiques" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Maladies allergiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST16" ] ;
+     fhir:display [ fhir:v "FST Médecine hospitalière polyvalente" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Méd hospit poly" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine hospitalière polyvalente" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST17" ] ;
+     fhir:display [ fhir:v "FST Médecine palliative" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine palliative" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine palliative" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST18" ] ;
+     fhir:display [ fhir:v "FST Médecine scolaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine scolaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine scolaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST19" ] ;
+     fhir:display [ fhir:v "FST Médecine en situation de guerre ou en SSE" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Méd de guerre ou SSE" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST médecine en situation de guerre ou en situations sanitaires exceptionnelles (SSE)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST20" ] ;
+     fhir:display [ fhir:v "FST Médecine et biologie reproduction-andrologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Méd bio repro-andro" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST médecine et biologie de la reproduction-andrologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST21" ] ;
+     fhir:display [ fhir:v "FST Médecine du sport" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine du sport" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Médecine du sport" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST22" ] ;
+     fhir:display [ fhir:v "FST Nutrition appliquée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Nutrition appliquée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Nutrition appliquée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST23" ] ;
+     fhir:display [ fhir:v "FST Pharmacologie médicale/ thérapeutique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Pharmaco méd/thérap" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Pharmacologie médicale/ thérapeutique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST24" ] ;
+     fhir:display [ fhir:v "FST Sommeil" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Sommeil" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Sommeil" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST25" ] ;
+     fhir:display [ fhir:v "FST Thérapie cellulaire/ transfusion" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Thérap cell/transf" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Thérapie cellulaire/ transfusion" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FST26" ] ;
+     fhir:display [ fhir:v "FST Urgences pédiatriques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "FST Urgences pédia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "FST Urgences pédiatriques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,92 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J28-OuvertureAnnuelle-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J28-OuvertureAnnuelle-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R238-OuvertureAnnuelle/FHIR/TRE-R238-OuvertureAnnuelle</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html#TRE-R238-OuvertureAnnuelle-01\">01</a></td><td>Semaine hors week-end jusqu'à 210 jours par an</td></tr><tr><td><a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html#TRE-R238-OuvertureAnnuelle-02\">02</a></td><td>Semaine et week-end (de 211 à 364 jours par an)</td></tr><tr><td><a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html#TRE-R238-OuvertureAnnuelle-03\">03</a></td><td>Année complète (365 jours par an)</td></tr><tr><td><a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html#TRE-R238-OuvertureAnnuelle-04\">04</a></td><td>Semaine hors week-end à partir de 210 jours</td></tr><tr><td><a href=\"CodeSystem-TRE-R238-OuvertureAnnuelle.html#TRE-R238-OuvertureAnnuelle-05\">05</a></td><td>Week-end et vacances scolaires uniquement</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J28-OuvertureAnnuelle-ROR/FHIR/JDV-J28-OuvertureAnnuelle-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.28" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J28-OuvertureAnnuelle-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Ouverture annuelle - ROR"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R238-OuvertureAnnuelle/FHIR/TRE-R238-OuvertureAnnuelle"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Semaine hors week-end jusqu'à 210 jours par an" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.27" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "02" ] ;
+         fhir:display [ fhir:v "Semaine et week-end (de 211 à 364 jours par an)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.27" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "03" ] ;
+         fhir:display [ fhir:v "Année complète (365 jours par an)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.27" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Semaine hors week-end à partir de 210 jours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.27" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "05" ] ;
+         fhir:display [ fhir:v "Week-end et vacances scolaires uniquement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.27" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

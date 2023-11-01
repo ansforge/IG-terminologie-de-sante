@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J157-MomentGlucose-ENS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J157-MomentGlucose-ENS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A04-Loinc.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-16915-1\">16915-1</a></td><td>Glucose post prandial</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-53049-3\">53049-3</a></td><td>Glucose à jeun</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-88365-2\">88365-2</a></td><td>Glucose avant repas</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-LA11865-5\">LA11865-5</a></td><td>Après exercice</td></tr><tr><td><a href=\"CodeSystem-TRE-A04-Loinc.html#TRE-A04-Loinc-LA46-8\">LA46-8</a></td><td>Autre</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R313-CISP2.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R313-CISP2.html#TRE-R313-CISP2-A05\">A05</a></td><td>Lors d'un malaise</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-04-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.612" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J157-MomentGlucose-ENS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "JDV pour caractériser le moment de la mesure de glucose"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "16915-1" ] ;
+         fhir:display [ fhir:v "Glucose post prandial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53049-3" ] ;
+         fhir:display [ fhir:v "Glucose à jeun" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "88365-2" ] ;
+         fhir:display [ fhir:v "Glucose avant repas" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "LA11865-5" ] ;
+         fhir:display [ fhir:v "Après exercice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "LA46-8" ] ;
+         fhir:display [ fhir:v "Autre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.1" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R313-CISP2/FHIR/TRE-R313-CISP2"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "A05" ] ;
+         fhir:display [ fhir:v "Lors d'un malaise" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.139" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J52-AvailabilityStatus-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J52-AvailabilityStatus-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html#TRE-R269-AvailabilityStatusProvenanceOasis-urn.58oasis.58names.58tc.58ebxml-regrep.58StatusType.58Approved\">urn:oasis:names:tc:ebxml-regrep:StatusType:Approved</a></td><td>Version à jour</td></tr><tr><td><a href=\"CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html#TRE-R269-AvailabilityStatusProvenanceOasis-urn.58oasis.58names.58tc.58ebxml-regrep.58StatusType.58Deprecated\">urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated</a></td><td>Version obsolète</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R270-AvailabilityStatus.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R270-AvailabilityStatus.html#TRE-R270-AvailabilityStatus-urn.58asip.58ci-sis.582010.58StatusType.58Archived\">urn:asip:ci-sis:2010:StatusType:Archived</a></td><td>Version archivée et à jour</td></tr><tr><td><a href=\"CodeSystem-TRE-R270-AvailabilityStatus.html#TRE-R270-AvailabilityStatus-urn.58asip.58ci-sis.582010.58StatusType.58Deleted\">urn:asip:ci-sis:2010:StatusType:Deleted</a></td><td>Version dépubliée</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2018-06-29T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J52-AvailabilityStatus-CISIS/FHIR/JDV-J52-AvailabilityStatus-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.131" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J52-AvailabilityStatus-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Statut du document CI-SIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" ] ;
+         fhir:display [ fhir:v "Version à jour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.341" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated" ] ;
+         fhir:display [ fhir:v "Version obsolète" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.341" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:asip:ci-sis:2010:StatusType:Archived" ] ;
+         fhir:display [ fhir:v "Version archivée et à jour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.342" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:2010:StatusType:Deleted" ] ;
+         fhir:display [ fhir:v "Version dépubliée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.342" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

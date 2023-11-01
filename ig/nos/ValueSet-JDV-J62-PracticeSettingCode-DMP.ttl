@@ -1,0 +1,149 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J62-PracticeSettingCode-DMP> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J62-PracticeSettingCode-DMP"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT\">EXP_PATIENT</a></td><td>Expression personnelle du patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SNR\">SNR</a></td><td>Service numérique référencé</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A01-CadreExercice.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-AMBULATOIRE\">AMBULATOIRE</a></td><td>Ambulatoire</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-AMO\">AMO</a></td><td>Organisme d'assurance maladie obligatoire</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-DEPISTAGE\">DEPISTAGE</a></td><td>Dépistage</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-ETABLISSEMENT\">ETABLISSEMENT</a></td><td>Etablissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-HAD\">HAD</a></td><td>Hospitalisation à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-MAD\">MAD</a></td><td>Maintien à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-PALLIATIF\">PALLIATIF</a></td><td>Soins palliatifs</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-SAD\">SAD</a></td><td>Soins à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-A01-CadreExercice.html#TRE-A01-CadreExercice-SAMU_SMUR\">SAMU_SMUR</a></td><td>SAMU/SMUR</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-01-18T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J62-PracticeSettingCode-DMP/FHIR/JDV-J62-PracticeSettingCode-DMP"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.4" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J62-PracticeSettingCode-DMP"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeu de valeurs pour practiceSettingCode"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "EXP_PATIENT" ] ;
+         fhir:display [ fhir:v "Expression personnelle du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SNR" ] ;
+         fhir:display [ fhir:v "Service numérique référencé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AMBULATOIRE" ] ;
+         fhir:display [ fhir:v "Ambulatoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AMO" ] ;
+         fhir:display [ fhir:v "Organisme d'assurance maladie obligatoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DEPISTAGE" ] ;
+         fhir:display [ fhir:v "Dépistage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ETABLISSEMENT" ] ;
+         fhir:display [ fhir:v "Etablissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HAD" ] ;
+         fhir:display [ fhir:v "Hospitalisation à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "MAD" ] ;
+         fhir:display [ fhir:v "Maintien à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "PALLIATIF" ] ;
+         fhir:display [ fhir:v "Soins palliatifs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SAD" ] ;
+         fhir:display [ fhir:v "Soins à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SAMU_SMUR" ] ;
+         fhir:display [ fhir:v "SAMU/SMUR" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.9" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

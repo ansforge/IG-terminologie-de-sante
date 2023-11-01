@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J207-Civilite-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R81-Civilite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R81-Civilite.html#TRE-R81-Civilite-M\">M</a></td><td>Monsieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R81-Civilite.html#TRE-R81-Civilite-MLLE\">MLLE</a></td><td>Mademoiselle</td></tr><tr><td><a href=\"CodeSystem-TRE-R81-Civilite.html#TRE-R81-Civilite-MME\">MME</a></td><td>Madame</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J207-Civilite-ROR/FHIR/JDV-J207-Civilite-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.4.39"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J207-Civilite-ROR",
+  "status" : "active",
+  "date" : "2022-08-26T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Civilité",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.69"
+        }]
+      },
+      {
+        "code" : "MLLE",
+        "display" : "Mademoiselle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.69"
+        }]
+      },
+      {
+        "code" : "MME",
+        "display" : "Madame",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.69"
+        }]
+      }]
+    }]
+  }
+}

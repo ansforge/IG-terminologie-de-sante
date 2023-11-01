@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J203-TypeOrganisationInterne-ROR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R207-TypeOrganisationInterne.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R207-TypeOrganisationInterne/FHIR/TRE-R207-TypeOrganisationInterne</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R207-TypeOrganisationInterne.html#TRE-R207-TypeOrganisationInterne-1\">1</a></td><td>Pôle</td></tr><tr><td><a href=\"CodeSystem-TRE-R207-TypeOrganisationInterne.html#TRE-R207-TypeOrganisationInterne-2\">2</a></td><td>Structure interne ou Service</td></tr><tr><td><a href=\"CodeSystem-TRE-R207-TypeOrganisationInterne.html#TRE-R207-TypeOrganisationInterne-3\">3</a></td><td>Unité fonctionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R207-TypeOrganisationInterne.html#TRE-R207-TypeOrganisationInterne-4\">4</a></td><td>Unité élémentaire</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R67-TypeStructure-EJ-EG.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R67-TypeStructure-EJ-EG/FHIR/TRE-R67-TypeStructure-EJ-EG</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R67-TypeStructure-EJ-EG.html#TRE-R67-TypeStructure-EJ-EG-EJ\">EJ</a></td><td>Entité juridique</td></tr><tr><td><a href=\"CodeSystem-TRE-R67-TypeStructure-EJ-EG.html#TRE-R67-TypeStructure-EJ-EG-EG\">EG</a></td><td>Etablissement géographique</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J203-TypeOrganisationInterne-ROR/FHIR/JDV-J203-TypeOrganisationInterne-ROR",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.3.4.35"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J203-TypeOrganisationInterne-ROR",
+  "status" : "active",
+  "date" : "2023-09-22T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Type Organisation interne ou d’organization (FHIR)",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R207-TypeOrganisationInterne/FHIR/TRE-R207-TypeOrganisationInterne",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Pôle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.8"
+        }]
+      },
+      {
+        "code" : "2",
+        "display" : "Structure interne ou Service",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.8"
+        }]
+      },
+      {
+        "code" : "3",
+        "display" : "Unité fonctionnelle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.8"
+        }]
+      },
+      {
+        "code" : "4",
+        "display" : "Unité élémentaire",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.3.3.8"
+        }]
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R67-TypeStructure-EJ-EG/FHIR/TRE-R67-TypeStructure-EJ-EG",
+      "concept" : [{
+        "code" : "EJ",
+        "display" : "Entité juridique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.62"
+        }]
+      },
+      {
+        "code" : "EG",
+        "display" : "Etablissement géographique",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:1.2.250.1.213.1.6.1.62"
+        }]
+      }]
+    }]
+  }
+}

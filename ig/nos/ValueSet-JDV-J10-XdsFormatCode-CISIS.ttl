@@ -1,0 +1,794 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J10-XdsFormatCode-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J10-XdsFormatCode-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58ans.58ci-sis.58bio-ep-bio.582022\">urn:ans:ci-sis:bio-ep-bio:2022</a></td><td>Prescription d'actes de biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58ans.58ci-sis.58cse-mde.582023\">urn:ans:ci-sis:cse-mde:2023</a></td><td>Mesures de signes vitaux</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58aunv.582013\">urn:asip:ci-sis:aunv:2013</a></td><td>Fiche d'admission en unité neuro-vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58avk.582009\">urn:asip:ci-sis:avk:2009</a></td><td>Fiche patient à risque en cardiologie - Traitement AVK</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58crgm.582018\">urn:asip:ci-sis:crgm:2018</a></td><td>Compte rendu de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58crrtn.582013\">urn:asip:ci-sis:crrtn:2013</a></td><td>Compte-rendu de rétinographie</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58cr-anest.582020\">urn:asip:ci-sis:cr-anest:2020</a></td><td>Compte rendu d'anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58cr-cpa.582020\">urn:asip:ci-sis:cr-cpa:2020</a></td><td>Compte rendu de consultation pré-anesthésique</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58cse-cs24.582017\">urn:asip:ci-sis:cse-cs24:2017</a></td><td>Certificat de santé du 24ème mois de l'enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58cse-cs8.582017\">urn:asip:ci-sis:cse-cs8:2017</a></td><td>Certificat de santé du 8ème jour de l'enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58cse-cs9.582017\">urn:asip:ci-sis:cse-cs9:2017</a></td><td>Certificat de santé du 9ème mois de l'enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58d2lm-fidd.582017\">urn:asip:ci-sis:d2lm-fidd:2017</a></td><td>Seconde lecture de mammographie - Fiche d'interprétation du bilan de diagnostic différé</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58d2lm-fin.582017\">urn:asip:ci-sis:d2lm-fin:2017</a></td><td>Seconde lecture de mammographie - Fiche d'interprétation nationale</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58dci.582009\">urn:asip:ci-sis:dci:2009</a></td><td>Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58dlu.582015\">urn:asip:ci-sis:dlu:2015</a></td><td>Document de liaison d'urgence</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58dlu-dlu-dom.582022\">urn:asip:ci-sis:dlu-dlu-dom:2022</a></td><td>Document de liaison d'urgence DOM</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58dlu-fludr-dom.582022\">urn:asip:ci-sis:dlu-fludr-dom:2022</a></td><td>Fiche de liaison d'urgence - Retour des urgences vers le domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58dlu-fludt-dom.582022\">urn:asip:ci-sis:dlu-fludt-dom:2022</a></td><td>Fiche de liaison d'urgence - Transfert du domicile vers les urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58eunv.582013\">urn:asip:ci-sis:eunv:2013</a></td><td>Fiche d'épisode de soin en unité neuro-vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58fludr.582017\">urn:asip:ci-sis:fludr:2017</a></td><td>Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58fludt.582017\">urn:asip:ci-sis:fludt:2017</a></td><td>Fiche de liaison d'urgence - Transfert de l'EHPAD vers les urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58frcp.582011\">urn:asip:ci-sis:frcp:2011</a></td><td>Fiche de réunion de concertation pluridisciplinaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58hr.582019\">urn:asip:ci-sis:hr:2019</a></td><td>Données de remboursement</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58idap.582011\">urn:asip:ci-sis:idap:2011</a></td><td>Information et directives anticipées du patient</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58ldl-ees.582017\">urn:asip:ci-sis:ldl-ees:2017</a></td><td>Lettre de Liaison à l'entrée d'un établissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58ldl-ses.582017\">urn:asip:ci-sis:ldl-ses:2017</a></td><td>Lettre de Liaison à la sortie de l'établissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58ans.58ci-sis.58img-da.582022\">urn:ans:ci-sis:img-da:2022</a></td><td>Demande d'actes d'imagerie</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58pavc.582016\">urn:asip:ci-sis:pavc:2016</a></td><td>Compte-rendu de consultation d'évaluation pluri-professionnelle post AVC</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58pps-cancer.582017\">urn:asip:ci-sis:pps-cancer:2017</a></td><td>Programme Personnalisé de Soins - Cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58pps-paerpa.582017\">urn:asip:ci-sis:pps-paerpa:2017</a></td><td>Plan Personnalisé de Santé - PAERPA</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58ppv.582009\">urn:asip:ci-sis:ppv:2009</a></td><td>Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58psc.582009\">urn:asip:ci-sis:psc:2009</a></td><td>Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58sdm-mr.582017\">urn:asip:ci-sis:sdm-mr:2017</a></td><td>Set de Données Minimum - Maladies Rares</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58sunv.582013\">urn:asip:ci-sis:sunv:2013</a></td><td>Fiche de sortie d'unité neuro-vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58tap.582009\">urn:asip:ci-sis:tap:2009</a></td><td>Fiche patient à risque en cardiologie - Traitement antiagrégant plaquettaire, stent</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58tlm-da.582020\">urn:asip:ci-sis:tlm-da:2020</a></td><td>Demande d'acte de télémédecine</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58vac.582019\">urn:asip:ci-sis:vac:2019</a></td><td>Historique des vaccinations</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58vac-note.582021\">urn:asip:ci-sis:vac-note:2021</a></td><td>Note de vaccination</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58vsm.582012\">urn:asip:ci-sis:vsm:2012</a></td><td>Synthèse médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asipSante.58modelesHorsProfils.582011\">urn:asipSante:modelesHorsProfils:2011</a></td><td>Document non référencé IHE ou CI-SIS</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58obp-sap.582023\">urn:asip:ci-sis:obp-sap:2023</a></td><td>Synthèse antepartum</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58obp-snm.582023\">urn:asip:ci-sis:obp-snm:2023</a></td><td>Synthèse Salle de Naissance Mère</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58obp-sne.582023\">urn:asip:ci-sis:obp-sne:2023</a></td><td>Synthèse Salle de Naissance Enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58obp-scm.582023\">urn:asip:ci-sis:obp-scm:2023</a></td><td>Synthèse Suites de Couches Mère</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58asip.58ci-sis.58obp-sem.582023\">urn:asip:ci-sis:obp-sem:2023</a></td><td>Synthèse Enfant en Maternité</td></tr><tr><td><a href=\"CodeSystem-TRE-A06-FormatCodeComplementaire.html#TRE-A06-FormatCodeComplementaire-urn.58ans.58ci-sis.58feuille-de-style.582023\">urn:ans:ci-sis:feuille-de-style:2023</a></td><td>Feuille de style</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A11-IheFormatCode.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti.58dsg.58detached.582014\">urn:ihe:iti:dsg:detached:2014</a></td><td>Signature détachée</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti.58dsg.58enveloping.582014\">urn:ihe:iti:dsg:enveloping:2014</a></td><td>Document signé avec une signature enveloppante</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti.58xds-sd.58pdf.582008\">urn:ihe:iti:xds-sd:pdf:2008</a></td><td>Document à corps non structuré en Pdf/A-1</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti.58xds-sd.58text.582008\">urn:ihe:iti:xds-sd:text:2008</a></td><td>Document à corps non structuré en texte brut</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti-fr.58xds-sd.58jpeg.582010\">urn:ihe:iti-fr:xds-sd:jpeg:2010</a></td><td>Document à corps non structuré en format jpeg</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti-fr.58xds-sd.58rtf.582010\">urn:ihe:iti-fr:xds-sd:rtf:2010</a></td><td>Document à corps non structuré en format rtf</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58iti-fr.58xds-sd.58tiff.582010\">urn:ihe:iti-fr:xds-sd:tiff:2010</a></td><td>Document à corps non structuré en format tiff</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58lab.58xd-lab.582008\">urn:ihe:lab:xd-lab:2008</a></td><td>Compte rendu structuré d'examens de biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58all.582010\">urn:ihe:pat:apsr:all:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58breast.582010\">urn:ihe:pat:apsr:breast:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Sein</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58cervix.582010\">urn:ihe:pat:apsr:cervix:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58colon.582010\">urn:ihe:pat:apsr:colon:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Côlon</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58endometrium.582010\">urn:ihe:pat:apsr:endometrium:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58esophagus.582010\">urn:ihe:pat:apsr:esophagus:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Oesophage</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58kidney.582010\">urn:ihe:pat:apsr:kidney:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Rein</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58larynx.582010\">urn:ihe:pat:apsr:larynx:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Larynx</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58lip_oral_cavity.582010\">urn:ihe:pat:apsr:lip_oral_cavity:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58liver.582010\">urn:ihe:pat:apsr:liver:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Foie</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58lung.582010\">urn:ihe:pat:apsr:lung:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Poumon</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58ovary.582010\">urn:ihe:pat:apsr:ovary:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Ovaires</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58pancreas.582010\">urn:ihe:pat:apsr:pancreas:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Pancréas</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58pharynx.582010\">urn:ihe:pat:apsr:pharynx:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Pharynx</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58prostate.582010\">urn:ihe:pat:apsr:prostate:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Prostate</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58salivary_gland.582010\">urn:ihe:pat:apsr:salivary_gland:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58skin.582010\">urn:ihe:pat:apsr:skin:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58stomach.582010\">urn:ihe:pat:apsr:stomach:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Estomac</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58testis.582010\">urn:ihe:pat:apsr:testis:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Testicule</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58thyroid.582010\">urn:ihe:pat:apsr:thyroid:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pat.58apsr.58urinary_bladder.582010\">urn:ihe:pat:apsr:urinary_bladder:2010</a></td><td>Compte rendu d'anatomie et de cytologie pathologiques - Vessie</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pharm.58dis.582010\">urn:ihe:pharm:dis:2010</a></td><td>Dispensation médicamenteuse</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pcc.58ips.582020\">urn:ihe:pcc:ips:2020</a></td><td>Synthèse du dossier médical</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58pharm.58pre.582010\">urn:ihe:pharm:pre:2010</a></td><td>Prescription de médicaments</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58eyecare.58geneyeevalcn.582014\">urn:ihe:eyecare:geneyeevalcn:2014</a></td><td>CR de consultation en ophtalmologie</td></tr><tr><td><a href=\"CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-urn.58ihe.58rad.58CDA.58ImagingReportStructuredHeadings.582013\">urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013</a></td><td>Compte-rendu d'imagerie médicale</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A09-DICOMuidRegistry.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A09-DICOMuidRegistry.html#TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4688.4659\">1.2.840.10008.5.1.4.1.1.88.59</a></td><td>Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A10-NomenclatureURN.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A10-NomenclatureURN.html#TRE-A10-NomenclatureURN-urn.58oid.581.463.466.461.464.461.4619376.461.462.461.461.461\">urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1</a></td><td>Digital Signature</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2016-05-19T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.465" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J10-XdsFormatCode-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "XDS formatCode documents CI-SIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:ans:ci-sis:bio-ep-bio:2022" ] ;
+         fhir:display [ fhir:v "Prescription d'actes de biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ans:ci-sis:cse-mde:2023" ] ;
+         fhir:display [ fhir:v "Mesures de signes vitaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:aunv:2013" ] ;
+         fhir:display [ fhir:v "Fiche d'admission en unité neuro-vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:avk:2009" ] ;
+         fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Traitement AVK" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:crgm:2018" ] ;
+         fhir:display [ fhir:v "Compte rendu de génétique moléculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:crrtn:2013" ] ;
+         fhir:display [ fhir:v "Compte-rendu de rétinographie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cr-anest:2020" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anesthésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cr-cpa:2020" ] ;
+         fhir:display [ fhir:v "Compte rendu de consultation pré-anesthésique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cse-cs24:2017" ] ;
+         fhir:display [ fhir:v "Certificat de santé du 24ème mois de l'enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cse-cs8:2017" ] ;
+         fhir:display [ fhir:v "Certificat de santé du 8ème jour de l'enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cse-cs9:2017" ] ;
+         fhir:display [ fhir:v "Certificat de santé du 9ème mois de l'enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:d2lm-fidd:2017" ] ;
+         fhir:display [ fhir:v "Seconde lecture de mammographie - Fiche d'interprétation du bilan de diagnostic différé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:d2lm-fin:2017" ] ;
+         fhir:display [ fhir:v "Seconde lecture de mammographie - Fiche d'interprétation nationale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:dci:2009" ] ;
+         fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:dlu:2015" ] ;
+         fhir:display [ fhir:v "Document de liaison d'urgence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:dlu-dlu-dom:2022" ] ;
+         fhir:display [ fhir:v "Document de liaison d'urgence DOM" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:dlu-fludr-dom:2022" ] ;
+         fhir:display [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers le domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:dlu-fludt-dom:2022" ] ;
+         fhir:display [ fhir:v "Fiche de liaison d'urgence - Transfert du domicile vers les urgences" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:eunv:2013" ] ;
+         fhir:display [ fhir:v "Fiche d'épisode de soin en unité neuro-vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:fludr:2017" ] ;
+         fhir:display [ fhir:v "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:fludt:2017" ] ;
+         fhir:display [ fhir:v "Fiche de liaison d'urgence - Transfert de l'EHPAD vers les urgences" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:frcp:2011" ] ;
+         fhir:display [ fhir:v "Fiche de réunion de concertation pluridisciplinaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:hr:2019" ] ;
+         fhir:display [ fhir:v "Données de remboursement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:idap:2011" ] ;
+         fhir:display [ fhir:v "Information et directives anticipées du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:ldl-ees:2017" ] ;
+         fhir:display [ fhir:v "Lettre de Liaison à l'entrée d'un établissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:ldl-ses:2017" ] ;
+         fhir:display [ fhir:v "Lettre de Liaison à la sortie de l'établissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ans:ci-sis:img-da:2022" ] ;
+         fhir:display [ fhir:v "Demande d'actes d'imagerie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:pavc:2016" ] ;
+         fhir:display [ fhir:v "Compte-rendu de consultation d'évaluation pluri-professionnelle post AVC" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:pps-cancer:2017" ] ;
+         fhir:display [ fhir:v "Programme Personnalisé de Soins - Cancer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:pps-paerpa:2017" ] ;
+         fhir:display [ fhir:v "Plan Personnalisé de Santé - PAERPA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:ppv:2009" ] ;
+         fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:psc:2009" ] ;
+         fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:sdm-mr:2017" ] ;
+         fhir:display [ fhir:v "Set de Données Minimum - Maladies Rares" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:sunv:2013" ] ;
+         fhir:display [ fhir:v "Fiche de sortie d'unité neuro-vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:tap:2009" ] ;
+         fhir:display [ fhir:v "Fiche patient à risque en cardiologie - Traitement antiagrégant plaquettaire, stent" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:tlm-da:2020" ] ;
+         fhir:display [ fhir:v "Demande d'acte de télémédecine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:vac:2019" ] ;
+         fhir:display [ fhir:v "Historique des vaccinations" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:vac-note:2021" ] ;
+         fhir:display [ fhir:v "Note de vaccination" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:vsm:2012" ] ;
+         fhir:display [ fhir:v "Synthèse médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asipSante:modelesHorsProfils:2011" ] ;
+         fhir:display [ fhir:v "Document non référencé IHE ou CI-SIS" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:obp-sap:2023" ] ;
+         fhir:display [ fhir:v "Synthèse antepartum" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:obp-snm:2023" ] ;
+         fhir:display [ fhir:v "Synthèse Salle de Naissance Mère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:obp-sne:2023" ] ;
+         fhir:display [ fhir:v "Synthèse Salle de Naissance Enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:obp-scm:2023" ] ;
+         fhir:display [ fhir:v "Synthèse Suites de Couches Mère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:asip:ci-sis:obp-sem:2023" ] ;
+         fhir:display [ fhir:v "Synthèse Enfant en Maternité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ans:ci-sis:feuille-de-style:2023" ] ;
+         fhir:display [ fhir:v "Feuille de style" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.282" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:ihe:iti:dsg:detached:2014" ] ;
+         fhir:display [ fhir:v "Signature détachée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti:dsg:enveloping:2014" ] ;
+         fhir:display [ fhir:v "Document signé avec une signature enveloppante" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti:xds-sd:pdf:2008" ] ;
+         fhir:display [ fhir:v "Document à corps non structuré en Pdf/A-1" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti:xds-sd:text:2008" ] ;
+         fhir:display [ fhir:v "Document à corps non structuré en texte brut" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:jpeg:2010" ] ;
+         fhir:display [ fhir:v "Document à corps non structuré en format jpeg" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:rtf:2010" ] ;
+         fhir:display [ fhir:v "Document à corps non structuré en format rtf" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:tiff:2010" ] ;
+         fhir:display [ fhir:v "Document à corps non structuré en format tiff" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:lab:xd-lab:2008" ] ;
+         fhir:display [ fhir:v "Compte rendu structuré d'examens de biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:all:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Modèle générique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:breast:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Sein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:cervix:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Col de l'utérus" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:colon:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Côlon" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:endometrium:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Corps utérin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:esophagus:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Oesophage" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:kidney:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Rein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:larynx:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Larynx" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:lip_oral_cavity:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Cavité buccale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:liver:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Foie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:lung:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Poumon" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:ovary:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Ovaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:pancreas:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pancréas" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:pharynx:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Pharynx" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:prostate:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Prostate" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:salivary_gland:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Glandes salivaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:skin:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Mélanome cutané" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:stomach:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Estomac" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:testis:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Testicule" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:thyroid:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Thyroïde" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pat:apsr:urinary_bladder:2010" ] ;
+         fhir:display [ fhir:v "Compte rendu d'anatomie et de cytologie pathologiques - Vessie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pharm:dis:2010" ] ;
+         fhir:display [ fhir:v "Dispensation médicamenteuse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:ips:2020" ] ;
+         fhir:display [ fhir:v "Synthèse du dossier médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pharm:pre:2010" ] ;
+         fhir:display [ fhir:v "Prescription de médicaments" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:eyecare:geneyeevalcn:2014" ] ;
+         fhir:display [ fhir:v "CR de consultation en ophtalmologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013" ] ;
+         fhir:display [ fhir:v "Compte-rendu d'imagerie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1.2.840.10008.5.1.4.1.1.88.59" ] ;
+         fhir:display [ fhir:v "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.840.10008.2.6.1" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1" ] ;
+         fhir:display [ fhir:v "Digital Signature" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:URN" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

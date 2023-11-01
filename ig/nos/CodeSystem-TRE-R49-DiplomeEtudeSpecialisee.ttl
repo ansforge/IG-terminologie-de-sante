@@ -1,0 +1,2605 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/TRE-R49-DiplomeEtudeSpecialisee> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TRE-R49-DiplomeEtudeSpecialisee"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">DSD01<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSD01\"> </a></td><td>DES Orthopédie Dento-Faciale</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSD02<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSD02\"> </a></td><td>DES Médecine Bucco-Dentaire</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM01<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM01\"> </a></td><td>DES Anatomie et Cytologie pathologiques</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM02<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM02\"> </a></td><td>DES Anesthésie-réanimation</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM03<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM03\"> </a></td><td>DES Biologie médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM04<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM04\"> </a></td><td>DES Cardiologie et Maladies vasculaires</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM05<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM05\"> </a></td><td>DES Chirurgie générale</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM06<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM06\"> </a></td><td>DES Chirurgie infantile</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM07<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM07\"> </a></td><td>DES Chirurgie maxillo-faciale et Stomatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM08<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM08\"> </a></td><td>DES Chirurgie orthopédique et Traumatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM09<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM09\"> </a></td><td>DES Chirurgie plastique, reconstructrice et esthétique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM10<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM10\"> </a></td><td>DES Chirurgie thoracique et cardio-vasculaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM11<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM11\"> </a></td><td>DES Chirurgie urologique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM12<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM12\"> </a></td><td>DES Chirurgie vasculaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM13<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM13\"> </a></td><td>DES Chirurgie viscérale et digestive</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM14<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM14\"> </a></td><td>DES Dermatologie et Vénéréologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM15<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM15\"> </a></td><td>DES Endocrinologie, diabète, maladies métaboliques</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM16<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM16\"> </a></td><td>DES Gastro-entérologie et Hépatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM17<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM17\"> </a></td><td>DES Génétique médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM18<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM18\"> </a></td><td>DES Gynécologie médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM19<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM19\"> </a></td><td>DES Gynécologie-obstétrique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM20<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM20\"> </a></td><td>DES Hématologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM21<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM21\"> </a></td><td>DES Hématologie, option Maladies du sang</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM22<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM22\"> </a></td><td>DES Hématologie, option Onco-hématologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM23<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM23\"> </a></td><td>DES Médecine du travail</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM24<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM24\"> </a></td><td>DES Médecine générale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM25<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM25\"> </a></td><td>DES Médecine interne</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM26<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM26\"> </a></td><td>DES Médecine nucléaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM27<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM27\"> </a></td><td>DES Médecine physique et de réadaptation</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM28<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM28\"> </a></td><td>DES Néphrologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM29<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM29\"> </a></td><td>DES Neuro-chirurgie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM30<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM30\"> </a></td><td>DES Neurologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM31<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM31\"> </a></td><td>DES Neuro-psychiatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM32<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM32\"> </a></td><td>DES Oncologie, option Hématologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM33<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM33\"> </a></td><td>DES Oncologie, option Médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM34<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM34\"> </a></td><td>DES Oncologie, option Radio-thérapie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM35<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM35\"> </a></td><td>DES Ophtalmologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM36<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM36\"> </a></td><td>DES ORL et Chirurgie cervico-faciale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM37<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM37\"> </a></td><td>ORL et Chirurgie cervico-faciale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM38<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM38\"> </a></td><td>Pathologies cardio-vasculaires</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM39<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM39\"> </a></td><td>DES Pédiatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM40<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM40\"> </a></td><td>DES Pneumologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM41<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM41\"> </a></td><td>DES Psychiatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM42<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM42\"> </a></td><td>Psychiatrie infantile</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM43<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM43\"> </a></td><td>DES Radio-diagnostic et Imagerie médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM44<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM44\"> </a></td><td>DES Radio-thérapie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM45<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM45\"> </a></td><td>DES Recherche médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM46<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM46\"> </a></td><td>DES Rhumatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM47<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM47\"> </a></td><td>DES Santé publique et Médecine sociale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM48<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM48\"> </a></td><td>DES Stomatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM49<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM49\"> </a></td><td>DES Gynéco-obs et Gynéco-médicale, option Obstétrique</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM50<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM50\"> </a></td><td>DES Gynéco-obs et Gynéco-médicale, option Gynéco-médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM51<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM51\"> </a></td><td>DES Chirurgie orale</td><td>2015-10-30T00:00:00+01:00</td><td>2015-10-30T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSP04<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP04\"> </a></td><td>DES Biologie médicale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSP05<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP05\"> </a></td><td>DES Pharmacie et Santé publique</td><td>2007-07-25T15:04:42+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSP06<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP06\"> </a></td><td>DES Pharmacie hospitalière</td><td>2007-07-25T15:04:42+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSP07<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP07\"> </a></td><td>DES Pharmacie hospitalière (PHPR)</td><td>2007-07-25T15:04:42+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSP08<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP08\"> </a></td><td>DES Pharmacie industrielle et biomédicale (PIBM)</td><td>2016-11-02T00:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSP09<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP09\"> </a></td><td>DES Pharmacie</td><td>2016-11-02T00:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">DSP10<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP10\"> </a></td><td>DES Pharmacie hospitalière générale (PHG)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSP11<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP11\"> </a></td><td>DES Pharmacie hospitalière développement-sécurisation des produits santé (DSPS)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSP12<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSP12\"> </a></td><td>DES Pharmacie hospitalière radiopharmacie (RPH)</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM52<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM52\"> </a></td><td>DES Allergologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM53<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM53\"> </a></td><td>DES Chirurgie maxillo-faciale (réforme 2017)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM54<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM54\"> </a></td><td>DES Chirurgie orthopédique et traumatologique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM55<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM55\"> </a></td><td>DES Endocrinologie-diabétologie-nutrition</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM56<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM56\"> </a></td><td>DES Hématologie (réforme 2017)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM57<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM57\"> </a></td><td>DES Hépato-gastro-entérologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM58<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM58\"> </a></td><td>DES Maladies infectieuses et tropicales</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM59<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM59\"> </a></td><td>DES Médecine cardiovasculaire</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM60<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM60\"> </a></td><td>DES Médecine d'urgence</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM61<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM61\"> </a></td><td>DES Médecine et santé au travail</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM62<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM62\"> </a></td><td>DES Médecine intensive-réanimation</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM63<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM63\"> </a></td><td>DES Médecine interne et immunologie clinique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM64<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM64\"> </a></td><td>DES Médecine légale et expertises médicales</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM65<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM65\"> </a></td><td>DES Médecine vasculaire</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM66<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM66\"> </a></td><td>DES Radiologie et imagerie médicale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM67<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM67\"> </a></td><td>DES Santé publique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM68<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM68\"> </a></td><td>DES Urologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM69<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM69\"> </a></td><td>DES Anesthésie-réanimation opt réanim-pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM70<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM70\"> </a></td><td>DES Biologie médicale option agents infectieux</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM71<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM71\"> </a></td><td>DES Biologie médicale option biologie générale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM72<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM72\"> </a></td><td>DES Biologie médic opt hématologie et immunologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM73<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM73\"> </a></td><td>DES Biologie médic opt méd moléc génétique pharmac</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM74<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM74\"> </a></td><td>DES Biologie médic opt biologie de la reproduction</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM75<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM75\"> </a></td><td>DES Chir maxillo-faciale opt orthod dysmo max-fac</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM76<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM76\"> </a></td><td>DES Chirurgie viscérale et digestive opt endo chir</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM77<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM77\"> </a></td><td>DES Chir pédiatrique opt orthopédie pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM78<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM78\"> </a></td><td>DES Chir pédiatrique opt chir visc pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM79<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM79\"> </a></td><td>DES Méd cardiovascul opt card intervention adulte</td><td>2023-03-31T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM80<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM80\"> </a></td><td>DES Méd cardiovascul opt imagerie cardio d'expert.</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM81<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM81\"> </a></td><td>DES Méd cardiovascul opt rythmo inter stimu card</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM82<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM82\"> </a></td><td>DES Méd intensive-réanimation opt réa pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM83<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM83\"> </a></td><td>DES Néphrologie opt soins intensifs néphrologiques</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM84<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM84\"> </a></td><td>DES Neurolog opt trait interv ischémie céréb aigüe</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM85<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM85\"> </a></td><td>DES Oncologie option oncologie médicale</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM86<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM86\"> </a></td><td>DES Oncologie option oncologie radiothérapie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM87<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM87\"> </a></td><td>DES Ophtalmo opt chir ophtalmopéd strabologique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM88<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM88\"> </a></td><td>DES ORL - chir cervico-faciale opt audiophonologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM89<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM89\"> </a></td><td>DES Pédiatrie option néonatologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM90<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM90\"> </a></td><td>DES Pédiatrie option neuropédiatrie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM91<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM91\"> </a></td><td>DES Pédiatrie option pneumopédiatrie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM92<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM92\"> </a></td><td>DES Pédiatrie option réanimation pédiatrique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM93<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM93\"> </a></td><td>DES Pneumologie opt soins intensifs respiratoires</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM94<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM94\"> </a></td><td>DES Psychiatrie option enfant et adolescent</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM95<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM95\"> </a></td><td>DES Psychiatrie opt psychiatrie personne âgée</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM96<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM96\"> </a></td><td>DES Radiologie imagerie médic opt radio inter av</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM97<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM97\"> </a></td><td>DES Santé publique opt administration de la santé</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM98<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM98\"> </a></td><td>DES Biologie méd opt bactério, virologie, hygiène</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM99<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM99\"> </a></td><td>DES Biologie méd opt biochimie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM100<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM100\"> </a></td><td>DES Biologie méd opt biologie de la reproduction</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM101<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM101\"> </a></td><td>DES Biologie méd opt génétique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM102<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM102\"> </a></td><td>DES Biologie méd opt hématologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM103<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM103\"> </a></td><td>DES Biologie méd opt immunologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM104<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM104\"> </a></td><td>DES Biologie méd opt parasitologie-mycologie, risq</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM105<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM105\"> </a></td><td>DES Biologie méd opt pharmacologie-toxicologie</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">DSM106<a name=\"TRE-R49-DiplomeEtudeSpecialisee-DSM106\"> </a></td><td>DES Biologie méd opt thérapie cellulaire-génique</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2013-06-28T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.32" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "TRE_R49-DiplomeEtudeSpecialisee"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Diplôme d'Etudes Spécialisées"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "dateValid" ] ;
+     fhir:description [ fhir:v "date de validité d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateMaj" ] ;
+     fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "dateFin" ] ;
+     fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DSD01" ] ;
+     fhir:display [ fhir:v "DES Orthopédie Dento-Faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Ortho Den Fac" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Orthopédie Dento-Faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSD02" ] ;
+     fhir:display [ fhir:v "DES Médecine Bucco-Dentaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Med Bucco Den" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine Bucco-Dentaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM01" ] ;
+     fhir:display [ fhir:v "DES Anatomie et Cytologie pathologiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anatomie, Cytologie patho" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anatomie et Cytologie pathologiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM02" ] ;
+     fhir:display [ fhir:v "DES Anesthésie-réanimation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anesthésie-réanimation" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anesthésie-réanimation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM03" ] ;
+     fhir:display [ fhir:v "DES Biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM04" ] ;
+     fhir:display [ fhir:v "DES Cardiologie et Maladies vasculaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Cardiologie, Maladies vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Cardiologie et Maladies vasculaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM05" ] ;
+     fhir:display [ fhir:v "DES Chirurgie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM06" ] ;
+     fhir:display [ fhir:v "DES Chirurgie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM07" ] ;
+     fhir:display [ fhir:v "DES Chirurgie maxillo-faciale et Stomatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir maxillo-fac, Stomato" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie maxillo-faciale et Stomatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM08" ] ;
+     fhir:display [ fhir:v "DES Chirurgie orthopédique et Traumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir orthop, Traumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie orthopédique et Traumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM09" ] ;
+     fhir:display [ fhir:v "DES Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir plastiq recon esthét" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie plastique, reconstructrice et esthétique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM10" ] ;
+     fhir:display [ fhir:v "DES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir thoraciq, cardio-vasc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie thoracique et cardio-vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM11" ] ;
+     fhir:display [ fhir:v "DES Chirurgie urologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir urologique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie urologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM12" ] ;
+     fhir:display [ fhir:v "DES Chirurgie vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM13" ] ;
+     fhir:display [ fhir:v "DES Chirurgie viscérale et digestive" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir viscérale, digestive" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie viscérale et digestive" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM14" ] ;
+     fhir:display [ fhir:v "DES Dermatologie et Vénéréologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Dermatologie, Vénéréologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Dermatologie et Vénéréologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM15" ] ;
+     fhir:display [ fhir:v "DES Endocrinologie, diabète, maladies métaboliques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Endocrino, diab, mal métab" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Endocrinologie, diabète, maladies métaboliques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM16" ] ;
+     fhir:display [ fhir:v "DES Gastro-entérologie et Hépatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gastro-entéro, Hépatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gastro-entérologie et Hépatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM17" ] ;
+     fhir:display [ fhir:v "DES Génétique médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Génétique médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Génétique médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM18" ] ;
+     fhir:display [ fhir:v "DES Gynécologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynécologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynécologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM19" ] ;
+     fhir:display [ fhir:v "DES Gynécologie-obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynécologie-obstétrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynécologie-obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM20" ] ;
+     fhir:display [ fhir:v "DES Hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM21" ] ;
+     fhir:display [ fhir:v "DES Hématologie, option Maladies du sang" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie, opt Mal sang" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie, option Maladies du sang" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM22" ] ;
+     fhir:display [ fhir:v "DES Hématologie, option Onco-hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie, opt Onco-héma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie, option Onco-hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM23" ] ;
+     fhir:display [ fhir:v "DES Médecine du travail" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine du travail" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine du travail" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM24" ] ;
+     fhir:display [ fhir:v "DES Médecine générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM25" ] ;
+     fhir:display [ fhir:v "DES Médecine interne" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine interne" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine interne" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM26" ] ;
+     fhir:display [ fhir:v "DES Médecine nucléaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine nucléaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine nucléaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM27" ] ;
+     fhir:display [ fhir:v "DES Médecine physique et de réadaptation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine physique, réadapt" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine physique et de réadaptation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM28" ] ;
+     fhir:display [ fhir:v "DES Néphrologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Néphrologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Néphrologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM29" ] ;
+     fhir:display [ fhir:v "DES Neuro-chirurgie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neuro-chirurgie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neuro-chirurgie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM30" ] ;
+     fhir:display [ fhir:v "DES Neurologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neurologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neurologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM31" ] ;
+     fhir:display [ fhir:v "DES Neuro-psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neuro-psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neuro-psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM32" ] ;
+     fhir:display [ fhir:v "DES Oncologie, option Hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, opt Hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, option Hématologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM33" ] ;
+     fhir:display [ fhir:v "DES Oncologie, option Médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, option Médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, option Médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM34" ] ;
+     fhir:display [ fhir:v "DES Oncologie, option Radio-thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, opt Radiothérap" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie, option Radio-thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM35" ] ;
+     fhir:display [ fhir:v "DES Ophtalmologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Ophtalmologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Ophtalmologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM36" ] ;
+     fhir:display [ fhir:v "DES ORL et Chirurgie cervico-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES ORL,Chir cervico-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES ORL et Chirurgie cervico-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM37" ] ;
+     fhir:display [ fhir:v "ORL et Chirurgie cervico-faciale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "ORL, Chir cervico-faciale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "ORL et Chirurgie cervico-faciale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM38" ] ;
+     fhir:display [ fhir:v "Pathologies cardio-vasculaires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Pathologies cardio-vasculaires" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Pathologies cardio-vasculaires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM39" ] ;
+     fhir:display [ fhir:v "DES Pédiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM40" ] ;
+     fhir:display [ fhir:v "DES Pneumologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pneumologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pneumologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM41" ] ;
+     fhir:display [ fhir:v "DES Psychiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psychiatrie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psychiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM42" ] ;
+     fhir:display [ fhir:v "Psychiatrie infantile" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie infantile" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "Psychiatrie infantile" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM43" ] ;
+     fhir:display [ fhir:v "DES Radio-diagnostic et Imagerie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radio-diag, Imagerie méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radio-diagnostic et Imagerie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM44" ] ;
+     fhir:display [ fhir:v "DES Radio-thérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radio-thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radio-thérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM45" ] ;
+     fhir:display [ fhir:v "DES Recherche médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Recherche médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Recherche médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM46" ] ;
+     fhir:display [ fhir:v "DES Rhumatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Rhumatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Rhumatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM47" ] ;
+     fhir:display [ fhir:v "DES Santé publique et Médecine sociale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publiq, Méd sociale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publique et Médecine sociale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM48" ] ;
+     fhir:display [ fhir:v "DES Stomatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Stomatologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Stomatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM49" ] ;
+     fhir:display [ fhir:v "DES Gynéco-obs et Gynéco-médicale, option Obstétrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gyn-obs méd, opt Obs" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynéco-obs et Gynéco-médicale, option Obstétrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM50" ] ;
+     fhir:display [ fhir:v "DES Gynéco-obs et Gynéco-médicale, option Gynéco-médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gyn-obs méd, opt Gyn-méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Gynéco-obs et Gynéco-médicale, option Gynéco-médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM51" ] ;
+     fhir:display [ fhir:v "DES Chirurgie orale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie orale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie orale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2015-10-30T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2015-10-30T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP04" ] ;
+     fhir:display [ fhir:v "DES Biologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP05" ] ;
+     fhir:display [ fhir:v "DES Pharmacie et Santé publique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie et Santé publiq" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie et Santé publique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP06" ] ;
+     fhir:display [ fhir:v "DES Pharmacie hospitalière" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie hospitalière (nouveau régime) sans mention de l'option. Suite au décret n° 2019-1022 du 4 octobre 2019 portant modification du troisième cycle long des études pharmaceutiques, le DES de pharmacie hospitalière remplace le DES de pharmacie à compter de la rentrée universitaire 2019-2020 (premiers diplômés en 2024 pour les options PHG et DSPS, et 2025 pour l'option RPH). Si l'option n'est pas connue, le code du DES de pharmacie hospitalière est DSP06, sinon le code est DSP10, DSP11 ou DSP12." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP07" ] ;
+     fhir:display [ fhir:v "DES Pharmacie hospitalière (PHPR)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie PHPR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière (PHPR)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie (ancien régime) option pharmacie hospitalière - pratique et recherche (PH-PR)." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP08" ] ;
+     fhir:display [ fhir:v "DES Pharmacie industrielle et biomédicale (PIBM)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie PIBM" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie industrielle et biomédicale (PIBM)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie (ancien régime) option pharmacie industrielle et biomédicale (PIBM)." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP09" ] ;
+     fhir:display [ fhir:v "DES Pharmacie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie (ancien régime) sans mention de l'option. Suite au décret n° 2019-1022 du 4 octobre 2019 portant modification du troisième cycle long des études pharmaceutiques, le DES de pharmacie hospitalière remplace le DES de pharmacie à compter de la rentrée universitaire 2019-2020 (derniers diplômés du DES de pharmacie en 2023). Si l'option n'est pas connue, le code du DES de pharmacie est DSP09, sinon le code est DSP07 ou DSP08." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2016-11-02T00:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateFin" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP10" ] ;
+     fhir:display [ fhir:v "DES Pharmacie hospitalière générale (PHG)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharma Hosp PHG" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière générale (PHG)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie hospitalière (nouveau régime) option Pharmacie Hospitalière Générale (PHG). " ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP11" ] ;
+     fhir:display [ fhir:v "DES Pharmacie hospitalière développement-sécurisation des produits santé (DSPS)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharma Hosp DSPS" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière développement-sécurisation des produits santé (DSPS)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie hospitalière (nouveau régime) option Développement et sécurisation des produits de santé (DSPS)." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSP12" ] ;
+     fhir:display [ fhir:v "DES Pharmacie hospitalière radiopharmacie (RPH)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharma Hosp RPH" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pharmacie hospitalière radiopharmacie (RPH)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "DES de pharmacie hospitalière (nouveau régime) option Radiopharmacie (RPH)." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2021-03-26T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM52" ] ;
+     fhir:display [ fhir:v "DES Allergologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Allergologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Allergologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM53" ] ;
+     fhir:display [ fhir:v "DES Chirurgie maxillo-faciale (réforme 2017)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir max-fac (2017)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie maxillo-faciale (réforme 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM54" ] ;
+     fhir:display [ fhir:v "DES Chirurgie orthopédique et traumatologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir ortho trauma" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie orthopédique et traumatologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM55" ] ;
+     fhir:display [ fhir:v "DES Endocrinologie-diabétologie-nutrition" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Endo-diabéto-nutri" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Endocrinologie-diabétologie-nutrition" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM56" ] ;
+     fhir:display [ fhir:v "DES Hématologie (réforme 2017)" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie (2017)" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hématologie (réforme 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM57" ] ;
+     fhir:display [ fhir:v "DES Hépato-gastro-entérologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hépato-gastro-entéro" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Hépato-gastro-entérologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM58" ] ;
+     fhir:display [ fhir:v "DES Maladies infectieuses et tropicales" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Maladies infect trop" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Maladies infectieuses et tropicales" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM59" ] ;
+     fhir:display [ fhir:v "DES Médecine cardiovasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Méd cardiovasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine cardiovasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM60" ] ;
+     fhir:display [ fhir:v "DES Médecine d'urgence" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine d'urgence" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine d'urgence" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM61" ] ;
+     fhir:display [ fhir:v "DES Médecine et santé au travail" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Méd santé travail" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine et santé au travail" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM62" ] ;
+     fhir:display [ fhir:v "DES Médecine intensive-réanimation" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES MIR" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine intensive-réanimation" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM63" ] ;
+     fhir:display [ fhir:v "DES Médecine interne et immunologie clinique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Méd int immuno clin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine interne et immunologie clinique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM64" ] ;
+     fhir:display [ fhir:v "DES Médecine légale et expertises médicales" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Méd légale exp méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine légale et expertises médicales" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM65" ] ;
+     fhir:display [ fhir:v "DES Médecine vasculaire" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine vasculaire" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine vasculaire" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM66" ] ;
+     fhir:display [ fhir:v "DES Radiologie et imagerie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radiologie imag méd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radiologie et imagerie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM67" ] ;
+     fhir:display [ fhir:v "DES Santé publique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM68" ] ;
+     fhir:display [ fhir:v "DES Urologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Urologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Urologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM69" ] ;
+     fhir:display [ fhir:v "DES Anesthésie-réanimation opt réanim-pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anesth-réa pédia" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Anesthésie-réanimation option réanimation-pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM70" ] ;
+     fhir:display [ fhir:v "DES Biologie médicale option agents infectieux" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio agents infect" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option agents infectieux" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM71" ] ;
+     fhir:display [ fhir:v "DES Biologie médicale option biologie générale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio générale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option biologie générale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM72" ] ;
+     fhir:display [ fhir:v "DES Biologie médic opt hématologie et immunologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio hémato immuno" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option hématologie et immunologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM73" ] ;
+     fhir:display [ fhir:v "DES Biologie médic opt méd moléc génétique pharmac" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd mol gén phar" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option médecine moléculaire, génétique et pharmacologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM74" ] ;
+     fhir:display [ fhir:v "DES Biologie médic opt biologie de la reproduction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio reproduction" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option biologie de la reproduction" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM75" ] ;
+     fhir:display [ fhir:v "DES Chir maxillo-faciale opt orthod dysmo max-fac" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES CMF orthod dysm m-f" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir maxillo-faciale option orthodontie des dysmorphies maxillo-faciales" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM76" ] ;
+     fhir:display [ fhir:v "DES Chirurgie viscérale et digestive opt endo chir" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir visc dig endo" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie viscérale et digestive option endoscopie chirurgicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM77" ] ;
+     fhir:display [ fhir:v "DES Chir pédiatrique opt orthopédie pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir pédia ortho" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie pédiatrique option orthopédie pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM78" ] ;
+     fhir:display [ fhir:v "DES Chir pédiatrique opt chir visc pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chir pédia visc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Chirurgie pédiatrique option chirurgie viscérale pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM79" ] ;
+     fhir:display [ fhir:v "DES Méd cardiovascul opt card intervention adulte" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Cardio interv ad" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine cardiovasculaire option cardiologie interventionnelle de l'adulte" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM80" ] ;
+     fhir:display [ fhir:v "DES Méd cardiovascul opt imagerie cardio d'expert." ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Cardio imag expert" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine cardiovasculaire option imagerie cardio d'expert." ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM81" ] ;
+     fhir:display [ fhir:v "DES Méd cardiovascul opt rythmo inter stimu card" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Cardio rythmo stimu" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine cardiovasculaire option rythmologie interventionnelle et stimulation cardiaque" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM82" ] ;
+     fhir:display [ fhir:v "DES Méd intensive-réanimation opt réa pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES MIR réa pédiatrique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Médecine intensive-réanimation option réanimation pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM83" ] ;
+     fhir:display [ fhir:v "DES Néphrologie opt soins intensifs néphrologiques" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Néphro soins int" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Néphrologie option soins intensifs néphrologiques" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM84" ] ;
+     fhir:display [ fhir:v "DES Neurolog opt trait interv ischémie céréb aigüe" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neuro trait isch cér" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Neurologie option traitement interventionnel de l'ischémie cérébrale aigüe" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM85" ] ;
+     fhir:display [ fhir:v "DES Oncologie option oncologie médicale" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Onco médicale" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie option oncologie médicale" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM86" ] ;
+     fhir:display [ fhir:v "DES Oncologie option oncologie radiothérapie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Onco radiothérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Oncologie option oncologie radiothérapie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM87" ] ;
+     fhir:display [ fhir:v "DES Ophtalmo opt chir ophtalmopéd strabologique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Ophta chir péd strab" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Ophtalmo option chirurgie ophtalmopédiatrique et strabologique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM88" ] ;
+     fhir:display [ fhir:v "DES ORL - chir cervico-faciale opt audiophonologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES ORL-CCF audiophono" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES ORL et chirurgie cervico-faciale option audiophonologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM89" ] ;
+     fhir:display [ fhir:v "DES Pédiatrie option néonatologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie néonat" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie option néonatologie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM90" ] ;
+     fhir:display [ fhir:v "DES Pédiatrie option neuropédiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie neuropéd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie option neuropédiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM91" ] ;
+     fhir:display [ fhir:v "DES Pédiatrie option pneumopédiatrie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie pneumopéd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie option pneumopédiatrie" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM92" ] ;
+     fhir:display [ fhir:v "DES Pédiatrie option réanimation pédiatrique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie réa péd" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pédiatrie option réanimation pédiatrique" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM93" ] ;
+     fhir:display [ fhir:v "DES Pneumologie opt soins intensifs respiratoires" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pneumo soins int" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Pneumologie option soins intensifs respiratoires" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM94" ] ;
+     fhir:display [ fhir:v "DES Psychiatrie option enfant et adolescent" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psy enfant ado" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psychiatrie option enfant et adolescent" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM95" ] ;
+     fhir:display [ fhir:v "DES Psychiatrie opt psychiatrie personne âgée" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psy personne âgée" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Psychiatrie option psychiatrie personne âgée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM96" ] ;
+     fhir:display [ fhir:v "DES Radiologie imagerie médic opt radio inter av" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radiologie inter av" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Radiologie imagerie médicale option radiologie interventionnelle avancée" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM97" ] ;
+     fhir:display [ fhir:v "DES Santé publique opt administration de la santé" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publique admin" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Santé publique option administration de la santé" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM98" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt bactério, virologie, hygiène" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd bactério" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option bactériologie, virologie et hygiène hospitalière" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM99" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt biochimie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd biochim" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option biochimie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM100" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt biologie de la reproduction" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd reproduc" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option biologie de la reproduction" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM101" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt génétique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd génétiq" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option biologie génétique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM102" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt hématologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd hémato" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option hématologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM103" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt immunologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd immuno" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option immunologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM104" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt parasitologie-mycologie, risq" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd parasito" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option parasitologie-mycologie et risques environnementaux" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM105" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt pharmacologie-toxicologie" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd pharmaco" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option pharmacologie-toxicologie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSM106" ] ;
+     fhir:display [ fhir:v "DES Biologie méd opt thérapie cellulaire-génique" ] ;
+     fhir:designation ( [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleCourt" ]
+       ] ;
+       fhir:value [ fhir:v "DES Bio méd thérapie" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "LibelleAdapte" ]
+       ] ;
+       fhir:value [ fhir:v "DES Biologie médicale option thérapie cellulaire et thérapie génique" ]
+     ] [
+       fhir:use [
+         fhir:code [ fhir:v "DescriptionMetier" ]
+       ] ;
+       fhir:value [ fhir:v "Bulletin officiel n°19 du 11 mai 2006 (DES antérieur à la réforme de 2017)" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "dateValid" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] [
+       fhir:code [ fhir:v "dateMaj" ] ;
+       fhir:value [ fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

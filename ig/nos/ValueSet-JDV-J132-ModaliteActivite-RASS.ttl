@@ -1,0 +1,1658 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J132-ModaliteActivite-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J132-ModaliteActivite-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R275-ModaliteActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-00\">00</a></td><td>Pas de modalité</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-01\">01</a></td><td>Gynécologie obstétrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-02\">02</a></td><td>Néonatologie sans soins intensifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-03\">03</a></td><td>Néonatologie avec soins intensifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-04\">04</a></td><td>Réanimation néonatale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-05\">05</a></td><td>Centre périnatal de proximité</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-06\">06</a></td><td>Générale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-07\">07</a></td><td>Infanto-juvénile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-08\">08</a></td><td>En milieu pénitentiaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-09\">09</a></td><td>Adulte (age &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-10\">10</a></td><td>Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-11\">11</a></td><td>Poumon</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-12\">12</a></td><td>Foie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-13\">13</a></td><td>Rein</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-22\">22</a></td><td>SAMU Service d'aide médicale urgente</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-23\">23</a></td><td>SU Structure des urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-24\">24</a></td><td>SUP Structure des urgences pédiatriques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-26\">26</a></td><td>SMUR Structure mobile d'urgence et de réanimation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-27\">27</a></td><td>SMURP Structure mobile d'urgence et de réanimation pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-29\">29</a></td><td>SMUR Antenne</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-30\">30</a></td><td>USI Pneumologie Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-31\">31</a></td><td>Multi-organes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-40\">40</a></td><td>Hémodialyse en centre pour adultes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-41\">41</a></td><td>Hémodialyse en centre pour enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-42\">42</a></td><td>Hémodialyse en unité médicalisée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-43\">43</a></td><td>Hémodialyse en unité d'auto dialyse simple</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-44\">44</a></td><td>Hémodialyse en unité d'auto dialyse assistée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-45\">45</a></td><td>Hémodialyse à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-46\">46</a></td><td>Dialyse péritonéale à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-47\">47</a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'une AMP</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-48\">48</a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'un don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-49\">49</a></td><td>AMP clinique : prélèvement de spermatozoïdes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-50\">50</a></td><td>AMP clinique : transfert des embryons en vue de leur implantation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-51\">51</a></td><td>Bio : préparation et conservation du sperme pour insémination artificielle</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-52\">52</a></td><td>AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-54\">54</a></td><td>AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-59\">59</a></td><td>AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-60\">60</a></td><td>DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-62\">62</a></td><td>DPN : Les examens en vue du diagnostic de maladies infectieuses</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-67\">67</a></td><td>Chimiothérapie ou autres traitements médicaux spécifiques du cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-68\">68</a></td><td>Radiothérapie externe</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-69\">69</a></td><td>Chirurgie des cancers hors soumis à seuil</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-70\">70</a></td><td>Curiethérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-71\">71</a></td><td>Utilisation thérapeutique de radioéléments en sources non scellées</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-72\">72</a></td><td>Unité de dialyse saisonnière</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-73\">73</a></td><td>AMP Clinique : mise en oeuvre de l'accueil des embryons</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-74\">74</a></td><td>AMP Bio : conservation des embryons en vue d'un projet parental</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-75\">75</a></td><td>AMP Bio : conservation à usage autologue des gamètes et tissus germinaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-76\">76</a></td><td>Adulte et pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-77\">77</a></td><td>Enfant (&lt; de 6 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-78\">78</a></td><td>Juvénile (age &gt;= 6 ans et &lt; 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-79\">79</a></td><td>Pédiatrie - âges non différenciés</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-80\">80</a></td><td>AMP Bio : activité relative à la FIV avec ou sans micromanipulation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-81\">81</a></td><td>Actes électrophysio de rythmologie intervent, stimul multi sites et défibril</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-82\">82</a></td><td>Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-83\">83</a></td><td>Actes portant sur les autres cardiopathies de l'adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-84\">84</a></td><td>Analyses cytogénétique, y compris les analyses cytogénétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-85\">85</a></td><td>Analyses de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-87\">87</a></td><td>Fonctionnelle cérébrale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-88\">88</a></td><td>Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-89\">89</a></td><td>Radiothérapie externe dérogatoire éloignement géographique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-90\">90</a></td><td>Chirurgie des cancers : digestif</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-91\">91</a></td><td>Chirurgie des cancers : sein</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-92\">92</a></td><td>Chirurgie des cancers : urologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-93\">93</a></td><td>Chirurgie des cancers : thorax</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-94\">94</a></td><td>Chirurgie des cancers : gynécologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-95\">95</a></td><td>Chirurgie des cancers : ORL et maxillo-faciale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-97\">97</a></td><td>Adulte (age &gt;=18 ans) dérogatoire éloignement géographique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-98\">98</a></td><td>Pédiatrique spécialisée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-99\">99</a></td><td>Sans autre indication</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AL\">AL</a></td><td>DPN : Les examens de biochimie portant sur les marqueurs sériques maternels</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AM\">AM</a></td><td>DPN : Les examens de biochimie foetale à visée diagnostique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AN\">AN</a></td><td>DPN : Les examens de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AP\">AP</a></td><td>DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AQ\">AQ</a></td><td>1ère administration à l'homme d'un médicament</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AR\">AR</a></td><td>1ère administration à l'homme autre que médicament</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B1\">B1</a></td><td>Chirurgie orthopédique et traumatologique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B2\">B2</a></td><td>Chirurgie pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B3\">B3</a></td><td>Clinique ouverte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B4\">B4</a></td><td>Gériatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B5\">B5</a></td><td>Grands brûlés</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B7\">B7</a></td><td>Grands brûlés - Adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B8\">B8</a></td><td>Orthogénie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B9\">B9</a></td><td>Grands brûlés - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C2\">C2</a></td><td>Adulte (âge &gt;=18 ans) - Traitement dont chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C4\">C4</a></td><td>Neurovasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C5\">C5</a></td><td>Obstétrique - Anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C6\">C6</a></td><td>Odontologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C7\">C7</a></td><td>Pédiatrique - Traitement dont chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C8\">C8</a></td><td>Pneumologie - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C9\">C9</a></td><td>Polytraumatismes graves et complexes multiples</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D2\">D2</a></td><td>Réhabilitation et réinsertion psycho-sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D3\">D3</a></td><td>S.O.S. mains</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D4\">D4</a></td><td>Structure de sevrage niveau 2</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D5\">D5</a></td><td>Structure de sevrage niveau 3</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D6\">D6</a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D7\">D7</a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D8\">D8</a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans )</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D9\">D9</a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E1\">E1</a></td><td>Traitements médicaux - Autres traitements spécifiques - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E2\">E2</a></td><td>Traitements médicaux - Autres traitements spécifiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E3\">E3</a></td><td>Traitements médicaux - Endoscopies digestives interventionnelles - Adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E4\">E4</a></td><td>Traumatismes cranio-cérébraux et médullaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E5\">E5</a></td><td>Unité Cognitivo-Comportementale - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E7\">E7</a></td><td>Unité d'Hébergement Renforcée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E8\">E8</a></td><td>Unités de soins palliatifs à vocation régionale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E9\">E9</a></td><td>Urologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F1\">F1</a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F2\">F2</a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F3\">F3</a></td><td>USI Dermato - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F5\">F5</a></td><td>USI Hémato - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F6\">F6</a></td><td>USI Hémato - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F7\">F7</a></td><td>USI Hématologie avec système de traitement de l'air</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F8\">F8</a></td><td>USI hépato-gastro-entérologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G1\">G1</a></td><td>USI Maladie infectieuse - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G3\">G3</a></td><td>USI Néphrologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G5\">G5</a></td><td>USI Neuro - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G6\">G6</a></td><td>USI Neuro - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G8\">G8</a></td><td>Lit de Soins Intensifs - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G9\">G9</a></td><td>USI Oncologie - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H1\">H1</a></td><td>USI Oncologie- Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H4\">H4</a></td><td>USI Pneumologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H5\">H5</a></td><td>USI Urologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H8\">H8</a></td><td>Prise en charge Covid long</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H9\">H9</a></td><td>Vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M0\">M0</a></td><td>Dépôt d'urgence</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M1\">M1</a></td><td>Dépôt de délivrance</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M2\">M2</a></td><td>Dépôt relais</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M3\">M3</a></td><td>A usage intérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M4\">M4</a></td><td>A usage intérieur et extérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M5\">M5</a></td><td>CSH moelle osseuse allogéniques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M6\">M6</a></td><td>CSH moelle osseuse autologues</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M7\">M7</a></td><td>CSH sang périphérique allogéniques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M8\">M8</a></td><td>CSH sang périphérique autologues</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M9\">M9</a></td><td>CSH sang de cordon ou sang placentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N0\">N0</a></td><td>Structure de sevrage niveau 2 ou 3</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N1\">N1</a></td><td>Unité de soins palliatifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N2\">N2</a></td><td>Lits identifiés (Médecine) - adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N3\">N3</a></td><td>Lits identifiés (Médecine) - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N4\">N4</a></td><td>Equipe mobile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N5\">N5</a></td><td>Unité de soins intensifs (hors cardiologie)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N6\">N6</a></td><td>Unité de soins intensifs en cardiologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N7\">N7</a></td><td>USC polyvalente - adulte (adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N8\">N8</a></td><td>USC polyvalente - adulte (non adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N9\">N9</a></td><td>USC polyvalente - pédiatrique (adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P0\">P0</a></td><td>USC polyvalente - pédiatrique (non adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P1\">P1</a></td><td>USC spécialisée cancérologie- pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P2\">P2</a></td><td>USC spécialisée transplantation d'organes - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P3\">P3</a></td><td>USC chirurgicale individualisée - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P4\">P4</a></td><td>A l'occasion d'un prélèvement multi-organes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P5\">P5</a></td><td>Adulte (âge &gt;=18 ans) - Traitement sans chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P6\">P6</a></td><td>Anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P7\">P7</a></td><td>Cardiologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P8\">P8</a></td><td>Cardiologie interventionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P9\">P9</a></td><td>Centre de référence</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U0\">U0</a></td><td>Neurologie - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U1\">U1</a></td><td>Chambre stérile en hématologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U2\">U2</a></td><td>Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U3\">U3</a></td><td>Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U4\">U4</a></td><td>Chimiothérapie - Tumeurs solides - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U5\">U5</a></td><td>Chirurgie cancer - Os et tissus mous - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U6\">U6</a></td><td>Chirurgie cancer - Autres traitements spécifiques - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U8\">U8</a></td><td>Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U9\">U9</a></td><td>Chirurgie cancer - Cancer Thyroïde - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V1\">V1</a></td><td>Chirurgie cancer - Cancers cutanés - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V2\">V2</a></td><td>Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V3\">V3</a></td><td>Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V4\">V4</a></td><td>Chirurgie cancer - Pathologies orthopédiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V5\">V5</a></td><td>Chirurgie cancer - Pathologies viscérales - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V6\">V6</a></td><td>Chirurgie cancer - Système nerveux central - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V7\">V7</a></td><td>Chirurgie cancer - Système nerveux central - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V8\">V8</a></td><td>Chirurgie complexe de la main</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V9\">V9</a></td><td>Chirurgie digestive et viscérale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W1\">W1</a></td><td>Unité péri-opératoire gériatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W2\">W2</a></td><td>Lits identifiés (SSR) - adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W3\">W3</a></td><td>Lits identifiés (SSR) - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W4\">W4</a></td><td>Lit de Soins Intensifs - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W5\">W5</a></td><td>USPC - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W6\">W6</a></td><td>USPC - Pédiatrique</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.218" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J132-ModaliteActivite-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Mode d'application ou type de soins encadrant une activité dans le RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "00" ] ;
+         fhir:display [ fhir:v "Pas de modalité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Gynécologie obstétrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "02" ] ;
+         fhir:display [ fhir:v "Néonatologie sans soins intensifs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "03" ] ;
+         fhir:display [ fhir:v "Néonatologie avec soins intensifs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Réanimation néonatale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "05" ] ;
+         fhir:display [ fhir:v "Centre périnatal de proximité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "06" ] ;
+         fhir:display [ fhir:v "Générale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "07" ] ;
+         fhir:display [ fhir:v "Infanto-juvénile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "08" ] ;
+         fhir:display [ fhir:v "En milieu pénitentiaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "09" ] ;
+         fhir:display [ fhir:v "Adulte (age >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Poumon" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "Foie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Rein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "SAMU Service d'aide médicale urgente" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "SU Structure des urgences" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "SUP Structure des urgences pédiatriques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "SMUR Structure mobile d'urgence et de réanimation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "SMURP Structure mobile d'urgence et de réanimation pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "SMUR Antenne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "USI Pneumologie Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "Multi-organes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Hémodialyse en centre pour adultes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Hémodialyse en centre pour enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Hémodialyse en unité médicalisée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Hémodialyse en unité d'auto dialyse simple" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Hémodialyse en unité d'auto dialyse assistée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Hémodialyse à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Dialyse péritonéale à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "AMP clinique : prélèvement d'ovocytes en vue d'une AMP" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "AMP clinique : prélèvement d'ovocytes en vue d'un don" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "AMP clinique : prélèvement de spermatozoïdes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "AMP clinique : transfert des embryons en vue de leur implantation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Bio : préparation et conservation du sperme pour insémination artificielle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "62" ] ;
+         fhir:display [ fhir:v "DPN : Les examens en vue du diagnostic de maladies infectieuses" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "67" ] ;
+         fhir:display [ fhir:v "Chimiothérapie ou autres traitements médicaux spécifiques du cancer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "68" ] ;
+         fhir:display [ fhir:v "Radiothérapie externe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "69" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers hors soumis à seuil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "70" ] ;
+         fhir:display [ fhir:v "Curiethérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Utilisation thérapeutique de radioéléments en sources non scellées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Unité de dialyse saisonnière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "AMP Clinique : mise en oeuvre de l'accueil des embryons" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "74" ] ;
+         fhir:display [ fhir:v "AMP Bio : conservation des embryons en vue d'un projet parental" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "75" ] ;
+         fhir:display [ fhir:v "AMP Bio : conservation à usage autologue des gamètes et tissus germinaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "76" ] ;
+         fhir:display [ fhir:v "Adulte et pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "77" ] ;
+         fhir:display [ fhir:v "Enfant (< de 6 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "78" ] ;
+         fhir:display [ fhir:v "Juvénile (age >= 6 ans et < 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "79" ] ;
+         fhir:display [ fhir:v "Pédiatrie - âges non différenciés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "80" ] ;
+         fhir:display [ fhir:v "AMP Bio : activité relative à la FIV avec ou sans micromanipulation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "81" ] ;
+         fhir:display [ fhir:v "Actes électrophysio de rythmologie intervent, stimul multi sites et défibril" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "82" ] ;
+         fhir:display [ fhir:v "Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "83" ] ;
+         fhir:display [ fhir:v "Actes portant sur les autres cardiopathies de l'adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "84" ] ;
+         fhir:display [ fhir:v "Analyses cytogénétique, y compris les analyses cytogénétique moléculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "85" ] ;
+         fhir:display [ fhir:v "Analyses de génétique moléculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "87" ] ;
+         fhir:display [ fhir:v "Fonctionnelle cérébrale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "88" ] ;
+         fhir:display [ fhir:v "Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "89" ] ;
+         fhir:display [ fhir:v "Radiothérapie externe dérogatoire éloignement géographique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "90" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : digestif" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "91" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : sein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "92" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : urologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : thorax" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "94" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : gynécologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "95" ] ;
+         fhir:display [ fhir:v "Chirurgie des cancers : ORL et maxillo-faciale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Adulte (age >=18 ans) dérogatoire éloignement géographique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "98" ] ;
+         fhir:display [ fhir:v "Pédiatrique spécialisée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99" ] ;
+         fhir:display [ fhir:v "Sans autre indication" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AL" ] ;
+         fhir:display [ fhir:v "DPN : Les examens de biochimie portant sur les marqueurs sériques maternels" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AM" ] ;
+         fhir:display [ fhir:v "DPN : Les examens de biochimie foetale à visée diagnostique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AN" ] ;
+         fhir:display [ fhir:v "DPN : Les examens de génétique moléculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AP" ] ;
+         fhir:display [ fhir:v "DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AQ" ] ;
+         fhir:display [ fhir:v "1ère administration à l'homme d'un médicament" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:display [ fhir:v "1ère administration à l'homme autre que médicament" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B1" ] ;
+         fhir:display [ fhir:v "Chirurgie orthopédique et traumatologique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B2" ] ;
+         fhir:display [ fhir:v "Chirurgie pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B3" ] ;
+         fhir:display [ fhir:v "Clinique ouverte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B4" ] ;
+         fhir:display [ fhir:v "Gériatrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B5" ] ;
+         fhir:display [ fhir:v "Grands brûlés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B7" ] ;
+         fhir:display [ fhir:v "Grands brûlés - Adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B8" ] ;
+         fhir:display [ fhir:v "Orthogénie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "B9" ] ;
+         fhir:display [ fhir:v "Grands brûlés - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C2" ] ;
+         fhir:display [ fhir:v "Adulte (âge >=18 ans) - Traitement dont chimiothérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C4" ] ;
+         fhir:display [ fhir:v "Neurovasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C5" ] ;
+         fhir:display [ fhir:v "Obstétrique - Anesthésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C6" ] ;
+         fhir:display [ fhir:v "Odontologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C7" ] ;
+         fhir:display [ fhir:v "Pédiatrique - Traitement dont chimiothérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C8" ] ;
+         fhir:display [ fhir:v "Pneumologie - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C9" ] ;
+         fhir:display [ fhir:v "Polytraumatismes graves et complexes multiples" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D2" ] ;
+         fhir:display [ fhir:v "Réhabilitation et réinsertion psycho-sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D3" ] ;
+         fhir:display [ fhir:v "S.O.S. mains" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D4" ] ;
+         fhir:display [ fhir:v "Structure de sevrage niveau 2" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D5" ] ;
+         fhir:display [ fhir:v "Structure de sevrage niveau 3" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D6" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D7" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D8" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge >= 18 ans )" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "D9" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E1" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Autres traitements spécifiques - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E2" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Autres traitements spécifiques - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E3" ] ;
+         fhir:display [ fhir:v "Traitements médicaux - Endoscopies digestives interventionnelles - Adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E4" ] ;
+         fhir:display [ fhir:v "Traumatismes cranio-cérébraux et médullaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E5" ] ;
+         fhir:display [ fhir:v "Unité Cognitivo-Comportementale - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E7" ] ;
+         fhir:display [ fhir:v "Unité d'Hébergement Renforcée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E8" ] ;
+         fhir:display [ fhir:v "Unités de soins palliatifs à vocation régionale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "E9" ] ;
+         fhir:display [ fhir:v "Urologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F1" ] ;
+         fhir:display [ fhir:v "USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F2" ] ;
+         fhir:display [ fhir:v "USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F3" ] ;
+         fhir:display [ fhir:v "USI Dermato - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F5" ] ;
+         fhir:display [ fhir:v "USI Hémato - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F6" ] ;
+         fhir:display [ fhir:v "USI Hémato - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F7" ] ;
+         fhir:display [ fhir:v "USI Hématologie avec système de traitement de l'air" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "F8" ] ;
+         fhir:display [ fhir:v "USI hépato-gastro-entérologie - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G1" ] ;
+         fhir:display [ fhir:v "USI Maladie infectieuse - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G3" ] ;
+         fhir:display [ fhir:v "USI Néphrologie - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G5" ] ;
+         fhir:display [ fhir:v "USI Neuro - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G6" ] ;
+         fhir:display [ fhir:v "USI Neuro - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G8" ] ;
+         fhir:display [ fhir:v "Lit de Soins Intensifs - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "G9" ] ;
+         fhir:display [ fhir:v "USI Oncologie - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "H1" ] ;
+         fhir:display [ fhir:v "USI Oncologie- Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "H4" ] ;
+         fhir:display [ fhir:v "USI Pneumologie - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "H5" ] ;
+         fhir:display [ fhir:v "USI Urologie - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "H8" ] ;
+         fhir:display [ fhir:v "Prise en charge Covid long" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "H9" ] ;
+         fhir:display [ fhir:v "Vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M0" ] ;
+         fhir:display [ fhir:v "Dépôt d'urgence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M1" ] ;
+         fhir:display [ fhir:v "Dépôt de délivrance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M2" ] ;
+         fhir:display [ fhir:v "Dépôt relais" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M3" ] ;
+         fhir:display [ fhir:v "A usage intérieur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M4" ] ;
+         fhir:display [ fhir:v "A usage intérieur et extérieur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M5" ] ;
+         fhir:display [ fhir:v "CSH moelle osseuse allogéniques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M6" ] ;
+         fhir:display [ fhir:v "CSH moelle osseuse autologues" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M7" ] ;
+         fhir:display [ fhir:v "CSH sang périphérique allogéniques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M8" ] ;
+         fhir:display [ fhir:v "CSH sang périphérique autologues" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "M9" ] ;
+         fhir:display [ fhir:v "CSH sang de cordon ou sang placentaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N0" ] ;
+         fhir:display [ fhir:v "Structure de sevrage niveau 2 ou 3" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N1" ] ;
+         fhir:display [ fhir:v "Unité de soins palliatifs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N2" ] ;
+         fhir:display [ fhir:v "Lits identifiés (Médecine) - adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N3" ] ;
+         fhir:display [ fhir:v "Lits identifiés (Médecine) - pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N4" ] ;
+         fhir:display [ fhir:v "Equipe mobile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N5" ] ;
+         fhir:display [ fhir:v "Unité de soins intensifs (hors cardiologie)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N6" ] ;
+         fhir:display [ fhir:v "Unité de soins intensifs en cardiologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N7" ] ;
+         fhir:display [ fhir:v "USC polyvalente - adulte (adossée à une unité de réanimation)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N8" ] ;
+         fhir:display [ fhir:v "USC polyvalente - adulte (non adossée à une unité de réanimation)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "N9" ] ;
+         fhir:display [ fhir:v "USC polyvalente - pédiatrique (adossée à une unité de réanimation)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P0" ] ;
+         fhir:display [ fhir:v "USC polyvalente - pédiatrique (non adossée à une unité de réanimation)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P1" ] ;
+         fhir:display [ fhir:v "USC spécialisée cancérologie- pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P2" ] ;
+         fhir:display [ fhir:v "USC spécialisée transplantation d'organes - pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P3" ] ;
+         fhir:display [ fhir:v "USC chirurgicale individualisée - pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P4" ] ;
+         fhir:display [ fhir:v "A l'occasion d'un prélèvement multi-organes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P5" ] ;
+         fhir:display [ fhir:v "Adulte (âge >=18 ans) - Traitement sans chimiothérapie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P6" ] ;
+         fhir:display [ fhir:v "Anesthésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P7" ] ;
+         fhir:display [ fhir:v "Cardiologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P8" ] ;
+         fhir:display [ fhir:v "Cardiologie interventionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "P9" ] ;
+         fhir:display [ fhir:v "Centre de référence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U0" ] ;
+         fhir:display [ fhir:v "Neurologie - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U1" ] ;
+         fhir:display [ fhir:v "Chambre stérile en hématologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U2" ] ;
+         fhir:display [ fhir:v "Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U3" ] ;
+         fhir:display [ fhir:v "Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U4" ] ;
+         fhir:display [ fhir:v "Chimiothérapie - Tumeurs solides - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U5" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Os et tissus mous - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U6" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Autres traitements spécifiques - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U8" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "U9" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Cancer Thyroïde - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V1" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Cancers cutanés - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V2" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V3" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V4" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Pathologies orthopédiques - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V5" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Pathologies viscérales - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V6" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Système nerveux central - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V7" ] ;
+         fhir:display [ fhir:v "Chirurgie cancer - Système nerveux central - Adulte (âge >= 18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V8" ] ;
+         fhir:display [ fhir:v "Chirurgie complexe de la main" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "V9" ] ;
+         fhir:display [ fhir:v "Chirurgie digestive et viscérale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W1" ] ;
+         fhir:display [ fhir:v "Unité péri-opératoire gériatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W2" ] ;
+         fhir:display [ fhir:v "Lits identifiés (SSR) - adulte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W3" ] ;
+         fhir:display [ fhir:v "Lits identifiés (SSR) - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W4" ] ;
+         fhir:display [ fhir:v "Lit de Soins Intensifs - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W5" ] ;
+         fhir:display [ fhir:v "USPC - Adulte (âge >=18 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "W6" ] ;
+         fhir:display [ fhir:v "USPC - Pédiatrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.127" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

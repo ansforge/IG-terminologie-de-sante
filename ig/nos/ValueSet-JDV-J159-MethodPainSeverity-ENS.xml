@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J159-MethodPainSeverity-ENS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-TRE-R307-NCIT.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C21082">C21082</a></td><td>échelle numérique de la douleur</td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C121547">C121547</a></td><td>échelle visuelle analogique</td></tr><tr><td><a href="CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C21133">C21133</a></td><td>échelle d'évaluation verbale</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J159-MethodPainSeverity-ENS/FHIR/JDV-J159-MethodPainSeverity-ENS"/>
+  <identifier>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.614"/>
+  </identifier>
+  <version value="1.1.0"/>
+  <name value="JDV_J159-MethodPainSeverity-ENS"/>
+  <status value="active"/>
+  <date value="2023-09-22T12:00:00+01:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="JDV pour la méthode de la mesure du niveau de douleur"/>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+      <concept>
+        <code value="C21082"/>
+        <display value="échelle numérique de la douleur"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C121547"/>
+        <display value="échelle visuelle analogique"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="C21133"/>
+        <display value="échelle d'évaluation verbale"/>
+        <designation>
+          <use>
+            <code value="OID"/>
+          </use>
+          <value value="urn:oid:2.16.840.1.113883.3.26.1.1"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

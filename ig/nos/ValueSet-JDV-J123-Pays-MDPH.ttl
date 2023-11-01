@@ -1,0 +1,1967 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J123-Pays-MDPH> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J123-Pays-MDPH"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R20-Pays.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99100\">99100</a></td><td>France</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99101\">99101</a></td><td>Danemark</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99102\">99102</a></td><td>Islande</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99103\">99103</a></td><td>Norvège</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99104\">99104</a></td><td>Suède</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99105\">99105</a></td><td>Finlande</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99106\">99106</a></td><td>Estonie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99107\">99107</a></td><td>Lettonie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99108\">99108</a></td><td>Lituanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99109\">99109</a></td><td>Allemagne</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99110\">99110</a></td><td>Autriche</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99111\">99111</a></td><td>Bulgarie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99112\">99112</a></td><td>Hongrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99113\">99113</a></td><td>Liechtenstein</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99114\">99114</a></td><td>Roumanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99116\">99116</a></td><td>République tchèque</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99117\">99117</a></td><td>Slovaquie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99118\">99118</a></td><td>Bosnie-Herzégovine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99119\">99119</a></td><td>Croatie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99120\">99120</a></td><td>Monténégro</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99121\">99121</a></td><td>Serbie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99122\">99122</a></td><td>Pologne</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99123\">99123</a></td><td>Russie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99125\">99125</a></td><td>Albanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99126\">99126</a></td><td>Grèce</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99127\">99127</a></td><td>Italie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99128\">99128</a></td><td>Saint-Marin</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99129\">99129</a></td><td>Vatican</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99130\">99130</a></td><td>Andorre</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99131\">99131</a></td><td>Belgique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99132\">99132</a></td><td>Royaume-Uni</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99133\">99133</a></td><td>Gibraltar</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99134\">99134</a></td><td>Espagne</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99135\">99135</a></td><td>Pays-Bas</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99136\">99136</a></td><td>Irlande</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99137\">99137</a></td><td>Luxembourg</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99138\">99138</a></td><td>Monaco</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99139\">99139</a></td><td>Portugal</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99140\">99140</a></td><td>Suisse</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99144\">99144</a></td><td>Malte</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99145\">99145</a></td><td>Slovénie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99148\">99148</a></td><td>Biélorussie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99151\">99151</a></td><td>Moldavie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99155\">99155</a></td><td>Ukraine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99156\">99156</a></td><td>Macédoine du nord</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99157\">99157</a></td><td>Kosovo</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99201\">99201</a></td><td>Arabie saoudite</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99203\">99203</a></td><td>Iraq</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99204\">99204</a></td><td>Iran</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99205\">99205</a></td><td>Liban</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99206\">99206</a></td><td>Syrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99207\">99207</a></td><td>Israël</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99208\">99208</a></td><td>Turquie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99212\">99212</a></td><td>Afghanistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99213\">99213</a></td><td>Pakistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99214\">99214</a></td><td>Bhoutan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99215\">99215</a></td><td>Népal</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99216\">99216</a></td><td>Chine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99217\">99217</a></td><td>Japon</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99219\">99219</a></td><td>Thaïlande</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99220\">99220</a></td><td>Philippines</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99222\">99222</a></td><td>Jordanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99223\">99223</a></td><td>Inde</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99224\">99224</a></td><td>Birmanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99225\">99225</a></td><td>Brunei</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99226\">99226</a></td><td>Singapour</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99227\">99227</a></td><td>Malaisie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99229\">99229</a></td><td>Maldives</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99231\">99231</a></td><td>Indonésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99234\">99234</a></td><td>Cambodge</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99235\">99235</a></td><td>Sri Lanka</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99236\">99236</a></td><td>Taïwan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99238\">99238</a></td><td>République populaire démocratique de Corée</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99239\">99239</a></td><td>République de Corée</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99240\">99240</a></td><td>Koweït</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99241\">99241</a></td><td>Laos</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99242\">99242</a></td><td>Mongolie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99243\">99243</a></td><td>Viêt Nam</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99246\">99246</a></td><td>Bangladesh</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99247\">99247</a></td><td>Émirats arabes unis</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99248\">99248</a></td><td>Qatar</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99249\">99249</a></td><td>Bahreïn</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99250\">99250</a></td><td>Oman</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99251\">99251</a></td><td>Yémen</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99252\">99252</a></td><td>Arménie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99253\">99253</a></td><td>Azerbaïdjan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99254\">99254</a></td><td>Chypre</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99255\">99255</a></td><td>Géorgie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99256\">99256</a></td><td>Kazakhstan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99257\">99257</a></td><td>Kirghizistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99258\">99258</a></td><td>Ouzbékistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99259\">99259</a></td><td>Tadjikistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99260\">99260</a></td><td>Turkménistan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99261\">99261</a></td><td>Etat de Palestine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99262\">99262</a></td><td>Timor oriental</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99301\">99301</a></td><td>Egypte</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99302\">99302</a></td><td>Liberia</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99303\">99303</a></td><td>Afrique du Sud</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99304\">99304</a></td><td>Gambie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99306\">99306</a></td><td>Sainte-Hélène</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99308\">99308</a></td><td>Territoire britannique de l'océan Indien</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99309\">99309</a></td><td>Tanzanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99310\">99310</a></td><td>Zimbabwe</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99311\">99311</a></td><td>Namibie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99312\">99312</a></td><td>République démocratique du Congo</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99313\">99313</a></td><td>Provinces espagnoles d'Afrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99314\">99314</a></td><td>Guinée équatoriale</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99315\">99315</a></td><td>Ethiopie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99316\">99316</a></td><td>Libye</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99317\">99317</a></td><td>Erythrée</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99318\">99318</a></td><td>Somalie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99319\">99319</a></td><td>Açores, Madère</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99321\">99321</a></td><td>Burundi</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99322\">99322</a></td><td>Cameroun</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99323\">99323</a></td><td>République Centrafricaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99324\">99324</a></td><td>Congo</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99326\">99326</a></td><td>Côte d'Ivoire</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99327\">99327</a></td><td>Bénin</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99328\">99328</a></td><td>Gabon</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99329\">99329</a></td><td>Ghana</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99330\">99330</a></td><td>Guinée</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99331\">99331</a></td><td>Burkina</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99332\">99332</a></td><td>Kenya</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99333\">99333</a></td><td>Madagascar</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99334\">99334</a></td><td>Malawi</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99335\">99335</a></td><td>Mali</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99336\">99336</a></td><td>Mauritanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99337\">99337</a></td><td>Niger</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99338\">99338</a></td><td>Nigeria</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99339\">99339</a></td><td>Ouganda</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99340\">99340</a></td><td>Rwanda</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99341\">99341</a></td><td>Sénégal</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99342\">99342</a></td><td>Sierra Leone</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99343\">99343</a></td><td>Soudan</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99344\">99344</a></td><td>Tchad</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99345\">99345</a></td><td>Togo</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99346\">99346</a></td><td>Zambie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99347\">99347</a></td><td>Botswana</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99348\">99348</a></td><td>Lesotho</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99349\">99349</a></td><td>Soudan du Sud</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99350\">99350</a></td><td>Maroc</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99351\">99351</a></td><td>Tunisie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99352\">99352</a></td><td>Algérie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99389\">99389</a></td><td>Sahara occidental</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99390\">99390</a></td><td>Maurice</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99391\">99391</a></td><td>Eswatini</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99392\">99392</a></td><td>Guinée-Bissau</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99393\">99393</a></td><td>Mozambique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99394\">99394</a></td><td>Sao Tomé-et-Principe</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99395\">99395</a></td><td>Angola</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99396\">99396</a></td><td>Cap-Vert</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99397\">99397</a></td><td>Comores</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99398\">99398</a></td><td>Seychelles</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99399\">99399</a></td><td>Djibouti</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99401\">99401</a></td><td>Canada</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99404\">99404</a></td><td>États-Unis</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99405\">99405</a></td><td>Mexique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99406\">99406</a></td><td>Costa Rica</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99407\">99407</a></td><td>Cuba</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99408\">99408</a></td><td>République dominicaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99409\">99409</a></td><td>Guatemala</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99410\">99410</a></td><td>Haïti</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99411\">99411</a></td><td>Honduras</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99412\">99412</a></td><td>Nicaragua</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99413\">99413</a></td><td>Panama</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99414\">99414</a></td><td>El Salvador</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99415\">99415</a></td><td>Argentine</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99416\">99416</a></td><td>Brésil</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99417\">99417</a></td><td>Chili</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99418\">99418</a></td><td>Bolivie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99419\">99419</a></td><td>Colombie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99420\">99420</a></td><td>Equateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99421\">99421</a></td><td>Paraguay</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99422\">99422</a></td><td>Pérou</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99423\">99423</a></td><td>Uruguay</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99424\">99424</a></td><td>Venezuela</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99425\">99425</a></td><td>Territoires du Royaume-Uni aux Antilles</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99426\">99426</a></td><td>Jamaïque</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99427\">99427</a></td><td>Territoires du Royaume-Uni dans l'Atlantique sud</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99428\">99428</a></td><td>Guyana</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99429\">99429</a></td><td>Belize</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99430\">99430</a></td><td>Groenland</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99432\">99432</a></td><td>Territoires des Etats-Unis en Amérique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99433\">99433</a></td><td>Trinite-et-Tobago</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99434\">99434</a></td><td>Barbade</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99435\">99435</a></td><td>Grenade</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99436\">99436</a></td><td>Bahamas</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99437\">99437</a></td><td>Suriname</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99438\">99438</a></td><td>Dominique</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99439\">99439</a></td><td>Sainte-Lucie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99440\">99440</a></td><td>Saint-Vincent-et-les-Grenadines</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99441\">99441</a></td><td>Antigua-et-Barbuda</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99442\">99442</a></td><td>St-Christophe-et-Niévès</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99443\">99443</a></td><td>Bonaire, Saint Eustache et Saba</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99444\">99444</a></td><td>Curaçao</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99445\">99445</a></td><td>Saint-Martin (partie néerlandaise)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99501\">99501</a></td><td>Australie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99502\">99502</a></td><td>Nouvelle-Zélande</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99503\">99503</a></td><td>Pitcairn, île</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99505\">99505</a></td><td>Territoires des Etats-Unis en Océanie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99506\">99506</a></td><td>Samoa occidentales</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99507\">99507</a></td><td>Nauru</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99508\">99508</a></td><td>Fidji</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99509\">99509</a></td><td>Tonga</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99510\">99510</a></td><td>Papouasie-Nouvelle-Guinée</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99511\">99511</a></td><td>Tuvalu</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99512\">99512</a></td><td>Salomon, îles</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99513\">99513</a></td><td>Kiribati</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99514\">99514</a></td><td>Vanuatu</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99515\">99515</a></td><td>Marshall, îles</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99516\">99516</a></td><td>Micronésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99517\">99517</a></td><td>Palaos, îles</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html#TRE-R302-ContexteCodeComplementaire-01\">01</a></td><td>Non renseigné</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J123-Pays-MDPH/FHIR/JDV-J123-Pays-MDPH"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.8" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J123-Pays-MDPH"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-08-28T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Toute la nomenclature des codes pays auquel on ajoute le code applicatif r \"non renseigné\""] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "99100" ] ;
+         fhir:display [ fhir:v "France" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99101" ] ;
+         fhir:display [ fhir:v "Danemark" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99102" ] ;
+         fhir:display [ fhir:v "Islande" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99103" ] ;
+         fhir:display [ fhir:v "Norvège" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99104" ] ;
+         fhir:display [ fhir:v "Suède" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99105" ] ;
+         fhir:display [ fhir:v "Finlande" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99106" ] ;
+         fhir:display [ fhir:v "Estonie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99107" ] ;
+         fhir:display [ fhir:v "Lettonie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99108" ] ;
+         fhir:display [ fhir:v "Lituanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99109" ] ;
+         fhir:display [ fhir:v "Allemagne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99110" ] ;
+         fhir:display [ fhir:v "Autriche" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99111" ] ;
+         fhir:display [ fhir:v "Bulgarie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99112" ] ;
+         fhir:display [ fhir:v "Hongrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99113" ] ;
+         fhir:display [ fhir:v "Liechtenstein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99114" ] ;
+         fhir:display [ fhir:v "Roumanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99116" ] ;
+         fhir:display [ fhir:v "République tchèque" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99117" ] ;
+         fhir:display [ fhir:v "Slovaquie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99118" ] ;
+         fhir:display [ fhir:v "Bosnie-Herzégovine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99119" ] ;
+         fhir:display [ fhir:v "Croatie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99120" ] ;
+         fhir:display [ fhir:v "Monténégro" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99121" ] ;
+         fhir:display [ fhir:v "Serbie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99122" ] ;
+         fhir:display [ fhir:v "Pologne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99123" ] ;
+         fhir:display [ fhir:v "Russie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99125" ] ;
+         fhir:display [ fhir:v "Albanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99126" ] ;
+         fhir:display [ fhir:v "Grèce" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99127" ] ;
+         fhir:display [ fhir:v "Italie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99128" ] ;
+         fhir:display [ fhir:v "Saint-Marin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99129" ] ;
+         fhir:display [ fhir:v "Vatican" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99130" ] ;
+         fhir:display [ fhir:v "Andorre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99131" ] ;
+         fhir:display [ fhir:v "Belgique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99132" ] ;
+         fhir:display [ fhir:v "Royaume-Uni" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99133" ] ;
+         fhir:display [ fhir:v "Gibraltar" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99134" ] ;
+         fhir:display [ fhir:v "Espagne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99135" ] ;
+         fhir:display [ fhir:v "Pays-Bas" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99136" ] ;
+         fhir:display [ fhir:v "Irlande" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99137" ] ;
+         fhir:display [ fhir:v "Luxembourg" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99138" ] ;
+         fhir:display [ fhir:v "Monaco" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99139" ] ;
+         fhir:display [ fhir:v "Portugal" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99140" ] ;
+         fhir:display [ fhir:v "Suisse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99144" ] ;
+         fhir:display [ fhir:v "Malte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99145" ] ;
+         fhir:display [ fhir:v "Slovénie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99148" ] ;
+         fhir:display [ fhir:v "Biélorussie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99151" ] ;
+         fhir:display [ fhir:v "Moldavie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99155" ] ;
+         fhir:display [ fhir:v "Ukraine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99156" ] ;
+         fhir:display [ fhir:v "Macédoine du nord" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99157" ] ;
+         fhir:display [ fhir:v "Kosovo" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99201" ] ;
+         fhir:display [ fhir:v "Arabie saoudite" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99203" ] ;
+         fhir:display [ fhir:v "Iraq" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99204" ] ;
+         fhir:display [ fhir:v "Iran" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99205" ] ;
+         fhir:display [ fhir:v "Liban" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99206" ] ;
+         fhir:display [ fhir:v "Syrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99207" ] ;
+         fhir:display [ fhir:v "Israël" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99208" ] ;
+         fhir:display [ fhir:v "Turquie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99212" ] ;
+         fhir:display [ fhir:v "Afghanistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99213" ] ;
+         fhir:display [ fhir:v "Pakistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99214" ] ;
+         fhir:display [ fhir:v "Bhoutan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99215" ] ;
+         fhir:display [ fhir:v "Népal" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99216" ] ;
+         fhir:display [ fhir:v "Chine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99217" ] ;
+         fhir:display [ fhir:v "Japon" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99219" ] ;
+         fhir:display [ fhir:v "Thaïlande" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99220" ] ;
+         fhir:display [ fhir:v "Philippines" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99222" ] ;
+         fhir:display [ fhir:v "Jordanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99223" ] ;
+         fhir:display [ fhir:v "Inde" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99224" ] ;
+         fhir:display [ fhir:v "Birmanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99225" ] ;
+         fhir:display [ fhir:v "Brunei" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99226" ] ;
+         fhir:display [ fhir:v "Singapour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99227" ] ;
+         fhir:display [ fhir:v "Malaisie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99229" ] ;
+         fhir:display [ fhir:v "Maldives" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99231" ] ;
+         fhir:display [ fhir:v "Indonésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99234" ] ;
+         fhir:display [ fhir:v "Cambodge" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99235" ] ;
+         fhir:display [ fhir:v "Sri Lanka" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99236" ] ;
+         fhir:display [ fhir:v "Taïwan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99238" ] ;
+         fhir:display [ fhir:v "République populaire démocratique de Corée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99239" ] ;
+         fhir:display [ fhir:v "République de Corée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99240" ] ;
+         fhir:display [ fhir:v "Koweït" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99241" ] ;
+         fhir:display [ fhir:v "Laos" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99242" ] ;
+         fhir:display [ fhir:v "Mongolie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99243" ] ;
+         fhir:display [ fhir:v "Viêt Nam" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99246" ] ;
+         fhir:display [ fhir:v "Bangladesh" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99247" ] ;
+         fhir:display [ fhir:v "Émirats arabes unis" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99248" ] ;
+         fhir:display [ fhir:v "Qatar" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99249" ] ;
+         fhir:display [ fhir:v "Bahreïn" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99250" ] ;
+         fhir:display [ fhir:v "Oman" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99251" ] ;
+         fhir:display [ fhir:v "Yémen" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99252" ] ;
+         fhir:display [ fhir:v "Arménie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99253" ] ;
+         fhir:display [ fhir:v "Azerbaïdjan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99254" ] ;
+         fhir:display [ fhir:v "Chypre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99255" ] ;
+         fhir:display [ fhir:v "Géorgie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99256" ] ;
+         fhir:display [ fhir:v "Kazakhstan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99257" ] ;
+         fhir:display [ fhir:v "Kirghizistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99258" ] ;
+         fhir:display [ fhir:v "Ouzbékistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99259" ] ;
+         fhir:display [ fhir:v "Tadjikistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99260" ] ;
+         fhir:display [ fhir:v "Turkménistan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99261" ] ;
+         fhir:display [ fhir:v "Etat de Palestine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99262" ] ;
+         fhir:display [ fhir:v "Timor oriental" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99301" ] ;
+         fhir:display [ fhir:v "Egypte" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99302" ] ;
+         fhir:display [ fhir:v "Liberia" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99303" ] ;
+         fhir:display [ fhir:v "Afrique du Sud" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99304" ] ;
+         fhir:display [ fhir:v "Gambie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99306" ] ;
+         fhir:display [ fhir:v "Sainte-Hélène" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99308" ] ;
+         fhir:display [ fhir:v "Territoire britannique de l'océan Indien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99309" ] ;
+         fhir:display [ fhir:v "Tanzanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99310" ] ;
+         fhir:display [ fhir:v "Zimbabwe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99311" ] ;
+         fhir:display [ fhir:v "Namibie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99312" ] ;
+         fhir:display [ fhir:v "République démocratique du Congo" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99313" ] ;
+         fhir:display [ fhir:v "Provinces espagnoles d'Afrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99314" ] ;
+         fhir:display [ fhir:v "Guinée équatoriale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99315" ] ;
+         fhir:display [ fhir:v "Ethiopie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99316" ] ;
+         fhir:display [ fhir:v "Libye" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99317" ] ;
+         fhir:display [ fhir:v "Erythrée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99318" ] ;
+         fhir:display [ fhir:v "Somalie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99319" ] ;
+         fhir:display [ fhir:v "Açores, Madère" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99321" ] ;
+         fhir:display [ fhir:v "Burundi" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99322" ] ;
+         fhir:display [ fhir:v "Cameroun" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99323" ] ;
+         fhir:display [ fhir:v "République Centrafricaine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99324" ] ;
+         fhir:display [ fhir:v "Congo" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99326" ] ;
+         fhir:display [ fhir:v "Côte d'Ivoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99327" ] ;
+         fhir:display [ fhir:v "Bénin" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99328" ] ;
+         fhir:display [ fhir:v "Gabon" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99329" ] ;
+         fhir:display [ fhir:v "Ghana" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99330" ] ;
+         fhir:display [ fhir:v "Guinée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99331" ] ;
+         fhir:display [ fhir:v "Burkina" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99332" ] ;
+         fhir:display [ fhir:v "Kenya" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99333" ] ;
+         fhir:display [ fhir:v "Madagascar" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99334" ] ;
+         fhir:display [ fhir:v "Malawi" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99335" ] ;
+         fhir:display [ fhir:v "Mali" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99336" ] ;
+         fhir:display [ fhir:v "Mauritanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99337" ] ;
+         fhir:display [ fhir:v "Niger" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99338" ] ;
+         fhir:display [ fhir:v "Nigeria" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99339" ] ;
+         fhir:display [ fhir:v "Ouganda" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99340" ] ;
+         fhir:display [ fhir:v "Rwanda" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99341" ] ;
+         fhir:display [ fhir:v "Sénégal" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99342" ] ;
+         fhir:display [ fhir:v "Sierra Leone" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99343" ] ;
+         fhir:display [ fhir:v "Soudan" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99344" ] ;
+         fhir:display [ fhir:v "Tchad" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99345" ] ;
+         fhir:display [ fhir:v "Togo" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99346" ] ;
+         fhir:display [ fhir:v "Zambie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99347" ] ;
+         fhir:display [ fhir:v "Botswana" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99348" ] ;
+         fhir:display [ fhir:v "Lesotho" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99349" ] ;
+         fhir:display [ fhir:v "Soudan du Sud" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99350" ] ;
+         fhir:display [ fhir:v "Maroc" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99351" ] ;
+         fhir:display [ fhir:v "Tunisie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99352" ] ;
+         fhir:display [ fhir:v "Algérie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99389" ] ;
+         fhir:display [ fhir:v "Sahara occidental" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99390" ] ;
+         fhir:display [ fhir:v "Maurice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99391" ] ;
+         fhir:display [ fhir:v "Eswatini" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99392" ] ;
+         fhir:display [ fhir:v "Guinée-Bissau" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99393" ] ;
+         fhir:display [ fhir:v "Mozambique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99394" ] ;
+         fhir:display [ fhir:v "Sao Tomé-et-Principe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99395" ] ;
+         fhir:display [ fhir:v "Angola" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99396" ] ;
+         fhir:display [ fhir:v "Cap-Vert" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99397" ] ;
+         fhir:display [ fhir:v "Comores" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99398" ] ;
+         fhir:display [ fhir:v "Seychelles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99399" ] ;
+         fhir:display [ fhir:v "Djibouti" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99401" ] ;
+         fhir:display [ fhir:v "Canada" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99404" ] ;
+         fhir:display [ fhir:v "États-Unis" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99405" ] ;
+         fhir:display [ fhir:v "Mexique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99406" ] ;
+         fhir:display [ fhir:v "Costa Rica" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99407" ] ;
+         fhir:display [ fhir:v "Cuba" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99408" ] ;
+         fhir:display [ fhir:v "République dominicaine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99409" ] ;
+         fhir:display [ fhir:v "Guatemala" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99410" ] ;
+         fhir:display [ fhir:v "Haïti" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99411" ] ;
+         fhir:display [ fhir:v "Honduras" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99412" ] ;
+         fhir:display [ fhir:v "Nicaragua" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99413" ] ;
+         fhir:display [ fhir:v "Panama" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99414" ] ;
+         fhir:display [ fhir:v "El Salvador" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99415" ] ;
+         fhir:display [ fhir:v "Argentine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99416" ] ;
+         fhir:display [ fhir:v "Brésil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99417" ] ;
+         fhir:display [ fhir:v "Chili" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99418" ] ;
+         fhir:display [ fhir:v "Bolivie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99419" ] ;
+         fhir:display [ fhir:v "Colombie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99420" ] ;
+         fhir:display [ fhir:v "Equateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99421" ] ;
+         fhir:display [ fhir:v "Paraguay" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99422" ] ;
+         fhir:display [ fhir:v "Pérou" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99423" ] ;
+         fhir:display [ fhir:v "Uruguay" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99424" ] ;
+         fhir:display [ fhir:v "Venezuela" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99425" ] ;
+         fhir:display [ fhir:v "Territoires du Royaume-Uni aux Antilles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99426" ] ;
+         fhir:display [ fhir:v "Jamaïque" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99427" ] ;
+         fhir:display [ fhir:v "Territoires du Royaume-Uni dans l'Atlantique sud" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99428" ] ;
+         fhir:display [ fhir:v "Guyana" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99429" ] ;
+         fhir:display [ fhir:v "Belize" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99430" ] ;
+         fhir:display [ fhir:v "Groenland" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99432" ] ;
+         fhir:display [ fhir:v "Territoires des Etats-Unis en Amérique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99433" ] ;
+         fhir:display [ fhir:v "Trinite-et-Tobago" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99434" ] ;
+         fhir:display [ fhir:v "Barbade" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99435" ] ;
+         fhir:display [ fhir:v "Grenade" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99436" ] ;
+         fhir:display [ fhir:v "Bahamas" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99437" ] ;
+         fhir:display [ fhir:v "Suriname" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99438" ] ;
+         fhir:display [ fhir:v "Dominique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99439" ] ;
+         fhir:display [ fhir:v "Sainte-Lucie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99440" ] ;
+         fhir:display [ fhir:v "Saint-Vincent-et-les-Grenadines" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99441" ] ;
+         fhir:display [ fhir:v "Antigua-et-Barbuda" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99442" ] ;
+         fhir:display [ fhir:v "St-Christophe-et-Niévès" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99443" ] ;
+         fhir:display [ fhir:v "Bonaire, Saint Eustache et Saba" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99444" ] ;
+         fhir:display [ fhir:v "Curaçao" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99445" ] ;
+         fhir:display [ fhir:v "Saint-Martin (partie néerlandaise)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99501" ] ;
+         fhir:display [ fhir:v "Australie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99502" ] ;
+         fhir:display [ fhir:v "Nouvelle-Zélande" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99503" ] ;
+         fhir:display [ fhir:v "Pitcairn, île" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99505" ] ;
+         fhir:display [ fhir:v "Territoires des Etats-Unis en Océanie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99506" ] ;
+         fhir:display [ fhir:v "Samoa occidentales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99507" ] ;
+         fhir:display [ fhir:v "Nauru" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99508" ] ;
+         fhir:display [ fhir:v "Fidji" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99509" ] ;
+         fhir:display [ fhir:v "Tonga" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99510" ] ;
+         fhir:display [ fhir:v "Papouasie-Nouvelle-Guinée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99511" ] ;
+         fhir:display [ fhir:v "Tuvalu" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99512" ] ;
+         fhir:display [ fhir:v "Salomon, îles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99513" ] ;
+         fhir:display [ fhir:v "Kiribati" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99514" ] ;
+         fhir:display [ fhir:v "Vanuatu" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99515" ] ;
+         fhir:display [ fhir:v "Marshall, îles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99516" ] ;
+         fhir:display [ fhir:v "Micronésie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "99517" ] ;
+         fhir:display [ fhir:v "Palaos, îles" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.24" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Non renseigné" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.70" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,485 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J48-ProfessionNonPS-CISIS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J48-ProfessionNonPS-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R95-UsagerTitre.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-71\">71</a></td><td>Ostéopathe</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-72\">72</a></td><td>Psychothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-73\">73</a></td><td>Chiropracteur</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-93\">93</a></td><td>Psychologue</td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-97\">97</a></td><td>Conseiller en génétique</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R94-ProfessionSocial.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-41\">41</a></td><td>Assistant de service social</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-42\">42</a></td><td>Auxiliaire de vie sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-43\">43</a></td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-44\">44</a></td><td>Conseiller en économie sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-45\">45</a></td><td>Médiateur familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-46\">46</a></td><td>Assistant familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-47\">47</a></td><td>Aide médico-psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-48\">48</a></td><td>Moniteur éducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-49\">49</a></td><td>Educateur de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-51\">51</a></td><td>Educateur spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-52\">52</a></td><td>Educateur technique spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-53\">53</a></td><td>Accompagnant éducatif et social</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R85-RolePriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-300\">300</a></td><td>Assistant de service social (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-301\">301</a></td><td>Coordination territoriale d'appui (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-302\">302</a></td><td>Aide et accompagnement à domicile (PAERPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-303\">303</a></td><td>Avocat participant aux processus de soins sans consentement (eSSS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-307\">307</a></td><td>Mandataire judiciaire à la protection des majeurs (MJPM)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-308\">308</a></td><td>Pilote MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-309\">309</a></td><td>Gestionnaire de cas MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-310\">310</a></td><td>Equipe médico-sociale APA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-311\">311</a></td><td>Autre acteur mettant en oeuvre la méthode MAIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-312\">312</a></td><td>Autre professionnel</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-313\">313</a></td><td>Aide-soignant</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-314\">314</a></td><td>Ambulancier</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-315\">315</a></td><td>Auxiliaire de puériculture</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-316\">316</a></td><td>Préparateur en pharmacie hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-317\">317</a></td><td>Préparateur en pharmacie (officine)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-318\">318</a></td><td>Auxiliaire de vie sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-319\">319</a></td><td>Technicien de l'intervention sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-320\">320</a></td><td>Conseiller en économie sociale et familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-321\">321</a></td><td>Médiateur familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-322\">322</a></td><td>Assistant familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-323\">323</a></td><td>Aide médico-psychologique (AMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-324\">324</a></td><td>Moniteur éducateur</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-325\">325</a></td><td>Educateur de jeunes enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-326\">326</a></td><td>Educateur spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-327\">327</a></td><td>Educateur technique spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-328\">328</a></td><td>Accompagnant éducatif et social</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-329\">329</a></td><td>Conseiller en génétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-331\">331</a></td><td>Secrétaire médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-332\">332</a></td><td>Assistant médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-350\">350</a></td><td>Aide à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-351\">351</a></td><td>Assistant(e) maternel(le)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J48-ProfessionNonPS-CISIS/FHIR/JDV-J48-ProfessionNonPS-CISIS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.123" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J48-ProfessionNonPS-CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeux de Valeurs des professions/spécialités des Non Ps"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Ostéopathe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "Psychothérapeute" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Chiropracteur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Psychologue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.109" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Assistant de service social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Assistant familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.4" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "300" ] ;
+         fhir:display [ fhir:v "Assistant de service social (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "301" ] ;
+         fhir:display [ fhir:v "Coordination territoriale d'appui (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "302" ] ;
+         fhir:display [ fhir:v "Aide et accompagnement à domicile (PAERPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "303" ] ;
+         fhir:display [ fhir:v "Avocat participant aux processus de soins sans consentement (eSSS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "307" ] ;
+         fhir:display [ fhir:v "Mandataire judiciaire à la protection des majeurs (MJPM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "308" ] ;
+         fhir:display [ fhir:v "Pilote MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "309" ] ;
+         fhir:display [ fhir:v "Gestionnaire de cas MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "310" ] ;
+         fhir:display [ fhir:v "Equipe médico-sociale APA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "311" ] ;
+         fhir:display [ fhir:v "Autre acteur mettant en oeuvre la méthode MAIA" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "312" ] ;
+         fhir:display [ fhir:v "Autre professionnel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "313" ] ;
+         fhir:display [ fhir:v "Aide-soignant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "314" ] ;
+         fhir:display [ fhir:v "Ambulancier" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "315" ] ;
+         fhir:display [ fhir:v "Auxiliaire de puériculture" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "316" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "317" ] ;
+         fhir:display [ fhir:v "Préparateur en pharmacie (officine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "318" ] ;
+         fhir:display [ fhir:v "Auxiliaire de vie sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "319" ] ;
+         fhir:display [ fhir:v "Technicien de l'intervention sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "320" ] ;
+         fhir:display [ fhir:v "Conseiller en économie sociale et familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "321" ] ;
+         fhir:display [ fhir:v "Médiateur familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "322" ] ;
+         fhir:display [ fhir:v "Assistant familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "323" ] ;
+         fhir:display [ fhir:v "Aide médico-psychologique (AMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Moniteur éducateur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:display [ fhir:v "Educateur de jeunes enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "326" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "327" ] ;
+         fhir:display [ fhir:v "Educateur technique spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "328" ] ;
+         fhir:display [ fhir:v "Accompagnant éducatif et social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "329" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "331" ] ;
+         fhir:display [ fhir:v "Secrétaire médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "332" ] ;
+         fhir:display [ fhir:v "Assistant médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "350" ] ;
+         fhir:display [ fhir:v "Aide à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "351" ] ;
+         fhir:display [ fhir:v "Assistant(e) maternel(le)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.107" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

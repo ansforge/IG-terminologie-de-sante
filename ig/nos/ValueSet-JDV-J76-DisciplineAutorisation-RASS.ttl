@@ -1,0 +1,416 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J76-DisciplineAutorisation-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J76-DisciplineAutorisation-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT01\">DAUT01</a></td><td>Biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT02\">DAUT02</a></td><td>Chirurgie générale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT03\">DAUT03</a></td><td>Chirurgie infantile</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT04\">DAUT04</a></td><td>Chirurgie maxillo-faciale et Stomatologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT05\">DAUT05</a></td><td>Chirurgie orthopédique et Traumatologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT06\">DAUT06</a></td><td>Chirurgie plastique, reconstructrice et esthétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT07\">DAUT07</a></td><td>Chirurgie thoracique et cardio-vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT08\">DAUT08</a></td><td>Chirurgie urologique</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT09\">DAUT09</a></td><td>Chirurgie vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT10\">DAUT10</a></td><td>Chirurgie viscérale et digestive</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT11\">DAUT11</a></td><td>Gynécologie-obstétrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT12\">DAUT12</a></td><td>Neurochirurgie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT13\">DAUT13</a></td><td>Ophtalmologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT14\">DAUT14</a></td><td>Oto-rhino-laryngologie et Chirurgie cervico-faciale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT15\">DAUT15</a></td><td>Anatomie et Cytologie pathologiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT16\">DAUT16</a></td><td>Anesthésie et Réanimation</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT17\">DAUT17</a></td><td>Cardiologie et Maladies vasculaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT18\">DAUT18</a></td><td>Dermatologie et Vénéréologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT19\">DAUT19</a></td><td>Endocrinologie et Métabolisme</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT20\">DAUT20</a></td><td>Gastro-entérologie et Hépatologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT21\">DAUT21</a></td><td>Génétique médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT22\">DAUT22</a></td><td>Gériatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT23\">DAUT23</a></td><td>Gynécologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT24\">DAUT24</a></td><td>Hématologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT25\">DAUT25</a></td><td>Médecine d'urgence</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT26\">DAUT26</a></td><td>Médecine générale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT27\">DAUT27</a></td><td>Médecine interne</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT28\">DAUT28</a></td><td>Médecine nucléaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT29\">DAUT29</a></td><td>Médecine physique et de réadaptation</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT30\">DAUT30</a></td><td>Néphrologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT31\">DAUT31</a></td><td>Neurologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT32\">DAUT32</a></td><td>Oncologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT33\">DAUT33</a></td><td>Pédiatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT34\">DAUT34</a></td><td>Pneumologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT35\">DAUT35</a></td><td>Psychiatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT36\">DAUT36</a></td><td>Radiodiagnostic et Imagerie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT37\">DAUT37</a></td><td>Réanimation médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT38\">DAUT38</a></td><td>Rhumatologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT39\">DAUT39</a></td><td>Santé publique et Médecine sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT40\">DAUT40</a></td><td>Médecine du travail</td></tr><tr><td><a href=\"CodeSystem-TRE-R18-DisciplineAutorisation.html#TRE-R18-DisciplineAutorisation-DAUT41\">DAUT41</a></td><td>Stomatologie</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J76-DisciplineAutorisation-RASS/FHIR/JDV-J76-DisciplineAutorisation-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.144" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J76-DisciplineAutorisation-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Discipline à laquelle l'autorisation d'exercice est restreinte dans le RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "DAUT01" ] ;
+         fhir:display [ fhir:v "Biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT02" ] ;
+         fhir:display [ fhir:v "Chirurgie générale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT03" ] ;
+         fhir:display [ fhir:v "Chirurgie infantile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT04" ] ;
+         fhir:display [ fhir:v "Chirurgie maxillo-faciale et Stomatologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT05" ] ;
+         fhir:display [ fhir:v "Chirurgie orthopédique et Traumatologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT06" ] ;
+         fhir:display [ fhir:v "Chirurgie plastique, reconstructrice et esthétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT07" ] ;
+         fhir:display [ fhir:v "Chirurgie thoracique et cardio-vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT08" ] ;
+         fhir:display [ fhir:v "Chirurgie urologique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT09" ] ;
+         fhir:display [ fhir:v "Chirurgie vasculaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT10" ] ;
+         fhir:display [ fhir:v "Chirurgie viscérale et digestive" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT11" ] ;
+         fhir:display [ fhir:v "Gynécologie-obstétrique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT12" ] ;
+         fhir:display [ fhir:v "Neurochirurgie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT13" ] ;
+         fhir:display [ fhir:v "Ophtalmologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT14" ] ;
+         fhir:display [ fhir:v "Oto-rhino-laryngologie et Chirurgie cervico-faciale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT15" ] ;
+         fhir:display [ fhir:v "Anatomie et Cytologie pathologiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT16" ] ;
+         fhir:display [ fhir:v "Anesthésie et Réanimation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT17" ] ;
+         fhir:display [ fhir:v "Cardiologie et Maladies vasculaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT18" ] ;
+         fhir:display [ fhir:v "Dermatologie et Vénéréologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT19" ] ;
+         fhir:display [ fhir:v "Endocrinologie et Métabolisme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT20" ] ;
+         fhir:display [ fhir:v "Gastro-entérologie et Hépatologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT21" ] ;
+         fhir:display [ fhir:v "Génétique médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT22" ] ;
+         fhir:display [ fhir:v "Gériatrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT23" ] ;
+         fhir:display [ fhir:v "Gynécologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT24" ] ;
+         fhir:display [ fhir:v "Hématologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT25" ] ;
+         fhir:display [ fhir:v "Médecine d'urgence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT26" ] ;
+         fhir:display [ fhir:v "Médecine générale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT27" ] ;
+         fhir:display [ fhir:v "Médecine interne" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT28" ] ;
+         fhir:display [ fhir:v "Médecine nucléaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT29" ] ;
+         fhir:display [ fhir:v "Médecine physique et de réadaptation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT30" ] ;
+         fhir:display [ fhir:v "Néphrologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT31" ] ;
+         fhir:display [ fhir:v "Neurologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT32" ] ;
+         fhir:display [ fhir:v "Oncologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT33" ] ;
+         fhir:display [ fhir:v "Pédiatrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT34" ] ;
+         fhir:display [ fhir:v "Pneumologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT35" ] ;
+         fhir:display [ fhir:v "Psychiatrie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT36" ] ;
+         fhir:display [ fhir:v "Radiodiagnostic et Imagerie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT37" ] ;
+         fhir:display [ fhir:v "Réanimation médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT38" ] ;
+         fhir:display [ fhir:v "Rhumatologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT39" ] ;
+         fhir:display [ fhir:v "Santé publique et Médecine sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT40" ] ;
+         fhir:display [ fhir:v "Médecine du travail" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DAUT41" ] ;
+         fhir:display [ fhir:v "Stomatologie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.67" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

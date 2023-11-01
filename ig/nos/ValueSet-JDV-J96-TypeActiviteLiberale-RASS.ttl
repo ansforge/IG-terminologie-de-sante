@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J96-TypeActiviteLiberale-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J96-TypeActiviteLiberale-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-01\">ACT-LIB-01</a></td><td>Cabinet primaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-02\">ACT-LIB-02</a></td><td>Cabinet secondaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-03\">ACT-LIB-03</a></td><td>Plateau technique</td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-04\">ACT-LIB-04</a></td><td>Secteur privé à l'hôpital</td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-05\">ACT-LIB-05</a></td><td>Autre lieu d'exercice ou autre site</td></tr><tr><td><a href=\"CodeSystem-TRE-R24-TypeActiviteLiberale.html#TRE-R24-TypeActiviteLiberale-ACT-LIB-06\">ACT-LIB-06</a></td><td>Cabinet</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-08-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J96-TypeActiviteLiberale-RASS/FHIR/JDV-J96-TypeActiviteLiberale-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.164" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J96-TypeActiviteLiberale-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types d'activité libérale des professionnels du RASS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ACT-LIB-01" ] ;
+         fhir:display [ fhir:v "Cabinet primaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ACT-LIB-02" ] ;
+         fhir:display [ fhir:v "Cabinet secondaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ACT-LIB-03" ] ;
+         fhir:display [ fhir:v "Plateau technique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ACT-LIB-04" ] ;
+         fhir:display [ fhir:v "Secteur privé à l'hôpital" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ACT-LIB-05" ] ;
+         fhir:display [ fhir:v "Autre lieu d'exercice ou autre site" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "ACT-LIB-06" ] ;
+         fhir:display [ fhir:v "Cabinet" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.22" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

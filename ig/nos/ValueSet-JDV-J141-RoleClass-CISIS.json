@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J141-RoleClass-CISIS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-PROV\">PROV</a></td><td>Professionnel de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-AGNT\">AGNT</a></td><td>Professionnel caractérisé par son rôle</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-03-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J141-RoleClass-CISIS/FHIR/JDV-J141-RoleClass-CISIS",
+  "identifier" : [{
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.588"
+  }],
+  "version" : "1.1.0",
+  "name" : "JDV_J141-RoleClass-CISIS",
+  "status" : "active",
+  "date" : "2021-03-26T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "RoleClassAssociative CI-SIS",
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+      "concept" : [{
+        "code" : "PROV",
+        "display" : "Professionnel de santé",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.110"
+        }]
+      },
+      {
+        "code" : "AGNT",
+        "display" : "Professionnel caractérisé par son rôle",
+        "designation" : [{
+          "use" : {
+            "code" : "OID"
+          },
+          "value" : "urn:oid:2.16.840.1.113883.5.110"
+        }]
+      }]
+    }]
+  }
+}

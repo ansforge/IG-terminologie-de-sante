@@ -1,0 +1,890 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J59-ContentTypeCode-DMP> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J59-ContentTypeCode-DMP"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT\">EXP_PATIENT</a></td><td>Expression personnelle du patient</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R209-TypeActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-03\">03</a></td><td>Hospitalisation complète (non compris hospitalisation de semaine)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-04\">04</a></td><td>Hospitalisation de jour</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-07\">07</a></td><td>Consultations, soins externes</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-08\">08</a></td><td>Bloc opératoire (y compris obstétrical et gynécologique)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-09\">09</a></td><td>Autres unités médico-techniques (anesthésiologie, explor fonct, rééduc et réadapt fonct, pharmacie)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-11\">11</a></td><td>Hébergement complet ou internat (non compris internat de semaine)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-13\">13</a></td><td>Semi-internat</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-14\">14</a></td><td>Externat</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-15\">15</a></td><td>Placement en famille d'accueil (strictement social)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-16\">16</a></td><td>Prestations sur le lieu de vie (non compris placement familial)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-17\">17</a></td><td>Internat de semaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-18\">18</a></td><td>Hébergement de nuit en structure éclatée</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-19\">19</a></td><td>Traitement et cure ambulatoire</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-20\">20</a></td><td>Hospitalisation de semaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-21\">21</a></td><td>Accueil de Jour (sans distinction entre semi-internat et externat)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-22\">22</a></td><td>Accueil de nuit</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-25\">25</a></td><td>Hébergement temporaire de week-end ou de vacances</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-26\">26</a></td><td>Analyses médicales biologiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-27\">27</a></td><td>Accueil modulable/séquentiel</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-28\">28</a></td><td>Consultations dentaires et soins dentaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-33\">33</a></td><td>Recherche</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-37\">37</a></td><td>Accueil et prise en charge en appartement thérapeutique</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-40\">40</a></td><td>Accueil temporaire avec hébergement</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-42\">42</a></td><td>Equipe mobile de rue</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-43\">43</a></td><td>Tous modes d'accueil avec hébergement</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-44\">44</a></td><td>Accueil temporaire de jour</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-45\">45</a></td><td>Accueil temporaire (avec et sans hébergement)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-46\">46</a></td><td>Tous modes d'accueil (avec et sans hébergement)</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-47\">47</a></td><td>Accueil de jour et accompagnement en milieu ordinaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-48\">48</a></td><td>Tous modes d'accueil et d'accompagnement</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-50\">50</a></td><td>Protection juridique</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-52\">52</a></td><td>Accompagnement social personnalisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-60\">60</a></td><td>Consultations et actes</td></tr><tr><td><a href=\"CodeSystem-TRE-R209-TypeActivite.html#TRE-R209-TypeActivite-97\">97</a></td><td>Autre type d'activité</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R02-SecteurActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA05\">SA05</a></td><td>Centre de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA06\">SA06</a></td><td>Autre structure du Service de santé des armées</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA07\">SA07</a></td><td>Cabinet individuel</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA08\">SA08</a></td><td>Cabinet de groupe</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA09\">SA09</a></td><td>Exercice en société</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA10\">SA10</a></td><td>Transporteur sanitaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA11\">SA11</a></td><td>Entreprise d'intérim</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA12\">SA12</a></td><td>Etablissement de soins et prévention</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA13\">SA13</a></td><td>Prévention et soins en entreprise</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA14\">SA14</a></td><td>Etablissements scolaires, universitaires et de formation hors champ FINESS</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA15\">SA15</a></td><td>PMI et Planification familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA16\">SA16</a></td><td>Etablissement pour personnes handicapées</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA17\">SA17</a></td><td>Etablissement pour personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA18\">SA18</a></td><td>Etablissement aide à la famille</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA19\">SA19</a></td><td>Etablissements FINESS de formation aux professions sanitaires et sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA20\">SA20</a></td><td>Etablissement pour la protection de l'enfance</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA21\">SA21</a></td><td>Etablissement d'hébergement et de réadaptation</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA22\">SA22</a></td><td>Recherche</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA23\">SA23</a></td><td>Assurance privée</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA24\">SA24</a></td><td>Organisme de sécurité sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA25\">SA25</a></td><td>Laboratoire de biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA26\">SA26</a></td><td>Ministère ou Service déconcentré</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA27\">SA27</a></td><td>Collectivité territoriale</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA28\">SA28</a></td><td>Association ou organisme humanitaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA29\">SA29</a></td><td>Laboratoire d'analyses et de biologie médicale</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA30\">SA30</a></td><td>Autre établissement sanitaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA31\">SA31</a></td><td>Répartition et Distribution de médicaments et dispositifs médicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA32\">SA32</a></td><td>Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA33\">SA33</a></td><td>Pharmacie d'officine</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA34\">SA34</a></td><td>Centre de dialyse</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA35\">SA35</a></td><td>Para-pharmacie</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA36\">SA36</a></td><td>Centre anti-cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA37\">SA37</a></td><td>Centre de transfusion sanguine</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA38\">SA38</a></td><td>Pharmacie minière</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA39\">SA39</a></td><td>Pharmacie mutualiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA40\">SA40</a></td><td>Secteur privé, praticien hospitalier temps plein</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA41\">SA41</a></td><td>Autre établissement du domaine social ou médico-social</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA42\">SA42</a></td><td>Appareillage médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA43\">SA43</a></td><td>Secteur non défini</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA44\">SA44</a></td><td>Recrutement ou Gestion RH</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA45\">SA45</a></td><td>Communication, Marketing, Consulting, Média</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA46\">SA46</a></td><td>Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA47\">SA47</a></td><td>Incendie et secours</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA48\">SA48</a></td><td>Entreprise industrielle et tertiaire hors industrie pharmaceutique</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA49\">SA49</a></td><td>Entité Outre-Mer</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA50\">SA50</a></td><td>Permanence des soins ambulatoires hors cabinet</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA51\">SA51</a></td><td>Structure de coopération avec autorisation de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA52\">SA52</a></td><td>Maison de santé ou Pôle de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA53\">SA53</a></td><td>Siège administratif d'un établissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA54\">SA54</a></td><td>Centre de dépistage et de prévention</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA55\">SA55</a></td><td>Laboratoire pharmaceutique préparant et délivrant des allergènes</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA56\">SA56</a></td><td>Propharmacie</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA57\">SA57</a></td><td>Structure de coopération avec mission de coordination de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA58\">SA58</a></td><td>Entreprise de taxis</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA59\">SA59</a></td><td>Laboratoire de biologie médicale hors catégorie standard</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA60\">SA60</a></td><td>Centres médicaux SNCF</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA61\">SA61</a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA63\">SA63</a></td><td>Communauté Professionnelle Territoriale de Santé</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-01-18T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J59-ContentTypeCode-DMP/FHIR/JDV-J59-ContentTypeCode-DMP"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.2" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J59-ContentTypeCode-DMP"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-05-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeu de valeurs pour contentTypeCode"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "EXP_PATIENT" ] ;
+         fhir:display [ fhir:v "Expression personnelle du patient" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.6" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "03" ] ;
+         fhir:display [ fhir:v "Hospitalisation complète (non compris hospitalisation de semaine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Hospitalisation de jour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "07" ] ;
+         fhir:display [ fhir:v "Consultations, soins externes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "08" ] ;
+         fhir:display [ fhir:v "Bloc opératoire (y compris obstétrical et gynécologique)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "09" ] ;
+         fhir:display [ fhir:v "Autres unités médico-techniques (anesthésiologie, explor fonct, rééduc et réadapt fonct, pharmacie)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Hébergement complet ou internat (non compris internat de semaine)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Semi-internat" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "Externat" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "15" ] ;
+         fhir:display [ fhir:v "Placement en famille d'accueil (strictement social)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "16" ] ;
+         fhir:display [ fhir:v "Prestations sur le lieu de vie (non compris placement familial)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Internat de semaine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "18" ] ;
+         fhir:display [ fhir:v "Hébergement de nuit en structure éclatée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "Traitement et cure ambulatoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "Hospitalisation de semaine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Accueil de Jour (sans distinction entre semi-internat et externat)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "Accueil de nuit" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "Hébergement temporaire de week-end ou de vacances" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "Analyses médicales biologiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "Accueil modulable/séquentiel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "Consultations dentaires et soins dentaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "Recherche" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "Accueil et prise en charge en appartement thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Accueil temporaire avec hébergement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Equipe mobile de rue" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Tous modes d'accueil avec hébergement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Accueil temporaire de jour" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Accueil temporaire (avec et sans hébergement)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Tous modes d'accueil (avec et sans hébergement)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Accueil de jour et accompagnement en milieu ordinaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Tous modes d'accueil et d'accompagnement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Protection juridique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Accompagnement social personnalisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "Consultations et actes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "Autre type d'activité" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.2" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "SA05" ] ;
+         fhir:display [ fhir:v "Centre de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA06" ] ;
+         fhir:display [ fhir:v "Autre structure du Service de santé des armées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA07" ] ;
+         fhir:display [ fhir:v "Cabinet individuel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA08" ] ;
+         fhir:display [ fhir:v "Cabinet de groupe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA09" ] ;
+         fhir:display [ fhir:v "Exercice en société" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA10" ] ;
+         fhir:display [ fhir:v "Transporteur sanitaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA11" ] ;
+         fhir:display [ fhir:v "Entreprise d'intérim" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA12" ] ;
+         fhir:display [ fhir:v "Etablissement de soins et prévention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA13" ] ;
+         fhir:display [ fhir:v "Prévention et soins en entreprise" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA14" ] ;
+         fhir:display [ fhir:v "Etablissements scolaires, universitaires et de formation hors champ FINESS" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA15" ] ;
+         fhir:display [ fhir:v "PMI et Planification familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA16" ] ;
+         fhir:display [ fhir:v "Etablissement pour personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA17" ] ;
+         fhir:display [ fhir:v "Etablissement pour personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA18" ] ;
+         fhir:display [ fhir:v "Etablissement aide à la famille" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA19" ] ;
+         fhir:display [ fhir:v "Etablissements FINESS de formation aux professions sanitaires et sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA20" ] ;
+         fhir:display [ fhir:v "Etablissement pour la protection de l'enfance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA21" ] ;
+         fhir:display [ fhir:v "Etablissement d'hébergement et de réadaptation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA22" ] ;
+         fhir:display [ fhir:v "Recherche" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA23" ] ;
+         fhir:display [ fhir:v "Assurance privée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA24" ] ;
+         fhir:display [ fhir:v "Organisme de sécurité sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA25" ] ;
+         fhir:display [ fhir:v "Laboratoire de biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA26" ] ;
+         fhir:display [ fhir:v "Ministère ou Service déconcentré" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA27" ] ;
+         fhir:display [ fhir:v "Collectivité territoriale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA28" ] ;
+         fhir:display [ fhir:v "Association ou organisme humanitaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA29" ] ;
+         fhir:display [ fhir:v "Laboratoire d'analyses et de biologie médicale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA30" ] ;
+         fhir:display [ fhir:v "Autre établissement sanitaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA31" ] ;
+         fhir:display [ fhir:v "Répartition et Distribution de médicaments et dispositifs médicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA32" ] ;
+         fhir:display [ fhir:v "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA33" ] ;
+         fhir:display [ fhir:v "Pharmacie d'officine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA34" ] ;
+         fhir:display [ fhir:v "Centre de dialyse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA35" ] ;
+         fhir:display [ fhir:v "Para-pharmacie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA36" ] ;
+         fhir:display [ fhir:v "Centre anti-cancer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA37" ] ;
+         fhir:display [ fhir:v "Centre de transfusion sanguine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA38" ] ;
+         fhir:display [ fhir:v "Pharmacie minière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA39" ] ;
+         fhir:display [ fhir:v "Pharmacie mutualiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA40" ] ;
+         fhir:display [ fhir:v "Secteur privé, praticien hospitalier temps plein" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA41" ] ;
+         fhir:display [ fhir:v "Autre établissement du domaine social ou médico-social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA42" ] ;
+         fhir:display [ fhir:v "Appareillage médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA43" ] ;
+         fhir:display [ fhir:v "Secteur non défini" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA44" ] ;
+         fhir:display [ fhir:v "Recrutement ou Gestion RH" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA45" ] ;
+         fhir:display [ fhir:v "Communication, Marketing, Consulting, Média" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA46" ] ;
+         fhir:display [ fhir:v "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA47" ] ;
+         fhir:display [ fhir:v "Incendie et secours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA48" ] ;
+         fhir:display [ fhir:v "Entreprise industrielle et tertiaire hors industrie pharmaceutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA49" ] ;
+         fhir:display [ fhir:v "Entité Outre-Mer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA50" ] ;
+         fhir:display [ fhir:v "Permanence des soins ambulatoires hors cabinet" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA51" ] ;
+         fhir:display [ fhir:v "Structure de coopération avec autorisation de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA52" ] ;
+         fhir:display [ fhir:v "Maison de santé ou Pôle de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA53" ] ;
+         fhir:display [ fhir:v "Siège administratif d'un établissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA54" ] ;
+         fhir:display [ fhir:v "Centre de dépistage et de prévention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA55" ] ;
+         fhir:display [ fhir:v "Laboratoire pharmaceutique préparant et délivrant des allergènes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA56" ] ;
+         fhir:display [ fhir:v "Propharmacie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA57" ] ;
+         fhir:display [ fhir:v "Structure de coopération avec mission de coordination de soins" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA58" ] ;
+         fhir:display [ fhir:v "Entreprise de taxis" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA59" ] ;
+         fhir:display [ fhir:v "Laboratoire de biologie médicale hors catégorie standard" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA60" ] ;
+         fhir:display [ fhir:v "Centres médicaux SNCF" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA61" ] ;
+         fhir:display [ fhir:v "Structure Dispensatrice à domicile d'Oxygène à usage médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA63" ] ;
+         fhir:display [ fhir:v "Communauté Professionnelle Territoriale de Santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

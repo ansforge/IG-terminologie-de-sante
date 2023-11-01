@@ -1,0 +1,155 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J226-ModaliteAccueil-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J226-ModaliteAccueil-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-01\">01</a></td><td>Accueil séquentiel accepté</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-02\">02</a></td><td>Prise en charge directe SMUR</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-03\">03</a></td><td>Consultation en présentiel</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-04\">04</a></td><td>Téléconsultation</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-05\">05</a></td><td>Visite à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-06\">06</a></td><td>Prise en charge sans rendez-vous</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-07\">07</a></td><td>Accueil anonyme</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-08\">08</a></td><td>Accueil réservé aux femmes</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-09\">09</a></td><td>Participation aux gardes/astreintes</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-10\">10</a></td><td>Téléexpertise en moins de 24h</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-11\">11</a></td><td>Téléexpertise en moins de 7 jours</td></tr><tr><td><a href=\"CodeSystem-TRE-R338-ModaliteAccueil.html#TRE-R338-ModaliteAccueil-12\">12</a></td><td>Téléexpertise en plus de 7 jours</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2022-08-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.58" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J226-ModaliteAccueil-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-02-17T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Modalité d'accueil"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Accueil séquentiel accepté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "02" ] ;
+         fhir:display [ fhir:v "Prise en charge directe SMUR" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "03" ] ;
+         fhir:display [ fhir:v "Consultation en présentiel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "04" ] ;
+         fhir:display [ fhir:v "Téléconsultation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "05" ] ;
+         fhir:display [ fhir:v "Visite à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "06" ] ;
+         fhir:display [ fhir:v "Prise en charge sans rendez-vous" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "07" ] ;
+         fhir:display [ fhir:v "Accueil anonyme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "08" ] ;
+         fhir:display [ fhir:v "Accueil réservé aux femmes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "09" ] ;
+         fhir:display [ fhir:v "Participation aux gardes/astreintes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Téléexpertise en moins de 24h" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Téléexpertise en moins de 7 jours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "Téléexpertise en plus de 7 jours" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.221" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

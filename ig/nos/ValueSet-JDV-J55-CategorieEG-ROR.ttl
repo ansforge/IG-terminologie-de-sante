@@ -1,0 +1,1643 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J55-CategorieEG-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J55-CategorieEG-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-101\">101</a></td><td>Centre hospitalier régional (CHR)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-106\">106</a></td><td>Centre hospitalier (ex Hôpital local)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-109\">109</a></td><td>Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-114\">114</a></td><td>Hôpital des armées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-115\">115</a></td><td>Etablissement de soins du Service de santé des armées (SSA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-122\">122</a></td><td>Etablissement de soins obstétriques et chirurgico-gynécologiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-124\">124</a></td><td>Centre de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-126\">126</a></td><td>Etablissement thermal</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-127\">127</a></td><td>Hospitalisation à domicile (HAD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-128\">128</a></td><td>Etablissement de soins chirurgicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-129\">129</a></td><td>Etablissement de soins médicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-130\">130</a></td><td>Centre de soins médicaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-131\">131</a></td><td>Centre de lutte contre cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-132\">132</a></td><td>Etablissement de transfusion sanguine</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-141\">141</a></td><td>Centre de dialyse</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-142\">142</a></td><td>Dispensaire antituberculeux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-143\">143</a></td><td>Centre de vaccination BCG</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-146\">146</a></td><td>Structure d'alternative à la dialyse en centre</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-156\">156</a></td><td>Centre médico-psychologique (CMP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-159\">159</a></td><td>Centre Parental</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-161\">161</a></td><td>Maison de santé pour maladies mentales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-165\">165</a></td><td>Appartement de coordination thérapeutique (ACT)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-166\">166</a></td><td>Etablissement d'accueil mère-enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-172\">172</a></td><td>Pouponnière à caractère social</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-175\">175</a></td><td>Foyer de l'enfance</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-176\">176</a></td><td>Village d'enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-177\">177</a></td><td>Maison d'enfants à caractère social</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-178\">178</a></td><td>Centre d'accueil et d'accompagnement à la réduction des risques pour usagers de drogues (CAARUD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-180\">180</a></td><td>Lits halte soins santé (LHSS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-182\">182</a></td><td>Service d'éducation spéciale et de soins à domicile (SESSAD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-183\">183</a></td><td>Institut médico-éducatif (IME)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-186\">186</a></td><td>Institut thérapeutique éducatif et pédagogique (ITEP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-188\">188</a></td><td>Etablissement pour enfants ou adolescents polyhandicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-189\">189</a></td><td>Centre médico-psycho-pédagogique (CMPP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-190\">190</a></td><td>Centre action médico-sociale précoce (CAMSP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-192\">192</a></td><td>Institut d'éducation motrice</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-194\">194</a></td><td>Institut pour déficients visuels</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-195\">195</a></td><td>Institut pour déficients auditifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-196\">196</a></td><td>Institut d'éducation sensorielle sourd/aveugle</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-197\">197</a></td><td>Centre de soins d'accompagnement et de prévention en addictologie (CSAPA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-198\">198</a></td><td>Établissement et Service de Préorientation</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-202\">202</a></td><td>Résidences autonomie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-207\">207</a></td><td>Centre de jour pour personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-209\">209</a></td><td>Service autonomie aide et soins (SAAS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-213\">213</a></td><td>Lits d'accueil médicalisés (L.A.M.)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-214\">214</a></td><td>Centre d'hébergement et de réinsertion sociale (CHRS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-216\">216</a></td><td>Résidence Hôtelière à Vocation Sociale (R.H.V.S)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-218\">218</a></td><td>Aire station nomades</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-219\">219</a></td><td>Autre centre d'accueil</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-220\">220</a></td><td>Centre social</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-221\">221</a></td><td>Bureau d'aide psychologique universitaire (BAPU)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-223\">223</a></td><td>Protection maternelle et infantile (PMI)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-224\">224</a></td><td>Etablissement de consultation pré et post-natale</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-228\">228</a></td><td>Centre planification ou éducation familiale</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-230\">230</a></td><td>Etablissement consultation protection infantile</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-231\">231</a></td><td>Etablissement d'information, de consultation et de conseil familial</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-236\">236</a></td><td>Centre de placement familial socio-éducatif (CPFSE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-238\">238</a></td><td>Centre d'accueil familial spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-241\">241</a></td><td>Foyer d'action éducative (FAE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-246\">246</a></td><td>Etablissement et service d'aide par le travail (ESAT)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-247\">247</a></td><td>Entreprise adaptée</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-249\">249</a></td><td>Établissement et Service de Réadaptation Professionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-252\">252</a></td><td>Foyer d'hébergement d'adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-253\">253</a></td><td>Foyer d'accueil polyvalent pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-255\">255</a></td><td>Maison d'accueil spécialisée (MAS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-256\">256</a></td><td>Foyer de travailleurs migrants non transformé en résidence sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-257\">257</a></td><td>Foyers de jeunes travailleurs</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-258\">258</a></td><td>Maison relais, Pension de famille</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-259\">259</a></td><td>Autres résidences sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-266\">266</a></td><td>Dispensaire antivénérien</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-267\">267</a></td><td>Dispensaire antihansénien</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-268\">268</a></td><td>Centre médico-scolaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-269\">269</a></td><td>Centre de médecine universitaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-270\">270</a></td><td>Centre de médecine sportive</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-271\">271</a></td><td>Maison d'accueil Hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-286\">286</a></td><td>Club, Equipe de prévention</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-292\">292</a></td><td>Centre hospitalier spécialisé de lutte contre les maladies mentales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-294\">294</a></td><td>Centre de consultations cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-295\">295</a></td><td>Service AEMO et AED</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-300\">300</a></td><td>Ecole formant aux professions sanitaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-324\">324</a></td><td>Logement foyer non spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-330\">330</a></td><td>Ecole formant aux professions sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-340\">340</a></td><td>Service mandataire judiciaire à la protection des majeurs</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-341\">341</a></td><td>Service dédié aux mesures d'accompagnement social personnalisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-342\">342</a></td><td>Service d'information et de soutien aux tuteurs familiaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-344\">344</a></td><td>Service délégué aux prestations familiales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-345\">345</a></td><td>Service de tutelle aux prestations sociales adultes</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-347\">347</a></td><td>Centre d'examens de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-354\">354</a></td><td>Service de soins infirmiers à domicile (SSIAD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-355\">355</a></td><td>Centre hospitalier (CH)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-359\">359</a></td><td>Centre circonscription sanitaire et sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-362\">362</a></td><td>Etablissement de soins longue durée</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-365\">365</a></td><td>Etablissement de soins pluridisciplinaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-366\">366</a></td><td>Atelier thérapeutique</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-370\">370</a></td><td>Etablissement Expérimental pour personnes handicapées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-374\">374</a></td><td>Ecole nationale de santé publique (ENSP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-377\">377</a></td><td>Etablissement expérimental pour enfance handicapée</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-378\">378</a></td><td>Etablissement expérimental enfance protégée</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-379\">379</a></td><td>Etablissement expérimental pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-380\">380</a></td><td>Etablissement expérimental autres adultes</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-381\">381</a></td><td>Etablissement expérimental pour personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-382\">382</a></td><td>Foyer de vie pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-390\">390</a></td><td>Etablissement d'accueil temporaire d'enfants handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-395\">395</a></td><td>Etablissement d'accueil temporaire pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-396\">396</a></td><td>Foyer d'hébergement pour enfants et adolescents handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-400\">400</a></td><td>Centre de services pour associations</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-402\">402</a></td><td>Jardin d'enfants spécialisé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-403\">403</a></td><td>Service social spécialisé ou polyvalent de catégorie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-405\">405</a></td><td>Service social polyvalent de secteur</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-411\">411</a></td><td>Intermédiaire de placement social</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-412\">412</a></td><td>Appartement thérapeutique</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-415\">415</a></td><td>Service médico-psychologique régional (SMPR)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-418\">418</a></td><td>Service d'enquêtes sociales (SES)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-422\">422</a></td><td>Traitements spécialisés à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-425\">425</a></td><td>Centre d'accueil thérapeutique à temps partiel (CATTP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-426\">426</a></td><td>Syndicat inter hospitalier (SIH)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-427\">427</a></td><td>Service éducatif auprès des tribunaux (SEAT)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-430\">430</a></td><td>Centre postcure pour malades mentaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-433\">433</a></td><td>Etablissement sanitaire des prisons</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-436\">436</a></td><td>Ecoles formant aux professions sanitaires et sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-437\">437</a></td><td>Foyer d'accueil médicalisé pour adultes handicapés (FAM)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-438\">438</a></td><td>Centre de médecine collective</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-439\">439</a></td><td>Centre de santé polyvalent</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-440\">440</a></td><td>Service d'investigation et d'orientation éducative (SIOE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-441\">441</a></td><td>Centre d'action éducative (CAE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-442\">442</a></td><td>Centre provisoire d'hébergement</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-443\">443</a></td><td>Centre d'accueil de demandeurs d'asile (CADA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-444\">444</a></td><td>Centre de crise et d'accueil permanent</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-445\">445</a></td><td>Service d'accompagnement médico-social pour adultes handicapés</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-446\">446</a></td><td>Service d'accompagnement à la vie sociale (SAVS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-448\">448</a></td><td>Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-449\">449</a></td><td>Etablissement d'Accueil Non Médicalisé pour personnes handicapées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-453\">453</a></td><td>Service de réparation pénale</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-460\">460</a></td><td>Service autonomie aide (SAA)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-461\">461</a></td><td>Centres de ressources SAI (sans aucune indication)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-462\">462</a></td><td>Lieux de vie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-463\">463</a></td><td>Centre local d'information et de coordination de personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-464\">464</a></td><td>Unité d'évaluation, de réentraînement et d'orientation sociale et/ou professionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-500\">500</a></td><td>Etablissement d'hébergement pour personnes âgées dépendantes</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-501\">501</a></td><td>EHPA percevant des crédits d'assurance maladie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-502\">502</a></td><td>EHPA ne percevant pas des crédits d'assurance maladie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-603\">603</a></td><td>Maison de santé (L6223-3)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-604\">604</a></td><td>Communauté Professionnelle Territoriale de Santé (CPTS)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-606\">606</a></td><td>Dispositif d'appui à la coordination (DAC)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-608\">608</a></td><td>Equipe mobile médico-sociale précarité (EMMSP)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-609\">609</a></td><td>Maison Départementale pour Personnes Handicapées (MDPH)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-610\">610</a></td><td>Laboratoire d'analyses</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-611\">611</a></td><td>Laboratoire de biologie médicale (LBM)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-612\">612</a></td><td>Autre laboratoire de biologie médicale sans FSE</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-614\">614</a></td><td>Dispositif Spécifique Régional du Cancer (DSRC)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-616\">616</a></td><td>Services de Prévention et de Santé au Travail (SPST)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-617\">617</a></td><td>Maison médicale de garde (MMG)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-618\">618</a></td><td>Point Fixe de Garde (PFG)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-620\">620</a></td><td>Pharmacie d'officine</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-624\">624</a></td><td>Laboratoire pharmaceutique préparant et délivrant des allergènes</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-627\">627</a></td><td>Propharmacie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-628\">628</a></td><td>Pharmacie minière</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-629\">629</a></td><td>Pharmacie mutualiste</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-630\">630</a></td><td>Installation autonome de chirurgie esthétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-631\">631</a></td><td>Maisons de naissance</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-632\">632</a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-633\">633</a></td><td>Structure Expérimentale en Santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-636\">636</a></td><td>Centre de soins et de prévention</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-637\">637</a></td><td>Centre de Lutte Antituberculeuse (CLAT)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-638\">638</a></td><td>Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-639\">639</a></td><td>Sociétés de téléconsultation (STLC)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-690\">690</a></td><td>Etablissement de fabrication annexe à une officine</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-640\">640</a></td><td>Service d’aide et d’accompagnement à domicile aux familles (SAADF)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-695\">695</a></td><td>Groupement de coopération sanitaire de moyens - Exploitant</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-696\">696</a></td><td>Groupement de coopération sanitaire de moyens</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-697\">697</a></td><td>Groupement de coopération sanitaire, Etablissement de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-698\">698</a></td><td>Autre établissement relevant de la loi hospitalière</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-699\">699</a></td><td>Entité ayant autorisation</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R02-SecteurActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA05\">SA05</a></td><td>Centre de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA07\">SA07</a></td><td>Cabinet individuel</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA08\">SA08</a></td><td>Cabinet de groupe</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA09\">SA09</a></td><td>Exercice en société</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2019-01-25T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.65" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J55-CategorieEG-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "Centre hospitalier régional (CHR)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "106" ] ;
+         fhir:display [ fhir:v "Centre hospitalier (ex Hôpital local)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "109" ] ;
+         fhir:display [ fhir:v "Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Hôpital des armées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Etablissement de soins du Service de santé des armées (SSA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "122" ] ;
+         fhir:display [ fhir:v "Etablissement de soins obstétriques et chirurgico-gynécologiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "124" ] ;
+         fhir:display [ fhir:v "Centre de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "126" ] ;
+         fhir:display [ fhir:v "Etablissement thermal" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "127" ] ;
+         fhir:display [ fhir:v "Hospitalisation à domicile (HAD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "128" ] ;
+         fhir:display [ fhir:v "Etablissement de soins chirurgicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "129" ] ;
+         fhir:display [ fhir:v "Etablissement de soins médicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "130" ] ;
+         fhir:display [ fhir:v "Centre de soins médicaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "131" ] ;
+         fhir:display [ fhir:v "Centre de lutte contre cancer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "132" ] ;
+         fhir:display [ fhir:v "Etablissement de transfusion sanguine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "141" ] ;
+         fhir:display [ fhir:v "Centre de dialyse" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "142" ] ;
+         fhir:display [ fhir:v "Dispensaire antituberculeux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "143" ] ;
+         fhir:display [ fhir:v "Centre de vaccination BCG" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "146" ] ;
+         fhir:display [ fhir:v "Structure d'alternative à la dialyse en centre" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "156" ] ;
+         fhir:display [ fhir:v "Centre médico-psychologique (CMP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "159" ] ;
+         fhir:display [ fhir:v "Centre Parental" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "161" ] ;
+         fhir:display [ fhir:v "Maison de santé pour maladies mentales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "165" ] ;
+         fhir:display [ fhir:v "Appartement de coordination thérapeutique (ACT)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "166" ] ;
+         fhir:display [ fhir:v "Etablissement d'accueil mère-enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "172" ] ;
+         fhir:display [ fhir:v "Pouponnière à caractère social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "175" ] ;
+         fhir:display [ fhir:v "Foyer de l'enfance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "176" ] ;
+         fhir:display [ fhir:v "Village d'enfants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "177" ] ;
+         fhir:display [ fhir:v "Maison d'enfants à caractère social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "178" ] ;
+         fhir:display [ fhir:v "Centre d'accueil et d'accompagnement à la réduction des risques pour usagers de drogues (CAARUD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "180" ] ;
+         fhir:display [ fhir:v "Lits halte soins santé (LHSS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "182" ] ;
+         fhir:display [ fhir:v "Service d'éducation spéciale et de soins à domicile (SESSAD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "183" ] ;
+         fhir:display [ fhir:v "Institut médico-éducatif (IME)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "186" ] ;
+         fhir:display [ fhir:v "Institut thérapeutique éducatif et pédagogique (ITEP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "188" ] ;
+         fhir:display [ fhir:v "Etablissement pour enfants ou adolescents polyhandicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "189" ] ;
+         fhir:display [ fhir:v "Centre médico-psycho-pédagogique (CMPP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "190" ] ;
+         fhir:display [ fhir:v "Centre action médico-sociale précoce (CAMSP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "192" ] ;
+         fhir:display [ fhir:v "Institut d'éducation motrice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "194" ] ;
+         fhir:display [ fhir:v "Institut pour déficients visuels" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "195" ] ;
+         fhir:display [ fhir:v "Institut pour déficients auditifs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "196" ] ;
+         fhir:display [ fhir:v "Institut d'éducation sensorielle sourd/aveugle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "197" ] ;
+         fhir:display [ fhir:v "Centre de soins d'accompagnement et de prévention en addictologie (CSAPA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "198" ] ;
+         fhir:display [ fhir:v "Établissement et Service de Préorientation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "202" ] ;
+         fhir:display [ fhir:v "Résidences autonomie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "207" ] ;
+         fhir:display [ fhir:v "Centre de jour pour personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "209" ] ;
+         fhir:display [ fhir:v "Service autonomie aide et soins (SAAS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "213" ] ;
+         fhir:display [ fhir:v "Lits d'accueil médicalisés (L.A.M.)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "214" ] ;
+         fhir:display [ fhir:v "Centre d'hébergement et de réinsertion sociale (CHRS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "216" ] ;
+         fhir:display [ fhir:v "Résidence Hôtelière à Vocation Sociale (R.H.V.S)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "218" ] ;
+         fhir:display [ fhir:v "Aire station nomades" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "219" ] ;
+         fhir:display [ fhir:v "Autre centre d'accueil" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "220" ] ;
+         fhir:display [ fhir:v "Centre social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "221" ] ;
+         fhir:display [ fhir:v "Bureau d'aide psychologique universitaire (BAPU)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "223" ] ;
+         fhir:display [ fhir:v "Protection maternelle et infantile (PMI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "224" ] ;
+         fhir:display [ fhir:v "Etablissement de consultation pré et post-natale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "228" ] ;
+         fhir:display [ fhir:v "Centre planification ou éducation familiale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "230" ] ;
+         fhir:display [ fhir:v "Etablissement consultation protection infantile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "231" ] ;
+         fhir:display [ fhir:v "Etablissement d'information, de consultation et de conseil familial" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "236" ] ;
+         fhir:display [ fhir:v "Centre de placement familial socio-éducatif (CPFSE)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "238" ] ;
+         fhir:display [ fhir:v "Centre d'accueil familial spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "241" ] ;
+         fhir:display [ fhir:v "Foyer d'action éducative (FAE)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "246" ] ;
+         fhir:display [ fhir:v "Etablissement et service d'aide par le travail (ESAT)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "247" ] ;
+         fhir:display [ fhir:v "Entreprise adaptée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "249" ] ;
+         fhir:display [ fhir:v "Établissement et Service de Réadaptation Professionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "252" ] ;
+         fhir:display [ fhir:v "Foyer d'hébergement d'adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "253" ] ;
+         fhir:display [ fhir:v "Foyer d'accueil polyvalent pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "255" ] ;
+         fhir:display [ fhir:v "Maison d'accueil spécialisée (MAS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "256" ] ;
+         fhir:display [ fhir:v "Foyer de travailleurs migrants non transformé en résidence sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "257" ] ;
+         fhir:display [ fhir:v "Foyers de jeunes travailleurs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "258" ] ;
+         fhir:display [ fhir:v "Maison relais, Pension de famille" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "259" ] ;
+         fhir:display [ fhir:v "Autres résidences sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "266" ] ;
+         fhir:display [ fhir:v "Dispensaire antivénérien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "267" ] ;
+         fhir:display [ fhir:v "Dispensaire antihansénien" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "268" ] ;
+         fhir:display [ fhir:v "Centre médico-scolaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "269" ] ;
+         fhir:display [ fhir:v "Centre de médecine universitaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "270" ] ;
+         fhir:display [ fhir:v "Centre de médecine sportive" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "271" ] ;
+         fhir:display [ fhir:v "Maison d'accueil Hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "286" ] ;
+         fhir:display [ fhir:v "Club, Equipe de prévention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "292" ] ;
+         fhir:display [ fhir:v "Centre hospitalier spécialisé de lutte contre les maladies mentales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "294" ] ;
+         fhir:display [ fhir:v "Centre de consultations cancer" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "295" ] ;
+         fhir:display [ fhir:v "Service AEMO et AED" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "300" ] ;
+         fhir:display [ fhir:v "Ecole formant aux professions sanitaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Logement foyer non spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "330" ] ;
+         fhir:display [ fhir:v "Ecole formant aux professions sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "340" ] ;
+         fhir:display [ fhir:v "Service mandataire judiciaire à la protection des majeurs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "341" ] ;
+         fhir:display [ fhir:v "Service dédié aux mesures d'accompagnement social personnalisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "342" ] ;
+         fhir:display [ fhir:v "Service d'information et de soutien aux tuteurs familiaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "344" ] ;
+         fhir:display [ fhir:v "Service délégué aux prestations familiales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "345" ] ;
+         fhir:display [ fhir:v "Service de tutelle aux prestations sociales adultes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "347" ] ;
+         fhir:display [ fhir:v "Centre d'examens de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "354" ] ;
+         fhir:display [ fhir:v "Service de soins infirmiers à domicile (SSIAD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "355" ] ;
+         fhir:display [ fhir:v "Centre hospitalier (CH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "359" ] ;
+         fhir:display [ fhir:v "Centre circonscription sanitaire et sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "362" ] ;
+         fhir:display [ fhir:v "Etablissement de soins longue durée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "365" ] ;
+         fhir:display [ fhir:v "Etablissement de soins pluridisciplinaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "366" ] ;
+         fhir:display [ fhir:v "Atelier thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "370" ] ;
+         fhir:display [ fhir:v "Etablissement Expérimental pour personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "374" ] ;
+         fhir:display [ fhir:v "Ecole nationale de santé publique (ENSP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "377" ] ;
+         fhir:display [ fhir:v "Etablissement expérimental pour enfance handicapée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "378" ] ;
+         fhir:display [ fhir:v "Etablissement expérimental enfance protégée" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "379" ] ;
+         fhir:display [ fhir:v "Etablissement expérimental pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "380" ] ;
+         fhir:display [ fhir:v "Etablissement expérimental autres adultes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "381" ] ;
+         fhir:display [ fhir:v "Etablissement expérimental pour personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "382" ] ;
+         fhir:display [ fhir:v "Foyer de vie pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "390" ] ;
+         fhir:display [ fhir:v "Etablissement d'accueil temporaire d'enfants handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "395" ] ;
+         fhir:display [ fhir:v "Etablissement d'accueil temporaire pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "396" ] ;
+         fhir:display [ fhir:v "Foyer d'hébergement pour enfants et adolescents handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "400" ] ;
+         fhir:display [ fhir:v "Centre de services pour associations" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "402" ] ;
+         fhir:display [ fhir:v "Jardin d'enfants spécialisé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "403" ] ;
+         fhir:display [ fhir:v "Service social spécialisé ou polyvalent de catégorie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "405" ] ;
+         fhir:display [ fhir:v "Service social polyvalent de secteur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "411" ] ;
+         fhir:display [ fhir:v "Intermédiaire de placement social" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "412" ] ;
+         fhir:display [ fhir:v "Appartement thérapeutique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "415" ] ;
+         fhir:display [ fhir:v "Service médico-psychologique régional (SMPR)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "418" ] ;
+         fhir:display [ fhir:v "Service d'enquêtes sociales (SES)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "422" ] ;
+         fhir:display [ fhir:v "Traitements spécialisés à domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "425" ] ;
+         fhir:display [ fhir:v "Centre d'accueil thérapeutique à temps partiel (CATTP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "426" ] ;
+         fhir:display [ fhir:v "Syndicat inter hospitalier (SIH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "427" ] ;
+         fhir:display [ fhir:v "Service éducatif auprès des tribunaux (SEAT)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "430" ] ;
+         fhir:display [ fhir:v "Centre postcure pour malades mentaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "433" ] ;
+         fhir:display [ fhir:v "Etablissement sanitaire des prisons" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "436" ] ;
+         fhir:display [ fhir:v "Ecoles formant aux professions sanitaires et sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "437" ] ;
+         fhir:display [ fhir:v "Foyer d'accueil médicalisé pour adultes handicapés (FAM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "438" ] ;
+         fhir:display [ fhir:v "Centre de médecine collective" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "439" ] ;
+         fhir:display [ fhir:v "Centre de santé polyvalent" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "440" ] ;
+         fhir:display [ fhir:v "Service d'investigation et d'orientation éducative (SIOE)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "441" ] ;
+         fhir:display [ fhir:v "Centre d'action éducative (CAE)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "442" ] ;
+         fhir:display [ fhir:v "Centre provisoire d'hébergement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "443" ] ;
+         fhir:display [ fhir:v "Centre d'accueil de demandeurs d'asile (CADA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "444" ] ;
+         fhir:display [ fhir:v "Centre de crise et d'accueil permanent" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "445" ] ;
+         fhir:display [ fhir:v "Service d'accompagnement médico-social pour adultes handicapés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "446" ] ;
+         fhir:display [ fhir:v "Service d'accompagnement à la vie sociale (SAVS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "448" ] ;
+         fhir:display [ fhir:v "Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "449" ] ;
+         fhir:display [ fhir:v "Etablissement d'Accueil Non Médicalisé pour personnes handicapées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "453" ] ;
+         fhir:display [ fhir:v "Service de réparation pénale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "460" ] ;
+         fhir:display [ fhir:v "Service autonomie aide (SAA)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "461" ] ;
+         fhir:display [ fhir:v "Centres de ressources SAI (sans aucune indication)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "462" ] ;
+         fhir:display [ fhir:v "Lieux de vie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "463" ] ;
+         fhir:display [ fhir:v "Centre local d'information et de coordination de personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "464" ] ;
+         fhir:display [ fhir:v "Unité d'évaluation, de réentraînement et d'orientation sociale et/ou professionnelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "500" ] ;
+         fhir:display [ fhir:v "Etablissement d'hébergement pour personnes âgées dépendantes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "501" ] ;
+         fhir:display [ fhir:v "EHPA percevant des crédits d'assurance maladie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "502" ] ;
+         fhir:display [ fhir:v "EHPA ne percevant pas des crédits d'assurance maladie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "603" ] ;
+         fhir:display [ fhir:v "Maison de santé (L6223-3)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "604" ] ;
+         fhir:display [ fhir:v "Communauté Professionnelle Territoriale de Santé (CPTS)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "606" ] ;
+         fhir:display [ fhir:v "Dispositif d'appui à la coordination (DAC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "608" ] ;
+         fhir:display [ fhir:v "Equipe mobile médico-sociale précarité (EMMSP)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "609" ] ;
+         fhir:display [ fhir:v "Maison Départementale pour Personnes Handicapées (MDPH)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "610" ] ;
+         fhir:display [ fhir:v "Laboratoire d'analyses" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "611" ] ;
+         fhir:display [ fhir:v "Laboratoire de biologie médicale (LBM)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "612" ] ;
+         fhir:display [ fhir:v "Autre laboratoire de biologie médicale sans FSE" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "614" ] ;
+         fhir:display [ fhir:v "Dispositif Spécifique Régional du Cancer (DSRC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "616" ] ;
+         fhir:display [ fhir:v "Services de Prévention et de Santé au Travail (SPST)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "617" ] ;
+         fhir:display [ fhir:v "Maison médicale de garde (MMG)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "618" ] ;
+         fhir:display [ fhir:v "Point Fixe de Garde (PFG)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "620" ] ;
+         fhir:display [ fhir:v "Pharmacie d'officine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "624" ] ;
+         fhir:display [ fhir:v "Laboratoire pharmaceutique préparant et délivrant des allergènes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "627" ] ;
+         fhir:display [ fhir:v "Propharmacie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "628" ] ;
+         fhir:display [ fhir:v "Pharmacie minière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "629" ] ;
+         fhir:display [ fhir:v "Pharmacie mutualiste" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "630" ] ;
+         fhir:display [ fhir:v "Installation autonome de chirurgie esthétique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "631" ] ;
+         fhir:display [ fhir:v "Maisons de naissance" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "632" ] ;
+         fhir:display [ fhir:v "Structure Dispensatrice à domicile d'Oxygène à usage médical" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "633" ] ;
+         fhir:display [ fhir:v "Structure Expérimentale en Santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "636" ] ;
+         fhir:display [ fhir:v "Centre de soins et de prévention" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "637" ] ;
+         fhir:display [ fhir:v "Centre de Lutte Antituberculeuse (CLAT)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "638" ] ;
+         fhir:display [ fhir:v "Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "639" ] ;
+         fhir:display [ fhir:v "Sociétés de téléconsultation (STLC)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "690" ] ;
+         fhir:display [ fhir:v "Etablissement de fabrication annexe à une officine" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "640" ] ;
+         fhir:display [ fhir:v "Service d’aide et d’accompagnement à domicile aux familles (SAADF)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "695" ] ;
+         fhir:display [ fhir:v "Groupement de coopération sanitaire de moyens - Exploitant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "696" ] ;
+         fhir:display [ fhir:v "Groupement de coopération sanitaire de moyens" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "697" ] ;
+         fhir:display [ fhir:v "Groupement de coopération sanitaire, Etablissement de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "698" ] ;
+         fhir:display [ fhir:v "Autre établissement relevant de la loi hospitalière" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "699" ] ;
+         fhir:display [ fhir:v "Entité ayant autorisation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.8" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "SA05" ] ;
+         fhir:display [ fhir:v "Centre de santé" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA07" ] ;
+         fhir:display [ fhir:v "Cabinet individuel" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA08" ] ;
+         fhir:display [ fhir:v "Cabinet de groupe" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "SA09" ] ;
+         fhir:display [ fhir:v "Exercice en société" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.71.4.2.4" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

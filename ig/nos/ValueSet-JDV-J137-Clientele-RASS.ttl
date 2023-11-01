@@ -1,0 +1,758 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J137-Clientele-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J137-Clientele-RASS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R279-Clientele.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-010\">010</a></td><td>Tous Types de Déficiences Pers.Handicap.(sans autre indic.)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-011\">011</a></td><td>Handicap rare</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-040\">040</a></td><td>Aidants / aidés Personnes âgées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-041\">041</a></td><td>Aidants / aidés Maladies chroniques invalidantes</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-042\">042</a></td><td>Aidants / aidés Tous types de handicap</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-043\">043</a></td><td>Aidants / aidés Troubles du spectre de l'autisme</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-117\">117</a></td><td>Déficience intellectuelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-200\">200</a></td><td>Difficultés psychologiques avec troubles du comportement</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-201\">201</a></td><td>Déficience Intermittente de la Conscience ycompris épilepsie</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-206\">206</a></td><td>Handicap psychique</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-207\">207</a></td><td>Handicap cognitif spécifique</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-318\">318</a></td><td>Déficience auditive grave</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-324\">324</a></td><td>Déficience visuelle grave</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-414\">414</a></td><td>Déficience Motrice</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-430\">430</a></td><td>Personnes nécessitant prise en charge psycho soc et san SAI</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-431\">431</a></td><td>Affection Cardiaque</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-432\">432</a></td><td>Diabète</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-433\">433</a></td><td>Affection Respiratoire</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-434\">434</a></td><td>Hémophilie</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-435\">435</a></td><td>Insuffisance Rénale</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-436\">436</a></td><td>Personnes Alzheimer ou maladies apparentées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-437\">437</a></td><td>Troubles du spectre de l'autisme</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-438\">438</a></td><td>Cérébro lésés</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-439\">439</a></td><td>VIH VHC</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-440\">440</a></td><td>MND autres que Maladie Alzheimer et Maladies Apparentées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-500\">500</a></td><td>Polyhandicap</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-511\">511</a></td><td>Surdi-Cécité avec ou sans troubles associés</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-620\">620</a></td><td>Epilepsie</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-700\">700</a></td><td>Personnes Agées (Sans Autre Indication)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-701\">701</a></td><td>Personnes Agées Autonomes</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-702\">702</a></td><td>Personnes Handicapées vieillissantes</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-711\">711</a></td><td>Personnes Agées dépendantes</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-800\">800</a></td><td>Enfants, adolescents et jeunes majeurs ASE</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-801\">801</a></td><td>Enfants ASE (0-6 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-802\">802</a></td><td>Adolescents ASE (7-17 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-803\">803</a></td><td>Jeunes Majeurs ASE (18-21 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-804\">804</a></td><td>Enfants, adolescents et jeunes majeurs PJJ</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-805\">805</a></td><td>Jeunes et familles en risque d'inadaptation sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-806\">806</a></td><td>Personnes se présentant comme MNA en attente d'évaluation</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-807\">807</a></td><td>Enfants et Adolescents avec difficultés sociales</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-808\">808</a></td><td>Enfants d'Age Préscolaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-809\">809</a></td><td>Autres Enfants, Adolescents</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-810\">810</a></td><td>Adultes en Difficulté d'Insertion Sociale (SAI)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-811\">811</a></td><td>Jeunes Adultes en Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-812\">812</a></td><td>Femmes Seules en Difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-813\">813</a></td><td>Personnes en difficulté avec l'alcool</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-814\">814</a></td><td>Personnes consommant des substances psychoactives illicites</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-815\">815</a></td><td>Sortants d'Etablissement Hospitalier ou médico-social yc psy</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-816\">816</a></td><td>Prostituées avec ou sans Enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-817\">817</a></td><td>Vagabonds et ex-Détenus</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-818\">818</a></td><td>Inculpés sous Contrôle judiciaire et Condamnés Libres</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-819\">819</a></td><td>Autres Adultes en difficulté d'Insertion Sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-820\">820</a></td><td>Hommes seuls en difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-821\">821</a></td><td>Familles en Difficulté ou sans Logement</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-822\">822</a></td><td>Personnes et Familles Rapatriées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-823\">823</a></td><td>Familles Nomades</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-824\">824</a></td><td>Personnes seules en Difficulté avec Enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-825\">825</a></td><td>Travailleurs Migrants</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-826\">826</a></td><td>Jeunes Travailleurs</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-827\">827</a></td><td>Personnes et Familles Réfugiées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-828\">828</a></td><td>Accompagnants (ou aidants)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-829\">829</a></td><td>Familles en difficulté et-ou femmes isolées</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-830\">830</a></td><td>Personnes et Familles Demandeurs d'Asile</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-831\">831</a></td><td>Femmes Victimes de Violence</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-832\">832</a></td><td>Personnes avec Problèmes Psychiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-833\">833</a></td><td>Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-834\">834</a></td><td>Patients et accompagnants (ou aidants)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-835\">835</a></td><td>Parents en difficulté avec enfant</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-836\">836</a></td><td>Personnes victimes de la Traite des Etres Humains (T.E.H.)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-840\">840</a></td><td>Personnes sans Domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-850\">850</a></td><td>Personnes souffrant d'addictions sans substances</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-851\">851</a></td><td>Personnes mésusant de médicaments</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-852\">852</a></td><td>Personnes en demande sevrage tabagique ou diminution tabac</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-853\">853</a></td><td>Personnes souffrant d'addictions (Sans Autre Indication)</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-860\">860</a></td><td>Majeurs Protégés</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-861\">861</a></td><td>Adultes avec difficultés budgétaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-862\">862</a></td><td>Tuteurs Familiaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-899\">899</a></td><td>Tous publics en difficulté</td></tr><tr><td><a href=\"CodeSystem-TRE-R279-Clientele.html#TRE-R279-Clientele-990\">990</a></td><td>Toute Population</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.223" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J137-Clientele-RASS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Population prise en charge par l'établissement dans le cadre"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "010" ] ;
+         fhir:display [ fhir:v "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "011" ] ;
+         fhir:display [ fhir:v "Handicap rare" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "040" ] ;
+         fhir:display [ fhir:v "Aidants / aidés Personnes âgées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "041" ] ;
+         fhir:display [ fhir:v "Aidants / aidés Maladies chroniques invalidantes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "042" ] ;
+         fhir:display [ fhir:v "Aidants / aidés Tous types de handicap" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "043" ] ;
+         fhir:display [ fhir:v "Aidants / aidés Troubles du spectre de l'autisme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "117" ] ;
+         fhir:display [ fhir:v "Déficience intellectuelle" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "200" ] ;
+         fhir:display [ fhir:v "Difficultés psychologiques avec troubles du comportement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "201" ] ;
+         fhir:display [ fhir:v "Déficience Intermittente de la Conscience ycompris épilepsie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "206" ] ;
+         fhir:display [ fhir:v "Handicap psychique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "207" ] ;
+         fhir:display [ fhir:v "Handicap cognitif spécifique" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "318" ] ;
+         fhir:display [ fhir:v "Déficience auditive grave" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "324" ] ;
+         fhir:display [ fhir:v "Déficience visuelle grave" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "414" ] ;
+         fhir:display [ fhir:v "Déficience Motrice" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "430" ] ;
+         fhir:display [ fhir:v "Personnes nécessitant prise en charge psycho soc et san SAI" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "431" ] ;
+         fhir:display [ fhir:v "Affection Cardiaque" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "432" ] ;
+         fhir:display [ fhir:v "Diabète" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "433" ] ;
+         fhir:display [ fhir:v "Affection Respiratoire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "434" ] ;
+         fhir:display [ fhir:v "Hémophilie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "435" ] ;
+         fhir:display [ fhir:v "Insuffisance Rénale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "436" ] ;
+         fhir:display [ fhir:v "Personnes Alzheimer ou maladies apparentées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "437" ] ;
+         fhir:display [ fhir:v "Troubles du spectre de l'autisme" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "438" ] ;
+         fhir:display [ fhir:v "Cérébro lésés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "439" ] ;
+         fhir:display [ fhir:v "VIH VHC" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "440" ] ;
+         fhir:display [ fhir:v "MND autres que Maladie Alzheimer et Maladies Apparentées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "500" ] ;
+         fhir:display [ fhir:v "Polyhandicap" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "511" ] ;
+         fhir:display [ fhir:v "Surdi-Cécité avec ou sans troubles associés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "620" ] ;
+         fhir:display [ fhir:v "Epilepsie" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "700" ] ;
+         fhir:display [ fhir:v "Personnes Agées (Sans Autre Indication)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "701" ] ;
+         fhir:display [ fhir:v "Personnes Agées Autonomes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "702" ] ;
+         fhir:display [ fhir:v "Personnes Handicapées vieillissantes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "711" ] ;
+         fhir:display [ fhir:v "Personnes Agées dépendantes" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "800" ] ;
+         fhir:display [ fhir:v "Enfants, adolescents et jeunes majeurs ASE" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "801" ] ;
+         fhir:display [ fhir:v "Enfants ASE (0-6 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "802" ] ;
+         fhir:display [ fhir:v "Adolescents ASE (7-17 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "803" ] ;
+         fhir:display [ fhir:v "Jeunes Majeurs ASE (18-21 ans)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "804" ] ;
+         fhir:display [ fhir:v "Enfants, adolescents et jeunes majeurs PJJ" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "805" ] ;
+         fhir:display [ fhir:v "Jeunes et familles en risque d'inadaptation sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "806" ] ;
+         fhir:display [ fhir:v "Personnes se présentant comme MNA en attente d'évaluation" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "807" ] ;
+         fhir:display [ fhir:v "Enfants et Adolescents avec difficultés sociales" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "808" ] ;
+         fhir:display [ fhir:v "Enfants d'Age Préscolaire" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "809" ] ;
+         fhir:display [ fhir:v "Autres Enfants, Adolescents" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "810" ] ;
+         fhir:display [ fhir:v "Adultes en Difficulté d'Insertion Sociale (SAI)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "811" ] ;
+         fhir:display [ fhir:v "Jeunes Adultes en Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "812" ] ;
+         fhir:display [ fhir:v "Femmes Seules en Difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "813" ] ;
+         fhir:display [ fhir:v "Personnes en difficulté avec l'alcool" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "814" ] ;
+         fhir:display [ fhir:v "Personnes consommant des substances psychoactives illicites" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "815" ] ;
+         fhir:display [ fhir:v "Sortants d'Etablissement Hospitalier ou médico-social yc psy" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "816" ] ;
+         fhir:display [ fhir:v "Prostituées avec ou sans Enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "817" ] ;
+         fhir:display [ fhir:v "Vagabonds et ex-Détenus" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "818" ] ;
+         fhir:display [ fhir:v "Inculpés sous Contrôle judiciaire et Condamnés Libres" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "819" ] ;
+         fhir:display [ fhir:v "Autres Adultes en difficulté d'Insertion Sociale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "820" ] ;
+         fhir:display [ fhir:v "Hommes seuls en difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "821" ] ;
+         fhir:display [ fhir:v "Familles en Difficulté ou sans Logement" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "822" ] ;
+         fhir:display [ fhir:v "Personnes et Familles Rapatriées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "823" ] ;
+         fhir:display [ fhir:v "Familles Nomades" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "824" ] ;
+         fhir:display [ fhir:v "Personnes seules en Difficulté avec Enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "825" ] ;
+         fhir:display [ fhir:v "Travailleurs Migrants" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "826" ] ;
+         fhir:display [ fhir:v "Jeunes Travailleurs" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "827" ] ;
+         fhir:display [ fhir:v "Personnes et Familles Réfugiées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "828" ] ;
+         fhir:display [ fhir:v "Accompagnants (ou aidants)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "829" ] ;
+         fhir:display [ fhir:v "Familles en difficulté et-ou femmes isolées" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "830" ] ;
+         fhir:display [ fhir:v "Personnes et Familles Demandeurs d'Asile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "831" ] ;
+         fhir:display [ fhir:v "Femmes Victimes de Violence" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "832" ] ;
+         fhir:display [ fhir:v "Personnes avec Problèmes Psychiques" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "833" ] ;
+         fhir:display [ fhir:v "Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "834" ] ;
+         fhir:display [ fhir:v "Patients et accompagnants (ou aidants)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "835" ] ;
+         fhir:display [ fhir:v "Parents en difficulté avec enfant" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "836" ] ;
+         fhir:display [ fhir:v "Personnes victimes de la Traite des Etres Humains (T.E.H.)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "840" ] ;
+         fhir:display [ fhir:v "Personnes sans Domicile" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "850" ] ;
+         fhir:display [ fhir:v "Personnes souffrant d'addictions sans substances" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "851" ] ;
+         fhir:display [ fhir:v "Personnes mésusant de médicaments" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "852" ] ;
+         fhir:display [ fhir:v "Personnes en demande sevrage tabagique ou diminution tabac" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "853" ] ;
+         fhir:display [ fhir:v "Personnes souffrant d'addictions (Sans Autre Indication)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "860" ] ;
+         fhir:display [ fhir:v "Majeurs Protégés" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "861" ] ;
+         fhir:display [ fhir:v "Adultes avec difficultés budgétaires" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "862" ] ;
+         fhir:display [ fhir:v "Tuteurs Familiaux" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "899" ] ;
+         fhir:display [ fhir:v "Tous publics en difficulté" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "990" ] ;
+         fhir:display [ fhir:v "Toute Population" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.132" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

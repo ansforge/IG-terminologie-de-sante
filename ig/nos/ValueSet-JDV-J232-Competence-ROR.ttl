@@ -1,0 +1,434 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J232-Competence-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J232-Competence-ROR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R39-Competence.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C01\">C01</a></td><td>Anatomie et Cytologie pathologiques humaines (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C03\">C03</a></td><td>Anesthésie-réanimation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C05\">C05</a></td><td>Médecine appliquée aux sports (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C07\">C07</a></td><td>Cardiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C09\">C09</a></td><td>Chirurgie plastique, reconstructrice et esthétique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C10\">C10</a></td><td>Chirurgie maxillo-faciale</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C11\">C11</a></td><td>Chirurgie thoracique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C12\">C12</a></td><td>Chirurgie orthopédique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C13\">C13</a></td><td>Urologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C15\">C15</a></td><td>Dermato-vénéréologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C20\">C20</a></td><td>Hémobiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C23\">C23</a></td><td>Gynécologie médicale et Obstétrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C25\">C25</a></td><td>Gynécologie médicale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C27\">C27</a></td><td>Obstétrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C29\">C29</a></td><td>Maladies de l'appareil digestif (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C30\">C30</a></td><td>Néphrologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C31\">C31</a></td><td>Médecine exotique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C33\">C33</a></td><td>Allergologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C34\">C34</a></td><td>Angéiologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C35\">C35</a></td><td>Cancérologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C36\">C36</a></td><td>Diabétologie-nutrition (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C37\">C37</a></td><td>Endocrinologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C38\">C38</a></td><td>Maladies du sang (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C39\">C39</a></td><td>Réanimation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C40\">C40</a></td><td>Médecine légale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C41\">C41</a></td><td>Médecine du travail (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C43\">C43</a></td><td>Neurologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C45\">C45</a></td><td>Neuro-chirurgie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C47\">C47</a></td><td>Neuro-psychiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C51\">C51</a></td><td>Pédiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C52\">C52</a></td><td>Phoniatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C54\">C54</a></td><td>Pneumologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C57\">C57</a></td><td>Psychiatrie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C58\">C58</a></td><td>Psychiatrie, option enfant et adolescent (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C60\">C60</a></td><td>Médecine physique et de réadaptation (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C62\">C62</a></td><td>Rhumatologie (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C68\">C68</a></td><td>Chirurgie pédiatrique (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C69\">C69</a></td><td>Médecine nucléaire (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C71\">C71</a></td><td>Médecine thermale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C72\">C72</a></td><td>Génétique médicale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C75\">C75</a></td><td>Endocrinologie et Maladies métaboliques (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C76\">C76</a></td><td>Orthopédie dento-maxillo-faciale (C)</td></tr><tr><td><a href=\"CodeSystem-TRE-R39-Competence.html#TRE-R39-Competence-C83\">C83</a></td><td>Chirurgie de la face et du cou (C)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2022-08-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J232-Competence-ROR/FHIR/JDV-J232-Competence-ROR"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.63" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J232-Competence-ROR"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-08-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Compétence"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "C01" ] ;
+         fhir:display [ fhir:v "Anatomie et Cytologie pathologiques humaines (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C03" ] ;
+         fhir:display [ fhir:v "Anesthésie-réanimation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C05" ] ;
+         fhir:display [ fhir:v "Médecine appliquée aux sports (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C07" ] ;
+         fhir:display [ fhir:v "Cardiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C09" ] ;
+         fhir:display [ fhir:v "Chirurgie plastique, reconstructrice et esthétique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C10" ] ;
+         fhir:display [ fhir:v "Chirurgie maxillo-faciale" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C11" ] ;
+         fhir:display [ fhir:v "Chirurgie thoracique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C12" ] ;
+         fhir:display [ fhir:v "Chirurgie orthopédique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C13" ] ;
+         fhir:display [ fhir:v "Urologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C15" ] ;
+         fhir:display [ fhir:v "Dermato-vénéréologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C20" ] ;
+         fhir:display [ fhir:v "Hémobiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C23" ] ;
+         fhir:display [ fhir:v "Gynécologie médicale et Obstétrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C25" ] ;
+         fhir:display [ fhir:v "Gynécologie médicale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C27" ] ;
+         fhir:display [ fhir:v "Obstétrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C29" ] ;
+         fhir:display [ fhir:v "Maladies de l'appareil digestif (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C30" ] ;
+         fhir:display [ fhir:v "Néphrologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C31" ] ;
+         fhir:display [ fhir:v "Médecine exotique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C33" ] ;
+         fhir:display [ fhir:v "Allergologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C34" ] ;
+         fhir:display [ fhir:v "Angéiologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C35" ] ;
+         fhir:display [ fhir:v "Cancérologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C36" ] ;
+         fhir:display [ fhir:v "Diabétologie-nutrition (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C37" ] ;
+         fhir:display [ fhir:v "Endocrinologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C38" ] ;
+         fhir:display [ fhir:v "Maladies du sang (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C39" ] ;
+         fhir:display [ fhir:v "Réanimation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C40" ] ;
+         fhir:display [ fhir:v "Médecine légale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C41" ] ;
+         fhir:display [ fhir:v "Médecine du travail (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C43" ] ;
+         fhir:display [ fhir:v "Neurologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C45" ] ;
+         fhir:display [ fhir:v "Neuro-chirurgie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C47" ] ;
+         fhir:display [ fhir:v "Neuro-psychiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C51" ] ;
+         fhir:display [ fhir:v "Pédiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C52" ] ;
+         fhir:display [ fhir:v "Phoniatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C54" ] ;
+         fhir:display [ fhir:v "Pneumologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C57" ] ;
+         fhir:display [ fhir:v "Psychiatrie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C58" ] ;
+         fhir:display [ fhir:v "Psychiatrie, option enfant et adolescent (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C60" ] ;
+         fhir:display [ fhir:v "Médecine physique et de réadaptation (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C62" ] ;
+         fhir:display [ fhir:v "Rhumatologie (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C68" ] ;
+         fhir:display [ fhir:v "Chirurgie pédiatrique (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C69" ] ;
+         fhir:display [ fhir:v "Médecine nucléaire (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C71" ] ;
+         fhir:display [ fhir:v "Médecine thermale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C72" ] ;
+         fhir:display [ fhir:v "Génétique médicale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C75" ] ;
+         fhir:display [ fhir:v "Endocrinologie et Maladies métaboliques (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C76" ] ;
+         fhir:display [ fhir:v "Orthopédie dento-maxillo-faciale (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "C83" ] ;
+         fhir:display [ fhir:v "Chirurgie de la face et du cou (C)" ] ;
+         fhir:designation ( [
+           fhir:use [
+             fhir:code [ fhir:v "OID" ]
+           ] ;
+           fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.29" ]
+         ] )
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
