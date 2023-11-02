@@ -11,7 +11,11 @@
     <li><a href="#">NOS</a></li>
     <li><a href="telechargement-jdv.html">Téléchargement</a></li>
   </ul>
+    <p>
+        {% sql select ResourceKey, ValueSetUri  from ValueSet_Codes %}
+    </p>
       <p>
+          
        Liste  des JDV
           {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources %}
       </p>
