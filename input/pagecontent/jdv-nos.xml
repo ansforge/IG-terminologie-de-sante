@@ -13,9 +13,11 @@
   </ul>
       <p>
        Liste  des JDV
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources %}
       </p>
       <ul class="columns-3">
          {​% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources %}
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources %}
       </ul>    
   </div>
 
