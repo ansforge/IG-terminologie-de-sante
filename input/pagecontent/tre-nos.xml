@@ -10,13 +10,12 @@
     <br/>
     <ul class="nav nav-tabs">
     <li ><a href="tre.html">Ensemble des TRE</a></li>
-    <li><a href="#" class="active">NOS</a></li>
+    <li class="active"><a href="#" >NOS</a></li>
     <li><a href="telechargement-tre.html">Téléchargement</a></li>
   </ul>
       <p>
-       Liste des TRE
+          
+       Liste  des TRE du NOS
+          {% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%'  %}
       </p>
-      <ul class="columns-3">
-       {​% sql fmt:lines;a;md;l:1 select name as Name, Description, web from Resources %}
-      </ul>    
   </div>
