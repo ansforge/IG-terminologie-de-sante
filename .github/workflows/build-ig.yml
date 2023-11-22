@@ -43,8 +43,8 @@ jobs:
           
       - name: 📥 Get metadata from smt
         run: |      
+          cd ./input/ontoserver/JDV
           wget -q https://smt.esante.gouv.fr/fhir/metadata?_format=json
-          cp  metadata ./input/ontoserver/JDV
           
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
