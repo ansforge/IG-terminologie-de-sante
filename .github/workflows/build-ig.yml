@@ -40,8 +40,12 @@ jobs:
           cd ./tools/hapi
           javac -cp "./lib/*" TestApplication.java
           java -cp "./lib/*" TestApplication.java
-
-
+          
+      - name: 📥 Get metadata from smt
+        run: |      
+          wget -q https://smt.esante.gouv.fr/fhir/metadata?_format=json
+          cp  metadata ./input/ontoserver/JDV
+          
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
         run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
