@@ -702,6 +702,17 @@
        fhir:name [ fhir:v "VS_all_terminologie_cim_10" ] ;
        fhir:description [ fhir:v "Ce jeux de valeur sert d'exemple pour le cas d'usage de la recherche de codes concept dans une terminologie en donnant en entrée un String. Le serveur devra aller chercher dans le Display ou le ou les Designations de la terminologies et afficher les codes concepts correspondants. Ce jeu de valeurs a été crée pour les besoins de l'atelier FHIR terminology Service du Projectathon 2023 de l'ANS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CapabilityStatement" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CapabilityStatement/bf9bc0ab-ca36-4a58-93d1-ec7dc027d408> ;
+         fhir:reference [ fhir:v "CapabilityStatement/bf9bc0ab-ca36-4a58-93d1-ec7dc027d408" ]
+       ] ;
+       fhir:name [ fhir:v "FHIR Conformance statement for Ontoserver®" ] ;
+       fhir:description [ fhir:v "An instance of Ontoserver implementing the HL7 FHIR terminology server specification." ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
