@@ -1,4 +1,21 @@
 $(document).ready(function(){
+
+
+	$("#terminologit-search-content-valueset-cld").addClass("accordion-group");
+	//$("#terminologit-search-content-valueset-cld").attr("id","logical-definition-accordion-group");
+	var logicalDefHeading = $("#terminologit-search-content-valueset-cld").find("#logical-definition-cld");
+	$(logicalDefHeading).addClass("accordion-heading");
+	$(logicalDefHeading).append('<a class="accordion-toggle" data-toggle="collapse" href="#logical-definition-cld-collapse"><i class="gg-chevron-down"></i></a>');
+	$(logicalDefHeading).next().addClass("accordion-body collapse");
+	$(logicalDefHeading).next().attr('id', 'logical-definition-cld-collapse');
+
+	$('.gg-chevron-down').each(function () {
+		$(this).click(function () {
+			jQuery(this).toggleClass("rotate-toggle");
+		});
+	});
+
+	
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
@@ -16,8 +33,8 @@ $(document).ready(function(){
         });
 
         $('#back-to-top').tooltip('show');
-
-$('#orig').find('table').each(function(indextable) { 
+$("table tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");
+$('#orig').find('table.codes').each(function(indextable) { 
 
 	$('<div class="form-group pull-right"> <input type="text"  style="height:auto;font-size:12px" class="search' + indextable +' form-control" placeholder="Recherche">  <span class="counter' + indextable + ' "></span></div>').insertBefore($(this));	
 	firstTr = $(this).find('tr:first').remove()
