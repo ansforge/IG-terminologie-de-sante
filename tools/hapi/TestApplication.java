@@ -63,10 +63,10 @@ public class TestApplication {
       CodeSystem valueSet = (CodeSystem) entry.getResource();
       CodeSystem valueSetExp = client.read().resource(CodeSystem.class).withId(valueSet.getId()).execute();
       System.out.println("nom" + valueSet.getCount());
-      if(valueSet.getCount()>1000) {
+      /*if(valueSet.getCount()>1000) {
             valueSetExp.setConcept(null);
             System.out.println("null");
-      }
+      }*/
          try{
          //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
          BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
