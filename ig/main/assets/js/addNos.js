@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
+	$('div.accord').each(function(indextable) { 
+	    var id= $(this).find("div.accordion-body").attr("id");
+	    $(this).find("H3.accordion-heading").append('<a class="accordion-toggle" data-toggle="collapse" href="#' + id  +'"><i class="gg-chevron-down"></i></a>');
+	});
 
+
+	
 	$("#terminologit-search-content-valueset-cld").addClass("accordion-group");
 	//$("#terminologit-search-content-valueset-cld").attr("id","logical-definition-accordion-group");
 	var logicalDefHeading = $("#terminologit-search-content-valueset-cld").find("#logical-definition-cld");
