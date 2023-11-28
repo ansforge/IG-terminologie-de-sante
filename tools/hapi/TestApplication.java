@@ -40,8 +40,14 @@ public class TestApplication {
         // Parcourir les résultats et afficher les identifiants des ValueSets
         for (Bundle.BundleEntryComponent entry : results.getEntry()) {
          ValueSet valueSet = (ValueSet) entry.getResource();
+/*                      .operation()
+                        .onInstance(new IdType("ValueSet", valuesetId))
+                        .named("$expand")
+                        .withNoParameters(Parameters.class)
+                        .returnResourceType(ValueSet.class)
+                        .execute()*/
            
-         ValueSet valueSetExp = client.read().resource(ValueSet.class).withId(valueSet.getId()).execute();
+         ValueSet valueSetExp = client.read().named("$expand").resource(ValueSet.class).withId(valueSet.getId()).execute();
          valueSetExp.getExpansion();
          System.out.println(valueSet.getName());
 
