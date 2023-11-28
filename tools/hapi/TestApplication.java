@@ -47,7 +47,7 @@ public class TestApplication {
                         .returnResourceType(ValueSet.class)
                         .execute()*/
            
-         ValueSet valueSetExp = client.read().named("$expand").resource(ValueSet.class).withId(valueSet.getId()).execute();
+         ValueSet valueSetExp = client.read().operation().named("$expand").resource(ValueSet.class).withId(valueSet.getId()).execute();
          valueSetExp.getExpansion();
          System.out.println(valueSet.getName());
 
