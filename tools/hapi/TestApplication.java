@@ -42,7 +42,7 @@ public class TestApplication {
          ValueSet valueSet = (ValueSet) entry.getResource();
            
          ValueSet valueSetExp = client.read().resource(ValueSet.class).withId(valueSet.getId()).execute();
-         valueSetExp.getExpansion()
+         valueSetExp.getExpansion();
          System.out.println(valueSet.getName());
 
          try{
