@@ -39,7 +39,12 @@ $(document).ready(function(){
         });
 
         $('#back-to-top').tooltip('show');
-$("table tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");
+
+
+if($("table.codes").find('tr:eq(0) th:eq(4)').text())
+	$("table.codes tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");
+
+
 $('#orig').find('table.codes').each(function(indextable) { 
 
 	$('<div class="form-group pull-right"> <input type="text"  style="height:auto;font-size:12px" class="search' + indextable +' form-control" placeholder="Recherche">  <span class="counter' + indextable + ' "></span></div>').insertBefore($(this));	
