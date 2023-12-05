@@ -41,8 +41,6 @@ $(document).ready(function(){
         $('#back-to-top').tooltip('show');
 
 
-if($("table.codes").find('tr:eq(0) th:eq(4)').text()=='dateFin')
-	$("table.codes tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");
 
 
 $('#orig').find('table.codes').each(function(indextable) { 
@@ -86,5 +84,7 @@ $('#orig').find('table.codes').each(function(indextable) {
 	
 });
 
-     
+
+if($("table.codes").find('tr:eq(0) th:eq(4)').text()=='dateFin')
+	$("table.codes tr td:nth-child(5):not(:empty)").parent().children().css("background-color","#E69215");     
 });
