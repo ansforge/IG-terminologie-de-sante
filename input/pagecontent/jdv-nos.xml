@@ -1,0 +1,38 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/r5/fhir-single.xsd">
+    
+    Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits d’une ou plusieurs TRE. Un jeu de valeurs est créé à des fins applicatives.
+    Par exemple avec les JDV du répertoire opérationnel des ressources (ROR) ou bien du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS).
+    <br/>
+    <br/>
+
+
+    <ul class="nav nav-tabs">
+    <li ><a href="jdv.html">Ensemble des JDV</a></li>
+    <li  class="active"><a href="#" >JDV par type</a></li>
+    <li><a href="telechargement-jdv.html">Téléchargement</a></li>
+  </ul>
+
+        <br/>
+    <div id="orig">
+
+       
+                       <div class="accordion-body collapse" id="content-cisis">               
+                      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%'  %}
+                    </div>  
+       
+          
+  
+
+
+
+
+
+    </div>
+  
+  </div>
+
+
+
+
+
+ 
