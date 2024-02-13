@@ -15,13 +15,23 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:      
+          path: igSource
       
-      #- uses: actions/setup-java@v3
-      #  with:
-      #    distribution: 'oracle'
-      #    java-version: '17' 
 
+          
+      - name: Get From ontoserver      
+        run: |
+          mkdir ./igSource/input/ontoserver
+          mkdir ./igSource/input/ontoserver/JDV
+          mkdir ./igSource/input/ontoserver/TRE
+          mkdir ./igSource/input/ontoserver/ASS
+          mkdir ./igSource/input/ontoserver/NamingSystem
+          cd ./tools/hapi
+          java -cp "./lib/*" TestApplication.java
+          
+          
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
         with:
@@ -29,48 +39,7 @@ jobs:
 
       - name: Install saxon
         run : pip install saxonche
-          
-      - name: Get From ontoserver      
-        run: |
-          mkdir ./input/ontoserver
-          mkdir ./input/ontoserver/JDV
-          mkdir ./input/ontoserver/TRE
-          mkdir ./input/ontoserver/ASS
-          mkdir ./input/ontoserver/NamingSystem
-          cd ./tools/hapi
-          javac -cp "./lib/*" TestApplication.java
-          java -cp "./lib/*" TestApplication.java
-          
-      - name: 📥 Get metadata from smt
-        run: |      
-          cd ./input/ontoserver/JDV
-          wget -q https://smt.esante.gouv.fr/fhir/metadata?_format=json
-          
-      # Downloads the newest version of the IG Publisher, this could probable be cached.
-      - name: 📥 Download IG Publisher
-        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
-
-
-      - name: Install modules
-        run: npm install -g fsh-sushi
-      - name: Build and test with Rake        
-        run: |
-          sudo apt-get install ruby-full
-          sudo gem install jekyll
-      - name: Run sushi
-        run: sushi .
-          
-      # Builds the HTML page for the IG.
-      - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx8192m -jar publisher.jar publisher -ig .  -publish https://github.io/
-
-
-      - name: Setup Python # Set Python version
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' 
-
-
+        
       - name: Run script python
         run: python ./tools/transform.py './output' './tools/xsl'
 
@@ -137,22 +106,11 @@ jobs:
       #  run :  zip -rj ./output/NOS/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/*CISIS*  
 
 
-
-      - name: Get branch names
-        id: branch-name
-        uses: tj-actions/branch-names@v4.3
-        
-        
-          
-      
-        
-      # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
-      # This will overwrite the currently published HTML page.
-      - name: 🚀 Deploy to GitHub-Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
-          destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
-          exclude_assets: '**.zip,**.tgz,**.pack'
-          commit_message: ' ${{ github.event.head_commit.message }}'
+      - uses: ansforge/IG-workflows@v0.2.0
+        with:      
+          repo_ig: "./igSource"   
+          github_page: "true"
+          github_page_token: ${{ secrets.GITHUB_TOKEN }}
+          validator_cli: "true"
+          generate_plantuml : "true"
+          generate_testscript : "true"
