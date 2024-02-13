@@ -48,7 +48,10 @@ jobs:
 
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : java -Xmx8192m -jar publisher.jar publisher -ig ./igSource  -publish https://github.io/
+        run : |
+              cd  ./igSource
+              java -Xmx8192m -jar ../publisher.jar  -ig . 
+     
           
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
