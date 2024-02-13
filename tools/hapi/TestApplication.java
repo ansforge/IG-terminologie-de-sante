@@ -52,7 +52,7 @@ public class ontoApplication {
          System.out.println(valueSet.getName());
 
          try{
-            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/JDV/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../igSource/input/ontoserver/JDV/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
             writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
             writer.close();
 
@@ -77,7 +77,7 @@ public class ontoApplication {
       }
          try{
          //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
-         BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+         BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../igSource/input/ontoserver/TRE/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
          writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
          writer.close();
 
@@ -97,7 +97,7 @@ public class ontoApplication {
  
             try{
             //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
-            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/ASS/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../igSource/input/ontoserver/ASS/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
             writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
             writer.close();
    
@@ -118,7 +118,7 @@ public class ontoApplication {
  
             try{
             //BufferedWriter writer = new BufferedWriter(new FileWriter("./json/"+ valueSet.getName() + ".json", true));
-            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../input/ontoserver/NamingSystem/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
+            BufferedWriter writer = new BufferedWriter  (new OutputStreamWriter(new FileOutputStream("../../igSource/input/ontoserver/NamingSystem/"+ valueSet.getName() + ".json"), StandardCharsets.UTF_8));
             writer.append(ctx.newJsonParser().setPrettyPrint(true).encodeResourceToString(valueSetExp));
             writer.close();
    
