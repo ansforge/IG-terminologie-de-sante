@@ -29,7 +29,7 @@ jobs:
           mkdir ./igSource/input/ontoserver/ASS
           mkdir ./igSource/input/ontoserver/NamingSystem
           cd ./igSource/tools/hapi
-          java -cp "./lib/*" TestApplication.java
+          java -cp "./lib/*" OntoApplication.java
           
           
       - name: Setup Python # Set Python version
@@ -41,7 +41,7 @@ jobs:
         run : pip install saxonche
         
       - name: Run script python
-        run: python ./tools/transform.py './output' './tools/xsl'
+        run: python ./igSource/tools/transform.py './igSource/output' './igSource/tools/xsl'
 
       #- name:  1 ZIP JDV PDF
       #  run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf        
