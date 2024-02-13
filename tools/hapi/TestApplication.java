@@ -1,4 +1,4 @@
-package test;
+package onto;
 
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.rest.client.api.IGenericClient;
@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 
-public class TestApplication {
+public class ontoApplication {
 
    /**
     * This is the Java main method, which gets executed
