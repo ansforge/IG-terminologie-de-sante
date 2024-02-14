@@ -31,7 +31,9 @@ jobs:
           cd ./igSource/tools/hapi
           java -cp "./lib/*" OntoApplication.java
           
-
+      - name: List des repertoires
+        run: ls -R ./igSource/input
+        
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
         run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
