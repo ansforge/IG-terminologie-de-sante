@@ -6,8 +6,8 @@ from saxonche import PySaxonProcessor
 
 dir_path =  sys.argv[1] 
 xsl_file = sys.argv[2] 
-#dir_path = "C:\\ig\\layout\\IG-ONTO-NOS\\output"
-#xsl_file = "C:\\ig\\layout\\IG-ONTO-NOS\\tools\\xsl\\fhirtosvs.xslt"
+#dir_path = "C:\\ig\\IG-terminologie-de-sante\\output"
+#xsl_file = "C:\\ig\IG-terminologie-de-sante\\tools\\xsl"
 
 
 

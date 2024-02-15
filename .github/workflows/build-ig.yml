@@ -64,7 +64,9 @@ jobs:
         run : pip install saxonche
         
       - name: Run script python
-        run: python ./igSource/tools/transform.py './igSource/output' './igSource/tools/xsl'
+        run: |
+              cd  ./igSource
+              python ./tools/transform.py './output' './tools/xsl'
 
        
         
