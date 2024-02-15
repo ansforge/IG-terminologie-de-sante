@@ -27,6 +27,13 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "FRANCE" ]
+     ] )
+  ] ) ; # 
   fhir:packageId [ fhir:v "ans.fr.terminologie"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
@@ -5934,17 +5941,6 @@
        fhir:name [ fhir:v "TRE_R97_DroitExerciceCompl" ] ;
        fhir:description [ fhir:v "Droit d'exercice complémentaire" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CapabilityStatement" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/CapabilityStatement/8cb256e4-294d-461b-ba74-41f0c3557413> ;
-         fhir:reference [ fhir:v "CapabilityStatement/8cb256e4-294d-461b-ba74-41f0c3557413" ]
-       ] ;
-       fhir:name [ fhir:v "FHIR Conformance statement for Ontoserver®" ] ;
-       fhir:description [ fhir:v "An instance of Ontoserver implementing the HL7 FHIR terminology server specification." ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -6066,15 +6062,24 @@
          ] ) ;
          fhir:name [ fhir:v "tre.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Terminologies" ] ;
-         fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "telechargement-tre.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "telechargement-tre.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Terminologies" ] ;
-         fhir:generation [ fhir:v "html" ]
+         fhir:generation [ fhir:v "html" ] ;
+         fhir:page ( [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "tre-nos.html"^^xsd:anyURI ]
+           ] ) ;
+           fhir:name [ fhir:v "tre-nos.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Terminologies   du NOS" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "tre-telechargement.html"^^xsd:anyURI ]
+           ] ) ;
+           fhir:name [ fhir:v "tre-telechargement.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Terminologies" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] )
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
@@ -6082,15 +6087,24 @@
          ] ) ;
          fhir:name [ fhir:v "jdv.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Jeux de valeurs" ] ;
-         fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "telechargement-jdv.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "telechargement-jdv.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Jeux de valeurs" ] ;
-         fhir:generation [ fhir:v "html" ]
+         fhir:generation [ fhir:v "html" ] ;
+         fhir:page ( [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "jdv-nos.html"^^xsd:anyURI ]
+           ] ) ;
+           fhir:name [ fhir:v "jdv-nos.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Jeux de valeurs du NOS" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "jdv-telechargement.html"^^xsd:anyURI ]
+           ] ) ;
+           fhir:name [ fhir:v "jdv-telechargement.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Jeux de valeurs" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] )
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
@@ -6098,7 +6112,16 @@
          ] ) ;
          fhir:name [ fhir:v "ass.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Association" ] ;
-         fhir:generation [ fhir:v "html" ]
+         fhir:generation [ fhir:v "html" ] ;
+         fhir:page ( [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [ fhir:v "ass-telechargement.html"^^xsd:anyURI ]
+           ] ) ;
+           fhir:name [ fhir:v "ass-telechargement.html"^^xsd:anyURI ] ;
+           fhir:title [ fhir:v "Association" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] )
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
@@ -6106,14 +6129,6 @@
          ] ) ;
          fhir:name [ fhir:v "namingSystem.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "namingSystem" ] ;
-         fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "telechargement-ass.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "telechargement-ass.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Association" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [
