@@ -21,12 +21,12 @@ with PySaxonProcessor(license=False) as proc:
             matchCS = re.match(r'CodeSystem-(.*)\.xml$', filename)
             if matchCS:
                 matchedValue = matchCS.group(1)
-                output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtosvs.xslt", output_file=dir_path+ "/listFormat/" +'CodeSystem-'+matchedValue +"-svs.xml")
-                output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtotabs.xslt", output_file=dir_path+ "/listFormat/" +'CodeSystem-'+matchedValue +".tabs")
+                output = xsltproc.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtosvs.xslt", output_file=dir_path+ "/listFormat/" +'CodeSystem-'+matchedValue +"-svs.xml")
+                output = xsltproc.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirCodeSystemtotabs.xslt", output_file=dir_path+ "/listFormat/" +'CodeSystem-'+matchedValue +".tabs")
                 print(matchedValue)
             matchCS = re.match(r'ValueSet-(.*)\.xml$', filename)
             if matchCS:
                 matchedValue = matchCS.group(1)
-                output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirValueSettosvs.xslt" , output_file=dir_path+ "/listFormat/" +'ValueSet-'+matchedValue +"-svs.xml") 
-                output = executable.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirValueSettotabs.xslt", output_file=dir_path+ "/listFormat/" +'ValueSet-'+matchedValue +".tabs")
+                output = xsltproc.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirValueSettosvs.xslt" , output_file=dir_path+ "/listFormat/" +'ValueSet-'+matchedValue +"-svs.xml") 
+                output = xsltproc.transform_to_file(source_file=dir_path +"/" +filename, stylesheet_file=xsl_file + "/fhirValueSettotabs.xslt", output_file=dir_path+ "/listFormat/" +'ValueSet-'+matchedValue +".tabs")
                 print(matchedValue)
