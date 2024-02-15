@@ -15,13 +15,6 @@
   </ul>
     <br/>
     <div id="orig">
-
-            
-                   <div class="accordion-body collapse" id="content-SIS">
-                    {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' %}
-                    </div>  
-
-      
-
+        {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' %}
     </div>
   </div>
