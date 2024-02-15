@@ -64,37 +64,34 @@ jobs:
         run : pip install saxonche
         
       - name: Run script python
-        run: python ./igSource/tools/transform.py './igSource/output/listFormat' './igSource/tools/xsl'
+        run: python ./igSource/tools/transform.py './igSource/output' './igSource/tools/xsl'
 
-      #- name:  1 ZIP JDV PDF
-      #  run :  zip -rj ./output/NOS/NOS-jdv-pdf.zip ./input/images/NOS/JDV_*.pdf        
+       
         
-      #- name:  1 ZIP JDV SVS
-      #  run :  zip -rj ./output/NOS/NOS-jdv-svs.zip ./output/NOS/ValueSet*-svs.xml  -x "*FHIR*"   
+      - name:  1 ZIP JDV SVS
+        run :  zip -rj ./output/listFormat/jdv-svs.zip ./output/listFormat/ValueSet*-svs.xml  -x "*FHIR*"   
         
-      #- name:  1 ZIP JDV FHIR JSON
-      #  run :  zip -rj ./output/NOS/NOS-jdv-fhir-json.zip ./output/ValueSet*.json     
+      - name:  1 ZIP JDV FHIR JSON
+        run :  zip -rj ./output/listFormat/jdv-fhir-json.zip ./output/ValueSet*.json     
         
-      #- name:  1 ZIP JDV FHIR XML
-      #  run :  zip -rj ./output/NOS/NOS-jdv-fhir-xml.zip ./output/ValueSet*.xml        
+      - name:  1 ZIP JDV FHIR XML
+        run :  zip -rj ./output/listFormat/jdv-fhir-xml.zip ./output/ValueSet*.xml        
         
-      #- name:  1 ZIP JDV FHIR tabs
-      #  run :  zip -rj ./output/NOS/NOS-jdv-tabs.zip ./output/NOS/ValueSet*.tabs 
+      - name:  1 ZIP JDV FHIR tabs
+        run :  zip -rj ./output/listFormat/jdv-tabs.zip ./output/listFormat/ValueSet*.tabs 
+               
         
-      #- name:  2 ZIP TRE PDF
-      #  run :  zip -rj ./output/NOS/NOS-tre-pdf.zip ./input/images/NOS/TRE_*.pdf        
+      - name:  2 ZIP TRE SVS
+        run :  zip -rj ./output/listFormat/tre-svs.zip ./output/listFormat/CodeSystem*-svs.xml  -x "*FHIR*"   
         
-      #- name:  2 ZIP TRE SVS
-      #  run :  zip -rj ./output/NOS/NOS-tre-svs.zip ./output/NOS/CodeSystem*-svs.xml  -x "*FHIR*"   
+      - name:  2 ZIP TRE FHIR JSON
+        run :  zip -rj ./output/listFormat/tre-fhir-json.zip ./output/CodeSystem*.json     
         
-      #- name:  2 ZIP TRE FHIR JSON
-      #  run :  zip -rj ./output/NOS/NOS-tre-fhir-json.zip ./output/CodeSystem*.json     
+      - name:  2 ZIP TRE FHIR XML
+        run :  zip -rj ./output/listFormat/tre-fhir-xml.zip ./output/CodeSystem*.xml         
         
-      #- name:  2 ZIP TRE FHIR XML
-      #  run :  zip -rj ./output/NOS/NOS-tre-fhir-xml.zip ./output/CodeSystem*.xml         
-        
-      #- name:  2 ZIP TRE FHIR tabs
-      #  run :  zip -rj ./output/NOS/NOS-tre-tabs.zip ./output/NOS/CodeSystem*.tabs
+      - name:  2 ZIP TRE FHIR tabs
+        run :  zip -rj ./output/listFormat/tre-tabs.zip ./output/listFormat/CodeSystem*.tabs
         
     
       #- name:  3 ZIP ASS PDF
