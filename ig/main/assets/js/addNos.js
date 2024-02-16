@@ -40,6 +40,38 @@ $(document).ready(function(){
 
         $('#back-to-top').tooltip('show');
 
+$('<hr><p><b>Recherche en live sur le SMT</b></p><div class="">Indiquer un mot clé  puis taper sur "enter" :  <input type="text" id="ontoSearch"  style="height:auto;font-size:12px" class="search form-control" form-control" placeholder="Recherche">  <span class="counter" id="counterOnto"></span><div id="resultOnto"></div> </div><hr/>').insertAfter($('p:contains("concepts.")'));
+
+$('#ontoSearch').on( "change", function() {
+  $('#resultOnto').html("Recherche ...");
+  $('#counterOnto').html("");
+  resultOnto      
+  $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet/$expand?_format=json&url=" + ($('i:contains("Official URL")').next()).contents().eq(0).text() + "&filter=" + $('#ontoSearch').val(),
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) => {
+      $('#resultOnto').html("");
+      $('#counterOnto').html(data.expansion.total + ' item');
+      if (data.expansion.contains != null) {   
+        $('#resultOnto').html('<table  class="codes table table-bordered  table-striped"><thead><tr><th><b>Code</b></th><th><b>System</b></th><th><b>Display</b></th></tr></thead><tbody id="bodyOntoTable"></tbody></table>');
+        $.each(data.expansion.contains, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td  >' + obj.code +'</td><td  >' + obj.system+'</td><td  >' + obj.display+'</td>';
+        content += '</tr>';
+         $('#bodyOntoTable').append(content);
+        });
+     }   
+    })
+    .fail((err) => {
+      console.error(err);
+    })
+    .always(() => {
+      console.log('always called');
+    });
+});      
 
 
 
