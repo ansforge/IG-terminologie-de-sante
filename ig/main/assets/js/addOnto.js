@@ -40,7 +40,18 @@ $(document).ready(function(){
 
         $('#back-to-top').tooltip('show');
 
-$('<hr><p><b>Recherche en live sur le SMT</b></p><div class="">Indiquer un mot clé  puis taper sur "enter" :  <input type="text" id="ontoSearch"  style="height:auto;font-size:12px" class="search form-control" form-control" placeholder="Recherche">  <span class="counter" id="counterOnto"></span><div id="resultOnto"></div> </div><hr/>').insertAfter($('p:contains("concepts.")'));
+ var searchOnto ='<p><b>Recherche en live sur le SMT</b></p><div class=""> \
+  Indiquer un mot clé  puis taper sur "enter" : \
+   <input type="text" id="ontoSearch"  style="height:auto;font-size:12px" class="search form-control" form-control" placeholder="Recherche">  \
+   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight language-plaintext"><code class=" language-plaintext" id="requeteOnto">Requête sur le SMT</code></pre></div></div> \
+   <span class="counter" id="counterOnto"></span> \
+   <div id="resultOnto"></div> </div><hr/>';
+
+ if($("p:contains('No Expansion for this valueset')").length > 0) {
+  $(searchOnto).insertAfter($( "#expansion" ).siblings( "hr" ).eq(0));
+ }else {
+  $(searchOnto).insertAfter($( "#expansion" ).next( "div" ).children("hr").eq(0));
+ }
 
 $('#ontoSearch').on( "change", function() {
   $('#resultOnto').html("Recherche ...");
@@ -69,14 +80,16 @@ $('#ontoSearch').on( "change", function() {
       console.error(err);
     })
     .always(() => {
-      console.log('always called');
+      $('#requeteOnto').html("GET https://smt.esante.gouv.fr/fhir//ValueSet/$expand?_format=json&url=" + ($('i:contains("Official URL")').next()).contents().eq(0).text() + "&filter=" + $('#ontoSearch').val());
     });
 });      
 
 
 
 $('#orig').find('table.codes').each(function(indextable) { 
-
+  if($(this).find("tr").length ==1) {
+    $(this).parent().hide();
+}
 	$('<div class="form-group pull-right"> <input type="text"  style="height:auto;font-size:12px" class="search' + indextable +' form-control" placeholder="Recherche">  <span class="counter' + indextable + ' "></span></div>').insertBefore($(this));	
 	firstTr = $(this).find('tr:first').remove()
 	firstTr.find('td').contents().unwrap().wrap('<th>')
