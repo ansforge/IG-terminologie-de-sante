@@ -50,7 +50,7 @@ $(document).ready(function(){
  if($("p:contains('No Expansion for this valueset')").length > 0) {
   $(searchOnto).insertAfter($( "#expansion" ).siblings( "hr" ).eq(0));
  }else {
-  $(searchOnto).insertAfter($( "#expansion" ).next( "div" ).children("hr").eq(0));
+  $(searchOnto).insertAfter($( "#expansion" ).next( "div" ).children("div.table-responsive").eq(0));
  }
 
 $('#ontoSearch').on( "change", function() {
