@@ -31,8 +31,6 @@
                             dateFin="{f:property/f:code[@value='dateFin']/../f:valueDateTime/@value}"
                             dateMaj="{f:property/f:code[@value='dateMaj']/../f:valueDateTime/@value}"
                             dateValid="{f:property/f:code[@value='dateValid']/../f:valueDateTime/@value}"
-                            displayName='{f:display/@value}'
-                            longDesignation="{f:display/@value}"
                             shortDesignation="{f:designation/f:use/f:code[@value='900000000000013009']/../../f:value/@value}"
                             />
                     </xsl:for-each>
