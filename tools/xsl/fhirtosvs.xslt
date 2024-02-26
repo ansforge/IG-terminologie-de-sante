@@ -14,13 +14,6 @@
             <ValueSet displayName="{/f:ValueSet/f:name/@value}" 
                 id="{substring-after(/f:ValueSet/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')}" 
                 version="{/f:ValueSet/f:version/@value}"
-                dateFin=""
-                dateMaj=""
-                datevalid=""
-                description=""
-                typeFichier=""
-                urlFichier=""
-                
                 >
                 <ConceptList xml:lang="en-US">
                     <xsl:for-each select='//f:concept'>
