@@ -73,7 +73,7 @@ public class ontoApplication {
       System.out.println("nom" + valueSet.getCount());
       if(valueSet.getCount()>1000) {
             valueSetExp.setConcept(null);
-            valueSetExp.setContent("not-present");
+            valueSetExp.setContent(CodeSystem.CodeSystemContentMode.NOTPRESENT);
             System.out.println("null");
       }
          try{
