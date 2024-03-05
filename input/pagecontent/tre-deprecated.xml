@@ -17,6 +17,6 @@
   </ul>
     <br/>
     <div id="orig">
-        {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url like '%NOS%' %}
+        {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and json_extract(Resources.json,'$.status')='deprecated' %}
     </div>
   </div>
