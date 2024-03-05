@@ -18,7 +18,7 @@
 
         <br/>
     <div id="orig">
-      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url like '%NOS%'  %}
+      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and json_extract(Resources.json,'$.status')='retired'  %}
     </div>
   
   </div>
