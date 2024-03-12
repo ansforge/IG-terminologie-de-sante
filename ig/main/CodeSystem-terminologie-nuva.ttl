@@ -1,0 +1,123 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/terminologie-nuva> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "terminologie-nuva"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1.1710232180322" ] ;
+     fhir:lastUpdated [ fhir:v "2024-03-12T08:29:40.322+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">La Nomenclature Unifiée des Vaccins (NUVA) permet de recueillir les traces vaccinales à partir de sources numériques ou physiques afin de constituer un historique vaccinal complet, aussi précis que le permettent les sources et interprétable par des systèmes d’information</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/terminologie-nuva"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://smt.esante.gouv.fr/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "terminologie-nuva" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "NUVA"] ; # 
+  fhir:title [ fhir:v "La Nomenclature Unifiée des Vaccins (NUVA)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-03T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "La Nomenclature Unifiée des Vaccins (NUVA) permet de recueillir les traces vaccinales à partir de sources numériques ou physiques afin de constituer un historique vaccinal complet, aussi précis que le permettent les sources et interprétable par des systèmes d’information"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "FRANCE" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "SYADEM"] ; # 
+  fhir:valueSet [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-nuva?vs"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-nuva?vs>
+  ] ; # 
+  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:count [ fhir:v "1367"^^xsd:nonNegativeInteger] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false" ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "created" ] ;
+     fhir:uri [ fhir:v "http://purl.org/dc/terms/created"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "modified" ] ;
+     fhir:uri [ fhir:v "http://purl.org/dc/terms/modified"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "containedInVaccine" ] ;
+     fhir:uri [ fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "prevents" ] ;
+     fhir:uri [ fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#prevents"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "comment" ] ;
+     fhir:uri [ fhir:v "http://www.w3.org/2000/01/rdf-schema#comment"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "containsValence" ] ;
+     fhir:uri [ fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#containsValence"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "isAbstract" ] ;
+     fhir:uri [ fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#isAbstract"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "hiddenLabel" ] ;
+     fhir:uri [ fhir:v "http://www.w3.org/2004/02/skos/core#hiddenLabel"^^xsd:anyURI ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Codes des parents du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#child"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Codes des enfants du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:description [ fhir:v "Indicates if the concept is imported from another code system." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
