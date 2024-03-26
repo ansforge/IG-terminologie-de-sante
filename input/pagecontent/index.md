@@ -33,3 +33,20 @@ Le SMT de l'ANS est un espace d'hébergement et de gestion des terminologies de 
     - Un service d’aide à la recherche des terminologies et des concepts s’y référant. 
 
 Le SMT est accessible via le site de l'ANS à l'adresse https://industriels.esante.gouv.fr/produits-et-services/smt-serveur-multi-terminologies
+### IP Statements
+
+{% include ip-statements.xhtml %}
+
+
+### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+### Dépendances
+
+{% include dependency-table.xhtml %}
+
+### Globals Table
+
+{% include globals-table.xhtml %}
+
