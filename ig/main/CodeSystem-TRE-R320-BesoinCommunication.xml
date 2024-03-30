@@ -3,12 +3,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R320-BesoinCommunication"/>
   <meta>
-    <versionId value="1"/>
-    <lastUpdated value="2024-01-29T08:33:20.845+00:00"/>
+    <versionId value="2"/>
+    <lastUpdated value="2024-03-30T07:11:23.837+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R320-BesoinCommunication/FHIR/TRE-R320-BesoinCommunication</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style="white-space:nowrap">01<a name="TRE-R320-BesoinCommunication-01"> </a></td><td>Pour communiquer</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">02<a name="TRE-R320-BesoinCommunication-02"> </a></td><td>Pour les relations avec les autres</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">03<a name="TRE-R320-BesoinCommunication-03"> </a></td><td>Pour assurer sa sécurité</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R320-BesoinCommunication/FHIR/TRE-R320-BesoinCommunication</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr><tr><td style="white-space:nowrap">01<a name="TRE-R320-BesoinCommunication-01"> </a></td><td>Pour communiquer</td><td>La personne a besoin d'aide pour communiquer</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">02<a name="TRE-R320-BesoinCommunication-02"> </a></td><td>Pour les relations avec les autres</td><td>La personne a besoin d'aide pour les relations avec les autres</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr><tr><td style="white-space:nowrap">03<a name="TRE-R320-BesoinCommunication-03"> </a></td><td>Pour assurer sa sécurité</td><td>La personne a besoin d'aide pour assurer sa sécurité</td><td>2021-09-24T12:00:00+01:00</td><td>2021-09-24T12:00:00+01:00</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -24,7 +24,7 @@
   <name value="TRE_R320_BesoinCommunication"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2024-03-29T12:00:00+01:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -61,13 +61,7 @@
   <concept>
     <code value="01"/>
     <display value="Pour communiquer"/>
-    <designation>
-      <use>
-        <system value="http://snomed.info/sct"/>
-        <code value="900000000000013009"/>
-      </use>
-      <value value="La personne a besoin d'aide pour communiquer"/>
-    </designation>
+    <definition value="La personne a besoin d'aide pour communiquer"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2021-09-24T12:00:00+01:00"/>
@@ -80,19 +74,13 @@
   <concept>
     <code value="02"/>
     <display value="Pour les relations avec les autres"/>
+    <definition value="La personne a besoin d'aide pour les relations avec les autres"/>
     <designation>
       <use>
         <system value="http://snomed.info/sct"/>
         <code value="900000000000013009"/>
       </use>
       <value value="Pour relations avec les autres"/>
-    </designation>
-    <designation>
-      <use>
-        <system value="http://snomed.info/sct"/>
-        <code value="900000000000013009"/>
-      </use>
-      <value value="La personne a besoin d'aide pour les relations avec les autres"/>
     </designation>
     <property>
       <code value="dateValid"/>
@@ -106,13 +94,7 @@
   <concept>
     <code value="03"/>
     <display value="Pour assurer sa sécurité"/>
-    <designation>
-      <use>
-        <system value="http://snomed.info/sct"/>
-        <code value="900000000000013009"/>
-      </use>
-      <value value="La personne a besoin d'aide pour assurer sa sécurité"/>
-    </designation>
+    <definition value="La personne a besoin d'aide pour assurer sa sécurité"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2021-09-24T12:00:00+01:00"/>
