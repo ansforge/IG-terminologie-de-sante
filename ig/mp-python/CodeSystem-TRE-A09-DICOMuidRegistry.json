@@ -1,0 +1,104 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TRE-A09-DICOMuidRegistry",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2024-01-29T08:30:53.214+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td></tr><tr><td style=\"white-space:nowrap\">urn:ihe:rad:1.2.840.10008.5.1.4.1.1.88.59<a name=\"TRE-A09-DICOMuidRegistry-urn.58ihe.58rad.581.462.46840.4610008.465.461.464.461.461.4688.4659\"> </a></td><td>Format des références d'objets d'imagerie selon profil IHE RAD XDS-I</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td></tr><tr><td style=\"white-space:nowrap\">1.2.840.10008.5.1.4.1.1.88.59<a name=\"TRE-A09-DICOMuidRegistry-1.462.46840.4610008.465.461.464.461.461.4688.4659\"> </a></td><td>Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I</td><td>2016-09-01T00:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-09-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.840.10008.2.6.1"
+  }],
+  "version" : "1.1.0",
+  "name" : "TRE_A09_DICOMuidRegistry",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-12-15T12:00:00+01:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "DICOM UID Registry",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "urn:ihe:rad:1.2.840.10008.5.1.4.1.1.88.59",
+    "display" : "Format des références d'objets d'imagerie selon profil IHE RAD XDS-I",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Format profil IHE RAD XDS-I"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "1.2.840.10008.5.1.4.1.1.88.59",
+    "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I",
+    "designation" : [{
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ref Imagerie IHE RAD XDS-I"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    }]
+  }]
+}

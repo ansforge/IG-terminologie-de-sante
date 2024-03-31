@@ -1,0 +1,706 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-J256-Pays> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "JDV-J256-Pays"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2024-01-30T06:01:36.274+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R20-Pays.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99100\">99100</a></td><td>FRANCE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99101\">99101</a></td><td>DANEMARK</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99102\">99102</a></td><td>ISLANDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99103\">99103</a></td><td>NORVEGE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99104\">99104</a></td><td>SUEDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99105\">99105</a></td><td>FINLANDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99106\">99106</a></td><td>ESTONIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99107\">99107</a></td><td>LETTONIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99108\">99108</a></td><td>LITUANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99109\">99109</a></td><td>ALLEMAGNE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99110\">99110</a></td><td>AUTRICHE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99111\">99111</a></td><td>BULGARIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99112\">99112</a></td><td>HONGRIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99113\">99113</a></td><td>LIECHTENSTEIN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99114\">99114</a></td><td>ROUMANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99116\">99116</a></td><td>TCHEQUIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99117\">99117</a></td><td>SLOVAQUIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99118\">99118</a></td><td>BOSNIE-HERZEGOVINE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99119\">99119</a></td><td>CROATIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99120\">99120</a></td><td>MONTENEGRO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99121\">99121</a></td><td>SERBIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99122\">99122</a></td><td>POLOGNE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99123\">99123</a></td><td>RUSSIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99125\">99125</a></td><td>ALBANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99126\">99126</a></td><td>GRECE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99127\">99127</a></td><td>ITALIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99128\">99128</a></td><td>SAINT-MARIN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99129\">99129</a></td><td>VATICAN, ou SAINT-SIEGE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99130\">99130</a></td><td>ANDORRE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99131\">99131</a></td><td>BELGIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99132\">99132</a></td><td>ROYAUME-UNI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99133\">99133</a></td><td>GIBRALTAR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99134\">99134</a></td><td>ESPAGNE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99135\">99135</a></td><td>PAYS-BAS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99136\">99136</a></td><td>IRLANDE, ou EIRE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99137\">99137</a></td><td>LUXEMBOURG</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99138\">99138</a></td><td>MONACO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99139\">99139</a></td><td>PORTUGAL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99140\">99140</a></td><td>SUISSE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99144\">99144</a></td><td>MALTE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99145\">99145</a></td><td>SLOVENIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99148\">99148</a></td><td>BIELORUSSIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99151\">99151</a></td><td>MOLDAVIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99155\">99155</a></td><td>UKRAINE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99156\">99156</a></td><td>MACEDOINE DU NORD</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99157\">99157</a></td><td>KOSOVO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99201\">99201</a></td><td>ARABIE SAOUDITE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99203\">99203</a></td><td>IRAQ</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99204\">99204</a></td><td>IRAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99205\">99205</a></td><td>LIBAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99206\">99206</a></td><td>SYRIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99207\">99207</a></td><td>ISRAEL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99208\">99208</a></td><td>TURQUIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99212\">99212</a></td><td>AFGHANISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99213\">99213</a></td><td>PAKISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99214\">99214</a></td><td>BHOUTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99215\">99215</a></td><td>NEPAL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99216\">99216</a></td><td>CHINE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99217\">99217</a></td><td>JAPON</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99219\">99219</a></td><td>THAILANDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99220\">99220</a></td><td>PHILIPPINES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99222\">99222</a></td><td>JORDANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99223\">99223</a></td><td>INDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99224\">99224</a></td><td>BIRMANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99225\">99225</a></td><td>BRUNEI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99226\">99226</a></td><td>SINGAPOUR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99227\">99227</a></td><td>MALAISIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99229\">99229</a></td><td>MALDIVES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99231\">99231</a></td><td>INDONESIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99234\">99234</a></td><td>CAMBODGE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99235\">99235</a></td><td>SRI LANKA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99236\">99236</a></td><td>TAIWAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99238\">99238</a></td><td>COREE (REPUBLIQUE POPULAIRE DEMOCRATIQUE DE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99239\">99239</a></td><td>COREE (REPUBLIQUE DE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99240\">99240</a></td><td>KOWEIT</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99241\">99241</a></td><td>LAOS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99242\">99242</a></td><td>MONGOLIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99243\">99243</a></td><td>VIET NAM</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99246\">99246</a></td><td>BANGLADESH</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99247\">99247</a></td><td>EMIRATS ARABES UNIS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99248\">99248</a></td><td>QATAR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99249\">99249</a></td><td>BAHREIN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99250\">99250</a></td><td>OMAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99251\">99251</a></td><td>YEMEN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99252\">99252</a></td><td>ARMENIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99253\">99253</a></td><td>AZERBAIDJAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99254\">99254</a></td><td>CHYPRE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99255\">99255</a></td><td>GEORGIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99256\">99256</a></td><td>KAZAKHSTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99257\">99257</a></td><td>KIRGHIZISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99258\">99258</a></td><td>OUZBEKISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99259\">99259</a></td><td>TADJIKISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99260\">99260</a></td><td>TURKMENISTAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99261\">99261</a></td><td>PALESTINE (Etat de)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99262\">99262</a></td><td>TIMOR ORIENTAL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99301\">99301</a></td><td>EGYPTE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99302\">99302</a></td><td>LIBERIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99303\">99303</a></td><td>AFRIQUE DU SUD</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99304\">99304</a></td><td>GAMBIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99306\">99306</a></td><td>SAINTE HELENE, ASCENSION ET TRISTAN DA CUNHA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99308\">99308</a></td><td>OCEAN INDIEN (TERRITOIRE BRITANNIQUE DE L')</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99309\">99309</a></td><td>TANZANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99310\">99310</a></td><td>ZIMBABWE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99311\">99311</a></td><td>NAMIBIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99312\">99312</a></td><td>CONGO (REPUBLIQUE DEMOCRATIQUE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99313\">99313</a></td><td>PROVINCES ESPAGNOLES D'AFRIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99314\">99314</a></td><td>GUINEE EQUATORIALE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99315\">99315</a></td><td>ETHIOPIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99316\">99316</a></td><td>LIBYE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99317\">99317</a></td><td>ERYTHREE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99318\">99318</a></td><td>SOMALIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99319\">99319</a></td><td>ACORES, MADERE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99321\">99321</a></td><td>BURUNDI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99322\">99322</a></td><td>CAMEROUN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99323\">99323</a></td><td>CENTRAFRICAINE (REPUBLIQUE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99324\">99324</a></td><td>CONGO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99326\">99326</a></td><td>COTE D'IVOIRE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99327\">99327</a></td><td>BENIN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99328\">99328</a></td><td>GABON</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99329\">99329</a></td><td>GHANA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99330\">99330</a></td><td>GUINEE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99331\">99331</a></td><td>BURKINA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99332\">99332</a></td><td>KENYA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99333\">99333</a></td><td>MADAGASCAR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99334\">99334</a></td><td>MALAWI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99335\">99335</a></td><td>MALI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99336\">99336</a></td><td>MAURITANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99337\">99337</a></td><td>NIGER</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99338\">99338</a></td><td>NIGERIA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99339\">99339</a></td><td>OUGANDA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99340\">99340</a></td><td>RWANDA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99341\">99341</a></td><td>SENEGAL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99342\">99342</a></td><td>SIERRA LEONE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99343\">99343</a></td><td>SOUDAN</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99344\">99344</a></td><td>TCHAD</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99345\">99345</a></td><td>TOGO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99346\">99346</a></td><td>ZAMBIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99347\">99347</a></td><td>BOTSWANA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99348\">99348</a></td><td>LESOTHO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99349\">99349</a></td><td>SOUDAN DU SUD</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99350\">99350</a></td><td>MAROC</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99351\">99351</a></td><td>TUNISIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99352\">99352</a></td><td>ALGERIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99389\">99389</a></td><td>SAHARA OCCIDENTAL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99390\">99390</a></td><td>MAURICE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99391\">99391</a></td><td>ESWATINI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99392\">99392</a></td><td>GUINEE-BISSAU</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99393\">99393</a></td><td>MOZAMBIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99394\">99394</a></td><td>SAO TOME-ET-PRINCIPE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99395\">99395</a></td><td>ANGOLA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99396\">99396</a></td><td>CAP-VERT</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99397\">99397</a></td><td>COMORES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99398\">99398</a></td><td>SEYCHELLES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99399\">99399</a></td><td>DJIBOUTI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99401\">99401</a></td><td>CANADA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99404\">99404</a></td><td>ETATS-UNIS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99405\">99405</a></td><td>MEXIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99406\">99406</a></td><td>COSTA RICA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99407\">99407</a></td><td>CUBA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99408\">99408</a></td><td>DOMINICAINE (REPUBLIQUE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99409\">99409</a></td><td>GUATEMALA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99410\">99410</a></td><td>HAITI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99411\">99411</a></td><td>HONDURAS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99412\">99412</a></td><td>NICARAGUA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99413\">99413</a></td><td>PANAMA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99414\">99414</a></td><td>EL SALVADOR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99415\">99415</a></td><td>ARGENTINE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99416\">99416</a></td><td>BRESIL</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99417\">99417</a></td><td>CHILI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99418\">99418</a></td><td>BOLIVIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99419\">99419</a></td><td>COLOMBIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99420\">99420</a></td><td>EQUATEUR</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99421\">99421</a></td><td>PARAGUAY</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99422\">99422</a></td><td>PEROU</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99423\">99423</a></td><td>URUGUAY</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99424\">99424</a></td><td>VENEZUELA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99425\">99425</a></td><td>TERRITOIRES DU ROYAUME-UNI AUX ANTILLES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99426\">99426</a></td><td>JAMAIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99427\">99427</a></td><td>TERR. DU ROYAUME-UNI DANS L'ATLANTIQUE SUD</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99428\">99428</a></td><td>GUYANA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99429\">99429</a></td><td>BELIZE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99430\">99430</a></td><td>GROENLAND</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99432\">99432</a></td><td>TERR. DES ETATS-UNIS D'AMERIQUE EN AMERIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99433\">99433</a></td><td>TRINITE-ET-TOBAGO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99434\">99434</a></td><td>BARBADE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99435\">99435</a></td><td>GRENADE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99436\">99436</a></td><td>BAHAMAS</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99437\">99437</a></td><td>SURINAME</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99438\">99438</a></td><td>DOMINIQUE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99439\">99439</a></td><td>SAINTE-LUCIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99440\">99440</a></td><td>SAINT-VINCENT-ET-LES GRENADINES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99441\">99441</a></td><td>ANTIGUA-ET-BARBUDA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99442\">99442</a></td><td>SAINT-CHRISTOPHE-ET-NIEVES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99443\">99443</a></td><td>BONAIRE, SAINT EUSTACHE ET SABA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99444\">99444</a></td><td>CURAÇAO</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99445\">99445</a></td><td>SAINT-MARTIN (PARTIE NEERLANDAISE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99501\">99501</a></td><td>AUSTRALIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99502\">99502</a></td><td>NOUVELLE-ZELANDE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99503\">99503</a></td><td>PITCAIRN (ILE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99505\">99505</a></td><td>TERR. DES ETATS-UNIS D'AMERIQUE EN OCEANIE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99506\">99506</a></td><td>SAMOA OCCIDENTALES</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99507\">99507</a></td><td>NAURU</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99508\">99508</a></td><td>FIDJI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99509\">99509</a></td><td>TONGA</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99510\">99510</a></td><td>PAPOUASIE-NOUVELLE-GUINEE</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99511\">99511</a></td><td>TUVALU</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99512\">99512</a></td><td>SALOMON (ILES)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99513\">99513</a></td><td>KIRIBATI</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99514\">99514</a></td><td>VANUATU</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99515\">99515</a></td><td>MARSHALL (ILES)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99516\">99516</a></td><td>MICRONESIE (ETATS FEDERES DE)</td></tr><tr><td><a href=\"CodeSystem-TRE-R20-Pays.html#TRE-R20-Pays-99517\">99517</a></td><td>PALAOS (ILES)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R302-ContexteCodeComplementaire.html#TRE-R302-ContexteCodeComplementaire-01\">01</a></td><td>Non renseigné</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.762" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "JDV_J256_Pays"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\""] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "FRANCE" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "99100" ] ;
+         fhir:display [ fhir:v "FRANCE" ]
+       ] [
+         fhir:code [ fhir:v "99101" ] ;
+         fhir:display [ fhir:v "DANEMARK" ]
+       ] [
+         fhir:code [ fhir:v "99102" ] ;
+         fhir:display [ fhir:v "ISLANDE" ]
+       ] [
+         fhir:code [ fhir:v "99103" ] ;
+         fhir:display [ fhir:v "NORVEGE" ]
+       ] [
+         fhir:code [ fhir:v "99104" ] ;
+         fhir:display [ fhir:v "SUEDE" ]
+       ] [
+         fhir:code [ fhir:v "99105" ] ;
+         fhir:display [ fhir:v "FINLANDE" ]
+       ] [
+         fhir:code [ fhir:v "99106" ] ;
+         fhir:display [ fhir:v "ESTONIE" ]
+       ] [
+         fhir:code [ fhir:v "99107" ] ;
+         fhir:display [ fhir:v "LETTONIE" ]
+       ] [
+         fhir:code [ fhir:v "99108" ] ;
+         fhir:display [ fhir:v "LITUANIE" ]
+       ] [
+         fhir:code [ fhir:v "99109" ] ;
+         fhir:display [ fhir:v "ALLEMAGNE" ]
+       ] [
+         fhir:code [ fhir:v "99110" ] ;
+         fhir:display [ fhir:v "AUTRICHE" ]
+       ] [
+         fhir:code [ fhir:v "99111" ] ;
+         fhir:display [ fhir:v "BULGARIE" ]
+       ] [
+         fhir:code [ fhir:v "99112" ] ;
+         fhir:display [ fhir:v "HONGRIE" ]
+       ] [
+         fhir:code [ fhir:v "99113" ] ;
+         fhir:display [ fhir:v "LIECHTENSTEIN" ]
+       ] [
+         fhir:code [ fhir:v "99114" ] ;
+         fhir:display [ fhir:v "ROUMANIE" ]
+       ] [
+         fhir:code [ fhir:v "99116" ] ;
+         fhir:display [ fhir:v "TCHEQUIE" ]
+       ] [
+         fhir:code [ fhir:v "99117" ] ;
+         fhir:display [ fhir:v "SLOVAQUIE" ]
+       ] [
+         fhir:code [ fhir:v "99118" ] ;
+         fhir:display [ fhir:v "BOSNIE-HERZEGOVINE" ]
+       ] [
+         fhir:code [ fhir:v "99119" ] ;
+         fhir:display [ fhir:v "CROATIE" ]
+       ] [
+         fhir:code [ fhir:v "99120" ] ;
+         fhir:display [ fhir:v "MONTENEGRO" ]
+       ] [
+         fhir:code [ fhir:v "99121" ] ;
+         fhir:display [ fhir:v "SERBIE" ]
+       ] [
+         fhir:code [ fhir:v "99122" ] ;
+         fhir:display [ fhir:v "POLOGNE" ]
+       ] [
+         fhir:code [ fhir:v "99123" ] ;
+         fhir:display [ fhir:v "RUSSIE" ]
+       ] [
+         fhir:code [ fhir:v "99125" ] ;
+         fhir:display [ fhir:v "ALBANIE" ]
+       ] [
+         fhir:code [ fhir:v "99126" ] ;
+         fhir:display [ fhir:v "GRECE" ]
+       ] [
+         fhir:code [ fhir:v "99127" ] ;
+         fhir:display [ fhir:v "ITALIE" ]
+       ] [
+         fhir:code [ fhir:v "99128" ] ;
+         fhir:display [ fhir:v "SAINT-MARIN" ]
+       ] [
+         fhir:code [ fhir:v "99129" ] ;
+         fhir:display [ fhir:v "VATICAN, ou SAINT-SIEGE" ]
+       ] [
+         fhir:code [ fhir:v "99130" ] ;
+         fhir:display [ fhir:v "ANDORRE" ]
+       ] [
+         fhir:code [ fhir:v "99131" ] ;
+         fhir:display [ fhir:v "BELGIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99132" ] ;
+         fhir:display [ fhir:v "ROYAUME-UNI" ]
+       ] [
+         fhir:code [ fhir:v "99133" ] ;
+         fhir:display [ fhir:v "GIBRALTAR" ]
+       ] [
+         fhir:code [ fhir:v "99134" ] ;
+         fhir:display [ fhir:v "ESPAGNE" ]
+       ] [
+         fhir:code [ fhir:v "99135" ] ;
+         fhir:display [ fhir:v "PAYS-BAS" ]
+       ] [
+         fhir:code [ fhir:v "99136" ] ;
+         fhir:display [ fhir:v "IRLANDE, ou EIRE" ]
+       ] [
+         fhir:code [ fhir:v "99137" ] ;
+         fhir:display [ fhir:v "LUXEMBOURG" ]
+       ] [
+         fhir:code [ fhir:v "99138" ] ;
+         fhir:display [ fhir:v "MONACO" ]
+       ] [
+         fhir:code [ fhir:v "99139" ] ;
+         fhir:display [ fhir:v "PORTUGAL" ]
+       ] [
+         fhir:code [ fhir:v "99140" ] ;
+         fhir:display [ fhir:v "SUISSE" ]
+       ] [
+         fhir:code [ fhir:v "99144" ] ;
+         fhir:display [ fhir:v "MALTE" ]
+       ] [
+         fhir:code [ fhir:v "99145" ] ;
+         fhir:display [ fhir:v "SLOVENIE" ]
+       ] [
+         fhir:code [ fhir:v "99148" ] ;
+         fhir:display [ fhir:v "BIELORUSSIE" ]
+       ] [
+         fhir:code [ fhir:v "99151" ] ;
+         fhir:display [ fhir:v "MOLDAVIE" ]
+       ] [
+         fhir:code [ fhir:v "99155" ] ;
+         fhir:display [ fhir:v "UKRAINE" ]
+       ] [
+         fhir:code [ fhir:v "99156" ] ;
+         fhir:display [ fhir:v "MACEDOINE DU NORD" ]
+       ] [
+         fhir:code [ fhir:v "99157" ] ;
+         fhir:display [ fhir:v "KOSOVO" ]
+       ] [
+         fhir:code [ fhir:v "99201" ] ;
+         fhir:display [ fhir:v "ARABIE SAOUDITE" ]
+       ] [
+         fhir:code [ fhir:v "99203" ] ;
+         fhir:display [ fhir:v "IRAQ" ]
+       ] [
+         fhir:code [ fhir:v "99204" ] ;
+         fhir:display [ fhir:v "IRAN" ]
+       ] [
+         fhir:code [ fhir:v "99205" ] ;
+         fhir:display [ fhir:v "LIBAN" ]
+       ] [
+         fhir:code [ fhir:v "99206" ] ;
+         fhir:display [ fhir:v "SYRIE" ]
+       ] [
+         fhir:code [ fhir:v "99207" ] ;
+         fhir:display [ fhir:v "ISRAEL" ]
+       ] [
+         fhir:code [ fhir:v "99208" ] ;
+         fhir:display [ fhir:v "TURQUIE" ]
+       ] [
+         fhir:code [ fhir:v "99212" ] ;
+         fhir:display [ fhir:v "AFGHANISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99213" ] ;
+         fhir:display [ fhir:v "PAKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99214" ] ;
+         fhir:display [ fhir:v "BHOUTAN" ]
+       ] [
+         fhir:code [ fhir:v "99215" ] ;
+         fhir:display [ fhir:v "NEPAL" ]
+       ] [
+         fhir:code [ fhir:v "99216" ] ;
+         fhir:display [ fhir:v "CHINE" ]
+       ] [
+         fhir:code [ fhir:v "99217" ] ;
+         fhir:display [ fhir:v "JAPON" ]
+       ] [
+         fhir:code [ fhir:v "99219" ] ;
+         fhir:display [ fhir:v "THAILANDE" ]
+       ] [
+         fhir:code [ fhir:v "99220" ] ;
+         fhir:display [ fhir:v "PHILIPPINES" ]
+       ] [
+         fhir:code [ fhir:v "99222" ] ;
+         fhir:display [ fhir:v "JORDANIE" ]
+       ] [
+         fhir:code [ fhir:v "99223" ] ;
+         fhir:display [ fhir:v "INDE" ]
+       ] [
+         fhir:code [ fhir:v "99224" ] ;
+         fhir:display [ fhir:v "BIRMANIE" ]
+       ] [
+         fhir:code [ fhir:v "99225" ] ;
+         fhir:display [ fhir:v "BRUNEI" ]
+       ] [
+         fhir:code [ fhir:v "99226" ] ;
+         fhir:display [ fhir:v "SINGAPOUR" ]
+       ] [
+         fhir:code [ fhir:v "99227" ] ;
+         fhir:display [ fhir:v "MALAISIE" ]
+       ] [
+         fhir:code [ fhir:v "99229" ] ;
+         fhir:display [ fhir:v "MALDIVES" ]
+       ] [
+         fhir:code [ fhir:v "99231" ] ;
+         fhir:display [ fhir:v "INDONESIE" ]
+       ] [
+         fhir:code [ fhir:v "99234" ] ;
+         fhir:display [ fhir:v "CAMBODGE" ]
+       ] [
+         fhir:code [ fhir:v "99235" ] ;
+         fhir:display [ fhir:v "SRI LANKA" ]
+       ] [
+         fhir:code [ fhir:v "99236" ] ;
+         fhir:display [ fhir:v "TAIWAN" ]
+       ] [
+         fhir:code [ fhir:v "99238" ] ;
+         fhir:display [ fhir:v "COREE (REPUBLIQUE POPULAIRE DEMOCRATIQUE DE)" ]
+       ] [
+         fhir:code [ fhir:v "99239" ] ;
+         fhir:display [ fhir:v "COREE (REPUBLIQUE DE)" ]
+       ] [
+         fhir:code [ fhir:v "99240" ] ;
+         fhir:display [ fhir:v "KOWEIT" ]
+       ] [
+         fhir:code [ fhir:v "99241" ] ;
+         fhir:display [ fhir:v "LAOS" ]
+       ] [
+         fhir:code [ fhir:v "99242" ] ;
+         fhir:display [ fhir:v "MONGOLIE" ]
+       ] [
+         fhir:code [ fhir:v "99243" ] ;
+         fhir:display [ fhir:v "VIET NAM" ]
+       ] [
+         fhir:code [ fhir:v "99246" ] ;
+         fhir:display [ fhir:v "BANGLADESH" ]
+       ] [
+         fhir:code [ fhir:v "99247" ] ;
+         fhir:display [ fhir:v "EMIRATS ARABES UNIS" ]
+       ] [
+         fhir:code [ fhir:v "99248" ] ;
+         fhir:display [ fhir:v "QATAR" ]
+       ] [
+         fhir:code [ fhir:v "99249" ] ;
+         fhir:display [ fhir:v "BAHREIN" ]
+       ] [
+         fhir:code [ fhir:v "99250" ] ;
+         fhir:display [ fhir:v "OMAN" ]
+       ] [
+         fhir:code [ fhir:v "99251" ] ;
+         fhir:display [ fhir:v "YEMEN" ]
+       ] [
+         fhir:code [ fhir:v "99252" ] ;
+         fhir:display [ fhir:v "ARMENIE" ]
+       ] [
+         fhir:code [ fhir:v "99253" ] ;
+         fhir:display [ fhir:v "AZERBAIDJAN" ]
+       ] [
+         fhir:code [ fhir:v "99254" ] ;
+         fhir:display [ fhir:v "CHYPRE" ]
+       ] [
+         fhir:code [ fhir:v "99255" ] ;
+         fhir:display [ fhir:v "GEORGIE" ]
+       ] [
+         fhir:code [ fhir:v "99256" ] ;
+         fhir:display [ fhir:v "KAZAKHSTAN" ]
+       ] [
+         fhir:code [ fhir:v "99257" ] ;
+         fhir:display [ fhir:v "KIRGHIZISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99258" ] ;
+         fhir:display [ fhir:v "OUZBEKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99259" ] ;
+         fhir:display [ fhir:v "TADJIKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99260" ] ;
+         fhir:display [ fhir:v "TURKMENISTAN" ]
+       ] [
+         fhir:code [ fhir:v "99261" ] ;
+         fhir:display [ fhir:v "PALESTINE (Etat de)" ]
+       ] [
+         fhir:code [ fhir:v "99262" ] ;
+         fhir:display [ fhir:v "TIMOR ORIENTAL" ]
+       ] [
+         fhir:code [ fhir:v "99301" ] ;
+         fhir:display [ fhir:v "EGYPTE" ]
+       ] [
+         fhir:code [ fhir:v "99302" ] ;
+         fhir:display [ fhir:v "LIBERIA" ]
+       ] [
+         fhir:code [ fhir:v "99303" ] ;
+         fhir:display [ fhir:v "AFRIQUE DU SUD" ]
+       ] [
+         fhir:code [ fhir:v "99304" ] ;
+         fhir:display [ fhir:v "GAMBIE" ]
+       ] [
+         fhir:code [ fhir:v "99306" ] ;
+         fhir:display [ fhir:v "SAINTE HELENE, ASCENSION ET TRISTAN DA CUNHA" ]
+       ] [
+         fhir:code [ fhir:v "99308" ] ;
+         fhir:display [ fhir:v "OCEAN INDIEN (TERRITOIRE BRITANNIQUE DE L')" ]
+       ] [
+         fhir:code [ fhir:v "99309" ] ;
+         fhir:display [ fhir:v "TANZANIE" ]
+       ] [
+         fhir:code [ fhir:v "99310" ] ;
+         fhir:display [ fhir:v "ZIMBABWE" ]
+       ] [
+         fhir:code [ fhir:v "99311" ] ;
+         fhir:display [ fhir:v "NAMIBIE" ]
+       ] [
+         fhir:code [ fhir:v "99312" ] ;
+         fhir:display [ fhir:v "CONGO (REPUBLIQUE DEMOCRATIQUE)" ]
+       ] [
+         fhir:code [ fhir:v "99313" ] ;
+         fhir:display [ fhir:v "PROVINCES ESPAGNOLES D'AFRIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99314" ] ;
+         fhir:display [ fhir:v "GUINEE EQUATORIALE" ]
+       ] [
+         fhir:code [ fhir:v "99315" ] ;
+         fhir:display [ fhir:v "ETHIOPIE" ]
+       ] [
+         fhir:code [ fhir:v "99316" ] ;
+         fhir:display [ fhir:v "LIBYE" ]
+       ] [
+         fhir:code [ fhir:v "99317" ] ;
+         fhir:display [ fhir:v "ERYTHREE" ]
+       ] [
+         fhir:code [ fhir:v "99318" ] ;
+         fhir:display [ fhir:v "SOMALIE" ]
+       ] [
+         fhir:code [ fhir:v "99319" ] ;
+         fhir:display [ fhir:v "ACORES, MADERE" ]
+       ] [
+         fhir:code [ fhir:v "99321" ] ;
+         fhir:display [ fhir:v "BURUNDI" ]
+       ] [
+         fhir:code [ fhir:v "99322" ] ;
+         fhir:display [ fhir:v "CAMEROUN" ]
+       ] [
+         fhir:code [ fhir:v "99323" ] ;
+         fhir:display [ fhir:v "CENTRAFRICAINE (REPUBLIQUE)" ]
+       ] [
+         fhir:code [ fhir:v "99324" ] ;
+         fhir:display [ fhir:v "CONGO" ]
+       ] [
+         fhir:code [ fhir:v "99326" ] ;
+         fhir:display [ fhir:v "COTE D'IVOIRE" ]
+       ] [
+         fhir:code [ fhir:v "99327" ] ;
+         fhir:display [ fhir:v "BENIN" ]
+       ] [
+         fhir:code [ fhir:v "99328" ] ;
+         fhir:display [ fhir:v "GABON" ]
+       ] [
+         fhir:code [ fhir:v "99329" ] ;
+         fhir:display [ fhir:v "GHANA" ]
+       ] [
+         fhir:code [ fhir:v "99330" ] ;
+         fhir:display [ fhir:v "GUINEE" ]
+       ] [
+         fhir:code [ fhir:v "99331" ] ;
+         fhir:display [ fhir:v "BURKINA" ]
+       ] [
+         fhir:code [ fhir:v "99332" ] ;
+         fhir:display [ fhir:v "KENYA" ]
+       ] [
+         fhir:code [ fhir:v "99333" ] ;
+         fhir:display [ fhir:v "MADAGASCAR" ]
+       ] [
+         fhir:code [ fhir:v "99334" ] ;
+         fhir:display [ fhir:v "MALAWI" ]
+       ] [
+         fhir:code [ fhir:v "99335" ] ;
+         fhir:display [ fhir:v "MALI" ]
+       ] [
+         fhir:code [ fhir:v "99336" ] ;
+         fhir:display [ fhir:v "MAURITANIE" ]
+       ] [
+         fhir:code [ fhir:v "99337" ] ;
+         fhir:display [ fhir:v "NIGER" ]
+       ] [
+         fhir:code [ fhir:v "99338" ] ;
+         fhir:display [ fhir:v "NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "99339" ] ;
+         fhir:display [ fhir:v "OUGANDA" ]
+       ] [
+         fhir:code [ fhir:v "99340" ] ;
+         fhir:display [ fhir:v "RWANDA" ]
+       ] [
+         fhir:code [ fhir:v "99341" ] ;
+         fhir:display [ fhir:v "SENEGAL" ]
+       ] [
+         fhir:code [ fhir:v "99342" ] ;
+         fhir:display [ fhir:v "SIERRA LEONE" ]
+       ] [
+         fhir:code [ fhir:v "99343" ] ;
+         fhir:display [ fhir:v "SOUDAN" ]
+       ] [
+         fhir:code [ fhir:v "99344" ] ;
+         fhir:display [ fhir:v "TCHAD" ]
+       ] [
+         fhir:code [ fhir:v "99345" ] ;
+         fhir:display [ fhir:v "TOGO" ]
+       ] [
+         fhir:code [ fhir:v "99346" ] ;
+         fhir:display [ fhir:v "ZAMBIE" ]
+       ] [
+         fhir:code [ fhir:v "99347" ] ;
+         fhir:display [ fhir:v "BOTSWANA" ]
+       ] [
+         fhir:code [ fhir:v "99348" ] ;
+         fhir:display [ fhir:v "LESOTHO" ]
+       ] [
+         fhir:code [ fhir:v "99349" ] ;
+         fhir:display [ fhir:v "SOUDAN DU SUD" ]
+       ] [
+         fhir:code [ fhir:v "99350" ] ;
+         fhir:display [ fhir:v "MAROC" ]
+       ] [
+         fhir:code [ fhir:v "99351" ] ;
+         fhir:display [ fhir:v "TUNISIE" ]
+       ] [
+         fhir:code [ fhir:v "99352" ] ;
+         fhir:display [ fhir:v "ALGERIE" ]
+       ] [
+         fhir:code [ fhir:v "99389" ] ;
+         fhir:display [ fhir:v "SAHARA OCCIDENTAL" ]
+       ] [
+         fhir:code [ fhir:v "99390" ] ;
+         fhir:display [ fhir:v "MAURICE" ]
+       ] [
+         fhir:code [ fhir:v "99391" ] ;
+         fhir:display [ fhir:v "ESWATINI" ]
+       ] [
+         fhir:code [ fhir:v "99392" ] ;
+         fhir:display [ fhir:v "GUINEE-BISSAU" ]
+       ] [
+         fhir:code [ fhir:v "99393" ] ;
+         fhir:display [ fhir:v "MOZAMBIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99394" ] ;
+         fhir:display [ fhir:v "SAO TOME-ET-PRINCIPE" ]
+       ] [
+         fhir:code [ fhir:v "99395" ] ;
+         fhir:display [ fhir:v "ANGOLA" ]
+       ] [
+         fhir:code [ fhir:v "99396" ] ;
+         fhir:display [ fhir:v "CAP-VERT" ]
+       ] [
+         fhir:code [ fhir:v "99397" ] ;
+         fhir:display [ fhir:v "COMORES" ]
+       ] [
+         fhir:code [ fhir:v "99398" ] ;
+         fhir:display [ fhir:v "SEYCHELLES" ]
+       ] [
+         fhir:code [ fhir:v "99399" ] ;
+         fhir:display [ fhir:v "DJIBOUTI" ]
+       ] [
+         fhir:code [ fhir:v "99401" ] ;
+         fhir:display [ fhir:v "CANADA" ]
+       ] [
+         fhir:code [ fhir:v "99404" ] ;
+         fhir:display [ fhir:v "ETATS-UNIS" ]
+       ] [
+         fhir:code [ fhir:v "99405" ] ;
+         fhir:display [ fhir:v "MEXIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99406" ] ;
+         fhir:display [ fhir:v "COSTA RICA" ]
+       ] [
+         fhir:code [ fhir:v "99407" ] ;
+         fhir:display [ fhir:v "CUBA" ]
+       ] [
+         fhir:code [ fhir:v "99408" ] ;
+         fhir:display [ fhir:v "DOMINICAINE (REPUBLIQUE)" ]
+       ] [
+         fhir:code [ fhir:v "99409" ] ;
+         fhir:display [ fhir:v "GUATEMALA" ]
+       ] [
+         fhir:code [ fhir:v "99410" ] ;
+         fhir:display [ fhir:v "HAITI" ]
+       ] [
+         fhir:code [ fhir:v "99411" ] ;
+         fhir:display [ fhir:v "HONDURAS" ]
+       ] [
+         fhir:code [ fhir:v "99412" ] ;
+         fhir:display [ fhir:v "NICARAGUA" ]
+       ] [
+         fhir:code [ fhir:v "99413" ] ;
+         fhir:display [ fhir:v "PANAMA" ]
+       ] [
+         fhir:code [ fhir:v "99414" ] ;
+         fhir:display [ fhir:v "EL SALVADOR" ]
+       ] [
+         fhir:code [ fhir:v "99415" ] ;
+         fhir:display [ fhir:v "ARGENTINE" ]
+       ] [
+         fhir:code [ fhir:v "99416" ] ;
+         fhir:display [ fhir:v "BRESIL" ]
+       ] [
+         fhir:code [ fhir:v "99417" ] ;
+         fhir:display [ fhir:v "CHILI" ]
+       ] [
+         fhir:code [ fhir:v "99418" ] ;
+         fhir:display [ fhir:v "BOLIVIE" ]
+       ] [
+         fhir:code [ fhir:v "99419" ] ;
+         fhir:display [ fhir:v "COLOMBIE" ]
+       ] [
+         fhir:code [ fhir:v "99420" ] ;
+         fhir:display [ fhir:v "EQUATEUR" ]
+       ] [
+         fhir:code [ fhir:v "99421" ] ;
+         fhir:display [ fhir:v "PARAGUAY" ]
+       ] [
+         fhir:code [ fhir:v "99422" ] ;
+         fhir:display [ fhir:v "PEROU" ]
+       ] [
+         fhir:code [ fhir:v "99423" ] ;
+         fhir:display [ fhir:v "URUGUAY" ]
+       ] [
+         fhir:code [ fhir:v "99424" ] ;
+         fhir:display [ fhir:v "VENEZUELA" ]
+       ] [
+         fhir:code [ fhir:v "99425" ] ;
+         fhir:display [ fhir:v "TERRITOIRES DU ROYAUME-UNI AUX ANTILLES" ]
+       ] [
+         fhir:code [ fhir:v "99426" ] ;
+         fhir:display [ fhir:v "JAMAIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99427" ] ;
+         fhir:display [ fhir:v "TERR. DU ROYAUME-UNI DANS L'ATLANTIQUE SUD" ]
+       ] [
+         fhir:code [ fhir:v "99428" ] ;
+         fhir:display [ fhir:v "GUYANA" ]
+       ] [
+         fhir:code [ fhir:v "99429" ] ;
+         fhir:display [ fhir:v "BELIZE" ]
+       ] [
+         fhir:code [ fhir:v "99430" ] ;
+         fhir:display [ fhir:v "GROENLAND" ]
+       ] [
+         fhir:code [ fhir:v "99432" ] ;
+         fhir:display [ fhir:v "TERR. DES ETATS-UNIS D'AMERIQUE EN AMERIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99433" ] ;
+         fhir:display [ fhir:v "TRINITE-ET-TOBAGO" ]
+       ] [
+         fhir:code [ fhir:v "99434" ] ;
+         fhir:display [ fhir:v "BARBADE" ]
+       ] [
+         fhir:code [ fhir:v "99435" ] ;
+         fhir:display [ fhir:v "GRENADE" ]
+       ] [
+         fhir:code [ fhir:v "99436" ] ;
+         fhir:display [ fhir:v "BAHAMAS" ]
+       ] [
+         fhir:code [ fhir:v "99437" ] ;
+         fhir:display [ fhir:v "SURINAME" ]
+       ] [
+         fhir:code [ fhir:v "99438" ] ;
+         fhir:display [ fhir:v "DOMINIQUE" ]
+       ] [
+         fhir:code [ fhir:v "99439" ] ;
+         fhir:display [ fhir:v "SAINTE-LUCIE" ]
+       ] [
+         fhir:code [ fhir:v "99440" ] ;
+         fhir:display [ fhir:v "SAINT-VINCENT-ET-LES GRENADINES" ]
+       ] [
+         fhir:code [ fhir:v "99441" ] ;
+         fhir:display [ fhir:v "ANTIGUA-ET-BARBUDA" ]
+       ] [
+         fhir:code [ fhir:v "99442" ] ;
+         fhir:display [ fhir:v "SAINT-CHRISTOPHE-ET-NIEVES" ]
+       ] [
+         fhir:code [ fhir:v "99443" ] ;
+         fhir:display [ fhir:v "BONAIRE, SAINT EUSTACHE ET SABA" ]
+       ] [
+         fhir:code [ fhir:v "99444" ] ;
+         fhir:display [ fhir:v "CURAÇAO" ]
+       ] [
+         fhir:code [ fhir:v "99445" ] ;
+         fhir:display [ fhir:v "SAINT-MARTIN (PARTIE NEERLANDAISE)" ]
+       ] [
+         fhir:code [ fhir:v "99501" ] ;
+         fhir:display [ fhir:v "AUSTRALIE" ]
+       ] [
+         fhir:code [ fhir:v "99502" ] ;
+         fhir:display [ fhir:v "NOUVELLE-ZELANDE" ]
+       ] [
+         fhir:code [ fhir:v "99503" ] ;
+         fhir:display [ fhir:v "PITCAIRN (ILE)" ]
+       ] [
+         fhir:code [ fhir:v "99505" ] ;
+         fhir:display [ fhir:v "TERR. DES ETATS-UNIS D'AMERIQUE EN OCEANIE" ]
+       ] [
+         fhir:code [ fhir:v "99506" ] ;
+         fhir:display [ fhir:v "SAMOA OCCIDENTALES" ]
+       ] [
+         fhir:code [ fhir:v "99507" ] ;
+         fhir:display [ fhir:v "NAURU" ]
+       ] [
+         fhir:code [ fhir:v "99508" ] ;
+         fhir:display [ fhir:v "FIDJI" ]
+       ] [
+         fhir:code [ fhir:v "99509" ] ;
+         fhir:display [ fhir:v "TONGA" ]
+       ] [
+         fhir:code [ fhir:v "99510" ] ;
+         fhir:display [ fhir:v "PAPOUASIE-NOUVELLE-GUINEE" ]
+       ] [
+         fhir:code [ fhir:v "99511" ] ;
+         fhir:display [ fhir:v "TUVALU" ]
+       ] [
+         fhir:code [ fhir:v "99512" ] ;
+         fhir:display [ fhir:v "SALOMON (ILES)" ]
+       ] [
+         fhir:code [ fhir:v "99513" ] ;
+         fhir:display [ fhir:v "KIRIBATI" ]
+       ] [
+         fhir:code [ fhir:v "99514" ] ;
+         fhir:display [ fhir:v "VANUATU" ]
+       ] [
+         fhir:code [ fhir:v "99515" ] ;
+         fhir:display [ fhir:v "MARSHALL (ILES)" ]
+       ] [
+         fhir:code [ fhir:v "99516" ] ;
+         fhir:display [ fhir:v "MICRONESIE (ETATS FEDERES DE)" ]
+       ] [
+         fhir:code [ fhir:v "99517" ] ;
+         fhir:display [ fhir:v "PALAOS (ILES)" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "01" ] ;
+         fhir:display [ fhir:v "Non renseigné" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
