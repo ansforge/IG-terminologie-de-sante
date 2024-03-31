@@ -16,7 +16,6 @@ async def main():
         CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
         try:
             if( CodeSystem["count"] > 1000) :
-                CodeSystem["concept"] = ""
                 CodeSystem["Content"] = "not-present"
         except :
             print("Error : " + e_codeSystem["name"] )
