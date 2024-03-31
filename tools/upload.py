@@ -19,7 +19,7 @@ async def main():
                 e_codeSystem["Content"] = "not-present"
                 with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
                     f.write(json.dumps(e_codeSystem))  
-            else
+            else :
                 with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
                     f.write(json.dumps(CodeSystem))                   
         except :
