@@ -20,7 +20,7 @@ async def main():
                 CodeSystem["Content"] = "not-present"
         except :
             print("Error : " + e_codeSystem["name"] )
-        with open('./ontoserver/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
+        with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
             f.write(json.dumps(CodeSystem))       
 
     # Search for valueSet
@@ -28,7 +28,7 @@ async def main():
     list_valueSets = await resources.fetch()  
     for e_valueSet in list_valueSets :
         ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
-        with open('./ontoserver/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
+        with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
             f.write(json.dumps(ValueSet))       
 
 
