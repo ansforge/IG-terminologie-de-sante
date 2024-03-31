@@ -16,11 +16,16 @@ async def main():
         CodeSystem = await client.reference('CodeSystem', e_codeSystem["id"]).to_resource()
         try:
             if( CodeSystem["count"] > 1000) :
-                CodeSystem["Content"] = "not-present"
+                e_codeSystem["Content"] = "not-present"
+                with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
+                    f.write(json.dumps(e_codeSystem))  
+            else
+                with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
+                    f.write(json.dumps(CodeSystem))                   
         except :
-            print("Error : " + e_codeSystem["name"] )
-        with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(CodeSystem))       
+            with open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(CodeSystem))      
+   
 
     # Search for valueSet
     resources = client.resources('ValueSet')  # Return lazy search set
