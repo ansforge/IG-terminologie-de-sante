@@ -42,7 +42,7 @@ async def main():
     resources = client.resources('ConceptMap')  # Return lazy search set
     list_conceptMaps = await resources.fetch()  
     for e_conceptMaps in list_conceptMaps :
-        print (e_conceptMaps["ConceptMap"])
+        print (e_conceptMaps["name"])
         ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
         with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
             f.write(json.dumps(ConceptMap))      
