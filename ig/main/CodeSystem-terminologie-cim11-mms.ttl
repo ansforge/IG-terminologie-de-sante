@@ -14,11 +14,16 @@
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] ) ;
+     fhir:tag ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SUBSETTED" ] ;
+       fhir:display [ fhir:v "Resource encoded in summary mode" ]
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">La Classification Internationale des Maladies (CIM) sert de base pour établir les tendances et les statistiques sanitaires, partout dans le monde. Elle fournit un langage commun pour notifier et suivre les maladies. Ce langage permet de comparer et d’échanger des données de manière cohérente et normalisée entre les hôpitaux, les régions, les pays et au cours du temps.</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>http://purl.org/dc/elements/1.1/type</td><td>string</td><td>Type fonctionnel d'un concept</td></tr><tr><td>browserUrl</td><td>http://id.who.int/icd/schema/browserUrl</td><td>code</td><td/></tr><tr><td>source</td><td>http://id.who.int/icd/schema/source</td><td>code</td><td/></tr><tr><td>release</td><td>http://id.who.int/icd/schema/release</td><td>code</td><td/></tr><tr><td>classKind</td><td>http://id.who.int/icd/schema/classKind</td><td>string</td><td/></tr><tr><td>icd10</td><td>http://data.esante.gouv.fr/ans-icd11#icd10</td><td>code</td><td/></tr><tr><td>code1</td><td>http://id.who.int/icd/schema/code</td><td>string</td><td/></tr><tr><td>postcoordinationScale</td><td>http://id.who.int/icd/schema/postcoordinationScale</td><td>code</td><td/></tr><tr><td>indexTerm</td><td>http://data.esante.gouv.fr/ans-icd11#indexTerm</td><td>string</td><td/></tr><tr><td>inclusionNote</td><td>http://rdf-vocabulary.ddialliance.org/xkos#inclusionNote</td><td>string</td><td/></tr><tr><td>inclusion</td><td>http://data.esante.gouv.fr/ans-icd11#inclusion</td><td>string</td><td/></tr><tr><td>foundationChild</td><td>http://data.esante.gouv.fr/ans-icd11#foundationChild</td><td>code</td><td/></tr><tr><td>codingRange</td><td>http://id.who.int/icd/schema/codingRange</td><td>string</td><td/></tr><tr><td>blockId</td><td>http://id.who.int/icd/schema/blockId</td><td>string</td><td/></tr><tr><td>exclusionNote</td><td>http://rdf-vocabulary.ddialliance.org/xkos#exclusionNote</td><td>string</td><td/></tr><tr><td>exclusion</td><td>http://data.esante.gouv.fr/ans-icd11#exclusion</td><td>code</td><td/></tr><tr><td>longDefinition</td><td>http://id.who.int/icd/schema/longDefinition</td><td>string</td><td/></tr><tr><td>codingNote</td><td>http://id.who.int/icd/schema/codingNote</td><td>string</td><td/></tr><tr><td>fullySpecifiedName</td><td>http://id.who.int/icd/schema/fullySpecifiedName</td><td>string</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filters</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-cim11-mms</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/terminologie-cim11-mms"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -30,7 +35,7 @@
   fhir:title [ fhir:v "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-04-01T10:17:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-01T15:10:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -39,7 +44,6 @@
        fhir:value [ fhir:v "https://esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "La Classification Internationale des Maladies (CIM) sert de base pour établir les tendances et les statistiques sanitaires, partout dans le monde. Elle fournit un langage commun pour notifier et suivre les maladies. Ce langage permet de comparer et d’échanger des données de manière cohérente et normalisée entre les hôpitaux, les régions, les pays et au cours du temps."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -47,12 +51,11 @@
        fhir:display [ fhir:v "FRANCE" ]
      ] )
   ] ) ; # 
-  fhir:copyright [ fhir:v "[CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode)"] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-cim11-mms?vs"^^xsd:anyURI ;
      fhir:link <https://smt.esante.gouv.fr/terminologie-cim11-mms?vs>
   ] ; # 
-  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "35417"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;

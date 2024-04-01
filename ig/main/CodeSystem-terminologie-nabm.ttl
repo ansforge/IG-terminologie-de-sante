@@ -14,11 +14,16 @@
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] ) ;
+     fhir:tag ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SUBSETTED" ] ;
+       fhir:display [ fhir:v "Resource encoded in summary mode" ]
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie, leurs ainsi que des règles de facturation. </div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>created</td><td>http://purl.org/dc/terms/created</td><td>string</td><td/></tr><tr><td>modified</td><td>http://purl.org/dc/terms/modified</td><td>string</td><td/></tr><tr><td>type</td><td>http://purl.org/dc/elements/1.1/type</td><td>string</td><td>Type fonctionnel d'un concept</td></tr><tr><td>initativeBiologistePossible</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/initativeBiologistePossible</td><td>boolean</td><td/></tr><tr><td>indicationMédicale</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/indicationMédicale</td><td>boolean</td><td/></tr><tr><td>remboursementTotal</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/remboursementTotal</td><td>boolean</td><td/></tr><tr><td>ententePréalable</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/ententePréalable</td><td>boolean</td><td/></tr><tr><td>nombreMaximumParFacturation</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/nombreMaximumParFacturation</td><td>integer</td><td/></tr><tr><td>coeffB</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/coeffB</td><td>string</td><td/></tr><tr><td>codeIncompatible</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/codeIncompatible</td><td>code</td><td/></tr><tr><td>aPourContingenceTechnique</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/aPourContingenceTechnique</td><td>code</td><td/></tr><tr><td>règleApplicable</td><td>https://www.data.esante.gouv.fr/DGOS/NABM/règleApplicable</td><td>code</td><td/></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filters</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-nabm</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/terminologie-nabm"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -39,7 +44,6 @@
        fhir:value [ fhir:v "https://esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie, leurs ainsi que des règles de facturation."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -47,12 +51,11 @@
        fhir:display [ fhir:v "FRANCE" ]
      ] )
   ] ) ; # 
-  fhir:copyright [ fhir:v "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/terminologie-nabm?vs"^^xsd:anyURI ;
      fhir:link <https://smt.esante.gouv.fr/terminologie-nabm?vs>
   ] ; # 
-  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "1051"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
