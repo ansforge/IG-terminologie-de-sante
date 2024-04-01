@@ -12,11 +12,11 @@
     <xsl:variable name='cs' select='document("codesystems.xml")'/>
     <xsl:template match="/">
  <![CDATA[<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  ]]>
-<xsl:value-of select="substring-after(/f:ValueSet/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')" />;JDV;<xsl:value-of select="/f:ValueSet/f:name/@value" />;<xsl:value-of select="/f:ValueSet/f:url/@value" />
- <![CDATA[<OID>;<Code>;<Libellé> ]]>
-    <xsl:for-each select='//f:concept'>
-        <xsl:value-of select="../f:system/@valuee" />;<xsl:value-of select="f:code/@value" />;<xsl:value-of select="f:display/@value" />;
-    </xsl:for-each>
+<xsl:value-of select="substring-after(/f:ValueSet/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')" />;JDV;<xsl:value-of select="/f:ValueSet/f:name/@value" />;<xsl:value-of select="/f:ValueSet/f:url/@value" />;<xsl:value-of select="/f:ValueSet/f:extension/f:valuePeriod/f:start/@value" />;<xsl:value-of select="/f:ValueSet/f:extension/f:valuePeriod/f:end/@value" />;<xsl:value-of select="/f:ValueSet/f:meta/f:lastUpdated" />
+<![CDATA[<system>;<Code>;<Libellé> ]]>
+<xsl:for-each select='//f:concept'>
+<xsl:value-of select="../f:system/@value" />;<xsl:value-of select="f:code/@value" />;<xsl:value-of select="f:display/@value" />;
+</xsl:for-each>
 
     </xsl:template>
 </xsl:stylesheet>
