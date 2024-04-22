@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-MediaTypeCorpsCDANonStructure",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a> where concept  is-not-a  dateFin</li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/JDV-MediaTypeCorpsCDANonStructure",
+  "version" : "1.1.0",
+  "name" : "JDV_MediaTypeCorpsCDANonStructure",
+  "title" : "JDV-MediaTypeCorpsCDANonStructure",
+  "status" : "draft",
+  "date" : "2024-04-22T17:40:56+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
+    }],
+    "exclude" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-not-a",
+        "value" : "dateFin"
+      }]
+    }]
+  }
+}
