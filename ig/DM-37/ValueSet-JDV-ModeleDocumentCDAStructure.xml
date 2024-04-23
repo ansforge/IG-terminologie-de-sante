@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-ModeleDocumentCDAStructure"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2024-04-17T09:25:08.004+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code></a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from <a href="CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html"><code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code></a> where concept  is-not-a  dateFin</li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2024-04-17T09:25:08.004+00:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure"/>
+  <version value="1.1.0"/>
+  <name value="JDV_ModeleDocumentCDAStructure"/>
+  <title value="JDV-ModeleDocumentCDAStructure"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-04-17T09:25:08.004+00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="JDV avec l'ensemble des codes actifs de la TRE_R220_ModeleDocumentCDAStructure"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"/>
+    </include>
+    <exclude>
+      <system value="https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-not-a"/>
+        <value value="dateFin"/>
+      </filter>
+    </exclude>
+  </compose>
+</ValueSet>

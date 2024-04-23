@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mapping from (not specified) to (not specified)</p><p>DRAFT. Published on 2024-04-23 07:57:57+0000 by ANS (ANS: <a href=\"https://esante.gouv.fr\">https://esante.gouv.fr</a>). Creative Commons 0</p><div><p>Example rule-based mappings between SNOMED CT to ICD-10-CM for fracture of ulna</p>\n</div><br/><p><b>Group 1</b> Mapping from <a href=\"ValueSet-JDV-ModeleDocumentCDAStructure.html\">JDV-ModeleDocumentCDAStructure</a> to <a href=\"ValueSet-JDV-J10-XdsFormatCode-CISIS.html\">JDV_J10_XdsFormatCode_CISIS</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>1.2.250.1.213.1.1.1.5.1</td><td>:(equivalent)</td><td>urn:asip:ci-sis:cse-cs8:2017</td></tr><tr><td>1.2.250.1.213.1.1.1.5.2</td><td>:(equivalent)</td><td>urn:asip:ci-sis:cse-cs9:2017</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"] ; # 
+  fhir:title [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-04-23T07:57:57+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Example rule-based mappings between SNOMED CT to ICD-10-CM for fracture of ulna"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "FRANCE" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Show example rule based mappings"] ; # 
+  fhir:copyright [ fhir:v "Creative Commons 0"] ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.1" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cse-cs8:2017" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "1.2.250.1.213.1.1.1.5.2" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:asip:ci-sis:cse-cs9:2017" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
