@@ -1,0 +1,71 @@
+{
+  "resourceType": "ValueSet",
+  "name": "JDV_ModeleDocumentCDAStructure",
+  "id": "JDV-ModeleDocumentCDAStructure"
+  "title": "JDV-ModeleDocumentCDAStructure",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2024-04-17T09:25:08.004+00:00",
+    "profile" : [
+      🔗 "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod" : {
+        "start" : "2024-04-17T09:25:08.004+00:00""
+      }
+    }
+  ],  
+  "version" : "1.1.0",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-04-17T09:25:08.004+00:00",
+  "publisher" : "ANS",
+  "contact" : [
+    {
+      "name" : "ANS",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://esante.gouv.fr"
+        }
+      ]
+    }
+  ],
+  
+  "description": "JDV avec l'ensemble des codes actifs de la TRE_R220_ModeleDocumentCDAStructure",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FR",
+          "display" : "FRANCE"
+        }
+      ]
+    }
+  ],
+  
+  "url": "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure",
+  "compose": {
+    "include": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
+      }
+    ],
+    "exclude": [
+      {
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-not-a",
+            "value": "dateFin"
+          }
+        ]
+      }
+    ]
+  }
+}
