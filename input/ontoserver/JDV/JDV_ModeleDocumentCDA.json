@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "name": "JDV_ModeleDocumentCDAStructure",
-  "id": "JDV-ModeleDocumentCDAStructure",
-  "title": "JDV-ModeleDocumentCDAStructure",
+  "name": "JDV_ModeleDocumentCDA",
+  "id": "JDV-ModeleDocumentCDA",
+  "title": "JDV-ModeleDocumentCDA",
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-04-17T09:25:08.004+00:00",
@@ -35,7 +35,7 @@
     }
   ],
   
-  "description": "JDV avec l'ensemble des codes actifs de la TRE_R220_ModeleDocumentCDAStructure",
+  "description": "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
   "jurisdiction" : [
     {
       "coding" : [
@@ -53,19 +53,11 @@
     "include": [
       {
         "system": "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
-      }
-    ],
-    "exclude": [
+      },
       {
-        "system": "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-        "filter": [
-          {
-            "property": "concept",
-            "op": "is-not-a",
-            "value": "dateFin"
-          }
-        ]
+        "system": "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"
       }
+
     ]
   }
 }
