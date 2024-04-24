@@ -554,18 +554,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ConceptMap" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ] ;
-       fhir:description [ fhir:v "Association" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -585,6 +573,18 @@
        ] ;
        fhir:name [ fhir:v "BDPM Value Set" ] ;
        fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "CDA->templateID to XDS->formatCode " ] ;
+       fhir:description [ fhir:v "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document structuré). La correspondance entre templateId et formatCode est assurée par cette table d'association" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
