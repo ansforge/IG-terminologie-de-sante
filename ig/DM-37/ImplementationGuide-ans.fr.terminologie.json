@@ -642,6 +642,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
+      },
+      "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
+      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document structuré). La correspondance entre templateId et formatCode est assurée par cette table d'association",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -660,18 +672,6 @@
       },
       "name" : "BDPM Value Set",
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ConceptMap"
-      }],
-      "reference" : {
-        "reference" : "ConceptMap/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
-      },
-      "name" : "CDA->templateID to XDS->formatCode ",
-      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document structuré). La correspondance entre templateId et formatCode est assurée par cette table d'association",
       "exampleBoolean" : false
     },
     {
@@ -770,10 +770,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/JDV-ModeleDocumentCDAStructure"
+        "reference" : "ValueSet/JDV-ModeleDocumentCDA"
       },
-      "name" : "JDV-ModeleDocumentCDAStructure",
-      "description" : "JDV avec l'ensemble des codes actifs de la TRE_R220_ModeleDocumentCDAStructure",
+      "name" : "JDV-ModeleDocumentCDA",
+      "description" : "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
       "exampleBoolean" : false
     },
     {
