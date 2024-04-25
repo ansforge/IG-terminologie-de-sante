@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "ASS_A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS."] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mapping from (not specified) to (not specified)</p><p>DRAFT. Published on 2024-04-25 11:48:40+0000 by ANS (ANS: <a href=\"https://esante.gouv.fr\">https://esante.gouv.fr</a>). </p><div><p>Association</p>\n</div><br/><p><b>Group 1</b> Mapping from <a href=\"ValueSet-JDV-MediaTypeCorpsCDANonStructure.html\">JDV-MediaTypeCorpsCDANonStructure</a> to <a href=\"ValueSet-JDV-J10-XdsFormatCode-CISIS.html\">JDV_J10_XdsFormatCode_CISIS</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>application/pdf</td><td>:(equivalent)</td><td>urn:ihe:iti:xds-sd:pdf:2008</td></tr><tr><td>text/plain</td><td>:(equivalent)</td><td>urn:ihe:iti:xds-sd:text:2008</td></tr><tr><td>1.3.6.1.4.1.19376.1.2.20</td><td>:(equivalent)</td><td>urn:ihe:iti:xds-sd:text:2008</td></tr><tr><td>text/rtf</td><td>:(equivalent)</td><td>urn:ihe:iti-fr:xds-sd:rtf:2010</td></tr><tr><td>image/jpeg</td><td>:(equivalent)</td><td>urn:ihe:iti-fr:xds-sd:jpeg:2010</td></tr><tr><td>image/tiff</td><td>:(equivalent)</td><td>urn:ihe:iti-fr:xds-sd:tiff:2010</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mapping from (not specified) to (not specified)</p><p>DRAFT. Published on 2024-04-25 14:16:56+0000 by ANS (ANS: <a href=\"https://esante.gouv.fr\">https://esante.gouv.fr</a>). </p><div><p>Association</p>\n</div><br/><p><b>Group 1</b> Mapping from <a href=\"ValueSet-JDV-MediaTypeCorpsCDANonStructure.html\">JDV-MediaTypeCorpsCDANonStructure</a> to <a href=\"ValueSet-JDV-J10-XdsFormatCode-CISIS.html\">JDV_J10_XdsFormatCode_CISIS</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>application/pdf</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:pdf:2008</td></tr><tr><td>text/plain</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:text:2008</td></tr><tr><td>1.3.6.1.4.1.19376.1.2.20</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:text:2008</td></tr><tr><td>text/rtf</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:rtf:2010</td></tr><tr><td>image/jpeg</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:jpeg:2010</td></tr><tr><td>image/tiff</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:tiff:2010</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-04-25T11:48:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-25T14:16:56+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -40,39 +40,63 @@
      fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "application/pdf" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti:xds-sd:pdf:2008" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] [
        fhir:code [ fhir:v "text/plain" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti:xds-sd:text:2008" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] [
        fhir:code [ fhir:v "1.3.6.1.4.1.19376.1.2.20" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti:xds-sd:text:2008" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] [
        fhir:code [ fhir:v "text/rtf" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:rtf:2010" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] [
        fhir:code [ fhir:v "image/jpeg" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:jpeg:2010" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] [
        fhir:code [ fhir:v "image/tiff" ] ;
-       fhir:target ( [
+       fhir:_target ( [
+         fhir:modifierExtension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "equivalent" ]
+         ] ) ;
          fhir:code [ fhir:v "urn:ihe:iti-fr:xds-sd:tiff:2010" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ]
+         fhir:equivalence [ fhir:v "equivalent" ]
        ] )
      ] )
   ] ) . # 
