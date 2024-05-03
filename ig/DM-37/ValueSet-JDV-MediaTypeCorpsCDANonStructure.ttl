@@ -18,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a></li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a> where concept  is-not-a  dateFin</li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</code></a></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -53,14 +53,6 @@
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"^^xsd:anyURI ]
-     ] ) ;
-     fhir:exclude ( [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"^^xsd:anyURI ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "concept" ] ;
-         fhir:op [ fhir:v "is-not-a" ] ;
-         fhir:value [ fhir:v "dateFin" ]
-       ] )
      ] )
   ] . # 
 
