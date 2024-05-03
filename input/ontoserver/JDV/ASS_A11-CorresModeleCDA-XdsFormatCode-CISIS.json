@@ -6,7 +6,7 @@
   "name": "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "title": "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "experimental": false,
-  "description": "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document structuré). La correspondance entre templateId et formatCode est assurée par cette table d'association",
+  "description": "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",  
   "group": [
@@ -422,7 +422,15 @@
             }
           ]
         },
-
+{
+          "code": "1.2.250.1.213.1.1.1.58",
+          "target": [
+            {
+              "code": "urn:asip:ci-sis:export-dui:2023",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
 {
           "code": "1.2.250.1.213.1.1.1.56",
           "target": [
@@ -431,17 +439,7 @@
               "equivalence": "equivalent"
             }
           ]
-        },
-{
-          "code": "1.2.250.1.213.1.1.1.57",
-          "target": [
-            {
-              "code": "urn:ihe:palm:apsr:2016",
-              "equivalence": "equivalent"
-            }
-          ]
-
-    }
+        }
       ]
     },
  {
@@ -460,16 +458,6 @@
           ]
         },
 
-
-{
-          "code": "1.2.250.1.213.1.1.1.58",
-          "target": [
-            {
-              "code": "urn:asip:ci-sis:export-dui:2023",
-              "equivalence": "equivalent"
-            }
-          ]
-        },
 {
           "code": "1.2.250.1.213.1.1.1.54",
           "target": [
@@ -578,7 +566,9 @@
           "target": [
             {
               "code": "urn:ihe:iti:xds-sd:pdf:2008",
-              "equivalence": "narrower"
+              "equivalence": "narrower",
+              "comment": "Pour les CDA N1 avec un PDF embarqué"
+            }
             }
           ]
         },
@@ -587,7 +577,7 @@
           "target": [
             {
               "code": "urn:ihe:iti:xds-sd:text:2008",
-              "equivalence": "narrower"
+              "equivalence": "Pour les CDA N1 avec un texte embarqué"
             }
           ]
         },
@@ -596,7 +586,7 @@
           "target": [
             {
               "code": "urn:ihe:iti-fr:xds-sd:jpeg:2010",
-              "equivalence": "narrower"
+              "equivalence": "Pour les CDA N1 avec un jpeg embarqué"
             }
           ]
         },
@@ -605,7 +595,7 @@
           "target": [
             {
               "code": "urn:ihe:iti-fr:xds-sd:rtf:2010",
-              "equivalence": "narrower"
+              "equivalence": "Pour les CDA N1 avec un RTF embarqué"
             }
           ]
         },
@@ -614,7 +604,7 @@
           "target": [
             {
               "code": "urn:ihe:iti-fr:xds-sd:tiff:2010",
-              "equivalence": "narrower"
+              "equivalence": "Pour les CDA N1 avec un tiff embarqué"
             }
           ]
         }
