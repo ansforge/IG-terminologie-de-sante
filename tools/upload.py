@@ -34,8 +34,9 @@ async def main():
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
         ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
-        with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(ValueSet))       
+        if(not os.path.isfile('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json")) :
+            with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(ValueSet))       
 
  
     # Search for ConceptMap
