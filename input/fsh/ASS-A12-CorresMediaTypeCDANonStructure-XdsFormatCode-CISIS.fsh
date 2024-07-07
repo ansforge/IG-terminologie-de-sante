@@ -4,6 +4,7 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"
 * name = "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
 * title = "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+* status = #draft
 * experimental = false
 * description = "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure"
