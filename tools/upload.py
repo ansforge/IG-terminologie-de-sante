@@ -36,7 +36,7 @@ async def main():
         if(not os.path.isfile('../fsh-generated/resources/ValueSet-'+ e_valueSet["name"] + ".json")) :
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(ValueSet))       
+                f.write(json.dumps(ValueSet))       
 
  
     # Search for ConceptMap
