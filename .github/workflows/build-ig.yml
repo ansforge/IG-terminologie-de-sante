@@ -25,9 +25,15 @@ jobs:
       - name: Install modules
         run: npm install -g fsh-sushi
         
-      - name: Run sushi
-        run: sushi ./igSource
-
+      - name: Run sushi pour les DM
+        run: sushi ./igSource/DM
+        
+      - name: Initialisation des repertoires  
+        run: |
+          mkdir ./igSource/input/ontoserver
+          mkdir ./igSource/input/ontoserver/JDV
+          mkdir ./igSource/input/ontoserver/TRE
+          mkdir ./igSource/input/ontoserver/ASS
         
       - name: Get From ontoserver      
         run: |
