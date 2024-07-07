@@ -16,6 +16,6 @@ Description: "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStr
 * ^contact.name = "ANS"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "https://esante.gouv.fr"
-* ^jurisdiction = urn:iso:std:iso:3166#FR "FRANCE"
+* ^jurisdiction = urn:iso:std:iso:3166#FR "France"
 * include codes from system $TRE-R220-ModeleDocumentCDAStructure
 * include codes from system $TRE-R221-ModeleDocumentCDANonStructure
