@@ -11,6 +11,11 @@ Usage: #definition
 * description = "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1"
 * useContext.code = $usage-context-type#task
 * useContext.valueCodeableConcept.text = "Pour la constitution des metadata XDS"
+* publisher = "ANS"
+* contact.name = "ANS"
+* contact.telecom.system = #url
+* contact.telecom.value = "https://esante.gouv.fr"
+* jurisdiction = urn:iso:std:iso:3166#FR "France"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
