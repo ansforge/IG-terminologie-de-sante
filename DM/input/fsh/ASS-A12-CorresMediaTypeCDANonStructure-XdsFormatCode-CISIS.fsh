@@ -1,3 +1,5 @@
+Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
+
 Instance: ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
 InstanceOf: ConceptMap
 Usage: #definition
