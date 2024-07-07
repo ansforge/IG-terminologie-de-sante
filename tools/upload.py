@@ -34,7 +34,7 @@ async def main():
     list_valueSets = await resources.fetch()  
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
-        if(not os.path.isfile('../fsh-generated/resources/ValueSet-'+ e_valueSet["name"] + ".json")) :
+        if(not os.path.isfile('../fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
                 f.write(json.dumps(ValueSet))       
@@ -45,9 +45,10 @@ async def main():
     list_conceptMaps = await resources.fetch()  
     for e_conceptMaps in list_conceptMaps :
         print (e_conceptMaps["name"])
-        ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
-        with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(ConceptMap))      
+        if(not os.path.isfile('../fsh-generated/resources/ConceptMap-'+ e_valueSet["id"] + ".json")) :
+            ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
+            with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(ConceptMap))      
  
 
 
