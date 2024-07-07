@@ -7,7 +7,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_A11_CorresModeleCDA-XdsFormatCode_CISIS"
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
-* status = #draft
+* status = #active
 * experimental = false
 * description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
 * useContext.code = $usage-context-type#task
