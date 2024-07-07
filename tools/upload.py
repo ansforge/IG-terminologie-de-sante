@@ -1,5 +1,6 @@
 import asyncio
 import json
+import os.path
 from fhirpy import AsyncFHIRClient
 
 
@@ -33,9 +34,10 @@ async def main():
     list_valueSets = await resources.fetch()  
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
-        ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
-        with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(ValueSet))       
+        if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
+            ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
+            with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(ValueSet))       
 
  
     # Search for ConceptMap
@@ -43,9 +45,10 @@ async def main():
     list_conceptMaps = await resources.fetch()  
     for e_conceptMaps in list_conceptMaps :
         print (e_conceptMaps["name"])
-        ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
-        with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(ConceptMap))      
+        if(not os.path.isfile('../DM/fsh-generated/resources/ConceptMap-'+ e_valueSet["id"] + ".json")) :
+            ConceptMap = await client.reference('ConceptMap', e_conceptMaps ["id"]).to_resource()
+            with open('../input/ontoserver/ASS/'+ e_conceptMaps["name"] + ".json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(ConceptMap))      
  
 
 
