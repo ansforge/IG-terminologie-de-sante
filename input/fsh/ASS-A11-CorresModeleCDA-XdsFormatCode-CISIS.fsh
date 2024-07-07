@@ -5,6 +5,7 @@ Usage: #definition
 * version = "5.0.0"
 * name = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
+* status = #draft
 * experimental = false
 * description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"
