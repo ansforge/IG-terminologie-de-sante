@@ -4,7 +4,7 @@ Instance: ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
 InstanceOf: ConceptMap
 Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json"
-* name = "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+* name = "ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"
 * title = "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
 * status = #draft
 * experimental = false
