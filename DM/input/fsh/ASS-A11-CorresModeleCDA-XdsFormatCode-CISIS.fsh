@@ -8,7 +8,8 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
-* description = "Lors de la constitution des metadata XDS et  lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
+* useContext.code = $usage-context-type#task
+* useContext.valueCodeableConcept.text = "Pour la constitution des metadata XDS"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
