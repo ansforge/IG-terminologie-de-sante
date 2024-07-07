@@ -7,7 +7,7 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * description = "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"
