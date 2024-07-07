@@ -1,5 +1,6 @@
 import asyncio
 import json
+import os.path
 from fhirpy import AsyncFHIRClient
 
 
