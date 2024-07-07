@@ -1,7 +1,7 @@
 
 
 ### Documents à télécharger 
-
+* [Mapping fonctionnel NOS / NOS FHIR (PDF)](attach/NOSdansLeSMT_Mapping.pdf)
 * [Plaquette de présentation (PDF)](attach/Plaquette%20NOS%20V2.9.pdf)
 * [Schéma XML de l'extension SVS des NOS (ZIP)](attach/xsd-svs-etendu-nos.zip) 
 * [Correspondance entre les ressources FHIR et les NOS (PDF)](Correspondances%20RessourcesFHIR-NOS_0.pdf)
