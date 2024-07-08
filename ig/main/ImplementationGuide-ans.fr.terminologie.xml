@@ -66,6 +66,14 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="shownav"/>
       </extension>
       <extension url="value">
@@ -202,14 +210,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="active-tables"/>
       </extension>
       <extension url="value">
@@ -265,6 +265,14 @@
       </extension>
       <extension url="value">
         <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -405,14 +413,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="active-tables"/>
       </extension>
       <extension url="value">
@@ -469,6 +469,28 @@
         <reference value="CodeSystem/terminologie-atc"/>
       </reference>
       <name value="Anatomique, Thérapeutique et Chimique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
+      </reference>
+      <name value="ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"/>
+      <description value="Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
+      </reference>
+      <name value="ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
+      <description value="Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -571,6 +593,39 @@
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
       <name value="EMDN"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all"/>
+      </reference>
+      <name value="JDV-MediaTypeCorpsCDANonStructure"/>
+      <description value="JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-ModeleDocumentCDA"/>
+      </reference>
+      <name value="JDV-ModeleDocumentCDA"/>
+      <description value="JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/JDV-TRE-R221-ModeleDocumentCDANonStructure-all"/>
+      </reference>
+      <name value="JDV-ModeleDocumentCDANonStructure"/>
+      <description value="JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -6244,6 +6299,10 @@
         <generation value="markdown"/>
       </page>
     </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="DM/fsh-generated/resources"/>
+    </parameter>
     <parameter>
       <code value="path-resource"/>
       <value value="input/ontoserver/JDV"/>

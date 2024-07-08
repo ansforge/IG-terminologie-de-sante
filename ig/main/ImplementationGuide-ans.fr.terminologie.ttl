@@ -84,6 +84,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "false" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "shownav" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -229,15 +238,6 @@
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "apply-publisher" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-version" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true" ]
@@ -312,6 +312,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "false" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "shownav" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -465,15 +474,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-version" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -538,6 +538,30 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-atc" ]
        ] ;
        fhir:name [ fhir:v "Anatomique, Thérapeutique et Chimique" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS" ] ;
+       fhir:description [ fhir:v "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ] ;
+       fhir:description [ fhir:v "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -650,6 +674,42 @@
          fhir:reference [ fhir:v "CodeSystem/terminologie-emdn" ]
        ] ;
        fhir:name [ fhir:v "EMDN" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all> ;
+         fhir:reference [ fhir:v "ValueSet/TRE-R222-MediaTypeCorpsCDANonStructure-all" ]
+       ] ;
+       fhir:name [ fhir:v "JDV-MediaTypeCorpsCDANonStructure" ] ;
+       fhir:description [ fhir:v "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-ModeleDocumentCDA> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-ModeleDocumentCDA" ]
+       ] ;
+       fhir:name [ fhir:v "JDV-ModeleDocumentCDA" ] ;
+       fhir:description [ fhir:v "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ValueSet/JDV-TRE-R221-ModeleDocumentCDANonStructure-all> ;
+         fhir:reference [ fhir:v "ValueSet/JDV-TRE-R221-ModeleDocumentCDANonStructure-all" ]
+       ] ;
+       fhir:name [ fhir:v "JDV-ModeleDocumentCDANonStructure" ] ;
+       fhir:description [ fhir:v "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -6822,6 +6882,9 @@
        ] )
      ] ;
      fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "DM/fsh-generated/resources" ]
+     ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/ontoserver/JDV" ]
      ] [
