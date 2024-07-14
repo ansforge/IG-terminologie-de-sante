@@ -59,6 +59,7 @@
                             displayName="{f:display/@value}"
                             longDesignation="{$longDesignation}"
                             shortDesignation="{$shortDesignation}"
+                            descriptionMetier="{f:definition/@value}"
                             />
                     </xsl:for-each>
                 </ConceptList>
