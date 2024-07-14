@@ -27,10 +27,10 @@
                         <xsl:variable name='system' select='$cs/codesystems/codesystem[@uri=current()/../f:system/@value]'/>
                         <xsl:variable name='shortDesignation'>
                             <xsl:choose>
-                                <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
+                                <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 31 ">
                                         <xsl:value-of select="f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>
-                               <xsl:when test="string-length(f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
+                               <xsl:when test="string-length(f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 31 ">
                                         <xsl:value-of select="f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
