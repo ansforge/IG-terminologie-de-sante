@@ -21,33 +21,31 @@
                 typeFichier="TRE"
                 urlFichier="{substring-before(/f:CodeSystem/f:url/@value,'/FHIR')}"
                 
-                >
+                > 
                 <ConceptList>
                     <xsl:for-each select='//f:concept'>
                         <xsl:variable name='system' select='$cs/codesystems/codesystem[@uri=current()/../f:system/@value]'/>
                         <xsl:variable name='shortDesignation'>
                             <xsl:choose>
-                                <xsl:when test="string-length(f:designation[0]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
-                                        <xsl:value-of select="f:designation[0]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
-                                </xsl:when>
-                               <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
+                                <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
                                         <xsl:value-of select="f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
+                                </xsl:when>
+                               <xsl:when test="string-length(f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &lt; 30 ">
+                                        <xsl:value-of select="f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
-                                NA
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
                         <xsl:variable name='longDesignation'>
                             <xsl:choose>
-                                <xsl:when test="string-length(f:designation[0]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &gt; 30 ">
-                                        <xsl:value-of select="f:designation[0]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
-                                </xsl:when>
-                               <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &gt; 30 ">
+                                <xsl:when test="string-length(f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &gt; 30 ">
                                         <xsl:value-of select="f:designation[1]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
+                                </xsl:when>
+                               <xsl:when test="string-length(f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value) &gt; 30 ">
+                                        <xsl:value-of select="f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
-                                NAp
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
@@ -61,7 +59,6 @@
                             displayName="{f:display/@value}"
                             longDesignation="{$longDesignation}"
                             shortDesignation="{$shortDesignation}"
-                            shortDesignation1="{f:designation[0]/f:use/f:code[@value='900000000000013009']/../../f:value/@value}"
                             />
                     </xsl:for-each>
                 </ConceptList>
