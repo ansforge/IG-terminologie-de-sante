@@ -34,6 +34,7 @@
                                         <xsl:value-of select="f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
+                                    <xsl:value-of select="f:display/@value"/>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
@@ -46,6 +47,7 @@
                                         <xsl:value-of select="f:designation[2]/f:use/f:code[@value='900000000000013009']/../../f:value/@value"/>
                                 </xsl:when>                                
                                 <xsl:otherwise>
+                                    <xsl:value-of select="f:display/@value"/>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable> 
