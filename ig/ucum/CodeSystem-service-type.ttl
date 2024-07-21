@@ -1,0 +1,2451 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/service-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "service-type"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2024-05-14T14:11:18.747+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/service-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"service-type-1\"> </a></td><td>Adoption/Permanent Care Info/Support</td><td>Adoption &amp; permanent care information/support</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"service-type-2\"> </a></td><td>Aged Care Assessment</td><td>Aged care assessment</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"service-type-3\"> </a></td><td>Aged Care Information/Referral</td><td>Aged Care information/referral</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"service-type-4\"> </a></td><td>Aged Residential Care</td><td>Aged Residential Care</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"service-type-5\"> </a></td><td>Case Management for Older Persons</td><td>Case management for older persons</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"service-type-6\"> </a></td><td>Delivered Meals (Meals On Wheels)</td><td>Delivered meals (meals on wheels)</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"service-type-7\"> </a></td><td>Friendly Visiting</td><td>Friendly visiting</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"service-type-8\"> </a></td><td>Home Care/Housekeeping Assistance</td><td>Home care/housekeeping assistance</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"service-type-9\"> </a></td><td>Home Maintenance and Repair</td><td>Home maintenance and repair</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"service-type-10\"> </a></td><td>Personal Alarms/Alerts</td><td>Personal alarms/alerts</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"service-type-11\"> </a></td><td>Personal Care for Older Persons</td><td>Personal care for older persons</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"service-type-12\"> </a></td><td>Planned Activity Groups</td><td>Planned activity groups</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"service-type-13\"> </a></td><td>Acupuncture</td><td>Acupuncture</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"service-type-14\"> </a></td><td>Alexander Technique Therapy</td><td>Alexander technique therapy</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"service-type-15\"> </a></td><td>Aromatherapy</td><td>Aromatherapy</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"service-type-16\"> </a></td><td>Biorhythm Services</td><td>Biorhythm services</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"service-type-17\"> </a></td><td>Bowen Therapy</td><td>Bowen therapy</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"service-type-18\"> </a></td><td>Chinese Herbal Medicine</td><td>Chinese herbal medicine</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"service-type-19\"> </a></td><td>Feldenkrais</td><td>Feldenkrais</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"service-type-20\"> </a></td><td>Homoeopathy</td><td>Homoeopathy</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"service-type-21\"> </a></td><td>Hydrotherapy</td><td>Hydrotherapy</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"service-type-22\"> </a></td><td>Hypnotherapy</td><td>Hypnotherapy</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"service-type-23\"> </a></td><td>Kinesiology</td><td>Kinesiology</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"service-type-24\"> </a></td><td>Magnetic Therapy</td><td>Magnetic therapy</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"service-type-25\"> </a></td><td>Massage Therapy</td><td>Massage therapy</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"service-type-26\"> </a></td><td>Meditation</td><td>Meditation</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"service-type-27\"> </a></td><td>Myotherapy</td><td>Myotherapy</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"service-type-28\"> </a></td><td>Naturopathy</td><td>Naturopathy</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"service-type-29\"> </a></td><td>Reflexology</td><td>Reflexology</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"service-type-30\"> </a></td><td>Reiki</td><td>Reiki</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"service-type-31\"> </a></td><td>Relaxation Therapy</td><td>Relaxation therapy</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"service-type-32\"> </a></td><td>Shiatsu</td><td>Shiatsu</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"service-type-33\"> </a></td><td>Western Herbal Medicine</td><td>Western herbal medicine</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"service-type-34\"> </a></td><td>Family Day care</td><td>Family day care</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"service-type-35\"> </a></td><td>Holiday Programs</td><td>Holiday programs</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"service-type-36\"> </a></td><td>Kindergarten Inclusion Support</td><td>Kindergarten inclusion support for children with a disability</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"service-type-37\"> </a></td><td>Kindergarten/Preschool</td><td>Kindergarten/preschool</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"service-type-38\"> </a></td><td>Long Day Child Care</td><td>Long day child care</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"service-type-39\"> </a></td><td>Occasional Child Care</td><td>Occasional child care</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"service-type-40\"> </a></td><td>Outside School Hours Care</td><td>Outside school hours care</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"service-type-41\"> </a></td><td>Children's Play Programs</td><td>Children's play programs</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"service-type-42\"> </a></td><td>Parenting/Family Support/Education</td><td>Parenting &amp; family management support/education</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"service-type-43\"> </a></td><td>Playgroup</td><td>Playgroup</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"service-type-44\"> </a></td><td>School Nursing</td><td>School nursing</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"service-type-45\"> </a></td><td>Toy Library</td><td>Toy library</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"service-type-46\"> </a></td><td>Child Protection/Child Abuse Report</td><td>Child protection/child abuse report</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"service-type-47\"> </a></td><td>Foster Care</td><td>Foster care</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"service-type-48\"> </a></td><td>Residential/Out-of-Home Care</td><td>Residential/ out of home care</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"service-type-49\"> </a></td><td>Support - Young People Leaving Care</td><td>Support for young people leaving care</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"service-type-50\"> </a></td><td>Audiology</td><td>Audiology</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"service-type-51\"> </a></td><td>Blood Donation</td><td>Blood donation</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"service-type-52\"> </a></td><td>Chiropractic</td><td>Chiropractic</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"service-type-53\"> </a></td><td>Dietetics</td><td>Dietetics</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"service-type-54\"> </a></td><td>Family Planning</td><td>Family planning</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"service-type-55\"> </a></td><td>Health Advocacy/Liaison Service</td><td>Health advocacy/Liaison service</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"service-type-56\"> </a></td><td>Health Information/Referral</td><td>Health information/referral</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"service-type-57\"> </a></td><td>Immunization</td><td>Immunization</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"service-type-58\"> </a></td><td>Maternal &amp; Child Health</td><td>Maternal &amp; child health</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"service-type-59\"> </a></td><td>Nursing</td><td>Nursing</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"service-type-60\"> </a></td><td>Nutrition</td><td>Nutrition</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"service-type-61\"> </a></td><td>Occupational Therapy</td><td>Occupational therapy</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"service-type-62\"> </a></td><td>Optometry</td><td>Optometry</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"service-type-63\"> </a></td><td>Osteopathy</td><td>Osteopathy</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"service-type-64\"> </a></td><td>Pharmacy</td><td>Pharmacy</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"service-type-65\"> </a></td><td>Physiotherapy</td><td>Physiotherapy</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"service-type-66\"> </a></td><td>Podiatry</td><td>Podiatry</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"service-type-67\"> </a></td><td>Sexual Health</td><td>Sexual health</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"service-type-68\"> </a></td><td>Speech Pathology/Therapy</td><td>Speech pathology/therapy</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"service-type-69\"> </a></td><td>Bereavement Counselling</td><td>Bereavement counselling</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"service-type-70\"> </a></td><td>Crisis Counselling</td><td>Crisis counselling</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"service-type-71\"> </a></td><td>Family Counselling/Therapy</td><td>Family counselling and/or family therapy</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"service-type-72\"> </a></td><td>Family Violence Counselling</td><td>Family violence counselling</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"service-type-73\"> </a></td><td>Financial Counselling</td><td>Financial counselling</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"service-type-74\"> </a></td><td>Generalist Counselling</td><td>Generalist counselling</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"service-type-75\"> </a></td><td>Genetic Counselling</td><td>Genetic counselling</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"service-type-76\"> </a></td><td>Health Counselling</td><td>Health counselling</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"service-type-77\"> </a></td><td>Mediation</td><td>Mediation</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"service-type-78\"> </a></td><td>Problem Gambling Counselling</td><td>Problem gambling counselling</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"service-type-79\"> </a></td><td>Relationship Counselling</td><td>Relationship counselling</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"service-type-80\"> </a></td><td>Sexual Assault Counselling</td><td>Sexual assault counselling</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"service-type-81\"> </a></td><td>Trauma Counselling</td><td>Trauma counselling</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"service-type-82\"> </a></td><td>Victims of Crime Counselling</td><td>Victims of crime counselling</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"service-type-83\"> </a></td><td>Cemetery Operation</td><td>Cemetery operation</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"service-type-84\"> </a></td><td>Cremation</td><td>Cremation</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"service-type-85\"> </a></td><td>Death Service Information</td><td>Death service information</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"service-type-86\"> </a></td><td>Funeral Services</td><td>Funeral services</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"service-type-87\"> </a></td><td>Endodontic</td><td>Endodontic</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"service-type-88\"> </a></td><td>General Dental</td><td>General dental</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"service-type-89\"> </a></td><td>Oral Medicine</td><td>Oral medicine</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"service-type-90\"> </a></td><td>Oral Surgery</td><td>Oral surgery</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"service-type-91\"> </a></td><td>Orthodontic</td><td>Orthodontic</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"service-type-92\"> </a></td><td>Paediatric Dentistry</td><td>Paediatric Dentistry</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"service-type-93\"> </a></td><td>Periodontic</td><td>Periodontic</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"service-type-94\"> </a></td><td>Prosthodontic</td><td>Prosthodontic</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"service-type-95\"> </a></td><td>Acquired Brain Injury Info/Referral</td><td>Acquired brain injury information/referral</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"service-type-96\"> </a></td><td>Disability Advocacy</td><td>Disability advocacy</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"service-type-97\"> </a></td><td>Disability Aids &amp; Equipment</td><td>Disability aids &amp; equipment</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"service-type-98\"> </a></td><td>Disability Case Management</td><td>Disability case management</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"service-type-99\"> </a></td><td>Disability Day Programs/Activities</td><td>Disability day programs &amp; activities</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"service-type-100\"> </a></td><td>Disability Information/Referral</td><td>Disability information/referral</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"service-type-101\"> </a></td><td>Disability Support Packages</td><td>Disability support packages</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"service-type-102\"> </a></td><td>Disability Supported Accommodation</td><td>Disability supported accommodation</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"service-type-103\"> </a></td><td>Early Childhood Intervention</td><td>Early childhood intervention</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"service-type-104\"> </a></td><td>Hearing Aids &amp; Equipment</td><td>Hearing aids &amp; equipment</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"service-type-105\"> </a></td><td>Drug and/or Alcohol Counselling</td><td>Drug and/or alcohol counselling</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"service-type-106\"> </a></td><td>Drug/Alcohol Information/Referral</td><td>Drug and/or alcohol information/referral</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"service-type-107\"> </a></td><td>Needle &amp; Syringe Exchange</td><td>Needle &amp; Syringe exchange</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"service-type-108\"> </a></td><td>Non-resid. Alcohol/Drug Treatment</td><td>Non-residential alcohol and/or drug dependence treatment</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"service-type-109\"> </a></td><td>Pharmacotherapy</td><td>Pharmacotherapy (eg. methadone) program</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"service-type-110\"> </a></td><td>Quit Program</td><td>Quit program</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"service-type-111\"> </a></td><td>Residential Alcohol/Drug Treatment</td><td>Residential alcohol and/or drug dependence treatment</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"service-type-112\"> </a></td><td>Adult/Community Education</td><td>Adult/community education</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"service-type-113\"> </a></td><td>Higher Education</td><td>Higher education</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"service-type-114\"> </a></td><td>Primary Education</td><td>Primary education</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"service-type-115\"> </a></td><td>Secondary Education</td><td>Secondary education</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"service-type-116\"> </a></td><td>Training &amp; Vocational Education</td><td>Training &amp; vocational education</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"service-type-117\"> </a></td><td>Emergency Medical</td><td>Emergency medical</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"service-type-118\"> </a></td><td>Employment Placement and/or Support</td><td>Employment placement and/or support</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"service-type-119\"> </a></td><td>Vocational Rehabilitation</td><td>Vocational Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"service-type-120\"> </a></td><td>Work Safety/Accident Prevention</td><td>Workplace safety and/or accident prevention</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"service-type-121\"> </a></td><td>Financial Assistance</td><td>Financial assistance</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"service-type-122\"> </a></td><td>Financial Information/Advice</td><td>Financial information/advice</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"service-type-123\"> </a></td><td>Material Aid</td><td>Material aid</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"service-type-124\"> </a></td><td>General Practice</td><td>General Practice/GP (doctor)</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"service-type-125\"> </a></td><td>Accommodation Placement/Support</td><td>Accommodation placement and/or support</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"service-type-126\"> </a></td><td>Crisis/Emergency Accommodation</td><td>Crisis/emergency accommodation</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"service-type-127\"> </a></td><td>Homelessness Support</td><td>Homelessness support</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"service-type-128\"> </a></td><td>Housing Information/Referral</td><td>Housing information/referral</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"service-type-129\"> </a></td><td>Public Rental Housing</td><td>Public rental housing</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"service-type-130\"> </a></td><td>Interpreting/Multilingual Service</td><td>Interpreting/Multilingual/Language service</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"service-type-131\"> </a></td><td>Juvenile Justice</td><td>Juvenile Justice</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"service-type-132\"> </a></td><td>Legal Advocacy</td><td>Legal advocacy</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"service-type-133\"> </a></td><td>Legal Information/Advice/Referral</td><td>Legal information/advice/referral</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"service-type-134\"> </a></td><td>Mental Health Advocacy</td><td>Mental health advocacy</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"service-type-135\"> </a></td><td>Mental Health Assess/Triage/Crisis Response</td><td>Mental health assessment/triage/crisis response</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"service-type-136\"> </a></td><td>Mental Health Case Management</td><td>Mental health case management/continuing care</td></tr><tr><td style=\"white-space:nowrap\">137<a name=\"service-type-137\"> </a></td><td>Mental Health Information/Referral</td><td>Mental health information/referral</td></tr><tr><td style=\"white-space:nowrap\">138<a name=\"service-type-138\"> </a></td><td>Mental Health Inpatient Services</td><td>Mental health inpatient services (hospital psychiatric unit) - requires referral</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"service-type-139\"> </a></td><td>Mental Health Non-residential Rehab</td><td>Mental health non-residential rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"service-type-140\"> </a></td><td>Mental Health Residential Rehab/CCU</td><td>Mental health residential rehabilitation/community care unit</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"service-type-141\"> </a></td><td>Psychiatry (Requires Referral)</td><td>Psychiatry (requires referral)</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"service-type-142\"> </a></td><td>Psychology</td><td>Psychology</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"service-type-143\"> </a></td><td>Martial Arts</td><td>Martial arts</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"service-type-144\"> </a></td><td>Personal Fitness Training</td><td>Personal fitness training</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"service-type-145\"> </a></td><td>Physical Activity Group</td><td>Physical activity group</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"service-type-146\"> </a></td><td>Physical Activity Programs</td><td>Physical activity programs</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"service-type-147\"> </a></td><td>Physical Fitness Testing</td><td>Physical fitness testing</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"service-type-148\"> </a></td><td>Pilates</td><td>Pilates</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"service-type-149\"> </a></td><td>Self-Defence</td><td>Self defence</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"service-type-150\"> </a></td><td>Sporting Club</td><td>Sporting club</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"service-type-151\"> </a></td><td>Yoga</td><td>Yoga</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"service-type-152\"> </a></td><td>Food Safety</td><td>Food safety</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"service-type-153\"> </a></td><td>Health Regulatory /Inspection /Cert.</td><td>Health regulatory, inspection and/or certification</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"service-type-154\"> </a></td><td>Work Health/Safety Inspection/Cert.</td><td>Workplace health and/or safety inspection and/or certification</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"service-type-155\"> </a></td><td>Carer Support</td><td>Carer support</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"service-type-156\"> </a></td><td>Respite Care</td><td>Respite care</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"service-type-157\"> </a></td><td>Anatomical Pathology</td><td>Anatomical Pathology (including Cytopathology &amp; Forensic Pathology)</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"service-type-158\"> </a></td><td>Pathology - Clinical Chemistry</td><td>Pathology - Clinical Chemistry</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"service-type-159\"> </a></td><td>Pathology - General</td><td>Pathology - General</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"service-type-160\"> </a></td><td>Pathology - Genetics</td><td>Pathology - Genetics</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"service-type-161\"> </a></td><td>Pathology - Haematology</td><td>Pathology - Haematology</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"service-type-162\"> </a></td><td>Pathology - Immunology</td><td>Pathology - Immunology</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"service-type-163\"> </a></td><td>Pathology - Microbiology</td><td>Pathology - Microbiology</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"service-type-164\"> </a></td><td>Anaesthesiology - Pain Medicine</td><td>Anaesthesiology - Pain Medicine</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"service-type-165\"> </a></td><td>Cardiology</td><td>Cardiology</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"service-type-166\"> </a></td><td>Clinical Genetics</td><td>Clinical Genetics</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"service-type-167\"> </a></td><td>Clinical Pharmacology</td><td>Clinical Pharmacology</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"service-type-168\"> </a></td><td>Dermatology</td><td>Dermatology</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"service-type-169\"> </a></td><td>Endocrinology</td><td>Endocrinology</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"service-type-170\"> </a></td><td>Gastroenterology &amp; Hepatology</td><td>Gastroenterology &amp; Hepatology</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"service-type-171\"> </a></td><td>Geriatric Medicine</td><td>Geriatric medicine</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"service-type-172\"> </a></td><td>Immunology &amp; Allergy</td><td>Immunology &amp; Allergy</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"service-type-173\"> </a></td><td>Infectious Diseases</td><td>Infectious diseases</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"service-type-174\"> </a></td><td>Intensive Care Medicine</td><td>Intensive care medicine</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"service-type-175\"> </a></td><td>Medical Oncology</td><td>Medical Oncology</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"service-type-176\"> </a></td><td>Nephrology</td><td>Nephrology</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"service-type-177\"> </a></td><td>Neurology</td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\">178<a name=\"service-type-178\"> </a></td><td>Occupational Medicine</td><td>Occupational Medicine</td></tr><tr><td style=\"white-space:nowrap\">179<a name=\"service-type-179\"> </a></td><td>Palliative Medicine</td><td>Palliative Medicine</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"service-type-180\"> </a></td><td>Public Health Medicine</td><td>Public Health Medicine</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"service-type-181\"> </a></td><td>Rehabilitation Medicine</td><td>Rehabilitation Medicine</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"service-type-182\"> </a></td><td>Rheumatology</td><td>Rheumatology</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"service-type-183\"> </a></td><td>Sleep Medicine</td><td>Sleep Medicine</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"service-type-184\"> </a></td><td>Thoracic Medicine</td><td>Thoracic medicine</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"service-type-185\"> </a></td><td>Gynaecological Oncology</td><td>Gynaecological Oncology</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"service-type-186\"> </a></td><td>Obstetrics &amp; Gynaecology</td><td>Obstetrics &amp; Gynaecology</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"service-type-187\"> </a></td><td>Reproductive Endocrinology/Infertility</td><td>Reproductive Endocrinology &amp; Infertility</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"service-type-188\"> </a></td><td>Urogynaecology</td><td>Urogynaecology</td></tr><tr><td style=\"white-space:nowrap\">189<a name=\"service-type-189\"> </a></td><td>Neonatology &amp; Perinatology</td><td>Neonatology &amp; Perinatology</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"service-type-190\"> </a></td><td>Paediatric Cardiology</td><td>Paediatric Cardiology</td></tr><tr><td style=\"white-space:nowrap\">191<a name=\"service-type-191\"> </a></td><td>Paediatric Clinical Genetics</td><td>Paediatric Clinical Genetics</td></tr><tr><td style=\"white-space:nowrap\">192<a name=\"service-type-192\"> </a></td><td>Paediatric Clinical Pharmacology</td><td>Paediatric Clinical Pharmacology</td></tr><tr><td style=\"white-space:nowrap\">193<a name=\"service-type-193\"> </a></td><td>Paediatric Endocrinology</td><td>Paediatric Endocrinology</td></tr><tr><td style=\"white-space:nowrap\">194<a name=\"service-type-194\"> </a></td><td>Paed. Gastroenterology/Hepatology</td><td>Paediatric Gastroenterology &amp; Hepatology</td></tr><tr><td style=\"white-space:nowrap\">195<a name=\"service-type-195\"> </a></td><td>Paediatric Haematology</td><td>Paediatric Haematology</td></tr><tr><td style=\"white-space:nowrap\">196<a name=\"service-type-196\"> </a></td><td>Paediatric Immunology &amp; Allergy</td><td>Paediatric Immunology &amp; Allergy</td></tr><tr><td style=\"white-space:nowrap\">197<a name=\"service-type-197\"> </a></td><td>Paediatric Infectious Diseases</td><td>Paediatric Infectious diseases</td></tr><tr><td style=\"white-space:nowrap\">198<a name=\"service-type-198\"> </a></td><td>Paediatric Intensive Care Medicine</td><td>Paediatric intensive care medicine</td></tr><tr><td style=\"white-space:nowrap\">199<a name=\"service-type-199\"> </a></td><td>Paediatric Medical Oncology</td><td>Paediatric Medical Oncology</td></tr><tr><td style=\"white-space:nowrap\">200<a name=\"service-type-200\"> </a></td><td>Paediatric Medicine</td><td>Paediatric Medicine</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"service-type-201\"> </a></td><td>Paediatric Nephrology</td><td>Paediatric Nephrology</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"service-type-202\"> </a></td><td>Paediatric Neurology</td><td>Paediatric Neurology</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"service-type-203\"> </a></td><td>Paediatric Nuclear Medicine</td><td>Paediatric Nuclear Medicine</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"service-type-204\"> </a></td><td>Paediatric Rehabilitation Medicine</td><td>Paediatric Rehabilitation Medicine</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"service-type-205\"> </a></td><td>Paediatric Rheumatology</td><td>Paediatric Rheumatology</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"service-type-206\"> </a></td><td>Paediatric Sleep Medicine</td><td>Paediatric Sleep Medicine</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"service-type-207\"> </a></td><td>Paediatric Surgery</td><td>Paediatric Surgery</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"service-type-208\"> </a></td><td>Paediatric Thoracic Medicine</td><td>Paediatric Thoracic Medicine</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"service-type-209\"> </a></td><td>Diag. Radiology /Xray /CT /Fluoroscopy</td><td>Diagnostic Radiology/Xray/CT/Fluoroscopy</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"service-type-210\"> </a></td><td>Diagnostic Ultrasound</td><td>Diagnostic Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"service-type-211\"> </a></td><td>Magnetic Resonance Imaging (MRI)</td><td>Magnetic Resonance Imaging (MRI)</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"service-type-212\"> </a></td><td>Nuclear Medicine</td><td>Nuclear Medicine</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"service-type-213\"> </a></td><td>Obstetric/Gynaecological Ultrasound</td><td>Obstetric &amp; Gynaecological Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"service-type-214\"> </a></td><td>Radiation Oncology</td><td>Radiation oncology</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"service-type-215\"> </a></td><td>Cardiothoracic Surgery</td><td>Cardiothoracic surgery</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"service-type-216\"> </a></td><td>Neurosurgery</td><td>Neurosurgery</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"service-type-217\"> </a></td><td>Ophthalmology</td><td>Ophthalmology</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"service-type-218\"> </a></td><td>Orthopaedic Surgery</td><td>Orthopaedic surgery</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"service-type-219\"> </a></td><td>Otolaryngology/Head &amp; Neck Surgery</td><td>Otolaryngology - Head &amp; Neck Surgery</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"service-type-220\"> </a></td><td>Plastic &amp; Reconstructive Surgery</td><td>Plastic &amp; Reconstructive Surgery</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"service-type-221\"> </a></td><td>Surgery - General</td><td>Surgery - General</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"service-type-222\"> </a></td><td>Urology</td><td>Urology</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"service-type-223\"> </a></td><td>Vascular Surgery</td><td>Vascular surgery</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"service-type-224\"> </a></td><td>Support Groups</td><td>Support groups</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"service-type-225\"> </a></td><td>Air ambulance</td><td>Air ambulance</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"service-type-226\"> </a></td><td>Ambulance</td><td>Ambulance</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"service-type-227\"> </a></td><td>Blood Transport</td><td>Blood transport</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"service-type-228\"> </a></td><td>Community Bus</td><td>Community bus</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"service-type-229\"> </a></td><td>Flying Doctor Service</td><td>Flying doctor service</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"service-type-230\"> </a></td><td>Patient Transport</td><td>Patient transport</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"service-type-231\"> </a></td><td>A&amp;E</td><td>A&amp;E</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"service-type-232\"> </a></td><td>A&amp;EP</td><td>A&amp;EP</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"service-type-233\"> </a></td><td>Abuse</td><td>Abuse</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"service-type-234\"> </a></td><td>ACAS</td><td>ACAS</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"service-type-235\"> </a></td><td>Access</td><td>Access</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"service-type-236\"> </a></td><td>Accident</td><td>Accident</td></tr><tr><td style=\"white-space:nowrap\">237<a name=\"service-type-237\"> </a></td><td>Acute Inpatient Serv</td><td>Acute Inpatient Service's</td></tr><tr><td style=\"white-space:nowrap\">238<a name=\"service-type-238\"> </a></td><td>Adult Day Programs</td><td>Adult Day Programs</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"service-type-239\"> </a></td><td>Adult Mental Health Services</td><td>Adult Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">240<a name=\"service-type-240\"> </a></td><td>Advice</td><td>Advice</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"service-type-241\"> </a></td><td>Advocacy</td><td>Advocacy</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"service-type-242\"> </a></td><td>Aged Persons Mental</td><td>Aged Persons Mental Health Residential Units</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"service-type-243\"> </a></td><td>Aged Persons Mental</td><td>Aged Persons Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"service-type-244\"> </a></td><td>Aged Persons Mental</td><td>Aged Persons Mental Health Teams</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"service-type-245\"> </a></td><td>Aids</td><td>Aids</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"service-type-246\"> </a></td><td>Al-Anon</td><td>Al-Anon</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"service-type-247\"> </a></td><td>Alcohol</td><td>Alcohol</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"service-type-248\"> </a></td><td>Al-Teen</td><td>Al-Teen</td></tr><tr><td style=\"white-space:nowrap\">249<a name=\"service-type-249\"> </a></td><td>Antenatal</td><td>Antenatal</td></tr><tr><td style=\"white-space:nowrap\">250<a name=\"service-type-250\"> </a></td><td>Anxiety</td><td>Anxiety</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"service-type-251\"> </a></td><td>Arthritis</td><td>Arthritis</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"service-type-252\"> </a></td><td>Assessment</td><td>Assessment</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"service-type-253\"> </a></td><td>Assistance</td><td>Assistance</td></tr><tr><td style=\"white-space:nowrap\">254<a name=\"service-type-254\"> </a></td><td>Asthma</td><td>Asthma</td></tr><tr><td style=\"white-space:nowrap\">255<a name=\"service-type-255\"> </a></td><td>ATSS</td><td>ATSS</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"service-type-256\"> </a></td><td>Attendant Care</td><td>Attendant Care</td></tr><tr><td style=\"white-space:nowrap\">257<a name=\"service-type-257\"> </a></td><td>Babies</td><td>Babies</td></tr><tr><td style=\"white-space:nowrap\">258<a name=\"service-type-258\"> </a></td><td>Bathroom Modificatio</td><td>Bathroom Modification</td></tr><tr><td style=\"white-space:nowrap\">259<a name=\"service-type-259\"> </a></td><td>Behavior</td><td>Behavior</td></tr><tr><td style=\"white-space:nowrap\">260<a name=\"service-type-260\"> </a></td><td>Behavior Interventi</td><td>Behavior Intervention</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"service-type-261\"> </a></td><td>Bereavement</td><td>Bereavement</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"service-type-262\"> </a></td><td>Bipolar</td><td>Bipolar</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"service-type-263\"> </a></td><td>Birth</td><td>Birth</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"service-type-264\"> </a></td><td>Birth Control</td><td>Birth Control</td></tr><tr><td style=\"white-space:nowrap\">265<a name=\"service-type-265\"> </a></td><td>Birthing Options</td><td>Birthing Options</td></tr><tr><td style=\"white-space:nowrap\">266<a name=\"service-type-266\"> </a></td><td>BIST</td><td>BIST</td></tr><tr><td style=\"white-space:nowrap\">267<a name=\"service-type-267\"> </a></td><td>Blood</td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"service-type-268\"> </a></td><td>Bone</td><td>Bone</td></tr><tr><td style=\"white-space:nowrap\">269<a name=\"service-type-269\"> </a></td><td>Bowel</td><td>Bowel</td></tr><tr><td style=\"white-space:nowrap\">270<a name=\"service-type-270\"> </a></td><td>Brain</td><td>Brain</td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"service-type-271\"> </a></td><td>Breast Feeding</td><td>Breast Feeding</td></tr><tr><td style=\"white-space:nowrap\">272<a name=\"service-type-272\"> </a></td><td>Breast Screen</td><td>Breast Screen</td></tr><tr><td style=\"white-space:nowrap\">273<a name=\"service-type-273\"> </a></td><td>Brokerage</td><td>Brokerage</td></tr><tr><td style=\"white-space:nowrap\">274<a name=\"service-type-274\"> </a></td><td>Cancer</td><td>Cancer</td></tr><tr><td style=\"white-space:nowrap\">275<a name=\"service-type-275\"> </a></td><td>Cancer Support</td><td>Cancer Support</td></tr><tr><td style=\"white-space:nowrap\">276<a name=\"service-type-276\"> </a></td><td>Cardiovascular Disea</td><td>Cardiovascular Disease</td></tr><tr><td style=\"white-space:nowrap\">277<a name=\"service-type-277\"> </a></td><td>Care Packages</td><td>Care Packages</td></tr><tr><td style=\"white-space:nowrap\">278<a name=\"service-type-278\"> </a></td><td>Carer</td><td>Carer</td></tr><tr><td style=\"white-space:nowrap\">279<a name=\"service-type-279\"> </a></td><td>Case Management</td><td>Case Management</td></tr><tr><td style=\"white-space:nowrap\">280<a name=\"service-type-280\"> </a></td><td>Casualty</td><td>Casualty</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"service-type-281\"> </a></td><td>Centrelink</td><td>Centrelink</td></tr><tr><td style=\"white-space:nowrap\">282<a name=\"service-type-282\"> </a></td><td>Chemists</td><td>Chemists</td></tr><tr><td style=\"white-space:nowrap\">283<a name=\"service-type-283\"> </a></td><td>Child And Adolescent</td><td>Child And Adolescent Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">284<a name=\"service-type-284\"> </a></td><td>Child Care</td><td>Child Care</td></tr><tr><td style=\"white-space:nowrap\">285<a name=\"service-type-285\"> </a></td><td>Child Services</td><td>Child Services</td></tr><tr><td style=\"white-space:nowrap\">286<a name=\"service-type-286\"> </a></td><td>Children</td><td>Children</td></tr><tr><td style=\"white-space:nowrap\">287<a name=\"service-type-287\"> </a></td><td>Children's Services</td><td>Children's Services</td></tr><tr><td style=\"white-space:nowrap\">288<a name=\"service-type-288\"> </a></td><td>Cholesterol</td><td>Cholesterol</td></tr><tr><td style=\"white-space:nowrap\">289<a name=\"service-type-289\"> </a></td><td>Clothing</td><td>Clothing</td></tr><tr><td style=\"white-space:nowrap\">290<a name=\"service-type-290\"> </a></td><td>Community Based Acco</td><td>Community Based Accommodation</td></tr><tr><td style=\"white-space:nowrap\">291<a name=\"service-type-291\"> </a></td><td>Community Care Unit</td><td>Community Care Unit</td></tr><tr><td style=\"white-space:nowrap\">292<a name=\"service-type-292\"> </a></td><td>Community Child And</td><td>Community Child And Adolescent Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">293<a name=\"service-type-293\"> </a></td><td>Community Health</td><td>Community Health</td></tr><tr><td style=\"white-space:nowrap\">294<a name=\"service-type-294\"> </a></td><td>Community Residentia</td><td>Community Residential Unit</td></tr><tr><td style=\"white-space:nowrap\">295<a name=\"service-type-295\"> </a></td><td>Community Transport</td><td>Community Transport</td></tr><tr><td style=\"white-space:nowrap\">296<a name=\"service-type-296\"> </a></td><td>Companion Visiting</td><td>Companion Visiting</td></tr><tr><td style=\"white-space:nowrap\">297<a name=\"service-type-297\"> </a></td><td>Companionship</td><td>Companionship</td></tr><tr><td style=\"white-space:nowrap\">298<a name=\"service-type-298\"> </a></td><td>Consumer Advice</td><td>Consumer Advice</td></tr><tr><td style=\"white-space:nowrap\">299<a name=\"service-type-299\"> </a></td><td>Consumer Issues</td><td>Consumer Issues</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"service-type-300\"> </a></td><td>Continuing Care Serv</td><td>Continuing Care Services</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"service-type-301\"> </a></td><td>Contraception Inform</td><td>Contraception Information</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"service-type-302\"> </a></td><td>Coordinating Bodies</td><td>Coordinating Bodies</td></tr><tr><td style=\"white-space:nowrap\">303<a name=\"service-type-303\"> </a></td><td>Correctional Service</td><td>Correctional Services</td></tr><tr><td style=\"white-space:nowrap\">304<a name=\"service-type-304\"> </a></td><td>Council Environmenta</td><td>Council Environmental Health</td></tr><tr><td style=\"white-space:nowrap\">305<a name=\"service-type-305\"> </a></td><td>Counselling</td><td>Counselling</td></tr><tr><td style=\"white-space:nowrap\">306<a name=\"service-type-306\"> </a></td><td>Criminal</td><td>Criminal</td></tr><tr><td style=\"white-space:nowrap\">307<a name=\"service-type-307\"> </a></td><td>Crises</td><td>Crises</td></tr><tr><td style=\"white-space:nowrap\">308<a name=\"service-type-308\"> </a></td><td>Crisis Assessment An</td><td>Crisis Assessment And Treatment Services (Cats)</td></tr><tr><td style=\"white-space:nowrap\">309<a name=\"service-type-309\"> </a></td><td>Crisis Assistance</td><td>Crisis Assistance</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"service-type-310\"> </a></td><td>Crisis Refuge</td><td>Crisis Refuge</td></tr><tr><td style=\"white-space:nowrap\">311<a name=\"service-type-311\"> </a></td><td>Day Program</td><td>Day Program</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"service-type-312\"> </a></td><td>Deaf</td><td>Deaf</td></tr><tr><td style=\"white-space:nowrap\">313<a name=\"service-type-313\"> </a></td><td>Dental Hygiene</td><td>Dental Hygiene</td></tr><tr><td style=\"white-space:nowrap\">314<a name=\"service-type-314\"> </a></td><td>Dentistry</td><td>Dentistry</td></tr><tr><td style=\"white-space:nowrap\">315<a name=\"service-type-315\"> </a></td><td>Dentures</td><td>Dentures</td></tr><tr><td style=\"white-space:nowrap\">316<a name=\"service-type-316\"> </a></td><td>Depression</td><td>Depression</td></tr><tr><td style=\"white-space:nowrap\">317<a name=\"service-type-317\"> </a></td><td>Detoxification</td><td>Detoxification</td></tr><tr><td style=\"white-space:nowrap\">318<a name=\"service-type-318\"> </a></td><td>Diabetes</td><td>Diabetes</td></tr><tr><td style=\"white-space:nowrap\">319<a name=\"service-type-319\"> </a></td><td>Diaphragm Fitting</td><td>Diaphragm Fitting</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"service-type-320\"> </a></td><td>Dieticians</td><td>Dieticians</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"service-type-321\"> </a></td><td>Disabled Parking</td><td>Disabled Parking</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"service-type-322\"> </a></td><td>District Nursing</td><td>District Nursing</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"service-type-323\"> </a></td><td>Divorce</td><td>Divorce</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"service-type-324\"> </a></td><td>Doctors</td><td>Doctors</td></tr><tr><td style=\"white-space:nowrap\">325<a name=\"service-type-325\"> </a></td><td>Drink-Drive</td><td>Drink-Drive</td></tr><tr><td style=\"white-space:nowrap\">326<a name=\"service-type-326\"> </a></td><td>Dual Diagnosis Servi</td><td>Dual Diagnosis Services</td></tr><tr><td style=\"white-space:nowrap\">327<a name=\"service-type-327\"> </a></td><td>Early Choice</td><td>Early Choice</td></tr><tr><td style=\"white-space:nowrap\">328<a name=\"service-type-328\"> </a></td><td>Eating Disorder</td><td>Eating Disorder</td></tr><tr><td style=\"white-space:nowrap\">330<a name=\"service-type-330\"> </a></td><td>Emergency Relief</td><td>Emergency Relief</td></tr><tr><td style=\"white-space:nowrap\">331<a name=\"service-type-331\"> </a></td><td>Employment And Train</td><td>Employment And Training</td></tr><tr><td style=\"white-space:nowrap\">332<a name=\"service-type-332\"> </a></td><td>Environment</td><td>Environment</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"service-type-333\"> </a></td><td>Equipment</td><td>Equipment</td></tr><tr><td style=\"white-space:nowrap\">334<a name=\"service-type-334\"> </a></td><td>Exercise</td><td>Exercise</td></tr><tr><td style=\"white-space:nowrap\">335<a name=\"service-type-335\"> </a></td><td>Facility</td><td>Facility</td></tr><tr><td style=\"white-space:nowrap\">336<a name=\"service-type-336\"> </a></td><td>Family Choice</td><td>Family Choice</td></tr><tr><td style=\"white-space:nowrap\">337<a name=\"service-type-337\"> </a></td><td>Family Law</td><td>Family Law</td></tr><tr><td style=\"white-space:nowrap\">338<a name=\"service-type-338\"> </a></td><td>Family Options</td><td>Family Options</td></tr><tr><td style=\"white-space:nowrap\">339<a name=\"service-type-339\"> </a></td><td>Family Services</td><td>Family Services</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"service-type-340\"> </a></td><td>FFYA</td><td>FFYA</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"service-type-341\"> </a></td><td>Financial Aid</td><td>Financial Aid</td></tr><tr><td style=\"white-space:nowrap\">342<a name=\"service-type-342\"> </a></td><td>Fitness</td><td>Fitness</td></tr><tr><td style=\"white-space:nowrap\">343<a name=\"service-type-343\"> </a></td><td>Flexible Care Packag</td><td>Flexible Care Packages</td></tr><tr><td style=\"white-space:nowrap\">344<a name=\"service-type-344\"> </a></td><td>Food</td><td>Food</td></tr><tr><td style=\"white-space:nowrap\">345<a name=\"service-type-345\"> </a></td><td>Food Vouchers</td><td>Food Vouchers</td></tr><tr><td style=\"white-space:nowrap\">346<a name=\"service-type-346\"> </a></td><td>Forensic Mental Heal</td><td>Forensic Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">347<a name=\"service-type-347\"> </a></td><td>Futures</td><td>Futures</td></tr><tr><td style=\"white-space:nowrap\">348<a name=\"service-type-348\"> </a></td><td>Futures For Young Ad</td><td>Futures For Young Adults</td></tr><tr><td style=\"white-space:nowrap\">349<a name=\"service-type-349\"> </a></td><td>General Practitioner</td><td>General Practitioners</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"service-type-350\"> </a></td><td>Grants</td><td>Grants</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"service-type-351\"> </a></td><td>Grief</td><td>Grief</td></tr><tr><td style=\"white-space:nowrap\">352<a name=\"service-type-352\"> </a></td><td>Grief Counselling</td><td>Grief Counselling</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"service-type-353\"> </a></td><td>HACC</td><td>HACC</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"service-type-354\"> </a></td><td>Heart Disease</td><td>Heart Disease</td></tr><tr><td style=\"white-space:nowrap\">355<a name=\"service-type-355\"> </a></td><td>Help</td><td>Help</td></tr><tr><td style=\"white-space:nowrap\">356<a name=\"service-type-356\"> </a></td><td>High Blood Pressure</td><td>High Blood Pressure</td></tr><tr><td style=\"white-space:nowrap\">357<a name=\"service-type-357\"> </a></td><td>Home Help</td><td>Home Help</td></tr><tr><td style=\"white-space:nowrap\">358<a name=\"service-type-358\"> </a></td><td>Home Nursing</td><td>Home Nursing</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"service-type-359\"> </a></td><td>Homefirst</td><td>Homefirst</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"service-type-360\"> </a></td><td>Hospice Care</td><td>Hospice Care</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"service-type-361\"> </a></td><td>Hospital Services</td><td>Hospital Services</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"service-type-362\"> </a></td><td>Hospital To Home</td><td>Hospital To Home</td></tr><tr><td style=\"white-space:nowrap\">364<a name=\"service-type-364\"> </a></td><td>Hostel</td><td>Hostel</td></tr><tr><td style=\"white-space:nowrap\">365<a name=\"service-type-365\"> </a></td><td>Hostel Accommodation</td><td>Hostel Accommodation</td></tr><tr><td style=\"white-space:nowrap\">366<a name=\"service-type-366\"> </a></td><td>Household Items</td><td>Household Items</td></tr><tr><td style=\"white-space:nowrap\">367<a name=\"service-type-367\"> </a></td><td>Hypertension</td><td>Hypertension</td></tr><tr><td style=\"white-space:nowrap\">368<a name=\"service-type-368\"> </a></td><td>Illness</td><td>Illness</td></tr><tr><td style=\"white-space:nowrap\">369<a name=\"service-type-369\"> </a></td><td>Independent Living</td><td>Independent Living</td></tr><tr><td style=\"white-space:nowrap\">370<a name=\"service-type-370\"> </a></td><td>Information</td><td>Information</td></tr><tr><td style=\"white-space:nowrap\">371<a name=\"service-type-371\"> </a></td><td>Injury</td><td>Injury</td></tr><tr><td style=\"white-space:nowrap\">372<a name=\"service-type-372\"> </a></td><td>Intake</td><td>Intake</td></tr><tr><td style=\"white-space:nowrap\">373<a name=\"service-type-373\"> </a></td><td>Intensive Mobile You</td><td>Intensive Mobile Youth Outreach Services (Imyos)</td></tr><tr><td style=\"white-space:nowrap\">374<a name=\"service-type-374\"> </a></td><td>Intervention</td><td>Intervention</td></tr><tr><td style=\"white-space:nowrap\">375<a name=\"service-type-375\"> </a></td><td>Job Searching</td><td>Job Searching</td></tr><tr><td style=\"white-space:nowrap\">376<a name=\"service-type-376\"> </a></td><td>Justice</td><td>Justice</td></tr><tr><td style=\"white-space:nowrap\">377<a name=\"service-type-377\"> </a></td><td>Leisure</td><td>Leisure</td></tr><tr><td style=\"white-space:nowrap\">378<a name=\"service-type-378\"> </a></td><td>Loans</td><td>Loans</td></tr><tr><td style=\"white-space:nowrap\">379<a name=\"service-type-379\"> </a></td><td>Low Income Earners</td><td>Low Income Earners</td></tr><tr><td style=\"white-space:nowrap\">380<a name=\"service-type-380\"> </a></td><td>Lung</td><td>Lung</td></tr><tr><td style=\"white-space:nowrap\">381<a name=\"service-type-381\"> </a></td><td>Making A Difference</td><td>Making A Difference</td></tr><tr><td style=\"white-space:nowrap\">382<a name=\"service-type-382\"> </a></td><td>Medical Services</td><td>Medical Services</td></tr><tr><td style=\"white-space:nowrap\">383<a name=\"service-type-383\"> </a></td><td>Medical Specialists</td><td>Medical Specialists</td></tr><tr><td style=\"white-space:nowrap\">384<a name=\"service-type-384\"> </a></td><td>Medication Administr</td><td>Medication Administration</td></tr><tr><td style=\"white-space:nowrap\">385<a name=\"service-type-385\"> </a></td><td>Menstrual Informatio</td><td>Menstrual Information</td></tr><tr><td style=\"white-space:nowrap\">386<a name=\"service-type-386\"> </a></td><td>Methadone</td><td>Methadone</td></tr><tr><td style=\"white-space:nowrap\">387<a name=\"service-type-387\"> </a></td><td>Mobile Support And T</td><td>Mobile Support And Treatment Services (MSTS)</td></tr><tr><td style=\"white-space:nowrap\">388<a name=\"service-type-388\"> </a></td><td>Motor Neurone</td><td>Motor Neurone</td></tr><tr><td style=\"white-space:nowrap\">389<a name=\"service-type-389\"> </a></td><td>Multiple Sclerosis</td><td>Multiple Sclerosis</td></tr><tr><td style=\"white-space:nowrap\">390<a name=\"service-type-390\"> </a></td><td>Neighbourhood House</td><td>Neighbourhood House</td></tr><tr><td style=\"white-space:nowrap\">391<a name=\"service-type-391\"> </a></td><td>Nursing Home</td><td>Nursing Home</td></tr><tr><td style=\"white-space:nowrap\">392<a name=\"service-type-392\"> </a></td><td>Nursing Mothers</td><td>Nursing Mothers</td></tr><tr><td style=\"white-space:nowrap\">393<a name=\"service-type-393\"> </a></td><td>Obesity</td><td>Obesity</td></tr><tr><td style=\"white-space:nowrap\">394<a name=\"service-type-394\"> </a></td><td>Occupational Health</td><td>Occupational Health &amp; Safety</td></tr><tr><td style=\"white-space:nowrap\">395<a name=\"service-type-395\"> </a></td><td>Optometrist</td><td>Optometrist</td></tr><tr><td style=\"white-space:nowrap\">396<a name=\"service-type-396\"> </a></td><td>Oral Hygiene</td><td>Oral Hygiene</td></tr><tr><td style=\"white-space:nowrap\">397<a name=\"service-type-397\"> </a></td><td>Outpatients</td><td>Outpatients</td></tr><tr><td style=\"white-space:nowrap\">398<a name=\"service-type-398\"> </a></td><td>Outreach Service</td><td>Outreach Service</td></tr><tr><td style=\"white-space:nowrap\">399<a name=\"service-type-399\"> </a></td><td>PADP</td><td>PADP</td></tr><tr><td style=\"white-space:nowrap\">400<a name=\"service-type-400\"> </a></td><td>Pain</td><td>Pain</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"service-type-401\"> </a></td><td>Pap Smear</td><td>Pap Smear</td></tr><tr><td style=\"white-space:nowrap\">402<a name=\"service-type-402\"> </a></td><td>Parenting</td><td>Parenting</td></tr><tr><td style=\"white-space:nowrap\">403<a name=\"service-type-403\"> </a></td><td>Peak Organizations</td><td>Peak Organizations</td></tr><tr><td style=\"white-space:nowrap\">404<a name=\"service-type-404\"> </a></td><td>Personal Care</td><td>Personal Care</td></tr><tr><td style=\"white-space:nowrap\">405<a name=\"service-type-405\"> </a></td><td>Pharmacies</td><td>Pharmacies</td></tr><tr><td style=\"white-space:nowrap\">406<a name=\"service-type-406\"> </a></td><td>Phobias</td><td>Phobias</td></tr><tr><td style=\"white-space:nowrap\">407<a name=\"service-type-407\"> </a></td><td>Physical</td><td>Physical</td></tr><tr><td style=\"white-space:nowrap\">408<a name=\"service-type-408\"> </a></td><td>Physical Activity</td><td>Physical Activity</td></tr><tr><td style=\"white-space:nowrap\">409<a name=\"service-type-409\"> </a></td><td>Postnatal</td><td>Postnatal</td></tr><tr><td style=\"white-space:nowrap\">410<a name=\"service-type-410\"> </a></td><td>Pregnancy</td><td>Pregnancy</td></tr><tr><td style=\"white-space:nowrap\">411<a name=\"service-type-411\"> </a></td><td>Pregnancy Tests</td><td>Pregnancy Tests</td></tr><tr><td style=\"white-space:nowrap\">412<a name=\"service-type-412\"> </a></td><td>Preschool</td><td>Preschool</td></tr><tr><td style=\"white-space:nowrap\">413<a name=\"service-type-413\"> </a></td><td>Prescriptions</td><td>Prescriptions</td></tr><tr><td style=\"white-space:nowrap\">414<a name=\"service-type-414\"> </a></td><td>Primary Mental Healt</td><td>Primary Mental Health And Early Intervention Teams</td></tr><tr><td style=\"white-space:nowrap\">415<a name=\"service-type-415\"> </a></td><td>Property Maintenance</td><td>Property Maintenance</td></tr><tr><td style=\"white-space:nowrap\">416<a name=\"service-type-416\"> </a></td><td>Prostate</td><td>Prostate</td></tr><tr><td style=\"white-space:nowrap\">417<a name=\"service-type-417\"> </a></td><td>Psychiatric</td><td>Psychiatric</td></tr><tr><td style=\"white-space:nowrap\">418<a name=\"service-type-418\"> </a></td><td>Psychiatric Disabili</td><td>Psychiatric Disability Support Services - Home-Based Outreach</td></tr><tr><td style=\"white-space:nowrap\">419<a name=\"service-type-419\"> </a></td><td>Psychiatric Disabili</td><td>Psychiatric Disability Support Services - Planned Respite</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"service-type-420\"> </a></td><td>Psychiatric Disabili</td><td>Psychiatric Disability Support Services - Residential Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"service-type-421\"> </a></td><td>Psychiatric Disabili</td><td>Psychiatric Disability Support Services Home-Based Outreach</td></tr><tr><td style=\"white-space:nowrap\">422<a name=\"service-type-422\"> </a></td><td>Psychiatric Disabili</td><td>Psychiatric Disability Support Services Mutual Support And Self Help</td></tr><tr><td style=\"white-space:nowrap\">423<a name=\"service-type-423\"> </a></td><td>Psychiatric Support</td><td>Psychiatric Support</td></tr><tr><td style=\"white-space:nowrap\">424<a name=\"service-type-424\"> </a></td><td>Recreation</td><td>Recreation</td></tr><tr><td style=\"white-space:nowrap\">425<a name=\"service-type-425\"> </a></td><td>Referral</td><td>Referral</td></tr><tr><td style=\"white-space:nowrap\">426<a name=\"service-type-426\"> </a></td><td>Refuge</td><td>Refuge</td></tr><tr><td style=\"white-space:nowrap\">427<a name=\"service-type-427\"> </a></td><td>Rent Assistance</td><td>Rent Assistance</td></tr><tr><td style=\"white-space:nowrap\">428<a name=\"service-type-428\"> </a></td><td>Residential Faciliti</td><td>Residential Facilities</td></tr><tr><td style=\"white-space:nowrap\">429<a name=\"service-type-429\"> </a></td><td>Residential Respite</td><td>Residential Respite</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"service-type-430\"> </a></td><td>Respiratory</td><td>Respiratory</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"service-type-431\"> </a></td><td>Response</td><td>Response</td></tr><tr><td style=\"white-space:nowrap\">432<a name=\"service-type-432\"> </a></td><td>Rooming Houses</td><td>Rooming Houses</td></tr><tr><td style=\"white-space:nowrap\">433<a name=\"service-type-433\"> </a></td><td>Safe Sex</td><td>Safe Sex</td></tr><tr><td style=\"white-space:nowrap\">434<a name=\"service-type-434\"> </a></td><td>Secure Extended Care</td><td>Secure Extended Care Inpatient Services</td></tr><tr><td style=\"white-space:nowrap\">435<a name=\"service-type-435\"> </a></td><td>Self Help</td><td>Self Help</td></tr><tr><td style=\"white-space:nowrap\">436<a name=\"service-type-436\"> </a></td><td>Separation</td><td>Separation</td></tr><tr><td style=\"white-space:nowrap\">437<a name=\"service-type-437\"> </a></td><td>Services</td><td>Services</td></tr><tr><td style=\"white-space:nowrap\">438<a name=\"service-type-438\"> </a></td><td>Sex Education</td><td>Sex Education</td></tr><tr><td style=\"white-space:nowrap\">439<a name=\"service-type-439\"> </a></td><td>Sexual Abuse</td><td>Sexual Abuse</td></tr><tr><td style=\"white-space:nowrap\">440<a name=\"service-type-440\"> </a></td><td>Sexual Issues</td><td>Sexual Issues</td></tr><tr><td style=\"white-space:nowrap\">441<a name=\"service-type-441\"> </a></td><td>Sexually Transmitted</td><td>Sexually Transmitted Diseases</td></tr><tr><td style=\"white-space:nowrap\">442<a name=\"service-type-442\"> </a></td><td>SIDS</td><td>SIDS</td></tr><tr><td style=\"white-space:nowrap\">443<a name=\"service-type-443\"> </a></td><td>Social Support</td><td>Social Support</td></tr><tr><td style=\"white-space:nowrap\">444<a name=\"service-type-444\"> </a></td><td>Socialisation</td><td>Socialisation</td></tr><tr><td style=\"white-space:nowrap\">445<a name=\"service-type-445\"> </a></td><td>Special Needs</td><td>Special Needs</td></tr><tr><td style=\"white-space:nowrap\">446<a name=\"service-type-446\"> </a></td><td>Speech Therapist</td><td>Speech Therapist</td></tr><tr><td style=\"white-space:nowrap\">447<a name=\"service-type-447\"> </a></td><td>Splinting</td><td>Splinting</td></tr><tr><td style=\"white-space:nowrap\">448<a name=\"service-type-448\"> </a></td><td>Sport</td><td>Sport</td></tr><tr><td style=\"white-space:nowrap\">449<a name=\"service-type-449\"> </a></td><td>Statewide And Specia</td><td>Statewide And Specialist Services</td></tr><tr><td style=\"white-space:nowrap\">450<a name=\"service-type-450\"> </a></td><td>STD</td><td>STD</td></tr><tr><td style=\"white-space:nowrap\">451<a name=\"service-type-451\"> </a></td><td>STI</td><td>STI</td></tr><tr><td style=\"white-space:nowrap\">452<a name=\"service-type-452\"> </a></td><td>Stillbirth</td><td>Stillbirth</td></tr><tr><td style=\"white-space:nowrap\">453<a name=\"service-type-453\"> </a></td><td>Stomal Care</td><td>Stomal Care</td></tr><tr><td style=\"white-space:nowrap\">454<a name=\"service-type-454\"> </a></td><td>Stroke</td><td>Stroke</td></tr><tr><td style=\"white-space:nowrap\">455<a name=\"service-type-455\"> </a></td><td>Substance Abuse</td><td>Substance Abuse</td></tr><tr><td style=\"white-space:nowrap\">456<a name=\"service-type-456\"> </a></td><td>Support</td><td>Support</td></tr><tr><td style=\"white-space:nowrap\">457<a name=\"service-type-457\"> </a></td><td>Syringes</td><td>Syringes</td></tr><tr><td style=\"white-space:nowrap\">458<a name=\"service-type-458\"> </a></td><td>Teeth</td><td>Teeth</td></tr><tr><td style=\"white-space:nowrap\">459<a name=\"service-type-459\"> </a></td><td>Tenancy Advice</td><td>Tenancy Advice</td></tr><tr><td style=\"white-space:nowrap\">460<a name=\"service-type-460\"> </a></td><td>Terminal Illness</td><td>Terminal Illness</td></tr><tr><td style=\"white-space:nowrap\">461<a name=\"service-type-461\"> </a></td><td>Therapy</td><td>Therapy</td></tr><tr><td style=\"white-space:nowrap\">462<a name=\"service-type-462\"> </a></td><td>Transcription</td><td>Transcription</td></tr><tr><td style=\"white-space:nowrap\">463<a name=\"service-type-463\"> </a></td><td>Translating Services</td><td>Translating Services</td></tr><tr><td style=\"white-space:nowrap\">464<a name=\"service-type-464\"> </a></td><td>Translator</td><td>Translator</td></tr><tr><td style=\"white-space:nowrap\">465<a name=\"service-type-465\"> </a></td><td>Transport</td><td>Transport</td></tr><tr><td style=\"white-space:nowrap\">466<a name=\"service-type-466\"> </a></td><td>Vertebrae</td><td>Vertebrae</td></tr><tr><td style=\"white-space:nowrap\">467<a name=\"service-type-467\"> </a></td><td>Violence</td><td>Violence</td></tr><tr><td style=\"white-space:nowrap\">468<a name=\"service-type-468\"> </a></td><td>Vocational Guidance</td><td>Vocational Guidance</td></tr><tr><td style=\"white-space:nowrap\">469<a name=\"service-type-469\"> </a></td><td>Weight</td><td>Weight</td></tr><tr><td style=\"white-space:nowrap\">470<a name=\"service-type-470\"> </a></td><td>Welfare Assistance</td><td>Welfare Assistance</td></tr><tr><td style=\"white-space:nowrap\">471<a name=\"service-type-471\"> </a></td><td>Welfare Counselling</td><td>Welfare Counselling</td></tr><tr><td style=\"white-space:nowrap\">472<a name=\"service-type-472\"> </a></td><td>Wheelchairs</td><td>Wheelchairs</td></tr><tr><td style=\"white-space:nowrap\">473<a name=\"service-type-473\"> </a></td><td>Wound Management</td><td>Wound Management</td></tr><tr><td style=\"white-space:nowrap\">474<a name=\"service-type-474\"> </a></td><td>Young People At Risk</td><td>Young People At Risk</td></tr><tr><td style=\"white-space:nowrap\">475<a name=\"service-type-475\"> </a></td><td>Further Desc. - Community Health Care</td><td>Further Description - Community Health Care</td></tr><tr><td style=\"white-space:nowrap\">476<a name=\"service-type-476\"> </a></td><td>Library</td><td>Library</td></tr><tr><td style=\"white-space:nowrap\">477<a name=\"service-type-477\"> </a></td><td>Community Hours</td><td>Community Hours</td></tr><tr><td style=\"white-space:nowrap\">478<a name=\"service-type-478\"> </a></td><td>Further Desc. - Specialist Medical</td><td>Further Description - Specialist Medical</td></tr><tr><td style=\"white-space:nowrap\">479<a name=\"service-type-479\"> </a></td><td>Hepatology</td><td>Hepatology</td></tr><tr><td style=\"white-space:nowrap\">480<a name=\"service-type-480\"> </a></td><td>Gastroenterology</td><td>Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\">481<a name=\"service-type-481\"> </a></td><td>Gynaecology</td><td>Gynaecology</td></tr><tr><td style=\"white-space:nowrap\">482<a name=\"service-type-482\"> </a></td><td>Obstetrics</td><td>Obstetrics</td></tr><tr><td style=\"white-space:nowrap\">483<a name=\"service-type-483\"> </a></td><td>Further Desc. - Specialist Surgical</td><td>Further Description - Specialist Surgical</td></tr><tr><td style=\"white-space:nowrap\">484<a name=\"service-type-484\"> </a></td><td>Placement Protection</td><td>Placement Protection</td></tr><tr><td style=\"white-space:nowrap\">485<a name=\"service-type-485\"> </a></td><td>Family Violence</td><td>Family Violence</td></tr><tr><td style=\"white-space:nowrap\">486<a name=\"service-type-486\"> </a></td><td>Integrated Family Services</td><td>Integrated Family Services</td></tr><tr><td style=\"white-space:nowrap\">488<a name=\"service-type-488\"> </a></td><td>Diabetes Educator</td><td>Diabetes Educator</td></tr><tr><td style=\"white-space:nowrap\">489<a name=\"service-type-489\"> </a></td><td>Kinship Care</td><td>Kinship Care</td></tr><tr><td style=\"white-space:nowrap\">490<a name=\"service-type-490\"> </a></td><td>General Mental Health Services</td><td>General Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">491<a name=\"service-type-491\"> </a></td><td>Exercise Physiology</td><td>Exercise Physiology</td></tr><tr><td style=\"white-space:nowrap\">492<a name=\"service-type-492\"> </a></td><td>Medical Research</td><td>Medical Research</td></tr><tr><td style=\"white-space:nowrap\">493<a name=\"service-type-493\"> </a></td><td>Youth</td><td>Youth</td></tr><tr><td style=\"white-space:nowrap\">494<a name=\"service-type-494\"> </a></td><td>Youth Services</td><td>Youth Services</td></tr><tr><td style=\"white-space:nowrap\">495<a name=\"service-type-495\"> </a></td><td>Youth Health</td><td>Youth Health</td></tr><tr><td style=\"white-space:nowrap\">496<a name=\"service-type-496\"> </a></td><td>Child and Family Ser</td><td>Child and Family Services</td></tr><tr><td style=\"white-space:nowrap\">497<a name=\"service-type-497\"> </a></td><td>Home Visits</td><td>Home Visits</td></tr><tr><td style=\"white-space:nowrap\">498<a name=\"service-type-498\"> </a></td><td>Mobile Services</td><td>Mobile Services</td></tr><tr><td style=\"white-space:nowrap\">500<a name=\"service-type-500\"> </a></td><td>Before and/or After</td><td>Before and/or After School Care</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"service-type-501\"> </a></td><td>Cancer Services</td><td>Cancer Services</td></tr><tr><td style=\"white-space:nowrap\">502<a name=\"service-type-502\"> </a></td><td>Integrated Cancer Se</td><td>Integrated Cancer Services</td></tr><tr><td style=\"white-space:nowrap\">503<a name=\"service-type-503\"> </a></td><td>Multidisciplinary Se</td><td>Multidisciplinary Services</td></tr><tr><td style=\"white-space:nowrap\">504<a name=\"service-type-504\"> </a></td><td>Multidisciplinary Ca</td><td>Multidisciplinary Cancer Services</td></tr><tr><td style=\"white-space:nowrap\">505<a name=\"service-type-505\"> </a></td><td>Meetings</td><td>Meetings</td></tr><tr><td style=\"white-space:nowrap\">506<a name=\"service-type-506\"> </a></td><td>Blood pressure monit</td><td>Blood pressure monitoring</td></tr><tr><td style=\"white-space:nowrap\">507<a name=\"service-type-507\"> </a></td><td>Dose administration</td><td>Dose administration aid</td></tr><tr><td style=\"white-space:nowrap\">508<a name=\"service-type-508\"> </a></td><td>Medical Equipment Hi</td><td>Medical Equipment Hire</td></tr><tr><td style=\"white-space:nowrap\">509<a name=\"service-type-509\"> </a></td><td>Parenting/Family Support/Education</td><td>Parenting &amp; family support/education</td></tr><tr><td style=\"white-space:nowrap\">510<a name=\"service-type-510\"> </a></td><td>Deputising Service</td><td>Deputising Service</td></tr><tr><td style=\"white-space:nowrap\">513<a name=\"service-type-513\"> </a></td><td>Cancer Support Groups</td><td>Cancer Support Groups</td></tr><tr><td style=\"white-space:nowrap\">514<a name=\"service-type-514\"> </a></td><td>Community Cancer Services</td><td>Community Cancer Services</td></tr><tr><td style=\"white-space:nowrap\">530<a name=\"service-type-530\"> </a></td><td>Disability Care Transport</td><td>Disability Care Transport</td></tr><tr><td style=\"white-space:nowrap\">531<a name=\"service-type-531\"> </a></td><td>Aged Care Transport</td><td>Aged Care Transport</td></tr><tr><td style=\"white-space:nowrap\">532<a name=\"service-type-532\"> </a></td><td>Diabetes Education s</td><td>Diabetes Education service</td></tr><tr><td style=\"white-space:nowrap\">533<a name=\"service-type-533\"> </a></td><td>Cardiac Rehabilitati</td><td>Cardiac Rehabilitation Service</td></tr><tr><td style=\"white-space:nowrap\">534<a name=\"service-type-534\"> </a></td><td>Young Adult Diabetes</td><td>Young Adult Diabetes services (YADS)</td></tr><tr><td style=\"white-space:nowrap\">535<a name=\"service-type-535\"> </a></td><td>Pulmonary Rehabilita</td><td>Pulmonary Rehabilitation Service</td></tr><tr><td style=\"white-space:nowrap\">536<a name=\"service-type-536\"> </a></td><td>Art therapy</td><td>Art therapy</td></tr><tr><td style=\"white-space:nowrap\">537<a name=\"service-type-537\"> </a></td><td>Medication Reviews</td><td>Medication Reviews</td></tr><tr><td style=\"white-space:nowrap\">538<a name=\"service-type-538\"> </a></td><td>Telephone Counselling</td><td>Telephone Counselling</td></tr><tr><td style=\"white-space:nowrap\">539<a name=\"service-type-539\"> </a></td><td>Telephone Help Line</td><td>Telephone Help Line</td></tr><tr><td style=\"white-space:nowrap\">540<a name=\"service-type-540\"> </a></td><td>Online Service</td><td>Online Service</td></tr><tr><td style=\"white-space:nowrap\">541<a name=\"service-type-541\"> </a></td><td>Crisis - Mental Health</td><td>Crisis - Mental Health</td></tr><tr><td style=\"white-space:nowrap\">542<a name=\"service-type-542\"> </a></td><td>Youth Crisis</td><td>Youth Crisis</td></tr><tr><td style=\"white-space:nowrap\">543<a name=\"service-type-543\"> </a></td><td>Sexual Assault</td><td>Sexual Assault</td></tr><tr><td style=\"white-space:nowrap\">544<a name=\"service-type-544\"> </a></td><td>GPAH Other</td><td>GPAH Other</td></tr><tr><td style=\"white-space:nowrap\">545<a name=\"service-type-545\"> </a></td><td>Paediatric Dermatology</td><td>Paediatric Dermatology</td></tr><tr><td style=\"white-space:nowrap\">546<a name=\"service-type-546\"> </a></td><td>Veterans Services</td><td>Veterans Services</td></tr><tr><td style=\"white-space:nowrap\">547<a name=\"service-type-547\"> </a></td><td>Veterans</td><td>Veterans</td></tr><tr><td style=\"white-space:nowrap\">548<a name=\"service-type-548\"> </a></td><td>Food Relief/Food/Meals</td><td>Food Relief/food/meals</td></tr><tr><td style=\"white-space:nowrap\">550<a name=\"service-type-550\"> </a></td><td>Dementia Care</td><td>Dementia Care</td></tr><tr><td style=\"white-space:nowrap\">551<a name=\"service-type-551\"> </a></td><td>Alzheimer</td><td>Alzheimer</td></tr><tr><td style=\"white-space:nowrap\">552<a name=\"service-type-552\"> </a></td><td>Drug and/or Alcohol Support Groups</td><td>Drug and/or alcohol support groups</td></tr><tr><td style=\"white-space:nowrap\">553<a name=\"service-type-553\"> </a></td><td>1-on-1 Support /Mentoring /Coaching</td><td>One on One Support/Mentoring/Coaching</td></tr><tr><td style=\"white-space:nowrap\">554<a name=\"service-type-554\"> </a></td><td>Chronic Disease Management</td><td>Chronic Disease Management</td></tr><tr><td style=\"white-space:nowrap\">555<a name=\"service-type-555\"> </a></td><td>Liaison Services</td><td>Liaison Services</td></tr><tr><td style=\"white-space:nowrap\">556<a name=\"service-type-556\"> </a></td><td>Walk-in Centre /Non-Emergency</td><td>Walk in Centre / non emergency</td></tr><tr><td style=\"white-space:nowrap\">557<a name=\"service-type-557\"> </a></td><td>Inpatients</td><td>Inpatients</td></tr><tr><td style=\"white-space:nowrap\">558<a name=\"service-type-558\"> </a></td><td>Spiritual Counselling</td><td>Spiritual Counselling</td></tr><tr><td style=\"white-space:nowrap\">559<a name=\"service-type-559\"> </a></td><td>Women's Health</td><td>Women's Health</td></tr><tr><td style=\"white-space:nowrap\">560<a name=\"service-type-560\"> </a></td><td>Men's Health</td><td>Men's Health</td></tr><tr><td style=\"white-space:nowrap\">561<a name=\"service-type-561\"> </a></td><td>Health Education/Awareness Program</td><td>Health education/Health awareness program</td></tr><tr><td style=\"white-space:nowrap\">562<a name=\"service-type-562\"> </a></td><td>Test Message</td><td>Test Message</td></tr><tr><td style=\"white-space:nowrap\">563<a name=\"service-type-563\"> </a></td><td>Remedial Massage</td><td>Remedial Massage</td></tr><tr><td style=\"white-space:nowrap\">564<a name=\"service-type-564\"> </a></td><td>Adolescent Mental Health Services</td><td>Adolescent Mental Health Services</td></tr><tr><td style=\"white-space:nowrap\">565<a name=\"service-type-565\"> </a></td><td>Youth Drop In/Assistance/Support</td><td>Youth drop in/assistance/support</td></tr><tr><td style=\"white-space:nowrap\">566<a name=\"service-type-566\"> </a></td><td>Aboriginal Health Worker</td><td>Aboriginal Health Worker</td></tr><tr><td style=\"white-space:nowrap\">567<a name=\"service-type-567\"> </a></td><td>Women's Health Clinic</td><td>Women's Health Clinic</td></tr><tr><td style=\"white-space:nowrap\">568<a name=\"service-type-568\"> </a></td><td>Men's Health Clinic</td><td>Men's Health Clinic</td></tr><tr><td style=\"white-space:nowrap\">569<a name=\"service-type-569\"> </a></td><td>Migrant Health Clinic</td><td>Migrant Health Clinic</td></tr><tr><td style=\"white-space:nowrap\">570<a name=\"service-type-570\"> </a></td><td>Refugee Health Clinic</td><td>Refugee Health Clinic</td></tr><tr><td style=\"white-space:nowrap\">571<a name=\"service-type-571\"> </a></td><td>Aboriginal Health Clinic</td><td>Aboriginal Health Clinic</td></tr><tr><td style=\"white-space:nowrap\">572<a name=\"service-type-572\"> </a></td><td>Nurse Practitioner Lead Clinic/s</td><td>Nurse Practitioner lead Clinic/s</td></tr><tr><td style=\"white-space:nowrap\">573<a name=\"service-type-573\"> </a></td><td>Nurse Lead Clinic/s</td><td>Nurse lead Clinic/s</td></tr><tr><td style=\"white-space:nowrap\">574<a name=\"service-type-574\"> </a></td><td>Culturally Tailored Support Groups</td><td>Culturally tailored support groups</td></tr><tr><td style=\"white-space:nowrap\">575<a name=\"service-type-575\"> </a></td><td>Culturally Tailored Health Promotion</td><td>Culturally tailored health promotion</td></tr><tr><td style=\"white-space:nowrap\">576<a name=\"service-type-576\"> </a></td><td>Rehabilitation</td><td>Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">577<a name=\"service-type-577\"> </a></td><td>Education Information/Referral</td><td>Education information/referral</td></tr><tr><td style=\"white-space:nowrap\">580<a name=\"service-type-580\"> </a></td><td>Social Work</td><td>Social Work</td></tr><tr><td style=\"white-space:nowrap\">581<a name=\"service-type-581\"> </a></td><td>Haematology</td><td>Haematology</td></tr><tr><td style=\"white-space:nowrap\">582<a name=\"service-type-582\"> </a></td><td>Maternity Shared Car</td><td>Maternity Shared Care</td></tr><tr><td style=\"white-space:nowrap\">583<a name=\"service-type-583\"> </a></td><td>Rehabilitation Servi</td><td>Rehabilitation Service</td></tr><tr><td style=\"white-space:nowrap\">584<a name=\"service-type-584\"> </a></td><td>Cranio-sacral Therapy</td><td>Cranio-Sacral Therapy</td></tr><tr><td style=\"white-space:nowrap\">585<a name=\"service-type-585\"> </a></td><td>Prosthetics &amp; Orthotics</td><td>Prosthetics &amp; Orthotics</td></tr><tr><td style=\"white-space:nowrap\">589<a name=\"service-type-589\"> </a></td><td>Home Medicine Review</td><td>Home Medicine Review</td></tr><tr><td style=\"white-space:nowrap\">590<a name=\"service-type-590\"> </a></td><td>GPAH - Medical</td><td>GPAH - Medical</td></tr><tr><td style=\"white-space:nowrap\">591<a name=\"service-type-591\"> </a></td><td>Music Therapy</td><td>Music Therapy</td></tr><tr><td style=\"white-space:nowrap\">593<a name=\"service-type-593\"> </a></td><td>Falls Prevention</td><td>Falls Prevention</td></tr><tr><td style=\"white-space:nowrap\">599<a name=\"service-type-599\"> </a></td><td>Accommodation/Tenancy</td><td>Accommodation/Tenancy</td></tr><tr><td style=\"white-space:nowrap\">600<a name=\"service-type-600\"> </a></td><td>Assess-Skill, Ability, Needs</td><td>Assess-Skill, Ability, Needs</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"service-type-601\"> </a></td><td>Assist Access/Maintain Employ</td><td>Assist Access/Maintain Employ</td></tr><tr><td style=\"white-space:nowrap\">602<a name=\"service-type-602\"> </a></td><td>Assist Prod-Pers Care/Safety</td><td>Assist Prod-Pers Care/Safety</td></tr><tr><td style=\"white-space:nowrap\">603<a name=\"service-type-603\"> </a></td><td>Assist-Integrate School/Ed</td><td>Assist-Integrate School/Ed</td></tr><tr><td style=\"white-space:nowrap\">604<a name=\"service-type-604\"> </a></td><td>Assist-Life Stage, Transition</td><td>Assist-Life Stage, Transition</td></tr><tr><td style=\"white-space:nowrap\">605<a name=\"service-type-605\"> </a></td><td>Assist-Personal Activities</td><td>Assist-Personal Activities</td></tr><tr><td style=\"white-space:nowrap\">606<a name=\"service-type-606\"> </a></td><td>Assist-Travel/Transport</td><td>Assist-Travel/Transport</td></tr><tr><td style=\"white-space:nowrap\">607<a name=\"service-type-607\"> </a></td><td>Assistive Equip-General Tasks</td><td>Assistive Equip-General Tasks</td></tr><tr><td style=\"white-space:nowrap\">608<a name=\"service-type-608\"> </a></td><td>Assistive Equip-Recreation</td><td>Assistive Equip-Recreation</td></tr><tr><td style=\"white-space:nowrap\">609<a name=\"service-type-609\"> </a></td><td>Assistive Prod-Household Task</td><td>Assistive Prod-Household Task</td></tr><tr><td style=\"white-space:nowrap\">610<a name=\"service-type-610\"> </a></td><td>Behavior Support</td><td>Behavior Support</td></tr><tr><td style=\"white-space:nowrap\">611<a name=\"service-type-611\"> </a></td><td>Comms &amp; Info Equipment</td><td>Comms &amp; Info Equipment</td></tr><tr><td style=\"white-space:nowrap\">612<a name=\"service-type-612\"> </a></td><td>Community Nursing Care</td><td>Community Nursing Care</td></tr><tr><td style=\"white-space:nowrap\">613<a name=\"service-type-613\"> </a></td><td>Daily Tasks/Shared Living</td><td>Daily Tasks/Shared Living</td></tr><tr><td style=\"white-space:nowrap\">614<a name=\"service-type-614\"> </a></td><td>Development-Life Skills</td><td>Development-Life Skills</td></tr><tr><td style=\"white-space:nowrap\">615<a name=\"service-type-615\"> </a></td><td>Early Childhood Supports</td><td>Early Childhood Supports</td></tr><tr><td style=\"white-space:nowrap\">616<a name=\"service-type-616\"> </a></td><td>Equipment Special Assess Setup</td><td>Equipment Special Assess Setup</td></tr><tr><td style=\"white-space:nowrap\">617<a name=\"service-type-617\"> </a></td><td>Hearing Equipment</td><td>Hearing Equipment</td></tr><tr><td style=\"white-space:nowrap\">618<a name=\"service-type-618\"> </a></td><td>Home Modification</td><td>Home Modification</td></tr><tr><td style=\"white-space:nowrap\">619<a name=\"service-type-619\"> </a></td><td>Household Tasks</td><td>Household Tasks</td></tr><tr><td style=\"white-space:nowrap\">620<a name=\"service-type-620\"> </a></td><td>Interpret/Translate</td><td>Interpret/Translate</td></tr><tr><td style=\"white-space:nowrap\">621<a name=\"service-type-621\"> </a></td><td>Other Innovative Supports</td><td>Other Innovative Supports</td></tr><tr><td style=\"white-space:nowrap\">622<a name=\"service-type-622\"> </a></td><td>Participate Community</td><td>Participate Community</td></tr><tr><td style=\"white-space:nowrap\">623<a name=\"service-type-623\"> </a></td><td>Personal Mobility Equipment</td><td>Personal Mobility Equipment</td></tr><tr><td style=\"white-space:nowrap\">624<a name=\"service-type-624\"> </a></td><td>Physical Wellbeing</td><td>Physical Wellbeing</td></tr><tr><td style=\"white-space:nowrap\">625<a name=\"service-type-625\"> </a></td><td>Plan Management</td><td>Plan Management</td></tr><tr><td style=\"white-space:nowrap\">626<a name=\"service-type-626\"> </a></td><td>Therapeutic Supports</td><td>Therapeutic Supports</td></tr><tr><td style=\"white-space:nowrap\">627<a name=\"service-type-627\"> </a></td><td>Training-Travel Independence</td><td>Training-Travel Independence</td></tr><tr><td style=\"white-space:nowrap\">628<a name=\"service-type-628\"> </a></td><td>Vehicle modifications</td><td>Vehicle modifications</td></tr><tr><td style=\"white-space:nowrap\">629<a name=\"service-type-629\"> </a></td><td>Vision Equipment</td><td>Vision Equipment</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "pa" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1"^^xsd:integer ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/CodeSystem/service-type"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.1.1145" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:name [ fhir:v "ServiceType"] ; # 
+  fhir:title [ fhir:v "Service type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-09T11:11:30-07:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set defines an example set of codes of service-types."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "France" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/service-type"^^xsd:anyURI ;
+     fhir:link <http://terminology.hl7.org/ValueSet/service-type>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Adoption/Permanent Care Info/Support" ] ;
+     fhir:definition [ fhir:v "Adoption & permanent care information/support" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Aged Care Assessment" ] ;
+     fhir:definition [ fhir:v "Aged care assessment" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Aged Care Information/Referral" ] ;
+     fhir:definition [ fhir:v "Aged Care information/referral" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Aged Residential Care" ] ;
+     fhir:definition [ fhir:v "Aged Residential Care" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Case Management for Older Persons" ] ;
+     fhir:definition [ fhir:v "Case management for older persons" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Delivered Meals (Meals On Wheels)" ] ;
+     fhir:definition [ fhir:v "Delivered meals (meals on wheels)" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Friendly Visiting" ] ;
+     fhir:definition [ fhir:v "Friendly visiting" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Home Care/Housekeeping Assistance" ] ;
+     fhir:definition [ fhir:v "Home care/housekeeping assistance" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Home Maintenance and Repair" ] ;
+     fhir:definition [ fhir:v "Home maintenance and repair" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Personal Alarms/Alerts" ] ;
+     fhir:definition [ fhir:v "Personal alarms/alerts" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Personal Care for Older Persons" ] ;
+     fhir:definition [ fhir:v "Personal care for older persons" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Planned Activity Groups" ] ;
+     fhir:definition [ fhir:v "Planned activity groups" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Acupuncture" ] ;
+     fhir:definition [ fhir:v "Acupuncture" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Alexander Technique Therapy" ] ;
+     fhir:definition [ fhir:v "Alexander technique therapy" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Aromatherapy" ] ;
+     fhir:definition [ fhir:v "Aromatherapy" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Biorhythm Services" ] ;
+     fhir:definition [ fhir:v "Biorhythm services" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Bowen Therapy" ] ;
+     fhir:definition [ fhir:v "Bowen therapy" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Chinese Herbal Medicine" ] ;
+     fhir:definition [ fhir:v "Chinese herbal medicine" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Feldenkrais" ] ;
+     fhir:definition [ fhir:v "Feldenkrais" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Homoeopathy" ] ;
+     fhir:definition [ fhir:v "Homoeopathy" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Hydrotherapy" ] ;
+     fhir:definition [ fhir:v "Hydrotherapy" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Hypnotherapy" ] ;
+     fhir:definition [ fhir:v "Hypnotherapy" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Kinesiology" ] ;
+     fhir:definition [ fhir:v "Kinesiology" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Magnetic Therapy" ] ;
+     fhir:definition [ fhir:v "Magnetic therapy" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Massage Therapy" ] ;
+     fhir:definition [ fhir:v "Massage therapy" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Meditation" ] ;
+     fhir:definition [ fhir:v "Meditation" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Myotherapy" ] ;
+     fhir:definition [ fhir:v "Myotherapy" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Naturopathy" ] ;
+     fhir:definition [ fhir:v "Naturopathy" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Reflexology" ] ;
+     fhir:definition [ fhir:v "Reflexology" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Reiki" ] ;
+     fhir:definition [ fhir:v "Reiki" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Relaxation Therapy" ] ;
+     fhir:definition [ fhir:v "Relaxation therapy" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Shiatsu" ] ;
+     fhir:definition [ fhir:v "Shiatsu" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "Western Herbal Medicine" ] ;
+     fhir:definition [ fhir:v "Western herbal medicine" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "Family Day care" ] ;
+     fhir:definition [ fhir:v "Family day care" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Holiday Programs" ] ;
+     fhir:definition [ fhir:v "Holiday programs" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Kindergarten Inclusion Support" ] ;
+     fhir:definition [ fhir:v "Kindergarten inclusion support for children with a disability" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Kindergarten/Preschool" ] ;
+     fhir:definition [ fhir:v "Kindergarten/preschool" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Long Day Child Care" ] ;
+     fhir:definition [ fhir:v "Long day child care" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Occasional Child Care" ] ;
+     fhir:definition [ fhir:v "Occasional child care" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Outside School Hours Care" ] ;
+     fhir:definition [ fhir:v "Outside school hours care" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Children's Play Programs" ] ;
+     fhir:definition [ fhir:v "Children's play programs" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Parenting/Family Support/Education" ] ;
+     fhir:definition [ fhir:v "Parenting & family management support/education" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Playgroup" ] ;
+     fhir:definition [ fhir:v "Playgroup" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "School Nursing" ] ;
+     fhir:definition [ fhir:v "School nursing" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Toy Library" ] ;
+     fhir:definition [ fhir:v "Toy library" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Child Protection/Child Abuse Report" ] ;
+     fhir:definition [ fhir:v "Child protection/child abuse report" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "Foster Care" ] ;
+     fhir:definition [ fhir:v "Foster care" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "Residential/Out-of-Home Care" ] ;
+     fhir:definition [ fhir:v "Residential/ out of home care" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "Support - Young People Leaving Care" ] ;
+     fhir:definition [ fhir:v "Support for young people leaving care" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "Audiology" ] ;
+     fhir:definition [ fhir:v "Audiology" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Blood Donation" ] ;
+     fhir:definition [ fhir:v "Blood donation" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "Chiropractic" ] ;
+     fhir:definition [ fhir:v "Chiropractic" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "Dietetics" ] ;
+     fhir:definition [ fhir:v "Dietetics" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "Family Planning" ] ;
+     fhir:definition [ fhir:v "Family planning" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Health Advocacy/Liaison Service" ] ;
+     fhir:definition [ fhir:v "Health advocacy/Liaison service" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Health Information/Referral" ] ;
+     fhir:definition [ fhir:v "Health information/referral" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Immunization" ] ;
+     fhir:definition [ fhir:v "Immunization" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Maternal & Child Health" ] ;
+     fhir:definition [ fhir:v "Maternal & child health" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Nursing" ] ;
+     fhir:definition [ fhir:v "Nursing" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "Nutrition" ] ;
+     fhir:definition [ fhir:v "Nutrition" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Occupational Therapy" ] ;
+     fhir:definition [ fhir:v "Occupational therapy" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "Optometry" ] ;
+     fhir:definition [ fhir:v "Optometry" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "Osteopathy" ] ;
+     fhir:definition [ fhir:v "Osteopathy" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "Pharmacy" ] ;
+     fhir:definition [ fhir:v "Pharmacy" ]
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "Physiotherapy" ] ;
+     fhir:definition [ fhir:v "Physiotherapy" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "Podiatry" ] ;
+     fhir:definition [ fhir:v "Podiatry" ]
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "Sexual Health" ] ;
+     fhir:definition [ fhir:v "Sexual health" ]
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "Speech Pathology/Therapy" ] ;
+     fhir:definition [ fhir:v "Speech pathology/therapy" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Bereavement Counselling" ] ;
+     fhir:definition [ fhir:v "Bereavement counselling" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Crisis Counselling" ] ;
+     fhir:definition [ fhir:v "Crisis counselling" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Family Counselling/Therapy" ] ;
+     fhir:definition [ fhir:v "Family counselling and/or family therapy" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Family Violence Counselling" ] ;
+     fhir:definition [ fhir:v "Family violence counselling" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Financial Counselling" ] ;
+     fhir:definition [ fhir:v "Financial counselling" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "Generalist Counselling" ] ;
+     fhir:definition [ fhir:v "Generalist counselling" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "Genetic Counselling" ] ;
+     fhir:definition [ fhir:v "Genetic counselling" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Health Counselling" ] ;
+     fhir:definition [ fhir:v "Health counselling" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "Mediation" ] ;
+     fhir:definition [ fhir:v "Mediation" ]
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "Problem Gambling Counselling" ] ;
+     fhir:definition [ fhir:v "Problem gambling counselling" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "Relationship Counselling" ] ;
+     fhir:definition [ fhir:v "Relationship counselling" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "Sexual Assault Counselling" ] ;
+     fhir:definition [ fhir:v "Sexual assault counselling" ]
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "Trauma Counselling" ] ;
+     fhir:definition [ fhir:v "Trauma counselling" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Victims of Crime Counselling" ] ;
+     fhir:definition [ fhir:v "Victims of crime counselling" ]
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:display [ fhir:v "Cemetery Operation" ] ;
+     fhir:definition [ fhir:v "Cemetery operation" ]
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:display [ fhir:v "Cremation" ] ;
+     fhir:definition [ fhir:v "Cremation" ]
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:display [ fhir:v "Death Service Information" ] ;
+     fhir:definition [ fhir:v "Death service information" ]
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:display [ fhir:v "Funeral Services" ] ;
+     fhir:definition [ fhir:v "Funeral services" ]
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:display [ fhir:v "Endodontic" ] ;
+     fhir:definition [ fhir:v "Endodontic" ]
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "General Dental" ] ;
+     fhir:definition [ fhir:v "General dental" ]
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:display [ fhir:v "Oral Medicine" ] ;
+     fhir:definition [ fhir:v "Oral medicine" ]
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:display [ fhir:v "Oral Surgery" ] ;
+     fhir:definition [ fhir:v "Oral surgery" ]
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:display [ fhir:v "Orthodontic" ] ;
+     fhir:definition [ fhir:v "Orthodontic" ]
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:display [ fhir:v "Paediatric Dentistry" ] ;
+     fhir:definition [ fhir:v "Paediatric Dentistry" ]
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:display [ fhir:v "Periodontic" ] ;
+     fhir:definition [ fhir:v "Periodontic" ]
+  ] [
+     fhir:code [ fhir:v "94" ] ;
+     fhir:display [ fhir:v "Prosthodontic" ] ;
+     fhir:definition [ fhir:v "Prosthodontic" ]
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:display [ fhir:v "Acquired Brain Injury Info/Referral" ] ;
+     fhir:definition [ fhir:v "Acquired brain injury information/referral" ]
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:display [ fhir:v "Disability Advocacy" ] ;
+     fhir:definition [ fhir:v "Disability advocacy" ]
+  ] [
+     fhir:code [ fhir:v "97" ] ;
+     fhir:display [ fhir:v "Disability Aids & Equipment" ] ;
+     fhir:definition [ fhir:v "Disability aids & equipment" ]
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:display [ fhir:v "Disability Case Management" ] ;
+     fhir:definition [ fhir:v "Disability case management" ]
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Disability Day Programs/Activities" ] ;
+     fhir:definition [ fhir:v "Disability day programs & activities" ]
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:display [ fhir:v "Disability Information/Referral" ] ;
+     fhir:definition [ fhir:v "Disability information/referral" ]
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:display [ fhir:v "Disability Support Packages" ] ;
+     fhir:definition [ fhir:v "Disability support packages" ]
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:display [ fhir:v "Disability Supported Accommodation" ] ;
+     fhir:definition [ fhir:v "Disability supported accommodation" ]
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:display [ fhir:v "Early Childhood Intervention" ] ;
+     fhir:definition [ fhir:v "Early childhood intervention" ]
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:display [ fhir:v "Hearing Aids & Equipment" ] ;
+     fhir:definition [ fhir:v "Hearing aids & equipment" ]
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:display [ fhir:v "Drug and/or Alcohol Counselling" ] ;
+     fhir:definition [ fhir:v "Drug and/or alcohol counselling" ]
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:display [ fhir:v "Drug/Alcohol Information/Referral" ] ;
+     fhir:definition [ fhir:v "Drug and/or alcohol information/referral" ]
+  ] [
+     fhir:code [ fhir:v "107" ] ;
+     fhir:display [ fhir:v "Needle & Syringe Exchange" ] ;
+     fhir:definition [ fhir:v "Needle & Syringe exchange" ]
+  ] [
+     fhir:code [ fhir:v "108" ] ;
+     fhir:display [ fhir:v "Non-resid. Alcohol/Drug Treatment" ] ;
+     fhir:definition [ fhir:v "Non-residential alcohol and/or drug dependence treatment" ]
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:display [ fhir:v "Pharmacotherapy" ] ;
+     fhir:definition [ fhir:v "Pharmacotherapy (eg. methadone) program" ]
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:display [ fhir:v "Quit Program" ] ;
+     fhir:definition [ fhir:v "Quit program" ]
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:display [ fhir:v "Residential Alcohol/Drug Treatment" ] ;
+     fhir:definition [ fhir:v "Residential alcohol and/or drug dependence treatment" ]
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:display [ fhir:v "Adult/Community Education" ] ;
+     fhir:definition [ fhir:v "Adult/community education" ]
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:display [ fhir:v "Higher Education" ] ;
+     fhir:definition [ fhir:v "Higher education" ]
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:display [ fhir:v "Primary Education" ] ;
+     fhir:definition [ fhir:v "Primary education" ]
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:display [ fhir:v "Secondary Education" ] ;
+     fhir:definition [ fhir:v "Secondary education" ]
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:display [ fhir:v "Training & Vocational Education" ] ;
+     fhir:definition [ fhir:v "Training & vocational education" ]
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "Emergency Medical" ] ;
+     fhir:definition [ fhir:v "Emergency medical" ]
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "Employment Placement and/or Support" ] ;
+     fhir:definition [ fhir:v "Employment placement and/or support" ]
+  ] [
+     fhir:code [ fhir:v "119" ] ;
+     fhir:display [ fhir:v "Vocational Rehabilitation" ] ;
+     fhir:definition [ fhir:v "Vocational Rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "120" ] ;
+     fhir:display [ fhir:v "Work Safety/Accident Prevention" ] ;
+     fhir:definition [ fhir:v "Workplace safety and/or accident prevention" ]
+  ] [
+     fhir:code [ fhir:v "121" ] ;
+     fhir:display [ fhir:v "Financial Assistance" ] ;
+     fhir:definition [ fhir:v "Financial assistance" ]
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:display [ fhir:v "Financial Information/Advice" ] ;
+     fhir:definition [ fhir:v "Financial information/advice" ]
+  ] [
+     fhir:code [ fhir:v "123" ] ;
+     fhir:display [ fhir:v "Material Aid" ] ;
+     fhir:definition [ fhir:v "Material aid" ]
+  ] [
+     fhir:code [ fhir:v "124" ] ;
+     fhir:display [ fhir:v "General Practice" ] ;
+     fhir:definition [ fhir:v "General Practice/GP (doctor)" ]
+  ] [
+     fhir:code [ fhir:v "125" ] ;
+     fhir:display [ fhir:v "Accommodation Placement/Support" ] ;
+     fhir:definition [ fhir:v "Accommodation placement and/or support" ]
+  ] [
+     fhir:code [ fhir:v "126" ] ;
+     fhir:display [ fhir:v "Crisis/Emergency Accommodation" ] ;
+     fhir:definition [ fhir:v "Crisis/emergency accommodation" ]
+  ] [
+     fhir:code [ fhir:v "127" ] ;
+     fhir:display [ fhir:v "Homelessness Support" ] ;
+     fhir:definition [ fhir:v "Homelessness support" ]
+  ] [
+     fhir:code [ fhir:v "128" ] ;
+     fhir:display [ fhir:v "Housing Information/Referral" ] ;
+     fhir:definition [ fhir:v "Housing information/referral" ]
+  ] [
+     fhir:code [ fhir:v "129" ] ;
+     fhir:display [ fhir:v "Public Rental Housing" ] ;
+     fhir:definition [ fhir:v "Public rental housing" ]
+  ] [
+     fhir:code [ fhir:v "130" ] ;
+     fhir:display [ fhir:v "Interpreting/Multilingual Service" ] ;
+     fhir:definition [ fhir:v "Interpreting/Multilingual/Language service" ]
+  ] [
+     fhir:code [ fhir:v "131" ] ;
+     fhir:display [ fhir:v "Juvenile Justice" ] ;
+     fhir:definition [ fhir:v "Juvenile Justice" ]
+  ] [
+     fhir:code [ fhir:v "132" ] ;
+     fhir:display [ fhir:v "Legal Advocacy" ] ;
+     fhir:definition [ fhir:v "Legal advocacy" ]
+  ] [
+     fhir:code [ fhir:v "133" ] ;
+     fhir:display [ fhir:v "Legal Information/Advice/Referral" ] ;
+     fhir:definition [ fhir:v "Legal information/advice/referral" ]
+  ] [
+     fhir:code [ fhir:v "134" ] ;
+     fhir:display [ fhir:v "Mental Health Advocacy" ] ;
+     fhir:definition [ fhir:v "Mental health advocacy" ]
+  ] [
+     fhir:code [ fhir:v "135" ] ;
+     fhir:display [ fhir:v "Mental Health Assess/Triage/Crisis Response" ] ;
+     fhir:definition [ fhir:v "Mental health assessment/triage/crisis response" ]
+  ] [
+     fhir:code [ fhir:v "136" ] ;
+     fhir:display [ fhir:v "Mental Health Case Management" ] ;
+     fhir:definition [ fhir:v "Mental health case management/continuing care" ]
+  ] [
+     fhir:code [ fhir:v "137" ] ;
+     fhir:display [ fhir:v "Mental Health Information/Referral" ] ;
+     fhir:definition [ fhir:v "Mental health information/referral" ]
+  ] [
+     fhir:code [ fhir:v "138" ] ;
+     fhir:display [ fhir:v "Mental Health Inpatient Services" ] ;
+     fhir:definition [ fhir:v "Mental health inpatient services (hospital psychiatric unit) - requires referral" ]
+  ] [
+     fhir:code [ fhir:v "139" ] ;
+     fhir:display [ fhir:v "Mental Health Non-residential Rehab" ] ;
+     fhir:definition [ fhir:v "Mental health non-residential rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "140" ] ;
+     fhir:display [ fhir:v "Mental Health Residential Rehab/CCU" ] ;
+     fhir:definition [ fhir:v "Mental health residential rehabilitation/community care unit" ]
+  ] [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:display [ fhir:v "Psychiatry (Requires Referral)" ] ;
+     fhir:definition [ fhir:v "Psychiatry (requires referral)" ]
+  ] [
+     fhir:code [ fhir:v "142" ] ;
+     fhir:display [ fhir:v "Psychology" ] ;
+     fhir:definition [ fhir:v "Psychology" ]
+  ] [
+     fhir:code [ fhir:v "143" ] ;
+     fhir:display [ fhir:v "Martial Arts" ] ;
+     fhir:definition [ fhir:v "Martial arts" ]
+  ] [
+     fhir:code [ fhir:v "144" ] ;
+     fhir:display [ fhir:v "Personal Fitness Training" ] ;
+     fhir:definition [ fhir:v "Personal fitness training" ]
+  ] [
+     fhir:code [ fhir:v "145" ] ;
+     fhir:display [ fhir:v "Physical Activity Group" ] ;
+     fhir:definition [ fhir:v "Physical activity group" ]
+  ] [
+     fhir:code [ fhir:v "146" ] ;
+     fhir:display [ fhir:v "Physical Activity Programs" ] ;
+     fhir:definition [ fhir:v "Physical activity programs" ]
+  ] [
+     fhir:code [ fhir:v "147" ] ;
+     fhir:display [ fhir:v "Physical Fitness Testing" ] ;
+     fhir:definition [ fhir:v "Physical fitness testing" ]
+  ] [
+     fhir:code [ fhir:v "148" ] ;
+     fhir:display [ fhir:v "Pilates" ] ;
+     fhir:definition [ fhir:v "Pilates" ]
+  ] [
+     fhir:code [ fhir:v "149" ] ;
+     fhir:display [ fhir:v "Self-Defence" ] ;
+     fhir:definition [ fhir:v "Self defence" ]
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:display [ fhir:v "Sporting Club" ] ;
+     fhir:definition [ fhir:v "Sporting club" ]
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:display [ fhir:v "Yoga" ] ;
+     fhir:definition [ fhir:v "Yoga" ]
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:display [ fhir:v "Food Safety" ] ;
+     fhir:definition [ fhir:v "Food safety" ]
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:display [ fhir:v "Health Regulatory /Inspection /Cert." ] ;
+     fhir:definition [ fhir:v "Health regulatory, inspection and/or certification" ]
+  ] [
+     fhir:code [ fhir:v "154" ] ;
+     fhir:display [ fhir:v "Work Health/Safety Inspection/Cert." ] ;
+     fhir:definition [ fhir:v "Workplace health and/or safety inspection and/or certification" ]
+  ] [
+     fhir:code [ fhir:v "155" ] ;
+     fhir:display [ fhir:v "Carer Support" ] ;
+     fhir:definition [ fhir:v "Carer support" ]
+  ] [
+     fhir:code [ fhir:v "156" ] ;
+     fhir:display [ fhir:v "Respite Care" ] ;
+     fhir:definition [ fhir:v "Respite care" ]
+  ] [
+     fhir:code [ fhir:v "157" ] ;
+     fhir:display [ fhir:v "Anatomical Pathology" ] ;
+     fhir:definition [ fhir:v "Anatomical Pathology (including Cytopathology & Forensic Pathology)" ]
+  ] [
+     fhir:code [ fhir:v "158" ] ;
+     fhir:display [ fhir:v "Pathology - Clinical Chemistry" ] ;
+     fhir:definition [ fhir:v "Pathology - Clinical Chemistry" ]
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:display [ fhir:v "Pathology - General" ] ;
+     fhir:definition [ fhir:v "Pathology - General" ]
+  ] [
+     fhir:code [ fhir:v "160" ] ;
+     fhir:display [ fhir:v "Pathology - Genetics" ] ;
+     fhir:definition [ fhir:v "Pathology - Genetics" ]
+  ] [
+     fhir:code [ fhir:v "161" ] ;
+     fhir:display [ fhir:v "Pathology - Haematology" ] ;
+     fhir:definition [ fhir:v "Pathology - Haematology" ]
+  ] [
+     fhir:code [ fhir:v "162" ] ;
+     fhir:display [ fhir:v "Pathology - Immunology" ] ;
+     fhir:definition [ fhir:v "Pathology - Immunology" ]
+  ] [
+     fhir:code [ fhir:v "163" ] ;
+     fhir:display [ fhir:v "Pathology - Microbiology" ] ;
+     fhir:definition [ fhir:v "Pathology - Microbiology" ]
+  ] [
+     fhir:code [ fhir:v "164" ] ;
+     fhir:display [ fhir:v "Anaesthesiology - Pain Medicine" ] ;
+     fhir:definition [ fhir:v "Anaesthesiology - Pain Medicine" ]
+  ] [
+     fhir:code [ fhir:v "165" ] ;
+     fhir:display [ fhir:v "Cardiology" ] ;
+     fhir:definition [ fhir:v "Cardiology" ]
+  ] [
+     fhir:code [ fhir:v "166" ] ;
+     fhir:display [ fhir:v "Clinical Genetics" ] ;
+     fhir:definition [ fhir:v "Clinical Genetics" ]
+  ] [
+     fhir:code [ fhir:v "167" ] ;
+     fhir:display [ fhir:v "Clinical Pharmacology" ] ;
+     fhir:definition [ fhir:v "Clinical Pharmacology" ]
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:display [ fhir:v "Dermatology" ] ;
+     fhir:definition [ fhir:v "Dermatology" ]
+  ] [
+     fhir:code [ fhir:v "169" ] ;
+     fhir:display [ fhir:v "Endocrinology" ] ;
+     fhir:definition [ fhir:v "Endocrinology" ]
+  ] [
+     fhir:code [ fhir:v "170" ] ;
+     fhir:display [ fhir:v "Gastroenterology & Hepatology" ] ;
+     fhir:definition [ fhir:v "Gastroenterology & Hepatology" ]
+  ] [
+     fhir:code [ fhir:v "171" ] ;
+     fhir:display [ fhir:v "Geriatric Medicine" ] ;
+     fhir:definition [ fhir:v "Geriatric medicine" ]
+  ] [
+     fhir:code [ fhir:v "172" ] ;
+     fhir:display [ fhir:v "Immunology & Allergy" ] ;
+     fhir:definition [ fhir:v "Immunology & Allergy" ]
+  ] [
+     fhir:code [ fhir:v "173" ] ;
+     fhir:display [ fhir:v "Infectious Diseases" ] ;
+     fhir:definition [ fhir:v "Infectious diseases" ]
+  ] [
+     fhir:code [ fhir:v "174" ] ;
+     fhir:display [ fhir:v "Intensive Care Medicine" ] ;
+     fhir:definition [ fhir:v "Intensive care medicine" ]
+  ] [
+     fhir:code [ fhir:v "175" ] ;
+     fhir:display [ fhir:v "Medical Oncology" ] ;
+     fhir:definition [ fhir:v "Medical Oncology" ]
+  ] [
+     fhir:code [ fhir:v "176" ] ;
+     fhir:display [ fhir:v "Nephrology" ] ;
+     fhir:definition [ fhir:v "Nephrology" ]
+  ] [
+     fhir:code [ fhir:v "177" ] ;
+     fhir:display [ fhir:v "Neurology" ] ;
+     fhir:definition [ fhir:v "Neurology" ]
+  ] [
+     fhir:code [ fhir:v "178" ] ;
+     fhir:display [ fhir:v "Occupational Medicine" ] ;
+     fhir:definition [ fhir:v "Occupational Medicine" ]
+  ] [
+     fhir:code [ fhir:v "179" ] ;
+     fhir:display [ fhir:v "Palliative Medicine" ] ;
+     fhir:definition [ fhir:v "Palliative Medicine" ]
+  ] [
+     fhir:code [ fhir:v "180" ] ;
+     fhir:display [ fhir:v "Public Health Medicine" ] ;
+     fhir:definition [ fhir:v "Public Health Medicine" ]
+  ] [
+     fhir:code [ fhir:v "181" ] ;
+     fhir:display [ fhir:v "Rehabilitation Medicine" ] ;
+     fhir:definition [ fhir:v "Rehabilitation Medicine" ]
+  ] [
+     fhir:code [ fhir:v "182" ] ;
+     fhir:display [ fhir:v "Rheumatology" ] ;
+     fhir:definition [ fhir:v "Rheumatology" ]
+  ] [
+     fhir:code [ fhir:v "183" ] ;
+     fhir:display [ fhir:v "Sleep Medicine" ] ;
+     fhir:definition [ fhir:v "Sleep Medicine" ]
+  ] [
+     fhir:code [ fhir:v "184" ] ;
+     fhir:display [ fhir:v "Thoracic Medicine" ] ;
+     fhir:definition [ fhir:v "Thoracic medicine" ]
+  ] [
+     fhir:code [ fhir:v "185" ] ;
+     fhir:display [ fhir:v "Gynaecological Oncology" ] ;
+     fhir:definition [ fhir:v "Gynaecological Oncology" ]
+  ] [
+     fhir:code [ fhir:v "186" ] ;
+     fhir:display [ fhir:v "Obstetrics & Gynaecology" ] ;
+     fhir:definition [ fhir:v "Obstetrics & Gynaecology" ]
+  ] [
+     fhir:code [ fhir:v "187" ] ;
+     fhir:display [ fhir:v "Reproductive Endocrinology/Infertility" ] ;
+     fhir:definition [ fhir:v "Reproductive Endocrinology & Infertility" ]
+  ] [
+     fhir:code [ fhir:v "188" ] ;
+     fhir:display [ fhir:v "Urogynaecology" ] ;
+     fhir:definition [ fhir:v "Urogynaecology" ]
+  ] [
+     fhir:code [ fhir:v "189" ] ;
+     fhir:display [ fhir:v "Neonatology & Perinatology" ] ;
+     fhir:definition [ fhir:v "Neonatology & Perinatology" ]
+  ] [
+     fhir:code [ fhir:v "190" ] ;
+     fhir:display [ fhir:v "Paediatric Cardiology" ] ;
+     fhir:definition [ fhir:v "Paediatric Cardiology" ]
+  ] [
+     fhir:code [ fhir:v "191" ] ;
+     fhir:display [ fhir:v "Paediatric Clinical Genetics" ] ;
+     fhir:definition [ fhir:v "Paediatric Clinical Genetics" ]
+  ] [
+     fhir:code [ fhir:v "192" ] ;
+     fhir:display [ fhir:v "Paediatric Clinical Pharmacology" ] ;
+     fhir:definition [ fhir:v "Paediatric Clinical Pharmacology" ]
+  ] [
+     fhir:code [ fhir:v "193" ] ;
+     fhir:display [ fhir:v "Paediatric Endocrinology" ] ;
+     fhir:definition [ fhir:v "Paediatric Endocrinology" ]
+  ] [
+     fhir:code [ fhir:v "194" ] ;
+     fhir:display [ fhir:v "Paed. Gastroenterology/Hepatology" ] ;
+     fhir:definition [ fhir:v "Paediatric Gastroenterology & Hepatology" ]
+  ] [
+     fhir:code [ fhir:v "195" ] ;
+     fhir:display [ fhir:v "Paediatric Haematology" ] ;
+     fhir:definition [ fhir:v "Paediatric Haematology" ]
+  ] [
+     fhir:code [ fhir:v "196" ] ;
+     fhir:display [ fhir:v "Paediatric Immunology & Allergy" ] ;
+     fhir:definition [ fhir:v "Paediatric Immunology & Allergy" ]
+  ] [
+     fhir:code [ fhir:v "197" ] ;
+     fhir:display [ fhir:v "Paediatric Infectious Diseases" ] ;
+     fhir:definition [ fhir:v "Paediatric Infectious diseases" ]
+  ] [
+     fhir:code [ fhir:v "198" ] ;
+     fhir:display [ fhir:v "Paediatric Intensive Care Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric intensive care medicine" ]
+  ] [
+     fhir:code [ fhir:v "199" ] ;
+     fhir:display [ fhir:v "Paediatric Medical Oncology" ] ;
+     fhir:definition [ fhir:v "Paediatric Medical Oncology" ]
+  ] [
+     fhir:code [ fhir:v "200" ] ;
+     fhir:display [ fhir:v "Paediatric Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric Medicine" ]
+  ] [
+     fhir:code [ fhir:v "201" ] ;
+     fhir:display [ fhir:v "Paediatric Nephrology" ] ;
+     fhir:definition [ fhir:v "Paediatric Nephrology" ]
+  ] [
+     fhir:code [ fhir:v "202" ] ;
+     fhir:display [ fhir:v "Paediatric Neurology" ] ;
+     fhir:definition [ fhir:v "Paediatric Neurology" ]
+  ] [
+     fhir:code [ fhir:v "203" ] ;
+     fhir:display [ fhir:v "Paediatric Nuclear Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric Nuclear Medicine" ]
+  ] [
+     fhir:code [ fhir:v "204" ] ;
+     fhir:display [ fhir:v "Paediatric Rehabilitation Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric Rehabilitation Medicine" ]
+  ] [
+     fhir:code [ fhir:v "205" ] ;
+     fhir:display [ fhir:v "Paediatric Rheumatology" ] ;
+     fhir:definition [ fhir:v "Paediatric Rheumatology" ]
+  ] [
+     fhir:code [ fhir:v "206" ] ;
+     fhir:display [ fhir:v "Paediatric Sleep Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric Sleep Medicine" ]
+  ] [
+     fhir:code [ fhir:v "207" ] ;
+     fhir:display [ fhir:v "Paediatric Surgery" ] ;
+     fhir:definition [ fhir:v "Paediatric Surgery" ]
+  ] [
+     fhir:code [ fhir:v "208" ] ;
+     fhir:display [ fhir:v "Paediatric Thoracic Medicine" ] ;
+     fhir:definition [ fhir:v "Paediatric Thoracic Medicine" ]
+  ] [
+     fhir:code [ fhir:v "209" ] ;
+     fhir:display [ fhir:v "Diag. Radiology /Xray /CT /Fluoroscopy" ] ;
+     fhir:definition [ fhir:v "Diagnostic Radiology/Xray/CT/Fluoroscopy" ]
+  ] [
+     fhir:code [ fhir:v "210" ] ;
+     fhir:display [ fhir:v "Diagnostic Ultrasound" ] ;
+     fhir:definition [ fhir:v "Diagnostic Ultrasound" ]
+  ] [
+     fhir:code [ fhir:v "211" ] ;
+     fhir:display [ fhir:v "Magnetic Resonance Imaging (MRI)" ] ;
+     fhir:definition [ fhir:v "Magnetic Resonance Imaging (MRI)" ]
+  ] [
+     fhir:code [ fhir:v "212" ] ;
+     fhir:display [ fhir:v "Nuclear Medicine" ] ;
+     fhir:definition [ fhir:v "Nuclear Medicine" ]
+  ] [
+     fhir:code [ fhir:v "213" ] ;
+     fhir:display [ fhir:v "Obstetric/Gynaecological Ultrasound" ] ;
+     fhir:definition [ fhir:v "Obstetric & Gynaecological Ultrasound" ]
+  ] [
+     fhir:code [ fhir:v "214" ] ;
+     fhir:display [ fhir:v "Radiation Oncology" ] ;
+     fhir:definition [ fhir:v "Radiation oncology" ]
+  ] [
+     fhir:code [ fhir:v "215" ] ;
+     fhir:display [ fhir:v "Cardiothoracic Surgery" ] ;
+     fhir:definition [ fhir:v "Cardiothoracic surgery" ]
+  ] [
+     fhir:code [ fhir:v "216" ] ;
+     fhir:display [ fhir:v "Neurosurgery" ] ;
+     fhir:definition [ fhir:v "Neurosurgery" ]
+  ] [
+     fhir:code [ fhir:v "217" ] ;
+     fhir:display [ fhir:v "Ophthalmology" ] ;
+     fhir:definition [ fhir:v "Ophthalmology" ]
+  ] [
+     fhir:code [ fhir:v "218" ] ;
+     fhir:display [ fhir:v "Orthopaedic Surgery" ] ;
+     fhir:definition [ fhir:v "Orthopaedic surgery" ]
+  ] [
+     fhir:code [ fhir:v "219" ] ;
+     fhir:display [ fhir:v "Otolaryngology/Head & Neck Surgery" ] ;
+     fhir:definition [ fhir:v "Otolaryngology - Head & Neck Surgery" ]
+  ] [
+     fhir:code [ fhir:v "220" ] ;
+     fhir:display [ fhir:v "Plastic & Reconstructive Surgery" ] ;
+     fhir:definition [ fhir:v "Plastic & Reconstructive Surgery" ]
+  ] [
+     fhir:code [ fhir:v "221" ] ;
+     fhir:display [ fhir:v "Surgery - General" ] ;
+     fhir:definition [ fhir:v "Surgery - General" ]
+  ] [
+     fhir:code [ fhir:v "222" ] ;
+     fhir:display [ fhir:v "Urology" ] ;
+     fhir:definition [ fhir:v "Urology" ]
+  ] [
+     fhir:code [ fhir:v "223" ] ;
+     fhir:display [ fhir:v "Vascular Surgery" ] ;
+     fhir:definition [ fhir:v "Vascular surgery" ]
+  ] [
+     fhir:code [ fhir:v "224" ] ;
+     fhir:display [ fhir:v "Support Groups" ] ;
+     fhir:definition [ fhir:v "Support groups" ]
+  ] [
+     fhir:code [ fhir:v "225" ] ;
+     fhir:display [ fhir:v "Air ambulance" ] ;
+     fhir:definition [ fhir:v "Air ambulance" ]
+  ] [
+     fhir:code [ fhir:v "226" ] ;
+     fhir:display [ fhir:v "Ambulance" ] ;
+     fhir:definition [ fhir:v "Ambulance" ]
+  ] [
+     fhir:code [ fhir:v "227" ] ;
+     fhir:display [ fhir:v "Blood Transport" ] ;
+     fhir:definition [ fhir:v "Blood transport" ]
+  ] [
+     fhir:code [ fhir:v "228" ] ;
+     fhir:display [ fhir:v "Community Bus" ] ;
+     fhir:definition [ fhir:v "Community bus" ]
+  ] [
+     fhir:code [ fhir:v "229" ] ;
+     fhir:display [ fhir:v "Flying Doctor Service" ] ;
+     fhir:definition [ fhir:v "Flying doctor service" ]
+  ] [
+     fhir:code [ fhir:v "230" ] ;
+     fhir:display [ fhir:v "Patient Transport" ] ;
+     fhir:definition [ fhir:v "Patient transport" ]
+  ] [
+     fhir:code [ fhir:v "231" ] ;
+     fhir:display [ fhir:v "A&E" ] ;
+     fhir:definition [ fhir:v "A&E" ]
+  ] [
+     fhir:code [ fhir:v "232" ] ;
+     fhir:display [ fhir:v "A&EP" ] ;
+     fhir:definition [ fhir:v "A&EP" ]
+  ] [
+     fhir:code [ fhir:v "233" ] ;
+     fhir:display [ fhir:v "Abuse" ] ;
+     fhir:definition [ fhir:v "Abuse" ]
+  ] [
+     fhir:code [ fhir:v "234" ] ;
+     fhir:display [ fhir:v "ACAS" ] ;
+     fhir:definition [ fhir:v "ACAS" ]
+  ] [
+     fhir:code [ fhir:v "235" ] ;
+     fhir:display [ fhir:v "Access" ] ;
+     fhir:definition [ fhir:v "Access" ]
+  ] [
+     fhir:code [ fhir:v "236" ] ;
+     fhir:display [ fhir:v "Accident" ] ;
+     fhir:definition [ fhir:v "Accident" ]
+  ] [
+     fhir:code [ fhir:v "237" ] ;
+     fhir:display [ fhir:v "Acute Inpatient Serv" ] ;
+     fhir:definition [ fhir:v "Acute Inpatient Service's" ]
+  ] [
+     fhir:code [ fhir:v "238" ] ;
+     fhir:display [ fhir:v "Adult Day Programs" ] ;
+     fhir:definition [ fhir:v "Adult Day Programs" ]
+  ] [
+     fhir:code [ fhir:v "239" ] ;
+     fhir:display [ fhir:v "Adult Mental Health Services" ] ;
+     fhir:definition [ fhir:v "Adult Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "240" ] ;
+     fhir:display [ fhir:v "Advice" ] ;
+     fhir:definition [ fhir:v "Advice" ]
+  ] [
+     fhir:code [ fhir:v "241" ] ;
+     fhir:display [ fhir:v "Advocacy" ] ;
+     fhir:definition [ fhir:v "Advocacy" ]
+  ] [
+     fhir:code [ fhir:v "242" ] ;
+     fhir:display [ fhir:v "Aged Persons Mental" ] ;
+     fhir:definition [ fhir:v "Aged Persons Mental Health Residential Units" ]
+  ] [
+     fhir:code [ fhir:v "243" ] ;
+     fhir:display [ fhir:v "Aged Persons Mental" ] ;
+     fhir:definition [ fhir:v "Aged Persons Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "244" ] ;
+     fhir:display [ fhir:v "Aged Persons Mental" ] ;
+     fhir:definition [ fhir:v "Aged Persons Mental Health Teams" ]
+  ] [
+     fhir:code [ fhir:v "245" ] ;
+     fhir:display [ fhir:v "Aids" ] ;
+     fhir:definition [ fhir:v "Aids" ]
+  ] [
+     fhir:code [ fhir:v "246" ] ;
+     fhir:display [ fhir:v "Al-Anon" ] ;
+     fhir:definition [ fhir:v "Al-Anon" ]
+  ] [
+     fhir:code [ fhir:v "247" ] ;
+     fhir:display [ fhir:v "Alcohol" ] ;
+     fhir:definition [ fhir:v "Alcohol" ]
+  ] [
+     fhir:code [ fhir:v "248" ] ;
+     fhir:display [ fhir:v "Al-Teen" ] ;
+     fhir:definition [ fhir:v "Al-Teen" ]
+  ] [
+     fhir:code [ fhir:v "249" ] ;
+     fhir:display [ fhir:v "Antenatal" ] ;
+     fhir:definition [ fhir:v "Antenatal" ]
+  ] [
+     fhir:code [ fhir:v "250" ] ;
+     fhir:display [ fhir:v "Anxiety" ] ;
+     fhir:definition [ fhir:v "Anxiety" ]
+  ] [
+     fhir:code [ fhir:v "251" ] ;
+     fhir:display [ fhir:v "Arthritis" ] ;
+     fhir:definition [ fhir:v "Arthritis" ]
+  ] [
+     fhir:code [ fhir:v "252" ] ;
+     fhir:display [ fhir:v "Assessment" ] ;
+     fhir:definition [ fhir:v "Assessment" ]
+  ] [
+     fhir:code [ fhir:v "253" ] ;
+     fhir:display [ fhir:v "Assistance" ] ;
+     fhir:definition [ fhir:v "Assistance" ]
+  ] [
+     fhir:code [ fhir:v "254" ] ;
+     fhir:display [ fhir:v "Asthma" ] ;
+     fhir:definition [ fhir:v "Asthma" ]
+  ] [
+     fhir:code [ fhir:v "255" ] ;
+     fhir:display [ fhir:v "ATSS" ] ;
+     fhir:definition [ fhir:v "ATSS" ]
+  ] [
+     fhir:code [ fhir:v "256" ] ;
+     fhir:display [ fhir:v "Attendant Care" ] ;
+     fhir:definition [ fhir:v "Attendant Care" ]
+  ] [
+     fhir:code [ fhir:v "257" ] ;
+     fhir:display [ fhir:v "Babies" ] ;
+     fhir:definition [ fhir:v "Babies" ]
+  ] [
+     fhir:code [ fhir:v "258" ] ;
+     fhir:display [ fhir:v "Bathroom Modificatio" ] ;
+     fhir:definition [ fhir:v "Bathroom Modification" ]
+  ] [
+     fhir:code [ fhir:v "259" ] ;
+     fhir:display [ fhir:v "Behavior" ] ;
+     fhir:definition [ fhir:v "Behavior" ]
+  ] [
+     fhir:code [ fhir:v "260" ] ;
+     fhir:display [ fhir:v "Behavior Interventi" ] ;
+     fhir:definition [ fhir:v "Behavior Intervention" ]
+  ] [
+     fhir:code [ fhir:v "261" ] ;
+     fhir:display [ fhir:v "Bereavement" ] ;
+     fhir:definition [ fhir:v "Bereavement" ]
+  ] [
+     fhir:code [ fhir:v "262" ] ;
+     fhir:display [ fhir:v "Bipolar" ] ;
+     fhir:definition [ fhir:v "Bipolar" ]
+  ] [
+     fhir:code [ fhir:v "263" ] ;
+     fhir:display [ fhir:v "Birth" ] ;
+     fhir:definition [ fhir:v "Birth" ]
+  ] [
+     fhir:code [ fhir:v "264" ] ;
+     fhir:display [ fhir:v "Birth Control" ] ;
+     fhir:definition [ fhir:v "Birth Control" ]
+  ] [
+     fhir:code [ fhir:v "265" ] ;
+     fhir:display [ fhir:v "Birthing Options" ] ;
+     fhir:definition [ fhir:v "Birthing Options" ]
+  ] [
+     fhir:code [ fhir:v "266" ] ;
+     fhir:display [ fhir:v "BIST" ] ;
+     fhir:definition [ fhir:v "BIST" ]
+  ] [
+     fhir:code [ fhir:v "267" ] ;
+     fhir:display [ fhir:v "Blood" ] ;
+     fhir:definition [ fhir:v "Blood" ]
+  ] [
+     fhir:code [ fhir:v "268" ] ;
+     fhir:display [ fhir:v "Bone" ] ;
+     fhir:definition [ fhir:v "Bone" ]
+  ] [
+     fhir:code [ fhir:v "269" ] ;
+     fhir:display [ fhir:v "Bowel" ] ;
+     fhir:definition [ fhir:v "Bowel" ]
+  ] [
+     fhir:code [ fhir:v "270" ] ;
+     fhir:display [ fhir:v "Brain" ] ;
+     fhir:definition [ fhir:v "Brain" ]
+  ] [
+     fhir:code [ fhir:v "271" ] ;
+     fhir:display [ fhir:v "Breast Feeding" ] ;
+     fhir:definition [ fhir:v "Breast Feeding" ]
+  ] [
+     fhir:code [ fhir:v "272" ] ;
+     fhir:display [ fhir:v "Breast Screen" ] ;
+     fhir:definition [ fhir:v "Breast Screen" ]
+  ] [
+     fhir:code [ fhir:v "273" ] ;
+     fhir:display [ fhir:v "Brokerage" ] ;
+     fhir:definition [ fhir:v "Brokerage" ]
+  ] [
+     fhir:code [ fhir:v "274" ] ;
+     fhir:display [ fhir:v "Cancer" ] ;
+     fhir:definition [ fhir:v "Cancer" ]
+  ] [
+     fhir:code [ fhir:v "275" ] ;
+     fhir:display [ fhir:v "Cancer Support" ] ;
+     fhir:definition [ fhir:v "Cancer Support" ]
+  ] [
+     fhir:code [ fhir:v "276" ] ;
+     fhir:display [ fhir:v "Cardiovascular Disea" ] ;
+     fhir:definition [ fhir:v "Cardiovascular Disease" ]
+  ] [
+     fhir:code [ fhir:v "277" ] ;
+     fhir:display [ fhir:v "Care Packages" ] ;
+     fhir:definition [ fhir:v "Care Packages" ]
+  ] [
+     fhir:code [ fhir:v "278" ] ;
+     fhir:display [ fhir:v "Carer" ] ;
+     fhir:definition [ fhir:v "Carer" ]
+  ] [
+     fhir:code [ fhir:v "279" ] ;
+     fhir:display [ fhir:v "Case Management" ] ;
+     fhir:definition [ fhir:v "Case Management" ]
+  ] [
+     fhir:code [ fhir:v "280" ] ;
+     fhir:display [ fhir:v "Casualty" ] ;
+     fhir:definition [ fhir:v "Casualty" ]
+  ] [
+     fhir:code [ fhir:v "281" ] ;
+     fhir:display [ fhir:v "Centrelink" ] ;
+     fhir:definition [ fhir:v "Centrelink" ]
+  ] [
+     fhir:code [ fhir:v "282" ] ;
+     fhir:display [ fhir:v "Chemists" ] ;
+     fhir:definition [ fhir:v "Chemists" ]
+  ] [
+     fhir:code [ fhir:v "283" ] ;
+     fhir:display [ fhir:v "Child And Adolescent" ] ;
+     fhir:definition [ fhir:v "Child And Adolescent Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "284" ] ;
+     fhir:display [ fhir:v "Child Care" ] ;
+     fhir:definition [ fhir:v "Child Care" ]
+  ] [
+     fhir:code [ fhir:v "285" ] ;
+     fhir:display [ fhir:v "Child Services" ] ;
+     fhir:definition [ fhir:v "Child Services" ]
+  ] [
+     fhir:code [ fhir:v "286" ] ;
+     fhir:display [ fhir:v "Children" ] ;
+     fhir:definition [ fhir:v "Children" ]
+  ] [
+     fhir:code [ fhir:v "287" ] ;
+     fhir:display [ fhir:v "Children's Services" ] ;
+     fhir:definition [ fhir:v "Children's Services" ]
+  ] [
+     fhir:code [ fhir:v "288" ] ;
+     fhir:display [ fhir:v "Cholesterol" ] ;
+     fhir:definition [ fhir:v "Cholesterol" ]
+  ] [
+     fhir:code [ fhir:v "289" ] ;
+     fhir:display [ fhir:v "Clothing" ] ;
+     fhir:definition [ fhir:v "Clothing" ]
+  ] [
+     fhir:code [ fhir:v "290" ] ;
+     fhir:display [ fhir:v "Community Based Acco" ] ;
+     fhir:definition [ fhir:v "Community Based Accommodation" ]
+  ] [
+     fhir:code [ fhir:v "291" ] ;
+     fhir:display [ fhir:v "Community Care Unit" ] ;
+     fhir:definition [ fhir:v "Community Care Unit" ]
+  ] [
+     fhir:code [ fhir:v "292" ] ;
+     fhir:display [ fhir:v "Community Child And" ] ;
+     fhir:definition [ fhir:v "Community Child And Adolescent Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "293" ] ;
+     fhir:display [ fhir:v "Community Health" ] ;
+     fhir:definition [ fhir:v "Community Health" ]
+  ] [
+     fhir:code [ fhir:v "294" ] ;
+     fhir:display [ fhir:v "Community Residentia" ] ;
+     fhir:definition [ fhir:v "Community Residential Unit" ]
+  ] [
+     fhir:code [ fhir:v "295" ] ;
+     fhir:display [ fhir:v "Community Transport" ] ;
+     fhir:definition [ fhir:v "Community Transport" ]
+  ] [
+     fhir:code [ fhir:v "296" ] ;
+     fhir:display [ fhir:v "Companion Visiting" ] ;
+     fhir:definition [ fhir:v "Companion Visiting" ]
+  ] [
+     fhir:code [ fhir:v "297" ] ;
+     fhir:display [ fhir:v "Companionship" ] ;
+     fhir:definition [ fhir:v "Companionship" ]
+  ] [
+     fhir:code [ fhir:v "298" ] ;
+     fhir:display [ fhir:v "Consumer Advice" ] ;
+     fhir:definition [ fhir:v "Consumer Advice" ]
+  ] [
+     fhir:code [ fhir:v "299" ] ;
+     fhir:display [ fhir:v "Consumer Issues" ] ;
+     fhir:definition [ fhir:v "Consumer Issues" ]
+  ] [
+     fhir:code [ fhir:v "300" ] ;
+     fhir:display [ fhir:v "Continuing Care Serv" ] ;
+     fhir:definition [ fhir:v "Continuing Care Services" ]
+  ] [
+     fhir:code [ fhir:v "301" ] ;
+     fhir:display [ fhir:v "Contraception Inform" ] ;
+     fhir:definition [ fhir:v "Contraception Information" ]
+  ] [
+     fhir:code [ fhir:v "302" ] ;
+     fhir:display [ fhir:v "Coordinating Bodies" ] ;
+     fhir:definition [ fhir:v "Coordinating Bodies" ]
+  ] [
+     fhir:code [ fhir:v "303" ] ;
+     fhir:display [ fhir:v "Correctional Service" ] ;
+     fhir:definition [ fhir:v "Correctional Services" ]
+  ] [
+     fhir:code [ fhir:v "304" ] ;
+     fhir:display [ fhir:v "Council Environmenta" ] ;
+     fhir:definition [ fhir:v "Council Environmental Health" ]
+  ] [
+     fhir:code [ fhir:v "305" ] ;
+     fhir:display [ fhir:v "Counselling" ] ;
+     fhir:definition [ fhir:v "Counselling" ]
+  ] [
+     fhir:code [ fhir:v "306" ] ;
+     fhir:display [ fhir:v "Criminal" ] ;
+     fhir:definition [ fhir:v "Criminal" ]
+  ] [
+     fhir:code [ fhir:v "307" ] ;
+     fhir:display [ fhir:v "Crises" ] ;
+     fhir:definition [ fhir:v "Crises" ]
+  ] [
+     fhir:code [ fhir:v "308" ] ;
+     fhir:display [ fhir:v "Crisis Assessment An" ] ;
+     fhir:definition [ fhir:v "Crisis Assessment And Treatment Services (Cats)" ]
+  ] [
+     fhir:code [ fhir:v "309" ] ;
+     fhir:display [ fhir:v "Crisis Assistance" ] ;
+     fhir:definition [ fhir:v "Crisis Assistance" ]
+  ] [
+     fhir:code [ fhir:v "310" ] ;
+     fhir:display [ fhir:v "Crisis Refuge" ] ;
+     fhir:definition [ fhir:v "Crisis Refuge" ]
+  ] [
+     fhir:code [ fhir:v "311" ] ;
+     fhir:display [ fhir:v "Day Program" ] ;
+     fhir:definition [ fhir:v "Day Program" ]
+  ] [
+     fhir:code [ fhir:v "312" ] ;
+     fhir:display [ fhir:v "Deaf" ] ;
+     fhir:definition [ fhir:v "Deaf" ]
+  ] [
+     fhir:code [ fhir:v "313" ] ;
+     fhir:display [ fhir:v "Dental Hygiene" ] ;
+     fhir:definition [ fhir:v "Dental Hygiene" ]
+  ] [
+     fhir:code [ fhir:v "314" ] ;
+     fhir:display [ fhir:v "Dentistry" ] ;
+     fhir:definition [ fhir:v "Dentistry" ]
+  ] [
+     fhir:code [ fhir:v "315" ] ;
+     fhir:display [ fhir:v "Dentures" ] ;
+     fhir:definition [ fhir:v "Dentures" ]
+  ] [
+     fhir:code [ fhir:v "316" ] ;
+     fhir:display [ fhir:v "Depression" ] ;
+     fhir:definition [ fhir:v "Depression" ]
+  ] [
+     fhir:code [ fhir:v "317" ] ;
+     fhir:display [ fhir:v "Detoxification" ] ;
+     fhir:definition [ fhir:v "Detoxification" ]
+  ] [
+     fhir:code [ fhir:v "318" ] ;
+     fhir:display [ fhir:v "Diabetes" ] ;
+     fhir:definition [ fhir:v "Diabetes" ]
+  ] [
+     fhir:code [ fhir:v "319" ] ;
+     fhir:display [ fhir:v "Diaphragm Fitting" ] ;
+     fhir:definition [ fhir:v "Diaphragm Fitting" ]
+  ] [
+     fhir:code [ fhir:v "320" ] ;
+     fhir:display [ fhir:v "Dieticians" ] ;
+     fhir:definition [ fhir:v "Dieticians" ]
+  ] [
+     fhir:code [ fhir:v "321" ] ;
+     fhir:display [ fhir:v "Disabled Parking" ] ;
+     fhir:definition [ fhir:v "Disabled Parking" ]
+  ] [
+     fhir:code [ fhir:v "322" ] ;
+     fhir:display [ fhir:v "District Nursing" ] ;
+     fhir:definition [ fhir:v "District Nursing" ]
+  ] [
+     fhir:code [ fhir:v "323" ] ;
+     fhir:display [ fhir:v "Divorce" ] ;
+     fhir:definition [ fhir:v "Divorce" ]
+  ] [
+     fhir:code [ fhir:v "324" ] ;
+     fhir:display [ fhir:v "Doctors" ] ;
+     fhir:definition [ fhir:v "Doctors" ]
+  ] [
+     fhir:code [ fhir:v "325" ] ;
+     fhir:display [ fhir:v "Drink-Drive" ] ;
+     fhir:definition [ fhir:v "Drink-Drive" ]
+  ] [
+     fhir:code [ fhir:v "326" ] ;
+     fhir:display [ fhir:v "Dual Diagnosis Servi" ] ;
+     fhir:definition [ fhir:v "Dual Diagnosis Services" ]
+  ] [
+     fhir:code [ fhir:v "327" ] ;
+     fhir:display [ fhir:v "Early Choice" ] ;
+     fhir:definition [ fhir:v "Early Choice" ]
+  ] [
+     fhir:code [ fhir:v "328" ] ;
+     fhir:display [ fhir:v "Eating Disorder" ] ;
+     fhir:definition [ fhir:v "Eating Disorder" ]
+  ] [
+     fhir:code [ fhir:v "330" ] ;
+     fhir:display [ fhir:v "Emergency Relief" ] ;
+     fhir:definition [ fhir:v "Emergency Relief" ]
+  ] [
+     fhir:code [ fhir:v "331" ] ;
+     fhir:display [ fhir:v "Employment And Train" ] ;
+     fhir:definition [ fhir:v "Employment And Training" ]
+  ] [
+     fhir:code [ fhir:v "332" ] ;
+     fhir:display [ fhir:v "Environment" ] ;
+     fhir:definition [ fhir:v "Environment" ]
+  ] [
+     fhir:code [ fhir:v "333" ] ;
+     fhir:display [ fhir:v "Equipment" ] ;
+     fhir:definition [ fhir:v "Equipment" ]
+  ] [
+     fhir:code [ fhir:v "334" ] ;
+     fhir:display [ fhir:v "Exercise" ] ;
+     fhir:definition [ fhir:v "Exercise" ]
+  ] [
+     fhir:code [ fhir:v "335" ] ;
+     fhir:display [ fhir:v "Facility" ] ;
+     fhir:definition [ fhir:v "Facility" ]
+  ] [
+     fhir:code [ fhir:v "336" ] ;
+     fhir:display [ fhir:v "Family Choice" ] ;
+     fhir:definition [ fhir:v "Family Choice" ]
+  ] [
+     fhir:code [ fhir:v "337" ] ;
+     fhir:display [ fhir:v "Family Law" ] ;
+     fhir:definition [ fhir:v "Family Law" ]
+  ] [
+     fhir:code [ fhir:v "338" ] ;
+     fhir:display [ fhir:v "Family Options" ] ;
+     fhir:definition [ fhir:v "Family Options" ]
+  ] [
+     fhir:code [ fhir:v "339" ] ;
+     fhir:display [ fhir:v "Family Services" ] ;
+     fhir:definition [ fhir:v "Family Services" ]
+  ] [
+     fhir:code [ fhir:v "340" ] ;
+     fhir:display [ fhir:v "FFYA" ] ;
+     fhir:definition [ fhir:v "FFYA" ]
+  ] [
+     fhir:code [ fhir:v "341" ] ;
+     fhir:display [ fhir:v "Financial Aid" ] ;
+     fhir:definition [ fhir:v "Financial Aid" ]
+  ] [
+     fhir:code [ fhir:v "342" ] ;
+     fhir:display [ fhir:v "Fitness" ] ;
+     fhir:definition [ fhir:v "Fitness" ]
+  ] [
+     fhir:code [ fhir:v "343" ] ;
+     fhir:display [ fhir:v "Flexible Care Packag" ] ;
+     fhir:definition [ fhir:v "Flexible Care Packages" ]
+  ] [
+     fhir:code [ fhir:v "344" ] ;
+     fhir:display [ fhir:v "Food" ] ;
+     fhir:definition [ fhir:v "Food" ]
+  ] [
+     fhir:code [ fhir:v "345" ] ;
+     fhir:display [ fhir:v "Food Vouchers" ] ;
+     fhir:definition [ fhir:v "Food Vouchers" ]
+  ] [
+     fhir:code [ fhir:v "346" ] ;
+     fhir:display [ fhir:v "Forensic Mental Heal" ] ;
+     fhir:definition [ fhir:v "Forensic Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "347" ] ;
+     fhir:display [ fhir:v "Futures" ] ;
+     fhir:definition [ fhir:v "Futures" ]
+  ] [
+     fhir:code [ fhir:v "348" ] ;
+     fhir:display [ fhir:v "Futures For Young Ad" ] ;
+     fhir:definition [ fhir:v "Futures For Young Adults" ]
+  ] [
+     fhir:code [ fhir:v "349" ] ;
+     fhir:display [ fhir:v "General Practitioner" ] ;
+     fhir:definition [ fhir:v "General Practitioners" ]
+  ] [
+     fhir:code [ fhir:v "350" ] ;
+     fhir:display [ fhir:v "Grants" ] ;
+     fhir:definition [ fhir:v "Grants" ]
+  ] [
+     fhir:code [ fhir:v "351" ] ;
+     fhir:display [ fhir:v "Grief" ] ;
+     fhir:definition [ fhir:v "Grief" ]
+  ] [
+     fhir:code [ fhir:v "352" ] ;
+     fhir:display [ fhir:v "Grief Counselling" ] ;
+     fhir:definition [ fhir:v "Grief Counselling" ]
+  ] [
+     fhir:code [ fhir:v "353" ] ;
+     fhir:display [ fhir:v "HACC" ] ;
+     fhir:definition [ fhir:v "HACC" ]
+  ] [
+     fhir:code [ fhir:v "354" ] ;
+     fhir:display [ fhir:v "Heart Disease" ] ;
+     fhir:definition [ fhir:v "Heart Disease" ]
+  ] [
+     fhir:code [ fhir:v "355" ] ;
+     fhir:display [ fhir:v "Help" ] ;
+     fhir:definition [ fhir:v "Help" ]
+  ] [
+     fhir:code [ fhir:v "356" ] ;
+     fhir:display [ fhir:v "High Blood Pressure" ] ;
+     fhir:definition [ fhir:v "High Blood Pressure" ]
+  ] [
+     fhir:code [ fhir:v "357" ] ;
+     fhir:display [ fhir:v "Home Help" ] ;
+     fhir:definition [ fhir:v "Home Help" ]
+  ] [
+     fhir:code [ fhir:v "358" ] ;
+     fhir:display [ fhir:v "Home Nursing" ] ;
+     fhir:definition [ fhir:v "Home Nursing" ]
+  ] [
+     fhir:code [ fhir:v "359" ] ;
+     fhir:display [ fhir:v "Homefirst" ] ;
+     fhir:definition [ fhir:v "Homefirst" ]
+  ] [
+     fhir:code [ fhir:v "360" ] ;
+     fhir:display [ fhir:v "Hospice Care" ] ;
+     fhir:definition [ fhir:v "Hospice Care" ]
+  ] [
+     fhir:code [ fhir:v "361" ] ;
+     fhir:display [ fhir:v "Hospital Services" ] ;
+     fhir:definition [ fhir:v "Hospital Services" ]
+  ] [
+     fhir:code [ fhir:v "362" ] ;
+     fhir:display [ fhir:v "Hospital To Home" ] ;
+     fhir:definition [ fhir:v "Hospital To Home" ]
+  ] [
+     fhir:code [ fhir:v "364" ] ;
+     fhir:display [ fhir:v "Hostel" ] ;
+     fhir:definition [ fhir:v "Hostel" ]
+  ] [
+     fhir:code [ fhir:v "365" ] ;
+     fhir:display [ fhir:v "Hostel Accommodation" ] ;
+     fhir:definition [ fhir:v "Hostel Accommodation" ]
+  ] [
+     fhir:code [ fhir:v "366" ] ;
+     fhir:display [ fhir:v "Household Items" ] ;
+     fhir:definition [ fhir:v "Household Items" ]
+  ] [
+     fhir:code [ fhir:v "367" ] ;
+     fhir:display [ fhir:v "Hypertension" ] ;
+     fhir:definition [ fhir:v "Hypertension" ]
+  ] [
+     fhir:code [ fhir:v "368" ] ;
+     fhir:display [ fhir:v "Illness" ] ;
+     fhir:definition [ fhir:v "Illness" ]
+  ] [
+     fhir:code [ fhir:v "369" ] ;
+     fhir:display [ fhir:v "Independent Living" ] ;
+     fhir:definition [ fhir:v "Independent Living" ]
+  ] [
+     fhir:code [ fhir:v "370" ] ;
+     fhir:display [ fhir:v "Information" ] ;
+     fhir:definition [ fhir:v "Information" ]
+  ] [
+     fhir:code [ fhir:v "371" ] ;
+     fhir:display [ fhir:v "Injury" ] ;
+     fhir:definition [ fhir:v "Injury" ]
+  ] [
+     fhir:code [ fhir:v "372" ] ;
+     fhir:display [ fhir:v "Intake" ] ;
+     fhir:definition [ fhir:v "Intake" ]
+  ] [
+     fhir:code [ fhir:v "373" ] ;
+     fhir:display [ fhir:v "Intensive Mobile You" ] ;
+     fhir:definition [ fhir:v "Intensive Mobile Youth Outreach Services (Imyos)" ]
+  ] [
+     fhir:code [ fhir:v "374" ] ;
+     fhir:display [ fhir:v "Intervention" ] ;
+     fhir:definition [ fhir:v "Intervention" ]
+  ] [
+     fhir:code [ fhir:v "375" ] ;
+     fhir:display [ fhir:v "Job Searching" ] ;
+     fhir:definition [ fhir:v "Job Searching" ]
+  ] [
+     fhir:code [ fhir:v "376" ] ;
+     fhir:display [ fhir:v "Justice" ] ;
+     fhir:definition [ fhir:v "Justice" ]
+  ] [
+     fhir:code [ fhir:v "377" ] ;
+     fhir:display [ fhir:v "Leisure" ] ;
+     fhir:definition [ fhir:v "Leisure" ]
+  ] [
+     fhir:code [ fhir:v "378" ] ;
+     fhir:display [ fhir:v "Loans" ] ;
+     fhir:definition [ fhir:v "Loans" ]
+  ] [
+     fhir:code [ fhir:v "379" ] ;
+     fhir:display [ fhir:v "Low Income Earners" ] ;
+     fhir:definition [ fhir:v "Low Income Earners" ]
+  ] [
+     fhir:code [ fhir:v "380" ] ;
+     fhir:display [ fhir:v "Lung" ] ;
+     fhir:definition [ fhir:v "Lung" ]
+  ] [
+     fhir:code [ fhir:v "381" ] ;
+     fhir:display [ fhir:v "Making A Difference" ] ;
+     fhir:definition [ fhir:v "Making A Difference" ]
+  ] [
+     fhir:code [ fhir:v "382" ] ;
+     fhir:display [ fhir:v "Medical Services" ] ;
+     fhir:definition [ fhir:v "Medical Services" ]
+  ] [
+     fhir:code [ fhir:v "383" ] ;
+     fhir:display [ fhir:v "Medical Specialists" ] ;
+     fhir:definition [ fhir:v "Medical Specialists" ]
+  ] [
+     fhir:code [ fhir:v "384" ] ;
+     fhir:display [ fhir:v "Medication Administr" ] ;
+     fhir:definition [ fhir:v "Medication Administration" ]
+  ] [
+     fhir:code [ fhir:v "385" ] ;
+     fhir:display [ fhir:v "Menstrual Informatio" ] ;
+     fhir:definition [ fhir:v "Menstrual Information" ]
+  ] [
+     fhir:code [ fhir:v "386" ] ;
+     fhir:display [ fhir:v "Methadone" ] ;
+     fhir:definition [ fhir:v "Methadone" ]
+  ] [
+     fhir:code [ fhir:v "387" ] ;
+     fhir:display [ fhir:v "Mobile Support And T" ] ;
+     fhir:definition [ fhir:v "Mobile Support And Treatment Services (MSTS)" ]
+  ] [
+     fhir:code [ fhir:v "388" ] ;
+     fhir:display [ fhir:v "Motor Neurone" ] ;
+     fhir:definition [ fhir:v "Motor Neurone" ]
+  ] [
+     fhir:code [ fhir:v "389" ] ;
+     fhir:display [ fhir:v "Multiple Sclerosis" ] ;
+     fhir:definition [ fhir:v "Multiple Sclerosis" ]
+  ] [
+     fhir:code [ fhir:v "390" ] ;
+     fhir:display [ fhir:v "Neighbourhood House" ] ;
+     fhir:definition [ fhir:v "Neighbourhood House" ]
+  ] [
+     fhir:code [ fhir:v "391" ] ;
+     fhir:display [ fhir:v "Nursing Home" ] ;
+     fhir:definition [ fhir:v "Nursing Home" ]
+  ] [
+     fhir:code [ fhir:v "392" ] ;
+     fhir:display [ fhir:v "Nursing Mothers" ] ;
+     fhir:definition [ fhir:v "Nursing Mothers" ]
+  ] [
+     fhir:code [ fhir:v "393" ] ;
+     fhir:display [ fhir:v "Obesity" ] ;
+     fhir:definition [ fhir:v "Obesity" ]
+  ] [
+     fhir:code [ fhir:v "394" ] ;
+     fhir:display [ fhir:v "Occupational Health" ] ;
+     fhir:definition [ fhir:v "Occupational Health & Safety" ]
+  ] [
+     fhir:code [ fhir:v "395" ] ;
+     fhir:display [ fhir:v "Optometrist" ] ;
+     fhir:definition [ fhir:v "Optometrist" ]
+  ] [
+     fhir:code [ fhir:v "396" ] ;
+     fhir:display [ fhir:v "Oral Hygiene" ] ;
+     fhir:definition [ fhir:v "Oral Hygiene" ]
+  ] [
+     fhir:code [ fhir:v "397" ] ;
+     fhir:display [ fhir:v "Outpatients" ] ;
+     fhir:definition [ fhir:v "Outpatients" ]
+  ] [
+     fhir:code [ fhir:v "398" ] ;
+     fhir:display [ fhir:v "Outreach Service" ] ;
+     fhir:definition [ fhir:v "Outreach Service" ]
+  ] [
+     fhir:code [ fhir:v "399" ] ;
+     fhir:display [ fhir:v "PADP" ] ;
+     fhir:definition [ fhir:v "PADP" ]
+  ] [
+     fhir:code [ fhir:v "400" ] ;
+     fhir:display [ fhir:v "Pain" ] ;
+     fhir:definition [ fhir:v "Pain" ]
+  ] [
+     fhir:code [ fhir:v "401" ] ;
+     fhir:display [ fhir:v "Pap Smear" ] ;
+     fhir:definition [ fhir:v "Pap Smear" ]
+  ] [
+     fhir:code [ fhir:v "402" ] ;
+     fhir:display [ fhir:v "Parenting" ] ;
+     fhir:definition [ fhir:v "Parenting" ]
+  ] [
+     fhir:code [ fhir:v "403" ] ;
+     fhir:display [ fhir:v "Peak Organizations" ] ;
+     fhir:definition [ fhir:v "Peak Organizations" ]
+  ] [
+     fhir:code [ fhir:v "404" ] ;
+     fhir:display [ fhir:v "Personal Care" ] ;
+     fhir:definition [ fhir:v "Personal Care" ]
+  ] [
+     fhir:code [ fhir:v "405" ] ;
+     fhir:display [ fhir:v "Pharmacies" ] ;
+     fhir:definition [ fhir:v "Pharmacies" ]
+  ] [
+     fhir:code [ fhir:v "406" ] ;
+     fhir:display [ fhir:v "Phobias" ] ;
+     fhir:definition [ fhir:v "Phobias" ]
+  ] [
+     fhir:code [ fhir:v "407" ] ;
+     fhir:display [ fhir:v "Physical" ] ;
+     fhir:definition [ fhir:v "Physical" ]
+  ] [
+     fhir:code [ fhir:v "408" ] ;
+     fhir:display [ fhir:v "Physical Activity" ] ;
+     fhir:definition [ fhir:v "Physical Activity" ]
+  ] [
+     fhir:code [ fhir:v "409" ] ;
+     fhir:display [ fhir:v "Postnatal" ] ;
+     fhir:definition [ fhir:v "Postnatal" ]
+  ] [
+     fhir:code [ fhir:v "410" ] ;
+     fhir:display [ fhir:v "Pregnancy" ] ;
+     fhir:definition [ fhir:v "Pregnancy" ]
+  ] [
+     fhir:code [ fhir:v "411" ] ;
+     fhir:display [ fhir:v "Pregnancy Tests" ] ;
+     fhir:definition [ fhir:v "Pregnancy Tests" ]
+  ] [
+     fhir:code [ fhir:v "412" ] ;
+     fhir:display [ fhir:v "Preschool" ] ;
+     fhir:definition [ fhir:v "Preschool" ]
+  ] [
+     fhir:code [ fhir:v "413" ] ;
+     fhir:display [ fhir:v "Prescriptions" ] ;
+     fhir:definition [ fhir:v "Prescriptions" ]
+  ] [
+     fhir:code [ fhir:v "414" ] ;
+     fhir:display [ fhir:v "Primary Mental Healt" ] ;
+     fhir:definition [ fhir:v "Primary Mental Health And Early Intervention Teams" ]
+  ] [
+     fhir:code [ fhir:v "415" ] ;
+     fhir:display [ fhir:v "Property Maintenance" ] ;
+     fhir:definition [ fhir:v "Property Maintenance" ]
+  ] [
+     fhir:code [ fhir:v "416" ] ;
+     fhir:display [ fhir:v "Prostate" ] ;
+     fhir:definition [ fhir:v "Prostate" ]
+  ] [
+     fhir:code [ fhir:v "417" ] ;
+     fhir:display [ fhir:v "Psychiatric" ] ;
+     fhir:definition [ fhir:v "Psychiatric" ]
+  ] [
+     fhir:code [ fhir:v "418" ] ;
+     fhir:display [ fhir:v "Psychiatric Disabili" ] ;
+     fhir:definition [ fhir:v "Psychiatric Disability Support Services - Home-Based Outreach" ]
+  ] [
+     fhir:code [ fhir:v "419" ] ;
+     fhir:display [ fhir:v "Psychiatric Disabili" ] ;
+     fhir:definition [ fhir:v "Psychiatric Disability Support Services - Planned Respite" ]
+  ] [
+     fhir:code [ fhir:v "420" ] ;
+     fhir:display [ fhir:v "Psychiatric Disabili" ] ;
+     fhir:definition [ fhir:v "Psychiatric Disability Support Services - Residential Rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "421" ] ;
+     fhir:display [ fhir:v "Psychiatric Disabili" ] ;
+     fhir:definition [ fhir:v "Psychiatric Disability Support Services Home-Based Outreach" ]
+  ] [
+     fhir:code [ fhir:v "422" ] ;
+     fhir:display [ fhir:v "Psychiatric Disabili" ] ;
+     fhir:definition [ fhir:v "Psychiatric Disability Support Services Mutual Support And Self Help" ]
+  ] [
+     fhir:code [ fhir:v "423" ] ;
+     fhir:display [ fhir:v "Psychiatric Support" ] ;
+     fhir:definition [ fhir:v "Psychiatric Support" ]
+  ] [
+     fhir:code [ fhir:v "424" ] ;
+     fhir:display [ fhir:v "Recreation" ] ;
+     fhir:definition [ fhir:v "Recreation" ]
+  ] [
+     fhir:code [ fhir:v "425" ] ;
+     fhir:display [ fhir:v "Referral" ] ;
+     fhir:definition [ fhir:v "Referral" ]
+  ] [
+     fhir:code [ fhir:v "426" ] ;
+     fhir:display [ fhir:v "Refuge" ] ;
+     fhir:definition [ fhir:v "Refuge" ]
+  ] [
+     fhir:code [ fhir:v "427" ] ;
+     fhir:display [ fhir:v "Rent Assistance" ] ;
+     fhir:definition [ fhir:v "Rent Assistance" ]
+  ] [
+     fhir:code [ fhir:v "428" ] ;
+     fhir:display [ fhir:v "Residential Faciliti" ] ;
+     fhir:definition [ fhir:v "Residential Facilities" ]
+  ] [
+     fhir:code [ fhir:v "429" ] ;
+     fhir:display [ fhir:v "Residential Respite" ] ;
+     fhir:definition [ fhir:v "Residential Respite" ]
+  ] [
+     fhir:code [ fhir:v "430" ] ;
+     fhir:display [ fhir:v "Respiratory" ] ;
+     fhir:definition [ fhir:v "Respiratory" ]
+  ] [
+     fhir:code [ fhir:v "431" ] ;
+     fhir:display [ fhir:v "Response" ] ;
+     fhir:definition [ fhir:v "Response" ]
+  ] [
+     fhir:code [ fhir:v "432" ] ;
+     fhir:display [ fhir:v "Rooming Houses" ] ;
+     fhir:definition [ fhir:v "Rooming Houses" ]
+  ] [
+     fhir:code [ fhir:v "433" ] ;
+     fhir:display [ fhir:v "Safe Sex" ] ;
+     fhir:definition [ fhir:v "Safe Sex" ]
+  ] [
+     fhir:code [ fhir:v "434" ] ;
+     fhir:display [ fhir:v "Secure Extended Care" ] ;
+     fhir:definition [ fhir:v "Secure Extended Care Inpatient Services" ]
+  ] [
+     fhir:code [ fhir:v "435" ] ;
+     fhir:display [ fhir:v "Self Help" ] ;
+     fhir:definition [ fhir:v "Self Help" ]
+  ] [
+     fhir:code [ fhir:v "436" ] ;
+     fhir:display [ fhir:v "Separation" ] ;
+     fhir:definition [ fhir:v "Separation" ]
+  ] [
+     fhir:code [ fhir:v "437" ] ;
+     fhir:display [ fhir:v "Services" ] ;
+     fhir:definition [ fhir:v "Services" ]
+  ] [
+     fhir:code [ fhir:v "438" ] ;
+     fhir:display [ fhir:v "Sex Education" ] ;
+     fhir:definition [ fhir:v "Sex Education" ]
+  ] [
+     fhir:code [ fhir:v "439" ] ;
+     fhir:display [ fhir:v "Sexual Abuse" ] ;
+     fhir:definition [ fhir:v "Sexual Abuse" ]
+  ] [
+     fhir:code [ fhir:v "440" ] ;
+     fhir:display [ fhir:v "Sexual Issues" ] ;
+     fhir:definition [ fhir:v "Sexual Issues" ]
+  ] [
+     fhir:code [ fhir:v "441" ] ;
+     fhir:display [ fhir:v "Sexually Transmitted" ] ;
+     fhir:definition [ fhir:v "Sexually Transmitted Diseases" ]
+  ] [
+     fhir:code [ fhir:v "442" ] ;
+     fhir:display [ fhir:v "SIDS" ] ;
+     fhir:definition [ fhir:v "SIDS" ]
+  ] [
+     fhir:code [ fhir:v "443" ] ;
+     fhir:display [ fhir:v "Social Support" ] ;
+     fhir:definition [ fhir:v "Social Support" ]
+  ] [
+     fhir:code [ fhir:v "444" ] ;
+     fhir:display [ fhir:v "Socialisation" ] ;
+     fhir:definition [ fhir:v "Socialisation" ]
+  ] [
+     fhir:code [ fhir:v "445" ] ;
+     fhir:display [ fhir:v "Special Needs" ] ;
+     fhir:definition [ fhir:v "Special Needs" ]
+  ] [
+     fhir:code [ fhir:v "446" ] ;
+     fhir:display [ fhir:v "Speech Therapist" ] ;
+     fhir:definition [ fhir:v "Speech Therapist" ]
+  ] [
+     fhir:code [ fhir:v "447" ] ;
+     fhir:display [ fhir:v "Splinting" ] ;
+     fhir:definition [ fhir:v "Splinting" ]
+  ] [
+     fhir:code [ fhir:v "448" ] ;
+     fhir:display [ fhir:v "Sport" ] ;
+     fhir:definition [ fhir:v "Sport" ]
+  ] [
+     fhir:code [ fhir:v "449" ] ;
+     fhir:display [ fhir:v "Statewide And Specia" ] ;
+     fhir:definition [ fhir:v "Statewide And Specialist Services" ]
+  ] [
+     fhir:code [ fhir:v "450" ] ;
+     fhir:display [ fhir:v "STD" ] ;
+     fhir:definition [ fhir:v "STD" ]
+  ] [
+     fhir:code [ fhir:v "451" ] ;
+     fhir:display [ fhir:v "STI" ] ;
+     fhir:definition [ fhir:v "STI" ]
+  ] [
+     fhir:code [ fhir:v "452" ] ;
+     fhir:display [ fhir:v "Stillbirth" ] ;
+     fhir:definition [ fhir:v "Stillbirth" ]
+  ] [
+     fhir:code [ fhir:v "453" ] ;
+     fhir:display [ fhir:v "Stomal Care" ] ;
+     fhir:definition [ fhir:v "Stomal Care" ]
+  ] [
+     fhir:code [ fhir:v "454" ] ;
+     fhir:display [ fhir:v "Stroke" ] ;
+     fhir:definition [ fhir:v "Stroke" ]
+  ] [
+     fhir:code [ fhir:v "455" ] ;
+     fhir:display [ fhir:v "Substance Abuse" ] ;
+     fhir:definition [ fhir:v "Substance Abuse" ]
+  ] [
+     fhir:code [ fhir:v "456" ] ;
+     fhir:display [ fhir:v "Support" ] ;
+     fhir:definition [ fhir:v "Support" ]
+  ] [
+     fhir:code [ fhir:v "457" ] ;
+     fhir:display [ fhir:v "Syringes" ] ;
+     fhir:definition [ fhir:v "Syringes" ]
+  ] [
+     fhir:code [ fhir:v "458" ] ;
+     fhir:display [ fhir:v "Teeth" ] ;
+     fhir:definition [ fhir:v "Teeth" ]
+  ] [
+     fhir:code [ fhir:v "459" ] ;
+     fhir:display [ fhir:v "Tenancy Advice" ] ;
+     fhir:definition [ fhir:v "Tenancy Advice" ]
+  ] [
+     fhir:code [ fhir:v "460" ] ;
+     fhir:display [ fhir:v "Terminal Illness" ] ;
+     fhir:definition [ fhir:v "Terminal Illness" ]
+  ] [
+     fhir:code [ fhir:v "461" ] ;
+     fhir:display [ fhir:v "Therapy" ] ;
+     fhir:definition [ fhir:v "Therapy" ]
+  ] [
+     fhir:code [ fhir:v "462" ] ;
+     fhir:display [ fhir:v "Transcription" ] ;
+     fhir:definition [ fhir:v "Transcription" ]
+  ] [
+     fhir:code [ fhir:v "463" ] ;
+     fhir:display [ fhir:v "Translating Services" ] ;
+     fhir:definition [ fhir:v "Translating Services" ]
+  ] [
+     fhir:code [ fhir:v "464" ] ;
+     fhir:display [ fhir:v "Translator" ] ;
+     fhir:definition [ fhir:v "Translator" ]
+  ] [
+     fhir:code [ fhir:v "465" ] ;
+     fhir:display [ fhir:v "Transport" ] ;
+     fhir:definition [ fhir:v "Transport" ]
+  ] [
+     fhir:code [ fhir:v "466" ] ;
+     fhir:display [ fhir:v "Vertebrae" ] ;
+     fhir:definition [ fhir:v "Vertebrae" ]
+  ] [
+     fhir:code [ fhir:v "467" ] ;
+     fhir:display [ fhir:v "Violence" ] ;
+     fhir:definition [ fhir:v "Violence" ]
+  ] [
+     fhir:code [ fhir:v "468" ] ;
+     fhir:display [ fhir:v "Vocational Guidance" ] ;
+     fhir:definition [ fhir:v "Vocational Guidance" ]
+  ] [
+     fhir:code [ fhir:v "469" ] ;
+     fhir:display [ fhir:v "Weight" ] ;
+     fhir:definition [ fhir:v "Weight" ]
+  ] [
+     fhir:code [ fhir:v "470" ] ;
+     fhir:display [ fhir:v "Welfare Assistance" ] ;
+     fhir:definition [ fhir:v "Welfare Assistance" ]
+  ] [
+     fhir:code [ fhir:v "471" ] ;
+     fhir:display [ fhir:v "Welfare Counselling" ] ;
+     fhir:definition [ fhir:v "Welfare Counselling" ]
+  ] [
+     fhir:code [ fhir:v "472" ] ;
+     fhir:display [ fhir:v "Wheelchairs" ] ;
+     fhir:definition [ fhir:v "Wheelchairs" ]
+  ] [
+     fhir:code [ fhir:v "473" ] ;
+     fhir:display [ fhir:v "Wound Management" ] ;
+     fhir:definition [ fhir:v "Wound Management" ]
+  ] [
+     fhir:code [ fhir:v "474" ] ;
+     fhir:display [ fhir:v "Young People At Risk" ] ;
+     fhir:definition [ fhir:v "Young People At Risk" ]
+  ] [
+     fhir:code [ fhir:v "475" ] ;
+     fhir:display [ fhir:v "Further Desc. - Community Health Care" ] ;
+     fhir:definition [ fhir:v "Further Description - Community Health Care" ]
+  ] [
+     fhir:code [ fhir:v "476" ] ;
+     fhir:display [ fhir:v "Library" ] ;
+     fhir:definition [ fhir:v "Library" ]
+  ] [
+     fhir:code [ fhir:v "477" ] ;
+     fhir:display [ fhir:v "Community Hours" ] ;
+     fhir:definition [ fhir:v "Community Hours" ]
+  ] [
+     fhir:code [ fhir:v "478" ] ;
+     fhir:display [ fhir:v "Further Desc. - Specialist Medical" ] ;
+     fhir:definition [ fhir:v "Further Description - Specialist Medical" ]
+  ] [
+     fhir:code [ fhir:v "479" ] ;
+     fhir:display [ fhir:v "Hepatology" ] ;
+     fhir:definition [ fhir:v "Hepatology" ]
+  ] [
+     fhir:code [ fhir:v "480" ] ;
+     fhir:display [ fhir:v "Gastroenterology" ] ;
+     fhir:definition [ fhir:v "Gastroenterology" ]
+  ] [
+     fhir:code [ fhir:v "481" ] ;
+     fhir:display [ fhir:v "Gynaecology" ] ;
+     fhir:definition [ fhir:v "Gynaecology" ]
+  ] [
+     fhir:code [ fhir:v "482" ] ;
+     fhir:display [ fhir:v "Obstetrics" ] ;
+     fhir:definition [ fhir:v "Obstetrics" ]
+  ] [
+     fhir:code [ fhir:v "483" ] ;
+     fhir:display [ fhir:v "Further Desc. - Specialist Surgical" ] ;
+     fhir:definition [ fhir:v "Further Description - Specialist Surgical" ]
+  ] [
+     fhir:code [ fhir:v "484" ] ;
+     fhir:display [ fhir:v "Placement Protection" ] ;
+     fhir:definition [ fhir:v "Placement Protection" ]
+  ] [
+     fhir:code [ fhir:v "485" ] ;
+     fhir:display [ fhir:v "Family Violence" ] ;
+     fhir:definition [ fhir:v "Family Violence" ]
+  ] [
+     fhir:code [ fhir:v "486" ] ;
+     fhir:display [ fhir:v "Integrated Family Services" ] ;
+     fhir:definition [ fhir:v "Integrated Family Services" ]
+  ] [
+     fhir:code [ fhir:v "488" ] ;
+     fhir:display [ fhir:v "Diabetes Educator" ] ;
+     fhir:definition [ fhir:v "Diabetes Educator" ]
+  ] [
+     fhir:code [ fhir:v "489" ] ;
+     fhir:display [ fhir:v "Kinship Care" ] ;
+     fhir:definition [ fhir:v "Kinship Care" ]
+  ] [
+     fhir:code [ fhir:v "490" ] ;
+     fhir:display [ fhir:v "General Mental Health Services" ] ;
+     fhir:definition [ fhir:v "General Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "491" ] ;
+     fhir:display [ fhir:v "Exercise Physiology" ] ;
+     fhir:definition [ fhir:v "Exercise Physiology" ]
+  ] [
+     fhir:code [ fhir:v "492" ] ;
+     fhir:display [ fhir:v "Medical Research" ] ;
+     fhir:definition [ fhir:v "Medical Research" ]
+  ] [
+     fhir:code [ fhir:v "493" ] ;
+     fhir:display [ fhir:v "Youth" ] ;
+     fhir:definition [ fhir:v "Youth" ]
+  ] [
+     fhir:code [ fhir:v "494" ] ;
+     fhir:display [ fhir:v "Youth Services" ] ;
+     fhir:definition [ fhir:v "Youth Services" ]
+  ] [
+     fhir:code [ fhir:v "495" ] ;
+     fhir:display [ fhir:v "Youth Health" ] ;
+     fhir:definition [ fhir:v "Youth Health" ]
+  ] [
+     fhir:code [ fhir:v "496" ] ;
+     fhir:display [ fhir:v "Child and Family Ser" ] ;
+     fhir:definition [ fhir:v "Child and Family Services" ]
+  ] [
+     fhir:code [ fhir:v "497" ] ;
+     fhir:display [ fhir:v "Home Visits" ] ;
+     fhir:definition [ fhir:v "Home Visits" ]
+  ] [
+     fhir:code [ fhir:v "498" ] ;
+     fhir:display [ fhir:v "Mobile Services" ] ;
+     fhir:definition [ fhir:v "Mobile Services" ]
+  ] [
+     fhir:code [ fhir:v "500" ] ;
+     fhir:display [ fhir:v "Before and/or After" ] ;
+     fhir:definition [ fhir:v "Before and/or After School Care" ]
+  ] [
+     fhir:code [ fhir:v "501" ] ;
+     fhir:display [ fhir:v "Cancer Services" ] ;
+     fhir:definition [ fhir:v "Cancer Services" ]
+  ] [
+     fhir:code [ fhir:v "502" ] ;
+     fhir:display [ fhir:v "Integrated Cancer Se" ] ;
+     fhir:definition [ fhir:v "Integrated Cancer Services" ]
+  ] [
+     fhir:code [ fhir:v "503" ] ;
+     fhir:display [ fhir:v "Multidisciplinary Se" ] ;
+     fhir:definition [ fhir:v "Multidisciplinary Services" ]
+  ] [
+     fhir:code [ fhir:v "504" ] ;
+     fhir:display [ fhir:v "Multidisciplinary Ca" ] ;
+     fhir:definition [ fhir:v "Multidisciplinary Cancer Services" ]
+  ] [
+     fhir:code [ fhir:v "505" ] ;
+     fhir:display [ fhir:v "Meetings" ] ;
+     fhir:definition [ fhir:v "Meetings" ]
+  ] [
+     fhir:code [ fhir:v "506" ] ;
+     fhir:display [ fhir:v "Blood pressure monit" ] ;
+     fhir:definition [ fhir:v "Blood pressure monitoring" ]
+  ] [
+     fhir:code [ fhir:v "507" ] ;
+     fhir:display [ fhir:v "Dose administration" ] ;
+     fhir:definition [ fhir:v "Dose administration aid" ]
+  ] [
+     fhir:code [ fhir:v "508" ] ;
+     fhir:display [ fhir:v "Medical Equipment Hi" ] ;
+     fhir:definition [ fhir:v "Medical Equipment Hire" ]
+  ] [
+     fhir:code [ fhir:v "509" ] ;
+     fhir:display [ fhir:v "Parenting/Family Support/Education" ] ;
+     fhir:definition [ fhir:v "Parenting & family support/education" ]
+  ] [
+     fhir:code [ fhir:v "510" ] ;
+     fhir:display [ fhir:v "Deputising Service" ] ;
+     fhir:definition [ fhir:v "Deputising Service" ]
+  ] [
+     fhir:code [ fhir:v "513" ] ;
+     fhir:display [ fhir:v "Cancer Support Groups" ] ;
+     fhir:definition [ fhir:v "Cancer Support Groups" ]
+  ] [
+     fhir:code [ fhir:v "514" ] ;
+     fhir:display [ fhir:v "Community Cancer Services" ] ;
+     fhir:definition [ fhir:v "Community Cancer Services" ]
+  ] [
+     fhir:code [ fhir:v "530" ] ;
+     fhir:display [ fhir:v "Disability Care Transport" ] ;
+     fhir:definition [ fhir:v "Disability Care Transport" ]
+  ] [
+     fhir:code [ fhir:v "531" ] ;
+     fhir:display [ fhir:v "Aged Care Transport" ] ;
+     fhir:definition [ fhir:v "Aged Care Transport" ]
+  ] [
+     fhir:code [ fhir:v "532" ] ;
+     fhir:display [ fhir:v "Diabetes Education s" ] ;
+     fhir:definition [ fhir:v "Diabetes Education service" ]
+  ] [
+     fhir:code [ fhir:v "533" ] ;
+     fhir:display [ fhir:v "Cardiac Rehabilitati" ] ;
+     fhir:definition [ fhir:v "Cardiac Rehabilitation Service" ]
+  ] [
+     fhir:code [ fhir:v "534" ] ;
+     fhir:display [ fhir:v "Young Adult Diabetes" ] ;
+     fhir:definition [ fhir:v "Young Adult Diabetes services (YADS)" ]
+  ] [
+     fhir:code [ fhir:v "535" ] ;
+     fhir:display [ fhir:v "Pulmonary Rehabilita" ] ;
+     fhir:definition [ fhir:v "Pulmonary Rehabilitation Service" ]
+  ] [
+     fhir:code [ fhir:v "536" ] ;
+     fhir:display [ fhir:v "Art therapy" ] ;
+     fhir:definition [ fhir:v "Art therapy" ]
+  ] [
+     fhir:code [ fhir:v "537" ] ;
+     fhir:display [ fhir:v "Medication Reviews" ] ;
+     fhir:definition [ fhir:v "Medication Reviews" ]
+  ] [
+     fhir:code [ fhir:v "538" ] ;
+     fhir:display [ fhir:v "Telephone Counselling" ] ;
+     fhir:definition [ fhir:v "Telephone Counselling" ]
+  ] [
+     fhir:code [ fhir:v "539" ] ;
+     fhir:display [ fhir:v "Telephone Help Line" ] ;
+     fhir:definition [ fhir:v "Telephone Help Line" ]
+  ] [
+     fhir:code [ fhir:v "540" ] ;
+     fhir:display [ fhir:v "Online Service" ] ;
+     fhir:definition [ fhir:v "Online Service" ]
+  ] [
+     fhir:code [ fhir:v "541" ] ;
+     fhir:display [ fhir:v "Crisis - Mental Health" ] ;
+     fhir:definition [ fhir:v "Crisis - Mental Health" ]
+  ] [
+     fhir:code [ fhir:v "542" ] ;
+     fhir:display [ fhir:v "Youth Crisis" ] ;
+     fhir:definition [ fhir:v "Youth Crisis" ]
+  ] [
+     fhir:code [ fhir:v "543" ] ;
+     fhir:display [ fhir:v "Sexual Assault" ] ;
+     fhir:definition [ fhir:v "Sexual Assault" ]
+  ] [
+     fhir:code [ fhir:v "544" ] ;
+     fhir:display [ fhir:v "GPAH Other" ] ;
+     fhir:definition [ fhir:v "GPAH Other" ]
+  ] [
+     fhir:code [ fhir:v "545" ] ;
+     fhir:display [ fhir:v "Paediatric Dermatology" ] ;
+     fhir:definition [ fhir:v "Paediatric Dermatology" ]
+  ] [
+     fhir:code [ fhir:v "546" ] ;
+     fhir:display [ fhir:v "Veterans Services" ] ;
+     fhir:definition [ fhir:v "Veterans Services" ]
+  ] [
+     fhir:code [ fhir:v "547" ] ;
+     fhir:display [ fhir:v "Veterans" ] ;
+     fhir:definition [ fhir:v "Veterans" ]
+  ] [
+     fhir:code [ fhir:v "548" ] ;
+     fhir:display [ fhir:v "Food Relief/Food/Meals" ] ;
+     fhir:definition [ fhir:v "Food Relief/food/meals" ]
+  ] [
+     fhir:code [ fhir:v "550" ] ;
+     fhir:display [ fhir:v "Dementia Care" ] ;
+     fhir:definition [ fhir:v "Dementia Care" ]
+  ] [
+     fhir:code [ fhir:v "551" ] ;
+     fhir:display [ fhir:v "Alzheimer" ] ;
+     fhir:definition [ fhir:v "Alzheimer" ]
+  ] [
+     fhir:code [ fhir:v "552" ] ;
+     fhir:display [ fhir:v "Drug and/or Alcohol Support Groups" ] ;
+     fhir:definition [ fhir:v "Drug and/or alcohol support groups" ]
+  ] [
+     fhir:code [ fhir:v "553" ] ;
+     fhir:display [ fhir:v "1-on-1 Support /Mentoring /Coaching" ] ;
+     fhir:definition [ fhir:v "One on One Support/Mentoring/Coaching" ]
+  ] [
+     fhir:code [ fhir:v "554" ] ;
+     fhir:display [ fhir:v "Chronic Disease Management" ] ;
+     fhir:definition [ fhir:v "Chronic Disease Management" ]
+  ] [
+     fhir:code [ fhir:v "555" ] ;
+     fhir:display [ fhir:v "Liaison Services" ] ;
+     fhir:definition [ fhir:v "Liaison Services" ]
+  ] [
+     fhir:code [ fhir:v "556" ] ;
+     fhir:display [ fhir:v "Walk-in Centre /Non-Emergency" ] ;
+     fhir:definition [ fhir:v "Walk in Centre / non emergency" ]
+  ] [
+     fhir:code [ fhir:v "557" ] ;
+     fhir:display [ fhir:v "Inpatients" ] ;
+     fhir:definition [ fhir:v "Inpatients" ]
+  ] [
+     fhir:code [ fhir:v "558" ] ;
+     fhir:display [ fhir:v "Spiritual Counselling" ] ;
+     fhir:definition [ fhir:v "Spiritual Counselling" ]
+  ] [
+     fhir:code [ fhir:v "559" ] ;
+     fhir:display [ fhir:v "Women's Health" ] ;
+     fhir:definition [ fhir:v "Women's Health" ]
+  ] [
+     fhir:code [ fhir:v "560" ] ;
+     fhir:display [ fhir:v "Men's Health" ] ;
+     fhir:definition [ fhir:v "Men's Health" ]
+  ] [
+     fhir:code [ fhir:v "561" ] ;
+     fhir:display [ fhir:v "Health Education/Awareness Program" ] ;
+     fhir:definition [ fhir:v "Health education/Health awareness program" ]
+  ] [
+     fhir:code [ fhir:v "562" ] ;
+     fhir:display [ fhir:v "Test Message" ] ;
+     fhir:definition [ fhir:v "Test Message" ]
+  ] [
+     fhir:code [ fhir:v "563" ] ;
+     fhir:display [ fhir:v "Remedial Massage" ] ;
+     fhir:definition [ fhir:v "Remedial Massage" ]
+  ] [
+     fhir:code [ fhir:v "564" ] ;
+     fhir:display [ fhir:v "Adolescent Mental Health Services" ] ;
+     fhir:definition [ fhir:v "Adolescent Mental Health Services" ]
+  ] [
+     fhir:code [ fhir:v "565" ] ;
+     fhir:display [ fhir:v "Youth Drop In/Assistance/Support" ] ;
+     fhir:definition [ fhir:v "Youth drop in/assistance/support" ]
+  ] [
+     fhir:code [ fhir:v "566" ] ;
+     fhir:display [ fhir:v "Aboriginal Health Worker" ] ;
+     fhir:definition [ fhir:v "Aboriginal Health Worker" ]
+  ] [
+     fhir:code [ fhir:v "567" ] ;
+     fhir:display [ fhir:v "Women's Health Clinic" ] ;
+     fhir:definition [ fhir:v "Women's Health Clinic" ]
+  ] [
+     fhir:code [ fhir:v "568" ] ;
+     fhir:display [ fhir:v "Men's Health Clinic" ] ;
+     fhir:definition [ fhir:v "Men's Health Clinic" ]
+  ] [
+     fhir:code [ fhir:v "569" ] ;
+     fhir:display [ fhir:v "Migrant Health Clinic" ] ;
+     fhir:definition [ fhir:v "Migrant Health Clinic" ]
+  ] [
+     fhir:code [ fhir:v "570" ] ;
+     fhir:display [ fhir:v "Refugee Health Clinic" ] ;
+     fhir:definition [ fhir:v "Refugee Health Clinic" ]
+  ] [
+     fhir:code [ fhir:v "571" ] ;
+     fhir:display [ fhir:v "Aboriginal Health Clinic" ] ;
+     fhir:definition [ fhir:v "Aboriginal Health Clinic" ]
+  ] [
+     fhir:code [ fhir:v "572" ] ;
+     fhir:display [ fhir:v "Nurse Practitioner Lead Clinic/s" ] ;
+     fhir:definition [ fhir:v "Nurse Practitioner lead Clinic/s" ]
+  ] [
+     fhir:code [ fhir:v "573" ] ;
+     fhir:display [ fhir:v "Nurse Lead Clinic/s" ] ;
+     fhir:definition [ fhir:v "Nurse lead Clinic/s" ]
+  ] [
+     fhir:code [ fhir:v "574" ] ;
+     fhir:display [ fhir:v "Culturally Tailored Support Groups" ] ;
+     fhir:definition [ fhir:v "Culturally tailored support groups" ]
+  ] [
+     fhir:code [ fhir:v "575" ] ;
+     fhir:display [ fhir:v "Culturally Tailored Health Promotion" ] ;
+     fhir:definition [ fhir:v "Culturally tailored health promotion" ]
+  ] [
+     fhir:code [ fhir:v "576" ] ;
+     fhir:display [ fhir:v "Rehabilitation" ] ;
+     fhir:definition [ fhir:v "Rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "577" ] ;
+     fhir:display [ fhir:v "Education Information/Referral" ] ;
+     fhir:definition [ fhir:v "Education information/referral" ]
+  ] [
+     fhir:code [ fhir:v "580" ] ;
+     fhir:display [ fhir:v "Social Work" ] ;
+     fhir:definition [ fhir:v "Social Work" ]
+  ] [
+     fhir:code [ fhir:v "581" ] ;
+     fhir:display [ fhir:v "Haematology" ] ;
+     fhir:definition [ fhir:v "Haematology" ]
+  ] [
+     fhir:code [ fhir:v "582" ] ;
+     fhir:display [ fhir:v "Maternity Shared Car" ] ;
+     fhir:definition [ fhir:v "Maternity Shared Care" ]
+  ] [
+     fhir:code [ fhir:v "583" ] ;
+     fhir:display [ fhir:v "Rehabilitation Servi" ] ;
+     fhir:definition [ fhir:v "Rehabilitation Service" ]
+  ] [
+     fhir:code [ fhir:v "584" ] ;
+     fhir:display [ fhir:v "Cranio-sacral Therapy" ] ;
+     fhir:definition [ fhir:v "Cranio-Sacral Therapy" ]
+  ] [
+     fhir:code [ fhir:v "585" ] ;
+     fhir:display [ fhir:v "Prosthetics & Orthotics" ] ;
+     fhir:definition [ fhir:v "Prosthetics & Orthotics" ]
+  ] [
+     fhir:code [ fhir:v "589" ] ;
+     fhir:display [ fhir:v "Home Medicine Review" ] ;
+     fhir:definition [ fhir:v "Home Medicine Review" ]
+  ] [
+     fhir:code [ fhir:v "590" ] ;
+     fhir:display [ fhir:v "GPAH - Medical" ] ;
+     fhir:definition [ fhir:v "GPAH - Medical" ]
+  ] [
+     fhir:code [ fhir:v "591" ] ;
+     fhir:display [ fhir:v "Music Therapy" ] ;
+     fhir:definition [ fhir:v "Music Therapy" ]
+  ] [
+     fhir:code [ fhir:v "593" ] ;
+     fhir:display [ fhir:v "Falls Prevention" ] ;
+     fhir:definition [ fhir:v "Falls Prevention" ]
+  ] [
+     fhir:code [ fhir:v "599" ] ;
+     fhir:display [ fhir:v "Accommodation/Tenancy" ] ;
+     fhir:definition [ fhir:v "Accommodation/Tenancy" ]
+  ] [
+     fhir:code [ fhir:v "600" ] ;
+     fhir:display [ fhir:v "Assess-Skill, Ability, Needs" ] ;
+     fhir:definition [ fhir:v "Assess-Skill, Ability, Needs" ]
+  ] [
+     fhir:code [ fhir:v "601" ] ;
+     fhir:display [ fhir:v "Assist Access/Maintain Employ" ] ;
+     fhir:definition [ fhir:v "Assist Access/Maintain Employ" ]
+  ] [
+     fhir:code [ fhir:v "602" ] ;
+     fhir:display [ fhir:v "Assist Prod-Pers Care/Safety" ] ;
+     fhir:definition [ fhir:v "Assist Prod-Pers Care/Safety" ]
+  ] [
+     fhir:code [ fhir:v "603" ] ;
+     fhir:display [ fhir:v "Assist-Integrate School/Ed" ] ;
+     fhir:definition [ fhir:v "Assist-Integrate School/Ed" ]
+  ] [
+     fhir:code [ fhir:v "604" ] ;
+     fhir:display [ fhir:v "Assist-Life Stage, Transition" ] ;
+     fhir:definition [ fhir:v "Assist-Life Stage, Transition" ]
+  ] [
+     fhir:code [ fhir:v "605" ] ;
+     fhir:display [ fhir:v "Assist-Personal Activities" ] ;
+     fhir:definition [ fhir:v "Assist-Personal Activities" ]
+  ] [
+     fhir:code [ fhir:v "606" ] ;
+     fhir:display [ fhir:v "Assist-Travel/Transport" ] ;
+     fhir:definition [ fhir:v "Assist-Travel/Transport" ]
+  ] [
+     fhir:code [ fhir:v "607" ] ;
+     fhir:display [ fhir:v "Assistive Equip-General Tasks" ] ;
+     fhir:definition [ fhir:v "Assistive Equip-General Tasks" ]
+  ] [
+     fhir:code [ fhir:v "608" ] ;
+     fhir:display [ fhir:v "Assistive Equip-Recreation" ] ;
+     fhir:definition [ fhir:v "Assistive Equip-Recreation" ]
+  ] [
+     fhir:code [ fhir:v "609" ] ;
+     fhir:display [ fhir:v "Assistive Prod-Household Task" ] ;
+     fhir:definition [ fhir:v "Assistive Prod-Household Task" ]
+  ] [
+     fhir:code [ fhir:v "610" ] ;
+     fhir:display [ fhir:v "Behavior Support" ] ;
+     fhir:definition [ fhir:v "Behavior Support" ]
+  ] [
+     fhir:code [ fhir:v "611" ] ;
+     fhir:display [ fhir:v "Comms & Info Equipment" ] ;
+     fhir:definition [ fhir:v "Comms & Info Equipment" ]
+  ] [
+     fhir:code [ fhir:v "612" ] ;
+     fhir:display [ fhir:v "Community Nursing Care" ] ;
+     fhir:definition [ fhir:v "Community Nursing Care" ]
+  ] [
+     fhir:code [ fhir:v "613" ] ;
+     fhir:display [ fhir:v "Daily Tasks/Shared Living" ] ;
+     fhir:definition [ fhir:v "Daily Tasks/Shared Living" ]
+  ] [
+     fhir:code [ fhir:v "614" ] ;
+     fhir:display [ fhir:v "Development-Life Skills" ] ;
+     fhir:definition [ fhir:v "Development-Life Skills" ]
+  ] [
+     fhir:code [ fhir:v "615" ] ;
+     fhir:display [ fhir:v "Early Childhood Supports" ] ;
+     fhir:definition [ fhir:v "Early Childhood Supports" ]
+  ] [
+     fhir:code [ fhir:v "616" ] ;
+     fhir:display [ fhir:v "Equipment Special Assess Setup" ] ;
+     fhir:definition [ fhir:v "Equipment Special Assess Setup" ]
+  ] [
+     fhir:code [ fhir:v "617" ] ;
+     fhir:display [ fhir:v "Hearing Equipment" ] ;
+     fhir:definition [ fhir:v "Hearing Equipment" ]
+  ] [
+     fhir:code [ fhir:v "618" ] ;
+     fhir:display [ fhir:v "Home Modification" ] ;
+     fhir:definition [ fhir:v "Home Modification" ]
+  ] [
+     fhir:code [ fhir:v "619" ] ;
+     fhir:display [ fhir:v "Household Tasks" ] ;
+     fhir:definition [ fhir:v "Household Tasks" ]
+  ] [
+     fhir:code [ fhir:v "620" ] ;
+     fhir:display [ fhir:v "Interpret/Translate" ] ;
+     fhir:definition [ fhir:v "Interpret/Translate" ]
+  ] [
+     fhir:code [ fhir:v "621" ] ;
+     fhir:display [ fhir:v "Other Innovative Supports" ] ;
+     fhir:definition [ fhir:v "Other Innovative Supports" ]
+  ] [
+     fhir:code [ fhir:v "622" ] ;
+     fhir:display [ fhir:v "Participate Community" ] ;
+     fhir:definition [ fhir:v "Participate Community" ]
+  ] [
+     fhir:code [ fhir:v "623" ] ;
+     fhir:display [ fhir:v "Personal Mobility Equipment" ] ;
+     fhir:definition [ fhir:v "Personal Mobility Equipment" ]
+  ] [
+     fhir:code [ fhir:v "624" ] ;
+     fhir:display [ fhir:v "Physical Wellbeing" ] ;
+     fhir:definition [ fhir:v "Physical Wellbeing" ]
+  ] [
+     fhir:code [ fhir:v "625" ] ;
+     fhir:display [ fhir:v "Plan Management" ] ;
+     fhir:definition [ fhir:v "Plan Management" ]
+  ] [
+     fhir:code [ fhir:v "626" ] ;
+     fhir:display [ fhir:v "Therapeutic Supports" ] ;
+     fhir:definition [ fhir:v "Therapeutic Supports" ]
+  ] [
+     fhir:code [ fhir:v "627" ] ;
+     fhir:display [ fhir:v "Training-Travel Independence" ] ;
+     fhir:definition [ fhir:v "Training-Travel Independence" ]
+  ] [
+     fhir:code [ fhir:v "628" ] ;
+     fhir:display [ fhir:v "Vehicle modifications" ] ;
+     fhir:definition [ fhir:v "Vehicle modifications" ]
+  ] [
+     fhir:code [ fhir:v "629" ] ;
+     fhir:display [ fhir:v "Vision Equipment" ] ;
+     fhir:definition [ fhir:v "Vision Equipment" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
