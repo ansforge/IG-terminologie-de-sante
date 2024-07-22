@@ -204,6 +204,12 @@
       <a href="#">Téléchargement</a>
     </li>
   
+
+  
+  <li id="Ahistoire" class="null">
+    <a href="#">histoire</a>
+  </li>
+
    
   
 
@@ -223,7 +229,7 @@
         
           Active
           
-            as of 2024-07-21
+            as of 2024-07-22
           
         
       </td>
@@ -275,7 +281,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Classification Internationale des Maladies 11ème révision pour les statistiques de mortalité et de morbidité"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> "false"^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2024-07-21T15:17:32+00:00"^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> "2024-07-22T04:19:42+00:00"^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ANS"] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ANS" ] ;
@@ -419,13 +425,13 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 	<tbody>
 	
 		<tr>
-			<td><a name="l1069">​</a><a href="./listFormat/CodeSystem-terminologie-cim11-mms.tabs">csv</a> </td>
+			<td><a name="l1075">​</a><a href="./listFormat/CodeSystem-terminologie-cim11-mms.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l1080">​</a><a href="./listFormat/CodeSystem-terminologie-cim11-mms-svs.xml">svs</a> </td>
+			<td><a name="l1086">​</a><a href="./listFormat/CodeSystem-terminologie-cim11-mms-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -460,7 +466,16 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   <script type="text/javascript">
    $(document).ready(function(){
 	
+		$( "#Ahistoire" ).on( "click", function() {
+      loadHistoire();
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#histoire" ).css("display", "");
 
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#histoire" ).addClass("active");	
+
+		} );
 
 	   
 	   
@@ -503,7 +518,7 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 21, 2024 15:17+0000">2024-07-21</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

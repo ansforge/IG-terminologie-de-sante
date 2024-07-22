@@ -204,6 +204,12 @@
       <a href="#">Téléchargement</a>
     </li>
   
+
+  
+  <li id="Ahistoire" class="null">
+    <a href="#">histoire</a>
+  </li>
+
    
   
 
@@ -341,13 +347,13 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l3230">​</a><a href="./listFormat/ValueSet-JDV-J70-Equipement-Santefr.tabs">csv</a> </td>
+			<td><a name="l3236">​</a><a href="./listFormat/ValueSet-JDV-J70-Equipement-Santefr.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l3241">​</a><a href="./listFormat/ValueSet-JDV-J70-Equipement-Santefr-svs.xml">svs</a> </td>
+			<td><a name="l3247">​</a><a href="./listFormat/ValueSet-JDV-J70-Equipement-Santefr-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -363,7 +369,51 @@
 	</table>
 
 </div>
+<div style="display:none" id="histoire">
+  <table class="grid table table-bordered">
+    <thead>
+      <tr>
+        <td>Histoire</td>
+        <td>Version</td>        
+        <td>Demande</td>     
+        <td>Resultat</td>
+        <td>Date</td>   
+      </tr>
 
+    </thead>
+    <tbody id="idHistoire">
+    </tbody>
+    </table>
+  
+  </div>
+  <script type="text/javascript">
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet/JDV-J70-Equipement-Santefr/_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) =&gt; {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) =&gt; {
+      console.error(err);
+    })
+    .always(() =&gt; {
+      });
+
+    }
+</script> 
 
 
 
@@ -398,7 +448,16 @@
   <script type="text/javascript">
    $(document).ready(function(){
 	
+		$( "#Ahistoire" ).on( "click", function() {
+      loadHistoire();
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#histoire" ).css("display", "");
 
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#histoire" ).addClass("active");	
+
+		} );
 
 	   
 	   
@@ -441,7 +500,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 21, 2024 15:17+0000">2024-07-21</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

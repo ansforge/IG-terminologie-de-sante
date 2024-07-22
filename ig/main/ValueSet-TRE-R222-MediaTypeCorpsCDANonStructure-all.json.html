@@ -204,6 +204,12 @@
       <a href="#">Téléchargement</a>
     </li>
   
+
+  
+  <li id="Ahistoire" class="null">
+    <a href="#">histoire</a>
+  </li>
+
    
   
 
@@ -223,7 +229,7 @@
         
           Active
           
-            as of 2024-07-21
+            as of 2024-07-22
           
         
       </td>
@@ -266,7 +272,7 @@
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "JDV-MediaTypeCorpsCDANonStructure",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2024-07-21T15:17:32+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2024-07-22T04:19:42+00:00",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "ANS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -311,13 +317,13 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l484">​</a><a href="./listFormat/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.tabs">csv</a> </td>
+			<td><a name="l490">​</a><a href="./listFormat/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l495">​</a><a href="./listFormat/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-svs.xml">svs</a> </td>
+			<td><a name="l501">​</a><a href="./listFormat/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -352,7 +358,16 @@
   <script type="text/javascript">
    $(document).ready(function(){
 	
+		$( "#Ahistoire" ).on( "click", function() {
+      loadHistoire();
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#histoire" ).css("display", "");
 
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#histoire" ).addClass("active");	
+
+		} );
 
 	   
 	   
@@ -395,7 +410,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 21, 2024 15:17+0000">2024-07-21</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -204,6 +204,12 @@
       <a href="#">Téléchargement</a>
     </li>
   
+
+  
+  <li id="Ahistoire" class="null">
+    <a href="#">histoire</a>
+  </li>
+
    
   
 
@@ -365,13 +371,13 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l804">​</a><a href="./listFormat/CodeSystem-TRE-R255-FluxStandardise.tabs">csv</a> </td>
+			<td><a name="l810">​</a><a href="./listFormat/CodeSystem-TRE-R255-FluxStandardise.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l815">​</a><a href="./listFormat/CodeSystem-TRE-R255-FluxStandardise-svs.xml">svs</a> </td>
+			<td><a name="l821">​</a><a href="./listFormat/CodeSystem-TRE-R255-FluxStandardise-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -406,7 +412,16 @@
   <script type="text/javascript">
    $(document).ready(function(){
 	
+		$( "#Ahistoire" ).on( "click", function() {
+      loadHistoire();
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#histoire" ).css("display", "");
 
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#histoire" ).addClass("active");	
+
+		} );
 
 	   
 	   
@@ -449,7 +464,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 21, 2024 15:17+0000">2024-07-21</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
