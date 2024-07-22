@@ -1,5 +1,44 @@
 $(document).ready(function(){
 
+
+
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir/" + $('#typeValue').val() + "/" + $('#idValue').val() + "/_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) => {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td  >' + obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) => {
+      console.error(err);
+    })
+    .always(() => {
+      });
+
+    }
+
+
+
+
+
+
+
+
+
+
+	
 	$('div.accord').each(function(indextable) { 
 	    var id= $(this).find("div.accordion-body").attr("id");
 	    $(this).find("H3.accordion-heading").append('<a class="accordion-toggle" data-toggle="collapse" href="#' + id  +'"><i class="gg-chevron-down"></i></a>');
