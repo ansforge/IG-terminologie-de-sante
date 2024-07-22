@@ -63,7 +63,7 @@
 
 
 
-  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
+  France
 
 
             </span>
@@ -207,7 +207,7 @@
 
   
   <li id="Ahistoire" class="null">
-    <a href="#">histoire</a>
+    <a href="#">Histoire</a>
   </li>
 
    
@@ -300,7 +300,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">No Expansion for this valueset (Unknown Code System  <!-- [Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R247-UcumUniteMesure/FHIR/TRE-R247-UcumUniteMesure, Error from http://tx.fhir.org/r4: Unable to provide support for code system https://mos.esante.gouv.fr/NOS/TRE_R247-UcumUniteMesure/FHIR/TRE-R247-UcumUniteMesure] -->)</p>
+  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">No Expansion for this valueset (not supported by Publication Tooling  <!-- [Unable to expand imported value set: Error reading Http Response from https://smt.esante.gouv.fr/fhir/: Error parsing JSON source: Unexpected char '&lt;' in json stream at Line 1 (path=[null]), Error reading Http Response from https://smt.esante.gouv.fr/fhir/: Error parsing JSON source: Unexpected char '&lt;' in json stream at Line 1 (path=[null])] -->)</p>
 
 
   <hr/>
@@ -340,13 +340,13 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l558">​</a><a href="./listFormat/ValueSet-JDV-J49-UcumUniteLongueur.tabs">csv</a> </td>
+			<td><a name="l556">​</a><a href="./listFormat/ValueSet-JDV-J49-UcumUniteLongueur.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l569">​</a><a href="./listFormat/ValueSet-JDV-J49-UcumUniteLongueur-svs.xml">svs</a> </td>
+			<td><a name="l567">​</a><a href="./listFormat/ValueSet-JDV-J49-UcumUniteLongueur-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -379,34 +379,6 @@
     </table>
   
   </div>
-  <script type="text/javascript">
-  function loadHistoire() {
-
-    $.ajax({
-    type: 'get',
-    url: "https://smt.esante.gouv.fr/fhir//ValueSet/JDV-J49-UcumUniteLongueur/_history?_summary=true",
-    contentType: 'application/json',  
-    dataType:"json",     
-  })
-    .done((data) =&gt; {
-
-      if (data.entry != null) {   
-        $.each(data.entry, function (i, obj) { 
-        var content = '<tr>' ;
-        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
-        content += '</tr>';
-         $('#idHistoire').append(content);
-        });
-     }   
-    })
-    .fail((err) =&gt; {
-      console.error(err);
-    })
-    .always(() =&gt; {
-      });
-
-    }
-</script> 
 
 
 
@@ -440,7 +412,35 @@
   </script>
   <script type="text/javascript">
    $(document).ready(function(){
-	
+
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet//_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) =&gt; {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) =&gt; {
+      console.error(err);
+    })
+    .always(() =&gt; {
+      });
+
+    }
+
+
 		$( "#Ahistoire" ).on( "click", function() {
       loadHistoire();
 		  
@@ -493,7 +493,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 08:38+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

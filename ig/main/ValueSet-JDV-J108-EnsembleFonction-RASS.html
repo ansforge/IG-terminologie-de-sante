@@ -63,7 +63,7 @@
 
 
 
-  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
+  France
 
 
             </span>
@@ -207,7 +207,7 @@
 
   
   <li id="Ahistoire" class="null">
-    <a href="#">histoire</a>
+    <a href="#">Histoire</a>
   </li>
 
    
@@ -481,13 +481,13 @@
 	<tbody>
 	
 		<tr>
-			<td><a name="l2466">​</a><a href="./listFormat/ValueSet-JDV-J108-EnsembleFonction-RASS.tabs">csv</a> </td>
+			<td><a name="l2464">​</a><a href="./listFormat/ValueSet-JDV-J108-EnsembleFonction-RASS.tabs">csv</a> </td>
 			<td> Fichier csv (.tabs)</td>
 		</tr>
 
 		
 		<tr>
-			<td><a name="l2477">​</a><a href="./listFormat/ValueSet-JDV-J108-EnsembleFonction-RASS-svs.xml">svs</a> </td>
+			<td><a name="l2475">​</a><a href="./listFormat/ValueSet-JDV-J108-EnsembleFonction-RASS-svs.xml">svs</a> </td>
 			<td>  Fichier xml (Sharing Value Sets) </td>
 		</tr>
 		<tr>
@@ -520,34 +520,6 @@
     </table>
   
   </div>
-  <script type="text/javascript">
-  function loadHistoire() {
-
-    $.ajax({
-    type: 'get',
-    url: "https://smt.esante.gouv.fr/fhir//ValueSet/JDV-J108-EnsembleFonction-RASS/_history?_summary=true",
-    contentType: 'application/json',  
-    dataType:"json",     
-  })
-    .done((data) =&gt; {
-
-      if (data.entry != null) {   
-        $.each(data.entry, function (i, obj) { 
-        var content = '<tr>' ;
-        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
-        content += '</tr>';
-         $('#idHistoire').append(content);
-        });
-     }   
-    })
-    .fail((err) =&gt; {
-      console.error(err);
-    })
-    .always(() =&gt; {
-      });
-
-    }
-</script> 
 
 
 
@@ -581,7 +553,35 @@
   </script>
   <script type="text/javascript">
    $(document).ready(function(){
-	
+
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet//_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) =&gt; {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) =&gt; {
+      console.error(err);
+    })
+    .always(() =&gt; {
+      });
+
+    }
+
+
 		$( "#Ahistoire" ).on( "click", function() {
       loadHistoire();
 		  
@@ -634,7 +634,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 08:38+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

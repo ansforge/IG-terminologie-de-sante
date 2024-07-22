@@ -63,7 +63,7 @@
 
 
 
-  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
+  France
 
 
             </span>
@@ -203,7 +203,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p><code class="language-plaintext highlighter-rouge">DRAFT au 28/08/23 </code></p>
 
-<p><a name="l359">​</a><a href="ANS_MOS_NOS_MigrationNOSversSMTT0_00_accueil.md">Retour à la page d’accueil des NOS</a></p>
+<p><a name="l357">​</a><a href="ANS_MOS_NOS_MigrationNOSversSMTT0_00_accueil.md">Retour à la page d’accueil des NOS</a></p>
 <h1 id="les-étapes-de-la-migration-des-nos-dans-le-smt">Les étapes de la migration des NOS dans le SMT</h1>
 
 <h2 id="résumé">Résumé</h2>
@@ -321,7 +321,35 @@ Cette migration consiste à gérer les NOS (TRE, JDV, ASS) via l’outil SMT “
   </script>
   <script type="text/javascript">
    $(document).ready(function(){
-	
+
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet//_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) =&gt; {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td>' + obj.resource.meta.versionId +'</td><td>' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) =&gt; {
+      console.error(err);
+    })
+    .always(() =&gt; {
+      });
+
+    }
+
+
 		$( "#Ahistoire" ).on( "click", function() {
       loadHistoire();
 		  
@@ -374,7 +402,7 @@ Cette migration consiste à gérer les NOS (TRE, JDV, ASS) via l’outil SMT “
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 08:38+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

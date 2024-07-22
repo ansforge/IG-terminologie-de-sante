@@ -63,7 +63,7 @@
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  France
 
 
             </span>
@@ -475,7 +475,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </script>
   <script type="text/javascript">
    $(document).ready(function(){
-	
+
+  function loadHistoire() {
+
+    $.ajax({
+    type: 'get',
+    url: "https://smt.esante.gouv.fr/fhir//ValueSet//_history?_summary=true",
+    contentType: 'application/json',  
+    dataType:"json",     
+  })
+    .done((data) => {
+
+      if (data.entry != null) {   
+        $.each(data.entry, function (i, obj) { 
+        var content = '<tr>' ;
+        content += '<td  >' + obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '</tr>';
+         $('#idHistoire').append(content);
+        });
+     }   
+    })
+    .fail((err) => {
+      console.error(err);
+    })
+    .always(() => {
+      });
+
+    }
+
+
 		$( "#Ahistoire" ).on( "click", function() {
       loadHistoire();
 		  
@@ -528,7 +556,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 04:19+0000">2024-07-22</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 22, 2024 08:38+0000">2024-07-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
