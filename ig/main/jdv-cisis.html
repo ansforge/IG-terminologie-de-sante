@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ANS.FR.TERMINOLOGIE\Jeux de valeurs du CI-SIS - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+
+    <!-- CSS only -->
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4.2"}
+    h3,h4,h5,h6{--heading-prefix:"4.2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l&#39;ANS)</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - ci-build
+
+
+
+  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='jdv.html'><b>Jeux de valeurs</b></a></li><li><b>Jeux de valeurs du CI-SIS</b></li>
+
+          <span style="float:right;">
+
+            <a href="jdv-smt.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="jdv-nos.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Jeux de valeurs du CI-SIS</h2>
+  
+  
+  
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    
+  Vous touverez ici la liste des JDV du CI-SIS.  
+  <br/>
+    <br/>
+
+
+    <ul class="nav nav-tabs">
+    <li><a href="jdv.html">Ensemble des JDV</a></li>
+    <li><a href="jdv-smt.html">JDV du SMT</a></li>         
+    <li class="active"><a href="#">JDV du CI-SIS</a></li>      
+    <li><a href="jdv-nos.html">JDV du NOS</a></li>
+    <li><a href="jdv-retired.html">JDV (Retired)</a></li>     
+        
+    <li><a href="jdv-telechargement.html">Téléchargement</a></li>
+  </ul>
+
+        <br/>
+    <div id="orig">
+      <table class="codes"><tr><td style="background-color: #eeeeee">Name</td><td style="background-color: #eeeeee">Description</td></tr><tr><td><a href="ValueSet-JDV-J10-XdsFormatCode-CISIS.html">JDV_J10_XdsFormatCode_CISIS</a></td><td><div><p>XDS formatCode documents CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.496.html">JDV_AbordVeineuxCentral_CISIS</a></td><td><div><p>JDV_AbordVeineuxCentral_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.495.html">JDV_AbordVeineuxPeripherique_CISIS</a></td><td><div><p>JDV_AbordVeineuxPeripherique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.661.html">JDV_AbsentOrUnknownAllergy_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownAllergy_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.663.html">JDV_AbsentOrUnknownDevices_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownDevices_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.666.html">JDV_AbsentOrUnknownImmunization_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownImmunization_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.664.html">JDV_AbsentOrUnknownMedication_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownMedication_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.662.html">JDV_AbsentOrUnknownProblem_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownProblem_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.665.html">JDV_AbsentOrUnknownProcedure_CISIS</a></td><td><div><p>JDV_AbsentOrUnknownProcedure_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.516.html">JDV_AccesArtere_CISIS</a></td><td><div><p>JDV_AccesArtere_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.757.html">JDV_ActeOBP_CISIS</a></td><td><div><p>JDV_ActeOBP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.707.html">JDV_Acte_CSE_CISIS</a></td><td><div><p>JDV_Acte_CSE_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.705.html">JDV_Actes_CS8_CISIS</a></td><td><div><p>JDV_Actes_CS8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.110.html">JDV_Activite_CISIS</a></td><td><div><p>JDV_Activite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.80.html">JDV_Addictions_CISIS</a></td><td><div><p>JDV_Addictions_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.628.html">JDV_AdditionGrandeur_CISIS</a></td><td><div><p>JDV_AdditionGrandeur_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.646.html">JDV_AgeDeSurvenue_CISIS</a></td><td><div><p>JDV_AgeDeSurvenue_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.43.html">JDV_Age_CISIS</a></td><td><div><p>JDV_Age_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.489.html">JDV_AideAuDeplacement_CISIS</a></td><td><div><p>JDV_AideAuDeplacement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.100.html">JDV_AllergiesVaccins_CISIS</a></td><td><div><p>JDV_AllergiesVaccins_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.738.html">JDV_AnomalieCroissance_CISIS</a></td><td><div><p>JDV_AnomalieCroissance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.163.html">JDV_AntecedantsMedicaux_CISIS</a></td><td><div><p>JDV_AntecedantsMedicaux_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.104.html">JDV_AntecedentsCSE24_CISIS</a></td><td><div><p>JDV_AntecedentsCSE24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.103.html">JDV_AntecedentsCSE9_CISIS</a></td><td><div><p>JDV_AntecedentsCSE9_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.122.html">JDV_AntecedentsObstetricaux_CISIS</a></td><td><div><p>JDV_AntecedentsObstetricaux_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.732.html">JDV_AntecedentsObstetricaux_OBP_CISIS</a></td><td><div><p>JDV_AntecedentsObstetricaux_OBP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.34.html">JDV_AntecedentsPersonnels_CISIS</a></td><td><div><p>JDV_AntecedentsPersonnels_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.44.html">JDV_AppreciationDiagnosticCentre_CISIS</a></td><td><div><p>JDV_AppreciationDiagnosticCentre_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.208.html">JDV_ArtereAnt_CISIS</a></td><td><div><p>JDV_ArtereAnt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.210.html">JDV_ArtereCervelet_CISIS</a></td><td><div><p>JDV_ArtereCervelet_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.209.html">JDV_ArterePost_CISIS</a></td><td><div><p>JDV_ArterePost_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.214.html">JDV_ArtereTronc_CISIS</a></td><td><div><p>JDV_ArtereTronc_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.740.html">JDV_AspectLA_CISIS</a></td><td><div><p>JDV_AspectLA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.174.html">JDV_AutreSymptomeExNeuro_CISIS</a></td><td><div><p>JDV_AutreSymptomeExNeuro_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.793.html">JDV_Autre_Risque_CISIS</a></td><td><div><p>JDV_Autre_Risque_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.159.html">JDV_AutresSymptomesAVC_CISIS</a></td><td><div><p>JDV_AutresSymptomesAVC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.63.html">JDV_AvisMedicalComplementaire_CISIS</a></td><td><div><p>JDV_AvisMedicalComplementaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.102.html">JDV_BatterieExamen_CISIS</a></td><td><div><p>JDV_BatterieExamen_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.84.html">JDV_BilanTechnique_CISIS</a></td><td><div><p>JDV_BilanTechnique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.691.html">JDV_Bio_instruction_patient_CISIS</a></td><td><div><p>JDV_Bio_instruction_patient_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.46.html">JDV_CasSporadiqueFamilial_CISIS</a></td><td><div><p>JDV_CasSporadiqueFamilial_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.121.html">JDV_CauseAccidentDom_CISIS</a></td><td><div><p>JDV_CauseAccidentDom_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.116.html">JDV_CauseCesarienne_CISIS</a></td><td><div><p>JDV_CauseCesarienne_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.164.html">JDV_CddFA_CISIS</a></td><td><div><p>JDV_CddFA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.213.html">JDV_CerveletLoc_CISIS</a></td><td><div><p>JDV_CerveletLoc_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.71.html">JDV_ChecklistDLU_CISIS</a></td><td><div><p>JDV_ChecklistDLU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.72.html">JDV_ChecklistFLUDR_CISIS</a></td><td><div><p>JDV_ChecklistFLUDR_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.741.html">JDV_CirconstancesDeces_CISIS</a></td><td><div><p>JDV_CirconstancesDeces_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.143.html">JDV_ClasseTherapie_CISIS</a></td><td><div><p>JDV_ClasseTherapie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.497.html">JDV_ClassificationRingMessmer_CISIS</a></td><td><div><p>JDV_ClassificationRingMessmer_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.658.html">JDV_Classification_ACR_1_CISIS</a></td><td><div><p>JDV_Classification_ACR_1_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.650.html">JDV_Classification_ACR_2_CISIS</a></td><td><div><p>JDV_Classification_ACR_2_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.481.html">JDV_Classification_ACR_CISIS</a></td><td><div><p>JDV_Classification_ACR_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.657.html">JDV_Classification_ACR_Echographie_CISIS</a></td><td><div><p>JDV_Classification_ACR_Echographie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.648.html">JDV_ClicheTechniquementInsuffisant_CISIS</a></td><td><div><p>JDV_ClicheTechniquementInsuffisant_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.687.html">JDV_CodesDocumentImagerie_CISIS</a></td><td><div><p>JDV_CodesDocumentImagerie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.765.html">JDV_CompletudeDispensation_CISIS</a></td><td><div><p>JDV_CompletudeDispensation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.222.html">JDV_ComplicationDigestive_CISIS</a></td><td><div><p>JDV_ComplicationDigestive_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.218.html">JDV_ComplicationNeurologique_CISIS</a></td><td><div><p>JDV_ComplicationNeurologique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.219.html">JDV_ComplicationPulmonaire_CISIS</a></td><td><div><p>JDV_ComplicationPulmonaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.220.html">JDV_ComplicationThromboembolique_CISIS</a></td><td><div><p>JDV_ComplicationThromboembolique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.221.html">JDV_ComplicationUrinaire_CISIS</a></td><td><div><p>JDV_ComplicationUrinaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.217.html">JDV_Complication_CISIS</a></td><td><div><p>JDV_Complication_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.223.html">JDV_Complicationneuropsychiatriques_CISIS</a></td><td><div><p>JDV_Complicationneuropsychiatriques_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.726.html">JDV_ConclusionSimplifieeCCU_CISIS</a></td><td><div><p>JDV_ConclusionSimplifieeCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.149.html">JDV_Conditionnement_CISIS</a></td><td><div><p>JDV_Conditionnement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.85.html">JDV_ConduiteATenir_1_CISIS</a></td><td><div><p>JDV_ConduiteATenir_1_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.86.html">JDV_ConduiteATenir_2_CISIS</a></td><td><div><p>JDV_ConduiteATenir_2_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.87.html">JDV_ConduiteATenir_3_CISIS</a></td><td><div><p>JDV_ConduiteATenir_3_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.40.html">JDV_ContexteActivite_CISIS</a></td><td><div><p>JDV_ContexteActivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.722.html">JDV_ContexteExamenCCU_CISIS</a></td><td><div><p>JDV_ContexteExamenCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.170.html">JDV_ContreIndicThrombolyse_CISIS</a></td><td><div><p>JDV_ContreIndicThrombolyse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.659.html">JDV_Contre_indications_CISIS</a></td><td><div><p>JDV_Contre_indications_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.125.html">JDV_CouvertureSociale_CISIS</a></td><td><div><p>JDV_CouvertureSociale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.111.html">JDV_DateCons_CISIS</a></td><td><div><p>JDV_DateCons_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.62.html">JDV_DeficiencePhysique_CISIS</a></td><td><div><p>JDV_DeficiencePhysique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.68.html">JDV_DelimitationActivite_CISIS</a></td><td><div><p>JDV_DelimitationActivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.28.html">JDV_DensiteMammaire_CISIS</a></td><td><div><p>JDV_DensiteMammaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.792.html">JDV_Deplacement_CISIS</a></td><td><div><p>JDV_Deplacement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.70.html">JDV_DestinationTransfert_CISIS</a></td><td><div><p>JDV_DestinationTransfert_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.702.html">JDV_Destination_OBP_SNE_CISIS</a></td><td><div><p>JDV_Destination_OBP_SNE_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.712.html">JDV_DeveloppementPsychomoteur_CS24_CISIS</a></td><td><div><p>JDV_DeveloppementPsychomoteur_CS24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.632.html">JDV_Diagnostic_En_Attente_Melanome_CISIS</a></td><td><div><p>JDV_Diagnostic_En_Attente_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.634.html">JDV_Diagnostic_Etat_Ganglions_Melanome_CISIS</a></td><td><div><p>JDV_Diagnostic_Etat_Ganglions_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.494.html">JDV_Difficulte_CISIS</a></td><td><div><p>JDV_Difficulte_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.216.html">JDV_Dispositionpretherapeutique_CISIS</a></td><td><div><p>JDV_Dispositionpretherapeutique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.129.html">JDV_DureeAllaitement_CISIS</a></td><td><div><p>JDV_DureeAllaitement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.18.html">JDV_EncompassingEncounterCode_CISIS</a></td><td><div><p>JDV_EncompassingEncounterCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.760.html">JDV_EnfantExposeAuxEcrans_CS24_CISIS</a></td><td><div><p>JDV_EnfantExposeAuxEcrans_CS24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.736.html">JDV_EtatNaissance_CISIS</a></td><td><div><p>JDV_EtatNaissance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.734.html">JDV_EtatPerinee_CISIS</a></td><td><div><p>JDV_EtatPerinee_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.679.html">JDV_EtiologieAVC_CISIS</a></td><td><div><p>JDV_EtiologieAVC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.202.html">JDV_EtiologieHemorragie_CISIS</a></td><td><div><p>JDV_EtiologieHemorragie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.200.html">JDV_EtiologieInfarctus_CISIS</a></td><td><div><p>JDV_EtiologieInfarctus_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.511.html">JDV_EvaluationDepressionGeriatrique30_CISIS</a></td><td><div><p>JDV_EvaluationDepressionGeriatrique30_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.512.html">JDV_EvaluationDepressionGeriatriqueResultat_CISIS</a></td><td><div><p>JDV_EvaluationDepressionGeriatriqueResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.499.html">JDV_EvaluationDouleur_CISIS</a></td><td><div><p>JDV_EvaluationDouleur_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.69.html">JDV_EvaluationNeurocognitives_CISIS</a></td><td><div><p>JDV_EvaluationNeurocognitives_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.631.html">JDV_Evaluation_TILs_Melanome_CISIS</a></td><td><div><p>JDV_Evaluation_TILs_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.527.html">JDV_EvenementsAccouchement_CISIS</a></td><td><div><p>JDV_EvenementsAccouchement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.788.html">JDV_Evolution_CISIS</a></td><td><div><p>JDV_Evolution_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.192.html">JDV_ExamenBiochimieAUVN_CISIS</a></td><td><div><p>JDV_ExamenBiochimieAUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.224.html">JDV_ExamenBiochimieEUVN_CISIS</a></td><td><div><p>JDV_ExamenBiochimieEUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.27.html">JDV_ExamenClinique_CISIS</a></td><td><div><p>JDV_ExamenClinique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.647.html">JDV_ExamenComplementaire_CISIS</a></td><td><div><p>JDV_ExamenComplementaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.730.html">JDV_ExamenEnfantObligatoire_CISIS</a></td><td><div><p>JDV_ExamenEnfantObligatoire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.193.html">JDV_ExamenHematologieAUVN_CISIS</a></td><td><div><p>JDV_ExamenHematologieAUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.225.html">JDV_ExamenHematologieEUVN_CISIS</a></td><td><div><p>JDV_ExamenHematologieEUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.194.html">JDV_ExamenHemostaseAUVN_CISIS</a></td><td><div><p>JDV_ExamenHemostaseAUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.226.html">JDV_ExamenHemostaseEUVN_CISIS</a></td><td><div><p>JDV_ExamenHemostaseEUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.31.html">JDV_ExamensRealises_CISIS</a></td><td><div><p>JDV_ExamensRealises_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.678.html">JDV_FacteursDeRiquesAVC_CISIS</a></td><td><div><p>JDV_FacteursDeRiquesAVC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.490.html">JDV_FacteursDeRisqueProfessionnels_CISIS</a></td><td><div><p>JDV_FacteursDeRisqueProfessionnels_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.488.html">JDV_FacteursDeRisqueSociaux_CISIS</a></td><td><div><p>JDV_FacteursDeRisqueSociaux_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.26.html">JDV_FamilleFemmes_CISIS</a></td><td><div><p>JDV_FamilleFemmes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.89.html">JDV_FamilleID_CISIS</a></td><td><div><p>JDV_FamilleID_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.684.html">JDV_FluideRouteCodes_CISIS</a></td><td><div><p>JDV_FluideRouteCodes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.669.html">JDV_FonctionEtudieeScintigraphie_CISIS</a></td><td><div><p>JDV_FonctionEtudieeScintigraphie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.668.html">JDV_FonctionEtudieeTEP_CISIS</a></td><td><div><p>JDV_FonctionEtudieeTEP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.53.html">JDV_GIR_CISIS</a></td><td><div><p>JDV_GIR_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.150.html">JDV_Gene_CISIS</a></td><td><div><p>JDV_Gene_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.754.html">JDV_GesteReanimationNouveauNe_CISIS</a></td><td><div><p>JDV_GesteReanimationNouveauNe_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.477.html">JDV_GestionEffetsSecondaires_CISIS</a></td><td><div><p>JDV_GestionEffetsSecondaires_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.787.html">JDV_Gravite_CISIS</a></td><td><div><p>JDV_Gravite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.755.html">JDV_GroupeRhesus_CISIS</a></td><td><div><p>JDV_GroupeRhesus_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.13955.html">JDV_HL7_ActEncounterCode_CISIS</a></td><td><div><p>JDV_HL7_ActEncounterCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10199.html">JDV_HL7_ActMoodIntent_CISIS</a></td><td><div><p>JDV_HL7_ActMoodIntent_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.16866.html">JDV_HL7_ActPriority_CISIS</a></td><td><div><p>JDV_HL7_ActPriority_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.15933.html">JDV_HL7_ActStatus_CISIS</a></td><td><div><p>JDV_HL7_ActStatus_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.16621.html">JDV_HL7_ActSubstanceAdminSubstitutionCode_CISIS</a></td><td><div><p>JDV_HL7_ActSubstanceAdminSubstitutionCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.19708.html">JDV_HL7_ActSubstanceAdministrationCode_CISIS</a></td><td><div><p>JDV_HL7_ActSubstanceAdministrationCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.19709.html">JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS</a></td><td><div><p>JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.14570.html">JDV_HL7_AdministrableDrugForm_CISIS</a></td><td><div><p>JDV_HL7_AdministrableDrugForm_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.1.html">JDV_HL7_AdministrativeGender_CISIS</a></td><td><div><p>JDV_HL7_AdministrativeGender_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.4.642.3.164.html">JDV_HL7_ConditionClinical_CISIS</a></td><td><div><p>JDV_HL7_ConditionClinical_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10228.html">JDV_HL7_Confidentiality_CISIS</a></td><td><div><p>JDV_HL7_Confidentiality_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.78.html">JDV_HL7_ObservationInterpretation_CISIS</a></td><td><div><p>JDV_HL7_ObservationInterpretation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.19700.html">JDV_HL7_ObservationIntoleranceType_CISIS</a></td><td><div><p>JDV_HL7_ObservationIntoleranceType_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.14079.html">JDV_HL7_ObservationMethod_CISIS</a></td><td><div><p>JDV_HL7_ObservationMethod_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10267.html">JDV_HL7_ParticipationFunction_CISIS</a></td><td><div><p>JDV_HL7_ParticipationFunction_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10901.html">JDV_HL7_ParticipationType_CISIS</a></td><td><div><p>JDV_HL7_ParticipationType_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.19563.html">JDV_HL7_PersonalRelationshipRoleType_CISIS</a></td><td><div><p>JDV_HL7_PersonalRelationshipRoleType_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.16117.html">JDV_HL7_ROIOverlayShape_CISIS</a></td><td><div><p>JDV_HL7_ROIOverlayShape_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10430.html">JDV_HL7_RoleClassIngredientEntity_CISIS</a></td><td><div><p>JDV_HL7_RoleClassIngredientEntity_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.20386.html">JDV_HL7_SeverityObservationCode_CISIS</a></td><td><div><p>JDV_HL7_SeverityObservationCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.16042.html">JDV_HL7_SpecimenAdditiveEntity_CISIS</a></td><td><div><p>JDV_HL7_SpecimenAdditiveEntity_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.16515.html">JDV_HL7_SpecimenRoleType_CISIS</a></td><td><div><p>JDV_HL7_SpecimenRoleType_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.10706.html">JDV_HL7_TimingEvent_CISIS</a></td><td><div><p>JDV_HL7_TimingEvent_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.20561.html">JDV_HL7_WorkSchedule_CISIS</a></td><td><div><p>JDV_HL7_WorkSchedule_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.4.642.3.129.html">JDV_HL7_allergy_intolerance_criticality_CISIS</a></td><td><div><p>JDV_HL7_allergy_intolerance_criticality_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.4.642.3.1372.html">JDV_HL7_allergyintolerance_clinical_CISIS</a></td><td><div><p>JDV_HL7_allergyintolerance_clinical_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.4.642.3.166.html">JDV_HL7_condition_ver_status_CISIS</a></td><td><div><p>JDV_HL7_condition_ver_status_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-2.16.840.1.113883.1.11.20562.html">JDV_HL7_employmentStatus_CISIS</a></td><td><div><p>JDV_HL7_employmentStatus_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.791.html">JDV_Handicap_Deficit_CISIS</a></td><td><div><p>JDV_Handicap_Deficit_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.283.1.html">JDV_HealthStatusCodes_CISIS</a></td><td><div><p>JDV_HealthStatusCodes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.212.html">JDV_HemisphereLobaire_CISIS</a></td><td><div><p>JDV_HemisphereLobaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.211.html">JDV_HemisphereProfond_CISIS</a></td><td><div><p>JDV_HemisphereProfond_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.686.html">JDV_HumanSubstanceAdministrationSite_CISIS</a></td><td><div><p>JDV_HumanSubstanceAdministrationSite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.672.html">JDV_ImagerieObjectifsReference_CISIS</a></td><td><div><p>JDV_ImagerieObjectifsReference_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.621.html">JDV_ImmunizationApproachSiteCode_CISIS</a></td><td><div><p>JDV_ImmunizationApproachSiteCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.676.html">JDV_ImmunizationRouteCodes_CISIS</a></td><td><div><p>JDV_ImmunizationRouteCodes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.142.html">JDV_ImpactMutation_CISIS</a></td><td><div><p>JDV_ImpactMutation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.153.html">JDV_Importance_clinique_CISIS</a></td><td><div><p>JDV_Importance_clinique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.786.html">JDV_Imputabilite_CISIS</a></td><td><div><p>JDV_Imputabilite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.95.html">JDV_IndicateurAnormalite_CISIS</a></td><td><div><p>JDV_IndicateurAnormalite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.685.html">JDV_InfoPriseEnCharge_CISIS</a></td><td><div><p>JDV_InfoPriseEnCharge_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.706.html">JDV_Info_deces_CS8_CISIS</a></td><td><div><p>JDV_Info_deces_CS8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.670.html">JDV_InjectionPDC_TEP_CISIS</a></td><td><div><p>JDV_InjectionPDC_TEP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.197.html">JDV_InterpretationECG_CISIS</a></td><td><div><p>JDV_InterpretationECG_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.195.html">JDV_InvestigationsRealiseesAUNV_CISIS</a></td><td><div><p>JDV_InvestigationsRealiseesAUNV_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.227.html">JDV_InvestigationsRealiseesEUNV_CISIS</a></td><td><div><p>JDV_InvestigationsRealiseesEUNV_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.229.html">JDV_InvestigationsRealiseesSUNV_CISIS</a></td><td><div><p>JDV_InvestigationsRealiseesSUNV_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.47.html">JDV_InvestigationsRealisees_CISIS</a></td><td><div><p>JDV_InvestigationsRealisees_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.731.html">JDV_IssueGrossesse_CISIS</a></td><td><div><p>JDV_IssueGrossesse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.html">JDV_J01_XdsAuthorSpecialty_CISIS</a></td><td><div><p>XDS authorSpecialty CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.html">JDV_J02_XdsHealthcareFacilityTypeCode_CISIS</a></td><td><div><p>XDS healthcareFacilityTypeCode CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J03-XdsContentTypeCode-CISIS.html">JDV_J03_XdsContentTypeCode_CISIS</a></td><td><div><p>XDS contentTypeCode CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.467.html">JDV_J04_XdsPracticeSettingCode_CISIS</a></td><td><div><p>JDV_J04_XdsPracticeSettingCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J05-SubjectRole-CISIS.html">JDV_J05_SubjectRole_CISIS</a></td><td><div><p>subjectRole CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J06-XdsClassCode-CISIS.html">JDV_J06_XdsClassCode_CISIS</a></td><td><div><p>XDS classCode CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.471.html">JDV_J07_XdsTypeCode_CISIS</a></td><td><div><p>JDV_J07_XdsTypeCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.463.html">JDV_J08_XdsConfidentialityCode_CISIS</a></td><td><div><p>JDV_J08_XdsConfidentialityCode_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.html">JDV_J110_StatutVisibiliteDocument_CISIS</a></td><td><div><p>Restriction d'audience applicable aux objets référencés liste - CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J11-RelationPatient-CISIS.html">JDV_J11_RelationPatient_CISIS</a></td><td><div><p>Relation par rapport au patient - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J12-CiviliteTitre-CISIS.html">JDV_J12_CiviliteTitre_CISIS</a></td><td><div><p>Titre civilité - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J13-ResponsableConsent-CISIS.html">JDV_J13_ResponsableConsent_CISIS</a></td><td><div><p>Responsable consentement - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J140-EncounterParticipationType-CISIS.html">JDV_J140_EncounterParticipationType_CISIS</a></td><td><div><p>JDV_J140-EncounterParticipationType-CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.588.html">JDV_J141_RoleClass_CISIS</a></td><td><div><p>JDV_J141_RoleClass_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J142-TypeRencontre-CISIS.html">JDV_J142_TypeRencontre_CISIS</a></td><td><div><p>Type de prise en charge CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J143-AdministrativeGender-CISIS.html">JDV_J143_AdministrativeGender_CISIS</a></td><td><div><p>Sexe administratif CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.591.html">JDV_J144_ParticipationType_CISIS</a></td><td><div><p>JDV_J144_ParticipationType_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.html">JDV_J148_ReferenceRangeAppliesTo_CISIS</a></td><td><div><p>JDV pour le champ d'application de l'intervalle de référence</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.html">JDV_J14_QualiteRepresentantLegal_CISIS</a></td><td><div><p>Qualité représentant légal - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J161-Lateralite-CISIS.html">JDV_J161_Lateralite_CISIS</a></td><td><div><p>JDV pour spécifier la latéralité</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.html">JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS</a></td><td><div><p>Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J22-RestrictionAudienceVIHF-CISIS.html">JDV_J22_RestrictionAudienceVIHF_CISIS</a></td><td><div><p>Restriction d'audience pour les traces des VIHF</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J23-TypeNoteCahierLiaison-CISIS.html">JDV_J23_TypeNoteCahierLiaison_CISIS</a></td><td><div><p>Type de note du cahier de liaison - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J245-Civilite-CISIS.html">JDV_J245_Civilite_CISIS</a></td><td><div><p>Civilités CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.719.html">JDV_J246_Titre_CISIS</a></td><td><div><p>JDV_J246_Titre_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J24-ProfessionAuteurNote-CISIS.html">JDV_J24_ProfessionAuteurNote_CISIS</a></td><td><div><p>Profession de l'auteur de la note du cahier de liaison - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J38-ModeAcces-CISIS.html">JDV_J38_ModeAcces_CISIS</a></td><td><div><p>Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J46-TypeEvenementNotification-CISIS.html">JDV_J46_TypeEvenementNotification_CISIS</a></td><td><div><p>Liste de types d'évènement pour lesquels une notification est possible</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J47-FunctionCode-CISIS.html">JDV_J47_FunctionCode_CISIS</a></td><td><div><p>Jeux de valeurs des Rôles fonctionnels HL7 et CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J48-ProfessionNonPS-CISIS.html">JDV_J48_ProfessionNonPS_CISIS</a></td><td><div><p>Jeux de Valeurs des professions/spécialités des Non Ps</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J52-AvailabilityStatus-CISIS.html">JDV_J52_AvailabilityStatus_CISIS</a></td><td><div><p>Statut du document CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.html">JDV_J53_TypeRequeteGestionDossier_CISIS</a></td><td><div><p>Code de requêtes de gestion de dossier CI-SIS</p>
+</div></td></tr><tr><td><a href="ValueSet-JDV-J67-TraitementDocument-CISIS.html">JDV_J67_TraitementDocument_CISIS</a></td><td><div><p>Traitement du document-CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.77.html">JDV_JoursSemaine_CISIS</a></td><td><div><p>JDV_JoursSemaine_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.56.html">JDV_Juridique_CISIS</a></td><td><div><p>JDV_Juridique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.161.html">JDV_LateraliteManuelle_CISIS</a></td><td><div><p>JDV_LateraliteManuelle_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.586.html">JDV_LateraliteNCIT_CISIS</a></td><td><div><p>JDV_LateraliteNCIT_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.617.html">JDV_LateraliteTechniqueImagerie_CISIS</a></td><td><div><p>JDV_LateraliteTechniqueImagerie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.160.html">JDV_Lateralite_CISIS</a></td><td><div><p>JDV_Lateralite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.751.html">JDV_LesionTraumatiqueObstetricale_CISIS</a></td><td><div><p>JDV_LesionTraumatiqueObstetricale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.126.html">JDV_Lien_Assure_Beneficiaire_CISIS</a></td><td><div><p>JDV_Lien_Assure_Beneficiaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.743.html">JDV_LieuAccouchement_CISIS</a></td><td><div><p>JDV_LieuAccouchement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.64.html">JDV_LieudeVie_CISIS</a></td><td><div><p>JDV_LieudeVie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.215.html">JDV_LocaThromboseVeineuse_CISIS</a></td><td><div><p>JDV_LocaThromboseVeineuse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.694.html">JDV_LocalisationAnatomique_CISIS</a></td><td><div><p>JDV_LocalisationAnatomique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.594.html">JDV_LocalisationAnesthesie_CISIS</a></td><td><div><p>JDV_LocalisationAnesthesie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.206.html">JDV_LocalisationHemorragieCerebrale_CISIS</a></td><td><div><p>JDV_LocalisationHemorragieCerebrale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.205.html">JDV_LocalisationInfarctusCerebral_CISIS</a></td><td><div><p>JDV_LocalisationInfarctusCerebral_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.717.html">JDV_LocalisationPrelevementCCU_CISIS</a></td><td><div><p>JDV_LocalisationPrelevementCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.49.html">JDV_MalformationAntenatale_CISIS</a></td><td><div><p>JDV_MalformationAntenatale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.503.html">JDV_MediaType_ObservationMedia_CISIS</a></td><td><div><p>JDV_MediaType_ObservationMedia_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.656.html">JDV_MesureLentilleDelivree_CISIS</a></td><td><div><p>JDV_MesureLentilleDelivree_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.655.html">JDV_MesureLentillePrescrite_CISIS</a></td><td><div><p>JDV_MesureLentillePrescrite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.654.html">JDV_MesureTypeVerreDelivre_CISIS</a></td><td><div><p>JDV_MesureTypeVerreDelivre_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.652.html">JDV_MesureTypeVerrePrescrit_CISIS</a></td><td><div><p>JDV_MesureTypeVerrePrescrit_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.653.html">JDV_MesureVerreDelivre_CISIS</a></td><td><div><p>JDV_MesureVerreDelivre_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.651.html">JDV_MesureVerrePrescrit_CISIS</a></td><td><div><p>JDV_MesureVerrePrescrit_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.476.html">JDV_MesuresAssociees_CISIS</a></td><td><div><p>JDV_MesuresAssociees_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.155.html">JDV_MesuresProtectionConduiteAutomobile_CISIS</a></td><td><div><p>JDV_MesuresProtectionConduiteAutomobile_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.115.html">JDV_MethodeAccouchement_CISIS</a></td><td><div><p>JDV_MethodeAccouchement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.715.html">JDV_MethodeDeMesureAcuiteVisuelle_CISIS</a></td><td><div><p>JDV_MethodeDeMesureAcuiteVisuelle_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.151.html">JDV_MethodePreparationEchantillon_CISIS</a></td><td><div><p>JDV_MethodePreparationEchantillon_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.629.html">JDV_Microsatellite_Melanome_CISIS</a></td><td><div><p>JDV_Microsatellite_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.723.html">JDV_MilieuCytologieCCU_CISIS</a></td><td><div><p>JDV_MilieuCytologieCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.618.html">JDV_ModaliteAcquisition_CISIS</a></td><td><div><p>JDV_ModaliteAcquisition_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.73.html">JDV_ModaliteEntree_CISIS</a></td><td><div><p>JDV_ModaliteEntree_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.74.html">JDV_ModaliteSortie_CISIS</a></td><td><div><p>JDV_ModaliteSortie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.660.html">JDV_Modalite_demandeActeImagerie_CISIS</a></td><td><div><p>JDV_Modalite_demandeActeImagerie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.735.html">JDV_ModeAccouchement_CISIS</a></td><td><div><p>JDV_ModeAccouchement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.75.html">JDV_ModeAdministration_CISIS</a></td><td><div><p>JDV_ModeAdministration_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.140.html">JDV_ModeDeTransport_CISIS</a></td><td><div><p>JDV_ModeDeTransport_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.156.html">JDV_ModeDeVie_CISIS</a></td><td><div><p>JDV_ModeDeVie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.113.html">JDV_ModeDebutTravail_CISIS</a></td><td><div><p>JDV_ModeDebutTravail_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.744.html">JDV_ModeNaissance_CISIS</a></td><td><div><p>JDV_ModeNaissance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.204.html">JDV_ModeSortie_CISIS</a></td><td><div><p>JDV_ModeSortie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.700.html">JDV_ModeSortie_OBP_SCM_CISIS</a></td><td><div><p>JDV_ModeSortie_OBP_SCM_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.701.html">JDV_ModeSortie_OBP_SEM_CISIS</a></td><td><div><p>JDV_ModeSortie_OBP_SEM_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.699.html">JDV_ModeSortie_OBP_SNE_CISIS</a></td><td><div><p>JDV_ModeSortie_OBP_SNE_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.698.html">JDV_ModeSortie_OBP_SNM_CISIS</a></td><td><div><p>JDV_ModeSortie_OBP_SNM_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.688.html">JDV_ModificateurTopographique_CISIS</a></td><td><div><p>JDV_ModificateurTopographique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.585.html">JDV_Morphologie_CISIS</a></td><td><div><p>JDV_Morphologie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.622.html">JDV_MotifConsultationOphtalmologique_CISIS</a></td><td><div><p>JDV_MotifConsultationOphtalmologique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.745.html">JDV_MotifDeclenchementTravail_CISIS</a></td><td><div><p>JDV_MotifDeclenchementTravail_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.35.html">JDV_MotifDiagnostic_CISIS</a></td><td><div><p>JDV_MotifDiagnostic_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.88.html">JDV_MotifEchographie_CISIS</a></td><td><div><p>JDV_MotifEchographie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.681.html">JDV_MotifHospitalisationCSE_CISIS</a></td><td><div><p>JDV_MotifHospitalisationCSE_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.83.html">JDV_MotifMiseAJour_CISIS</a></td><td><div><p>JDV_MotifMiseAJour_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.187.html">JDV_NIHSSAtaxInt_CISIS</a></td><td><div><p>JDV_NIHSSAtaxInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.179.html">JDV_NIHSSConsInt_CISIS</a></td><td><div><p>JDV_NIHSSConsInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.183.html">JDV_NIHSSCvInt_CISIS</a></td><td><div><p>JDV_NIHSSCvInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.191.html">JDV_NIHSSDysInt_CISIS</a></td><td><div><p>JDV_NIHSSDysInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.178.html">JDV_NIHSSFonction_CISIS</a></td><td><div><p>JDV_NIHSSFonction_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.188.html">JDV_NIHSSLangInt_CISIS</a></td><td><div><p>JDV_NIHSSLangInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.181.html">JDV_NIHSSLoccInt_CISIS</a></td><td><div><p>JDV_NIHSSLoccInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.180.html">JDV_NIHSSLocqInt_CISIS</a></td><td><div><p>JDV_NIHSSLocqInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.186.html">JDV_NIHSSMiInt_CISIS</a></td><td><div><p>JDV_NIHSSMiInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.185.html">JDV_NIHSSMsInt_CISIS</a></td><td><div><p>JDV_NIHSSMsInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.189.html">JDV_NIHSSNeglInt_CISIS</a></td><td><div><p>JDV_NIHSSNeglInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.182.html">JDV_NIHSSOculInt_CISIS</a></td><td><div><p>JDV_NIHSSOculInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.184.html">JDV_NIHSSPfInt_CISIS</a></td><td><div><p>JDV_NIHSSPfInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.190.html">JDV_NIHSSSensInt_CISIS</a></td><td><div><p>JDV_NIHSSSensInt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.498.html">JDV_NVPO_CISIS</a></td><td><div><p>JDV_NVPO_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.8.html">JDV_NatureDiscussion_CISIS</a></td><td><div><p>JDV_NatureDiscussion_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.146.html">JDV_NatureFraction_CISIS</a></td><td><div><p>JDV_NatureFraction_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.141.html">JDV_NatureMaterielEtudie_CISIS</a></td><td><div><p>JDV_NatureMaterielEtudie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.630.html">JDV_Neurotropisme_Melanome_CISIS</a></td><td><div><p>JDV_Neurotropisme_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.483.html">JDV_NiveauDependance_CISIS</a></td><td><div><p>JDV_NiveauDependance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.108.html">JDV_NiveauEtude_CISIS</a></td><td><div><p>JDV_NiveauEtude_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.724.html">JDV_OBP_Result_Evenement_CISIS</a></td><td><div><p>JDV_OBP_Result_Evenement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.725.html">JDV_OBP_TestAudition_CISIS</a></td><td><div><p>JDV_OBP_TestAudition_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.1.html">JDV_OMSEchPerf_CISIS</a></td><td><div><p>JDV_OMSEchPerf_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.2.html">JDV_OMSInterpret_CISIS</a></td><td><div><p>JDV_OMSInterpret_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.41.html">JDV_ObjectifActivite_CISIS</a></td><td><div><p>JDV_ObjectifActivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.733.html">JDV_ObservationEnfant_CISIS</a></td><td><div><p>JDV_ObservationEnfant_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.514.html">JDV_ObservationEtatPatient_CISIS</a></td><td><div><p>JDV_ObservationEtatPatient_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.500.html">JDV_ObservationGrossesse_CISIS</a></td><td><div><p>JDV_ObservationGrossesse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.627.html">JDV_OeilExamine_CISIS</a></td><td><div><p>JDV_OeilExamine_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.623.html">JDV_OrientationBaseDuPrisme_CISIS</a></td><td><div><p>JDV_OrientationBaseDuPrisme_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.785.html">JDV_OrigineEffetIndesirable_CISIS</a></td><td><div><p>JDV_OrigineEffetIndesirable_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.637.html">JDV_PM_Melanome_CISIS</a></td><td><div><p>JDV_PM_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.636.html">JDV_PN_Melanome_CISIS</a></td><td><div><p>JDV_PN_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.635.html">JDV_PT_Melanome_CISIS</a></td><td><div><p>JDV_PT_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.138.html">JDV_ParticipantAdditionnelResultat_CISIS</a></td><td><div><p>JDV_ParticipantAdditionnelResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.137.html">JDV_ParticipantResultat_CISIS</a></td><td><div><p>JDV_ParticipantResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.704.html">JDV_Patho_1ere_semaine_CS8_CISIS</a></td><td><div><p>JDV_Patho_1ere_semaine_CS8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.38.html">JDV_PatientAdressePar_CISIS</a></td><td><div><p>JDV_PatientAdressePar_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.13.html">JDV_PhaseCancer_CISIS</a></td><td><div><p>JDV_PhaseCancer_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.680.html">JDV_PolypathologiesAVC_CISIS</a></td><td><div><p>JDV_PolypathologiesAVC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.746.html">JDV_PresentationFoetale_CISIS</a></td><td><div><p>JDV_PresentationFoetale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.232.html">JDV_PriseEnChargeReguliere_CISIS</a></td><td><div><p>JDV_PriseEnChargeReguliere_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.139.html">JDV_PriseEnChargeSpecifique_CISIS</a></td><td><div><p>JDV_PriseEnChargeSpecifique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.172.html">JDV_ProblemCodes_CISIS</a></td><td><div><p>JDV_ProblemCodes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.37.html">JDV_ProblemePPSPAERPA_CISIS</a></td><td><div><p>JDV_ProblemePPSPAERPA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.673.html">JDV_Procedure_CISIS</a></td><td><div><p>JDV_Procedure_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.42.html">JDV_ProfessionPersonnelActivite_CISIS</a></td><td><div><p>JDV_ProfessionPersonnelActivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.109.html">JDV_Profession_CISIS</a></td><td><div><p>JDV_Profession_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.91.html">JDV_ProfessionsExposees_CISIS</a></td><td><div><p>JDV_ProfessionsExposees_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.486.html">JDV_ProgressionCancer_CISIS</a></td><td><div><p>JDV_ProgressionCancer_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.515.html">JDV_ProtheseObjetPersonnel_CISIS</a></td><td><div><p>JDV_ProtheseObjetPersonnel_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.145.html">JDV_QualificationFraction_CISIS</a></td><td><div><p>JDV_QualificationFraction_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.620.html">JDV_QuantiteExpositionRayonnements_CISIS</a></td><td><div><p>JDV_QuantiteExpositionRayonnements_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.747.html">JDV_QuantiteLA_CISIS</a></td><td><div><p>JDV_QuantiteLA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.597.html">JDV_RCP_Appareil_CISIS</a></td><td><div><p>JDV_RCP_Appareil_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.598.html">JDV_RCP_Organe_CISIS</a></td><td><div><p>JDV_RCP_Organe_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.201.html">JDV_RaisonAbsenceEtiologie_CISIS</a></td><td><div><p>JDV_RaisonAbsenceEtiologie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.144.html">JDV_RaisonNonRealisation_CISIS</a></td><td><div><p>JDV_RaisonNonRealisation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.66.html">JDV_Readaptation_CISIS</a></td><td><div><p>JDV_Readaptation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.54.html">JDV_RealisationActivites_CISIS</a></td><td><div><p>JDV_RealisationActivites_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.112.html">JDV_RechAgHbS_CISIS</a></td><td><div><p>JDV_RechAgHbS_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.517.html">JDV_ReferenceRangeAppliesTo_CISIS</a></td><td><div><p>JDV_ReferenceRangeAppliesTo_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.695.html">JDV_RegionAnatomique_CISIS</a></td><td><div><p>JDV_RegionAnatomique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.708.html">JDV_Rencontre_CS8_CISIS</a></td><td><div><p>JDV_Rencontre_CS8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.759.html">JDV_Rencontre_CS9_CS24_CISIS</a></td><td><div><p>JDV_Rencontre_CS9_CS24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.758.html">JDV_ReperageTroubleNeurodeveloppement_CISIS</a></td><td><div><p>JDV_ReperageTroubleNeurodeveloppement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.154.html">JDV_RepriseProfessionnelle_CISIS</a></td><td><div><p>JDV_RepriseProfessionnelle_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.649.html">JDV_ResultatComparaison_CISIS</a></td><td><div><p>JDV_ResultatComparaison_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.783.html">JDV_ResultatDepistageAcideAscorbique_CISIS</a></td><td><div><p>JDV_ResultatDepistageAcideAscorbique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.773.html">JDV_ResultatDepistageBilirubinemie_CISIS</a></td><td><div><p>JDV_ResultatDepistageBilirubinemie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.778.html">JDV_ResultatDepistageBilirubinurie_CISIS</a></td><td><div><p>JDV_ResultatDepistageBilirubinurie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.771.html">JDV_ResultatDepistageCRP_CISIS</a></td><td><div><p>JDV_ResultatDepistageCRP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.769.html">JDV_ResultatDepistageCetonemie_CISIS</a></td><td><div><p>JDV_ResultatDepistageCetonemie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.770.html">JDV_ResultatDepistageCholesterol_CISIS</a></td><td><div><p>JDV_ResultatDepistageCholesterol_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.776.html">JDV_ResultatDepistageCorpsCetoniques_CISIS</a></td><td><div><p>JDV_ResultatDepistageCorpsCetoniques_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.777.html">JDV_ResultatDepistageGlucose_CISIS</a></td><td><div><p>JDV_ResultatDepistageGlucose_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.768.html">JDV_ResultatDepistageGlycemie_CISIS</a></td><td><div><p>JDV_ResultatDepistageGlycemie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.781.html">JDV_ResultatDepistageHematurie_CISIS</a></td><td><div><p>JDV_ResultatDepistageHematurie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.782.html">JDV_ResultatDepistageLeucocyturie_CISIS</a></td><td><div><p>JDV_ResultatDepistageLeucocyturie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.780.html">JDV_ResultatDepistageNitriturie_CISIS</a></td><td><div><p>JDV_ResultatDepistageNitriturie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.775.html">JDV_ResultatDepistageProteinurie_CISIS</a></td><td><div><p>JDV_ResultatDepistageProteinurie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.772.html">JDV_ResultatDepistageRuptureMembranePH_CISIS</a></td><td><div><p>JDV_ResultatDepistageRuptureMembranePH_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.779.html">JDV_ResultatDepistageUrobilinogenurie_CISIS</a></td><td><div><p>JDV_ResultatDepistageUrobilinogenurie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.761.html">JDV_ResultatDepistage_CISIS</a></td><td><div><p>JDV_ResultatDepistage_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.721.html">JDV_ResultatExamenCytologiqueCCU_CISIS</a></td><td><div><p>JDV_ResultatExamenCytologiqueCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.720.html">JDV_ResultatRechercheHPVCCU_CISIS</a></td><td><div><p>JDV_ResultatRechercheHPVCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.135.html">JDV_RisquePourEntourage_CISIS</a></td><td><div><p>JDV_RisquePourEntourage_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.134.html">JDV_RisquePourUsager_CISIS</a></td><td><div><p>JDV_RisquePourUsager_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.677.html">JDV_RouteofAdministration_CISIS</a></td><td><div><p>JDV_RouteofAdministration_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.689.html">JDV_SOPClass_CISIS</a></td><td><div><p>JDV_SOPClass_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.501.html">JDV_ScoreASA_CISIS</a></td><td><div><p>JDV_ScoreASA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.507.html">JDV_ScoreBradenActivite_CISIS</a></td><td><div><p>JDV_ScoreBradenActivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.504.html">JDV_ScoreBradenComponent_CISIS</a></td><td><div><p>JDV_ScoreBradenComponent_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.510.html">JDV_ScoreBradenFrictionCisaillement_CISIS</a></td><td><div><p>JDV_ScoreBradenFrictionCisaillement_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.506.html">JDV_ScoreBradenHumidite_CISIS</a></td><td><div><p>JDV_ScoreBradenHumidite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.508.html">JDV_ScoreBradenMobilite_CISIS</a></td><td><div><p>JDV_ScoreBradenMobilite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.509.html">JDV_ScoreBradenNutrition_CISIS</a></td><td><div><p>JDV_ScoreBradenNutrition_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.505.html">JDV_ScoreBradenPerceptionSensorielle_CISIS</a></td><td><div><p>JDV_ScoreBradenPerceptionSensorielle_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.513.html">JDV_ScoreBradenResultat_CISIS</a></td><td><div><p>JDV_ScoreBradenResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.502.html">JDV_ScoreCormack_CISIS</a></td><td><div><p>JDV_ScoreCormack_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.493.html">JDV_ScoreDuke_CISIS</a></td><td><div><p>JDV_ScoreDuke_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.175.html">JDV_ScoreFisher_CISIS</a></td><td><div><p>JDV_ScoreFisher_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.177.html">JDV_ScoreGlasgow_CISIS</a></td><td><div><p>JDV_ScoreGlasgow_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.484.html">JDV_ScoreMallampati_CISIS</a></td><td><div><p>JDV_ScoreMallampati_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.784.html">JDV_ScorePerformanceECOG_CISIS</a></td><td><div><p>JDV_ScorePerformanceECOG_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.176.html">JDV_ScoreRankin_CISIS</a></td><td><div><p>JDV_ScoreRankin_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.475.html">JDV_SecteurActiviteEmployeur_CISIS</a></td><td><div><p>JDV_SecteurActiviteEmployeur_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.485.html">JDV_Sedentarite_CISIS</a></td><td><div><p>JDV_Sedentarite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.675.html">JDV_SeveriteObservation_CISIS</a></td><td><div><p>JDV_SeveriteObservation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.171.html">JDV_SignesVitaux_CISIS</a></td><td><div><p>JDV_SignesVitaux_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.710.html">JDV_SignesVitaux_CS24_CISIS</a></td><td><div><p>JDV_SignesVitaux_CS24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.703.html">JDV_SignesVitaux_CS8_CISIS</a></td><td><div><p>JDV_SignesVitaux_CS8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.709.html">JDV_SignesVitaux_CS9_CISIS</a></td><td><div><p>JDV_SignesVitaux_CS9_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.169.html">JDV_SiteIntervention_CISIS</a></td><td><div><p>JDV_SiteIntervention_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.230.html">JDV_SituationMedicale_CISIS</a></td><td><div><p>JDV_SituationMedicale_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.283.4.html">JDV_SocialHistoryCodes_CISIS</a></td><td><div><p>JDV_SocialHistoryCodes_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.79.html">JDV_SoinsOncoDeSupport_CISIS</a></td><td><div><p>JDV_SoinsOncoDeSupport_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.756.html">JDV_StaticSEMprocedures_CISIS</a></td><td><div><p>JDV_StaticSEMprocedures_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.45.html">JDV_StatutActuelDiagnostic_CISIS</a></td><td><div><p>JDV_StatutActuelDiagnostic_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.17.html">JDV_StatutCasPresente_CISIS</a></td><td><div><p>JDV_StatutCasPresente_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.32.html">JDV_StatutDocPPSPAERPA_CISIS</a></td><td><div><p>JDV_StatutDocPPSPAERPA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.93.html">JDV_StatutDoc_CISIS</a></td><td><div><p>JDV_StatutDoc_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.165.html">JDV_StatutEvt_CISIS</a></td><td><div><p>JDV_StatutEvt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.671.html">JDV_StatutGrossesse_CISIS</a></td><td><div><p>JDV_StatutGrossesse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.16.html">JDV_StatutQuorum_CISIS</a></td><td><div><p>JDV_StatutQuorum_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.96.html">JDV_StatutResultat_CISIS</a></td><td><div><p>JDV_StatutResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.667.html">JDV_StatutTabagique_CISIS</a></td><td><div><p>JDV_StatutTabagique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.82.html">JDV_StructuresDeSoins_CISIS</a></td><td><div><p>JDV_StructuresDeSoins_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.487.html">JDV_SupportNutritionnel_CISIS</a></td><td><div><p>JDV_SupportNutritionnel_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.157.html">JDV_SymptomesAVC_CISIS</a></td><td><div><p>JDV_SymptomesAVC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.522.html">JDV_TNM_pTNM_pM_2_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pM_2_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.518.html">JDV_TNM_pTNM_pM_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pM_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.520.html">JDV_TNM_pTNM_pN_1_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pN_1_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.525.html">JDV_TNM_pTNM_pN_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.519.html">JDV_TNM_pTNM_pT_1_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pT_1_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.521.html">JDV_TNM_pTNM_pT_2_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pT_2_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.523.html">JDV_TNM_pTNM_pT_3_CISIS</a></td><td><div><p>JDV_TNM_pTNM_pT_3_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.50.html">JDV_Taille_CISIS</a></td><td><div><p>JDV_Taille_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.645.html">JDV_Technique_imagerie_D2LM_CISIS</a></td><td><div><p>JDV_Technique_imagerie_D2LM_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.48.html">JDV_TechniquesDiagnostic_CISIS</a></td><td><div><p>JDV_TechniquesDiagnostic_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.196.html">JDV_TerritoireInfarctus_CISIS</a></td><td><div><p>JDV_TerritoireInfarctus_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.162.html">JDV_TopoTrouble_CISIS</a></td><td><div><p>JDV_TopoTrouble_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.682.html">JDV_Traite_NonTraite_CISIS</a></td><td><div><p>JDV_Traite_NonTraite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.55.html">JDV_TraitementPreventif_CISIS</a></td><td><div><p>JDV_TraitementPreventif_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.596.html">JDV_TraitementSoins_FRCP_CISIS</a></td><td><div><p>JDV_TraitementSoins_FRCP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.57.html">JDV_TraitementSuivi_CISIS</a></td><td><div><p>JDV_TraitementSuivi_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.737.html">JDV_TransfertMutation_CISIS</a></td><td><div><p>JDV_TransfertMutation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.158.html">JDV_TroubleVisuel_CISIS</a></td><td><div><p>JDV_TroubleVisuel_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.729.html">JDV_TrousseCCU_CISIS</a></td><td><div><p>JDV_TrousseCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.281.21.html">JDV_Tumeur_CISIS</a></td><td><div><p>JDV_Tumeur_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.81.html">JDV_TypeAccompagnementSocioPro_CISIS</a></td><td><div><p>JDV_TypeAccompagnementSocioPro_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.228.html">JDV_TypeActeEUVN_CISIS</a></td><td><div><p>JDV_TypeActeEUVN_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.739.html">JDV_TypeActePostPartum_CISIS</a></td><td><div><p>JDV_TypeActePostPartum_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.753.html">JDV_TypeAllaitementNouveauNe_CISIS</a></td><td><div><p>JDV_TypeAllaitementNouveauNe_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.114.html">JDV_TypeAnalgesie_CISIS</a></td><td><div><p>JDV_TypeAnalgesie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.749.html">JDV_TypeAnesthesieApresNaissance_CISIS</a></td><td><div><p>JDV_TypeAnesthesieApresNaissance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.748.html">JDV_TypeAnesthesieAvantNaissance_CISIS</a></td><td><div><p>JDV_TypeAnesthesieAvantNaissance_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.492.html">JDV_TypeAnesthesie_CISIS</a></td><td><div><p>JDV_TypeAnesthesie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.152.html">JDV_TypeConclusion_CISIS</a></td><td><div><p>JDV_TypeConclusion_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.644.html">JDV_TypeDeDistanceDeVisualisation_CISIS</a></td><td><div><p>JDV_TypeDeDistanceDeVisualisation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.626.html">JDV_TypeDeLentilles_CISIS</a></td><td><div><p>JDV_TypeDeLentilles_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.642.html">JDV_TypeDeMesureAcuiteVisuelle_CISIS</a></td><td><div><p>JDV_TypeDeMesureAcuiteVisuelle_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.641.html">JDV_TypeDeMesureDeRefraction_CISIS</a></td><td><div><p>JDV_TypeDeMesureDeRefraction_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.643.html">JDV_TypeDeMesureDispositifOculaire_CISIS</a></td><td><div><p>JDV_TypeDeMesureDispositifOculaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.624.html">JDV_TypeDePrisme_CISIS</a></td><td><div><p>JDV_TypeDePrisme_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.76.html">JDV_TypeDeSuivi_CISIS</a></td><td><div><p>JDV_TypeDeSuivi_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.728.html">JDV_TypeDeTestRealiseCCU_CISIS</a></td><td><div><p>JDV_TypeDeTestRealiseCCU_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.625.html">JDV_TypeDeVerresPrescrits_CISIS</a></td><td><div><p>JDV_TypeDeVerresPrescrits_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.166.html">JDV_TypeDiabete_CISIS</a></td><td><div><p>JDV_TypeDiabete_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.136.html">JDV_TypeDirectiveAnticipee_CISIS</a></td><td><div><p>JDV_TypeDirectiveAnticipee_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.716.html">JDV_TypeDispositifOcculaire_CISIS</a></td><td><div><p>JDV_TypeDispositifOcculaire_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.65.html">JDV_TypeDossier_CISIS</a></td><td><div><p>JDV_TypeDossier_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.794.html">JDV_TypeEvenementIndesirablePrevisible_CISIS</a></td><td><div><p>JDV_TypeEvenementIndesirablePrevisible_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.128.html">JDV_TypeGarde_CISIS</a></td><td><div><p>JDV_TypeGarde_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.39.html">JDV_TypeHisto_EtatTumoral_CISIS</a></td><td><div><p>JDV_TypeHisto_EtatTumoral_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.750.html">JDV_TypeInterventionVoieBasse_CISIS</a></td><td><div><p>JDV_TypeInterventionVoieBasse_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.168.html">JDV_TypeIntervention_CISIS</a></td><td><div><p>JDV_TypeIntervention_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.524.html">JDV_TypeIntubation_CISIS</a></td><td><div><p>JDV_TypeIntubation_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.29.html">JDV_TypeLecture_CISIS</a></td><td><div><p>JDV_TypeLecture_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.203.html">JDV_TypeLesionImagerie_CISIS</a></td><td><div><p>JDV_TypeLesionImagerie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.33.html">JDV_TypeMammographie_CISIS</a></td><td><div><p>JDV_TypeMammographie_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.167.html">JDV_TypeMigraine_CISIS</a></td><td><div><p>JDV_TypeMigraine_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.148.html">JDV_TypePrelevOrigine_CISIS</a></td><td><div><p>JDV_TypePrelevOrigine_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.117.html">JDV_TypePres_CISIS</a></td><td><div><p>JDV_TypePres_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.25.html">JDV_TypePriseEnChargePPSPAERPA_CISIS</a></td><td><div><p>JDV_TypePriseEnChargePPSPAERPA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.231.html">JDV_TypePriseEnCharge_CISIS</a></td><td><div><p>JDV_TypePriseEnCharge_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.592.html">JDV_TypeProduitSanguinLabile_CISIS</a></td><td><div><p>JDV_TypeProduitSanguinLabile_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.291.html">JDV_TypeRencontre_CISIS</a></td><td><div><p>JDV_TypeRencontre_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.697.html">JDV_TypeRencontre_OBP_CISIS</a></td><td><div><p>JDV_TypeRencontre_OBP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.147.html">JDV_TypeResultat_CISIS</a></td><td><div><p>JDV_TypeResultat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.127.html">JDV_TypeService_CISIS</a></td><td><div><p>JDV_TypeService_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.593.html">JDV_TypeSondeGastrique_CISIS</a></td><td><div><p>JDV_TypeSondeGastrique_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.173.html">JDV_TypeTraitementIV_CISIS</a></td><td><div><p>JDV_TypeTraitementIV_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.478.html">JDV_TypeTraitementPPS_CISIS</a></td><td><div><p>JDV_TypeTraitementPPS_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.595.html">JDV_TypeTraitement_FRCP_CISIS</a></td><td><div><p>JDV_TypeTraitement_FRCP_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.638.html">JDV_Type_Limite_Profonde_Envahie_Melanome_CISIS</a></td><td><div><p>JDV_Type_Limite_Profonde_Envahie_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.633.html">JDV_Type_Limites_Laterales_Envahies_Melanome_CISIS</a></td><td><div><p>JDV_Type_Limites_Laterales_Envahies_Melanome_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.19.html">JDV_UFCV_CodEntree_CISIS</a></td><td><div><p>JDV_UFCV_CodEntree_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.10.html">JDV_UFCV_CompProt_CISIS</a></td><td><div><p>JDV_UFCV_CompProt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.17.html">JDV_UFCV_Connx_CISIS</a></td><td><div><p>JDV_UFCV_Connx_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.18.html">JDV_UFCV_EffetINR_CISIS</a></td><td><div><p>JDV_UFCV_EffetINR_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.15.html">JDV_UFCV_Impl_CISIS</a></td><td><div><p>JDV_UFCV_Impl_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.4.html">JDV_UFCV_Lat_CISIS</a></td><td><div><p>JDV_UFCV_Lat_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.1.html">JDV_UFCV_MatImpl_CISIS</a></td><td><div><p>JDV_UFCV_MatImpl_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.12.html">JDV_UFCV_MotImplEndoC_CISIS</a></td><td><div><p>JDV_UFCV_MotImplEndoC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.13.html">JDV_UFCV_MotImpl_CISIS</a></td><td><div><p>JDV_UFCV_MotImpl_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.6.html">JDV_UFCV_NYHA_CISIS</a></td><td><div><p>JDV_UFCV_NYHA_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.7.html">JDV_UFCV_PolarSnd_CISIS</a></td><td><div><p>JDV_UFCV_PolarSnd_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.9.html">JDV_UFCV_ProtValv_CISIS</a></td><td><div><p>JDV_UFCV_ProtValv_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.2.html">JDV_UFCV_SiteImp_CISIS</a></td><td><div><p>JDV_UFCV_SiteImp_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.14.html">JDV_UFCV_TypEndoC_CISIS</a></td><td><div><p>JDV_UFCV_TypEndoC_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.20.html">JDV_UFCV_TypEndoPt_CISIS</a></td><td><div><p>JDV_UFCV_TypEndoPt_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.16.html">JDV_UFCV_TypVal_CISIS</a></td><td><div><p>JDV_UFCV_TypVal_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.11.html">JDV_UFCV_TypeDMCard_CISIS</a></td><td><div><p>JDV_UFCV_TypeDMCard_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.4.2.8.html">JDV_UFCV_VoieAbord_CISIS</a></td><td><div><p>JDV_UFCV_VoieAbord_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.94.html">JDV_UsageDrogues_CISIS</a></td><td><div><p>JDV_UsageDrogues_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.107.html">JDV_VaccinCSE24_CISIS</a></td><td><div><p>JDV_VaccinCSE24_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.105.html">JDV_VaccinCSE8_CISIS</a></td><td><div><p>JDV_VaccinCSE8_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.106.html">JDV_VaccinCSE9_CISIS</a></td><td><div><p>JDV_VaccinCSE9_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.133.html">JDV_VieEnCollectivite_CISIS</a></td><td><div><p>JDV_VieEnCollectivite_CISIS</p>
+</div></td></tr><tr><td><a href="ValueSet-1.2.250.1.213.1.1.5.491.html">JDV_VoieAbord_CISIS</a></td><td><div><p>JDV_VoieAbord_CISIS</p>
+</div></td></tr></table>
+    </div>
+  
+  </div>
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+
+
+
+		$( "#Ahistoire" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#histoire" ).css("display", "");
+
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#histoire" ).addClass("active");	
+
+		} );
+
+	   
+	   
+		$( "#Adownload" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#download" ).css("display", "");
+
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#Adownload" ).addClass("active");	
+
+		} );
+	} );
+</script>    
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="jdv-smt.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="jdv-nos.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 23, 2024 13:01+0000">2024-07-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: #81BEF7" target="_blank" href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose">New Issue</a>
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+  <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="assets/js/addOnto.js"> </script>
+  <!-- Fin ajout ANS -->
+
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+
+
+  <!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+          <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+              <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li>
+               -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>
+
+
+
