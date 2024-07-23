@@ -1,0 +1,23 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/r5/fhir-single.xsd">
+    
+  Vous touverez ici la liste des JDV du CI-SIS.  
+  <br/>
+    <br/>
+
+
+    <ul class="nav nav-tabs">
+    <li><a href="jdv.html">Ensemble des JDV</a></li>
+    <li><a href="jdv-smt.html">JDV du SMT</a></li>         
+    <li  class="active"><a href="#" >JDV du CI-SIS</a></li>      
+    <li><a href="jdv-nos.html" >JDV du NOS</a></li>
+    <li><a href="jdv-retired.html" >JDV (Retired)</a></li>     
+        
+    <li><a href="jdv-telechargement.html">Téléchargement</a></li>
+  </ul>
+
+        <br/>
+    <div id="orig">
+      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and name like '%_CISIS%'  %}
+    </div>
+  
+  </div>
