@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-  function loadHistoire() {
+$("#Ahistoire").click(function(){
 
     $.ajax({
     type: 'get',
@@ -27,8 +27,8 @@ $(document).ready(function(){
     .always(() => {
       });
 
-    }
-
+    
+});
 
 
 
