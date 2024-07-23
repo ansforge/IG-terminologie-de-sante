@@ -17,7 +17,7 @@ with PySaxonProcessor(license=False) as proc:
     for filename in os.listdir(dir_path):
         # vérifier si c'est un fichier
         if os.path.isfile(os.path.join(dir_path, filename)):
-            #print(filename)
+            print(filename)
             matchCS = re.match(r'CodeSystem-(.*)\.xml$', filename)
             if matchCS:
                 matchedValue = matchCS.group(1)
