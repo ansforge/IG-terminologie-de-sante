@@ -15,8 +15,30 @@ $('#idHistoire').html("");
       if (data.entry != null) {   
         $.each(data.entry, function (i, obj) { 
         var content = '<tr>' ;
-        content += '<td  ><a href="' + obj.id  +  '?_summary=true">' + obj.resource.meta.versionId +'</a></td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
-        content += '</tr>';
+        content += '<td  > obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
+	content +='<table>';
+	content +='<thead><tr> <td>Operation</td><td>Chemin</td><td>Nom</td><td>Précédent</td> <td>Valeur</td></tr></thead><tbody>';		
+		    $.ajax({
+		    type: 'get',
+		    url: "https://smt.esante.gouv.fr/fhir/' + obj.id  +  '/$diff",
+		    contentType: 'application/json',  
+		    dataType:"json",     
+		  })
+		    .done((data) => {
+		
+		      if (data.entry != null) {   
+		        $.each(data.parameter, function (i, obj) { 
+		        var content = '<tr>' ;
+		        content += '<td  >' +  +'</td><td  >' + obj[0].valueCode +'</td><td>' + obj[1].valueString  +'</td><td> ' + obj[2].valueString + '</td><td> '+ obj[3].valueString   +'</td>';
+		        
+				
+			content += '</tr>';
+		         $('#idHistoire').append(content);
+		        });
+		     }   
+		    });		
+	content +='</tbody></table>';	
+	content += '</tr>';
          $('#idHistoire').append(content);
         });
      }   
