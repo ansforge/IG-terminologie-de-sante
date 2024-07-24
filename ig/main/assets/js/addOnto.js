@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $("#Ahistoire").click(function(){
-
+$('#idHistoire').html("");
     $.ajax({
     type: 'get',
     url: "https://smt.esante.gouv.fr/fhir/" + $('#typeValue').val() + "/" + $('#idValue').val() + "/_history?_summary=true",
@@ -15,7 +15,7 @@ $("#Ahistoire").click(function(){
       if (data.entry != null) {   
         $.each(data.entry, function (i, obj) { 
         var content = '<tr>' ;
-        content += '<td  >' + obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.request.method  +'</td><td> ' +  + obj.response.lastModified  +'</td>';
+        content += '<td  ><a href="' + obj.id  +  '?_summary=true">' + obj.resource.meta.versionId +'</a></td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
         content += '</tr>';
          $('#idHistoire').append(content);
         });
