@@ -15,7 +15,7 @@ $('#idHistoire').html("");
       if (data.entry != null) {   
         $.each(data.entry, function (i, obj) { 
         var content = '<tr>' ;
-        content += '<td  > obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
+        content += '<td  >'+  obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
 	content +='<table>';
 	content +='<thead><tr> <td>Operation</td><td>Chemin</td><td>Nom</td><td>Précédent</td> <td>Valeur</td></tr></thead><tbody>';		
 		    $.ajax({
@@ -29,7 +29,7 @@ $('#idHistoire').html("");
 		      if (data.entry != null) {   
 		        $.each(data.parameter, function (i, obj) { 
 		        var content = '<tr>' ;
-		        content += '<td  >' +  +'</td><td  >' + obj[0].valueCode +'</td><td>' + obj[1].valueString  +'</td><td> ' + obj[2].valueString + '</td><td> '+ obj[3].valueString   +'</td>';
+		        content += '<td>' + obj[0].valueCode +'</td><td>' + obj[1].valueString  +'</td><td> ' + obj[2].valueString + '</td><td> '+ obj[3].valueString   +'</td>';
 		        
 				
 			content += '</tr>';
