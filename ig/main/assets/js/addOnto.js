@@ -20,7 +20,7 @@ $('#idHistoire').html("");
 	content +='<thead><tr> <td>Operation</td><td>Chemin</td><td>Nom</td><td>Précédent</td> <td>Valeur</td></tr></thead><tbody>';		
 		    $.ajax({
 		    type: 'get',
-		    url: "https://smt.esante.gouv.fr/fhir/' + obj.id  +  '/$diff",
+		    url: "https://smt.esante.gouv.fr/fhir/" + obj.id  +  "/$diff",
 		    contentType: 'application/json',  
 		    dataType:"json",     
 		  })
