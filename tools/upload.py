@@ -27,7 +27,15 @@ async def main():
                 f.write(json.dumps(CodeSystem))      
    
 
- 
+     # Search for NamingSystem
+    resources = client.resources('NamingSystem')  # Return lazy search set
+    list_namingSystem = await resources.fetch()  
+    for e_namingSystem in list_namingSystem :
+        print (e_namingSystem["name"])
+        CodeSystem = await client.reference('NamingSystem', e_namingSystem["id"]).to_resource()
+        f = open('../input/ontoserver/NamingSystem/'+ e_namingSystem["name"] + ".json", "w", encoding="utf-8") 
+        f.write(json.dumps(e_namingSystem)) 
+
 
     # Search for valueSet
     resources = client.resources('ValueSet')  # Return lazy search set
