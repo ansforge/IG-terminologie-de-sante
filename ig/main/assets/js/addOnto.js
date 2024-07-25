@@ -3,8 +3,10 @@ $(document).ready(function(){
 
 
 $("#Ahistoire").click(function(){
-$('#idHistoire').html("");
-    $.ajax({
+$('#idHistoire').html('<div id="histoire" style="display:none"><table class="grid table table-bordered"> <thead> <tr> <td>Histoire</td> <td>Version</td>        <td>Demande</td>       <td>Resultat</td> <td>Date</td>    </tr></thead>    <tbody id="idHistoire"> </tbody> </table>  </div>	      	      ');
+
+
+$.ajax({
     type: 'get',
     url: "https://smt.esante.gouv.fr/fhir/" + $('#typeValue').val() + "/" + $('#idValue').val() + "/_history?_summary=true",
     contentType: 'application/json',  
@@ -15,9 +17,14 @@ $('#idHistoire').html("");
       if (data.entry != null) {   
         $.each(data.entry, function (i, obj) { 
         var content = '<tr>' ;
-        content += '<td  >'+  obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
-	content +='<table>';
-	content +='<thead><tr> <td>Operation</td><td>Chemin</td><td>Nom</td><td>Précédent</td> <td>Valeur</td></tr></thead><tbody>';		
+        content += '<td>'+  obj.resource.meta.versionId +'</td><td  >' + obj.resource.version +'</td><td>' + obj.response.method  +'</td><td> ' + obj.response.status  + '</td><td> '+ obj.response.lastModified  +'</td>';
+        content += '</tr>';
+        $('#idHistoire').append(content);
+        
+    	
+    	content ='<tr><td colspan="5"><table style="font-size:10px" class="table-striped"><tr><thead style="background-color:grey"><tr><td>Operation</td><td>Chemin</td><td>Nom</td><td>Précédent</td> <td>Valeur</td></tr></thead></tr><tbody id="histoire'+ obj.resource.meta.versionId + '"></tbody></tr></table></td></tr>';		
+        console.log("https://smt.esante.gouv.fr/fhir/" + obj.id  +  "/$diff");   
+        $('#idHistoire').append(content);          
 		    $.ajax({
 		    type: 'get',
 		    url: "https://smt.esante.gouv.fr/fhir/" + obj.id  +  "/$diff",
@@ -25,21 +32,37 @@ $('#idHistoire').html("");
 		    dataType:"json",     
 		  })
 		    .done((data) => {
-		
-		      if (data.entry != null) {   
-		        $.each(data.parameter, function (i, obj) { 
-		        content += '<tr>' ;
-		        content += '<td>' + obj[0].valueCode +'</td><td>' + obj[1].valueString  +'</td><td> ' + obj[2].valueString + '</td><td> '+ obj[3].valueString   +'</td>';
-		        
+        	console.log(data);
+		      if (data.parameter != null) {   
+		        $.each(data.parameter, function (i, obj2) { 
+                    var operation = "";
+                    var chemin  = "";
+                    var nom  = "";
+                    var precedent ="";
+                    var valeur ="";
+                    $.each(obj2.part, function (ipart, objPart) { 
+                        if(Object.values(objPart)[0] == "type")
+                            operation = Object.values(objPart)[1];
+                        if(Object.values(objPart)[0] == "path")
+                            chemin = Object.values(objPart)[1];          
+                        if(Object.values(objPart)[0] == "name")
+                            nom = Object.values(objPart)[1];                          
+                        if(Object.values(objPart)[0] == "value")
+                            valeur = Object.values(objPart)[1];     
+                        if(Object.values(objPart)[0] == "previousValue")
+                            precedent = Object.values(objPart)[1];                                                
+                    });
+		        content = '<tr><td>' + operation +'</td><td>' + chemin +'</td><td> ' + nom+ '</td><td> '+ precedent  +'</td><td>' + valeur  +  '</td></tr>';
+                console.log(content);    
+		         $('#histoire'+obj.resource.meta.versionId).append(content);    
 				
-			content += '</tr>';
+
 		        });
 		     }   
 		    });		
-	content +='</tbody></table>';	
-	content += '</tr>';
-         $('#idHistoire').append(content);
+
         });
+
      }   
     })
     .fail((err) => {
@@ -47,6 +70,9 @@ $('#idHistoire').html("");
     })
     .always(() => {
       });
+
+
+	
 
     
 });
