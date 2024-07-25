@@ -28,12 +28,11 @@ $('#idHistoire').html("");
 		
 		      if (data.entry != null) {   
 		        $.each(data.parameter, function (i, obj) { 
-		        var content = '<tr>' ;
+		        content += '<tr>' ;
 		        content += '<td>' + obj[0].valueCode +'</td><td>' + obj[1].valueString  +'</td><td> ' + obj[2].valueString + '</td><td> '+ obj[3].valueString   +'</td>';
 		        
 				
 			content += '</tr>';
-		         $('#idHistoire').append(content);
 		        });
 		     }   
 		    });		
