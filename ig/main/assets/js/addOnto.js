@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $("#Ahistoire").click(function(){
-$('#idHistoire').html('<div id="histoire" style="display:none"><table class="grid table table-bordered"> <thead> <tr> <td>Histoire</td> <td>Version</td>        <td>Demande</td>       <td>Resultat</td> <td>Date</td>    </tr></thead>    <tbody id="idHistoire"> </tbody> </table>  </div>	      	      ');
+$('#divHistoire').html('<div id="histoire"><table class="grid table table-bordered"> <thead> <tr> <td>Histoire</td> <td>Version</td>        <td>Demande</td>       <td>Resultat</td> <td>Date</td>    </tr></thead>    <tbody id="idHistoire"> </tbody> </table>  </div>	      	      ');
 
 
 $.ajax({
@@ -32,7 +32,6 @@ $.ajax({
 		    dataType:"json",     
 		  })
 		    .done((data) => {
-        	console.log(data);
 		      if (data.parameter != null) {   
 		        $.each(data.parameter, function (i, obj2) { 
                     var operation = "";
@@ -52,8 +51,7 @@ $.ajax({
                         if(Object.values(objPart)[0] == "previousValue")
                             precedent = Object.values(objPart)[1];                                                
                     });
-		        content = '<tr><td>' + operation +'</td><td>' + chemin +'</td><td> ' + nom+ '</td><td> '+ precedent  +'</td><td>' + valeur  +  '</td></tr>';
-                console.log(content);    
+		        content = '<tr><td>' + operation +'</td><td>' + chemin +'</td><td> ' + nom+ '</td><td> '+ precedent  +'</td><td>' + valeur  +  '</td></tr>'; 
 		         $('#histoire'+obj.resource.meta.versionId).append(content);    
 				
 
