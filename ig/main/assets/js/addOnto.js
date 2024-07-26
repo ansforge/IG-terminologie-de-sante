@@ -17,12 +17,12 @@ $.ajax({
       if (data.entry != null) {   
         $.each(data.entry, function (i, obj) { 
         var content = '<tr>' ;
-        content += '<td style="background-color:#EEEEEE">'+  obj.resource.meta.versionId +'</td><td  style="background-color:#EEEEEE">' + obj.resource.version +'</td><td style="background-color:#EEEEEE">' + obj.request.method  +'</td><td style="background-color:#EEEEEE"> ' + obj.response.status  + '</td><td style="background-color:#EEEEEE"> '+ obj.response.lastModified  +'</td>';
+        content += '<td style="background-color: #C5C8DA;color:white">'+  obj.resource.meta.versionId +'</td><td  style="background-color: #C5C8DA;color:white">' + obj.resource.version +'</td><td style="background-color: #C5C8DA;color:white">' + obj.request.method  +'</td><td style="background-color: #C5C8DA;color:white"> ' + obj.response.status  + '</td><td style="background-color: #C5C8DA;color:white"> '+ obj.response.lastModified  +'</td>';
         content += '</tr>';
         $('#idHistoire').append(content);
         
     	
-    	content ='<tr><td colspan="5"><table style="font-size:10px;width:100%" class="table-striped"><tr><tr><td  style="background-color:grey">Operation</td><td  style="background-color:grey">Chemin</td  style="background-color:grey"><td>Nom</td><td  style="background-color:grey">Précédent</td> <td  style="background-color:grey">Valeur</td></tr><tbody id="histoire'+ obj.resource.meta.versionId + '"></tbody></tr></table></td></tr>';		
+    	content ='<tr><td colspan="5"><table style="font-size:10px;width:100%" class="table-striped"><tr><tr><td  style="background-color: #697097;color:white">Operation</td><td  style="background-color: #697097;color:white">Chemin</td  style="background-color: #697097;color:white"><td style="background-color: #697097;color:white">Nom</td><td  style="background-color: #697097;color:white">Précédent</td> <td  style="background-color: #697097;color:white">Valeur</td></tr><tbody id="histoire'+ obj.resource.meta.versionId + '"></tbody></tr></table></td></tr>';		
         console.log("https://smt.esante.gouv.fr/fhir/" + obj.id  +  "/$diff");   
         $('#idHistoire').append(content);          
 		    $.ajax({
