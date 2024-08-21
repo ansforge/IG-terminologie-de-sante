@@ -19,7 +19,7 @@ async def main():
         f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"] + ".json", "w", encoding="utf-8") 
         try:
             if( CodeSystem["count"] > 1000) :
-                e_codeSystem["Content"] = "not-present"
+                e_codeSystem["content"] = "not-present"
                 f.write(json.dumps(e_codeSystem))  
             else :
                 f.write(json.dumps(CodeSystem))                   
