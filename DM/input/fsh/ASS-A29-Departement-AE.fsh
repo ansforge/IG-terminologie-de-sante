@@ -1,4 +1,4 @@
-Instance: ASS-A29-Département-AE
+Instance: ASS-A29-Departement-AE
 InstanceOf: ConceptMap
 Usage: #definition
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

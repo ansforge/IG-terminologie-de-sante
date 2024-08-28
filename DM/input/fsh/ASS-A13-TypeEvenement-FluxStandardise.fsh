@@ -12,6 +12,8 @@ Usage: #definition
 * status = #active
 * date = "2024-01-26T12:00:00+01:00"
 * description = "Correspondance entre un type d'évènement et le flux standardisé correspondant"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J46-TypeEvenementNotification-CISIS/FHIR/JDV-J46-TypeEvenementNotification-CISIS"
+* targetUri = "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise?vs" // JDV à créer
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise"
 * group.element[0].code = #DOC
