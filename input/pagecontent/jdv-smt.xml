@@ -16,7 +16,7 @@
 
         <br/>
     <div id="orig">
-      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url not like '%NOS%'  %}
+      {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='ValueSet' and url not like '%NOS%'     and name not like '%_CISIS%'  %}
     </div>
   
   </div>
