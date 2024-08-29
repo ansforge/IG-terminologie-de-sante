@@ -127,5 +127,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./igSource/output
           destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
-          exclude_assets: '**.zip,**.tgz,**.pack'
+          exclude_assets: '**.zip,**.tgz,**.pack,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'
           commit_message: ' ${{ github.event.head_commit.message }}'
