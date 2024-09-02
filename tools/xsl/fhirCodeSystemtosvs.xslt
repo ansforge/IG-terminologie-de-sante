@@ -13,7 +13,7 @@
         <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ValueSet 
                 dateFin="{format-dateTime(/f:CodeSystem/f:extension/f:valuePeriod/f:end/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
-                dateMaj="{format-dateTime(/f:CodeSystem/f:meta/f:lastUpdated/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
+                dateMaj="{format-dateTime(/f:CodeSystem/f:date/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
                 dateValid="{format-dateTime(f:CodeSystem/f:extension/f:valuePeriod/f:start/@value,'[Y0001][M01][D01][H01][m01][s01]')}"
                 description="{/f:CodeSystem/f:description/@value}"
                 displayName="{/f:CodeSystem/f:name/@value}" 
