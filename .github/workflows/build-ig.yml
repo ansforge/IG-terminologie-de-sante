@@ -107,11 +107,11 @@ jobs:
       - name:  1 ZIP des NOS 
         run :  |
               cd  ./igSource
-              zip -rj ./output/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/listFormat/ValueSet*-svs.xml  ./output/listFormat/CodeSystem*-svs.xml  -x "*FHIR*" 
-              zip -rj ./output/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/ValueSet*.json  ./output/CodeSystem*.json 
-              zip -rj ./output/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip ./output/ValueSet*.xml ./output/CodeSystem*.xml 
-              zip -rj ./output/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./output/listFormat/CodeSystem*.tabs   
-              zip -rj ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/listFormat/*CISIS*.tabs               
+              zip -FSrj ./output/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/listFormat/ValueSet*-svs.xml  ./output/listFormat/CodeSystem*-svs.xml  -x "*FHIR*" 
+              zip -FSrj ./output/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/ValueSet*.json  ./output/CodeSystem*.json 
+              zip -FSrj ./output/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip ./output/ValueSet*.xml ./output/CodeSystem*.xml 
+              zip -FSrj ./output/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./output/listFormat/CodeSystem*.tabs   
+              zip -FSrj ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/listFormat/*CISIS*.tabs               
        
 
 
