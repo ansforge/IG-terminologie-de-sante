@@ -13,6 +13,6 @@
   </ul>
     <br/>
     <div id="orig">
-        {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url  like '%NOS%' %}
+        {% sql fmt:codes;a;md;l:1 select name as Name, Description, web from Resources where Type='CodeSystem' and url  like '%NOS%'  order by substr(name,5,1), abs(substr(name,6, instr(substr(name,6,4),'_' )-1)) %}
     </div>
   </div>
