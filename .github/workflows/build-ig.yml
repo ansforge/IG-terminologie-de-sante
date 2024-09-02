@@ -107,7 +107,13 @@ jobs:
       - name:  1 ZIP des NOS 
         run :  |
               cd  ./igSource
-              zip -FSrj ./output/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/listFormat/ValueSet*-svs.xml  ./output/listFormat/CodeSystem*-svs.xml  -x "*FHIR*" 
+              rm ./output/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip
+              rm ./output/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip
+              rm ./output/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip
+              rm ./output/listFormat/NOS-Fichiers_Publics.zip
+              rm ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip
+              
+              zip -rj ./output/listFormat/NOS-Fichiers_Publics-Versions_xml_svs.zip ./output/listFormat/ValueSet*-svs.xml  ./output/listFormat/CodeSystem*-svs.xml  -x "*FHIR*" 
               zip -FSrj ./output/listFormat/NOS-Fichiers_Publics-Versions_json_fhir.zip ./output/ValueSet*.json  ./output/CodeSystem*.json 
               zip -FSrj ./output/listFormat/Nos-fichiers_publics-versions_xml_fhir.zip ./output/ValueSet*.xml ./output/CodeSystem*.xml 
               zip -FSrj ./output/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./output/listFormat/CodeSystem*.tabs   
