@@ -7,7 +7,7 @@ from fhirpy import AsyncFHIRClient
 async def main():
     # Create an instance
     client = AsyncFHIRClient(
-        'https://smt.esante.gouv.fr/fhir/',
+        'https://smt-pprod.esante.gouv.fr/fhir/',
     )
 
     # Search for CodeSystem
