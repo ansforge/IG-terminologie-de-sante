@@ -1,0 +1,77 @@
+@startuml
+!theme cerulean
+
+package "Analyse" as step1 {
+rectangle "Rédaction de la DM \n dans GitHub" as redaction #Lavender;line:DarkMagenta;text:DarkMagenta
+rectangle "Analyse de la DM\npar l'équipe NOS" as analyse #Azure;line:MediumBlue;text:MediumBlue
+hexagon "DM \ncomplète ?" as DMcomplete #GhostWhite;line:DimGrey;text:DimGrey
+rectangle "Demande de \ncomplément d'information" as complementInfo #Azure;line:MediumBlue;text:MediumBlue
+rectangle "Mise à jour de la DM" as majDM #Lavender;line:DarkMagenta;text:DarkMagenta
+
+circle "A analyser" as statut_AAnalyse #blue;line:blue;line.dashed;text:blue
+circle "En attente de retour" as statut_attente #blue;line:blue;line.dashed;text:blue
+circle "Validée \nmétier" as statut_valideeMetier #blue;line:blue;line.dashed;text:blue
+circle "Annulée" as statut_annulee1 #red;line:red;line.dashed;text:red
+
+redaction -> statut_AAnalyse
+statut_AAnalyse -> analyse
+analyse -up-> statut_annulee1
+analyse -> DMcomplete
+DMcomplete --> complementInfo : Non
+statut_attente <- complementInfo
+majDM <- statut_attente
+statut_AAnalyse <-- majDM
+DMcomplete -> statut_valideeMetier : Oui
+
+rectangle "Analyse de la DM \npar le comité" as comite #MistyRose;line:IndianRed;text:IndianRed
+circle "Validée \ncomité" as statut_valideeComite #blue;line:blue;line.dashed;text:blue
+circle "Annulée" as statut_annulee2 #red;line:red;line.dashed;text:red
+statut_valideeMetier -> comite
+comite -up-> statut_annulee2
+comite -> statut_valideeComite
+comite -> complementInfo
+}
+
+rectangle "Go traitement" as GoTraitement #Azure;line:MediumBlue;text:MediumBlue
+statut_valideeComite -> GoTraitement
+rectangle "Go publication" as GoPublication #Azure;line:MediumBlue;text:MediumBlue
+
+package "Traitement" as step2 {
+    circle "A traiter" as statut_aTraiter #blue;line:blue;line.dashed;text:blue
+    hexagon "Nature \n DM ?" as natureDM #GhostWhite;line:DimGrey;text:DimGrey
+    rectangle "Traitement Ontoserver" as Ontoserver #Azure;line:MediumBlue;text:MediumBlue
+    rectangle "Traitement \nGitHub" as GitHub #Azure;line:MediumBlue;text:MediumBlue
+    circle "Traitée" as status_traité #blue;line:blue;line.dashed;text:blue
+    rectangle "Validation \ntraitement" as validationTraitement #Lavender;line:DarkMagenta;text:DarkMagenta
+    hexagon "Traitement\nvalidé ?" as TraitementValide #GhostWhite;line:DimGrey;text:DimGrey
+    circle "Traitement \nvalidé" as statut_traitementValide #blue;line:blue;line.dashed;text:blue
+
+
+    GoTraitement -> statut_aTraiter
+    statut_aTraiter -> natureDM
+    natureDM --> Ontoserver : Mineure 
+    natureDM -> GitHub : Majeure\nCreation
+    GitHub -> status_traité
+    status_traité -> validationTraitement
+    validationTraitement -> TraitementValide
+    statut_aTraiter <- TraitementValide : Correction syntaxique
+    TraitementValide -> statut_traitementValide : Oui
+    statut_traitementValide -> GoPublication
+}
+
+
+    statut_AAnalyse <- TraitementValide : Modification majeure de la demande
+
+package "Publication" as step3 {
+    circle "A publier" as statut_APublier #blue;line:blue;line.dashed;text:blue
+    rectangle "Publication" as publication #Azure;line:MediumBlue;text:MediumBlue
+    circle "Publiée" as statut_publiée #Lime;line:Lime;line.dashed;text:Lime
+    GoPublication -> statut_APublier 
+    statut_APublier -> publication
+    publication --> statut_publiée  
+
+}
+ statut_publiée <- Ontoserver
+
+
+@enduml
