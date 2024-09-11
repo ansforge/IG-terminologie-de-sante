@@ -93,6 +93,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "logging" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tx" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "shownav" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -9208,6 +9217,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "false" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "logging" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tx" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -18346,6 +18364,246 @@
        ] ;
        fhir:name [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ] ;
        fhir:description [ fhir:v "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A13-TypeEvenement-FluxStandardise> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A13-TypeEvenement-FluxStandardise" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A13-TypeEvenement-FluxStandardise" ] ;
+       fhir:description [ fhir:v "Correspondance entre un type d'évènement et le flux standardisé correspondant" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A14-FamilleActivite-ActiviteOperationnelle" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A14-FamilleActivite-ActiviteOperationnelle" ] ;
+       fhir:description [ fhir:v "Association Famille activité - Activité opérationnelle" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A15-SexeProvenanceISO-Sexe> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A15-SexeProvenanceISO-Sexe" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A15-SexeProvenanceISO-Sexe" ] ;
+       fhir:description [ fhir:v "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A20-RolePriseCharge-GenreActivite> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A20-RolePriseCharge-GenreActivite" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A20-RolePriseCharge-GenreActivite" ] ;
+       fhir:description [ fhir:v "Table d'association rôle / genre d'activité pour la saisie automatique" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A21-AS-ActiviteModaliteForme> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A21-AS-ActiviteModaliteForme" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A21-AS-ActiviteModaliteForme" ] ;
+       fhir:description [ fhir:v "Triplet activité modalité forme pour les Activités de Soins (AS)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A22-AASA-ActiviteModaliteForme> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A22-AASA-ActiviteModaliteForme" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A22-AASA-ActiviteModaliteForme" ] ;
+       fhir:description [ fhir:v "Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A23-ASR-ActiviteModaliteForme> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A23-ASR-ActiviteModaliteForme" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A23-ASR-ActiviteModaliteForme" ] ;
+       fhir:description [ fhir:v "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A24-ModeExercice-TypeActivite-ENREG> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A24-ModeExercice-TypeActivite-ENREG" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A24-ModeExercice-TypeActivite-ENREG" ] ;
+       fhir:description [ fhir:v "Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A25-PaysProvenanceISO-PaysProvenanceCOG" ] ;
+       fhir:description [ fhir:v "Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A28-TypeDiplome-Diplome-Profession-EPARS" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A28-TypeDiplome-Diplome-Profession-EPARS" ] ;
+       fhir:description [ fhir:v "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A29-Departement-AE> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A29-Departement-AE" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A29-Département-AE" ] ;
+       fhir:description [ fhir:v "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A30-TypeAutorisation-Profession-EPARS" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A30-TypeAutorisation-Profession-EPARS" ] ;
+       fhir:description [ fhir:v "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A33-AdministrativeGender-Sexe> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-A33-AdministrativeGender-Sexe" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_A33-AdministrativeGender-Sexe" ] ;
+       fhir:description [ fhir:v "Correspondance entre le genre administratif HL7 et le sexe" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X02-TranscoSectActADELI-SectAct> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X02-TranscoSectActADELI-SectAct" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X02-TranscoSectActADELI-SectAct" ] ;
+       fhir:description [ fhir:v "Transco Secteur d'activité ADELI vers Secteur d'activité" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X04-CorrespondanceType-Classe-CISIS> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X04-CorrespondanceType-Classe-CISIS" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X04-CorrespondanceType-Classe-CISIS" ] ;
+       fhir:description [ fhir:v "Correspondance entre types et classes de documents CI-SIS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X08-TranscoSavoirFaireR01-SavoirFaire> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X08-TranscoSavoirFaireR01-SavoirFaire" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X08-TranscoSavoirFaireR01-SavoirFaire" ] ;
+       fhir:description [ fhir:v "Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X09-DepartementOM-RegionOM> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X09-DepartementOM-RegionOM" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X09-DepartementOM-RegionOM" ] ;
+       fhir:description [ fhir:v "Association départements - régions (outre-mer et Monaco inclus)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X12-CommuneDeptRegionOM> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X12-CommuneDeptRegionOM" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X12-CommuneDeptRegionOM" ] ;
+       fhir:description [ fhir:v "Association communes - départements - régions (outre-mer et Monaco inclus)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X13-AgregatClientele> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X13-AgregatClientele" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X13-AgregatClientele" ] ;
+       fhir:description [ fhir:v "Association d'agrégats de clientèle" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ConceptMap" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP> ;
+         fhir:reference [ fhir:v "ConceptMap/ASS-X16-CorrespondanceType-Classe-DMP" ]
+       ] ;
+       fhir:name [ fhir:v "ASS_X16-CorrespondanceType-Classe-DMP" ] ;
+       fhir:description [ fhir:v "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
