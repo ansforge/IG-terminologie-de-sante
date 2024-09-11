@@ -1,0 +1,73 @@
+name: DM - Terminologie de référence (TRE)
+description: Nomenclatures des Objets de Santé (NOS) Demande de modification d'une terminologie de référence (TRE).
+title: "DM-TRE_RXX_Nom de la nomenclature"
+labels: ["DM-TRE"]
+assignees:
+  - mlr-kereval
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: input
+    id: Nom
+    attributes:
+      label: Terminologie de référence à modifier
+      placeholder: Nom ou URL de la TRE
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "# Description des modifications demandées" 
+  - type: textarea
+    id: Description
+    attributes:
+      label: Dans le cas de la mise à jour de la description de la TRE, veuillez indiquer la nouvelle description.
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: false
+  - type: textarea
+    id: TRE
+    attributes:
+      label: Dans le cas de la modification du contenu de la TRE, veuillez indiquer les lignes mises à jour.
+      description: |
+        **Veuillez lister les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [DM_TerminologieDeReference](../tree/main/input/DM_Excel/DM_TerminologieDeReference.xlsx).**
+        
+        Données attendues : 
+        - Code ; Libellé ; Type de modication demandée (Ajout, Modification, Obsolescence, Réactivation) ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
+      placeholder: |
+        Exemple TRE_R314_TypeCreneau :
+        - SNP ; Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés ; A ; Les créneaux ouverts aux Soins Non Programmés -Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par les Régulateurs et Organisateurs de Soins Non Programmés
+    validations:
+      required: false   
+  - type: textarea
+    id: JDVimpact
+    attributes:
+      label: Si les modifications demandées impactent un JDV métier ou une table d'association, veuillez indiquer leurs noms.
+    validations:
+      required: false 
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > **Vous pouvez créer une demande de mise à jour de votre JDV en créant une [issue spécifique](./new/choose).**
+        > **Le jeu de valeurs reprenant l'intégralité des codes de la TRE sera automatiquement mis à jour.** 

@@ -1,0 +1,101 @@
+name: Création - Jeu de valeurs (JDV)
+description: Nomenclatures des Objets de Santé (NOS) Demande de création d'un jeu de valeurs (JDV).
+title: "Creation-JDV_Nom de la nomenclature"
+labels: ["Création-JDV"]
+assignees:
+  - mlr-kereval
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: dropdown
+    id: consommateur
+    attributes:
+      label: Consommateur(s) impacté(s)
+      multiple: true 
+      description: Sélectionnez le(s) consommateur(s) impacté(s) par la nomenclature.
+      options:
+      - ROR
+      - CI-SIS
+      - RPPS
+      - FINESS
+      - RASS
+      - ENREG
+      - EPARS
+      - MOS
+      - DMP
+      - SI-CPS
+      - MSS
+      - SAMU
+      - DICO
+      - SI-VIC
+      - Interop'Santé
+      - Santefr
+      - CNSA
+      - ENS
+      - SAS
+      - RFOS
+      - Autre(s)
+    validations:
+      required: false  
+  - type: input
+    id: AutreConso
+    attributes:
+      label: Autre(s)
+      description: Si un consommateur impacté n'est pas présent dans la liste ci-dessus, veuillez le préciser ici
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "# Jeu de valeurs à créer"
+  - type: input
+    id: Nom
+    attributes:
+      label: Nom
+      description: Le nom de la nomenclature n'est pas modifiable. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.**
+    validations:
+      required: true
+  - type: input
+    id: Description
+    attributes:
+      label: Description
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: true
+  - type: textarea
+    id: JDV
+    attributes:
+      label: Contenu du jeu de valeurs à créer
+      description : Veuillez indiquer la règle de construction du JDV ou joindre un fichier excel en suivant le modèle [Creation_JeuDeValeurs](../tree/main/input/DM_Excel/Creation_JeuDeValeurs.xlsx).
+      placeholder : |
+        Exemples : tous les codes actifs de la TRE_RXX, tous les codes actifs et obsolètes de la TRE_RXX...
+    validations:
+      required: true   
+  - type: textarea
+    id: maj
+    attributes:
+      label: Règle de mise à jour du jeu de valeurs
+      description : Veuillez indiquer la règle de mise à jour du JDV 
+      placeholder : "Par exemple : A l'image des TRE - sur code actif seulement..."
+    validations:
+      required: false

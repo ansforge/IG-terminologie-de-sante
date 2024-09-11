@@ -1,0 +1,105 @@
+name: Création - Terminologie de référence (TRE)
+description: "Nomenclatures des Objets de Santé (NOS) Demande de création d'une terminologie de référence (TRE)."
+title: "Creation-TRE_Nom de la nomenclature"
+labels: ["Création-TRE"]
+assignees:
+  - mlr-kereval
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: dropdown
+    id: consommateur
+    attributes:
+      label: Consommateur(s) impacté(s)
+      multiple: true 
+      description: Sélectionnez le(s) consommateur(s) impacté(s) par la nomenclature.
+      options:
+      - ROR
+      - CI-SIS
+      - RPPS
+      - FINESS
+      - RASS
+      - ENREG
+      - EPARS
+      - MOS
+      - DMP
+      - SI-CPS
+      - MSS
+      - SAMU
+      - DICO
+      - SI-VIC
+      - Interop'Santé
+      - Santefr
+      - CNSA
+      - ENS
+      - SAS
+      - RFOS
+      - Autre(s)
+    validations:
+      required: false  
+  - type: input
+    id: AutreConso
+    attributes:
+      label: Autre(s)
+      description: Si un consommateur impacté n'est pas présent dans la liste ci-dessus, veuillez le préciser ici
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "# Terminologie de référence à créer"
+  - type: input
+    id: Nom
+    attributes:
+      label: Nom
+      description: Le nom de la nomenclature n'est pas modifiable. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.**
+    validations:
+      required: true
+  - type: input
+    id: Description
+    attributes:
+      label: Description
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: true
+  - type: textarea
+    id: TRE
+    attributes:
+      label: Contenu de la terminologie de référence à créer
+      description: |
+        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TerminologieDeReference](../tree/main/input/DM_Excel/Creation_TerminologieDeReference.xlsx).**
+        
+        Données attendues : 
+        - Code ; Libellé ; Description métier (facultative) ; Synonyme 1 (facultatif) ; Synonyme 2 (facultatif) ; ...
+      placeholder: |
+        Exemple TRE_R314_TypeCreneau : 
+        - PUBLIC ; Créneau accessible par le grand public ; Les créneaux ouverts au public - Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible par le grand public
+        - PRO ; Créneau accessible par l'ensemble des professionnels de santé ; Les créneaux ouverts aux professionnels, dans le cadre de la prise de RDV par un tiers - Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible à l'ensemble des professionnels de santé
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > **Si vous souhaitez créer un JDV métier basé sur cette nouvelle TRE alors vous devez créer une [issue spécifique](./new/choose).** 
+        > **Un jeu de valeurs reprenant l'intégralité des codes de la TRE proposée sera automatiquement créé.**
