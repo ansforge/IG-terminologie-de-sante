@@ -38,15 +38,18 @@ async def main():
 
 
     # Search for valueSet
+    
     resources = client.resources('ValueSet')  # Return lazy search set
     list_valueSets = await resources.fetch()  
     for e_valueSet in list_valueSets :
         print (e_valueSet["name"])
-        if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
-            ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
-            with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
-                f.write(json.dumps(ValueSet))       
-
+        try:
+            if(not os.path.isfile('../DM/fsh-generated/resources/ValueSet-'+ e_valueSet["id"] + ".json")) :
+                ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
+                with open('../input/ontoserver/JDV/'+ e_valueSet["name"] + ".json", "w", encoding="utf-8") as f:
+                    f.write(json.dumps(ValueSet))       
+        except:
+          print("An exception occurred")       
  
     # Search for ConceptMap
     resources = client.resources('ConceptMap')  # Return lazy search set
