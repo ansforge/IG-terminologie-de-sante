@@ -8,10 +8,14 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.4.249"
 * version = "20240426120000"
-* name = "ASS_X04-CorrespondanceType-Classe-CISIS"
+* name = "ASS_X04_CorrespondanceType_Classe_CISIS"
+* title = "ASS_X04_CorrespondanceType_Classe_CISIS"
+* experimental = false
 * status = #active
 * date = "2024-04-26T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents CI-SIS"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
+* targetUri = "https://ansforge.github.io/IG-terminologie-de-sante/ig/main/ValueSet-JDV-J06-XdsClassCode-CISIS.html"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #10213-7
