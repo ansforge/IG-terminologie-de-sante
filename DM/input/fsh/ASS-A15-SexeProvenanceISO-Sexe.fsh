@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe"
 * identifier.value = "urn:oid:1.2.250.1.213.2.56"
 * version = "20231215120000"
-* name = "ASS_A15-SexeProvenanceISO-Sexe"
+* name = "ASS_A15_SexeProvenanceISO_Sexe"
+* title = "ASS_A15_SexeProvenanceISO_Sexe"
 * status = #active
+* experimental = false
 * date = "2023-12-15T12:00:00+01:00"
 * description = "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO"
