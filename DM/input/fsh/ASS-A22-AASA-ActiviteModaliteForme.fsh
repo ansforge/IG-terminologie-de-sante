@@ -8,8 +8,8 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A22-AASA-ActiviteModaliteForme/FHIR/ASS-A22-AASA-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.206"
 * version = "20200731120000"
-* name = "ASS_A22_AAS_ActiviteModaliteForme"
-* title = "ASS_A21_AS_ActiviteModaliteForme"
+* name = "ASS_A22_ASA_ActiviteModaliteForme"
+* title = "ASS_A21_ASA_ActiviteModaliteForme"
 * status = #active
 * experimental = false
 * date = "2020-07-31T12:00:00+01:00"
