@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A23-ASR-ActiviteModaliteForme/FHIR/ASS-A23-ASR-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.207"
 * version = "20220325120000"
-* name = "ASS_A23-ASR-ActiviteModaliteForme"
+* name = "ASS_A23_ASR_ActiviteModaliteForme"
+* title = "ASS_A23_ASR_ActiviteModaliteForme"
+* experimental = false
 * status = #active
 * date = "2022-03-25T12:00:00+01:00"
 * description = "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)"
