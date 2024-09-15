@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X02-TranscoSectActADELI-SectAct/FHIR/ASS-X02-TranscoSectActADELI-SectAct"
 * identifier.value = "urn:oid:1.2.250.1.71.1.12.26"
 * version = "20240726120000"
-* name = "ASS_X02-TranscoSectActADELI-SectAct"
+* name = "ASS_X02_TranscoSectActADELI_SectAct"
+* title = "ASS_X02_TranscoSectActADELI_SectAct"
+* experimental = false
 * status = #active
 * date = "2024-07-26T12:00:00+01:00"
 * description = "Transco Secteur d'activité ADELI vers Secteur d'activité"
