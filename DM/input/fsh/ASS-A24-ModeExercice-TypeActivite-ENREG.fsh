@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A24-ModeExercice-TypeActivite-ENREG/FHIR/ASS-A24-ModeExercice-TypeActivite-ENREG"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.211"
 * version = "20210924120000"
-* name = "ASS_A24-ModeExercice-TypeActivite-ENREG"
+* name = "ASS_A24_ModeExercice_TypeActivite_ENREG"
+* title = "ASS_A24_ModeExercice_TypeActivite_ENREG"
+* experimental = false
 * status = #active
 * date = "2021-09-24T12:00:00+01:00"
 * description = "Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité"
