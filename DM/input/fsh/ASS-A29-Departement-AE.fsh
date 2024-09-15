@@ -8,9 +8,13 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A29-Département-AE/FHIR/ASS-A29-Département-AE"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.242"
 * version = "20240126120000"
-* name = "ASS_A29-Département-AE"
+* name = "ASS_A29_Département_AE"
+* title = "ASS_A29_Département_AE"
+* experimental = false
 * status = #active
 * date = "2024-01-26T12:00:00+01:00"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS"
 * description = "Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"
