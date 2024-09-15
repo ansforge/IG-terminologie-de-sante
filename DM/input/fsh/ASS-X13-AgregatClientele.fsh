@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.194"
 * version = "20240628120000"
-* name = "ASS_X13-AgregatClientele"
+* name = "ASS_X13_AgregatClientele"
+* title = "ASS_X13_AgregatClientele"
 * status = #active
+* experimental = false
 * date = "2024-06-28T12:00:00+01:00"
 * description = "Association d'agrégats de clientèle"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"
