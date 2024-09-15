@@ -16,7 +16,7 @@ Usage: #definition
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J143-AdministrativeGender-CISIS/FHIR/JDV-J143-AdministrativeGender-CISIS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe"
 * description = "Correspondance entre le genre administratif HL7 et le sexe"
-* group.source = "	http://hl7.org/fhir/administrative-gender"
+* group.source = "http://hl7.org/fhir/administrative-gender"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"
 * group.element[0].code = #male
 * group.element[=].target.code = #M
