@@ -1,8 +1,6 @@
 Instance: ASS-A20-RolePriseCharge-GenreActivite
 InstanceOf: ConceptMap
 Usage: #definition
-* extension[0].url = "http://hl7.org/fhir/StructureDefinition/ressource-effectivePeriod"
-* extension[=].valuePeriod.start = "2020-06-26T12:00:00+01:00"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A20-RolePriseCharge-GenreActivite/FHIR/ASS-A20-RolePriseCharge-GenreActivite"
