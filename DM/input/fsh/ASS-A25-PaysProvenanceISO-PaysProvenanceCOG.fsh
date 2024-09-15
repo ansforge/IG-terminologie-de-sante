@@ -13,6 +13,7 @@ Usage: #definition
 * status = #active
 * experimental = false
 * date = "2024-01-26T12:00:00+01:00"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays"
 * description = "Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R268-PaysProvenanceISO/FHIR/TRE-R268-PaysProvenanceISO"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"
