@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X09-DepartementOM-RegionOM/FHIR/ASS-X09-DepartementOM-RegionOM"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.112"
 * version = "20240126120000"
-* name = "ASS_X09-DepartementOM-RegionOM"
+* name = "ASS_X09_DepartementOM_RegionOM"
+* title = "ASS_X09_DepartementOM_RegionOM"
 * status = #active
+* experimental = false
 * date = "2024-01-26T12:00:00+01:00"
 * description = "Association départements - régions (outre-mer et Monaco inclus)"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
