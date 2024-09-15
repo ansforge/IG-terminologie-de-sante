@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.5.587"
 * version = "20240223120000"
-* name = "ASS_X16-CorrespondanceType-Classe-DMP"
+* name = "ASS_X16_CorrespondanceType_Classe_DMP"
+* title = "ASS_X16_CorrespondanceType_Classe_DMP"
+* experimental = false
 * status = #active
 * date = "2024-02-23T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"
