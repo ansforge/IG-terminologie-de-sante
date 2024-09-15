@@ -8,11 +8,15 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.241"
 * version = "20240726120000"
-* name = "ASS_A28-TypeDiplome-Diplome-Profession-EPARS"
+* name = "ASS_A28_TypeDiplome_Diplome_Profession_EPARS"
+* title = "ASS_A28_TypeDiplome_Diplome_Profession_EPARS"
+* experimental = false
 * status = #active
 * date = "2024-07-26T12:00:00+01:00"
 * description = "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales"
-* group.source = "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPAR"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
+* group.source = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group.target = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
 * group.element[0].code = #DE
 * group.element[=].target.code = #DE29
