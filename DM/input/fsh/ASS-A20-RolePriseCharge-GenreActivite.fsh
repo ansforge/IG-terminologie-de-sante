@@ -6,7 +6,7 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A20-RolePriseCharge-GenreActivite/FHIR/ASS-A20-RolePriseCharge-GenreActivite"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.201"
 * version = "20220225120000"
-* name = "ASS_A20-RolePriseCharge-GenreActivite"
+* name = "ASS_A20_RolePriseCharge-GenreActivite"
 * status = #active
 * date = "2022-02-25T12:00:00+01:00"
 * description = "Table d'association rôle / genre d'activité pour la saisie automatique"
