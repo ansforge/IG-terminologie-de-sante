@@ -15,9 +15,9 @@ Usage: #definition
 * date = "2024-06-28T12:00:00+01:00"
 * description = "Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J171-TypeAutorisation-EPARS/FHIR/JDV-J171-TypeAutorisation-EPARS"
-* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPAR"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"
-* group.target = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
+* group.target = "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"
 * group.element[0].code = #AM01
 * group.element[=].target.code = #91
 * group.element[=].target.equivalence = #equivalent
