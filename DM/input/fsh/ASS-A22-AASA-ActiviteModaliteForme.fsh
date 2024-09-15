@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A22-AASA-ActiviteModaliteForme/FHIR/ASS-A22-AASA-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.206"
 * version = "20200731120000"
-* name = "ASS_A22-AASA-ActiviteModaliteForme"
+* name = "ASS_A22_AAS_ActiviteModaliteForme"
+* title = "ASS_A21_AS_ActiviteModaliteForme"
 * status = #active
+* experimental = false
 * date = "2020-07-31T12:00:00+01:00"
 * description = "Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
