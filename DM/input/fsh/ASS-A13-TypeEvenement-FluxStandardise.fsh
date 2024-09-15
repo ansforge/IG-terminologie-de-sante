@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A13-TypeEvenement-FluxStandardise/FHIR/ASS-A13-TypeEvenement-FluxStandardise"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.4.339"
 * version = "20240126120000"
-* name = "ASS_A13-TypeEvenement-FluxStandardise"
+* name = "ASS_A13_TypeEvenement_FluxStandardise"
+* title = "ASS_A13_TypeEvenement_FluxStandardise"
+* experimental = false
 * status = #active
 * date = "2024-01-26T12:00:00+01:00"
 * description = "Correspondance entre un type d'évènement et le flux standardisé correspondant"
