@@ -8,7 +8,9 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X08-TranscoSavoirFaireR01-SavoirFaire/FHIR/ASS-X08-TranscoSavoirFaireR01-SavoirFaire"
 * identifier.value = "urn:oid:1.2.250.1.71.1.2.37"
 * version = "20231030120000"
-* name = "ASS_X08-TranscoSavoirFaireR01-SavoirFaire"
+* name = "ASS_X08_TranscoSavoirFaireR01_SavoirFaire"
+* title = "ASS_X08_TranscoSavoirFaireR01_SavoirFaire"
+* experimental = false
 * status = #active
 * date = "2023-10-30T12:00:00+01:00"
 * description = "Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS"
