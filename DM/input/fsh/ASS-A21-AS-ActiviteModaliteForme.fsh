@@ -9,7 +9,7 @@ Usage: #definition
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.205"
 * version = "20240329120000"
 * name = "ASS_A21_AS_ActiviteModaliteForme"
-* name = "ASS_A21_AS_ActiviteModaliteForme"
+* title = "ASS_A21_AS_ActiviteModaliteForme"
 * status = #active
 * experimental = false
 * date = "2024-03-29T12:00:00+01:00"
