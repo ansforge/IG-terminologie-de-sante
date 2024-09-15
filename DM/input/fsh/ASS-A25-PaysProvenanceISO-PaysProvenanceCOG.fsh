@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A25-PaysProvenanceISO-PaysProvenanceCOG/FHIR/ASS-A25-PaysProvenanceISO-PaysProvenanceCOG"
 * identifier.value = "urn:oid:1.2.250.1.213.2.66"
 * version = "20240126120000"
-* name = "ASS_A25-PaysProvenanceISO-PaysProvenanceCOG"
+* name = "ASS_A25_PaysProvenanceISO_PaysProvenanceCOG"
+* title = "ASS_A25_PaysProvenanceISO_PaysProvenanceCOG"
 * status = #active
+* experimental = false
 * date = "2024-01-26T12:00:00+01:00"
 * description = "Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R268-PaysProvenanceISO/FHIR/TRE-R268-PaysProvenanceISO"
