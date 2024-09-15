@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A21-AS-ActiviteModaliteForme/FHIR/ASS-A21-AS-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.205"
 * version = "20240329120000"
-* name = "ASS_A21-AS-ActiviteModaliteForme"
+* name = "ASS_A21_AS_ActiviteModaliteForme"
+* name = "ASS_A21_AS_ActiviteModaliteForme"
 * status = #active
+* experimental = false
 * date = "2024-03-29T12:00:00+01:00"
 * description = "Triplet activité modalité forme pour les Activités de Soins (AS)"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
