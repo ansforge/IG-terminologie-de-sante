@@ -5,7 +5,7 @@ InstanceOf: ConceptMap
 Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * version = "5.0.0"
-* name = "ASS_A11_CorresModeleCDA-XdsFormatCode_CISIS"
+* name = "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS"
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * status = #active
 * experimental = false
