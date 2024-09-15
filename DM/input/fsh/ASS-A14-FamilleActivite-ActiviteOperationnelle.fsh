@@ -8,8 +8,10 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A14-FamilleActivite-ActiviteOperationnelle/FHIR/ASS-A14-FamilleActivite-ActiviteOperationnelle"
 * identifier.value = "urn:oid:1.2.250.1.213.3.3.63"
 * version = "20240531120000"
-* name = "ASS_A14-FamilleActivite-ActiviteOperationnelle"
+* name = "ASS_A14_FamilleActivite_ActiviteOperationnelle"
+* title = "ASS_A14_FamilleActivite_ActiviteOperationnelle"
 * status = #active
+* experimental = false
 * date = "2024-05-31T12:00:00+01:00"
 * description = "Association Famille activité - Activité opérationnelle"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin"
