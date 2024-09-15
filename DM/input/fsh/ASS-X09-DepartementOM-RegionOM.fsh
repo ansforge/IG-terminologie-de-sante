@@ -18,337 +18,449 @@ Usage: #definition
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * group.element[0].code = #01
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #02
 * group.element[=].target.code = #32
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #03
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #04
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #05
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #06
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #07
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #08
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #09
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #10
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #11
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #12
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #13
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #14
 * group.element[=].target.code = #28
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #15
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #16
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #17
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #18
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #19
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #20
 * group.element[=].target.code = #94
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #2A
 * group.element[=].target.code = #94
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #2B
 * group.element[=].target.code = #94
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #21
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #22
 * group.element[=].target.code = #53
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #23
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #24
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #25
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #26
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #27
 * group.element[=].target.code = #28
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #28
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #29
 * group.element[=].target.code = #53
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #30
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #31
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #32
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #33
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #34
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #35
 * group.element[=].target.code = #53
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #36
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #37
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #38
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #39
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #40
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #41
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #42
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #43
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #44
 * group.element[=].target.code = #52
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #45
 * group.element[=].target.code = #24
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #46
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #47
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #48
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #49
 * group.element[=].target.code = #52
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #50
 * group.element[=].target.code = #28
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #51
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #52
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #53
 * group.element[=].target.code = #52
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #54
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #55
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #56
 * group.element[=].target.code = #53
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #57
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #58
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #59
 * group.element[=].target.code = #32
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #60
 * group.element[=].target.code = #32
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #61
 * group.element[=].target.code = #28
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #62
 * group.element[=].target.code = #32
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #63
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #64
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #65
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #66
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #67
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #68
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #69
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #70
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #71
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #72
 * group.element[=].target.code = #52
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #73
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #74
 * group.element[=].target.code = #84
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #75
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #76
 * group.element[=].target.code = #28
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #77
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #78
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #79
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #80
 * group.element[=].target.code = #32
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #81
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #82
 * group.element[=].target.code = #76
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #83
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #84
 * group.element[=].target.code = #93
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #85
 * group.element[=].target.code = #52
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #86
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #87
 * group.element[=].target.code = #75
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #88
 * group.element[=].target.code = #44
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #89
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #90
 * group.element[=].target.code = #27
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #91
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #92
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #93
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #94
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #95
 * group.element[=].target.code = #11
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #971
 * group.element[=].target.code = #01
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #972
 * group.element[=].target.code = #02
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #973
 * group.element[=].target.code = #03
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #974
 * group.element[=].target.code = #04
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #975
 * group.element[=].target.code = #975
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #976
 * group.element[=].target.code = #06
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #977
 * group.element[=].target.code = #977
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #978
 * group.element[=].target.code = #978
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #984
 * group.element[=].target.code = #984
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #985
 * group.element[=].target.code = #985
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #986
 * group.element[=].target.code = #986
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #987
 * group.element[=].target.code = #987
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #988
 * group.element[=].target.code = #988
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #989
 * group.element[=].target.code = #989
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
 * group.element[+].code = #99138
 * group.element[=].target.code = #99138
-* group.element[=].target.equivalence = #subsumes
+* group.element[=].target.equivalence = #subsumes 
+* group[=].element[=].target.comment = " "
