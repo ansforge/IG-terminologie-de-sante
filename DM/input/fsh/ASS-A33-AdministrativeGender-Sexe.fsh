@@ -13,7 +13,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-03-29T12:00:00+01:00"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J143-AdministrativeGender-CISIS/FHIR/JDV-J143-AdministrativeGender-CISIS"
+* sourceUri = "http://hl7.org/fhir/ValueSet/administrative-gender"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe"
 * description = "Correspondance entre le genre administratif HL7 et le sexe"
 * group.source = "http://hl7.org/fhir/administrative-gender"
