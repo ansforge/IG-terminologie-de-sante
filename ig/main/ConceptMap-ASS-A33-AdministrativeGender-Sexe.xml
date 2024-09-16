@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="ASS-A33-AdministrativeGender-Sexe"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-A33-AdministrativeGender-Sexe</b></p><a name="ASS-A33-AdministrativeGender-Sexe"> </a><a name="hcASS-A33-AdministrativeGender-Sexe"> </a><a name="ASS-A33-AdministrativeGender-Sexe-fr-FR"> </a><p>Mapping from <a href="ValueSet-JDV-J143-AdministrativeGender-CISIS.html">JDV_J143_AdministrativeGender_CISIS</a> to <a href="ValueSet-JDV-J262-Sexe.html">JDV_J262_Sexe</a></p><br/><p><b>Group 1 </b>Mapping from <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">AdministrativeGender</a> to <a href="CodeSystem-TRE-R249-Sexe.html">TRE_R249_Sexe</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>M (Masculin)</td></tr><tr><td>female</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>F (Féminin)</td></tr><tr><td>other</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>O (Autre sexe (ni masculin, ni féminin))</td></tr><tr><td>unknown</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>UN (Inconnu)</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ASS-A33-AdministrativeGender-Sexe</b></p><a name="ASS-A33-AdministrativeGender-Sexe"> </a><a name="hcASS-A33-AdministrativeGender-Sexe"> </a><a name="ASS-A33-AdministrativeGender-Sexe-fr-FR"> </a><p>Mapping from <a href="ValueSet-JDV-J262-Sexe.html">JDV_J262_Sexe</a> to <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a></p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-TRE-R249-Sexe.html">TRE_R249_Sexe</a> to <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">AdministrativeGender</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>M (Masculin)</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>male</td></tr><tr><td>F (Féminin)</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>female</td></tr><tr><td>O (Autre sexe (ni masculin, ni féminin))</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>other</td></tr><tr><td>UN (Inconnu)</td><td><a href="http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td>unknown</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -31,7 +31,7 @@
       <value value="https://esante.gouv.fr"/>
     </telecom>
   </contact>
-  <description value="Correspondance entre le genre administratif HL7 et le sexe"/>
+  <description value="Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l'adaptation du MOS à FHIR."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -39,36 +39,36 @@
       <display value="France"/>
     </coding>
   </jurisdiction>
-  <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J143-AdministrativeGender-CISIS/FHIR/JDV-J143-AdministrativeGender-CISIS"/>
-  <targetUri value="https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe"/>
+  <sourceUri value="https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe"/>
+  <targetUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
   <group>
-    <source value="http://hl7.org/fhir/administrative-gender"/>
-    <target value="https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"/>
+    <source value="https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"/>
+    <target value="http://hl7.org/fhir/administrative-gender"/>
     <element>
-      <code value="male"/>
+      <code value="M"/>
       <target>
-        <code value="M"/>
+        <code value="male"/>
         <equivalence value="equivalent"/>
       </target>
     </element>
     <element>
-      <code value="female"/>
+      <code value="F"/>
       <target>
-        <code value="F"/>
+        <code value="female"/>
         <equivalence value="equivalent"/>
       </target>
     </element>
     <element>
-      <code value="other"/>
+      <code value="O"/>
       <target>
-        <code value="O"/>
+        <code value="other"/>
         <equivalence value="equivalent"/>
       </target>
     </element>
     <element>
-      <code value="unknown"/>
+      <code value="UN"/>
       <target>
-        <code value="UN"/>
+        <code value="unknown"/>
         <equivalence value="equivalent"/>
       </target>
     </element>
