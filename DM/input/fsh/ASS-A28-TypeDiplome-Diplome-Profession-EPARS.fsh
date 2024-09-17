@@ -14,7 +14,7 @@ Usage: #definition
 * status = #active
 * date = "2024-07-26T12:00:00+01:00"
 * description = "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPAR"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J233-TypeDiplome-EPARS/FHIR/JDV-J233-TypeDiplome-EPARS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"
