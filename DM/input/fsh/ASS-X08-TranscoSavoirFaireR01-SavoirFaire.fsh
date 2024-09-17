@@ -14,7 +14,6 @@ Usage: #definition
 * status = #active
 * date = "2023-10-30T12:00:00+01:00"
 * description = "Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"
 * group[=].element[0].code = #SCD01
