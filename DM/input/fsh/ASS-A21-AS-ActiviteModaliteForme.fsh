@@ -13,6 +13,8 @@ Usage: #definition
 * status = #active
 * experimental = false
 * date = "2024-03-29T12:00:00+01:00"
+* group.source = "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"
+* group.target = "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"
 * description = "Triplet activité modalité forme pour les Activités de Soins (AS)"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"
