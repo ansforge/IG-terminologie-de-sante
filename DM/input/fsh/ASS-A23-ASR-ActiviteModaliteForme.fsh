@@ -14,6 +14,8 @@ Usage: #definition
 * status = #active
 * date = "2022-03-25T12:00:00+01:00"
 * description = "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"
 * group.element[0].code = #01
