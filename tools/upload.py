@@ -2,13 +2,39 @@ import asyncio
 import json
 import os.path
 from fhirpy import AsyncFHIRClient
+import time
+import asyncio
+import json
+import os.path
+import getpass
+import requests
+import sys
 
 
 async def main():
-    # Create an instance
-    client = AsyncFHIRClient(
-        'https://smt.esante.gouv.fr/fhir/',
-    )
+    if len(sys.argv) >= 3:
+        userName =  sys.argv[1] 
+        passWord =  sys.argv[2] 
+        data = {
+            "username": userName,
+            "password": passWord,
+            "client_id": "user-api",
+            "grant_type": "password",
+        }
+        response = requests.post("https://smt.esante.gouv.fr/ans/sso/auth/realms/ANS/protocol/openid-connect/token", data=data)
+        print(response.json)    
+        token_data = response.json()
+        access_token = token_data.get("access_token")
+        print(access_token)
+        # Create an instance
+        client = AsyncFHIRClient(
+            'https://smt.esante.gouv.fr/fhir/',
+            authorization=access_token,
+        )
+    else : 
+        client = AsyncFHIRClient(
+            'https://smt.esante.gouv.fr/fhir/'
+        )   
 
     # Search for CodeSystem
     resources = client.resources('CodeSystem')  # Return lazy search set
