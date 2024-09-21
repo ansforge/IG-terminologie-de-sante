@@ -9,9 +9,6 @@ Usage: #definition
 * title = "ASS_A32_StatutMotifPersonnePriseCharge
 * status = #active
 * experimental = false
-* description = ""
-* useContext.code = $usage-context-type#task
-* useContext.valueCodeableConcept.text = ""
 * publisher = "ANS"
 * contact.name = "ANS"
 * contact.telecom.system = #url
