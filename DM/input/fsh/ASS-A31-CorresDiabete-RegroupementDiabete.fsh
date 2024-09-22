@@ -3,7 +3,7 @@ Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context
 Instance: ASS-A31-CorresDiabete-RegroupementDiabete
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"
+* url = "https://mos.esante.gouv.fr/NOS/ASS_A31_CorresDiabete-RegroupementDiabete"
 * version = "5.0.0"
 * name = "ASS_A31_CorresDiabete-RegroupementDiabete"
 * title = "ASS_A31_CorresDiabete-RegroupementDiabete"
