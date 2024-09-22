@@ -6,7 +6,7 @@ Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge"
 * version = "5.0.0"
 * name = "ASS_A32_StatutMotifPersonnePriseCharge"
-* title = "ASS_A32_StatutMotifPersonnePriseCharge
+* title = "ASS_A32_StatutMotifPersonnePriseCharge"
 * status = #active
 * experimental = false
 * publisher = "ANS"
