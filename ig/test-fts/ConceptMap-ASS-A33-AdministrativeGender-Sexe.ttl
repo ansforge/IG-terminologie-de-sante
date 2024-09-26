@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ConceptMap/ASS-A33-AdministrativeGender-Sexe> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ASS-A33-AdministrativeGender-Sexe"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ASS-A33-AdministrativeGender-Sexe</b></p><a name=\"ASS-A33-AdministrativeGender-Sexe\"> </a><a name=\"hcASS-A33-AdministrativeGender-Sexe\"> </a><a name=\"ASS-A33-AdministrativeGender-Sexe-fr-FR\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/R4/codesystem-administrative-gender.html</code> to <code>https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>M</td></tr><tr><td>female</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>F</td></tr><tr><td>other</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>O</td></tr><tr><td>unknown</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UN</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "true"^^xsd:boolean ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A33-AdministrativeGender-Sexe/FHIR/ASS-A33-AdministrativeGender-Sexe"^^xsd:anyURI] ; # 
+  fhir:identifier [
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.77" ]
+  ] ; # 
+  fhir:version [ fhir:v "20240329120000"] ; # 
+  fhir:name [ fhir:v "ASS_A33-AdministrativeGender-Sexe"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Correspondance entre le genre administratif HL7 et le sexe"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "France" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "http://hl7.org/fhir/R4/codesystem-administrative-gender.html"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "male" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "M" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "female" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "F" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "other" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "O" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "unknown" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ANS.FR.TERMINOLOGIE\JDV_HL7_ObservationMethod_CISIS - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+
+    <!-- CSS only -->
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"8.151"}
+    h3,h4,h5,h6{--heading-prefix:"8.151"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé (Publiées par l&#39;ANS)</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - ci-build
+
+
+
+  France
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>JDV_HL7_ObservationMethod_CISIS</b></li>
+
+          <span style="float:right;">
+
+            <a href="ValueSet-2.16.840.1.113883.1.11.19700.ttl.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-2.16.840.1.113883.1.11.14079.xml.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="ValueSet-2.16.840.1.113883.1.11.14079.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-2.16.840.1.113883.1.11.14079.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-2.16.840.1.113883.1.11.14079.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-2.16.840.1.113883.1.11.14079.ttl.html">TTL</a>
+    </li>
+  
+ 
+  
+    <li id="Adownload" class="">
+      <a href="#">Téléchargement</a>
+    </li>
+  
+
+  
+  <li id="Ahistoire" class="">
+    <a href="#">Historique</a>
+  </li>
+
+   
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: 
+	  
+	  JDV_HL7_ObservationMethod_CISIS
+	
+		  
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.1.11.14079<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.1.11.14079"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">20100101000000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.1.11.14079|20100101000000"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2010-01-01
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">JDV_HL7_ObservationMethod_CISIS</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> OID:2.16.840.1.113883.1.11.14079
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>JDV_HL7_ObservationMethod_CISIS</p>
+
+</p>
+
+
+
+
+<div id="orig">
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+<div id="terminologit-search-content-valueset-cld" class="accordion-group">
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet 2.16.840.1.113883.1.11.14079</b></p><a name="2.16.840.1.113883.1.11.14079"> </a><a name="hc2.16.840.1.113883.1.11.14079"> </a><a name="2.16.840.1.113883.1.11.14079-und"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 3; Last updated: 2024-07-24 04:03:23+0000</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div>
+<ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.5.84</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1</td><td>Fixation complément</td></tr><tr><td>2</td><td>Tomographie axiale</td></tr><tr><td>3</td><td>Test de haut niveau de résistance aux aminosides sur gélose</td></tr><tr><td>4</td><td>Examen macroscopique</td></tr><tr><td>5</td><td>Résonnance magnétique</td></tr><tr><td>6</td><td>Morphométrie</td></tr><tr><td>7</td><td>Tomographie par émission de positrons</td></tr><tr><td>8</td><td>SAMHSA confirmation</td></tr><tr><td>9</td><td>SAMHSA dépistage</td></tr><tr><td>10</td><td>Neutralisation sérum</td></tr><tr><td>11</td><td>Titrimétrie</td></tr><tr><td>12</td><td>Ultrasonographie</td></tr><tr><td>13</td><td>Cristallographie Rayon X</td></tr><tr><td>14</td><td>Agglutination</td></tr><tr><td>15</td><td>Agglutination sur plaque tampon acidifié</td></tr><tr><td>16</td><td>Agglutination sur carte</td></tr><tr><td>17</td><td>Hémagglutination</td></tr><tr><td>18</td><td>Inhibition hémagglutination</td></tr><tr><td>19</td><td>Agglutination latex</td></tr><tr><td>20</td><td>Agglutination plaque</td></tr><tr><td>21</td><td>Agglutination rapide</td></tr><tr><td>22</td><td>Agglutination érythrocytes</td></tr><tr><td>23</td><td>Agglutination,rivanol</td></tr><tr><td>24</td><td>Agglutination en tube</td></tr><tr><td>25</td><td>Bioanalyse</td></tr><tr><td>26</td><td>Inoculation animal</td></tr><tr><td>27</td><td>Cytotoxicité</td></tr><tr><td>30</td><td>Inoculation intracérébrale à la souris</td></tr><tr><td>31</td><td>Analyse qualitative</td></tr><tr><td>32</td><td>Analyse quantitative</td></tr><tr><td>33</td><td>Méthode chimique</td></tr><tr><td>34</td><td>Test chimique d'absorption de lumière différentielle</td></tr><tr><td>37</td><td>Test sur bandelette</td></tr><tr><td>38</td><td>Chromatographie</td></tr><tr><td>39</td><td>Chromatographie d'affinité</td></tr><tr><td>40</td><td>Chromatographie phase gazeuse liquide</td></tr><tr><td>41</td><td>Chromatographie liquide haute pression</td></tr><tr><td>42</td><td>Chromatographie liquide</td></tr><tr><td>43</td><td>Chromatographie d'affinité à la protéine A</td></tr><tr><td>44</td><td>Coagulation</td></tr><tr><td>45</td><td>Temps de coagulation en tube</td></tr><tr><td>46</td><td>Coagulation induite par reptilase en tube</td></tr><tr><td>47</td><td>Comptage automatisé</td></tr><tr><td>48</td><td>Comptage manuel</td></tr><tr><td>49</td><td>Comptage plaquettaire de Rees-Ecker</td></tr><tr><td>50</td><td>Culture aérobie</td></tr><tr><td>51</td><td>Culture anaérobie</td></tr><tr><td>52</td><td>Culture sur embryon de poulet</td></tr><tr><td>53</td><td>Enrichissement secondaire retardé</td></tr><tr><td>54</td><td>Culture microaérophile</td></tr><tr><td>61</td><td>Culture cellulaire somatique</td></tr><tr><td>62</td><td>Diffusion gel Agar</td></tr><tr><td>63</td><td>Immunodiffusion</td></tr><tr><td>64</td><td>Électrophorèse</td></tr><tr><td>65</td><td>Électrophorèse gel agarose</td></tr><tr><td>66</td><td>Électrophorèse citrate agar</td></tr><tr><td>67</td><td>Immunoélectrophorèse</td></tr><tr><td>68</td><td>Électrophorèse sur gel de polyacrylamide</td></tr><tr><td>69</td><td>Électrophorèse sur gel d'amidon</td></tr><tr><td>70</td><td>ELISA</td></tr><tr><td>71</td><td>ELISA avec captude d'antigène</td></tr><tr><td>72</td><td>ELISA avec complexe avidine biotine péroxydase</td></tr><tr><td>73</td><td>ELISA avec cinétique</td></tr><tr><td>74</td><td>ELISA avec péroxydase-anti-péroxydase</td></tr><tr><td>75</td><td>Identification par galerie API 20 Strep</td></tr><tr><td>76</td><td>Identification par galerie API 20A</td></tr><tr><td>77</td><td>Identification par galerie API 20C AUX</td></tr><tr><td>78</td><td>Identification par galerie API 20E</td></tr><tr><td>79</td><td>Identification par galerie API 20NE</td></tr><tr><td>80</td><td>Identification par galerie API 50 CH</td></tr><tr><td>81</td><td>Identification par galerie API An-IDENT</td></tr><tr><td>82</td><td>Identification par galerie API Coryne</td></tr><tr><td>83</td><td>Identification par galerie API Rapid 20E</td></tr><tr><td>84</td><td>Identification par galerie API Staph</td></tr><tr><td>85</td><td>Identification par galerie API 20 Strep</td></tr><tr><td>86</td><td>Identification bactérienne</td></tr><tr><td>87</td><td>Identification par mini VIDAS</td></tr><tr><td>88</td><td>Identification par lysotypie</td></tr><tr><td>89</td><td>Identification par galerie QuadFERM+</td></tr><tr><td>90</td><td>Identification par galerie RAPIDEC Staph</td></tr><tr><td>91</td><td>Identification par agglutination latex Staphaurex</td></tr><tr><td>92</td><td>Identification par VIDAS</td></tr><tr><td>93</td><td>Identification par VITEK</td></tr><tr><td>94</td><td>Identification par VITEK 2</td></tr><tr><td>95</td><td>Coloration immune</td></tr><tr><td>96</td><td>Immunofluorescence directe</td></tr><tr><td>97</td><td>Immunofluorescence indirecte</td></tr><tr><td>98</td><td>Immunopéroxydase (complexe avidine-Biotine)</td></tr><tr><td>99</td><td>Immunopéroxydase (complexe péroxydase-antipéroxydase)</td></tr><tr><td>100</td><td>Immunopéroxydase (complexe Protéine A-péroxydase)</td></tr><tr><td>101</td><td>Immunoanalyse</td></tr><tr><td>102</td><td>Immunoanalyse qualitative à plusieurs étapes</td></tr><tr><td>103</td><td>Immunoanalyse qualitative à une étape</td></tr><tr><td>104</td><td>Radioimmunologie</td></tr><tr><td>105</td><td>Immunoanalyse semi-quantitative à plusieurs étapes</td></tr><tr><td>106</td><td>Immunoanalyse semi-quantitative à une étape</td></tr><tr><td>107</td><td>Microscopie</td></tr><tr><td>108</td><td>Microscopie fond noir</td></tr><tr><td>109</td><td>Microscopie électronique</td></tr><tr><td>110</td><td>Microscopie électronique, Tomographie numérique</td></tr><tr><td>111</td><td>Microscopie électronique en contraste de phase</td></tr><tr><td>112</td><td>Microscopie électronique sur section épaisse</td></tr><tr><td>113</td><td>Microscopie électronique sur section fine</td></tr><tr><td>114</td><td>Microscvopie en lumière directe</td></tr><tr><td>115</td><td>Microscopie à polarisation</td></tr><tr><td>116</td><td>Microscopie électronique à balayage</td></tr><tr><td>117</td><td>Microscopie électronique à transmission</td></tr><tr><td>120</td><td>ADN branché</td></tr><tr><td>122</td><td>Immunoblot</td></tr><tr><td>123</td><td>Hybridation moléculaire in situ</td></tr><tr><td>127</td><td>Sonde acide nucléique</td></tr><tr><td>128</td><td>Sonde acide nucléique avec amplification</td></tr><tr><td>129</td><td>Sonde acide nucléique avec amplification ciblée</td></tr><tr><td>130</td><td>Transcription inverse</td></tr><tr><td>131</td><td>Séquençage d'acides nucléiques</td></tr><tr><td>132</td><td>PCR</td></tr><tr><td>134</td><td>RFLP</td></tr><tr><td>135</td><td>Southern-blot</td></tr><tr><td>138</td><td>Western-Blot</td></tr><tr><td>139</td><td>Floculation</td></tr><tr><td>140</td><td>Immunoprécipitation</td></tr><tr><td>141</td><td>Test à l'anneau de lait</td></tr><tr><td>142</td><td>Précipitine</td></tr><tr><td>143</td><td>Coloration acide rapide</td></tr><tr><td>144</td><td>Coloration acide rapide/fluorochrome</td></tr><tr><td>145</td><td>Coloration acide rapide Kinyoun</td></tr><tr><td>146</td><td>Coloration acide Ziehl-Neelsen</td></tr><tr><td>147</td><td>Coloration phosphatase acide</td></tr><tr><td>148</td><td>Coloration acridine orange</td></tr><tr><td>149</td><td>Coloration orange brillant KH</td></tr><tr><td>150</td><td>Coloration rouge alizarine</td></tr><tr><td>151</td><td>Coloration bleu alcian</td></tr><tr><td>152</td><td>Coloration bleu alcian+acide périodique-Schiff</td></tr><tr><td>153</td><td>Coloration argentaffine</td></tr><tr><td>154</td><td>Coloration argent argentaffine</td></tr><tr><td>155</td><td>Coloration azur-éosine</td></tr><tr><td>156</td><td>Coloration fuchsine basique</td></tr><tr><td>157</td><td>Coloration Bennhold</td></tr><tr><td>158</td><td>Coloration rouge Congo/Bennhold</td></tr><tr><td>159</td><td>Coloration Bielschowsky</td></tr><tr><td>160</td><td>Coloration Argent/Bielschowsky</td></tr><tr><td>161</td><td>Décoloration</td></tr><tr><td>162</td><td>Coloration Bodian</td></tr><tr><td>163</td><td>Coloration Brown et Brenn</td></tr><tr><td>164</td><td>Coloration butyrate estérase</td></tr><tr><td>165</td><td>Préparation calcofluor blanc</td></tr><tr><td>166</td><td>Coloration carbol fuchsine</td></tr><tr><td>167</td><td>Coloration carmin</td></tr><tr><td>168</td><td>Coloration Churukian-Schenk</td></tr><tr><td>169</td><td>Coloration rouge Congo</td></tr><tr><td>170</td><td>Coloration violet de crésyl acétate</td></tr><tr><td>171</td><td>Coloration crystal violet</td></tr><tr><td>172</td><td>Coloration de Galantha</td></tr><tr><td>173</td><td>Coloration de Dieterle par imprégnation argentique</td></tr><tr><td>174</td><td>Coloration Fite-Faraco</td></tr><tr><td>175</td><td>Coloration Fontana-Masson</td></tr><tr><td>176</td><td>Coloration Fouchet</td></tr><tr><td>177</td><td>Coloration Gomori</td></tr><tr><td>178</td><td>Coloration méthénamine argent Gomori</td></tr><tr><td>179</td><td>Coloration trichrome Gomori-Wheatly</td></tr><tr><td>180</td><td>Coloration Gridley</td></tr><tr><td>181</td><td>Coloration argent Grimelius</td></tr><tr><td>182</td><td>Coloration de Grocott</td></tr><tr><td>183</td><td>Coloration méthénamine argent Grocott</td></tr><tr><td>184</td><td>Coloration à l'oxyde ferrique colloïdale de Hale</td></tr><tr><td>185</td><td>Coloration au fer colloïdale de Hale</td></tr><tr><td>186</td><td>Coloration Hansel</td></tr><tr><td>187</td><td>Coloration hématoxylline Harris+éosine</td></tr><tr><td>188</td><td>Coloration hématoxylline+éosine</td></tr><tr><td>189</td><td>Coloration Highman</td></tr><tr><td>190</td><td>Coloration Holzer</td></tr><tr><td>191</td><td>Coloration fer hématoxylline</td></tr><tr><td>192</td><td>Coloration Jones</td></tr><tr><td>193</td><td>Coloration méthénamine argent Jones</td></tr><tr><td>194</td><td>Coloration Kossa</td></tr><tr><td>195</td><td>Coloration Lawson-Van Gieson</td></tr><tr><td>196</td><td>Coloration bleu de méthylène Loeffler</td></tr><tr><td>197</td><td>Coloration Luxol bleu au violet crésyl</td></tr><tr><td>198</td><td>Coloration Luxol bleu à l'acide périodique-Schiff</td></tr><tr><td>199</td><td>Coloration tétrachrome MacNeal</td></tr><tr><td>200</td><td>Coloration Mallory-Heidenhain</td></tr><tr><td>201</td><td>Coloration trichrome Masson</td></tr><tr><td>202</td><td>Coloration Mayer mucicarmine</td></tr><tr><td>203</td><td>Coloration Mayer hématoxyline éosine</td></tr><tr><td>204</td><td>Coloration May-Grunwald Giemsa</td></tr><tr><td>205</td><td>Coloration au vert de méthyl</td></tr><tr><td>206</td><td>Coloration au vert de méthyl pyronine</td></tr><tr><td>207</td><td>Coloration trichrome Gomori-Wheatley</td></tr><tr><td>208</td><td>Coloration trichrome Masson modifié</td></tr><tr><td>209</td><td>Coloration trichrome modifié</td></tr><tr><td>210</td><td>Coloration pentachrome Movat</td></tr><tr><td>211</td><td>Coloration mucicarmine</td></tr><tr><td>212</td><td>Coloration rouge neutre</td></tr><tr><td>213</td><td>Coloration bleu nuit</td></tr><tr><td>214</td><td>Coloration estérase non spécifique</td></tr><tr><td>215</td><td>Coloration huile rouge O</td></tr><tr><td>216</td><td>Coloration orcéine</td></tr><tr><td>217</td><td>Coloration de Perls</td></tr><tr><td>218</td><td>Coloration hématoxyline phosphotungstique</td></tr><tr><td>219</td><td>Coloration ferrocyanure de potassium</td></tr><tr><td>220</td><td>Coloration bleu de Prusse</td></tr><tr><td>221</td><td>Coloration Bennhold modifiée</td></tr><tr><td>222</td><td>Coloration quinacrine fluorescente</td></tr><tr><td>223</td><td>Coloration réticuline</td></tr><tr><td>224</td><td>Coloration rhodamine</td></tr><tr><td>225</td><td>Coloration safranée</td></tr><tr><td>226</td><td>Coloration Schmorl</td></tr><tr><td>227</td><td>Coloration Sevier-Munger</td></tr><tr><td>228</td><td>Coloration argentique</td></tr><tr><td>229</td><td>Coloration estérase spécifique (Butyrate estérase)</td></tr><tr><td>230</td><td>Coloration Steiner</td></tr><tr><td>231</td><td>Coloration Soudan III</td></tr><tr><td>232</td><td>Coloration Soudan IV</td></tr><tr><td>233</td><td>Coloration bleu alcian sulfaté</td></tr><tr><td>234</td><td>Coloration supravitale</td></tr><tr><td>235</td><td>Coloration thioflavine-S</td></tr><tr><td>236</td><td>Coloration Giemsa 3µ</td></tr><tr><td>237</td><td>Coloration Vassar-Culling</td></tr><tr><td>238</td><td>Coloration vitale</td></tr><tr><td>239</td><td>Coloration Von Kossa</td></tr><tr><td>240</td><td>Antibiogramme méthode par diffusion</td></tr><tr><td>241</td><td>Antibiogramme méthode par automate BACTEC</td></tr><tr><td>242</td><td>Antibiogramme méthode par dilution</td></tr><tr><td>243</td><td>Concentration minimale bactéricide (CMB) par macrodilution (tube)</td></tr><tr><td>244</td><td>Concentration minimale bactéricide (CMB) par microdilution (plaque)</td></tr><tr><td>245</td><td>Concentration minimale inhibitrice (CMI) par macrodilution (tube)</td></tr><tr><td>246</td><td>Concentration minimale inhibitrice (CMI) par microdilution (plaque)</td></tr><tr><td>247</td><td>Turbidimétrie</td></tr><tr><td>248</td><td>Réfractométrie</td></tr><tr><td>249</td><td>Chromatographie couche mince</td></tr><tr><td>250</td><td>EMIT</td></tr><tr><td>251</td><td>Cytométrie de flux</td></tr><tr><td>252</td><td>Immunodiffusion radiale (RID)</td></tr><tr><td>253</td><td>PFIA</td></tr><tr><td>254</td><td>Immunofixation</td></tr><tr><td>255</td><td>Dialyse à l'équilibre</td></tr><tr><td>256</td><td>Elution acide de Kleihauer-Betke</td></tr><tr><td>257</td><td>Immunofluorescence anti-complément (ACIF)</td></tr><tr><td>258</td><td>Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)</td></tr><tr><td>259</td><td>Néphélométrie</td></tr><tr><td>261</td><td>Test de micro-lymphocytotoxicité</td></tr><tr><td>262</td><td>Spectrophotométrie</td></tr><tr><td>263</td><td>Spectrophotométrie d'absorption atomique (SAA)</td></tr><tr><td>264</td><td>Electrode ionique sélective</td></tr><tr><td>265</td><td>Chromatographie phase gazeuse (CG)</td></tr><tr><td>266</td><td>Isoélectrofocalisation (IEF)</td></tr><tr><td>267</td><td>Chimioluminescence</td></tr><tr><td>268</td><td>MEIA</td></tr><tr><td>269</td><td>Spectrométrie de masse à plasma à couplage inductif (ICP/MS)</td></tr><tr><td>270</td><td>IRMA</td></tr><tr><td>271</td><td>Coagulation par détection optique du caillot</td></tr><tr><td>272</td><td>Minimum Inhibitory Concentration</td></tr><tr><td>273</td><td>Viral Genotype Susceptibility</td></tr><tr><td>274</td><td>Viral Phenotype Susceptibility</td></tr><tr><td>275</td><td>Gradient Strip</td></tr><tr><td>275a</td><td>Minimum Lethal Concentration (MLC)</td></tr><tr><td>276</td><td>Slow Mycobacteria Susceptibility</td></tr><tr><td>277</td><td>Serum bactericidal titer</td></tr><tr><td>278</td><td>Agar screen</td></tr><tr><td>279</td><td>Disk induction</td></tr><tr><td>280</td><td>Susceptibility Testing</td></tr><tr><td>ALGM</td><td>Algorythme</td></tr><tr><td>BYCL</td><td>Analyse stastistique Bayésienne</td></tr><tr><td>PCR</td><td>PCR</td></tr><tr><td>VDOC</td><td>Vérification à partir d'un document</td></tr><tr><td>VREG</td><td>Vérification par requête électronique</td></tr><tr><td>VTOKEN</td><td>Vérification au moyen d'un jeton électronique</td></tr><tr><td>VVOICE</td><td>Vérification par voie orale</td></tr></table></li></ul></div>
+</div>
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">No Expansion for this valueset (not supported by Publication Tooling<!-- [Unable to expand imported value set: Error from https://tx.ontoserver.csiro.au/fhir: Error: [688d9ac5-9c98-42a2-85a7-cd3512b9319a]: A usable code system with URL urn:oid:2.16.840.1.113883.5.84 could not be resolved.
+Information: X-Request-Id: c84fae4d-8c10-4291-8c23-dc87d24ec728, Error from https://tx.ontoserver.csiro.au/fhir: Error: [b8a26d71-c952-466d-bb5e-d693d7e4f2df]: A usable code system with URL urn:oid:2.16.840.1.113883.5.84 could not be resolved.
+Information: X-Request-Id: 337168d6-9f0f-4417-9839-df7e49970951] -->)</p>
+
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+</div>
+<input type="hidden" id="idValue" value="2.16.840.1.113883.1.11.14079"/>
+<input type="hidden" id="typeValue" value="ValueSet"/>	
+<div id="download" style="display:none">
+<table class="grid table table-bordered">
+	<tbody>
+	
+		<tr>
+			<td><a href="#" onclick="window.open('./listFormat/ValueSet-2.16.840.1.113883.1.11.14079.tabs','_blank')">csv</a> </td>
+			<td> Fichier csv (.tabs)</td>
+		</tr>
+
+		
+		<tr>
+			<td><a href="#" onclick="window.open('./listFormat/ValueSet-2.16.840.1.113883.1.11.14079-svs.xml','_blank')">svs</a> </td>
+			<td>  Fichier xml (Sharing Value Sets) </td>
+		</tr>
+		<tr>
+			<td><a href="#" onclick="window.open('./ValueSet-2.16.840.1.113883.1.11.14079.json','_blank')">fhir</a> </td>
+			<td>  Fichier Fhir Json  </td>
+		</tr>
+		<tr>
+			<td><a href="#" onclick="window.open('./ValueSet-2.16.840.1.113883.1.11.14079.xml','_blank')">fhir</a> </td>
+			<td>  Fichier Fhir Xml  </td>
+		</tr>		
+		
+	</tbody>
+	</table>
+
+</div>
+
+<div id="divHistoire" >
+
+
+ </div>
+
+
+
+
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+
+
+
+		$( "#Ahistoire" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#download" ).css("display", "none");
+
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#Ahistoire" ).addClass("active");	
+			$( "#Adownload" ).removeClass("active");	
+
+		} );
+
+	   
+	   
+		$( "#Adownload" ).on( "click", function() {
+		  
+			$( "#orig" ).css("display", "none");
+			$( "#divHistoire" ).html("");
+			$( "#download" ).css("display", "");
+			$( "#Ahistoire" ).removeClass("active");
+			$("ul.nav-tabs ").children("li").removeClass();
+			$( "#Adownload" ).addClass("active");	
+
+		} );
+	} );
+</script>    
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="ValueSet-2.16.840.1.113883.1.11.19700.ttl.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="ValueSet-2.16.840.1.113883.1.11.14079.xml.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 11:39+0000">2024-09-26</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: #81BEF7" target="_blank" href="https://interop.esante.gouv.fr/ig/terminologie/history.html">Version History</a> | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose">New Issue</a>
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+  <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="assets/js/addOnto.js"> </script>
+  <!-- Fin ajout ANS -->
+
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+
+
+  <!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+          <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+              <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li>
+               -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>
+

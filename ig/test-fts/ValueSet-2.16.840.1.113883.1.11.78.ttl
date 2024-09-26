@@ -1,0 +1,182 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/terminologie/ValueSet/2.16.840.1.113883.1.11.78> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "2.16.840.1.113883.1.11.78"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "3" ] ;
+     fhir:lastUpdated [ fhir:v "2024-07-24T04:03:22.062+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet 2.16.840.1.113883.1.11.78</b></p><a name=\"2.16.840.1.113883.1.11.78\"> </a><a name=\"hc2.16.840.1.113883.1.11.78\"> </a><a name=\"2.16.840.1.113883.1.11.78-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Last updated: 2024-07-24 04:03:22+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.5.83</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>&lt;</td><td>Inférieur à la limite de détection</td></tr><tr><td>&gt;</td><td>Supérieur à la limite maximale de mesure</td></tr><tr><td>A</td><td>Anormal</td></tr><tr><td>AA</td><td>Très anormal, alerte</td></tr><tr><td>B</td><td>Amélioration</td></tr><tr><td>CAR</td><td>Porteur d'une forme altérée d'un gène</td></tr><tr><td>D</td><td>Diminution significative par rapport au résultat antérieur</td></tr><tr><td>DET</td><td>Détecté</td></tr><tr><td>E</td><td>Équivoque</td></tr><tr><td>EX</td><td>Hors seuils</td></tr><tr><td>EXP</td><td>Attendu</td></tr><tr><td>H</td><td>Anormalement haut</td></tr><tr><td>HH</td><td>Très anormalement haut, alerte</td></tr><tr><td>HU</td><td>Significativement haut</td></tr><tr><td>HX</td><td>Hors seuil supérieur</td></tr><tr><td>I</td><td>Intermédiaire</td></tr><tr><td>IE</td><td>Preuves insuffisantes</td></tr><tr><td>IND</td><td>Indéterminé</td></tr><tr><td>L</td><td>Anormalement bas</td></tr><tr><td>LL</td><td>Très anormalement bas, alerte</td></tr><tr><td>LU</td><td>Significativement bas</td></tr><tr><td>LX</td><td>Hors seuil inférieur</td></tr><tr><td>N</td><td>Normal</td></tr><tr><td>NCL</td><td>Pas de standard défini</td></tr><tr><td>ND</td><td>Non détecté</td></tr><tr><td>NEG</td><td>Négatif</td></tr><tr><td>NR</td><td>Non réactif</td></tr><tr><td>NS</td><td>Non sensible</td></tr><tr><td>POS</td><td>Positif</td></tr><tr><td>R</td><td>Résistant</td></tr><tr><td>RR</td><td>Réactif</td></tr><tr><td>S</td><td>Sensible</td></tr><tr><td>SDD</td><td>Sensible à forte dose</td></tr><tr><td>SYN-R</td><td>Synergie - résistant</td></tr><tr><td>SYN-S</td><td>Synergie - sensible</td></tr><tr><td>U</td><td>Augmentation significative par rapport au résultat antérieur</td></tr><tr><td>UNE</td><td>Inattendu</td></tr><tr><td>W</td><td>Dégradation</td></tr><tr><td>WR</td><td>Faiblement réactif</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-03-15T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/2.16.840.1.113883.1.11.78"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.1.11.78" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20100101000000"] ; # 
+  fhir:name [ fhir:v "JDV_HL7_ObservationInterpretation_CISIS"] ; # 
+  fhir:title [ fhir:v "JDV_HL7_ObservationInterpretation_CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2010-01-01T00:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "ANS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "ANS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "JDV_HL7_ObservationInterpretation_CISIS"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "France" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.5.83"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "<" ] ;
+         fhir:display [ fhir:v "Inférieur à la limite de détection" ]
+       ] [
+         fhir:code [ fhir:v ">" ] ;
+         fhir:display [ fhir:v "Supérieur à la limite maximale de mesure" ]
+       ] [
+         fhir:code [ fhir:v "A" ] ;
+         fhir:display [ fhir:v "Anormal" ]
+       ] [
+         fhir:code [ fhir:v "AA" ] ;
+         fhir:display [ fhir:v "Très anormal, alerte" ]
+       ] [
+         fhir:code [ fhir:v "B" ] ;
+         fhir:display [ fhir:v "Amélioration" ]
+       ] [
+         fhir:code [ fhir:v "CAR" ] ;
+         fhir:display [ fhir:v "Porteur d'une forme altérée d'un gène" ]
+       ] [
+         fhir:code [ fhir:v "D" ] ;
+         fhir:display [ fhir:v "Diminution significative par rapport au résultat antérieur" ]
+       ] [
+         fhir:code [ fhir:v "DET" ] ;
+         fhir:display [ fhir:v "Détecté" ]
+       ] [
+         fhir:code [ fhir:v "E" ] ;
+         fhir:display [ fhir:v "Équivoque" ]
+       ] [
+         fhir:code [ fhir:v "EX" ] ;
+         fhir:display [ fhir:v "Hors seuils" ]
+       ] [
+         fhir:code [ fhir:v "EXP" ] ;
+         fhir:display [ fhir:v "Attendu" ]
+       ] [
+         fhir:code [ fhir:v "H" ] ;
+         fhir:display [ fhir:v "Anormalement haut" ]
+       ] [
+         fhir:code [ fhir:v "HH" ] ;
+         fhir:display [ fhir:v "Très anormalement haut, alerte" ]
+       ] [
+         fhir:code [ fhir:v "HU" ] ;
+         fhir:display [ fhir:v "Significativement haut" ]
+       ] [
+         fhir:code [ fhir:v "HX" ] ;
+         fhir:display [ fhir:v "Hors seuil supérieur" ]
+       ] [
+         fhir:code [ fhir:v "I" ] ;
+         fhir:display [ fhir:v "Intermédiaire" ]
+       ] [
+         fhir:code [ fhir:v "IE" ] ;
+         fhir:display [ fhir:v "Preuves insuffisantes" ]
+       ] [
+         fhir:code [ fhir:v "IND" ] ;
+         fhir:display [ fhir:v "Indéterminé" ]
+       ] [
+         fhir:code [ fhir:v "L" ] ;
+         fhir:display [ fhir:v "Anormalement bas" ]
+       ] [
+         fhir:code [ fhir:v "LL" ] ;
+         fhir:display [ fhir:v "Très anormalement bas, alerte" ]
+       ] [
+         fhir:code [ fhir:v "LU" ] ;
+         fhir:display [ fhir:v "Significativement bas" ]
+       ] [
+         fhir:code [ fhir:v "LX" ] ;
+         fhir:display [ fhir:v "Hors seuil inférieur" ]
+       ] [
+         fhir:code [ fhir:v "N" ] ;
+         fhir:display [ fhir:v "Normal" ]
+       ] [
+         fhir:code [ fhir:v "NCL" ] ;
+         fhir:display [ fhir:v "Pas de standard défini" ]
+       ] [
+         fhir:code [ fhir:v "ND" ] ;
+         fhir:display [ fhir:v "Non détecté" ]
+       ] [
+         fhir:code [ fhir:v "NEG" ] ;
+         fhir:display [ fhir:v "Négatif" ]
+       ] [
+         fhir:code [ fhir:v "NR" ] ;
+         fhir:display [ fhir:v "Non réactif" ]
+       ] [
+         fhir:code [ fhir:v "NS" ] ;
+         fhir:display [ fhir:v "Non sensible" ]
+       ] [
+         fhir:code [ fhir:v "POS" ] ;
+         fhir:display [ fhir:v "Positif" ]
+       ] [
+         fhir:code [ fhir:v "R" ] ;
+         fhir:display [ fhir:v "Résistant" ]
+       ] [
+         fhir:code [ fhir:v "RR" ] ;
+         fhir:display [ fhir:v "Réactif" ]
+       ] [
+         fhir:code [ fhir:v "S" ] ;
+         fhir:display [ fhir:v "Sensible" ]
+       ] [
+         fhir:code [ fhir:v "SDD" ] ;
+         fhir:display [ fhir:v "Sensible à forte dose" ]
+       ] [
+         fhir:code [ fhir:v "SYN-R" ] ;
+         fhir:display [ fhir:v "Synergie - résistant" ]
+       ] [
+         fhir:code [ fhir:v "SYN-S" ] ;
+         fhir:display [ fhir:v "Synergie - sensible" ]
+       ] [
+         fhir:code [ fhir:v "U" ] ;
+         fhir:display [ fhir:v "Augmentation significative par rapport au résultat antérieur" ]
+       ] [
+         fhir:code [ fhir:v "UNE" ] ;
+         fhir:display [ fhir:v "Inattendu" ]
+       ] [
+         fhir:code [ fhir:v "W" ] ;
+         fhir:display [ fhir:v "Dégradation" ]
+       ] [
+         fhir:code [ fhir:v "WR" ] ;
+         fhir:display [ fhir:v "Faiblement réactif" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
