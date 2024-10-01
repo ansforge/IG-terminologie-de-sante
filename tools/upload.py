@@ -24,6 +24,7 @@ async def main():
             else :
                 f.write(json.dumps(CodeSystem))                   
         except :
+                print ("Exception " + e_codeSystem["name"])
                 f.write(json.dumps(e_codeSystem))      
    
 
