@@ -24,7 +24,7 @@ async def main():
             else :
                 f.write(json.dumps(CodeSystem))                   
         except :
-                f.write(json.dumps(CodeSystem))      
+                f.write(json.dumps(e_codeSystem))      
    
 
      # Search for NamingSystem
