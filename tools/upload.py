@@ -28,6 +28,7 @@ async def main():
                 if((e_codeSystem["name"] == "TRE_R13_Commune"))   :
                     e_codeSystem["content"] = "not-present"
                     f.write(json.dumps(e_codeSystem))  
+                    print (json.dumps(e_codeSystem))
                 else :
                     f.write(json.dumps(CodeSystem))      
    
