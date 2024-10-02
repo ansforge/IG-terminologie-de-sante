@@ -22,24 +22,14 @@ statut_attente <- complementInfo
 majDM <- statut_attente
 statut_AAnalyse <-- majDM
 DMcomplete -> statut_valideeMetier : Oui
-
-rectangle "Analyse de la DM \npar le comité" as comite #MistyRose;line:IndianRed;text:IndianRed
-circle "Validée \ncomité" as statut_valideeComite #blue;line:blue;line.dashed;text:blue
-circle "Annulée" as statut_annulee2 #red;line:red;line.dashed;text:red
-statut_valideeMetier -> comite
-comite -up-> statut_annulee2
-comite -> statut_valideeComite
-comite -> complementInfo
 }
 
 rectangle "Go traitement" as GoTraitement #Azure;line:MediumBlue;text:MediumBlue
-statut_valideeComite -> GoTraitement
+statut_valideeMetier -> GoTraitement
 rectangle "Go publication" as GoPublication #Azure;line:MediumBlue;text:MediumBlue
 
 package "Traitement" as step2 {
     circle "A traiter" as statut_aTraiter #blue;line:blue;line.dashed;text:blue
-    hexagon "Nature \n DM ?" as natureDM #GhostWhite;line:DimGrey;text:DimGrey
-    rectangle "Traitement Ontoserver" as Ontoserver #Azure;line:MediumBlue;text:MediumBlue
     rectangle "Traitement \nGitHub" as GitHub #Azure;line:MediumBlue;text:MediumBlue
     circle "Traitée" as status_traité #blue;line:blue;line.dashed;text:blue
     rectangle "Validation \ntraitement" as validationTraitement #Lavender;line:DarkMagenta;text:DarkMagenta
@@ -48,30 +38,41 @@ package "Traitement" as step2 {
 
 
     GoTraitement -> statut_aTraiter
-    statut_aTraiter -> natureDM
-    natureDM --> Ontoserver : Mineure 
-    natureDM -> GitHub : Majeure\nCreation
+    statut_aTraiter -> GitHub
+
     GitHub -> status_traité
     status_traité -> validationTraitement
     validationTraitement -> TraitementValide
-    statut_aTraiter <- TraitementValide : Correction syntaxique
+    statut_aTraiter <- TraitementValide #GhostWhite;line:Grey;text:DimGrey : Correction syntaxique
     TraitementValide -> statut_traitementValide : Oui
-    statut_traitementValide -> GoPublication
 }
 
+package "Comité" as step3 {
+    rectangle "Analyse par \nle comité" as comite #MistyRose;line:IndianRed;text:IndianRed
+    circle "Validée \ncomité" as statut_valideeComite #blue;line:blue;line.dashed;text:blue
+    circle "Annulée" as statut_annulee2 #red;line:red;line.dashed;text:red
 
-    statut_AAnalyse <- TraitementValide : Modification majeure de la demande
+    statut_traitementValide -> comite
+    comite --> statut_annulee2
+    comite -> statut_valideeComite
+    statut_valideeComite -> GoPublication
+}
 
-package "Publication" as step3 {
+    statut_AAnalyse <- TraitementValide #GhostWhite;line:Grey;text:DimGrey : \n\nModification majeure de la demande
+
+    statut_AAnalyse <-[#IndianRed] comite
+
+package "Publication" as step4 {
     circle "A publier" as statut_APublier #blue;line:blue;line.dashed;text:blue
     rectangle "Publication" as publication #Azure;line:MediumBlue;text:MediumBlue
     circle "Publiée" as statut_publiée #Lime;line:Lime;line.dashed;text:Lime
     GoPublication -> statut_APublier 
     statut_APublier -> publication
-    publication --> statut_publiée  
+    publication -> statut_publiée  
 
 }
- statut_publiée <- Ontoserver
+
+
 
 
 @enduml

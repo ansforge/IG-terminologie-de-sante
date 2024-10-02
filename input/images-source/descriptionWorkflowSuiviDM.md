@@ -11,7 +11,7 @@
 		<tr id="Initiateur">
 			<td>Initiateur de la demande</td>
             <td>
-                <p>Il s’agit d’un propriétaire de nomenclature ou d’un correspondant ANS. 
+                <p>Il s’agit d’un propriétaire de nomenclatures ou d’un correspondant ANS. 
                 <br><br>Le propriétaire de nomenclatures est responsable des évolutions du contenu de ses nomenclatures. 
                 <br>Ci-dessous une liste non exhaustive de propriétaires, avec des exemples de nomenclatures associées : </p>
                 <ul>
@@ -88,28 +88,13 @@
         <tr id="2">
 			<td>Analyse de la DM par l’équipe NOS</td>
             <td>
-                <p>L’équipe NOS analyse la demande.<br><br>Si la modification est jugée non nécessaire ou non autorisée, la DM peut être rejetée [passage de l’issue au statut « Annulée »].<br><br>Si la modification est jugée simple, l'équipe NOS envoie la demande de modification aux membres du comité de validation pour avis [passage de l’issue au statut « Validée métier »].<br><br>Si nécessaire, cette analyse peut être faite plusieurs fois sur une même DM jusqu'à la publication ou l'annulation de cette dernière.</p>
-            </td>
-        </tr>
-        <tr id="3">
-			<td>Analyse de la DM par le comité</td>
-            <td>
-                <p>Les membres du comité de validation analysent la demande et rendent un avis sur la DM :</p>
-                <ul>
-                    <li>en cas d'accord sur la modification, ils répondent positivement à l'équipe NOS [passage de l’issue au statut « Validée comité »].</li>
-                    <li>dans le cas contraire, ils envoient à l'équipe NOS leur retour argumenté 
-                        <ul>
-                        <li>La DM peut alors être rejetée [passage de l’issue au statut « Annulée »].</li>
-                        <li>Le comité demande un complément d’information à l’initiateur de la demande. </li>
-                        </ul>
-                    </li>
-                </ul>
+                <p>L’équipe NOS analyse la demande.<br><br>Si la modification est jugée non nécessaire ou non autorisée, la DM peut être rejetée [passage de l’issue au statut « Annulée »].<br><br>Si la modification est jugée simple, l'équipe NOS valide la demande [passage de l’issue au statut « Validée métier »].<br><br>Si la modification est jugée complexe (informations manquantes, règles non respectées, impacts non prévus...), l'équipe NOS demande des informations complémentaires à l'initiateur de la demande.<br><br>Si nécessaire, cette analyse peut être faite plusieurs fois sur une même DM jusqu'à la publication ou l'annulation de cette dernière.</p>
             </td>
         </tr>
         <tr id="4">
 			<td>Demande de complément d’information</td>
             <td>
-                <p>Si la modification est jugée complexe ou incomplète, l'équipe NOS ou le comité demande des informations complémentaires à l’initiateur de la demande [passage de l’issue au statut « En attente de retour »].<br>Si besoin, des groupes de travail peuvent être organisés avec les différents utilisateurs de la nomenclature pour étudier la modification. </p>
+                <p>Si la modification est jugée complexe ou incomplète, l'équipe NOS demande des informations complémentaires à l’initiateur de la demande [passage de l’issue au statut « En attente de retour »].<br>Si besoin, des groupes de travail peuvent être organisés avec les différents utilisateurs de la nomenclature pour étudier la modification. </p>
             </td>
         </tr>
         <tr id="5">
@@ -121,41 +106,45 @@
         <tr id="6">
 			<td>GO traitement</td>
             <td>
-                <p>Suite à la validation de la DM par l’initiateur de la demande et le comité, le responsable ANS lance la phase de traitement [passage de l’issue au statut « A traiter »] et sélectionne la nature du traitement de la DM : </p>
-                <ul>
-                    <li>Création de nomenclature</li>
-                    <li>Demande de modification mineure</li>
-                    <li>Demande de modification majeure</li>
-                </ul>
-            </td>
-        </tr>
-        <tr id="7">
-			<td>Traitement sur Ontoserver</td>
-            <td>
-                <p>Dans le cas d’une demande de modification mineure, l’équipe NOS traite la demande directement sur Ontoserver. La mise à jour est donc publiée sans validation technique [passage de l’issue au statut « Publiée »].</p>
+                <p>Suite à la validation de la DM par l’initiateur de la demande, le responsable ANS lance la phase de traitement [passage de l’issue au statut « A traiter »].
             </td>
         </tr>
         <tr id="8">
 			<td>Traitement GitHub</td>
             <td>
-                <p>Dans le cas d’une création de nomenclature, l’équipe NOS créé la nomenclature directement en production avec un statut draft.<br><br>Dans le cas d’une demande de modification majeure, l’équipe NOS effectue le traitement en créant/mettant à jour les FSH. Une branche git est créée.<br><br>Une fois le traitement effectué, l’équipe NOS demande une validation à l’initiateur de la demande [passage de l’issue au statut « Traité »].</p>
+                <p>L’équipe NOS effectue le traitement en créant/mettant à jour les FSH. Une branche git est créée par publication.<br><br>Une fois le traitement effectué, l’équipe NOS demande une validation à l’initiateur de la demande [passage de l’issue au statut « Traité »].</p>
             </td>
         </tr>
         <tr id="9">
 			<td>Validation traitement</td>
             <td>
-                <p>S’il s’agit d’une création de nomenclature, l’initiateur de la demande visualise en production la nouvelle nomenclature visible avec un statut draft.<br><br>S’il s’agit d’une demande de modification majeure, l’initiateur de la demande visualise les modifications en se rendant sur la branche spécifique.<br><br>L’initiateur de la demande peut :</p>
+                <p>L’initiateur de la demande visualise les modifications en se rendant sur la branche spécifique.<br><br>L’initiateur de la demande peut :</p>
                 <ul>
-                <li>valider le traitement [passage de l’issue au statut « Traitement Validé »] </li>
-                <li>demander une correction syntaxique [passage de l’issue au statut « A traiter »]</li>
-                <li>compléter sa demande [passage de l’issue au statut « A analyser »]</li>
+                    <li>valider le traitement [passage de l’issue au statut « Traitement Validé »] </li>
+                    <li>demander une correction syntaxique [passage de l’issue au statut « A traiter »]</li>
+                    <li>compléter sa demande [passage de l’issue au statut « A analyser »]</li>
+                </ul>
+            </td>
+        </tr>
+        <tr id="3">
+			<td>Analyse par le comité</td>
+            <td>
+                <p>Suite à la validation du traitement par l'initiateur de la demande, les membres du comité de validation analysent la demande et rendent un avis sur la DM :</p>
+                <ul>
+                    <li>en cas d'accord sur la modification, ils répondent positivement à l'équipe NOS [passage de l’issue au statut « Validée comité »].</li>
+                    <li>dans le cas contraire, ils envoient à l'équipe NOS leur retour argumenté :
+                        <ul>
+                            <li>La DM peut alors être rejetée [passage de l’issue au statut « Annulée »].</li>
+                            <li>Le comité demande un complément d’information [passage de l'issue au statut « A analyser »]. </li>
+                        </ul>
+                    </li>
                 </ul>
             </td>
         </tr>
         <tr id="10">
 			<td>Go publication</td>
             <td>
-                <p>Suite à la validation du traitement de la DM par l’initiateur de la demande, le responsable ANS lance la phase de publication [passage de l’issue au statut « A publier »].</p>
+                <p>Suite à la validation de la DM par le comité, le responsable ANS lance la phase de publication [passage de l’issue au statut « A publier »].</p>
             </td>
         </tr>
         <tr id="11">
