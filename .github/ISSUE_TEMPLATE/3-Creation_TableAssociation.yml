@@ -1,0 +1,99 @@
+name: Création - Table d'association (ASS)
+description: Nomenclatures des Objets de Santé (NOS) Demande de création d'une table d'association (ASS).
+title: "Creation-ASS_Nom de la nomenclature"
+labels: ["Création-ASS"]
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: dropdown
+    id: consommateur
+    attributes:
+      label: Consommateur(s) impacté(s)
+      multiple: true 
+      description: Sélectionnez le(s) consommateur(s) impacté(s) par la nomenclature.
+      options:
+      - ROR
+      - CI-SIS
+      - RPPS
+      - FINESS
+      - RASS
+      - ENREG
+      - EPARS
+      - MOS
+      - DMP
+      - SI-CPS
+      - MSS
+      - SAMU
+      - DICO
+      - SI-VIC
+      - Interop'Santé
+      - Santefr
+      - CNSA
+      - ENS
+      - SAS
+      - RFOS
+      - Autre(s)
+    validations:
+      required: false  
+  - type: input
+    id: AutreConso
+    attributes:
+      label: Autre(s)
+      description: Si un consommateur impacté n'est pas présent dans la liste ci-dessus, veuillez le préciser ici
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "# Table d'association à créer"
+  - type: input
+    id: Nom
+    attributes:
+      label: Nom
+      description: Le nom de la nomenclature n'est pas modifiable. Il ne doit contenir ni caractères accentués ni espaces ni caractères spéciaux excepté "_". <br> **Privilégiez la convention de nommage PascalCase.**
+    validations:
+      required: true
+  - type: input
+    id: Description
+    attributes:
+      label: Description
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: true
+  - type: textarea
+    id: ASS
+    attributes:
+      label: Contenu de la table d'association à créer
+      description: |
+        **Veuillez lister les lignes à créer selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [Creation_TableAssociation](../tree/main/input/DM_Excel/Creation_TableAssociation.xlsx).**
+        
+        Données attendues : 
+        - Contexte ; Nom/URL du JDV source ; Nom/URL du JDV cible 
+        - Code & code system de la TRE source ; Type d'association ; code & code system de la TRE cible ;  Commentaire
+      placeholder: |
+        Exemple ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS : 
+        Task ; JDV-ModeleDocumentCDA ; JDV_J10_XdsFormatCode_CISIS
+        - 1.2.250.1.213.1.1.1.5.1 & 1.2.250.1.213.1.1.4.328 ; equivalent ; urn:asip:ci-sis:cse-cs8:2017 & 1.2.250.1.213.1.1.4.2.282
+        - 1.2.250.1.213.1.1.1.5.2  & 1.2.250.1.213.1.1.4.328 ; equivalent ; urn:asip:ci-sis:cse-cs9:2017 & 1.2.250.1.213.1.1.4.2.282
+    validations:
+      required: true

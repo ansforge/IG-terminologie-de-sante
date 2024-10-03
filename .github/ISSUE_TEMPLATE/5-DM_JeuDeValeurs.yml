@@ -1,0 +1,65 @@
+name: DM - Jeu de valeurs (JDV)
+description: Nomenclatures des Objets de Santé (NOS) Demande de modification d'un jeu de valeurs (JDV).
+title: "DM-JDV_JXX_Nom de la nomenclature"
+labels: ["DM-JDV"]
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: input
+    id: Nom
+    attributes:
+      label: Jeu de valeurs à modifier
+      placeholder: Nom ou URL du JDV
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "# Description des modifications demandées" 
+  - type: textarea
+    id: Description
+    attributes:
+      label: Dans le cas de la mise à jour de la description du jeu de valeurs, veuillez indiquer la nouvelle description.
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: false
+  - type: textarea
+    id: maj
+    attributes:
+      label: Dans le cas de la mise à jour de la règle de mise à jour du JDV , veuillez indiquer la nouvelle règle.
+    validations:
+      required: false
+  - type: textarea
+    id: JDV
+    attributes:
+      label: Dans le cas de la modification du contenu du JDV, veuillez indiquer sa nouvelle règle de construction ou les lignes mises à jour.
+      description: Veuillez indiquer la nouvelle règle de construction ou joindre un fichier excel en suivant le modèle [DM_JeuDeValeurs](../tree/main/input/DM_Excel/DM_JeuDeValeurs.xlsx).
+      placeholder : |
+        Exemples : tous les codes actifs de la TRE_RXX, tous les codes actifs et obsolètes de la TRE_RXX...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > **Si la mise à jour du JDV demandée impacte une table d'association alors vous devez créer une [issue spécifique](./new/choose).**

@@ -1,0 +1,59 @@
+name: DM - Table d'association (ASS)
+description: Nomenclatures des Objets de Santé (NOS) Demande de modification d'une table d'association (ASS).
+title: "DM-ASS_AXX_Nom de la nomenclature"
+labels: ["DM-ASS"]
+body:
+  - type: markdown
+    attributes:
+      value: "# Initialisation"
+  - type: input
+    id: Demandeur
+    attributes:
+      label: Système demandeur
+    validations:
+      required: true
+  - type: input
+    id: DateGen
+    attributes:
+      label: Date de génération souhaitée
+      placeholder: MM/AAAA
+    validations:
+      required: true
+  - type: textarea
+    id: Contexte
+    attributes:
+      label: Contexte
+      description: Veuillez renseigner une description ainsi que le cadre juridique
+    validations:
+      required: true
+  - type: input
+    id: Nom
+    attributes:
+      label: Table d'association à modifier
+      placeholder: Nom ou URL de l'ASS
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "# Description des modifications demandées"  
+  - type: textarea
+    id: Description
+    attributes:
+      label: Dans le cas de la mise à jour de la description de la table d'association, veuillez indiquer la nouvelle description.
+      description: La description de la nomenclature doit contenir au maximum 250 caractères.
+    validations:
+      required: false
+  - type: textarea
+    id: ASS
+    attributes:
+      label: Dans le cas de la modification du contenu de la table d'association, veuillez indiquer les lignes mises à jour.
+      description: |
+        **Veuillez indiquer les lignes mises à jour selon le format ci-dessous ou joindre un fichier excel en suivant le modèle [DM_TableAssociation](../tree/main/input/DM_Excel/DM_TableAssociation.xlsx).**
+        
+        Données attendues : 
+        - Code & code system de la TRE source ; Type d'association ; code & code system de la TRE cible ;  Commentaire ; Type de modification (Ajout, Suppression)
+      placeholder: |
+        Exemple ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS :
+        - 1.2.250.1.213.1.1.1.5.3 & 1.2.250.1.213.1.1.4.328 ; equivalent ; urn:asip:ci-sis:cse-cs24:2017 & 1.2.250.1.213.1.1.4.2.282 ; ; Ajout
+    validations:
+      required: false
