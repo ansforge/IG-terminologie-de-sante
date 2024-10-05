@@ -50,7 +50,13 @@ async def main():
             else :
                 f.write(json.dumps(CodeSystem))                   
         except :
-                f.write(json.dumps(CodeSystem))      
+                print ("Exception " + e_codeSystem["name"])
+                if((e_codeSystem["name"] == "TRE_R13_Commune"))   :
+                    e_codeSystem["content"] = "not-present"
+                    f.write(json.dumps(e_codeSystem))  
+                    print (json.dumps(e_codeSystem))
+                else :
+                    f.write(json.dumps(CodeSystem))         
    
 
      # Search for NamingSystem
