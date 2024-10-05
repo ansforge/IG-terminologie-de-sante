@@ -3,7 +3,7 @@ Alias: $TRE_R13 = https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-
 ValueSet: JDV_J120_CommuneHistorisee
 Id: JDV_J120_CommuneHistorisee
 Title: "JDV_J120_CommuneHistorisee"
-Description: "Toute la nomenclature des codes communes auquel on ajoute le code applicatif “Non renseigné”"
+Description: "Toute la nomenclature des codes communes auquel on ajoute le code applicatif 'Non renseigné'"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-04-17T09:25:08.004+00:00"
