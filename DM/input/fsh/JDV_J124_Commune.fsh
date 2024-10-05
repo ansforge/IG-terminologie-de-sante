@@ -1,7 +1,7 @@
 Alias: $TRE_R13 = https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM
 
 ValueSet: JDV_J124_Commune
-Id: JDV_J124_Commune
+Id: JDV-J124-Commune
 Title: "JDV_J124_Commune"
 Description: "Toute la nomenclature des codes actuels communes auquel on ajoute le code applicatif 'Non renseigné'"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
