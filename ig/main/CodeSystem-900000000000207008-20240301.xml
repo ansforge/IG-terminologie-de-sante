@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="900000000000207008-20240301"/>
+  <meta>
+    <versionId value="3"/>
+    <lastUpdated value="2024-09-24T12:25:24.893+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem 900000000000207008-20240301</b></p><a name="900000000000207008-20240301"> </a><a name="hc900000000000207008-20240301"> </a><a name="900000000000207008-20240301-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 3; Last updated: 2024-09-24 12:25:24+0000</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>inactive</td><td>inactive</td><td>boolean</td><td>Whether the code is active or not (defaults to false).</td></tr><tr><td>sufficientlyDefined</td><td>sufficientlyDefined</td><td>boolean</td><td>True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).</td></tr><tr><td>parent</td><td>parent</td><td>code</td><td>The SNOMED CT concept id that is a direct parent of the concept.</td></tr><tr><td>child</td><td>child</td><td>code</td><td>The SNOMED CT concept id that is a direct child of the concept.</td></tr><tr><td>moduleId</td><td>moduleId</td><td>code</td><td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filters</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Value</b></td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td><td>is-a </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.</td><td>descendent-of </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.</td><td>in </td><td>A SNOMED CT concept id</td></tr><tr><td>constraint</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>expression</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>parent</td><td>Includes all concept ids that have/do not have a parent concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr><tr><td>child</td><td>Includes all concept ids that have/do not have a child concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines codes in a Is-A hierarchy, but no codes are represented here</p></div>
+  </text>
+  <url value="http://snomed.info/sct"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.6.96"/>
+  </identifier>
+  <version value="http://snomed.info/sct/900000000000207008/version/20240301"/>
+  <name value="SNOMED_CT"/>
+  <title value="SNOMED CT core"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-10-14T11:37:57+00:00"/>
+  <publisher value="ANS"/>
+  <contact>
+    <name value="ANS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://esante.gouv.fr"/>
+    </telecom>
+  </contact>
+  <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="© 2002-2016 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. &quot;SNOMED&quot; and &quot;SNOMED CT&quot; are registered trademarks of the IHTSDO https://www.snomed.org/get-snomed"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://snomed.info/sct/900000000000207008/version/20240301?fhir_vs"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="true"/>
+  <versionNeeded value="false"/>
+  <content value="not-present"/>
+  <filter>
+    <code value="concept"/>
+    <description value="Includes all concept ids that have a transitive is-a relationship with the code provided as the value."/>
+    <operator value="is-a"/>
+    <value value="A SNOMED CT code"/>
+  </filter>
+  <filter>
+    <code value="concept"/>
+    <description value="Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself."/>
+    <operator value="descendent-of"/>
+    <value value="A SNOMED CT code"/>
+  </filter>
+  <filter>
+    <code value="concept"/>
+    <description value="Includes all concept ids that are active members of the reference set identified by the concept id provided as the value."/>
+    <operator value="in"/>
+    <value value="A SNOMED CT concept id"/>
+  </filter>
+  <filter>
+    <code value="constraint"/>
+    <description value="The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint."/>
+    <operator value="="/>
+    <value value="A SNOMED CT Expression Constraint"/>
+  </filter>
+  <filter>
+    <code value="expression"/>
+    <description value="The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint."/>
+    <operator value="="/>
+    <value value="A SNOMED CT Expression Constraint"/>
+  </filter>
+  <filter>
+    <code value="parent"/>
+    <description value="Includes all concept ids that have/do not have a parent concept."/>
+    <operator value="exists"/>
+    <operator value="="/>
+    <value value="A boolean, to specifiy whether or not the property has a value."/>
+  </filter>
+  <filter>
+    <code value="child"/>
+    <description value="Includes all concept ids that have/do not have a child concept."/>
+    <operator value="exists"/>
+    <operator value="="/>
+    <value value="A boolean, to specifiy whether or not the property has a value."/>
+  </filter>
+  <property>
+    <code value="inactive"/>
+    <description value="Whether the code is active or not (defaults to false)."/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="sufficientlyDefined"/>
+    <description value="True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive)."/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="parent"/>
+    <description value="The SNOMED CT concept id that is a direct parent of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="child"/>
+    <description value="The SNOMED CT concept id that is a direct child of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="moduleId"/>
+    <description value="The SNOMED CT concept id of the module that the concept belongs to."/>
+    <type value="code"/>
+  </property>
+</CodeSystem>

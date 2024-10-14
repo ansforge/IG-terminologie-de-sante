@@ -1,10 +1,12 @@
 Terminologie : Validation Results
 =========================================
 
-err = 519, warn = 1787, info = 856
-IG Publisher Version: 1.6.30
-Generated Mon Oct 14 04:44:00 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
+err = 524, warn = 1790, info = 860
+IG Publisher Version: 1.6.31
+Generated Mon Oct 14 11:56:21 UTC 2024. FHIR version 4.0.1 for ans.fr.terminologie#1.1.0 (canonical = https://interop.esante.gouv.fr/ig/terminologie)
  Build Errors : 929 / 23 / 0
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-900000000000207008-20240301 : 2 / 3 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-loinc : 3 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 0 / 1
@@ -2297,6 +2299,20 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/div/input/div/table/tr/td/a at Line 326, column 3309: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.html#/html/body/div/div/div/div/div/div/div/div/input/div/table/tr/td/a at Line 326, column 4010: The link 'CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html' for "ValueSet-JDV-J10-XdsFormatCode-CISIS.html" cannot be resolved (valid targets: 59 targets)
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/output/telechargementNos.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Correspondances%20RessourcesFHIR-NOS_0.pdf' for "Correspondance entre les ressources FHIR et les NOS (PDF)" cannot be resolved
+== DM/fsh-generated/resources/CodeSystem-900000000000207008-20240301.json ==
+ERROR: CodeSystem.where(url = 'http://snomed.info/sct'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-900000000000207008-20240301.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/900000000000207008-20240301) does not match the URL (http://snomed.info/sct)
+INFORMATION: CodeSystem/900000000000207008-20240301: CodeSystem: Review the All Codes Value Set - incomplete CodeSystems generally should not have an all codes value set specified
+WARNING: CodeSystem/900000000000207008-20240301: CodeSystem.property[0]: This property has only the standard code ('inactive') but not the standard URI 'http://hl7.org/fhir/concept-properties#inactive', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20240301: CodeSystem.property[1]: This property has only a code ('sufficientlyDefined') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+WARNING: CodeSystem/900000000000207008-20240301: CodeSystem.property[2]: This property has only the standard code ('parent') but not the standard URI 'http://hl7.org/fhir/concept-properties#parent', so it has no clearly defined meaning in the terminology ecosystem
+WARNING: CodeSystem/900000000000207008-20240301: CodeSystem.property[3]: This property has only the standard code ('child') but not the standard URI 'http://hl7.org/fhir/concept-properties#child', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/900000000000207008-20240301: CodeSystem.property[4]: This property has only a code ('moduleId') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-900000000000207008-20240301: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/900000000000207008-20240301 vs http://snomed.info/sct
+== DM/fsh-generated/resources/CodeSystem-v3-loinc.json ==
+ERROR: CodeSystem.where(url = 'http://loinc.org'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-loinc.json - the canonical URL (https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/v3-loinc) does not match the URL (http://loinc.org)
+INFORMATION: CodeSystem/v3-loinc: CodeSystem.identifier[1].type: Reference to draft CodeSystem http://hl7.org/fhir/namingsystem-identifier-type|4.0.1
+ERROR: CodeSystem/v3-loinc: CodeSystem.identifier[1].type.coding[0].code: Unknown code 'iri-stem' in the CodeSystem 'http://hl7.org/fhir/namingsystem-identifier-type' version '4.0.1'
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-loinc: URL Mismatch https://interop.esante.gouv.fr/ig/terminologie/CodeSystem/v3-loinc vs http://loinc.org
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
