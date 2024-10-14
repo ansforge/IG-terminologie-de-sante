@@ -16,7 +16,7 @@ Usage: #definition
 * description = "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP"
-* group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc"
+* group[0].source = "http://loinc.org"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #11369-6
 * group[=].element[=].target.code = #52
