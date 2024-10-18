@@ -232,6 +232,11 @@
 
 
   </h2>
+{​% sqlToData itemQuery
+  select id,  json_extract(Resources.json,'$.extension[0].valuePeriod.start')  from Resources 
+%}
+
+
   <table class="colsi">
 
     <tr>
@@ -263,6 +268,8 @@
 
       <td><i>Computable Name</i>: <span style="font-family: monospace;">JDV_AdditionGrandeur_CISIS</span></td>
     </tr>
+
+ <!--   
     <tr>
       <td colspan="3">
         <i>As active of:</i> 
@@ -271,7 +278,7 @@
         <i>RevisionDate:</i> 2024-03-15T00:00:00+01:00
       </td>      
     </tr>
-    
+
     
 
     <tr>
@@ -279,7 +286,7 @@
         <i>dd:</i> -
       </td>
     </tr>
-
+    -->
     
 
     <tr>
@@ -436,7 +443,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 18, 2024 04:29+0000">2024-10-18</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 18, 2024 07:07+0000">2024-10-18</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

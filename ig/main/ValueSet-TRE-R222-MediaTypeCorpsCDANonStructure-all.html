@@ -232,6 +232,11 @@
 
 
   </h2>
+{​% sqlToData itemQuery
+  select id,  json_extract(Resources.json,'$.extension[0].valuePeriod.start')  from Resources 
+%}
+
+
   <table class="colsi">
 
     <tr>
@@ -263,23 +268,23 @@
 
       <td><i>Computable Name</i>: <span style="font-family: monospace;">JDV_TRE_R222_MediaTypeCorpsCDANonStructure</span></td>
     </tr>
-    <tr>
+
+   <!-- <tr>
       <td colspan="3">
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2024-10-18T04:29:52+00:00
+        <i>RevisionDate:</i> 2024-10-18T07:07:45+00:00
       </td>      
     </tr>
-    
+
     
 
     <tr>
       <td colspan="5">
         <i>dd:</i> -
       </td>
-    </tr>
-
+    </tr> -->
     
 
 
@@ -347,7 +352,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html">codesystem TRE_R222_MediaTypeCorpsCDANonStructure v20231215120000 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b><a href="ValueSet-JDV-J10-XdsFormatCode-CISIS.html">ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS</a></b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-application/pdf"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-application.47pdf">application/pdf</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en Pdf/A-1</td><td><a name="l545">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-text/plain"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-text.47plain">text/plain</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en texte brut</td><td><a name="l561">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-text/rtf"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-text.47rtf">text/rtf</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format rtf</td><td><a name="l577">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-image/jpeg"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-image.47jpeg">image/jpeg</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format jpeg</td><td><a name="l593">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-image/tiff"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-image.47tiff">image/tiff</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format tiff</td><td><a name="l609">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr></table></div>
+  <div><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html">codesystem TRE_R222_MediaTypeCorpsCDANonStructure v20231215120000 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b><a href="ValueSet-JDV-J10-XdsFormatCode-CISIS.html">ASS_12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS</a></b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-application/pdf"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-application.47pdf">application/pdf</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en Pdf/A-1</td><td><a name="l523">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-text/plain"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-text.47plain">text/plain</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en texte brut</td><td><a name="l539">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-text/rtf"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-text.47rtf">text/rtf</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format rtf</td><td><a name="l555">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-image/jpeg"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-image.47jpeg">image/jpeg</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format jpeg</td><td><a name="l571">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr><tr><td style="white-space:nowrap"><a name="x-https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure-image/tiff"> </a>&nbsp;&nbsp;<a href="CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html#TRE-R222-MediaTypeCorpsCDANonStructure-image.47tiff">image/tiff</a></td><td>https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure</td><td>Document CDA à corps non structuré en format tiff</td><td><a name="l587">​</a><span title="EQUIVALENT">~</span><a href="CodeSystem-TRE-A11-IheFormatCode.html#TRE-A11-IheFormatCode-ValueSet-JDV-J10-XdsFormatCode-CISIS.46html">ValueSet-JDV-J10-XdsFormatCode-CISIS.html</a></td></tr></table></div>
 
   <hr/>
   <p>
@@ -428,7 +433,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 18, 2024 04:29+0000">2024-10-18</span>
+    IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologie#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 18, 2024 07:07+0000">2024-10-18</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
