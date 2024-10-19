@@ -21,6 +21,14 @@ Source :
       <td>Exemple : xds-author-specialty</td>
     </tr>
     <tr>
+      <td style="text-align: left">identifier</td>
+      <td style="text-align: left">Permet d'identiquer l'OID </td>
+      <td>Exemple : <code>    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
+    } </code></td>
+    </tr>    
+    <tr>
       <td style="text-align: left">meta.profile</td>
       <td style="text-align: left"></td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
@@ -28,7 +36,7 @@ Source :
     <tr>
       <td style="text-align: left">meta</td>
       <td style="text-align: left">Gestion des permissions</td>
-      <td><code> {
+      <td>Exemple : <code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
                 "code": "nos.write"
             }</code></td>
@@ -71,12 +79,12 @@ Source :
     <tr>
       <td style="text-align: left">name</td>
       <td style="text-align: left">UpperLowerCase</td>
-      <td>XdsAuthorSpecialty</td>
+      <td>Exemple XdsAuthorSpecialty</td>
     </tr>    
     <tr>
       <td style="text-align: left">title</td>
       <td style="text-align: left">Title Case</td>
-      <td>Xds Author Specialty</td>
+      <td>Exemple : Xds Author Specialty</td>
     </tr>    
 
   
