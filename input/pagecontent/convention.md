@@ -44,10 +44,30 @@ Source :
       <td>https://smt.esante.gouv.fr/ValueSet/{id}</td>
     </tr>
     <tr>
+      <td style="text-align: left">date.value</td>
+      <td style="text-align: left">Date de la dernière mise à jour</td>
+      <td></td>
+    </tr>    
+    <tr>
+      <td style="text-align: left">extension.valuePeriod.start</td>
+      <td style="text-align: left">Date de creation du JDV</td>
+      <td></td>
+    </tr>        
+    <tr>
       <td style="text-align: left">version</td>
       <td style="text-align: left">Version au format date</td>
-      <td>yyymmdd</td>
+      <td>YYYYMMDDhhmmss</td>
     </tr>
+    <tr>
+      <td style="text-align: left">status</td>
+      <td style="text-align: left">statut : draft | active | retired | unknown</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">description</td>
+      <td style="text-align: left">obligatoire</td>
+      <td></td>
+    </tr>     
     <tr>
       <td style="text-align: left">name</td>
       <td style="text-align: left">UpperLowerCase</td>
