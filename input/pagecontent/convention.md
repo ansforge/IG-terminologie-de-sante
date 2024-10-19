@@ -25,18 +25,14 @@ Source :
       <td style="text-align: left"></td>
       <td>http://hl7.org/fhir/StructureDefinition/shareablevalueset</td>
     </tr>
-    
     <tr>
-      <td style="text-align: left">meta.security</td>
+      <td style="text-align: left">meta</td>
       <td style="text-align: left">Gestion des permissions</td>
       <td><code> {
                 "system": http://ontoserver.csiro.au/CodeSystem/ontoserver-permissions,
                 "code": "nos.write"
-
             }</code></td>
     </tr>
-
-
     <tr>
       <td style="text-align: left">language</td>
       <td style="text-align: left"></td>
