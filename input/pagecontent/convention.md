@@ -22,7 +22,7 @@ Source :
     </tr>
     <tr>
       <td style="text-align: left">identifier</td>
-      <td style="text-align: left">Permet d'identiquer l'OID </td>
+      <td style="text-align: left">Permet d'identiquer  l'OID </td>
       <td>Exemple : <code>    {
       "system" : "urn:ietf:rfc:3986",
       "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
