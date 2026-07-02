@@ -231,7 +231,11 @@ async def main():
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
-                        ValueSet["expansion"] = expanded.get("expansion")
+                        expansion = expanded.get("expansion")
+                        if expansion and "contains" in expansion:
+                            for item in expansion["contains"]:
+                                item.pop("extension", None)
+                        ValueSet["expansion"] = expansion
                         
                 with open(
                     "../input/ontoserver/JDV/"
