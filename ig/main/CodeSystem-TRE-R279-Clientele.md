@@ -28,8 +28,8 @@ Clientèles
   "resourceType" : "CodeSystem",
   "id" : "TRE-R279-Clientele",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:13:44.212+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-02T16:28:18.423+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -1633,11 +1633,11 @@ Clientèles
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

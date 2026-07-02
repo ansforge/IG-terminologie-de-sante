@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j336-type-act-sanitaire-diverse-regulee-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:51.240+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:18.466+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

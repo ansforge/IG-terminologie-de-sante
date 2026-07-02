@@ -29,8 +29,8 @@ Autorité d’enregistrement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R60-AutoriteEnregistrement",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:14:13.707+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-02T16:28:46.955+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

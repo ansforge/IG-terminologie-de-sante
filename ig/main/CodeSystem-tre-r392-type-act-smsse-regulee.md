@@ -17,24 +17,24 @@ Type activité SMSSE régulée
 
 ### Récupération de l’ensemble des types d’activités avec leurs propriétés
 
-La terminologie permet d’accéder aux type d’activité ainsi que leurs propriétés
+La terminologie permet d’accéder aux types d’activité ainsi que leurs propriétés.
 
 ### Récupération des propriétés pour un type d’activité
 
-Pour récupérer, les propriétés pour un type d’activité, vous pouvez faire une requête de type “***$lookup**”. Il faut passer en paramètre :
+Pour récupérer les propriétés d’un type d’activité, vous pouvez faire une requête de type “**$lookup**”. Il faut passer en paramètre :
 
 * system (URI de la terminologie) : https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee
-* code : Code du type de terminologie dans l’activité
+* code : Code du type d’activité dans la terminologie
 * property : La liste des propriétés souhaitées
 
-Vous trouverez ci-dessous un exemple qui retourne les propiétés suivantes pour le code “14”
+Vous trouverez ci-dessous un exemple qui retourne les propriétés suivantes pour le code “20001” :
 
 * activiteSanitaireRegulee
 * modaliteActivite
 * formeActivite 
 
 ```
-https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&code=14&property=activiteSanitaireRegulee&property=modaliteActivite&property=formeActivite
+https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&code=20001&property=activiteSanitaireRegulee&property=modaliteActivite&property=formeActivite
 
 ```
 
@@ -42,20 +42,20 @@ https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gou
 
 ### Récupération des codes d’activité correspondant à des propriétés
 
-Pour récupérer, les type d’activité coorespondant à des propriétés, vous pouvez faire une requête de type “***$expand**”. Cette requête de type “post” prend en parametre :
+Pour récupérer les types d’activité correspondant à des propriétés, vous pouvez faire une requête de type “**$expand**”. Cette requête de type “POST” prend en paramètre :
 
 * l’URI de la terminologie
 * La liste des propriétés ainsi que leurs valeurs
 
-Vous trouverez ci- dessous en exemple qui retourne la liste des types d’activités pour :
+Vous trouverez ci-dessous un exemple qui retourne la liste des types d’activités pour :
 
 * activiteSanitaireRegulee = 01
 * modaliteActivite = B4
 
 ```
-POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.0
+POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.1
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
- 
+
 {
     "resourceType": "Parameters",
     "parameter": [
@@ -73,7 +73,6 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
                                     "op" : "=",
                                     "value" : "01"
                                 },
- 
                                 {
                                     "property" : "modaliteActivite",
                                     "op" : "=",
@@ -113,8 +112,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "resourceType" : "CodeSystem",
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T13:43:45.464+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:28:43.594+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -59224,11 +59223,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/861/54/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59268,11 +59267,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/861/54/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59312,11 +59311,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/861/54/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59356,11 +59355,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/861/54/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59400,11 +59399,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/862/43/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59444,11 +59443,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/862/43/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59488,11 +59487,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/862/43/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59532,11 +59531,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/863/46/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59576,11 +59575,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/863/46/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59620,11 +59619,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/863/46/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59664,11 +59663,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/863/46/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59708,11 +59707,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/864/44/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59752,11 +59751,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/864/44/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59796,11 +59795,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/864/44/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59840,11 +59839,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/864/44/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59884,11 +59883,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/865/44/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59928,11 +59927,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/865/44/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -59972,11 +59971,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/865/44/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60016,11 +60015,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/866/03/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60060,11 +60059,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/866/03/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60104,11 +60103,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/867/60/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60148,11 +60147,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/867/60/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60192,11 +60191,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/867/60/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60236,11 +60235,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/867/60/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60280,11 +60279,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/868/04/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60324,11 +60323,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/868/04/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60368,11 +60367,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/868/04/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60412,11 +60411,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/868/04/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60456,11 +60455,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/869/60/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60500,11 +60499,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/869/60/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60544,11 +60543,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/870/16/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60588,11 +60587,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/870/16/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60632,11 +60631,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/870/16/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60676,11 +60675,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/870/16/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60720,11 +60719,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/871/03/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60764,11 +60763,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/871/03/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60808,11 +60807,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/871/03/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60852,11 +60851,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/872/03/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60896,11 +60895,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/872/03/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60940,11 +60939,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/872/03/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -60984,11 +60983,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/873/60/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61028,11 +61027,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/873/60/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61072,11 +61071,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/873/60/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61116,11 +61115,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/874/03/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61160,11 +61159,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/874/03/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61204,11 +61203,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/874/03/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61248,11 +61247,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/874/03/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61292,11 +61291,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/875/60/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61336,11 +61335,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/875/60/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61380,11 +61379,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/875/60/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61424,11 +61423,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/875/60/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61468,11 +61467,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/876/03/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61512,11 +61511,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/876/03/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61556,11 +61555,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/876/03/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61600,11 +61599,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/876/03/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61644,11 +61643,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/877/44/842",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61688,11 +61687,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/877/44/843",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61732,11 +61731,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/877/44/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -61776,11 +61775,11 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "ASDR/877/44/844",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

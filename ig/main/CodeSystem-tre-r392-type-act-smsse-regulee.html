@@ -327,45 +327,45 @@
 
 <div style="display:inline-block" markdown="1">
 
-<h3 id="récupération--de--lensemble-des-types-dactivités-avec-leurs-propriétés">Récupération  de  l’ensemble des types d’activités avec leurs propriétés</h3>
-<p>La terminologie permet d’accéder aux type d’activité ainsi que leurs propriétés</p>
+<h3 id="récupération-de-lensemble-des-types-dactivités-avec-leurs-propriétés">Récupération de l’ensemble des types d’activités avec leurs propriétés</h3>
+<p>La terminologie permet d’accéder aux types d’activité ainsi que leurs propriétés.</p>
 
 <h3 id="récupération-des-propriétés-pour-un-type-dactivité">Récupération des propriétés pour un type d’activité</h3>
-<p>Pour récupérer, les propriétés pour un type d’activité, vous pouvez faire une requête de type “<strong>*$lookup</strong>”.
+<p>Pour récupérer les propriétés d’un type d’activité, vous pouvez faire une requête de type “<strong>$lookup</strong>”.
 Il faut passer en paramètre :</p>
 <ul>
   <li>system (URI de la terminologie) : https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</li>
-  <li>code : Code du type de terminologie dans l’activité</li>
+  <li>code : Code du type d’activité dans la terminologie</li>
   <li>property : La liste des propriétés souhaitées</li>
 </ul>
 
-<p>Vous trouverez ci-dessous un exemple  qui retourne les propiétés suivantes pour le code “14”</p>
+<p>Vous trouverez ci-dessous un exemple qui retourne les propriétés suivantes pour le code “20001” :</p>
 <ul>
   <li>activiteSanitaireRegulee</li>
   <li>modaliteActivite</li>
   <li>formeActivite
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&amp;code=14&amp;property=activiteSanitaireRegulee&amp;property=modaliteActivite&amp;property=formeActivite
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&amp;code=20001&amp;property=activiteSanitaireRegulee&amp;property=modaliteActivite&amp;property=formeActivite
 </code></pre></div>    </div>
   </li>
 </ul>
 
-<h3 id="récupération---des-codes-dactivité-correspondant-à-des-propriétés">Récupération   des codes d’activité correspondant à des propriétés</h3>
-<p>Pour récupérer, les type d’activité coorespondant à des propriétés, vous pouvez faire une requête de type “<strong>*$expand</strong>”.
-Cette requête de type “post” prend en parametre :</p>
+<h3 id="récupération-des-codes-dactivité-correspondant-à-des-propriétés">Récupération des codes d’activité correspondant à des propriétés</h3>
+<p>Pour récupérer les types d’activité correspondant à des propriétés, vous pouvez faire une requête de type “<strong>$expand</strong>”.
+Cette requête de type “POST” prend en paramètre :</p>
 <ul>
   <li>l’URI de la terminologie</li>
   <li>La liste des propriétés ainsi que leurs valeurs</li>
 </ul>
 
-<p>Vous trouverez ci- dessous en exemple qui retourne la liste des types d’activités pour :</p>
+<p>Vous trouverez ci-dessous un exemple qui retourne la liste des types d’activités pour :</p>
 <ul>
   <li>activiteSanitaireRegulee = 01</li>
   <li>modaliteActivite = B4</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.1
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
- 
+
 {
     "resourceType": "Parameters",
     "parameter": [
@@ -383,7 +383,6 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
                                     "op" : "=",
                                     "value" : "01"
                                 },
- 
                                 {
                                     "property" : "modaliteActivite",
                                     "op" : "=",
@@ -427,7 +426,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 
   <div id="orig">  
     <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR" data-fhir="generated"><p class="res-header-id"></p><a name="tre-r392-type-act-smsse-regulee"> </a><a name="hctre-r392-type-act-smsse-regulee"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-06-29 13:43:45+0200; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 2; Dernière mise à jour : 2026-07-02 16:28:43+0200; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid" data-fhir="generated"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>Date de Validité</td>
 <td>dateValid</td>
@@ -27287,8 +27286,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50680<a name="tre-r392-type-act-smsse-regulee-50680"> </a></td>
 <td>ASDR/861/54/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27310,8 +27309,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50681<a name="tre-r392-type-act-smsse-regulee-50681"> </a></td>
 <td>ASDR/861/54/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27333,8 +27332,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50682<a name="tre-r392-type-act-smsse-regulee-50682"> </a></td>
 <td>ASDR/861/54/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27356,8 +27355,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50683<a name="tre-r392-type-act-smsse-regulee-50683"> </a></td>
 <td>ASDR/861/54/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27379,8 +27378,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50684<a name="tre-r392-type-act-smsse-regulee-50684"> </a></td>
 <td>ASDR/862/43/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27402,8 +27401,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50685<a name="tre-r392-type-act-smsse-regulee-50685"> </a></td>
 <td>ASDR/862/43/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27425,8 +27424,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50686<a name="tre-r392-type-act-smsse-regulee-50686"> </a></td>
 <td>ASDR/862/43/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27448,8 +27447,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50687<a name="tre-r392-type-act-smsse-regulee-50687"> </a></td>
 <td>ASDR/863/46/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27471,8 +27470,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50688<a name="tre-r392-type-act-smsse-regulee-50688"> </a></td>
 <td>ASDR/863/46/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27494,8 +27493,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50689<a name="tre-r392-type-act-smsse-regulee-50689"> </a></td>
 <td>ASDR/863/46/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27517,8 +27516,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50690<a name="tre-r392-type-act-smsse-regulee-50690"> </a></td>
 <td>ASDR/863/46/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27540,8 +27539,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50691<a name="tre-r392-type-act-smsse-regulee-50691"> </a></td>
 <td>ASDR/864/44/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27563,8 +27562,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50692<a name="tre-r392-type-act-smsse-regulee-50692"> </a></td>
 <td>ASDR/864/44/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27586,8 +27585,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50693<a name="tre-r392-type-act-smsse-regulee-50693"> </a></td>
 <td>ASDR/864/44/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27609,8 +27608,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50694<a name="tre-r392-type-act-smsse-regulee-50694"> </a></td>
 <td>ASDR/864/44/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27632,8 +27631,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50695<a name="tre-r392-type-act-smsse-regulee-50695"> </a></td>
 <td>ASDR/865/44/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27655,8 +27654,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50696<a name="tre-r392-type-act-smsse-regulee-50696"> </a></td>
 <td>ASDR/865/44/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27678,8 +27677,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50697<a name="tre-r392-type-act-smsse-regulee-50697"> </a></td>
 <td>ASDR/865/44/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27701,8 +27700,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50698<a name="tre-r392-type-act-smsse-regulee-50698"> </a></td>
 <td>ASDR/866/03/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27724,8 +27723,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50699<a name="tre-r392-type-act-smsse-regulee-50699"> </a></td>
 <td>ASDR/866/03/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27747,8 +27746,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50700<a name="tre-r392-type-act-smsse-regulee-50700"> </a></td>
 <td>ASDR/867/60/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27770,8 +27769,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50701<a name="tre-r392-type-act-smsse-regulee-50701"> </a></td>
 <td>ASDR/867/60/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27793,8 +27792,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50702<a name="tre-r392-type-act-smsse-regulee-50702"> </a></td>
 <td>ASDR/867/60/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27816,8 +27815,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50703<a name="tre-r392-type-act-smsse-regulee-50703"> </a></td>
 <td>ASDR/867/60/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27839,8 +27838,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50704<a name="tre-r392-type-act-smsse-regulee-50704"> </a></td>
 <td>ASDR/868/04/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27862,8 +27861,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50705<a name="tre-r392-type-act-smsse-regulee-50705"> </a></td>
 <td>ASDR/868/04/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27885,8 +27884,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50706<a name="tre-r392-type-act-smsse-regulee-50706"> </a></td>
 <td>ASDR/868/04/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27908,8 +27907,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50707<a name="tre-r392-type-act-smsse-regulee-50707"> </a></td>
 <td>ASDR/868/04/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27931,8 +27930,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50708<a name="tre-r392-type-act-smsse-regulee-50708"> </a></td>
 <td>ASDR/869/60/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27954,8 +27953,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50709<a name="tre-r392-type-act-smsse-regulee-50709"> </a></td>
 <td>ASDR/869/60/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -27977,8 +27976,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50710<a name="tre-r392-type-act-smsse-regulee-50710"> </a></td>
 <td>ASDR/870/16/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28000,8 +27999,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50711<a name="tre-r392-type-act-smsse-regulee-50711"> </a></td>
 <td>ASDR/870/16/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28023,8 +28022,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50712<a name="tre-r392-type-act-smsse-regulee-50712"> </a></td>
 <td>ASDR/870/16/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28046,8 +28045,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50713<a name="tre-r392-type-act-smsse-regulee-50713"> </a></td>
 <td>ASDR/870/16/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28069,8 +28068,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50714<a name="tre-r392-type-act-smsse-regulee-50714"> </a></td>
 <td>ASDR/871/03/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28092,8 +28091,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50715<a name="tre-r392-type-act-smsse-regulee-50715"> </a></td>
 <td>ASDR/871/03/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28115,8 +28114,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50716<a name="tre-r392-type-act-smsse-regulee-50716"> </a></td>
 <td>ASDR/871/03/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28138,8 +28137,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50717<a name="tre-r392-type-act-smsse-regulee-50717"> </a></td>
 <td>ASDR/872/03/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28161,8 +28160,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50718<a name="tre-r392-type-act-smsse-regulee-50718"> </a></td>
 <td>ASDR/872/03/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28184,8 +28183,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50719<a name="tre-r392-type-act-smsse-regulee-50719"> </a></td>
 <td>ASDR/872/03/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28207,8 +28206,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50720<a name="tre-r392-type-act-smsse-regulee-50720"> </a></td>
 <td>ASDR/873/60/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28230,8 +28229,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50721<a name="tre-r392-type-act-smsse-regulee-50721"> </a></td>
 <td>ASDR/873/60/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28253,8 +28252,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50722<a name="tre-r392-type-act-smsse-regulee-50722"> </a></td>
 <td>ASDR/873/60/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28276,8 +28275,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50723<a name="tre-r392-type-act-smsse-regulee-50723"> </a></td>
 <td>ASDR/874/03/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28299,8 +28298,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50724<a name="tre-r392-type-act-smsse-regulee-50724"> </a></td>
 <td>ASDR/874/03/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28322,8 +28321,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50725<a name="tre-r392-type-act-smsse-regulee-50725"> </a></td>
 <td>ASDR/874/03/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28345,8 +28344,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50726<a name="tre-r392-type-act-smsse-regulee-50726"> </a></td>
 <td>ASDR/874/03/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28368,8 +28367,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50727<a name="tre-r392-type-act-smsse-regulee-50727"> </a></td>
 <td>ASDR/875/60/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28391,8 +28390,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50728<a name="tre-r392-type-act-smsse-regulee-50728"> </a></td>
 <td>ASDR/875/60/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28414,8 +28413,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50729<a name="tre-r392-type-act-smsse-regulee-50729"> </a></td>
 <td>ASDR/875/60/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28437,8 +28436,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50730<a name="tre-r392-type-act-smsse-regulee-50730"> </a></td>
 <td>ASDR/875/60/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28460,8 +28459,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50731<a name="tre-r392-type-act-smsse-regulee-50731"> </a></td>
 <td>ASDR/876/03/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28483,8 +28482,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50732<a name="tre-r392-type-act-smsse-regulee-50732"> </a></td>
 <td>ASDR/876/03/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28506,8 +28505,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50733<a name="tre-r392-type-act-smsse-regulee-50733"> </a></td>
 <td>ASDR/876/03/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28529,8 +28528,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50734<a name="tre-r392-type-act-smsse-regulee-50734"> </a></td>
 <td>ASDR/876/03/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28552,8 +28551,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50735<a name="tre-r392-type-act-smsse-regulee-50735"> </a></td>
 <td>ASDR/877/44/842</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28575,8 +28574,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50736<a name="tre-r392-type-act-smsse-regulee-50736"> </a></td>
 <td>ASDR/877/44/843</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28598,8 +28597,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50737<a name="tre-r392-type-act-smsse-regulee-50737"> </a></td>
 <td>ASDR/877/44/841</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -28621,8 +28620,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 <tr><td style="white-space:nowrap">50738<a name="tre-r392-type-act-smsse-regulee-50738"> </a></td>
 <td>ASDR/877/44/844</td>
 <td></td>
-<td>2026-07-01T00:00:00+01:00</td>
-<td>2026-07-01T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
+<td>2026-06-29T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -112593,7 +112592,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 2, 2026 07:31+0000">2026-07-02</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 2, 2026 18:50+0000">2026-07-02</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

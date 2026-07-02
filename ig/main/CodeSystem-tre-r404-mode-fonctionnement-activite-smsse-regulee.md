@@ -28,8 +28,8 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
   "resourceType" : "CodeSystem",
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-06-29T11:14:10.903+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-02T16:28:46.351+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -49,7 +49,7 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
   "title" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
   "jurisdiction" : [{

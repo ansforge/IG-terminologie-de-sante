@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j342-type-act-soumise-a-reconnaissance-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:54.629+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:20.150+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

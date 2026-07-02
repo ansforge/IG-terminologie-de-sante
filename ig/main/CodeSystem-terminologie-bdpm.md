@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-06-01 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-07-01 | |
+| Active as of 2026-07-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-06-02T15:42:15.812+02:00",
+    "versionId" : "31",
+    "lastUpdated" : "2026-07-02T13:06:09.352+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
@@ -39,12 +39,12 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-bdpm"
   }],
-  "version" : "2026-06-01",
+  "version" : "2026-07-01",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T00:00:00+00:00",
+  "date" : "2026-07-01T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM",
   "jurisdiction" : [{
@@ -56,7 +56,7 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41218,
+  "count" : 41249,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

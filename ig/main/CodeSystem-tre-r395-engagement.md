@@ -29,8 +29,8 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
   "resourceType" : "CodeSystem",
   "id" : "tre-r395-engagement",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:14:08.449+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:28:44.955+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -216,6 +216,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -236,24 +240,40 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
   },
   {
     "code" : "ARR",
-    "display" : "Arrêté",
+    "display" : "Arrêtés (sans autre indication)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Arrêté (S.A.I.)"
+    }],
     "property" : [{
       "code" : "parent",
       "valueCode" : "ARRT"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-01-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -284,6 +304,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -310,6 +334,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -340,6 +368,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -366,6 +398,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -396,6 +432,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -424,6 +464,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -450,6 +494,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -481,6 +529,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -499,6 +551,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -529,6 +585,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -557,6 +617,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -583,6 +647,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -617,6 +685,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -635,6 +707,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -666,6 +742,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -692,6 +772,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -726,6 +810,14 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-11-26T00:00:00+01:00"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -758,6 +850,14 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-11-26T00:00:00+01:00"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -784,6 +884,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -814,6 +918,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -840,6 +948,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -871,6 +983,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -891,6 +1007,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -909,6 +1029,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -937,6 +1061,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-04-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -971,6 +1099,14 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-11-26T00:00:00+01:00"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -990,6 +1126,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -1024,6 +1164,14 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2021-11-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-11-26T00:00:00+01:00"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -1052,6 +1200,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -1070,6 +1222,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -1100,6 +1256,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 2
     }]
@@ -1126,6 +1286,10 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",

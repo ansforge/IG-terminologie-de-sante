@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j332-type-act-medico-sociale-regulee-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:50.895+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:17.889+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

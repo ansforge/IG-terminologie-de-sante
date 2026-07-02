@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j358-type-autorite-enregistrement-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T15:18:26.434+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-02T17:48:14.372+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

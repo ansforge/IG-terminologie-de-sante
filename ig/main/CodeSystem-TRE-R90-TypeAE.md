@@ -28,8 +28,8 @@ Type Autorité d’enregistrement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R90-TypeAE",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-06-29T11:14:14.206+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-02T16:28:47.503+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

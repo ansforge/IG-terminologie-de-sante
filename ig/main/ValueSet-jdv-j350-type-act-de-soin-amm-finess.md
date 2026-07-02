@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j350-type-act-de-soin-amm-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:55.368+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:21.430+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

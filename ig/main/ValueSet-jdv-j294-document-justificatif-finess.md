@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j294-document-justificatif-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:46.624+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:13.501+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

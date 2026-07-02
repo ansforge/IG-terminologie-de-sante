@@ -67,8 +67,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "vs-tre-r378-motif-arrete-all",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:18:57.928+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:23.263+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

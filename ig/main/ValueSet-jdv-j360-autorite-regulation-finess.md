@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j360-autorite-regulation-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T15:18:27.324+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-02T17:48:15.222+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

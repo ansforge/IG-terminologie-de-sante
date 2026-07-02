@@ -31,8 +31,8 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
   "resourceType" : "CodeSystem",
   "id" : "tre-r403-public-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-06-29T11:14:10.366+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-02T16:28:45.681+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -3256,11 +3256,11 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3284,11 +3284,11 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
     "display" : "Troubles du neurodéveloppement",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-09-27T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

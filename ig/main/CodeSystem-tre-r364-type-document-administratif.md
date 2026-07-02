@@ -29,8 +29,8 @@ Nomenclature des types de documents administratif ( exemple : agrément, convent
   "resourceType" : "CodeSystem",
   "id" : "tre-r364-type-document-administratif",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:13:47+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:28:21+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
