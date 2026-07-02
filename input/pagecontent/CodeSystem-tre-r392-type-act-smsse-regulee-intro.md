@@ -1,37 +1,35 @@
-### Récupération  de  l'ensemble des types d'activités avec leurs propriétés
-La terminologie permet d'accéder aux type d'activité ainsi que leurs propriétés 
+### Récupération de l'ensemble des types d'activités avec leurs propriétés
+La terminologie permet d'accéder aux types d'activité ainsi que leurs propriétés.
 
 ### Récupération des propriétés pour un type d'activité
-Pour récupérer, les propriétés pour un type d'activité, vous pouvez faire une requête de type "***$lookup**".
-Il faut passer en paramètre : 
+Pour récupérer les propriétés d'un type d'activité, vous pouvez faire une requête de type "**$lookup**".
+Il faut passer en paramètre :
 - system (URI de la terminologie) : https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee
-- code : Code du type de terminologie dans l'activité
+- code : Code du type d'activité dans la terminologie
 - property : La liste des propriétés souhaitées
 
-Vous trouverez ci-dessous un exemple  qui retourne les propiétés suivantes pour le code "14" 
+Vous trouverez ci-dessous un exemple qui retourne les propriétés suivantes pour le code "20001" :
 - activiteSanitaireRegulee
 - modaliteActivite
 - formeActivite
 ```
-https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&code=14&property=activiteSanitaireRegulee&property=modaliteActivite&property=formeActivite
+https://smt.esante.gouv.fr/fhir/CodeSystem/$lookup?system=https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee&code=20001&property=activiteSanitaireRegulee&property=modaliteActivite&property=formeActivite
 ```
 
-### Récupération   des codes d'activité correspondant à des propriétés
-Pour récupérer, les type d'activité coorespondant à des propriétés, vous pouvez faire une requête de type "***$expand**".
-Cette requête de type "post" prend en parametre : 
+### Récupération des codes d'activité correspondant à des propriétés
+Pour récupérer les types d'activité correspondant à des propriétés, vous pouvez faire une requête de type "**$expand**".
+Cette requête de type "POST" prend en paramètre :
 - l'URI de la terminologie
 - La liste des propriétés ainsi que leurs valeurs
 
-Vous trouverez ci- dessous en exemple qui retourne la liste des types d'activités pour : 
+Vous trouverez ci-dessous un exemple qui retourne la liste des types d'activités pour :
 - activiteSanitaireRegulee = 01
 - modaliteActivite = B4
 
-
-
 ```
-POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.0
+POST https://smt.esante.gouv.fr/fhir/ValueSet/$expand HTTP/1.1
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
- 
+
 {
     "resourceType": "Parameters",
     "parameter": [
@@ -49,7 +47,6 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
                                     "op" : "=",
                                     "value" : "01"
                                 },
- 
                                 {
                                     "property" : "modaliteActivite",
                                     "op" : "=",
