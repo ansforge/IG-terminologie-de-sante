@@ -315,14 +315,6 @@ Public pris en charge
   {
     "code" : "10",
     "display" : "Victime de violence",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Victime de violence"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"

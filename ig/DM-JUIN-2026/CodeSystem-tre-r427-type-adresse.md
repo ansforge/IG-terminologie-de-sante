@@ -28,8 +28,8 @@ Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livrai
   "resourceType" : "CodeSystem",
   "id" : "tre-r427-type-adresse",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-06-05T11:58:05.447+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-06-29T11:14:12.781+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

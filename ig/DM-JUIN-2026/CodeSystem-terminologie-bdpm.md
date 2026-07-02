@@ -29,8 +29,8 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-06-02T15:42:15.812+02:00",
+    "versionId" : "30.1782985251795",
+    "lastUpdated" : "2026-07-02T11:40:51.795+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",

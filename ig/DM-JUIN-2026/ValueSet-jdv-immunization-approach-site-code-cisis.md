@@ -48,12 +48,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-imagerie-objectif-reference-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-immunization-approach-site-code-cisis-testing.md) |
+|  [<prev](ValueSet-jdv-immunisation-vrs-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-immunization-approach-site-code-cisis-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-26
+2026-07-02
 
 Liens:
 [Table des matières ](toc.md)|

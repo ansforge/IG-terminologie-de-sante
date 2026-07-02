@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-26
+2026-07-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -101,7 +101,6 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "version" : "20260629120000",
       "filter" : [{
         "property" : "autoriteEnregistrementFiness",
         "op" : "=",

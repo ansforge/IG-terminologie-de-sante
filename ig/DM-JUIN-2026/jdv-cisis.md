@@ -56,6 +56,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvActeCs8Cisis](ValueSet-jdv-acte-cs8-cisis.md) | JDV ActeCs8 CISIS | 19/06/2026 | active |
 | [JdvActeCseCisis](ValueSet-jdv-acte-cse-cisis.md) | JDV Acte Cse CISIS | 19/06/2026 | active |
 | [JdvActeObpCisis](ValueSet-jdv-acte-obp-cisis.md) | JDV Acte Obp CISIS | 19/06/2026 | active |
+| [JdvActePrelevementCisis](ValueSet-jdv-acte-prelevement-cisis.md) | JDV Acte Prelevement CISIS | 30/06/2026 | active |
 | [JdvActiviteCisis](ValueSet-jdv-activite-cisis.md) | JDV Activite CISIS | 19/06/2026 | active |
 | [JdvAdditionGrandeurCisis](ValueSet-jdv-addition-grandeur-cisis.md) | JDV Addition Grandeur CISIS | 19/06/2026 | active |
 | [JdvAgeCisis](ValueSet-jdv-age-cisis.md) | JDV Age CISIS | 19/06/2026 | active |
@@ -130,6 +131,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvDepistageNeonatalCisis](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS | 19/06/2026 | active |
 | [JdvDeplacementCisis](ValueSet-jdv-deplacement-cisis.md) | JDV Deplacement CISIS | 19/06/2026 | active |
 | [JdvDestinationObpSneCisis](ValueSet-jdv-destination-obp-sne-cisis.md) | JDV Destination Obp Sne CISIS | 19/06/2026 | active |
+| [JdvDestinationTransfert2Cisis](ValueSet-jdv-destination-transfert-2-cisis.md) | jdv Destination Transfert 2 CISIS | 30/06/2026 | active |
 | [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md) | JDV Destination Transfert CISIS | 19/06/2026 | active |
 | [JdvDetailMaterielSpecialiseCisis](ValueSet-jdv-detail-materiel-specialise-cisis.md) | JDV Detail Materiel Specialise CISIS | 19/06/2026 | active |
 | [JdvDetailRessourceImmobiliereUtiliseeCisis](ValueSet-jdv-detail-ressource-immobiliere-utilisee-cisis.md) | JDV Detail Ressource Immobiliere Utilisee CISIS | 19/06/2026 | active |
@@ -190,6 +192,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvHistoriqueGrossessesCisis](ValueSet-jdv-historique-grossesses-cisis.md) | JDV Historique Grossesses CISIS | 19/06/2026 | active |
 | [JdvHumanSubstanceAdministrationSiteCisis](ValueSet-jdv-human-substance-administration-site-cisis.md) | JDV Human Substance Administration Site CISIS | 19/06/2026 | active |
 | [JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md) | JDV Imagerie Objectif Reference CISIS | 19/06/2026 | active |
+| [JdvImmunisationVrsCisis](ValueSet-jdv-immunisation-vrs-cisis.md) | JDV Immunisation Vrs CISIS | 30/06/2026 | active |
 | [JdvImmunizationApproachSiteCodeCisis](ValueSet-jdv-immunization-approach-site-code-cisis.md) | JDV Immunization Approach Site Code CISIS | 19/06/2026 | active |
 | [JdvImmunizationRouteCodeCisis](ValueSet-jdv-immunization-route-code-cisis.md) | JDV Immunization Route Code CISIS | 19/06/2026 | active |
 | [JdvImpactMutationCisis](ValueSet-jdv-impact-mutation-cisis.md) | JDV Impact Mutation CISIS | 19/06/2026 | active |
