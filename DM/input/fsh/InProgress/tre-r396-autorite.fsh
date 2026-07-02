@@ -5188,7 +5188,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-05 ^designation[+].language = #fr-FR
 * #DEETS-05 ^designation[=].use.system = "http://snomed.info/sct"
 * #DEETS-05 ^designation[=].use = $sct#900000000000013009
-* #DEETS-05 ^designation[=].value = " DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
+* #DEETS-05 ^designation[=].value = "DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
 * #DEETS-05 ^property[0].code = #dateValid
 * #DEETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-05 ^property[+].code = #dateMaj
@@ -5483,7 +5483,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-93 ^designation[0].language = #fr-FR
 * #DREETS-93 ^designation[=].use.system = "http://snomed.info/sct"
 * #DREETS-93 ^designation[=].use = $sct#900000000000013009
-* #DREETS-93 ^designation[=].value = " DREETS Provence-Alpes-Côte d'Azur"
+* #DREETS-93 ^designation[=].value = "DREETS Provence-Alpes-Côte d'Azur"
 * #DREETS-93 ^designation[+].language = #fr-FR
 * #DREETS-93 ^designation[=].use.system = "http://snomed.info/sct"
 * #DREETS-93 ^designation[=].use = $sct#900000000000013009
