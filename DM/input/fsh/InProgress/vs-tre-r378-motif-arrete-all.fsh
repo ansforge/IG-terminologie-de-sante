@@ -11,9 +11,9 @@ Description: "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrée
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"
-* ^version = "20250222120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-02-22T18:02:28.249+00:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * include codes from system $tre-r378-motif-arrete
