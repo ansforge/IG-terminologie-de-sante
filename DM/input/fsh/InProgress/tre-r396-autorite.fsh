@@ -145,7 +145,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #06 ^designation[0].language = #fr-FR
 * #06 ^designation[=].use.system = "http://snomed.info/sct"
 * #06 ^designation[=].use = $sct#900000000000013009
-* #06 ^designation[=].value = "Conseil Départemental"
+* #06 ^designation[=].value = "CD"
 * #06 ^property[0].code = #dateValid
 * #06 ^property[=].valueDateTime = "2016-03-22T00:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
@@ -265,7 +265,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ANS ^designation[0].language = #fr-FR
 * #ANS ^designation[=].use.system = "http://snomed.info/sct"
 * #ANS ^designation[=].use = $sct#900000000000013009
-* #ANS ^designation[=].value = "ANS"
+* #ANS ^designation[=].value = "A.N.S"
 * #ANS ^property[0].code = #dateValid
 * #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[+].code = #dateMaj
@@ -5502,7 +5502,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-93 ^property[=].valueBoolean = false
 * #DREETS-93 ^property[+].code = #autoriteEnregistrementFiness
 * #DREETS-93 ^property[=].valueBoolean = true
-* #DREETS-94 "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse"
+* #DREETS-94 "DREETS-94 : DREETS de Corse"
 * #DREETS-94 ^designation[0].language = #fr-FR
 * #DREETS-94 ^designation[=].use.system = "http://snomed.info/sct"
 * #DREETS-94 ^designation[=].use = $sct#900000000000013009
