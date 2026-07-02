@@ -1539,9 +1539,9 @@ Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Client
 * #441 ^designation.use = $sct#900000000000013009
 * #441 ^designation.value = "Adultes autistes cas complexes"
 * #441 ^property[0].code = #dateValid
-* #441 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #441 ^property[+].code = #dateMaj
-* #441 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
 * #441 ^property[+].code = #niveau
@@ -1552,9 +1552,9 @@ Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Client
 * #441 ^property[=].valueBoolean = true
 * #442 "Troubles du neurodéveloppement"
 * #442 ^property[0].code = #dateValid
-* #442 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #442 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #442 ^property[+].code = #dateMaj
-* #442 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #442 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #442 ^property[+].code = #status
 * #442 ^property[=].valueCode = #active
 * #442 ^property[+].code = #niveau

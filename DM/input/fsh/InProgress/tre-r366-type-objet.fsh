@@ -16,10 +16,10 @@ Remarque : Cette nomenclature est juste initialisée avec les types d’objet FI
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.260"
-* ^version = "20241230120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete

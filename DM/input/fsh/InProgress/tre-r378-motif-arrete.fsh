@@ -14,10 +14,10 @@ Remarque : Cette TRE est juste initialisée avec les codes FINESS+
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.293"
-* ^version = "20241230120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"
