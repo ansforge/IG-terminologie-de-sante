@@ -41,6 +41,10 @@ Description: "Autorité d'enregistrement"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
 * #ANS "ANS : Agence du numérique en santé"
+* #ANS ^designation[0].language = #fr-FR
+* #ANS ^designation[=].use.system = "http://snomed.info/sct"
+* #ANS ^designation[=].use = $sct#900000000000013009
+* #ANS ^designation[=].value = "A.N.S."
 * #ANS ^property[0].code = #dateValid
 * #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[0].code = #dateValid
