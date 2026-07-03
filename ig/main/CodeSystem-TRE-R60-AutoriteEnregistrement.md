@@ -29,8 +29,8 @@ Autorité d’enregistrement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R60-AutoriteEnregistrement",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-07-02T16:28:46.955+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-03T09:43:16.035+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -96,6 +96,14 @@ Autorité d’enregistrement
   "concept" : [{
     "code" : "ANS",
     "display" : "ANS : Agence du numérique en santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A.N.S."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"

@@ -34,8 +34,8 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "resourceType" : "CodeSystem",
   "id" : "tre-r396-autorite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-02T18:13:13.460+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-03T09:43:14.758+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -561,7 +561,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "A.N.S"
+      "value" : "A.N.S."
     }],
     "property" : [{
       "code" : "dateValid",
