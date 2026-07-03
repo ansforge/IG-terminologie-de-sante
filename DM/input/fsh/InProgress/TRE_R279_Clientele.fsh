@@ -751,9 +751,9 @@ Description: "Clientèles"
 * #441 ^designation.use = $sct#900000000000013009
 * #441 ^designation.value = "Adultes autistes cas complexes"
 * #441 ^property[0].code = #dateValid
-* #441 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2024-06-28T00:00:00+01:00"
 * #441 ^property[+].code = #dateMaj
-* #441 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2024-06-28T00:00:00+01:00"
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
 * #442 "Troubles du neurodéveloppement"
