@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.11.0 |
-| Active as of 2026-07-02 | *Computable Name*:Terminologies |
+| Active as of 2026-07-03 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-07-02T18:50:30+00:00",
+  "date" : "2026-07-03T07:01:21+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -14278,7 +14278,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14289,7 +14289,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14300,7 +14300,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/icd-o-3"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-prelevement-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14311,7 +14311,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-gestationnel-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14322,7 +14322,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r400-finess-statut-juridique"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14333,7 +14333,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r401-activite-sociale-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14344,7 +14344,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r402-activite-enseignement-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-date-accouchement-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14355,7 +14355,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r403-public-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-2-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14366,7 +14366,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14377,7 +14377,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r405-modalite-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14388,7 +14388,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-exposition-west-nile-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14399,7 +14399,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r407-composition-foyer"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-risque-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14410,7 +14410,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-type-enseignement-specialise"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-historique-grossesses-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14421,7 +14421,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0066"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14432,7 +14432,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0487"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14443,7 +14443,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0488"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunisation-vrs-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14454,7 +14454,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-contact-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14465,7 +14465,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActMood"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-esms-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14476,7 +14476,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-esms-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14487,7 +14487,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActStatus"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14498,7 +14498,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-AdministrativeGender"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14509,7 +14509,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-Confidentiality"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14520,7 +14520,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-EntityCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-information-vaccin-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14531,7 +14531,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationInterpretation"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14542,7 +14542,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationMethod"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14553,7 +14553,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationValue"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14564,7 +14564,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationFunction"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-serotype-dengue-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14575,7 +14575,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14586,7 +14586,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-RoleCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-chikungunya-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14597,7 +14597,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-dengue-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14608,7 +14608,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-TimingEvent"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14619,7 +14619,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-mediaType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14630,7 +14630,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-orderableDrugForm"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14641,7 +14641,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-substanceAdminSubstitution"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14652,7 +14652,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-event-indesirable-previsible-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -14663,359 +14663,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j304-finess-statut-juridique-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j318-activite-enseignement-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j322-type-act-enseignement-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j328-public-activite-smsse-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j376-public-activite-smsse-regulee-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j384-role-membre-famille-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j385-composition-foyer-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j387-role-participant-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r73-espic-all"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/concept-properties"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29270,7 +28918,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29281,7 +28929,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29292,7 +28940,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/icd-o-3"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-prelevement-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29303,7 +28951,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-gestationnel-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29314,7 +28962,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r400-finess-statut-juridique"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29325,7 +28973,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r401-activite-sociale-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29336,7 +28984,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r402-activite-enseignement-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-date-accouchement-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29347,7 +28995,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r403-public-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-2-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29358,7 +29006,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29369,7 +29017,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r405-modalite-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29380,7 +29028,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-exposition-west-nile-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29391,7 +29039,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r407-composition-foyer"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-risque-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29402,7 +29050,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-type-enseignement-specialise"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-historique-grossesses-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29413,7 +29061,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0066"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29424,7 +29072,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0487"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29435,7 +29083,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0488"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunisation-vrs-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29446,7 +29094,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-contact-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29457,7 +29105,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActMood"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-esms-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29468,7 +29116,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-esms-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29479,7 +29127,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActStatus"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29490,7 +29138,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-AdministrativeGender"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29501,7 +29149,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-Confidentiality"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29512,7 +29160,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-EntityCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-information-vaccin-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29523,7 +29171,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationInterpretation"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29534,7 +29182,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationMethod"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29545,7 +29193,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationValue"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29556,7 +29204,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationFunction"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-serotype-dengue-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29567,7 +29215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29578,7 +29226,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-RoleCode"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-chikungunya-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29589,7 +29237,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-dengue-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29600,7 +29248,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-TimingEvent"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-rougeole-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29611,7 +29259,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-mediaType"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29622,7 +29270,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-orderableDrugForm"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29633,7 +29281,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-substanceAdminSubstitution"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29644,7 +29292,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-event-indesirable-previsible-cisis"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -29655,359 +29303,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j304-finess-statut-juridique-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j318-activite-enseignement-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j322-type-act-enseignement-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j328-public-activite-smsse-regulee-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j376-public-activite-smsse-regulee-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j384-role-membre-famille-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j385-composition-foyer-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j387-role-participant-ms"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r73-espic-all"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/concept-properties"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
