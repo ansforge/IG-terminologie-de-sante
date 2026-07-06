@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j331-type-act-sociale-regulee-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:33:17.293+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T12:18:10.844+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -104,7 +104,7 @@ Liens:
       "filter" : [{
         "property" : "natureActivite",
         "op" : "=",
-        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#ASOCR"
+        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee|ASOCR"
       }]
     }]
   }

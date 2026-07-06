@@ -835,7 +835,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
 | [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
+| [Jdv MSO Resultat Qualitatif 2 CISIS](ValueSet-jdv-mso-resultat-qualitatif-2-cisis.md) | Jdv MSO Resultat Qualitatif 2 CISIS |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
+| [Jdv MSO Resultat Qualitatif 4 CISIS](ValueSet-jdv-mso-resultat-qualitatif-4-cisis.md) | Jdv MSO Resultat Qualitatif 4 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |

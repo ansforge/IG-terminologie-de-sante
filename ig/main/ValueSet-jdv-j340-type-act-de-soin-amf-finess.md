@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j340-type-act-de-soin-amf-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:33:19.054+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T10:33:14.042+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -104,7 +104,7 @@ Liens:
       "filter" : [{
         "property" : "natureActivite",
         "op" : "=",
-        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AS"
+        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee|AS"
       }]
     }]
   }

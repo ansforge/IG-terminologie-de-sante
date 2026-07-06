@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j341-type-act-autre-acte-soin-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:33:19.592+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T10:33:14.641+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -104,7 +104,7 @@ Liens:
       "filter" : [{
         "property" : "natureActivite",
         "op" : "=",
-        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AASA"
+        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee|AASA"
       }]
     }]
   }
