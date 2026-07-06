@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMsoResultatQualitatif3Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis | *Version*:20260706085548 | |
+| Retired as of 2026-07-06 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMsoResultatQualitatif3Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.843 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -48,12 +50,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-motif-non-realisation-evenement-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-mso-resultat-qualitatif-3-cisis-testing.md) |
+|  [<prev](ValueSet-jdv-mso-resultat-qualitatif-2-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-mso-resultat-qualitatif-3-cisis-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-02
+2026-07-06
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-mso-resultat-qualitatif-3-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-06-22T13:59:31.167+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T12:13:10.747+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +86,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.843"
   }],
-  "version" : "20260619134042",
+  "version" : "20260706085548",
   "name" : "JdvMsoResultatQualitatif3Cisis",
   "title" : "Jdv MSO Resultat Qualitatif 3 CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-07-06T08:55:48+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv MSO Resultat Qualitatif 3 CISIS",
   "jurisdiction" : [{

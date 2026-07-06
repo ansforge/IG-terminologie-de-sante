@@ -96,6 +96,14 @@ Autorité d’enregistrement
   "concept" : [{
     "code" : "ANS",
     "display" : "ANS : Agence du numérique en santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A.N.S."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"

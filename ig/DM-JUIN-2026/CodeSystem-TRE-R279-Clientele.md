@@ -1633,11 +1633,11 @@ Clientèles
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+      "valueDateTime" : "2024-06-28T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+      "valueDateTime" : "2024-06-28T00:00:00+01:00"
     },
     {
       "code" : "status",

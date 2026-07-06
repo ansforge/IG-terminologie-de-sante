@@ -267,8 +267,8 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvMotifHospitalisationCseCisis](ValueSet-jdv-motif-hospitalisation-cse-cisis.md) | JDV Motif Hospitalisation Cse CISIS | 19/06/2026 | active |
 | [JdvMotifMiseAJourCisis](ValueSet-jdv-motif-mise-a-jour-cisis.md) | JDV Motif Mise A Jour CISIS | 19/06/2026 | active |
 | [JdvMotifNonRealisationEvenementCisis](ValueSet-jdv-motif-non-realisation-evenement-cisis.md) | JDV Motif Non Realisation Evenement CISIS | 19/06/2026 | active |
-| [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS | 19/06/2026 | active |
-| [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS | 20/04/2026 | active |
+| [JdvMsoResultatQualitatif2Cisis](ValueSet-jdv-mso-resultat-qualitatif-2-cisis.md) | Jdv MSO Resultat Qualitatif 2 CISIS | 06/07/2026 | active |
+| [JdvMsoResultatQualitatif4Cisis](ValueSet-jdv-mso-resultat-qualitatif-4-cisis.md) | Jdv MSO Resultat Qualitatif 4 CISIS | 06/07/2026 | active |
 | [JdvNatureDiscussionCisis](ValueSet-jdv-nature-discussion-cisis.md) | JDV Nature Discussion CISIS | 19/06/2026 | active |
 | [JdvNatureFractionCisis](ValueSet-jdv-nature-fraction-cisis.md) | JDV Nature Fraction CISIS | 19/06/2026 | active |
 | [JdvNatureMaterielEtudieCisis](ValueSet-jdv-nature-materiel-etudie-cisis.md) | JDV Nature Materiel Etudie CISIS | 19/06/2026 | active |
@@ -352,7 +352,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvResultatDepistageUrobilinogenurieCisis](ValueSet-jdv-resultat-depistage-urobilinogenurie-cisis.md) | JDV Resultat Depistage Urobilinogenurie CISIS | 19/06/2026 | active |
 | [JdvResultatEvaluationCisis](ValueSet-jdv-resultat-evaluation-cisis.md) | JDV Resultat Evaluation CISIS | 19/06/2026 | active |
 | [JdvResultatExamenCytologiqueCcuCisis](ValueSet-jdv-resultat-examen-cytologique-ccu-cisis.md) | JDV Resultat Examen Cytologique Ccu CISIS | 19/06/2026 | active |
-| [JdvResultatQualitatifCisis](ValueSet-jdv-resultat-qualitatif-cisis.md) | Jdv Resultat Qualitatif CISIS | 20/04/2026 | active |
+| [JdvResultatQualitatifCisis](ValueSet-jdv-resultat-qualitatif-cisis.md) | Jdv Resultat Qualitatif CISIS | 06/07/2026 | active |
 | [JdvResultatQuestionEvaluationCisis](ValueSet-jdv-resultat-question-evaluation-cisis.md) | JDV Resultat Question Evaluation CISIS | 19/06/2026 | active |
 | [JdvResultatRechercheHpvCcuCisis](ValueSet-jdv-resultat-recherche-hpv-ccu-cisis.md) | JDV Resultat Recherche Hpv Ccu CISIS | 19/06/2026 | active |
 | [JdvResultatTypeCisis](ValueSet-jdv-resultat-type-cisis.md) | Jdv Type Resultat Type CISIS | 19/06/2026 | active |

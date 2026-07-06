@@ -3256,11 +3256,11 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-06-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-06-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3284,11 +3284,11 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
     "display" : "Troubles du neurodéveloppement",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
       "code" : "status",

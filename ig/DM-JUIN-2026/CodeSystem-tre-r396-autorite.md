@@ -305,7 +305,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Conseil Départemental"
+      "value" : "CD"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -561,7 +561,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "ANS"
+      "value" : "A.N.S."
     }],
     "property" : [{
       "code" : "dateValid",
@@ -10922,7 +10922,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : " DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
+      "value" : "DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -11538,7 +11538,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : " DREETS Provence-Alpes-Côte d'Azur"
+      "value" : "DREETS Provence-Alpes-Côte d'Azur"
     },
     {
       "language" : "fr-FR",
@@ -11579,7 +11579,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   },
   {
     "code" : "DREETS-94",
-    "display" : "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse",
+    "display" : "DREETS-94 : DREETS de Corse",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {

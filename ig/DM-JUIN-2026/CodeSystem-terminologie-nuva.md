@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1108 | |
-| Active as of 2026-05-27 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1110 | |
+| Active as of 2026-06-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
 | *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary, ) | | |
 | **Copyright/Legal**: SYADEM | | |
 
@@ -29,8 +29,8 @@ La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales c
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-06-04T09:59:59.993+02:00",
+    "versionId" : "31",
+    "lastUpdated" : "2026-07-06T11:06:26.653+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
@@ -44,12 +44,12 @@ La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales c
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nuva"
   }],
-  "version" : "1.0.1108",
+  "version" : "1.0.1110",
   "name" : "NUVA",
   "title" : "Nomenclature Unifiée des Vaccins",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-27T00:00:00+00:00",
+  "date" : "2026-06-05T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.",
   "jurisdiction" : [{
