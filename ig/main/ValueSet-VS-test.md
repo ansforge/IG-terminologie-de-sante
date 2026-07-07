@@ -1,4 +1,4 @@
-# VS-test - Terminologies de Santé v1.11.0
+# VS-test - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
 |  [<prev](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.demande.md) | [top](#top) |  [next>](ValueSet-VS-test-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
 2026-07-07
 

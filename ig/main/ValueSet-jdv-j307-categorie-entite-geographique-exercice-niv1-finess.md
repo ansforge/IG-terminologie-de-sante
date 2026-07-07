@@ -1,4 +1,4 @@
-# Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess - Terminologies de Santé v1.11.0
+# Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -51,7 +51,7 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-j306-type-groupe-gcc-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
 2026-07-07
 

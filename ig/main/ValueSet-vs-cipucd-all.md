@@ -1,4 +1,4 @@
-# ValueSet_CIPUCD_All - Terminologies de Santé v1.11.0
+# ValueSet_CIPUCD_All - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -52,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
 |  [<prev](ValueSet-vs-bdpm-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-cipucd-all-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
 2026-07-07
 
@@ -79,7 +79,7 @@ Liens:
   "name" : "ValueSet_CIPUCD_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-07T16:17:51+00:00",
+  "date" : "2026-07-07T18:51:54+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
   "jurisdiction" : [{

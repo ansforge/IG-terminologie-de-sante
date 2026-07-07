@@ -1,4 +1,4 @@
-# Accueil - Terminologies de Santé v1.11.0
+# Accueil - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.11.0 |
+| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.11.1 |
 | Active as of 2026-07-07 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
@@ -211,11 +211,11 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fr.terminologies",
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.11.0",
+  "version" : "1.11.1",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-07-07T16:17:51+00:00",
+  "date" : "2026-07-07T18:51:54+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

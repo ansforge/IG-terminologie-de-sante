@@ -1,4 +1,4 @@
-# TRE_R36_AutreDiplomeObtenu - Terminologies de Santé v1.11.0
+# TRE_R36_AutreDiplomeObtenu - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

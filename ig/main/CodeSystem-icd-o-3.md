@@ -1,4 +1,4 @@
-# International Classification of Diseases for Oncology, version 3. - Terminologies de Santé v1.11.0
+# International Classification of Diseases for Oncology, version 3. - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

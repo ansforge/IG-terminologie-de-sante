@@ -1,4 +1,4 @@
-# Jdv J406 Motif Absence Ms - Terminologies de Santé v1.11.0
+# Jdv J406 Motif Absence Ms - Terminologies de Santé v1.11.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -51,7 +51,7 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-j405-type-presence-absence-ms.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j406-motif-absence-ms-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
 2026-07-07
 
