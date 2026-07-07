@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j344-type-act-equipement-materiel-lourd-finess",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-07T09:18:16.369+02:00",
+    "versionId" : "1",
+    "lastUpdated" : "2025-06-03T18:02:28.249+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -104,7 +104,7 @@ Liens:
       "filter" : [{
         "property" : "natureActivite",
         "op" : "=",
-        "value" : "EML"
+        "value" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#EML"
       }]
     }]
   }
