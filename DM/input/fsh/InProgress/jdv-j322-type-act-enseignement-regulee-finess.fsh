@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS reprenant les types d'activité d'enseigneme
 * ^experimental = false
 * ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r392-type-act-smsse-regule where natureActivite = "AER"
+* include codes from system $tre-r392-type-act-smsse-regule where natureActivite = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AER"
