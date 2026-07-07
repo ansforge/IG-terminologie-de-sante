@@ -68,9 +68,9 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j326-activite-sociale-regulee-niv3-finess",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-07-06T19:04:15.671+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-07T17:48:15.656+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

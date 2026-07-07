@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-07-06T19:04:27.359+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-07T17:48:20.580+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

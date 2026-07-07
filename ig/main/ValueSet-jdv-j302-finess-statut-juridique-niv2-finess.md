@@ -68,9 +68,9 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j302-finess-statut-juridique-niv2-finess",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-07-06T19:04:10.162+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-07T17:48:12.002+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

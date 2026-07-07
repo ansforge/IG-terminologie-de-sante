@@ -68,9 +68,9 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j319-activite-enseignement-regulee-niv1-finess",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-07-06T19:04:12.846+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-07T17:48:13.640+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

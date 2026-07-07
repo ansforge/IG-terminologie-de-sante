@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j373-type-autorite",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-07-06T19:04:25+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-07T17:48:19+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

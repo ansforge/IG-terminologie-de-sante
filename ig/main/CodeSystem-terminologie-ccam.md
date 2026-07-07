@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v82.00 | |
-| Active as of 2026-01-02 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v83.00 | |
+| Active as of 2026-07-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-ccam (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -32,8 +32,8 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-03-17T15:12:14.687+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-07T14:52:11.633+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -47,12 +47,12 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-ccam"
   }],
-  "version" : "v82.00",
+  "version" : "v83.00",
   "name" : "CCAM",
   "title" : "Classification Commune des Actes Médicaux",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-02T00:00:00+00:00",
+  "date" : "2026-07-01T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.",
   "jurisdiction" : [{

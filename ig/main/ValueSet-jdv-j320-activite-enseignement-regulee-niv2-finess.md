@@ -68,9 +68,9 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j320-activite-enseignement-regulee-niv2-finess",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-07-06T19:04:13.285+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-07T17:48:14.072+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
