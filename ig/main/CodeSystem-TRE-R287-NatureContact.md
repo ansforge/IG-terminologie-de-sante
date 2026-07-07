@@ -28,8 +28,8 @@ Un service ou un guichet assurant le contact au sein de l’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R287-NatureContact",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T18:17:14.492+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:23.687+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

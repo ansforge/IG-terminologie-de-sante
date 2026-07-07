@@ -28,8 +28,8 @@ Spécialité d’unité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R214-SpecialiteUnite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T18:16:07.185+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:12:52.077+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

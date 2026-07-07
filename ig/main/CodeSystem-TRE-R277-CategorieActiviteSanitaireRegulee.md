@@ -28,8 +28,8 @@ Types d’activités autorisées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:01.432+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:18.812+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

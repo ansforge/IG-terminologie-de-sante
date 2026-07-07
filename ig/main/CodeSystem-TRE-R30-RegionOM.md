@@ -31,8 +31,8 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
   "resourceType" : "CodeSystem",
   "id" : "TRE-R30-RegionOM",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-05-05T20:12:03.519+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:13:29.301+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

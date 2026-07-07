@@ -28,8 +28,8 @@ Cette nomenclature permet de préciser le besoin du demandeur quant à l’étab
   "resourceType" : "CodeSystem",
   "id" : "TRE-R324-BesoinSoutienProjetProfessionnel",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:32.566+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:36.754+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

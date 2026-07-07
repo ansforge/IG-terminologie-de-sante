@@ -28,8 +28,8 @@ Familles activités opérationnelles hors Serafin
   "resourceType" : "CodeSystem",
   "id" : "TRE-R266-FamilleActiviteOperationnelleHorsSerafin",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T18:16:46.789+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:14.064+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

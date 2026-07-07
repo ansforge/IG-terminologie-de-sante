@@ -28,8 +28,8 @@ Statut métier des anomalies
   "resourceType" : "CodeSystem",
   "id" : "TRE-R352-StatutMetierAnomalie",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:50.873+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:50.035+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

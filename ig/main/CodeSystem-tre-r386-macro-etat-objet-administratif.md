@@ -28,8 +28,8 @@ Nomenclature des macro-etat des structures FINESS qui dérivent de l’état de 
   "resourceType" : "CodeSystem",
   "id" : "tre-r386-macro-etat-objet-administratif",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:28:24+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:04+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

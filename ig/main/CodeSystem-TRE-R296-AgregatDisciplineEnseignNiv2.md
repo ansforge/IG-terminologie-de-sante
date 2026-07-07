@@ -28,8 +28,8 @@ Agrégats de disciplines pour l’enseignement niveau 2
   "resourceType" : "CodeSystem",
   "id" : "TRE-R296-AgregatDisciplineEnseignNiv2",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:19.541+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:27.576+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

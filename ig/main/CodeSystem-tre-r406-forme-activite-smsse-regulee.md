@@ -28,8 +28,8 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
   "resourceType" : "CodeSystem",
   "id" : "tre-r406-forme-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-05-05T20:12:25.633+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T20:14:33.435+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

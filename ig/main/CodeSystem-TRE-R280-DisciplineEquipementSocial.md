@@ -28,8 +28,8 @@ Disciplines d’équipement pour le social
   "resourceType" : "CodeSystem",
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-01T20:12:10.817+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:13:20.594+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

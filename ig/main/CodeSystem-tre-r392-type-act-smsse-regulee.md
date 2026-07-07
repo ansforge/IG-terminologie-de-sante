@@ -112,8 +112,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "resourceType" : "CodeSystem",
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:28:43.594+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:22.602+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

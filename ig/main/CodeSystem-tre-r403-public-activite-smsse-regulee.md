@@ -31,8 +31,8 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
   "resourceType" : "CodeSystem",
   "id" : "tre-r403-public-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-07-03T09:43:15.511+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:31.868+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

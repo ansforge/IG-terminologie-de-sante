@@ -28,8 +28,8 @@ Territoire de Santé (au sens ARS) en France
   "resourceType" : "CodeSystem",
   "id" : "TRE-R88-TerritoireSante",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:20.374+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:54.377+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

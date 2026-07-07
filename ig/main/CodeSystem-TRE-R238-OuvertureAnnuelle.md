@@ -28,8 +28,8 @@ Ouverture annuelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R238-OuvertureAnnuelle",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:22.992+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:01.485+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

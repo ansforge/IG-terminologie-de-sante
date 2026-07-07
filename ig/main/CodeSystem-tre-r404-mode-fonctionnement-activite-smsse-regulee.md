@@ -28,8 +28,8 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
   "resourceType" : "CodeSystem",
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-02T16:28:46.351+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:32.387+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

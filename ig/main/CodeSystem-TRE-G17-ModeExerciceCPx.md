@@ -28,8 +28,8 @@ Mode d’exercice (CPx)
   "resourceType" : "CodeSystem",
   "id" : "TRE-G17-ModeExerciceCPx",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:49.531+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:32.416+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

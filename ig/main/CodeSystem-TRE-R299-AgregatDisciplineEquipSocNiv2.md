@@ -28,8 +28,8 @@ Agrégats de disciplines d’équipement pour le social niveau 2
   "resourceType" : "CodeSystem",
   "id" : "TRE-R299-AgregatDisciplineEquipSocNiv2",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:21.288+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:28.847+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

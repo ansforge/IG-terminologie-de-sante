@@ -29,8 +29,8 @@ Profession Ressource
   "resourceType" : "CodeSystem",
   "id" : "TRE-R356-ProfessionRessource",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-10-02T20:13:53.106+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-07-06T20:13:51.363+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Agrégats de clientèle niveau 3
   "resourceType" : "CodeSystem",
   "id" : "TRE-R294-AgregatClienteleNiv3",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:18.606+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:26.712+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -30,8 +30,8 @@ Cadre d’exercice
   "resourceType" : "CodeSystem",
   "id" : "TRE-A01-CadreExercice",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-03T15:41:50.914+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:12:19.471+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

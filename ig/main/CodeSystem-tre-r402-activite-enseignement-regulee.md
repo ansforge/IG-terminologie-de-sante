@@ -31,8 +31,8 @@ Liste des activités d’enseignement régulées organisée en 3 niveaux d’agr
   "resourceType" : "CodeSystem",
   "id" : "tre-r402-activite-enseignement-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T20:12:23.041+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T20:14:30.992+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

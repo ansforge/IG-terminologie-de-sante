@@ -28,8 +28,8 @@ Devise
   "resourceType" : "CodeSystem",
   "id" : "TRE-R230-Devise",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:19.381+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:58.598+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

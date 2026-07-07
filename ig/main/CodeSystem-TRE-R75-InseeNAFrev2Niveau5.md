@@ -28,8 +28,8 @@ Sous-classes de la Nomenclature d’Activités Française - INSEE
   "resourceType" : "CodeSystem",
   "id" : "TRE-R75-InseeNAFrev2Niveau5",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:30.029+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:50.693+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

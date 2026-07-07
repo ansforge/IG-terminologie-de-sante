@@ -29,8 +29,8 @@ Type de document en complément des nomenclatures internationales
   "resourceType" : "CodeSystem",
   "id" : "TRE-A05-TypeDocComplementaire",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:11:24.782+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:12:21.181+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

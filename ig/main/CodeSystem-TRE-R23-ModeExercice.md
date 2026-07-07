@@ -30,8 +30,8 @@ Mode d’exercice
   "resourceType" : "CodeSystem",
   "id" : "TRE-R23-ModeExercice",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-03T15:41:55.313+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:12:58.237+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

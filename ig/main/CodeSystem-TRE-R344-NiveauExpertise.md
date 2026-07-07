@@ -28,8 +28,8 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
   "resourceType" : "CodeSystem",
   "id" : "TRE-R344-NiveauExpertise",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-06-29T11:13:45.426+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-07-06T20:13:45.395+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

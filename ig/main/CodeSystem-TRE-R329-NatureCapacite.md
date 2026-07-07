@@ -29,8 +29,8 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   "resourceType" : "CodeSystem",
   "id" : "TRE-R329-NatureCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-05-05T20:12:04.748+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:38.702+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

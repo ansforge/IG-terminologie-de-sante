@@ -28,8 +28,8 @@ Profil VIHF d’accès
   "resourceType" : "CodeSystem",
   "id" : "TRE-R86-ProfilVIHF",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:17.603+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:53.429+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

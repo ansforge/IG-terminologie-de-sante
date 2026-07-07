@@ -28,8 +28,8 @@ Sert à indiquer le moment où une capacité sera effective. Il est ainsi possib
   "resourceType" : "CodeSystem",
   "id" : "TRE-R331-TemporaliteCapacite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:36.634+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:39.944+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

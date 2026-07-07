@@ -28,8 +28,8 @@ Lieu de formation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-12-22T10:46:33.897+01:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-07-06T20:12:40.253+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

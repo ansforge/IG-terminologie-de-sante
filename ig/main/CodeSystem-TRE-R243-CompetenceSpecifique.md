@@ -28,8 +28,8 @@ Compétence spécifique
   "resourceType" : "CodeSystem",
   "id" : "TRE-R243-CompetenceSpecifique",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:13:42.549+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:04.175+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

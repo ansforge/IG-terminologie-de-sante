@@ -28,8 +28,8 @@ Type de caractéristique de l’équipement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R340-TypeCaracteristiqueEquipement",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:41.300+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:43.637+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

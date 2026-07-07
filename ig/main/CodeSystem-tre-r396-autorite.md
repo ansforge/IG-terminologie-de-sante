@@ -34,8 +34,8 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "resourceType" : "CodeSystem",
   "id" : "tre-r396-autorite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-07-03T09:43:14.758+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:25.731+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

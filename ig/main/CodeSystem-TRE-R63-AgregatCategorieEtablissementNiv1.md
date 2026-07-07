@@ -28,8 +28,8 @@ Agrégats de catégories d’établissements niveau 1
   "resourceType" : "CodeSystem",
   "id" : "TRE-R63-AgregatCategorieEtablissementNiv1",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:28.498+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:44.295+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

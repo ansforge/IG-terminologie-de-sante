@@ -29,8 +29,8 @@ Rôles fonctionnels HL7
   "resourceType" : "CodeSystem",
   "id" : "TRE-R259-HL7ParticipationFunction",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:43.266+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:11.475+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

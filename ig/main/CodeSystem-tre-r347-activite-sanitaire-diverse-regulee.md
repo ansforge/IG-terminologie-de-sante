@@ -32,8 +32,8 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   "resourceType" : "CodeSystem",
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-07-02T16:28:20.618+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-07-06T20:13:47.736+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

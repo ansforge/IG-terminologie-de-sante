@@ -29,8 +29,8 @@ Type de savoir-faire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R04-TypeSavoirFaire",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-10-31T14:58:01.413+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:12:36.129+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

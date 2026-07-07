@@ -28,8 +28,8 @@ Type d’identifiant des ressources opérationnelles
   "resourceType" : "CodeSystem",
   "id" : "TRE-R354-TypeIdentifiantRessourceOperationnelle",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:51.362+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:50.455+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

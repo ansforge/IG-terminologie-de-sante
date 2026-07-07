@@ -29,8 +29,8 @@ Canal de communication
   "resourceType" : "CodeSystem",
   "id" : "TRE-R200-CanalCommunication",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:11:51.238+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:12:42.567+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

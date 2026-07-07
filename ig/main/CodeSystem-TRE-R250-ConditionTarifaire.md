@@ -28,8 +28,8 @@ Les conditions d’accès à un tarif modulé
   "resourceType" : "CodeSystem",
   "id" : "TRE-R250-ConditionTarifaire",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:37.873+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:07.618+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Regroupement de pays
   "resourceType" : "CodeSystem",
   "id" : "TRE-R89-RegroupementPays",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:20.868+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:54.782+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

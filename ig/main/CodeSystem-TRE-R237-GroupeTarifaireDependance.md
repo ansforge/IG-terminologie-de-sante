@@ -28,8 +28,8 @@ Niveau de dépendance associé à un tarif
   "resourceType" : "CodeSystem",
   "id" : "TRE-R237-GroupeTarifaireDependance",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:22.439+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:01.050+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

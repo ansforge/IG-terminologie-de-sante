@@ -28,8 +28,8 @@ Permet d’indiquer quel type de source est à l’origine de l’information de
   "resourceType" : "CodeSystem",
   "id" : "TRE-R335-TypeSourceCapacite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:38.627+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:41.551+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

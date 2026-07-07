@@ -28,8 +28,8 @@ Niveaux de formation acquis dans le cycle de formation des étudiants
   "resourceType" : "CodeSystem",
   "id" : "TRE-R224-NiveauFormAcquis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:16.166+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:56.150+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

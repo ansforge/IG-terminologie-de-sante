@@ -29,8 +29,8 @@ DICOM UID Registry
   "resourceType" : "CodeSystem",
   "id" : "TRE-A09-DICOMuidRegistry",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:28.159+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:22.891+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

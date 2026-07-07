@@ -28,8 +28,8 @@ Nomenclature contenant les motifs de restriction de diffusion
   "resourceType" : "CodeSystem",
   "id" : "TRE-R391-MotifRestrictionDiffusion",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T18:18:04.327+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:05.794+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

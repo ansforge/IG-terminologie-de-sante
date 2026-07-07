@@ -28,8 +28,8 @@ Secteur d’activité ADELI
   "resourceType" : "CodeSystem",
   "id" : "TRE-G19-SecteurActiviteADELI",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-07-02T18:11:51.547+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:12:33.378+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

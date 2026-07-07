@@ -28,8 +28,8 @@ Paliers des référentiels d’authentification de la PGSSI-S
   "resourceType" : "CodeSystem",
   "id" : "TRE-R231-PalierAuthentification",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:19.952+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:59.014+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

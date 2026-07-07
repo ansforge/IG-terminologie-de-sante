@@ -28,8 +28,8 @@ Type horaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R252-TypeHoraire",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-07-02T18:16:39.326+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:13:08.512+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -29,8 +29,8 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "33",
-    "lastUpdated" : "2026-06-29T11:13:37.814+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-07-06T20:12:49.024+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",

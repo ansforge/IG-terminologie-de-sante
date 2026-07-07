@@ -28,8 +28,8 @@ Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivit
   "resourceType" : "CodeSystem",
   "id" : "tre-r405-modalite-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T20:12:25.162+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T20:14:32.960+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

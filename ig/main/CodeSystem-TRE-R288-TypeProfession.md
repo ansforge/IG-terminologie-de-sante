@@ -28,8 +28,8 @@ Type de profession
   "resourceType" : "CodeSystem",
   "id" : "TRE-R288-TypeProfession",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:15.048+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:24.107+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

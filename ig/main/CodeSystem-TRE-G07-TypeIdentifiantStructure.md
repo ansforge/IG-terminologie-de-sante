@@ -29,8 +29,8 @@ Type d’identifiant de structure
   "resourceType" : "CodeSystem",
   "id" : "TRE-G07-TypeIdentifiantStructure",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:11:38.412+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:12:27.552+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

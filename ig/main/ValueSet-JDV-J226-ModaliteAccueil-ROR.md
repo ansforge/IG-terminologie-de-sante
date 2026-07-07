@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-06
+2026-07-07
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J226-ModaliteAccueil-ROR",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-06-29T11:18:42.372+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-07-06T19:06:03.206+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

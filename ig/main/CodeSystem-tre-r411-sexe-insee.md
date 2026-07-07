@@ -28,8 +28,8 @@ Liste de valeurs du code Sexe pour l’INSEE - En attente de faire directement r
   "resourceType" : "CodeSystem",
   "id" : "tre-r411-sexe-insee",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:14:12.333+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-06T20:14:34.739+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -136,7 +136,7 @@ Liste de valeurs du code Sexe pour l’INSEE - En attente de faire directement r
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001"
+        "code" : "900000000000013009"
       },
       "value" : "Intersexe"
     }],

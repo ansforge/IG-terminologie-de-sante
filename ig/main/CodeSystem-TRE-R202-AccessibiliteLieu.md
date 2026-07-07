@@ -28,8 +28,8 @@ Niveaux d’accessibilité d’un établissement recevant du public (ERP)
   "resourceType" : "CodeSystem",
   "id" : "TRE-R202-AccessibiliteLieu",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:13:43.120+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:43.362+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

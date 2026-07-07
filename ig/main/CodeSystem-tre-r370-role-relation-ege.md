@@ -28,8 +28,8 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
   "resourceType" : "CodeSystem",
   "id" : "tre-r370-role-relation-ege",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:11+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:57+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

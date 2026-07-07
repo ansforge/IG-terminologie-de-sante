@@ -29,8 +29,8 @@ Sexe
   "resourceType" : "CodeSystem",
   "id" : "TRE-R249-Sexe",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:36.845+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:06.817+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Spécialisation de prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R245-SpecialisationDePriseEnCharge",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-07-02T18:16:35.233+00:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:13:05.452+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Nomenclature des mentions pour les activités de soin AMM
   "resourceType" : "CodeSystem",
   "id" : "tre-r383-mention-act-de-soin-amm",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:14+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:02+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

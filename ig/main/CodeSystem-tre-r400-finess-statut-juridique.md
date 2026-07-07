@@ -31,8 +31,8 @@ Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, T
   "resourceType" : "CodeSystem",
   "id" : "tre-r400-finess-statut-juridique",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-06-29T14:43:29.075+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:29.597+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

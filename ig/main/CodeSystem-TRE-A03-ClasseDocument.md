@@ -29,8 +29,8 @@ Classe de document
   "resourceType" : "CodeSystem",
   "id" : "TRE-A03-ClasseDocument",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:23.786+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:20.707+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

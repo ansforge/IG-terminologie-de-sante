@@ -28,8 +28,8 @@ Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée a
   "resourceType" : "CodeSystem",
   "id" : "tre-r377-usage-adresse",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:28:23+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:00+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -28,8 +28,8 @@ Caractérise les besoins d’aide de la personne en matière de scolarité, en l
   "resourceType" : "CodeSystem",
   "id" : "TRE-R321-BesoinEntretienPersonnel",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:30.967+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:35.497+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -29,8 +29,8 @@ Compétence exclusive
   "resourceType" : "CodeSystem",
   "id" : "TRE-R40-CompetenceExclusive",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:04.948+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:28.861+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Permet d’indiquer le statut de lits fermés, afin d’identifier le nombre de 
   "resourceType" : "CodeSystem",
   "id" : "TRE-R333-TypeFermetureCapacite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:37.605+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:40.706+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

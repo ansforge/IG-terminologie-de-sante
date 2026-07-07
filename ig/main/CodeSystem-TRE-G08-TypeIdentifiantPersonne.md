@@ -29,8 +29,8 @@ Type d’identifiant de personne
   "resourceType" : "CodeSystem",
   "id" : "TRE-G08-TypeIdentifiantPersonne",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:11:39.010+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:12:28.008+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

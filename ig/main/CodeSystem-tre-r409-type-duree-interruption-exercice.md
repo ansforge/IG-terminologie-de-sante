@@ -28,8 +28,8 @@ Le type de durée d’une interruption d’exercice décrit le caractère tempor
   "resourceType" : "CodeSystem",
   "id" : "tre-r409-type-duree-interruption-exercice",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:14:11.348+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-06T20:14:33.877+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

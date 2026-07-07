@@ -29,8 +29,8 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
   "resourceType" : "CodeSystem",
   "id" : "TRE-R274-ActiviteSanitaireRegulee",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:00.999+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:17.378+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Sexe administratif
   "resourceType" : "CodeSystem",
   "id" : "TRE-R10-SexeAdministratif",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:12:06.425+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:37.508+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

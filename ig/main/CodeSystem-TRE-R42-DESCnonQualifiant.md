@@ -29,8 +29,8 @@ Savoir-faire liés aux DESC du groupe 1 non qualifiants
   "resourceType" : "CodeSystem",
   "id" : "TRE-R42-DESCnonQualifiant",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:18:06.072+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:35.202+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

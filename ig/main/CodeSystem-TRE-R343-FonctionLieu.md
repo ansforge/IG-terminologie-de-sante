@@ -28,8 +28,8 @@ Destination d’usage du lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-01T20:12:11.434+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:13:44.899+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

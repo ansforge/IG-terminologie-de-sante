@@ -28,8 +28,8 @@ Certificat d’Etude Spéciale
   "resourceType" : "CodeSystem",
   "id" : "TRE-R55-CertificatEtudeSpeciale",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:21.237+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:41.440+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

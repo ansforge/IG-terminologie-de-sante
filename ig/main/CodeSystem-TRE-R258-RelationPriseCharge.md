@@ -28,8 +28,8 @@ Relation dans la prise en charge du patient
   "resourceType" : "CodeSystem",
   "id" : "TRE-R258-RelationPriseCharge",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:16:42.739+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:11.062+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

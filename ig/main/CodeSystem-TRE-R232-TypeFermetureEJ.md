@@ -28,8 +28,8 @@ Type de fermeture de l’entité juridique FINESS
   "resourceType" : "CodeSystem",
   "id" : "TRE-R232-TypeFermetureEJ",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:20.425+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:59.387+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

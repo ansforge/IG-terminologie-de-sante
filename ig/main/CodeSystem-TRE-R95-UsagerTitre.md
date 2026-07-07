@@ -37,8 +37,8 @@ Usager de titre professionnel
   "resourceType" : "CodeSystem",
   "id" : "TRE-R95-UsagerTitre",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:19:22.873+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:56.112+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

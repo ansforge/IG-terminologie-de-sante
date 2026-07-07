@@ -28,8 +28,8 @@ Caractérise la situation de la personne lorsqu’elle est sans emploi
   "resourceType" : "CodeSystem",
   "id" : "TRE-R326-SituationSansEmploi",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:33.520+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:37.511+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

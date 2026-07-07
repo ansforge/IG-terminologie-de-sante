@@ -29,8 +29,8 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
   "resourceType" : "CodeSystem",
   "id" : "tre-r395-engagement",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:28:44.955+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:24.070+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -691,6 +691,14 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
     {
       "code" : "niveau",
       "valueInteger" : 2
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-11-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {

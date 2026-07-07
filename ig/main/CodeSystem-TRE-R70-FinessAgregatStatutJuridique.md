@@ -28,8 +28,8 @@ Agrégat de statuts juridiques FINESS
   "resourceType" : "CodeSystem",
   "id" : "TRE-R70-FinessAgregatStatutJuridique",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T18:18:42.511+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:48.302+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

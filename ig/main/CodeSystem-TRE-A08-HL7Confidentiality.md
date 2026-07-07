@@ -29,8 +29,8 @@ HL7 confidentiality
   "resourceType" : "CodeSystem",
   "id" : "TRE-A08-HL7Confidentiality",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:27.598+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:22.511+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

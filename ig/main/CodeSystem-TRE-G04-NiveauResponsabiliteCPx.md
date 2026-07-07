@@ -28,8 +28,8 @@ Niveau de responsabilité (CPx)
   "resourceType" : "CodeSystem",
   "id" : "TRE-G04-NiveauResponsabiliteCPx",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:37.083+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:26.705+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

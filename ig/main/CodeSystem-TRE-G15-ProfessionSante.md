@@ -37,8 +37,8 @@ Professions de santé définies par le code de la santé publique : professions 
   "resourceType" : "CodeSystem",
   "id" : "TRE-G15-ProfessionSante",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-07-02T18:11:48.373+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:12:31.491+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

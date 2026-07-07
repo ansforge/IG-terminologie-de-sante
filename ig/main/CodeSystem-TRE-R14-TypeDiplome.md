@@ -29,8 +29,8 @@ Type de diplôme
   "resourceType" : "CodeSystem",
   "id" : "TRE-R14-TypeDiplome",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:12:07.636+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:12:38.318+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

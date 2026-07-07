@@ -28,8 +28,8 @@ Agrégats de disciplines pour l’enseignement niveau 3
   "resourceType" : "CodeSystem",
   "id" : "TRE-R297-AgregatDisciplineEnseignNiv3",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:20.107+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:28.014+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

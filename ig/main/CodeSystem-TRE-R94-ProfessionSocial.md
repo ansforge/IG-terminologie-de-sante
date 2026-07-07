@@ -37,8 +37,8 @@ Profession du social
   "resourceType" : "CodeSystem",
   "id" : "TRE-R94-ProfessionSocial",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:19:22.247+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:55.702+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

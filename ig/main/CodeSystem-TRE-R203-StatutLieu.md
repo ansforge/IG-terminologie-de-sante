@@ -28,8 +28,8 @@ Statut lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R203-StatutLieu",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:13:43.654+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:43.813+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

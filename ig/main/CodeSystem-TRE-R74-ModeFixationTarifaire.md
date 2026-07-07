@@ -29,8 +29,8 @@ Mode de fixation tarifaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R74-ModeFixationTarifaire",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T20:12:28.986+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:14:49.750+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

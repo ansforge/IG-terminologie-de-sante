@@ -30,8 +30,8 @@ Fonction
   "resourceType" : "CodeSystem",
   "id" : "TRE-R21-Fonction",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-05-05T20:11:51.739+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-07-06T20:12:46.965+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

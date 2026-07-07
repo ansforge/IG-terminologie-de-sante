@@ -31,8 +31,8 @@ Civilité d’exercice
   "resourceType" : "CodeSystem",
   "id" : "TRE-R11-CiviliteExercice",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:12:06.966+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:37.900+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

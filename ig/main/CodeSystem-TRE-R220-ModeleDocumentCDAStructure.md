@@ -29,8 +29,8 @@ Identifiant des modèles de CDA structurés
   "resourceType" : "CodeSystem",
   "id" : "TRE-R220-ModeleDocumentCDAStructure",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-29T11:13:41.922+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:12:55.221+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

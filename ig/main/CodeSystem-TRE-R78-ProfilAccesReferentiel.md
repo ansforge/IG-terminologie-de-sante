@@ -28,8 +28,8 @@ Profil d’accès aux référentiels
   "resourceType" : "CodeSystem",
   "id" : "TRE-R78-ProfilAccesReferentiel",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:19:14.219+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:51.293+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

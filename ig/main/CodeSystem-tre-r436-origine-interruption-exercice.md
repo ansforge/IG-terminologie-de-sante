@@ -28,8 +28,8 @@ L’origine d’une interruption d’exercice correspond à l’autorité juridi
   "resourceType" : "CodeSystem",
   "id" : "tre-r436-origine-interruption-exercice",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:14:13.221+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-06T20:14:36.119+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

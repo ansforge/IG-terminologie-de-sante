@@ -28,8 +28,8 @@ Type de division territoriale
   "resourceType" : "CodeSystem",
   "id" : "TRE-R201-TypeDivisionTerritoriale",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:13:42.584+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:42.939+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

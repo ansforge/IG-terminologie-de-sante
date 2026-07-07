@@ -28,8 +28,8 @@ Référentiel des pays provenant de la norme ISO 3166
   "resourceType" : "CodeSystem",
   "id" : "TRE-R268-PaysProvenanceISO",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:16:54.175+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:15.191+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -28,8 +28,8 @@ Type de fonction
   "resourceType" : "CodeSystem",
   "id" : "TRE-R289-TypeFonction",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:15.594+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:24.524+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

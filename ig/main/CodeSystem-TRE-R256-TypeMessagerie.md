@@ -29,8 +29,8 @@ Type de messagerie électronique
   "resourceType" : "CodeSystem",
   "id" : "TRE-R256-TypeMessagerie",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:41.643+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:10.195+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

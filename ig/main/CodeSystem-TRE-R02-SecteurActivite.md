@@ -36,8 +36,8 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
   "resourceType" : "CodeSystem",
   "id" : "TRE-R02-SecteurActivite",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-05-05T20:11:50.301+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-07-06T20:12:35.191+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

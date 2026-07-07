@@ -28,8 +28,8 @@ Statut de l’inscription
   "resourceType" : "CodeSystem",
   "id" : "TRE-R33-StatutInscription",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:35.619+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:39.117+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

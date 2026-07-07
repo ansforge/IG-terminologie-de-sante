@@ -28,8 +28,8 @@ Catégorie de produit
   "resourceType" : "CodeSystem",
   "id" : "TRE-G01-CategorieProduit",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:35.429+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:25.488+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

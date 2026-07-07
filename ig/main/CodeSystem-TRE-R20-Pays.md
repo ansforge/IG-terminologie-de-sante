@@ -33,8 +33,8 @@ Référentiel des codes pays provenant du COG INSEE
   "resourceType" : "CodeSystem",
   "id" : "TRE-R20-Pays",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-07-02T18:13:41.429+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:12:42.107+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

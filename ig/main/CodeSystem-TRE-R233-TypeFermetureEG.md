@@ -28,8 +28,8 @@ Type de fermeture de l’entité géographique FINESS
   "resourceType" : "CodeSystem",
   "id" : "TRE-R233-TypeFermetureEG",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:20.959+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:59.829+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

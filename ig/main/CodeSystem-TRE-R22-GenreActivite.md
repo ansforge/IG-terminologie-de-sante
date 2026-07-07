@@ -32,8 +32,8 @@ Genre d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R22-GenreActivite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:16:11.851+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:12:54.720+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -29,8 +29,8 @@ Compétence
   "resourceType" : "CodeSystem",
   "id" : "TRE-R39-Competence",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:18:03.827+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:14:05.413+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

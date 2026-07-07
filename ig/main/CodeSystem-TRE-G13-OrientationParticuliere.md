@@ -29,8 +29,8 @@ Orientation particulière
   "resourceType" : "CodeSystem",
   "id" : "TRE-G13-OrientationParticuliere",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:47.629+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:31.059+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

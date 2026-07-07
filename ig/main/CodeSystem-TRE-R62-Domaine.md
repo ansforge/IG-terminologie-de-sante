@@ -28,8 +28,8 @@ Domaine
   "resourceType" : "CodeSystem",
   "id" : "TRE-R62-Domaine",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:26.727+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:43.846+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

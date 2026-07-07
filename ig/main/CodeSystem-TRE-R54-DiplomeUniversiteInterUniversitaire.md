@@ -29,8 +29,8 @@ Diplôme d’Université ou Inter-Universitaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R54-DiplomeUniversiteInterUniversitaire",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-07-02T18:18:20.052+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:14:40.944+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

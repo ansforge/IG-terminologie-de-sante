@@ -28,8 +28,8 @@ Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est just
   "resourceType" : "CodeSystem",
   "id" : "tre-r366-type-objet",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-07-02T16:28:22+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:55+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

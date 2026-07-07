@@ -28,8 +28,8 @@ Mode d’accès pour accéder à un SI santé avec données patients
   "resourceType" : "CodeSystem",
   "id" : "TRE-R248-ModeAcces",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T18:16:36.264+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:06.340+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

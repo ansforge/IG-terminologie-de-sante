@@ -29,8 +29,8 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-06-29T11:13:39.581+02:00",
+    "versionId" : "31",
+    "lastUpdated" : "2026-07-06T20:12:50.286+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

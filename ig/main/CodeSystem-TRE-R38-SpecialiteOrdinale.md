@@ -30,8 +30,8 @@ Spécialité ordinale
   "resourceType" : "CodeSystem",
   "id" : "TRE-R38-SpecialiteOrdinale",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:18:02.679+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:01.558+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

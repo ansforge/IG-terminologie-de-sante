@@ -28,8 +28,8 @@ Rôle administratif et-ou technique des domaines sanitaire et social
   "resourceType" : "CodeSystem",
   "id" : "TRE-R290-RoleAdmTechSanitaireSocial",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:16.056+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:24.950+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

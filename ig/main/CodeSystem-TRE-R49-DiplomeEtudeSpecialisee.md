@@ -28,8 +28,8 @@ Diplôme d’Etudes Spécialisées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R49-DiplomeEtudeSpecialisee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:13.236+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:38.557+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

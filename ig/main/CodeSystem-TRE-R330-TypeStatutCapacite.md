@@ -29,8 +29,8 @@ Permet de préciser le statut des capacités concernées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R330-TypeStatutCapacite",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T20:12:05.141+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:13:39.513+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

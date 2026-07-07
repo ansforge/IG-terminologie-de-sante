@@ -28,8 +28,8 @@ Modalités d’accueil
   "resourceType" : "CodeSystem",
   "id" : "TRE-R338-ModaliteAccueil",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-06-29T11:13:44.807+02:00",
+    "versionId" : "22",
+    "lastUpdated" : "2026-07-06T20:13:42.818+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

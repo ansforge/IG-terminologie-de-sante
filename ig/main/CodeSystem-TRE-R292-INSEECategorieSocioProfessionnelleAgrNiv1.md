@@ -28,8 +28,8 @@ Codes de niveau 1 des catégories socio-professionnelles de l’INSEE
   "resourceType" : "CodeSystem",
   "id" : "TRE-R292-INSEECategorieSocioProfessionnelleAgrNiv1",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:17.064+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:25.789+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

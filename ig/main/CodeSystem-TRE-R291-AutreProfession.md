@@ -31,8 +31,8 @@ Liste de professionnels non membres d’une profession réglementée
   "resourceType" : "CodeSystem",
   "id" : "TRE-R291-AutreProfession",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:16.527+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:25.356+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

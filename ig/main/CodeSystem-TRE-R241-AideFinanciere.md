@@ -29,8 +29,8 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
   "resourceType" : "CodeSystem",
   "id" : "TRE-R241-AideFinanciere",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:11:58.157+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:03.117+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

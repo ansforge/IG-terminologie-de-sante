@@ -32,8 +32,8 @@ Restriction d’audience applicable aux objets référencés
   "resourceType" : "CodeSystem",
   "id" : "TRE-A07-StatutVisibiliteDocument",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:27.032+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:22.128+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

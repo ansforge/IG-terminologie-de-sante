@@ -28,8 +28,8 @@ Codes de représentation des sexes humains provenant de la norme ISO 5218
   "resourceType" : "CodeSystem",
   "id" : "TRE-R267-SexeProvenanceISO",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:47.410+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:14.485+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

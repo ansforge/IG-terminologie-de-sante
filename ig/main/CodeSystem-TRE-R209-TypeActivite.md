@@ -30,8 +30,8 @@ Type d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R209-TypeActivite",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-07-02T16:28:17.295+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:12:46.462+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

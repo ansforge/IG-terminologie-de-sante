@@ -28,8 +28,8 @@ Le périmètre d’une interruption d’exercice décrit l’étendue de la rest
   "resourceType" : "CodeSystem",
   "id" : "tre-r410-perimetre-interruption-exercice",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-06-29T11:14:11.867+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-06T20:14:34.281+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

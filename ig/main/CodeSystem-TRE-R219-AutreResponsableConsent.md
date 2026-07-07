@@ -28,8 +28,8 @@ Autre responsable consentement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R219-AutreResponsableConsent",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:11.203+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:12:54.251+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
