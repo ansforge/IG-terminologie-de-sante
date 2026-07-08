@@ -8,16 +8,6 @@ import sys
 from fhirpy import AsyncFHIRClient
 
 ONTOSERVER_URL = "https://smt.esante.gouv.fr/fhir"
-JDV_FORCE_EXPAND = [
-    "JdvJ322TypeActEnseignementReguleeFiness",
-    "JdvJ331TypeActSocialeReguleeFiness",
-    "JdvJ336TypeActSanitaireDiverseReguleeFiness",
-    "JdvJ340TypeActDeSoinAmfFiness",
-    "JdvJ341TypeActAutreActeSoinFiness",
-    "JdvJ342TypeActSoumiseReconnaissanceFiness",
-    "JdvJ344TypeActEquipementMaterielLourdFiness",
-    "JdvJ350TypeActDeSoinAmmFiness"
-]
 
 
 def has_filter(valueset):
@@ -222,14 +212,12 @@ async def main():
 
         if is_allowed_valueset(url):
 
-            if (
-                not os.path.isfile(
+            if not os.path.isfile(
                 "../DM/fsh-generated/resources/ValueSet-"
                 + e_valueSet["id"]
                 + ".json"
-                )
-                or e_valueSet["name"] in JDV_FORCE_EXPAND
             ):
+
                 print("------------> OK")
 
                 ValueSet = await client.reference(
@@ -239,7 +227,7 @@ async def main():
 
                 # Expand automatique des JDV logiques
                 
-                if has_filter(ValueSet) or e_valueSet["name"] in JDV_FORCE_EXPAND:
+                if has_filter(ValueSet):
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
