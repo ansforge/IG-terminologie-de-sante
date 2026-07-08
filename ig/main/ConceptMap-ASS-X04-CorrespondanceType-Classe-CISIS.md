@@ -273,6 +273,20 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
+      "code" : "34876-3",
+      "target" : [{
+        "code" : "10",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "34895-3",
+      "target" : [{
+        "code" : "44",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
       "code" : "39256-3",
       "target" : [{
         "code" : "10",
@@ -336,16 +350,16 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
-      "code" : "56445-0",
+      "code" : "55751-2",
       "target" : [{
-        "code" : "11",
+        "code" : "52",
         "equivalence" : "equivalent"
       }]
     },
     {
-      "code" : "55751-2",
+      "code" : "56445-0",
       "target" : [{
-        "code" : "52",
+        "code" : "11",
         "equivalence" : "equivalent"
       }]
     },
@@ -448,6 +462,20 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
+      "code" : "61358-8",
+      "target" : [{
+        "code" : "95",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "61359-6",
+      "target" : [{
+        "code" : "95",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
       "code" : "67851-6",
       "target" : [{
         "code" : "10",
@@ -458,6 +486,13 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "68599-0",
       "target" : [{
         "code" : "11",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "68814-3",
+      "target" : [{
+        "code" : "10",
         "equivalence" : "equivalent"
       }]
     },
@@ -616,9 +651,23 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
+      "code" : "83963-9",
+      "target" : [{
+        "code" : "11",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
       "code" : "83981-1",
       "target" : [{
         "code" : "10",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "84067-8",
+      "target" : [{
+        "code" : "11",
         "equivalence" : "equivalent"
       }]
     },
@@ -693,7 +742,35 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
+      "code" : "96163-1",
+      "target" : [{
+        "code" : "11",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
       "code" : "96173-0",
+      "target" : [{
+        "code" : "52",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "97694-4",
+      "target" : [{
+        "code" : "10",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "100967-9",
+      "target" : [{
+        "code" : "10",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "101881-1",
       "target" : [{
         "code" : "52",
         "equivalence" : "equivalent"
@@ -726,6 +803,13 @@ Correspondance entre types et classes de documents CI-SIS
     },
     {
       "code" : "ATTEST-DROITS-AM",
+      "target" : [{
+        "code" : "95",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "ATTEST-VITALE",
       "target" : [{
         "code" : "95",
         "equivalence" : "equivalent"
