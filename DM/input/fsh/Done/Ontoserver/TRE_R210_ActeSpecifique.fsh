@@ -10663,15 +10663,15 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1275 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1275 ^property[+].code = #status
 * #1275 ^property[=].valueCode = #active
-* #1276 "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
+* #1276 "Enregistrement polygraphique dans le cadre d'une forte suspicion du Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
 * #1276 ^designation[0].language = #fr-FR
 * #1276 ^designation[=].use.system = "http://snomed.info/sct"
 * #1276 ^designation[=].use = $sct#900000000000013009
-* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre du SAOS"
+* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre d'une forte suspicion du SAHOS"
 * #1276 ^property[0].code = #dateValid
 * #1276 ^property[=].valueDateTime = "2022-12-16T12:00:00+01:00"
 * #1276 ^property[+].code = #dateMaj
-* #1276 ^property[=].valueDateTime = "2022-12-16T12:00:00+01:00"
+* #1276 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1276 ^property[+].code = #status
 * #1276 ^property[=].valueCode = #active
 * #1277 "Scanner coronaire"
@@ -12007,6 +12007,17 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1448 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1448 ^property[+].code = #status
 * #1448 ^property[=].valueCode = #active
+* #1449 "Thérapie cellulaire des brûlures radiques par Cellules Souches Mésenchymateuses (CSM)"
+* #1449 ^designation[0].language = #fr-FR
+* #1449 ^designation[=].use.system = "http://snomed.info/sct"
+* #1449 ^designation[=].use = $sct#900000000000013009
+* #1449 ^designation[=].value = "Thérapie cellulaire des brûlures radiques par CSM"
+* #1449 ^property[0].code = #dateValid
+* #1449 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1449 ^property[+].code = #dateMaj
+* #1449 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1449 ^property[+].code = #status
+* #1449 ^property[=].valueCode = #active
 * #1450 "Soins infirmiers de dialyse péritonéale"
 * #1450 ^property[0].code = #dateValid
 * #1450 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
@@ -13018,282 +13029,378 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1581 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1581 ^property[+].code = #status
 * #1581 ^property[=].valueCode = #active
-* #1582 "Prise en charge spécialisée et continue en cardiologie"
+* #1582 "Prise en charge spécialisée et permanente (dont PDSES) en cardiologie"
+* #1582 ^designation[0].language = #fr-FR
+* #1582 ^designation[=].use.system = "http://snomed.info/sct"
+* #1582 ^designation[=].use = $sct#900000000000013009
+* #1582 ^designation[=].value = "PEC spécialisée et permanente en cardiologie"
 * #1582 ^property[0].code = #dateValid
 * #1582 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1582 ^property[+].code = #dateMaj
-* #1582 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1582 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1582 ^property[+].code = #status
 * #1582 ^property[=].valueCode = #active
-* #1583 "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux"
+* #1583 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie cardiaque et gros vaisseaux"
+* #1583 ^designation[0].language = #fr-FR
+* #1583 ^designation[=].use.system = "http://snomed.info/sct"
+* #1583 ^designation[=].use = $sct#900000000000013009
+* #1583 ^designation[=].value = "PEC spécialisée et permanente en chirurgie cardiaque et gros vaisseaux"
 * #1583 ^property[0].code = #dateValid
 * #1583 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1583 ^property[+].code = #dateMaj
-* #1583 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1583 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1583 ^property[+].code = #status
 * #1583 ^property[=].valueCode = #active
-* #1584 "Prise en charge spécialisée et continue en chirurgie digestive et viscérale"
+* #1584 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie digestive et viscérale"
+* #1584 ^designation[0].language = #fr-FR
+* #1584 ^designation[=].use.system = "http://snomed.info/sct"
+* #1584 ^designation[=].use = $sct#900000000000013009
+* #1584 ^designation[=].value = "PEC spécialisée et permanente en chirurgie digestive et viscérale"
 * #1584 ^property[0].code = #dateValid
 * #1584 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1584 ^property[+].code = #dateMaj
-* #1584 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1584 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1584 ^property[+].code = #status
 * #1584 ^property[=].valueCode = #active
-* #1585 "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
+* #1585 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie maxillo-faciale et stomatologie"
 * #1585 ^designation[0].language = #fr-FR
 * #1585 ^designation[=].use.system = "http://snomed.info/sct"
 * #1585 ^designation[=].use = $sct#900000000000013009
-* #1585 ^designation[=].value = "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
+* #1585 ^designation[=].value = "PEC spécialisée et permanente en chirurgie maxillo-faciale et stomatologie"
 * #1585 ^property[0].code = #dateValid
 * #1585 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1585 ^property[+].code = #dateMaj
-* #1585 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1585 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1585 ^property[+].code = #status
 * #1585 ^property[=].valueCode = #active
-* #1586 "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
+* #1586 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie orthopédique et traumatologie"
 * #1586 ^designation[0].language = #fr-FR
 * #1586 ^designation[=].use.system = "http://snomed.info/sct"
 * #1586 ^designation[=].use = $sct#900000000000013009
-* #1586 ^designation[=].value = "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
+* #1586 ^designation[=].value = "PEC spécialisée et permanente en chirurgie orthopédique et traumatologie"
 * #1586 ^property[0].code = #dateValid
 * #1586 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1586 ^property[+].code = #dateMaj
-* #1586 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1586 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1586 ^property[+].code = #status
 * #1586 ^property[=].valueCode = #active
-* #1587 "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
+* #1587 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique orthopédique et traumatologie"
 * #1587 ^designation[0].language = #fr-FR
 * #1587 ^designation[=].use.system = "http://snomed.info/sct"
 * #1587 ^designation[=].use = $sct#900000000000013009
-* #1587 ^designation[=].value = "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
+* #1587 ^designation[=].value = "PEC spécialisée et permanente en chir. pédiatrique orthopédique et traumatologie"
 * #1587 ^property[0].code = #dateValid
 * #1587 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1587 ^property[+].code = #dateMaj
-* #1587 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1587 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1587 ^property[+].code = #status
 * #1587 ^property[=].valueCode = #active
-* #1588 "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
+* #1588 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique viscérale et digestive"
 * #1588 ^designation[0].language = #fr-FR
 * #1588 ^designation[=].use.system = "http://snomed.info/sct"
 * #1588 ^designation[=].use = $sct#900000000000013009
-* #1588 ^designation[=].value = "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
+* #1588 ^designation[=].value = "PEC spécialisée et permanente en chirurgie pédiatrique viscérale et digestive"
 * #1588 ^property[0].code = #dateValid
 * #1588 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1588 ^property[+].code = #dateMaj
-* #1588 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1588 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1588 ^property[+].code = #status
 * #1588 ^property[=].valueCode = #active
-* #1589 "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire"
+* #1589 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie thoracique et pulmonaire"
+* #1589 ^designation[0].language = #fr-FR
+* #1589 ^designation[=].use.system = "http://snomed.info/sct"
+* #1589 ^designation[=].use = $sct#900000000000013009
+* #1589 ^designation[=].value = "PEC spécialisée et permanente en chirurgie thoracique et pulmonaire"
 * #1589 ^property[0].code = #dateValid
 * #1589 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1589 ^property[+].code = #dateMaj
-* #1589 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1589 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1589 ^property[+].code = #status
 * #1589 ^property[=].valueCode = #active
-* #1590 "Prise en charge spécialisée et continue en chirurgie vasculaire"
+* #1590 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie vasculaire"
+* #1590 ^designation[0].language = #fr-FR
+* #1590 ^designation[=].use.system = "http://snomed.info/sct"
+* #1590 ^designation[=].use = $sct#900000000000013009
+* #1590 ^designation[=].value = "PEC spécialisée et permanente en chirurgie vasculaire"
 * #1590 ^property[0].code = #dateValid
 * #1590 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1590 ^property[+].code = #dateMaj
-* #1590 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1590 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1590 ^property[+].code = #status
 * #1590 ^property[=].valueCode = #active
-* #1591 "Prise en charge spécialisée et continue en dermatologie"
+* #1591 "Prise en charge spécialisée et permanente (dont PDSES) en dermatologie"
+* #1591 ^designation[0].language = #fr-FR
+* #1591 ^designation[=].use.system = "http://snomed.info/sct"
+* #1591 ^designation[=].use = $sct#900000000000013009
+* #1591 ^designation[=].value = "PEC spécialisée et permanente en dermatologie"
 * #1591 ^property[0].code = #dateValid
 * #1591 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1591 ^property[+].code = #dateMaj
-* #1591 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1591 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1591 ^property[+].code = #status
 * #1591 ^property[=].valueCode = #active
-* #1592 "Prise en charge spécialisée et continue en endocrinologie"
+* #1592 "Prise en charge spécialisée et permanente (dont PDSES) en endocrinologie"
+* #1592 ^designation[0].language = #fr-FR
+* #1592 ^designation[=].use.system = "http://snomed.info/sct"
+* #1592 ^designation[=].use = $sct#900000000000013009
+* #1592 ^designation[=].value = "PEC spécialisée et permanente en endocrinologie"
 * #1592 ^property[0].code = #dateValid
 * #1592 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1592 ^property[+].code = #dateMaj
-* #1592 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1592 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1592 ^property[+].code = #status
 * #1592 ^property[=].valueCode = #active
-* #1593 "Prise en charge spécialisée et continue en gériatrie (gérontologie)"
+* #1593 "Prise en charge spécialisée et permanente (dont PDSES) en gériatrie (gérontologie)"
+* #1593 ^designation[0].language = #fr-FR
+* #1593 ^designation[=].use.system = "http://snomed.info/sct"
+* #1593 ^designation[=].use = $sct#900000000000013009
+* #1593 ^designation[=].value = "PEC spécialisée et permanente en gériatrie (gérontologie)"
 * #1593 ^property[0].code = #dateValid
 * #1593 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1593 ^property[+].code = #dateMaj
-* #1593 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1593 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1593 ^property[+].code = #status
 * #1593 ^property[=].valueCode = #active
-* #1594 "Prise en charge spécialisée et continue en gynécologie"
+* #1594 "Prise en charge spécialisée et permanente (dont PDSES) en gynécologie"
+* #1594 ^designation[0].language = #fr-FR
+* #1594 ^designation[=].use.system = "http://snomed.info/sct"
+* #1594 ^designation[=].use = $sct#900000000000013009
+* #1594 ^designation[=].value = "PEC spécialisée et permanente en gynécologie"
 * #1594 ^property[0].code = #dateValid
 * #1594 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1594 ^property[+].code = #dateMaj
-* #1594 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1594 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1594 ^property[+].code = #status
 * #1594 ^property[=].valueCode = #active
-* #1595 "Prise en charge spécialisée et continue en hématologie"
+* #1595 "Prise en charge spécialisée et permanente (dont PDSES) en hématologie"
+* #1595 ^designation[0].language = #fr-FR
+* #1595 ^designation[=].use.system = "http://snomed.info/sct"
+* #1595 ^designation[=].use = $sct#900000000000013009
+* #1595 ^designation[=].value = "PEC spécialisée et permanente en hématologie"
 * #1595 ^property[0].code = #dateValid
 * #1595 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1595 ^property[+].code = #dateMaj
-* #1595 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1595 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1595 ^property[+].code = #status
 * #1595 ^property[=].valueCode = #active
-* #1596 "Prise en charge spécialisée et continue en hépato-gastro-entérologie"
+* #1596 "Prise en charge spécialisée et permanente (dont PDSES) en hépato-gastro-entérologie"
+* #1596 ^designation[0].language = #fr-FR
+* #1596 ^designation[=].use.system = "http://snomed.info/sct"
+* #1596 ^designation[=].use = $sct#900000000000013009
+* #1596 ^designation[=].value = "PEC spécialisée et permanente en hépato-gastro-entérologie"
 * #1596 ^property[0].code = #dateValid
 * #1596 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1596 ^property[+].code = #dateMaj
-* #1596 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1596 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1596 ^property[+].code = #status
 * #1596 ^property[=].valueCode = #active
-* #1597 "Prise en charge spécialisée et continue en maladies infectieuses et tropicales"
+* #1597 "Prise en charge spécialisée et permanente (dont PDSES) en maladies infectieuses et tropicales"
+* #1597 ^designation[0].language = #fr-FR
+* #1597 ^designation[=].use.system = "http://snomed.info/sct"
+* #1597 ^designation[=].use = $sct#900000000000013009
+* #1597 ^designation[=].value = "PEC spécialisée et permanente en maladies infectieuses et tropicales"
 * #1597 ^property[0].code = #dateValid
 * #1597 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1597 ^property[+].code = #dateMaj
-* #1597 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1597 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1597 ^property[+].code = #status
 * #1597 ^property[=].valueCode = #active
-* #1598 "Prise en charge spécialisée et continue en médecine interne"
+* #1598 "Prise en charge spécialisée et permanente (dont PDSES) en médecine interne"
+* #1598 ^designation[0].language = #fr-FR
+* #1598 ^designation[=].use.system = "http://snomed.info/sct"
+* #1598 ^designation[=].use = $sct#900000000000013009
+* #1598 ^designation[=].value = "PEC spécialisée et permanente en médecine interne"
 * #1598 ^property[0].code = #dateValid
 * #1598 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1598 ^property[+].code = #dateMaj
-* #1598 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1598 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1598 ^property[+].code = #status
 * #1598 ^property[=].valueCode = #active
-* #1599 "Prise en charge spécialisée et continue en médecine vasculaire"
+* #1599 "Prise en charge spécialisée et permanente (dont PDSES) en médecine vasculaire"
+* #1599 ^designation[0].language = #fr-FR
+* #1599 ^designation[=].use.system = "http://snomed.info/sct"
+* #1599 ^designation[=].use = $sct#900000000000013009
+* #1599 ^designation[=].value = "PEC spécialisée et permanente en médecine interne"
 * #1599 ^property[0].code = #dateValid
 * #1599 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1599 ^property[+].code = #dateMaj
-* #1599 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1599 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1599 ^property[+].code = #status
 * #1599 ^property[=].valueCode = #active
-* #1600 "Prise en charge spécialisée et continue en néphrologie (dont dialyse)"
+* #1600 "Prise en charge spécialisée et permanente (dont PDSES) en néphrologie (dont dialyse)"
+* #1600 ^designation[0].language = #fr-FR
+* #1600 ^designation[=].use.system = "http://snomed.info/sct"
+* #1600 ^designation[=].use = $sct#900000000000013009
+* #1600 ^designation[=].value = "PEC spécialisée et permanente en néphrologie (dont dialyse)"
 * #1600 ^property[0].code = #dateValid
 * #1600 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1600 ^property[+].code = #dateMaj
-* #1600 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1600 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1600 ^property[+].code = #status
 * #1600 ^property[=].valueCode = #active
-* #1601 "Prise en charge spécialisée et continue en neurochirurgie"
+* #1601 "Prise en charge spécialisée et permanente (dont PDSES) en neurochirurgie"
+* #1601 ^designation[0].language = #fr-FR
+* #1601 ^designation[=].use.system = "http://snomed.info/sct"
+* #1601 ^designation[=].use = $sct#900000000000013009
+* #1601 ^designation[=].value = "PEC spécialisée et permanente en neurochirurgie"
 * #1601 ^property[0].code = #dateValid
 * #1601 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1601 ^property[+].code = #dateMaj
-* #1601 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1601 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1601 ^property[+].code = #status
 * #1601 ^property[=].valueCode = #active
-* #1602 "Prise en charge spécialisée et continue en neurologie"
+* #1602 "Prise en charge spécialisée et permanente (dont PDSES) en neurologie"
+* #1602 ^designation[0].language = #fr-FR
+* #1602 ^designation[=].use.system = "http://snomed.info/sct"
+* #1602 ^designation[=].use = $sct#900000000000013009
+* #1602 ^designation[=].value = "PEC spécialisée et permanente en neurologie"
 * #1602 ^property[0].code = #dateValid
 * #1602 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1602 ^property[+].code = #dateMaj
-* #1602 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1602 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1602 ^property[+].code = #status
 * #1602 ^property[=].valueCode = #active
-* #1603 "Prise en charge spécialisée et continue en oncologie"
+* #1603 "Prise en charge spécialisée et permanente (dont PDSES) en oncologie"
+* #1603 ^designation[0].language = #fr-FR
+* #1603 ^designation[=].use.system = "http://snomed.info/sct"
+* #1603 ^designation[=].use = $sct#900000000000013009
+* #1603 ^designation[=].value = "PEC spécialisée et permanente en oncologie"
 * #1603 ^property[0].code = #dateValid
 * #1603 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1603 ^property[+].code = #dateMaj
-* #1603 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1603 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1603 ^property[+].code = #status
 * #1603 ^property[=].valueCode = #active
-* #1604 "Prise en charge spécialisée et continue en ophtalmologie"
+* #1604 "Prise en charge spécialisée et permanente (dont PDSES) en ophtalmologie"
+* #1604 ^designation[0].language = #fr-FR
+* #1604 ^designation[=].use.system = "http://snomed.info/sct"
+* #1604 ^designation[=].use = $sct#900000000000013009
+* #1604 ^designation[=].value = "PEC spécialisée et permanente en ophtalmologie"
 * #1604 ^property[0].code = #dateValid
 * #1604 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1604 ^property[+].code = #dateMaj
-* #1604 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1604 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1604 ^property[+].code = #status
 * #1604 ^property[=].valueCode = #active
-* #1605 "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+* #1605 "Prise en charge spécialisée et permanente (dont PDSES) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
 * #1605 ^designation[0].language = #fr-FR
 * #1605 ^designation[=].use.system = "http://snomed.info/sct"
 * #1605 ^designation[=].use = $sct#900000000000013009
-* #1605 ^designation[=].value = "PEC spécialisée et continue en ORL et chir. cervico-faciale"
+* #1605 ^designation[=].value = "PEC spécialisée et permanente en ORL et chirurgie cervico-faciale"
 * #1605 ^property[0].code = #dateValid
 * #1605 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1605 ^property[+].code = #dateMaj
-* #1605 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1605 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1605 ^property[+].code = #status
 * #1605 ^property[=].valueCode = #active
-* #1606 "Prise en charge spécialisée et continue en pédiatrie"
+* #1606 "Prise en charge spécialisée et permanente (dont PDSES) en pédiatrie"
+* #1606 ^designation[0].language = #fr-FR
+* #1606 ^designation[=].use.system = "http://snomed.info/sct"
+* #1606 ^designation[=].use = $sct#900000000000013009
+* #1606 ^designation[=].value = "PEC spécialisée et permanente en pédiatrie"
 * #1606 ^property[0].code = #dateValid
 * #1606 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1606 ^property[+].code = #dateMaj
-* #1606 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1606 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1606 ^property[+].code = #status
 * #1606 ^property[=].valueCode = #active
-* #1607 "Prise en charge spécialisée et continue en pneumologie"
+* #1607 "Prise en charge spécialisée et permanente (dont PDSES) en pneumologie"
+* #1607 ^designation[0].language = #fr-FR
+* #1607 ^designation[=].use.system = "http://snomed.info/sct"
+* #1607 ^designation[=].use = $sct#900000000000013009
+* #1607 ^designation[=].value = "PEC spécialisée et permanente en pneumologie"
 * #1607 ^property[0].code = #dateValid
 * #1607 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1607 ^property[+].code = #dateMaj
-* #1607 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1607 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1607 ^property[+].code = #status
 * #1607 ^property[=].valueCode = #active
-* #1608 "Prise en charge spécialisée et continue en rhumatologie"
+* #1608 "Prise en charge spécialisée et permanente (dont PDSES) en rhumatologie"
+* #1608 ^designation[0].language = #fr-FR
+* #1608 ^designation[=].use.system = "http://snomed.info/sct"
+* #1608 ^designation[=].use = $sct#900000000000013009
+* #1608 ^designation[=].value = "PEC spécialisée et permanente en rhumatologie"
 * #1608 ^property[0].code = #dateValid
 * #1608 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1608 ^property[+].code = #dateMaj
-* #1608 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1608 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1608 ^property[+].code = #status
 * #1608 ^property[=].valueCode = #active
-* #1609 "Prise en charge spécialisée et continue en urologie"
+* #1609 "Prise en charge spécialisée et permanente (dont PDSES) en urologie"
+* #1609 ^designation[0].language = #fr-FR
+* #1609 ^designation[=].use.system = "http://snomed.info/sct"
+* #1609 ^designation[=].use = $sct#900000000000013009
+* #1609 ^designation[=].value = "PEC spécialisée et permanente en urologie"
 * #1609 ^property[0].code = #dateValid
 * #1609 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1609 ^property[+].code = #dateMaj
-* #1609 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1609 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1609 ^property[+].code = #status
 * #1609 ^property[=].valueCode = #active
-* #1610 "Prise en charge spécialisée et continue en caisson oxygène hyperbare"
+* #1610 "Prise en charge spécialisée et permanente (dont PDSES) en caisson oxygène hyperbare"
+* #1610 ^designation[0].language = #fr-FR
+* #1610 ^designation[=].use.system = "http://snomed.info/sct"
+* #1610 ^designation[=].use = $sct#900000000000013009
+* #1610 ^designation[=].value = "PEC spécialisée et permanente en caisson oxygène hyperbare"
 * #1610 ^property[0].code = #dateValid
 * #1610 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1610 ^property[+].code = #dateMaj
-* #1610 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1610 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1610 ^property[+].code = #status
 * #1610 ^property[=].valueCode = #active
-* #1611 "Prise en charge spécialisée et continue en chirurgie de la main SOS main"
+* #1611 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie de la main"
 * #1611 ^designation[0].language = #fr-FR
 * #1611 ^designation[=].use.system = "http://snomed.info/sct"
 * #1611 ^designation[=].use = $sct#900000000000013009
-* #1611 ^designation[=].value = "PEC spécialisée et continue en chirurgie de la main"
+* #1611 ^designation[=].value = "PEC spécialisée et permanente en chirurgie de la main"
 * #1611 ^property[0].code = #dateValid
 * #1611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1611 ^property[+].code = #dateMaj
-* #1611 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1611 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1611 ^property[+].code = #status
 * #1611 ^property[=].valueCode = #active
-* #1612 "Prise en charge spécialisée et continue en odontologie"
+* #1612 "Prise en charge spécialisée et permanente (dont PDSES) en odontologie"
 * #1612 ^designation[0].language = #fr-FR
 * #1612 ^designation[=].use.system = "http://snomed.info/sct"
 * #1612 ^designation[=].use = $sct#900000000000013009
-* #1612 ^designation[=].value = "PEC spécialisée et continue en odontologie"
+* #1612 ^designation[=].value = "PEC spécialisée et permanente en odontologie"
 * #1612 ^property[0].code = #dateValid
 * #1612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1612 ^property[+].code = #dateMaj
-* #1612 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1612 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1612 ^property[+].code = #status
 * #1612 ^property[=].valueCode = #active
-* #1613 "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
+* #1613 "Prise en charge spécialisée et permanente en psychiatrie (dont équipe de liaison)"
 * #1613 ^designation[0].language = #fr-FR
 * #1613 ^designation[=].use.system = "http://snomed.info/sct"
 * #1613 ^designation[=].use = $sct#900000000000013009
-* #1613 ^designation[=].value = "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
+* #1613 ^designation[=].value = "PEC spécialisée et permanente en psychiatrie (dont équipe de liaison)"
 * #1613 ^property[0].code = #dateValid
 * #1613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1613 ^property[+].code = #dateMaj
-* #1613 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1613 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1613 ^property[+].code = #status
 * #1613 ^property[=].valueCode = #active
-* #1614 "Prise en charge spécialisée et continue en radiologie interventionnelle"
+* #1614 "Prise en charge spécialisée et permanente (dont PDSES) en radiologie interventionnelle"
 * #1614 ^designation[0].language = #fr-FR
 * #1614 ^designation[=].use.system = "http://snomed.info/sct"
 * #1614 ^designation[=].use = $sct#900000000000013009
-* #1614 ^designation[=].value = "PEC spécialisée et continue en radiologie interventionnelle"
+* #1614 ^designation[=].value = "PEC spécialisée et permanente en radiologie interventionnelle"
 * #1614 ^property[0].code = #dateValid
 * #1614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1614 ^property[+].code = #dateMaj
-* #1614 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1614 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1614 ^property[+].code = #status
 * #1614 ^property[=].valueCode = #active
-* #1615 "Prise en charge spécialisée et continue rachis"
+* #1615 "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie du rachis"
 * #1615 ^designation[0].language = #fr-FR
 * #1615 ^designation[=].use.system = "http://snomed.info/sct"
 * #1615 ^designation[=].use = $sct#900000000000013009
-* #1615 ^designation[=].value = "PEC spécialisée et continue en chirurgie du rachis"
+* #1615 ^designation[=].value = "PEC spécialisée et permanente en chirurgie du rachis"
 * #1615 ^property[0].code = #dateValid
 * #1615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1615 ^property[+].code = #dateMaj
-* #1615 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1615 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1615 ^property[+].code = #status
 * #1615 ^property[=].valueCode = #active
 * #1616 "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
@@ -13402,26 +13509,26 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1629 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1629 ^property[+].code = #status
 * #1629 ^property[=].valueCode = #active
-* #1630 "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+* #1630 "Prise en charge spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)"
 * #1630 ^designation[0].language = #fr-FR
 * #1630 ^designation[=].use.system = "http://snomed.info/sct"
 * #1630 ^designation[=].use = $sct#900000000000013009
-* #1630 ^designation[=].value = "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+* #1630 ^designation[=].value = "PEC spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)"
 * #1630 ^property[0].code = #dateValid
 * #1630 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1630 ^property[+].code = #dateMaj
-* #1630 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1630 ^property[+].code = #status
 * #1630 ^property[=].valueCode = #active
-* #1631 "Prise en charge spécialisée et continue SOS main"
+* #1631 "Prise en charge spécialisée et permanente (dont PDSES) SOS main (agrément FESUM)"
 * #1631 ^designation[0].language = #fr-FR
 * #1631 ^designation[=].use.system = "http://snomed.info/sct"
 * #1631 ^designation[=].use = $sct#900000000000013009
-* #1631 ^designation[=].value = "PEC spécialisée et continue SOS main"
+* #1631 ^designation[=].value = "PEC spécialisée et permanente SOS main (agrément FESUM)"
 * #1631 ^property[0].code = #dateValid
 * #1631 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1631 ^property[+].code = #dateMaj
-* #1631 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1631 ^property[+].code = #status
 * #1631 ^property[=].valueCode = #active 
 * #1632 "Programme d’ETP labellisée - Accident Vasculaire Cérébral (AVC)"
@@ -13893,3 +14000,111 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1688 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1688 ^property[+].code = #status
 * #1688 ^property[=].valueCode = #active
+* #1689 "Test de Maintien de l'Eveil (TME)"
+* #1689 ^designation[0].language = #fr-FR
+* #1689 ^property[0].code = #dateValid
+* #1689 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1689 ^property[+].code = #dateMaj
+* #1689 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1689 ^property[+].code = #status
+* #1689 ^property[=].valueCode = #active
+* #1690 "Test Itératif de Latence d'Endormissement (TILE)"
+* #1690 ^designation[0].language = #fr-FR
+* #1690 ^property[0].code = #dateValid
+* #1690 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1690 ^property[+].code = #dateMaj
+* #1690 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1690 ^property[+].code = #status
+* #1690 ^property[=].valueCode = #active
+* #1691 "Prise en charge de l’insomnie"
+* #1691 ^designation[0].language = #fr-FR
+* #1691 ^property[0].code = #dateValid
+* #1691 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1691 ^property[+].code = #dateMaj
+* #1691 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1691 ^property[+].code = #status
+* #1691 ^property[=].valueCode = #active
+* #1692 "Prise en charge des troubles moteurs (syndrome des jambes sans repos)"
+* #1692 ^designation[0].language = #fr-FR
+* #1692 ^property[0].code = #dateValid
+* #1692 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1692 ^property[+].code = #dateMaj
+* #1692 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1692 ^property[+].code = #status
+* #1692 ^property[=].valueCode = #active
+* #1693 "Prise en charge de parasomnie (somnambulisme)"
+* #1693 ^designation[0].language = #fr-FR
+* #1693 ^property[0].code = #dateValid
+* #1693 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1693 ^property[+].code = #dateMaj
+* #1693 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1693 ^property[+].code = #status
+* #1693 ^property[=].valueCode = #active
+* #1694 "Prise en charge des hypersomnies"
+* #1694 ^designation[0].language = #fr-FR
+* #1694 ^property[0].code = #dateValid
+* #1694 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1694 ^property[+].code = #dateMaj
+* #1694 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1694 ^property[+].code = #status
+* #1694 ^property[=].valueCode = #active
+* #1695 "Prise en charge des troubles circadiens"
+* #1695 ^designation[0].language = #fr-FR
+* #1695 ^property[0].code = #dateValid
+* #1695 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1695 ^property[+].code = #dateMaj
+* #1695 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1695 ^property[+].code = #status
+* #1695 ^property[=].valueCode = #active
+* #1696 "Prise en charge des troubles du sommeil avec trouble neurologique complexe"
+* #1696 ^designation[0].language = #fr-FR
+* #1696 ^property[0].code = #dateValid
+* #1696 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1696 ^property[+].code = #dateMaj
+* #1696 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1696 ^property[+].code = #status
+* #1696 ^property[=].valueCode = #active
+* #1697 "Prise en charge des troubles du sommeil avec trouble respiratoire complexe"
+* #1697 ^designation[0].language = #fr-FR
+* #1697 ^property[0].code = #dateValid
+* #1697 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1697 ^property[+].code = #dateMaj
+* #1697 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1697 ^property[+].code = #status
+* #1697 ^property[=].valueCode = #active
+* #1698 "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 1 \"coordonnateur\""
+* #1698 ^designation[0].language = #fr-FR
+* #1698 ^designation[=].use.system = "http://snomed.info/sct"
+* #1698 ^designation[=].use = $sct#900000000000013009
+* #1698 ^designation[=].value = "CRIOA/ C - Niv 1 coordonnateur"
+* #1698 ^designation[0].language = #fr-FR
+* #1698 ^property[0].code = #dateValid
+* #1698 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1698 ^property[+].code = #dateMaj
+* #1698 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1698 ^property[+].code = #status
+* #1698 ^property[=].valueCode = #active
+* #1699 "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 2 \"correspondant\""
+* #1699 ^designation[0].language = #fr-FR
+* #1699 ^designation[=].use.system = "http://snomed.info/sct"
+* #1699 ^designation[=].use = $sct#900000000000013009
+* #1699 ^designation[=].value = "CRIOA/ C – Niv 2 correspondant"
+* #1699 ^designation[0].language = #fr-FR
+* #1699 ^property[0].code = #dateValid
+* #1699 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1699 ^property[+].code = #dateMaj
+* #1699 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1699 ^property[+].code = #status
+* #1699 ^property[=].valueCode = #active
+* #1700 "Accréditation par la Société Française de Recherche en Médecine du Sommeil (SFRMS)"
+* #1700 ^designation[0].language = #fr-FR
+* #1700 ^designation[=].use.system = "http://snomed.info/sct"
+* #1700 ^designation[=].use = $sct#900000000000013009
+* #1700 ^designation[=].value = "Accréditation par la SFRMS"
+* #1700 ^designation[0].language = #fr-FR
+* #1700 ^property[0].code = #dateValid
+* #1700 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1700 ^property[+].code = #dateMaj
+* #1700 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1700 ^property[+].code = #status
+* #1700 ^property[=].valueCode = #active
