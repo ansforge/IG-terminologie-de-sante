@@ -1,8 +1,8 @@
 CodeSystem: TRE_R239_PublicPrisEnCharge
 Id: TRE-R239-PublicPrisEnCharge
 Description: "Public pris en charge"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T20:11:57.717+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:13:01.923+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Public pris en charge"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.29"
-* ^version = "20260330120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -129,7 +129,6 @@ Description: "Public pris en charge"
 * #08 ^property[=].valueCode = #active
 * #09 "Personnes atteintes de pathologies chroniques ou présentant une ALD"
 * #09 ^designation[0].language = #fr-FR
-* #09 ^designation[=].use.system = "http://snomed.info/sct"
 * #09 ^designation[=].use = $sct#900000000000013009
 * #09 ^designation[=].value = "Pathologies chroniques ou ALD"
 * #09 ^designation[+].language = #fr-FR
@@ -141,13 +140,10 @@ Description: "Public pris en charge"
 * #09 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
-* #10 "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
-* #10 ^designation[0].language = #fr-FR
-* #10 ^designation[=].use = $sct#900000000000013009
-* #10 ^designation[=].value = "Victime de violence"
+* #10 "Victime de violence"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
-* #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #10 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active

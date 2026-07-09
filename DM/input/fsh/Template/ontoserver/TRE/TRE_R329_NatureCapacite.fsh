@@ -1,8 +1,8 @@
 CodeSystem: TRE_R329_NatureCapacite
 Id: TRE-R329-NatureCapacite
 Description: "Permet d'indiquer si la capacité est exprimée en lits ou en places"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T20:12:04.748+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:13:38.702+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

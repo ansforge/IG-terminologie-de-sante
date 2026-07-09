@@ -1,8 +1,8 @@
 ValueSet: JDV_J42_TypeMaternite_ROR
 Id: JDV-J42-TypeMaternite-ROR
 Description: "Type Maternité - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:32.143+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:36.303+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type Maternité - ROR"
 * ^experimental = false
 * ^date = "2023-02-17T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R253-TypeMaternite#01 "Maternité de type 1"
 * $TRE-R253-TypeMaternite#02 "Maternité de type 2A"
 * $TRE-R253-TypeMaternite#03 "Maternité de type 2B"

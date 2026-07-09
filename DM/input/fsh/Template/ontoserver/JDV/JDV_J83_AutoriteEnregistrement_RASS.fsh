@@ -1,8 +1,8 @@
 ValueSet: JDV_J83_AutoriteEnregistrement_RASS
 Id: JDV-J83-AutoriteEnregistrement-RASS
 Description: "Autorités d'enregistrement des acteurs de santé du RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:06:52.028+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:06:59.873+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Autorités d'enregistrement des acteurs de santé du RASS"
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R60-AutoriteEnregistrement#ARS-01 "ARS-01 : Guadeloupe"
 * $TRE-R60-AutoriteEnregistrement#ARS-02 "ARS-02 : Martinique"
 * $TRE-R60-AutoriteEnregistrement#ARS-03 "ARS-03 : Guyane"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2026-05-05T20:12:30.743+02:00"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-07-06T20:14:52.956+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

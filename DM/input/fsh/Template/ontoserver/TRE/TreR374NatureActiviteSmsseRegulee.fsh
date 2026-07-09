@@ -2,8 +2,8 @@ CodeSystem: TreR374NatureActiviteSmsseRegulee
 Id: tre-r374-nature-activite-smsse-regulee
 Title: "Tre R374 Nature Activite Smsse Regulee"
 Description: "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:12+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:58+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

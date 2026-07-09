@@ -1,23 +1,23 @@
 CodeSystem: TRE_R344_NiveauExpertise
 Id: TRE-R344-NiveauExpertise
 Description: "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel."
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2025-12-22T10:46:45.059+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "18"
+* ^meta.lastUpdated = "2026-07-06T20:13:45.395+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.228"
-* ^version = "20251222120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 39
+* ^count = 43
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -452,15 +452,16 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #46 ^property[=].valueDateTime = "2025-12-31T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
-* #47 "Centre expert Parkinson"
+* #47 "Centre expert maladie de Parkinson"
 * #47 ^property[0].code = #dateValid
 * #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
-* #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #47 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #47 ^property[+].code = #status
 * #47 ^property[=].valueCode = #active
 * #48 "Centre de ressources et de compétences sclérose en plaques (SEP)"
 * #48 ^designation[0].language = #fr-FR
+* #48 ^designation[=].use.system = "http://snomed.info/sct"
 * #48 ^designation[=].use = $sct#900000000000013009
 * #48 ^designation[=].value = "Centre de ressources SEP"
 * #48 ^property[0].code = #dateValid
@@ -469,3 +470,34 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
+* #49 "Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+* #49 ^designation[0].language = #fr-FR
+* #49 ^designation[=].use = $sct#900000000000013009
+* #49 ^designation[=].value = "Agrément Fédération Européenne des Services d'Urgence de la Main - SOS mains"
+* #49 ^property[0].code = #dateValid
+* #49 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #49 ^property[+].code = #dateMaj
+* #49 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #49 ^property[+].code = #status
+* #49 ^property[=].valueCode = #active
+* #50 "Centre de Traitement des Brûlés (CTB)"
+* #50 ^property[0].code = #dateValid
+* #50 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #50 ^property[+].code = #dateMaj
+* #50 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #50 ^property[+].code = #status
+* #50 ^property[=].valueCode = #active
+* #51 "Réseau France Santé"
+* #51 ^property[0].code = #dateValid
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #dateMaj
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #status
+* #51 ^property[=].valueCode = #active
+* #52 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #52 ^property[0].code = #dateValid
+* #52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #52 ^property[+].code = #dateMaj
+* #52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #52 ^property[+].code = #status
+* #52 ^property[=].valueCode = #active

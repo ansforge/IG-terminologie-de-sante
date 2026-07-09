@@ -1,8 +1,8 @@
 CodeSystem: TRE_R259_HL7ParticipationFunction
 Id: TRE-R259-HL7ParticipationFunction
 Description: "Rôles fonctionnels HL7"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:43.266+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T20:13:11.475+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Rôles fonctionnels HL7"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

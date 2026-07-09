@@ -1,8 +1,8 @@
 ValueSet: JDV_J114_Pays_ENREG
 Id: JDV-J114-Pays-ENREG
 Description: "Référentiel dérivé des pays provenant de la norme INSEE pour ENREG"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:04:49.110+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:04:52.955+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "Référentiel dérivé des pays provenant de la norme INSEE pour E
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R20-Pays#99100 "France"
 * $TRE-R20-Pays#99101 "Danemark"
 * $TRE-R20-Pays#99102 "Islande"

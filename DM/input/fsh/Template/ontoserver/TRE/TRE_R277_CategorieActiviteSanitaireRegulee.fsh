@@ -1,8 +1,8 @@
 CodeSystem: TRE_R277_CategorieActiviteSanitaireRegulee
 Id: TRE-R277-CategorieActiviteSanitaireRegulee
 Description: "Types d'activités autorisées"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:01.432+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:18.812+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"

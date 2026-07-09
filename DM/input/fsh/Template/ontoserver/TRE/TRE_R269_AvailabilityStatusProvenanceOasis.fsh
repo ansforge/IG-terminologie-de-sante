@@ -1,8 +1,8 @@
 CodeSystem: TRE_R269_AvailabilityStatusProvenanceOasis
 Id: TRE-R269-AvailabilityStatusProvenanceOasis
 Description: "Statut de l'objet provenant de la norme Oasis"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:54.822+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T20:13:15.663+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-06-29T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Statut de l'objet provenant de la norme Oasis"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

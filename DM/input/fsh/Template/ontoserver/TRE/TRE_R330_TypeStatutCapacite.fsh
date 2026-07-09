@@ -1,8 +1,8 @@
 CodeSystem: TRE_R330_TypeStatutCapacite
 Id: TRE-R330-TypeStatutCapacite
 Description: "Permet de préciser le statut des capacités concernées"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2026-05-05T20:12:05.141+02:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-07-06T20:13:39.513+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

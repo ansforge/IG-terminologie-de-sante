@@ -1,8 +1,8 @@
 ValueSet: JDV_J186_ProfessionRessource_ROR
 Id: JDV-J186-ProfessionRessource-ROR
 Description: "Profession Ressource des offres dans le ROR"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-07-25T09:32:12.221+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T19:05:43.006+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Profession Ressource des offres dans le ROR"
 * ^experimental = false
 * ^date = "2025-07-10T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R243_CompetenceSpecifique
 Id: TRE-R243-CompetenceSpecifique
 Description: "Compétence spécifique"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:11:58.790+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:13:04.175+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Compétence spécifique"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.37"
-* ^version = "20260330120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 62
+* ^count = 63
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -627,3 +627,10 @@ Description: "Compétence spécifique"
 * #62 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #62 ^property[+].code = #status
 * #62 ^property[=].valueCode = #active
+* #63 "Maitrise des outils informatisés à commande oculaire"
+* #63 ^property[0].code = #dateValid
+* #63 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #63 ^property[+].code = #dateMaj
+* #63 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #63 ^property[+].code = #status
+* #63 ^property[=].valueCode = #active

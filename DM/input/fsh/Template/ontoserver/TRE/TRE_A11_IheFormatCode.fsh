@@ -1,8 +1,8 @@
 CodeSystem: TRE_A11_IheFormatCode
 Id: TRE-A11-IheFormatCode
 Description: "IHE formatCode"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T18:11:29.813+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T20:12:23.696+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "IHE formatCode"
 * ^experimental = false
 * ^date = "2024-04-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

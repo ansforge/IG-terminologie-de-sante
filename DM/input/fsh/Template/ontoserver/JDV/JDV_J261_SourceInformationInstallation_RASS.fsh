@@ -1,8 +1,8 @@
 ValueSet: JDV_J261_SourceInformationInstallation_RASS
 Id: JDV-J261-SourceInformationInstallation-RASS
 Description: "Sources d'information possible concernant l'installation de l'activité sociale du RASS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-05-05T19:02:48.942+02:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:24.675+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

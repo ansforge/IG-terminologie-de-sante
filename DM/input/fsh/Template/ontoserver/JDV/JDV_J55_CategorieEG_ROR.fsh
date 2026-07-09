@@ -1,8 +1,8 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "21"
-* ^meta.lastUpdated = "2026-05-05T19:02:53.231+02:00"
+* ^meta.versionId = "22"
+* ^meta.lastUpdated = "2026-07-06T19:06:41.659+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

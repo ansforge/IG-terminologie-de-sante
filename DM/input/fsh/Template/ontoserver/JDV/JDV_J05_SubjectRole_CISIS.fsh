@@ -1,8 +1,8 @@
 ValueSet: JDV_J05_SubjectRole_CISIS
 Id: JDV-J05-SubjectRole-CISIS
 Description: "subjectRole CI-SIS"
-* ^meta.versionId = "29"
-* ^meta.lastUpdated = "2026-05-05T19:02:29.620+02:00"
+* ^meta.versionId = "30"
+* ^meta.lastUpdated = "2026-07-06T19:04:36.233+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

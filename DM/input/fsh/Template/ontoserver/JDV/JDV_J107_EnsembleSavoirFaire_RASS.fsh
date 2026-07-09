@@ -1,8 +1,8 @@
 ValueSet: JDV_J107_EnsembleSavoirFaire_RASS
 Id: JDV-J107-EnsembleSavoirFaire-RASS
 Description: "Ensemble des savoir-faire et compétences du RASS"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-12-22T10:46:26.045+01:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-07-06T19:04:48.245+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

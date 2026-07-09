@@ -1,8 +1,8 @@
 CodeSystem: TRE_A02_ProfessionSavFaire_CISIS
 Id: TRE-A02-ProfessionSavFaire-CISIS
 Description: "Profession et savoir-faire CI-SIS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2026-02-03T15:41:52.194+01:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:12:20.182+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

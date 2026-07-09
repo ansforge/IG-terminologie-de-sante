@@ -2,8 +2,8 @@ CodeSystem: TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm
 Id: tre-r384-pratique-therapeutique-specifique-act-de-soin-amm
 Title: "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm"
 Description: "Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:15+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:14:03+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R348_FormationSpecialiseeTransversale
 Id: TRE-R348-FormationSpecialiseeTransversale
 Description: "Formation Spécialisée Transversale (FST)"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-12-22T10:46:45.488+01:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:48.298+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J210_SpecialiteOrdinale_ROR
 Id: JDV-J210-SpecialiteOrdinale-ROR
 Description: "Spécialité ordinale"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-05-05T19:02:45.540+02:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:05:55.314+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

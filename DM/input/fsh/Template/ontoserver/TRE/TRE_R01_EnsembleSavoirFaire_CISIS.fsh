@@ -1,8 +1,8 @@
 CodeSystem: TRE_R01_EnsembleSavoirFaire_CISIS
 Id: TRE-R01-EnsembleSavoirFaire-CISIS
 Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-02-03T15:41:54.070+01:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T20:12:34.644+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

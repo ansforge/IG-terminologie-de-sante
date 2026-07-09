@@ -1,8 +1,8 @@
 ValueSet: JDV_J90_AttributionParticuliere_RASS
 Id: JDV-J90-AttributionParticuliere-RASS
 Description: "Attributions particulières obtenues par certains professionnels du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:55.531+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:07:03.044+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Attributions particulières obtenues par certains professionnels d
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R03-AttributionParticuliere#ATTR-01 "Expert auprès des tribunaux (expertise judiciaire)"
 * $TRE-R03-AttributionParticuliere#ATTR-02 "Médecine légale"
 * $TRE-R03-AttributionParticuliere#ATTR-03 "Médecin agréé"

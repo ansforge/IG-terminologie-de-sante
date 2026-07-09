@@ -2,8 +2,8 @@ CodeSystem: TreR362TypeBudget
 Id: tre-r362-type-budget
 Title: "Tre R362 Type Budget"
 Description: "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:10+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:54+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

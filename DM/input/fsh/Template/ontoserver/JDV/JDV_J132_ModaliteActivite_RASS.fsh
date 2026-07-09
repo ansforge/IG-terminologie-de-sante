@@ -1,8 +1,8 @@
 ValueSet: JDV_J132_ModaliteActivite_RASS
 Id: JDV-J132-ModaliteActivite-RASS
 Description: "Mode d'application ou type de soins encadrant une activité dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:59.909+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:05.001+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Mode d'application ou type de soins encadrant une activité dans l
 * ^experimental = false
 * ^date = "2022-03-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R275-ModaliteActivite#00 "Pas de modalité"
 * $TRE-R275-ModaliteActivite#01 "Gynécologie obstétrique"
 * $TRE-R275-ModaliteActivite#02 "Néonatologie sans soins intensifs"

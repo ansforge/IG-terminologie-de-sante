@@ -1,8 +1,8 @@
 ValueSet: JDV_J65_SubjectRole_DMP
 Id: JDV-J65-SubjectRole-DMP
 Description: "Jeu de valeurs pour subjectRole"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-11-04T19:02:07.998+01:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:06:50.790+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

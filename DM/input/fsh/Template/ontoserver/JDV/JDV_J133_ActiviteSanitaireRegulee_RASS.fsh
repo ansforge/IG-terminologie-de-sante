@@ -1,8 +1,8 @@
 ValueSet: JDV_J133_ActiviteSanitaireRegulee_RASS
 Id: JDV-J133-ActiviteSanitaireRegulee-RASS
 Description: "Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:00.537+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:05.727+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * ^experimental = false
 * ^date = "2020-11-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R274-ActiviteSanitaireRegulee#01 "Médecine"
 * $TRE-R274-ActiviteSanitaireRegulee#02 "Chirurgie"
 * $TRE-R274-ActiviteSanitaireRegulee#03 "Gynécologie, obstétrique, néonatologie, réanimation néonatale"

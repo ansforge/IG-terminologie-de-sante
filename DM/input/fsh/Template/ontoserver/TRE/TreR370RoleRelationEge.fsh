@@ -2,8 +2,8 @@ CodeSystem: TreR370RoleRelationEge
 Id: tre-r370-role-relation-ege
 Title: "Tre R370 Role Relation Ege"
 Description: "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:11+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:57+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

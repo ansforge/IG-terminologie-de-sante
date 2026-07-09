@@ -1,7 +1,7 @@
 CodeSystem: TRE_R16_LieuFormation
 Id: TRE-R16-LieuFormation
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-12-22T10:46:33.897+01:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-07-06T20:12:40.253+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^meta.tag = $v3-ObservationValue#SUBSETTED "Resource encoded in summary mode"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation"

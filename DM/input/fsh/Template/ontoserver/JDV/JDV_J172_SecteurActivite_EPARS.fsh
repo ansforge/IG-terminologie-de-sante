@@ -1,8 +1,8 @@
 ValueSet: JDV_J172_SecteurActivite_EPARS
 Id: JDV-J172-SecteurActivite-EPARS
 Description: "Secteur d'activité pour EPARS"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2026-05-05T19:02:41.012+02:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-07-06T19:05:34.042+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

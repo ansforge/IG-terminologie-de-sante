@@ -1,8 +1,8 @@
 ValueSet: JDV_J01_XdsAuthorSpecialty_CISIS
 Id: JDV-J01-XdsAuthorSpecialty-CISIS
 Description: "XDS authorSpecialty CI-SIS"
-* ^meta.versionId = "19"
-* ^meta.lastUpdated = "2026-05-05T19:02:26.129+02:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2026-07-06T19:04:31.041+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

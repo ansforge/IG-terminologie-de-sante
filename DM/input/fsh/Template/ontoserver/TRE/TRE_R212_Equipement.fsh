@@ -1,23 +1,24 @@
 CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
-* ^meta.versionId = "23"
-* ^meta.lastUpdated = "2025-12-22T10:46:41.590+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "26"
+* ^meta.lastUpdated = "2026-07-06T20:12:51.080+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20251222120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 235
+* ^count = 256
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -45,6 +46,10 @@ Description: "Equipement"
 * ^property[+].code = #finess
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
+* ^property[+].code = #specialisationFiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness"
+* ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
 * ^property[=].type = #boolean
 * #001 "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
 * #001 ^property[0].code = #dateValid
@@ -605,11 +610,11 @@ Description: "Equipement"
 * #053 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #053 ^property[+].code = #status
 * #053 ^property[=].valueCode = #deprecated
-* #054 "IRM corps entier"
+* #054 "Imagerie par Résonance Magnétique (IRM) corps entier"
 * #054 ^property[0].code = #dateValid
 * #054 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #054 ^property[+].code = #dateMaj
-* #054 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #054 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #054 ^property[+].code = #status
 * #054 ^property[=].valueCode = #active
 * #055 "IRM foetale"
@@ -944,11 +949,11 @@ Description: "Equipement"
 * #086 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #086 ^property[+].code = #status
 * #086 ^property[=].valueCode = #active
-* #087 "IRM à champ ouvert"
+* #087 "Imagerie par Résonance Magnétique (IRM) à champ ouvert"
 * #087 ^property[0].code = #dateValid
 * #087 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #087 ^property[+].code = #dateMaj
-* #087 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #087 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #087 ^property[+].code = #status
 * #087 ^property[=].valueCode = #active
 * #088 "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique"
@@ -1942,11 +1947,11 @@ Description: "Equipement"
 * #220 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #active
-* #221 "IRM obésité – bariatrique"
+* #221 "Imagerie par Résonance Magnétique (IRM) obésité – bariatrique"
 * #221 ^property[0].code = #dateValid
 * #221 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #221 ^property[+].code = #dateMaj
-* #221 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #221 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #221 ^property[+].code = #status
 * #221 ^property[=].valueCode = #active
 * #222 "Scanner (TDM) obésité – bariatrique"
@@ -2042,6 +2047,7 @@ Description: "Equipement"
 * #232 ^property[=].valueBoolean = true
 * #233 "Tomographie par Émission de Positons"
 * #233 ^designation.language = #fr-FR
+* #233 ^designation.use.system = "http://snomed.info/sct"
 * #233 ^designation.use = $sct#900000000000013009
 * #233 ^designation.value = "TEP"
 * #233 ^property[0].code = #dateValid
@@ -2066,3 +2072,161 @@ Description: "Equipement"
 * #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #235 ^property[+].code = #status
 * #235 ^property[=].valueCode = #active
+* #236 "Appareil de thermoformage"
+* #236 ^property[0].code = #dateValid
+* #236 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #236 ^property[+].code = #dateMaj
+* #236 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #236 ^property[+].code = #status
+* #236 ^property[=].valueCode = #active
+* #237 "Appareil de thermosoudage"
+* #237 ^property[0].code = #dateValid
+* #237 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #237 ^property[+].code = #dateMaj
+* #237 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #237 ^property[+].code = #status
+* #237 ^property[=].valueCode = #active
+* #238 "Plateforme de force (étude de la posture)"
+* #238 ^property[0].code = #dateValid
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #dateMaj
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #status
+* #238 ^property[=].valueCode = #active
+* #239 "Plateforme de pression (étude de la marche)"
+* #239 ^property[0].code = #dateValid
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #dateMaj
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #status
+* #239 ^property[=].valueCode = #active
+* #240 "Piste de marche"
+* #240 ^property[0].code = #dateValid
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #dateMaj
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #status
+* #240 ^property[=].valueCode = #active
+* #241 "Tapis de course"
+* #241 ^property[0].code = #dateValid
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #dateMaj
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #status
+* #241 ^property[=].valueCode = #active
+* #242 "Système vidéo d'analyse de la marche et de la course"
+* #242 ^property[0].code = #dateValid
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #dateMaj
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #status
+* #242 ^property[=].valueCode = #active
+* #243 "Semelles avec capteurs embarqués"
+* #243 ^property[0].code = #dateValid
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #dateMaj
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #status
+* #243 ^property[=].valueCode = #active
+* #244 "Caisson hyperbare" "Code créé spécifiquement pour les besoins de FINESS.\n\nCaisson hyperbare soumis à autorisation\""
+* #244 ^property[0].code = #dateValid
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #dateMaj
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #status
+* #244 ^property[=].valueCode = #active
+* #244 ^property[+].code = #finess
+* #244 ^property[=].valueBoolean = true
+* #244 ^property[+].code = #specialisationFiness
+* #244 ^property[=].valueBoolean = true
+* #245 "Cyclotron à usage médical" "Code créé spécifiquement pour les besoins de FINESS.\n\nCyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire."
+* #245 ^designation.language = #fr-FR
+* #245 ^designation.use = $sct#900000000000013009
+* #245 ^designation.value = "Cyclotron"
+* #245 ^property[0].code = #dateValid
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #dateMaj
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #status
+* #245 ^property[=].valueCode = #active
+* #245 ^property[+].code = #finess
+* #245 ^property[=].valueBoolean = true
+* #245 ^property[+].code = #specialisationFiness
+* #245 ^property[=].valueBoolean = true
+* #246 "Échographe polyvalent"
+* #246 ^property[0].code = #dateValid
+* #246 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #246 ^property[+].code = #dateMaj
+* #246 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #246 ^property[+].code = #status
+* #246 ^property[=].valueCode = #active
+* #247 "Imagerie par Résonance Magnétique (IRM) à champ fermé (ou tunnel)"
+* #247 ^property[0].code = #dateValid
+* #247 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #247 ^property[+].code = #dateMaj
+* #247 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #247 ^property[+].code = #status
+* #247 ^property[=].valueCode = #active
+* #248 "Imagerie par Résonance Magnétique (IRM) pédiatrique (compatible anesthésie)"
+* #248 ^property[0].code = #dateValid
+* #248 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #248 ^property[+].code = #dateMaj
+* #248 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #248 ^property[+].code = #status
+* #248 ^property[=].valueCode = #active
+* #249 "Radiologie numérique standard"
+* #249 ^property[0].code = #dateValid
+* #249 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #249 ^property[+].code = #dateMaj
+* #249 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #249 ^property[+].code = #status
+* #249 ^property[=].valueCode = #active
+* #250 "Scanner base dose (LDCT)"
+* #250 ^property[0].code = #dateValid
+* #250 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #250 ^property[+].code = #dateMaj
+* #250 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #250 ^property[+].code = #status
+* #250 ^property[=].valueCode = #active
+* #251 "Plateau réfraction - Pachymétrie"
+* #251 ^property[0].code = #dateValid
+* #251 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #251 ^property[+].code = #dateMaj
+* #251 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #251 ^property[+].code = #status
+* #251 ^property[=].valueCode = #active
+* #252 "Rétinographe"
+* #252 ^property[0].code = #dateValid
+* #252 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #252 ^property[+].code = #dateMaj
+* #252 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #252 ^property[+].code = #status
+* #252 ^property[=].valueCode = #active
+* #253 "Oculomètre certifié (C2)"
+* #253 ^property[0].code = #dateValid
+* #253 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #253 ^property[+].code = #dateMaj
+* #253 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #253 ^property[+].code = #status
+* #253 ^property[=].valueCode = #active
+* #254 "Coordimètre"
+* #254 ^property[0].code = #dateValid
+* #254 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #254 ^property[+].code = #dateMaj
+* #254 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #254 ^property[+].code = #status
+* #254 ^property[=].valueCode = #active
+* #255 "Tests scorés et/ou normés en neurovision"
+* #255 ^property[0].code = #dateValid
+* #255 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #255 ^property[+].code = #dateMaj
+* #255 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #255 ^property[+].code = #status
+* #255 ^property[=].valueCode = #active
+* #256 "Accompagnement à l’essai de fauteuil roulant"
+* #256 ^property[0].code = #dateValid
+* #256 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #256 ^property[+].code = #dateMaj
+* #256 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #256 ^property[+].code = #status
+* #256 ^property[=].valueCode = #active

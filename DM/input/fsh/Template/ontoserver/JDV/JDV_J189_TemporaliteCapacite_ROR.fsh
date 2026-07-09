@@ -1,8 +1,8 @@
 ValueSet: JDV_J189_TemporaliteCapacite_ROR
 Id: JDV-J189-TemporaliteCapacite-ROR
 Description: "Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:37.679+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:44.003+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Sert à indiquer le moment où une capacité sera effective. Il es
 * ^experimental = false
 * ^date = "2023-09-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R331-TemporaliteCapacite#01 "Courant"
 * $TRE-R331-TemporaliteCapacite#02 "Prévisionnel 1 heure"
 * $TRE-R331-TemporaliteCapacite#03 "Prévisionnel 24 heures"
