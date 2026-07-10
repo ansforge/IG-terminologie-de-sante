@@ -10,10 +10,10 @@ Description: "Modalités d'accueil"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.221"
-* ^version = "20260629120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-06-29T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -144,9 +144,11 @@ Description: "Modalités d'accueil"
 * #12 ^property[0].code = #dateValid
 * #12 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
 * #12 ^property[+].code = #dateMaj
-* #12 ^property[=].valueDateTime = "2023-02-17T12:00:00+01:00"
+* #12 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #12 ^property[+].code = #deprecationDate
+* #12 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #12 ^property[+].code = #status
-* #12 ^property[=].valueCode = #active
+* #12 ^property[=].valueCode = #deprecated
 * #13 "Admission directe non programmée - personne âgée (PA)"
 * #13 ^designation[0].language = #fr-FR
 * #13 ^designation[=].use.system = "http://snomed.info/sct"
