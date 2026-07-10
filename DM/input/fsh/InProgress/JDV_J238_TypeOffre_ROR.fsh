@@ -314,7 +314,7 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#310 "Lactarium"
 * $TRE-R244-CategorieOrganisation#311 "Structure des urgences pédiatriques"
 * $TRE-R244-CategorieOrganisation#312 "Pharmacie d'officine (dont mutualiste)"
-* $TRE-R244-CategorieOrganisation#313 "Antennes des urgences"
+* $TRE-R244-CategorieOrganisation#313 "Antenne des urgences"
 * $TRE-R244-CategorieOrganisation#314 "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
 * $TRE-R244-CategorieOrganisation#315 "Equipe de Soins Spécialisés (ESS)"
 * $TRE-R244-CategorieOrganisation#316 "Société de téléconsultation"

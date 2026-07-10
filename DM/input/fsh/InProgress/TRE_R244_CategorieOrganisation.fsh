@@ -3415,10 +3415,7 @@ Description: "Catégorie d'organisation"
 * #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #312 ^property[+].code = #status
 * #312 ^property[=].valueCode = #active
-* #313 "Antennes des urgences"
-* #313 ^designation[0].language = #fr-FR
-* #313 ^designation[=].use = $sct#900000000000013009
-* #313 ^designation[=].value = "Antennes urgences"
+* #313 "Antenne des urgences"
 * #313 ^property[0].code = #dateValid
 * #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #313 ^property[+].code = #dateMaj
