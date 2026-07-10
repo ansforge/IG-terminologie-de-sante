@@ -10,10 +10,10 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.59"
-* ^version = "20260629120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-06-29T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R253-TypeMaternite#01 "Maternité de type 1"
@@ -63,3 +63,6 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * $TRE-R344-NiveauExpertise#50 "Centre de Traitement des Brûlés (CTB)"
 * $TRE-R344-NiveauExpertise#51 "Réseau France Santé"
 * $TRE-R344-NiveauExpertise#52 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* $TRE-R344-NiveauExpertise#53 "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 1 \"coordonnateur\""
+* $TRE-R344-NiveauExpertise#54 "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 2 \"correspondant\""
+* $TRE-R344-NiveauExpertise#55 "Accréditation par la Société Française de Recherche en Médecine du Sommeil (SFRMS)"
