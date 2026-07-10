@@ -1,0 +1,437 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/concept-properties> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "concept-properties"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "2" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-29T11:13:29.833+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem concept-properties</b></p><a name=\"concept-properties\"> </a><a name=\"hcconcept-properties\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-06-29 11:13:29+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/concept-properties</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">dateValid<a name=\"concept-properties-dateValid\"> </a></td><td>Date de Validité</td><td>Date de validité d'un code concept</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">dateMaj<a name=\"concept-properties-dateMaj\"> </a></td><td>Date de mise à jour</td><td>Date de mise à jour d'un code concept</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">dateFin<a name=\"concept-properties-dateFin\"> </a></td><td>Date de fin</td><td>Date de fin d'exploitation d'un code concept</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">niveau<a name=\"concept-properties-niveau\"> </a></td><td>Niveau</td><td>Permet d'indiquer le niveau hiérarchique du code</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">domaine<a name=\"concept-properties-domaine\"> </a></td><td>Domaine</td><td>Domaine de la categorie d etablissement</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">specialisationRor<a name=\"concept-properties-specialisationRor\"> </a></td><td>Specialisation ROR</td><td>Propriété permettant de spécifier les codes exclusifs appartenant au ROR</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">specialisationRpps<a name=\"concept-properties-specialisationRpps\"> </a></td><td>Specialisation RPPS</td><td>Propriété permettant de spécifier les codes exclusifs appartenant au RPPS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">specialisationFiness<a name=\"concept-properties-specialisationFiness\"> </a></td><td>Specialisation FINESS</td><td>Propriété permettant de spécifier les codes exclusifs appartenant à FINESS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ror<a name=\"concept-properties-ror\"> </a></td><td>ROR</td><td>Permet de définir les codes concepts uilisés par le ROR</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">cisis<a name=\"concept-properties-cisis\"> </a></td><td>CISIS</td><td>Permet de définir les codes concepts uilisés par le CISIS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">rass<a name=\"concept-properties-rass\"> </a></td><td>RASS</td><td>Permet de définir les codes concepts uilisés par le RASS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">enreg<a name=\"concept-properties-enreg\"> </a></td><td>ENREG</td><td>Permet de définir les codes concepts utilisés par ENREG</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">epars<a name=\"concept-properties-epars\"> </a></td><td>EPARS</td><td>Permet de définir les codes concepts utilisés par EPARS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">finess<a name=\"concept-properties-finess\"> </a></td><td>FINESS</td><td>Permet de définir les codes concepts utilisés par FINESS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">documentInformatifFiness<a name=\"concept-properties-documentInformatifFiness\"> </a></td><td>Document Informatif Finess</td><td>Permet de définir les codes à inclure dans le JdvJ295DocumentInformatifFiness</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">documentJustificatifFiness<a name=\"concept-properties-documentJustificatifFiness\"> </a></td><td>Document Justificatif Finess</td><td>Permet de définir les codes à inclure dans le JdvJ294DocumentJustificatifFiness</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">macroEtatAdministratif<a name=\"concept-properties-macroEtatAdministratif\"> </a></td><td>Macro-etat administratif</td><td>Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">hasTypeRoleMember<a name=\"concept-properties-hasTypeRoleMember\"> </a></td><td>Has Type Role Member</td><td>Type de rôle des membres des concepts type de groupement</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">natureActivite<a name=\"concept-properties-natureActivite\"> </a></td><td>Nature Activite</td><td>Propriété permettant de renseigner les grandes natures d'activité SMSSE exercées par les entités FINESS+</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">typeEML<a name=\"concept-properties-typeEML\"> </a></td><td>Type EML</td><td>Propriété permettant de renseigner les équipements matériels lourds associés aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">activiteSanitaireRegulee<a name=\"concept-properties-activiteSanitaireRegulee\"> </a></td><td>Activie Sanitaire Regulee</td><td>Propriété permettant de renseigner les activités sanitaires soumises à une régulation de la part de l’ARS associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">modaliteActivite<a name=\"concept-properties-modaliteActivite\"> </a></td><td>Modalite Activite</td><td>Propriété permettant de renseigner les modes d’application ou types de soins encadrant une activité associés aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">formeActivite<a name=\"concept-properties-formeActivite\"> </a></td><td>Forme Activite</td><td>Propriété permettant de renseigner les types d’organisation de prise en charge associés aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">activiteAmm<a name=\"concept-properties-activiteAmm\"> </a></td><td>Activite AMM</td><td>Propriété permettant de renseigner les activités de soin AMM associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">modaliteAmm<a name=\"concept-properties-modaliteAmm\"> </a></td><td>Modalite AMM</td><td>Propriété permettant de renseigner les modalités pour les activités de soin AMM associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">mentionAmm<a name=\"concept-properties-mentionAmm\"> </a></td><td>Mention AMM</td><td>Propriété permettant de renseigner les mentions pour les activités de soin AMM associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">pratiqueTherapeutiqueSpecifiqueAmm<a name=\"concept-properties-pratiqueTherapeutiqueSpecifiqueAmm\"> </a></td><td>Pratique Therapeutique Specifique AMM</td><td>Propriété permettant de renseigner les pratiques thérapeutiques spécifiques pour les activités de soin AMM associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">declarationAmm<a name=\"concept-properties-declarationAmm\"> </a></td><td>Declaration AMM</td><td>Propriété permettant de renseigner les déclarations pour les activités de soin AMM associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">activiteSanitaireDiverseRegulee<a name=\"concept-properties-activiteSanitaireDiverseRegulee\"> </a></td><td>Activite Sanitaire Diverse Regulee</td><td>Propriété permettant de renseigner les activités sanitaires, utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR), associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">modeFonctionnement<a name=\"concept-properties-modeFonctionnement\"> </a></td><td>Mode Fonctionnement</td><td>Propriété permettant de renseigner les modes de fonctionnement associés aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">public<a name=\"concept-properties-public\"> </a></td><td>Public</td><td>Propriété permettant de renseigner les publics des activités régulées associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">activiteSocialeRegulee<a name=\"concept-properties-activiteSocialeRegulee\"> </a></td><td>Activite Sociale Regulee</td><td>Propriété permettant de renseigner les activitées sociales régulées associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">activiteEnseignementRegulee<a name=\"concept-properties-activiteEnseignementRegulee\"> </a></td><td>Activite Enseignement Regulee</td><td>Propriété permettant de renseigner les activitées d'enseignement régulées associées aux types d'activité</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">autoriteRegulationFiness<a name=\"concept-properties-autoriteRegulationFiness\"> </a></td><td>Autorite Regulation Finess</td><td>Permet de définir les codes à inclure dans les Jdv358TypeAutoriteRegulationFiness Jdv359AutoriteRegulationFiness</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">autoriteEnregistrementFiness<a name=\"concept-properties-autoriteEnregistrementFiness\"> </a></td><td>Autorite Enregistrement Finess</td><td>Permet de définir les codes à inclure dans les Jdv287TypeAutoriteEnregistrementFiness Jdv360AutoriteEnregistrementFiness</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">autoriteEnregistrementEpars<a name=\"concept-properties-autoriteEnregistrementEpars\"> </a></td><td>Autorite Enregistrement Epars</td><td>Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">autoriteEnregistrementRass<a name=\"concept-properties-autoriteEnregistrementRass\"> </a></td><td>Autorite Enregistrement Rass</td><td>Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS</td><td>active</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2026-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties"] ;
+  fhir:CodeSystem.version [ fhir:value "20260629120000"] ;
+  fhir:CodeSystem.name [ fhir:value "ConceptProperties"] ;
+  fhir:CodeSystem.title [ fhir:value "Concept Properties"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-29T12:00:00.000+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "37"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Date de Validité" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Date de validité d'un code concept" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Date de mise à jour" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Date de fin" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "niveau" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Niveau" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet d'indiquer le niveau hiérarchique du code" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "domaine" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Domaine" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Domaine de la categorie d etablissement" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "specialisationRor" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Specialisation ROR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de spécifier les codes exclusifs appartenant au ROR" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "specialisationRpps" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Specialisation RPPS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "specialisationFiness" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Specialisation FINESS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ror" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ROR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts uilisés par le ROR" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cisis" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CISIS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts uilisés par le CISIS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rass" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RASS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts uilisés par le RASS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "enreg" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ENREG" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts utilisés par ENREG" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "epars" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EPARS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts utilisés par EPARS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "finess" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FINESS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes concepts utilisés par FINESS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "documentInformatifFiness" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Document Informatif Finess" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans le JdvJ295DocumentInformatifFiness" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "documentJustificatifFiness" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Document Justificatif Finess" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans le JdvJ294DocumentJustificatifFiness" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "macroEtatAdministratif" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Macro-etat administratif" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "hasTypeRoleMember" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Has Type Role Member" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Type de rôle des membres des concepts type de groupement" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "natureActivite" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nature Activite" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les grandes natures d'activité SMSSE exercées par les entités FINESS+" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "typeEML" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Type EML" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les équipements matériels lourds associés aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activiteSanitaireRegulee" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activie Sanitaire Regulee" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les activités sanitaires soumises à une régulation de la part de l’ARS associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "modaliteActivite" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Modalite Activite" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les modes d’application ou types de soins encadrant une activité associés aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "formeActivite" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Forme Activite" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les types d’organisation de prise en charge associés aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activiteAmm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activite AMM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les activités de soin AMM associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "modaliteAmm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Modalite AMM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les modalités pour les activités de soin AMM associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "mentionAmm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mention AMM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les mentions pour les activités de soin AMM associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "pratiqueTherapeutiqueSpecifiqueAmm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pratique Therapeutique Specifique AMM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les pratiques thérapeutiques spécifiques pour les activités de soin AMM associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "declarationAmm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Declaration AMM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les déclarations pour les activités de soin AMM associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activiteSanitaireDiverseRegulee" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activite Sanitaire Diverse Regulee" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les activités sanitaires, utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR), associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "modeFonctionnement" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mode Fonctionnement" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les modes de fonctionnement associés aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "public" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Public" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les publics des activités régulées associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activiteSocialeRegulee" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activite Sociale Regulee" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les activitées sociales régulées associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "activiteEnseignementRegulee" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activite Enseignement Regulee" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Propriété permettant de renseigner les activitées d'enseignement régulées associées aux types d'activité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "autoriteRegulationFiness" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autorite Regulation Finess" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans les Jdv358TypeAutoriteRegulationFiness Jdv359AutoriteRegulationFiness" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "autoriteEnregistrementFiness" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autorite Enregistrement Finess" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans les Jdv287TypeAutoriteEnregistrementFiness Jdv360AutoriteEnregistrementFiness" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "autoriteEnregistrementEpars" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autorite Enregistrement Epars" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "autoriteEnregistrementRass" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autorite Enregistrement Rass" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/concept-properties.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,133 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ActMood-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-hl7-v3-ActMood-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T13:58:00.053+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v3-ActMood-cisis</b></p><a name=\"jdv-hl7-v3-ActMood-cisis\"> </a><a name=\"hcjdv-hl7-v3-ActMood-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 13:58:00+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-ActMood.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ActMood</code></a><span title=\"La version est explicitement indiquée comme étant 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>DEF</code></td><td>Définition</td><td>**Definition:** A definition of a kind of act that can occur .<br/><br/>**OpenIssue:** The semantic constructs embodied in DEF and CRT moods seem indistinguishable, and their uses can readily be determined by the context in which these are used. Therefore, this OpenIssue has been created to declare that it is likely that ActMood.DEF will be \"retired\" in the future in favor of the more general ActMood.CRT.</td></tr><tr><td><code>PERM</code></td><td>Permission</td><td>**Definition:** A kind of act that defines a permission that has been granted.</td></tr><tr><td><code>SLOT</code></td><td>Possible sur la période spécifiée</td><td>**Definition:** A kind of act that may occur during the specified time period.</td></tr><tr><td><code>EVN</code></td><td>Réalisé</td><td>**Definition:** An act that actually happens (may be an ongoing act or a documentation of a past act).</td></tr><tr><td><code>INT</code></td><td>Prévu</td><td>**Definition:** An intention or plan for an act.<br/><br/>**&gt;UsageNotes:** The final outcome of the intent, the act that is intended to occur, is always an event. However the final outcome may be reached indirectly via steps through other intents, such as promise, permission request, or an appointment that may lead to an actual event to occur. Alternatively, the intended act may never occur.</td></tr><tr><td><code>ARQ</code></td><td>Prévu mais non confirmé</td><td>**Definition:** A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment *(the actual act may well not happen if that is the professional decision during the appointment)*.</td></tr><tr><td><code>PERMRQ</code></td><td>Demande d'autorisation</td><td>**Definition:** A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission.</td></tr><tr><td><code>RQO</code></td><td>Demande</td><td>**Definition:** A request act that is specialized for an event request/fulfillment cycle.<br/><br/>**UsageNotes:** The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.<br/><br/>**UsageNotes:** The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is \"request.\"<br/><br/>Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.<br/><br/>The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</td></tr><tr><td><code>PRP</code></td><td>Proposition</td><td>**Definition:** A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present.</td></tr><tr><td><code>RMD</code></td><td>Recommandation</td><td>**Definition:** A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .<br/><br/>**UsageNotes:** Where there is no clear definition or applicable concept of \"professional responsibility\", RMD becomes indistinguishable from PRP. .</td></tr><tr><td><code>PRMS</code></td><td>Planifié et confirmé</td><td>**Definition:** A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.<br/><br/>**UsageNotes:** Commitments may be retracted or cancelled.</td></tr><tr><td><code>APT</code></td><td>Date et lieu confirmé</td><td>**Definition:** An act that has been scheduled to be performed at a specific place and time.</td></tr><tr><td><code>EXPEC</code></td><td>Attendu</td><td>**Definition:** An act that is considered to have some noteworthy likelihood of occurring in the future (has\\_match = event).<br/><br/>**Examples:**Prognosis of a condition, Expected date of discharge from hospital, patient will likely need an emergency decompression of the intracranial pressure by morning.<br/><br/>**UsageNotes:**INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen.</td></tr><tr><td><code>GOL</code></td><td>But</td><td>**Definition:** An expectation that is considered to be desirable to occur in the future<br/><br/>**Examples:**Target weight below 80Kg, Stop smoking, Regain ability to walk, goal is to administer thrombolytics to candidate patients presenting with acute myocardial infarction.<br/><br/>**UsageNotes:** INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result. A goal is distinct from the intended actions to reach that goal. \"I will reduce the dose of drug x to 20mg\" is an intent. \"I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg\" is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope.</td></tr><tr><td><code>RSK</code></td><td>Risque</td><td>**Definition:**An act that may occur in the future and which is regarded as undesirable<br/><br/>**Examples:**Increased risk of DVT, at risk for sub-acute bacterial endocarditis.<br/><br/>**UsageNotes:**Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen.</td></tr><tr><td><code>OPT</code></td><td>Option</td><td>**Definition:** One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2024-09-05T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMood-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.1.11.10196" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "ActMood"] ;
+  fhir:ValueSet.title [ fhir:value "ActMood"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "ActMood"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActMood" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "4.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Définition" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PERM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Permission" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SLOT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Possible sur la période spécifiée" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EVN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réalisé" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prévu" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ARQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prévu mais non confirmé" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PERMRQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Demande d'autorisation" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RQO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Demande" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Proposition" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RMD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Recommandation" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRMS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Planifié et confirmé" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "APT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Date et lieu confirmé" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXPEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Attendu" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GOL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "But" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RSK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Risque" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OPT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Option" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ActMood-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

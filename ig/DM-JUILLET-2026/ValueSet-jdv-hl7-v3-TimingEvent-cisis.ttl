@@ -1,0 +1,141 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-TimingEvent-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-hl7-v3-TimingEvent-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:01:19.592+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v3-TimingEvent-cisis</b></p><a name=\"jdv-hl7-v3-TimingEvent-cisis\"> </a><a name=\"hcjdv-hl7-v3-TimingEvent-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 14:01:19+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-TimingEvent.html\"><code>http://terminology.hl7.org/CodeSystem/v3-TimingEvent</code></a><span title=\"La version est explicitement indiquée comme étant 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>AC</code></td><td>Avant le repas</td><td>before meal (from lat. ante cibus)</td></tr><tr><td><code>ACD</code></td><td>Avant le déjeuner</td><td>before lunch (from lat. ante cibus diurnus)</td></tr><tr><td><code>ACM</code></td><td>Avant le petit-déjeuner</td><td>before breakfast (from lat. ante cibus matutinus)</td></tr><tr><td><code>ACV</code></td><td>Avant le dîner</td><td>before dinner (from lat. ante cibus vespertinus)</td></tr><tr><td><code>C</code></td><td>Pendant les repas</td><td>**Description:** meal (from lat. ante cibus)</td></tr><tr><td><code>CD</code></td><td>Pendant le déjeuner</td><td>**Description:** lunch (from lat. cibus diurnus)</td></tr><tr><td><code>CM</code></td><td>Pendant le petit-déjeuner</td><td>**Description:** breakfast (from lat. cibus matutinus)</td></tr><tr><td><code>CV</code></td><td>Pendant le dîner</td><td>**Description:** dinner (from lat. cibus vespertinus)</td></tr><tr><td><code>HS</code></td><td>Au coucher</td><td>**Description:** Prior to beginning a regular period of extended sleep (this would exclude naps). Note that this might occur at different times of day depending on a person's regular sleep schedule.</td></tr><tr><td><code>IC</code></td><td>Entre les repas</td><td>between meals (from lat. inter cibus)</td></tr><tr><td><code>ICD</code></td><td>Entre le déjeuner et le dîner</td><td>between lunch and dinner</td></tr><tr><td><code>ICM</code></td><td>Entre le petit-déjeûner et le déjeûner</td><td>between breakfast and lunch</td></tr><tr><td><code>ICV</code></td><td>Entre le diner et le coucher</td><td>between dinner and the hour of sleep</td></tr><tr><td><code>PC</code></td><td>Après le repas</td><td>after meal (from lat. post cibus)</td></tr><tr><td><code>PCD</code></td><td>Après le déjeuner</td><td>after lunch (from lat. post cibus diurnus)</td></tr><tr><td><code>PCM</code></td><td>Après le petit-déjeuner</td><td>after breakfast (from lat. post cibus matutinus)</td></tr><tr><td><code>PCV</code></td><td>Après le dîner</td><td>after dinner (from lat. post cibus vespertinus)</td></tr><tr><td><code>WAKE</code></td><td>Au réveil</td><td>**Description:** Upon waking up from a regular period of sleep, in order to start regular activities (this would exclude waking up from a nap or temporarily waking up during a period of sleep)<br/><br/>**Usage Notes:** e.g.<br/><br/>Take pulse rate on waking in management of thyrotoxicosis.<br/><br/>Take BP on waking in management of hypertension<br/><br/>Take basal body temperature on waking in establishing date of ovulation</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.1.11.10706" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134043"] ;
+  fhir:ValueSet.name [ fhir:value "TimingEvent"] ;
+  fhir:ValueSet.title [ fhir:value "TimingEvent"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:43+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "TimingEvent"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-TimingEvent" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "4.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Avant le repas" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Avant le déjeuner" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Avant le petit-déjeuner" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Avant le dîner" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pendant les repas" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pendant le déjeuner" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pendant le petit-déjeuner" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pendant le dîner" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Au coucher" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entre les repas" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ICD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entre le déjeuner et le dîner" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ICM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entre le petit-déjeûner et le déjeûner" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ICV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entre le diner et le coucher" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Après le repas" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Après le déjeuner" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Après le petit-déjeuner" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Après le dîner" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WAKE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Au réveil" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-TimingEvent-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

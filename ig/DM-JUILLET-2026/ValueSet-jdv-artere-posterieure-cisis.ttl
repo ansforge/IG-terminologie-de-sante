@@ -1,0 +1,96 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-artere-posterieure-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-artere-posterieure-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "9" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T13:58:18.422+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-artere-posterieure-cisis</b></p><a name=\"jdv-artere-posterieure-cisis\"> </a><a name=\"hcjdv-artere-posterieure-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 9; Dernière mise à jour : 2026-06-22 13:58:18+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?202606190000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-486\">MED-486</a></td><td>Artère cérébrale postérieure (ACP) territoire profond branches thalamoperforées</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-487\">MED-487</a></td><td>Artère cérébrale postérieure (ACP) territoire profond branches thalamogéniculées</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-465\">MED-465</a></td><td>Artère cérébrale postérieure territoire superficiel</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"http://snomed.info/id/70382005\">70382005</a></td><td>artère cérébrale postérieure</td></tr><tr><td><a href=\"http://snomed.info/id/43119007\">43119007</a></td><td>artère communicante postérieure</td></tr><tr><td><a href=\"http://snomed.info/id/7736000\">7736000</a></td><td>artère choroïdienne postérieure</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-artere-posterieure-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.209" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "JdvArterePosterieureCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Artere Posterieure CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Artere Posterieure CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-486" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Artère cérébrale postérieure (ACP) territoire profond branches thalamoperforées" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-487" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Artère cérébrale postérieure (ACP) territoire profond branches thalamogéniculées" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-465" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Artère cérébrale postérieure territoire superficiel" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70382005" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "artère cérébrale postérieure" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43119007" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "artère communicante postérieure" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7736000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "artère choroïdienne postérieure" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-artere-posterieure-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

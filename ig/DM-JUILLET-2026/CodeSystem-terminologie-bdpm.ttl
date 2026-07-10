@@ -1,0 +1,209 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-bdpm> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "terminologie-bdpm"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "31" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-02T13:06:09.352+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem terminologie-bdpm</b></p><a name=\"terminologie-bdpm\"> </a><a name=\"hcterminologie-bdpm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 31; Dernière mise à jour : 2026-07-02 13:06:09+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>broader</td><td>broader</td><td>http://www.w3.org/2004/02/skos/core#broader</td><td>code</td><td/></tr><tr><td>date_commercialisation</td><td>date_commercialisation</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_commercialisation</td><td>dateTime</td><td/></tr><tr><td>taux_remboursement</td><td>taux_remboursement</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/taux_remboursement</td><td>decimal</td><td/></tr><tr><td>prix_total</td><td>prix_total</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_total</td><td>decimal</td><td/></tr><tr><td>tarif_dispensation</td><td>tarif_dispensation</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/tarif_dispensation</td><td>decimal</td><td/></tr><tr><td>prix_CIP</td><td>prix_CIP</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_CIP</td><td>decimal</td><td/></tr><tr><td>agrément_collectivité</td><td>agrément_collectivité</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/agrément_collectivité</td><td>string</td><td/></tr><tr><td>narrower</td><td>narrower</td><td>http://www.w3.org/2004/02/skos/core#narrower</td><td>code</td><td/></tr><tr><td>substanceActive</td><td>substanceActive</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/substanceActive</td><td>code</td><td/></tr><tr><td>composition_pharmaceutique</td><td>composition_pharmaceutique</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/composition_pharmaceutique</td><td>string</td><td/></tr><tr><td>voieAdministration</td><td>voieAdministration</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/voieAdministration</td><td>code</td><td/></tr><tr><td>date_AMM</td><td>date_AMM</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_AMM</td><td>dateTime</td><td/></tr><tr><td>titulaire</td><td>titulaire</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/titulaire</td><td>string</td><td/></tr><tr><td>estCommercialisée</td><td>estCommercialisée</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/estCommercialisée</td><td>string</td><td/></tr><tr><td>formePharmaceutique</td><td>formePharmaceutique</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/formePharmaceutique</td><td>code</td><td/></tr><tr><td>suveillanceRenforcée</td><td>suveillanceRenforcée</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/suveillanceRenforcée</td><td>string</td><td/></tr><tr><td>AMM_TypedeProcédure</td><td>AMM_TypedeProcédure</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_TypedeProcédure</td><td>code</td><td/></tr><tr><td>AMM_Status</td><td>AMM_Status</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_Status</td><td>code</td><td/></tr><tr><td>indication_Remboursement</td><td>indication_Remboursement</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement</td><td>string</td><td/></tr><tr><td>numero_AutorisationEuropéenne</td><td>numero_AutorisationEuropéenne</td><td>http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne</td><td>string</td><td/></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-bdpm</code> defines codes, but no codes are represented here</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/terminologie-bdpm"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.system [ fhir:value "https://smt.esante.gouv.fr/" ] ;
+     fhir:Identifier.value [ fhir:value "terminologie-bdpm" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "2026-07-01"] ;
+  fhir:CodeSystem.name [ fhir:value "BDPM"] ;
+  fhir:CodeSystem.title [ fhir:value "Base de données publique du médicament"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-01T00:00:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du numérique en santé"] ;
+  fhir:CodeSystem.description [ fhir:value "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt.esante.gouv.fr/terminologie-bdpm?vs" ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-bdpm?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "not-present"] ;
+  fhir:CodeSystem.count [ fhir:value "41249"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "broader" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2004/02/skos/core#broader" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "date_commercialisation" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_commercialisation" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "taux_remboursement" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/taux_remboursement" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "decimal" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "prix_total" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_total" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "decimal" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "tarif_dispensation" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/tarif_dispensation" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "decimal" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "prix_CIP" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_CIP" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "decimal" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "agrément_collectivité" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/agrément_collectivité" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.property.code [ fhir:value "narrower" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2004/02/skos/core#narrower" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.property.code [ fhir:value "substanceActive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/substanceActive" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.property.code [ fhir:value "composition_pharmaceutique" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/composition_pharmaceutique" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.property.code [ fhir:value "voieAdministration" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/voieAdministration" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.property.code [ fhir:value "date_AMM" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_AMM" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.property.code [ fhir:value "titulaire" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/titulaire" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.property.code [ fhir:value "estCommercialisée" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/estCommercialisée" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.property.code [ fhir:value "formePharmaceutique" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/formePharmaceutique" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.property.code [ fhir:value "suveillanceRenforcée" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/suveillanceRenforcée" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.property.code [ fhir:value "AMM_TypedeProcédure" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_TypedeProcédure" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.property.code [ fhir:value "AMM_Status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_Status" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.property.code [ fhir:value "indication_Remboursement" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.property.code [ fhir:value "numero_AutorisationEuropéenne" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des parents du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des enfants du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.property.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if the concept is imported from another code system." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.property.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-bdpm.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

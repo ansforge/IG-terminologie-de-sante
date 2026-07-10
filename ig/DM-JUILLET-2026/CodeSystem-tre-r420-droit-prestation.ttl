@@ -1,0 +1,1969 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r420-droit-prestation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "tre-r420-droit-prestation"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-12T10:12:40.849+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r420-droit-prestation</b></p><a name=\"tre-r420-droit-prestation\"> </a><a name=\"hctre-r420-droit-prestation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-05-12 10:12:40+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Niveau</b></td><td><b>Parent</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"tre-r420-droit-prestation-1\"> </a></td><td>AAH et CPR</td><td>Une allocation aux adultes handicapés (AAH) ou un complément de ressources (CPR) associé à l'AAH</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"tre-r420-droit-prestation-2\"> </a></td><td>ACFP et ACTP</td><td>Une allocation compensatrice pour frais professionnels (ACFP) ou pour tierce personne (ACTP)</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"tre-r420-droit-prestation-3\"> </a></td><td>AVA (Assurance vieillesse des aidants)</td><td>Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"tre-r420-droit-prestation-4\"> </a></td><td>Carte mobilité inclusion</td><td>Une carte mobilité inclusion (CMI)</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"tre-r420-droit-prestation-5\"> </a></td><td>PCH</td><td>Une prestation de compensation du handicap (PCH)</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"tre-r420-droit-prestation-6\"> </a></td><td>AEEH et son complément</td><td>Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"tre-r420-droit-prestation-7\"> </a></td><td>Orientation ESMS Enfants</td><td>Une orientation vers un établissement ou service médico-social Enfants</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"tre-r420-droit-prestation-8\"> </a></td><td>Orientation scolaire</td><td>Une orientation scolaire</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"tre-r420-droit-prestation-9\"> </a></td><td>Matériel pédagogique adapté</td><td/><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"tre-r420-droit-prestation-10\"> </a></td><td>Accompagnant des élèves en situation de handicap (AESH)</td><td/><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"tre-r420-droit-prestation-11\"> </a></td><td>Formation et insertion professionnelle</td><td>Une formation ou une insertion professionnelle</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"tre-r420-droit-prestation-12\"> </a></td><td>RQTH (Reconnaissance de la qualité de travailleur handicapé)</td><td/><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"tre-r420-droit-prestation-13\"> </a></td><td>Orientation ESMS Adultes</td><td>Une orientation vers un établissement ou service médico-social Adultes</td><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"tre-r420-droit-prestation-14\"> </a></td><td>Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)</td><td/><td>1</td><td/><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">1.1<a name=\"tre-r420-droit-prestation-1.461\"> </a></td><td>AAH L.821-1</td><td/><td>2</td><td>1</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">1.2<a name=\"tre-r420-droit-prestation-1.462\"> </a></td><td>AAH L.821-2</td><td/><td>2</td><td>1</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">2.1<a name=\"tre-r420-droit-prestation-2.461\"> </a></td><td>ACFP (Allocation compensatrice pour frais professionnels)</td><td/><td>2</td><td>2</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">2.2<a name=\"tre-r420-droit-prestation-2.462\"> </a></td><td>ACTP (Allocation compensatrice pour tierce personne)</td><td/><td>2</td><td>2</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">4.1<a name=\"tre-r420-droit-prestation-4.461\"> </a></td><td>Carte mobilité inclusion, Mention stationnement</td><td/><td>2</td><td>4</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">4.2<a name=\"tre-r420-droit-prestation-4.462\"> </a></td><td>Carte mobilité inclusion, Mention invalidité</td><td/><td>2</td><td>4</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">4.3<a name=\"tre-r420-droit-prestation-4.463\"> </a></td><td>Carte mobilité inclusion, Mention priorité</td><td/><td>2</td><td>4</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.1<a name=\"tre-r420-droit-prestation-5.461\"> </a></td><td>PCH - élément 1 - Aide humaine</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.9<a name=\"tre-r420-droit-prestation-5.469\"> </a></td><td>PCH 1 - Aide humaine à la parentalité</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.2<a name=\"tre-r420-droit-prestation-5.462\"> </a></td><td>PCH - élément 2 - Aides techniques</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.10<a name=\"tre-r420-droit-prestation-5.4610\"> </a></td><td>PCH 2 - Aides techniques à la parentalité</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.3<a name=\"tre-r420-droit-prestation-5.463\"> </a></td><td>PCH - élément 3 - Aménagement du logement</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.4<a name=\"tre-r420-droit-prestation-5.464\"> </a></td><td>PCH - élément 3 - Aménagement du véhicule</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.5<a name=\"tre-r420-droit-prestation-5.465\"> </a></td><td>PCH - élément 3 - Surcoûts liés au transport</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.6<a name=\"tre-r420-droit-prestation-5.466\"> </a></td><td>PCH - élément 4 - Charges spécifiques</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.7<a name=\"tre-r420-droit-prestation-5.467\"> </a></td><td>PCH - élément 4 - Charges exceptionnelles</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">5.8<a name=\"tre-r420-droit-prestation-5.468\"> </a></td><td>PCH - élément 5 - Aide animalière</td><td/><td>2</td><td>5</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.1<a name=\"tre-r420-droit-prestation-6.461\"> </a></td><td>AEEH de base</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.2<a name=\"tre-r420-droit-prestation-6.462\"> </a></td><td>Complément 1 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.3<a name=\"tre-r420-droit-prestation-6.463\"> </a></td><td>Complément 2 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.4<a name=\"tre-r420-droit-prestation-6.464\"> </a></td><td>Complément 3 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.5<a name=\"tre-r420-droit-prestation-6.465\"> </a></td><td>Complément 4 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.6<a name=\"tre-r420-droit-prestation-6.466\"> </a></td><td>Complément 5 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">6.7<a name=\"tre-r420-droit-prestation-6.467\"> </a></td><td>Complément 6 de l'AEEH</td><td/><td>2</td><td>6</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.1<a name=\"tre-r420-droit-prestation-7.461\"> </a></td><td>Orientation vers un Institut médico-éducatif (IME)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.2<a name=\"tre-r420-droit-prestation-7.462\"> </a></td><td>Orientation vers un Institut d'éducation motrice (IEM)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.3<a name=\"tre-r420-droit-prestation-7.463\"> </a></td><td>Orientation vers un institut pour personnes avec une déficience auditive</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.4<a name=\"tre-r420-droit-prestation-7.464\"> </a></td><td>Orientation vers un institut pour personnes avec une déficience visuelle</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.5<a name=\"tre-r420-droit-prestation-7.465\"> </a></td><td>Orientation vers un établissement pour enfants ou adolescents polyhandicapés</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.6<a name=\"tre-r420-droit-prestation-7.466\"> </a></td><td>Orientation vers un Institut thérapeutique, éducatif et pédagogique (ITEP)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.7<a name=\"tre-r420-droit-prestation-7.467\"> </a></td><td>Orientation vers le dispositif ITEP</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.8<a name=\"tre-r420-droit-prestation-7.468\"> </a></td><td>Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.9<a name=\"tre-r420-droit-prestation-7.469\"> </a></td><td>Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.10<a name=\"tre-r420-droit-prestation-7.4610\"> </a></td><td>Orientation vers un Service de soutien à l'éducation familiale et à la scolarisation (SSEFS)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.11<a name=\"tre-r420-droit-prestation-7.4611\"> </a></td><td>Orientation vers un Service d'aide à l'acquisition de l'autonomie et à la scolarisation (SAAAS)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.12<a name=\"tre-r420-droit-prestation-7.4612\"> </a></td><td>Orientation vers Service de soins et d'aide à domicile (SSAD)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.13<a name=\"tre-r420-droit-prestation-7.4613\"> </a></td><td>Orientation vers un Institut d'éducation sensorielle (IES)</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">7.99<a name=\"tre-r420-droit-prestation-7.4699\"> </a></td><td>Orientation vers un autre établissement ou service médico-social Enfants</td><td/><td>2</td><td>7</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.1<a name=\"tre-r420-droit-prestation-8.461\"> </a></td><td>Orientation en enseignement ordinaire</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.2<a name=\"tre-r420-droit-prestation-8.462\"> </a></td><td>Redoublement en maternelle</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.3<a name=\"tre-r420-droit-prestation-8.463\"> </a></td><td>Orientation en Enseignement adapté (SEGPA/EREA)</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.4<a name=\"tre-r420-droit-prestation-8.464\"> </a></td><td>Orientation en Unité localisée pour l'inclusion scolaire (ULIS)</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.6<a name=\"tre-r420-droit-prestation-8.466\"> </a></td><td>Orientation en Unité d'enseignement</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.7<a name=\"tre-r420-droit-prestation-8.467\"> </a></td><td>Orientation vers une Scolarisation en milieu ordinaire à temps partagé (UE et établissement scolaire)</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.8<a name=\"tre-r420-droit-prestation-8.468\"> </a></td><td>Orientation vers une Unité d'enseignement et une scolarisation en ULIS à temps partagé</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.9<a name=\"tre-r420-droit-prestation-8.469\"> </a></td><td>Orientation vers un Pôle d'enseignement jeune sourd (PEJS)</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.10<a name=\"tre-r420-droit-prestation-8.4610\"> </a></td><td>Orientation vers une unité d'enseignement et une scolarisation en enseignement adapté à temps partagé</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">8.11<a name=\"tre-r420-droit-prestation-8.4611\"> </a></td><td>Orientation vers un établissement d'autorégulation</td><td/><td>2</td><td>8</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">10.1<a name=\"tre-r420-droit-prestation-10.461\"> </a></td><td>Accompagnant des élèves en situation de handicap (AESH) - aide individuelle</td><td/><td>2</td><td>10</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">10.2<a name=\"tre-r420-droit-prestation-10.462\"> </a></td><td>Accompagnant des élèves en situation de handicap (AESH) - aide mutualisée</td><td/><td>2</td><td>10</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.1<a name=\"tre-r420-droit-prestation-11.461\"> </a></td><td>Orientation en Etablissement ou service de réadaptation professionnelle (ESRP)</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.2<a name=\"tre-r420-droit-prestation-11.462\"> </a></td><td>Orientation en Etablissement ou service de préorientation (ESPO)</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.3<a name=\"tre-r420-droit-prestation-11.463\"> </a></td><td>Orientation vers l'unité d'évaluation, de réentrainement et d'orientation sociale et socioprofessionnelle pour personnes cérébro-lésées (UEROS)</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.5<a name=\"tre-r420-droit-prestation-11.465\"> </a></td><td>Orientation en Etablissement et service d'accompagnement par le travail (ESAT)</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.6<a name=\"tre-r420-droit-prestation-11.466\"> </a></td><td>Orientation vers une plateforme d'emploi accompagné</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">11.7<a name=\"tre-r420-droit-prestation-11.467\"> </a></td><td>Aide à l'insertion professionnelle - Subvention d'installation</td><td/><td>2</td><td>11</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.1<a name=\"tre-r420-droit-prestation-13.461\"> </a></td><td>Orientation vers un Etablissement d'accueil non médicalisé</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.2<a name=\"tre-r420-droit-prestation-13.462\"> </a></td><td>Orientation vers un Etablissement d'accueil médicalisé en tout ou partie</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.3<a name=\"tre-r420-droit-prestation-13.463\"> </a></td><td>Orientation vers une Maison d'accueil spécialisée (MAS)</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.4<a name=\"tre-r420-droit-prestation-13.464\"> </a></td><td>Orientation vers un Service d'accompagnement à la vie sociale (SAVS)</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.5<a name=\"tre-r420-droit-prestation-13.465\"> </a></td><td>Orientation vers un Service d'accompagnement médico-social pour adultes handicapés (SAMSAH)</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">13.99<a name=\"tre-r420-droit-prestation-13.4699\"> </a></td><td>Orientation vers un autre établissement ou service médico-social Adultes</td><td/><td>2</td><td>13</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.3.271" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20260505120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TreR420DroitPrestation"] ;
+  fhir:CodeSystem.title [ fhir:value "Tre R420 Droit Prestation"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-05-05T12:00:00.000+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value " Catégorie et type de droit et prestation caractérisant la décision d'orientation."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "76"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "niveau" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#niveau" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Permet d'indiquer le niveau hiérarchique du code" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "integer" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "An immediate parent of the concept in the hierarchy" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AAH et CPR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une allocation aux adultes handicapés (AAH) ou un complément de ressources (CPR) associé à l'AAH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACFP et ACTP" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une allocation compensatrice pour frais professionnels (ACFP) ou pour tierce personne (ACTP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AVA (Assurance vieillesse des aidants)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Carte mobilité inclusion" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une carte mobilité inclusion (CMI)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une prestation de compensation du handicap (PCH)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AEEH et son complément" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation ESMS Enfants" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une orientation vers un établissement ou service médico-social Enfants" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation scolaire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une orientation scolaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Matériel pédagogique adapté" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accompagnant des élèves en situation de handicap (AESH)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Formation et insertion professionnelle" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une formation ou une insertion professionnelle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RQTH (Reconnaissance de la qualité de travailleur handicapé)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation ESMS Adultes" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Une orientation vers un établissement ou service médico-social Adultes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AAH L.821-1" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "1" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AAH L.821-2" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "1" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACFP (Allocation compensatrice pour frais professionnels)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "2" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACTP (Allocation compensatrice pour tierce personne)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "2" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Carte mobilité inclusion, Mention stationnement" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "4" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Carte mobilité inclusion, Mention invalidité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "4" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Carte mobilité inclusion, Mention priorité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "4" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 1 - Aide humaine" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH 1 - Aide humaine à la parentalité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 2 - Aides techniques" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH 2 - Aides techniques à la parentalité" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 3 - Aménagement du logement" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 3 - Aménagement du véhicule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 3 - Surcoûts liés au transport" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 4 - Charges spécifiques" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 4 - Charges exceptionnelles" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5.8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCH - élément 5 - Aide animalière" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "5" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AEEH de base" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 1 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 2 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 3 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 4 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 5 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6.7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complément 6 de l'AEEH" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "6" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Institut médico-éducatif (IME)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Institut d'éducation motrice (IEM)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un institut pour personnes avec une déficience auditive" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un institut pour personnes avec une déficience visuelle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un établissement pour enfants ou adolescents polyhandicapés" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Institut thérapeutique, éducatif et pédagogique (ITEP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers le dispositif ITEP" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service de soutien à l'éducation familiale et à la scolarisation (SSEFS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service d'aide à l'acquisition de l'autonomie et à la scolarisation (SAAAS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers Service de soins et d'aide à domicile (SSAD)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Institut d'éducation sensorielle (IES)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7.99" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un autre établissement ou service médico-social Enfants" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "7" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en enseignement ordinaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Redoublement en maternelle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Enseignement adapté (SEGPA/EREA)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Unité localisée pour l'inclusion scolaire (ULIS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Unité d'enseignement" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers une Scolarisation en milieu ordinaire à temps partagé (UE et établissement scolaire)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers une Unité d'enseignement et une scolarisation en ULIS à temps partagé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Pôle d'enseignement jeune sourd (PEJS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers une unité d'enseignement et une scolarisation en enseignement adapté à temps partagé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8.11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un établissement d'autorégulation" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "8" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accompagnant des élèves en situation de handicap (AESH) - aide individuelle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Accompagnant des élèves en situation de handicap (AESH) - aide mutualisée" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Etablissement ou service de réadaptation professionnelle (ESRP)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Etablissement ou service de préorientation (ESPO)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers l'unité d'évaluation, de réentrainement et d'orientation sociale et socioprofessionnelle pour personnes cérébro-lésées (UEROS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation en Etablissement et service d'accompagnement par le travail (ESAT)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers une plateforme d'emploi accompagné" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11.7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aide à l'insertion professionnelle - Subvention d'installation" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Etablissement d'accueil non médicalisé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Etablissement d'accueil médicalisé en tout ou partie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers une Maison d'accueil spécialisée (MAS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service d'accompagnement à la vie sociale (SAVS)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un Service d'accompagnement médico-social pour adultes handicapés (SAMSAH)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13.99" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orientation vers un autre établissement ou service médico-social Adultes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "niveau" ] ;
+       fhir:CodeSystem.concept.property.valueInteger [ fhir:value "2"^^xsd:integer ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "13" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r420-droit-prestation.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

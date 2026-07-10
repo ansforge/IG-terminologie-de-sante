@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-situation-matrimoniale-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "4" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:00:11.525+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-situation-matrimoniale-cisis</b></p><a name=\"jdv-situation-matrimoniale-cisis\"> </a><a name=\"hcjdv-situation-matrimoniale-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 4; Dernière mise à jour : 2026-06-22 14:00:11+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?202606190000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-417\">GEN-417</a></td><td>Pacsé(e)</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-418\">GEN-418</a></td><td>Union libre/Concubinage</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"http://snomed.info/id/125681006\">125681006</a></td><td>célibataire</td></tr><tr><td><a href=\"http://snomed.info/id/87915002\">87915002</a></td><td>marié(e)</td></tr><tr><td><a href=\"http://snomed.info/id/20295000\">20295000</a></td><td>divorcé(e)</td></tr><tr><td><a href=\"http://snomed.info/id/33553000\">33553000</a></td><td>veuf(-ve)</td></tr><tr><td><a href=\"http://snomed.info/id/13184001\">13184001</a></td><td>séparé(e)</td></tr><tr><td><a href=\"http://snomed.info/id/160504008\">160504008</a></td><td>situation matrimoniale inconnue</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2026-01-14T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.831" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "JdvSituationMatrimonialeCisis"] ;
+  fhir:ValueSet.title [ fhir:value "Jdv Situation Matrimoniale CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Jdv Situation Matrimoniale CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GEN-417" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pacsé(e)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GEN-418" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Union libre/Concubinage" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "125681006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "célibataire" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87915002" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "marié(e)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20295000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "divorcé(e)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33553000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "veuf(-ve)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13184001" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "séparé(e)" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "160504008" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "situation matrimoniale inconnue" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

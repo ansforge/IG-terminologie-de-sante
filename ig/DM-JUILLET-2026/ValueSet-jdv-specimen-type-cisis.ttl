@@ -1,0 +1,1410 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-specimen-type-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "11" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:00:15.618+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-specimen-type-cisis</b></p><a name=\"jdv-specimen-type-cisis\"> </a><a name=\"hcjdv-specimen-type-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 11; Dernière mise à jour : 2026-06-22 14:00:15+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-SpecimenType.html\"><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></a><span title=\"La version est explicitement indiquée comme étant 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><code>BLDC</code></td><td>Sang capillaire</td></tr><tr><td><code>BRO</code></td><td>Prélèvement bronchique</td></tr><tr><td><code>CRN</code></td><td>Cornée</td></tr><tr><td><code>CVX</code></td><td>Col de l’utérus</td></tr><tr><td><code>EAR</code></td><td>Oreille</td></tr><tr><td><code>EYE</code></td><td>Oeil</td></tr><tr><td><code>GEN</code></td><td>Prélèvement génitaux</td></tr><tr><td><code>GENC</code></td><td>Prélèvement cervico-vaginal</td></tr><tr><td><code>GENF</code></td><td>Sécrétions des organes génitaux</td></tr><tr><td><code>LAM</code></td><td>Lame</td></tr><tr><td><code>NOS</code></td><td>Prélèvement nasopharyngée</td></tr><tr><td><code>PAT</code></td><td>Patient</td></tr><tr><td><code>PRT</code></td><td>Liquide péritonéal</td></tr><tr><td><code>SKM</code></td><td>Muscle squelettique</td></tr><tr><td><code>SMPLS</code></td><td>Plasma séminal</td></tr><tr><td><code>THRT</code></td><td>Gorge</td></tr><tr><td><code>TISG</code></td><td>Vésicule biliaire</td></tr><tr><td><code>TISPL</code></td><td>Trophoblastes</td></tr><tr><td><code>TLGI</code></td><td>Gros intestin</td></tr><tr><td><code>TLNG</code></td><td>Tissu pulmonaire</td></tr><tr><td><code>TSMI</code></td><td>Intestin grêle</td></tr><tr><td><code>ULC</code></td><td>Ulcère</td></tr><tr><td><code>UMB</code></td><td>Sang de cordon ombilical</td></tr><tr><td><code>URTH</code></td><td>Urètre</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-v2-0487.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0487</code></a><span title=\"La version est explicitement indiquée comme étant 3.0.0\"> version ?3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>ABS</code></td><td>Abcès</td><td>Abscess</td></tr><tr><td><code>ACNE</code></td><td>Acné</td><td>Tissue, Acne</td></tr><tr><td><code>ACNFLD</code></td><td>Liquide d'acné</td><td>Fluid, Acne</td></tr><tr><td><code>AIRS</code></td><td>Échantillon d'air</td><td>Air Sample</td></tr><tr><td><code>ALL</code></td><td>Allogreffe</td><td>Allograft</td></tr><tr><td><code>AMN</code></td><td>Liquide amniotique</td><td>Amniotic fluid</td></tr><tr><td><code>AMP</code></td><td>Amputation</td><td>Amputation</td></tr><tr><td><code>ANGI</code></td><td>Cathéter d'angiographie (embout)</td><td>Catheter Tip, Angio</td></tr><tr><td><code>ARTC</code></td><td>Cathéter artériel (embout)</td><td>Catheter Tip, Arterial</td></tr><tr><td><code>ASERU</code></td><td>Sérum en phase aigüe</td><td>Serum, Acute</td></tr><tr><td><code>ASP</code></td><td>Aspiration</td><td>Aspirate</td></tr><tr><td><code>AUTOA</code></td><td>Ampoule d'autoclave</td><td>Environmental, Autoclave Ampule</td></tr><tr><td><code>AUTOC</code></td><td>Capsule d'autoclave</td><td>Environmental, Autoclave Capsule</td></tr><tr><td><code>AUTP</code></td><td>Autopsie</td><td>Autopsy</td></tr><tr><td><code>BBL</code></td><td>Poche de sang</td><td>Blood bag</td></tr><tr><td><code>BCYST</code></td><td>Kyste de Baker</td><td>Cyst, Baker's</td></tr><tr><td><code>BDY</code></td><td>Corps humain</td><td>Whole body</td></tr><tr><td><code>BIFL</code></td><td>Bile</td><td>Bile Fluid</td></tr><tr><td><code>BITE</code></td><td>Morsure</td><td>Bite</td></tr><tr><td><code>BLD</code></td><td>Sang</td><td>Whole blood</td></tr><tr><td><code>BLDA</code></td><td>Sang artériel</td><td>Blood arterial</td></tr><tr><td><code>BLDCO</code></td><td>Sang de cordon</td><td>Cord blood</td></tr><tr><td><code>BLDV</code></td><td>Sang veineux</td><td>Blood venous</td></tr><tr><td><code>BLEB</code></td><td>Cloque</td><td>Bleb</td></tr><tr><td><code>BLIST</code></td><td>Ampoule</td><td>Blister</td></tr><tr><td><code>BOIL</code></td><td>Clou</td><td>Boil</td></tr><tr><td><code>BON</code></td><td>Os</td><td>Bone</td></tr><tr><td><code>BOWL</code></td><td>Contenu intestinal</td><td>Bowel contents</td></tr><tr><td><code>BPH</code></td><td>Polynucléaires basophiles</td><td>Basophils</td></tr><tr><td><code>BPU</code></td><td>Produit sanguin labile</td><td>Blood product unit</td></tr><tr><td><code>BRN</code></td><td>Brûlure</td><td>Burn</td></tr><tr><td><code>BRSH</code></td><td>Brosse</td><td>Brush</td></tr><tr><td><code>BRUS</code></td><td>Brossage</td><td>Brushing</td></tr><tr><td><code>BUB</code></td><td>Bubon</td><td>Bubo</td></tr><tr><td><code>BULLA</code></td><td>Bulle</td><td>Bulla/Bullae</td></tr><tr><td><code>BX</code></td><td>Biopsie</td><td>Biopsy</td></tr><tr><td><code>CALC</code></td><td>Calcul</td><td>Calculus (=Stone)</td></tr><tr><td><code>CARBU</code></td><td>Anthrax</td><td>Carbuncle</td></tr><tr><td><code>CAT</code></td><td>Cathéter</td><td>Catheter</td></tr><tr><td><code>CBITE</code></td><td>Morsure de chat</td><td>Bite, Cat</td></tr><tr><td><code>CDM</code></td><td>Muscle cardiaque</td><td>Cardiac muscle</td></tr><tr><td><code>CLIPP</code></td><td>Coupures</td><td>Clippings</td></tr><tr><td><code>CNJT</code></td><td>Conjonctive</td><td>Conjunctiva</td></tr><tr><td><code>CNL</code></td><td>Canule</td><td>Cannula</td></tr><tr><td><code>COL</code></td><td>Colostrum</td><td>Colostrum</td></tr><tr><td><code>CONE</code></td><td>Biopsie conique</td><td>Biospy, Cone</td></tr><tr><td><code>CSCR</code></td><td>Griffure de chat</td><td>Scratch, Cat</td></tr><tr><td><code>CSERU</code></td><td>Sérum de convalescent</td><td>Serum, Convalescent</td></tr><tr><td><code>CSF</code></td><td>Liquide céphalorachidien</td><td>Cerebral spinal fluid</td></tr><tr><td><code>CSITE</code></td><td>Cathéter (Site d'insertion)</td><td>Catheter Insertion Site</td></tr><tr><td><code>CSMY</code></td><td>Liquide de tube de cystostomie</td><td>Fluid,  Cystostomy Tube</td></tr><tr><td><code>CST</code></td><td>Liquide de kyste</td><td>Fluid, Cyst</td></tr><tr><td><code>CSVR</code></td><td>Récupérateur de sang</td><td>Blood, Cell Saver</td></tr><tr><td><code>CTP</code></td><td>Cathéter (embout)</td><td>Catheter tip</td></tr><tr><td><code>CUR</code></td><td>Curetage</td><td>Curretage</td></tr><tr><td><code>CVM</code></td><td>Glaire cervicale</td><td>Cervical Mucus</td></tr><tr><td><code>CVPS</code></td><td>Cathéter veineux central (site)</td><td>Site, CVP</td></tr><tr><td><code>CVPT</code></td><td>Cathéter veineux central (embout)</td><td>Catheter Tip, CVP</td></tr><tr><td><code>CYN</code></td><td>Nodule kystique</td><td>Nodule, Cystic</td></tr><tr><td><code>CYST</code></td><td>Kyste</td><td>Cyst</td></tr><tr><td><code>DBITE</code></td><td>Morsure de chien</td><td>Bite, Dog</td></tr><tr><td><code>DCS</code></td><td>Expectoration profonde (crachat)</td><td>Sputum, Deep Cough</td></tr><tr><td><code>DEC</code></td><td>Ulcère de décubitus</td><td>Ulcer, Decubitus</td></tr><tr><td><code>DEION</code></td><td>Eau déminéralisée</td><td>Environmental, Water  (Deionized)</td></tr><tr><td><code>DIA</code></td><td>Dialysat</td><td>Dialysate</td></tr><tr><td><code>DIAF</code></td><td>Liquide de dialyse</td><td>Dialysis Fluid</td></tr><tr><td><code>DISCHG</code></td><td>Décharge</td><td>Discharge</td></tr><tr><td><code>DIV</code></td><td>Diverticule</td><td>Diverticulum</td></tr><tr><td><code>DRN</code></td><td>Drain</td><td>Drain</td></tr><tr><td><code>DRNG</code></td><td>Drain (Tube)</td><td>Drainage, Tube</td></tr><tr><td><code>DRNGP</code></td><td>Drain Penrose</td><td>Drainage, Penrose</td></tr><tr><td><code>DUFL</code></td><td>Liquide duodénal</td><td>Duodenal fluid</td></tr><tr><td><code>EARW</code></td><td>Cérumen</td><td>Ear wax (cerumen)</td></tr><tr><td><code>EBRUSH</code></td><td>Brossage oesophagien</td><td>Brush, Esophageal</td></tr><tr><td><code>EEYE</code></td><td>Lavage oculaire</td><td>Environmental, Eye Wash</td></tr><tr><td><code>EFF</code></td><td>Éffluent environnemental</td><td>Environmental, Effluent</td></tr><tr><td><code>EFFUS</code></td><td>Éffusion</td><td>Effusion</td></tr><tr><td><code>EFOD</code></td><td>Aliment</td><td>Environmental, Food</td></tr><tr><td><code>EISO</code></td><td>Isolette environnementale</td><td>Environmental, Isolette</td></tr><tr><td><code>ELT</code></td><td>Electrode</td><td>Electrode</td></tr><tr><td><code>ENVIR</code></td><td>Substance non identifiée</td><td>Environmental, Unidentified Substance</td></tr><tr><td><code>EOS</code></td><td>Polynucléaires éosinophiles</td><td>Eosinophils</td></tr><tr><td><code>EOTH</code></td><td>Autre substance</td><td>Environmental, Other Substance</td></tr><tr><td><code>ESOI</code></td><td>Sol</td><td>Environmental, Soil</td></tr><tr><td><code>ESOS</code></td><td>Solution stérile</td><td>Environmental, Solution (Sterile)</td></tr><tr><td><code>ETA</code></td><td>Aspiration endotrachéale</td><td>Aspirate,  Endotrach</td></tr><tr><td><code>ETTP</code></td><td>Cathéter endotrachéal (embout)</td><td>Catheter Tip, Endotracheal</td></tr><tr><td><code>ETTUB</code></td><td>Tube endotrachéal</td><td>Tube, Endotracheal</td></tr><tr><td><code>EWHI</code></td><td>Bain à remous</td><td>Environmental, Whirlpool</td></tr><tr><td><code>EXG</code></td><td>Gaz expiré</td><td>Gas, exhaled (=breath)</td></tr><tr><td><code>EXS</code></td><td>Dérivation externe</td><td>Shunt, External</td></tr><tr><td><code>EXUDTE</code></td><td>Exudat</td><td>Exudate</td></tr><tr><td><code>FAW</code></td><td>Eau de puits</td><td>Environmental, Water  (Well)</td></tr><tr><td><code>FBLOOD</code></td><td>Sang foetal</td><td>Blood, Fetal</td></tr><tr><td><code>FGA</code></td><td>Liquide abdominal</td><td>Fluid,  Abdomen</td></tr><tr><td><code>FIB</code></td><td>Fibroblastes</td><td>Fibroblasts</td></tr><tr><td><code>FIST</code></td><td>Fistule</td><td>Fistula</td></tr><tr><td><code>FLD</code></td><td>Liquide (autre)</td><td>Fluid, Other</td></tr><tr><td><code>FLT</code></td><td>Filtre</td><td>Filter</td></tr><tr><td><code>FLU</code></td><td>Liquide biologique</td><td>Fluid, Body unsp</td></tr><tr><td><code>FLUID</code></td><td>Liquide</td><td>Fluid</td></tr><tr><td><code>FOLEY</code></td><td>Cathéter de Foley (embout)</td><td>Catheter Tip, Foley</td></tr><tr><td><code>FRS</code></td><td>Liquide respiratoire</td><td>Fluid, Respiratory</td></tr><tr><td><code>FSCLP</code></td><td>Cuir chevelu foetal</td><td>Scalp, Fetal</td></tr><tr><td><code>FUR</code></td><td>Furoncle</td><td>Furuncle</td></tr><tr><td><code>GAS</code></td><td>Gaz du sang</td><td>Gas</td></tr><tr><td><code>GASA</code></td><td>Aspiration gastrique</td><td>Aspirate, Gastric</td></tr><tr><td><code>GASAN</code></td><td>Antre gastrique</td><td>Antrum, Gastric</td></tr><tr><td><code>GASBR</code></td><td>Brossage gastrique</td><td>Brushing, Gastric</td></tr><tr><td><code>GASD</code></td><td>Drainage gastrique</td><td>Drainage, Gastric</td></tr><tr><td><code>GAST</code></td><td>Prélèvement digestif</td><td>Fluid/contents, Gastric</td></tr><tr><td><code>GENL</code></td><td>Lochies</td><td>Genital lochia</td></tr><tr><td><code>GENV</code></td><td>Prélèvement vaginal</td><td>Genital vaginal</td></tr><tr><td><code>GRAFT</code></td><td>Greffe</td><td>Graft</td></tr><tr><td><code>GRAFTS</code></td><td>Greffe (Site)</td><td>Graft Site</td></tr><tr><td><code>GRANU</code></td><td>Granulome</td><td>Granuloma</td></tr><tr><td><code>GROSH</code></td><td>Cathéter Groshong</td><td>Catheter, Groshong</td></tr><tr><td><code>GSOL</code></td><td>Solution pour gastrostomie</td><td>Solution, Gastrostomy</td></tr><tr><td><code>GSPEC</code></td><td>Biopsie gastrique</td><td>Biopsy, Gastric</td></tr><tr><td><code>GT</code></td><td>Sonde gastrique</td><td>Tube, Gastric</td></tr><tr><td><code>GTUBE</code></td><td>Drainage de gastrostomie</td><td>Drainage Tube, Drainage (Gastrostomy)</td></tr><tr><td><code>HAR</code></td><td>Poils/Cheveux</td><td>Hair</td></tr><tr><td><code>HBITE</code></td><td>Morsure humaine</td><td>Bite, Human</td></tr><tr><td><code>HBLUD</code></td><td>Sang (Autopsie)</td><td>Blood, Autopsy</td></tr><tr><td><code>HEMAQ</code></td><td>Cathéter Hemaquit (embout)</td><td>Catheter Tip, Hemaquit</td></tr><tr><td><code>HEMO</code></td><td>Cathéter Hemovac (embout)</td><td>Catheter Tip, Hemovac</td></tr><tr><td><code>HERNI</code></td><td>Hernie</td><td>Tissue, Herniated</td></tr><tr><td><code>HEV</code></td><td>Drain Hemovac</td><td>Drain, Hemovac</td></tr><tr><td><code>HIC</code></td><td>Cathéter de Hickman</td><td>Catheter, Hickman</td></tr><tr><td><code>HYDC</code></td><td>Hydrocèle</td><td>Fluid, Hydrocele</td></tr><tr><td><code>IBITE</code></td><td>Morsure d'insecte</td><td>Bite, Insect</td></tr><tr><td><code>ICYST</code></td><td>Kyste d'inclusion</td><td>Cyst, Inclusion</td></tr><tr><td><code>IDC</code></td><td>Cathéter Indwelling (embout)</td><td>Catheter Tip, Indwelling</td></tr><tr><td><code>IHG</code></td><td>Gaz inhalé</td><td>Gas, Inhaled</td></tr><tr><td><code>ILEO</code></td><td>Drainage d'iléostomie</td><td>Drainage, Ileostomy</td></tr><tr><td><code>ILLEG</code></td><td>Source du spécimen illisible</td><td>Source of Specimen Is Illegible</td></tr><tr><td><code>IMP</code></td><td>Implant</td><td>Implant</td></tr><tr><td><code>INCI</code></td><td>Incision/chirurgie (Site)</td><td>Site, Incision/Surgical</td></tr><tr><td><code>INFIL</code></td><td>Infiltration</td><td>Infiltrate</td></tr><tr><td><code>INS</code></td><td>Insecte</td><td>Insect</td></tr><tr><td><code>INTRD</code></td><td>Cathéter (Guide)</td><td>Catheter Tip, Introducer</td></tr><tr><td><code>ISLT</code></td><td>Isolat</td><td>Isolate</td></tr><tr><td><code>IT</code></td><td>Tube d'intubation</td><td>Intubation tube</td></tr><tr><td><code>IUD</code></td><td>Dispositif intra-utérin</td><td>Intrauterine Device</td></tr><tr><td><code>IVCAT</code></td><td>Cathéter intraveineux</td><td>Catheter Tip, IV</td></tr><tr><td><code>IVFLD</code></td><td>Liquide intraveineux</td><td>Fluid, IV</td></tr><tr><td><code>IVTIP</code></td><td>Sonde intraveineuse</td><td>Tubing Tip, IV</td></tr><tr><td><code>JEJU</code></td><td>Drainage jéjunal</td><td>Drainage, Jejunal</td></tr><tr><td><code>JNTFLD</code></td><td>Liquide articulaire</td><td>Fluid, Joint</td></tr><tr><td><code>JP</code></td><td>Drain Jackson Pratt</td><td>Drainage, Jackson Pratt</td></tr><tr><td><code>KELOI</code></td><td>Lavage</td><td>Lavage</td></tr><tr><td><code>KIDFLD</code></td><td>Liquide rénal</td><td>Fluid, Kidney</td></tr><tr><td><code>LAVG</code></td><td>Lavage bronchial</td><td>Lavage, Bronhial</td></tr><tr><td><code>LAVGG</code></td><td>Lavage gastrique</td><td>Lavage, Gastric</td></tr><tr><td><code>LAVGP</code></td><td>Lavage péritonéal</td><td>Lavage, Peritoneal</td></tr><tr><td><code>LAVPG</code></td><td>Lavage pré-bronchial</td><td>Lavage, Pre-Bronch</td></tr><tr><td><code>LENS1</code></td><td>Lentilles de contact</td><td>Contact Lens</td></tr><tr><td><code>LENS2</code></td><td>Étui pour lentilles de contact</td><td>Contact Lens Case</td></tr><tr><td><code>LESN</code></td><td>Lésion</td><td>Lesion</td></tr><tr><td><code>LIQ</code></td><td>Liquide non spécifié</td><td>Liquid, Unspecified</td></tr><tr><td><code>LIQO</code></td><td>Liquide (autres)</td><td>Liquid, Other</td></tr><tr><td><code>LNA</code></td><td>Ponction artérielle</td><td>Line arterial</td></tr><tr><td><code>LNV</code></td><td>Ponction veineuse</td><td>Line venous</td></tr><tr><td><code>LSAC</code></td><td>Liquide de sac lombaire</td><td>Fluid, Lumbar Sac</td></tr><tr><td><code>LYM</code></td><td>Lymphocytes</td><td>Lymphocytes</td></tr><tr><td><code>MAC</code></td><td>Macrophages</td><td>Macrophages</td></tr><tr><td><code>MAHUR</code></td><td>Catheter Makurkour</td><td>Catheter Tip, Makurkour</td></tr><tr><td><code>MAR</code></td><td>Moelle osseuse</td><td>Marrow</td></tr><tr><td><code>MASS</code></td><td>Masse</td><td>Mass</td></tr><tr><td><code>MBLD</code></td><td>Sang menstruel</td><td>Blood, Menstrual</td></tr><tr><td><code>MEC</code></td><td>Méconium</td><td>Meconium</td></tr><tr><td><code>MILK</code></td><td>Lait maternel</td><td>Breast milk</td></tr><tr><td><code>MLK</code></td><td>Lait</td><td>Milk</td></tr><tr><td><code>MUCOS</code></td><td>Muqueuse</td><td>Mucosa</td></tr><tr><td><code>MUCUS</code></td><td>Mucus</td><td>Mucus</td></tr><tr><td><code>NAIL</code></td><td>Ongle</td><td>Nail</td></tr><tr><td><code>NASDR</code></td><td>Drainage des voies nasales</td><td>Drainage, Nasal</td></tr><tr><td><code>NEDL</code></td><td>Aiguille</td><td>Needle</td></tr><tr><td><code>NEPH</code></td><td>Néphrostomie (site)</td><td>Site, Nephrostomy</td></tr><tr><td><code>NGASP</code></td><td>Aspiration nasogastrique</td><td>Aspirate, Nasogastric</td></tr><tr><td><code>NGAST</code></td><td>Drainage nasogastrique</td><td>Drainage, Nasogastric</td></tr><tr><td><code>NGS</code></td><td>Nasogastrique (site)</td><td>Site, Naso/Gastric</td></tr><tr><td><code>NODUL</code></td><td>Nodule(s)</td><td>Nodule(s)</td></tr><tr><td><code>NSECR</code></td><td>Sécrétion nasale</td><td>Secretion, Nasal</td></tr><tr><td><code>ORH</code></td><td>Autre</td><td>Other</td></tr><tr><td><code>ORL</code></td><td>Lésion orale</td><td>Lesion, Oral</td></tr><tr><td><code>OTH</code></td><td>Autre origine</td><td>Source, Other</td></tr><tr><td><code>PACEM</code></td><td>Stimulateur cardiaque</td><td>Pacemaker</td></tr><tr><td><code>PAFL</code></td><td>Liquide pancréatique</td><td>Pancreatic fluid</td></tr><tr><td><code>PCFL</code></td><td>Liquide péricardique</td><td>Fluid, Pericardial</td></tr><tr><td><code>PDSIT</code></td><td>Dialyse péritonéale (site)</td><td>Site, Peritoneal Dialysis</td></tr><tr><td><code>PDTS</code></td><td>Dialyse péritonéale, Tunnel (site)</td><td>Site, Peritoneal Dialysis Tunnel</td></tr><tr><td><code>PELVA</code></td><td>Abcès pelvien</td><td>Abscess, Pelvic</td></tr><tr><td><code>PENIL</code></td><td>Lésion du pénis</td><td>Lesion, Penile</td></tr><tr><td><code>PERIA</code></td><td>Abcès périanal</td><td>Abscess, Perianal</td></tr><tr><td><code>PILOC</code></td><td>kyste pilonidal</td><td>Cyst, Pilonidal</td></tr><tr><td><code>PINS</code></td><td>Site de la broche</td><td>Site, Pin</td></tr><tr><td><code>PIS</code></td><td>Site d'insertion du stimulateur cardiaque</td><td>Site, Pacemaker Insetion</td></tr><tr><td><code>PLAN</code></td><td>Matériel végétal</td><td>Plant Material</td></tr><tr><td><code>PLAS</code></td><td>Plasma</td><td>Plasma</td></tr><tr><td><code>PLB</code></td><td>Poche de plasma</td><td>Plasma bag</td></tr><tr><td><code>PLC</code></td><td>Placenta</td><td>Placenta</td></tr><tr><td><code>PLEVS</code></td><td>Sérum au pic</td><td>Serum, Peak Level</td></tr><tr><td><code>PLR</code></td><td>Liquide pleural</td><td>Pleural fluid (thoracentesis fluid)</td></tr><tr><td><code>PMN</code></td><td>Polynucléaires neutrophiles</td><td>Polymorphonuclear neutrophils</td></tr><tr><td><code>PND</code></td><td>Drainage pénien</td><td>Drainage, Penile</td></tr><tr><td><code>POL</code></td><td>Polypes</td><td>Polyps</td></tr><tr><td><code>POPGS</code></td><td>Site de greffe poplité</td><td>Graft Site, Popliteal</td></tr><tr><td><code>POPLG</code></td><td>Greffe poplitée</td><td>Graft, Popliteal</td></tr><tr><td><code>POPLV</code></td><td>Veine poplitée (site)</td><td>Site, Popliteal Vein</td></tr><tr><td><code>PORTA</code></td><td>Chambre implantable</td><td>Catheter, Porta</td></tr><tr><td><code>PPP</code></td><td>Plasma pauvre en plaquettes</td><td>Plasma, Platelet poor</td></tr><tr><td><code>PROST</code></td><td>Appareil prothétique</td><td>Prosthetic Device</td></tr><tr><td><code>PRP</code></td><td>Plasma riche en plaquettes</td><td>Plasma, Platelet rich</td></tr><tr><td><code>PSC</code></td><td>Pseudokyste</td><td>Pseudocyst</td></tr><tr><td><code>PUNCT</code></td><td>Blessure, Perforation</td><td>Wound, Puncture</td></tr><tr><td><code>PUS</code></td><td>Pus</td><td>Pus</td></tr><tr><td><code>PUSFR</code></td><td>Pustule</td><td>Pustule</td></tr><tr><td><code>QC3</code></td><td>Contrôle qualité</td><td>Quality Control</td></tr><tr><td><code>RANDU</code></td><td>Urine aléatoire</td><td>Urine, Random</td></tr><tr><td><code>RBC</code></td><td>Erythrocytes</td><td>Erythrocytes</td></tr><tr><td><code>RBITE</code></td><td>Morsure de reptile</td><td>Bite, Reptile</td></tr><tr><td><code>RECT</code></td><td>Drainage rectal</td><td>Drainage, Rectal</td></tr><tr><td><code>RECTA</code></td><td>Abcès rectal</td><td>Abscess, Rectal</td></tr><tr><td><code>RENALC</code></td><td>Kyste rénal</td><td>Cyst, Renal</td></tr><tr><td><code>RENC</code></td><td>Liquide de kyste rénal</td><td>Fluid, Renal Cyst</td></tr><tr><td><code>RES</code></td><td>Respiratoire</td><td>Respiratory</td></tr><tr><td><code>SAL</code></td><td>Salive</td><td>Saliva</td></tr><tr><td><code>SCAR</code></td><td>Cicatrice</td><td>Tissue, Keloid (Scar)</td></tr><tr><td><code>SCLV</code></td><td>Cathéter sous-clavière (embout)</td><td>Catheter Tip, Subclavian</td></tr><tr><td><code>SCROA</code></td><td>Abcès scrotal</td><td>Abscess, Scrotal</td></tr><tr><td><code>SECRE</code></td><td>Sécrétion(s)</td><td>Secretion(s)</td></tr><tr><td><code>SER</code></td><td>Sérum</td><td>Serum</td></tr><tr><td><code>SHU</code></td><td>Shunt (site)</td><td>Site, Shunt</td></tr><tr><td><code>SHUNF</code></td><td>Liquide de shunt</td><td>Fluid, Shunt</td></tr><tr><td><code>SHUNT</code></td><td>Shunt</td><td>Shunt</td></tr><tr><td><code>SITE</code></td><td>Site</td><td>Site</td></tr><tr><td><code>SKBP</code></td><td>Biopsie de peau</td><td>Biopsy, Skin</td></tr><tr><td><code>SKN</code></td><td>Peau</td><td>Skin</td></tr><tr><td><code>SMM</code></td><td>Masse sous-mandibulaire</td><td>Mass, Sub-Mandibular</td></tr><tr><td><code>SMN</code></td><td>Sperme</td><td>Seminal fluid</td></tr><tr><td><code>SNV</code></td><td>Liquide synovial</td><td>Fluid, synovial (Joint fluid)</td></tr><tr><td><code>SPRM</code></td><td>Spermatozoïdes</td><td>Spermatozoa</td></tr><tr><td><code>SPRP</code></td><td>Cathéter sus-pubien (embout)</td><td>Catheter Tip, Suprapubic</td></tr><tr><td><code>SPRPB</code></td><td>Cathéter suprapubien (embout)</td><td>Cathether Tip, Suprapubic</td></tr><tr><td><code>SPS</code></td><td>Bande de spores</td><td>Environmental, Spore Strip</td></tr><tr><td><code>SPT</code></td><td>Expectoration (crachat)</td><td>Sputum</td></tr><tr><td><code>SPTC</code></td><td>Expectoration (Toux)</td><td>Sputum - coughed</td></tr><tr><td><code>SPTT</code></td><td>Expectoration (crachat) par aspiration trachéale</td><td>Sputum - tracheal aspirate</td></tr><tr><td><code>SPUT1</code></td><td>Expectoration simulée (crachat)</td><td>Sputum, Simulated</td></tr><tr><td><code>SPUTIN</code></td><td>Expectoration induite (crachat)</td><td>Sputum, Inducted</td></tr><tr><td><code>SPUTSP</code></td><td>Expectoration spontanée (crachat)</td><td>Sputum, Spontaneous</td></tr><tr><td><code>STER</code></td><td>Sterrad</td><td>Environmental, Sterrad</td></tr><tr><td><code>STL</code></td><td>Selles</td><td>Stool = Fecal</td></tr><tr><td><code>STONE</code></td><td>Calcul rénal</td><td>Stone, Kidney</td></tr><tr><td><code>SUBMA</code></td><td>Abcès sous-mandibulaire</td><td>Abscess, Submandibular</td></tr><tr><td><code>SUBMX</code></td><td>Abcès sous-maxillaire</td><td>Abscess, Submaxillary</td></tr><tr><td><code>SUMP</code></td><td>Drain de puisard</td><td>Drainage, Sump</td></tr><tr><td><code>SUP</code></td><td>Robinet suprapubien</td><td>Suprapubic Tap</td></tr><tr><td><code>SUTUR</code></td><td>Suture</td><td>Suture</td></tr><tr><td><code>SWGZ</code></td><td>Cathéter de Swan-Ganz</td><td>Catheter Tip, Swan Gantz</td></tr><tr><td><code>SWT</code></td><td>Sueur</td><td>Sweat</td></tr><tr><td><code>TASP</code></td><td>Aspiration trachéale</td><td>Aspirate, Tracheal</td></tr><tr><td><code>TEAR</code></td><td>Larmes</td><td>Tears</td></tr><tr><td><code>THRB</code></td><td>Plaquettes</td><td>Thrombocyte (platelet)</td></tr><tr><td><code>TISS</code></td><td>Tissu</td><td>Tissue</td></tr><tr><td><code>TISU</code></td><td>Tissu ulcéreux</td><td>Tissue ulcer</td></tr><tr><td><code>TLC</code></td><td>Cathéter triple lumière (embout)</td><td>Cathether Tip, Triple Lumen</td></tr><tr><td><code>TRAC</code></td><td>Trachéotomie (site)</td><td>Site, Tracheostomy</td></tr><tr><td><code>TRANS</code></td><td>Transudat</td><td>Transudate</td></tr><tr><td><code>TSERU</code></td><td>par sérum</td><td>Serum, Trough</td></tr><tr><td><code>TSTES</code></td><td>Abcès testiculaire</td><td>Abscess, Testicular</td></tr><tr><td><code>TTRA</code></td><td>Aspiration transtrachéale</td><td>Aspirate, Transtracheal</td></tr><tr><td><code>TUBES</code></td><td>Tubes</td><td>Tubes</td></tr><tr><td><code>TUMOR</code></td><td>Tumeur</td><td>Tumor</td></tr><tr><td><code>TZANC</code></td><td>Frottis de Tzanck</td><td>Smear, Tzanck</td></tr><tr><td><code>UDENT</code></td><td>Origine non identifiée</td><td>Source, Unidentified</td></tr><tr><td><code>UMED</code></td><td>Médicament inconnu</td><td>Unknown Medicine</td></tr><tr><td><code>UR</code></td><td>Urine</td><td>Urine</td></tr><tr><td><code>URC</code></td><td>Urine 1er jet</td><td>Urine clean catch</td></tr><tr><td><code>URINB</code></td><td>Urine de lavage vésical</td><td>Urine, Bladder Washings</td></tr><tr><td><code>URINC</code></td><td>Urine cathétérisée</td><td>Urine, Catheterized</td></tr><tr><td><code>URINM</code></td><td>Urine milieu de jet</td><td>Urine, Midstream</td></tr><tr><td><code>URINN</code></td><td>Urine de néphrostomie</td><td>Urine, Nephrostomy</td></tr><tr><td><code>URINP</code></td><td>Urine de poche pédiatrique</td><td>Urine, Pedibag</td></tr><tr><td><code>URNS</code></td><td>Sédiments urinaires</td><td>Urine sediment</td></tr><tr><td><code>URT</code></td><td>Urine par cathéter</td><td>Urine catheter</td></tr><tr><td><code>USCOP</code></td><td>Urine de cystoscopie</td><td>Urine, Cystoscopy</td></tr><tr><td><code>USPEC</code></td><td>Origine non spécifiée</td><td>Source, Unspecified</td></tr><tr><td><code>USUB</code></td><td>Substance inconnue</td><td>Unkown substance</td></tr><tr><td><code>VASTIP</code></td><td>Cathéter vasculaire (embout)</td><td>Catheter Tip, Vas</td></tr><tr><td><code>VENT</code></td><td>Cathéter ventriculaire (embout)</td><td>Catheter Tip, Ventricular</td></tr><tr><td><code>VITF</code></td><td>Corps vitré</td><td>Vitreous Fluid</td></tr><tr><td><code>VOM</code></td><td>Vomissure</td><td>Vomitus</td></tr><tr><td><code>WASH</code></td><td>Produit de lavage</td><td>Wash</td></tr><tr><td><code>WASI</code></td><td>Lavage, par ex. lavage broncho-alvéolaire</td><td>Washing, e.g. bronchial washing</td></tr><tr><td><code>WAT</code></td><td>Eau</td><td>Water</td></tr><tr><td><code>WB</code></td><td>Sang total</td><td>Blood, Whole</td></tr><tr><td><code>WBC</code></td><td>Leucocytes</td><td>Leukocytes</td></tr><tr><td><code>WEN</code></td><td>Loupe</td><td>Wen</td></tr><tr><td><code>WICK</code></td><td>Mèche</td><td>Wick</td></tr><tr><td><code>WND</code></td><td>Plaie</td><td>Wound</td></tr><tr><td><code>WNDA</code></td><td>Abcès d'une plaie</td><td>Wound abscess</td></tr><tr><td><code>WNDD</code></td><td>Drainage d'une plaie</td><td>Wound drainage</td></tr><tr><td><code>WNDE</code></td><td>Exsudat d'une plaie</td><td>Wound exudate</td></tr><tr><td><code>WORM</code></td><td>Ver</td><td>Worm</td></tr><tr><td><code>WRT</code></td><td>Verrue</td><td>Wart</td></tr><tr><td><code>WWA</code></td><td>Eau environnementale</td><td>Environmental, Water</td></tr><tr><td><code>WWO</code></td><td>Eau (océan)</td><td>Environmental, Water (Ocean)</td></tr><tr><td><code>WWT</code></td><td>Eau (robinet)</td><td>Environmental, Water  (Tap)</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.819" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "JdvSpecimenTypeCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Specimen Type CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Specimen Type CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-SpecimenType" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "4.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLDC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang capillaire" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement bronchique" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cornée" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CVX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Col de l’utérus" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Oreille" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EYE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Oeil" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement génitaux" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GENC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement cervico-vaginal" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GENF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sécrétions des organes génitaux" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lame" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement nasopharyngée" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Patient" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide péritonéal" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SKM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle squelettique" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SMPLS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plasma séminal" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "THRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gorge" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TISG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vésicule biliaire" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TISPL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Trophoblastes" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TLGI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gros intestin" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TLNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tissu pulmonaire" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TSMI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intestin grêle" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ULC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ulcère" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UMB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang de cordon ombilical" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URTH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urètre" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0487" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "3.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ABS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Acné" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACNFLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide d'acné" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AIRS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Échantillon d'air" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ALL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Allogreffe" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide amniotique" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AMP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amputation" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANGI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter d'angiographie (embout)" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ARTC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter artériel (embout)" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASERU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sérum en phase aigüe" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AUTOA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ampoule d'autoclave" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AUTOC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Capsule d'autoclave" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AUTP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autopsie" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BBL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poche de sang" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BCYST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kyste de Baker" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BDY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Corps humain" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BIFL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bile" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang artériel" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLDCO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang de cordon" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLDV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang veineux" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLEB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cloque" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLIST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ampoule" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BOIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Clou" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BON" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Os" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BOWL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Contenu intestinal" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BPH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polynucléaires basophiles" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BPU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Produit sanguin labile" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brûlure" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRSH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brosse" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brossage" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bubon" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BULLA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bulle" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Biopsie" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CALC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Calcul" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CARBU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anthrax" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CBITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure de chat" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CDM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle cardiaque" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLIPP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Coupures" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNJT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Conjonctive" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Canule" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Colostrum" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CONE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Biopsie conique" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSCR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Griffure de chat" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSERU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sérum de convalescent" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide céphalorachidien" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter (Site d'insertion)" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSMY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de tube de cystostomie" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de kyste" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSVR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Récupérateur de sang" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CTP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter (embout)" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Curetage" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CVM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glaire cervicale" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CVPS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter veineux central (site)" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CVPT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter veineux central (embout)" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CYN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nodule kystique" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CYST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kyste" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DBITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure de chien" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration profonde (crachat)" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ulcère de décubitus" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEION" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau déminéralisée" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dialysat" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de dialyse" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DISCHG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Décharge" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diverticule" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DRNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain (Tube)" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DRNGP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain Penrose" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DUFL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide duodénal" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EARW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cérumen" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EBRUSH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brossage oesophagien" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EEYE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage oculaire" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EFF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Éffluent environnemental" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EFFUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Éffusion" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EFOD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aliment" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EISO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Isolette environnementale" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ELT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrode" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENVIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Substance non identifiée" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polynucléaires éosinophiles" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EOTH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre substance" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ESOI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sol" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ESOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Solution stérile" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ETA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration endotrachéale" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ETTP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter endotrachéal (embout)" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ETTUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tube endotrachéal" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EWHI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bain à remous" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gaz expiré" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dérivation externe" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXUDTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Exudat" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FAW" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau de puits" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FBLOOD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang foetal" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide abdominal" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fibroblastes" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FIST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fistule" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide (autre)" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filtre" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FLU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide biologique" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FLUID" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FOLEY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter de Foley (embout)" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FRS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide respiratoire" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FSCLP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cuir chevelu foetal" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Furoncle" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GAS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gaz du sang" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GASA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration gastrique" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GASAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antre gastrique" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GASBR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brossage gastrique" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GASD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage gastrique" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GAST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement digestif" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GENL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lochies" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GENV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prélèvement vaginal" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRAFT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greffe" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRAFTS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greffe (Site)" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRANU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Granulome" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GROSH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter Groshong" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GSOL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Solution pour gastrostomie" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GSPEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Biopsie gastrique" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sonde gastrique" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GTUBE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage de gastrostomie" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poils/Cheveux" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HBITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure humaine" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HBLUD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang (Autopsie)" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HEMAQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter Hemaquit (embout)" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HEMO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter Hemovac (embout)" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HERNI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hernie" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HEV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain Hemovac" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter de Hickman" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HYDC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hydrocèle" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IBITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure d'insecte" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ICYST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kyste d'inclusion" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IDC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter Indwelling (embout)" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IHG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gaz inhalé" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ILEO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage d'iléostomie" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ILLEG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Source du spécimen illisible" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IMP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Implant" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INCI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Incision/chirurgie (Site)" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INFIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infiltration" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Insecte" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INTRD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter (Guide)" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ISLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Isolat" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tube d'intubation" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IUD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositif intra-utérin" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IVCAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter intraveineux" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IVFLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide intraveineux" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IVTIP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sonde intraveineuse" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JEJU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage jéjunal" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JNTFLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide articulaire" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain Jackson Pratt" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KELOI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KIDFLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide rénal" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LAVG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage bronchial" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LAVGG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage gastrique" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LAVGP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage péritonéal" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LAVPG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage pré-bronchial" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LENS1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lentilles de contact" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LENS2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Étui pour lentilles de contact" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LESN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lésion" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LIQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide non spécifié" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LIQO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide (autres)" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ponction artérielle" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LNV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ponction veineuse" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LSAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de sac lombaire" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LYM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lymphocytes" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Macrophages" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAHUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Catheter Makurkour" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Moelle osseuse" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MASS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Masse" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MBLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang menstruel" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Méconium" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MILK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lait maternel" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MLK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lait" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MUCOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muqueuse" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MUCUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mucus" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NAIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ongle" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NASDR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage des voies nasales" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NEDL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aiguille" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NEPH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Néphrostomie (site)" ]
+       ], [
+         fhir:index 179 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NGASP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration nasogastrique" ]
+       ], [
+         fhir:index 180 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NGAST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage nasogastrique" ]
+       ], [
+         fhir:index 181 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NGS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nasogastrique (site)" ]
+       ], [
+         fhir:index 182 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NODUL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nodule(s)" ]
+       ], [
+         fhir:index 183 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NSECR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sécrétion nasale" ]
+       ], [
+         fhir:index 184 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ORH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre" ]
+       ], [
+         fhir:index 185 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ORL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lésion orale" ]
+       ], [
+         fhir:index 186 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OTH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre origine" ]
+       ], [
+         fhir:index 187 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PACEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Stimulateur cardiaque" ]
+       ], [
+         fhir:index 188 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAFL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide pancréatique" ]
+       ], [
+         fhir:index 189 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCFL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide péricardique" ]
+       ], [
+         fhir:index 190 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PDSIT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dialyse péritonéale (site)" ]
+       ], [
+         fhir:index 191 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PDTS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dialyse péritonéale, Tunnel (site)" ]
+       ], [
+         fhir:index 192 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PELVA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès pelvien" ]
+       ], [
+         fhir:index 193 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PENIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lésion du pénis" ]
+       ], [
+         fhir:index 194 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PERIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès périanal" ]
+       ], [
+         fhir:index 195 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PILOC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "kyste pilonidal" ]
+       ], [
+         fhir:index 196 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PINS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Site de la broche" ]
+       ], [
+         fhir:index 197 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PIS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Site d'insertion du stimulateur cardiaque" ]
+       ], [
+         fhir:index 198 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Matériel végétal" ]
+       ], [
+         fhir:index 199 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLAS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plasma" ]
+       ], [
+         fhir:index 200 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poche de plasma" ]
+       ], [
+         fhir:index 201 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Placenta" ]
+       ], [
+         fhir:index 202 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLEVS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sérum au pic" ]
+       ], [
+         fhir:index 203 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide pleural" ]
+       ], [
+         fhir:index 204 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polynucléaires neutrophiles" ]
+       ], [
+         fhir:index 205 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage pénien" ]
+       ], [
+         fhir:index 206 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polypes" ]
+       ], [
+         fhir:index 207 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POPGS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Site de greffe poplité" ]
+       ], [
+         fhir:index 208 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POPLG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greffe poplitée" ]
+       ], [
+         fhir:index 209 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POPLV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Veine poplitée (site)" ]
+       ], [
+         fhir:index 210 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PORTA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre implantable" ]
+       ], [
+         fhir:index 211 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PPP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plasma pauvre en plaquettes" ]
+       ], [
+         fhir:index 212 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PROST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareil prothétique" ]
+       ], [
+         fhir:index 213 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plasma riche en plaquettes" ]
+       ], [
+         fhir:index 214 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pseudokyste" ]
+       ], [
+         fhir:index 215 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PUNCT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Blessure, Perforation" ]
+       ], [
+         fhir:index 216 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pus" ]
+       ], [
+         fhir:index 217 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PUSFR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pustule" ]
+       ], [
+         fhir:index 218 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QC3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Contrôle qualité" ]
+       ], [
+         fhir:index 219 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RANDU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine aléatoire" ]
+       ], [
+         fhir:index 220 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RBC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Erythrocytes" ]
+       ], [
+         fhir:index 221 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RBITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Morsure de reptile" ]
+       ], [
+         fhir:index 222 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RECT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage rectal" ]
+       ], [
+         fhir:index 223 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RECTA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès rectal" ]
+       ], [
+         fhir:index 224 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RENALC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kyste rénal" ]
+       ], [
+         fhir:index 225 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RENC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de kyste rénal" ]
+       ], [
+         fhir:index 226 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Respiratoire" ]
+       ], [
+         fhir:index 227 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salive" ]
+       ], [
+         fhir:index 228 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SCAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cicatrice" ]
+       ], [
+         fhir:index 229 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SCLV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter sous-clavière (embout)" ]
+       ], [
+         fhir:index 230 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SCROA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès scrotal" ]
+       ], [
+         fhir:index 231 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SECRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sécrétion(s)" ]
+       ], [
+         fhir:index 232 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sérum" ]
+       ], [
+         fhir:index 233 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SHU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Shunt (site)" ]
+       ], [
+         fhir:index 234 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SHUNF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide de shunt" ]
+       ], [
+         fhir:index 235 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SHUNT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Shunt" ]
+       ], [
+         fhir:index 236 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Site" ]
+       ], [
+         fhir:index 237 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SKBP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Biopsie de peau" ]
+       ], [
+         fhir:index 238 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SKN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peau" ]
+       ], [
+         fhir:index 239 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SMM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Masse sous-mandibulaire" ]
+       ], [
+         fhir:index 240 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sperme" ]
+       ], [
+         fhir:index 241 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SNV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liquide synovial" ]
+       ], [
+         fhir:index 242 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPRM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spermatozoïdes" ]
+       ], [
+         fhir:index 243 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPRP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter sus-pubien (embout)" ]
+       ], [
+         fhir:index 244 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPRPB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter suprapubien (embout)" ]
+       ], [
+         fhir:index 245 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bande de spores" ]
+       ], [
+         fhir:index 246 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration (crachat)" ]
+       ], [
+         fhir:index 247 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPTC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration (Toux)" ]
+       ], [
+         fhir:index 248 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPTT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration (crachat) par aspiration trachéale" ]
+       ], [
+         fhir:index 249 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPUT1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration simulée (crachat)" ]
+       ], [
+         fhir:index 250 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPUTIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration induite (crachat)" ]
+       ], [
+         fhir:index 251 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SPUTSP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expectoration spontanée (crachat)" ]
+       ], [
+         fhir:index 252 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sterrad" ]
+       ], [
+         fhir:index 253 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Selles" ]
+       ], [
+         fhir:index 254 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STONE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Calcul rénal" ]
+       ], [
+         fhir:index 255 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SUBMA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès sous-mandibulaire" ]
+       ], [
+         fhir:index 256 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SUBMX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès sous-maxillaire" ]
+       ], [
+         fhir:index 257 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SUMP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drain de puisard" ]
+       ], [
+         fhir:index 258 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SUP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Robinet suprapubien" ]
+       ], [
+         fhir:index 259 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SUTUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Suture" ]
+       ], [
+         fhir:index 260 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SWGZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter de Swan-Ganz" ]
+       ], [
+         fhir:index 261 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SWT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sueur" ]
+       ], [
+         fhir:index 262 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TASP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration trachéale" ]
+       ], [
+         fhir:index 263 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TEAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Larmes" ]
+       ], [
+         fhir:index 264 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "THRB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plaquettes" ]
+       ], [
+         fhir:index 265 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TISS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tissu" ]
+       ], [
+         fhir:index 266 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TISU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tissu ulcéreux" ]
+       ], [
+         fhir:index 267 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TLC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter triple lumière (embout)" ]
+       ], [
+         fhir:index 268 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Trachéotomie (site)" ]
+       ], [
+         fhir:index 269 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRANS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transudat" ]
+       ], [
+         fhir:index 270 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TSERU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "par sérum" ]
+       ], [
+         fhir:index 271 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TSTES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès testiculaire" ]
+       ], [
+         fhir:index 272 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TTRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aspiration transtrachéale" ]
+       ], [
+         fhir:index 273 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TUBES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tubes" ]
+       ], [
+         fhir:index 274 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TUMOR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tumeur" ]
+       ], [
+         fhir:index 275 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TZANC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Frottis de Tzanck" ]
+       ], [
+         fhir:index 276 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UDENT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Origine non identifiée" ]
+       ], [
+         fhir:index 277 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UMED" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Médicament inconnu" ]
+       ], [
+         fhir:index 278 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine" ]
+       ], [
+         fhir:index 279 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine 1er jet" ]
+       ], [
+         fhir:index 280 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URINB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine de lavage vésical" ]
+       ], [
+         fhir:index 281 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URINC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine cathétérisée" ]
+       ], [
+         fhir:index 282 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URINM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine milieu de jet" ]
+       ], [
+         fhir:index 283 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URINN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine de néphrostomie" ]
+       ], [
+         fhir:index 284 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URINP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine de poche pédiatrique" ]
+       ], [
+         fhir:index 285 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URNS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sédiments urinaires" ]
+       ], [
+         fhir:index 286 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "URT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine par cathéter" ]
+       ], [
+         fhir:index 287 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "USCOP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urine de cystoscopie" ]
+       ], [
+         fhir:index 288 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "USPEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Origine non spécifiée" ]
+       ], [
+         fhir:index 289 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "USUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Substance inconnue" ]
+       ], [
+         fhir:index 290 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VASTIP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter vasculaire (embout)" ]
+       ], [
+         fhir:index 291 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VENT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cathéter ventriculaire (embout)" ]
+       ], [
+         fhir:index 292 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VITF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Corps vitré" ]
+       ], [
+         fhir:index 293 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vomissure" ]
+       ], [
+         fhir:index 294 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WASH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Produit de lavage" ]
+       ], [
+         fhir:index 295 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WASI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lavage, par ex. lavage broncho-alvéolaire" ]
+       ], [
+         fhir:index 296 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau" ]
+       ], [
+         fhir:index 297 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sang total" ]
+       ], [
+         fhir:index 298 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WBC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Leucocytes" ]
+       ], [
+         fhir:index 299 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Loupe" ]
+       ], [
+         fhir:index 300 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WICK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mèche" ]
+       ], [
+         fhir:index 301 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plaie" ]
+       ], [
+         fhir:index 302 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WNDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abcès d'une plaie" ]
+       ], [
+         fhir:index 303 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WNDD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drainage d'une plaie" ]
+       ], [
+         fhir:index 304 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WNDE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Exsudat d'une plaie" ]
+       ], [
+         fhir:index 305 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WORM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ver" ]
+       ], [
+         fhir:index 306 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Verrue" ]
+       ], [
+         fhir:index 307 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WWA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau environnementale" ]
+       ], [
+         fhir:index 308 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WWO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau (océan)" ]
+       ], [
+         fhir:index 309 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WWT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eau (robinet)" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

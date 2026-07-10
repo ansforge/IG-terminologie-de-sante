@@ -1,0 +1,177 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "11000315107-20260621",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-06-29T13:55:59.016+02:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem 11000315107-20260621</b></p><a name=\"11000315107-20260621\"> </a><a name=\"hc11000315107-20260621\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-06-29 13:55:59+0200</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>inactive</td><td>inactive</td><td>boolean</td><td>Whether the code is active or not (defaults to false).</td></tr><tr><td>sufficientlyDefined</td><td>sufficientlyDefined</td><td>boolean</td><td>True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).</td></tr><tr><td>parent</td><td>parent</td><td>code</td><td>The SNOMED CT concept id that is a direct parent of the concept.</td></tr><tr><td>child</td><td>child</td><td>code</td><td>The SNOMED CT concept id that is a direct child of the concept.</td></tr><tr><td>moduleId</td><td>moduleId</td><td>code</td><td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td><td>is-a </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.</td><td>descendent-of </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.</td><td>in </td><td>A SNOMED CT concept id</td></tr><tr><td>constraint</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>expression</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>parent</td><td>Includes all concept ids that have/do not have a parent concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr><tr><td>child</td><td>Includes all concept ids that have/do not have a child concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines codes dans une hiérarchie Is-A, but no codes are represented here</p></div>"
+  },
+  "contained" : [{
+    "resourceType" : "Provenance",
+    "id" : "592cb490-abb5-48f2-9c99-49167b6888ae",
+    "target" : [{
+      "reference" : "11000315107-20260621"
+    }],
+    "recorded" : "2026-06-29T13:55:59.016+02:00",
+    "activity" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/w3c-provenance-activity-type",
+        "code" : "Derivation",
+        "display" : "wasDerivedFrom"
+      }]
+    },
+    "agent" : [{
+      "role" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+          "code" : "dataprocessor"
+        }]
+      }],
+      "who" : {
+        "reference" : "#fcc18cb2-8b67-4e10-b6eb-38d760eabd1f"
+      }
+    }],
+    "entity" : [{
+      "role" : "source",
+      "what" : {
+        "reference" : "#e7baa1cc-b2a9-40ce-931f-0a6b299f90ce"
+      }
+    }]
+  },
+  {
+    "resourceType" : "Device",
+    "id" : "fcc18cb2-8b67-4e10-b6eb-38d760eabd1f",
+    "identifier" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "http://ontoserver.csiro.au"
+    }],
+    "version" : [{
+      "value" : "6.25.3"
+    }]
+  },
+  {
+    "resourceType" : "DocumentReference",
+    "id" : "e7baa1cc-b2a9-40ce-931f-0a6b299f90ce",
+    "status" : "current",
+    "content" : [{
+      "attachment" : {
+        "url" : "file:/tmp/rawdata-1405529777169612924.zip",
+        "title" : "RF2_SOURCE_SNAPSHOT"
+      }
+    }]
+  }],
+  "extension" : [{
+    "extension" : [{
+      "url" : "provenance",
+      "valueReference" : {
+        "reference" : "#592cb490-abb5-48f2-9c99-49167b6888ae"
+      }
+    },
+    {
+      "url" : "source",
+      "valueAttachment" : {
+        "url" : "file:/tmp/rawdata-1405529777169612924.zip",
+        "title" : "RF2_SOURCE_SNAPSHOT"
+      }
+    }],
+    "url" : "http://ontoserver.csiro.au/profiles/cs-provenance"
+  }],
+  "url" : "http://snomed.info/sct",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.6.96"
+  }],
+  "version" : "http://snomed.info/sct/11000315107/version/20260621",
+  "name" : "SNOMED_CT",
+  "title" : "module français SNOMED CT",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-21T00:00:00+02:00",
+  "publisher" : "The owner of the module 11000315107",
+  "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "copyright" : "© 2002-2016 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. \"SNOMED\" and \"SNOMED CT\" are registered trademarks of the IHTSDO https://www.snomed.org/get-snomed",
+  "caseSensitive" : true,
+  "valueSet" : "http://snomed.info/sct/11000315107/version/20260621?fhir_vs",
+  "hierarchyMeaning" : "is-a",
+  "compositional" : true,
+  "versionNeeded" : false,
+  "content" : "not-present",
+  "filter" : [{
+    "code" : "concept",
+    "description" : "Includes all concept ids that have a transitive is-a relationship with the code provided as the value.",
+    "operator" : ["is-a"],
+    "value" : "A SNOMED CT code"
+  },
+  {
+    "code" : "concept",
+    "description" : "Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.",
+    "operator" : ["descendent-of"],
+    "value" : "A SNOMED CT code"
+  },
+  {
+    "code" : "concept",
+    "description" : "Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.",
+    "operator" : ["in"],
+    "value" : "A SNOMED CT concept id"
+  },
+  {
+    "code" : "constraint",
+    "description" : "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.",
+    "operator" : ["="],
+    "value" : "A SNOMED CT Expression Constraint"
+  },
+  {
+    "code" : "expression",
+    "description" : "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.",
+    "operator" : ["="],
+    "value" : "A SNOMED CT Expression Constraint"
+  },
+  {
+    "code" : "parent",
+    "description" : "Includes all concept ids that have/do not have a parent concept.",
+    "operator" : ["exists",
+    "="],
+    "value" : "A boolean, to specifiy whether or not the property has a value."
+  },
+  {
+    "code" : "child",
+    "description" : "Includes all concept ids that have/do not have a child concept.",
+    "operator" : ["exists",
+    "="],
+    "value" : "A boolean, to specifiy whether or not the property has a value."
+  }],
+  "property" : [{
+    "code" : "inactive",
+    "description" : "Whether the code is active or not (defaults to false).",
+    "type" : "boolean"
+  },
+  {
+    "code" : "sufficientlyDefined",
+    "description" : "True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).",
+    "type" : "boolean"
+  },
+  {
+    "code" : "parent",
+    "description" : "The SNOMED CT concept id that is a direct parent of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "description" : "The SNOMED CT concept id that is a direct child of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "moduleId",
+    "description" : "The SNOMED CT concept id of the module that the concept belongs to.",
+    "type" : "code"
+  }]
+}

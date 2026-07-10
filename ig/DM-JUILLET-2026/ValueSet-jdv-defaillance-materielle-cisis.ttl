@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-defaillance-materielle-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-defaillance-materielle-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T13:58:38.913+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-defaillance-materielle-cisis</b></p><a name=\"jdv-defaillance-materielle-cisis\"> </a><a name=\"hcjdv-defaillance-materielle-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 13:58:38+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <code>https://www.imdrf.org</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td>A0705</td><td>Problème de batterie</td></tr><tr><td>A13</td><td>Problème de communication ou de transmission</td></tr><tr><td>A14</td><td>Problème de perfusion ou de débit</td></tr><tr><td>A150203</td><td>Difficulté ou retard lors de la pose du dispositif</td></tr><tr><td>A150206</td><td>Problème lié à l'insertion du dispositif</td></tr><tr><td>A1909</td><td>Problème d'approvisionnement en gaz médicaux</td></tr><tr><td>A191002</td><td>Problème d'alimentation en énergie</td></tr><tr><td>A20</td><td>Problème d'installation du dispositif</td></tr><tr><td>A22</td><td>Problème d'utilisation du dispositif</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-terminologie-emdn.html\"><code>https://smt.esante.gouv.fr/terminologie-emdn</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td>Z1203010101</td><td>APPAREILS D’ANESTHÉSIE</td></tr><tr><td>Z120303</td><td>ÉQUIPEMENTS DE PERFUSION</td></tr><tr><td>Z1203</td><td>ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES</td></tr><tr><td>Z1203019001</td><td>ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2020-12-16T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.526" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134041"] ;
+  fhir:ValueSet.name [ fhir:value "JdvDefaillanceMaterielleCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Defaillance Materielle CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:41+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Defaillance Materielle CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.imdrf.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A0705" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème de batterie" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème de communication ou de transmission" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème de perfusion ou de débit" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A150203" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Difficulté ou retard lors de la pose du dispositif" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A150206" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème lié à l'insertion du dispositif" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A1909" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème d'approvisionnement en gaz médicaux" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A191002" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème d'alimentation en énergie" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème d'installation du dispositif" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Problème d'utilisation du dispositif" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/terminologie-emdn" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z1203010101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "APPAREILS D’ANESTHÉSIE" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z120303" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ÉQUIPEMENTS DE PERFUSION" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z1203" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z1203019001" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-defaillance-materielle-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-quantite-exposition-rayonnements-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-quantite-exposition-rayonnements-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T13:59:49.027+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-quantite-exposition-rayonnements-cisis</b></p><a name=\"jdv-quantite-exposition-rayonnements-cisis\"> </a><a name=\"hcjdv-quantite-exposition-rayonnements-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 13:59:49+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://dicom.nema.org/resources/ontology/DCM\"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><span title=\"La version est explicitement indiquée comme étant 01\"> version ?01</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-111636\">111636</a></td><td>Dose dans l'air à l'entrée du patient (Kerma dans l'air)</td><td>Exposure measurement in air at the reference point that does not include back scatter, according to MQCM 1999</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-111637\">111637</a></td><td>DGM total : Dose Glandulaire Moyenne Total</td><td>Average Glandular Dose to a single breast accumulated over multiple images</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113722\">113722</a></td><td>PDS Total : Produit Dose Surface Total</td><td>Total calculated Dose Area Product (in the scope of the including report)</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113726\">113726</a></td><td>PDS de Scopie Total : Produit Dose Surface de Scopie Total</td><td>Total calculated Dose Area Product applied in Fluoroscopy Modes (in the scope of the including report)</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113727\">113727</a></td><td>PDS de Graphie Total : Produit Dose Surface de Graphie Total</td><td>Total calculated Dose Area Product applied in Acquisition Modes (in the scope of the including report)</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113730\">113730</a></td><td>Temps total de scopie</td><td>Total accumulated clock time of Fluoroscopy in the scope of the including report (i.e., the sum of the Irradiation Duration values for accumulated fluoroscopy irradiation events)</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113731\">113731</a></td><td>Nombre total d’images radiographiques</td><td>Accumulated Count of exposure pulses (single or multi-frame encoded) created from irradiation events performed with high dose (acquisition)</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113507\">113507</a></td><td>Activité administrée</td><td>The calculated activity at the Radiopharmaceutical Start Time when the radiopharmaceutical is administered to the patient. The residual activity (i.e. radiopharmaceutical not administered) , if measured, is reflected in the calculated value. The estimated extravasation is not reflected in the calculated value</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113813\">113813</a></td><td>PDL Total : Produit Dose Longueur Total</td><td>The total dose length product defined scope of accumulation</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113830\">113830</a></td><td>IDSV Moyen : Indice de Dose Scanographique Volumique</td><td>\"Mean CTDIvol\" refers to the average value of the CTDIvol associated with this acquisition</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-113839\">113839</a></td><td>E : Dose efficace</td><td>Effective dose in mSv</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2021-04-19T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.620" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134041"] ;
+  fhir:ValueSet.name [ fhir:value "JdvQuantiteExpositionRayonnementsCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Quantite Exposition Rayonnements CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:41+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Quantite Exposition Rayonnements CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://dicom.nema.org/resources/ontology/DCM" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "01" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111636" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dose dans l'air à l'entrée du patient (Kerma dans l'air)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111637" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DGM total : Dose Glandulaire Moyenne Total" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113722" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PDS Total : Produit Dose Surface Total" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113726" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PDS de Scopie Total : Produit Dose Surface de Scopie Total" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113727" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PDS de Graphie Total : Produit Dose Surface de Graphie Total" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113730" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Temps total de scopie" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113731" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nombre total d’images radiographiques" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113507" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Activité administrée" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113813" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PDL Total : Produit Dose Longueur Total" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113830" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IDSV Moyen : Indice de Dose Scanographique Volumique" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113839" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "E : Dose efficace" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-quantite-exposition-rayonnements-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

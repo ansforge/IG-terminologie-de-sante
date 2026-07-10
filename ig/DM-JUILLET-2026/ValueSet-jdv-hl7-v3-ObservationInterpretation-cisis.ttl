@@ -1,0 +1,225 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-hl7-v3-ObservationInterpretation-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:01:01.286+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v3-ObservationInterpretation-cisis</b></p><a name=\"jdv-hl7-v3-ObservationInterpretation-cisis\"> </a><a name=\"hcjdv-hl7-v3-ObservationInterpretation-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 14:01:01+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationInterpretation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></a><span title=\"La version est explicitement indiquée comme étant 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>&lt;</code></td><td>Inférieur à la limite de détection</td><td>The result is below the minimum detection limit (the test procedure or equipment is the limiting factor).<br/><br/>Synonyms: Below analytical limit, low off scale.</td></tr><tr><td><code>&gt;</code></td><td>Supérieur à la limite maximale de mesure</td><td>The result is above the maximum quantifiable limit (the test procedure or equipment is the limiting factor).<br/><br/>Synonyms: Above analytical limit, high off scale.</td></tr><tr><td><code>A</code></td><td>Anormal</td><td>The result or observation value is outside the reference range or expected norm (as defined for the respective test procedure).<br/><br/>\\[Note: Typically applies to non-numeric results.\\]</td></tr><tr><td><code>AA</code></td><td>Très anormal, alerte</td><td>The result or observation value is outside a reference range or expected norm at a level at which immediate action should be considered for patient safety (as defined for the respective test procedure).<br/><br/>\\[Note: Typically applies to non-numeric results. Analogous to critical/panic limits for numeric results.\\]</td></tr><tr><td><code>B</code></td><td>Amélioration</td><td>The current result or observation value has improved compared to the previous result or observation value (the change is significant as defined in the respective test procedure).<br/><br/>\\[Note: This can be applied to quantitative or qualitative observations.\\]</td></tr><tr><td><code>CAR</code></td><td>Porteur d'une forme altérée d'un gène</td><td>The patient is considered as carrier based on the testing results. A carrier is an individual who carries an altered form of a gene which can lead to having a child or offspring in future generations with a genetic disorder.</td></tr><tr><td><code>D</code></td><td>Diminution significative par rapport au résultat antérieur</td><td>The current result has decreased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td></tr><tr><td><code>DET</code></td><td>Détecté</td><td>The measurement of the specified component / analyte, organism or clinical sign above the limit of detection of the performed test or procedure.</td></tr><tr><td><code>E</code></td><td>Équivoque</td><td>The test or procedure was successfully performed, but the results are borderline and can neither be declared positive / negative nor detected / not detected according to the current established criteria.</td></tr><tr><td><code>EX</code></td><td>Hors seuils</td><td>The observation/test result is interpreted as being outside the inclusion range for a particular protocol within which the result is being reported.<br/><br/>**Example:** A positive result on a Hepatitis screening test.<br/><br/>*Open Issue:* EX, HX, LX: These three concepts do not seem to meet a clear need in the vocabulary, and their use in observation interpretation appears likely to be covered by other existing concepts (e.g., A, H, L). The only apparent significant difference is their reference to use in protocols for exclusion of study subjects. These concepts/codes were proposed by RCRIM for use in the CTLaboratory message. They were submitted and approved in the November 2005 Harmonization cycle in proposal \"030103C\\_VOCAB\\_RCRIM\\_l\\_quade\\_RCRIM Obs Interp\\_20051028154455\". However, this proposal was not fully implemented in the vocabulary. The proposal recommended creation of the x\\_ClinicalResearchExclusion domain in ObservationInterpretation with a value set including those three concepts/codes, but there is no subdomain of that name or equivalent with a binding to either of the value sets that contain these concepts/codes. Members of the OO WG have recently attempted to contact members of RCRIM regarding these concepts, both by email and at the recent WGM in Atlanta, without response. It is felt by OO that the best course of action to take at this time is to add this comprehensive Open Issue rather than deprecate these three concepts at this time, until further discussion is held.</td></tr><tr><td><code>EXP</code></td><td>Attendu</td><td>This result has been evaluated in light of known contraindicators. Once those contraindicators have been taken into account the result is determined to be \"Expected\" (e.g., presence of drugs in a patient that is taking prescription medication for pain management).</td></tr><tr><td><code>H</code></td><td>Anormalement haut</td><td>The result for a quantitative observation is above the upper limit of the reference range (as defined for the respective test procedure).<br/><br/>Synonym: Above high normal</td></tr><tr><td><code>HH</code></td><td>Très anormalement haut, alerte</td><td>The result for a quantitative observation is above a reference level at which immediate action should be considered for patient safety (as defined for the respective test procedure).<br/><br/>Synonym: Above upper panic limits.</td></tr><tr><td><code>HU</code></td><td>Significativement haut</td><td>A test result that is significantly higher than the reference (normal) or therapeutic interval, but has not reached the critically high value and might need special attention, as defined by the laboratory or the clinician.</td></tr><tr><td><code>HX</code></td><td>Hors seuil supérieur</td><td>The observation/test result is interpreted as being outside the inclusion range for a particular protocol within which the result is being reported.<br/><br/>**Example:** A positive result on a Hepatitis screening test.<br/><br/>*Open Issue:* EX, HX, LX: These three concepts do not seem to meet a clear need in the vocabulary, and their use in observation interpretation appears likely to be covered by other existing concepts (e.g., A, H, L). The only apparent significant difference is their reference to use in protocols for exclusion of study subjects. These concepts/codes were proposed by RCRIM for use in the CTLaboratory message. They were submitted and approved in the November 2005 Harmonization cycle in proposal \"030103C\\_VOCAB\\_RCRIM\\_l\\_quade\\_RCRIM Obs Interp\\_20051028154455\". However, this proposal was not fully implemented in the vocabulary. The proposal recommended creation of the x\\_ClinicalResearchExclusion domain in ObservationInterpretation with a value set including those three concepts/codes, but there is no subdomain of that name or equivalent with a binding to either of the value sets that contain these concepts/codes. Members of the OO WG have recently attempted to contact members of RCRIM regarding these concepts, both by email and at the recent WGM in Atlanta, without response. It is felt by OO that the best course of action to take at this time is to add this comprehensive Open Issue rather than deprecate these three concepts at this time, until further discussion is held.</td></tr><tr><td><code>I</code></td><td>Intermédiaire</td><td>Bacterial strain inhibited in vitro by a concentration of an antimicrobial agent that is associated with uncertain therapeutic effect. Reference: CLSI (http://www.clsi.org/Content/NavigationMenu/Resources/HarmonizedTerminologyDatabase/Harmonized\\_Terminolo.htm) Projects: ISO 20776-1, ISO 20776-2<br/><br/>\\[Note 1: Bacterial strains are categorized as intermediate by applying the appropriate breakpoints in a defined phenotypic test system.\\]<br/><br/>\\[Note 2: This class of susceptibility implies that an infection due to the isolate can be appropriately treated in body sites where the drugs are physiologically concentrated or when a high dosage of drug can be used.\\]<br/><br/>\\[Note 3: This class also indicates a \"buffer zone,\" to prevent small, uncontrolled, technical factors from causing major discrepancies in interpretations.\\]<br/><br/>\\[Note 4: These breakpoints can be altered due to changes in circumstances (e.g., changes in commonly used drug dosages, emergence of new resistance mechanisms).\\]</td></tr><tr><td><code>IE</code></td><td>Preuves insuffisantes</td><td>There is insufficient evidence that the species in question is a good target for therapy with the drug. A categorical interpretation is not possible.<br/><br/>\\[Note: A MIC with \"IE\" and/or a comment may be reported (without an accompanying S, I or R-categorization).\\]</td></tr><tr><td><code>IND</code></td><td>Indéterminé</td><td>The specified component / analyte, organism or clinical sign could neither be declared positive / negative nor detected / not detected by the performed test or procedure.<br/><br/>*Usage Note:* For example, if the specimen was degraded, poorly processed, or was missing the required anatomic structures, then \"indeterminate\" (i.e. \"cannot be determined\") is the appropriate response, not \"equivocal\".</td></tr><tr><td><code>L</code></td><td>Anormalement bas</td><td>The result for a quantitative observation is below the lower limit of the reference range (as defined for the respective test procedure).<br/><br/>Synonym: Below low normal</td></tr><tr><td><code>LL</code></td><td>Très anormalement bas, alerte</td><td>The result for a quantitative observation is below a reference level at which immediate action should be considered for patient safety (as defined for the respective test procedure).<br/><br/>Synonym: Below lower panic limits.</td></tr><tr><td><code>LU</code></td><td>Significativement bas</td><td>A test result that is significantly lower than the reference (normal) or therapeutic interval, but has not reached the critically low value and might need special attention, as defined by the laboratory or the clinician.</td></tr><tr><td><code>LX</code></td><td>Hors seuil inférieur</td><td>The numeric observation/test result is interpreted as being below the low threshold value for a particular protocol within which the result is being reported.<br/><br/>**Example:** A Total White Blood Cell Count falling below a protocol-defined threshold value of 3000/mm^3<br/><br/>*Open Issue:* EX, HX, LX: These three concepts do not seem to meet a clear need in the vocabulary, and their use in observation interpretation appears likely to be covered by other existing concepts (e.g., A, H, L). The only apparent significant difference is their reference to use in protocols for exclusion of study subjects. These concepts/codes were proposed by RCRIM for use in the CTLaboratory message. They were submitted and approved in the November 2005 Harmonization cycle in proposal \"030103C\\_VOCAB\\_RCRIM\\_l\\_quade\\_RCRIM Obs Interp\\_20051028154455\". However, this proposal was not fully implemented in the vocabulary. The proposal recommended creation of the x\\_ClinicalResearchExclusion domain in ObservationInterpretation with a value set including those three concepts/codes, but there is no subdomain of that name or equivalent with a binding to either of the value sets that contain these concepts/codes. Members of the OO WG have recently attempted to contact members of RCRIM regarding these concepts, both by email and at the recent WGM in Atlanta, without response. It is felt by OO that the best course of action to take at this time is to add this comprehensive Open Issue rather than deprecate these three concepts at this time, until further discussion is held.</td></tr><tr><td><code>N</code></td><td>Normal</td><td>The result or observation value is within the reference range or expected norm (as defined for the respective test procedure).<br/><br/>\\[Note: Applies to numeric or non-numeric results.\\]</td></tr><tr><td><code>NCL</code></td><td>Pas de standard défini</td><td>Use when not enough clinical trial data published by the Clinical and Laboratory Standards Institutes (CLSI) is available to establish the breakpoints for susceptible / intermediate and resistant.</td></tr><tr><td><code>ND</code></td><td>Non détecté</td><td>The presence of the specified component / analyte, organism or clinical sign could not be determined within the limit of detection of the performed test or procedure.</td></tr><tr><td><code>NEG</code></td><td>Négatif</td><td>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.<br/><br/>\\[Note: Negative does not necessarily imply the complete absence of the specified item.\\]</td></tr><tr><td><code>NR</code></td><td>Non réactif</td><td>An absence finding used to indicate that the specified component / analyte did not react measurably with the reagent.</td></tr><tr><td><code>NS</code></td><td>Non sensible</td><td>A category used for isolates for which only a susceptible interpretive criterion has been designated because of the absence or rare occurrence of resistant strains. Isolates that have MICs above or zone diameters below the value indicated for the susceptible breakpoint should be reported as non-susceptible.<br/><br/>NOTE 1: An isolate that is interpreted as non-susceptible does not necessarily mean that the isolate has a resistance mechanism. It is possible that isolates with MICs above the susceptible breakpoint that lack resistance mechanisms may be encountered within the wild-type distribution subsequent to the time the susceptible-only breakpoint is set.<br/><br/>NOTE 2: For strains yielding results in the \"nonsusceptible\" category, organism identification and antimicrobial susceptibility test results should be confirmed.<br/><br/>Synonym: decreased susceptibility.</td></tr><tr><td><code>POS</code></td><td>Positif</td><td>A presence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</td></tr><tr><td><code>R</code></td><td>Résistant</td><td>Bacterial strain inhibited in vitro by a concentration of an antimicrobial agent that is associated with a high likelihood of therapeutic failure. Reference: CLSI (http://www.clsi.org/Content/NavigationMenu/Resources/HarmonizedTerminologyDatabase/Harmonized\\_Terminolo.htm) Projects: ISO 20776-1, ISO 20776-2<br/><br/>\\[Note 1: Bacterial strains are categorized as resistant by applying the appropriate breakpoints in a defined phenotypic test system.\\]<br/><br/>\\[Note 2: This breakpoint can be altered due to changes in circumstances (e.g., changes in commonly used drug dosages, emergence of new resistance mechanisms).\\]</td></tr><tr><td><code>RR</code></td><td>Réactif</td><td>A presence finding used to indicate that the specified component / analyte reacted with the reagent above the reliably measurable limit of the performed test.</td></tr><tr><td><code>S</code></td><td>Sensible</td><td>Bacterial strain inhibited by in vitro concentration of an antimicrobial agent that is associated with a high likelihood of therapeutic success. Reference: CLSI (http://www.clsi.org/Content/NavigationMenu/Resources/HarmonizedTerminologyDatabase/Harmonized\\_Terminolo.htm) Synonym (earlier term): Sensitive Projects: ISO 20776-1, ISO 20776-2<br/><br/>\\[Note 1: Bacterial strains are categorized as susceptible by applying the appropriate breakpoints in a defined phenotypic system.\\]<br/><br/>\\[Note 2: This breakpoint can be altered due to changes in circumstances (e.g., changes in commonly used drug dosages, emergence of new resistance mechanisms).\\]</td></tr><tr><td><code>SDD</code></td><td>Sensible à forte dose</td><td>A category that includes isolates with antimicrobial agent minimum inhibitory concentrations (MICs) that approach usually attainable blood and tissue levels and for which response rates may be lower than for susceptible isolates.<br/><br/>Reference: CLSI document M44-A2 2009 \"Method for antifungal disk diffusion susceptibility testing of yeasts; approved guideline - second edition\" - page 2.</td></tr><tr><td><code>SYN-R</code></td><td>Synergie - résistant</td><td>A category for isolates where the bacteria (e.g. enterococci) are not susceptible in vitro to a combination therapy (e.g., high-level aminoglycoside and cell wall active agent). This is predictive that this combination therapy will not be effective.<br/><br/>*Usage Note:* Since the use of penicillin or ampicillin alone often results in treatment failure of serious enterococcal or other bacterial infections, combination therapy is usually indicated to enhance bactericidal activity. The synergy between a cell wall active agent (such as penicillin, ampicillin, or vancomycin) and an aminoglycoside (such as gentamicin, kanamycin or streptomycin) is best predicted by screening for high-level bacterial resistance to the aminoglycoside.<br/><br/>*Open Issue:* The print name of the code is very general and the description is very specific to a pair of classes of agents, which may lead to confusion of these concepts in the future should other synergies be found.</td></tr><tr><td><code>SYN-S</code></td><td>Synergie - sensible</td><td>A category for isolates where the bacteria (e.g. enterococci) are susceptible in vitro to a combination therapy (e.g., high-level aminoglycoside and cell wall active agent). This is predictive that this combination therapy will be effective.<br/><br/>*Usage Note:* Since the use of penicillin or ampicillin alone often results in treatment failure of serious enterococcal or other bacterial infections, combination therapy is usually indicated to enhance bactericidal activity. The synergy between a cell wall active agent (such as penicillin, ampicillin, or vancomycin) and an aminoglycoside (such as gentamicin, kanamycin or streptomycin) is best predicted by screening for high-level bacterial resistance to the aminoglycoside.<br/><br/>*Open Issue:* The print name of the code is very general and the description is very specific to a pair of classes of agents, which may lead to confusion of these concepts in the future should other synergies be found.</td></tr><tr><td><code>U</code></td><td>Augmentation significative par rapport au résultat antérieur</td><td>The current result has increased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td></tr><tr><td><code>UNE</code></td><td>Inattendu</td><td>This result has been evaluated in light of known contraindicators. Once those contraindicators have been taken into account the result is determined to be \"Unexpected\" (e.g., presence of non-prescribed drugs in a patient that is taking prescription medication for pain management).</td></tr><tr><td><code>W</code></td><td>Dégradation</td><td>The current result or observation value has degraded compared to the previous result or observation value (the change is significant as defined in the respective test procedure).<br/><br/>\\[Note: This can be applied to quantitative or qualitative observations.\\]</td></tr><tr><td><code>WR</code></td><td>Faiblement réactif</td><td>A weighted presence finding used to indicate that the specified component / analyte reacted with the reagent, but below the reliably measurable limit of the performed test.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.1.11.78" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "ObservationInterpretation"] ;
+  fhir:ValueSet.title [ fhir:value "ObservationInterpretation"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "ObservationInterpretation"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "4.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "<" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inférieur à la limite de détection" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value ">" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Supérieur à la limite maximale de mesure" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anormal" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Très anormal, alerte" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amélioration" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Porteur d'une forme altérée d'un gène" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diminution significative par rapport au résultat antérieur" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DET" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Détecté" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Équivoque" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hors seuils" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Attendu" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anormalement haut" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Très anormalement haut, alerte" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Significativement haut" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hors seuil supérieur" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "I" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intermédiaire" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Preuves insuffisantes" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indéterminé" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "L" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anormalement bas" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Très anormalement bas, alerte" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Significativement bas" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hors seuil inférieur" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Normal" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NCL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas de standard défini" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ND" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non détecté" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NEG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Négatif" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non réactif" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non sensible" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Positif" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Résistant" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réactif" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "S" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sensible" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SDD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sensible à forte dose" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SYN-R" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synergie - résistant" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SYN-S" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synergie - sensible" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Augmentation significative par rapport au résultat antérieur" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inattendu" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dégradation" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Faiblement réactif" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

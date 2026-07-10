@@ -1,0 +1,101 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-hl7-v3-RoleClassIngredientEntity-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:01:17.104+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v3-RoleClassIngredientEntity-cisis</b></p><a name=\"jdv-hl7-v3-RoleClassIngredientEntity-cisis\"> </a><a name=\"hcjdv-hl7-v3-RoleClassIngredientEntity-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 14:01:17+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleClass.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></a><span title=\"La version est explicitement indiquée comme étant 5.0.0\"> version ?5.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>INGR</code></td><td>Ingrédient</td><td>Relates a component (player) to a mixture (scoper). E.g., Glucose and Water are ingredients of D5W, latex may be an ingredient in a tracheal tube.</td></tr><tr><td><code>ACTI</code></td><td>Ingredient actif</td><td>**Definition:** a therapeutically active ingredient (player) in a mixture (scoper), where the mixture is typically a manufactured pharmaceutical. It is unknown if the quantity of such an ingredient is expressed precisely in terms of the playing ingredient substance, or, if it is specified in terms of a closely related substance (active moiety or reference substance).</td></tr><tr><td><code>ADJV</code></td><td>Adjuvant</td><td>A component (player) added to enhance the action of an active ingredient (scoper) (in the manner of a catalyst) but which has no active effect in and of itself. Such ingredients are significant in defining equivalence of products in a way that inactive ingredients are not.</td></tr><tr><td><code>ADTV</code></td><td>Additif</td><td>An ingredient (player) that is added to a base (scoper), that amounts to a minor part of the overall mixture.</td></tr><tr><td><code>BASE</code></td><td>Base</td><td>A base ingredient (player) is what comprises the major part of a mixture (scoper). E.g., Water in most i.v. solutions, or Vaseline in salves. Among all ingredients of a material, there should be only one base. A base substance can, in turn, be a mixture.</td></tr><tr><td><code>CNTM</code></td><td>Ingredient contaminant</td><td>An ingredient whose presence is not intended but may not be reasonably avoided given the circumstances of the mixture's nature or origin.</td></tr><tr><td><code>IACT</code></td><td>Ingredient inactif</td><td>An ingredient which is not considered therapeutically active, e.g., colors, flavors, stabilizers, or preservatives, fillers, or structural components added to an active ingredient in order to facilitate administration of the active ingredient but without being considered therapeutically active. An inactive ingredient need not be biologically inert, e.g., might be active as an allergen or might have a pleasant taste, but is not an essential constituent delivering the therapeutic effect.</td></tr><tr><td><code>MECH</code></td><td>Ingrédient mécanique</td><td>An ingredient (player) of a medication (scoper) that is inseparable from the active ingredients, but has no intended chemical or pharmaceutical effect itself, but which may have some systemic effect on the patient.<br/><br/>An example is a collagen matrix used as a base for transplanting skin cells. The collagen matrix can be left permanently in the graft site. Because it is of bovine origin, the patient may exhibit allergies or may have cultural objections to its use.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2021-10-29T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.1.11.10430" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "RoleClassIngredientEntity"] ;
+  fhir:ValueSet.title [ fhir:value "RoleClassIngredientEntity"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "RoleClassIngredientEntity"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleClass" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "5.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "INGR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ingrédient" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACTI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ingredient actif" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ADJV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adjuvant" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ADTV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Additif" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BASE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Base" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ingredient contaminant" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IACT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ingredient inactif" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MECH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ingrédient mécanique" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

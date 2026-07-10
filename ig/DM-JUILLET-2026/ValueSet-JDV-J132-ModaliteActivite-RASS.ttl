@@ -1,0 +1,783 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J132-ModaliteActivite-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J132-ModaliteActivite-RASS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "5" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:05:05.001+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J132-ModaliteActivite-RASS</b></p><a name=\"JDV-J132-ModaliteActivite-RASS\"> </a><a name=\"hcJDV-J132-ModaliteActivite-RASS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 5; Dernière mise à jour : 2026-07-06 19:05:05+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R275-ModaliteActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20231215120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-00\">00</a></td><td>Pas de modalité</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-01\">01</a></td><td>Gynécologie obstétrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-02\">02</a></td><td>Néonatologie sans soins intensifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-03\">03</a></td><td>Néonatologie avec soins intensifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-04\">04</a></td><td>Réanimation néonatale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-05\">05</a></td><td>Centre périnatal de proximité</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-06\">06</a></td><td>Générale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-07\">07</a></td><td>Infanto-juvénile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-08\">08</a></td><td>En milieu pénitentiaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-09\">09</a></td><td>Adulte (age &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-10\">10</a></td><td>Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-11\">11</a></td><td>Poumon</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-12\">12</a></td><td>Foie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-13\">13</a></td><td>Rein</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-22\">22</a></td><td>SAMU Service d'aide médicale urgente</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-23\">23</a></td><td>SU Structure des urgences</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-24\">24</a></td><td>SUP Structure des urgences pédiatriques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-26\">26</a></td><td>SMUR Structure mobile d'urgence et de réanimation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-27\">27</a></td><td>SMURP Structure mobile d'urgence et de réanimation pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-29\">29</a></td><td>SMUR Antenne</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-30\">30</a></td><td>USI Pneumologie Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-31\">31</a></td><td>Multi-organes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-40\">40</a></td><td>Hémodialyse en centre pour adultes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-41\">41</a></td><td>Hémodialyse en centre pour enfants</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-42\">42</a></td><td>Hémodialyse en unité médicalisée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-43\">43</a></td><td>Hémodialyse en unité d'auto dialyse simple</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-44\">44</a></td><td>Hémodialyse en unité d'auto dialyse assistée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-45\">45</a></td><td>Hémodialyse à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-46\">46</a></td><td>Dialyse péritonéale à domicile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-47\">47</a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'une AMP</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-48\">48</a></td><td>AMP clinique : prélèvement d'ovocytes en vue d'un don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-49\">49</a></td><td>AMP clinique : prélèvement de spermatozoïdes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-50\">50</a></td><td>AMP clinique : transfert des embryons en vue de leur implantation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-51\">51</a></td><td>Bio : préparation et conservation du sperme pour insémination artificielle</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-52\">52</a></td><td>AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-54\">54</a></td><td>AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-59\">59</a></td><td>AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-60\">60</a></td><td>DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-62\">62</a></td><td>DPN : Les examens en vue du diagnostic de maladies infectieuses</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-67\">67</a></td><td>Chimiothérapie ou autres traitements médicaux spécifiques du cancer</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-68\">68</a></td><td>Radiothérapie externe</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-69\">69</a></td><td>Chirurgie des cancers hors soumis à seuil</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-70\">70</a></td><td>Curiethérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-71\">71</a></td><td>Utilisation thérapeutique de radioéléments en sources non scellées</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-72\">72</a></td><td>Unité de dialyse saisonnière</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-73\">73</a></td><td>AMP Clinique : mise en oeuvre de l'accueil des embryons</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-74\">74</a></td><td>AMP Bio : conservation des embryons en vue d'un projet parental</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-75\">75</a></td><td>AMP Bio : conservation à usage autologue des gamètes et tissus germinaux</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-76\">76</a></td><td>Adulte et pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-77\">77</a></td><td>Enfant (&lt; de 6 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-78\">78</a></td><td>Juvénile (age &gt;= 6 ans et &lt; 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-79\">79</a></td><td>Pédiatrie - âges non différenciés</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-80\">80</a></td><td>AMP Bio : activité relative à la FIV avec ou sans micromanipulation</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-81\">81</a></td><td>Actes électrophysio de rythmologie intervent, stimul multi sites et défibril</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-82\">82</a></td><td>Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-83\">83</a></td><td>Actes portant sur les autres cardiopathies de l'adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-84\">84</a></td><td>Analyses cytogénétique, y compris les analyses cytogénétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-85\">85</a></td><td>Analyses de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-87\">87</a></td><td>Fonctionnelle cérébrale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-88\">88</a></td><td>Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-89\">89</a></td><td>Radiothérapie externe dérogatoire éloignement géographique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-90\">90</a></td><td>Chirurgie des cancers : digestif</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-91\">91</a></td><td>Chirurgie des cancers : sein</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-92\">92</a></td><td>Chirurgie des cancers : urologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-93\">93</a></td><td>Chirurgie des cancers : thorax</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-94\">94</a></td><td>Chirurgie des cancers : gynécologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-95\">95</a></td><td>Chirurgie des cancers : ORL et maxillo-faciale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-97\">97</a></td><td>Adulte (age &gt;=18 ans) dérogatoire éloignement géographique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-98\">98</a></td><td>Pédiatrique spécialisée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-99\">99</a></td><td>Sans autre indication</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AL\">AL</a></td><td>DPN : Les examens de biochimie portant sur les marqueurs sériques maternels</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AM\">AM</a></td><td>DPN : Les examens de biochimie foetale à visée diagnostique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AN\">AN</a></td><td>DPN : Les examens de génétique moléculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AP\">AP</a></td><td>DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AQ\">AQ</a></td><td>1ère administration à l'homme d'un médicament</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-AR\">AR</a></td><td>1ère administration à l'homme autre que médicament</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B1\">B1</a></td><td>Chirurgie orthopédique et traumatologique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B2\">B2</a></td><td>Chirurgie pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B3\">B3</a></td><td>Clinique ouverte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B4\">B4</a></td><td>Gériatrie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B5\">B5</a></td><td>Grands brûlés</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B7\">B7</a></td><td>Grands brûlés - Adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B8\">B8</a></td><td>Orthogénie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-B9\">B9</a></td><td>Grands brûlés - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C2\">C2</a></td><td>Adulte (âge &gt;=18 ans) - Traitement dont chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C4\">C4</a></td><td>Neurovasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C5\">C5</a></td><td>Obstétrique - Anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C6\">C6</a></td><td>Odontologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C7\">C7</a></td><td>Pédiatrique - Traitement dont chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C8\">C8</a></td><td>Pneumologie - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-C9\">C9</a></td><td>Polytraumatismes graves et complexes multiples</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D2\">D2</a></td><td>Réhabilitation et réinsertion psycho-sociale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D3\">D3</a></td><td>S.O.S. mains</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D4\">D4</a></td><td>Structure de sevrage niveau 2</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D5\">D5</a></td><td>Structure de sevrage niveau 3</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D6\">D6</a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D7\">D7</a></td><td>Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D8\">D8</a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge &gt;= 18 ans )</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-D9\">D9</a></td><td>Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E1\">E1</a></td><td>Traitements médicaux - Autres traitements spécifiques - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E2\">E2</a></td><td>Traitements médicaux - Autres traitements spécifiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E3\">E3</a></td><td>Traitements médicaux - Endoscopies digestives interventionnelles - Adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E4\">E4</a></td><td>Traumatismes cranio-cérébraux et médullaires</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E5\">E5</a></td><td>Unité Cognitivo-Comportementale - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E7\">E7</a></td><td>Unité d'Hébergement Renforcée</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E8\">E8</a></td><td>Unités de soins palliatifs à vocation régionale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-E9\">E9</a></td><td>Urologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F1\">F1</a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F2\">F2</a></td><td>USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F3\">F3</a></td><td>USI Dermato - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F5\">F5</a></td><td>USI Hémato - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F6\">F6</a></td><td>USI Hémato - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F7\">F7</a></td><td>USI Hématologie avec système de traitement de l'air</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-F8\">F8</a></td><td>USI hépato-gastro-entérologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G1\">G1</a></td><td>USI Maladie infectieuse - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G3\">G3</a></td><td>USI Néphrologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G5\">G5</a></td><td>USI Neuro - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G6\">G6</a></td><td>USI Neuro - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G8\">G8</a></td><td>Lit de Soins Intensifs - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-G9\">G9</a></td><td>USI Oncologie - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H1\">H1</a></td><td>USI Oncologie- Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H4\">H4</a></td><td>USI Pneumologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H5\">H5</a></td><td>USI Urologie - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H8\">H8</a></td><td>Prise en charge Covid long</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-H9\">H9</a></td><td>Vasculaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M0\">M0</a></td><td>Dépôt d'urgence</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M1\">M1</a></td><td>Dépôt de délivrance</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M2\">M2</a></td><td>Dépôt relais</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M3\">M3</a></td><td>A usage intérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M4\">M4</a></td><td>A usage intérieur et extérieur</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M5\">M5</a></td><td>CSH moelle osseuse allogéniques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M6\">M6</a></td><td>CSH moelle osseuse autologues</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M7\">M7</a></td><td>CSH sang périphérique allogéniques</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M8\">M8</a></td><td>CSH sang périphérique autologues</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-M9\">M9</a></td><td>CSH sang de cordon ou sang placentaire</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N0\">N0</a></td><td>Structure de sevrage niveau 2 ou 3</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N1\">N1</a></td><td>Unité de soins palliatifs</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N2\">N2</a></td><td>Lits identifiés (Médecine) - adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N3\">N3</a></td><td>Lits identifiés (Médecine) - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N4\">N4</a></td><td>Equipe mobile</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N5\">N5</a></td><td>Unité de soins intensifs (hors cardiologie)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N6\">N6</a></td><td>Unité de soins intensifs en cardiologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N7\">N7</a></td><td>USC polyvalente - adulte (adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N8\">N8</a></td><td>USC polyvalente - adulte (non adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-N9\">N9</a></td><td>USC polyvalente - pédiatrique (adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P0\">P0</a></td><td>USC polyvalente - pédiatrique (non adossée à une unité de réanimation)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P1\">P1</a></td><td>USC spécialisée cancérologie- pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P2\">P2</a></td><td>USC spécialisée transplantation d'organes - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P3\">P3</a></td><td>USC chirurgicale individualisée - pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P4\">P4</a></td><td>A l'occasion d'un prélèvement multi-organes</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P5\">P5</a></td><td>Adulte (âge &gt;=18 ans) - Traitement sans chimiothérapie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P6\">P6</a></td><td>Anesthésie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P7\">P7</a></td><td>Cardiologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P8\">P8</a></td><td>Cardiologie interventionnelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-P9\">P9</a></td><td>Centre de référence</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U0\">U0</a></td><td>Neurologie - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U1\">U1</a></td><td>Chambre stérile en hématologie</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U2\">U2</a></td><td>Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U3\">U3</a></td><td>Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U4\">U4</a></td><td>Chimiothérapie - Tumeurs solides - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U5\">U5</a></td><td>Chirurgie cancer - Os et tissus mous - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U6\">U6</a></td><td>Chirurgie cancer - Autres traitements spécifiques - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U8\">U8</a></td><td>Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-U9\">U9</a></td><td>Chirurgie cancer - Cancer Thyroïde - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V1\">V1</a></td><td>Chirurgie cancer - Cancers cutanés - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V2\">V2</a></td><td>Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V3\">V3</a></td><td>Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V4\">V4</a></td><td>Chirurgie cancer - Pathologies orthopédiques - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V5\">V5</a></td><td>Chirurgie cancer - Pathologies viscérales - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V6\">V6</a></td><td>Chirurgie cancer - Système nerveux central - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V7\">V7</a></td><td>Chirurgie cancer - Système nerveux central - Adulte (âge &gt;= 18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V8\">V8</a></td><td>Chirurgie complexe de la main</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-V9\">V9</a></td><td>Chirurgie digestive et viscérale</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W1\">W1</a></td><td>Unité péri-opératoire gériatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W2\">W2</a></td><td>Lits identifiés (SSR) - adulte</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W3\">W3</a></td><td>Lits identifiés (SSR) - Pédiatrique</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W4\">W4</a></td><td>Lit de Soins Intensifs - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W5\">W5</a></td><td>USPC - Adulte (âge &gt;=18 ans)</td></tr><tr><td><a href=\"CodeSystem-TRE-R275-ModaliteActivite.html#TRE-R275-ModaliteActivite-W6\">W6</a></td><td>USPC - Pédiatrique</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2020-11-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.218" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20220325120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J132_ModaliteActivite_RASS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2022-03-25T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Mode d'application ou type de soins encadrant une activité dans le RASS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "00" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pas de modalité" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "01" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gynécologie obstétrique" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Néonatologie sans soins intensifs" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "03" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Néonatologie avec soins intensifs" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "04" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réanimation néonatale" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre périnatal de proximité" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "06" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Générale" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "07" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infanto-juvénile" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "08" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "En milieu pénitentiaire" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "09" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adulte (age >=18 ans)" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pédiatrique" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poumon" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foie" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rein" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAMU Service d'aide médicale urgente" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SU Structure des urgences" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SUP Structure des urgences pédiatriques" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SMUR Structure mobile d'urgence et de réanimation" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SMURP Structure mobile d'urgence et de réanimation pédiatrique" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SMUR Antenne" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Pneumologie Pédiatrique" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Multi-organes" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse en centre pour adultes" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse en centre pour enfants" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse en unité médicalisée" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse en unité d'auto dialyse simple" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse en unité d'auto dialyse assistée" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémodialyse à domicile" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "46" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dialyse péritonéale à domicile" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP clinique : prélèvement d'ovocytes en vue d'une AMP" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "48" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP clinique : prélèvement d'ovocytes en vue d'un don" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "49" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP clinique : prélèvement de spermatozoïdes" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP clinique : transfert des embryons en vue de leur implantation" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bio : préparation et conservation du sperme pour insémination artificielle" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : recueil, prép, conservation et mise à disposition du sperme pour don" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "54" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : prépa, conservation et mise à disposition d'ovocytes en vue d'un don" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : Conservation des embryons pour accueil et mise en oeuvre de celui-ci" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Exams de cytogénétique inclus exams moléculaires appliqués cytogénétique" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "62" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Les examens en vue du diagnostic de maladies infectieuses" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "67" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chimiothérapie ou autres traitements médicaux spécifiques du cancer" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "68" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Radiothérapie externe" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers hors soumis à seuil" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Curiethérapie" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "71" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Utilisation thérapeutique de radioéléments en sources non scellées" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité de dialyse saisonnière" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "73" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Clinique : mise en oeuvre de l'accueil des embryons" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : conservation des embryons en vue d'un projet parental" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : conservation à usage autologue des gamètes et tissus germinaux" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "76" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adulte et pédiatrique" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enfant (< de 6 ans)" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Juvénile (age >= 6 ans et < 18 ans)" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "79" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pédiatrie - âges non différenciés" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMP Bio : activité relative à la FIV avec ou sans micromanipulation" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Actes électrophysio de rythmologie intervent, stimul multi sites et défibril" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "82" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Actes sur cardiopathies enfant, y compris éventuelles ré-interventions adulte" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Actes portant sur les autres cardiopathies de l'adulte" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "84" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Analyses cytogénétique, y compris les analyses cytogénétique moléculaire" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Analyses de génétique moléculaire" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fonctionnelle cérébrale" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "88" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Radiochirurgie intracrânienne et extracrânienne en conditions stéréotaxiques" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Radiothérapie externe dérogatoire éloignement géographique" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "90" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : digestif" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "91" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : sein" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "92" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : urologie" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "93" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : thorax" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "94" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : gynécologie" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "95" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie des cancers : ORL et maxillo-faciale" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "97" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adulte (age >=18 ans) dérogatoire éloignement géographique" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "98" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pédiatrique spécialisée" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sans autre indication" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Les examens de biochimie portant sur les marqueurs sériques maternels" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Les examens de biochimie foetale à visée diagnostique" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Les examens de génétique moléculaire" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPN : Exams de génétique sur l'ADN foetal libre circulant dans le sang maternel" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "1ère administration à l'homme d'un médicament" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "1ère administration à l'homme autre que médicament" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie orthopédique et traumatologique" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie pédiatrique" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Clinique ouverte" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gériatrie" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grands brûlés" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grands brûlés - Adulte" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Orthogénie" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "B9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grands brûlés - Pédiatrique" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adulte (âge >=18 ans) - Traitement dont chimiothérapie" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Neurovasculaire" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Obstétrique - Anesthésie" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Odontologie" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pédiatrique - Traitement dont chimiothérapie" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pneumologie - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polytraumatismes graves et complexes multiples" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réhabilitation et réinsertion psycho-sociale" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "S.O.S. mains" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure de sevrage niveau 2" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure de sevrage niveau 3" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Allogreffes de moelle osseuse - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Allogreffes de moelle osseuse - Pédiatrique" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Autogreffes de moelle osseuse - Adulte (âge >= 18 ans )" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Autogreffes de moelle osseuse - Pédiatrique" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Autres traitements spécifiques - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Autres traitements spécifiques - Pédiatrique" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements médicaux - Endoscopies digestives interventionnelles - Adulte" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traumatismes cranio-cérébraux et médullaires" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité Cognitivo-Comportementale - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité d'Hébergement Renforcée" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unités de soins palliatifs à vocation régionale" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "E9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urologie" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Chirurgie thoracique et cardio-vasculaire - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Chirurgie thoracique et cardio-vasculaire - Pédiatrique" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Dermato - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Hémato - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Hémato - Pédiatrique" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Hématologie avec système de traitement de l'air" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI hépato-gastro-entérologie - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Maladie infectieuse - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Néphrologie - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Neuro - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Neuro - Pédiatrique" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lit de Soins Intensifs - Pédiatrique" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "G9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Oncologie - Pédiatrique" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Oncologie- Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Pneumologie - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USI Urologie - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prise en charge Covid long" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vasculaire" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dépôt d'urgence" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dépôt de délivrance" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dépôt relais" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "A usage intérieur" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "A usage intérieur et extérieur" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSH moelle osseuse allogéniques" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSH moelle osseuse autologues" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSH sang périphérique allogéniques" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSH sang périphérique autologues" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSH sang de cordon ou sang placentaire" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure de sevrage niveau 2 ou 3" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité de soins palliatifs" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits identifiés (Médecine) - adulte" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits identifiés (Médecine) - pédiatrique" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipe mobile" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité de soins intensifs (hors cardiologie)" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité de soins intensifs en cardiologie" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC polyvalente - adulte (adossée à une unité de réanimation)" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC polyvalente - adulte (non adossée à une unité de réanimation)" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC polyvalente - pédiatrique (adossée à une unité de réanimation)" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC polyvalente - pédiatrique (non adossée à une unité de réanimation)" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC spécialisée cancérologie- pédiatrique" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC spécialisée transplantation d'organes - pédiatrique" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USC chirurgicale individualisée - pédiatrique" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "A l'occasion d'un prélèvement multi-organes" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adulte (âge >=18 ans) - Traitement sans chimiothérapie" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anesthésie" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cardiologie" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cardiologie interventionnelle" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de référence" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Neurologie - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre stérile en hématologie" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chimiothérapie - Hémopathies malignes (certains types) - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chimiothérapie - Hémopathies malignes (tous types) - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chimiothérapie - Tumeurs solides - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Os et tissus mous - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Autres traitements spécifiques - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Cancer in situ du col de l'utérus - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Cancer Thyroïde - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Cancers cutanés - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Pathologies ophtalmologiques - Pédiatrique" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Pathologies ORL et maxillo-faciales - Pédiatrique" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Pathologies orthopédiques - Pédiatrique" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Pathologies viscérales - Pédiatrique" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Système nerveux central - Pédiatrique" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie cancer - Système nerveux central - Adulte (âge >= 18 ans)" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie complexe de la main" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "V9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chirurgie digestive et viscérale" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité péri-opératoire gériatrique" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits identifiés (SSR) - adulte" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits identifiés (SSR) - Pédiatrique" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lit de Soins Intensifs - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USPC - Adulte (âge >=18 ans)" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "W6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "USPC - Pédiatrique" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J132-ModaliteActivite-RASS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,407 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J279-Loinc-UPNOS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J279-Loinc-UPNOS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "7" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:06:27.756+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J279-Loinc-UPNOS</b></p><a name=\"JDV-J279-Loinc-UPNOS\"> </a><a name=\"hcJDV-J279-Loinc-UPNOS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 7; Dernière mise à jour : 2026-07-06 19:06:27+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://loinc.org/11369-6/\">11369-6</a></td><td>Historique des vaccinations</td></tr><tr><td><a href=\"https://loinc.org/11488-4/\">11488-4</a></td><td>CR ou fiche de consultation ou de visite</td></tr><tr><td><a href=\"https://loinc.org/11490-0/\">11490-0</a></td><td>Lettre de liaison à la sortie d'un établissement de soins</td></tr><tr><td><a href=\"https://loinc.org/11502-2/\">11502-2</a></td><td>CR d'examens biologiques</td></tr><tr><td><a href=\"https://loinc.org/11505-5/\">11505-5</a></td><td>CR d'acte thérapeutique (autre)</td></tr><tr><td><a href=\"https://loinc.org/11506-3/\">11506-3</a></td><td>CR ou fiche de suivi de soins par auxiliaire médical</td></tr><tr><td><a href=\"https://loinc.org/15507-7/\">15507-7</a></td><td>CR de passage aux urgences</td></tr><tr><td><a href=\"https://loinc.org/15508-5/\">15508-5</a></td><td>CR d'accouchement</td></tr><tr><td><a href=\"https://loinc.org/18748-4/\">18748-4</a></td><td>CR d'imagerie médicale</td></tr><tr><td><a href=\"https://loinc.org/18761-7/\">18761-7</a></td><td>Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)</td></tr><tr><td><a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td>Plan personnalisé de soins</td></tr><tr><td><a href=\"https://loinc.org/28617-9/\">28617-9</a></td><td>Bilan bucco-dentaire</td></tr><tr><td><a href=\"https://loinc.org/28653-4/\">28653-4</a></td><td>Document du secteur social / médico-social</td></tr><tr><td><a href=\"https://loinc.org/29274-8/\">29274-8</a></td><td>Mesures de signes vitaux</td></tr><tr><td><a href=\"https://loinc.org/34112-3/\">34112-3</a></td><td>CR hospitalier (séjour)</td></tr><tr><td><a href=\"https://loinc.org/34120-6/\">34120-6</a></td><td>Bilan par professionnel de santé</td></tr><tr><td><a href=\"https://loinc.org/34133-9/\">34133-9</a></td><td>Synthèse d'épisode de soins</td></tr><tr><td><a href=\"https://loinc.org/34749-2/\">34749-2</a></td><td>CR de consultation pré-anesthésique</td></tr><tr><td><a href=\"https://loinc.org/34794-8/\">34794-8</a></td><td>CR de réunion de concertation pluridisciplinaire</td></tr><tr><td><a href=\"https://loinc.org/34842-5/\">34842-5</a></td><td>Grille d'évaluation médico-social</td></tr><tr><td><a href=\"https://loinc.org/34874-8/\">34874-8</a></td><td>CR opératoire</td></tr><tr><td><a href=\"https://loinc.org/34875-5/\">34875-5</a></td><td>Évaluation postopératoire et note de suivi</td></tr><tr><td><a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td>CR de bilan fonctionnel</td></tr><tr><td><a href=\"https://loinc.org/51851-4/\">51851-4</a></td><td>Document administratif</td></tr><tr><td><a href=\"https://loinc.org/51969-4/\">51969-4</a></td><td>CR de génétique moléculaire</td></tr><tr><td><a href=\"https://loinc.org/52040-3/\">52040-3</a></td><td>Document encapsulant une image d'illustration non DICOM</td></tr><tr><td><a href=\"https://loinc.org/55115-0/\">55115-0</a></td><td>Demande d'actes d'imagerie</td></tr><tr><td><a href=\"https://loinc.org/56445-0/\">56445-0</a></td><td>Bilan médicamenteux (Officine)</td></tr><tr><td><a href=\"https://loinc.org/56446-8/\">56446-8</a></td><td>Notification de rendez-vous</td></tr><tr><td><a href=\"https://loinc.org/57828-6/\">57828-6</a></td><td>Prescription (autre)</td></tr><tr><td><a href=\"https://loinc.org/57832-8/\">57832-8</a></td><td>Prescription de soins</td></tr><tr><td><a href=\"https://loinc.org/57833-6/\">57833-6</a></td><td>Prescription de produits de santé</td></tr><tr><td><a href=\"https://loinc.org/59283-2/\">59283-2</a></td><td>CR d'examen de l'enfant</td></tr><tr><td><a href=\"https://loinc.org/59284-0/\">59284-0</a></td><td>Attestation de consentement</td></tr><tr><td><a href=\"https://loinc.org/60280-5/\">60280-5</a></td><td>Fiche de retour du service des urgences</td></tr><tr><td><a href=\"https://loinc.org/60568-3/\">60568-3</a></td><td>CR d'anatomie et de cytologie pathologiques</td></tr><tr><td><a href=\"https://loinc.org/60591-5/\">60591-5</a></td><td>Synthèse médicale</td></tr><tr><td><a href=\"https://loinc.org/60593-1/\">60593-1</a></td><td>Dispensation médicamenteuse</td></tr><tr><td><a href=\"https://loinc.org/61357-0/\">61357-0</a></td><td>Intervention pharmaceutique</td></tr><tr><td><a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td>CR d'admission</td></tr><tr><td><a href=\"https://loinc.org/68599-0/\">68599-0</a></td><td>Synthèse psychiatrique</td></tr><tr><td><a href=\"https://loinc.org/68817-6/\">68817-6</a></td><td>Bilan de santé et de prévention de l'enfant</td></tr><tr><td><a href=\"https://loinc.org/70004-7/\">70004-7</a></td><td>CR d'acte diagnostique (autre)</td></tr><tr><td><a href=\"https://loinc.org/74207-2/\">74207-2</a></td><td>Document de liaison d'urgence</td></tr><tr><td><a href=\"https://loinc.org/74465-6/\">74465-6</a></td><td>Questionnaire patient</td></tr><tr><td><a href=\"https://loinc.org/75468-9/\">75468-9</a></td><td>Renouvellement ordonnance par pharmacien correspondant</td></tr><tr><td><a href=\"https://loinc.org/75482-0/\">75482-0</a></td><td>CR d'acte thérapeutique à visée préventive</td></tr><tr><td><a href=\"https://loinc.org/75492-9/\">75492-9</a></td><td>CR d'acte diagnostique à visée préventive ou de dépistage</td></tr><tr><td><a href=\"https://loinc.org/75496-0/\">75496-0</a></td><td>Demande d'acte de télémédecine</td></tr><tr><td><a href=\"https://loinc.org/77436-4/\">77436-4</a></td><td>CR d'anesthésie</td></tr><tr><td><a href=\"https://loinc.org/77604-7/\">77604-7</a></td><td>Planification thérapeutique</td></tr><tr><td><a href=\"https://loinc.org/78341-5/\">78341-5</a></td><td>Fiche de transfert vers le service des urgences</td></tr><tr><td><a href=\"https://loinc.org/78513-9/\">78513-9</a></td><td>CR de consultation en ophtalmologie</td></tr><tr><td><a href=\"https://loinc.org/78601-2/\">78601-2</a></td><td>CR d'entretien pharmaceutique</td></tr><tr><td><a href=\"https://loinc.org/80565-5/\">80565-5</a></td><td>CR d'administration de médicaments</td></tr><tr><td><a href=\"https://loinc.org/80788-3/\">80788-3</a></td><td>Projet personnalisé d'accompagnement</td></tr><tr><td><a href=\"https://loinc.org/80820-4/\">80820-4</a></td><td>Formulaire de conciliation médicamenteuse (Hôpital)</td></tr><tr><td><a href=\"https://loinc.org/83836-7/\">83836-7</a></td><td>Schéma dentaire</td></tr><tr><td><a href=\"https://loinc.org/83901-9/\">83901-9</a></td><td>Bilan psychologique</td></tr><tr><td><a href=\"https://loinc.org/83981-1/\">83981-1</a></td><td>Lettre de liaison à la sortie d'une structure sociale ou médico-sociale</td></tr><tr><td><a href=\"https://loinc.org/85208-7/\">85208-7</a></td><td>CR de télémédecine</td></tr><tr><td><a href=\"https://loinc.org/86531-1/\">86531-1</a></td><td>Attestation de sortie</td></tr><tr><td><a href=\"https://loinc.org/87273-9/\">87273-9</a></td><td>Note de vaccination</td></tr><tr><td><a href=\"https://loinc.org/80771-9/\">80771-9</a></td><td>Projet d'accueil individualisé</td></tr><tr><td><a href=\"https://loinc.org/88348-8/\">88348-8</a></td><td>Lettre de liaison d'entrée en structure sociale ou médico-sociale</td></tr><tr><td><a href=\"https://loinc.org/88365-2/\">88365-2</a></td><td>Glucose avant repas</td></tr><tr><td><a href=\"https://loinc.org/83869-8/\">83869-8</a></td><td>Plan personnalisé de prévention</td></tr><tr><td><a href=\"https://loinc.org/89601-9/\">89601-9</a></td><td>Certificat médical</td></tr><tr><td><a href=\"https://loinc.org/93024-8/\">93024-8</a></td><td>CR de consultation pharmaceutique</td></tr><tr><td><a href=\"https://loinc.org/96173-0/\">96173-0</a></td><td>Test rapide d'orientation diagnostique</td></tr><tr><td><a href=\"https://loinc.org/96349-6/\">96349-6</a></td><td>Lettre d'adressage</td></tr><tr><td><a href=\"https://loinc.org/96874-3/\">96874-3</a></td><td>COVID-19 Attestation de vaccination</td></tr><tr><td><a href=\"https://loinc.org/2345-7/\">2345-7</a></td><td>Glucose</td></tr><tr><td><a href=\"https://loinc.org/4548-4/\">4548-4</a></td><td>Hémoglobine A1c %</td></tr><tr><td><a href=\"https://loinc.org/53049-3/\">53049-3</a></td><td>Glucose à jeun</td></tr><tr><td><a href=\"https://loinc.org/16915-1/\">16915-1</a></td><td>Glucose post prandial</td></tr><tr><td><a href=\"https://loinc.org/LA11865-5/\">LA11865-5</a></td><td>Après exercice</td></tr><tr><td><a href=\"https://loinc.org/LA46-8/\">LA46-8</a></td><td>Autre</td></tr><tr><td><a href=\"https://loinc.org/57055-6/\">57055-6</a></td><td>Synthèse antepartum</td></tr><tr><td><a href=\"https://loinc.org/57057-2/\">57057-2</a></td><td>Synthèse Salle de Naissance Mère</td></tr><tr><td><a href=\"https://loinc.org/57075-4/\">57075-4</a></td><td>Synthèse Salle de Naissance Enfant</td></tr><tr><td><a href=\"https://loinc.org/89235-6/\">89235-6</a></td><td>Synthèse Suites de Couches Mère</td></tr><tr><td><a href=\"https://loinc.org/78489-2/\">78489-2</a></td><td>Synthèse Enfant en Maternité</td></tr><tr><td><a href=\"https://loinc.org/89233-1/\">89233-1</a></td><td>CR de grossesse</td></tr><tr><td><a href=\"https://loinc.org/101881-1/\">101881-1</a></td><td>Carte d'implant</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2024-09-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J279-Loinc-UPNOS/FHIR/JDV-J279-Loinc-UPNOS"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.800" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20240927120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J279_Loinc_UPNOS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2024-09-27T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Termes LOINC utilisés"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11369-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Historique des vaccinations" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11488-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR ou fiche de consultation ou de visite" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11490-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lettre de liaison à la sortie d'un établissement de soins" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11502-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'examens biologiques" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11505-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'acte thérapeutique (autre)" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11506-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR ou fiche de suivi de soins par auxiliaire médical" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15507-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de passage aux urgences" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15508-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'accouchement" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18748-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'imagerie médicale" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18761-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Note de transfert (dont lettre de liaison à l'entrée en établissement de soins)" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18776-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plan personnalisé de soins" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28617-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilan bucco-dentaire" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28653-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Document du secteur social / médico-social" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29274-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mesures de signes vitaux" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34112-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR hospitalier (séjour)" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34120-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilan par professionnel de santé" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34133-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse d'épisode de soins" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34749-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de consultation pré-anesthésique" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34794-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de réunion de concertation pluridisciplinaire" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34842-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grille d'évaluation médico-social" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34874-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR opératoire" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34875-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Évaluation postopératoire et note de suivi" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47420-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de bilan fonctionnel" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51851-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Document administratif" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51969-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de génétique moléculaire" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52040-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Document encapsulant une image d'illustration non DICOM" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "55115-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Demande d'actes d'imagerie" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "56445-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilan médicamenteux (Officine)" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "56446-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Notification de rendez-vous" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57828-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prescription (autre)" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57832-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prescription de soins" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57833-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prescription de produits de santé" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59283-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'examen de l'enfant" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59284-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Attestation de consentement" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60280-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fiche de retour du service des urgences" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60568-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'anatomie et de cytologie pathologiques" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60591-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse médicale" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60593-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispensation médicamenteuse" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61357-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intervention pharmaceutique" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "67851-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'admission" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "68599-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse psychiatrique" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "68817-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilan de santé et de prévention de l'enfant" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70004-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'acte diagnostique (autre)" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74207-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Document de liaison d'urgence" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74465-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Questionnaire patient" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75468-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Renouvellement ordonnance par pharmacien correspondant" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75482-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'acte thérapeutique à visée préventive" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75492-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'acte diagnostique à visée préventive ou de dépistage" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75496-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Demande d'acte de télémédecine" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77436-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'anesthésie" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77604-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Planification thérapeutique" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78341-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fiche de transfert vers le service des urgences" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78513-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de consultation en ophtalmologie" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78601-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'entretien pharmaceutique" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80565-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR d'administration de médicaments" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80788-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Projet personnalisé d'accompagnement" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80820-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Formulaire de conciliation médicamenteuse (Hôpital)" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83836-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Schéma dentaire" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83901-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilan psychologique" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83981-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85208-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de télémédecine" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "86531-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Attestation de sortie" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87273-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Note de vaccination" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80771-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Projet d'accueil individualisé" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "88348-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lettre de liaison d'entrée en structure sociale ou médico-sociale" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "88365-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glucose avant repas" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83869-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plan personnalisé de prévention" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89601-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Certificat médical" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "93024-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de consultation pharmaceutique" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "96173-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Test rapide d'orientation diagnostique" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "96349-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lettre d'adressage" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "96874-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 Attestation de vaccination" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2345-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glucose" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "4548-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hémoglobine A1c %" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53049-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glucose à jeun" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16915-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glucose post prandial" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA11865-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Après exercice" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA46-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57055-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse antepartum" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57057-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse Salle de Naissance Mère" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57075-4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse Salle de Naissance Enfant" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89235-6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse Suites de Couches Mère" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78489-2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Synthèse Enfant en Maternité" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89233-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CR de grossesse" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "101881-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carte d'implant" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J279-Loinc-UPNOS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

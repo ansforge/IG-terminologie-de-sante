@@ -1,0 +1,159 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-nuva> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "terminologie-nuva"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "31" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T11:06:26.653+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem terminologie-nuva</b></p><a name=\"terminologie-nuva\"> </a><a name=\"hcterminologie-nuva\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 31; Dernière mise à jour : 2026-07-06 11:06:26+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>type</td><td>type</td><td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td><td>code</td><td/></tr><tr><td>created</td><td>created</td><td>http://purl.org/dc/terms/created</td><td>dateTime</td><td/></tr><tr><td>comment</td><td>comment</td><td>http://www.w3.org/2000/01/rdf-schema#comment</td><td>string</td><td/></tr><tr><td>modified</td><td>modified</td><td>http://purl.org/dc/terms/modified</td><td>dateTime</td><td/></tr><tr><td>containsValence</td><td>containsValence</td><td>http://data.esante.gouv.fr/NUVA/nuvs#containsValence</td><td>code</td><td/></tr><tr><td>isAbstract</td><td>isAbstract</td><td>http://data.esante.gouv.fr/NUVA/nuvs#isAbstract</td><td>boolean</td><td/></tr><tr><td>containedInVaccine</td><td>containedInVaccine</td><td>http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine</td><td>code</td><td/></tr><tr><td>prevents</td><td>prevents</td><td>http://data.esante.gouv.fr/NUVA/nuvs#prevents</td><td>code</td><td/></tr><tr><td>hiddenLabel</td><td>hiddenLabel</td><td>http://www.w3.org/2004/02/skos/core#hiddenLabel</td><td>string</td><td/></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-nuva</code> defines codes, but no codes are represented here</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/terminologie-nuva"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "usual" ] ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.3.6.1.4.1.48601.1" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.system [ fhir:value "https://smt.esante.gouv.fr/" ] ;
+     fhir:Identifier.value [ fhir:value "terminologie-nuva" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.1110"] ;
+  fhir:CodeSystem.name [ fhir:value "NUVA"] ;
+  fhir:CodeSystem.title [ fhir:value "Nomenclature Unifiée des Vaccins"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-05T00:00:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du numérique en santé"] ;
+  fhir:CodeSystem.description [ fhir:value "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "SYADEM"] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt.esante.gouv.fr/terminologie-nuva?vs" ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-nuva?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "not-present"] ;
+  fhir:CodeSystem.count [ fhir:value "1942"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "type" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "created" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/terms/created" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "comment" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2000/01/rdf-schema#comment" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "modified" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/terms/modified" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "containsValence" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/NUVA/nuvs#containsValence" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "isAbstract" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/NUVA/nuvs#isAbstract" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "containedInVaccine" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.property.code [ fhir:value "prevents" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/NUVA/nuvs#prevents" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.property.code [ fhir:value "hiddenLabel" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2004/02/skos/core#hiddenLabel" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des parents du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des enfants du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.property.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if the concept is imported from another code system." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.property.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-nuva.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

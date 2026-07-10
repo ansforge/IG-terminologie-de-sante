@@ -1,0 +1,281 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-hl7-v3-ParticipationType-cisis",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:59:38.793+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v3-ParticipationType-cisis</b></p><a name=\"jdv-hl7-v3-ParticipationType-cisis\"> </a><a name=\"hcjdv-hl7-v3-ParticipationType-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 9; Dernière mise à jour : 2026-04-20 16:59:38+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-ParticipationType.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationType</code></a><span title=\"La version est explicitement indiquée comme étant 6.0.0\"> version &#x1F4CD;6.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>ADM</code></td><td>Responsable de l'admission</td><td>The practitioner who is responsible for admitting a patient to a patient encounter.</td></tr><tr><td><code>ALY</code></td><td>Cible d'une observation (substance ou composant le plus spécifique)</td><td>The target of an Observation action. Links an observation to a Role whose player is the substance or most specific component entity (material, micro-organism, etc.) being measured within the subject.<br/><br/>*Examples:* A &quot;plasma porcelain substance concentration&quot; has analyte a Role with player substance Entity &quot;porcelain&quot;.<br/><br/>*UsageNotes:* The Role that this participation connects to may be any Role whose player is that substance measured. Very often, the scoper may indicate the system in which the component is being measured. E.g., for &quot;plasma porcelain&quot; the scoper could be &quot;Plasma&quot;.</td></tr><tr><td><code>ATND</code></td><td>Superviseur / Responsable des soins</td><td>The practitioner that has responsibility for overseeing a patient's care during a patient encounter.</td></tr><tr><td><code>AUT</code></td><td>Auteur</td><td>**Definition:** A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.<br/><br/>**Example:** the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship.<br/><br/>Examples of such policies might include:<br/><br/> *  The author and anyone they explicitly delegate may update the report;<br/> *  All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;<br/><br/>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</td></tr><tr><td><code>AUTHEN</code></td><td>Validateur</td><td>A verifier who attests to the accuracy of an act, but who does not have privileges to legally authenticate the act. An example would be a resident physician who sees a patient and dictates a note, then later signs it. Their signature constitutes an authentication.</td></tr><tr><td><code>BBY</code></td><td>Nouveau né</td><td>In an obstetric service, the baby.</td></tr><tr><td><code>BEN</code></td><td>Bénéficiaire</td><td>Target on behalf of whom the service happens, but that is not necessarily present in the service. Can occur together with direct target to indicate that a target is both, as in the case where the patient is the indirect beneficiary of a service rendered to a family member, e.g. counseling or given home care instructions. This concept includes a participant, such as a covered party, who derives benefits from a service act covered by a coverage act.<br/><br/>Note that the semantic role of the intended recipient who benefits from the happening denoted by the verb in the clause. Thus, a patient who has no coverage under a policy or program may be a beneficiary of a health service while not being the beneficiary of coverage for that service.</td></tr><tr><td><code>CAGNT</code></td><td>Agent causal</td><td>Definition: A factor, such as a microorganism, chemical substance, or form of radiation, whose presence, excessive presence, or (in deficiency diseases) relative absence is essential, in whole or in part, for the occurrence of a condition.<br/><br/>Constraint: The use of this participation is limited to observations.</td></tr><tr><td><code>CALLBCK</code></td><td>Contact à rappeler</td><td>A person or organization who should be contacted for follow-up questions about the act in place of the author.</td></tr><tr><td><code>CAT</code></td><td>Catalyseur</td><td>The catalyst of a chemical reaction, such as an enzyme or a platinum surface. In biochemical reactions, connects the enzyme with the molecular interaction</td></tr><tr><td><code>CON</code></td><td>Consultant</td><td>An advisor participating in the service by performing evaluations and making recommendations.</td></tr><tr><td><code>COV</code></td><td>Partie couverte (titulaire ou bénéficiaire)</td><td>The target participation for an individual in a health care coverage act in which the target role is either the policy holder of the coverage, or a covered party under the coverage.</td></tr><tr><td><code>CSM</code></td><td>Consommable</td><td>Participant material that is taken up, diminished, altered, or disappears in the act.</td></tr><tr><td><code>CST</code></td><td>Responsable de l'information</td><td>An entity (person, organization or device) that is in charge of maintaining the information of this act (e.g., who maintains the report or the master service catalog item, etc.).</td></tr><tr><td><code>DEV</code></td><td>Dispositif automatique impliqué dans la production des résultats</td><td>Participant used in performing the act without being substantially affected by the act (i.e. durable or inert with respect to that particular service).<br/><br/>*Examples:* monitoring equipment, tools, but also access/drainage lines, prostheses, pace maker, etc.</td></tr><tr><td><code>DIR</code></td><td>Participant direct</td><td>Target participant that is substantially present in the act and which is directly involved in the action (includes consumed material, devices, etc.).</td></tr><tr><td><code>DIS</code></td><td>Responsable de la sortie</td><td>The practitioner who is responsible for the discharge of a patient from a patient encounter.</td></tr><tr><td><code>DIST</code></td><td>Distributeur</td><td>Distributes material used in or generated during the act.</td></tr><tr><td><code>DON</code></td><td>Donneur</td><td>In some organ transplantation services and rarely in transfusion services a donor will be a target participant in the service. However, in most cases transplantation is decomposed in three services: explantation, transport, and implantation. The identity of the donor (recipient) is often irrelevant for the explantation (implantation) service.</td></tr><tr><td><code>DST</code></td><td>Destination</td><td>The destination for services. May be a static building (or room therein) or a movable facility (e.g., ship).</td></tr><tr><td><code>ELOC</code></td><td>Emplacement où les données sont saisies</td><td>A location where data about an Act was entered.</td></tr><tr><td><code>ENT</code></td><td>Transcripteur du contenu à partir d'une autre forme</td><td>A person entering the data into the originating system. The data entry person is collected optionally for internal quality control purposes. This includes the transcriptionist for dictated text.</td></tr><tr><td><code>ESC</code></td><td>Accompagnateur</td><td>Only with Transportation services. A person who escorts the patient.</td></tr><tr><td><code>EXPAGNT</code></td><td>Agent de l'exposition</td><td>**Description:** The entity playing the associated role is the physical (including energy), chemical or biological substance that is participating in the exposure. For example in communicable diseases, the associated playing entity is the disease causing pathogen.</td></tr><tr><td><code>EXPART</code></td><td>Partie de l'exposition</td><td>**Description:**Direct participation in an exposure act where it is unknown that the participant is the source or subject of the exposure. If the participant is known to be the contact of an exposure then the SBJ participation type should be used. If the participant is known to be the source then the EXSRC participation type should be used.</td></tr><tr><td><code>EXSRC</code></td><td>Source de l'exposition</td><td>**Description:**The entity playing the associated role is the source of exposure.</td></tr><tr><td><code>EXPTRGT</code></td><td>Cible de l'exposition</td><td>**Description:** The entity playing the associated role is the target (contact) of exposure.</td></tr><tr><td><code>GUAR</code></td><td>Garant</td><td>The target person or organization contractually recognized by the issuer as a participant who has assumed fiscal responsibility for another personaTMs financial obligations by guaranteeing to pay for amounts owed to a particular account<br/><br/>*Example:*The subscriber of the patientaTMs health insurance policy signs a contract with the provider to be fiscally responsible for the patient billing account balance amount owed.</td></tr><tr><td><code>HLD</code></td><td>Souscripteur</td><td>Participant who posses an instrument such as a financial contract (insurance policy) usually based on some agreement with the author.</td></tr><tr><td><code>IND</code></td><td>Cible indirecte</td><td>Target that is not substantially present in the act and which is not directly affected by the act, but which will be a focus of the record or documentation of the act.</td></tr><tr><td><code>INF</code></td><td>Informateur</td><td>A source of reported information (e.g., a next of kin who answers questions about the patient's history). For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.</td></tr><tr><td><code>IRCP</code></td><td>Destinataire de l'information</td><td>A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.&quot; Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.</td></tr><tr><td><code>LA</code></td><td>Responsable légal de l'acte</td><td>A verifier who legally authenticates the accuracy of an act. An example would be a staff physician who sees a patient and dictates a note, then later signs it. Their signature constitutes a legal authentication.</td></tr><tr><td><code>LOC</code></td><td>Emplacement principal</td><td>The facility where the service is done. May be a static building (or room therein) or a moving location (e.g., ambulance, helicopter, aircraft, train, truck, ship, etc.)</td></tr><tr><td><code>NRD</code></td><td>Dispositif non réutilisable</td><td>A device that changes ownership due to the service, e.g., a pacemaker, a prosthesis, an insulin injection equipment (pen), etc. Such material may need to be restocked after he service.</td></tr><tr><td><code>NOT</code></td><td>Personne à prévenir en cas d'urgence</td><td>An information recipient to notify for urgent matters about this Act. (e.g., in a laboratory order, critical results are being called by phone right away, this is the contact to call; or for an inpatient encounter, a next of kin to notify when the patient becomes critically ill).</td></tr><tr><td><code>NOTARY</code></td><td>Certificateur</td><td>The entity (person or organization) who legally attests that the information present in the Act is a true replica of an original.</td></tr><tr><td><code>ORG</code></td><td>Lieu d'origine</td><td>The location of origin for services. May be a static building (or room therein) or a movable facility (e.g., ship).</td></tr><tr><td><code>PART</code></td><td>Participant</td><td>Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.</td></tr><tr><td><code>PPRF</code></td><td>Exécutant principal</td><td>The principal or primary performer of the act.</td></tr><tr><td><code>PRCP</code></td><td>Destinataire principal de l'information</td><td>Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.</td></tr><tr><td><code>PRD</code></td><td>Produit</td><td>Participant material that is brought forth (produced) in the act (e.g., specimen in a specimen collection, access or drainage in a placement service, medication package in a dispense service). It does not matter whether the material produced had existence prior to the service, or whether it is created in the service (e.g., in supply services the product is taken from a stock).</td></tr><tr><td><code>PRF</code></td><td>Exécutant</td><td>**Definition:** A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention. Need not be the principal responsible actor.<br/><br/>**Exampe:** A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.<br/><br/>**Note:** that existing HL7 designs assign an organization as the playing entity of the Role that is the performer. These designs should be revised in subsequent releases to make this the scooping entity for the role involved.</td></tr><tr><td><code>RCT</code></td><td>Dossier médical</td><td>The record target indicates whose medical record holds the documentation of this act. This is especially important when the subject of a service is not the patient himself.</td></tr><tr><td><code>RCV</code></td><td>Récepteur</td><td>The person (or organization) who receives the product of an Act.</td></tr><tr><td><code>RDV</code></td><td>Dispositif réutilisable</td><td>A device that does not change ownership due to the service, i.e., a surgical instrument or tool or an endoscope. The distinction between reuseable and non-reuseable must be made in order to know whether material must be re-stocked.</td></tr><tr><td><code>REF</code></td><td>Référent / Prescripteur</td><td>A person having referred the subject of the service to the performer (referring physician). Typically, a referring physician will receive a report.</td></tr><tr><td><code>REFB</code></td><td>Personne ayant adressé le patient</td><td>A participant (e.g. provider) who has referred the subject of an act (e.g. patient).<br/><br/>Typically, a referred by participant will provide a report (e.g. referral).</td></tr><tr><td><code>REFT</code></td><td>Personne recevant le patient</td><td>The person who receives the patient</td></tr><tr><td><code>RESP</code></td><td>Responsable de l'acte</td><td>The person or organization that has primary responsibility for the act. The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact. This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.<br/><br/>*Example:* A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.</td></tr><tr><td><code>RML</code></td><td>Emplacement distant</td><td>Some services take place at multiple concurrent locations (e.g., telemedicine, telephone consultation). The location where the principal performing actor is located is taken as the primary location (LOC) while the other location(s) are considered &quot;remote.&quot;</td></tr><tr><td><code>SBJ</code></td><td>Sujet</td><td>The principle target on which the action happens.<br/><br/>*Examples:* The patient in physical examination, a specimen in a lab observation. May also be a patient's family member (teaching) or a device or room (cleaning, disinfecting, housekeeping).<br/><br/>*UsageNotes:* Not all direct targets are subjects. Consumables and devices used as tools for an act are not subjects. However, a device may be a subject of a maintenance action.</td></tr><tr><td><code>SPC</code></td><td>Echantillon</td><td>The subject of non-clinical (e.g. laboratory) observation services is a specimen.</td></tr><tr><td><code>SPRF</code></td><td>Exécutant secondaire</td><td>A person assisting in an act through his substantial presence and involvement This includes: assistants, technicians, associates, or whatever the job titles may be.</td></tr><tr><td><code>TRANS</code></td><td>Transcripteur</td><td>An entity entering the data into the originating system. The data entry entity is collected optionally for internal quality control purposes. This includes the transcriptionist for dictated text transcribed into electronic form.</td></tr><tr><td><code>TRC</code></td><td>Personne recevant une copie de l'information</td><td>A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).</td></tr><tr><td><code>VIA</code></td><td>Emplacement intermédiaire</td><td>For services, an intermediate location that specifies a path between origin an destination.</td></tr><tr><td><code>VRF</code></td><td>Vérificateur</td><td>A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.</td></tr><tr><td><code>WIT</code></td><td>Témoin</td><td>Only with service events. A person witnessing the action happening without doing anything. A witness is not necessarily aware, much less approves of anything stated in the service event. Example for a witness is students watching an operation or an advanced directive witness.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.10901"
+  }],
+  "version" : "20260420150251",
+  "name" : "ParticipationType",
+  "title" : "ParticipationType",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-04-20T15:02:51+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "ParticipationType",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "version" : "6.0.0",
+      "concept" : [{
+        "code" : "ADM",
+        "display" : "Responsable de l'admission"
+      },
+      {
+        "code" : "ALY",
+        "display" : "Cible d'une observation (substance ou composant le plus spécifique)"
+      },
+      {
+        "code" : "ATND",
+        "display" : "Superviseur / Responsable des soins"
+      },
+      {
+        "code" : "AUT",
+        "display" : "Auteur"
+      },
+      {
+        "code" : "AUTHEN",
+        "display" : "Validateur"
+      },
+      {
+        "code" : "BBY",
+        "display" : "Nouveau né"
+      },
+      {
+        "code" : "BEN",
+        "display" : "Bénéficiaire"
+      },
+      {
+        "code" : "CAGNT",
+        "display" : "Agent causal"
+      },
+      {
+        "code" : "CALLBCK",
+        "display" : "Contact à rappeler"
+      },
+      {
+        "code" : "CAT",
+        "display" : "Catalyseur"
+      },
+      {
+        "code" : "CON",
+        "display" : "Consultant"
+      },
+      {
+        "code" : "COV",
+        "display" : "Partie couverte (titulaire ou bénéficiaire)"
+      },
+      {
+        "code" : "CSM",
+        "display" : "Consommable"
+      },
+      {
+        "code" : "CST",
+        "display" : "Responsable de l'information"
+      },
+      {
+        "code" : "DEV",
+        "display" : "Dispositif automatique impliqué dans la production des résultats"
+      },
+      {
+        "code" : "DIR",
+        "display" : "Participant direct"
+      },
+      {
+        "code" : "DIS",
+        "display" : "Responsable de la sortie"
+      },
+      {
+        "code" : "DIST",
+        "display" : "Distributeur"
+      },
+      {
+        "code" : "DON",
+        "display" : "Donneur"
+      },
+      {
+        "code" : "DST",
+        "display" : "Destination"
+      },
+      {
+        "code" : "ELOC",
+        "display" : "Emplacement où les données sont saisies"
+      },
+      {
+        "code" : "ENT",
+        "display" : "Transcripteur du contenu à partir d'une autre forme"
+      },
+      {
+        "code" : "ESC",
+        "display" : "Accompagnateur"
+      },
+      {
+        "code" : "EXPAGNT",
+        "display" : "Agent de l'exposition"
+      },
+      {
+        "code" : "EXPART",
+        "display" : "Partie de l'exposition"
+      },
+      {
+        "code" : "EXSRC",
+        "display" : "Source de l'exposition"
+      },
+      {
+        "code" : "EXPTRGT",
+        "display" : "Cible de l'exposition"
+      },
+      {
+        "code" : "GUAR",
+        "display" : "Garant"
+      },
+      {
+        "code" : "HLD",
+        "display" : "Souscripteur"
+      },
+      {
+        "code" : "IND",
+        "display" : "Cible indirecte"
+      },
+      {
+        "code" : "INF",
+        "display" : "Informateur"
+      },
+      {
+        "code" : "IRCP",
+        "display" : "Destinataire de l'information"
+      },
+      {
+        "code" : "LA",
+        "display" : "Responsable légal de l'acte"
+      },
+      {
+        "code" : "LOC",
+        "display" : "Emplacement principal"
+      },
+      {
+        "code" : "NRD",
+        "display" : "Dispositif non réutilisable"
+      },
+      {
+        "code" : "NOT",
+        "display" : "Personne à prévenir en cas d'urgence"
+      },
+      {
+        "code" : "NOTARY",
+        "display" : "Certificateur"
+      },
+      {
+        "code" : "ORG",
+        "display" : "Lieu d'origine"
+      },
+      {
+        "code" : "PART",
+        "display" : "Participant"
+      },
+      {
+        "code" : "PPRF",
+        "display" : "Exécutant principal"
+      },
+      {
+        "code" : "PRCP",
+        "display" : "Destinataire principal de l'information"
+      },
+      {
+        "code" : "PRD",
+        "display" : "Produit"
+      },
+      {
+        "code" : "PRF",
+        "display" : "Exécutant"
+      },
+      {
+        "code" : "RCT",
+        "display" : "Dossier médical"
+      },
+      {
+        "code" : "RCV",
+        "display" : "Récepteur"
+      },
+      {
+        "code" : "RDV",
+        "display" : "Dispositif réutilisable"
+      },
+      {
+        "code" : "REF",
+        "display" : "Référent / Prescripteur"
+      },
+      {
+        "code" : "REFB",
+        "display" : "Personne ayant adressé le patient"
+      },
+      {
+        "code" : "REFT",
+        "display" : "Personne recevant le patient"
+      },
+      {
+        "code" : "RESP",
+        "display" : "Responsable de l'acte"
+      },
+      {
+        "code" : "RML",
+        "display" : "Emplacement distant"
+      },
+      {
+        "code" : "SBJ",
+        "display" : "Sujet"
+      },
+      {
+        "code" : "SPC",
+        "display" : "Echantillon"
+      },
+      {
+        "code" : "SPRF",
+        "display" : "Exécutant secondaire"
+      },
+      {
+        "code" : "TRANS",
+        "display" : "Transcripteur"
+      },
+      {
+        "code" : "TRC",
+        "display" : "Personne recevant une copie de l'information"
+      },
+      {
+        "code" : "VIA",
+        "display" : "Emplacement intermédiaire"
+      },
+      {
+        "code" : "VRF",
+        "display" : "Vérificateur"
+      },
+      {
+        "code" : "WIT",
+        "display" : "Témoin"
+      }]
+    }]
+  }
+}

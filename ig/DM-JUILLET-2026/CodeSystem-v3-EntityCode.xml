@@ -1,0 +1,2949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EntityCode"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2026-01-07T10:12:50.633+01:00"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Narratif généré : CodeSystem v3-EntityCode</b></p><a name="v3-EntityCode"> </a><a name="hcv3-EntityCode"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Concept Domain that classifies a RIM Class Code</td><td>rim-ClassifiesClassCode</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode</td><td>Coding</td><td>The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values.</td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code> defines the following codes dans une hiérarchie Is-A:</p><table class="codes"><tr><td><b>Niv</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Concept Domain that classifies a RIM Class Code</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>Not Selectable</b></td><td><b>Parent</b></td></tr><tr style="background-color: #ffeeee"><td>1</td><td style="white-space:nowrap">_MaterialEntityAdditive<a name="v3-EntityCode-_MaterialEntityAdditive"> </a></td><td>_MaterialEntityAdditive</td><td/><td>Déprécié</td><td/><td>23527</td><td>deprecated</td><td>2009-08-20</td><td>true</td><td/></tr><tr><td>1</td><td style="white-space:nowrap">_MaterialEntityClassType<a name="v3-EntityCode-_MaterialEntityClassType"> </a></td><td>MaterialEntityClassType</td><td><div><p>Types of Material for EntityClass &quot;MAT&quot;</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass MAT}">material</a></td><td>21066</td><td>active</td><td/><td>true</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  _ContainerEntityType<a name="v3-EntityCode-_ContainerEntityType"> </a></td><td>ContainerEntityType</td><td><div><p>Material intended to hold another material for purpose of storage or transport.</p>
+</div></td><td/><td/><td>21060</td><td>active</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr><td>3</td><td style="white-space:nowrap">    PKG<a name="v3-EntityCode-PKG"> </a></td><td>Package</td><td><div><p>A material intended to hold other materials for purposes of storage or transportation</p>
+</div></td><td/><td/><td>16144</td><td>active</td><td/><td/><td>_ContainerEntityType</td></tr><tr><td>4</td><td style="white-space:nowrap">      _NonRigidContainerEntityType<a name="v3-EntityCode-_NonRigidContainerEntityType"> </a></td><td>NonRigidContainerEntityType</td><td><div><p>A container having dimensions that adjust somewhat based on the amount and shape of the material placed within it.</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass CONT}">container</a></td><td>21069</td><td>active</td><td/><td>true</td><td>PKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        BAG<a name="v3-EntityCode-BAG"> </a></td><td>Bag</td><td><div><p>A pouched or pendulous container.</p>
+</div></td><td/><td/><td>16148</td><td>active</td><td/><td/><td>_NonRigidContainerEntityType</td></tr><tr><td>5</td><td style="white-space:nowrap">        PACKT<a name="v3-EntityCode-PACKT"> </a></td><td>Packet</td><td><div><p>A paper</p>
+</div></td><td/><td/><td>16149</td><td>active</td><td/><td/><td>_NonRigidContainerEntityType</td></tr><tr><td>5</td><td style="white-space:nowrap">        PCH<a name="v3-EntityCode-PCH"> </a></td><td>Pouch</td><td><div><p>A small bag or container made of a soft material.</p>
+</div></td><td/><td/><td>16151</td><td>active</td><td/><td/><td>_NonRigidContainerEntityType</td></tr><tr><td>5</td><td style="white-space:nowrap">        SACH<a name="v3-EntityCode-SACH"> </a></td><td>Sachet</td><td><div><p>A small bag or packet containing a small portion of a substance.</p>
+</div></td><td/><td/><td>16150</td><td>active</td><td/><td/><td>_NonRigidContainerEntityType</td></tr><tr><td>4</td><td style="white-space:nowrap">      _RigidContainerEntityType<a name="v3-EntityCode-_RigidContainerEntityType"> </a></td><td>RigidContainerEntityType</td><td><div><p>A container having a fixed and inflexible dimensions and volume</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass CONT}">container</a></td><td>21071</td><td>active</td><td/><td>true</td><td>PKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        _IndividualPackageEntityType<a name="v3-EntityCode-_IndividualPackageEntityType"> </a></td><td>IndividualPackageEntityType</td><td><div><p>Container intended to contain sufficient material for only one use.</p>
+</div></td><td/><td/><td>21062</td><td>active</td><td/><td>true</td><td>_RigidContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          AMP<a name="v3-EntityCode-AMP"> </a></td><td>Ampule</td><td><div><p>A small sealed glass container that holds a measured amount of a medicinal substance.</p>
+</div></td><td/><td/><td>16177</td><td>active</td><td/><td/><td>_IndividualPackageEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          MINIM<a name="v3-EntityCode-MINIM"> </a></td><td>Minim</td><td><div><p>Individually dosed ophthalmic solution. One time eye dropper dispenser.</p>
+</div></td><td/><td/><td>16178</td><td>active</td><td/><td/><td>_IndividualPackageEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          NEBAMP<a name="v3-EntityCode-NEBAMP"> </a></td><td>Nebuamp</td><td><div><p>Individually dosed inhalation solution.</p>
+</div></td><td/><td/><td>16179</td><td>active</td><td/><td/><td>_IndividualPackageEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          OVUL<a name="v3-EntityCode-OVUL"> </a></td><td>Ovule</td><td><div><p>A container either glass or plastic and a narrow neck, for storing liquid.</p>
+</div></td><td/><td/><td>16180</td><td>active</td><td/><td/><td>_IndividualPackageEntityType</td></tr><tr><td>5</td><td style="white-space:nowrap">        _MultiUseContainerEntityType<a name="v3-EntityCode-_MultiUseContainerEntityType"> </a></td><td>MultiUseContainerEntityType</td><td><div><p>A container intended to contain sufficient material for more than one use. (I.e. Material is intended to be removed from the container at more than one discrete time period.)</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass CONT}">container</a></td><td>21068</td><td>active</td><td/><td>true</td><td>_RigidContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          BOT<a name="v3-EntityCode-BOT"> </a></td><td>Bottle</td><td><div><p>A container, typically rounded, either glass or plastic with a narrow neck and capable of storing liquid.</p>
+</div></td><td/><td/><td>16155</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>7</td><td style="white-space:nowrap">            BOTA<a name="v3-EntityCode-BOTA"> </a></td><td>Amber Bottle</td><td><div><p>A bottle of yellow to brown color. Used to store light-sensitive materials</p>
+</div></td><td/><td/><td>16156</td><td>active</td><td/><td/><td>BOT</td></tr><tr><td>7</td><td style="white-space:nowrap">            BOTD<a name="v3-EntityCode-BOTD"> </a></td><td>Dropper Bottle</td><td><div><p>A bottle with a cap designed to release the contained liquid in droplets of a specific size.</p>
+</div></td><td/><td/><td>16157</td><td>active</td><td/><td/><td>BOT</td></tr><tr><td>7</td><td style="white-space:nowrap">            BOTG<a name="v3-EntityCode-BOTG"> </a></td><td>Glass Bottle</td><td><div><p>A bottle made of glass</p>
+</div></td><td/><td/><td>16158</td><td>active</td><td/><td/><td>BOT</td></tr><tr><td>7</td><td style="white-space:nowrap">            BOTP<a name="v3-EntityCode-BOTP"> </a></td><td>Plastic Bottle</td><td><div><p>A bottle made of plastic</p>
+</div></td><td/><td/><td>16159</td><td>active</td><td/><td/><td>BOT</td></tr><tr><td>8</td><td style="white-space:nowrap">              BOTPLY<a name="v3-EntityCode-BOTPLY"> </a></td><td>Polyethylene Bottle</td><td><div><p>A bottle made of polyethylene</p>
+</div></td><td/><td/><td>16160</td><td>active</td><td/><td/><td>BOTP</td></tr><tr><td>6</td><td style="white-space:nowrap">          BOX<a name="v3-EntityCode-BOX"> </a></td><td>Box</td><td><div><p>A 6-sided container commonly made from paper or cardboard used for solid forms.</p>
+</div></td><td/><td/><td>16154</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          CAN<a name="v3-EntityCode-CAN"> </a></td><td>Can</td><td><div><p>A metal container in which a material is hermetically sealed to enable storage over long periods.</p>
+</div></td><td/><td/><td>16161</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          CART<a name="v3-EntityCode-CART"> </a></td><td>Cartridge</td><td><div><p>A sealed container of liquid or powder intended to be loaded into a device.</p>
+</div></td><td/><td/><td>16163</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          CNSTR<a name="v3-EntityCode-CNSTR"> </a></td><td>Canister</td><td><div><p>A pressurized metal container holding a substance released as a spray or aerosol.</p>
+</div></td><td/><td/><td>16162</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          JAR<a name="v3-EntityCode-JAR"> </a></td><td>Jar</td><td><div><p>A container of glass, earthenware, plastic, etc. Top of the container has a diameter of similar size to the diameter of the container as a whole</p>
+</div></td><td/><td/><td>16164</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          JUG<a name="v3-EntityCode-JUG"> </a></td><td>Jug</td><td><div><p>A deep vessel for holding liquids, with a handle and often with a spout or lip shape for pouring.</p>
+</div></td><td/><td/><td>16165</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          TIN<a name="v3-EntityCode-TIN"> </a></td><td>Tin</td><td><div><p>A lidded container made of thin sheet metal.</p>
+</div></td><td/><td/><td>16166</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          TUB<a name="v3-EntityCode-TUB"> </a></td><td>Tub</td><td><div><p>An open flat bottomed round container.</p>
+</div></td><td/><td/><td>16167</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          TUBE<a name="v3-EntityCode-TUBE"> </a></td><td>Tube</td><td><div><p>A long hollow rigid or flexible cylinder. Material is extruded by squeezing the container.</p>
+</div></td><td/><td/><td>16168</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>6</td><td style="white-space:nowrap">          VIAL<a name="v3-EntityCode-VIAL"> </a></td><td>Vial</td><td><div><p>A small cylindrical glass for holding liquid medicines.</p>
+</div></td><td/><td/><td>16169</td><td>active</td><td/><td/><td>_MultiUseContainerEntityType</td></tr><tr><td>5</td><td style="white-space:nowrap">        BLSTRPK<a name="v3-EntityCode-BLSTRPK"> </a></td><td>Blister Pack</td><td><div><p>A bubblepack. Medications sealed individually, separated into doses.</p>
+</div></td><td/><td/><td>16171</td><td>active</td><td/><td/><td>_RigidContainerEntityType, COMPPKG</td></tr><tr><td>6</td><td style="white-space:nowrap">          CARD<a name="v3-EntityCode-CARD"> </a></td><td>Card</td><td><div><p>A bubble pack card. Multiple individual/separated doses.</p>
+</div></td><td/><td/><td>16172</td><td>active</td><td/><td/><td>BLSTRPK</td></tr><tr><td>4</td><td style="white-space:nowrap">      COMPPKG<a name="v3-EntityCode-COMPPKG"> </a></td><td>Compliance Package</td><td><div><p>A container intended to contain sufficient material for more than one use, but grouped or organized to provide individual access to sufficient material for a single use. Often used to ensure that the proper type and amount of material is consumed/expended for each use.</p>
+</div></td><td/><td/><td>16170</td><td>active</td><td/><td/><td>PKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        DIALPK<a name="v3-EntityCode-DIALPK"> </a></td><td>Dial Pack</td><td><div><p>Rotatable dispenser. Eg. Birth control package.</p>
+</div></td><td/><td/><td>16173</td><td>active</td><td/><td/><td>COMPPKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        DISK<a name="v3-EntityCode-DISK"> </a></td><td>Disk</td><td><div><p>Object that is thin, flat, and circular. Doses of medication often contained in bubbles on the disk.</p>
+</div></td><td/><td/><td>16174</td><td>active</td><td/><td/><td>COMPPKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        DOSET<a name="v3-EntityCode-DOSET"> </a></td><td>Dosette</td><td><div><p>Special packaging that will help patients take their medications on a regular basis.</p>
+</div></td><td/><td/><td>16175</td><td>active</td><td/><td/><td>COMPPKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        STRIP<a name="v3-EntityCode-STRIP"> </a></td><td>Strip</td><td><div><p>A continuous strip of plastic sectioned into individual pouches, each one containing the quantity of 1 or more medications intended to be administered at a specific time</p>
+</div></td><td/><td/><td>17849</td><td>active</td><td/><td/><td>COMPPKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        <a href="#v3-EntityCode-BLSTRPK">BLSTRPK</a></td><td>Blister Pack</td><td colspan="8"/></tr><tr><td>4</td><td style="white-space:nowrap">      KIT<a name="v3-EntityCode-KIT"> </a></td><td>Kit</td><td><div><p>A container for a diverse collection of products intended to be used together for some purpose (e.g. Medicinal kits often contain a syringe, a needle and the injectable medication).</p>
+</div></td><td/><td/><td>16145</td><td>active</td><td/><td/><td>PKG</td></tr><tr><td>5</td><td style="white-space:nowrap">        SYSTM<a name="v3-EntityCode-SYSTM"> </a></td><td>System</td><td><div><p>A kit in which the components are interconnected.</p>
+</div></td><td/><td/><td>16146</td><td>active</td><td/><td/><td>KIT</td></tr><tr><td>2</td><td style="white-space:nowrap">  _MedicalDevice<a name="v3-EntityCode-_MedicalDevice"> </a></td><td>MedicalDevice</td><td><div><p>A device with direct or indirect therapeutic purpose. Values for EntityCode when EntityClass = &quot;DEV&quot;</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass DEV}">device</a></td><td>21067</td><td>active</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr><td>3</td><td style="white-space:nowrap">    _AccessMedicalDevice<a name="v3-EntityCode-_AccessMedicalDevice"> </a></td><td>AccessMedicalDevice</td><td><div><p>A device used to allow access to a part of a body</p>
+</div></td><td/><td/><td>21057</td><td>active</td><td/><td>true</td><td>_MedicalDevice</td></tr><tr><td>4</td><td style="white-space:nowrap">      LINE<a name="v3-EntityCode-LINE"> </a></td><td>Line</td><td><div><p>A hollow tube used to administer a substance into a vein, artery or body cavity</p>
+</div></td><td/><td/><td>16201</td><td>active</td><td/><td/><td>_AccessMedicalDevice</td></tr><tr><td>5</td><td style="white-space:nowrap">        IALINE<a name="v3-EntityCode-IALINE"> </a></td><td>Intra-arterial Line</td><td><div><p>A line used to administer a substance into an artery</p>
+</div></td><td/><td/><td>16203</td><td>active</td><td/><td/><td>LINE</td></tr><tr><td>5</td><td style="white-space:nowrap">        IVLINE<a name="v3-EntityCode-IVLINE"> </a></td><td>Intraveneous Line</td><td><div><p>A line used to administer a substance into a vein</p>
+</div></td><td/><td/><td>16202</td><td>active</td><td/><td/><td>LINE</td></tr><tr><td>3</td><td style="white-space:nowrap">    _AdministrationMedicalDevice<a name="v3-EntityCode-_AdministrationMedicalDevice"> </a></td><td>AdministrationMedicalDevice</td><td><div><p>A device intended to administer a substance to a subject</p>
+</div></td><td/><td/><td>21058</td><td>active</td><td/><td>true</td><td>_MedicalDevice</td></tr><tr><td>4</td><td style="white-space:nowrap">      _InjectionMedicalDevice<a name="v3-EntityCode-_InjectionMedicalDevice"> </a></td><td>InjectionMedicalDevice</td><td><div><p>A device intended to administer liquid into a subject via a</p>
+</div></td><td/><td/><td>21063</td><td>active</td><td/><td>true</td><td>_AdministrationMedicalDevice</td></tr><tr><td>5</td><td style="white-space:nowrap">        AINJ<a name="v3-EntityCode-AINJ"> </a></td><td>AutoInjector</td><td><div><p>Automatically injects medication.</p>
+</div></td><td/><td/><td>16192</td><td>active</td><td/><td/><td>_InjectionMedicalDevice</td></tr><tr><td>5</td><td style="white-space:nowrap">        PEN<a name="v3-EntityCode-PEN"> </a></td><td>Pen</td><td><div><p>A device which can contain a cartridge for injection purposes. Eg. Insulin pen.</p>
+</div></td><td/><td/><td>16194</td><td>active</td><td/><td/><td>_InjectionMedicalDevice</td></tr><tr><td>5</td><td style="white-space:nowrap">        SYR<a name="v3-EntityCode-SYR"> </a></td><td>Syringe</td><td><div><p>A barrel with a plunger.</p>
+</div></td><td/><td/><td>16193</td><td>active</td><td/><td/><td>_InjectionMedicalDevice</td></tr><tr><td>4</td><td style="white-space:nowrap">      APLCTR<a name="v3-EntityCode-APLCTR"> </a></td><td>Applicator</td><td><div><p>A device used to apply a liquid or powder to a surface.</p>
+</div></td><td/><td/><td>16190</td><td>active</td><td/><td/><td>_AdministrationMedicalDevice</td></tr><tr><td>4</td><td style="white-space:nowrap">      INH<a name="v3-EntityCode-INH"> </a></td><td>Inhaler</td><td><div><p>A small device used for inhaling medicine in the form of a vapour or gas in order to ease a respiratory condition such as asthma or to relieve nasal congestion.</p>
+</div></td><td/><td/><td>16196</td><td>active</td><td/><td/><td>_AdministrationMedicalDevice</td></tr><tr><td>5</td><td style="white-space:nowrap">        DSKS<a name="v3-EntityCode-DSKS"> </a></td><td>Diskus</td><td><div><p>The device used to inhale the doses of medication contained in the disk form.</p>
+</div></td><td/><td/><td>16199</td><td>active</td><td/><td/><td>INH</td></tr><tr><td>5</td><td style="white-space:nowrap">        DSKUNH<a name="v3-EntityCode-DSKUNH"> </a></td><td>Diskhaler</td><td><div><p>The device used to inhale the doses of medication contained in the disk form.</p>
+</div></td><td/><td/><td>16198</td><td>active</td><td/><td/><td>INH</td></tr><tr><td>5</td><td style="white-space:nowrap">        TRBINH<a name="v3-EntityCode-TRBINH"> </a></td><td>Turbuhaler</td><td><div><p>Asthma medication delivery device.</p>
+</div></td><td/><td/><td>16197</td><td>active</td><td/><td/><td>INH</td></tr><tr><td>4</td><td style="white-space:nowrap">      PMP<a name="v3-EntityCode-PMP"> </a></td><td>Pump</td><td><div><p>A device that is used to raise, compress, or transfer liquids or gases and is operated by a piston or similar mechanism.</p>
+</div></td><td/><td/><td>16195</td><td>active</td><td/><td/><td>_AdministrationMedicalDevice</td></tr><tr><td>2</td><td style="white-space:nowrap">  _SpecimenAdditiveEntity<a name="v3-EntityCode-_SpecimenAdditiveEntity"> </a></td><td>SpecimenAdditiveEntity</td><td><div><p>Set of codes related to specimen additives</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass MAT}">material</a></td><td>21065</td><td>active</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr><td>3</td><td style="white-space:nowrap">    ACDA<a name="v3-EntityCode-ACDA"> </a></td><td>ACD Solution A</td><td><div><p>ACD Solution A of trisodium citrate, 22.0g/L; citric acid, 8.0 g/L; and dextrose 24.5 g/L. Used in Blood banking and histocompatibilty testing</p>
+</div></td><td/><td/><td>16047</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    ACDB<a name="v3-EntityCode-ACDB"> </a></td><td>ACD Solution B</td><td><div><p>ACD Solution B of trisodium citrate, 13.2g/L; citric acid, 4.8 g/L; and dextrose 14.7 g/L. Used in Blood banking and histocompatibilty testing.</p>
+</div></td><td/><td/><td>16048</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    ACET<a name="v3-EntityCode-ACET"> </a></td><td>Acetic Acid</td><td><div><p>50% V/V acetic acid in water. Used as a urine preservative</p>
+</div></td><td/><td/><td>16049</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    AMIES<a name="v3-EntityCode-AMIES"> </a></td><td>Amies transport medium</td><td><div><p>Sodium Chloride 3.0g, Potassium Chloride 0.2g, Calcium Chloride 0.1g, Magnesium Chloride 0.1g, Monopotassium Phosphate 0.2g, Disodium Phosphate 1.15g, Sodium Thiogly collate 1.0g, Distilled Water 1 liter</p>
+</div></td><td/><td/><td>16050</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    BACTM<a name="v3-EntityCode-BACTM"> </a></td><td>Bacterial Transport medium</td><td><div><p>Any medium used to maintain bacterial viability (e.g. Stuart's, Cary-Blair, Amies)</p>
+</div></td><td/><td/><td>16052</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    BF10<a name="v3-EntityCode-BF10"> </a></td><td>Buffered 10% formalin</td><td><div><p>Formaldehyde 4% w/v; methyl alcohol 1% w/v; phosphate buffering salts. Tissue preservative</p>
+</div></td><td/><td/><td>16055</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    BOR<a name="v3-EntityCode-BOR"> </a></td><td>Boric Acid</td><td><div><p>Powdered boric acid (usually 10 g) added to 24-hour urine collections as a preservative.</p>
+</div></td><td/><td/><td>16053</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    BOUIN<a name="v3-EntityCode-BOUIN"> </a></td><td>Bouin's solution</td><td><div><p>Picric acid, saturated aqueous solution (750.0 ml), 37-40% formalin (250.0 ml), glacial acetic acid (50.0 ml). Tissue preservative.</p>
+</div></td><td/><td/><td>16054</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    BSKM<a name="v3-EntityCode-BSKM"> </a></td><td>Buffered skim milk</td><td><div><p>50% skim milk in 0.01 M phosphate-buffered saline. Maintain virus viability</p>
+</div></td><td/><td/><td>16057</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    C32<a name="v3-EntityCode-C32"> </a></td><td>3.2% Citrate</td><td><div><p>A 3.2% solution of Sodium Citrate in water. Used as a blood preservative</p>
+</div></td><td/><td/><td>16044</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    C38<a name="v3-EntityCode-C38"> </a></td><td>3.8% Citrate</td><td><div><p>A 3.8% solution of Sodium Citrate in water. Used as a blood preservative</p>
+</div></td><td/><td/><td>16045</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    CARS<a name="v3-EntityCode-CARS"> </a></td><td>Carson's Modified 10% formalin</td><td><div><p>A modification of buffered 10% formalin used as a general tissue preservative.</p>
+</div></td><td/><td/><td>16058</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    CARY<a name="v3-EntityCode-CARY"> </a></td><td>Cary Blair Medium</td><td><div><p>Sodium Thioglycollate 1.5 g, Disodium Hydrogen Phosphate 1.1 g, Sodium Chloride 5.0 g, Calcium Chloride 0.09 g, Agar 5.0 g, per Liter of Water</p>
+</div></td><td/><td/><td>16059</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    CHLTM<a name="v3-EntityCode-CHLTM"> </a></td><td>Chlamydia transport medium</td><td><div><p>Any of a number of non-nutritive buffered media used to maintain Chlamydia viability during transportation to the laboratory</p>
+</div></td><td/><td/><td>16060</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    CTAD<a name="v3-EntityCode-CTAD"> </a></td><td>CTAD</td><td><div><p>Buffered tri-sodium citrate solution with theophylline, adenosine and dipyridamole</p>
+</div></td><td/><td/><td>16061</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    EDTK15<a name="v3-EntityCode-EDTK15"> </a></td><td>Potassium/K EDTA 15%</td><td><div><p>Potassium EDTA 15% solution in water</p>
+</div></td><td/><td/><td>16077</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    EDTK75<a name="v3-EntityCode-EDTK75"> </a></td><td>Potassium/K EDTA 7.5%</td><td><div><p>Potassium EDTA 7.5% solution in water</p>
+</div></td><td/><td/><td>16078</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    EDTN<a name="v3-EntityCode-EDTN"> </a></td><td>Sodium/Na EDTA</td><td><div><p>Sodium fluoride and Disodium EDTA</p>
+</div></td><td/><td/><td>16087</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    ENT<a name="v3-EntityCode-ENT"> </a></td><td>Enteric bacteria transport medium</td><td><div><p>Any of a number of non-nutritive buffered media used to maintain enteric bacterial viability during transportation to the laboratory</p>
+</div></td><td/><td/><td>16062</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    F10<a name="v3-EntityCode-F10"> </a></td><td>10% Formalin</td><td><div><p>A 10% v/v solution in water of formalin( a 37% solution of formaldehyde and water). Used for tissue preservation.</p>
+</div></td><td/><td/><td>16043</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    FDP<a name="v3-EntityCode-FDP"> </a></td><td>Thrombin NIH; soybean trypsin inhibitor</td><td><div><p>Thrombin plus soybean trypsin inhibitor. For use in identifying fibrn degredation products.</p>
+</div></td><td/><td/><td>16091</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    FL10<a name="v3-EntityCode-FL10"> </a></td><td>Sodium Fluoride, 10mg</td><td><div><p>Sodium fluoride, 10mg added as a urine preservative.</p>
+</div></td><td/><td/><td>16085</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    FL100<a name="v3-EntityCode-FL100"> </a></td><td>Sodium Fluoride, 100mg</td><td><div><p>Sodium fluoride, 100mg added as a urine preservative.</p>
+</div></td><td/><td/><td>16084</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    HCL6<a name="v3-EntityCode-HCL6"> </a></td><td>6N HCL</td><td><div><p>A solution of HCl containing 6moles of hydrogen ion/L. Used as a Urine Preservative.</p>
+</div></td><td/><td/><td>16046</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    HEPA<a name="v3-EntityCode-HEPA"> </a></td><td>Ammonium heparin</td><td><div><p>Ammonium heparin</p>
+</div></td><td/><td/><td>16051</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    HEPL<a name="v3-EntityCode-HEPL"> </a></td><td>Lithium/Li Heparin</td><td><div><p>Lithium heparin salt</p>
+</div></td><td/><td/><td>16066</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    HEPN<a name="v3-EntityCode-HEPN"> </a></td><td>Sodium/Na Heparin</td><td><div><p>Sodium heparin salt</p>
+</div></td><td/><td/><td>16086</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    HNO3<a name="v3-EntityCode-HNO3"> </a></td><td>Nitric Acid</td><td><div><p>6N Nitric acid used to preserve urine for heavy metal analysis.</p>
+</div></td><td/><td/><td>16072</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    JKM<a name="v3-EntityCode-JKM"> </a></td><td>Jones Kendrick Medium</td><td><div><p>A transport medium formulated to maintain Bordetella pertussis viability.</p>
+</div></td><td/><td/><td>16063</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    KARN<a name="v3-EntityCode-KARN"> </a></td><td>Karnovsky's fixative</td><td><div><p>5% Glutaraldehyde, 4% Formaldehyde in 0.08M buffer. Tissue preservation</p>
+</div></td><td/><td/><td>16064</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    KOX<a name="v3-EntityCode-KOX"> </a></td><td>Potassium Oxalate</td><td><div><p>Potassium oxalate and sodium fluoride in a 1.25:1 ratio</p>
+</div></td><td/><td/><td>16076</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    LIA<a name="v3-EntityCode-LIA"> </a></td><td>Lithium iodoacetate</td><td><div><p>Iodoacetate lithium salt</p>
+</div></td><td/><td/><td>16065</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    M4<a name="v3-EntityCode-M4"> </a></td><td>M4</td><td><div><p>Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with HEPES buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to</p>
+</div></td><td/><td/><td>16067</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    M4RT<a name="v3-EntityCode-M4RT"> </a></td><td>M4-RT</td><td><div><p>Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Gentamicin and amphotericin B are used to inhibit c</p>
+</div></td><td/><td/><td>16068</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    M5<a name="v3-EntityCode-M5"> </a></td><td>M5</td><td><div><p>Modified Hank's balanced salt solution supplemented with protein stabilizers, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to inhibit c</p>
+</div></td><td/><td/><td>16069</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    MICHTM<a name="v3-EntityCode-MICHTM"> </a></td><td>Michel's transport medium</td><td><div><p>1M potassium citrate, pH 7.0 2.5 ml, 0.1M magnesium sulfate 5.0 ml, 0.1M N-ethyl malemide 5.0 ml, dH2O 87.5 ml, ammonium sulfate 55gm. Preserve antigens for Immunofluorescence procedures</p>
+</div></td><td/><td/><td>16070</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    MMDTM<a name="v3-EntityCode-MMDTM"> </a></td><td>MMD transport medium</td><td><div><p>A buffered medium with ammonium sulfate added to preserve antigens for Immunofluorescence procedures</p>
+</div></td><td/><td/><td>16071</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    NAF<a name="v3-EntityCode-NAF"> </a></td><td>Sodium Fluoride</td><td><div><p>Sodium fluoride</p>
+</div></td><td/><td/><td>16083</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    NONE<a name="v3-EntityCode-NONE"> </a></td><td>None</td><td><div><p>No additive. Specifically identifes the specimen as having no additives.</p>
+</div></td><td/><td/><td>16073</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    PAGE<a name="v3-EntityCode-PAGE"> </a></td><td>Page's Saline</td><td><div><p>0.12 g NaCl, 0.004 g MgSO, 0.004 g, CaCl, 0.142 g Na2HPO4 and 0.136 g KH2PO4 per liter of distilled water. Maintain Acanthaoemba viability.</p>
+</div></td><td/><td/><td>16074</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    PHENOL<a name="v3-EntityCode-PHENOL"> </a></td><td>Phenol</td><td><div><p>Phenol. Urine preservative</p>
+</div></td><td/><td/><td>16075</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    PVA<a name="v3-EntityCode-PVA"> </a></td><td>Polyvinylalcohol</td><td><div><p>Polyvinyl alcohol</p>
+</div></td><td/><td/><td>16079</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    RLM<a name="v3-EntityCode-RLM"> </a></td><td>Reagan Lowe Medium</td><td><div><p>A transport medium formulated to maintain Bordetella pertussis viability.</p>
+</div></td><td/><td/><td>16080</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    SILICA<a name="v3-EntityCode-SILICA"> </a></td><td>Siliceous earth</td><td><div><p>Diatomaceous earth. For glucose determination blood samples</p>
+</div></td><td/><td/><td>16082</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    SPS<a name="v3-EntityCode-SPS"> </a></td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td><td><div><p>Sodium polyanethol sulfonate in saline. Anticomplementary and antiphagocytic properties. Used in blood culture collection.</p>
+</div></td><td/><td/><td>16088</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    SST<a name="v3-EntityCode-SST"> </a></td><td>Serum Separator Tube</td><td><div><p>Polymer separator gel with clot activator</p>
+</div></td><td/><td/><td>16081</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    STUTM<a name="v3-EntityCode-STUTM"> </a></td><td>Stuart transport medium</td><td><div><p>Sodium Glycerophosphate 10.0g, Calcium Chloride 0.1g, Mercaptoacetic Acid 1.0ml, Distilled Water 1 liter</p>
+</div></td><td/><td/><td>16089</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    THROM<a name="v3-EntityCode-THROM"> </a></td><td>Thrombin</td><td><div><p>Thrombin. Accelerates clotting.</p>
+</div></td><td/><td/><td>16090</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    THYMOL<a name="v3-EntityCode-THYMOL"> </a></td><td>Thymol</td><td><div><p>2-Isopropyl-5-methyl phenol. A preservative for 24 Hr Urine samples</p>
+</div></td><td/><td/><td>16092</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    THYO<a name="v3-EntityCode-THYO"> </a></td><td>Thyoglycolate broth</td><td><div><p>A nutritive medium with a reducing agent (sodium thioglycolate) which, due to a chemical reaction, removes oxygen from the broth.</p>
+</div></td><td/><td/><td>16093</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    TOLU<a name="v3-EntityCode-TOLU"> </a></td><td>Toluene</td><td><div><p>Also known as Methylbenzene; Toluol; Phenylmethane. A preservative for 24 Hr Urine samples</p>
+</div></td><td/><td/><td>16094</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    URETM<a name="v3-EntityCode-URETM"> </a></td><td>Ureaplasma transport medium</td><td><div><p>A buffered salt solution with antifungal agents added for the collection and transport of Ureaplasma specimens.</p>
+</div></td><td/><td/><td>16095</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    VIRTM<a name="v3-EntityCode-VIRTM"> </a></td><td>Viral Transport medium</td><td><div><p>Sucrose 74.6g, Potassium hydrogenphosphate 0.52g, L-glutamic acid 0.72g, Bovine serum albumin 5.0g, Gentamicin 50mg, Potassium dihydrogenphosphate 1.25g, L-15 medium 9.9L, Water to 10L. Maintain Virus viability.</p>
+</div></td><td/><td/><td>16096</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>3</td><td style="white-space:nowrap">    WEST<a name="v3-EntityCode-WEST"> </a></td><td>Buffered Citrate</td><td><div><p>3.8% Citrate buffered to a pH of 5.5 for Westergren Sedimentation Rate</p>
+</div></td><td/><td/><td>16056</td><td>active</td><td/><td/><td>_SpecimenAdditiveEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  BLDPRD<a name="v3-EntityCode-BLDPRD"> </a></td><td>Blood Product</td><td><div><p>A manufactured product that is produced from the raw blood oi a donor with the intention of using it in a recipient transfusion.</p>
+</div></td><td/><td/><td>21459</td><td>active</td><td/><td/><td>_MaterialEntityClassType</td></tr><tr><td>2</td><td style="white-space:nowrap">  VCCNE<a name="v3-EntityCode-VCCNE"> </a></td><td>Vaccine</td><td><div><p>A Type of medicine that creates an immune protection without the recipient experiencing the disease.</p>
+</div></td><td/><td/><td>21458</td><td>active</td><td/><td/><td>_MaterialEntityClassType</td></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _DeviceGenericType<a name="v3-EntityCode-_DeviceGenericType"> </a></td><td>Device Generic Type</td><td><div><p>Includes the set of codes used to identify a device that may be referred to in an ICSR report. Example code set reference is the FDA Center for Devices and Radiological Health product code list.</p>
+<p>Example product codes include: FOZ = Catheter, Intravascular, Therapeutic, short-term less than 30 days, MOP = Rotator, Prosthetic Heart Valve.</p>
+</div></td><td/><td/><td>21396</td><td>retired</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _DrugEntity<a name="v3-EntityCode-_DrugEntity"> </a></td><td>DrugEntity</td><td><div><p>A substance whose therapeutic effect is produced by chemical action within the body.</p>
+</div></td><td/><td/><td>21061</td><td>retired</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr style="background-color: #ffeeee"><td>3</td><td style="white-space:nowrap">    _ClinicalDrug<a name="v3-EntityCode-_ClinicalDrug"> </a></td><td>ClinicalDrug</td><td><div><p>Any substance or mixture of substances manufactured, sold or represented for use in: (a) the diagnosis, treatment, mitigation or prevention of a disease, disorder, abnormal physical state, or its symptoms, in human beings or animals; (b) restoring, correcting or modifying organic functions in human beings or animals.</p>
+</div></td><td/><td/><td>21059</td><td>retired</td><td/><td>true</td><td>_DrugEntity</td></tr><tr style="background-color: #ffeeee"><td>4</td><td style="white-space:nowrap">      _ActiveIngredientDrugEntityType<a name="v3-EntityCode-_ActiveIngredientDrugEntityType"> </a></td><td>ActiveIngredientDrugEntityType</td><td><div><p>Any substance which, when combined with other ingredients, delivers all or part of the therapeutic benefit associated with a medication.</p>
+</div></td><td/><td/><td>21533</td><td>retired</td><td/><td>true</td><td>_ClinicalDrug</td></tr><tr style="background-color: #ffeeee"><td>4</td><td style="white-space:nowrap">      _ManufacturedDrug<a name="v3-EntityCode-_ManufacturedDrug"> </a></td><td>ManufacturedDrug</td><td><div><p>Identifies a drug or the use of a drug as produced by a specific manufacturer</p>
+</div></td><td/><td/><td>21064</td><td>retired</td><td/><td>true</td><td>_ClinicalDrug</td></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _ExposureAgentEntityType<a name="v3-EntityCode-_ExposureAgentEntityType"> </a></td><td>ExposureAgentEntityType</td><td><div><p>Indicates the material to which the patient was exposed which is believed to be related to the adverse reaction</p>
+</div></td><td/><td/><td>21497</td><td>retired</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _x_BillableProduct<a name="v3-EntityCode-_x_BillableProduct"> </a></td><td>x_BillableProduct</td><td><div><p>**Description:**The billable codes selected for Clinical Product Invoices. Steward is Financial Management.</p>
+</div></td><td/><td/><td>22154</td><td>retired</td><td/><td>true</td><td>_MaterialEntityClassType</td></tr><tr><td>1</td><td style="white-space:nowrap">_NonDrugAgentEntity<a name="v3-EntityCode-_NonDrugAgentEntity"> </a></td><td>NonDrugAgentEntity</td><td><div><p>Indicates types of allergy and intolerance agents which are non-drugs. (E.g. foods, latex, etc.)</p>
+</div></td><td/><td/><td>22382</td><td>active</td><td/><td>true</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  NDA01<a name="v3-EntityCode-NDA01"> </a></td><td>egg</td><td/><td/><td/><td>21586</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA02<a name="v3-EntityCode-NDA02"> </a></td><td>fish</td><td/><td/><td/><td>21587</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA03<a name="v3-EntityCode-NDA03"> </a></td><td>lactose</td><td/><td/><td/><td>21588</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA04<a name="v3-EntityCode-NDA04"> </a></td><td>peanut</td><td/><td/><td/><td>21589</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA05<a name="v3-EntityCode-NDA05"> </a></td><td>soy</td><td/><td/><td/><td>21590</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA06<a name="v3-EntityCode-NDA06"> </a></td><td>sulfites</td><td/><td/><td/><td>21591</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA07<a name="v3-EntityCode-NDA07"> </a></td><td>wheat or gluten</td><td/><td/><td/><td>21592</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA08<a name="v3-EntityCode-NDA08"> </a></td><td>isocyanates</td><td/><td/><td/><td>21593</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA09<a name="v3-EntityCode-NDA09"> </a></td><td>solvents</td><td/><td/><td/><td>21594</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA10<a name="v3-EntityCode-NDA10"> </a></td><td>oils</td><td/><td/><td/><td>21595</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA11<a name="v3-EntityCode-NDA11"> </a></td><td>venoms</td><td/><td/><td/><td>21596</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA12<a name="v3-EntityCode-NDA12"> </a></td><td>latex</td><td/><td/><td/><td>21597</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA13<a name="v3-EntityCode-NDA13"> </a></td><td>shellfish</td><td/><td/><td/><td>21598</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA14<a name="v3-EntityCode-NDA14"> </a></td><td>strawberries</td><td/><td/><td/><td>21599</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA15<a name="v3-EntityCode-NDA15"> </a></td><td>tomatoes</td><td/><td/><td/><td>21600</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA16<a name="v3-EntityCode-NDA16"> </a></td><td>dust</td><td/><td/><td/><td>21601</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>2</td><td style="white-space:nowrap">  NDA17<a name="v3-EntityCode-NDA17"> </a></td><td>dust mites</td><td/><td/><td/><td>21602</td><td>active</td><td/><td/><td>_NonDrugAgentEntity</td></tr><tr><td>1</td><td style="white-space:nowrap">_OrganizationEntityType<a name="v3-EntityCode-_OrganizationEntityType"> </a></td><td>OrganizationEntityType</td><td><div><p>Further classifies entities of classCode ORG.</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass ORG}">organization</a></td><td>21356</td><td>active</td><td/><td>true</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  HHOLD<a name="v3-EntityCode-HHOLD"> </a></td><td>household</td><td><div><p>The group of persons who occupy a single housing unit.</p>
+</div></td><td/><td/><td>23072</td><td>active</td><td/><td/><td>_OrganizationEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  NAT<a name="v3-EntityCode-NAT"> </a></td><td>NationEntityType</td><td><div><p>Codes identifying nation states. Allows for finer grained specification of Entity with classcode &lt;= NAT</p>
+<p>*Example:*ISO3166 country codes.</p>
+</div></td><td/><td/><td>21584</td><td>active</td><td/><td/><td>_OrganizationEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  RELIG<a name="v3-EntityCode-RELIG"> </a></td><td>religious institution</td><td><div><p>An organization that provides religious rites of worship.</p>
+</div></td><td/><td/><td>21357</td><td>active</td><td/><td/><td>_OrganizationEntityType</td></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _IndividualCaseSafetyReportSenderType<a name="v3-EntityCode-_IndividualCaseSafetyReportSenderType"> </a></td><td>Individual Case Safety Report Sender Type</td><td><div><p>A code that is used to indicate the type of organization which is originating and sending the ICSR. The current code example reference is from the International Conference on Harmonisation (ICH) Expert Workgroup guideline on Clinical Safety Data Management: Data Elements for Transmission of Individual Case Safety Reports.</p>
+<p>Example concepts are: Pharmaceutical Company, Regulatory Authority, Health Professional, Regional Pharmacovigilence Center, World Health Organization Collaborating Center for International Drug Monitoring.</p>
+</div></td><td/><td/><td>21395</td><td>retired</td><td/><td>true</td><td>_OrganizationEntityType</td></tr><tr><td>1</td><td style="white-space:nowrap">_PlaceEntityType<a name="v3-EntityCode-_PlaceEntityType"> </a></td><td>PlaceEntityType</td><td><div><p>Types of places for EntityClass &quot;PLC&quot;</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass PLC}">place</a></td><td>21070</td><td>active</td><td/><td>true</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  BED<a name="v3-EntityCode-BED"> </a></td><td>Bed Location</td><td><div><p>The location of a bed</p>
+</div></td><td/><td/><td>16101</td><td>active</td><td/><td/><td>_PlaceEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  BLDG<a name="v3-EntityCode-BLDG"> </a></td><td>Building Location</td><td><div><p>The location of a building</p>
+</div></td><td/><td/><td>16104</td><td>active</td><td/><td/><td>_PlaceEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  FLOOR<a name="v3-EntityCode-FLOOR"> </a></td><td>Floor Location</td><td><div><p>The location of a floor of a building</p>
+</div></td><td/><td/><td>16103</td><td>active</td><td/><td/><td>_PlaceEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  ROOM<a name="v3-EntityCode-ROOM"> </a></td><td>Room Location</td><td><div><p>The location of a room</p>
+</div></td><td/><td/><td>16102</td><td>active</td><td/><td/><td>_PlaceEntityType</td></tr><tr><td>2</td><td style="white-space:nowrap">  WING<a name="v3-EntityCode-WING"> </a></td><td>Wing Location</td><td><div><p>The location of a wing of a building (e.g. East Wing). The same room number for the same floor number can be distinguished by wing number in some situations</p>
+</div></td><td/><td/><td>17703</td><td>active</td><td/><td/><td>_PlaceEntityType</td></tr><tr><td>1</td><td style="white-space:nowrap">_ResourceGroupEntityType<a name="v3-EntityCode-_ResourceGroupEntityType"> </a></td><td>ResourceGroupEntityType</td><td><div><p>Codes to characterize a Resource Group using categories that typify its membership and/or function</p>
+<p>.</p>
+<p><em>Example:</em> PractitionerGroup</p>
+</div></td><td/><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityClass.html" title="{http://terminology.hl7.org/CodeSystem/v3-EntityClass RGRP}">group</a></td><td>22383</td><td>active</td><td/><td>true</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  PRAC<a name="v3-EntityCode-PRAC"> </a></td><td>PractitionerGroup</td><td/><td/><td/><td>21439</td><td>active</td><td/><td/><td>_ResourceGroupEntityType</td></tr><tr style="background-color: #ffeeee"><td>1</td><td style="white-space:nowrap">_NonPersonLivingSubjectEntityType<a name="v3-EntityCode-_NonPersonLivingSubjectEntityType"> </a></td><td>NonPersonLivingSubjectEntityType</td><td><div><p>**Description:**Types of NonPersonLivingSubjects for the EntityClass 'NLIV'</p>
+</div></td><td/><td/><td>22163</td><td>retired</td><td/><td>true</td><td/></tr></table></div>
+  </text>
+  <url value="http://terminology.hl7.org/CodeSystem/v3-EntityCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1060"/>
+  </identifier>
+  <version value="3.0.0"/>
+  <name value="EntityCode"/>
+  <title value="EntityCode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-03-20"/>
+  <publisher value="Health Level Seven International"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="hq@HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="*OpenIssue:* Missing description."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"/>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+      <valueCode value="Specializes"/>
+    </extension>
+    <code value="rim-ClassifiesClassCode"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-ClassifiesClassCode"/>
+    <description value="The child code is a classification of the particular class group identified by the 'classCode' in a RIM class as the parent code.  Used only in RIM backbone classes to link the code and classCode values."/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <code value="internalId"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"/>
+    <description value="The internal identifier for the concept in the HL7 Access database repository."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="notSelectable"/>
+    <uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+    <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="subsumedBy"/>
+    <uri value="http://hl7.org/fhir/concept-properties#parent"/>
+    <description value="The concept code of a parent concept"/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="_MaterialEntityAdditive"/>
+    <display value="_MaterialEntityAdditive"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="deprecated"/>
+    </property>
+    <property>
+      <code value="deprecationDate"/>
+      <valueDateTime value="2009-08-20"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="23527"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_MaterialEntityClassType"/>
+    <display value="MaterialEntityClassType"/>
+    <definition value="Types of Material for EntityClass &quot;MAT&quot;"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="MAT"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21066"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_NonDrugAgentEntity"/>
+    <display value="NonDrugAgentEntity"/>
+    <definition value="Indicates types of allergy and intolerance agents which are non-drugs. (E.g. foods, latex, etc.)"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="22382"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_OrganizationEntityType"/>
+    <display value="OrganizationEntityType"/>
+    <definition value="Further classifies entities of classCode ORG."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="ORG"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21356"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_PlaceEntityType"/>
+    <display value="PlaceEntityType"/>
+    <definition value="Types of places for EntityClass &quot;PLC&quot;"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="PLC"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21070"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ResourceGroupEntityType"/>
+    <display value="ResourceGroupEntityType"/>
+    <definition value="Codes to characterize a Resource Group using categories that typify its membership and/or function&#xD;&#xA;&#xD;&#xA;.&#xD;&#xA;&#xD;&#xA;*Example:* PractitionerGroup"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="RGRP"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="22383"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_NonPersonLivingSubjectEntityType"/>
+    <display value="NonPersonLivingSubjectEntityType"/>
+    <definition value="**Description:**Types of NonPersonLivingSubjects for the EntityClass 'NLIV'"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="22163"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="LINE"/>
+    <display value="Line"/>
+    <definition value="A hollow tube used to administer a substance into a vein, artery or body cavity"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16201"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_AccessMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_InjectionMedicalDevice"/>
+    <display value="InjectionMedicalDevice"/>
+    <definition value="A device intended to administer liquid into a subject via a"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21063"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_AdministrationMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="APLCTR"/>
+    <display value="Applicator"/>
+    <definition value="A device used to apply a liquid or powder to a surface."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16190"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_AdministrationMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="INH"/>
+    <display value="Inhaler"/>
+    <definition value="A small device used for inhaling medicine in the form of a vapour or gas in order to ease a respiratory condition such as asthma or to relieve nasal congestion."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16196"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_AdministrationMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PMP"/>
+    <display value="Pump"/>
+    <definition value="A device that is used to raise, compress, or transfer liquids or gases and is operated by a piston or similar mechanism."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16195"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_AdministrationMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ActiveIngredientDrugEntityType"/>
+    <display value="ActiveIngredientDrugEntityType"/>
+    <definition value="Any substance which, when combined with other ingredients, delivers all or part of the therapeutic benefit associated with a medication."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21533"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_ClinicalDrug"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ManufacturedDrug"/>
+    <display value="ManufacturedDrug"/>
+    <definition value="Identifies a drug or the use of a drug as produced by a specific manufacturer"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21064"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_ClinicalDrug"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PKG"/>
+    <display value="Package"/>
+    <definition value="A material intended to hold other materials for purposes of storage or transportation"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16144"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_ContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ClinicalDrug"/>
+    <display value="ClinicalDrug"/>
+    <definition value="Any substance or mixture of substances manufactured, sold or represented for use in: (a) the diagnosis, treatment, mitigation or prevention of a disease, disorder, abnormal physical state, or its symptoms, in human beings or animals; (b) restoring, correcting or modifying organic functions in human beings or animals."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21059"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_DrugEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AMP"/>
+    <display value="Ampule"/>
+    <definition value="A small sealed glass container that holds a measured amount of a medicinal substance."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16177"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_IndividualPackageEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MINIM"/>
+    <display value="Minim"/>
+    <definition value="Individually dosed ophthalmic solution. One time eye dropper dispenser."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16178"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_IndividualPackageEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NEBAMP"/>
+    <display value="Nebuamp"/>
+    <definition value="Individually dosed inhalation solution."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16179"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_IndividualPackageEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="OVUL"/>
+    <display value="Ovule"/>
+    <definition value="A container either glass or plastic and a narrow neck, for storing liquid."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16180"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_IndividualPackageEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AINJ"/>
+    <display value="AutoInjector"/>
+    <definition value="Automatically injects medication."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16192"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_InjectionMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PEN"/>
+    <display value="Pen"/>
+    <definition value="A device which can contain a cartridge for injection purposes. Eg. Insulin pen."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16194"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_InjectionMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SYR"/>
+    <display value="Syringe"/>
+    <definition value="A barrel with a plunger."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16193"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_InjectionMedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ContainerEntityType"/>
+    <display value="ContainerEntityType"/>
+    <definition value="Material intended to hold another material for purpose of storage or transport."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21060"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_MedicalDevice"/>
+    <display value="MedicalDevice"/>
+    <definition value="A device with direct or indirect therapeutic purpose. Values for EntityCode when EntityClass = &quot;DEV&quot;"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="DEV"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21067"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_SpecimenAdditiveEntity"/>
+    <display value="SpecimenAdditiveEntity"/>
+    <definition value="Set of codes related to specimen additives"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="MAT"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21065"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BLDPRD"/>
+    <display value="Blood Product"/>
+    <definition value="A manufactured product that is produced from the raw blood oi a donor with the intention of using it in a recipient transfusion."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21459"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="VCCNE"/>
+    <display value="Vaccine"/>
+    <definition value="A Type of medicine that creates an immune protection without the recipient experiencing the disease."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21458"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_DeviceGenericType"/>
+    <display value="Device Generic Type"/>
+    <definition value="Includes the set of codes used to identify a device that may be referred to in an ICSR report. Example code set reference is the FDA Center for Devices and Radiological Health product code list.&#xD;&#xA;&#xD;&#xA;Example product codes include: FOZ = Catheter, Intravascular, Therapeutic, short-term less than 30 days, MOP = Rotator, Prosthetic Heart Valve."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21396"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_DrugEntity"/>
+    <display value="DrugEntity"/>
+    <definition value="A substance whose therapeutic effect is produced by chemical action within the body."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21061"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_ExposureAgentEntityType"/>
+    <display value="ExposureAgentEntityType"/>
+    <definition value="Indicates the material to which the patient was exposed which is believed to be related to the adverse reaction"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21497"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_x_BillableProduct"/>
+    <display value="x_BillableProduct"/>
+    <definition value="**Description:**The billable codes selected for Clinical Product Invoices. Steward is Financial Management."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="22154"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MaterialEntityClassType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_AccessMedicalDevice"/>
+    <display value="AccessMedicalDevice"/>
+    <definition value="A device used to allow access to a part of a body"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21057"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_AdministrationMedicalDevice"/>
+    <display value="AdministrationMedicalDevice"/>
+    <definition value="A device intended to administer a substance to a subject"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21058"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MedicalDevice"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOT"/>
+    <display value="Bottle"/>
+    <definition value="A container, typically rounded, either glass or plastic with a narrow neck and capable of storing liquid."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16155"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOX"/>
+    <display value="Box"/>
+    <definition value="A 6-sided container commonly made from paper or cardboard used for solid forms."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16154"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CAN"/>
+    <display value="Can"/>
+    <definition value="A metal container in which a material is hermetically sealed to enable storage over long periods."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16161"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CART"/>
+    <display value="Cartridge"/>
+    <definition value="A sealed container of liquid or powder intended to be loaded into a device."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16163"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CNSTR"/>
+    <display value="Canister"/>
+    <definition value="A pressurized metal container holding a substance released as a spray or aerosol."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16162"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="JAR"/>
+    <display value="Jar"/>
+    <definition value="A container of glass, earthenware, plastic, etc. Top of the container has a diameter of similar size to the diameter of the container as a whole"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16164"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="JUG"/>
+    <display value="Jug"/>
+    <definition value="A deep vessel for holding liquids, with a handle and often with a spout or lip shape for pouring."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16165"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TIN"/>
+    <display value="Tin"/>
+    <definition value="A lidded container made of thin sheet metal."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16166"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TUB"/>
+    <display value="Tub"/>
+    <definition value="An open flat bottomed round container."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16167"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TUBE"/>
+    <display value="Tube"/>
+    <definition value="A long hollow rigid or flexible cylinder. Material is extruded by squeezing the container."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16168"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="VIAL"/>
+    <display value="Vial"/>
+    <definition value="A small cylindrical glass for holding liquid medicines."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16169"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_MultiUseContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA01"/>
+    <display value="egg"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21586"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA02"/>
+    <display value="fish"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21587"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA03"/>
+    <display value="lactose"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21588"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA04"/>
+    <display value="peanut"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21589"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA05"/>
+    <display value="soy"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21590"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA06"/>
+    <display value="sulfites"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21591"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA07"/>
+    <display value="wheat or gluten"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21592"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA08"/>
+    <display value="isocyanates"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21593"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA09"/>
+    <display value="solvents"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21594"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA10"/>
+    <display value="oils"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21595"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA11"/>
+    <display value="venoms"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21596"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA12"/>
+    <display value="latex"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21597"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA13"/>
+    <display value="shellfish"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21598"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA14"/>
+    <display value="strawberries"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21599"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA15"/>
+    <display value="tomatoes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21600"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA16"/>
+    <display value="dust"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21601"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NDA17"/>
+    <display value="dust mites"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21602"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonDrugAgentEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BAG"/>
+    <display value="Bag"/>
+    <definition value="A pouched or pendulous container."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16148"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonRigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PACKT"/>
+    <display value="Packet"/>
+    <definition value="A paper"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16149"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonRigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PCH"/>
+    <display value="Pouch"/>
+    <definition value="A small bag or container made of a soft material."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16151"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonRigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SACH"/>
+    <display value="Sachet"/>
+    <definition value="A small bag or packet containing a small portion of a substance."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16150"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_NonRigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HHOLD"/>
+    <display value="household"/>
+    <definition value="The group of persons who occupy a single housing unit."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="23072"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_OrganizationEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NAT"/>
+    <display value="NationEntityType"/>
+    <definition value="Codes identifying nation states. Allows for finer grained specification of Entity with classcode &lt;= NAT&#xD;&#xA;&#xD;&#xA;*Example:*ISO3166 country codes."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21584"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_OrganizationEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="RELIG"/>
+    <display value="religious institution"/>
+    <definition value="An organization that provides religious rites of worship."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21357"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_OrganizationEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_IndividualCaseSafetyReportSenderType"/>
+    <display value="Individual Case Safety Report Sender Type"/>
+    <definition value="A code that is used to indicate the type of organization which is originating and sending the ICSR. The current code example reference is from the International Conference on Harmonisation (ICH) Expert Workgroup guideline on Clinical Safety Data Management: Data Elements for Transmission of Individual Case Safety Reports.&#xD;&#xA;&#xD;&#xA;Example concepts are: Pharmaceutical Company, Regulatory Authority, Health Professional, Regional Pharmacovigilence Center, World Health Organization Collaborating Center for International Drug Monitoring."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21395"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_OrganizationEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BED"/>
+    <display value="Bed Location"/>
+    <definition value="The location of a bed"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16101"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_PlaceEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BLDG"/>
+    <display value="Building Location"/>
+    <definition value="The location of a building"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16104"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_PlaceEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="FLOOR"/>
+    <display value="Floor Location"/>
+    <definition value="The location of a floor of a building"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16103"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_PlaceEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ROOM"/>
+    <display value="Room Location"/>
+    <definition value="The location of a room"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16102"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_PlaceEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="WING"/>
+    <display value="Wing Location"/>
+    <definition value="The location of a wing of a building (e.g. East Wing). The same room number for the same floor number can be distinguished by wing number in some situations"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="17703"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_PlaceEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PRAC"/>
+    <display value="PractitionerGroup"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21439"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_ResourceGroupEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_IndividualPackageEntityType"/>
+    <display value="IndividualPackageEntityType"/>
+    <definition value="Container intended to contain sufficient material for only one use."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21062"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_RigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_MultiUseContainerEntityType"/>
+    <display value="MultiUseContainerEntityType"/>
+    <definition value="A container intended to contain sufficient material for more than one use. (I.e. Material is intended to be removed from the container at more than one discrete time period.)"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="CONT"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21068"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_RigidContainerEntityType"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BLSTRPK"/>
+    <display value="Blister Pack"/>
+    <definition value="A bubblepack. Medications sealed individually, separated into doses."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16171"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_RigidContainerEntityType"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="COMPPKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ACDA"/>
+    <display value="ACD Solution A"/>
+    <definition value="ACD Solution A of trisodium citrate, 22.0g/L; citric acid, 8.0 g/L; and dextrose 24.5 g/L. Used in Blood banking and histocompatibilty testing"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16047"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ACDB"/>
+    <display value="ACD Solution B"/>
+    <definition value="ACD Solution B of trisodium citrate, 13.2g/L; citric acid, 4.8 g/L; and dextrose 14.7 g/L. Used in Blood banking and histocompatibilty testing."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16048"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ACET"/>
+    <display value="Acetic Acid"/>
+    <definition value="50% V/V acetic acid in water. Used as a urine preservative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16049"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="AMIES"/>
+    <display value="Amies transport medium"/>
+    <definition value="Sodium Chloride 3.0g, Potassium Chloride 0.2g, Calcium Chloride 0.1g, Magnesium Chloride 0.1g, Monopotassium Phosphate 0.2g, Disodium Phosphate 1.15g, Sodium Thiogly collate 1.0g, Distilled Water 1 liter"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16050"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BACTM"/>
+    <display value="Bacterial Transport medium"/>
+    <definition value="Any medium used to maintain bacterial viability (e.g. Stuart's, Cary-Blair, Amies)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16052"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BF10"/>
+    <display value="Buffered 10% formalin"/>
+    <definition value="Formaldehyde 4% w/v; methyl alcohol 1% w/v; phosphate buffering salts. Tissue preservative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16055"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOR"/>
+    <display value="Boric Acid"/>
+    <definition value="Powdered boric acid (usually 10 g) added to 24-hour urine collections as a preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16053"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOUIN"/>
+    <display value="Bouin's solution"/>
+    <definition value="Picric acid, saturated aqueous solution (750.0 ml), 37-40% formalin (250.0 ml), glacial acetic acid (50.0 ml). Tissue preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16054"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BSKM"/>
+    <display value="Buffered skim milk"/>
+    <definition value="50% skim milk in 0.01 M phosphate-buffered saline. Maintain virus viability"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16057"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="C32"/>
+    <display value="3.2% Citrate"/>
+    <definition value="A 3.2% solution of Sodium Citrate in water. Used as a blood preservative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16044"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="C38"/>
+    <display value="3.8% Citrate"/>
+    <definition value="A 3.8% solution of Sodium Citrate in water. Used as a blood preservative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16045"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CARS"/>
+    <display value="Carson's Modified 10% formalin"/>
+    <definition value="A modification of buffered 10% formalin used as a general tissue preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16058"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CARY"/>
+    <display value="Cary Blair Medium"/>
+    <definition value="Sodium Thioglycollate 1.5 g, Disodium Hydrogen Phosphate 1.1 g, Sodium Chloride 5.0 g, Calcium Chloride 0.09 g, Agar 5.0 g, per Liter of Water"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16059"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CHLTM"/>
+    <display value="Chlamydia transport medium"/>
+    <definition value="Any of a number of non-nutritive buffered media used to maintain Chlamydia viability during transportation to the laboratory"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16060"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CTAD"/>
+    <display value="CTAD"/>
+    <definition value="Buffered tri-sodium citrate solution with theophylline, adenosine and dipyridamole"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16061"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EDTK15"/>
+    <display value="Potassium/K EDTA 15%"/>
+    <definition value="Potassium EDTA 15% solution in water"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16077"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EDTK75"/>
+    <display value="Potassium/K EDTA 7.5%"/>
+    <definition value="Potassium EDTA 7.5% solution in water"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16078"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="EDTN"/>
+    <display value="Sodium/Na EDTA"/>
+    <definition value="Sodium fluoride and Disodium EDTA"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16087"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ENT"/>
+    <display value="Enteric bacteria transport medium"/>
+    <definition value="Any of a number of non-nutritive buffered media used to maintain enteric bacterial viability during transportation to the laboratory"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16062"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="F10"/>
+    <display value="10% Formalin"/>
+    <definition value="A 10% v/v solution in water of formalin( a 37% solution of formaldehyde and water). Used for tissue preservation."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16043"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="FDP"/>
+    <display value="Thrombin NIH; soybean trypsin inhibitor"/>
+    <definition value="Thrombin plus soybean trypsin inhibitor. For use in identifying fibrn degredation products."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16091"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="FL10"/>
+    <display value="Sodium Fluoride, 10mg"/>
+    <definition value="Sodium fluoride, 10mg added as a urine preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16085"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="FL100"/>
+    <display value="Sodium Fluoride, 100mg"/>
+    <definition value="Sodium fluoride, 100mg added as a urine preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16084"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HCL6"/>
+    <display value="6N HCL"/>
+    <definition value="A solution of HCl containing 6moles of hydrogen ion/L. Used as a Urine Preservative."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16046"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HEPA"/>
+    <display value="Ammonium heparin"/>
+    <definition value="Ammonium heparin"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16051"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HEPL"/>
+    <display value="Lithium/Li Heparin"/>
+    <definition value="Lithium heparin salt"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16066"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HEPN"/>
+    <display value="Sodium/Na Heparin"/>
+    <definition value="Sodium heparin salt"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16086"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="HNO3"/>
+    <display value="Nitric Acid"/>
+    <definition value="6N Nitric acid used to preserve urine for heavy metal analysis."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16072"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="JKM"/>
+    <display value="Jones Kendrick Medium"/>
+    <definition value="A transport medium formulated to maintain Bordetella pertussis viability."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16063"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KARN"/>
+    <display value="Karnovsky's fixative"/>
+    <definition value="5% Glutaraldehyde, 4% Formaldehyde in 0.08M buffer. Tissue preservation"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16064"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KOX"/>
+    <display value="Potassium Oxalate"/>
+    <definition value="Potassium oxalate and sodium fluoride in a 1.25:1 ratio"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16076"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="LIA"/>
+    <display value="Lithium iodoacetate"/>
+    <definition value="Iodoacetate lithium salt"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16065"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="M4"/>
+    <display value="M4"/>
+    <definition value="Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with HEPES buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16067"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="M4RT"/>
+    <display value="M4-RT"/>
+    <definition value="Modified Hank's balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Gentamicin and amphotericin B are used to inhibit c"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16068"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="M5"/>
+    <display value="M5"/>
+    <definition value="Modified Hank's balanced salt solution supplemented with protein stabilizers, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to inhibit c"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16069"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MICHTM"/>
+    <display value="Michel's transport medium"/>
+    <definition value="1M potassium citrate, pH 7.0 2.5 ml, 0.1M magnesium sulfate 5.0 ml, 0.1M N-ethyl malemide 5.0 ml, dH2O 87.5 ml, ammonium sulfate 55gm. Preserve antigens for Immunofluorescence procedures"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16070"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MMDTM"/>
+    <display value="MMD transport medium"/>
+    <definition value="A buffered medium with ammonium sulfate added to preserve antigens for Immunofluorescence procedures"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16071"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NAF"/>
+    <display value="Sodium Fluoride"/>
+    <definition value="Sodium fluoride"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16083"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="NONE"/>
+    <display value="None"/>
+    <definition value="No additive. Specifically identifes the specimen as having no additives."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16073"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PAGE"/>
+    <display value="Page's Saline"/>
+    <definition value="0.12 g NaCl, 0.004 g MgSO, 0.004 g, CaCl, 0.142 g Na2HPO4 and 0.136 g KH2PO4 per liter of distilled water. Maintain Acanthaoemba viability."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16074"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PHENOL"/>
+    <display value="Phenol"/>
+    <definition value="Phenol. Urine preservative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16075"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="PVA"/>
+    <display value="Polyvinylalcohol"/>
+    <definition value="Polyvinyl alcohol"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16079"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="RLM"/>
+    <display value="Reagan Lowe Medium"/>
+    <definition value="A transport medium formulated to maintain Bordetella pertussis viability."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16080"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SILICA"/>
+    <display value="Siliceous earth"/>
+    <definition value="Diatomaceous earth. For glucose determination blood samples"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16082"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SPS"/>
+    <display value="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
+    <definition value="Sodium polyanethol sulfonate in saline. Anticomplementary and antiphagocytic properties. Used in blood culture collection."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16088"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SST"/>
+    <display value="Serum Separator Tube"/>
+    <definition value="Polymer separator gel with clot activator"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16081"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="STUTM"/>
+    <display value="Stuart transport medium"/>
+    <definition value="Sodium Glycerophosphate 10.0g, Calcium Chloride 0.1g, Mercaptoacetic Acid 1.0ml, Distilled Water 1 liter"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16089"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="THROM"/>
+    <display value="Thrombin"/>
+    <definition value="Thrombin. Accelerates clotting."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16090"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="THYMOL"/>
+    <display value="Thymol"/>
+    <definition value="2-Isopropyl-5-methyl phenol. A preservative for 24 Hr Urine samples"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16092"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="THYO"/>
+    <display value="Thyoglycolate broth"/>
+    <definition value="A nutritive medium with a reducing agent (sodium thioglycolate) which, due to a chemical reaction, removes oxygen from the broth."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16093"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TOLU"/>
+    <display value="Toluene"/>
+    <definition value="Also known as Methylbenzene; Toluol; Phenylmethane. A preservative for 24 Hr Urine samples"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16094"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="URETM"/>
+    <display value="Ureaplasma transport medium"/>
+    <definition value="A buffered salt solution with antifungal agents added for the collection and transport of Ureaplasma specimens."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16095"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="VIRTM"/>
+    <display value="Viral Transport medium"/>
+    <definition value="Sucrose 74.6g, Potassium hydrogenphosphate 0.52g, L-glutamic acid 0.72g, Bovine serum albumin 5.0g, Gentamicin 50mg, Potassium dihydrogenphosphate 1.25g, L-15 medium 9.9L, Water to 10L. Maintain Virus viability."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16096"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="WEST"/>
+    <display value="Buffered Citrate"/>
+    <definition value="3.8% Citrate buffered to a pH of 5.5 for Westergren Sedimentation Rate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16056"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="_SpecimenAdditiveEntity"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CARD"/>
+    <display value="Card"/>
+    <definition value="A bubble pack card. Multiple individual/separated doses."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16172"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BLSTRPK"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOTA"/>
+    <display value="Amber Bottle"/>
+    <definition value="A bottle of yellow to brown color. Used to store light-sensitive materials"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16156"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BOT"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOTD"/>
+    <display value="Dropper Bottle"/>
+    <definition value="A bottle with a cap designed to release the contained liquid in droplets of a specific size."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16157"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BOT"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOTG"/>
+    <display value="Glass Bottle"/>
+    <definition value="A bottle made of glass"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16158"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BOT"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOTP"/>
+    <display value="Plastic Bottle"/>
+    <definition value="A bottle made of plastic"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16159"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BOT"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BOTPLY"/>
+    <display value="Polyethylene Bottle"/>
+    <definition value="A bottle made of polyethylene"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16160"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="BOTP"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DIALPK"/>
+    <display value="Dial Pack"/>
+    <definition value="Rotatable dispenser. Eg. Birth control package."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16173"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="COMPPKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DISK"/>
+    <display value="Disk"/>
+    <definition value="Object that is thin, flat, and circular. Doses of medication often contained in bubbles on the disk."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16174"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="COMPPKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DOSET"/>
+    <display value="Dosette"/>
+    <definition value="Special packaging that will help patients take their medications on a regular basis."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16175"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="COMPPKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="STRIP"/>
+    <display value="Strip"/>
+    <definition value="A continuous strip of plastic sectioned into individual pouches, each one containing the quantity of 1 or more medications intended to be administered at a specific time"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="17849"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="COMPPKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DSKS"/>
+    <display value="Diskus"/>
+    <definition value="The device used to inhale the doses of medication contained in the disk form."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16199"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INH"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DSKUNH"/>
+    <display value="Diskhaler"/>
+    <definition value="The device used to inhale the doses of medication contained in the disk form."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16198"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INH"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TRBINH"/>
+    <display value="Turbuhaler"/>
+    <definition value="Asthma medication delivery device."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16197"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="INH"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SYSTM"/>
+    <display value="System"/>
+    <definition value="A kit in which the components are interconnected."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16146"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="KIT"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="IALINE"/>
+    <display value="Intra-arterial Line"/>
+    <definition value="A line used to administer a substance into an artery"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16203"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="LINE"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="IVLINE"/>
+    <display value="Intraveneous Line"/>
+    <definition value="A line used to administer a substance into a vein"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16202"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="LINE"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_NonRigidContainerEntityType"/>
+    <display value="NonRigidContainerEntityType"/>
+    <definition value="A container having dimensions that adjust somewhat based on the amount and shape of the material placed within it."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="CONT"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21069"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="PKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="_RigidContainerEntityType"/>
+    <display value="RigidContainerEntityType"/>
+    <definition value="A container having a fixed and inflexible dimensions and volume"/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="rim-ClassifiesClassCode"/>
+      <valueCoding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-EntityClass"/>
+        <code value="CONT"/>
+      </valueCoding>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21071"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="PKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="COMPPKG"/>
+    <display value="Compliance Package"/>
+    <definition value="A container intended to contain sufficient material for more than one use, but grouped or organized to provide individual access to sufficient material for a single use. Often used to ensure that the proper type and amount of material is consumed/expended for each use."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16170"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="PKG"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIT"/>
+    <display value="Kit"/>
+    <definition value="A container for a diverse collection of products intended to be used together for some purpose (e.g. Medicinal kits often contain a syringe, a needle and the injectable medication)."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="16145"/>
+    </property>
+    <property>
+      <code value="subsumedBy"/>
+      <valueCode value="PKG"/>
+    </property>
+  </concept>
+</CodeSystem>

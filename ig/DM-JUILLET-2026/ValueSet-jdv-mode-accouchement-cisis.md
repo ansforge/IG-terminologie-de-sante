@@ -1,0 +1,127 @@
+# JDV Mode Accouchement CISIS - Terminologies de Santé v1.11.1
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **JDV Mode Accouchement CISIS**
+
+## ValueSet: JDV Mode Accouchement CISIS 
+
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-accouchement-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeAccouchementCisis |
+| *Other Identifiers:*OID:1.2.250.1.213.1.1.5.735 | | |
+
+ 
+JDV Mode Accouchement CISIS 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ Explanation of the columns that may appear on this page: 
+
+| | |
+| :--- | :--- |
+| Level | A few code lists that FHIR defines are hierarchical - each code is assigned a level. In this scheme, some codes are under other codes, and imply that the code they are under also applies |
+| System | The source of the definition of the code (when the value set draws in codes defined elsewhere) |
+| Code | The code (used as the code in the resource instance) |
+| Display | The display (used in the*display*element of a[Coding](http://hl7.org/fhir/R4/datatypes.html#Coding)). If there is no display, implementers should not simply display the code, but map the concept into their application |
+| Definition | An explanation of the meaning of the concept |
+| Comments | Additional notes about how to use the code |
+
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-jdv-modalite-sortie-esms-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-mode-accouchement-cisis-testing.md) |
+
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-07-10
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-mode-accouchement-cisis",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-22T13:59:23.540+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-accouchement-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.735"
+  }],
+  "version" : "20260619134042",
+  "name" : "JdvModeAccouchementCisis",
+  "title" : "JDV Mode Accouchement CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-19T13:40:42+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Mode Accouchement CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1253",
+        "display" : "Césarienne pendant travail"
+      },
+      {
+        "code" : "MED-1254",
+        "display" : "Césarienne avant travail"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "302383004",
+        "display" : "accouchement par forceps"
+      },
+      {
+        "code" : "700000006",
+        "display" : "accouchement par voie basse"
+      }]
+    }]
+  }
+}
+
+```

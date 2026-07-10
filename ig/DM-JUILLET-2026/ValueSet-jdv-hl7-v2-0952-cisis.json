@@ -1,0 +1,69 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-hl7-v2-0952-cisis",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:58:06.468+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-hl7-v2-0952-cisis</b></p><a name=\"jdv-hl7-v2-0952-cisis\"> </a><a name=\"hcjdv-hl7-v2-0952-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 13:58:06+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-Confidentiality.html\"><code>http://terminology.hl7.org/CodeSystem/v3-Confidentiality</code></a><span title=\"La version est explicitement indiquée comme étant 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><code>L</code></td><td>Bas</td><td>Privacy metadata indicating that a low level of protection is required to safeguard personal and healthcare information, which has been altered in such a way as to minimize the need for confidentiality protections with some residual risks associated with re-linking. The risk of harm to an individual's reputation and sense of privacy if disclosed without authorization is considered negligible, and mitigations are in place to address reidentification risk.<br/><br/>*Usage Note:* <br/><br/>The level of protection afforded anonymized and pseudonymized, and non-personally identifiable information (e.g., a limited data set) is dictated by privacy policies and data use agreements intended to engender trust that health information can be used and disclosed with little or no risk of re-identification.<br/><br/>**Example:** Personal and healthcare information, which excludes 16 designated categories of direct identifiers in a HIPAA Limited Data Set. This information may be disclosed by HIPAA Covered Entities without patient authorization for a research, public health, and operations purposes if conditions are met, which includes obtaining a signed data use agreement from the recipient. See 45 CFR Section 164.514.<br/><br/>This metadata indicates that the receiver may have an obligation to comply with a data use agreement with the discloser. The discloser may have obligations to comply with policies dictating the methods for de-identification.<br/><br/>Confidentiality code total order hierarchy: Low (L) is less protective than *V, R, N,* and *M*, and subsumes *U*.</td></tr><tr><td><code>M</code></td><td>Modéré</td><td>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.<br/><br/>*Usage Note:* The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.<br/><br/>Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. &quot;Moderate&quot; confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.<br/><br/>Confidentiality code total order hierarchy: Moderate (M) is less protective than *V, R, and N*, and subsumes all other protection levels (i.e., *L* and *U*).<br/><br/>**Examples:** Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes</td></tr><tr><td><code>N</code></td><td>Normal</td><td>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a considerable risk of harm to an individual's reputation and sense of privacy.<br/><br/>*Usage Note:* The level of protection afforded normatively confidential information is dictated by the prevailing normative privacy policies, which are intended to engender patient trust in their healthcare providers.<br/><br/>Privacy policies mandating normative levels of protection, which preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).<br/><br/>Confidentiality code total order hierarchy: Normal (N) is less protective than *V* and *R*, and subsumes all other protection levels (i.e., *M, L, and U*).<br/><br/>**Map:**Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care when purpose of use is treatment: Default for normal clinical care access (i.e., most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.<br/><br/>**Examples:** <br/><br/>n the US, this includes what HIPAA identifies as protected health information (PHI) under 45 CFR Section 160.103.</td></tr><tr><td><code>R</code></td><td>Restreint</td><td>Privacy metadata indicating the level of protection required to safeguard potentially stigmatizing information, which if disclosed without authorization, would present a high risk of harm to an individual's reputation and sense of privacy.<br/><br/>*Usage Note:* The level of protection afforded restricted confidential information is dictated by specially protective organizational or jurisdictional privacy policies, including at an authorized individual's request, intended to engender patient trust in providers of sensitive services.<br/><br/>Privacy policies mandating additional levels of protection by restricting information access preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).<br/><br/>Confidentiality code total order hierarchy: Restricted (R) is less protective than *V*, and subsumes all other protection levels (i.e., *N, M, L, and U*).<br/><br/>**Examples:** <br/><br/>Includes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patient's standing as an employee or a celebrity. May be used to indicate proprietary or classified information that is not related to an individual (e.g., secret ingredients in a therapeutic substance; or the name of a manufacturer).</td></tr><tr><td><code>U</code></td><td>Non restreint</td><td>Privacy metadata indicating that no level of protection is required to safeguard personal and healthcare information that has been disclosed by an authorized individual without restrictions on its use.<br/><br/>**Examples:** Includes publicly available information e.g., business name, phone, email and physical address.<br/><br/>*Usage Note:* The authorization to collect, access, use, and disclose this information may be stipulated in a contract of adhesion by a data user (e.g., via terms of service or data user privacy policies) in exchange for the data subject's use of a service.<br/><br/>This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.<br/><br/>This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.<br/><br/>Confidentiality code total order hierarchy: Unrestricted (U) is less protective than *V, R, N, M,* and *L*, and is the lowest protection levels.</td></tr><tr><td><code>V</code></td><td>Très restreint</td><td>Privacy metadata indicating the level of protection required under atypical cicumstances to safeguard potentially damaging or harmful information, which if disclosed without authorization, would (1) present an extremely high risk of harm to an individual's reputation, sense of privacy, and possibly safety; or (2) impact an individual's or organization's legal matters.<br/><br/>*Usage Note:* The level of protection afforded very restricted confidential information is dictated by specially protective privacy or legal policies intended to ensure that under atypical circumstances additional protections limit access to only those with a high 'need to know' and the information is kept in highest confidence..<br/><br/>Privacy and legal policies mandating the highest level of protection by stringently restricting information access, preempt less protective privacy policies when the information is used in the delivery and management of healthcare including legal proceedings related to healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment but only under limited circumstances).<br/><br/>Confidentiality code total order hierarchy: Very Restricted (V) is the highest protection level and subsumes all other protection levels s (i.e., *R, N, M, L, and UI*).<br/><br/>**Examples:** <br/><br/>Includes information about a victim of abuse, patient requested information sensitivity, and taboo subjects relating to health status that must be discussed with the patient by an attending provider before sharing with the patient. May also include information held under a legal hold or attorney-client privilege.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0952-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.10228"
+  }],
+  "version" : "20260619134042",
+  "name" : "Confidentiality",
+  "title" : "Confidentiality",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-19T13:40:42+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Confidentiality",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+      "version" : "4.0.0",
+      "concept" : [{
+        "code" : "L",
+        "display" : "Bas"
+      },
+      {
+        "code" : "M",
+        "display" : "Modéré"
+      },
+      {
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "R",
+        "display" : "Restreint"
+      },
+      {
+        "code" : "U",
+        "display" : "Non restreint"
+      },
+      {
+        "code" : "V",
+        "display" : "Très restreint"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,170 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "terminologie-sms"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "31" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-03T14:29:46.290+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem terminologie-sms</b></p><a name=\"terminologie-sms\"> </a><a name=\"hcterminologie-sms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 31; Dernière mise à jour : 2026-07-03 14:29:46+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>created</td><td>created</td><td>http://purl.org/dc/terms/created</td><td>dateTime</td><td/></tr><tr><td>status</td><td>status</td><td>http://www.w3.org/ns/adms#status</td><td>string</td><td/></tr><tr><td>modified</td><td>modified</td><td>http://purl.org/dc/terms/modified</td><td>dateTime</td><td/></tr><tr><td>type</td><td>type</td><td>http://purl.org/dc/elements/1.1/type</td><td>string</td><td>Type fonctionnel d'un concept</td></tr><tr><td>domain</td><td>domain</td><td>http://data.esante.gouv.fr/ema/sms/domain</td><td>string</td><td/></tr><tr><td>nameSource</td><td>nameSource</td><td>http://data.esante.gouv.fr/ema/sms/nameSource</td><td>string</td><td/></tr><tr><td>extarnalCodeXEVMPD</td><td>extarnalCodeXEVMPD</td><td>http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD</td><td>string</td><td/></tr><tr><td>inchikey</td><td>inchikey</td><td>http://data.esante.gouv.fr/ema/sms/inchikey</td><td>string</td><td/></tr><tr><td>molecularFormula</td><td>molecularFormula</td><td>http://data.esante.gouv.fr/ema/sms/molecularFormula</td><td>string</td><td/></tr><tr><td>molecularWeight</td><td>molecularWeight</td><td>http://data.esante.gouv.fr/ema/sms/molecularWeight</td><td>decimal</td><td/></tr><tr><td>comment</td><td>comment</td><td>http://www.w3.org/2000/01/rdf-schema#comment</td><td>string</td><td/></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-sms</code> defines codes, but no codes are represented here</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/terminologie-sms"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "usual" ] ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.3.6905.2" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.system [ fhir:value "https://smt.esante.gouv.fr/" ] ;
+     fhir:Identifier.value [ fhir:value "terminologie-sms" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "2026-07"] ;
+  fhir:CodeSystem.name [ fhir:value "Dictionnaire_SMS_Substance_Management_Services_"] ;
+  fhir:CodeSystem.title [ fhir:value "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-03T10:00:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du numérique en santé"] ;
+  fhir:CodeSystem.description [ fhir:value "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt.esante.gouv.fr/terminologie-sms?vs" ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-sms?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "not-present"] ;
+  fhir:CodeSystem.count [ fhir:value "72342"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "created" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/terms/created" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/ns/adms#status" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "modified" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/terms/modified" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "type" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/elements/1.1/type" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Type fonctionnel d'un concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "domain" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/domain" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "nameSource" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/nameSource" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "extarnalCodeXEVMPD" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.property.code [ fhir:value "inchikey" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/inchikey" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.property.code [ fhir:value "molecularFormula" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/molecularFormula" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.property.code [ fhir:value "molecularWeight" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://data.esante.gouv.fr/ema/sms/molecularWeight" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "decimal" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.property.code [ fhir:value "comment" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2000/01/rdf-schema#comment" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des parents du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des enfants du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.property.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if the concept is imported from another code system." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.property.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

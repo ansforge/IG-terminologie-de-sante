@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS</b></p><a name=\"ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS\"> </a><a name=\"hcASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS\"> </a><p>Mapping de <a href=\"ValueSet-jdv-hl7-v3-MediaType-cisis.html\">MediaType</a> vers <a href=\"ValueSet-JDV-J10-XdsFormatCode-CISIS.html\">JDV_J10_XdsFormatCode_CISIS</a></p><br/><p>Mapping de <a href=\"CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.html\">TRE_R222_MediaTypeCorpsCDANonStructure</a> to <a href=\"CodeSystem-TRE-A11-IheFormatCode.html\">TRE_A11_IheFormatCode</a></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td></tr><tr><td>application/pdf (Document CDA à corps non structuré en Pdf/A-1)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:pdf:2008 (Document à corps non structuré en Pdf/A-1)</td></tr><tr><td>text/plain (Document CDA à corps non structuré en texte brut)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:text:2008 (Document à corps non structuré en texte brut)</td></tr><tr><td>text/rtf (Document CDA à corps non structuré en format rtf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:rtf:2010 (Document à corps non structuré en format rtf)</td></tr><tr><td>image/jpeg (Document CDA à corps non structuré en format jpeg)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:jpeg:2010 (Document à corps non structuré en format jpeg)</td></tr><tr><td>image/tiff (Document CDA à corps non structuré en format tiff)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti-fr:xds-sd:tiff:2010 (Document à corps non structuré en format tiff)</td></tr></table></div>"
+  ] ;
+  fhir:ConceptMap.url [ fhir:value "https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ;
+  fhir:ConceptMap.version [ fhir:value "5.0.0"] ;
+  fhir:ConceptMap.name [ fhir:value "ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS"] ;
+  fhir:ConceptMap.title [ fhir:value "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"] ;
+  fhir:ConceptMap.status [ fhir:value "active"] ;
+  fhir:ConceptMap.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ConceptMap.date [ fhir:value "2026-07-10T09:53:32+00:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.publisher [ fhir:value "ANS"] ;
+  fhir:ConceptMap.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "ANS" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:ConceptMap.description [ fhir:value "Association  qui permet de deduire l'attribut XDS 'formatCode' à partir  de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1"] ;
+  fhir:ConceptMap.useContext [
+     fhir:index 0 ;
+     fhir:UsageContext.code [
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/usage-context-type" ] ;
+       fhir:Coding.code [ fhir:value "task" ]
+     ] ;
+     fhir:UsageContext.valueCodeableConcept [
+       fhir:CodeableConcept.text [ fhir:value "Pour la constitution des metadata XDS" ]
+     ]
+  ] ;
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ConceptMap.sourceUri [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis"] ;
+  fhir:ConceptMap.targetUri [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"] ;
+  fhir:ConceptMap.group [
+     fhir:index 0 ;
+     fhir:ConceptMap.group.source [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure" ] ;
+     fhir:ConceptMap.group.target [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode" ] ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "application/pdf" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "urn:ihe:iti:xds-sd:pdf:2008" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "text/plain" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "urn:ihe:iti:xds-sd:text:2008" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "text/rtf" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "urn:ihe:iti-fr:xds-sd:rtf:2010" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "image/jpeg" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "urn:ihe:iti-fr:xds-sd:jpeg:2010" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "image/tiff" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "urn:ihe:iti-fr:xds-sd:tiff:2010" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

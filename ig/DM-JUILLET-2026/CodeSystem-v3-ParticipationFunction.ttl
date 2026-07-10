@@ -1,0 +1,811 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationFunction> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-ParticipationFunction"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:51.654+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-ParticipationFunction</b></p><a name=\"v3-ParticipationFunction\"> </a><a name=\"hcv3-ParticipationFunction\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:51+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>Not Selectable</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_AuthorizedParticipationFunction<a name=\"v3-ParticipationFunction-_AuthorizedParticipationFunction\"> </a></td><td>AuthorizedParticipationFunction</td><td><div><p>This code is used to specify the exact function an actor is authorized to have in a service in all necessary detail.</p>\n</div></td><td>22338</td><td>true</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _AuthorizedReceiverParticipationFunction<a name=\"v3-ParticipationFunction-_AuthorizedReceiverParticipationFunction\"> </a></td><td>AuthorizedReceiverParticipationFunction</td><td><div><p>This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override.</p>\n</div></td><td>22341</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AUCG<a name=\"v3-ParticipationFunction-AUCG\"> </a></td><td>caregiver information receiver</td><td><div><p>**Description:**Caregiver authorized to receive patient health information.</p>\n</div></td><td>22900</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AULR<a name=\"v3-ParticipationFunction-AULR\"> </a></td><td>legitimate relationship information receiver</td><td><div><p>**Description:**Provider with legitimate relationship authorized to receive patient health information.</p>\n</div></td><td>22901</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AUTM<a name=\"v3-ParticipationFunction-AUTM\"> </a></td><td>care team information receiver</td><td><div><p>**Description:**Member of care team authorized to receive patient health information.</p>\n</div></td><td>22902</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AUWA<a name=\"v3-ParticipationFunction-AUWA\"> </a></td><td>work area information receiver</td><td><div><p>**Description:**Entities within specified work area authorized to receive patient health information.</p>\n</div></td><td>22903</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _ConsenterParticipationFunction<a name=\"v3-ParticipationFunction-_ConsenterParticipationFunction\"> </a></td><td>ConsenterParticipationFunction</td><td><div><p>This code is used to specify the exact function an actor is authorized to have in authoring a consent directive.</p>\n</div></td><td>22339</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GRDCON<a name=\"v3-ParticipationFunction-GRDCON\"> </a></td><td>legal guardian consent author</td><td><div><p>**Description:**Legal guardian of the subject of consent authorized to author a consent directive for the subject of consent.</p>\n</div></td><td>22894</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    POACON<a name=\"v3-ParticipationFunction-POACON\"> </a></td><td>healthcare power of attorney consent author</td><td><div><p>**Description:**Person authorized with healthcare power of attorney to author a consent directive for the subject of consent.</p>\n</div></td><td>22896</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PRCON<a name=\"v3-ParticipationFunction-PRCON\"> </a></td><td>personal representative consent author</td><td><div><p>**Description:**Personal representative of the subject of consent authorized to author a consent directive for the subject of consent.</p>\n</div></td><td>22895</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PROMSK<a name=\"v3-ParticipationFunction-PROMSK\"> </a></td><td>authorized provider masking author</td><td><div><p>**Definition:**Provider authorized to mask information to protect the patient, a third party, or to ensure that the provider has consulted with the patient prior to release of this information.</p>\n</div></td><td>22897</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SUBCON<a name=\"v3-ParticipationFunction-SUBCON\"> </a></td><td>subject of consent author</td><td><div><p>**Description:**Subject of consent authorized to author a consent directive.</p>\n</div></td><td>22893</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _OverriderParticipationFunction<a name=\"v3-ParticipationFunction-_OverriderParticipationFunction\"> </a></td><td>OverriderParticipationFunction</td><td><div><p>This code is used to specify the exact function an actor is authorized to have in authoring a consent override.</p>\n</div></td><td>22340</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AUCOV<a name=\"v3-ParticipationFunction-AUCOV\"> </a></td><td>consent overrider</td><td><div><p>**Description:**Entity authorized to override a consent directive.</p>\n</div></td><td>22898</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AUEMROV<a name=\"v3-ParticipationFunction-AUEMROV\"> </a></td><td>emergency overrider</td><td><div><p>**Description:**Entity authorized to override a consent directive or privacy policy in an emergency.</p>\n</div></td><td>22899</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_CoverageParticipationFunction<a name=\"v3-ParticipationFunction-_CoverageParticipationFunction\"> </a></td><td>CoverageParticipationFunction</td><td><div><p><strong>Definition:</strong> Set of codes indicating the manner in which sponsors, underwriters, and payers participate in a policy or program.</p>\n</div></td><td>22222</td><td>true</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _PayorParticipationFunction<a name=\"v3-ParticipationFunction-_PayorParticipationFunction\"> </a></td><td>PayorParticipationFunction</td><td><div><p><strong>Definition:</strong> Set of codes indicating the manner in which payors participate in a policy or program.&lt;/</p>\n</div></td><td>22223</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    CLMADJ<a name=\"v3-ParticipationFunction-CLMADJ\"> </a></td><td>claims adjudication</td><td><div><p><strong>Definition:</strong> Manages all operations required to adjudicate fee for service claims or managed care encounter reports.</p>\n</div></td><td>22226</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    ENROLL<a name=\"v3-ParticipationFunction-ENROLL\"> </a></td><td>enrollment broker</td><td><div><p><strong>Definition:</strong> Managing the enrollment of covered parties.</p>\n</div></td><td>22229</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    FFSMGT<a name=\"v3-ParticipationFunction-FFSMGT\"> </a></td><td>ffs management</td><td><div><p><strong>Definition:</strong> Managing all operations required to administer a fee for service or indemnity health plan including enrolling covered parties and providing customer service, provider contracting, claims payment, care management and utilization review.</p>\n</div></td><td>22228</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    MCMGT<a name=\"v3-ParticipationFunction-MCMGT\"> </a></td><td>managed care management</td><td><div><p><strong>Definition:</strong> Managing all operations required to administer a managed care plan including enrolling covered parties and providing customer service,, provider contracting, claims payment, care management and utilization review.</p>\n</div></td><td>22227</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PROVMGT<a name=\"v3-ParticipationFunction-PROVMGT\"> </a></td><td>provider management</td><td><div><p><strong>Definition:</strong> Managing provider contracting, provider services, credentialing, profiling, performance measures, and ensuring network adequacy.</p>\n</div></td><td>22230</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    UMGT<a name=\"v3-ParticipationFunction-UMGT\"> </a></td><td>utilization management</td><td><div><p><strong>Definition:</strong> Managing utilization of services by ensuring that providers adhere to, e.g., payeraTMs clinical protocols for medical appropriateness and standards of medical necessity. May include management of authorizations for services and referrals.</p>\n</div></td><td>22231</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _SponsorParticipationFunction<a name=\"v3-ParticipationFunction-_SponsorParticipationFunction\"> </a></td><td>SponsorParticipationFunction</td><td><div><p><strong>Definition:</strong> Set of codes indicating the manner in which sponsors participate in a policy or program. NOTE: use only when the Sponsor is not further specified with a SponsorRoleType as being either a fully insured sponsor or a self insured sponsor.</p>\n</div></td><td>22224</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    FULINRD<a name=\"v3-ParticipationFunction-FULINRD\"> </a></td><td>fully insured</td><td><div><p><strong>Definition:</strong> Responsibility taken by a sponsor to contract with one or more underwriters for the assumption of full responsibility for the risk and administration of a policy or program.</p>\n</div></td><td>22232</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SELFINRD<a name=\"v3-ParticipationFunction-SELFINRD\"> </a></td><td>self insured</td><td><div><p><strong>Definition:</strong> Responsibility taken by a sponsor to organize the underwriting of risk and administration of a policy or program.</p>\n</div></td><td>22233</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _UnderwriterParticipationFunction<a name=\"v3-ParticipationFunction-_UnderwriterParticipationFunction\"> </a></td><td>UnderwriterParticipationFunction</td><td><div><p><strong>Definition:</strong> Set of codes indicating the manner in which underwriters participate in a policy or program.</p>\n</div></td><td>22225</td><td>true</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PAYORCNTR<a name=\"v3-ParticipationFunction-PAYORCNTR\"> </a></td><td>payor contracting</td><td><div><p><strong>Definition:</strong> Contracting for the provision and administration of health services to payors while retaining the risk for coverage. Contracting may be for all provision and administration; or for provision of certain types of services; for provision of services by region; and by types of administration, e.g., claims adjudication, enrollment, provider management, and utilization management. Typically done by underwriters for sponsors who need coverage provided to covered parties in multiple regions. The underwriter may act as the payor in some, but not all of the regions in which coverage is provided.</p>\n</div></td><td>22234</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    REINS<a name=\"v3-ParticipationFunction-REINS\"> </a></td><td>reinsures</td><td><div><p><strong>Definition:</strong> Underwriting reinsurance for another underwriter for the policy or program.</p>\n</div></td><td>22235</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    RETROCES<a name=\"v3-ParticipationFunction-RETROCES\"> </a></td><td>retrocessionaires</td><td><div><p><strong>Definition:</strong> Underwriting reinsurance for another reinsurer.</p>\n</div></td><td>22236</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SUBCTRT<a name=\"v3-ParticipationFunction-SUBCTRT\"> </a></td><td>subcontracting risk</td><td><div><p><strong>Definition:</strong> Delegating risk for a policy or program to one or more subcontracting underwriters, e.g., a major health insurer may delegate risk for provision of coverage under a national health plan to other underwriters by region .</p>\n</div></td><td>22237</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    UNDERWRTNG<a name=\"v3-ParticipationFunction-UNDERWRTNG\"> </a></td><td>underwriting</td><td><div><p><strong>Definition:</strong> Provision of underwriting analysis for another underwriter without assumption of risk.</p>\n</div></td><td>22238</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ADMPHYS<a name=\"v3-ParticipationFunction-ADMPHYS\"> </a></td><td>admitting physician</td><td><div><p>A physician who admitted a patient to a hospital or other care unit that is the context of this service.</p>\n</div></td><td>10278</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ANEST<a name=\"v3-ParticipationFunction-ANEST\"> </a></td><td>anesthesist</td><td><div><p>In a typical anesthesia setting an anesthesiologist or anesthesia resident in charge of the anesthesia and life support, but only a witness to the surgical procedure itself. To clarify responsibilities anesthesia should always be represented as a separate service related to the surgery.</p>\n</div></td><td>10274</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ANRS<a name=\"v3-ParticipationFunction-ANRS\"> </a></td><td>anesthesia nurse</td><td><div><p>In a typical anesthesia setting the nurse principally assisting the anesthesiologist during the critical periods.</p>\n</div></td><td>10275</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ASSEMBLER<a name=\"v3-ParticipationFunction-ASSEMBLER\"> </a></td><td>assembly software</td><td><div><p>A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.</p>\n<p><em>UsageConstraint:</em> ASSEMBLER ParticipationFunction should be used with DEV (device) ParticipationType.</p>\n</div></td><td>23655</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ATTPHYS<a name=\"v3-ParticipationFunction-ATTPHYS\"> </a></td><td>attending physician</td><td><div><p>A physician who is primarily responsible for a patient during the hospitalization, which is the context of the service.</p>\n</div></td><td>10277</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">COMPOSER<a name=\"v3-ParticipationFunction-COMPOSER\"> </a></td><td>composer software</td><td><div><p>A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.</p>\n<p><em>UsageConstraint:</em> COMPOSER ParticipationFunction should be used with DEV (device) ParticipationType.</p>\n<p><em>Usage Note:</em> This code will enable implementers to more specifically represent the manner in which a Device participated in and facilitated the generation of a CDA Clinical Document or a CDA Entry by the responsible Author, which is comprised of the Author's newly entered content, and may include the pre-existing content selected by the Author, for the purpose of establishing the provenance and accountability for these acts.</p>\n</div></td><td>23722</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">DISPHYS<a name=\"v3-ParticipationFunction-DISPHYS\"> </a></td><td>discharging physician</td><td><div><p>A physician who discharged a patient from a hospital or other care unit that is the context of this service.</p>\n</div></td><td>10279</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">FASST<a name=\"v3-ParticipationFunction-FASST\"> </a></td><td>first assistant surgeon</td><td><div><p>In a typical surgery setting the assistant facing the primary surgeon. The first assistant performs parts of the operation and assists in others (e.g., incision, approach, electrocoutering, ligatures, sutures).</p>\n</div></td><td>10269</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">MDWF<a name=\"v3-ParticipationFunction-MDWF\"> </a></td><td>midwife</td><td><div><p>A person (usually female) helping a woman deliver a baby. Responsibilities vary locally, ranging from a mere optional assistant to a full required participant, responsible for (normal) births and pre- and post-natal care for both mother and baby.</p>\n</div></td><td>10276</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">NASST<a name=\"v3-ParticipationFunction-NASST\"> </a></td><td>nurse assistant</td><td><div><p>In a typical surgery setting the non-sterile nurse handles material supply from the stock, forwards specimen to pathology, and helps with other non-sterile tasks (e.g., phone calls, etc.).</p>\n</div></td><td>10273</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">PCP<a name=\"v3-ParticipationFunction-PCP\"> </a></td><td>primary care physician</td><td><div><p>The healthcare provider that holds primary responsibility for the overall care of a patient.</p>\n</div></td><td>10281</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">PRISURG<a name=\"v3-ParticipationFunction-PRISURG\"> </a></td><td>primary surgeon</td><td><div><p>In a typical surgery setting the primary performing surgeon.</p>\n</div></td><td>10268</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">REVIEWER<a name=\"v3-ParticipationFunction-REVIEWER\"> </a></td><td>reviewer</td><td><div><p>A verifier who is accountable for reviewing and asserting that the verification of an Act complies with jurisdictional or organizational policy.</p>\n<p><em>UsageConstraint:</em> UsageConstraint: Specifies the exact function that an actor is authorized to have as a verifier of an Act. Connotes that a specialized verifier asserts compliance for veracity of the review per jurisdictional or organizational policy. E.g., The Provider who takes responsibility for authenticity of a record submitted to a payer.</p>\n<p>REVIEW ParticipationFunction should be used with VFR (verifier)</p>\n</div></td><td>23656</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">RNDPHYS<a name=\"v3-ParticipationFunction-RNDPHYS\"> </a></td><td>rounding physician</td><td><div><p>A physician who made rounds on a patient in a hospital or other care center.</p>\n</div></td><td>10280</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">SASST<a name=\"v3-ParticipationFunction-SASST\"> </a></td><td>second assistant surgeon</td><td><div><p>In a typical surgery setting the assistant who primarily holds the hooks.</p>\n</div></td><td>10270</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">SNRS<a name=\"v3-ParticipationFunction-SNRS\"> </a></td><td>scrub nurse</td><td><div><p>In a typical surgery setting the nurse in charge of the instrumentation.</p>\n</div></td><td>10271</td><td/><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">TASST<a name=\"v3-ParticipationFunction-TASST\"> </a></td><td>third assistant</td><td><div><p>In a typical surgery setting there is rarely a third assistant (e.g., in some Hip operations the third assistant postures the affected leg).</p>\n</div></td><td>10272</td><td/><td>active</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.88" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ParticipationFunction"] ;
+  fhir:CodeSystem.title [ fhir:value "ParticipationFunction"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "notSelectable" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#notSelectable" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_AuthorizedParticipationFunction" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AuthorizedParticipationFunction" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "This code is used to specify the exact function an actor is authorized to have in a service in all necessary detail." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "22338" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_AuthorizedReceiverParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "AuthorizedReceiverParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22341" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AUCG" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "caregiver information receiver" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Caregiver authorized to receive patient health information." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22900" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AULR" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "legitimate relationship information receiver" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Provider with legitimate relationship authorized to receive patient health information." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22901" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AUTM" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "care team information receiver" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Member of care team authorized to receive patient health information." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22902" ]
+         ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AUWA" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "work area information receiver" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Entities within specified work area authorized to receive patient health information." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22903" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_ConsenterParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "ConsenterParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This code is used to specify the exact function an actor is authorized to have in authoring a consent directive." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22339" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "GRDCON" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "legal guardian consent author" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Legal guardian of the subject of consent authorized to author a consent directive for the subject of consent." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22894" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "POACON" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "healthcare power of attorney consent author" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Person authorized with healthcare power of attorney to author a consent directive for the subject of consent." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22896" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PRCON" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "personal representative consent author" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Personal representative of the subject of consent authorized to author a consent directive for the subject of consent." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22895" ]
+         ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PROMSK" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "authorized provider masking author" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:**Provider authorized to mask information to protect the patient, a third party, or to ensure that the provider has consulted with the patient prior to release of this information." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22897" ]
+         ]
+       ], [
+         fhir:index 4 ;
+         fhir:CodeSystem.concept.code [ fhir:value "SUBCON" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "subject of consent author" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Subject of consent authorized to author a consent directive." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22893" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_OverriderParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "OverriderParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This code is used to specify the exact function an actor is authorized to have in authoring a consent override." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22340" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AUCOV" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "consent overrider" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Entity authorized to override a consent directive." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22898" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "AUEMROV" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "emergency overrider" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Description:**Entity authorized to override a consent directive or privacy policy in an emergency." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22899" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_CoverageParticipationFunction" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CoverageParticipationFunction" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Set of codes indicating the manner in which sponsors, underwriters, and payers participate in a policy or program." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "22222" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_PayorParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "PayorParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Set of codes indicating the manner in which payors participate in a policy or program.</" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22223" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "CLMADJ" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "claims adjudication" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Manages all operations required to adjudicate fee for service claims or managed care encounter reports." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22226" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "ENROLL" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "enrollment broker" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Managing the enrollment of covered parties." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22229" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "FFSMGT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "ffs management" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Managing all operations required to administer a fee for service or indemnity health plan including enrolling covered parties and providing customer service, provider contracting, claims payment, care management and utilization review." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22228" ]
+         ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.code [ fhir:value "MCMGT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "managed care management" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Managing all operations required to administer a managed care plan including enrolling covered parties and providing customer service,, provider contracting, claims payment, care management and utilization review." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22227" ]
+         ]
+       ], [
+         fhir:index 4 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PROVMGT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "provider management" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Managing provider contracting, provider services, credentialing, profiling, performance measures, and ensuring network adequacy." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22230" ]
+         ]
+       ], [
+         fhir:index 5 ;
+         fhir:CodeSystem.concept.code [ fhir:value "UMGT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "utilization management" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Managing utilization of services by ensuring that providers adhere to, e.g., payeraTMs clinical protocols for medical appropriateness and standards of medical necessity. May include management of authorizations for services and referrals." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22231" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_SponsorParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "SponsorParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Set of codes indicating the manner in which sponsors participate in a policy or program. NOTE: use only when the Sponsor is not further specified with a SponsorRoleType as being either a fully insured sponsor or a self insured sponsor." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22224" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "FULINRD" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "fully insured" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Responsibility taken by a sponsor to contract with one or more underwriters for the assumption of full responsibility for the risk and administration of a policy or program." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22232" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "SELFINRD" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "self insured" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Responsibility taken by a sponsor to organize the underwriting of risk and administration of a policy or program." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22233" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_UnderwriterParticipationFunction" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "UnderwriterParticipationFunction" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Set of codes indicating the manner in which underwriters participate in a policy or program." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22225" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PAYORCNTR" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "payor contracting" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Contracting for the provision and administration of health services to payors while retaining the risk for coverage. Contracting may be for all provision and administration; or for provision of certain types of services; for provision of services by region; and by types of administration, e.g., claims adjudication, enrollment, provider management, and utilization management. Typically done by underwriters for sponsors who need coverage provided to covered parties in multiple regions. The underwriter may act as the payor in some, but not all of the regions in which coverage is provided." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22234" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "REINS" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "reinsures" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Underwriting reinsurance for another underwriter for the policy or program." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22235" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "RETROCES" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "retrocessionaires" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Underwriting reinsurance for another reinsurer." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22236" ]
+         ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.code [ fhir:value "SUBCTRT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "subcontracting risk" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Delegating risk for a policy or program to one or more subcontracting underwriters, e.g., a major health insurer may delegate risk for provision of coverage under a national health plan to other underwriters by region ." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22237" ]
+         ]
+       ], [
+         fhir:index 4 ;
+         fhir:CodeSystem.concept.code [ fhir:value "UNDERWRTNG" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "underwriting" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** Provision of underwriting analysis for another underwriter without assumption of risk." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "22238" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ADMPHYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "admitting physician" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A physician who admitted a patient to a hospital or other care unit that is the context of this service." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10278" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ANEST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "anesthesist" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical anesthesia setting an anesthesiologist or anesthesia resident in charge of the anesthesia and life support, but only a witness to the surgical procedure itself. To clarify responsibilities anesthesia should always be represented as a separate service related to the surgery." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10274" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ANRS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "anesthesia nurse" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical anesthesia setting the nurse principally assisting the anesthesiologist during the critical periods." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10275" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ASSEMBLER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "assembly software" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.\r\n\r\n*UsageConstraint:* ASSEMBLER ParticipationFunction should be used with DEV (device) ParticipationType." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "23655" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ATTPHYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "attending physician" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A physician who is primarily responsible for a patient during the hospitalization, which is the context of the service." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10277" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "COMPOSER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "composer software" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.\r\n\r\n*UsageConstraint:* COMPOSER ParticipationFunction should be used with DEV (device) ParticipationType.\r\n\r\n*Usage Note:* This code will enable implementers to more specifically represent the manner in which a Device participated in and facilitated the generation of a CDA Clinical Document or a CDA Entry by the responsible Author, which is comprised of the Author's newly entered content, and may include the pre-existing content selected by the Author, for the purpose of establishing the provenance and accountability for these acts." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "23722" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DISPHYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "discharging physician" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A physician who discharged a patient from a hospital or other care unit that is the context of this service." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10279" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FASST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "first assistant surgeon" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting the assistant facing the primary surgeon. The first assistant performs parts of the operation and assists in others (e.g., incision, approach, electrocoutering, ligatures, sutures)." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10269" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MDWF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "midwife" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A person (usually female) helping a woman deliver a baby. Responsibilities vary locally, ranging from a mere optional assistant to a full required participant, responsible for (normal) births and pre- and post-natal care for both mother and baby." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10276" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nurse assistant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting the non-sterile nurse handles material supply from the stock, forwards specimen to pathology, and helps with other non-sterile tasks (e.g., phone calls, etc.)." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10273" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "primary care physician" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The healthcare provider that holds primary responsibility for the overall care of a patient." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10281" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PRISURG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "primary surgeon" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting the primary performing surgeon." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10268" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "REVIEWER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "reviewer" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A verifier who is accountable for reviewing and asserting that the verification of an Act complies with jurisdictional or organizational policy.\r\n\r\n*UsageConstraint:* UsageConstraint: Specifies the exact function that an actor is authorized to have as a verifier of an Act. Connotes that a specialized verifier asserts compliance for veracity of the review per jurisdictional or organizational policy. E.g., The Provider who takes responsibility for authenticity of a record submitted to a payer.\r\n\r\nREVIEW ParticipationFunction should be used with VFR (verifier)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "23656" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RNDPHYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "rounding physician" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A physician who made rounds on a patient in a hospital or other care center." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10280" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SASST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "second assistant surgeon" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting the assistant who primarily holds the hooks." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10270" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SNRS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "scrub nurse" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting the nurse in charge of the instrumentation." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10271" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TASST" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "third assistant" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "In a typical surgery setting there is rarely a third assistant (e.g., in some Hip operations the third assistant postures the affected leg)." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10272" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationFunction.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

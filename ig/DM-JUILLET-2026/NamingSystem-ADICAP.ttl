@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP> a fhir:NamingSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ADICAP"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-23T08:49:50.934+00:00"^^xsd:dateTime ] ;
+     fhir:Meta.tag [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationValue" ] ;
+       fhir:Coding.code [ fhir:value "SUBSETTED" ] ;
+       fhir:Coding.display [ fhir:value "Resource encoded in summary mode" ]
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : SystèmeDeNommage ADICAP</b></p><a name=\"ADICAP\"> </a><a name=\"hcADICAP\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2025-07-23 08:49:50+0000</p><p style=\"margin-bottom: 0px\">Balise: <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationValue.html\">Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')</a></p></div><h3>Résumé</h3><table class=\"grid\"><tr><td>URL de définition</td><td>https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP</td></tr><tr><td>Nom</td><td>ADICAP</td></tr><tr><td>Statut</td><td>active</td></tr><tr><td>Éditeur</td><td>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</td></tr></table><h3>Identifiants</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Valeur</b></td></tr><tr><td>OID</td><td>1.2.250.1.213.2.11</td></tr><tr><td>URI</td><td>https://smt.esante.gouv.fr/terminologie-adicap/</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url" ] ;
+     fhir:Extension.valueUri [ fhir:value "https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP" ]
+  ] ;
+  fhir:NamingSystem.name [ fhir:value "ADICAP"] ;
+  fhir:NamingSystem.status [ fhir:value "active"] ;
+  fhir:NamingSystem.kind [ fhir:value "codesystem"] ;
+  fhir:NamingSystem.date [ fhir:value "2025-07-23"^^xsd:date] ;
+  fhir:NamingSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:NamingSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "cgts@esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:NamingSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:NamingSystem.uniqueId [
+     fhir:index 0 ;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "oid" ] ;
+     fhir:NamingSystem.uniqueId.value [ fhir:value "1.2.250.1.213.2.11" ]
+  ], [
+     fhir:index 1 ;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ] ;
+     fhir:NamingSystem.uniqueId.value [ fhir:value "https://smt.esante.gouv.fr/terminologie-adicap/" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mesure-verre-prescrit-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-mesure-verre-prescrit-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T13:59:19.054+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-mesure-verre-prescrit-cisis</b></p><a name=\"jdv-mesure-verre-prescrit-cisis\"> </a><a name=\"hcjdv-mesure-verre-prescrit-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 13:59:19+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?202606190000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1070\">MED-1070</a></td><td>Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1182\">MED-1182</a></td><td>Date de fin d'adapation de la prescription</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1071\">MED-1071</a></td><td>Puissance de la sphère - verre prescrit</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1072\">MED-1072</a></td><td>Puissance du cylindre - verre prescrit</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1076\">MED-1076</a></td><td>Axe en degrés - verre prescrit</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-886\">MED-886</a></td><td>Addition</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1073\">MED-1073</a></td><td>Prisme - puissance - verre prescrit</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1074\">MED-1074</a></td><td>Prisme - orientation base - verre prescrit</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-1075\">MED-1075</a></td><td>Prisme - axe en degrés - verre prescrit</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://loinc.org/74712-1/\">74712-1</a></td><td>Date de fin de validité</td></tr><tr><td><a href=\"https://loinc.org/95324-0/\">95324-0</a></td><td>Type de prisme</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2021-09-24T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-verre-prescrit-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.651" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134041"] ;
+  fhir:ValueSet.name [ fhir:value "JdvMesureVerrePrescritCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Mesure Verre Prescrit CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:41+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Mesure Verre Prescrit CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1070" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1182" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Date de fin d'adapation de la prescription" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1071" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Puissance de la sphère - verre prescrit" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1072" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Puissance du cylindre - verre prescrit" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1076" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Axe en degrés - verre prescrit" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-886" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Addition" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1073" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prisme - puissance - verre prescrit" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1074" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prisme - orientation base - verre prescrit" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED-1075" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prisme - axe en degrés - verre prescrit" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74712-1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Date de fin de validité" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "95324-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Type de prisme" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mesure-verre-prescrit-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

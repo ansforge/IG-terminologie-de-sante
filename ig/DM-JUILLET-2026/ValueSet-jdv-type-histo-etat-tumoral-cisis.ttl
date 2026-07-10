@@ -1,0 +1,748 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-histo-etat-tumoral-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-type-histo-etat-tumoral-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "10" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:00:42.926+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-type-histo-etat-tumoral-cisis</b></p><a name=\"jdv-type-histo-etat-tumoral-cisis\"> </a><a name=\"hcjdv-type-histo-etat-tumoral-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 10; Dernière mise à jour : 2026-06-22 14:00:42+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <code>https://smt.esante.gouv.fr/terminologie-adicap</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td>A7A0</td><td>ADENOCARCINOME INVASIF (SAI)</td></tr><tr><td>A7A1</td><td>ADENOCARCINOME BIEN DIFFERENCIE (SAI)</td></tr><tr><td>A7A2</td><td>ADENOCARCINOME MOYENNEMENT DIFFERENCIE (SAI)</td></tr><tr><td>A7A3</td><td>ADENOCARCINOME PEU DIFFERENCIE (SAI)</td></tr><tr><td>A7A4</td><td>ADENOCARCINOME ACINEUX ET MICROACINEUX</td></tr><tr><td>A7A5</td><td>ADENOCARCINOME MACRO ACINEUX - CYSTADENOCARCINOME MACROACINEUX</td></tr><tr><td>A7A6</td><td>ADENOCARCINOME MASSIF</td></tr><tr><td>A7A7</td><td>ADENOCARCINOME ALVEOLAIRE</td></tr><tr><td>A7A8</td><td>ADENOCARCINOME BRONCHIOLO-ALVEOLAIRE</td></tr><tr><td>A7A9</td><td>ADENOCARCINOME ENDOMETRIOIDE (AUTRE QU'OVARIEN)</td></tr><tr><td>A7B0</td><td>ADENOCARCINOME LOBULAIRE ET CANALAIRE INFILTRANT (SAI)</td></tr><tr><td>A7B1</td><td>ADENOCARCINOME LOBULAIRE INFILTRANT</td></tr><tr><td>A7B2</td><td>ADENOCARCINOME CANALAIRE INFILTRANT (SAI)</td></tr><tr><td>A7B3</td><td>ADENOCARCINOME CANALAIRE INFILTRANT DE TYPE MASSIF</td></tr><tr><td>A7B4</td><td>ADENOCARCINOME CANALAIRE A TYPE DE COMEDOCARCINOME</td></tr><tr><td>A7B5</td><td>ADENOCARCINOME CANALAIRE DE TYPE PAPILLAIRE</td></tr><tr><td>A7B6</td><td>ADENOCARCINOME CANALAIRE DE TYPE CRIBRIFORME</td></tr><tr><td>A7B7</td><td>PAGET MALADIE DE - ADENOCARCINOME AVEC MALADIE DE PAGET</td></tr><tr><td>A7B8</td><td>ADENOCARCINOME LOBULAIRE PLEIOMORPHE</td></tr><tr><td>A7C4</td><td>ADENOCARCINOME KYSTIQUE - CYSTADENOCARCINOME</td></tr><tr><td>A7C6</td><td>ADENOCARCINOME KYSTIQUE ET PAPILLAIRE - CYSTADENOCARCINOME PAPILLAIRE</td></tr><tr><td>A7C7</td><td>ADENOCARCINOME SOLIDE PAPILLAIRE INFILTRANT (PANCREAS ET FOIE)</td></tr><tr><td>A7D0</td><td>ADENOCARCINOME PAPILLAIRE (SAI)</td></tr><tr><td>A7D1</td><td>ADENOCARCINOME PAPILLAIRE ENCAPSULE</td></tr><tr><td>A7D2</td><td>ADENOCARCINOME PAPILLOVESICULAIRE</td></tr><tr><td>A7D3</td><td>ADENOCARCINOME PAPILLAIRE VARIANTE FOLLICULAIRE</td></tr><tr><td>A7D4</td><td>ADENOCARCINOME PAPILLOTRABECULAIRE</td></tr><tr><td>A7D6</td><td>ADENOCARCINOME PAPILLOTRABECULOVESICULAIRE</td></tr><tr><td>A7D7</td><td>ADENOCARCINOME PAPILLAIRE A CELLULES OXYPHILES</td></tr><tr><td>A7D8</td><td>ADENOCARCINOME PAPILLAIRE A TYPE D'EPITHELIOMA SCLEROSANT OCCULTE - MICROCARCINOME PAPILLAIRE</td></tr><tr><td>A7D9</td><td>ADENOCARCINOME PAPILLAIRE A FORME SCLEROSANTE DIFFUSE</td></tr><tr><td>A7E0</td><td>ADENOCARCINOME TRABECULAIRE (SAI)</td></tr><tr><td>A7E2</td><td>ADENOCARCINOME TRABECULOVESICULAIRE</td></tr><tr><td>A7F0</td><td>ADENOCARCINOME TUBULEUX (SAI)</td></tr><tr><td>A7F2</td><td>ADENOCARCINOME TUBULOPAPILLAIRE</td></tr><tr><td>A7G0</td><td>ADENOCARCINOME VESICULAIRE (SAI)</td></tr><tr><td>A7G1</td><td>ADENOCARCINOME VESICULAIRE AVEC INVASION MINIME</td></tr><tr><td>A7G2</td><td>ADENOCARCINOME VESICULAIRE LARGEMENT INVASIF</td></tr><tr><td>A7G3</td><td>ADENOCARCINOME VESICULAIRE A CELLULES OXYPHILES</td></tr><tr><td>A7G4</td><td>ADENOCARCINOME VESICULAIRE A CELLULES CLAIRES</td></tr><tr><td>A7G6</td><td>ADENOCARCINOME VESICULAIRE BIEN DIFFERENCIE</td></tr><tr><td>A7G8</td><td>ADENOCARCINOME VESICULAIRE MOYENNEMENT DIFFERENCIE</td></tr><tr><td>A7G9</td><td>ADENOCARCINOME VESICULAIRE DE TYPE INSULAIRE</td></tr><tr><td>A7H4</td><td>ADENOCARCINOME A CELLULES BASALES</td></tr><tr><td>A7H5</td><td>ADENOCARCINOME HEPATOCYTAIRE - HEPATOCARCINOME</td></tr><tr><td>A7H6</td><td>ADENOCARCINOME A CELLULES BASOPHILES</td></tr><tr><td>A7H7</td><td>ADENOCARCINOME A CELLULES BILIAIRES - CHOLANGIOCARCINOME</td></tr><tr><td>A7H8</td><td>ADENOCARCINOME A CELLULES CHROMOPHOBES</td></tr><tr><td>A7K0</td><td>ADENOCARCINOME HISTIOCYTOIDE</td></tr><tr><td>A7K2</td><td>ADENOCARCINOME A CELLULES CLAIRES</td></tr><tr><td>A7K3</td><td>ADENOCARCINOME A CELLULES CILIEES</td></tr><tr><td>A7K4</td><td>ADENOCARCINOME A CELLULES EAU DE ROCHE</td></tr><tr><td>A7K6</td><td>ADENOCARCINOME A CELLULES EOSINOPHILES - ADENOCARCINOME IDROSADENOIDE</td></tr><tr><td>A7K7</td><td>ADENOCARCINOME BRUNNERIEN</td></tr><tr><td>A7K8</td><td>CARCINOME MYOEPITHELIAL - MYOEPITHELIOME MALIN</td></tr><tr><td>A7L1</td><td>ADENOCARCINOME A CELLULES LIPIDIQUES</td></tr><tr><td>A7L2</td><td>ADENOCARCINOME A CELLULES ONCOCYTAIRES</td></tr><tr><td>A7L4</td><td>ADENOCARCINOME A CELLULES POLYMORPHES - ADENOCARCINOME A CELLULES PLEOMORPHES</td></tr><tr><td>A7L6</td><td>ADENOCARCINOME A CELLULES PRINCIPALES</td></tr><tr><td>A7M0</td><td>ADENOCARCINOME AVEC ACTIVITE FONCTIONNELLE - ADENOCARCINOME SECRETANT (SAI)</td></tr><tr><td>A7M3</td><td>ADENOCARCINOME DE TYPE LIEBERKUHNIEN</td></tr><tr><td>A7M4</td><td>ADENOCARCINOME MUCOSECRETANT - ADENOCARCINOME MUCINEUX</td></tr><tr><td>A7M5</td><td>CYSTADENOCARCINOME MUCOSECRETANT OU MUCINEUX (AUTRE QU'OVARIEN)</td></tr><tr><td>A7N2</td><td>CARCINOME SOLIDE A CONTENU MUCOIDE</td></tr><tr><td>A7N4</td><td>CARCINOME COLLOIDE</td></tr><tr><td>A7N6</td><td>CARCINOME A CELLULES INDEPENDANTES MUCIPARES - LINITE PLASTIQUE - CANCER A CELLULES EN BAGUES A CHATON</td></tr><tr><td>A7N7</td><td>CARCINOME SECRETANT JUVENILE</td></tr><tr><td>A7P0</td><td>TUMEUR ADENOMATEUSE COMPOSITE CANCERISEE</td></tr><tr><td>A7P6</td><td>TUMEUR PHYLLODE MALIGNE OU CANCERISEE - SARCOME PHYLLODE</td></tr><tr><td>A7R4</td><td>CARCINOME SUR CYSTADENOLYMPHOME</td></tr><tr><td>A7R8</td><td>CARCINOME SUR ADENOME PLEOMORPHE</td></tr><tr><td>A7R9</td><td>ADENOME PLEOMORPHE METASTASIANT DES GLANDES - TUMEUR MIXTE MALIGNE VRAIE - SYRINGOME CHONDROIDE MALIN</td></tr><tr><td>A7S0</td><td>ADENOCARCINOMES MULTIPLES (SAI)</td></tr><tr><td>A7S2</td><td>ADENOCARCINOME NON ENDOCRINE AU COURS D'UNE POLYONCOSE</td></tr><tr><td>A7V0</td><td>ADENOCARCINOME COMPOSITE ( SAI)</td></tr><tr><td>A7V2</td><td>CARCINOME ADENOSQUAMEUX</td></tr><tr><td>A7V4</td><td>CARCINOME MUCO-EPIDERMOIDE</td></tr><tr><td>A7V5</td><td>CARCINOME EPITHELIAL-MYOEPITHELIAL</td></tr><tr><td>A7V6</td><td>HEPATOCHOLANGIOME MALIN</td></tr><tr><td>A7V7</td><td>ADENOCARCINOME POLYMORPHE DE FAIBLE MALIGNITE - ADENOCARCINOME CANALAIRE TERMINAL</td></tr><tr><td>A7V8</td><td>ADENOCARCINOME POLYMORPHE</td></tr><tr><td>A7W0</td><td>ADENOCARCINOME METAPLASIQUE (SAI)</td></tr><tr><td>A7W2</td><td>ADENOCARCINOME AVEC METAPLASIE MALPIGHIENNE - ADENO-ACANTHOME</td></tr><tr><td>A7W3</td><td>ADENOCARCINOME MULLERIEN</td></tr><tr><td>A7W4</td><td>ADENOCARCINOME AVEC METAPLASIE SEBACEE</td></tr><tr><td>A7W6</td><td>CARCINOME METAPLASIQUE A CELLULES FUSIFORMES</td></tr><tr><td>A7X0</td><td>ADENOCARCINOME A STROMA PARTICULIER (SAI)</td></tr><tr><td>A7X1</td><td>ADENOCARCINOME A STROMA FIBREUX SCLEROSANT</td></tr><tr><td>A7X2</td><td>ADENOCARCINOME A STROMA LYMPHOIDE (SAI) - CARCINOME MEDULLAIRE LYMPHOIDE (SAI)</td></tr><tr><td>A7X3</td><td>ADENOCARCINOME AVEC CALCOSPHERITE OU CORPS PSAMMOMATEUX</td></tr><tr><td>A7X4</td><td>ADENOCARCINOME A STROMA CHONDROIDE OU OSTEOIDE OU OSTEOCARTILAGINEUX</td></tr><tr><td>A7X5</td><td>CARCINOME FIBROLAMELLAIRE - HEPATOCARCINOME FIBROLAMELLAIRE</td></tr><tr><td>A7X6</td><td>CYLINDROME MALIN (SAI) - CARCINOME ADENOIDE KYSTIQUE (SAI)</td></tr><tr><td>A7X7</td><td>CYLINDROME MALIN A STROMA HYALIN - CARCINOME ADENOIDE KYSTIQUE A STROMA HYALIN</td></tr><tr><td>A7X8</td><td>CYLINDROME MALIN A STROMA MUCOIDE - CARCINOME ADENOIDE KYSTIQUE A STROMA MUCOIDE</td></tr><tr><td>A7Y0</td><td>ADENOCARCINOME D'UN TYPE PARTICULIER (SAI)</td></tr><tr><td>A7Y1</td><td>ADENOCARCINOME DE TYPE BELLINIEN</td></tr><tr><td>A7Y4</td><td>ADENOCARCINOME DES GLANDES ANALES</td></tr><tr><td>A7Y5</td><td>ADENOCARCINOME A DEVIATION MINIME</td></tr><tr><td>A7Y7</td><td>CARCINOME SECRETANT DES LIPIDES - CARCINOME RICHE EN LIPIDES</td></tr><tr><td>A7Y8</td><td>CARCINOME A CELLULES GEANTES OSTEOCLASTIQUES</td></tr><tr><td>X7A0</td><td>NEOPLASME MALIN</td></tr><tr><td>X7A1</td><td>TUMEUR CONGENITALE MALIGNE (SAI)</td></tr><tr><td>X7A2</td><td>TUMEUR FAMILIALE MALIGNE (SAI)</td></tr><tr><td>X7A3</td><td>NEOPLASME MALIN STERILISE PAR LA RADIOTHERAPIE</td></tr><tr><td>X7A4</td><td>NEOPLASME MALIN STERILISE PAR LA CHIMIOTHERAPIE</td></tr><tr><td>X7A5</td><td>NEOPLASME MALIN STERILISE PAR LA RADIO ET LA CHIMIOTHERAPIE</td></tr><tr><td>X7A6</td><td>NEOPLASME MALIN NON STERILISE PAR LA RADIOTHERAPIE</td></tr><tr><td>X7A7</td><td>NEOPLASME MALIN NON STERILISE PAR LA CHIMIOTHERAPIE</td></tr><tr><td>X7A8</td><td>NEOPLASME MALIN NON STERILISE PAR LA RADIO ET LA CHIMIOTHERAPIE</td></tr><tr><td>X7A9</td><td>NEOPLASME MALIN MODIFIE PAR LA THERAPEUTIQUE</td></tr><tr><td>X7B0</td><td>TUMEUR EPITHELIALE MALIGNE - CARCINOME INVASIF (SAI)</td></tr><tr><td>X7C0</td><td>CARCINOME ANAPLASIQUE - CARCINOME A CELLULES INDEPENDANTES NON MUCOSECRETANTES</td></tr><tr><td>X7D0</td><td>CARCINOME COMPOSITE (SAI)</td></tr><tr><td>X7E0</td><td>CARCINOME INDIFFERENCIE (SAI)</td></tr><tr><td>X7E1</td><td>CARCINOME INDIFFERENCIE A CELLULES CLAIRES</td></tr><tr><td>X7E2</td><td>CARCINOME INDIFFERENCIE A CELLULES FUSIFORMES - CARCINOME SARCOMATOIDE</td></tr><tr><td>X7E3</td><td>CARCINOME INDIFFERENCIE A CELLULES GEANTES</td></tr><tr><td>X7E4</td><td>CARCINOME INDIFFERENCIE A CELLULES FUSIFORMES ET GEANTES</td></tr><tr><td>X7E6</td><td>CARCINOME INDIFFERENCIE A GRANDES CELLULES</td></tr><tr><td>X7E8</td><td>CARCINOME INDIFFERENCIE A CELLULES DE RESERVE</td></tr><tr><td>X7E9</td><td>CARCINOME INDIFFERENCIE NASOPHARYNGIEN</td></tr><tr><td>X7F0</td><td>CARCINOME A PETITES CELLULES (SAI) UTILISER DE PREFERENCE S7Z4</td></tr><tr><td>X7F1</td><td>NE PLUS UTILISER  - EX-CARCINOME A PETITES CELLULES EN GRAINS D'AVOINE Cf S7Z4</td></tr><tr><td>X7F2</td><td>NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES DE TYPE INTERMEDIAIRE</td></tr><tr><td>X7F3</td><td>NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES DE TYPE COMPOSITE</td></tr><tr><td>X7F5</td><td>NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES AVEC CELLULES DE GRANDE TAILLE Cf S7Z6</td></tr><tr><td>X7H0</td><td>TUMEUR MESENCHYMATEUSE MALIGNE (SAI)</td></tr><tr><td>X7H2</td><td>TUMEUR MALIGNE A CELLULES GEANTES</td></tr><tr><td>X7H4</td><td>TUMEUR MALIGNE A CELLULES GRANULEUSES - NE PLUS UTILISER - CF N7A8</td></tr><tr><td>X7J0</td><td>TUMEUR STROMALE DU TRACTUS GASTRO-INTESTINAL A HAUTE MALIGNITE (GIST)</td></tr><tr><td>X7K0</td><td>SARCOME (SAI)</td></tr><tr><td>X7K1</td><td>SARCOME A CELLULES CLAIRES - NE PLUS UTILISER - CF N7H5</td></tr><tr><td>X7K2</td><td>SARCOME A CELLULES EPITHELIOIDES PROXIMAL OU DISTAL</td></tr><tr><td>X7K3</td><td>SARCOME A CELLULES FUSIFORMES</td></tr><tr><td>X7K4</td><td>SARCOME A CELLULES GEANTES (AUTRE QUE LES TUMEURS MALIGNES A CELLULES GEANTES)</td></tr><tr><td>X7K6</td><td>SARCOME A CELLULES POLYMORPHES</td></tr><tr><td>X7K8</td><td>SARCOME ALVEOLAIRE DES PARTIES MOLLES</td></tr><tr><td>X7K9</td><td>SARCOMATOSE</td></tr><tr><td>X7L0</td><td>SARCOME D'EWING (SAI)</td></tr><tr><td>X7L1</td><td>SARCOME D'EWING SQUELETTIQUE CLASSIQUE</td></tr><tr><td>X7L2</td><td>SARCOME D'EWING SQUELETTIQUE ATYPIQUE A GRANDES CELLULES</td></tr><tr><td>X7L3</td><td>SARCOME D'EWING SQUELETTIQUE DE TYPE VASCULAIRE</td></tr><tr><td>X7L4</td><td>SARCOME D'EWING EXTRASQUELETTIQUE</td></tr><tr><td>X7N0</td><td>SARCOME STROMAL (SAI)</td></tr><tr><td>X7N2</td><td>SARCOME STROMAL A TYPE DE MYOSE STROMALE ENDOLYMPHATIQUE</td></tr><tr><td>X7N4</td><td>SARCOME STROMAL DE HAUT GRADE</td></tr><tr><td>X7N6</td><td>SARCOME STROMAL A TYPE DE STROMOMYOME</td></tr><tr><td>X7N8</td><td>SARCOME STROMAL RESSEMBLANT AUX TUMEURS DES CORDONS SEXUELS</td></tr><tr><td>X7P0</td><td>TUMEUR MIXTE MALIGNE (SAI)</td></tr><tr><td>X7P1</td><td>TUMEUR MIXTE MESODERMIQUE MALIGNE (SAI)</td></tr><tr><td>X7P2</td><td>ADENOSARCOME</td></tr><tr><td>X7P3</td><td>CARCINOFIBROME</td></tr><tr><td>X7P4</td><td>CARCINOSARCOME (SAI)</td></tr><tr><td>X7P6</td><td>TUMEUR MIXTE MALIGNE OU CARCINOSARCOME MULLERIEN DE TYPE HOMOLOGUE</td></tr><tr><td>X7P7</td><td>TUMEUR MIXTE MALIGNE OU CARCINOSARCOME MULLERIEN DE TYPE HETEROLOGUE</td></tr><tr><td>X7P8</td><td>TUMEUR DE RIOPELLE</td></tr><tr><td>X7P9</td><td>TUMEUR MALIGNE DESMOPLASTIQUE MULTIPHENOTYPIQUE A PETITES CELLULES</td></tr><tr><td>X7R0</td><td>TUMEUR MALIGNE D'ORIGINE INDETERMINEE (SAI)</td></tr><tr><td>X7R2</td><td>TUMEUR MALIGNE A CELLULES FUSIFORMES D'ORIGINE INDETERMINEE</td></tr><tr><td>X7R4</td><td>TUMEUR MALIGNE A CELLULES INDIFFERENCIEES POLYMORPHES D'ORIGINE INDETERMINEE</td></tr><tr><td>X7R6</td><td>TUMEUR MALIGNE A PETITES CELLULES D'ORIGINE INDETERMINEE</td></tr><tr><td>X7R8</td><td>TUMEUR RHABDOIDE MALIGNE</td></tr><tr><td>X7T0</td><td>TUMEUR MALIGNE INCLASSABLE (SAI)</td></tr><tr><td>X7V0</td><td>CANCER SUR CICATRICE - CANCER SUR ANASTOMOSE</td></tr><tr><td>X7V2</td><td>CANCER EN TERRITOIRE IRRADIE - DOUBLE CODAGE AVEC LE TYPE DE LA TUMEUR</td></tr><tr><td>X7W0</td><td>CANCERS MULTIPLES</td></tr><tr><td>X7W1</td><td>CANCERS MULTIPLES DANS LE CADRE DU SYNDROME GENIQUE DE LI-FRAUMENI</td></tr><tr><td>X7X0</td><td>GREFFE CANCEREUSE (SAI)</td></tr><tr><td>X7X2</td><td>GREFFE CANCEREUSE SUR TRAJET DE PONCTION</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.39" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134043"] ;
+  fhir:ValueSet.name [ fhir:value "JdvTypeHistoEtatTumoralCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Type Histo Etat Tumoral CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:43+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Type Histo Etat Tumoral CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/terminologie-adicap" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME INVASIF (SAI)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME BIEN DIFFERENCIE (SAI)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME MOYENNEMENT DIFFERENCIE (SAI)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PEU DIFFERENCIE (SAI)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME ACINEUX ET MICROACINEUX" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME MACRO ACINEUX - CYSTADENOCARCINOME MACROACINEUX" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME MASSIF" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME ALVEOLAIRE" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME BRONCHIOLO-ALVEOLAIRE" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7A9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME ENDOMETRIOIDE (AUTRE QU'OVARIEN)" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME LOBULAIRE ET CANALAIRE INFILTRANT (SAI)" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME LOBULAIRE INFILTRANT" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME CANALAIRE INFILTRANT (SAI)" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME CANALAIRE INFILTRANT DE TYPE MASSIF" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME CANALAIRE A TYPE DE COMEDOCARCINOME" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME CANALAIRE DE TYPE PAPILLAIRE" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME CANALAIRE DE TYPE CRIBRIFORME" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PAGET MALADIE DE - ADENOCARCINOME AVEC MALADIE DE PAGET" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7B8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME LOBULAIRE PLEIOMORPHE" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7C4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME KYSTIQUE - CYSTADENOCARCINOME" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7C6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME KYSTIQUE ET PAPILLAIRE - CYSTADENOCARCINOME PAPILLAIRE" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7C7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME SOLIDE PAPILLAIRE INFILTRANT (PANCREAS ET FOIE)" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE (SAI)" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE ENCAPSULE" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLOVESICULAIRE" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE VARIANTE FOLLICULAIRE" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLOTRABECULAIRE" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLOTRABECULOVESICULAIRE" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE A CELLULES OXYPHILES" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE A TYPE D'EPITHELIOMA SCLEROSANT OCCULTE - MICROCARCINOME PAPILLAIRE" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7D9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME PAPILLAIRE A FORME SCLEROSANTE DIFFUSE" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7E0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME TRABECULAIRE (SAI)" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7E2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME TRABECULOVESICULAIRE" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7F0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME TUBULEUX (SAI)" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7F2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME TUBULOPAPILLAIRE" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE (SAI)" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE AVEC INVASION MINIME" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE LARGEMENT INVASIF" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE A CELLULES OXYPHILES" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE A CELLULES CLAIRES" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE BIEN DIFFERENCIE" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE MOYENNEMENT DIFFERENCIE" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7G9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME VESICULAIRE DE TYPE INSULAIRE" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7H4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES BASALES" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7H5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME HEPATOCYTAIRE - HEPATOCARCINOME" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7H6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES BASOPHILES" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7H7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES BILIAIRES - CHOLANGIOCARCINOME" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7H8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES CHROMOPHOBES" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME HISTIOCYTOIDE" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES CLAIRES" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES CILIEES" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES EAU DE ROCHE" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES EOSINOPHILES - ADENOCARCINOME IDROSADENOIDE" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME BRUNNERIEN" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7K8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME MYOEPITHELIAL - MYOEPITHELIOME MALIN" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7L1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES LIPIDIQUES" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7L2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES ONCOCYTAIRES" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7L4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES POLYMORPHES - ADENOCARCINOME A CELLULES PLEOMORPHES" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7L6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A CELLULES PRINCIPALES" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7M0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME AVEC ACTIVITE FONCTIONNELLE - ADENOCARCINOME SECRETANT (SAI)" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7M3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME DE TYPE LIEBERKUHNIEN" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7M4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME MUCOSECRETANT - ADENOCARCINOME MUCINEUX" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7M5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CYSTADENOCARCINOME MUCOSECRETANT OU MUCINEUX (AUTRE QU'OVARIEN)" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7N2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME SOLIDE A CONTENU MUCOIDE" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7N4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME COLLOIDE" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7N6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME A CELLULES INDEPENDANTES MUCIPARES - LINITE PLASTIQUE - CANCER A CELLULES EN BAGUES A CHATON" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7N7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME SECRETANT JUVENILE" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7P0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR ADENOMATEUSE COMPOSITE CANCERISEE" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7P6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR PHYLLODE MALIGNE OU CANCERISEE - SARCOME PHYLLODE" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7R4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME SUR CYSTADENOLYMPHOME" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7R8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME SUR ADENOME PLEOMORPHE" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7R9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOME PLEOMORPHE METASTASIANT DES GLANDES - TUMEUR MIXTE MALIGNE VRAIE - SYRINGOME CHONDROIDE MALIN" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7S0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOMES MULTIPLES (SAI)" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7S2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME NON ENDOCRINE AU COURS D'UNE POLYONCOSE" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME COMPOSITE ( SAI)" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME ADENOSQUAMEUX" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME MUCO-EPIDERMOIDE" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME EPITHELIAL-MYOEPITHELIAL" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HEPATOCHOLANGIOME MALIN" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME POLYMORPHE DE FAIBLE MALIGNITE - ADENOCARCINOME CANALAIRE TERMINAL" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7V8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME POLYMORPHE" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7W0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME METAPLASIQUE (SAI)" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7W2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME AVEC METAPLASIE MALPIGHIENNE - ADENO-ACANTHOME" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7W3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME MULLERIEN" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7W4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME AVEC METAPLASIE SEBACEE" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7W6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME METAPLASIQUE A CELLULES FUSIFORMES" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A STROMA PARTICULIER (SAI)" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A STROMA FIBREUX SCLEROSANT" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A STROMA LYMPHOIDE (SAI) - CARCINOME MEDULLAIRE LYMPHOIDE (SAI)" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME AVEC CALCOSPHERITE OU CORPS PSAMMOMATEUX" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A STROMA CHONDROIDE OU OSTEOIDE OU OSTEOCARTILAGINEUX" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME FIBROLAMELLAIRE - HEPATOCARCINOME FIBROLAMELLAIRE" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CYLINDROME MALIN (SAI) - CARCINOME ADENOIDE KYSTIQUE (SAI)" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CYLINDROME MALIN A STROMA HYALIN - CARCINOME ADENOIDE KYSTIQUE A STROMA HYALIN" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7X8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CYLINDROME MALIN A STROMA MUCOIDE - CARCINOME ADENOIDE KYSTIQUE A STROMA MUCOIDE" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME D'UN TYPE PARTICULIER (SAI)" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME DE TYPE BELLINIEN" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME DES GLANDES ANALES" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOCARCINOME A DEVIATION MINIME" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME SECRETANT DES LIPIDES - CARCINOME RICHE EN LIPIDES" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "A7Y8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME A CELLULES GEANTES OSTEOCLASTIQUES" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR CONGENITALE MALIGNE (SAI)" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR FAMILIALE MALIGNE (SAI)" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN STERILISE PAR LA RADIOTHERAPIE" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN STERILISE PAR LA CHIMIOTHERAPIE" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN STERILISE PAR LA RADIO ET LA CHIMIOTHERAPIE" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN NON STERILISE PAR LA RADIOTHERAPIE" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN NON STERILISE PAR LA CHIMIOTHERAPIE" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN NON STERILISE PAR LA RADIO ET LA CHIMIOTHERAPIE" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7A9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NEOPLASME MALIN MODIFIE PAR LA THERAPEUTIQUE" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7B0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR EPITHELIALE MALIGNE - CARCINOME INVASIF (SAI)" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7C0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME ANAPLASIQUE - CARCINOME A CELLULES INDEPENDANTES NON MUCOSECRETANTES" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7D0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME COMPOSITE (SAI)" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE (SAI)" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A CELLULES CLAIRES" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A CELLULES FUSIFORMES - CARCINOME SARCOMATOIDE" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A CELLULES GEANTES" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A CELLULES FUSIFORMES ET GEANTES" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A GRANDES CELLULES" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE A CELLULES DE RESERVE" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7E9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME INDIFFERENCIE NASOPHARYNGIEN" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7F0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOME A PETITES CELLULES (SAI) UTILISER DE PREFERENCE S7Z4" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7F1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NE PLUS UTILISER  - EX-CARCINOME A PETITES CELLULES EN GRAINS D'AVOINE Cf S7Z4" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7F2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES DE TYPE INTERMEDIAIRE" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7F3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES DE TYPE COMPOSITE" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7F5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NE PLUS UTILISER - EX-CARCINOME A PETITES CELLULES AVEC CELLULES DE GRANDE TAILLE Cf S7Z6" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7H0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MESENCHYMATEUSE MALIGNE (SAI)" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7H2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE A CELLULES GEANTES" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7H4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE A CELLULES GRANULEUSES - NE PLUS UTILISER - CF N7A8" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7J0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR STROMALE DU TRACTUS GASTRO-INTESTINAL A HAUTE MALIGNITE (GIST)" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME (SAI)" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME A CELLULES CLAIRES - NE PLUS UTILISER - CF N7H5" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME A CELLULES EPITHELIOIDES PROXIMAL OU DISTAL" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME A CELLULES FUSIFORMES" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME A CELLULES GEANTES (AUTRE QUE LES TUMEURS MALIGNES A CELLULES GEANTES)" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME A CELLULES POLYMORPHES" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME ALVEOLAIRE DES PARTIES MOLLES" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7K9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOMATOSE" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7L0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME D'EWING (SAI)" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7L1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME D'EWING SQUELETTIQUE CLASSIQUE" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7L2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME D'EWING SQUELETTIQUE ATYPIQUE A GRANDES CELLULES" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7L3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME D'EWING SQUELETTIQUE DE TYPE VASCULAIRE" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7L4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME D'EWING EXTRASQUELETTIQUE" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7N0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME STROMAL (SAI)" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7N2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME STROMAL A TYPE DE MYOSE STROMALE ENDOLYMPHATIQUE" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7N4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME STROMAL DE HAUT GRADE" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7N6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME STROMAL A TYPE DE STROMOMYOME" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7N8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARCOME STROMAL RESSEMBLANT AUX TUMEURS DES CORDONS SEXUELS" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MIXTE MALIGNE (SAI)" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MIXTE MESODERMIQUE MALIGNE (SAI)" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADENOSARCOME" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOFIBROME" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CARCINOSARCOME (SAI)" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MIXTE MALIGNE OU CARCINOSARCOME MULLERIEN DE TYPE HOMOLOGUE" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MIXTE MALIGNE OU CARCINOSARCOME MULLERIEN DE TYPE HETEROLOGUE" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR DE RIOPELLE" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7P9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE DESMOPLASTIQUE MULTIPHENOTYPIQUE A PETITES CELLULES" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7R0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE D'ORIGINE INDETERMINEE (SAI)" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7R2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE A CELLULES FUSIFORMES D'ORIGINE INDETERMINEE" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7R4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE A CELLULES INDIFFERENCIEES POLYMORPHES D'ORIGINE INDETERMINEE" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7R6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE A PETITES CELLULES D'ORIGINE INDETERMINEE" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7R8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR RHABDOIDE MALIGNE" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7T0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TUMEUR MALIGNE INCLASSABLE (SAI)" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7V0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CANCER SUR CICATRICE - CANCER SUR ANASTOMOSE" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7V2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CANCER EN TERRITOIRE IRRADIE - DOUBLE CODAGE AVEC LE TYPE DE LA TUMEUR" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7W0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CANCERS MULTIPLES" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7W1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CANCERS MULTIPLES DANS LE CADRE DU SYNDROME GENIQUE DE LI-FRAUMENI" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7X0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GREFFE CANCEREUSE (SAI)" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X7X2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GREFFE CANCEREUSE SUR TRAJET DE PONCTION" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-histo-etat-tumoral-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

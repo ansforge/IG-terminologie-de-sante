@@ -1,0 +1,808 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-technique-biologie-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "jdv-technique-biologie-cisis"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "11" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-22T14:00:22.858+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-technique-biologie-cisis</b></p><a name=\"jdv-technique-biologie-cisis\"> </a><a name=\"hcjdv-technique-biologie-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 11; Dernière mise à jour : 2026-06-22 14:00:22+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <code>https://smt.esante.gouv.fr/terminologie-tccr</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td>9AX</td><td>Electrochimie-ampérométrie</td></tr><tr><td>9BX</td><td>Electrochimie-conductimétrie</td></tr><tr><td>9CX</td><td>Electrochimie-coulométrie</td></tr><tr><td>9EC</td><td>Electrochimie-cinétique de pH</td></tr><tr><td>9ED</td><td>Electrochimie-potentiométrie directe</td></tr><tr><td>9EI</td><td>Electrochimie-potentiométrie indirecte</td></tr><tr><td>9FX</td><td>Electrochimie-électrodes + enzymes</td></tr><tr><td>9GX</td><td>Electrochimie-polarographie</td></tr><tr><td>9JX</td><td>Electrochimie-impédance</td></tr><tr><td>9KX</td><td>Electrochimie-résistivité</td></tr><tr><td>BAX</td><td>Etude phénotypique-tests biochimiques en milieu liquide</td></tr><tr><td>BCX</td><td>Culture sur milieu chromogène</td></tr><tr><td>BDB</td><td>Sensibilité à une molécule-bandelettes gradient sur gélose (CMI)</td></tr><tr><td>BDD</td><td>Sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)</td></tr><tr><td>BLX</td><td>Sensibilité à une molécule-méthodes en milieu liquide</td></tr><tr><td>CAX</td><td>Chromatographie d'affinité</td></tr><tr><td>CBX</td><td>Chromatographie-CLBP</td></tr><tr><td>CLA</td><td>Chromatographie-CLHP-détection UV/visible</td></tr><tr><td>CLC</td><td>Chromatographie-CLHP-détection par conductimétrie</td></tr><tr><td>CLD</td><td>Chromatographie-CLHP-détection infra-rouge</td></tr><tr><td>CLE</td><td>Chromatographie-CLHP-détection par fluorescence</td></tr><tr><td>CLF</td><td>Chromatographie-CLHP-détection par ampérométrie</td></tr><tr><td>CLG</td><td>Chromatographie-CLHP-détection par coulométrie</td></tr><tr><td>CLH</td><td>Chromatographie-CLHP-détection par polarographie</td></tr><tr><td>CLI</td><td>Chromatographie-CLHP-détection par potentiometrie</td></tr><tr><td>CLJ</td><td>Chromatographie-CLHP-détection par réfractometrie</td></tr><tr><td>CLK</td><td>Chromatographie-CLHP-détection SM</td></tr><tr><td>CLL</td><td>Chromatographie-CLHP-détection SM/SM</td></tr><tr><td>CLM</td><td>Chromatographie-CLHP-détection masse exacte (HRSM)</td></tr><tr><td>CLX</td><td>Chromatographie-CLHP-détection non précisée ou autre</td></tr><tr><td>CPX</td><td>Chromatographie d'échange d'ions</td></tr><tr><td>CQX</td><td>Chromatographie-gel filtration (hors agglutination)</td></tr><tr><td>CSC</td><td>Chromatographie-couche mince</td></tr><tr><td>CSP</td><td>Chromatographie-papier</td></tr><tr><td>CZA</td><td>Chromatographie-CPG-détection FID</td></tr><tr><td>CZB</td><td>Chromatographie-CPG-détection NPD</td></tr><tr><td>CZC</td><td>Chromatographie-CPG-détection TCD</td></tr><tr><td>CZD</td><td>Chromatographie-CPG-détection ECD</td></tr><tr><td>CZE</td><td>Chromatographie-CPG-détection FPD</td></tr><tr><td>CZF</td><td>Chromatographie-CPG-détection SM</td></tr><tr><td>CZG</td><td>Chromatographie-CPG-détection SM/SM</td></tr><tr><td>CZX</td><td>Chromatographie-CPG-détection non précisée ou autre</td></tr><tr><td>DA1</td><td>Spectrophotométrie-activité enzymatique-sans PLP</td></tr><tr><td>DA2</td><td>Spectrophotométrie-activité enzymatique-avec PLP</td></tr><tr><td>DA3</td><td>Spectrophotométrie-activité enzymatique-substrat CNPG3</td></tr><tr><td>DA7</td><td>Spectrophotométrie-activité enzymatique-substrat CNPG7</td></tr><tr><td>DA8</td><td>Spectrophotométrie-activité enzymatique-immuno-inhibition</td></tr><tr><td>DA9</td><td>Spectrophotométrie-activité enzymatique-substrat 1-2 diglycérides</td></tr><tr><td>DAA</td><td>Spectrophotométrie-activité enzymatique-tampon AMP</td></tr><tr><td>DAB</td><td>Spectrophotométrie-activité enzymatique-tampon DEA</td></tr><tr><td>DAC</td><td>Spectrophotométrie-activité enzymatique-subtrat non carboxylé</td></tr><tr><td>DAD</td><td>Spectrophotométrie-activité enzymatique-substrat  carboxylé</td></tr><tr><td>DAL</td><td>Spectrophotométrie-activité enzymatique-substrat lactate</td></tr><tr><td>DAM</td><td>Spectrophotométrie-activité enzymatique-6'méthylrésorufine</td></tr><tr><td>DAP</td><td>Spectrophotométrie-activité enzymatique-substrat pyruvate</td></tr><tr><td>DAX</td><td>Spectrophotométrie-activité enzymatique-autre</td></tr><tr><td>DCF</td><td>Cytométrie en flux-fluorescence</td></tr><tr><td>DCI</td><td>Cytométrie en flux-impédance</td></tr><tr><td>DCO</td><td>Cytométrie en flux-optique</td></tr><tr><td>DCP</td><td>Cytométrie en flux-activité peroxydasique</td></tr><tr><td>DCX</td><td>Cytométrie en flux-autre</td></tr><tr><td>DE3</td><td>Spectrophotométrie-dosage de substrat-enzymatique-élimination/catalase</td></tr><tr><td>DE4</td><td>Spectrophotométrie-dosage de substrat-enzymatique-immuno-inhibition</td></tr><tr><td>DE5</td><td>Spectrophotométrie-dosage de substrat-enzymatique-PEG/dextran</td></tr><tr><td>DEG</td><td>Spectrophotométrie-dosage de substrat-enzymatique-glucose oxydase</td></tr><tr><td>DEH</td><td>Spectrophotométrie-dosage de substrat-enzymatique-hexokinase</td></tr><tr><td>DEI</td><td>Spectrophotométrie-dosage de substrat-enzymatique-GDH</td></tr><tr><td>DEL</td><td>Spectrophotométrie-dosage de substrat-enzymatique-LDH</td></tr><tr><td>DEO</td><td>Spectrophotométrie-dosage de substrat-enzymatique-lactate oxydase</td></tr><tr><td>DEX</td><td>Spectrophotométrie-dosage de substrat-enzymatique-autre</td></tr><tr><td>DGX</td><td>Spectrométrie d'absorption atomique (SAA)</td></tr><tr><td>DHX</td><td>Spectrométrie d'émission atomique (SEA)</td></tr><tr><td>DIA</td><td>Spectrométrie-ICP-MS</td></tr><tr><td>DIB</td><td>Spectrométrie-ICP-OES</td></tr><tr><td>DJA</td><td>Spectrométrie de masse-MALDI/TOF</td></tr><tr><td>DJB</td><td>Spectrométrie de masse-SM</td></tr><tr><td>DJC</td><td>Spectrométrie de masse-SM/SM</td></tr><tr><td>DK1</td><td>Spectrophotométrie-dosage de substrat-VBC</td></tr><tr><td>DK2</td><td>Spectrophotométrie-dosage de substrat-Jaffé</td></tr><tr><td>DK6</td><td>Spectrophotométrie-dosage de substrat-CPZ III</td></tr><tr><td>DKA</td><td>Spectrophotométrie-dosage de substrat-arsenazo</td></tr><tr><td>DKB</td><td>Spectrophotométrie-dosage de substrat-autres diazoiques</td></tr><tr><td>DKD</td><td>Spectrophotométrie-dosage de substrat-bleu de méthyl thymol</td></tr><tr><td>DKE</td><td>Spectrophotométrie-dosage de substrat-bleu magon/bleu de xylidyle</td></tr><tr><td>DKF</td><td>Spectrophotométrie-dosage de substrat-caféine benzoate &amp;quot;rose&amp;quot;</td></tr><tr><td>DKG</td><td>Spectrophotométrie-dosage de substrat-calmagite</td></tr><tr><td>DKH</td><td>Spectrophotométrie-dosage de substrat-diazoréaction</td></tr><tr><td>DKI</td><td>Spectrophotométrie-dosage de substrat-dichloraniline</td></tr><tr><td>DKJ</td><td>Spectrophotométrie-dosage de substrat-diphényldiazonium</td></tr><tr><td>DKK</td><td>Spectrophotométrie-dosage de substrat-DMSO</td></tr><tr><td>DKL</td><td>Spectrophotométrie-dosage de substrat-férène direct</td></tr><tr><td>DKM</td><td>Spectrophotométrie-dosage de substrat-ferrozine</td></tr><tr><td>DKO</td><td>Spectrophotométrie-dosage de substrat-OCP</td></tr><tr><td>DKQ</td><td>Spectrophotométrie-dosage de substrat-NM-BAPTA</td></tr><tr><td>DKS</td><td>Spectrophotométrie-dosage de substrat-BCP</td></tr><tr><td>DKT</td><td>Spectrophotométrie-dosage de substrat-rouge de pyrogallol</td></tr><tr><td>DKX</td><td>Spectrophotométrie-dosage de substrat-autres colorants</td></tr><tr><td>DKY</td><td>Spectrophotométrie-dosage de substrat-TPTZ</td></tr><tr><td>DKZ</td><td>Spectrophotométrie-dosage de substrat-vanadate oxydation</td></tr><tr><td>DMX</td><td>Spectrométrie infra rouge</td></tr><tr><td>DNB</td><td>Indicateur colorimétrique-bandelettes</td></tr><tr><td>DNP</td><td>Indicateur colorimétrique-papier pH</td></tr><tr><td>DOA</td><td>Spectrophotométrie en milieu trouble-chlorure de benzéthonium</td></tr><tr><td>DOX</td><td>Spectrophotométrie en milieu trouble-autre</td></tr><tr><td>DRX</td><td>Spectro-Réflectométrie</td></tr><tr><td>GAX</td><td>Amplification génomique isotherme</td></tr><tr><td>GCX</td><td>Caryotype</td></tr><tr><td>GMX</td><td>MLPA/RT MLPA</td></tr><tr><td>GNA</td><td>Séquençage NGS-ciblé par amplicon</td></tr><tr><td>GNC</td><td>Séquençage NGS-ciblé par capture</td></tr><tr><td>GNE</td><td>Séquençage NGS-exome</td></tr><tr><td>GNG</td><td>Séquençage NGS-génome complet</td></tr><tr><td>GNR</td><td>Séquençage NGS-RNAseq-transcriptome ciblé</td></tr><tr><td>GNT</td><td>Séquençage NGS-RNAseq-transcriptome complet</td></tr><tr><td>GNX</td><td>Séquençage NGS-autre</td></tr><tr><td>GOX</td><td>Cartographie optique du génome-OGM</td></tr><tr><td>GPX</td><td>Puces à ADN, CGH array</td></tr><tr><td>GRX</td><td>RFLP</td></tr><tr><td>GSX</td><td>Séquençage Sanger</td></tr><tr><td>GTX</td><td>Short Tandem Repeat</td></tr><tr><td>GUA</td><td>PCR/RT PCR-analyse de fragment</td></tr><tr><td>GUB</td><td>PCR/RT PCR et génotypage sur bandelette</td></tr><tr><td>GUD</td><td>PCR/RT PCR-digitale</td></tr><tr><td>GUF</td><td>PCR/RT PCR-point final</td></tr><tr><td>GUP</td><td>PCR/RT PCR et génotypage sur puce</td></tr><tr><td>GUR</td><td>PCR/RT PCR-temps réel</td></tr><tr><td>GWX</td><td>Pyroséquençage</td></tr><tr><td>GYA</td><td>Hybridation avec amplification du signal</td></tr><tr><td>GYF</td><td>Hybridation-FISH</td></tr><tr><td>HPC</td><td>Chronométrie-agrégométrie des plaquettes</td></tr><tr><td>HPD</td><td>Chronométrie-Von Clauss</td></tr><tr><td>HPX</td><td>Chronométrie-autre</td></tr><tr><td>JAP</td><td>Vitesse d'agrégation-photométrie capillaire</td></tr><tr><td>JAQ</td><td>Vitesse d'agrégation-photométrie (hors capillaire)</td></tr><tr><td>JAR</td><td>Vitesse d'agrégation-rhéoscopie photométrique</td></tr><tr><td>JW1</td><td>Vitesse de sédimentation-Westergren sans dilution</td></tr><tr><td>JW2</td><td>Vitesse de sédimentation-Westergren avec dilution</td></tr><tr><td>JW3</td><td>Vitesse de sédimentation-Westergren modifiée sans dilution</td></tr><tr><td>JW4</td><td>Vitesse de sédimentation-Westergren modifiée avec dilution</td></tr><tr><td>MAX</td><td>Observation macroscopique</td></tr><tr><td>MFD</td><td>Microscopie-immunofluorescence directe (IF)</td></tr><tr><td>MFI</td><td>Microscopie-immunofluorescence indirecte (IFI)</td></tr><tr><td>MIA</td><td>Comptage microscopique-cellule Malassez</td></tr><tr><td>MIB</td><td>Microscopie-avec coloration</td></tr><tr><td>MIC</td><td>Comptage microscopique-cellule Neubauer classique</td></tr><tr><td>MID</td><td>Comptage microscopique-cellule Leja</td></tr><tr><td>MIE</td><td>Comptage microscopique-cellule Fast Read 102</td></tr><tr><td>MIF</td><td>Comptage microscopique-cellule Fuchs Rosenthal</td></tr><tr><td>MIG</td><td>Comptage microscopique-cellule Bürker-Türk</td></tr><tr><td>MIH</td><td>Microscopie-sans coloration</td></tr><tr><td>MIK</td><td>Comptage microscopique-cellule Kova</td></tr><tr><td>MIL</td><td>Comptage microscopique-cellule Lemaur</td></tr><tr><td>MIM</td><td>Comptage microscopique-cellule Nageotte</td></tr><tr><td>MIN</td><td>Comptage microscopique-cellule Neubauer améliorée</td></tr><tr><td>MIO</td><td>Comptage microscopique-cellule Vetriplast</td></tr><tr><td>MIR</td><td>Comptage microscopique-cellule Bürker</td></tr><tr><td>MIS</td><td>Comptage microscopique-cellule Makler</td></tr><tr><td>MIT</td><td>Comptage microscopique-cellule Thoma</td></tr><tr><td>UAA</td><td>Immuno-analyse-agglutination/hémagglutination</td></tr><tr><td>UAI</td><td>Immuno-analyse-inhibition de l'agglutination</td></tr><tr><td>UCX</td><td>Immuno-analyse-chimiluminescence</td></tr><tr><td>UEA</td><td>Immuno-analyse-UV/visible</td></tr><tr><td>UEC</td><td>Immuno-chromatographie-détection visible</td></tr><tr><td>UFA</td><td>Immuno-analyse-détection en fluorescence</td></tr><tr><td>UFC</td><td>Immuno-chromatographie-détection en fluorescence</td></tr><tr><td>UGA</td><td>Immunoprécipitation-immunodiffusion radiale (IDR)</td></tr><tr><td>UIX</td><td>Immuno-analyse-détection isotopique-code générique</td></tr><tr><td>UNX</td><td>Immuno-analyse-néphélémétrie</td></tr><tr><td>UPX</td><td>Immuno-analyse-neutralisation Ag/Ac</td></tr><tr><td>USX</td><td>Immuno-analyse-blot/dots</td></tr><tr><td>UTX</td><td>Immuno-analyse-turbidimétrie</td></tr><tr><td>UVA</td><td>Immuno-electrophorèse</td></tr><tr><td>UVB</td><td>Immunofixation</td></tr><tr><td>VAX</td><td>Electrophorèse avec colorant</td></tr><tr><td>VBI</td><td>Electrophorèse capillaire-immunosoustraction</td></tr><tr><td>VBX</td><td>Electrophorèse capillaire</td></tr><tr><td>VCX</td><td>Isofocalisation</td></tr><tr><td>VEB</td><td>Co-électrosynérèse, électro-immunodiffusion bidimensionnelle</td></tr><tr><td>ZAX</td><td>Centrifugation-mesure d'un rapport de hauteurs</td></tr><tr><td>ZCX</td><td>Calcul mathématique</td></tr><tr><td>ZDX</td><td>Abaissement cryoscopique</td></tr><tr><td>ZQX</td><td>Thermochimie-bombe calorimétrique</td></tr><tr><td>ZRX</td><td>Réfractométrie</td></tr><tr><td>ZTX</td><td>Titrimétrie</td></tr><tr><td>ZVX</td><td>Tension de vapeur</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2022-01-12T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.789" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260619134042"] ;
+  fhir:ValueSet.name [ fhir:value "JdvTechniqueBiologieCisis"] ;
+  fhir:ValueSet.title [ fhir:value "JDV Technique Biologie CISIS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-19T13:40:42+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "JDV Technique Biologie CISIS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/terminologie-tccr" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9AX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-ampérométrie" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9BX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-conductimétrie" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9CX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-coulométrie" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9EC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-cinétique de pH" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9ED" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-potentiométrie directe" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9EI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-potentiométrie indirecte" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9FX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-électrodes + enzymes" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9GX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-polarographie" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9JX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-impédance" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9KX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrochimie-résistivité" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etude phénotypique-tests biochimiques en milieu liquide" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Culture sur milieu chromogène" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BDB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sensibilité à une molécule-bandelettes gradient sur gélose (CMI)" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BDD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BLX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sensibilité à une molécule-méthodes en milieu liquide" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie d'affinité" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CBX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLBP" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection UV/visible" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par conductimétrie" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection infra-rouge" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par fluorescence" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par ampérométrie" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par coulométrie" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par polarographie" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par potentiometrie" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLJ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection par réfractometrie" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection SM" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection SM/SM" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection masse exacte (HRSM)" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CLHP-détection non précisée ou autre" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CPX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie d'échange d'ions" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CQX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-gel filtration (hors agglutination)" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-couche mince" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CSP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-papier" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection FID" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection NPD" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection TCD" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection ECD" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection FPD" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection SM" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection SM/SM" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CZX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographie-CPG-détection non précisée ou autre" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-sans PLP" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-avec PLP" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat CNPG3" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat CNPG7" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-immuno-inhibition" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DA9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat 1-2 diglycérides" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-tampon AMP" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-tampon DEA" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-subtrat non carboxylé" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat  carboxylé" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat lactate" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-6'méthylrésorufine" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-substrat pyruvate" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-activité enzymatique-autre" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytométrie en flux-fluorescence" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytométrie en flux-impédance" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytométrie en flux-optique" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytométrie en flux-activité peroxydasique" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytométrie en flux-autre" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DE3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-élimination/catalase" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DE4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-immuno-inhibition" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DE5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-PEG/dextran" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-glucose oxydase" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-hexokinase" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-GDH" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-LDH" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-lactate oxydase" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-enzymatique-autre" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DGX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie d'absorption atomique (SAA)" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DHX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie d'émission atomique (SEA)" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie-ICP-MS" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie-ICP-OES" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DJA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie de masse-MALDI/TOF" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DJB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie de masse-SM" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DJC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie de masse-SM/SM" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DK1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-VBC" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DK2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-Jaffé" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DK6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-CPZ III" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-arsenazo" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-autres diazoiques" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-bleu de méthyl thymol" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-bleu magon/bleu de xylidyle" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-caféine benzoate &quot;rose&quot;" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-calmagite" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-diazoréaction" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-dichloraniline" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKJ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-diphényldiazonium" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-DMSO" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-férène direct" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-ferrozine" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-OCP" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-NM-BAPTA" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-BCP" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-rouge de pyrogallol" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-autres colorants" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-TPTZ" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DKZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie-dosage de substrat-vanadate oxydation" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DMX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrométrie infra rouge" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DNB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indicateur colorimétrique-bandelettes" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DNP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indicateur colorimétrique-papier pH" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DOA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie en milieu trouble-chlorure de benzéthonium" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DOX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectrophotométrie en milieu trouble-autre" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DRX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectro-Réflectométrie" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amplification génomique isotherme" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caryotype" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GMX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MLPA/RT MLPA" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-ciblé par amplicon" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-ciblé par capture" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-exome" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-génome complet" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-RNAseq-transcriptome ciblé" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-RNAseq-transcriptome complet" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GNX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage NGS-autre" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GOX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cartographie optique du génome-OGM" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GPX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Puces à ADN, CGH array" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RFLP" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GSX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquençage Sanger" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GTX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Short Tandem Repeat" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR-analyse de fragment" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR et génotypage sur bandelette" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR-digitale" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR-point final" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR et génotypage sur puce" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR/RT PCR-temps réel" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GWX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pyroséquençage" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GYA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hybridation avec amplification du signal" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hybridation-FISH" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chronométrie-agrégométrie des plaquettes" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chronométrie-Von Clauss" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chronométrie-autre" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JAP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse d'agrégation-photométrie capillaire" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JAQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse d'agrégation-photométrie (hors capillaire)" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse d'agrégation-rhéoscopie photométrique" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JW1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse de sédimentation-Westergren sans dilution" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JW2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse de sédimentation-Westergren avec dilution" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JW3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse de sédimentation-Westergren modifiée sans dilution" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JW4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vitesse de sédimentation-Westergren modifiée avec dilution" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Observation macroscopique" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MFD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microscopie-immunofluorescence directe (IF)" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MFI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microscopie-immunofluorescence indirecte (IFI)" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Malassez" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microscopie-avec coloration" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Neubauer classique" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MID" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Leja" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Fast Read 102" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Fuchs Rosenthal" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Bürker-Türk" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microscopie-sans coloration" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Kova" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Lemaur" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Nageotte" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Neubauer améliorée" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Vetriplast" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Bürker" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Makler" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comptage microscopique-cellule Thoma" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UAA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-agglutination/hémagglutination" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UAI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-inhibition de l'agglutination" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-chimiluminescence" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UEA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-UV/visible" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UEC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-chromatographie-détection visible" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UFA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-détection en fluorescence" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UFC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-chromatographie-détection en fluorescence" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UGA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immunoprécipitation-immunodiffusion radiale (IDR)" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UIX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-détection isotopique-code générique" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UNX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-néphélémétrie" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UPX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-neutralisation Ag/Ac" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "USX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-blot/dots" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UTX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-analyse-turbidimétrie" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UVA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immuno-electrophorèse" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UVB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immunofixation" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrophorèse avec colorant" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VBI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrophorèse capillaire-immunosoustraction" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VBX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrophorèse capillaire" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Isofocalisation" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VEB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Co-électrosynérèse, électro-immunodiffusion bidimensionnelle" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZAX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centrifugation-mesure d'un rapport de hauteurs" ]
+       ], [
+         fhir:index 179 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZCX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Calcul mathématique" ]
+       ], [
+         fhir:index 180 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZDX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abaissement cryoscopique" ]
+       ], [
+         fhir:index 181 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZQX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thermochimie-bombe calorimétrique" ]
+       ], [
+         fhir:index 182 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZRX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réfractométrie" ]
+       ], [
+         fhir:index 183 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZTX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Titrimétrie" ]
+       ], [
+         fhir:index 184 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZVX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tension de vapeur" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-technique-biologie-cisis.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
