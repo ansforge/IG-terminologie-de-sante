@@ -18,7 +18,6 @@ Description: "Activite Operationnelle"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 629
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -3614,6 +3613,7 @@ Description: "Activite Operationnelle"
 * #450 ^property[+].code = #status
 * #450 ^property[=].valueCode = #active
 * #451 "Exploration des troubles du sommeil" "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne"
+* #451 ^property[0].code = #dateValid
 * #451 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #451 ^property[+].code = #dateMaj
 * #451 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
