@@ -10,10 +10,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260629120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-06-29T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -1330,11 +1330,11 @@ Description: "Activite Operationnelle"
 * #157 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
-* #158 "Urgences psychiatriques hospitalières"
+* #158 "Urgences psychiatriques 24h/24 7j/7"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #158 ^property[+].code = #dateMaj
-* #158 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #158 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
 * #159 "Urgences spécialisées traumatologiques"
@@ -3613,11 +3613,10 @@ Description: "Activite Operationnelle"
 * #450 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #450 ^property[+].code = #status
 * #450 ^property[=].valueCode = #active
-* #451 "Exploration et prise en charge des troubles du sommeil" "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne"
-* #451 ^property[0].code = #dateValid
+* #451 "Exploration des troubles du sommeil" "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne"
 * #451 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #451 ^property[+].code = #dateMaj
-* #451 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
+* #451 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #451 ^property[+].code = #status
 * #451 ^property[=].valueCode = #active
 * #452 "Exploration des troubles psycho-comportementaux et cognitifs" "Cette exploration comprend une évaluation du fonctionnement cognitif globale (approche psychométrique) et spécifique (évaluation anatomoclinique, mnésique, cognitive, et écologique), une évaluation du comportement (échelles) et la restitution par un compte-rendu"
@@ -3872,11 +3871,11 @@ Description: "Activite Operationnelle"
 * #479 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #479 ^property[+].code = #status
 * #479 ^property[=].valueCode = #active
-* #480 "Médecine du sommeil" "(= hypnologie ou somnologie) est la branche de la médecine spécialisée dans le diagnostic et le traitement des troubles de la vigilance (somnolence excessive) et du sommeil (insomnies, parasomnies)."
+* #480 "Médecine du sommeil (prise en charge des troubles du sommeil)" "(= hypnologie ou somnologie) est la branche de la médecine spécialisée dans le diagnostic et le traitement des troubles de la vigilance (somnolence excessive) et du sommeil (insomnies, parasomnies)."
 * #480 ^property[0].code = #dateValid
 * #480 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #480 ^property[+].code = #dateMaj
-* #480 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #480 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #480 ^property[+].code = #status
 * #480 ^property[=].valueCode = #active
 * #481 "Médecine générale à orientation Allergologie" "Activité d'un médecin généraliste ayant acquis un diplôme ou une mention autorisée en Allergologie."
@@ -4961,3 +4960,17 @@ Description: "Activite Operationnelle"
 * #629 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #629 ^property[+].code = #status
 * #629 ^property[=].valueCode = #active
+* #630 "Evaluation et accompagnement des auteurs de violences conjugales"
+* #630 ^property[0].code = #dateValid
+* #630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #630 ^property[+].code = #dateMaj
+* #630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #630 ^property[+].code = #status
+* #630 ^property[=].valueCode = #active
+* #631 "Prise en charge et coordination de plaies et cicatrisations complexes"
+* #631 ^property[0].code = #dateValid
+* #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #631 ^property[+].code = #dateMaj
+* #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #631 ^property[+].code = #status
+* #631 ^property[=].valueCode = #active
