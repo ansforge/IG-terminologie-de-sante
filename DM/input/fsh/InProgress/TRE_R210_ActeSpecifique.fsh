@@ -14105,3 +14105,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1700 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1700 ^property[+].code = #status
 * #1700 ^property[=].valueCode = #active
+* #1701 "Prise en charge de nouveau patient en tant que médecin traitant"
+* #1701 ^property[0].code = #dateValid
+* #1701 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1701 ^property[+].code = #dateMaj
+* #1701 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1701 ^property[+].code = #status
+* #1701 ^property[=].valueCode = #active
