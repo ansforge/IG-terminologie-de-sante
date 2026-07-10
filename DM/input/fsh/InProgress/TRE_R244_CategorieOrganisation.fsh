@@ -18,7 +18,6 @@ Description: "Catégorie d'organisation"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 313
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -3426,3 +3425,60 @@ Description: "Catégorie d'organisation"
 * #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #313 ^property[+].code = #status
 * #313 ^property[=].valueCode = #active
+* #314 "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
+* #314 ^designation[0].language = #fr-FR
+* #314 ^designation[=].use.system = "http://snomed.info/sct"
+* #314 ^designation[=].use = $sct#900000000000013009
+* #314 ^designation[=].value = "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales"
+* #314 ^property[0].code = #dateValid
+* #314 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #314 ^property[+].code = #dateMaj
+* #314 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #314 ^property[+].code = #status
+* #314 ^property[=].valueCode = #active
+* #315 "Equipe de Soins Spécialisés (ESS)"
+* #315 ^property[0].code = #dateValid
+* #315 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #315 ^property[+].code = #dateMaj
+* #315 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #315 ^property[+].code = #status
+* #315 ^property[=].valueCode = #active
+* #316 "Société de téléconsultation"
+* #316 ^property[0].code = #dateValid
+* #316 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #316 ^property[+].code = #dateMaj
+* #316 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #316 ^property[+].code = #status
+* #316 ^property[=].valueCode = #active
+* #317 "Unité hospitalière de soins de support"
+* #317 ^property[0].code = #dateValid
+* #317 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #317 ^property[+].code = #dateMaj
+* #317 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #317 ^property[+].code = #status
+* #317 ^property[=].valueCode = #active
+* #318 "Groupe plaies et cicatrisation (dont équipe mobile)"
+* #318 ^designation[0].language = #fr-FR
+* #318 ^designation[=].use.system = "http://snomed.info/sct"
+* #318 ^designation[=].use = $sct#900000000000013009
+* #318 ^designation[=].value = "Groupe plaies et cicatrisation"
+* #318 ^property[0].code = #dateValid
+* #318 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #318 ^property[+].code = #dateMaj
+* #318 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #318 ^property[+].code = #status
+* #318 ^property[=].valueCode = #active
+* #319 "Centre du sommeil"
+* #319 ^property[0].code = #dateValid
+* #319 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #319 ^property[+].code = #dateMaj
+* #319 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #319 ^property[+].code = #status
+* #319 ^property[=].valueCode = #active
+* #320 "Structure de relayage au domicile"
+* #320 ^property[0].code = #dateValid
+* #320 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #320 ^property[+].code = #dateMaj
+* #320 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #320 ^property[+].code = #status
+* #320 ^property[=].valueCode = #active

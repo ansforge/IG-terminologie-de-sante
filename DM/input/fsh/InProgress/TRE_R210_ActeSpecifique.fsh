@@ -14077,7 +14077,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1698 ^designation[=].use.system = "http://snomed.info/sct"
 * #1698 ^designation[=].use = $sct#900000000000013009
 * #1698 ^designation[=].value = "CRIOA/ C - Niv 1 coordonnateur"
-* #1698 ^designation[0].language = #fr-FR
 * #1698 ^property[0].code = #dateValid
 * #1698 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1698 ^property[+].code = #dateMaj
@@ -14089,7 +14088,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1699 ^designation[=].use.system = "http://snomed.info/sct"
 * #1699 ^designation[=].use = $sct#900000000000013009
 * #1699 ^designation[=].value = "CRIOA/ C – Niv 2 correspondant"
-* #1699 ^designation[0].language = #fr-FR
 * #1699 ^property[0].code = #dateValid
 * #1699 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1699 ^property[+].code = #dateMaj
@@ -14101,7 +14099,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1700 ^designation[=].use.system = "http://snomed.info/sct"
 * #1700 ^designation[=].use = $sct#900000000000013009
 * #1700 ^designation[=].value = "Accréditation par la SFRMS"
-* #1700 ^designation[0].language = #fr-FR
 * #1700 ^property[0].code = #dateValid
 * #1700 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1700 ^property[+].code = #dateMaj
