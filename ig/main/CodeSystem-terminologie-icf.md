@@ -28,9 +28,8 @@ Classification internationale du fonctionnement, du handicap et de la santé.
   "resourceType" : "CodeSystem",
   "id" : "terminologie-icf",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-06-10T17:52:18.904+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-13T08:56:16.899+02:00"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-icf",
   "version" : "2026-01",
@@ -114,11 +113,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager, poursuivre et mettre fin à l'examen d'une question donnée, en argumentant pour ou contre, ou s'engager dans un débat mené au moyen d'un langage écrit ou parlé, de la langue des signes ou de toute autre forme de langage, en présence d'une ou de plusieurs personnes connues ou inconnues, dans un environnement formel ou informel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Discussion"
     }],
     "property" : [{
@@ -179,11 +173,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés de l'aménagement du territoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of land development, unspecified"
     }],
     "property" : [{
@@ -221,11 +210,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de pression dans l'oreille.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Aural pressure"
     }],
     "property" : [{
@@ -266,11 +250,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pelvic region, unspecified"
     }],
     "property" : [{
@@ -312,11 +291,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations d'étourdissement, de chute, d'acouphènes et de vertige.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with hearing and vestibular functions"
     }],
     "property" : [{
@@ -390,11 +364,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au volume de sang disponible pour le muscle cardiaque.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Blood supply to the heart"
     }],
     "property" : [{
@@ -436,11 +405,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la réaction générale de l'organisme après sensibilisation à des substances étrangères, y compris au cours d'infections.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Non-specific immune response"
     }],
     "property" : [{
@@ -482,11 +446,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur l'exécution des tâches et des actions se rapportant à l'éducation, au travail et à l'emploi et pour effectuer des transactions économiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Major life areas"
     }],
     "property" : [{
@@ -547,11 +506,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de faire le ménage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Doing housework, unspecified"
     }],
     "property" : [{
@@ -592,11 +546,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs aux transports",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -633,11 +582,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du nez",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of nose"
     }],
     "property" : [{
@@ -678,11 +622,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions thermorégulatrices non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thermoregulatory functions, unspecified"
     }],
     "property" : [{
@@ -720,11 +659,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance régissant la sécurité des personnes et des biens, comme les dispositifs organisant les services de police, de lutte contre le feu, de secours d'urgence et d'ambulances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Civil protection systems"
     }],
     "property" : [{
@@ -765,11 +699,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions du système cardiovasculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the cardiovascular system"
     }],
     "property" : [{
@@ -827,11 +756,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les actions de base requises pour écrire des symboles ou des lettres de l'alphabet, comme tenir un crayon, une craie ou un pinceau, écrire un caractère ou un symbole sur une feuille de papier, utiliser une machine à écrire en braille, un clavier ou une unité périphérique (souris).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to use writing implements"
     }],
     "property" : [{
@@ -876,11 +800,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Effectuer des routines quotidiennes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying out daily routine, unspecified"
     }],
     "property" : [{
@@ -921,11 +840,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "AUCUN facilitateur (aucun, absence, négligeable, ...) 0-4%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "NO facilitator (none, absent, negligible,...) 0-4%"
     }],
     "property" : [{
@@ -963,11 +877,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin de soi en étant conscient de ses besoins, en choisissant et en consommant des aliments nutritifs et en entretenant une bonne condition physique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Managing diet and fitness"
     }],
     "property" : [{
@@ -1013,11 +922,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques des zones urbaines qui constituent l'environnement immédiat d'un individu qui ont été affectés ou changés par les politiques, la conception, la planification et l'aménagement du territoire comme les bateaux de portes, les rampes d'accès, les panneaux de signalisation et l'éclairage public.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of urban land development"
     }],
     "property" : [{
@@ -1059,11 +963,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de faire passer des substances telles que les aliments, les boissons et la salive par la cavité buccale, le pharynx et l'œsophage vers l'estomac, en quantité et à une vitesse appropriées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Swallowing"
     }],
     "property" : [{
@@ -1125,11 +1024,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réparer et entretenir le lieu d'habitation, son extérieur, son intérieur et son contenu, comme peindre, réparer des accessoires et des meubles, utiliser les outils adéquats pour faire les réparations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining dwelling and furnishings"
     }],
     "property" : [{
@@ -1174,11 +1068,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées des systèmes hématopoïétique et immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the haematological and immunological systems, other specified and unspecified"
     }],
     "property" : [{
@@ -1215,11 +1104,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres aspects précisés de la vie domestique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified domestic life"
     }],
     "property" : [{
@@ -1260,11 +1144,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées des annexes de l'œil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of structures adjoining the eye, unspecified"
     }],
     "property" : [{
@@ -1302,11 +1181,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions des sens, de la vue, de l'ouïe, du goût, etc., de même que de la sensation de douleur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensory functions and pain"
     }],
     "property" : [{
@@ -1372,11 +1246,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Obtenir, en échange d'argent, les produits et les services nécessaires à la vie quotidienne (y compris donner instruction et superviser un intermédiaire chargé de faire les courses), par ex. choisir de la nourriture, des boissons, des produits d'entretien, des articles ménagers, des jeux et des articles de loisirs, ou des vêtements dans un magasin ou au marché ; comparer la qualité et les prix des articles désirés, négocier et finalement payer les produits et les services choisis et les transporter.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Shopping"
     }],
     "property" : [{
@@ -1422,11 +1291,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rester debout pendant un certain temps si nécessaire, comme faire la queue.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a standing position"
     }],
     "property" : [{
@@ -1471,11 +1335,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour l'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for employment"
     }],
     "property" : [{
@@ -1512,11 +1371,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres plantes et animaux précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fauna and flora, other specified"
     }],
     "property" : [{
@@ -1554,11 +1408,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Être transporté en tant que passager dans un véhicule motorisé conçu pour le transport en commun, sur terre, sur l'eau ou dans les airs, comme être passager d'un bus, d'un train, d'un métro ou d'un avion.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using public motorized transportation"
     }],
     "property" : [{
@@ -1604,11 +1453,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de l'endroit où l'on se trouve, par exemple son environnement immédiat, la ville ou le pays où on habite.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to place"
     }],
     "property" : [{
@@ -1650,11 +1494,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour retirer des vêtements sur diverses parties du corps, comme retirer des vêtements sur la tête, les bras et les épaules, les parties inférieure et supérieure du corps ; retirer des gants et des coiffes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taking off clothes"
     }],
     "property" : [{
@@ -1700,11 +1539,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Soulever ou prendre un ou plusieurs objets avec les mains et les doigts, comme pour prendre un crayon.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Picking up"
     }],
     "property" : [{
@@ -1750,11 +1584,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs à la transmission et à l'échange d'information.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication services, systems and policies"
     }],
     "property" : [{
@@ -1815,11 +1644,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Joints"
     }],
     "property" : [{
@@ -1865,11 +1689,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Organismes du règne végétal, capables de photosynthèse, eucaryotes et multicellulaires, caractérisés par le fait qu'ils produisent des embryons, contiennent des chloroplastes, ont des parois cellulaires de cellulose, et sont privés du pouvoir de locomotion, comme les arbres, les fleurs, les buissons et les plantes grimpantes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Plants"
     }],
     "property" : [{
@@ -1911,11 +1730,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin des plantes à l'intérieur et à l'extérieur de la maison, planter, arroser les plantes et leur donner de l'engrais ; faire le jardin et cultiver des légumes pour son usage personnel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taking care of plants, indoors and outdoors"
     }],
     "property" : [{
@@ -1961,11 +1775,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de démangeaison ou autres sensations similaires dans l'oreille.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Irritation in the ear"
     }],
     "property" : [{
@@ -2006,11 +1815,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'appareil reproducteur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of reproductive system, other specified"
     }],
     "property" : [{
@@ -2052,11 +1856,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Structures et mécanismes associés qui organisent le pouvoir politique et économique dans la société, comme les pouvoirs exécutifs et législatifs de l'État, les instruments constitutionnels et juridiques dont émane leur autorité, comme la doctrine politique, les constitutions, les agences et autres institutions de l'État, et les forces armées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political systems"
     }],
     "property" : [{
@@ -2097,11 +1896,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Entreprendre d'autres tâches multiples précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified undertaking multiple tasks"
     }],
     "property" : [{
@@ -2143,11 +1937,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques imaginés, conçus et construits pour l'usage privé à l'intérieur des bâtiments, comme les toilettes adaptées, les téléphones, les ascenseurs privés, les recouvrements des sols, les armoires et ustensiles de cuisine, les commandes électroniques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for gaining access to facilities in buildings for private use"
     }],
     "property" : [{
@@ -2189,11 +1978,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la discrimination des sons, des tons, des timbres et d'autres stimuli acoustiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Auditory perception"
     }],
     "property" : [{
@@ -2234,11 +2018,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions génitales et reproductives précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Genital and reproductive functions, other specified and unspecified"
     }],
     "property" : [{
@@ -2276,11 +2055,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales nécessaires pour comprendre et intégrer de façon constructive les diverses fonctions mentales, y compris toutes les fonctions cognitives et leur développement au cours de la vie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Intellectual functions"
     }],
     "property" : [{
@@ -2322,11 +2096,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un comportement non verbal fait d'éléments de nature appropriés et correctement enchaînés, comme la coordination oculo-manuelle et la démarche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of psychomotor functions"
     }],
     "property" : [{
@@ -2367,11 +2136,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées liées à l'appareil génito-urinaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to the genitourinary and reproductive systems, unspecified"
     }],
     "property" : [{
@@ -2412,11 +2176,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la bouche",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of mouth"
     }],
     "property" : [{
@@ -2493,11 +2252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du système nerveux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nervous system, unspecified"
     }],
     "property" : [{
@@ -2538,11 +2292,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles du tronc",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of trunk"
     }],
     "property" : [{
@@ -2588,11 +2337,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer à des cérémonies, activités et événements religieux organisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Organized religion"
     }],
     "property" : [{
@@ -2637,11 +2381,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lower leg, unspecified"
     }],
     "property" : [{
@@ -2682,11 +2421,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle ou facilitateur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Barrier or facilitator"
     }],
     "property" : [{
@@ -2772,11 +2506,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située au niveau du dos.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in back"
     }],
     "property" : [{
@@ -2818,11 +2547,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Jouir de tous les droits reconnus aux niveaux tant national qu'international et accordés à la personne humaine en vertu de sa seule existence en tant qu'être humain, tels que les droits humains reconnus par la Déclaration universelle des droits de l'homme des Nations Unies (1948), la Convention des Nations Unies sur les droits de l'enfant (1989), les règles des Nations Unies pour l'égalisation des chances des personnes handicapées (1993) ; et la Convention des Nations Unies relative aux droits des personnes handicapées (2006) ; le droit à l'autodétermination ou à l'autonomie ; le droit de décider de son propre destin.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Human rights"
     }],
     "property" : [{
@@ -2867,11 +2591,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du vagin et organes génitaux externes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of vagina and external genitalia"
     }],
     "property" : [{
@@ -2932,11 +2651,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du cerveau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of brain, unspecified"
     }],
     "property" : [{
@@ -2977,11 +2691,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du cervelet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cerebellum"
     }],
     "property" : [{
@@ -3027,11 +2736,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nettoyer les lieux de vie, essuyer et épousseter, balayer, laver le sol, laver les vitres et les murs, nettoyer la salle de bains et les toilettes, entretenir les meubles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cleaning living area"
     }],
     "property" : [{
@@ -3076,11 +2780,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés relatifs à la religion et à la vie spirituelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Religion and spirituality, unspecified"
     }],
     "property" : [{
@@ -3121,11 +2820,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres catégories précisées de soutiens et de relations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified support and relationships"
     }],
     "property" : [{
@@ -3163,11 +2857,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin de soi en étant conscient de ses besoins et en faisant ce qu'il faut pour prendre soin de sa santé, à la fois pour réagir aux risques pour la santé et pour éviter une mauvaise santé, par exemple en recherchant l'assistance d'un aidant ou de professionnels, en suivant l'avis du médecin et d'autres professionnels de santé, en gérant les risques pour la santé comme les blessures, les maladies transmissibles, la prise de drogue, et les maladies sexuellement transmissibles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining one's health"
     }],
     "property" : [{
@@ -3212,11 +2901,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Entreprendre une tâche unique, non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking single tasks, unspecified"
     }],
     "property" : [{
@@ -3258,11 +2942,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans une zone de la peau innervée par la même racine nerveuse.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Radiating pain in a dermatome"
     }],
     "property" : [{
@@ -3304,11 +2983,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions d'élimination de l'urine de la vessie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urination functions"
     }],
     "property" : [{
@@ -3370,11 +3044,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Explorer des objets en utilisant les mains, les doigts, d'autres membres ou parties du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Touching"
     }],
     "property" : [{
@@ -3420,11 +3089,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre des mesures pour l'hygiène dentaire, par exemple en se brossant les dents, en utilisant de la soie dentaire et en prenant soin d'une prothèse ou d'un appareil dentaire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for teeth"
     }],
     "property" : [{
@@ -3470,11 +3134,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des attitudes en tant que manifestations observables des coutumes, pratiques, idéologies, valeurs, normes, croyances religieuses et autres. Ces attitudes influent sur le comportement et la vie sociale à tous les niveaux, des relations avec autrui à la vie associative, en passant par les structures politiques, économiques et juridiques ; par exemple, les attitudes individuelles ou sociétales concernant la confiance ou la valeur que l'on peut accorder à quelqu'un en tant que personne humaine peuvent provoquer des pratiques positives ou honorifiques, ou au contraire entraîner des réactions négatives ou discriminatoires (stigmatisation, stéréotypie, marginalisation ou négligence de la personne).\nLes attitudes classées ici sont celles des personnes qui sont dans l'entourage de la personne dont on décrit la situation. Il ne s'agit donc pas des attitudes de la personne concernée elle-même. Les attitudes individuelles sont regroupées selon les types de relations données au chapitre 3. Les systèmes de valeurs et les croyances ne sont pas codés de manière distincte des attitudes, étant considérés comme les forces qui les sous-tendent.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Attitudes"
     }],
     "property" : [{
@@ -3572,11 +3231,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant les relations et les activités des personnes qui se regroupent en ayant des intérêts communs à but non commercial, comme les politiques régissant la création et la gestion de ces associations, qu'il s'agisse de sociétés d'entraide, de sociétés de loisirs, d'associations culturelles et religieuses, ou d'organisations sans but lucratif.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Associations and organizational policies"
     }],
     "property" : [{
@@ -3618,11 +3272,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de production du sang, de transport de l'oxygène et des métabolites, et de la coagulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Haematological system functions"
     }],
     "property" : [{
@@ -3687,11 +3336,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'oreille moyenne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of middle ear, unspecified"
     }],
     "property" : [{
@@ -3733,11 +3377,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations basées sur l'attirance affective et physique, pouvant conduire à des relations intimes à long terme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Romantic relationships"
     }],
     "property" : [{
@@ -3783,11 +3422,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des structures dans et autour de l'œil qui facilitent les fonctions visuelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of structures adjoining the eye"
     }],
     "property" : [{
@@ -3852,11 +3486,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées des annexes de l'œil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified functions of structures adjoining the eye"
     }],
     "property" : [{
@@ -3894,11 +3523,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Gamme et qualité des mouvements spontanés globaux spécifiques d'un âge donné comme les mouvements de torsion et de gesticulation caractéristiques des premiers mois.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General movements"
     }],
     "property" : [{
@@ -3940,11 +3564,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à reconnaître les symboles des opérations et à utiliser les opérations d'addition, de soustraction, de multiplication, de division.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills in using basic operations"
     }],
     "property" : [{
@@ -3989,11 +3608,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions de l'excrétion urinaire précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified urinary excretory functions"
     }],
     "property" : [{
@@ -4030,11 +3644,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à l'économie",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified economic services, systems and policies"
     }],
     "property" : [{
@@ -4071,11 +3680,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres maintiens ou changements, précisés et non précisés, de la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Changing and maintaining body position, other specified and unspecified"
     }],
     "property" : [{
@@ -4116,11 +3720,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions urinaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary functions"
     }],
     "property" : [{
@@ -4178,11 +3777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se conformer à des conventions et des codes vestimentaires, implicites ou explicites, de la société dans laquelle on vit, et s'habiller en fonction du temps qu'il fait.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Choosing appropriate clothing"
     }],
     "property" : [{
@@ -4228,11 +3822,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, y compris ceux qui sont adaptés ou spécialement conçus, utilisés pour envoyer et recevoir des informations et situés dans, sur ou à proximité de la personne qui les utilise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for communication"
     }],
     "property" : [{
@@ -4289,11 +3878,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la cheville et pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of ankle and foot"
     }],
     "property" : [{
@@ -4362,11 +3946,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines de la vie communautaire, sociale et civique non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Community, social and civic life, unspecified"
     }],
     "property" : [{
@@ -4408,11 +3987,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Planifier, organiser, cuire et servir des repas faits d'un petit nombre d'ingrédients faciles à préparer et à servir, comme préparer une collation ou un repas léger, transformer les ingrédients simplement en les coupant, et faire frire, bouillir et chauffer des aliments, comme du riz ou des pommes de terre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Preparing simple meals"
     }],
     "property" : [{
@@ -4458,11 +4032,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à la maison ou dans un autre cadre non institutionnel, comme apprendre l'artisanat et d'autres savoir-faire avec des parents ou d'autres membres de la famille, ou les études à domicile.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal education"
     }],
     "property" : [{
@@ -4508,11 +4077,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions du poil, telles que la protection, la coloration et l'apparence.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of hair"
     }],
     "property" : [{
@@ -4554,11 +4118,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Lever un ou plusieurs objets afin de les faire passer d'un niveau moins élevé à un niveau plus élevé, comme pour soulever un verre de la table.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lifting"
     }],
     "property" : [{
@@ -4604,11 +4163,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques d'intérieur et d'extérieur à usage privé (dans une maison ou un logement par exemple) permettant d'assurer la sécurité, comme les barrières de sécurité, les signaux d'alarme et d'assurer le rangement sécurisé d'objets ou produits dangereux (comme les armes, les solvants, les insecticides).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for physical safety of persons in buildings for private use"
     }],
     "property" : [{
@@ -4650,11 +4204,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Assurer son confort physique, sa santé, son bien-être physique et mental, comme avoir un régime équilibré, avoir un niveau d'activité physique approprié, se tenir au chaud ou au frais, éviter de nuire à sa santé, avoir des rapports sexuels protégés, par exemple en utilisant des préservatifs, en se faisant vacciner, et en faisant des examens physiques réguliers.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Looking after one's health"
     }],
     "property" : [{
@@ -4719,11 +4268,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre communication précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified communication"
     }],
     "property" : [{
@@ -4764,11 +4308,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées et non précisées relatives au fait de marcher et se déplacer",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking and moving, other specified and unspecified"
     }],
     "property" : [{
@@ -4809,11 +4348,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of hand"
     }],
     "property" : [{
@@ -4883,11 +4417,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la rapidité de production de la parole.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Speed of speech"
     }],
     "property" : [{
@@ -4928,11 +4457,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la voix et de la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Voice and speech functions, unspecified"
     }],
     "property" : [{
@@ -4969,11 +4493,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée des ongles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nails, unspecified"
     }],
     "property" : [{
@@ -5015,11 +4534,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Degré d'humidité de l'air, par exemple humidité forte ou faible.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Humidity"
     }],
     "property" : [{
@@ -5060,11 +4574,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à l'habillage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified dressing"
     }],
     "property" : [{
@@ -5106,11 +4615,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales du désengagement périodique, réversible et sélectif, physique et mental, par rapport à son environnement immédiat, accompagné de changements physiologiques caractéristiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sleep functions"
     }],
     "property" : [{
@@ -5179,11 +4683,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées entourant l'œil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures around eye, unspecified"
     }],
     "property" : [{
@@ -5225,11 +4724,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la coagulation du sang, par exemple à l'endroit où il y a une blessure.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Clotting functions"
     }],
     "property" : [{
@@ -5271,11 +4765,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Conduire un véhicule à traction animale, comme une charrette ou une voiture tirée par des chevaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Driving animal-powered vehicles"
     }],
     "property" : [{
@@ -5320,11 +4809,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Movement functions"
     }],
     "property" : [{
@@ -5398,11 +4882,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Choisir, se procurer, transporter tous produits et services nécessaires à la vie quotidienne, comme choisir, se procurer, transporter et ranger de la nourriture, des boissons, des vêtements, des produits de nettoyage, du combustible, des articles ménagers, des ustensiles, des batteries de cuisine, des assiettes, des appareils électroménagers, des jeux et des articles de loisirs ; faire appel à des services publics et d'autres services ménagers, aller chercher et déposer du courrier et des colis.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquisition of goods and services"
     }],
     "property" : [{
@@ -5463,11 +4942,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions relatives au métabolisme et au système endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to metabolism and the endocrine system"
     }],
     "property" : [{
@@ -5528,11 +5002,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of shoulder region"
     }],
     "property" : [{
@@ -5602,11 +5071,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour représenter des personnes, des objets, des événements, des sentiments par des mots, des symboles, des expressions, des phrases dans un langage additionnel ou par signes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring additional language"
     }],
     "property" : [{
@@ -5651,11 +5115,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés relatifs à un emploi rémunéré",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Remunerative employment, unspecified"
     }],
     "property" : [{
@@ -5697,11 +5156,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Actions mettant en relation deux ou plusieurs objets, jouets ou autre matériel en tenant compte de leurs propriétés spécifiques, par exemple mettre un couvercle sur une boîte, une tasse sur une soucoupe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions by relating object with regard to specific features"
     }],
     "property" : [{
@@ -5747,11 +5201,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à avoir des relations avec autrui, les aider à engager, à entretenir ou à mettre fin à de telles relations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others in interpersonal relations"
     }],
     "property" : [{
@@ -5797,11 +5246,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations relatives aux muscles ou à des groupes de muscles et leurs mouvements.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations related to muscles and movement functions"
     }],
     "property" : [{
@@ -5859,11 +5303,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire avancer le corps d'un endroit à un autre en restant assis et sans se mettre debout.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around while sitting"
     }],
     "property" : [{
@@ -5909,11 +5348,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les membres de la proche famille sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of immediate family members"
     }],
     "property" : [{
@@ -5955,11 +5389,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes proposés par les autorités locales, régionales et nationales ou par des institutions privées, ainsi que les personnes qui s'en occupent, destinés à permettre aux personnes qui sont à la recherche d'un emploi de trouver du travail ou d'en changer, ou à aider ceux qui ont déjà un emploi, comme des services de recherche et de préparation à l'emploi, les sociétés de placement ou d'intérim, les services de suivi professionnel, les services de santé des travailleurs et de sécurité du travail, les services d'inspection du travail (par ex. ergonomie, gestions des ressources humaines et du personnel, services de concertation sociale, associations professionnelles).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labour and employment services"
     }],
     "property" : [{
@@ -6000,11 +5429,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du cortex cérébral",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cortical lobes, unspecified"
     }],
     "property" : [{
@@ -6046,11 +5470,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes concernant les programmes et autres dispositifs assurant un revenu aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin d'assistance publique, comme les textes de loi et autres réglementations définissant les règles d'admission aux bénéfices de l'assistance sociale, de l'assistance publique, des indemnités de chômage et les indemnités pour invalidité et autres pensions associées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social security policies"
     }],
     "property" : [{
@@ -6091,11 +5510,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Conduit vaginal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vaginal canal"
     }],
     "property" : [{
@@ -6141,11 +5555,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer une tâche simple, prendre les dispositions utiles requises en matière de temps et d'espace pour réaliser une tâche simple ; exécuter une tâche simple ne comprenant qu'une seule composante majeure, comme mettre des objets dans un contenant.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking a simple task"
     }],
     "property" : [{
@@ -6191,11 +5600,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes conçus pour repérer, fournir et entretenir des maisons ou des abris dans lesquels des personnes peuvent vivre, comme les agences immobilières et organismes d'aide au logement, les abris pour personnes indigentes, y compris ceux qui fournissent ces services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Housing services"
     }],
     "property" : [{
@@ -6237,11 +5641,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avancer à pied, pas à pas, de manière qu'au moins un des pieds soit toujours au sol, comme se promener, déambuler, marcher en avant, marcher en arrière ou sur le côté.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking"
     }],
     "property" : [{
@@ -6310,11 +5709,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du larynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of larynx"
     }],
     "property" : [{
@@ -6356,11 +5750,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, organisés par la communauté et visant à assurer la sécurité des personnes et des biens, comme les services de lutte contre le feu, de police, de secours d'urgence et d'ambulances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Civil protection services"
     }],
     "property" : [{
@@ -6401,11 +5790,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Éléments non précisés relatifs à l'environnement naturel et aux changements apportés par l'homme à l'environnement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Natural environment and human-made changes to environment, unspecified"
     }],
     "property" : [{
@@ -6443,11 +5827,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réparer et entretenir les aides techniques comme les prothèses, orthèses, les outils spécialisés pour l'entretien ménager et les soins personnels ; entretenir et réparer les appareils de mobilité personnelle comme des cannes, des déambulateurs, des fauteuils roulants et des scooters ; entretenir les appareils de communication et de récréation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining assistive devices"
     }],
     "property" : [{
@@ -6493,11 +5872,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui permettent de reporter la concentration d'un stimulus à un autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Shifting attention"
     }],
     "property" : [{
@@ -6539,11 +5913,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la discrimination de la forme, de la taille, de la couleur et d'autres stimuli oculaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visual perception"
     }],
     "property" : [{
@@ -6585,11 +5954,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou transporter un ou plusieurs objets d'un endroit à un autre avec les mains, comme pour porter une valise ou un verre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying in the hands"
     }],
     "property" : [{
@@ -6634,11 +5998,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ganglions lymphatiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lymphatic nodes"
     }],
     "property" : [{
@@ -6684,11 +6043,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou quitter la position assise, ou passer de la position assise à une autre position, comme se mettre debout ou se coucher.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sitting"
     }],
     "property" : [{
@@ -6733,11 +6087,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de se déplacer",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified moving around"
     }],
     "property" : [{
@@ -6778,11 +6127,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of thigh"
     }],
     "property" : [{
@@ -6827,11 +6171,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du système urinaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of urinary system"
     }],
     "property" : [{
@@ -6901,11 +6240,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations de nature sexuelle, avec un conjoint ou d'autres partenaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sexual relationships"
     }],
     "property" : [{
@@ -6950,11 +6284,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives au maintien de l'équilibre hydrique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water balance functions, other specified"
     }],
     "property" : [{
@@ -6992,11 +6321,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production du débit et au tempo de la parole.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fluency and rhythm of speech functions"
     }],
     "property" : [{
@@ -7062,11 +6386,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire un choix entre diverses options, mettre en œuvre l'option choisie et évaluer les conséquences de ce choix, comme choisir et acheter un article particulier, décider d'entreprendre une tâche parmi toutes celles qu'il était possible d'entreprendre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Making decisions"
     }],
     "property" : [{
@@ -7112,11 +6431,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer des actions simples ou complexes et coordonnées, en tant que composantes de tâches multiples, intégrées ou complexes, réalisées l'une après l'autre ou simultanément.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking multiple tasks"
     }],
     "property" : [{
@@ -7185,11 +6499,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - produire des messages",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating - producing"
     }],
     "property" : [{
@@ -7258,11 +6567,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Prostate",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Prostate"
     }],
     "property" : [{
@@ -7308,11 +6612,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos des quatre membres et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of muscles of all limbs"
     }],
     "property" : [{
@@ -7354,11 +6653,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nombre de personnes par unité de surface, ainsi que l'appréciation relative de ce nombre (faible, forte densité).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Population density"
     }],
     "property" : [{
@@ -7400,11 +6694,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rayonnements électromagnétiques qui rendent les choses visibles, qu'il s'agisse de lumière solaire ou artificielle (par ex. bougies, lampes à huile ou à paraffine, feu, électricité) et qui peuvent fournir des informations utiles ou inquiétantes sur le monde.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Light"
     }],
     "property" : [{
@@ -7462,11 +6751,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes pour la conception, la construction et l'entretien d'immeubles résidentiels, commerciaux, industriels et publics, comme ceux qui sont destinés à la construction, à la mise en œuvre des principes de conception, les codes, réglementations et normes de la construction, ainsi que les personnes qui fournissent ces services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Architecture and construction services"
     }],
     "property" : [{
@@ -7507,11 +6791,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de se laver",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Washing oneself, unspecified"
     }],
     "property" : [{
@@ -7552,11 +6831,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du système nerveux végétatif",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of sympathetic nervous system"
     }],
     "property" : [{
@@ -7601,11 +6875,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées et non précisées relatives au fait de s'occuper des effets ménagers et d'aider les autres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for household objects and assisting others, other specified and unspecified"
     }],
     "property" : [{
@@ -7646,11 +6915,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du nez",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nose"
     }],
     "property" : [{
@@ -7715,11 +6979,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "PAS de déficience (aucune, absence, négligeable, ...) 0-4%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "NO impairment (none, absent, negligible,...) 0-4 %"
     }],
     "property" : [{
@@ -7757,11 +7016,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer et prendre les dispositions nécessaires en matière de temps et d'espace pour exécuter des tâches multiples, gérer et exécuter plusieurs tâches, ensemble ou l'une après l'autre, sans l'aide d'autres personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking multiple tasks independently"
     }],
     "property" : [{
@@ -7806,11 +7060,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Calculer, autres formes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified calculating"
     }],
     "property" : [{
@@ -7852,11 +7101,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur les actions et les tâches nécessaires pour s'engager dans une vie sociale organisée en-dehors de la famille, dans les domaines de la vie communautaire, sociale et civique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Community, social and civic life"
     }],
     "property" : [{
@@ -7925,11 +7169,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres expériences précisées de soi-même et du temps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified experience of self and time functions"
     }],
     "property" : [{
@@ -7966,11 +7205,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Noyaux gris centraux et structures connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basal ganglia and related structures"
     }],
     "property" : [{
@@ -8015,11 +7249,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre à lire, autres compétences précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified learning to read"
     }],
     "property" : [{
@@ -8060,11 +7289,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'intestin",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of intestine, unspecified"
     }],
     "property" : [{
@@ -8105,11 +7329,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of pelvic region"
     }],
     "property" : [{
@@ -8151,11 +7370,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans l'expulsion de quantités excessives d'air ou de gaz de l'intestin.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Flatulence"
     }],
     "property" : [{
@@ -8197,11 +7411,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui permettent la concentration de deux personnes ou plus sur le même stimulus, par exemple un enfant et un gardien ou une gardienne d'enfant qui se concentrent sur un jouet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sharing attention"
     }],
     "property" : [{
@@ -8243,11 +7452,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour manipuler les nombres et effectuer des opérations mathématiques simples ou complexes, comme utiliser des signes mathématiques pour effectuer des additions et des soustractions, appliquer des opérations mathématiques correctes pour résoudre des problèmes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to calculate"
     }],
     "property" : [{
@@ -8312,11 +7516,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Vie économique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic life"
     }],
     "property" : [{
@@ -8373,11 +7572,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulations de la main et des doigts",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Joints of hand and fingers"
     }],
     "property" : [{
@@ -8422,11 +7616,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du pharynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of pharynx"
     }],
     "property" : [{
@@ -8468,11 +7657,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire avancer le corps d'un endroit à un autre en restant allongé et sans se mettre debout.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around while lying"
     }],
     "property" : [{
@@ -8518,11 +7702,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Quitter le sol en pliant puis en étendant les jambes, comme sauter sur un pied, sauter à cloche-pied, sautiller et sauter ou plonger dans l'eau.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Jumping"
     }],
     "property" : [{
@@ -8567,11 +7746,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées liées à la puberté",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pubertal functions, unspecified"
     }],
     "property" : [{
@@ -8608,11 +7782,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'intestin",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of intestine"
     }],
     "property" : [{
@@ -8654,11 +7823,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les autres organes des sens intentionnellement pour percevoir d'autres stimuli, comme toucher et distinguer des textures, goûter des bonbons ou sentir des fleurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other purposeful sensing"
     }],
     "property" : [{
@@ -8720,11 +7884,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les professionnels de domaines associés à la santé sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of other professionals"
     }],
     "property" : [{
@@ -8766,11 +7925,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes fournissant des services à la demande afin d'aider d'autres personnes dans leurs activités quotidiennes et les soutenir dans leur performance au travail, l'éducation ou d'autres situations de la vie, services fournis grâce à des fonds publics ou privés ou sur une base volontaire, comme les prestataires de services d'entretien ménager, assistants personnels, assistants au transport, aides rémunérés, bonnes d'enfants et autres personnes prestataires de soins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Personal care providers and personal assistants"
     }],
     "property" : [{
@@ -8811,11 +7965,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations particulières avec autrui précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Particular interpersonal relationships, other specified and unspecified"
     }],
     "property" : [{
@@ -8856,11 +8005,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté en termes de capacité, non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "capacity difficulty, not specified"
     }],
     "property" : [{
@@ -8898,11 +8042,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien de l'intégrité structurelle des articulations dans tout le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stability of joints generalized"
     }],
     "property" : [{
@@ -8943,11 +8082,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Vomir",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vomiting"
     }],
     "property" : [{
@@ -8989,11 +8123,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos de tout le corps et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of all muscles of the body"
     }],
     "property" : [{
@@ -9034,11 +8163,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la mémoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Memory functions, unspecified"
     }],
     "property" : [{
@@ -9075,11 +8199,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Oeil, oreille et structures annexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "The eye, ear and related structures"
     }],
     "property" : [{
@@ -9153,11 +8272,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nettoyer après avoir fait la cuisine, faire la vaisselle, nettoyer la table et le sol où on a cuisiné et mangé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cleaning cooking area and utensils"
     }],
     "property" : [{
@@ -9203,11 +8317,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour prendre une boisson, la porter à la bouche et la consommer de manière culturellement acceptable, mélanger, agiter et verser des liquides à boire, ouvrir les bouteilles et les canettes, boire à la paille ou boire à un robinet ou à une fontaine, téter.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Drinking"
     }],
     "property" : [{
@@ -9253,11 +8362,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant globalement à la production, la distribution, la consommation et l'utilisation de biens et de services, ce qui comprend le secteur commercial privé (entreprises, sociétés, projets à but lucratif), le secteur public (services commerciaux qui en dépendent, coopératives et sociétés d'État), les organismes financiers (banques et compagnies d'assurances).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic services"
     }],
     "property" : [{
@@ -9298,11 +8402,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Uretères",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ureters"
     }],
     "property" : [{
@@ -9347,11 +8446,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées et non précisées relatives au fait de porter, de déplacer et de manipuler des objets",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying, moving and handling objects, other specified and unspecified"
     }],
     "property" : [{
@@ -9392,11 +8486,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de soulever et porter",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lifting and carrying, unspecified"
     }],
     "property" : [{
@@ -9438,11 +8527,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament assuré, fier et imposant, par opposition à timide, incertain et effacé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Confidence"
     }],
     "property" : [{
@@ -9483,11 +8567,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de procréation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified procreation functions"
     }],
     "property" : [{
@@ -9524,11 +8603,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures liées à l'appareil génito-urinaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to the genitourinary and reproductive systems"
     }],
     "property" : [{
@@ -9589,11 +8663,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cage thoracique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thoracic cage"
     }],
     "property" : [{
@@ -9639,11 +8708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entretenir les voies de circulation domestiques, comme les allées, les voies d'accès et les entrées des maisons (couvertes ou découvertes), par exemple enlever la neige, les feuilles, les gravats ou le sable d'une entrée, étaler du sable ou d'autres matériaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taking care of walkways and driveways"
     }],
     "property" : [{
@@ -9688,11 +8752,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait d'aller aux toilettes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Toileting, unspecified"
     }],
     "property" : [{
@@ -9733,11 +8792,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la protection civile",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Civil protection services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -9775,11 +8829,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec les membres de la famille élargie, comme les cousins, les oncles et les tantes et les grands-parents.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extended family relationships"
     }],
     "property" : [{
@@ -9824,11 +8873,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures liées aux systèmes digestif, métabolique et endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to the digestive, metabolic and endocrine systems"
     }],
     "property" : [{
@@ -9910,11 +8954,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de la prise de conscience de son propre corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body image"
     }],
     "property" : [{
@@ -9956,11 +8995,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions par lesquelles les substances nutritives sont converties en composantes de l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assimilation functions"
     }],
     "property" : [{
@@ -10001,11 +9035,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives aux menstruations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Menstruation functions, unspecified"
     }],
     "property" : [{
@@ -10043,11 +9072,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la peau pour protéger le corps contre les menaces physiques, chimiques et biologiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Protective functions of the skin"
     }],
     "property" : [{
@@ -10089,11 +9113,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception du froid et du chaud.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensitivity to temperature"
     }],
     "property" : [{
@@ -10134,11 +9153,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'oreille interne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of inner ear"
     }],
     "property" : [{
@@ -10179,11 +9193,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lower leg"
     }],
     "property" : [{
@@ -10253,11 +9262,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Transmettre du sens en utilisant des signes et des symboles (par exemple, des icônes, un tableau Bliss, des symboles scientifiques) et des systèmes de notation symbolique, tels que l'utilisation de la notation musicale pour transmettre une mélodie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing signs and symbols"
     }],
     "property" : [{
@@ -10302,11 +9306,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs aux associations et aux services d'entraide",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Associations and organizational services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -10344,11 +9343,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui organisent le processus mental en ce qui concerne sa cohérence et sa logique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Form of thought"
     }],
     "property" : [{
@@ -10389,11 +9383,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la cheville et du pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of ankle and foot"
     }],
     "property" : [{
@@ -10435,11 +9424,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans toute forme de transaction économique simple, comme utiliser de l'argent pour acheter de la nourriture ou faire du troc, échanger des biens et des services ; ou économiser de l'argent.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basic economic transactions"
     }],
     "property" : [{
@@ -10484,11 +9468,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée des ongles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of nails"
     }],
     "property" : [{
@@ -10530,11 +9509,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de filtration de l'urine par les reins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Filtration of urine"
     }],
     "property" : [{
@@ -10576,11 +9550,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux contractions involontaires, non intentionnelles ou semi-intentionnelles, d'un muscle ou d'un groupe de muscles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Involuntary movement functions"
     }],
     "property" : [{
@@ -10646,11 +9615,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes visant à apporter une aide sociale aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin d'aide pour faire leurs courses, pour les travaux ménagers, les transports, leur entretien personnel et l'entretien des autres, afin de leur permettre d'avoir une vie aussi normale que possible.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General social support services"
     }],
     "property" : [{
@@ -10691,11 +9655,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations et interactions avec autrui non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Interpersonal interactions and relationships, unspecified"
     }],
     "property" : [{
@@ -10737,11 +9696,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour préparer des aliments qui ont été servis, les porter à la bouche, les consommer de façon culturellement acceptable, comme couper ou rompre la nourriture en petits morceaux, ouvrir les bouteilles et les canettes, utiliser des objets pour se nourrir, prendre des repas, festoyer, dîner.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Eating"
     }],
     "property" : [{
@@ -10786,11 +9740,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs aux médias",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Media services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -10828,11 +9777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la prédisposition à la fatigue, quel que soit le niveau d'effort.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fatiguability"
     }],
     "property" : [{
@@ -10873,11 +9817,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of lower leg"
     }],
     "property" : [{
@@ -10918,11 +9857,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions métaboliques générales non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General metabolic functions, unspecified"
     }],
     "property" : [{
@@ -10960,11 +9894,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Une activité signifie l'exécution d'une tâche ou le fait pour une personne de faire quelque chose.\nLa participation signifie le fait de prendre part à une situation de la vie réelle.\nLes limitations d'activité désignent les difficultés qu'une personne peut rencontrer pour mener une activité.\nLes restrictions de participation désignent les problèmes qu'une personne peut rencontrer pour participer à une situation réelle.\nLes domaines qui décrivent la composante Activités et participation font l'objet d'une liste unique qui couvre l'ensemble des domaines de la vie (allant de l'apprentissage élémentaire aux domaines plus composites comme ceux qui représentent les tâches sociales). Cette composante peut être utilisée pour dénoter des activités (a), ou la participation (p), ou les deux à la fois. Deux codes qualificatifs s'appliquent à la composante Activités et participation : le code qualificatif de performance et le code qualificatif de capacité. Le code qualificatif de performance décrit ce que la personne fait dans son cadre de vie habituel. Cet environnement impliquant un contexte sociétal, la performance telle qu'elle est notée par ce code qualificatif peut aussi être entendue comme \"implication dans une situation de la vie réelle\" ou \"expérience vécue\" par les personnes dans leur cadre de vie habituel. Ce cadre de vie comprend les facteurs environnementaux, c'est à dire tous les aspects du monde physique, social et attitudinal, qui peut être codé en utilisant la composante Facteurs environnementaux. Le code qualificatif de capacité se réfère à l'aptitude qu'a une personne à effectuer une tâche ou mener une action. Ce code qualificatif définit le niveau de fonctionnement le plus élevé qu'une personne est susceptible d'atteindre dans un domaine donné à un moment donné. La capacité est évaluée dans un environnement uniforme ou normalisé, et reflète donc l'aptitude de la personne ajustée des facteurs environnementaux. La composante Facteurs environnementaux peut être utilisée pour décrire les caractéristiques de cet environnement uniforme. \nLes codes qualificatifs de performance et de capacité peuvent être utilisés l'un comme l'autre en tenant compte ou non de l'utilisation d'aides techniques ou de la présence d'aides humaines, en se référant à l'échelle suivante :",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Activities and participation"
     }],
     "property" : [{
@@ -11037,11 +9966,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of immune system"
     }],
     "property" : [{
@@ -11082,11 +10006,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs aux services de première nécessité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified utilities services, systems and policies"
     }],
     "property" : [{
@@ -11124,11 +10043,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, adaptés ou spécialement conçus, utilisés dans le monde du travail pour faciliter l'exécution de certaines tâches, comme des tables, des bureaux et des armoires réglables, des portes de bureau à ouverture et fermeture télécommandées, du matériel informatique, des logiciels et autres accessoires et appareils de réalité virtuelle destinés à faciliter l'exécution des tâches de travail et à maîtriser son environnement (par ex. scanner, système de commande à distance, système de commande vocale, minuterie).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for employment"
     }],
     "property" : [{
@@ -11169,11 +10083,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Région lombaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lumbosacral spinal cord"
     }],
     "property" : [{
@@ -11219,11 +10128,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées qu'une personne doit accomplir pour assumer les responsabilités de la réalisation de certaines tâches et évaluer les implications de ces responsabilités.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Handling responsibilities"
     }],
     "property" : [{
@@ -11268,11 +10172,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of upper arm"
     }],
     "property" : [{
@@ -11318,11 +10217,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser tous les types d'appareils électroménagers, comme les lave-linge, les sèche-linge, les fers à repasser, les aspirateurs et les lave-vaisselle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using household appliances"
     }],
     "property" : [{
@@ -11367,11 +10261,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Tâches et exigences générales non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General tasks and demands, unspecified"
     }],
     "property" : [{
@@ -11413,11 +10302,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques utilisés pour se déplacer à l'intérieur et à l'extérieur des bâtiments, comme des véhicules motorisés et non motorisés pour le transport de personnes sur terre, sur l'eau et dans les airs (bus, voitures, camions, autres véhicules à moteur, moyens de transport à traction animale), et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for personal indoor and outdoor mobility and transportation"
     }],
     "property" : [{
@@ -11459,11 +10343,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles impliquant la qualité de l'image .",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visual picture quality"
     }],
     "property" : [{
@@ -11504,11 +10383,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations sociales informelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal social relationships, unspecified"
     }],
     "property" : [{
@@ -11550,11 +10424,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Explorer le goût d'aliments ou de liquides en mordant, mâchant, suçant.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tasting"
     }],
     "property" : [{
@@ -11599,11 +10468,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'oreille externe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of external ear"
     }],
     "property" : [{
@@ -11648,11 +10512,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées du sommeil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sleep functions"
     }],
     "property" : [{
@@ -11690,11 +10549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Employer des mots et des phrases pour transmettre un sens complexe et des idées abstraites.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using general skills and strategies to complete compositions"
     }],
     "property" : [{
@@ -11740,11 +10594,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la quantité du flux menstruel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extent of menstrual bleeding"
     }],
     "property" : [{
@@ -11786,11 +10635,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour comprendre et utiliser des concepts de base et complexes se rapportant aux caractéristiques des choses, des personnes ou des événements.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring concepts"
     }],
     "property" : [{
@@ -11851,11 +10695,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Urètre",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urethra"
     }],
     "property" : [{
@@ -11900,11 +10739,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cornée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cornea"
     }],
     "property" : [{
@@ -11949,11 +10783,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à la préparation des repas",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Preparing meals, unspecified"
     }],
     "property" : [{
@@ -11995,11 +10824,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Les facteurs environnementaux constituent l’environnement physique, social et attitudinal dans lequel les gens vivent et mènent leur vie.\nLes facteurs environnementaux constituent une composante de la Partie 2 (Facteurs contextuels) de la classification. Ces facteurs doivent être pris en compte pour chaque composante du fonctionnement et doivent faire l'objet d'un codage correspondant (voir Appendice 2).\nLes facteurs environnementaux doivent être codés du point de vue de la personne dont on veut décrire la situation. Par exemple, les bateaux de trottoirs sans pavement rainuré doivent être codés comme facilitateurs pour l'utilisateur d'une chaise roulante, mais constituent un obstacle pour une personne malvoyante.\nLe premier code qualificatif indique dans quelle mesure un facteur est un facilitateur ou un obstacle. Plusieurs raisons expliquent comment un facteur environnemental peut être un facilitateur ou un obstacle, et dans quelle mesure. S'il est un facilitateur, le codeur doit garder à l'esprit des facteurs comme l'accessibilité à une ressource donnée, son caractère fiable ou variable, sa bonne ou sa mauvaise qualité, etc. S'il s'agit d'un obstacle, il peut être utile de savoir combien de fois il se présente comme tel pour une personne donnée, s'il s'agit d'un obstacle majeur ou mineur, s'il est évitable ou non. Il faut aussi penser au fait qu'un facteur environnemental peut se révéler être un obstacle soit par sa simple existence (par ex. les attitudes négatives à l'égard des personnes ayant une déficience) ou par son absence (par ex. la non disponibilité d'un service). Les effets que les facteurs environnementaux peuvent avoir sur la vie des personnes ayant des problèmes de santé sont variés et complexes, et on peut espérer que la recherche permettra de mieux comprendre les interactions qui en résultent, et qu'elle soulignera, le cas échéant, l'utilité d'avoir recours à un deuxième code qualificatif pour représenter ces facteurs.\nDans certains cas, des ensembles de facteurs environnementaux peuvent être résumés par un seul terme, comme pauvreté, développement, environnement urbain ou rural ou capital social. Ces termes de synthèse ne sont pas repris dans la classification. Au contraire, le codeur doit s'efforcer de séparer les facteurs constitutifs et attribuer un code en fonction de ces derniers. Ici aussi, la recherche devra déterminer s'il existe des ensembles clairs et récurrents de facteurs environnementaux susceptibles de conduire à ces termes synthétiques.\nPremier code qualificatif\nOn trouvera ci-dessous l'échelle négative et positive qui indique si un facteur environnemental est un obstacle ou un facilitateur. Un point séparateur indique qu'il s'agit d'un obstacle, et le signe + dénote un facilitateur :",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Environmental factors"
     }],
     "property" : [{
@@ -12056,11 +10880,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facilitateur ABSOLU (total, ...) 96-100%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "COMPLETE facilitator (total,...) 96-100%"
     }],
     "property" : [{
@@ -12097,11 +10916,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à la préparation des repas",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified preparing meals"
     }],
     "property" : [{
@@ -12142,11 +10956,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de prendre soin des parties de son corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified caring for body parts"
     }],
     "property" : [{
@@ -12188,11 +10997,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui régissent la mise en place des services d'éducation, comme les mécanismes permettant de mettre en œuvre les normes et politiques qui définissent les conditions d'accès à l'enseignement public et privé et aux programmes d'enseignement spécialisé, les conseils locaux, régionaux et nationaux de l'enseignement et autres autorités de tutelle qui déterminent les caractéristiques du système scolaire, y compris le programme des cours et la taille des classes, le nombre d'écoles par région, les droits d'inscriptions et les subsides accordés, le régime des cantines scolaires et les services de garderie après l'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education and training systems"
     }],
     "property" : [{
@@ -12234,11 +11038,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production des sons de la parole.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Articulation functions"
     }],
     "property" : [{
@@ -12280,11 +11079,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer le travail qui a été confié afin de garder son emploi, son métier, sa profession ou toute autre forme d'emploi, et obtenir des promotions et autres avancements dans l'emploi.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a job"
     }],
     "property" : [{
@@ -12329,11 +11123,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives aux menstruations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified menstruation functions"
     }],
     "property" : [{
@@ -12371,11 +11160,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales nécessaires à la production de messages utilisant des gestes corporels faits avec les mains ou d'autres mouvements.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of body language"
     }],
     "property" : [{
@@ -12416,11 +11200,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Vessie",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary bladder"
     }],
     "property" : [{
@@ -12466,11 +11245,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits comme la propriété intellectuelle, les connaissances et le savoir-faire, qui servent de moyens d'échanges pour du travail, des biens et des services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Intangible assets"
     }],
     "property" : [{
@@ -12511,11 +11285,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés d'autosuffisance économique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified economic self-sufficiency"
     }],
     "property" : [{
@@ -12557,11 +11326,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent l'état de veille soutenu, la vigilance et la conscience et qui, lorsqu'elles sont perturbées, peuvent donner lieu à des fugues, des états de transe ou d'autres états semblables.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Continuity of consciousness"
     }],
     "property" : [{
@@ -12603,11 +11367,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits ou objets destinés aux échanges économiques tels que l'argent, et d’autres formes de crédits financiers (par exemple des aides budgétaires pour des personnes dépendantes, des prêts personnels, des prêts hypothécaires), les biens, les propriétés et objets de valeur qui sont la propriété d'une personne qui a le droit de les utiliser ou d’en bénéficier.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assets"
     }],
     "property" : [{
@@ -12668,11 +11427,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du cortex cérébral",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cortical lobes"
     }],
     "property" : [{
@@ -12742,11 +11496,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Obtenir, sans échange d'argent, les produits et les services nécessaires à la vie quotidienne (y compris en donnant instruction et en supervisant un intermédiaire chargé de ces tâches), par ex. récolter des légumes et des fruits, se procurer de l'eau et du combustible, aller chercher et déposer du courrier et des colis.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Gathering daily necessities"
     }],
     "property" : [{
@@ -12791,11 +11540,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de l'énergie et des pulsions",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Energy and drive functions, unspecified"
     }],
     "property" : [{
@@ -12832,11 +11576,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre à écrire, compétences non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to write, unspecified"
     }],
     "property" : [{
@@ -12878,11 +11617,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la peau autres que protectrices et réparatrices, comme le refroidissement et la sécrétion de sueur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other functions of the skin"
     }],
     "property" : [{
@@ -12923,11 +11657,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées de motricité fine",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fine hand use, unspecified"
     }],
     "property" : [{
@@ -12968,11 +11697,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de maintien de l'équilibre hydrique, minéral et électrolytique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified water, mineral and electrolyte balance functions"
     }],
     "property" : [{
@@ -13010,11 +11734,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la capacité de produire des gamètes pour la procréation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to fertility"
     }],
     "property" : [{
@@ -13055,11 +11774,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres interactions complexes avec autrui précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified complex interpersonal interactions"
     }],
     "property" : [{
@@ -13100,11 +11814,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions mentales spécifiques précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Specific mental functions, other specified and unspecified"
     }],
     "property" : [{
@@ -13141,11 +11850,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified immunological system functions"
     }],
     "property" : [{
@@ -13183,11 +11887,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la production de lait et la mise à la disposition de l'enfant.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lactation"
     }],
     "property" : [{
@@ -13228,11 +11927,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de prendre soin de sa santé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified looking after one's health"
     }],
     "property" : [{
@@ -13273,11 +11967,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glandes lacrymales et structures connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lachrymal gland and related structures"
     }],
     "property" : [{
@@ -13322,11 +12011,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres formes précisées relatives au fait de fixer son attention",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified focusing attention"
     }],
     "property" : [{
@@ -13368,11 +12052,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation d'avoir besoin de vomir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of nausea"
     }],
     "property" : [{
@@ -13414,11 +12093,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entamer et poursuivre des relations avec autrui, pour une courte ou une longue période, selon les circonstances et dans le respect des convenances, comme se présenter, établir des relations amicales ou professionnelles, amorcer une relation qui peut devenir durable, amoureuse ou intime.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Forming relationships"
     }],
     "property" : [{
@@ -13463,11 +12137,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Se déplacer avec un moyen de transport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around using transportation"
     }],
     "property" : [{
@@ -13524,11 +12193,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'intestin",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of intestine"
     }],
     "property" : [{
@@ -13589,11 +12253,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Gencives",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Gums"
     }],
     "property" : [{
@@ -13639,11 +12298,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations intimes légitimes avec une autre personne, comme dans le cas d'un mariage légitime, y compris en devenant mari et femme légitimes, ou concubins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spousal relationships"
     }],
     "property" : [{
@@ -13688,11 +12342,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions sensorielles non précisées associées à la température et à d'autres stimuli",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensory functions related to temperature and other stimuli, unspecified"
     }],
     "property" : [{
@@ -13730,11 +12379,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception des surfaces et de leur texture ou de leur qualité.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Touch function"
     }],
     "property" : [{
@@ -13776,11 +12420,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager un échange comme initier une activité à tour de rôle par contact visuel ou d'autres moyens, conduisant à une communication ou un dialogue, par exemple en se présentant, en formulant les politesses d'usage, en abordant un sujet ou en posant des questions.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Starting a conversation"
     }],
     "property" : [{
@@ -13826,11 +12465,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux ongles, comme la protection, le grattage et l'apparence.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of nails"
     }],
     "property" : [{
@@ -13871,11 +12505,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée des glandes cutanées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of skin glands, unspecified"
     }],
     "property" : [{
@@ -13916,11 +12545,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre qualité précisée de la vision",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified quality of vision"
     }],
     "property" : [{
@@ -13958,11 +12582,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques, adaptés ou spécialement conçus, auxquels on accorde ou qui acquièrent une signification symbolique dans le cadre d'une pratique religieuse et d'activités spirituelles, comme des livres de prière en braille, des cartes de tarot en braille, des protections spéciales pour les roues des fauteuils roulants pour entrer dans les temples.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for the practice of religion or spirituality"
     }],
     "property" : [{
@@ -14004,11 +12623,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir une quantité minimale de lumière (minimum de lumière) et la différence minimale d'intensité (différence de lumière).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Light sensitivity"
     }],
     "property" : [{
@@ -14050,11 +12664,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception des odeurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Smell function"
     }],
     "property" : [{
@@ -14095,11 +12704,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés de la vie communautaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified community life"
     }],
     "property" : [{
@@ -14141,11 +12745,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur l'exécution des actions et des tâches requises dans les interactions de base et les interactions complexes avec d'autres personnes (étrangers, amis, parents, membres de la famille et personnes dont on est amoureux) en fonction de diverses situations et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Interpersonal interactions and relationships"
     }],
     "property" : [{
@@ -14203,11 +12802,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques de l'architecture, de la construction et des aménagements, y compris ceux qui ont été adaptés ou spécifiquement conçus, réalisés par l'homme, qui constituent l'environnement d'une personne, à l'intérieur ou à l'extérieur, et qui sont imaginés, conçus et construits à usage privé, comme une maison ou un logement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology of buildings for private use"
     }],
     "property" : [{
@@ -14273,11 +12867,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques fabriqués par l'homme, qui constituent l'environnement de la personne, et sont imaginés, conçus et construits pour l'usage public, comme l'architecture, la construction et les aménagements des entrées et sorties des bâtiments, y compris sur les lieux de travail et les bâtiments publics, les rampes fixes ou amovibles, les portes automatiques, les poignées de portes à bonne hauteur, les accès de plain-pied.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for entering and exiting buildings for public use"
     }],
     "property" : [{
@@ -14318,11 +12907,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre et appliquer des connaissances, autres formes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified learning and applying knowledge"
     }],
     "property" : [{
@@ -14364,11 +12948,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant à assurer un revenu aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin d'une aide publique financée par les revenus du système général de l'impôt ou d'un système de contribution, par exemple les services déterminant les ayants droits, les services d'indemnisation pour les types de programmes suivants : programme d'assistance sociale (par exemple assistance sans contribution, indemnisation en fonction de l'état d'indigence ou des besoins), programme d'assurances sociales (par exemple contribution à une assurance accident ou chômage), systèmes de protection contre l'invalidité et systèmes de pension (par exemple revenus de remplacement).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social security services"
     }],
     "property" : [{
@@ -14409,11 +12988,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Déficience LÉGÈRE (légère, faible, ...) 5-24%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MILD impairment (slight, low,...) 5-24 %"
     }],
     "property" : [{
@@ -14450,11 +13024,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres grands domaines de la vie précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified major life areas"
     }],
     "property" : [{
@@ -14496,11 +13065,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur les soins personnels, le fait de se laver et de se sécher, de s'occuper de son corps et des parties de son corps, de s'habiller, de manger et boire, et de prendre soin de sa santé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Self-care"
     }],
     "property" : [{
@@ -14577,11 +13141,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres apprentissages élémentaires précisés et non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basic learning, other specified and unspecified"
     }],
     "property" : [{
@@ -14622,11 +13181,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "malposition",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "deviating position"
     }],
     "property" : [{
@@ -14663,11 +13217,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle MODÉRÉ (moyen, passable, ...) 25-49%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MODERATE barrier (medium, fair,...) 25-49%"
     }],
     "property" : [{
@@ -14704,11 +13253,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Aspects non précisés de la vie domestique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Domestic life, unspecified"
     }],
     "property" : [{
@@ -14750,11 +13294,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à utiliser des concepts tels que taille, forme, quantité, longueur, même, contraire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring basic concepts"
     }],
     "property" : [{
@@ -14800,11 +13339,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin de la texture et de l'hydratation de sa peau, par exemple enlever les callosités ou les cors, utiliser des lotions hydratantes ou des cosmétiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for skin"
     }],
     "property" : [{
@@ -14850,11 +13384,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Appliquer de l'eau, du savon et d'autres substances de nettoyage sur des parties du corps, comme les mains, le visage, les pieds, les cheveux ou les ongles, afin de les nettoyer.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Washing body parts"
     }],
     "property" : [{
@@ -14900,11 +13429,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production du son au moyen de la coordination du larynx et des muscles environnants avec le système respiratoire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Production of voice"
     }],
     "property" : [{
@@ -14946,11 +13470,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes législatifs, réglementations et normes qui président à la planification, la conception, la construction et l'entretien d'immeubles résidentiels, commerciaux, industriels et publics, comme les politiques relatives aux codes d'urbanisme, aux normes de construction, aux normes de protection contre le feu et pour la sécurité des personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Architecture and construction policies"
     }],
     "property" : [{
@@ -14992,11 +13511,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, et les personnes qui s'en occupent, relatifs à l'éducation et l'acquisition, l'entretien et l'amélioration des connaissances et des savoirs, des compétences et des savoir-faire professionnels et artistiques, tels qu'ils sont proposés par les divers échelons du système scolaire (écoles maternelles, primaires, secondaires et supérieures, programmes d'enseignement professionnel et de formation technique, apprentissage, éducation continue).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education and training services"
     }],
     "property" : [{
@@ -15037,11 +13551,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour la mobilité et le transport à l'intérieur et à l'extérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for personal indoor and outdoor mobility and transportation"
     }],
     "property" : [{
@@ -15078,11 +13587,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Hypophyse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pituitary gland"
     }],
     "property" : [{
@@ -15127,11 +13631,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour l'éducation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for education"
     }],
     "property" : [{
@@ -15169,11 +13668,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour lire couramment et avec précision un texte écrit (y compris en braille et autres symboles), comme reconnaître des caractères et des lettres de l'alphabet, lire des mots à haute voix en les prononçant correctement, et comprendre les mots et les phrases.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to read"
     }],
     "property" : [{
@@ -15238,11 +13732,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Capillaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Capillaries"
     }],
     "property" : [{
@@ -15288,11 +13777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les organes des sens intentionnellement pour percevoir des stimuli auditifs, comme écouter la radio, la voix humaine, écouter de la musique, un cours ou une histoire racontée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Listening"
     }],
     "property" : [{
@@ -15337,11 +13821,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la participation à la vie de la cité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -15379,11 +13858,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts et les mains pour contrôler, diriger ou guider quelque chose, comme pour manipuler des pièces de monnaie ou d'autres petits objets, des ciseaux, des lacets de chaussure, des crayons, des baguettes pour manger, des couteaux et des fourchettes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Manipulating"
     }],
     "property" : [{
@@ -15428,11 +13902,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Utiliser d'autres appareils et techniques de communication non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using communication devices and techniques, unspecified"
     }],
     "property" : [{
@@ -15474,11 +13943,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Les structures anatomiques désignent les parties du corps, comme les organes, les membres et leurs composantes.\nLes déficiences désignent des problèmes au niveau d'une fonction organique ou d'une structure anatomique, manifestés par un écart ou une perte importante.\nPremier code qualificatif\nCode qualificatif générique sur l’échelle négative, utilisé pour indiquer l'étendue ou l’ampleur d’une déficience.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body structures"
     }],
     "property" : [{
@@ -15548,11 +14012,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles isolés et les groupes de muscles au repos et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of isolated muscles and muscle groups"
     }],
     "property" : [{
@@ -15593,11 +14052,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre à lire, compétences non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to read, unspecified"
     }],
     "property" : [{
@@ -15638,11 +14092,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Perceptions sensorielles intentionnelles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Purposeful sensory experiences"
     }],
     "property" : [{
@@ -15699,11 +14148,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du cœur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of heart, other specified"
     }],
     "property" : [{
@@ -15745,11 +14189,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales constituées des idées présentes dans le processus mental et ce qui est conceptualisé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Content of thought"
     }],
     "property" : [{
@@ -15791,11 +14230,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements temporels naturels, réguliers ou prévisibles d'un moment à un autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Time-related changes"
     }],
     "property" : [{
@@ -15852,11 +14286,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à la peau et aux structures associées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified functions of the skin and related structures"
     }],
     "property" : [{
@@ -15894,11 +14323,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations d'amitié caractérisées par une estime mutuelle et des intérêts communs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal relationships with friends"
     }],
     "property" : [{
@@ -15943,11 +14367,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Formes non précisées d'apprentissage à travers des actions portant sur des objets",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions with objects and persons, unspecified"
     }],
     "property" : [{
@@ -15988,11 +14407,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de tolérance à l'effort",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Exercise tolerance functions, unspecified"
     }],
     "property" : [{
@@ -16029,11 +14443,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facteurs non précisés relatifs à la lumière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Light, unspecified"
     }],
     "property" : [{
@@ -16070,11 +14479,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Langue",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tongue"
     }],
     "property" : [{
@@ -16120,11 +14524,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien d'une contraction musculaire de groupes de muscles isolés pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Endurance of muscle groups"
     }],
     "property" : [{
@@ -16165,11 +14564,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du tronc cérébral",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of brain stem, unspecified"
     }],
     "property" : [{
@@ -16210,11 +14604,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of forearm"
     }],
     "property" : [{
@@ -16283,11 +14672,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de prendre soin de sa santé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Looking after one's health, unspecified"
     }],
     "property" : [{
@@ -16329,11 +14713,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles impliquant la sensibilité à la lumière, la vision des couleurs, la sensibilité différentielle et la qualité globale de l'image.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of vision"
     }],
     "property" : [{
@@ -16398,11 +14777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communication non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication, unspecified"
     }],
     "property" : [{
@@ -16444,11 +14818,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos d'un bras ou d'une jambe et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of muscles of one limb"
     }],
     "property" : [{
@@ -16489,11 +14858,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions sensorielles et douleur précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensory functions and pain"
     }],
     "property" : [{
@@ -16531,11 +14895,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de l'oreille interne associées à la détermination de l'équilibre du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular function of balance"
     }],
     "property" : [{
@@ -16577,11 +14936,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction des muscles et des groupes de muscles d'un bras ou d'une jambe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of muscles of one limb"
     }],
     "property" : [{
@@ -16623,11 +14977,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour représenter des personnes, des objets, des événements, des sentiments par des mots, des symboles, des expressions et des phrases.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring language"
     }],
     "property" : [{
@@ -16693,11 +15042,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de concentration sur un stimulus externe ou une expérience interne pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Attention functions"
     }],
     "property" : [{
@@ -16763,11 +15107,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques visant à apporter l'aide requise aux personnes qui en ont besoin pour faire leurs courses, pour les travaux ménagers, les transports, les soins aux enfants, leur entretien personnel et l'entretien des autres, afin de leur permettre d'avoir une vie aussi normale que possible.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General social support services, systems and policies"
     }],
     "property" : [{
@@ -16829,11 +15168,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques, y compris ceux qui sont adaptés ou spécialement conçus, constituant l'environnement d'une personne, à l'intérieur ou à l'extérieur, qui sont réalisés par l'homme et qui sont imaginés, conçus et construits pour l'usage public.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology of buildings for public use"
     }],
     "property" : [{
@@ -16899,11 +15233,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Appliquer des procédures mathématiques et des méthodes telles que l'algèbre, le calcul ou la géométrie pour résoudre des problèmes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using skills and strategies to perform complex numeric operations and calculations"
     }],
     "property" : [{
@@ -16949,11 +15278,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations spécifiques avec des personnes occupant une position, ou jouissant d'un rang ou d'un prestige moindre par rapport à sa propre position sociale, comme un employé ou un domestique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Relating with subordinates"
     }],
     "property" : [{
@@ -16999,11 +15323,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions régulant la durée entre deux cycles menstruels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Interval between menstruation"
     }],
     "property" : [{
@@ -17044,11 +15363,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facilitateur LÉGER (léger, faible, ...) 5-24%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MILD facilitator (slight, low,...) 5-24%"
     }],
     "property" : [{
@@ -17086,11 +15400,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales de l'état de conscience de soi et de vigilance, y compris la clarté et la continuité de l'état de veille.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Consciousness functions"
     }],
     "property" : [{
@@ -17151,11 +15460,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Seins et mamelons",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Breast and nipple"
     }],
     "property" : [{
@@ -17201,11 +15505,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions du cerveau, à la fois des fonctions mentales globales, comme la conscience, l'énergie et les pulsions, et des fonctions mentales spécifiques, comme la mémoire, le langage et les fonctions de calcul mental.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mental functions"
     }],
     "property" : [{
@@ -17262,11 +15561,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions relatives au système digestif",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to the digestive system"
     }],
     "property" : [{
@@ -17336,11 +15630,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions impliquées dans le système cardio-vasculaire (fonctions du cœur et des vaisseaux sanguins), les systèmes hématopoïétique et immunitaire (fonctions de production du sang et d'immunité) et le système respiratoire (fonctions de respiration et de tolérance à l'effort).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the cardiovascular, haematological, immunological and respiratory systems"
     }],
     "property" : [{
@@ -17405,11 +15694,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Interactions générales avec autrui",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General interpersonal interactions"
     }],
     "property" : [{
@@ -17462,11 +15746,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres éléments précisés du climat",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified climate"
     }],
     "property" : [{
@@ -17504,11 +15783,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner, planifier et apporter les soins nécessaires au moment des menstruations, par ex. en prévoyant les menstruations et en utilisant des serviettes hygiéniques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Menstrual care"
     }],
     "property" : [{
@@ -17554,11 +15828,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de production de divers sons par le passage de l’air dans le larynx.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Voice functions"
     }],
     "property" : [{
@@ -17615,11 +15884,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées des vaisseaux sanguins",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Blood vessel functions, unspecified"
     }],
     "property" : [{
@@ -17656,11 +15920,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées liées aux systèmes digestif, métabolique et endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structures related to the digestive, metabolic and endocrine systems"
     }],
     "property" : [{
@@ -17702,11 +15961,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans des rites non religieux et des cérémonies ayant une signification sociale, comme les mariages, les funérailles ou des cérémonies d'initiation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ceremonies"
     }],
     "property" : [{
@@ -17752,11 +16006,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire avancer le corps dans l'eau au moyen de mouvements des membres et du corps, sans prendre appui sur le sol.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Swimming"
     }],
     "property" : [{
@@ -17802,11 +16051,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance régissant le déplacement des personnes ou des biens par la route ou autre voie terrestre, par chemin de fer, par air ou par mer, comme les dispositions accordant le droit d'exploiter les véhicules concernés, la mise en place et la surveillance de réglementations et de mesures de sécurité applicables aux différents moyens de transport.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation systems"
     }],
     "property" : [{
@@ -17848,11 +16092,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Suivre les activités d'un programme de formation professionnelle et apprendre les cours qui préparent à un emploi dans le commerce, un métier ou une autre profession.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vocational training"
     }],
     "property" : [{
@@ -17897,11 +16136,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de tolérance à l'effort",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified exercise tolerance functions"
     }],
     "property" : [{
@@ -17938,11 +16172,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives à la mobilité des articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of joint functions, unspecified"
     }],
     "property" : [{
@@ -17979,11 +16208,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du système cardio-vasculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cardiovascular system, unspecified"
     }],
     "property" : [{
@@ -18025,11 +16249,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions et adopter les comportements nécessaires pour gérer les exigences quotidiennes en énergie et en temps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Managing one's own activity level"
     }],
     "property" : [{
@@ -18075,11 +16294,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de l'heure qu'il est, de quel jour de la semaine on est, de la date, du mois et de l'année.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to time"
     }],
     "property" : [{
@@ -18121,11 +16335,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, adaptés ou spécialement conçus, utilisés pour se déplacer à l'intérieur et à l'extérieur des bâtiments, comme les appareils d'aide à la marche, les voitures et fourgonnettes spéciales, les adaptations diverses aux véhicules, les fauteuils roulants, les motocyclettes, dispositifs de transfert.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for personal indoor and outdoor mobility and transportation"
     }],
     "property" : [{
@@ -18166,11 +16375,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions musculaires précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle functions, other specified and unspecified"
     }],
     "property" : [{
@@ -18207,11 +16411,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions respiratoires non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiration functions, unspecified"
     }],
     "property" : [{
@@ -18249,11 +16448,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Trouver la réponse à une question simple ne comprenant qu'un seul élément en cernant et en analysant l'élément concerné, en mettant au point des solutions, en évaluant les effets potentiels des solutions et en mettant en œuvre la solution choisie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Solving simple problems"
     }],
     "property" : [{
@@ -18299,11 +16493,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, y compris ceux qui sont adaptés ou spécialement conçus, utilisés pour se déplacer à l'intérieur et à l'extérieur des bâtiments, situés dans, sur ou près de la personne qui les utilise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for personal indoor and outdoor mobility and transportation"
     }],
     "property" : [{
@@ -18360,11 +16549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées et non précisées relatives à l'acquisition des produits d'usage courant",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquisition of necessities, other specified and unspecified"
     }],
     "property" : [{
@@ -18406,11 +16590,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la réalisation de l'orgasme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of orgasmic phase"
     }],
     "property" : [{
@@ -18452,11 +16631,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques des paysages terrestres, comme les montagnes, les collines, les vallées, les plaines, les plateaux et les déserts.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Land forms"
     }],
     "property" : [{
@@ -18498,11 +16672,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nature de l'air à l'intérieur des bâtiments ou dans les espaces clos, caractérisée par l'odeur, la présence de fumée, l'humidité, la climatisation (qualité de l'air contrôlée) ou absence de contrôle de la qualité de l'air, et susceptible de fournir des informations utiles sur le monde environnant (par ex. odeur de gaz) ou d'attirer l'attention (par ex. sensation enivrante d'un parfum).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Indoor air quality"
     }],
     "property" : [{
@@ -18544,11 +16713,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la capacité de faire de l'exercice sans s'essouffler.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Aerobic capacity"
     }],
     "property" : [{
@@ -18589,11 +16753,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés pour l'éducation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for education, unspecified"
     }],
     "property" : [{
@@ -18631,11 +16790,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire preuve de, et réagir aux marques de, satisfaction et d'appréciation en fonction de diverses situations et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Appreciation in relationships"
     }],
     "property" : [{
@@ -18680,11 +16834,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la bouche",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of mouth, unspecified"
     }],
     "property" : [{
@@ -18725,11 +16874,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs aux médias",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified media services, systems and policies"
     }],
     "property" : [{
@@ -18767,11 +16911,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au contrôle et à la coordination de mouvements volontaires simples et complexes, les mouvements étant exécutés de façon ordonnée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Coordination of voluntary movements"
     }],
     "property" : [{
@@ -18813,11 +16952,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements systèmes techniques utilisés par une personne dans sa vie quotidienne, qu'ils soient adaptés ou conçus spécialement, et situés dans, sur ou près de la personne qui les utilise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for personal use in daily living"
     }],
     "property" : [{
@@ -18875,11 +17009,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Tendre les mains et les bras pour saisir quelque chose, comme pour étendre la main au-dessus d'une table pour prendre un livre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reaching"
     }],
     "property" : [{
@@ -18924,11 +17053,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la sécurité sociale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social security services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -18965,11 +17089,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Vaisseaux lymphatiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lymphatic vessels"
     }],
     "property" : [{
@@ -19015,11 +17134,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se transférer d'une surface à une autre, comme se glisser sur un banc ou passer du lit à une chaise sans changer de position.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transferring oneself"
     }],
     "property" : [{
@@ -19080,11 +17194,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits précisés du patrimoine",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified assets"
     }],
     "property" : [{
@@ -19122,11 +17231,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales permettant d'inférer des idées générales, des qualités ou des caractéristiques à partir de réalités concrètes, d'objets précis ou des circonstances réelles mais distinctes d'elles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Abstraction"
     }],
     "property" : [{
@@ -19168,11 +17272,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les actions de base requises pour transposer des mots ou des idées exprimés à l'oral en mots ou phrases écrits.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to write words and phrases"
     }],
     "property" : [{
@@ -19217,11 +17316,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures liées à la voix et à la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures involved in voice and speech"
     }],
     "property" : [{
@@ -19287,11 +17381,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le contrôle volontaire de la fonction d'élimination.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Faecal continence"
     }],
     "property" : [{
@@ -19333,11 +17422,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience des objets ou des caractéristiques des objets.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to objects"
     }],
     "property" : [{
@@ -19379,11 +17463,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le fait de tomber enceinte et d'être enceinte.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to pregnancy"
     }],
     "property" : [{
@@ -19425,11 +17504,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la motivation d'agir, l'élément moteur conscient ou inconscient de l'action.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Motivation"
     }],
     "property" : [{
@@ -19470,11 +17544,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées liées au mucus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified functions related to mucus"
     }],
     "property" : [{
@@ -19511,11 +17580,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du mésencéphale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of midbrain"
     }],
     "property" : [{
@@ -19561,11 +17625,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception des tremblements et des oscillations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensitivity to vibration"
     }],
     "property" : [{
@@ -19607,11 +17666,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans les aspects de la vie sociale communautaire, comme participer à des œuvres de bienfaisance, des clubs de services ou des organismes socio-professionnels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Community life"
     }],
     "property" : [{
@@ -19676,11 +17730,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés pour l'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for employment, unspecified"
     }],
     "property" : [{
@@ -19717,11 +17766,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Dents",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Teeth"
     }],
     "property" : [{
@@ -19782,11 +17826,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produire d'autres messages non verbaux précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified producing nonverbal messages"
     }],
     "property" : [{
@@ -19828,11 +17867,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les professionnels de santé sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of health professionals"
     }],
     "property" : [{
@@ -19874,11 +17908,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les membres de la famille élargie sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of extended family members"
     }],
     "property" : [{
@@ -19920,11 +17949,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Quantité d'énergie émise par une source de lumière naturelle (par ex. le soleil) ou par une source de lumière artificielle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Light intensity"
     }],
     "property" : [{
@@ -19966,11 +17990,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entreprendre les activités nécessaires pour devenir propriétaire d'une maison, d'un appartement ou tout autre lieu d'habitation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Buying a place to live"
     }],
     "property" : [{
@@ -20015,11 +18034,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de défécation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Defecation functions, unspecified"
     }],
     "property" : [{
@@ -20057,11 +18071,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Pression de l'air ambiant, par exemple pression rapportée à l'altitude ou aux conditions météorologiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Atmospheric pressure"
     }],
     "property" : [{
@@ -20102,11 +18111,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles respiratoires non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of respiration, unspecified"
     }],
     "property" : [{
@@ -20148,11 +18152,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des muscles qui sont utilisés pour regarder dans différentes directions, pour suivre un objet lorsqu'il se déplace dans le champ visuel, pour produire des sauts saccadés afin de rattraper une cible mobile et pour fixer du regard.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of external muscles of the eye"
     }],
     "property" : [{
@@ -20193,11 +18192,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives au maintien de l'équilibre hydrique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water balance functions, unspecified"
     }],
     "property" : [{
@@ -20234,11 +18228,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de l'excrétion urinaire non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary excretory functions, unspecified"
     }],
     "property" : [{
@@ -20276,11 +18265,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à travers des actions simples portant sur un seul, deux ou plusieurs objets, en utilisant des objets de manière symbolique, en faisant semblant ou en prenant un objet pour autre chose, comme en frappant des cubes, en jouant avec des poupées ou des voitures et en faisant des jeux de rôles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions with objects and persons"
     }],
     "property" : [{
@@ -20357,11 +18341,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cloison des fosses nasales",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Nasal septum"
     }],
     "property" : [{
@@ -20406,11 +18385,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones"
     }],
     "property" : [{
@@ -20455,11 +18429,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée des glandes endocrines",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of endocrine glands"
     }],
     "property" : [{
@@ -20500,11 +18469,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure supplémentaire précisée de l'appareil locomoteur liée au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified additional musculoskeletal structures related to movement"
     }],
     "property" : [{
@@ -20545,11 +18509,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés ou non précisés relatifs au travail et à l'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Work and employment, other specified and unspecified"
     }],
     "property" : [{
@@ -20590,11 +18549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Col de l'utérus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cervix"
     }],
     "property" : [{
@@ -20639,11 +18593,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle LÉGER (léger, faible, ...) 5-24%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MILD barrier (slight, low,...) 5-24%"
     }],
     "property" : [{
@@ -20681,11 +18630,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer une tâche simple ou complexe et prendre les dispositions utiles requises en matière de temps et d'espace ; exécuter une tâche simple ou complexe, et gérer et exécuter cette tâche de manière autonome, sans l'assistance d'une autre personne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking a single task independently"
     }],
     "property" : [{
@@ -20730,11 +18674,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Oreillettes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Atria"
     }],
     "property" : [{
@@ -20780,11 +18719,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts, les mains et les bras pour saisir quelque chose et l'envoyer en l'air avec une certaine force, comme pour lancer une balle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Throwing"
     }],
     "property" : [{
@@ -20829,11 +18763,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Pharynx nasal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Nasal pharynx"
     }],
     "property" : [{
@@ -20879,11 +18808,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences de base et les compétences complexes nécessaires pour exécuter un ensemble intégré d'actions ou de tâches afin de commencer et mener à bien l'acquisition d'un savoir-faire, comme manipuler des outils, des jouets, ou jouer à des jeux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills"
     }],
     "property" : [{
@@ -20945,11 +18869,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux contractions involontaires, non intentionnelles ou semi-intentionnelles, d'un muscle ou d'un groupe de muscles, tels que ceux qui font partie d'un dysfonctionnement psychologique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Involuntary contractions of muscles"
     }],
     "property" : [{
@@ -20991,11 +18910,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la conservation de l'eau dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water retention"
     }],
     "property" : [{
@@ -21037,11 +18951,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer à des événements ou des activités spirituelles, en dehors de la religion organisée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spirituality"
     }],
     "property" : [{
@@ -21086,11 +18995,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Colonne cervicale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cervical vertebral column"
     }],
     "property" : [{
@@ -21136,11 +19040,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir la taille, la forme et le contour en utilisant les deux yeux pour les objets distants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Binocular acuity of distant vision"
     }],
     "property" : [{
@@ -21182,11 +19081,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir la forme et le contour, à la fois binoculaire et monoculaire, pour la vision de loin et de près.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visual acuity functions"
     }],
     "property" : [{
@@ -21252,11 +19146,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au contrôle et à la coordination des mouvements volontaires en supportant du poids sur les bras (coudes ou mains) ou sur les jambes (genoux ou pieds).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Supportive functions of arm or leg"
     }],
     "property" : [{
@@ -21298,11 +19187,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées nécessaires pour planifier, gérer et s'acquitter des tâches et des obligations quotidiennes, comme gérer son temps et planifier chaque activité tout au long de la journée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying out daily routine"
     }],
     "property" : [{
@@ -21371,11 +19255,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres sensations de douleurs précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of pain, other specified and unspecified"
     }],
     "property" : [{
@@ -21412,11 +19291,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres perceptions sensorielles intentionnelles précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Purposeful sensory experiences, other specified and unspecified"
     }],
     "property" : [{
@@ -21458,11 +19332,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Employer un vocabulaire approprié, employer une structure de phrase conventionnelle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using general skills and strategies of the writing process"
     }],
     "property" : [{
@@ -21507,11 +19376,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres tâches et exigences générales précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified general tasks and demands"
     }],
     "property" : [{
@@ -21552,11 +19416,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de fluidité et de rythme de la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified fluency and rhythm of speech functions"
     }],
     "property" : [{
@@ -21594,11 +19453,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à une augmentation de la pression sanguine systolique ou diastolique au-dessus de la normale pour l'âge.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Increased blood pressure"
     }],
     "property" : [{
@@ -21640,11 +19494,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres dans leurs activités d'apprentissage, de communication, d'entretien personnel, de mouvement et de déplacement, à l'intérieur ou à l'extérieur, et se préoccuper du bien-être des membres de la famille et des autres personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others"
     }],
     "property" : [{
@@ -21722,11 +19571,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs au système global de production, de distribution, de consommation et d'utilisation de biens et de services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic services, systems and policies"
     }],
     "property" : [{
@@ -21788,11 +19632,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Soulever ou déplacer un objet d'un endroit à un autre, comme soulever une tasse ou un jouet, porter une boîte ou un enfant d'une pièce à une autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lifting and carrying objects"
     }],
     "property" : [{
@@ -21869,11 +19708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées des vaisseaux sanguins",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified blood vessel functions"
     }],
     "property" : [{
@@ -21911,11 +19745,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de distinguer et d'assortir les couleurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Colour vision"
     }],
     "property" : [{
@@ -21957,11 +19786,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux mouvements spontanés et non intentionnels, p. ex. se bercer d'avant en arrière et incliner la tête ou gigoter.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stereotypies and motor perseveration"
     }],
     "property" : [{
@@ -22002,11 +19826,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de marcher",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified walking"
     }],
     "property" : [{
@@ -22047,11 +19866,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of cardiovascular, immunological and respiratory systems"
     }],
     "property" : [{
@@ -22113,11 +19927,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les jambes et les pieds pour exercer un effort sur un objet pour l'éloigner de soi, comme repousser une chaise à l'aide du pied.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pushing with lower extremities"
     }],
     "property" : [{
@@ -22162,11 +19971,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - produire des messages, autres formes précisées ou non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication - producing, other specified and unspecified"
     }],
     "property" : [{
@@ -22208,11 +20012,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs à la mise au travail pour les personnes qui sont à la recherche d'un emploi ou voudraient en changer, ou pour appuyer les personnes ayant déjà un travail à obtenir des promotions.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labour and employment services, systems and policies"
     }],
     "property" : [{
@@ -22273,11 +20072,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de s'occuper des effets ménagers",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified caring for household objects"
     }],
     "property" : [{
@@ -22319,11 +20113,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of pain"
     }],
     "property" : [{
@@ -22384,11 +20173,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir le langage, autres précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquiring language"
     }],
     "property" : [{
@@ -22430,11 +20214,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement des os du tarse.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of tarsal bones"
     }],
     "property" : [{
@@ -22475,11 +20254,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait d'aider les autres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified assisting others"
     }],
     "property" : [{
@@ -22520,11 +20294,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à la mobilité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified mobility"
     }],
     "property" : [{
@@ -22566,11 +20335,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la distinction des différences entre les goûts, tels que les stimuli sucrés, sûrs, salés et amers, perçus par la langue.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Gustatory perception"
     }],
     "property" : [{
@@ -22611,11 +20375,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Résoudre des problèmes précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified solving problems"
     }],
     "property" : [{
@@ -22657,11 +20416,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Laver le linge et les vêtements à la main et les étendre à sécher en plein air.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Washing and drying clothes and garments"
     }],
     "property" : [{
@@ -22707,11 +20461,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les personnes inconnues sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of strangers"
     }],
     "property" : [{
@@ -22752,11 +20501,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of hand"
     }],
     "property" : [{
@@ -22801,11 +20545,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du plancher pelvien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pelvic floor"
     }],
     "property" : [{
@@ -22850,11 +20589,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour la communication",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for communication"
     }],
     "property" : [{
@@ -22892,11 +20626,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur les aspects généraux et particuliers de la communication par le langage, les signes et les symboles, et notamment la production et la réception de messages, la conduite d'une conversation, et l'utilisation d'appareils et de techniques de communication.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication"
     }],
     "property" : [{
@@ -22958,11 +20687,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de l'identité des autres personnes vivant dans son environnement immédiat.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to others"
     }],
     "property" : [{
@@ -23004,11 +20728,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin de soi en étant conscient qu'on doit veiller à ce que son corps soit en position confortable, qu'on n'aie ni trop chaud ni trop froid, qu'on ne se sente pas mouillé et que l'on dispose d'un éclairage convenable.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ensuring one's physical comfort"
     }],
     "property" : [{
@@ -23054,11 +20773,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées à la fécondité, la grossesse, l'accouchement et l'allaitement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Procreation functions"
     }],
     "property" : [{
@@ -23124,11 +20838,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux contractions involontaires des grands muscles ou de tout le corps provoquées par la position du corps, l'équilibre et des stimuli menaçants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Involuntary movement reaction functions"
     }],
     "property" : [{
@@ -23169,11 +20878,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages parlés, autres formes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified communicating with - receiving - spoken messages"
     }],
     "property" : [{
@@ -23214,11 +20918,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées du système hématopoïétique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Haematological system functions, unspecified"
     }],
     "property" : [{
@@ -23256,11 +20955,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques pour la conception et la construction d'immeubles, qu'ils soient publics ou privés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Architecture and construction services, systems and policies"
     }],
     "property" : [{
@@ -23322,11 +21016,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques fournissant à l'ensemble de la population les services de première nécessité que sont l'eau, l'électricité, le carburant, les systèmes d'assainissement et les services essentiels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Utilities services, systems and policies"
     }],
     "property" : [{
@@ -23388,11 +21077,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à utiliser des concepts tels que classification, groupement, réversibilité, sériation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring complex concepts"
     }],
     "property" : [{
@@ -23438,11 +21122,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Imiter en tant que composante élémentaire de l'apprentissage, comme reproduire une expression faciale, un geste, un son ou copier les lettres de l'alphabet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Copying"
     }],
     "property" : [{
@@ -23487,11 +21166,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'estomac",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of stomach"
     }],
     "property" : [{
@@ -23536,11 +21210,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Changements non précisés liés au temps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Time-related changes, unspecified"
     }],
     "property" : [{
@@ -23578,11 +21247,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui, lorsqu'elles sont altérées, produisent des états tels que l'obscurcissement de la conscience, la stupeur ou le coma.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "State of consciousness"
     }],
     "property" : [{
@@ -23623,11 +21287,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives au contrôle des mouvements volontaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Control of voluntary movement functions, unspecified"
     }],
     "property" : [{
@@ -23665,11 +21324,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance régissant l'administration de la justice, et les systèmes d'application et de surveillance des procédures formelles que sont les lois, réglementations, jurisprudences, lois religieuses, lois et conventions internationales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Legal systems"
     }],
     "property" : [{
@@ -23710,11 +21364,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions génito-urinaires et reproductives précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified genitourinary and reproductive functions"
     }],
     "property" : [{
@@ -23751,11 +21400,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées de déplacement d'objets avec les membres inférieurs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified moving objects with lower extremities"
     }],
     "property" : [{
@@ -23797,11 +21441,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes relatives à la planification, la création et l'entretien des espaces ouverts, qu'ils soient situés en zone rurale, suburbaine ou urbaine ou portent sur la protection des parcs et des réserves naturelles, comme les politiques sur les codes de conception, la préservation du patrimoine ou les politiques de planification de l'environnement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Open space planning policies"
     }],
     "property" : [{
@@ -23843,11 +21482,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Garder la même position si nécessaire, comme rester assis ou debout pour exécuter une tâche, dans un jeu, au travail ou à l'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining body position"
     }],
     "property" : [{
@@ -23925,11 +21559,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Accomplir les actions simples ou complexes et coordonnées qui répondent aux exigences des tâches et obligations quotidiennes habituelles, comme s’habiller, prendre son petit-déjeuner, partir pour l’école ou le travail et rentrer à la maison à la fin de la journée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Completing the daily routine"
     }],
     "property" : [{
@@ -23974,11 +21603,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du tronc",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of trunk"
     }],
     "property" : [{
@@ -24043,11 +21667,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of respiratory system, unspecified"
     }],
     "property" : [{
@@ -24088,11 +21707,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du membre inférieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lower extremity"
     }],
     "property" : [{
@@ -24157,11 +21771,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des glandes cutanées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of skin glands"
     }],
     "property" : [{
@@ -24223,11 +21832,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance concernant la production, la distribution, la consommation et l'utilisation de biens et de services, par exemple des systèmes pour la mise en œuvre et le suivi des politiques économiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic systems"
     }],
     "property" : [{
@@ -24268,11 +21872,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la pensée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified thought functions"
     }],
     "property" : [{
@@ -24309,11 +21908,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à la mobilité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility, unspecified"
     }],
     "property" : [{
@@ -24355,11 +21949,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au maintien d'une pression sanguine adéquate à la suite de changements enregistrés par l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintenance of blood pressure"
     }],
     "property" : [{
@@ -24400,11 +21989,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cochlée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cochlea"
     }],
     "property" : [{
@@ -24449,11 +22033,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions digestives non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Digestive functions, unspecified"
     }],
     "property" : [{
@@ -24491,11 +22070,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire de l'artisanat, comme de la poterie ou du tricot.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Crafts"
     }],
     "property" : [{
@@ -24541,11 +22115,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer à des jeux pourvus de règles, structurés ou non structurés, et à des activités récréatives spontanées, comme jouer aux échecs ou aux cartes, ou jouer avec des jeux d'enfants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Play"
     }],
     "property" : [{
@@ -24590,11 +22159,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs aux services de première nécessité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Utilities services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -24632,11 +22196,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans la poitrine.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in chest"
     }],
     "property" : [{
@@ -24678,11 +22237,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts, les mains ou les bras pour tourner, retourner ou plier quelque chose, comme pour ouvrir un bocal ou utiliser un outil tel qu'une brosse à dents ou un tournevis.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Turning or twisting the hands or arms"
     }],
     "property" : [{
@@ -24727,11 +22281,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Sensations non précisées associées à l'audition et aux fonctions vestibulaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with hearing and vestibular functions, unspecified"
     }],
     "property" : [{
@@ -24768,11 +22317,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle, sans objet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "barrier, not applicable"
     }],
     "property" : [{
@@ -24810,11 +22354,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le processus par lequel les protéines du régime alimentaire sont converties en acides aminés et transformées en composants plus petits dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Protein metabolism"
     }],
     "property" : [{
@@ -24856,11 +22395,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production des caractéristiques de la voix, y compris le timbre, la sonorité et autres caractéristiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of voice"
     }],
     "property" : [{
@@ -24901,11 +22435,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of thigh"
     }],
     "property" : [{
@@ -24947,11 +22476,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des éléments animés et inanimés de l'environnement naturel ou physique et des composantes de cet environnement qui ont été modifiées par l'homme, de même que des caractéristiques de la population humaine dans cet environnement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Natural environment and human-made changes to environment"
     }],
     "property" : [{
@@ -25045,11 +22569,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les mains, les bras ou d'autres parties du corps pour poser un ou plusieurs objets sur une surface ou à un endroit, comme pour déposer un récipient d'eau par terre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Putting down objects"
     }],
     "property" : [{
@@ -25094,11 +22613,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la communication",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified communication services, systems and policies"
     }],
     "property" : [{
@@ -25136,11 +22650,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nature d'un son définie par la longueur d'onde et la forme de l'onde et perçue comme un timbre et un ton, comme dur ou mélodieux, susceptible de fournir des informations utiles sur le monde environnant (par ex. bruit d'un chien qui aboie ou d'un chat qui miaule) ou détourner l'attention (par ex. bruit de fond).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound quality"
     }],
     "property" : [{
@@ -25181,11 +22690,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté ABSOLUE en termes de capacité (TOTALE, ...) 96-100%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "COMPLETE capacity difficulty (total,...) 96-100 %"
     }],
     "property" : [{
@@ -25222,11 +22726,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté LÉGÈRE en termes de performance (légère, faible, ...) 5-24%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MILD difficulty (slight, low,...) 5-24 %"
     }],
     "property" : [{
@@ -25263,11 +22762,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté MODÉRÉE en termes de performance (moyenne, passable, ...) 25-49%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MODERATE performance difficulty (medium, fair,...) 25-49 %"
     }],
     "property" : [{
@@ -25305,11 +22799,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la perception de la présence de lumière et à la perception de la forme, de la taille et de la couleur du stimulus visuel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seeing functions"
     }],
     "property" : [{
@@ -25371,11 +22860,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Être transporté par une autre personne, comme être porté dans les bras, dans un tissu, dans un sac à dos ou un autre dispositif de transport.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using humans for transportation"
     }],
     "property" : [{
@@ -25421,11 +22905,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de collecte et d'emmagasinage de l'urine par les uretères et la vessie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Collection of urine"
     }],
     "property" : [{
@@ -25467,11 +22946,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Exécuter les actions coordonnées visant à manier des objets, les ramasser, les manipuler et les lâcher en utilisant la main, les doigts et le pouce, comme ramasser des pièces de monnaie sur une table, tourner un cadran de téléphone ou une poignée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fine hand use"
     }],
     "property" : [{
@@ -25541,11 +23015,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos de la moitié inférieure du corps et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of muscles of lower half of body"
     }],
     "property" : [{
@@ -25586,11 +23055,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations formelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Formal relationships, unspecified"
     }],
     "property" : [{
@@ -25632,11 +23096,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction de tous les muscles et groupes de muscles du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of all muscles of the body"
     }],
     "property" : [{
@@ -25677,11 +23136,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions mentales spécifiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Specific mental functions"
     }],
     "property" : [{
@@ -25770,11 +23224,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Nerfs rachidiens",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spinal nerves"
     }],
     "property" : [{
@@ -25820,11 +23269,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent de la vigueur et de l'entrain.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Energy level"
     }],
     "property" : [{
@@ -25865,11 +23309,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Palais dur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hard palate"
     }],
     "property" : [{
@@ -25915,11 +23354,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Laver et sécher son corps tout entier, ou des parties du corps, en utilisant de l'eau et les produits ou les méthodes appropriées, comme prendre son bain, prendre une douche, se laver les mains et les pieds, se laver le visage et les cheveux, et se sécher avec une serviette.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Washing oneself"
     }],
     "property" : [{
@@ -25985,11 +23419,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Équiper et arranger un lieu de vie avec des meubles, des accessoires et autres équipements et décorer les chambres, arranger son espace, sa chambre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Furnishing a place to live"
     }],
     "property" : [{
@@ -26035,11 +23464,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Devenir ou être un parent, naturel ou adoptif, comme avoir un enfant et avoir avec lui une relation de parent, ou établir et entretenir une telle relation avec un enfant adoptif, y compris en apportant des soins physiques, intellectuels et affectifs à son enfant naturel ou adoptif.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Parent-child relationships"
     }],
     "property" : [{
@@ -26084,11 +23508,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du pénis",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of penis, other specified"
     }],
     "property" : [{
@@ -26129,11 +23548,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Alvéoles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Alveoli"
     }],
     "property" : [{
@@ -26179,11 +23593,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques devant permettre le déplacement des personnes et des biens d'un lieu à un autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation services, systems and policies"
     }],
     "property" : [{
@@ -26244,11 +23653,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of pelvic region"
     }],
     "property" : [{
@@ -26293,11 +23697,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of lower leg"
     }],
     "property" : [{
@@ -26342,11 +23741,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments extra-articulaires, fascia, aponévrose extra-musculaire, retinaculum, cloisons, bourses séreuses, non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extra-articular ligaments, fasciae, extramuscular aponeuroses, retinacula, septa, bursae, unspecified"
     }],
     "property" : [{
@@ -26392,11 +23786,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Vocaliser en ayant conscience de la présence d'autrui dans l'environnement immédiat comme produire des sons lorsque la mère est proche, babiller, babiller à tour de rôle. Vocaliser en réponse à la parole en imitant les sons de la parole à tour de rôle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Non-speech vocal expression"
     }],
     "property" : [{
@@ -26441,11 +23830,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of upper arm, unspecified"
     }],
     "property" : [{
@@ -26487,11 +23871,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Objets ou substances naturels ou fabriqués par l'homme, qui sont ramassés, traités ou manufacturés pour être consommés, comme les aliments crus, transformés et préparés, liquides (y compris le lait maternel) ou solides, végétaux et minéraux (vitamines et autres suppléments), quelle que soit leur consistance.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Food"
     }],
     "property" : [{
@@ -26533,11 +23912,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de l'oreille interne associées à la détermination de la position du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular function of position"
     }],
     "property" : [{
@@ -26579,11 +23953,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les téléphones, les ordinateurs et autres appareils électroniques, en tant que moyens de télécommunication.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using telecommunication devices"
     }],
     "property" : [{
@@ -26628,11 +23997,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de s'occuper des effets ménagers",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for household objects, unspecified"
     }],
     "property" : [{
@@ -26674,11 +24038,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réaliser des opérations numériques simples telles que compter, grouper, ordonner, et des calculs arithmétiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using skills and strategies to perform simple numeric calculations"
     }],
     "property" : [{
@@ -26724,11 +24083,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de décodage des messages utilisant des signes faits avec les mains et d'autres mouvements, pour en dégager la signification.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of sign language"
     }],
     "property" : [{
@@ -26769,11 +24123,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres sensations précisées relatives aux muscles et aux fonctions motrices",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensations related to muscles and movement functions"
     }],
     "property" : [{
@@ -26810,11 +24159,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres facteurs précisés relatifs à la lumière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified light"
     }],
     "property" : [{
@@ -26852,11 +24196,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Groupes de personnes vivant dans un environnement donné qui partagent le même schéma d'adaptation environnementale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Population"
     }],
     "property" : [{
@@ -26913,11 +24252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions des systèmes hématopoïétique et immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the haematological and immunological systems"
     }],
     "property" : [{
@@ -26971,11 +24305,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement d'une articulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of a single joint"
     }],
     "property" : [{
@@ -27016,11 +24345,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour la mobilité et le transport à l'intérieur et à l'extérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for personal indoor and outdoor mobility and transportation, unspecified"
     }],
     "property" : [{
@@ -27057,11 +24381,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to movement, unspecified"
     }],
     "property" : [{
@@ -27102,11 +24421,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la cheville et du pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of ankle and foot, unspecified"
     }],
     "property" : [{
@@ -27147,11 +24461,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées des cheveux et des poils",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of hair, unspecified"
     }],
     "property" : [{
@@ -27193,11 +24502,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec ses parents, comme un enfant qui obéit à ses parents, ou un enfant adulte qui prend soin de ses parents âgés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Child-parent relationships"
     }],
     "property" : [{
@@ -27242,11 +24546,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of upper arm"
     }],
     "property" : [{
@@ -27316,11 +24615,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent une réserve mnémonique temporaire et pouvant être perturbée, d'une durée d'environ 30 secondes, d'où l'information est perdue si elle n'est pas consolidée dans la mémoire à long terme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Short-term memory"
     }],
     "property" : [{
@@ -27362,11 +24656,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent le sommeil paradoxal (associé aux rêves) et le sommeil lent (caractérisé par les concepts traditionnels du sommeil en tant que période d'activité physiologique et psychologique réduite).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions involving the sleep cycle"
     }],
     "property" : [{
@@ -27407,11 +24696,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions psychomotrices précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified psychomotor functions"
     }],
     "property" : [{
@@ -27449,11 +24733,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager, poursuivre et mettre fin à l'examen d'une question donnée ou s'engager dans un débat avec plus d'une personne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Discussion with many people"
     }],
     "property" : [{
@@ -27498,11 +24777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions mentales non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mental functions, unspecified"
     }],
     "property" : [{
@@ -27540,11 +24814,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques des paysages marins, comme les mers et les océans.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Surface marine water bodies"
     }],
     "property" : [{
@@ -27586,11 +24855,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de son propre corps en relation à l'espace physique immédiat.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to space"
     }],
     "property" : [{
@@ -27631,11 +24895,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées des cheveux et des poils",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of hair"
     }],
     "property" : [{
@@ -27677,11 +24936,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation du mouvement de soi-même ou de son environnement ; sensation de tourner, d'osciller ou de pencher.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Dizziness"
     }],
     "property" : [{
@@ -27722,11 +24976,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées et non précisées relatives au fait de se déplacer avec un moyen de transport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around using transportation, other specified and unspecified"
     }],
     "property" : [{
@@ -27767,11 +25016,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions liées à la respiration par la bouche",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of breathing through the mouth"
     }],
     "property" : [{
@@ -27813,11 +25057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ajuster ou déplacer le poids du corps d'un endroit à l'autre, que l'on soit assis, debout ou couché, comme se balancer d'un pied sur l'autre en position debout.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Shifting the body's centre of gravity"
     }],
     "property" : [{
@@ -27862,11 +25101,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Marcher et se déplacer",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking and moving"
     }],
     "property" : [{
@@ -27931,11 +25165,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de l'appareil locomoteur et liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Neuromusculoskeletal and movement-related functions, unspecified"
     }],
     "property" : [{
@@ -27972,11 +25201,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facilitateur SUBSTANTIEL (élevé, extrême, ...) 50-95%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "SUBSTANTIAL facilitator (high, extreme,...) 50-95%"
     }],
     "property" : [{
@@ -28013,11 +25237,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified functions of the cardiovascular, haematological, immunological and respiratory systems"
     }],
     "property" : [{
@@ -28054,11 +25273,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Corps du pénis",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Shaft of penis"
     }],
     "property" : [{
@@ -28103,11 +25317,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la moelle épinière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of spinal cord"
     }],
     "property" : [{
@@ -28176,11 +25385,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Déficience TOTALE (complète, ...) 96-100%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "COMPLETE impairment (total,...) 96-100 %"
     }],
     "property" : [{
@@ -28218,11 +25422,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rester à genoux, c'est-à-dire le corps posé sur les genoux en ayant les jambes pliées, pendant un certain temps si nécessaire, comme pendant les prières à l'église.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a kneeling position"
     }],
     "property" : [{
@@ -28267,11 +25466,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre fonctions urinaires précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary functions, other specified and unspecified"
     }],
     "property" : [{
@@ -28308,11 +25502,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Expériences non précisées de soi-même et du temps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Experience of self and time functions, unspecified"
     }],
     "property" : [{
@@ -28350,11 +25539,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avoir la maîtrise de ses ressources économiques personnelles ou privées, afin d'assurer sa sécurité économique pour ses besoins actuels et futurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Personal economic resources"
     }],
     "property" : [{
@@ -28399,11 +25583,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de calcul",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified calculation functions"
     }],
     "property" : [{
@@ -28440,11 +25619,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté en termes de capacité, sans objet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "capacity difficulty, not applicable"
     }],
     "property" : [{
@@ -28482,11 +25656,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au contrôle et à la coordination des mouvements volontaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Control of voluntary movement functions"
     }],
     "property" : [{
@@ -28551,11 +25720,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Colonne lombaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lumbar vertebral column"
     }],
     "property" : [{
@@ -28601,11 +25765,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien d'une contraction musculaire de muscles isolés pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Endurance of isolated muscles"
     }],
     "property" : [{
@@ -28646,11 +25805,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle, non précisé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "barrier, not specified"
     }],
     "property" : [{
@@ -28687,11 +25841,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations sociales informelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified informal social relationships"
     }],
     "property" : [{
@@ -28732,11 +25881,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la moelle épinière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of spinal cord"
     }],
     "property" : [{
@@ -28778,11 +25922,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la capacité de transporter les métabolites dans tout le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Metabolite-carrying functions of the blood"
     }],
     "property" : [{
@@ -28823,11 +25962,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "absence totale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "total absence"
     }],
     "property" : [{
@@ -28864,11 +25998,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées relatives au métabolisme et au système endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to metabolism and the endocrine system, other specified and unspecified"
     }],
     "property" : [{
@@ -28906,11 +26035,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant l'habitat et le logement, comme les réglementations et politiques qui définissent les critères d'éligibilité pour l'attribution de maisons ou autres logements, les politiques traitant du rôle de l'État dans le développement et l'entretien de l'habitat, et des politiques concernant les nouvelles implantations de zones constructibles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Housing policies"
     }],
     "property" : [{
@@ -28952,11 +26076,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement des articulations dans tout le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of joints generalized"
     }],
     "property" : [{
@@ -28997,11 +26116,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres maintiens précisés de la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a body position, other specified"
     }],
     "property" : [{
@@ -29043,11 +26157,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant la sécurité des personnes et des biens, comme les politiques présidant à l'organisation des services de police, de lutte contre le feu, de secours d'urgence et d'ambulances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Civil protection policies"
     }],
     "property" : [{
@@ -29089,11 +26198,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rester assis sur un siège ou sur le sol pendant un certain temps si nécessaire, comme rester assis à un bureau ou à table.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a sitting position"
     }],
     "property" : [{
@@ -29138,11 +26242,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du cœur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of heart, unspecified"
     }],
     "property" : [{
@@ -29184,11 +26283,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui organisent la signification sémantique et symbolique, la structure grammaticale et les idées, pour la production de messages sous forme de langage parlé, écrit ou autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Integrative language functions"
     }],
     "property" : [{
@@ -29230,11 +26324,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Développer les compétences requises pour produire des symboles sous forme de sons, mots ou phrases pour transmettre un signifié (y compris en braille et autres symboles), comme épeler efficacement et utiliser la grammaire correctement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to write"
     }],
     "property" : [{
@@ -29300,11 +26389,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de séquençage et de coordination de mouvements complexes intentionnels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mental function of sequencing complex movements"
     }],
     "property" : [{
@@ -29345,11 +26429,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la participation à la vie de la cité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified political services, systems and policies"
     }],
     "property" : [{
@@ -29387,11 +26466,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre et quitter la position assise ou accroupie sur les hanches, les genoux serrés, ou s'asseoir sur les talons comme pour utiliser des toilettes situées au niveau du sol, ou passer de la position accroupie à une autre position, comme se mettre debout.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Squatting"
     }],
     "property" : [{
@@ -29436,11 +26510,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de l'audition",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hearing functions, unspecified"
     }],
     "property" : [{
@@ -29477,11 +26546,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions cognitives précisées de niveau supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified higher-level cognitive functions"
     }],
     "property" : [{
@@ -29519,11 +26583,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Employer les règles d’orthographe, de ponctuation et d'accords, etc.…",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using grammatical and mechanical conventions in written compositions"
     }],
     "property" : [{
@@ -29568,11 +26627,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du tronc",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of trunk"
     }],
     "property" : [{
@@ -29613,11 +26667,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of lower leg"
     }],
     "property" : [{
@@ -29663,11 +26712,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réagir de manière appropriée aux conventions sociales qui peuvent se manifester dans les interactions.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social cues in relationships"
     }],
     "property" : [{
@@ -29713,11 +26757,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles au repos et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle tone functions"
     }],
     "property" : [{
@@ -29794,11 +26833,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres éléments précisés relatifs à la population",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified population"
     }],
     "property" : [{
@@ -29835,11 +26869,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified services, systems and policies"
     }],
     "property" : [{
@@ -29877,11 +26906,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de reconnaissance et d'utilisation des signes, des symboles et d'autres composantes du langage.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mental functions of language"
     }],
     "property" : [{
@@ -29943,11 +26967,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant à établir l'autorité de l'État, tels que définis par la loi, comme les cours de justice, les tribunaux et autres institutions qui peuvent avoir à connaître des litiges civils et pénaux et à les juger, les droits de la défense, le rôle des divers types d'hommes de loi, les juridictions chargées de médiation, d'arbitrage, de décisions correctionnelles ou pénales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Legal services"
     }],
     "property" : [{
@@ -29988,11 +27007,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés de la vie communautaire, sociale et civique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified community, social and civic life"
     }],
     "property" : [{
@@ -30034,11 +27048,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements, processus, méthodes et systèmes techniques pour l'acquisition de connaissances, de compétences ou de savoir-faire, à quelque niveau que ce soit, comme des livres, des manuels, des jouets éducatifs, du matériel informatique et des logiciels (par exemple CD-ROM), et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for education"
     }],
     "property" : [{
@@ -30080,11 +27089,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser des appareils, des techniques et d'autres moyens à des fins de communication, comme appeler un ami au téléphone.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using communication devices and techniques"
     }],
     "property" : [{
@@ -30150,11 +27154,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations associées à la miction et aux fonctions urinaires connexes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with urinary functions"
     }],
     "property" : [{
@@ -30196,11 +27195,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de repérage, d'analyse et d'intégration d'informations incohérentes ou contradictoires afin de dégager une solution.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Problem Solving"
     }],
     "property" : [{
@@ -30242,11 +27236,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament coopérant, agréable et conciliant, par opposition à un tempérament inamical, antagoniste et provocateur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Agreeableness"
     }],
     "property" : [{
@@ -30288,11 +27277,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coutumes, pratiques, règlements et systèmes abstraits de valeurs et de croyances normatives (p. ex., idéologies, visions normatives du monde et philosophies morales) qui se manifestent dans des contextes sociaux et qui affectent ou créent les croyances, les valeurs et les attitudes sociétales et individuelles, comme normes sociales liées à la morale, l'étiquette et la religion; doctrines religieuses, normes et conventions qui en découlent; normes régissant les rituels et les rassemblements de personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social norms, practices and ideologies"
     }],
     "property" : [{
@@ -30334,11 +27318,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien d'une contraction musculaire de tous les muscles du corps pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Endurance of all muscles of the body"
     }],
     "property" : [{
@@ -30379,11 +27358,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulation du poignet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Wrist joint"
     }],
     "property" : [{
@@ -30429,11 +27403,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de sa propre identité.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to self"
     }],
     "property" : [{
@@ -30474,11 +27443,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "absence partielle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "partial absence"
     }],
     "property" : [{
@@ -30516,11 +27480,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle et de surveillance comme les organisations régionales, nationales et internationales qui définissent les normes à suivre (par exemple l'Organisation internationale de normalisation) et les organisations de consommateurs, qui régissent la collecte, la création, la production et la fabrication de biens et de produits de consommation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Systems for the production of consumer goods"
     }],
     "property" : [{
@@ -30561,11 +27520,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions musculaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle functions"
     }],
     "property" : [{
@@ -30622,11 +27576,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Conversation et utilisation des appareils et des techniques de communication, autres formes précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversation and use of communication devices and techniques, other specified and unspecified"
     }],
     "property" : [{
@@ -30668,11 +27617,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de décodage des messages parlés, pour en dégager la signification.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of spoken language"
     }],
     "property" : [{
@@ -30713,11 +27657,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "changements qualitatifs, y compris accumulation de liquide",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "qualitative changes in structure, including accumulation of fluid"
     }],
     "property" : [{
@@ -30755,11 +27694,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements de temps naturels, réguliers et prévisibles liés au passage du jour à la nuit et de la nuit au jour, comme le jour, la nuit, l'aurore et le crépuscule.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Day/night cycles"
     }],
     "property" : [{
@@ -30800,11 +27734,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés à usage personnel au quotidien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for personal use in daily living, unspecified"
     }],
     "property" : [{
@@ -30841,11 +27770,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pelvic region"
     }],
     "property" : [{
@@ -30915,11 +27839,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production d'autres formes de vocalisation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Alternative vocalization functions"
     }],
     "property" : [{
@@ -30977,11 +27896,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre des ensembles intégrés d'actions, suivre les règles, enchaîner l'un après l'autre et coordonner ses propres mouvements avec ceux d'autres personnes comme apprendre à jouer (par exemple au football, aux échecs) ou utiliser un outil.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring complex skills"
     }],
     "property" : [{
@@ -31026,11 +27940,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations familiales non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Family relationships, unspecified"
     }],
     "property" : [{
@@ -31072,11 +27981,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Exécuter les actions coordonnées visant à déplacer des objets en utilisant les jambes et les pieds, comme donner des coups de pied dans un ballon ou appuyer sur les pédales d'un vélo.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving objects with lower extremities"
     }],
     "property" : [{
@@ -31138,11 +28042,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations relatives à la peau, telles que les démangeaisons, la sensation de brûlure, le picotement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation related to the skin"
     }],
     "property" : [{
@@ -31183,11 +28082,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to movement"
     }],
     "property" : [{
@@ -31264,11 +28158,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la voix",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified voice functions"
     }],
     "property" : [{
@@ -31306,11 +28195,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations associées à l'excitation sexuelle, à la préparation, aux rapports sexuels, à l'orgasme et à la résolution de l'acte sexuel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with sexual intercourse"
     }],
     "property" : [{
@@ -31352,11 +28236,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des personnes ou des animaux qui apportent affection, soins, protection, assistance et relations à d'autres personnes dans leur maison, sur leur lieu de travail, à l'école, au jeu ou dans d'autres aspects de leurs activités quotidiennes. Ce chapitre ne traite pas des attitudes de la personne ou des personnes qui apportent ce soutien. Le facteur environnemental décrit dans ce chapitre n'est pas la personne ou l'animal considéré, mais représente la quantité de soutien physique et affectif qui est fournie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Support and relationships"
     }],
     "property" : [{
@@ -31449,11 +28328,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology"
     }],
     "property" : [{
@@ -31490,11 +28364,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions vestibulaires non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular functions, unspecified"
     }],
     "property" : [{
@@ -31531,11 +28400,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à l'acquisition d'un endroit pour vivre",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquiring a place to live"
     }],
     "property" : [{
@@ -31577,11 +28441,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Passer d'une position allongée à l'autre, au même niveau ou à un niveau différent, comme passer d'un lit à l'autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transferring oneself while lying"
     }],
     "property" : [{
@@ -31627,11 +28486,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire preuve de, et réagir aux marques de, respect et d'estime en fonction de diverses situations et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respect and warmth in relationships"
     }],
     "property" : [{
@@ -31676,11 +28530,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ventricules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ventricles"
     }],
     "property" : [{
@@ -31726,11 +28575,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance organisant les programmes et autres dispositifs qui apportent une aide sociale aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage de leur état de santé ou d'une incapacité, ont besoin d'aide, notamment les mécanismes permettant de faire appliquer les réglementations définissant l'admission aux bénéfices de ces services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General social support systems"
     }],
     "property" : [{
@@ -31772,11 +28616,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entretenir et maîtriser les relations avec autrui selon les circonstances et dans le respect des convenances, comme maîtriser ses émotions et ses pulsions, maîtriser son agressivité verbale et physique, agir de manière indépendante dans les relations sociales, et agir selon les règles et conventions sociales, lorsque par exemple on est en train de jouer, d'étudier ou de travailler avec d'autres personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Complex interpersonal interactions"
     }],
     "property" : [{
@@ -31849,11 +28688,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures supplémentaires de l'appareil locomoteur liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional musculoskeletal structures related to movement"
     }],
     "property" : [{
@@ -31922,11 +28756,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des ongles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nails"
     }],
     "property" : [{
@@ -31988,11 +28817,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Être transporté en tant que passager d'un véhicule motorisé privé, sur terre, sur l'eau ou dans les airs, comme en voiture, en taxi, en avion ou en bateau privé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using private motorized transportation"
     }],
     "property" : [{
@@ -32037,11 +28861,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of head and neck region"
     }],
     "property" : [{
@@ -32087,11 +28906,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la régularité des contractions cardiaques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Heart rhythm"
     }],
     "property" : [{
@@ -32133,11 +28947,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir la taille, la forme et le contour en utilisant les deux yeux pour les objets distants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Monocular acuity of distant vision"
     }],
     "property" : [{
@@ -32178,11 +28987,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Interactions complexes avec autrui non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Complex interpersonal interactions, unspecified"
     }],
     "property" : [{
@@ -32224,11 +29028,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien de l'intégrité structurelle des articulations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stability of joint functions"
     }],
     "property" : [{
@@ -32289,11 +29088,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of shoulder region"
     }],
     "property" : [{
@@ -32338,11 +29132,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du pénis",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of the penis"
     }],
     "property" : [{
@@ -32403,11 +29192,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la pression artérielle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Blood pressure functions, unspecified"
     }],
     "property" : [{
@@ -32444,11 +29228,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations et interactions avec autrui précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified interpersonal interactions and relationships"
     }],
     "property" : [{
@@ -32490,11 +29269,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Actions impliquant de \"faire semblant\", utilisant un nouvel objet, une partie du corps ou un mouvement du corps pour représenter une situation ou un évènement, par exemple faire comme si un morceau de bois était une voiture ou comme si quelque chose était trop chaud pour être mangé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions by pretending or substituting"
     }],
     "property" : [{
@@ -32540,11 +29314,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions motrices et de la mobilité, y compris les fonctions des articulations, des os, des réflexes et des muscles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Neuromusculoskeletal and movement-related functions"
     }],
     "property" : [{
@@ -32606,11 +29375,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception de l'amer, du sucré, de l'acide et du salé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taste function"
     }],
     "property" : [{
@@ -32652,11 +29416,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes dont la vie quotidienne est influencée par des personnes en position d'autorité au travail, à l'école ou dans d'autres milieux, comme les élèves ou les étudiants, les travailleurs et les membres d'un groupe religieux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "People in subordinate positions"
     }],
     "property" : [{
@@ -32697,11 +29456,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions de déglutition précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified swallowing"
     }],
     "property" : [{
@@ -32738,11 +29492,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés relatifs à l'obtention, la conservation et la cessation d'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquiring, keeping and terminating a job"
     }],
     "property" : [{
@@ -32784,11 +29533,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Consistance des matières fécales : dures, fermes, molles ou liquides.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Faecal consistency"
     }],
     "property" : [{
@@ -32829,11 +29573,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "pas de changement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "no change in structure"
     }],
     "property" : [{
@@ -32871,11 +29610,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes visant à planifier, créer et entretenir les espaces urbains, suburbains, ruraux et de loisirs, les zones protégées, les zones commerciales et de réunion en plein air (places, marchés) et les voies d'accès pour piétons et véhicules qui s'y rendent, y compris ceux qui fournissent ces services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Open space planning services"
     }],
     "property" : [{
@@ -32916,11 +29650,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres éléments précisés relatifs à l'environnement naturel et aux changements apportés par l'homme à l'environnement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified natural environment and human-made changes to environment"
     }],
     "property" : [{
@@ -32957,11 +29686,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions additionnelles précisées du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified additional functions of the respiratory system"
     }],
     "property" : [{
@@ -32999,11 +29723,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se nettoyer le nez, prendre soin de son hygiène nasale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for nose"
     }],
     "property" : [{
@@ -33049,11 +29768,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts, les mains et les bras pour éloigner quelque chose de soi ou le déplacer d'un endroit à un autre, comme pour repousser un jouet ou un animal.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pushing"
     }],
     "property" : [{
@@ -33098,11 +29812,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à l'acquisition des produits et des services",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquisition of goods and services, unspecified"
     }],
     "property" : [{
@@ -33144,11 +29853,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Interrompre des tâches ou des actions en cours, changer de tâches ou d'actions en réponse à de nouvelles exigences ou faire une transition entre une séquence habituelle d'activités et un nouvel ensemble d'activités comme moyen de s'acquitter des tâches quotidiennes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Adapting to changes in daily routine"
     }],
     "property" : [{
@@ -33193,11 +29897,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Région cervicale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cervical spinal cord"
     }],
     "property" : [{
@@ -33242,11 +29941,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la protection civile",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified civil protection services, systems and policies"
     }],
     "property" : [{
@@ -33284,11 +29978,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nature de l'air en dehors des bâtiments ou des espaces clos, caractérisée par l'odeur, la présence de fumée, l'humidité, le niveau d'ozone et les autres caractéristiques de l'atmosphère, susceptible de fournir des informations utiles sur le monde environnant (par ex. odeur de la pluie) ou d'attirer l'attention (par ex. odeur âcre d'un produit toxique).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Outdoor air quality"
     }],
     "property" : [{
@@ -33329,11 +30018,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la bouche",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of mouth"
     }],
     "property" : [{
@@ -33375,11 +30059,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à obtenir des soins de santé formels ou informels, comme s'assurer qu'un enfant passe une visite médicale régulière, ou qu'une personne âgée prenne bien ses médicaments.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others in health maintenance"
     }],
     "property" : [{
@@ -33424,11 +30103,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produire des messages non verbaux non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing nonverbal messages, unspecified"
     }],
     "property" : [{
@@ -33470,11 +30144,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de maintien d'un poids corporel approprié, y compris la prise de poids au cours de la période de développement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Weight maintenance functions"
     }],
     "property" : [{
@@ -33516,11 +30185,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'apparition des premières règles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Onset of menstruation"
     }],
     "property" : [{
@@ -33561,11 +30225,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures entourant l'œil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures around eye"
     }],
     "property" : [{
@@ -33631,11 +30290,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la perception de la présence de sons et à la discrimination de la localisation, du ton, de la force et de la qualité des sons.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hearing functions"
     }],
     "property" : [{
@@ -33704,11 +30358,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions mentales non précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mental functions of language, unspecified"
     }],
     "property" : [{
@@ -33746,11 +30395,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction des muscles et des groupes de muscles situés du côté gauche ou droit du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of muscles of one side of the body"
     }],
     "property" : [{
@@ -33792,11 +30436,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la capacité du sang de transporter l'oxygène dans tout le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Oxygen-carrying functions of the blood"
     }],
     "property" : [{
@@ -33838,11 +30477,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le maintien de l'équilibre entre l'apport, l'emmagasinage, l'utilisation et l'excrétion des électrolytes dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Electrolyte balance"
     }],
     "property" : [{
@@ -33883,11 +30517,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés relatifs à un emploi rémunéré",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified remunerative employment"
     }],
     "property" : [{
@@ -33928,11 +30557,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "not specified"
     }],
     "property" : [{
@@ -33969,11 +30593,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées de la moelle épinière et des structures connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spinal cord and related structures, unspecified"
     }],
     "property" : [{
@@ -34014,11 +30633,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits ou substances précisés pour la consommation personnelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products or substances for personal consumption"
     }],
     "property" : [{
@@ -34056,11 +30670,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements naturels, réguliers et prévisibles de la position de la lune par rapport à la terre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lunar cycles"
     }],
     "property" : [{
@@ -34101,11 +30710,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de procréation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Procreation functions, unspecified"
     }],
     "property" : [{
@@ -34143,11 +30747,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la régularité du cycle menstruel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regularity of menstrual cycle"
     }],
     "property" : [{
@@ -34189,11 +30788,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avoir la maîtrise de ses ressources économiques d'origine publique, afin d'assurer sa sécurité économique pour ses besoins présents et futurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Public economic entitlements"
     }],
     "property" : [{
@@ -34238,11 +30832,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions génitales et reproductives",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Genital and reproductive functions"
     }],
     "property" : [{
@@ -34303,11 +30892,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres éléments précisés liés aux caractéristiques physiques de la terre",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified physical features of the earth"
     }],
     "property" : [{
@@ -34344,11 +30928,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la communication",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -34386,11 +30965,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Transmettre des messages par des mouvements intentionnels du corps tels que les mimiques (par exemple sourire, froncer les sourcils, grimacer), par des mouvements des bras et des mains, par des attitudes comme prendre dans ses bras pour indiquer l'affection ou pointer du doigt pour attirer l'attention ou obtenir un objet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing body language"
     }],
     "property" : [{
@@ -34436,11 +31010,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre des gestes élémentaires, effectués dans un but déterminé, comme utiliser des outils simples tels que des crayons ou des couverts.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring basic skills"
     }],
     "property" : [{
@@ -34486,11 +31055,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance comme la mise en place et la surveillance de décisions locales, régionales ou nationales portant sur la planification, la conception, le développement et l'entretien des zones de plein air, qu'ils portent sur les domaines situés en zone rurale, suburbaine ou urbaine ou portent sur la protection des parcs et des réserves naturelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Open space planning systems"
     }],
     "property" : [{
@@ -34531,11 +31095,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Trompe d'Eustache",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Eustachian canal"
     }],
     "property" : [{
@@ -34580,11 +31139,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "partie additionnelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "additional part"
     }],
     "property" : [{
@@ -34621,11 +31175,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées d'orientation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified orientation functions"
     }],
     "property" : [{
@@ -34663,11 +31212,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la transition entre l'état de veille et le sommeil.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Onset of sleep"
     }],
     "property" : [{
@@ -34708,11 +31252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de maintien de l'équilibre hydrique, minéral et électrolytique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water, mineral and electrolyte balance functions, unspecified"
     }],
     "property" : [{
@@ -34749,11 +31288,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées de la moelle épinière et des structures connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified spinal cord and related structures"
     }],
     "property" : [{
@@ -34795,11 +31329,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui régulent et permettent de résister aux envies soudaines de faire quelque chose.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Impulse control"
     }],
     "property" : [{
@@ -34840,11 +31369,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir des savoir-faire non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills, unspecified"
     }],
     "property" : [{
@@ -34886,11 +31410,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Déplacer le corps d'un endroit à l'autre, sur toute surface et dans toutes sortes d'espaces, en utilisant des appareils particuliers conçus pour faciliter le déplacement ou pour donner des moyens de déplacement nouveaux, comme les planches à roulettes, les skis, un équipement de plongée, les palmes ou descendre la rue en fauteuil roulant autonome ou avec un déambulateur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around using equipment"
     }],
     "property" : [{
@@ -34936,11 +31455,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Accéder à l'école, à l’éducation, participer à toutes les activités scolaires, avec leurs responsabilités et leurs privilèges, apprendre les leçons, les matières et satisfaire aux exigences du programme dans un programme d'éducation primaire ou secondaire, y compris fréquenter l'école régulièrement, travailler en coopération avec d'autres élèves, suivre les instructions des enseignants, l'organisation, l'étude et l'achèvement des tâches et des projets à réaliser, et progresser vers d'autres niveaux d'éducation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "School education"
     }],
     "property" : [{
@@ -34986,11 +31500,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Animaux qui apportent un soutien physique, affectif ou psychologique, comme les animaux de compagnie (chiens, chats, oiseaux, poissons, etc.) ; animaux qui aident à la mobilité personnelle et au transport.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Domesticated animals"
     }],
     "property" : [{
@@ -35032,11 +31541,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans des associations à caractère social ou communautaire organisées par des personnes ayant des intérêts communs, comme des clubs locaux d'action sociale ou des groupes d'éthique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal associations"
     }],
     "property" : [{
@@ -35082,11 +31586,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production de vocalisations diverses.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Making a range of sounds"
     }],
     "property" : [{
@@ -35128,11 +31627,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Voyager sur le dos d'un animal, comme un cheval, un bœuf, un chameau ou un éléphant.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Riding animals for transportation"
     }],
     "property" : [{
@@ -35178,11 +31672,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entreprendre les activités nécessaires pour utiliser une maison, un appartement ou tout lieu d'habitation appartenant à autrui en échange d'une contribution financière.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Renting a place to live"
     }],
     "property" : [{
@@ -35228,11 +31717,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations familiales, comme avec les membres de la famille nucléaire, de la famille élargie, de la famille d'accueil ou d'adoption et la belle-famille, des relations plus distantes avec les cousins ou les tuteurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Family relationships"
     }],
     "property" : [{
@@ -35302,11 +31786,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent aux niveaux local, communautaire, régional, de l'état ou national, visant à fournir des interventions aux individus concernant leur bien-être physique, psychologique et social, comme des services de promotion de la santé et de prévention de la maladie, des services de soins de santé primaire, des services de soins intensifs, des services de réadaptation et de soins à long terme, que ces services soient financés par des fonds publics ou privés, qu'ils soient assurés à court terme, à long terme, de manière périodique ou occasionnelle, dans toute une gamme d'environnements tels que la communauté, le domicile, l'école et le lieu de travail, les hôpitaux généraux, les hôpitaux spécialisés, les cliniques et les établissements de soins résidentiels et non résidentiels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health services"
     }],
     "property" : [{
@@ -35348,11 +31827,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations provenant de l'alimentation, de la boisson et fonctions digestives associées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with the digestive system"
     }],
     "property" : [{
@@ -35413,11 +31887,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Iris",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Iris"
     }],
     "property" : [{
@@ -35462,11 +31931,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du pancréas",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pancreas"
     }],
     "property" : [{
@@ -35512,11 +31976,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales d'ordonnancement des événements en séquence chronologique, allouant le temps aux événements et aux activités.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Time management"
     }],
     "property" : [{
@@ -35558,11 +32017,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales déterminant le temps passé en état de sommeil pendant le cycle diurne ou le rythme circadien.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Amount of sleep"
     }],
     "property" : [{
@@ -35603,11 +32057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des lèvres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lips"
     }],
     "property" : [{
@@ -35661,11 +32110,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification littérale et figurée de messages en langage parlé, comme comprendre qu'une phrase énonce un fait ou est une expression idiomatique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - spoken messages"
     }],
     "property" : [{
@@ -35730,11 +32174,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la colonne vertébrale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of vertebral column"
     }],
     "property" : [{
@@ -35803,11 +32242,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté GRAVE en termes de performance (élevée, extrême, ...) 50-95%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "SEVERE performance difficulty (high, extreme,...) 50-95 %"
     }],
     "property" : [{
@@ -35845,11 +32279,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament enjoué, dynamique et plein d'espoirs, par opposition à triste, sombre et sans espoir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Optimism"
     }],
     "property" : [{
@@ -35891,11 +32320,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions de la peau, des ongles, des cheveux et des poils.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the skin and related structures"
     }],
     "property" : [{
@@ -35953,11 +32377,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à combiner des mots pour construire des phrases.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Combining words into phrases"
     }],
     "property" : [{
@@ -36002,11 +32421,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la colonne vertébrale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of vertebral column"
     }],
     "property" : [{
@@ -36047,11 +32461,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la sécurité sociale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified social security services, systems and policies"
     }],
     "property" : [{
@@ -36089,11 +32498,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans un ou les deux membres supérieurs, y compris les mains.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in upper limb"
     }],
     "property" : [{
@@ -36134,11 +32538,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lèvre inférieure",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lower lip"
     }],
     "property" : [{
@@ -36183,11 +32582,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Éléments non précisés relatifs à la population",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Population, unspecified"
     }],
     "property" : [{
@@ -36225,11 +32619,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le processus par lequel les glucides du régime alimentaire sont emmagasinés et transformés en glucose, puis en dioxyde de carbone et en eau.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carbohydrate metabolism"
     }],
     "property" : [{
@@ -36270,11 +32659,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées pour faire face au stress et aux autres demandes psychologiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified handling stress and other psychological demands"
     }],
     "property" : [{
@@ -36315,11 +32699,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structures related to movement"
     }],
     "property" : [{
@@ -36361,11 +32740,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans tous les aspects d'un travail qui ne procure pas de revenu, à temps complet ou partiel, comme des activités organisées, exécutant les tâches qui en découlent, se présentant au travail à l'heure, supervisant d'autres travailleurs ou étant supervisé, effectuant les tâches requises seul ou en groupe, comme dans le cas d'un travail bénévole, d'une œuvre de bienfaisance, d'un travail pour une communauté ou un groupe religieux sans être rétribué, travailler à domicile sans rémunération.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Non-remunerative employment"
     }],
     "property" : [{
@@ -36410,11 +32784,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du tronc",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of trunk, unspecified"
     }],
     "property" : [{
@@ -36455,11 +32824,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines de l'éducation, précisés ou non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education, other specified and unspecified"
     }],
     "property" : [{
@@ -36501,11 +32865,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement de plus d'une articulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of several joints"
     }],
     "property" : [{
@@ -36547,11 +32906,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de l'oreille interne associées à la position, à l'équilibre et au mouvement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular functions"
     }],
     "property" : [{
@@ -36612,11 +32966,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées d'orientation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation functions, unspecified"
     }],
     "property" : [{
@@ -36653,11 +33002,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre et appliquer des connaissances, formes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning and applying knowledge, unspecified"
     }],
     "property" : [{
@@ -36698,11 +33042,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Résoudre des problèmes non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Solving problems, unspecified"
     }],
     "property" : [{
@@ -36743,11 +33082,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du larynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of larynx, unspecified"
     }],
     "property" : [{
@@ -36788,11 +33122,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of head and neck region"
     }],
     "property" : [{
@@ -36869,11 +33198,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Déficience GRAVE (élevée, extrême, ...) 50-95%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "SEVERE impairment (high, extreme,...) 50-95 %"
     }],
     "property" : [{
@@ -36910,11 +33234,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté LÉGÈRE en termes de capacité (légère, faible, ...) 5-24%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MILD capacity difficulty (slight, low,...) 5-24 %"
     }],
     "property" : [{
@@ -36952,11 +33271,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Être transporté en tant que passager par un moyen de transport mû par une ou plusieurs personnes, comme dans une voiture d'enfant ou une poussette, dans un fauteuil roulant poussé par quelqu'un d'autre, dans un pousse-pousse ou une chaloupe à rames.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using human-powered vehicles"
     }],
     "property" : [{
@@ -37001,11 +33315,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la planification des zones de plein air",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Open space planning services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -37043,11 +33352,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avancer à pied, sur une distance de moins d'un kilomètre, comme marcher dans sa chambre ou dans le couloir, dans un bâtiment ou sur de courtes distances à l'extérieur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking short distances"
     }],
     "property" : [{
@@ -37093,11 +33397,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées à la capacité respiratoire et cardio-vasculaire nécessaire pour endurer l'effort physique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Exercise tolerance functions"
     }],
     "property" : [{
@@ -37158,11 +33457,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à la santé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -37200,11 +33494,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Repérer et choisir un travail, un métier, une profession ou toute autre forme d'emploi, faire ce qui est nécessaire pour se faire embaucher, comme se présenter sur le lieu de travail et participer à un entretien d'embauche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seeking employment"
     }],
     "property" : [{
@@ -37250,11 +33539,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de filtration et de collecte de l'urine.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary excretory functions"
     }],
     "property" : [{
@@ -37311,11 +33595,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives aux mouvements involontaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Involuntary movement functions, unspecified"
     }],
     "property" : [{
@@ -37352,11 +33631,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions sensorielles et douleur non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensory functions and pain, unspecified"
     }],
     "property" : [{
@@ -37394,11 +33668,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Air se déplaçant naturellement plus ou moins rapidement, comme la brise, la tempête.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Wind"
     }],
     "property" : [{
@@ -37439,11 +33708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poils du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body hair"
     }],
     "property" : [{
@@ -37488,11 +33752,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Conjonctive, sclère, choroïde",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conjunctiva, sclera, choroid"
     }],
     "property" : [{
@@ -37538,11 +33797,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Déplacer tout le corps face contre terre d'un endroit à un autre sur les mains, ou les mains et les bras, et les genoux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Crawling"
     }],
     "property" : [{
@@ -37588,11 +33842,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques d'intérieur et d'extérieur à usage public permettant d'assurer la sécurité, comme les barrières de sécurité pour les lits, les signaux d'alarmes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for physical safety of persons in buildings for public use"
     }],
     "property" : [{
@@ -37634,11 +33883,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer une tâche complexe, prendre les dispositions utiles requises en matière de temps et d'espace ; exécuter une tâche complexe comprenant plus d'une composante, qu'il faut réaliser l'une après l'autre ou simultanément, comme préparer un espace pour jouer, arranger le mobilier à la maison ou faire ses devoirs pour l'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking a complex task"
     }],
     "property" : [{
@@ -37684,11 +33928,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui permettent de se concentrer sur deux stimuli ou plus en même temps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Dividing attention"
     }],
     "property" : [{
@@ -37730,11 +33969,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rester accroupi pendant un certain temps si nécessaire, comme s'asseoir par terre sans siège.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a squatting position"
     }],
     "property" : [{
@@ -37779,11 +34013,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles"
     }],
     "property" : [{
@@ -37828,11 +34057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la région du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of neck region"
     }],
     "property" : [{
@@ -37877,11 +34101,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions vestibulaires précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified vestibular functions"
     }],
     "property" : [{
@@ -37918,11 +34137,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Étendue de la déficience",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extent or magnitude of impairment"
     }],
     "property" : [{
@@ -37984,11 +34198,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production de sons musicaux avec la voix.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Production of tones"
     }],
     "property" : [{
@@ -38030,11 +34239,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales de connaissance et d'établissement de sa relation au temps, au lieu, à soi, aux autres, aux objets et à l'espace.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation functions"
     }],
     "property" : [{
@@ -38104,11 +34308,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament auquel on peut se fier et respectueux de certains principes, par opposition à provocateur, trompeur et antisocial.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Trustworthiness"
     }],
     "property" : [{
@@ -38150,11 +34349,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la concentration pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sustaining attention"
     }],
     "property" : [{
@@ -38196,11 +34390,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions et les tâches requises dans diverses techniques de communication, comme la lecture sur les lèvres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using communication techniques"
     }],
     "property" : [{
@@ -38245,11 +34434,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Changer et maintenir la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Changing and maintaining body position"
     }],
     "property" : [{
@@ -38307,11 +34491,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rencontrer d'autres personnes de manière informelle, comme rendre visite à des amis ou des parents, ou se réunir de manière informelle dans des lieux publics.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Socializing"
     }],
     "property" : [{
@@ -38357,11 +34536,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction de muscles et de groupes de muscles spécifiques et isolés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of isolated muscles and muscle groups"
     }],
     "property" : [{
@@ -38403,11 +34577,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques devant assurer la sécurité des personnes et des biens.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Civil protection services, systems and policies"
     }],
     "property" : [{
@@ -38468,11 +34637,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés et non précisés de la vie économique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic life, other specified and unspecified"
     }],
     "property" : [{
@@ -38514,11 +34678,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produire des messages parlés faits de mots, de phrases et de passages plus longs, porteurs d'une signification littérale ou figurée, comme exprimer un fait ou raconter une histoire oralement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Speaking"
     }],
     "property" : [{
@@ -38563,11 +34722,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -38604,11 +34758,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la cheville et du pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of ankle and foot"
     }],
     "property" : [{
@@ -38654,11 +34803,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser un moyen de transport en tant que passager, être conduit en voiture, en bus, en pousse-pousse, en véhicule à traction animale, en voiture d'enfant ou en poussette, en fauteuil roulant, en taxi privé ou public, en train, en tram, en avion, en métro, en bateau, et être transporté par une personne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using transportation"
     }],
     "property" : [{
@@ -38728,11 +34872,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes ayant la responsabilité de prendre des décisions pour les autres et qui ont une influence ou un pouvoir défini socialement selon leurs rôles sociaux, économiques, culturels ou religieux dans la société, comme les professeurs, les employeurs, les superviseurs, les chefs religieux, les tuteurs, les gardiens ou les administrateurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "People in positions of authority"
     }],
     "property" : [{
@@ -38774,11 +34913,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui régissent la gamme des services offerts aux personnes pour assurer leur bien-être physique, psychologique et social, dans toute une série d'environnements y compris la communauté, le domicile, l'école, le lieu de travail, les hôpitaux généraux, les hôpitaux spécialisés, les cliniques et les établissements de soins résidentiels et non résidentiels, tels que les systèmes pour la mise en œuvre des réglementations et des normes qui définissent l'éligibilité à recevoir des services, la fourniture d'appareils, des aides techniques et autres équipements d'adaptation, et les textes de loi comme les lois sur la santé qui définissent les caractéristiques du système de santé, comme son accessibilité, son universalité, sa réplicabilité, son mode de financement et l'étendue de sa compétence.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health systems"
     }],
     "property" : [{
@@ -38819,11 +34953,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of respiratory system"
     }],
     "property" : [{
@@ -38865,11 +34994,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située au niveau de l'estomac ou dans l'abdomen.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in stomach or abdomen"
     }],
     "property" : [{
@@ -38911,11 +35035,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Modifications ou troubles dans l'environnement naturel, causés par l'homme, qui peuvent donner lieu à une perturbation de la vie quotidienne des gens, tels que les situations résultant des conflits et des guerres, le déplacement de populations, la destruction de l'infrastructure sociale, des habitations et des terres agricoles, les catastrophes pour l'environnement, comme la pollution de la terre, de l'eau ou de l'air (par ex. les décharges toxiques).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Human-caused events"
     }],
     "property" : [{
@@ -38956,11 +35075,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre discussion précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified discussion"
     }],
     "property" : [{
@@ -39001,11 +35115,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions relatives aux cheveux, aux poils et aux ongles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the hair and nails"
     }],
     "property" : [{
@@ -39059,11 +35168,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts, les mains et les bras pour saisir un objet en mouvement en vue de l'arrêter ou de le retenir, comme pour attraper une balle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Catching"
     }],
     "property" : [{
@@ -39108,11 +35212,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de conduire un véhicule",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Driving, unspecified"
     }],
     "property" : [{
@@ -39154,11 +35253,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur l'apprentissage, l'application des connaissances acquises, la réflexion, la résolution de problèmes et la prise de décisions.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning and applying knowledge"
     }],
     "property" : [{
@@ -39220,11 +35314,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher et se déplacer dans la maison, dans une pièce, d'une pièce à l'autre, et dans l'ensemble du lieu de résidence ou de vie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around within the home"
     }],
     "property" : [{
@@ -39270,11 +35359,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la régulation de la température centrale du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body temperature"
     }],
     "property" : [{
@@ -39315,11 +35399,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating - receiving"
     }],
     "property" : [{
@@ -39381,11 +35460,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts et les mains pour lâcher quelque chose, le laisser tomber ou le changer de position, comme pour lâcher un vêtement ou un aliment pour un animal.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Releasing"
     }],
     "property" : [{
@@ -39430,11 +35504,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Capacité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Capacity"
     }],
     "property" : [{
@@ -39496,11 +35565,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la gamme d'expérience de l'éveil de l'affect ou des sentiments tels que l'amour, la haine, l'anxiété, le regret, la joie, la peur et la colère.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Range of emotion"
     }],
     "property" : [{
@@ -39541,11 +35605,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Éléments non précisés du climat",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Climate, unspecified"
     }],
     "property" : [{
@@ -39582,11 +35641,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour la pratique religieuse et les activités spirituelles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for the practice of religion or spirituality, other specified"
     }],
     "property" : [{
@@ -39623,11 +35677,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of respiratory system"
     }],
     "property" : [{
@@ -39696,11 +35745,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages parlés, formes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - spoken messages, unspecified"
     }],
     "property" : [{
@@ -39742,11 +35786,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Chercher, trouver et obtenir un emploi, louer ses services et accepter un emploi, conserver son emploi et progresser dans un poste, un métier, un travail ou une profession, et quitter son emploi de manière appropriée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring, keeping and terminating a job"
     }],
     "property" : [{
@@ -39811,11 +35850,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres interactions de base avec autrui précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified basic interpersonal interactions"
     }],
     "property" : [{
@@ -39856,11 +35890,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du cerveau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of brain"
     }],
     "property" : [{
@@ -39902,11 +35931,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'entraînement des substances nutritives des aliments et des boissons dans le flux sanguin au cours du transit intestinal.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Absorption of nutrients"
     }],
     "property" : [{
@@ -39948,11 +35972,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de produire de la salive dans la bouche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Salivation"
     }],
     "property" : [{
@@ -39994,11 +36013,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonction sensorielle de perception des sensations douloureuses ou désagréables.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensitivity to a noxious stimulus"
     }],
     "property" : [{
@@ -40039,11 +36053,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs au droit",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Legal services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -40080,11 +36089,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de conduire un véhicule",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified driving"
     }],
     "property" : [{
@@ -40126,11 +36130,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification littérale et figurée transmise à travers des messages parlés complexes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - complex spoken messages"
     }],
     "property" : [{
@@ -40175,11 +36174,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées du système cardio-vasculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the cardiovascular system, other specified and unspecified"
     }],
     "property" : [{
@@ -40216,11 +36210,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre douleur localisée précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified pain in body part"
     }],
     "property" : [{
@@ -40258,11 +36247,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à prendre soin d'eux-mêmes, notamment aider les autres à manger, à prendre leur bain, à s'habiller ; s'occuper des enfants ou des membres de la famille qui sont malades ou ne peuvent prendre soin d'eux-mêmes qu'avec difficulté, aider les autres à aller aux toilettes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others with self-care"
     }],
     "property" : [{
@@ -40308,11 +36292,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques du contrôle sur les événements à la fois moteurs et psychologiques au niveau du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Psychomotor functions"
     }],
     "property" : [{
@@ -40370,11 +36349,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions du diaphragme impliquées dans la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the diaphragm"
     }],
     "property" : [{
@@ -40416,11 +36390,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Les fonctions organiques sont les fonctions physiologiques des systèmes organiques (y compris les fonctions psychologiques).\nLes déficiences sont les problèmes au niveau des fonctions organiques ou des structures anatomiques, manifestés par un écart ou une perte importante.\nDes fourchettes de pourcentages sont fournies pour les cas où des instruments d'évaluation calibrés ou d’autres normes sont disponibles pour quantifier les déficiences des fonctions organiques. Par exemple, l'indication \"Pas de déficience\" ou \"Déficience totale\" peut avoir une marge d'erreur de 5%. Une \"Déficience modérée\" est généralement chiffrée à la moitié de la valeur maximum de l'échelle. Les pourcentages doivent être calibrés dans divers domaines en utilisant comme percentiles les caractéristiques de la population. Pour utiliser cette échelle de manière uniforme, la recherche doit mettre au point des procédures d'évaluation.\nMerci de vous référer à l’Appendice 2 pour des explications supplémentaires sur les conventions de codage de la CIF.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body functions"
     }],
     "property" : [{
@@ -40490,11 +36459,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations associées à l'excitation des parties génitales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with genital functions"
     }],
     "property" : [{
@@ -40535,11 +36499,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions perceptuelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified perceptual functions"
     }],
     "property" : [{
@@ -40577,11 +36536,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de décodage des messages sous forme parlée, écrite, gestuelle ou autre, pour obtenir leur signification.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of language"
     }],
     "property" : [{
@@ -40647,11 +36601,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant le déplacement des personnes ou des biens par la route ou autre voie terrestre, par chemin de fer, par air ou par mer, comme les lois d'orientation et politiques en matière de transports, les politiques en matière d'accès aux transports publics.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation policies"
     }],
     "property" : [{
@@ -40693,11 +36642,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de vouloir vomir découlant d'un étourdissement ou d'un vertige.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Nausea associated with dizziness or vertigo"
     }],
     "property" : [{
@@ -40738,11 +36682,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia du tronc",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of trunk"
     }],
     "property" : [{
@@ -40787,11 +36726,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Interactions de base avec autrui non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basic interpersonal interactions, unspecified"
     }],
     "property" : [{
@@ -40832,11 +36766,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glande parathyroïde",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Parathyroid gland"
     }],
     "property" : [{
@@ -40882,11 +36811,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, règlementations et normes concernant la production, la distribution, la consommation et l'utilisation de biens et de services, tels que la doctrine économique adoptée et le développement mis en œuvre par l'État.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic policies"
     }],
     "property" : [{
@@ -40928,11 +36852,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de la prise de conscience de sa propre identité et de sa propre position dans la réalité de son environnement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Experience of self"
     }],
     "property" : [{
@@ -40973,11 +36892,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs au logement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified housing services, systems and policies"
     }],
     "property" : [{
@@ -41015,11 +36929,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la périodicité et à la régularité de la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiratory rhythm"
     }],
     "property" : [{
@@ -41060,11 +36969,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du poumon",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lungs, unspecified"
     }],
     "property" : [{
@@ -41105,11 +37009,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations intimes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified intimate relationships"
     }],
     "property" : [{
@@ -41151,11 +37050,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la peau pour réparer les déchirures et autres dommages à la peau.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Repair functions of the skin"
     }],
     "property" : [{
@@ -41197,11 +37091,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes pour la collecte, la création, la production et la fabrication de biens et de produits de consommation, comme les produits et la technologie utilisés pour la mobilité, la communication, l'éducation, le transport, l'emploi et le travail domestique, y compris ceux qui fournissent ces services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Services for the production of consumer goods"
     }],
     "property" : [{
@@ -41243,11 +37132,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements, processus, méthodes et systèmes techniques, adaptés ou spécialement conçus, pour l'acquisition de connaissances, de compétences ou de savoir-faire, comme des outils informatiques spécialisés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for education"
     }],
     "property" : [{
@@ -41289,11 +37173,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la prise et à la manipulation de solides ou de liquides pénétrant dans l'organisme par la bouche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ingestion functions"
     }],
     "property" : [{
@@ -41370,11 +37249,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles oculomoteurs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "External ocular muscles"
     }],
     "property" : [{
@@ -41419,11 +37293,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions urinaires non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urination functions, unspecified"
     }],
     "property" : [{
@@ -41461,11 +37330,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entamer, poursuivre, conduire et mener à terme un dialogue ou un échange avec plus d'une personne, comme lancer un échange de vues au sein d'un groupe et y participer.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversing with many people"
     }],
     "property" : [{
@@ -41510,11 +37374,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages, autres formes précisées ou non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating - receiving, other specified and unspecified"
     }],
     "property" : [{
@@ -41556,11 +37415,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le maintien de l'équilibre entre l'apport, l'emmagasinage, l'utilisation et l'excrétion des minéraux dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mineral balance"
     }],
     "property" : [{
@@ -41601,11 +37455,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of forearm"
     }],
     "property" : [{
@@ -41650,11 +37499,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lobe temporal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Temporal lobe"
     }],
     "property" : [{
@@ -41699,11 +37543,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du globe oculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of eyeball, unspecified"
     }],
     "property" : [{
@@ -41745,11 +37584,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des glandes et des conduits lacrymaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of lachrymal glands"
     }],
     "property" : [{
@@ -41790,11 +37624,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir d'autres compétences précisées en calcul",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified learning to calculate"
     }],
     "property" : [{
@@ -41835,11 +37664,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'utérus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of uterus"
     }],
     "property" : [{
@@ -41905,11 +37729,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la perception de la présence de sons impliquant la discrimination figure-fond et la synthèse binaurale, la différenciation et le mélange.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound discrimination"
     }],
     "property" : [{
@@ -41950,11 +37769,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs au travail et à l'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labour and employment services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -41991,11 +37805,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir des compétences non précisées en calcul",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning to calculate, unspecified"
     }],
     "property" : [{
@@ -42037,11 +37846,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques, y compris ceux qui ont été adaptés ou spécialement conçus, uniques ou fabriqués en série, auxquels on accorde ou qui acquièrent une signification symbolique dans le cadre d'une pratique religieuse et d'activités spirituelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for the practice of religion and spirituality"
     }],
     "property" : [{
@@ -42099,11 +37903,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Conduire un véhicule avec un moteur, comme une voiture, une moto, une embarcation à moteur ou un avion.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Driving motorized vehicles"
     }],
     "property" : [{
@@ -42149,11 +37948,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au flux sanguin dans les capillaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of capillaries"
     }],
     "property" : [{
@@ -42194,11 +37988,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés à usage personnel au quotidien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for personal use in daily living"
     }],
     "property" : [{
@@ -42236,11 +38025,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer des calculs selon les règles des mathématiques pour résoudre l'énoncé d'un problème formulé par des mots et produire ou donner des résultats, comme additionner trois nombres, ou diviser un nombre par un autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Calculating"
     }],
     "property" : [{
@@ -42302,11 +38086,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les activités de base requises pour déchiffrer les symboles, tels que les chiffres, les pictogrammes, les caractères, les lettres de l'alphabet ou les mots.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to recognize symbols"
     }],
     "property" : [{
@@ -42351,11 +38130,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs aux associations et aux services d'entraide",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified associations and organizational services, systems and policies"
     }],
     "property" : [{
@@ -42392,11 +38166,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives aux réflexes moteurs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified motor reflex functions"
     }],
     "property" : [{
@@ -42433,11 +38202,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de se déplacer",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around, unspecified"
     }],
     "property" : [{
@@ -42478,11 +38242,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the respiratory system"
     }],
     "property" : [{
@@ -42535,11 +38294,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du diencéphale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of diencephalon"
     }],
     "property" : [{
@@ -42584,11 +38338,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés pour la production de biens de consommation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Services, systems and policies for the production of consumer goods, unspecified"
     }],
     "property" : [{
@@ -42626,11 +38375,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos du tronc et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of muscles of trunk"
     }],
     "property" : [{
@@ -42671,11 +38415,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du membre inférieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lower extremity, unspecified"
     }],
     "property" : [{
@@ -42716,11 +38455,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions sexuelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sexual functions"
     }],
     "property" : [{
@@ -42758,11 +38492,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements se produisant au sein d'un groupe de population, tels que la composition et la variation du nombre total d'individu dans une région donnée par suite des naissances, des décès, du vieillissement de population et des flux migratoires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Demographic change"
     }],
     "property" : [{
@@ -42804,11 +38533,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Exprimer des opinions et réagir aux expressions d'opinions différentes ou aux désaccords, explicites ou implicites, en fonction de diverses situations et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Criticism in relationships"
     }],
     "property" : [{
@@ -42854,11 +38578,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'absorption des aliments dans la bouche par la succion produite par le mouvement des joues, des lèvres et de la langue.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sucking"
     }],
     "property" : [{
@@ -42899,11 +38618,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à la mobilité des articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified mobility of joint functions"
     }],
     "property" : [{
@@ -42940,11 +38654,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives au contrôle des mouvements volontaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified control of voluntary movement functions"
     }],
     "property" : [{
@@ -42981,11 +38690,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facilitateur MODÉRÉ (moyen, passable, ...) 25-49%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MODERATE facilitator (medium, fair,...) 25-49%"
     }],
     "property" : [{
@@ -43023,11 +38727,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement d'une articulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of joint functions"
     }],
     "property" : [{
@@ -43089,11 +38788,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Gamme et qualité d'autres mouvements spontanés normalement présents dans les premiers mois après la naissance, comme les mouvements des bras et des jambes vers l'axe médian, les mouvements des doigts et ceux de flexion-extension.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Specific spontaneous movements"
     }],
     "property" : [{
@@ -43134,11 +38828,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Entreprendre d'autres tâches multiples non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking multiple tasks, unspecified"
     }],
     "property" : [{
@@ -43180,11 +38869,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Actions impliquant de faire croire qu'on est quelqu'un d'autre ou qu'un objet est quelque chose d'autre, y compris entrer dans rôle, sortir d'un rôle et développer un scénario.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions by role playing"
     }],
     "property" : [{
@@ -43229,11 +38913,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques de l'architecture, de la construction et des aménagements de bâtiments à usage privé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified design, construction and building products and technology of buildings for public use"
     }],
     "property" : [{
@@ -43271,11 +38950,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de reconnaissance et d'interprétation des stimuli sensoriels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Perceptual functions"
     }],
     "property" : [{
@@ -43348,11 +39022,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Trompes de Fallope",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fallopian tubes"
     }],
     "property" : [{
@@ -43398,11 +39067,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour mettre des chaussettes, des bas et des chaussures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Putting on footwear"
     }],
     "property" : [{
@@ -43447,11 +39111,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions des articulations et des os",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the joints and bones"
     }],
     "property" : [{
@@ -43508,11 +39167,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Facilitateur, non précisé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "facilitator, not specified"
     }],
     "property" : [{
@@ -43549,11 +39203,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Conduit auditif interne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Internal auditory meatus"
     }],
     "property" : [{
@@ -43598,11 +39247,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives à la puissance musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle power functions, unspecified"
     }],
     "property" : [{
@@ -43639,11 +39283,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Veines",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Veins"
     }],
     "property" : [{
@@ -43689,11 +39328,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Législations et autres décisions politiques formulées et mises en œuvre par le système politique, comme les politiques régissant les campagnes électorales, la reconnaissance des partis politiques et le droit de vote ; les règles à suivre pour la préparation de lois et autres réglementations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political policy"
     }],
     "property" : [{
@@ -43735,11 +39369,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Déplacer tout le corps vers le haut ou vers le bas, par-dessus des surfaces ou des objets, comme monter sur des rochers, des échelles ou d'autres objets.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Climbing"
     }],
     "property" : [{
@@ -43785,11 +39414,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, adaptés ou spécialement conçus, utilisés pour la culture, les loisirs et le sport, comme des appareils de mobilité adaptés pour le sport, des adaptations pour les spectacles de musique et autres performances artistiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for culture, recreation and sport"
     }],
     "property" : [{
@@ -43831,11 +39455,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de transport des aliments par le tube digestif, de dégradation des aliments et d'absorption des substances nutritives.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Digestive functions"
     }],
     "property" : [{
@@ -43900,11 +39519,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à l'acquisition des produits et des services",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquisition of goods and services"
     }],
     "property" : [{
@@ -43946,11 +39560,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales précises de remémoration de l'information stockée dans la mémoire à long terme et de prise de conscience.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Retrieval and processing of memory"
     }],
     "property" : [{
@@ -43991,11 +39600,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of pelvic region"
     }],
     "property" : [{
@@ -44041,11 +39645,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la détermination de l'endroit d'où provient un son.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Localization of sound source"
     }],
     "property" : [{
@@ -44087,11 +39686,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Obtenir des faits concernant des personnes, des choses, des événements, comme demander pourquoi, quoi, où et comment et demander des noms.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring information"
     }],
     "property" : [{
@@ -44136,11 +39730,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions sensorielles additionnelles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional sensory functions"
     }],
     "property" : [{
@@ -44206,11 +39795,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les activités nécessaires pour comprendre et interpréter des textes écrits (par ex. des livres, un mode d'emploi ou des journaux, sous forme de texte ou en braille), dans l'intention d'acquérir des connaissances générales ou d'obtenir des informations spécifiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reading"
     }],
     "property" : [{
@@ -44255,11 +39839,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Dents, autres précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified teeth"
     }],
     "property" : [{
@@ -44301,11 +39880,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réparer et entretenir les véhicules personnels motorisés et non motorisés, y compris les bicyclettes, les charrettes, les automobiles et les bateaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining vehicles"
     }],
     "property" : [{
@@ -44350,11 +39924,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Rétine",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Retina"
     }],
     "property" : [{
@@ -44400,11 +39969,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations relatives aux menstruations, y compris pendant les phases prémenstruelles et post-menstruelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with the menstrual cycle"
     }],
     "property" : [{
@@ -44445,11 +40009,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poils pubiens",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pubic hair"
     }],
     "property" : [{
@@ -44494,11 +40053,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Clitoris",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Clitoris"
     }],
     "property" : [{
@@ -44544,11 +40098,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques nécessaires à la production de messages signifiants sous forme de langage parlé, écrit, gestuel ou autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of language"
     }],
     "property" : [{
@@ -44613,11 +40162,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulations de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Joints of pelvic region"
     }],
     "property" : [{
@@ -44662,11 +40206,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des méninges",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of meninges"
     }],
     "property" : [{
@@ -44711,11 +40250,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'appareil reproducteur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of reproductive system, unspecified"
     }],
     "property" : [{
@@ -44757,11 +40291,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Suivre les activités de programmes d'enseignement supérieur dans des universités, des écoles supérieures ou des écoles professionnelles, et apprendre tous les aspects du programme d’études requis pour obtenir un diplôme, un certificat ou toute autre reconnaissance de compétences, comme terminer un cycle d'études universitaire de niveau licence ou master, une école de médecine ou une autre école professionnelle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Higher education"
     }],
     "property" : [{
@@ -44806,11 +40335,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté GRAVE en termes de capacité (élevée, extrême, ...) 50-95%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "SEVERE capacity difficulty (high, extreme,...) 50-95 %"
     }],
     "property" : [{
@@ -44848,11 +40372,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou transporter un objet d'un endroit à un autre en utilisant les épaules et/ou la hanche et/ou le dos, comme pour porter un gros colis ou un sac d'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying on shoulders, hip and back"
     }],
     "property" : [{
@@ -44898,11 +40417,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament ouvert, sociable et prompt à s'exprimer, par opposition à la timidité, la réserve et l'inhibition.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extraversion"
     }],
     "property" : [{
@@ -44943,11 +40457,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la moelle épinière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of spinal cord, unspecified"
     }],
     "property" : [{
@@ -44989,11 +40498,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans des groupements professionnels ou d'autres groupes sociaux exigeant une reconnaissance, comme des associations d'avocats, de médecins, ou d'universitaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Formal associations"
     }],
     "property" : [{
@@ -45038,11 +40542,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées d'acuité visuelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visual acuity functions, unspecified"
     }],
     "property" : [{
@@ -45079,11 +40578,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du système cardio-vasculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of cardiovascular system"
     }],
     "property" : [{
@@ -45124,11 +40618,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du membre supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of upper extremity"
     }],
     "property" : [{
@@ -45194,11 +40683,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de l'expérience subjective de la durée et du passage du temps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Experience of time"
     }],
     "property" : [{
@@ -45240,11 +40724,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la consommation d'oxygène du corps à des conditions précises de repos et de température.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basal metabolic rate"
     }],
     "property" : [{
@@ -45285,11 +40764,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "AUCUN obstacle (aucun, absence, négligeable, ...) 0-4%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "NO barrier (none, absent, negligible,...) 0-4%"
     }],
     "property" : [{
@@ -45327,11 +40801,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les connaissances, pairs, collègues, voisins et membres de la communauté sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of acquaintances, peers, colleagues, neighbours and community members"
     }],
     "property" : [{
@@ -45372,11 +40841,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Discussion non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Discussion, unspecified"
     }],
     "property" : [{
@@ -45417,11 +40881,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Diaphragme",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Diaphragm"
     }],
     "property" : [{
@@ -45467,11 +40926,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec des personnes que l'on connaît mais qui ne sont pas des amis proches.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal relationships with acquaintances"
     }],
     "property" : [{
@@ -45517,11 +40971,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de production du mucus des voies aériennes supérieures et inférieures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Production of mucus"
     }],
     "property" : [{
@@ -45563,11 +41012,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin des animaux de compagnie et domestiques, nourrir, nettoyer, toiletter les animaux de compagnie et leur faire faire de l'exercice, veiller à la bonne santé des animaux domestiques et de compagnie, planifier les soins des animaux domestiques ou de compagnie pendant son absence.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taking care of animals"
     }],
     "property" : [{
@@ -45613,11 +41057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable ressentie dans une ou plusieurs parties précises du corps indiquant des dommages potentiels ou réels à une structure anatomique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in body part"
     }],
     "property" : [{
@@ -45695,11 +41134,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nettoyer, couper ou polir les ongles des mains.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for fingernails"
     }],
     "property" : [{
@@ -45744,11 +41178,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cordes vocales",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vocal folds"
     }],
     "property" : [{
@@ -45793,11 +41222,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cristallin",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lens of eyeball"
     }],
     "property" : [{
@@ -45843,11 +41267,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les personnes en position d'autorité sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of people in positions of authority"
     }],
     "property" : [{
@@ -45888,11 +41307,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Vestibule",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular labyrinth"
     }],
     "property" : [{
@@ -45938,11 +41352,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations associées à l'excitation sexuelle, aux rapports sexuels, aux menstruations et aux fonctions génitales et reproductives liées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with genital and reproductive functions"
     }],
     "property" : [{
@@ -46007,11 +41416,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté MODÉRÉE en termes de capacité (moyenne, passable, ...) 25-49%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MODERATE capacity difficulty (medium, fair,...) 25-49 %"
     }],
     "property" : [{
@@ -46048,11 +41452,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Medulla oblongata",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Medulla oblongata"
     }],
     "property" : [{
@@ -46098,11 +41497,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui comparent et traitent les informations qui proviennent de la mémoire à court terme et de la mémoire à long terme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Working memory"
     }],
     "property" : [{
@@ -46144,11 +41538,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans un travail rémunéré trouvé ou produit par une personne, ou effectué pour le compte de tiers, comme effectuer un travail saisonnier, travailler en free-lance, comme auteur ou consultant indépendant, effectuer des contrats courts, travailler comme artiste ou artisan, être propriétaire ou gérant d'un magasin ou d'une autre affaire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Self-employment"
     }],
     "property" : [{
@@ -46194,11 +41583,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux types de mouvements associés à la marche, la course ou d'autres mouvements de tout le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Gait pattern functions"
     }],
     "property" : [{
@@ -46239,11 +41623,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres changements précisés liés au temps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified time-related changes"
     }],
     "property" : [{
@@ -46281,11 +41660,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Exécuter les actions coordonnées nécessaires pour saisir, manipuler et lâcher des objets en utilisant son pied et ses orteils.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fine foot use"
     }],
     "property" : [{
@@ -46330,11 +41704,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées d'acuité visuelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified visual acuity functions"
     }],
     "property" : [{
@@ -46371,11 +41740,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the respiratory system, other specified and unspecified"
     }],
     "property" : [{
@@ -46413,11 +41777,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent le sommeil naturel donnant lieu au repos physique et mental optimal et à la relaxation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of sleep"
     }],
     "property" : [{
@@ -46458,11 +41817,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glandes sudoripares",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sweat glands"
     }],
     "property" : [{
@@ -46508,11 +41862,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de crispation ou de raideur musculaire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of muscle stiffness"
     }],
     "property" : [{
@@ -46553,11 +41902,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the cardiovascular, haematological, immunological and respiratory systems, unspecified"
     }],
     "property" : [{
@@ -46595,11 +41939,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs à des groupes de personnes qui se sont organisées pour défendre des intérêts communs de nature non commerciale, souvent dans le cadre d'une association de membres inscrits.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Associations and organizational services, systems and policies"
     }],
     "property" : [{
@@ -46661,11 +42000,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de l'oreille interne associées à la détermination du mouvement du corps, y compris sa direction et sa vitesse.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vestibular function of determination of movement"
     }],
     "property" : [{
@@ -46707,11 +42041,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Péristaltisme et fonctions connexes qui font avancer automatiquement les aliments dans l'estomac et les intestins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transport of food through stomach and intestines"
     }],
     "property" : [{
@@ -46752,11 +42081,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions sensorielles précisées associées à la température et à d'autres stimuli",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensory functions related to temperature and other stimuli"
     }],
     "property" : [{
@@ -46793,11 +42117,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du pénis",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of penis, unspecified"
     }],
     "property" : [{
@@ -46838,11 +42157,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de baîllement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of yawning"
     }],
     "property" : [{
@@ -46884,11 +42198,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées au développement du pénis, des testicules et du scrotum.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Penis, testes and scrotum development"
     }],
     "property" : [{
@@ -46929,11 +42238,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres formes précisées d'apprentissage à travers des actions portant sur des objets",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified learning through actions with objects and persons"
     }],
     "property" : [{
@@ -46975,11 +42279,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements, processus, méthodes et systèmes techniques, y compris ceux qui ont été adaptés ou spécialement conçus, utilisés pour l'acquisition de connaissances, de compétences ou de savoir-faire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for education"
     }],
     "property" : [{
@@ -47037,11 +42336,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées au développement de la pilosité du corps et du pubis.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body and pubic hair development"
     }],
     "property" : [{
@@ -47083,11 +42377,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatives au droit de vote, aux élections et à l'art de gouverner un pays, une région ou une communauté locale, ainsi qu'aux organisations internationales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political services, systems and policies"
     }],
     "property" : [{
@@ -47148,11 +42437,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions visuelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seeing functions, unspecified"
     }],
     "property" : [{
@@ -47189,11 +42473,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Paupière",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Eyelid"
     }],
     "property" : [{
@@ -47238,11 +42517,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de faire le ménage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified doing housework"
     }],
     "property" : [{
@@ -47284,11 +42558,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions d'élimination des déchets par le rectum, y compris les fonctions de contraction des muscles abdominaux en le faisant.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Elimination of faeces"
     }],
     "property" : [{
@@ -47329,11 +42598,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des glandes salivaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of salivary glands"
     }],
     "property" : [{
@@ -47378,11 +42642,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles intercostaux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Intercostal muscles"
     }],
     "property" : [{
@@ -47427,11 +42686,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à l'habillage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Dressing, unspecified"
     }],
     "property" : [{
@@ -47472,11 +42726,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées du cœur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Heart functions, unspecified"
     }],
     "property" : [{
@@ -47514,11 +42763,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, y compris ceux qui ont été adaptés ou spécialement conçus, utilisés dans le cadre d'activités culturelles, récréatives et sportives.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for culture, recreation and sport"
     }],
     "property" : [{
@@ -47576,11 +42820,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Suivre des programmes de préparation à l'emploi, comme apprendre à faire le travail d'un apprenti, d'un stagiaire, aller en apprentissage ou suivre une formation sur le tas.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Apprenticeship (work preparation)"
     }],
     "property" : [{
@@ -47625,11 +42864,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures du système nerveux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of the nervous system"
     }],
     "property" : [{
@@ -47698,11 +42932,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Pont",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pons"
     }],
     "property" : [{
@@ -47747,11 +42976,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées de déplacement d'objets avec les membres inférieurs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving objects with lower extremities, unspecified"
     }],
     "property" : [{
@@ -47793,11 +43017,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mouvement de va-et-vient régulier ou irrégulier d'un objet ou d'un individu causé par une perturbation physique, soit interne, soit externe, comme un tremblement, un frémissement, des mouvements rapides et saccadés d’objets, d’immeubles ou de personnes, causés par le fait de manipuler ou de travailler avec de petits ou de gros outils ou équipements.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vibration"
     }],
     "property" : [{
@@ -47838,11 +43057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres sensations précisées associées aux fonctions génitales et reproductives",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensations associated with genital and reproductive functions"
     }],
     "property" : [{
@@ -47879,11 +43093,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cauda equina",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cauda equina"
     }],
     "property" : [{
@@ -47929,11 +43138,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de production et de régulation des niveaux hormonaux dans l'organisme, y compris les changements cycliques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Endocrine gland functions"
     }],
     "property" : [{
@@ -47978,11 +43182,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau du membre supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of upper extremity"
     }],
     "property" : [{
@@ -48027,11 +43226,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres réactions immunitaires précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified immune response"
     }],
     "property" : [{
@@ -48068,11 +43262,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Réceptions non précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of language, unspecified"
     }],
     "property" : [{
@@ -48109,11 +43298,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions d'éternuement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of sneezing"
     }],
     "property" : [{
@@ -48154,11 +43338,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Écrire, autres formes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified writing"
     }],
     "property" : [{
@@ -48200,11 +43379,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avoir la maîtrise de ses ressources économiques, de sources publiques ou privées, afin d'assurer sa sécurité économique pour ses besoins actuels et futurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic self-sufficiency"
     }],
     "property" : [{
@@ -48266,11 +43440,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées au cycle menstruel, y compris la régularité des menstruations et l'écoulement des liquides menstruels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Menstruation functions"
     }],
     "property" : [{
@@ -48340,11 +43509,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Conduire un véhicule à énergie humaine, comme un vélo, un tricycle ou une chaloupe à rames.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Driving human-powered transportation"
     }],
     "property" : [{
@@ -48389,11 +43553,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres transferts précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified transferring oneself"
     }],
     "property" : [{
@@ -48434,11 +43593,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "AUCUNE difficulté en termes de capacité (aucune, absence, négligeable, ...) 0-4%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "NO capacity difficulty (none, absent, negligible,... ) 0-4 %"
     }],
     "property" : [{
@@ -48476,11 +43630,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Maîtriser ses émotions et ses pulsions, son agressivité verbale ou physique dans ses relations avec autrui, selon les circonstances et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regulating behaviours within interactions"
     }],
     "property" : [{
@@ -48525,11 +43674,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Éléments non précisés liés aux caractéristiques physiques de la terre",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Physical features of the earth, unspecified"
     }],
     "property" : [{
@@ -48566,11 +43710,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of pelvic region"
     }],
     "property" : [{
@@ -48616,11 +43755,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament curieux, imaginatif et prêt à explorer et à faire de nouvelles expériences, par opposition à inerte, inattentif et peu enclin aux émotions.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Openness to experience"
     }],
     "property" : [{
@@ -48662,11 +43796,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Planifier, organiser, préparer et servir des repas simples ou complexes pour soi-même et les autres, en établissant un menu, en choisissant des aliments et des boissons, en réunissant les ingrédients pour préparer les repas, en cuisant et en préparant les aliments et les boissons froides, en servant les repas.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Preparing meals"
     }],
     "property" : [{
@@ -48727,11 +43856,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du globe oculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of eyeball"
     }],
     "property" : [{
@@ -48809,11 +43933,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Niveau ou volume d'un phénomène audible défini par la quantité d'énergie produite, où les hauts niveaux d'énergie sont perçus comme des sons forts et les faibles niveaux comme des sons doux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound intensity"
     }],
     "property" : [{
@@ -48855,11 +43974,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les doigts, les mains et les bras pour attirer quelque chose à soi ou le déplacer d'un endroit à un autre, comme pour tirer sur une ficelle ou fermer une porte.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pulling"
     }],
     "property" : [{
@@ -48905,11 +44019,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nettoyer, couper ou polir les ongles des pieds.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for toenails"
     }],
     "property" : [{
@@ -48954,11 +44063,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulation du coude",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Elbow joint"
     }],
     "property" : [{
@@ -49003,11 +44107,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Nez externe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "External nose"
     }],
     "property" : [{
@@ -49052,11 +44151,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la conscience",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Consciousness functions, unspecified"
     }],
     "property" : [{
@@ -49093,11 +44187,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres aspects relatifs au son précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sound"
     }],
     "property" : [{
@@ -49135,11 +44224,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la tension présente dans les muscles et les groupes de muscles au repos du côté droit ou gauche du corps et à la résistance offerte lors de l'exécution de mouvements passifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tone of muscles of one side of body"
     }],
     "property" : [{
@@ -49181,11 +44265,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prévoir et contrôler la miction, par ex. en exprimant le besoin d'uriner, en se mettant dans une position adéquate, en choisissant et en se rendant à un endroit approprié pour uriner, en manipulant les vêtements avant et après la miction, et en se nettoyant après avoir uriné.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regulating urination"
     }],
     "property" : [{
@@ -49230,11 +44309,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives aux réflexes moteurs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Motor reflex functions, unspecified"
     }],
     "property" : [{
@@ -49272,11 +44346,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer, prendre les dispositions nécessaires en matière de temps et d'espace, gérer et exécuter plusieurs tâches ensemble ou l'une après l'autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying out multiple tasks"
     }],
     "property" : [{
@@ -49322,11 +44391,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Chute d'humidité condensée, par exemple pluie, rosée, neige, grêle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Precipitation"
     }],
     "property" : [{
@@ -49367,11 +44431,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Œil, oreille et structures annexes, autres et précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Eye, ear and related structures, other specified"
     }],
     "property" : [{
@@ -49412,11 +44471,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du tronc cérébral",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of brain stem"
     }],
     "property" : [{
@@ -49458,11 +44512,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la détermination du langage parlé et à sa distinction par rapport à d'autres sons.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Speech discrimination"
     }],
     "property" : [{
@@ -49503,11 +44552,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du membre inférieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of lower extremity"
     }],
     "property" : [{
@@ -49549,11 +44593,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement de l'omoplate.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of scapula"
     }],
     "property" : [{
@@ -49595,11 +44634,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les amis sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of friends"
     }],
     "property" : [{
@@ -49641,11 +44675,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification littérale et figurée de messages qui sont transmis par écrit (y compris en braille), comme suivre les événements politiques dans un journal, comprendre un texte religieux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - written messages"
     }],
     "property" : [{
@@ -49691,11 +44720,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de transport du sang partout dans le corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Blood vessel functions"
     }],
     "property" : [{
@@ -49756,11 +44780,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'appareil reproducteur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of reproductive system"
     }],
     "property" : [{
@@ -49841,11 +44860,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée des glandes endocrines",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of endocrine glands, unspecified"
     }],
     "property" : [{
@@ -49887,11 +44901,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques des paysages aquatiques, comme les lacs, les étangs, les rivières, les cours d'eau.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Surface fresh water bodies"
     }],
     "property" : [{
@@ -49932,11 +44941,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de vocalisation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Alternative vocalization functions, unspecified"
     }],
     "property" : [{
@@ -49973,11 +44977,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations intimes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Intimate relationships, unspecified"
     }],
     "property" : [{
@@ -50018,11 +45017,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de se laver",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified washing oneself"
     }],
     "property" : [{
@@ -50063,11 +45057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés de la vie communautaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Community life, unspecified"
     }],
     "property" : [{
@@ -50109,11 +45098,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques visant à assurer un revenu aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin d'une aide publique financée par les revenus du système général de l'impôt ou d'un système de contribution.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social security services, systems and policies"
     }],
     "property" : [{
@@ -50175,11 +45159,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs aux communications de masse par la radio, la télévision, la presse et Internet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Media services, systems and policies"
     }],
     "property" : [{
@@ -50241,11 +45220,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser une ou les deux mains pour saisir et tenir fermement quelque chose, comme un outil ou une poignée de porte.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Grasping"
     }],
     "property" : [{
@@ -50290,11 +45264,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Plantes et animaux non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fauna and flora, unspecified"
     }],
     "property" : [{
@@ -50331,11 +45300,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Colonne thoracique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thoracic vertebral column"
     }],
     "property" : [{
@@ -50381,11 +45345,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la fréquence de la miction.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Frequency of urination"
     }],
     "property" : [{
@@ -50426,11 +45385,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de calcul",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Calculation functions, unspecified"
     }],
     "property" : [{
@@ -50467,11 +45421,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de l'audition et fonctions vestibulaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hearing and vestibular functions"
     }],
     "property" : [{
@@ -50528,11 +45477,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os du crâne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of cranium"
     }],
     "property" : [{
@@ -50578,11 +45522,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception de la pression contre ou sur la peau.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensitivity to pressure"
     }],
     "property" : [{
@@ -50623,11 +45562,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives aux mouvements involontaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified involuntary movement functions"
     }],
     "property" : [{
@@ -50665,11 +45599,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de contrôle de la miction.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urinary continence"
     }],
     "property" : [{
@@ -50710,11 +45639,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées d'utilisation des mains et des bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hand and arm use, unspecified"
     }],
     "property" : [{
@@ -50755,11 +45679,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions émotionnelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Emotional functions, unspecified"
     }],
     "property" : [{
@@ -50796,11 +45715,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of the cardiovascular, immunological and respiratory systems, other specified"
     }],
     "property" : [{
@@ -50841,11 +45755,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés pour la communication",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for communication, unspecified"
     }],
     "property" : [{
@@ -50882,11 +45791,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de l'énergie et des pulsions",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified energy and drive functions"
     }],
     "property" : [{
@@ -50923,11 +45827,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "S'occuper des effets ménagers et aider les autres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for household objects and assisting others"
     }],
     "property" : [{
@@ -50981,11 +45880,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les membres d'une culture, d'une société, de sous-groupes culturels ou autres groupes sociaux sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Societal attitudes"
     }],
     "property" : [{
@@ -51027,11 +45921,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des muscles thoraciques impliqués dans la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the thoracic respiratory muscles"
     }],
     "property" : [{
@@ -51073,11 +45962,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable ressentie partout ou dans tout le corps indiquant des dommages potentiels ou réels à une structure anatomique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Generalized pain"
     }],
     "property" : [{
@@ -51118,11 +46002,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Faire la conversation, autre forme précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified conversation"
     }],
     "property" : [{
@@ -51163,11 +46042,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions visuelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified seeing functions"
     }],
     "property" : [{
@@ -51204,11 +46078,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres sensations précisées relatives au système digestif",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensations associated with the digestive system"
     }],
     "property" : [{
@@ -51245,11 +46114,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de l'attention",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified attention functions"
     }],
     "property" : [{
@@ -51286,11 +46150,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Œil, oreille et structures annexes, non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Eye, ear and related structures, unspecified"
     }],
     "property" : [{
@@ -51332,11 +46191,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques utilisés dans le monde du travail pour faciliter l'exécution des tâches, comme des outils, des machines ou du matériel de bureau, et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for employment"
     }],
     "property" : [{
@@ -51377,11 +46231,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la mémoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified memory functions"
     }],
     "property" : [{
@@ -51419,11 +46268,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou quitter la position debout et prendre n'importe quelle position à partir de la position debout, par ex., se coucher ou s'asseoir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Standing"
     }],
     "property" : [{
@@ -51469,11 +46313,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produire des messages comportant une signification littérale et implicite susceptibles d'être transmis par écrit, comme écrire une lettre à un ami.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Writing messages"
     }],
     "property" : [{
@@ -51519,11 +46358,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification représentée par des dessins (par exemple les dessins au trait, les graphismes, les peintures, les représentations à trois dimensions, les pictogrammes), des graphiques, des diagrammes et des photographies, comme le fait de comprendre qu'un trait vers le haut sur un diagramme de taille indique que l'enfant grandit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - drawings and photographs"
     }],
     "property" : [{
@@ -51569,11 +46403,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception de la position relative des parties du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Proprioceptive function"
     }],
     "property" : [{
@@ -51615,11 +46444,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Passer en position assise d'un siège à un autre, au même niveau ou à un niveau différent, comme passer de la chaise au lit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transferring oneself while sitting"
     }],
     "property" : [{
@@ -51665,11 +46489,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les dispensateurs de soins personnels et aides domestiques sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of personal care providers and personal assistants"
     }],
     "property" : [{
@@ -51711,11 +46530,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la production du sang et de ses composants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Production of blood"
     }],
     "property" : [{
@@ -51756,11 +46570,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Membrane du tympan",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tympanic membrane"
     }],
     "property" : [{
@@ -51805,11 +46614,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées liées au mucus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to mucus, unspecified"
     }],
     "property" : [{
@@ -51847,11 +46651,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques fabriqués par l'homme et constituant l'environnement d'une personne, qui sont imaginés, conçus et construits pour l'usage privé, comme les entrées et les sorties des maisons, les rampes fixes ou amovibles, les portes automatiques, les poignées de portes à bonne hauteur, les accès de plain-pied.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for entering and exiting of buildings for private use"
     }],
     "property" : [{
@@ -51893,11 +46692,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à communiquer, par ex. en les aidant à parler, à écrire ou à lire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others in communication"
     }],
     "property" : [{
@@ -51943,11 +46737,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Courber le dos vers l'avant ou sur le côté, à hauteur du tronc, comme pour faire une révérence ou pour attraper un objet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bending"
     }],
     "property" : [{
@@ -51992,11 +46781,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à l'utilisation d'un moyen de transport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified using transportation"
     }],
     "property" : [{
@@ -52038,11 +46822,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'acceptation par l'organisme des aliments et des boissons qui conviennent pour la digestion et au rejet de ceux qui ne conviennent pas.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tolerance to food"
     }],
     "property" : [{
@@ -52083,11 +46862,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits ou substances non précisés pour la consommation personnelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products or substances for personal consumption, unspecified"
     }],
     "property" : [{
@@ -52124,11 +46898,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à l'architecture et la construction",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified architecture and construction services, systems and policies"
     }],
     "property" : [{
@@ -52165,11 +46934,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées liées à la puberté",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified pubertal functions"
     }],
     "property" : [{
@@ -52206,11 +46970,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of hand, unspecified"
     }],
     "property" : [{
@@ -52251,11 +47010,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés de l'architecture, de la construction et des aménagements des bâtiments à usage privé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified design, construction and building products and technology of buildings for private use"
     }],
     "property" : [{
@@ -52292,11 +47046,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de vocalisation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified alternative vocalization functions"
     }],
     "property" : [{
@@ -52333,11 +47082,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Relations particulières avec autrui",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Particular interpersonal relationships"
     }],
     "property" : [{
@@ -52403,11 +47147,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques des zones rurales qui constituent l'environnement immédiat d'une personne et qui ont été affectés ou changés par les politiques, la conception, la planification et l'aménagement de l'espace, comme les terrains agricoles, les sentiers et les panneaux indicateurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of rural land development"
     }],
     "property" : [{
@@ -52449,11 +47188,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans un ou les deux membres inférieurs, y compris les pieds.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in lower limb"
     }],
     "property" : [{
@@ -52494,11 +47228,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle GRAVE (élevé, extrême, ...) 50-95%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "SEVERE barrier (high, extreme,...) 50-95%"
     }],
     "property" : [{
@@ -52535,11 +47264,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de l'attention",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Attention functions, unspecified"
     }],
     "property" : [{
@@ -52576,11 +47300,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de toux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of coughing"
     }],
     "property" : [{
@@ -52621,11 +47340,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poumons",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lungs"
     }],
     "property" : [{
@@ -52687,11 +47401,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait d'écraser et de travailler les aliments avec les dents postérieures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Chewing"
     }],
     "property" : [{
@@ -52732,11 +47441,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Transferts non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transferring oneself, unspecified"
     }],
     "property" : [{
@@ -52777,11 +47481,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives aux systèmes digestif, métabolique et endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the digestive, metabolic and endocrine systems, unspecified"
     }],
     "property" : [{
@@ -52819,11 +47518,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent l'envie ou le désir naturel, particulièrement le désir naturel et récurrent de manger et de boire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Appetite"
     }],
     "property" : [{
@@ -52864,11 +47558,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs au travail et à l'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified labour and employment services, systems and policies"
     }],
     "property" : [{
@@ -52905,11 +47594,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du palais",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of palate"
     }],
     "property" : [{
@@ -52962,11 +47646,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de prendre soin des parties de son corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for body parts, unspecified"
     }],
     "property" : [{
@@ -53008,11 +47687,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Nature de la lumière émise et contrastes de couleurs qui en découlent dans l'environnement visible, susceptible de fournir des informations utiles sur le monde environnant (par ex. information visible quant à la présence d'escaliers ou d'une porte) ou de détourner l'attention (par ex. profusion de stimulations visuelles).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Light quality"
     }],
     "property" : [{
@@ -53054,11 +47728,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre des mots et des symboles comme des signes graphiques ou manuels ou des symboles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring single words or meaningful symbols"
     }],
     "property" : [{
@@ -53103,11 +47772,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures du système cardio-vasculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cardiovascular system"
     }],
     "property" : [{
@@ -53176,11 +47840,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du tronc de l'encéphale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of brain stem"
     }],
     "property" : [{
@@ -53242,11 +47901,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées susceptibles de répondre aux exigences des tâches et obligations quotidiennes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Managing daily routine"
     }],
     "property" : [{
@@ -53292,11 +47946,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin de ses cheveux ou de sa barbe, par exemple en les peignant, les brossant, les coiffant ou les frisant, en se rasant ou en se taillant la barbe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for hair"
     }],
     "property" : [{
@@ -53342,11 +47991,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher ou se déplacer dans des bâtiments autres que la maison, comme la maison d'autres personnes, des bâtiments privés, des bâtiments communautaires et publics, ou des espaces clos.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around within buildings other than home"
     }],
     "property" : [{
@@ -53392,11 +48036,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer et prendre les dispositions nécessaires en matière de temps et d'espace pour exécuter des tâches multiples, gérer et exécuter plusieurs tâches, ensemble ou l'une après l'autre, avec d'autres personnes impliquées à un ou plusieurs stades de l'exécution des tâches multiples.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking multiple tasks in a group"
     }],
     "property" : [{
@@ -53441,11 +48080,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of forearm"
     }],
     "property" : [{
@@ -53486,11 +48120,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions et sensations additionnelles précisées et non précisées associées aux systèmes cardio-vasculaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional functions and sensations of the cardiovascular and respiratory systems, other specified and unspecified"
     }],
     "property" : [{
@@ -53527,11 +48156,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions mentales précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified mental functions of language"
     }],
     "property" : [{
@@ -53569,11 +48193,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui fournissent la maîtrise volontaire de la pensée et sont reconnues comme tel par la personne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Control of thought"
     }],
     "property" : [{
@@ -53615,11 +48234,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre et quitter une position et passer d'un endroit à un autre, comme se lever d'un fauteuil pour se coucher sur un lit, et prendre et quitter les positions assis, debout, à genoux ou accroupi.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Changing basic body position"
     }],
     "property" : [{
@@ -53704,11 +48318,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of forearm, unspecified"
     }],
     "property" : [{
@@ -53750,11 +48359,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions du transport du mucus des voies aériennes supérieures et inférieures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation of mucus"
     }],
     "property" : [{
@@ -53796,11 +48400,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur les aspects généraux relatifs à la réalisation de tâches uniques ou multiples, l'organisation de routines quotidiennes et la gestion du stress. Ces catégories peuvent être utilisées en conjonction avec des tâches ou des actions plus spécifiques si l'on veut préciser l'activité sous-jacente dans différentes circonstances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General tasks and demands"
     }],
     "property" : [{
@@ -53865,11 +48464,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulations de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Joints of shoulder region"
     }],
     "property" : [{
@@ -53915,11 +48509,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'arrêt temporaire ou définitif des menstruations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cessation of menstruation"
     }],
     "property" : [{
@@ -53960,11 +48549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions et sensations additionnelles des systèmes cardio-vasculaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional functions and sensations of the cardiovascular and respiratory systems"
     }],
     "property" : [{
@@ -54021,11 +48605,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du système nerveux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nervous system, other specified"
     }],
     "property" : [{
@@ -54066,11 +48645,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions mentales précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified mental functions"
     }],
     "property" : [{
@@ -54108,11 +48682,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Reproduire une suite d'événements ou de symboles en tant que composante de base de l'apprentissage, comme compter par dizaines ou s'exercer à réciter une comptine avec des gestes ou à jouer des accords sur un instrument de musique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Rehearsing"
     }],
     "property" : [{
@@ -54158,11 +48727,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées durant l'accouchement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to childbirth"
     }],
     "property" : [{
@@ -54204,11 +48768,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien d'une contraction musculaire pour la période de temps requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle endurance functions"
     }],
     "property" : [{
@@ -54269,11 +48828,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology, unspecified"
     }],
     "property" : [{
@@ -54310,11 +48864,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de se déplacer dans différents lieux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified moving around in different locations"
     }],
     "property" : [{
@@ -54355,11 +48904,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à l'acquisition d'un endroit pour vivre",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring a place to live, unspecified"
     }],
     "property" : [{
@@ -54401,11 +48945,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations de fatigue oculaire, de sécheresse et de démangeaison oculaire et sensations connexes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with the eye and adjoining structures"
     }],
     "property" : [{
@@ -54446,11 +48985,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'orbite",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of eye socket"
     }],
     "property" : [{
@@ -54496,11 +49030,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à reconnaître et à utiliser les chiffres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to recognize numerals, arithmetic signs and symbols"
     }],
     "property" : [{
@@ -54546,11 +49075,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avoir des relations avec d'autres personnes en fonction de diverses situations et dans le respect des convenances, comme faire preuve de respect ou d'estime quand il le faut, ou avoir des égards pour autrui.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basic interpersonal interactions"
     }],
     "property" : [{
@@ -54632,11 +49156,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans une ou plusieurs articulations, grandes ou petites.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in joints"
     }],
     "property" : [{
@@ -54678,11 +49197,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales qui se développent au cours de la vie, nécessaires pour comprendre et pour intégrer de manière constructive les fonctions mentales qui président à la formation des aptitudes interpersonnelles pour établir les interactions sociales réciproques, tant en termes de signification que de finalité.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Global psychosocial functions"
     }],
     "property" : [{
@@ -54724,11 +49238,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la satisfaction après l'orgasme et la relaxation qui l'accompagne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of sexual resolution phase"
     }],
     "property" : [{
@@ -54769,11 +49278,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés pour la pratique religieuse et les activités spirituelles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for the practice of religion or spirituality, unspecified"
     }],
     "property" : [{
@@ -54810,11 +49314,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Trachée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Trachea"
     }],
     "property" : [{
@@ -54859,11 +49358,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "dimensions anormales",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "aberrant dimensions"
     }],
     "property" : [{
@@ -54900,11 +49394,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait d'aider les autres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others, unspecified"
     }],
     "property" : [{
@@ -54946,11 +49435,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques relatives à la prise de conscience de sa propre identité, de son corps et de sa place dans la réalité de l'environnement et du temps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Experience of self and time functions"
     }],
     "property" : [{
@@ -55011,11 +49495,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of hand"
     }],
     "property" : [{
@@ -55061,11 +49540,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui, lorsqu'elles sont altérées, apportent des changements à l'état de veille, de vigilance et de conscience, par exemple états altérés dus à des drogues ou délire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of consciousness"
     }],
     "property" : [{
@@ -55107,11 +49581,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser diverses machines comme des machines à écrire, des ordinateurs ou des machines à écrire en braille en tant que moyens de communication.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using writing machines"
     }],
     "property" : [{
@@ -55157,11 +49626,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les gestes coordonnés nécessaires pour déplacer les objets ou les manipuler en utilisant les mains et les bras, comme pour tourner une poignée de porte, ou lancer ou attraper un objet.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hand and arm use"
     }],
     "property" : [{
@@ -55238,11 +49702,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des aires de la peau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of areas of skin"
     }],
     "property" : [{
@@ -55320,11 +49779,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations spécifiques dans un cadre formel, comme avec des enseignants, des employeurs, des professionnels ou des prestataires de services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Formal relationships"
     }],
     "property" : [{
@@ -55390,11 +49844,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Poursuivre et construire un dialogue ou un échange de vocalisations, de paroles ou de signes, en apportant des idées, en proposant de nouveaux sujets ou en rappelant un sujet évoqué précédemment.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sustaining a conversation"
     }],
     "property" : [{
@@ -55440,11 +49889,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance régissant la diffusion de nouvelles et autres informations au grand public, tels que les normes qui définissent le contenu, la distribution, la diffusion, l'accès et les méthodes de communications par voie de radio, télévision, reportages de la presse, les journaux et moyens de communications de masse informatisés (web, Internet).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Media systems"
     }],
     "property" : [{
@@ -55485,11 +49929,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres changements précisés de la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified changing basic body position"
     }],
     "property" : [{
@@ -55531,11 +49970,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées au début de la puberté et des manifestations des caractéristiques sexuelles primaires et secondaires.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pubertal functions"
     }],
     "property" : [{
@@ -55596,11 +50030,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'oreille moyenne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of middle ear"
     }],
     "property" : [{
@@ -55665,11 +50094,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des nerfs crâniens",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of cranial nerves"
     }],
     "property" : [{
@@ -55715,11 +50139,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des autres muscles impliqués dans la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of accessory respiratory muscles"
     }],
     "property" : [{
@@ -55761,11 +50180,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre soin des parties de son corps, comme la peau, le visage, les dents, le cuir chevelu, les ongles et les parties génitales, qui exigent plus qu'un lavage et un séchage.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for body parts"
     }],
     "property" : [{
@@ -55846,11 +50260,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées entourant l'œil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structures around eye"
     }],
     "property" : [{
@@ -55891,11 +50300,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Rate",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spleen"
     }],
     "property" : [{
@@ -55940,11 +50344,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'œsophage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of oesophagus"
     }],
     "property" : [{
@@ -55990,11 +50389,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction des muscles et des groupes de muscles situés dans la moitié inférieure du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of muscles in lower half of the body"
     }],
     "property" : [{
@@ -56036,11 +50430,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification des expressions du visage, des mouvements et signes des mains, des postures du corps et autres formes du langage corporel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - body gestures"
     }],
     "property" : [{
@@ -56086,11 +50475,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se nettoyer les oreilles et prendre soin de l'hygiène de ses oreilles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for ears"
     }],
     "property" : [{
@@ -56135,11 +50519,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions mentales globales",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Global mental functions"
     }],
     "property" : [{
@@ -56212,11 +50591,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions sexuelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sexual functions, unspecified"
     }],
     "property" : [{
@@ -56253,11 +50627,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions visuelles et fonctions connexes, précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seeing and related functions, other specified and unspecified"
     }],
     "property" : [{
@@ -56294,11 +50663,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Gland du pénis",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Glans penis"
     }],
     "property" : [{
@@ -56344,11 +50708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des muscles impliqués dans la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiratory muscle functions"
     }],
     "property" : [{
@@ -56409,11 +50768,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées liées à la voix et à la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures involved in voice and speech, unspecified"
     }],
     "property" : [{
@@ -56454,11 +50808,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Intestin grêle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Small intestine"
     }],
     "property" : [{
@@ -56504,11 +50853,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher et se déplacer aux abords et à une certaine distance de la maison et d'autres bâtiments, sans utiliser de moyens de transports publics ou privés, comme marcher sur une bonne distance dans le village ou en ville.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around outside the home and other buildings"
     }],
     "property" : [{
@@ -56554,11 +50898,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans la fréquence de la défécation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Frequency of defecation"
     }],
     "property" : [{
@@ -56600,11 +50939,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher sur des surfaces en pente, inégales ou en mouvement, comme marcher sur l'herbe, sur du gravier, de la glace et de la neige, ou marcher à bord d'un bateau, d'un train ou d'un autre véhicule.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking on different surfaces"
     }],
     "property" : [{
@@ -56650,11 +50984,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au niveau général de tolérance à l'exercice physique ou la vigueur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General physical endurance"
     }],
     "property" : [{
@@ -56695,11 +51024,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés pour la culture, les loisirs et le sport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology for culture, recreation and sport"
     }],
     "property" : [{
@@ -56736,11 +51060,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés de la récréation et des loisirs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Recreation and leisure, unspecified"
     }],
     "property" : [{
@@ -56781,11 +51100,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lobe occipital",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Occipital lobe"
     }],
     "property" : [{
@@ -56831,11 +51145,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fixer son attention intentionnellement sur des stimuli spécifiques, par exemple ne pas se laisser distraire par le bruit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Focusing attention"
     }],
     "property" : [{
@@ -56896,11 +51205,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Reins",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Kidney"
     }],
     "property" : [{
@@ -56945,11 +51249,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Conversation et utilisation des appareils et des techniques de communication",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversation and use of communication devices and techniques"
     }],
     "property" : [{
@@ -57007,11 +51306,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mettre en relation des objets, des jouets ou autre matériel, de manière symbolique, par exemple en donnant à manger ou en habillant une poupée ou en utilisant un environnement simulé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning by relating symbolically to objects"
     }],
     "property" : [{
@@ -57056,11 +51350,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées liées à l'appareil génito-urinaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structures related to the genitourinary and reproductive systems"
     }],
     "property" : [{
@@ -57101,11 +51390,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Colonne sacrée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sacral vertebral column"
     }],
     "property" : [{
@@ -57151,11 +51435,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales nécessaires à la production de messages écrits signifiants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of written language"
     }],
     "property" : [{
@@ -57196,11 +51475,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of head and neck region"
     }],
     "property" : [{
@@ -57242,11 +51516,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées qu'une personne doit accomplir pour gérer et maîtriser les exigences psychologiques nécessaires à la réalisation de tâches impliquant un niveau important de responsabilité et entraînant stress, distraction et crises, comme passer des examens, conduire un véhicule dans un trafic dense, terminer une tâche dans un temps limité ou avoir la responsabilité d’un groupe de personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Handling stress and other psychological demands"
     }],
     "property" : [{
@@ -57311,11 +51580,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Coccyx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Coccyx"
     }],
     "property" : [{
@@ -57360,11 +51624,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of thigh"
     }],
     "property" : [{
@@ -57410,11 +51669,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques de détermination, d'approximation et de manipulation des symboles et fonctions mathématiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Calculation functions"
     }],
     "property" : [{
@@ -57472,11 +51726,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se déplacer vers le haut et vers le bas de manière à ce qu'au moins un pied soit toujours au sol, comme monter et descendre une marche d'escaliers ou un trottoir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Going up and down stairs"
     }],
     "property" : [{
@@ -57521,11 +51770,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Sensations non précisées associées aux fonctions génitales et reproductives",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with genital and reproductive functions, unspecified"
     }],
     "property" : [{
@@ -57563,11 +51807,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au flux sanguin dans les veines et fonctions des valvules veineuses.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of veins"
     }],
     "property" : [{
@@ -57608,11 +51847,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Région dorsale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thoracic spinal cord"
     }],
     "property" : [{
@@ -57657,11 +51891,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées du tempérament et de la personnalité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Temperament and personality functions, unspecified"
     }],
     "property" : [{
@@ -57699,11 +51928,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques imaginés, conçus et construits pour l'usage privé à l'intérieur et l'extérieur pour trouver son chemin et sa destination, comme des panneaux de signalisation, les indications en braille, la largeur des corridors et les recouvrements de sols.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for way finding, path routing and designation of locations in buildings for private use"
     }],
     "property" : [{
@@ -57745,11 +51969,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui règlent la vitesse du comportement ou du temps de réponse qui fait appel à la fois aux composantes motrices et psychologiques, comme dans le cas d'une perturbation de la maîtrise donnant lieu à un retard psychomoteur (bouger et parler lentement ; diminution des gestes et de la spontanéité) ou à l'agitation psychomotrice (activité comportementale et cognitive excessive, généralement non productive et souvent en réponse à la tension interne, par exemple battre des pieds, se tordre les mains, être agité ou ne pas tenir en place).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Psychomotor control"
     }],
     "property" : [{
@@ -57790,11 +52009,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions émotionnelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified emotional functions"
     }],
     "property" : [{
@@ -57831,11 +52045,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la cheville et du pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of ankle and foot"
     }],
     "property" : [{
@@ -57881,11 +52090,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'éveil de l'intérêt sexuel et de l'excitation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of sexual arousal phase"
     }],
     "property" : [{
@@ -57927,11 +52131,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner et contrôler la défécation, par ex. en exprimant le besoin de déféquer, en choisissant et en se rendant à un endroit approprié pour déféquer, en manipulant les vêtements avant et après la défécation, et en se nettoyant après avoir déféqué.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regulating defecation"
     }],
     "property" : [{
@@ -57977,11 +52176,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou transporter un ou plusieurs objets d'un endroit à un autre sur la tête, comme pour porter un récipient d'eau sur la tête.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying on the head"
     }],
     "property" : [{
@@ -58027,11 +52221,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions additionnelles associées à la respiration, telles que la production et le transport des sécrétions des voies aériennes, la toux, l'éternuement et le bâillement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional functions of the respiratory system"
     }],
     "property" : [{
@@ -58100,11 +52289,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la pensée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thought functions, unspecified"
     }],
     "property" : [{
@@ -58141,11 +52325,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir des concepts, non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring concepts, unspecified"
     }],
     "property" : [{
@@ -58187,11 +52366,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction des muscles et des groupes de muscles du tronc.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of muscles of the trunk"
     }],
     "property" : [{
@@ -58232,11 +52406,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du larynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of larynx"
     }],
     "property" : [{
@@ -58293,11 +52462,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ongles de doigt",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Finger nails"
     }],
     "property" : [{
@@ -58342,11 +52506,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Performance",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Performance"
     }],
     "property" : [{
@@ -58407,11 +52566,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives à l'endurance musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle endurance functions, unspecified"
     }],
     "property" : [{
@@ -58449,11 +52603,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement de l'omoplate, du pelvis, des os du carpe et du tarse.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of bone functions"
     }],
     "property" : [{
@@ -58515,11 +52664,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir la taille, la forme et le contour en utilisant les deux yeux pour les objets situés près de l'œil.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Binocular acuity of near vision"
     }],
     "property" : [{
@@ -58560,11 +52704,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of thigh"
     }],
     "property" : [{
@@ -58633,11 +52772,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'oreille moyenne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of middle ear"
     }],
     "property" : [{
@@ -58678,11 +52812,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres produits et systèmes techniques précisés de l'aménagement du territoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified products and technology of land development"
     }],
     "property" : [{
@@ -58720,11 +52849,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de lâcher prise et de tomber.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of falling"
     }],
     "property" : [{
@@ -58766,11 +52890,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de pompage dans l'organisme des quantités de sang adéquates ou requises et de la pression sanguine.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Heart functions"
     }],
     "property" : [{
@@ -58836,11 +52955,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la distinction des différences entre les odeurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Olfactory perception"
     }],
     "property" : [{
@@ -58881,11 +52995,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du foie",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of liver"
     }],
     "property" : [{
@@ -58931,11 +53040,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la paupière, comme le réflexe protecteur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the eyelid"
     }],
     "property" : [{
@@ -58977,11 +53081,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Planifier, organiser, préparer et servir des repas faits d'un grand nombre d'ingrédients complexes à préparer et à servir, comme préparer un repas avec plusieurs plats, transformer les ingrédients de diverses manières en les pelant, les tranchant, les mélangeant, les malaxant et les agitant, et les présenter et les servir d'une manière conforme à l'occasion et aux usages culturels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Preparing complex meals"
     }],
     "property" : [{
@@ -59026,11 +53125,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glande thyroïde",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thyroid gland"
     }],
     "property" : [{
@@ -59076,11 +53170,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles relatives à l'ensemble du champ visuel couvert par le regard fixe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visual field functions"
     }],
     "property" : [{
@@ -59122,11 +53211,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Tous les prestataires de soins travaillant en dehors du système de santé mais proposant des services qui ont un impact sur la santé, comme les travailleurs sociaux, les professeurs, les architectes, les concepteurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other professionals"
     }],
     "property" : [{
@@ -59168,11 +53252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques de l'architecture, de la construction et des aménagements intérieurs, imaginés, conçus et construits pour l'usage public à l'intérieur des bâtiments, comme les toilettes, les téléphones, les ascenseurs ou les élévateurs, les escaliers roulants, les thermostats (pour régler la température), les sièges accessibles dispersés dans les auditoires et les stades.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for gaining access to facilities inside buildings for public use"
     }],
     "property" : [{
@@ -59213,11 +53292,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Déficience MODÉRÉE (moyenne, passable, ...) 25-49%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "MODERATE impairment (medium, fair,...) 25-49 %"
     }],
     "property" : [{
@@ -59255,11 +53329,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des contractions involontaires des muscles automatiquement provoquées par l'étirement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stretch motor reflex"
     }],
     "property" : [{
@@ -59300,11 +53369,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée des glandes cutanées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of skin glands"
     }],
     "property" : [{
@@ -59346,11 +53410,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes qui sont des connaissances proches et qui perdurent dans des relations caractérisées par la confiance et le soutien mutuel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Friends"
     }],
     "property" : [{
@@ -59392,11 +53451,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques de l'aménagement du territoire, y compris ceux qui ont été adaptés ou spécialement conçus, qui affectent l'environnement extérieur immédiat de la personne par la mise en œuvre des politiques, par la conception, la planification et l'aménagement de l'espace.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of land development"
     }],
     "property" : [{
@@ -59461,11 +53515,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à l'entretien personnel",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Self-care, unspecified"
     }],
     "property" : [{
@@ -59506,11 +53555,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à la puissance musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified muscle power functions"
     }],
     "property" : [{
@@ -59547,11 +53591,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des glandes endocrines",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of endocrine glands"
     }],
     "property" : [{
@@ -59620,11 +53659,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs au logement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Housing services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -59661,11 +53695,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Faire la conversation, forme précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversation, unspecified"
     }],
     "property" : [{
@@ -59706,11 +53735,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions de l'audition et fonctions vestibulaires précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hearing and vestibular functions, other specified and unspecified"
     }],
     "property" : [{
@@ -59747,11 +53771,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of upper arm"
     }],
     "property" : [{
@@ -59793,11 +53812,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris ceux qui s'en occupent, fournissant à l'ensemble de la population l'énergie (carburant et électricité), les systèmes d'assainissement, l'eau et autres services essentiels (services d'intervention) pour les consommateurs des zones résidentielles et commerciales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Utilities services"
     }],
     "property" : [{
@@ -59838,11 +53852,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of upper arm"
     }],
     "property" : [{
@@ -59888,11 +53897,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent une forte envie de consommer des substances, notamment des intoxicants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Craving"
     }],
     "property" : [{
@@ -59933,11 +53937,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau et structures annexes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified skin and related structures"
     }],
     "property" : [{
@@ -59979,11 +53978,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques mis en place pour fournir des abris, des bâtiments d'habitation et autres logements pour la population.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Housing services, systems and policies"
     }],
     "property" : [{
@@ -60045,11 +54039,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au contrôle et à la coordination des mouvements volontaires simples ou isolés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Control of simple voluntary movements"
     }],
     "property" : [{
@@ -60090,11 +54079,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lèvre supérieure",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Upper lip"
     }],
     "property" : [{
@@ -60140,11 +54124,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Objets ou substances naturels ou fabriqués par l'homme, qui sont ramassés, transformés ou fabriqués pour être ingérés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products or substances for personal consumption"
     }],
     "property" : [{
@@ -60205,11 +54184,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Éducation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education"
     }],
     "property" : [{
@@ -60278,11 +54252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Attitudes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Attitudes, unspecified"
     }],
     "property" : [{
@@ -60319,11 +54288,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la voix et de la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified voice and speech functions"
     }],
     "property" : [{
@@ -60361,11 +54325,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, adaptés ou spécialement conçus destinés à aider une personne à exécuter les principales activités de la vie courante, comme les appareillages de thérapie et d'entraînement, les prothèses et les orthèses, les prothèses neurales (les appareils de stimulation des fonctions vitales comme le contrôle du transit intestinal, de la vessie, de la respiration et du rythme cardiaque), et les appareils de maîtrise de l'environnement visant à faciliter le contrôle de la personne à l'intérieur de sa maison (scanner, système de commande à distance, système de commande vocale, interrupteurs à minuterie).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for personal use in daily living"
     }],
     "property" : [{
@@ -60407,11 +54366,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au volume d'expansion des poumons pendant la respiration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Depth of respiration"
     }],
     "property" : [{
@@ -60452,11 +54406,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés de l'architecture, de la construction et des aménagements des bâtiments à usage privé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology of buildings for private use, unspecified"
     }],
     "property" : [{
@@ -60493,11 +54442,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Appliquer des connaissances",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Applying knowledge"
     }],
     "property" : [{
@@ -60570,11 +54514,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs aux services sociaux généraux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified general social support services, systems and policies"
     }],
     "property" : [{
@@ -60611,11 +54550,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Corps de l'utérus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Body of uterus"
     }],
     "property" : [{
@@ -60661,11 +54595,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre et quitter la position où le corps est porté sur les genoux, les jambes pliées, comme pendant les prières, ou passer de la position à genoux à une autre position, comme se mettre debout.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Kneeling"
     }],
     "property" : [{
@@ -60711,11 +54640,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de distinguer un élément figuré d'un arrière plan, impliquant la quantité minimale de luminosité requise.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Contrast sensitivity"
     }],
     "property" : [{
@@ -60757,11 +54681,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Plantes et animaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Flora and fauna"
     }],
     "property" : [{
@@ -60819,11 +54738,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans un travail rémunéré à temps partiel, comme employé, rechercher et décrocher un emploi, exécuter les tâches qui en découlent, arriver à l'heure au travail, superviser d'autres travailleurs ou être supervisé, et exécuter les tâches requises seul ou en groupe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Part-time employment"
     }],
     "property" : [{
@@ -60869,11 +54783,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements géographiques et atmosphériques qui causent une perturbation dans l'environnement physique d'une personne, se produisant régulièrement ou non, comme tremblements de terre et conditions météorologiques violentes, par ex. tornades, ouragans, typhons, inondations, feux de forêts, pluies verglaçantes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Natural events"
     }],
     "property" : [{
@@ -60914,11 +54823,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à l'éducation et à la formation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified education and training services, systems and policies"
     }],
     "property" : [{
@@ -60956,11 +54860,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques et événements météorologiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Climate"
     }],
     "property" : [{
@@ -61033,11 +54932,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du système parasympathique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of parasympathetic nervous system"
     }],
     "property" : [{
@@ -61082,11 +54976,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of shoulder region"
     }],
     "property" : [{
@@ -61127,11 +55016,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Appliquer des connaissances, autres formes précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Applying knowledge, other specified and unspecified"
     }],
     "property" : [{
@@ -61173,11 +55057,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions d'inhalation de l'air dans les poumons, d'échange des gaz entre l'air et le sang et d'expiration de l'air.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiration functions"
     }],
     "property" : [{
@@ -61239,11 +55118,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'engager dans tous les aspects du travail contre rémunération à temps plein, en tant qu'employé, comme chercher un emploi et obtenir un emploi, effectuer les tâches requises pour le travail, assister au travail à l'heure requise, superviser d'autres travailleurs ou être supervisé, et effectuer les tâches requises seul ou en groupe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Full-time employment"
     }],
     "property" : [{
@@ -61288,11 +55162,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "discontinuité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "discontinuity"
     }],
     "property" : [{
@@ -61329,11 +55198,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives au tonus musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified muscle tone functions"
     }],
     "property" : [{
@@ -61370,11 +55234,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Arbre bronchique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bronchial tree"
     }],
     "property" : [{
@@ -61420,11 +55279,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer à la vie sociale, politique et à la vie de la Cité en tant que citoyen, avoir le statut légal de citoyen et jouir des droits, de la protection, des privilèges et avoir les devoirs associés à cette qualité, jouir du droit de vote, du droit de se porter candidat à une élection et de former un mouvement politique; jouir des droits et des libertés qui découlent de la citoyenneté (par ex. liberté d'expression, d'association, de religion, protection contre la détention arbitraire, droit d'avoir un avocat, d'être jugé et de jouir des droits et d'une protection contre la discrimination); avoir le droit d’ester en justice en tant que citoyen.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political life and citizenship"
     }],
     "property" : [{
@@ -61470,11 +55324,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager, poursuivre et mettre fin à l'examen d'une question donnée ou s'engager dans un débat avec une seule personne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Discussion with one person"
     }],
     "property" : [{
@@ -61520,11 +55369,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser ou composer des symboles pour transmettre des informations, comme relater des événements ou écrire une lettre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Writing"
     }],
     "property" : [{
@@ -61589,11 +55433,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la pression artérielle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified blood pressure functions"
     }],
     "property" : [{
@@ -61631,11 +55470,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer aux aspects de la vie des établissements d’enseignement, comme s’impliquer dans des associations universitaires ou scolaires, y compris les clubs, les associations sportives, les instances civiques associées (conseil scolaire par exemple), et d'autres initiatives organisées par l'institution, qui ne font pas partie du programme d'études.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education life"
     }],
     "property" : [{
@@ -61680,11 +55514,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations formelles précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified formal relationships"
     }],
     "property" : [{
@@ -61725,11 +55554,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of urinary system"
     }],
     "property" : [{
@@ -61770,11 +55594,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Petites lèvres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labia minora"
     }],
     "property" : [{
@@ -61819,11 +55638,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "not specified"
     }],
     "property" : [{
@@ -61861,11 +55675,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées aux canaux vasculaires qui transportent la lymphe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of lymphatic vessels"
     }],
     "property" : [{
@@ -61907,11 +55716,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la dégradation mécanique des aliments en particules plus petites dans le tube digestif.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Breakdown of food"
     }],
     "property" : [{
@@ -61953,11 +55757,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques qui administrent et assurent la production d'objets et autres produits destinés à être consommés ou utilisés par des personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Services, systems and policies for the production of consumer goods"
     }],
     "property" : [{
@@ -62018,11 +55817,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés relatifs à l'obtention, la conservation et la cessation d'emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring, keeping and terminating a job, unspecified"
     }],
     "property" : [{
@@ -62063,11 +55857,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de l'utérus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of uterus"
     }],
     "property" : [{
@@ -62109,11 +55898,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant à poursuivre un intérêt commun à but non commercial avec d'autres personnes partageant les mêmes intérêts, ces services pouvant être sujets à inscription et à acquisition d'une carte de membre, comme des associations et autres sociétés proposant des services récréatifs et de loisirs, des activités sportives, culturelles, religieuses ou d'entraide mutuelle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Associations and organizational services"
     }],
     "property" : [{
@@ -62154,11 +55938,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à la mobilité des articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified mobility of bone functions"
     }],
     "property" : [{
@@ -62196,11 +55975,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui contrôlent l'expérience et la démonstration de l'affect.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regulation of emotion"
     }],
     "property" : [{
@@ -62241,11 +56015,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glande surrénale",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Adrenal gland"
     }],
     "property" : [{
@@ -62291,11 +56060,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les jambes et les pieds pour lancer un objet loin de soi, comme donner un coup de pied dans un ballon.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Kicking"
     }],
     "property" : [{
@@ -62341,11 +56105,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des produits naturels ou fabriqués par l'homme ou des systèmes de produits, équipements et technologies situés dans l'environnement immédiat d'une personne, qui sont rassemblés, créés, fabriqués ou manufacturés. ISO 9999 : 2022 établit une classification et une terminologie des produits d’assistance spécialement conçus ou généralement disponibles pour les personnes ayant une incapacité.\nDans le cadre de la présente classification des facteurs environnementaux, cependant, les produits et systèmes techniques d'assistance sont définis de manière plus restrictive comme tout produit, instrument, équipement ou technologie adapté ou spécialement conçu pour améliorer le fonctionnement d'une personne ayant un problème de santé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology"
     }],
     "property" : [{
@@ -62442,11 +56201,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées du cœur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified heart functions"
     }],
     "property" : [{
@@ -62484,11 +56238,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la détermination du côté droit ou gauche comme étant la source du son.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lateralization of sound"
     }],
     "property" : [{
@@ -62529,11 +56278,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Orientations non précisées par rapport à une personne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to person, unspecified"
     }],
     "property" : [{
@@ -62570,11 +56314,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du pharynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pharynx, unspecified"
     }],
     "property" : [{
@@ -62616,11 +56355,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques associées à la composante idéatoire de l'esprit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thought functions"
     }],
     "property" : [{
@@ -62685,11 +56419,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées des muscles respiratoires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified respiratory muscle functions"
     }],
     "property" : [{
@@ -62727,11 +56456,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de faire passer des substances par l'œsophage en quantité et à une vitesse appropriées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Oesophageal swallowing"
     }],
     "property" : [{
@@ -62773,11 +56497,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entamer, poursuivre, conduire et mener à terme un dialogue ou un échange avec une seule personne, comme dans les jeux de communication pré-verbaux ou verbaux, les échanges vocaux ou verbaux entre un mère et son enfant, ou comme parler du temps avec un ami.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversing with one person"
     }],
     "property" : [{
@@ -62822,11 +56541,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés de l'architecture, de la construction et des aménagements des bâtiments d'utilité publique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology of buildings for public use, unspecified"
     }],
     "property" : [{
@@ -62864,11 +56578,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des contractions involontaires des muscles automatiquement provoquées par des stimuli douloureux ou d'autres stimuli nocifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reflexes generated by noxious stimuli"
     }],
     "property" : [{
@@ -62910,11 +56619,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification littérale transmise à travers des messages parlés simples.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - simple spoken messages"
     }],
     "property" : [{
@@ -62959,11 +56663,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of head and neck region"
     }],
     "property" : [{
@@ -63009,11 +56708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au contrôle et à la coordination des mouvements volontaires complexes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Control of complex voluntary movements"
     }],
     "property" : [{
@@ -63055,11 +56749,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Trouver la réponse à une question, ou plusieurs questions liées, comprenant des éléments multiples et liés entre eux, en cernant et en analysant les questions qui se posent, en mettant au point des solutions, en évaluant les effets potentiels des solutions choisies et en mettant en œuvre la solution choisie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Solving complex problems"
     }],
     "property" : [{
@@ -63105,11 +56794,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Actions simples portant sur un seul objet ou jouet en le manipulant, en le frappant, en le déplaçant, en le laissant tomber, etc.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through simple actions with a single object"
     }],
     "property" : [{
@@ -63154,11 +56838,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées d'ingestion",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified ingestion functions"
     }],
     "property" : [{
@@ -63196,11 +56875,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à s'alimenter, notamment à préparer les repas et à se nourrir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others in nutrition"
     }],
     "property" : [{
@@ -63245,11 +56919,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives au tonus musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle tone functions, unspecified"
     }],
     "property" : [{
@@ -63286,11 +56955,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la planification des zones de plein air",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified open space planning services, systems and policies"
     }],
     "property" : [{
@@ -63327,11 +56991,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ovaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ovaries"
     }],
     "property" : [{
@@ -63377,11 +57036,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques de l'architecture, de la construction et des aménagements intérieurs et extérieurs imaginés, conçus et construits pour l'usage public pour aider la personne à trouver son chemin et sa destination, comme des panneaux de signalisation, des indications en braille, des précisions sur la largeur des corridors et les recouvrements de sols, les accès aux kiosques et autres formes de bornes d'information.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Design, construction and building products and technology for way finding, path routing and designation of locations in buildings for public use"
     }],
     "property" : [{
@@ -63422,11 +57076,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "AUCUNE difficulté en termes de performance (aucune, absence, négligeable, ...) 0-4%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "NO performance difficulty (none, absent, negligible,... ) 0-4 %"
     }],
     "property" : [{
@@ -63463,11 +57112,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits non précisés du patrimoine",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assets, unspecified"
     }],
     "property" : [{
@@ -63504,11 +57148,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de fluidité et de rythme de la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fluency and rhythm of speech functions, unspecified"
     }],
     "property" : [{
@@ -63546,11 +57185,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à la quantité de sang pompée par les muscles ventriculaires à chaque contraction.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Contraction force of ventricular muscles"
     }],
     "property" : [{
@@ -63591,11 +57225,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Catégories non précisées de soutiens et de relations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Support and relationships, unspecified"
     }],
     "property" : [{
@@ -63633,11 +57262,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux modulations, au tempo et à l'accent tonique dans la parole.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Rhythm of speech"
     }],
     "property" : [{
@@ -63678,11 +57302,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées du sommeil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sleep functions, unspecified"
     }],
     "property" : [{
@@ -63719,11 +57338,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions perceptuelles non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Perceptual functions, unspecified"
     }],
     "property" : [{
@@ -63761,11 +57375,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produire des messages en langue des signes comportant une signification littérale et implicite.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing messages in formal sign language"
     }],
     "property" : [{
@@ -63811,11 +57420,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prendre ou transporter un objet d'un endroit à un autre avec les bras et les mains, comme pour porter un animal de compagnie, un enfant ou un autre objet de taille importante.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying in the arms"
     }],
     "property" : [{
@@ -63861,11 +57465,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux contractions involontaires des muscles automatiquement provoquées par des stimuli précisés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Motor reflex functions"
     }],
     "property" : [{
@@ -63926,11 +57525,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées d'utilisation des mains et des bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified hand and arm use"
     }],
     "property" : [{
@@ -63971,11 +57565,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures of the cardiovascular, immunological and respiratory systems, unspecified"
     }],
     "property" : [{
@@ -64017,11 +57606,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'adonner à des passe-temps, comme collectionner des timbres (ou par exemple les pièces de monnaie, les objets anciens, les pierres précieuses, les coquillages ou les images), observer les oiseaux ou faire de l’astronomie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hobbies"
     }],
     "property" : [{
@@ -64067,11 +57651,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations spécifiques avec des personnes occupant la même position, ou jouissant du même rang ou du même prestige que soi-même en termes de position sociale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Relating with equals"
     }],
     "property" : [{
@@ -64116,11 +57695,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la cheville et du pied",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of ankle and foot"
     }],
     "property" : [{
@@ -64166,11 +57740,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions d'ingestion, de digestion et d'élimination, de même que des fonctions du métabolisme et des glandes endocrines.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the digestive, metabolic and endocrine systems"
     }],
     "property" : [{
@@ -64227,11 +57796,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions additionnelles non précisées du système respiratoire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional functions of the respiratory system, unspecified"
     }],
     "property" : [{
@@ -64268,11 +57832,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées du tempérament et de la personnalité",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified temperament and personality functions"
     }],
     "property" : [{
@@ -64309,11 +57868,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Glandes sébacées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sebaceous glands"
     }],
     "property" : [{
@@ -64359,11 +57913,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques utilisés pour la culture, les loisirs et le sport, comme des jouets, des skis, des balles de tennis, des pistolets et carabines de sport, des instruments de musique, et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for culture, recreation and sport"
     }],
     "property" : [{
@@ -64405,11 +57954,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles de perception des stimuli liés à la température, aux vibrations, à la pression et des stimuli nocifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensory functions related to temperature and other stimuli"
     }],
     "property" : [{
@@ -64474,11 +58018,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lobe pariétal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Parietal lobe"
     }],
     "property" : [{
@@ -64524,11 +58063,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements, systèmes techniques utilisés dans la vie quotidienne, comme des vêtements, des tissus, du mobilier, des appareils, des produits de nettoyage et des outils, et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for personal use in daily living"
     }],
     "property" : [{
@@ -64569,11 +58103,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée des aires de la peau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of areas of skin"
     }],
     "property" : [{
@@ -64615,11 +58144,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur l'exécution des actions et des tâches de la vie domestique et de la vie courante. Elles concernent notamment l'acquisition d'un endroit pour vivre, des aliments, des vêtements et autres produits d'usage courant, les activités ménagères de nettoyage et de réparation, l'entretien de ses biens personnels et autres objets ménagers, et l'aide apportée aux autres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Domestic life"
     }],
     "property" : [{
@@ -64681,11 +58205,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes législatifs, réglementations et normes régissant la transmission de l'information par différents moyens comme le téléphone, la télécopie, le courrier, le courrier électronique et autres systèmes informatisés, comme les textes relatifs au droit d'accès aux services de communication, les exigences pour disposer d'une adresse postale, et les normes en matière de télécommunications.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication policies"
     }],
     "property" : [{
@@ -64726,11 +58245,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Grandes lèvres",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labia majora"
     }],
     "property" : [{
@@ -64776,11 +58290,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations associées à l'arrêt du cycle menstruel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with menopause"
     }],
     "property" : [{
@@ -64822,11 +58331,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance régissant les relations et des activités des personnes qui se regroupent en ayant des intérêts communs à but non commercial, les normes qui doivent présider à la mise en place et à la gestion de ces associations, qu'il s'agisse de sociétés d'entraide, de sociétés de loisirs, d'associations culturelles et religieuses, ou d'organisations sans but lucratif.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Associations and organizational systems"
     }],
     "property" : [{
@@ -64867,11 +58371,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées des muscles respiratoires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiratory muscle functions, unspecified"
     }],
     "property" : [{
@@ -64908,11 +58407,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Effectuer d'autres routines quotidiennes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified carrying out daily routine"
     }],
     "property" : [{
@@ -64954,11 +58448,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la réaction de l'organisme après sensibilisation à une substance étrangère spécifique.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Specific immune response"
     }],
     "property" : [{
@@ -65000,11 +58489,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes liées par la naissance, par alliance ou par d'autres relations, culturellement reconnues comme constituant la famille élargie, comme les tantes, oncles, nièces, neveux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Extended family"
     }],
     "property" : [{
@@ -65045,11 +58529,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of shoulder region"
     }],
     "property" : [{
@@ -65094,11 +58573,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of urinary system, unspecified"
     }],
     "property" : [{
@@ -65140,11 +58614,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Actions simples mettant en relation deux ou plusieurs objets, jouets ou autre matériel en ne tenant pas compte des propriétés spécifiques des objets, des jouets ou du matériel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Learning through actions by relating objects"
     }],
     "property" : [{
@@ -65190,11 +58659,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris des personnes qui s'en occupent, visant à assurer les communications de masse, comme la radio, la télévision, les reportages de presse, les journaux, les sous-titrages, les services en braille, les services de communication informatisés (web, Internet).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Media services"
     }],
     "property" : [{
@@ -65236,11 +58700,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à produire des phrases ou des ensembles de phrases construits de manière appropriée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring syntax"
     }],
     "property" : [{
@@ -65285,11 +58744,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Immunological system functions, unspecified"
     }],
     "property" : [{
@@ -65327,11 +58781,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction d'un muscle ou de groupes de muscles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscle power functions"
     }],
     "property" : [{
@@ -65409,11 +58858,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien de la pression sanguine dans les artères.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Blood pressure functions"
     }],
     "property" : [{
@@ -65475,11 +58919,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Opinions et points de vue généraux et spécifiques qu'ont les personnes en position de subordination sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Individual attitudes of people in subordinate positions"
     }],
     "property" : [{
@@ -65521,11 +58960,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques des paysages terrestres, aquatiques et marins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Physical features of the earth"
     }],
     "property" : [{
@@ -65587,11 +59021,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un système mnémonique permettant le stockage à long terme d'informations à partir de la mémoire à court terme et à la fois la mémoire autobiographique des événements passés et la mémoire sémantique de la langue et des faits.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Long-term memory"
     }],
     "property" : [{
@@ -65632,11 +59061,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées relatives au système digestif",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to the digestive system, other specified and unspecified"
     }],
     "property" : [{
@@ -65673,11 +59097,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprendre à écrire, autres compétences précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified learning to write"
     }],
     "property" : [{
@@ -65719,11 +59138,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au nombre de contractions cardiaques par minute.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Heart rate"
     }],
     "property" : [{
@@ -65764,11 +59178,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau et structures annexes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin and related structures, unspecified"
     }],
     "property" : [{
@@ -65809,11 +59218,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de l'appareil locomoteur et liées au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified neuromusculoskeletal and movement-related functions"
     }],
     "property" : [{
@@ -65851,11 +59255,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher de manière à éviter les objets mobiles ou immobiles, les personnes, les animaux et les véhicules, comme faire le tour d'un marché ou d'un magasin, se déplacer dans une rue où la circulation est dense ou dans d'autres lieux bondés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking around obstacles"
     }],
     "property" : [{
@@ -65900,11 +59299,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres tâches domestiques précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Household tasks, other specified and unspecified"
     }],
     "property" : [{
@@ -65946,11 +59340,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Niveau de chaud ou de froid, par exemple température élevée et ou basse, température normale ou extrême.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Temperature"
     }],
     "property" : [{
@@ -65991,11 +59380,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de l'oreille interne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of inner ear"
     }],
     "property" : [{
@@ -66065,11 +59449,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques utilisés dans le monde du travail pour faciliter l'exécution des tâches.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for employment"
     }],
     "property" : [{
@@ -66126,11 +59505,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Palais mou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Soft palate"
     }],
     "property" : [{
@@ -66176,11 +59550,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les actions de base requises pour transposer un son (morphème) en un symbole ou un caractère (graphème).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to write symbols, characters and alphabet letters"
     }],
     "property" : [{
@@ -66226,11 +59595,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Pratiquer ou apprécier les beaux-arts et les manifestations culturelles, comme aller au théâtre, au cinéma, au musée ou dans une galerie d'art, jouer dans une pièce de théâtre, lire, se faire lire une histoire, danser, chanter ou jouer d'un instrument de musique pour le plaisir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Arts and culture"
     }],
     "property" : [{
@@ -66276,11 +59640,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conscience de sa propre identité et des personnes vivant dans l'environnement immédiat.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Orientation to person"
     }],
     "property" : [{
@@ -66337,11 +59696,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Lobe frontal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Frontal lobe"
     }],
     "property" : [{
@@ -66387,11 +59741,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Explorer des objets en les amenant vers le nez ou en portant le nez vers les objets.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Smelling"
     }],
     "property" : [{
@@ -66437,11 +59786,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant la diffusion de nouvelles et autres informations vers le grand public, comme les politiques qui régissent le contenu, la distribution, la diffusion, l'accès à l'information et les méthodes de communications par la voie de la radio, de la télévision, des magazines, les journaux, les moyens de communications de masse informatisés (web, Internet).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Media policies"
     }],
     "property" : [{
@@ -66483,11 +59827,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant à déplacer les personnes ou les biens par la route ou autre voie terrestre, par chemin de fer, par air ou par mer, qu'il s'agisse de moyens de transport publics ou privés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Transportation services"
     }],
     "property" : [{
@@ -66529,11 +59868,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques, uniques ou fabriqués en série, auxquels on accorde ou qui acquièrent une signification symbolique dans le cadre d'une pratique religieuse et d'activités spirituelles, comme des maisons d'esprits, mâts enrubannés, coiffes, masques, crucifix, menora et tapis de prière, et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for the practice of religion or spirituality"
     }],
     "property" : [{
@@ -66575,11 +59909,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entreposer la nourriture, les boissons, le linge et autres objets ménagers nécessaires à la vie de tous les jours ; préparer la nourriture à garder en conserve, en salaison ou par réfrigération, garder la nourriture fraîche et hors de portée des animaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Storing daily necessities"
     }],
     "property" : [{
@@ -66624,11 +59953,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs aux services sociaux généraux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General social support services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -66666,11 +59990,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui régissent les programmes apportant un appui financier aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin d'assistance publique, comme les systèmes mettant en œuvre les réglementations définissant les règles d'admission aux bénéfices de l'assistance sociale, de l'assistance publique, de l'assurance chômage, et des indemnités pour invalidité et autres pensions associées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Social security systems"
     }],
     "property" : [{
@@ -66712,11 +60031,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prévoir et réaliser l'élimination des déchets humains (menstruations, urine et selles) et se nettoyer par la suite.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Toileting"
     }],
     "property" : [{
@@ -66781,11 +60095,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Aspects relatifs au son non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound, unspecified"
     }],
     "property" : [{
@@ -66822,11 +60131,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions urinaires précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified urination functions"
     }],
     "property" : [{
@@ -66863,11 +60167,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du nez",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of nose, unspecified"
     }],
     "property" : [{
@@ -66908,11 +60207,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Philtrum",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Philtrum"
     }],
     "property" : [{
@@ -66958,11 +60252,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec des personnes du même âge, ayant les mêmes intérêts ou présentant les mêmes caractéristiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal relationships with peers"
     }],
     "property" : [{
@@ -67008,11 +60297,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prêter intentionnellement attention à certains éléments de l'environnement comme des changements de qualité, de quantité ou d’intensité des stimuli physiques ou sociaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Focusing attention on the environment"
     }],
     "property" : [{
@@ -67058,11 +60342,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques associées au sentiment et à la composante affective du processus mental.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Emotional functions"
     }],
     "property" : [{
@@ -67124,11 +60403,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations étroites ou amoureuses avec d'autres personnes, comme entre mari et femme, amants ou partenaires sexuels.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Intimate relationships"
     }],
     "property" : [{
@@ -67194,11 +60468,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions coordonnées et les tâches nécessaires pour mettre et ôter des vêtements et des chaussures dans l'ordre et en fonction du contexte social et du temps qu'il fait, par ex. en mettant, en ajustant et en enlevant une chemise, une jupe, une blouse, un pantalon, des sous-vêtements, un sari, un kimono, des collants, un chapeau, des gants, un manteau, des souliers, des bottes, des sandales et des pantoufles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Dressing"
     }],
     "property" : [{
@@ -67271,11 +60540,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives aux systèmes digestif, métabolique et endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified functions of the digestive, metabolic and endocrine systems"
     }],
     "property" : [{
@@ -67313,11 +60577,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de contractions musculaires spasmodiques ou douloureuses des muscles lisses du tube digestif.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of abdominal cramp"
     }],
     "property" : [{
@@ -67359,11 +60618,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et programmes, y compris les personnes qui s'en occupent, visant à la transmission de l'information par différents moyens comme le téléphone, la télécopie, le courrier, le courrier électronique et autres systèmes informatisés (services de relais téléphoniques, télétype, télétexte, services d'accès à internet).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication services"
     }],
     "property" : [{
@@ -67405,11 +60659,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la modulation du timbre dans le discours.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Melody of speech"
     }],
     "property" : [{
@@ -67450,11 +60699,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ongles d'orteil",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Toe nails"
     }],
     "property" : [{
@@ -67499,11 +60743,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la région pelvienne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of pelvic region"
     }],
     "property" : [{
@@ -67549,11 +60788,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec des personnes vivant à proximité.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal relationships with neighbours"
     }],
     "property" : [{
@@ -67599,11 +60833,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager des relations avec autrui, comme des relations informelles avec des personnes du voisinage ou de la même résidence, ou avec des collègues de travail, des étudiants, des compagnons de jeux, des personnes ayant les mêmes affinités ou la même profession.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal social relationships"
     }],
     "property" : [{
@@ -67677,11 +60906,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales permettant de changer de stratégie ou de passer d'une disposition mentale à une autre, particulièrement dans le cadre de la résolution de problèmes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Cognitive flexibility"
     }],
     "property" : [{
@@ -67722,11 +60946,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres expressions précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified expression of language"
     }],
     "property" : [{
@@ -67763,11 +60982,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du cerveau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of brain"
     }],
     "property" : [{
@@ -67849,11 +61063,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions d'élimination des déchets et des aliments non digérés en matières fécales et fonctions connexes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Defecation functions"
     }],
     "property" : [{
@@ -67923,11 +61132,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification des signes et symboles publics, comme les panneaux routiers, les symboles de mise en garde, les notations (par exemple musicale ou scientifique) et les signalisations.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - general signs and symbols"
     }],
     "property" : [{
@@ -67972,11 +61176,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions psychomotrices non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Psychomotor functions, unspecified"
     }],
     "property" : [{
@@ -68014,11 +61213,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui régissent l'habitat et le logement, comme les systèmes mis en place pour faire exécuter et suivre les politiques en matière de logement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Housing systems"
     }],
     "property" : [{
@@ -68060,11 +61254,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des contractions involontaires des muscles automatiquement provoquées par des stimuli externes autres que nocifs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reflexes generated by other exteroceptive stimuli"
     }],
     "property" : [{
@@ -68105,11 +61294,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Artères",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Arteries"
     }],
     "property" : [{
@@ -68154,11 +61338,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées de motricité fine",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified fine hand use"
     }],
     "property" : [{
@@ -68200,11 +61379,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Avancer à pied, sur une distance de plus d'un kilomètre, comme marcher d'un bout à l'autre du village ou de la ville, d'un village à l'autre ou dans la campagne.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking long distances"
     }],
     "property" : [{
@@ -68249,11 +61423,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de la peau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the skin"
     }],
     "property" : [{
@@ -68315,11 +61484,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales nécessaires à la production de messages signifiants exprimés dans un langage utilisant les signes des mains et d'autres mouvements.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of sign language"
     }],
     "property" : [{
@@ -68360,11 +61524,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Pharynx buccal",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Oral pharynx"
     }],
     "property" : [{
@@ -68409,11 +61568,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fosses nasales",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Nasal fossae"
     }],
     "property" : [{
@@ -68458,11 +61612,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions de déglutition non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Swallowing, unspecified"
     }],
     "property" : [{
@@ -68499,11 +61648,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions digestives précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified digestive functions"
     }],
     "property" : [{
@@ -68541,11 +61685,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Tous les prestataires de soins travaillant dans le cadre du système de santé, comme les médecins, infirmières, physiothérapeutes, ergothérapeutes, logopèdes, audiométriciens, prothésistes, travailleurs médico-sociaux, et autres fournisseurs de soins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health professionals"
     }],
     "property" : [{
@@ -68586,11 +61725,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions cognitives non précisées de niveau supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Higher-level cognitive functions, unspecified"
     }],
     "property" : [{
@@ -68627,11 +61761,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os du bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of upper arm"
     }],
     "property" : [{
@@ -68677,11 +61806,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations spécifiques avec des personnes en position de pouvoir, ou jouissant d'un rang ou d'un prestige plus élevé par rapport à sa propre position sociale, comme un employeur.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Relating with persons in authority"
     }],
     "property" : [{
@@ -68726,11 +61850,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Domaines non précisés d'autosuffisance économique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic self-sufficiency, unspecified"
     }],
     "property" : [{
@@ -68772,11 +61891,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Trouver la réponse à des questions ou la solution à des situations en cernant et en analysant les questions qui se posent, en mettant au point des options ou des solutions, et en évaluant les effets potentiels de ces solutions, par ex. en résolvant une dispute entre deux personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Solving problems"
     }],
     "property" : [{
@@ -68838,11 +61952,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de vider la vessie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Urination"
     }],
     "property" : [{
@@ -68884,11 +61993,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changements naturels, réguliers et prévisibles accompagnant le passage d'une saison à l'autre (été, automne, hiver, printemps).",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seasonal variation"
     }],
     "property" : [{
@@ -68929,11 +62033,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir des produits d'usage courant",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquisition of necessities"
     }],
     "property" : [{
@@ -68987,11 +62086,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Se mouvoir d'un pas rapide, de telle manière que les deux pieds puissent être en l'air en même temps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Running"
     }],
     "property" : [{
@@ -69037,11 +62131,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques des terrains aménagés en parcs, zones protégées et réserves naturelles et qui constituent l'environnement immédiat d'un individu qui ont été affectés ou changés par les politiques, la conception, la planification et l'aménagement du territoire, comme le balisage des sentiers et des pistes d'animaux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of parks, conservation and wildlife areas"
     }],
     "property" : [{
@@ -69083,11 +62172,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser les organes des sens intentionnellement pour percevoir des stimuli visuels, comme suivre un objet des yeux, regarder un événement sportif, regarder des personnes ou des enfants jouer.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Watching"
     }],
     "property" : [{
@@ -69132,11 +62216,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poils axillaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Axillary hair"
     }],
     "property" : [{
@@ -69181,11 +62260,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Utiliser d'autres appareils et techniques de communication précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified using communication devices and techniques"
     }],
     "property" : [{
@@ -69226,11 +62300,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Changements non précisés de la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Changing basic body position, unspecified"
     }],
     "property" : [{
@@ -69271,11 +62340,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir d'autres savoir-faire précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquiring skills"
     }],
     "property" : [{
@@ -69317,11 +62381,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la distinction des différences dans la texture, tels que les stimuli rudes ou doux, perçus par le toucher.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tactile perception"
     }],
     "property" : [{
@@ -69362,11 +62421,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Gros intestin",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Large intestine"
     }],
     "property" : [{
@@ -69411,11 +62465,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Sensations non précisées relatives aux muscles et aux fonctions motrices",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations related to muscles and movement functions, unspecified"
     }],
     "property" : [{
@@ -69452,11 +62501,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions visuelles et fonctions connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Seeing and related functions"
     }],
     "property" : [{
@@ -69514,11 +62558,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant la mise en place des services d'éducation, comme les mécanismes permettant de mettre en œuvre les normes et politiques qui définissent les conditions d'accès à l'enseignement public et privé et aux programmes d'enseignement spécialisé, et organisent les conseils locaux, régionaux et nationaux de l'enseignement et autres autorités de tutelle chargés de déterminer les caractéristiques du système scolaire, y compris les programmes de cours, la taille des classes, le nombre d'écoles par région, les droits d'inscriptions et les subsides accordés, le régime des cantines scolaires et les services de garderie après l'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education and training policies"
     }],
     "property" : [{
@@ -69559,11 +62598,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du globe oculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of eyeball"
     }],
     "property" : [{
@@ -69605,11 +62639,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Aider les membres du ménage et les autres à se déplacer à l'extérieur de la maison, dans le voisinage ou en ville, pour aller à l'école, au travail ou vers toute autre destination et en revenir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assisting others in movement"
     }],
     "property" : [{
@@ -69655,11 +62684,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien de l'intégrité structurelle d'une articulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stability of a single joint"
     }],
     "property" : [{
@@ -69701,11 +62725,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes qui ne sont ni des familiers ni des personnes apparentées, ou qui n'ont pas encore établi une relation ou se sont associées avec la personne concernée, y compris les personnes inconnues qui vivent dans une situation identique, par exemple un professeur suppléant, un collègue, un prestataire de soins.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Strangers"
     }],
     "property" : [{
@@ -69746,11 +62765,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "sans objet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "not applicable"
     }],
     "property" : [{
@@ -69788,11 +62802,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées à la fréquence, à la fluidité et à la complexité des mouvements de l'ensemble du corps ou des parties du corps tels que les mouvements spontanés du nourrisson ou les mouvements types.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spontaneous movements"
     }],
     "property" : [{
@@ -69858,11 +62867,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et systèmes techniques des zones suburbaines qui constituent l'environnement immédiat d'une personne et qui ont été affectés ou changés par les politiques, la conception, la planification et l'aménagement du territoire, comme les bateaux de portes, les passages, les panneaux indicateurs et l'éclairage public.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology of suburban land development"
     }],
     "property" : [{
@@ -69903,11 +62907,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres caractéristiques précisées de qualité de l'air",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified air quality"
     }],
     "property" : [{
@@ -69944,11 +62943,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Porter, déplacer et manipuler des objets",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Carrying, moving and handling objects"
     }],
     "property" : [{
@@ -70013,11 +63007,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Travail et emploi",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Work and employment"
     }],
     "property" : [{
@@ -70078,11 +63067,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of shoulder region, unspecified"
     }],
     "property" : [{
@@ -70123,11 +63107,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait de soulever et porter",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lifting and carrying, other specified"
     }],
     "property" : [{
@@ -70169,11 +63148,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques visant à prévenir et traiter les problèmes de santé, assurer la réadaptation médicale et promouvoir des modes de vie sains.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health services, systems and policies"
     }],
     "property" : [{
@@ -70235,11 +63209,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits et objets, comme un bien immobilier, des vêtements, de la nourriture et des biens techniques, qui servent de moyens d'échanges pour le travail, les biens et les services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tangible assets"
     }],
     "property" : [{
@@ -70280,11 +63249,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres attitudes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified attitudes"
     }],
     "property" : [{
@@ -70322,11 +63286,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réagir de manière différenciée vis-à-vis des individus, comme tendre les bras vers une personne familière en la différenciant des personnes que l'on ne connaît pas et réagir de manière appropriée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Differentiation of familiar persons"
     }],
     "property" : [{
@@ -70371,11 +63330,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées relatives aux cheveux, aux poils et aux ongles",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the hair and nails, other specified and unspecified"
     }],
     "property" : [{
@@ -70413,11 +63367,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant l'administration de la justice, comme les lois, jurisprudences, lois religieuses, lois et conventions internationales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Legal policies"
     }],
     "property" : [{
@@ -70459,11 +63408,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mettre fin à un dialogue ou un échange en ayant recours aux formules usuelles et en mettant un point final aux discussions sur le sujet abordé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ending a conversation"
     }],
     "property" : [{
@@ -70509,11 +63453,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui maintiennent l'état de sommeil.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintenance of sleep"
     }],
     "property" : [{
@@ -70554,11 +63493,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Caractéristiques non précisées de qualité de l'air",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Air quality, unspecified"
     }],
     "property" : [{
@@ -70596,11 +63530,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au nombre de respirations par minute.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Respiration rate"
     }],
     "property" : [{
@@ -70642,11 +63571,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales permettant de coordonner les parties en un tout, de systématiser ; la fonction mentale impliquée dans le développement d'une méthode pour procéder à quelque chose ou pour agir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Organization and planning"
     }],
     "property" : [{
@@ -70688,11 +63612,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques dépendant des lobes frontaux du cerveau, y compris les comportements centrés sur un objectif comme dans la prise de décision, l'abstraction de la pensée, la préparation et l'exécution de plans, la flexibilité mentale, et le choix des comportements en fonction des circonstances ; fonctions souvent appelées exécutives.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Higher-level cognitive functions"
     }],
     "property" : [{
@@ -70770,11 +63689,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales du caractère constitutionnel de l'individu qui le font réagir d'une certaine manière à des situations, y compris l'ensemble des caractéristiques mentales qui distinguent l'individu des autres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Temperament and personality functions"
     }],
     "property" : [{
@@ -70855,11 +63769,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Nature de la déficience",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Nature of change in body structure"
     }],
     "property" : [{
@@ -70932,11 +63841,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du membre supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of upper extremity"
     }],
     "property" : [{
@@ -70978,11 +63882,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Faire preuve de, et réagir aux marques de, compréhension et d'acceptation de certains comportements en fonction de diverses situations et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tolerance in relationships"
     }],
     "property" : [{
@@ -71027,11 +63926,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de la conscience",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified consciousness functions"
     }],
     "property" : [{
@@ -71069,11 +63963,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples, complexes ou coordonnées relatives aux composantes mentales et physiques qui concernent le fait de mener à bien une tâche unique, comme commencer une tâche, organiser le temps, l'espace et les matériels nécessaires, définir le rythme d'exécution de cette tâche, et réaliser, mener à son terme et persévérer dans la réalisation de la tâche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking a single task"
     }],
     "property" : [{
@@ -71143,11 +64032,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Eau adaptée à et sans danger pour une consommation personnelle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Drinking water"
     }],
     "property" : [{
@@ -71189,11 +64073,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre porte sur le mouvement en changeant de position du corps ou en allant d'un endroit à un autre, en portant, en transportant ou en manipulant des objets, en marchant, courant ou grimpant, et en utilisant divers moyens de transport.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility"
     }],
     "property" : [{
@@ -71258,11 +64137,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Dents permanentes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Permanent dentition"
     }],
     "property" : [{
@@ -71307,11 +64181,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles respiratoires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of respiration"
     }],
     "property" : [{
@@ -71372,11 +64241,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives à la peau et aux structures associées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the skin and related structures, unspecified"
     }],
     "property" : [{
@@ -71413,11 +64277,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres structures précisées liées à la voix et à la parole",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structures involved in voice and speech"
     }],
     "property" : [{
@@ -71458,11 +64317,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Sensations non précisées relatives au système digestif",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with the digestive system, unspecified"
     }],
     "property" : [{
@@ -71499,11 +64353,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulation de la hanche",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hip joint"
     }],
     "property" : [{
@@ -71549,11 +64398,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Explorer des objets en utilisant la bouche ou les lèvres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mouthing"
     }],
     "property" : [{
@@ -71599,11 +64443,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Organismes multicellulaires du règne animal se différenciant des plantes par plusieurs caractéristiques, comme la capacité de locomotion, un métabolisme sans photosynthèse, une réponse marquée aux stimulations, une croissance limitée, une structure organique fixe, comme des animaux sauvages ou domestiques, les reptiles, les oiseaux, les poissons et les mammifères.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Animals"
     }],
     "property" : [{
@@ -71645,11 +64484,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Contrôler la position de la tête et soutenir son poids pendant une durée déterminée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining head position"
     }],
     "property" : [{
@@ -71695,11 +64529,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées qu'une personne doit accomplir pour réagir comme il le faut dans des situations décisives ou en présence d'un danger imminent ou de difficultés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Handling crisis"
     }],
     "property" : [{
@@ -71744,11 +64573,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir le langage, non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring language, unspecified"
     }],
     "property" : [{
@@ -71790,11 +64614,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Entretenir et réparer les objets du ménage et ses effets personnels, y compris le matériel de jeu, la maison et son contenu, les vêtements, les jeux et les articles de loisirs, les véhicules et les aides techniques, et prendre soin des plantes et des animaux, y compris notamment peindre et tapisser les pièces, réparer les meubles, réparer la plomberie, assurer l'entretien des véhicules, arroser les plantes, toiletter et nourrir les animaux de compagnie et domestiques, entretenir les entrées, les allées et les voies d'accès.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Caring for household objects"
     }],
     "property" : [{
@@ -71879,11 +64698,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives à l'utilisation d'un moyen de transport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Using transportation, unspecified"
     }],
     "property" : [{
@@ -71925,11 +64739,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensations telles que sauter un battement du cœur, avoir des palpitations et avoir le souffle court.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensations associated with cardiovascular and respiratory functions"
     }],
     "property" : [{
@@ -71970,11 +64779,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structures non précisées liées aux systèmes digestif, métabolique et endocrinien",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structures related to the digestive, metabolic and endocrine systems, unspecified"
     }],
     "property" : [{
@@ -72015,11 +64819,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau et structures annexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin and related structures"
     }],
     "property" : [{
@@ -72085,11 +64884,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement des os du carpe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of carpal bones"
     }],
     "property" : [{
@@ -72130,11 +64924,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées de la voix",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Voice functions, unspecified"
     }],
     "property" : [{
@@ -72171,11 +64960,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté en termes de performance, sans objet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "performance difficulty, not applicable"
     }],
     "property" : [{
@@ -72213,11 +64997,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales permettant de traduire des problèmes sous forme d'énoncés en fonctions arithmétiques, de traduire des formules mathématiques en fonctions arithmétiques et autres manipulations complexes faisant appel aux nombres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Complex calculation"
     }],
     "property" : [{
@@ -72259,11 +65038,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions du corps liées à la protection contre des substances étrangères, y compris les infections causées par des réactions immunitaires spécifiques et non spécifiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Immunological system functions"
     }],
     "property" : [{
@@ -72329,11 +65103,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions de production des sons et de la parole.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Voice and speech functions"
     }],
     "property" : [{
@@ -72399,11 +65168,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes concernant les programmes et autres dispositifs d'aide aux personnes qui, en raison de leur âge, de leurs moyens financiers, du chômage, de leur état de santé ou d'une incapacité, ont besoin de cette aide, comme les textes de loi et autres réglementations régissant l'admission aux bénéfices de l'aide sociale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General social support policies"
     }],
     "property" : [{
@@ -72445,11 +65209,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Effectuer les actions simples ou complexes et coordonnées nécessaires pour répondre à la pression, à l'urgence et au stress associés à l'accomplissement d'une tâche, comme attendre que ce soit son tour, prendre une profonde respiration pour garder son calme, chercher de manière systématique les objets perdus ou surveiller l’heure.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Handling stress"
     }],
     "property" : [{
@@ -72494,11 +65253,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Corps vitré",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Vitreous body"
     }],
     "property" : [{
@@ -72543,11 +65297,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées pour faire face au stress et aux autres demandes psychologiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Handling stress and other psychological demands, unspecified"
     }],
     "property" : [{
@@ -72589,11 +65338,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au maintien de l'intégrité structurelle de plus d'une articulation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stability of several joints"
     }],
     "property" : [{
@@ -72635,11 +65379,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la régulation de l'eau, des minéraux et des électrolytes dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water, mineral and electrolyte balance functions"
     }],
     "property" : [{
@@ -72701,11 +65440,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées aux nodules qui longent les vaisseaux lymphatiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of lymph nodes"
     }],
     "property" : [{
@@ -72746,11 +65480,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Apprentissage élémentaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Basic learning"
     }],
     "property" : [{
@@ -72840,11 +65569,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Changer le corps d'une position à une autre en étant allongé comme se tourner d'un côté à l'autre ou passer de la position ventrale à la position dorsale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Rolling over"
     }],
     "property" : [{
@@ -72890,11 +65614,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au mouvement de substances telles que des aliments, des liquides, des médicaments, des objets avalés intentionnellement ou non, dans le sens inverse de l'ingestion, telles que dans la régurgitation et le vomissement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of expelling the contents of the stomach, oesophagus or pharynx"
     }],
     "property" : [{
@@ -72944,11 +65663,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs à l'acquisition, l'entretien et l'amélioration des connaissances et du savoir, des compétences et des savoir-faire professionnels et artistiques. Voir la Classification Internationale Type de l'Éducation (CITE) de l'UNESCO.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education and training services, systems and policies"
     }],
     "property" : [{
@@ -73009,11 +65723,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulation du genou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Knee joint"
     }],
     "property" : [{
@@ -73059,11 +65768,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Être conscient et préserver entre soi-même et les autres une distance qui soit adaptée aux circonstances, aux conventions sociales et aux convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining social space"
     }],
     "property" : [{
@@ -73109,11 +65813,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques utilisés pour envoyer et recevoir des informations, comme des appareils optiques et acoustiques, des enregistreurs audio et des récepteurs, des appareils de télévision et de vidéo, des appareils de téléphone, des systèmes de transmission sonore et des appareils de communication face à face, et qui n'ont pas été adaptés ou spécialement conçus.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General products and technology for communication"
     }],
     "property" : [{
@@ -73155,11 +65854,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser des gestes, des symboles et des dessins pour transmettre des messages, comme hocher la tête pour indiquer un désaccord ou dessiner un schéma pour expliquer un fait ou une idée complexe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing nonverbal messages"
     }],
     "property" : [{
@@ -73225,11 +65919,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Gérer le ménage, en nettoyant la maison, en lavant les vêtements, en utilisant des appareils ménagers, en entreposant la nourriture, en éliminant les ordures, en balayant, en passant le torchon, en lavant les armoires, les murs et autres surfaces, en rassemblant et en éliminant les ordures ménagères ; en rangeant les pièces, les armoires et les tiroirs, en rassemblant, lavant, séchant, pliant et repassant le linge ; en frottant les chaussures ; en utilisant des balais, des brosses et des aspirateurs ; en utilisant des lave-linge, des sèche-linge et des fers à repasser.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Doing housework"
     }],
     "property" : [{
@@ -73306,11 +65995,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Douleur localisée non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in body part, unspecified"
     }],
     "property" : [{
@@ -73347,11 +66031,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of immune system, unspecified"
     }],
     "property" : [{
@@ -73393,11 +66072,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes liées par la naissance, par alliance ou par d'autres relations, culturellement reconnues comme constituant la famille proche comme les conjoints, partenaires, parents, frères et sœurs, enfants, parents adoptifs et grands-parents.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Immediate family"
     }],
     "property" : [{
@@ -73438,11 +66112,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres relations familiales précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified family relationships"
     }],
     "property" : [{
@@ -73484,11 +66153,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Marcher et se déplacer dans diférents lieux et dans diverses situations, comme aller d'une pièce à l'autre dans la maison, dans un immeuble, ou dans la rue.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around in different locations"
     }],
     "property" : [{
@@ -73554,11 +66218,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives aux contractions répétitives, quasi-intentionnelles, involontaires d'un groupe de muscles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tics and mannerisms"
     }],
     "property" : [{
@@ -73599,11 +66258,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of head and neck region, unspecified"
     }],
     "property" : [{
@@ -73645,11 +66299,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions des muscles à l'intérieur de l'œil, comme l'iris, qui ajustent la forme et la taille de la pupille et du cristallin.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of internal muscles of the eye"
     }],
     "property" : [{
@@ -73691,11 +66340,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales générales des mécanismes physiologiques et psychologiques qui poussent l'individu à aller de l'avant avec persistance pour répondre à des besoins spécifiques et atteindre des buts généraux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Energy and drive functions"
     }],
     "property" : [{
@@ -73764,11 +66408,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées relatives à la stabilité des articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Stability of joint functions, unspecified"
     }],
     "property" : [{
@@ -73805,11 +66444,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages non verbaux, formes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - nonverbal messages, unspecified"
     }],
     "property" : [{
@@ -73850,11 +66484,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres orientations précisées par rapport à une personne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified orientation to person"
     }],
     "property" : [{
@@ -73892,11 +66521,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de contraction involontaire d'un muscle ou d'un groupe de muscles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sensation of muscle spasm"
     }],
     "property" : [{
@@ -73938,11 +66562,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans plusieurs parties du corps.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in multiple body parts"
     }],
     "property" : [{
@@ -73983,11 +66602,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'oreille interne",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of inner ear, unspecified"
     }],
     "property" : [{
@@ -74028,11 +66642,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulation de la cheville et articulations du pied et des orteils",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ankle joint and joints of foot and toes"
     }],
     "property" : [{
@@ -74078,11 +66687,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Rester allongé pendant un certain temps si nécessaire, comme rester couché sur le ventre dans le lit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a lying position"
     }],
     "property" : [{
@@ -74127,11 +66731,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Acquérir des concepts, autres précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified acquiring concepts"
     }],
     "property" : [{
@@ -74173,11 +66772,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques destinés à la planification, la conception, le développement et l'entretien du domaine public (parcs, forêts, littoral, marais) et du domaine privé, dans le contexte rural, suburbain et urbain.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Open space planning services, systems and policies"
     }],
     "property" : [{
@@ -74239,11 +66833,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Objets ou substances naturels ou fabriqués par l'homme, qui sont ramassés, traités ou fabriqués à des fins médicinales pour l'homme, comme les médicaments allopathiques ou homéopathiques.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Drugs"
     }],
     "property" : [{
@@ -74284,11 +66873,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres interactions générales avec autrui précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General interpersonal interactions, other specified and unspecified"
     }],
     "property" : [{
@@ -74329,11 +66913,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées de la peau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the skin, other specified and unspecified"
     }],
     "property" : [{
@@ -74370,11 +66949,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of shoulder region"
     }],
     "property" : [{
@@ -74420,11 +66994,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager des contacts temporaires et avoir des liens avec des personnes que l'on ne connaît pas, dans un but bien précis, comme pour demander son chemin ou d'autres informations, ou acheter quelque chose.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Relating with strangers"
     }],
     "property" : [{
@@ -74470,11 +67039,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de décodage des messages écrits pour en dégager la signification.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of written language"
     }],
     "property" : [{
@@ -74515,11 +67079,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of thigh, unspecified"
     }],
     "property" : [{
@@ -74561,11 +67120,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées au flux sanguin dans les artères.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of arteries"
     }],
     "property" : [{
@@ -74607,11 +67161,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les compétences élémentaires requises pour le calcul comme compter, ordonner et grouper.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills of numeracy"
     }],
     "property" : [{
@@ -74657,11 +67206,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mener à terme plusieurs tâches, ensemble ou l'une après l'autre.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Completing multiple tasks"
     }],
     "property" : [{
@@ -74706,11 +67250,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poils de la tête",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Head hair"
     }],
     "property" : [{
@@ -74756,11 +67295,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Acheter, louer, meubler et arranger une pièce, une maison, un appartement ou tout autre lieu d’habitation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring a place to live"
     }],
     "property" : [{
@@ -74825,11 +67359,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Communiquer - recevoir des messages non verbaux, autres formes précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified communicating with - receiving - nonverbal messages"
     }],
     "property" : [{
@@ -74870,11 +67399,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Articulations de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Joints of head and neck region"
     }],
     "property" : [{
@@ -74920,11 +67444,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les activités de base requises pour lire à haute voix les caractères, les lettres de l'alphabet, les symboles et les mots avec une prononciation correcte.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to sound out written words"
     }],
     "property" : [{
@@ -74969,11 +67488,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du pharynx",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of pharynx"
     }],
     "property" : [{
@@ -75035,11 +67549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de régulation de la température corporelle.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thermoregulatory functions"
     }],
     "property" : [{
@@ -75097,11 +67606,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales spécifiques d'enregistrement et d'emmagasinage d'information et, au besoin, de remémoration.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Memory functions"
     }],
     "property" : [{
@@ -75167,11 +67671,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de faire bouger les aliments dans la bouche avec les dents et la langue.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Manipulation of food in the mouth"
     }],
     "property" : [{
@@ -75213,11 +67712,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Communiquer un signifié en dessinant, en peignant, en faisant des croquis, des diagrammes, ou des images ou des photographies, comme dessiner une carte pour indiquer le chemin.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Producing drawings and photographs"
     }],
     "property" : [{
@@ -75263,11 +67757,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions liées à une baisse de la pression sanguine systolique ou diastolique en dessous de la normale pour l'âge.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Decreased blood pressure"
     }],
     "property" : [{
@@ -75308,11 +67797,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions métaboliques générales précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified general metabolic functions"
     }],
     "property" : [{
@@ -75350,11 +67834,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services, systèmes et politiques relatifs à la législation d'un pays.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Legal services, systems and policies"
     }],
     "property" : [{
@@ -75415,11 +67894,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la jambe",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of lower leg"
     }],
     "property" : [{
@@ -75464,11 +67938,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée du membre supérieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of upper extremity, unspecified"
     }],
     "property" : [{
@@ -75510,11 +67979,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions sensorielles associées à la perception de la présence de sons.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound detection"
     }],
     "property" : [{
@@ -75555,11 +68019,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions thermorégulatrices précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified thermoregulatory functions"
     }],
     "property" : [{
@@ -75596,11 +68055,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de la face",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of face"
     }],
     "property" : [{
@@ -75645,11 +68099,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée des aires de la peau",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of areas of skin, unspecified"
     }],
     "property" : [{
@@ -75690,11 +68139,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs aux transports",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified transportation services, systems and policies"
     }],
     "property" : [{
@@ -75732,11 +68176,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Contrôler et déplacer un véhicule ou l'animal qui le tire, voyager selon sa propre initiative ou avoir à sa disposition tout moyen de transport adapté à son âge, comme une voiture, un vélo, un bateau ou des véhicules à traction animale.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Driving"
     }],
     "property" : [{
@@ -75802,11 +68241,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager, soutenir et mettre fin à un échange de réflexions et d'idées, mené au moyen du langage parlé, écrit, de la langue des signes ou de tout autre langage, avec une ou plusieurs personnes que l'on connaît ou qui nous sont inconnues, dans un cadre formel ou informel.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conversation"
     }],
     "property" : [{
@@ -75880,11 +68314,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Personnes familières les unes avec les autres en tant que connaissances, pairs, collègues, voisins et membres d'une communauté dans des situations de travail, d'école, de loisirs, ou d'autres circonstances de la vie, et qui ont des caractéristiques démographiques communes, par exemple l'âge, le sexe, la religion ou l'origine ethnique, ou qui partagent les mêmes intérêts.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquaintances, peers, colleagues, neighbours and community members"
     }],
     "property" : [{
@@ -75926,11 +68355,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la voix humaine de manière très élémentaire.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - human voice"
     }],
     "property" : [{
@@ -75976,11 +68400,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales et physiques associées à l'acte sexuel, y compris les phases d'excitation, de préparation, d'orgasme et de résolution.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sexual functions"
     }],
     "property" : [{
@@ -76046,11 +68465,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans la tête ou le cou.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain in head and neck"
     }],
     "property" : [{
@@ -76092,11 +68506,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Participer à des compétitions, formelles ou informelles, ou à des épreuves d'athlétisme, seul ou en groupe, comme le bowling, la gymnastique ou le football.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sports"
     }],
     "property" : [{
@@ -76141,11 +68550,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du poumon",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of lungs, other specified"
     }],
     "property" : [{
@@ -76187,11 +68591,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui régissent la rapidité du processus mental.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pace of thought"
     }],
     "property" : [{
@@ -76233,11 +68632,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la réaction de l'organisme après sensibilisation accrue à des substances étrangères comme dans les sensibilités à divers antigènes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Hypersensitivity reactions"
     }],
     "property" : [{
@@ -76278,11 +68672,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Douleur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pain"
     }],
     "property" : [{
@@ -76332,11 +68721,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour mettre des vêtements sur diverses parties du corps, comme mettre des vêtements sur la tête, les bras et les épaules, les parties inférieure et supérieure du corps ; mettre des gants et des coiffes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Putting on clothes"
     }],
     "property" : [{
@@ -76381,11 +68765,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau de la région des épaules",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of shoulder region"
     }],
     "property" : [{
@@ -76430,11 +68809,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives à l'entretien personnel",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified self-care"
     }],
     "property" : [{
@@ -76475,11 +68849,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau du tronc et du dos",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of trunk and back"
     }],
     "property" : [{
@@ -76524,11 +68893,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés pour la production de biens de consommation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified services, systems and policies for the production of consumer goods"
     }],
     "property" : [{
@@ -76566,11 +68930,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations fraternelles avec les personnes qui ont les mêmes parents ou au moins l'un d'entre eux, par la naissance, par adoption ou par mariage.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sibling relationships"
     }],
     "property" : [{
@@ -76616,11 +68975,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui président à la mise à disposition des services de première nécessité, comme les conseils de santé et de sécurité, les associations de consommateurs.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Utilities systems"
     }],
     "property" : [{
@@ -76662,11 +69016,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant les systèmes et services de distribution du travail et autres formes d'occupations rémunérées dans le système économique, comme les systèmes de mise en place des normes et politiques pour la création d'emploi, la sécurité de l'emploi, la fonction publique et la concurrence, les normes et réglementations en matière d'emploi, les associations syndicales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labour and employment policies"
     }],
     "property" : [{
@@ -76707,11 +69056,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté en termes de performance, non précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "performance difficulty, not specified"
     }],
     "property" : [{
@@ -76748,11 +69092,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions non précisées d'ingestion",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ingestion functions, unspecified"
     }],
     "property" : [{
@@ -76789,11 +69128,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la cuisse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of thigh"
     }],
     "property" : [{
@@ -76838,11 +69172,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Expressions non précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of language, unspecified"
     }],
     "property" : [{
@@ -76880,11 +69209,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Utiliser une serviette ou d'autres moyens pour sécher une ou des parties du corps ou tout le corps après s'être lavé.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Drying oneself"
     }],
     "property" : [{
@@ -76929,11 +69253,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée du cortex cérébral",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of cortical lobes"
     }],
     "property" : [{
@@ -76974,11 +69293,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "sans objet",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "not applicable"
     }],
     "property" : [{
@@ -77016,11 +69330,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait d'entreprendre des relations sexuelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of sexual preparatory phase"
     }],
     "property" : [{
@@ -77062,11 +69371,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de prise de conscience et de compréhension de son comportement et de celui des autres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Insight"
     }],
     "property" : [{
@@ -77107,11 +69411,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Peau du membre inférieur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Skin of lower extremity"
     }],
     "property" : [{
@@ -77157,11 +69456,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mettre un terme à une relation, en fonction des situations et dans le respect des convenances, comme mettre un terme à une relation temporaire à la fin d'une visite, ou à une relation plus ancienne avec des amis lorsqu'on déménage, avec des collègues de travail, des collègues professionnels, des fournisseurs de services, et des relations amoureuse ou intimes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Terminating relationships"
     }],
     "property" : [{
@@ -77207,11 +69501,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de régulation des composants essentiels de l'organisme, tels que les glucides, les protéines, les graisses, leur conversion et leur transformation en énergie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "General metabolic functions"
     }],
     "property" : [{
@@ -77277,11 +69566,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Préparer, entamer et prendre les dispositions utiles requises en matière de temps et d'espace ; exécuter une tâche unique, simple ou complexe, et gérer et exécuter cette tâche avec d'autres personnes impliquées dans une ou plusieurs étapes de ce travail.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking a single task in a group"
     }],
     "property" : [{
@@ -77326,11 +69610,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres réceptions précisées du langage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified reception of language"
     }],
     "property" : [{
@@ -77368,11 +69647,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament personnel travailleur, méthodique et scrupuleux, par opposition à celles qui produisent un tempérament paresseux, peu fiable et peu responsable.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Conscientiousness"
     }],
     "property" : [{
@@ -77413,11 +69687,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Grands domaines de la vie non précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Major life areas, unspecified"
     }],
     "property" : [{
@@ -77459,11 +69728,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Prêter intentionnellement attention aux traits distinctifs d'autres personnes comme le visage, le toucher ou la voix.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Focusing attention on the person"
     }],
     "property" : [{
@@ -77509,11 +69773,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions associées au développement des seins et des mamelons.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Breast and nipple development"
     }],
     "property" : [{
@@ -77554,11 +69813,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Muscles de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Muscles of hand"
     }],
     "property" : [{
@@ -77604,11 +69858,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent la conformité du sentiment et de l'affect à la situation, par exemple la joie de recevoir des bonnes nouvelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Appropriateness of emotion"
     }],
     "property" : [{
@@ -77649,11 +69898,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions mentales globales précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Global mental functions, other specified and unspecified"
     }],
     "property" : [{
@@ -77691,11 +69935,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions de la réaction de l'organisme après sensibilisation à des substances étrangères, y compris au cours d'infections.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Immune response"
     }],
     "property" : [{
@@ -77752,11 +69991,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Formes non précisées relatives au fait de fixer son attention",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Focusing attention, unspecified"
     }],
     "property" : [{
@@ -77797,11 +70031,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Canaux semi-circulaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Semicircular canals"
     }],
     "property" : [{
@@ -77847,11 +70076,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Procédures de contrôle administratif et de surveillance, comme les autorités de réglementation des télécommunications et autres organes semblables, régissant la transmission de l'information par différents moyens comme le téléphone, la télécopie, le courrier, le courrier électronique et autres systèmes informatisés.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communication systems"
     }],
     "property" : [{
@@ -77892,11 +70116,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés relatifs à la religion et à la vie spirituelle",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified religion and spirituality"
     }],
     "property" : [{
@@ -77937,11 +70156,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Testicules et scrotum",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Testes and scrotum"
     }],
     "property" : [{
@@ -77986,11 +70200,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Régurgiter",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Regurgitating"
     }],
     "property" : [{
@@ -78031,11 +70240,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres activités précisées relatives au fait d'aller aux toilettes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified toileting"
     }],
     "property" : [{
@@ -78076,11 +70280,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la vésicule et des canaux biliaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of gall bladder and ducts"
     }],
     "property" : [{
@@ -78126,11 +70325,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation de distension de l'estomac ou de l'abdomen.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Feeling bloated"
     }],
     "property" : [{
@@ -78171,11 +70365,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de défécation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified defecation functions"
     }],
     "property" : [{
@@ -78212,11 +70401,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de marcher",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Walking, unspecified"
     }],
     "property" : [{
@@ -78258,11 +70442,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de faire passer des substances par le pharynx en quantité et à une vitesse appropriées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Pharyngeal swallowing"
     }],
     "property" : [{
@@ -78303,11 +70482,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres muscles respiratoires précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified muscles of respiration"
     }],
     "property" : [{
@@ -78348,11 +70522,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées de l'audition",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified hearing functions"
     }],
     "property" : [{
@@ -78389,11 +70558,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées et non précisées des articulations et des os",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions of the joints and bones, other specified and unspecified"
     }],
     "property" : [{
@@ -78430,11 +70594,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Cœur",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Heart"
     }],
     "property" : [{
@@ -78495,11 +70654,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure supplémentaire non précisée de l'appareil locomoteur liée au mouvement",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional musculoskeletal structures related to movement, unspecified"
     }],
     "property" : [{
@@ -78541,11 +70695,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Éliminer les ordures ménagères, en ramassant les détritus qui se trouvent autour de la maison, en préparant les ordures en vue de leur élimination, en utilisant les appareils d'élimination des ordures, en brûlant les ordures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Disposing of garbage"
     }],
     "property" : [{
@@ -78591,11 +70740,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de faire passer des substances par la cavité buccale en quantité et à une vitesse appropriées.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Oral swallowing"
     }],
     "property" : [{
@@ -78637,11 +70781,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes législatifs, réglementations et normes qui président à la collecte, la création, la production et la fabrication de biens et de produits de consommation, par exemple quant aux standards à adopter.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Policies for the production of consumer goods"
     }],
     "property" : [{
@@ -78682,11 +70821,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres domaines précisés de la récréation et des loisirs",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified recreation and leisure"
     }],
     "property" : [{
@@ -78728,11 +70862,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui président à la planification, la conception, la construction et l'entretien d'immeubles résidentiels, commerciaux, industriels et publics, comme la mise en œuvre et le respect des codes d'urbanisme, des normes de construction, des normes de protection contre le feu et pour la sécurité des personnes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Architecture and construction systems"
     }],
     "property" : [{
@@ -78774,11 +70903,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes de loi, réglementations et normes régissant la gamme des services offerts aux personnes pour assurer leur bien-être physique, psychologique et social, dans toute une série d'environnements y compris la communauté, le domicile, l'école, le lieu de travail, les hôpitaux généraux, les hôpitaux spécialisés, les cliniques, les établissements de soins résidentiels et non résidentiels, tels que les politiques et les normes qui déterminent l'éligibilité à recevoir des services, la fourniture d'appareils, des aides techniques et autres équipements d'adaptation, et les textes législatifs tels que les lois sur la santé qui définissent les caractéristiques du système de santé, comme son accessibilité, son universalité, sa réplicabilité, son mode de financement et l'étendue de sa compétence.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Health policies"
     }],
     "property" : [{
@@ -78819,11 +70943,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres sensations précisées associées à l'audition et aux fonctions vestibulaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified sensations associated with hearing and vestibular functions"
     }],
     "property" : [{
@@ -78861,11 +70980,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le maintien de la température corporelle optimale au gré des changements de température de l'environnement.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintenance of body temperature"
     }],
     "property" : [{
@@ -78907,11 +71021,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Établir et entretenir des relations avec des personnes vivant dans la même maison ou autre habitation, privée ou publique, à quelle que fin que ce soit.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Informal relationships with co-inhabitants"
     }],
     "property" : [{
@@ -78956,11 +71065,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure non précisée de l'utérus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of uterus, unspecified"
     }],
     "property" : [{
@@ -79001,11 +71105,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à l'éducation et à la formation",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Education and training services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -79043,11 +71142,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la production du débit élocutoire égal et continu.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fluency of speech"
     }],
     "property" : [{
@@ -79088,11 +71182,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions respiratoires précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified respiration functions"
     }],
     "property" : [{
@@ -79129,11 +71218,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Maintiens non précisés de la position du corps",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining a body position, unspecified"
     }],
     "property" : [{
@@ -79175,11 +71259,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fabriquer et réparer des vêtements, comme coudre, fabriquer ou repriser des vêtements ; recoudre des boutons et des attaches ; repasser les vêtements ; réparer et faire briller les chaussures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Making and repairing clothes"
     }],
     "property" : [{
@@ -79224,11 +71303,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Mouvements spontanés, sans précision",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spontaneous movements, unspecified"
     }],
     "property" : [{
@@ -79274,11 +71348,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'alternance contraction-détente d'un groupe de muscles autour d'une articulation, entraînant de l'agitation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Tremor"
     }],
     "property" : [{
@@ -79319,11 +71388,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions liées au mouvement précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Movement functions, other specified and unspecified"
     }],
     "property" : [{
@@ -79360,11 +71424,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à l'économie",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Economic services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -79402,11 +71461,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Textes législatifs, réglementations et normes régissant les services de première nécessité, comme les normes sanitaires et de sécurité régissant la livraison et la fourniture de l'eau et des combustibles, les pratiques en matière d'assainissement collectif et les politiques relatives aux services essentiels et à l'approvisionnement en périodes de pénurie et de catastrophes naturelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Utilities policies"
     }],
     "property" : [{
@@ -79447,11 +71501,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs à la santé",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified health services, systems and policies"
     }],
     "property" : [{
@@ -79488,11 +71537,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Osselets",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ossicles"
     }],
     "property" : [{
@@ -79538,11 +71582,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Phénomène entendu ou susceptible de l'être comme une détonation, une sonnerie, un cognement, un sifflement ou un cri, quel qu'en soit le volume, le timbre ou le ton, et qui peut produire des informations utiles ou inquiétantes sur le monde.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Sound"
     }],
     "property" : [{
@@ -79599,11 +71638,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions génito-urinaires et reproductives non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Genitourinary and reproductive functions, unspecified"
     }],
     "property" : [{
@@ -79640,11 +71674,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Produits et systèmes techniques non précisés pour la culture, les loisirs et le sport",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Products and technology for culture, recreation and sport, unspecified"
     }],
     "property" : [{
@@ -79682,11 +71711,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre à un premier niveau d'instruction organisée, conçu avant tout pour donner à l'enfant un avant-goût de l'environnement scolaire et la/le préparer à l'instruction obligatoire, comme par exemple choisir un environnement de type scolaire, réaliser des activités liées à un programme préscolaire dans une garderie ou un cadre similaire pour acquérir des savoir-faire en vue de se préparer à aller à l'école.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Preschool education"
     }],
     "property" : [{
@@ -79732,11 +71756,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans toute forme de transaction économique complexe impliquant l'échange de bien et de propriété, et la production de profits ou de valeurs économiques, comme acheter une affaire, une usine, du matériel, gérer un compte en banque, ou faire du commerce.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Complex economic transactions"
     }],
     "property" : [{
@@ -79781,11 +71800,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Dents, non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Teeth, unspecified"
     }],
     "property" : [{
@@ -79827,11 +71841,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Recevoir et comprendre des messages en langue des signes porteurs d'une signification littérale ou figurée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - formal sign language messages"
     }],
     "property" : [{
@@ -79877,11 +71886,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le processus par lequel les graisses du régime alimentaire sont emmagasinées et transformées dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Fat metabolism"
     }],
     "property" : [{
@@ -79922,11 +71926,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Calculer, formes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Calculating, unspecified"
     }],
     "property" : [{
@@ -79967,11 +71966,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Réactions immunitaires non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Immune response, unspecified"
     }],
     "property" : [{
@@ -80008,11 +72002,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Os de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bones of forearm"
     }],
     "property" : [{
@@ -80057,11 +72046,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Activités non précisées relatives au fait de se déplacer dans différents lieux",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around in different locations, unspecified"
     }],
     "property" : [{
@@ -80102,11 +72086,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure du système immunitaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of immune system"
     }],
     "property" : [{
@@ -80180,11 +72159,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Agir de manière indépendante dans ses relations et se conformer aux conventions sociales régissant le rôle de chacun, sa position ou toute autre marque de statut social dans ses relations avec les autres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Interacting according to social rules"
     }],
     "property" : [{
@@ -80230,11 +72204,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Caractéristiques de l'atmosphère (à l'extérieur des bâtiments) ou des espaces clos (à l'intérieur) susceptibles de fournir des informations utiles ou d'attirer l'attention sur le monde.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Air quality"
     }],
     "property" : [{
@@ -80291,11 +72260,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions sensorielles additionnelles, précisées et non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Additional sensory functions, other specified and unspecified"
     }],
     "property" : [{
@@ -80333,11 +72297,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la régulation du niveau ou la quantité d'eau dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Water balance"
     }],
     "property" : [{
@@ -80395,11 +72354,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Comprendre la signification littérale et figurée de messages manifestés par des gestes, des symboles et des dessins, comme le fait de réaliser qu'un enfant est fatigué quand il se frotte les yeux ou qu'une sirène d'alarme signifie qu'il y a un incendie.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Communicating with - receiving - nonverbal messages"
     }],
     "property" : [{
@@ -80465,11 +72419,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales qui produisent un tempérament d'humeur égale, calme et maîtrise, par opposition à irritable, soucieux, dispersé et ombrageux.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Psychic stability"
     }],
     "property" : [{
@@ -80511,11 +72460,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Quitter un emploi de manière appropriée.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Terminating a job"
     }],
     "property" : [{
@@ -80561,11 +72505,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Appliquer de l'eau, du savon et d'autres substances sur tout le corps afin de se nettoyer, comme prendre un bain ou une douche.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Washing whole body"
     }],
     "property" : [{
@@ -80610,11 +72549,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autre structure précisée de la main",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified structure of hand"
     }],
     "property" : [{
@@ -80656,11 +72590,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation désagréable indiquant des dommages potentiels ou réels à une structure anatomique située dans diverses parties du corps innervées par des nerfs différents.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Radiating pain in a segment or region"
     }],
     "property" : [{
@@ -80702,11 +72631,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales permettant d'effectuer des calculs avec les nombres, par exemple l'addition, la soustraction, la multiplication et la division.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Simple calculation"
     }],
     "property" : [{
@@ -80747,11 +72671,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à la stabilité des articulations",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified stability of joint functions"
     }],
     "property" : [{
@@ -80789,11 +72708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Services et structures politiques, et les personnes qui s'en occupent, comme les autorités locales, régionales et nationales, les organisations internationales et les personnes élues ou désignées pour occuper ces postes, comme les Nations Unies, l'Union Européenne, les instances gouvernementales nationales ou régionales, les autorités locales, les autorités traditionnelles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Political services"
     }],
     "property" : [{
@@ -80835,11 +72749,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite des fonctions urinaires et reproductives, y compris les fonctions sexuelles et procréatrices.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Genitourinary and reproductive functions"
     }],
     "property" : [{
@@ -80897,11 +72806,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Pratiquer une religion ou avoir des activités spirituelles, s'engager dans des organisations et des pratiques religieuses et spirituelles, afin de se réaliser, de trouver un sens à la vie, de découvrir des valeurs religieuses et spirituelles et d'établir le contact avec une puissance divine, comme aller à l'église, au temple, à la mosquée ou à la synagogue, prier et chanter à des fins religieuses, ou pratiquer la contemplation.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Religion and spirituality"
     }],
     "property" : [{
@@ -80963,11 +72867,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Réparer et entretenir tous les appareils ménagers, pour la cuisson, le nettoyage et la réparation, comme graisser et réparer les outils et entretenir le lave-linge.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintaining domestic appliances"
     }],
     "property" : [{
@@ -81013,11 +72912,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Sensation d'un son grave de bruissement, d'un sifflement ou de bourdonnement dans l'oreille.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ringing in ears or tinnitus"
     }],
     "property" : [{
@@ -81059,11 +72953,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales nécessaires à la production de messages parlés signifiants.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Expression of spoken language"
     }],
     "property" : [{
@@ -81104,11 +72993,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Entreprendre une tâche unique, autre précisée",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Undertaking single tasks, other specified"
     }],
     "property" : [{
@@ -81150,11 +73034,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits, équipements et systèmes techniques, adaptés ou spécialement conçus, utilisés pour envoyer et recevoir des informations, comme des dispositifs de vision spécialisés, des appareils électrooptiques, des appareils à écrire spécialisés, des appareils pour dessiner et écrire à la main, des systèmes de signalisation et des matériels et logiciels informatiques spécialisés, des implants cochléaires, des aides auditives, des lunettes et des lentilles de contact.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Assistive products and technology for communication"
     }],
     "property" : [{
@@ -81195,11 +73074,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure des cheveux et des poils",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Structure of hair"
     }],
     "property" : [{
@@ -81272,11 +73146,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Thymus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thymus"
     }],
     "property" : [{
@@ -81322,11 +73191,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Déplacer tout le corps d'un endroit à un autre, par d'autres moyens que la marche, comme grimper sur un rocher, descendre la rue en courant, sautiller, gambader, sauter ou courir autour des obstacles.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Moving around"
     }],
     "property" : [{
@@ -81407,11 +73271,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Poils du visage",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Facial hair"
     }],
     "property" : [{
@@ -81456,11 +73315,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres services, systèmes et politiques précisés relatifs au droit",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified legal services, systems and policies"
     }],
     "property" : [{
@@ -81498,11 +73352,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans toute forme de jeu, d'activité récréative ou de loisirs, comme des jeux ou des activités sportives informelles ou organisées, des programmes d'exercice physique, de détente, d'amusement ou de divertissement, visiter des galeries d'art, des musées, aller au cinéma ou au théâtre ; faire de l'artisanat ou s'adonner à un hobby, lire ou chanter pour le plaisir, jouer de la musique, faire du tourisme et voyager pour le plaisir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Recreation and leisure"
     }],
     "property" : [{
@@ -81580,11 +73429,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions visuelles permettant de percevoir la taille, la forme et le contour en utilisant seulement l'œil droit ou gauche pour les objets situés près de l'œil.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Monocular acuity of near vision"
     }],
     "property" : [{
@@ -81626,11 +73470,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales de décodage de messages utilisant des gestes corporels faits avec les mains ou d'autres mouvements, pour en dégager la signification.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Reception of body language"
     }],
     "property" : [{
@@ -81672,11 +73511,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans le choix effectué parmi plusieurs possibilités, par exemple dans le cas de la prise d'une décision ou de la formulation d'une opinion.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Judgement"
     }],
     "property" : [{
@@ -81718,11 +73552,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Ce chapitre traite de plusieurs sujets :\n1. Les services offrant des prestations, des programmes et des opérations structurées dans divers secteurs de la société pour répondre aux besoins de la population. La notion de service comprend les personnes qui s'en occupent. Ces services peuvent être publics, privés ou bénévoles, peuvent fonctionner aux niveaux local, communautaire, régional, départemental, provincial, national ou international et peuvent être réalisés par des employeurs, des associations, des organismes, des agences ou des services de l'État. Les prestations ainsi offertes peuvent être de portée générale, ou être adaptées ou spécialement conçues.\n2. Les systèmes représentés par les mécanismes administratifs de contrôle et de suivi mis en place par les autorités locales, régionales, nationales ou internationales ou par toute autre autorité reconnue. Ils visent à organiser, contrôler et surveiller les services offrant des prestations, ainsi que les opérations et programmes structurés dans divers secteurs de la société.\n3. Les politiques manifestées par les règles, règlements, conventions et normes adoptées par les autorités locales, régionales, nationales et internationales, ou par toute autres autorité reconnue. Ces politiques organisent, contrôlent et surveillent les services, les opérations et programmes structurés dans divers secteurs de la société.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Services, systems and policies"
     }],
     "property" : [{
@@ -81843,11 +73672,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Qualité non précisée de la vision",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Quality of vision, unspecified"
     }],
     "property" : [{
@@ -81884,11 +73708,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Services, systèmes et politiques non précisés relatifs à l'architecture et la construction",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Architecture and construction services, systems and policies, unspecified"
     }],
     "property" : [{
@@ -81926,11 +73745,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produire une séquence de sons formant une mélodie pour transmettre des messages.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Singing"
     }],
     "property" : [{
@@ -81975,11 +73789,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées relatives à l'endurance musculaire",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified muscle endurance functions"
     }],
     "property" : [{
@@ -82017,11 +73826,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Apprendre les activités de base requises pour saisir la signification de mots écrits et de textes.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Acquiring skills to understanding written words and phrases"
     }],
     "property" : [{
@@ -82067,11 +73871,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Passer de n'importe quelle position à la position allongée, et inversement, comme se mettre debout ou s'asseoir.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Lying down"
     }],
     "property" : [{
@@ -82117,11 +73916,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à la force générée par la contraction des muscles et des groupes de muscles des quatre membres.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Power of muscles of all limbs"
     }],
     "property" : [{
@@ -82163,11 +73957,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Produits tels que l'argent et autres instruments financiers, servant de moyens d'échanges pour le travail, les biens et les services.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Financial assets"
     }],
     "property" : [{
@@ -82209,11 +73998,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Mécanismes de contrôle administratif et de surveillance qui organisent la distribution du travail et autres formes d'occupations rémunérées dans le système économique, comme les systèmes de mise en place des normes et politiques pour la création d'emploi, la sécurité de l'emploi, la fonction publique et la concurrence, les normes et réglementations en matière d'emploi, les association syndicales.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Labour and employment systems"
     }],
     "property" : [{
@@ -82254,11 +74038,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Obstacle ABSOLU (total, ...) 96-100%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "COMPLETE barrier (total,...) 96-100%"
     }],
     "property" : [{
@@ -82295,11 +74074,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Tâches domestiques",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Household tasks"
     }],
     "property" : [{
@@ -82353,11 +74127,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Coordonner les gestes nécessaires pour retirer des chaussettes, des bas et des chaussures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Taking off footwear"
     }],
     "property" : [{
@@ -82403,11 +74172,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Engager et réagir au contact physique avec autrui selon les circonstances et dans le respect des convenances.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Physical contact in relationships"
     }],
     "property" : [{
@@ -82452,11 +74216,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres mouvements spontanés précisés",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified spontaneous movements"
     }],
     "property" : [{
@@ -82501,11 +74260,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Fonctions liées au mucus",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Functions related to mucus"
     }],
     "property" : [{
@@ -82562,11 +74316,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de la région de la tête et du cou",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of head and neck region"
     }],
     "property" : [{
@@ -82611,11 +74360,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Difficulté ABSOLUE en termes de performance (TOTALE, ...) 96-100%",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "COMPLETE performance difficulty (total,...) 96-100 %"
     }],
     "property" : [{
@@ -82652,11 +74396,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Écrire, formes non précisées",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Writing, unspecified"
     }],
     "property" : [{
@@ -82697,11 +74436,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Ligaments et fascia de l'avant-bras",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Ligaments and fasciae of forearm"
     }],
     "property" : [{
@@ -82747,11 +74481,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions impliquées dans le maintien de la quantité optimale d'eau dans l'organisme.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Maintenance of water balance"
     }],
     "property" : [{
@@ -82793,11 +74522,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Formuler et manipuler des idées, des notions et des images sur différents sujets, en poursuivant un but défini ou non, seul ou en compagnie d'autres, comme inventer des histoires, démontrer un théorème, manipuler des idées, réfléchir, méditer, penser, spéculer et envisager.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Thinking"
     }],
     "property" : [{
@@ -82842,11 +74566,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Moelle osseuse",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Bone marrow"
     }],
     "property" : [{
@@ -82892,11 +74611,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions mentales impliquées dans la distinction par la vue de la position relative des objets dans l'environnement ou par rapport à soi.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Visuospatial perception"
     }],
     "property" : [{
@@ -82937,11 +74651,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Dents temporaires",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Primary dentition"
     }],
     "property" : [{
@@ -82986,11 +74695,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Autres fonctions précisées du système hématopoïétique",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Other specified haematological system functions"
     }],
     "property" : [{
@@ -83027,11 +74731,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "display" : "Structure de la moelle épinière et structures connexes",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Spinal cord and related structures"
     }],
     "property" : [{
@@ -83093,11 +74792,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives à l'amplitude et à la facilité de mouvement du bassin.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Mobility of pelvis"
     }],
     "property" : [{
@@ -83139,11 +74833,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "S'investir dans tous les aspects d'un travail, comme un métier, une profession ou toute autre forme d'emploi, contre rémunération, que ce soit en tant qu'employé, à temps complet ou partiel, ou comme indépendant, notamment en recherchant et en décrochant un travail, en exécutant les tâches qui en découlent, en arrivant au travail à l'heure, en supervisant d'autres travailleurs ou en étant supervisé, et en effectuant les tâches seul ou en groupe.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Remunerative employment"
     }],
     "property" : [{
@@ -83209,11 +74898,6 @@ Classification internationale du fonctionnement, du handicap et de la santé.
     "definition" : "Fonctions relatives au fait de couper, percer ou déchirer les aliments à l'aide des dents antérieures.",
     "designation" : [{
       "language" : "en",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001",
-        "display" : "Fully specified name (core metadata concept)"
-      },
       "value" : "Biting"
     }],
     "property" : [{
