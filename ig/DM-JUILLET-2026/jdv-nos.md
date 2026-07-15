@@ -139,7 +139,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md) | Jeu de valeur de la nomenclature des aides financières - ROR | 24/04/2020 | active |
 | [JDV_J32_TypeHabitation_ROR](ValueSet-JDV-J32-TypeHabitation-ROR.md) | Type habitation - ROR | 24/04/2020 | active |
 | [JDV_J33_CompetenceSpecifique_ROR](ValueSet-JDV-J33-CompetenceSpecifique-ROR.md) | Compétence spécifique - ROR | 29/06/2026 | active |
-| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 29/06/2026 | active |
+| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 30/07/2026 | active |
 | [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md) | Spécialisation de prise en charge - ROR | 30/03/2026 | active |
 | [JDV_J36_TypeTarif_ROR](ValueSet-JDV-J36-TypeTarif-ROR.md) | Type tarif - ROR | 30/06/2023 | active |
 | [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) | UCUM - Unité de temps | 27/09/2024 | active |

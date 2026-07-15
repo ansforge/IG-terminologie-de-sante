@@ -29966,7 +29966,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et permanente en médecine interne"
+      "value" : "PEC spécialisée et permanente en médecine vasculaire"
     }],
     "property" : [{
       "code" : "dateValid",

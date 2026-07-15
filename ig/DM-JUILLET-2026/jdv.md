@@ -215,7 +215,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md) | Jeu de valeur de la nomenclature des aides financières - ROR | 24/04/2020 | active |
 | [JDV_J32_TypeHabitation_ROR](ValueSet-JDV-J32-TypeHabitation-ROR.md) | Type habitation - ROR | 24/04/2020 | active |
 | [JDV_J33_CompetenceSpecifique_ROR](ValueSet-JDV-J33-CompetenceSpecifique-ROR.md) | Compétence spécifique - ROR | 29/06/2026 | active |
-| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 29/06/2026 | active |
+| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 30/07/2026 | active |
 | [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md) | Spécialisation de prise en charge - ROR | 30/03/2026 | active |
 | [JDV_J369_MotifRestrictionDiffusion_ROR](ValueSet-JDV-J369-MotifRestrictionDiffusion-ROR.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 | active |
 | [JDV_J36_TypeTarif_ROR](ValueSet-JDV-J36-TypeTarif-ROR.md) | Type tarif - ROR | 30/06/2023 | active |
@@ -270,7 +270,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J96_TypeActiviteLiberale_RASS](ValueSet-JDV-J96-TypeActiviteLiberale-RASS.md) | Types d'activité libérale des professionnels du RASS | 24/04/2020 | active |
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 | active |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 23/02/2026 | active |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 10/07/2026 | active |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 15/07/2026 | active |
 | [JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS | 19/06/2026 | active |
 | [JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS | 19/06/2026 | active |
 | [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md) | JDV Absent Or Unknown Allergy CISIS | 19/06/2026 | active |
@@ -580,7 +580,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvModeSortieObpSemCisis](ValueSet-jdv-mode-sortie-obp-sem-cisis.md) | JDV Mode Sortie Obp Sem CISIS | 19/06/2026 | active |
 | [JdvModeSortieObpSneCisis](ValueSet-jdv-mode-sortie-obp-sne-cisis.md) | JDV Mode Sortie Obp Sne CISIS | 19/06/2026 | active |
 | [JdvModeSortieObpSnmCisis](ValueSet-jdv-mode-sortie-obp-snm-cisis.md) | JDV Mode Sortie Obp Snm CISIS | 19/06/2026 | active |
-| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 10/07/2026 | active |
+| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 15/07/2026 | active |
 | [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS | 20/04/2026 | active |
 | [JdvModeleDocumentCdaNonStructureCisis](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS | 19/06/2026 | active |
 | [JdvModificateurTopographiqueCisis](ValueSet-jdv-modificateur-topographique-cisis.md) | JDV Modificateur Topographique CISIS | 19/06/2026 | active |
@@ -751,7 +751,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvTraitementSoinsFrcpCisis](ValueSet-jdv-traitement-soins-frcp-cisis.md) | JDV Traitement Soins Frcp CISIS | 19/06/2026 | active |
 | [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md) | JDV Traitement Suivi CISIS | 19/06/2026 | active |
 | [JdvTransfertMutationCisis](ValueSet-jdv-transfert-mutation-cisis.md) | JDV Transfert Mutation CISIS | 19/06/2026 | active |
-| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 10/07/2026 | active |
+| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 15/07/2026 | active |
 | [JdvTrodExamenCisis](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS | 19/06/2026 | active |
 | [JdvTroubleVisuelCisis](ValueSet-jdv-trouble-visuel-cisis.md) | JDV Trouble Visuel CISIS | 19/06/2026 | active |
 | [JdvTrousseCcuCisis](ValueSet-jdv-trousse-ccu-cisis.md) | JDV Trousse Ccu CISIS | 19/06/2026 | active |
@@ -841,12 +841,12 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 19/06/2026 | active |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 19/06/2026 | active |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 | active |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 10/07/2026 | active |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 10/07/2026 | active |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 10/07/2026 | active |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 10/07/2026 | active |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 10/07/2026 | active |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 10/07/2026 | active |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 15/07/2026 | active |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 15/07/2026 | active |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 15/07/2026 | active |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 15/07/2026 | active |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 15/07/2026 | active |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 15/07/2026 | active |
 | [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 30/03/2026 | active |
 | [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 30/03/2026 | active |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 | active |
