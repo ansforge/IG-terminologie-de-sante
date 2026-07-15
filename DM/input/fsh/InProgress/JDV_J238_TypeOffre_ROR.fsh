@@ -321,4 +321,4 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#317 "Unité hospitalière de soins de support"
 * $TRE-R244-CategorieOrganisation#318 "Groupe plaies et cicatrisation (dont équipe mobile)"
 * $TRE-R244-CategorieOrganisation#319 "Centre du sommeil"
-* $TRE-R244-CategorieOrganisation#320 "Structure de relayage au domicile"
+* $TRE-R244-CategorieOrganisation#320 "Offre de relayage au domicile"

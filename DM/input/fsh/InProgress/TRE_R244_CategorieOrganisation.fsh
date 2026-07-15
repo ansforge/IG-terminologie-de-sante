@@ -3472,7 +3472,7 @@ Description: "Catégorie d'organisation"
 * #319 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #319 ^property[+].code = #status
 * #319 ^property[=].valueCode = #active
-* #320 "Structure de relayage au domicile"
+* #320 "Offre de relayage au domicile"
 * #320 ^property[0].code = #dateValid
 * #320 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #320 ^property[+].code = #dateMaj

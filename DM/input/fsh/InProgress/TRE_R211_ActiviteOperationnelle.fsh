@@ -3337,11 +3337,11 @@ Description: "Activite Operationnelle"
 * #413 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #413 ^property[+].code = #status
 * #413 ^property[=].valueCode = #active
-* #414 "Soins de support en oncologie et hématologie"
+* #414 "Soins de support"
 * #414 ^property[0].code = #dateValid
 * #414 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #414 ^property[+].code = #dateMaj
-* #414 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
+* #414 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #414 ^property[+].code = #status
 * #414 ^property[=].valueCode = #active
 * #415 "Transfusion"

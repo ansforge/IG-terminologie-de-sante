@@ -10663,11 +10663,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1275 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1275 ^property[+].code = #status
 * #1275 ^property[=].valueCode = #active
-* #1276 "Enregistrement polygraphique dans le cadre d'une forte suspicion du Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
+* #1276 "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
 * #1276 ^designation[0].language = #fr-FR
 * #1276 ^designation[=].use.system = "http://snomed.info/sct"
 * #1276 ^designation[=].use = $sct#900000000000013009
-* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre d'une forte suspicion du SAHOS"
+* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre d'une forte suspicion de SAHOS"
 * #1276 ^property[0].code = #dateValid
 * #1276 ^property[=].valueDateTime = "2022-12-16T12:00:00+01:00"
 * #1276 ^property[+].code = #dateMaj
@@ -14087,7 +14087,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1699 ^designation[0].language = #fr-FR
 * #1699 ^designation[=].use.system = "http://snomed.info/sct"
 * #1699 ^designation[=].use = $sct#900000000000013009
-* #1699 ^designation[=].value = "CRIOA/ C – Niv 2 correspondant"
+* #1699 ^designation[=].value = "CRIOA/ C - Niv 2 correspondant"
 * #1699 ^property[0].code = #dateValid
 * #1699 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1699 ^property[+].code = #dateMaj
@@ -14112,3 +14112,21 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1701 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1701 ^property[+].code = #status
 * #1701 ^property[=].valueCode = #active
+* #1702 "Accompagnement à l'essai de fauteuil roulant"
+* #1702 ^property[0].code = #dateValid
+* #1702 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1702 ^property[+].code = #dateMaj
+* #1702 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1702 ^property[+].code = #status
+* #1702 ^property[=].valueCode = #active
+* #1703 "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive"
+* #1703 ^designation[0].language = #fr-FR
+* #1703 ^designation[=].use.system = "http://snomed.info/sct"
+* #1703 ^designation[=].use = $sct#900000000000013009
+* #1703 ^designation[=].value = "Groupe psycho-éducatif de responsabilisation pour prévention de la violence"
+* #1703 ^property[0].code = #dateValid
+* #1703 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1703 ^property[+].code = #dateMaj
+* #1703 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #1703 ^property[+].code = #status
+* #1703 ^property[=].valueCode = #active
