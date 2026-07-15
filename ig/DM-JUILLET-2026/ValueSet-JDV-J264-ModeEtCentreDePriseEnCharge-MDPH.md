@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.105 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-06T19:06:25.401+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-02T17:06:17.550+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.105"
   }],
-  "version" : "20260601120000",
+  "version" : "20260730120000",
   "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
   "jurisdiction" : [{
@@ -101,20 +101,19 @@ Liens:
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
       "concept" : [{
-        "code" : "46",
-        "display" : "Hébergement (accueil jour et nuit)"
+        "code" : "46"
       },
       {
-        "code" : "47",
-        "display" : "Accueil de jour"
+        "code" : "47"
       },
       {
-        "code" : "48",
-        "display" : "Accueil de nuit"
-      },
-      {
-        "code" : "49",
-        "display" : "Sur les lieux de vie"
+        "code" : "48"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "concept" : [{
+        "code" : "238"
       }]
     }]
   }

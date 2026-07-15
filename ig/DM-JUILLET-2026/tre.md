@@ -66,7 +66,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/06/2026 | active |
 | [TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md) | Restriction d'audience applicable aux objets référencés | 15/12/2023 | active |
 | [TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md) | HL7 confidentiality | 15/12/2023 | active |
-| [TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md) | DICOM UID Registry | 15/12/2023 | active |
 | [TRE_A10_NomenclatureURN](CodeSystem-TRE-A10-NomenclatureURN.md) | Nomenclature identifiée par URN | 15/12/2023 | active |
 | [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md) | IHE formatCode | 26/04/2024 | active |
 | [TRE_A12_NomenclatureASTM](CodeSystem-TRE-A12-NomenclatureASTM.md) | Nomenclature identifiée par ASTM | 15/12/2023 | active |

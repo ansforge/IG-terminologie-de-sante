@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.8 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -84,11 +86,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.8"
   }],
-  "version" : "20240927120000",
+  "version" : "20260730120000",
   "name" : "JDV_J60_FormatCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour métadonnée formatCode",
   "jurisdiction" : [{
@@ -345,7 +347,7 @@ Liens:
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+      "system" : "http://dicom.nema.org/resources/ontology/DCMUID",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
         "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"

@@ -11,6 +11,7 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md) | Type d'activité dans le RASS |
 | [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md) | Référentiel dérivé des pays provenant de la norme INSEE pour ENREG |
 | [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md) | Toute la nomenclature des codes pays auquel on ajoute le code applicatif r "non renseigné" |
 | [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS |
