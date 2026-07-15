@@ -7779,7 +7779,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0896 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0896 ^property[+].code = #status
 * #0896 ^property[=].valueCode = #active
-* #0897 "Vaccination épidémie saisonnière" "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale"
+* #0897 "Vaccination épidémie Grippe" "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l'épidémie grippale"
 * #0897 ^designation[+].language = #fr-FR
 * #0897 ^designation[=].use.system = "http://snomed.info/sct"
 * #0897 ^designation[=].use = $sct#900000000000013009
@@ -7787,7 +7787,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0897 ^property[0].code = #dateValid
 * #0897 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0897 ^property[+].code = #dateMaj
-* #0897 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
+* #0897 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #0897 ^property[+].code = #status
 * #0897 ^property[=].valueCode = #active
 * #0898 "Dépistage du diabète"
@@ -11549,11 +11549,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1390 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1390 ^property[+].code = #status
 * #1390 ^property[=].valueCode = #active
-* #1391 "Prise en charge de ùaladies vectorielles à tique (Lyme…)" "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme)."
+* #1391 "Prise en charge de maladies vectorielles à tique (Lyme…)" "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme)."
 * #1391 ^property[0].code = #dateValid
 * #1391 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1391 ^property[+].code = #dateMaj
-* #1391 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1391 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1391 ^property[+].code = #status
 * #1391 ^property[=].valueCode = #active
 * #1392 "Prise en charge clinique des parasitoses" "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections causées par des parasites (protozoaires, helminthes, ectoparasites) et en limiter les complications."
