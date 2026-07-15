@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.240 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.240"
   }],
-  "version" : "20260223120000",
+  "version" : "20260730120000",
   "name" : "JDV_J183_Diplome_EPARS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplômes pour l'application EPARS",
   "jurisdiction" : [{
@@ -137,7 +137,7 @@ Liens:
       },
       {
         "code" : "DIP322",
-        "display" : "Master en Psychologie ou Psychanalyse"
+        "display" : "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS"
       },
       {
         "code" : "DIP323",

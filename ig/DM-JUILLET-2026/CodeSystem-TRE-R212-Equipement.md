@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.10 | | |
 
  
@@ -46,11 +46,11 @@ Equipement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.10"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "TRE_R212_Equipement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement",
   "jurisdiction" : [{
@@ -1728,22 +1728,14 @@ Equipement
   },
   {
     "code" : "072",
-    "display" : "Table de bloc opératoire obésité (poids > 250 kg) - bariatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique"
-    }],
+    "display" : "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2024,22 +2016,14 @@ Equipement
   },
   {
     "code" : "084",
-    "display" : "Table de radiologie obésité (poids > 250 kg) - bariatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique"
-    }],
+    "display" : "Table de radiologie interventionnelle obésité (poids supérieur à 250 kg) - bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2819,14 +2803,14 @@ Equipement
   },
   {
     "code" : "130",
-    "display" : "Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire",
+    "display" : "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire"
+      "value" : "Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2834,7 +2818,7 @@ Equipement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3123,22 +3107,14 @@ Equipement
   },
   {
     "code" : "147",
-    "display" : "Espace de calme-retrait, apaisement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Espace de calme-retrait, d'apaisement"
-    }],
+    "display" : "Espace de calme-retrait, d'apaisement",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3758,22 +3734,14 @@ Equipement
   },
   {
     "code" : "184",
-    "display" : "Dispositif de réadaptation à la marche par allègement du poids du corps",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)"
-    }],
+    "display" : "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

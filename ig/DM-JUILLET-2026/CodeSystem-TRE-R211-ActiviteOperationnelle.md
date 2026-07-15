@@ -3009,14 +3009,14 @@ Activite Operationnelle
   },
   {
     "code" : "158",
-    "display" : "Urgences psychiatriques 24h/24 7j/7",
+    "display" : "Urgences psychiatriques hospitalières",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7610,14 +7610,14 @@ Activite Operationnelle
   },
   {
     "code" : "414",
-    "display" : "Soins de support en oncologie et hématologie",
+    "display" : "Soins de support",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-02-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-02-28T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -59,7 +59,7 @@ Public pris en charge
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 10,
+  "count" : 11,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -98,7 +98,7 @@ Public pris en charge
   }],
   "concept" : [{
     "code" : "01",
-    "display" : "Personnes âgées en perte d'autonomie et aidants",
+    "display" : "Personnes âgées en perte d'autonomie (PA) et aidants",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -113,7 +113,7 @@ Public pris en charge
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes âgées en perte d'autonomie (PA) et aidants"
+      "value" : "Personnes âgées en perte d'autonomie et aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -121,7 +121,7 @@ Public pris en charge
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -130,7 +130,7 @@ Public pris en charge
   },
   {
     "code" : "02",
-    "display" : "Personnes en situation de handicap et aidants",
+    "display" : "Personnes en situation de handicap (PH) et aidants",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -145,7 +145,7 @@ Public pris en charge
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes en situation de handicap (PH) et aidants"
+      "value" : "Personnes en situation de handicap et aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -153,7 +153,7 @@ Public pris en charge
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -282,7 +282,7 @@ Public pris en charge
   },
   {
     "code" : "09",
-    "display" : "Personnes atteintes de pathologies chroniques ou présentant une ALD",
+    "display" : "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -297,7 +297,7 @@ Public pris en charge
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
+      "value" : "Personnes atteintes de pathologies chroniques ou présentant une ALD"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -305,7 +305,7 @@ Public pris en charge
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-04-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

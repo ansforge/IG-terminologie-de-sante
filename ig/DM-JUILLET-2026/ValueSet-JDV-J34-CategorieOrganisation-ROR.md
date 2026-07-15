@@ -1322,7 +1322,7 @@ Liens:
       },
       {
         "code" : "320",
-        "display" : "Structure de relayage au domicile"
+        "display" : "Offre de relayage au domicile"
       }]
     }]
   }

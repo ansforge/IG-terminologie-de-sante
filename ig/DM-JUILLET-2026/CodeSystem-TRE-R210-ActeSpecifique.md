@@ -53,7 +53,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1701,
+  "count" : 1703,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -17434,8 +17434,8 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0897",
-    "display" : "Vaccination épidémie saisonnière",
-    "definition" : "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale",
+    "display" : "Vaccination épidémie Grippe",
+    "definition" : "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l'épidémie grippale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -17450,7 +17450,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24086,14 +24086,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1276",
-    "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion du Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)",
+    "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Enregistrement polygraphique dans le cadre d'une forte suspicion du SAHOS"
+      "value" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de SAHOS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -26134,7 +26134,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1391",
-    "display" : "Prise en charge de ùaladies vectorielles à tique (Lyme…)",
+    "display" : "Prise en charge de maladies vectorielles à tique (Lyme…)",
     "definition" : "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme).",
     "property" : [{
       "code" : "dateValid",
@@ -26142,7 +26142,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31908,7 +31908,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "CRIOA/ C – Niv 2 correspondant"
+      "value" : "CRIOA/ C - Niv 2 correspondant"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -31950,6 +31950,46 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1701",
     "display" : "Prise en charge de nouveau patient en tant que médecin traitant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1702",
+    "display" : "Accompagnement à l'essai de fauteuil roulant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1703",
+    "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Groupe psycho-éducatif de responsabilisation pour prévention de la violence"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"

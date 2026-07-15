@@ -7630,7 +7630,7 @@ Catégorie d’organisation
   },
   {
     "code" : "320",
-    "display" : "Structure de relayage au domicile",
+    "display" : "Offre de relayage au domicile",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"

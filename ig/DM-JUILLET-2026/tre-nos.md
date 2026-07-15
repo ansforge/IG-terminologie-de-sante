@@ -151,7 +151,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 | active |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 | active |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 | active |
-| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 23/02/2026 | active |
+| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 30/07/2026 | active |
 | [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md) | Autorité d'enregistrement | 29/06/2026 | active |
 | [TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md) | Domaine | 15/12/2023 | active |
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 | active |
@@ -191,7 +191,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 29/06/2026 | active |
 | [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 30/07/2026 | active |
 | [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/07/2026 | active |
-| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 29/06/2026 | active |
+| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 30/07/2026 | active |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 29/06/2026 | active |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 | active |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 | active |
@@ -214,14 +214,14 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R240_TemporaliteAccueil](CodeSystem-TRE-R240-TemporaliteAccueil.md) | Temporalité accueil | 15/12/2023 | active |
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 | active |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 | active |
-| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 29/06/2026 | active |
+| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/07/2026 | active |
 | [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/07/2026 | active |
-| [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 | active |
+| [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 30/07/2026 | active |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 | active |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 | active |
 | [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md) | Sexe | 15/12/2023 | active |
 | [TRE_R250_ConditionTarifaire](CodeSystem-TRE-R250-ConditionTarifaire.md) | Les conditions d'accès à un tarif modulé | 15/12/2023 | active |
-| [TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md) | Un titre, une position, une fonction de la personne contact dans l'organisation | 31/01/2025 | active |
+| [TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md) | Un titre, une position, une fonction de la personne contact dans l'organisation | 30/07/2026 | active |
 | [TRE_R252_TypeHoraire](CodeSystem-TRE-R252-TypeHoraire.md) | Type horaire | 25/10/2024 | active |
 | [TRE_R253_TypeMaternite](CodeSystem-TRE-R253-TypeMaternite.md) | Type de maternité | 15/12/2023 | active |
 | [TRE_R254_TypeEvenement](CodeSystem-TRE-R254-TypeEvenement.md) | Liste de types d'évènement | 29/03/2024 | active |
@@ -234,7 +234,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R261_AutreSalarieStructureSante](CodeSystem-TRE-R261-AutreSalarieStructureSante.md) | Autre salariés d'une structure de santé | 15/12/2023 | active |
 | [TRE_R262_CategorieSocioProfessionnelle](CodeSystem-TRE-R262-CategorieSocioProfessionnelle.md) | Catégories socio-professionnelles | 15/12/2023 | active |
 | [TRE_R263_TypeNumeroIdentification](CodeSystem-TRE-R263-TypeNumeroIdentification.md) | Type de numéro d'identification | 15/12/2023 | active |
-| [TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md) | Prestations non obligatoire incluses | 15/12/2023 | active |
+| [TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md) | Prestations non obligatoire incluses | 30/07/2026 | active |
 | [TRE_R266_FamilleActiviteOperationnelleHorsSerafin](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md) | Familles activités opérationnelles hors Serafin | 15/12/2023 | active |
 | [TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md) | Codes de représentation des sexes humains provenant de la norme ISO 5218 | 15/12/2023 | active |
 | [TRE_R268_PaysProvenanceISO](CodeSystem-TRE-R268-PaysProvenanceISO.md) | Référentiel des pays provenant de la norme ISO 3166 | 26/01/2024 | active |

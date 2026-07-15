@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R243_CompetenceSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R243_CompetenceSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.37 | | |
 
  
@@ -44,11 +44,11 @@ Compétence spécifique
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.37"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "TRE_R243_CompetenceSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Compétence spécifique",
   "jurisdiction" : [{
@@ -810,7 +810,7 @@ Compétence spécifique
   },
   {
     "code" : "35",
-    "display" : "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)",
+    "display" : "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -825,7 +825,7 @@ Compétence spécifique
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)"
+      "value" : "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -833,7 +833,7 @@ Compétence spécifique
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -842,7 +842,7 @@ Compétence spécifique
   },
   {
     "code" : "36",
-    "display" : "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)",
+    "display" : "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -857,7 +857,7 @@ Compétence spécifique
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)"
+      "value" : "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -865,7 +865,7 @@ Compétence spécifique
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -953,7 +953,7 @@ Compétence spécifique
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
+      "value" : "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -961,7 +961,7 @@ Compétence spécifique
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -2466,7 +2466,7 @@ Liens:
       },
       {
         "code" : "0897",
-        "display" : "Drainage Vaccination épidémie Grippe"
+        "display" : "Vaccination épidémie Grippe"
       },
       {
         "code" : "0898",
@@ -3810,7 +3810,7 @@ Liens:
       },
       {
         "code" : "1276",
-        "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion du Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
+        "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
       },
       {
         "code" : "1277",
@@ -5383,6 +5383,14 @@ Liens:
       {
         "code" : "1701",
         "display" : "Prise en charge de nouveau patient en tant que médecin traitant"
+      },
+      {
+        "code" : "1702",
+        "display" : "Accompagnement à l'essai de fauteuil roulant"
+      },
+      {
+        "code" : "1703",
+        "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive"
       }]
     }]
   }

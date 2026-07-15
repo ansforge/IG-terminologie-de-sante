@@ -542,7 +542,7 @@ Liens:
       },
       {
         "code" : "158",
-        "display" : "Urgences psychiatriques 24h/24 7j/7"
+        "display" : "Urgences psychiatriques hospitalières"
       },
       {
         "code" : "159",
@@ -1486,7 +1486,7 @@ Liens:
       },
       {
         "code" : "414",
-        "display" : "Soins de support en oncologie et hématologie"
+        "display" : "Soins de support"
       },
       {
         "code" : "416",

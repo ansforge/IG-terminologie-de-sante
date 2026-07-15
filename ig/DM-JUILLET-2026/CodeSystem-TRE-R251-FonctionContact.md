@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact | *Version*:20250131120000 | |
-| Active as of 2025-01-31 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R251_FonctionContact |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R251_FonctionContact |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.48 | | |
 
  
@@ -43,11 +43,11 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.48"
   }],
-  "version" : "20250131120000",
+  "version" : "20260730120000",
   "name" : "TRE_R251_FonctionContact",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-31T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Un titre, une position, une fonction de la personne contact dans l'organisation",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 28,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -477,7 +478,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
   },
   {
     "code" : "23",
-    "display" : "Spécialiste en hygiène prévention contrôle des IAS",
+    "display" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -492,7 +493,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
+      "value" : "Spécialiste en hygiène prévention contrôle des IAS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -500,7 +501,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -509,7 +510,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
   },
   {
     "code" : "24",
-    "display" : "Responsable du signalement des IAS",
+    "display" : "Responsable du signalement des Infections Associées aux Soins (IAS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -524,7 +525,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Responsable du signalement des Infections Associées aux Soins (IAS)"
+      "value" : "Responsable du signalement des IAS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -532,7 +533,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.53 | | |
 
  
@@ -44,11 +44,11 @@ Autre type de diplôme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.53"
   }],
-  "version" : "20260223120000",
+  "version" : "20260730120000",
   "name" : "TRE_R58_AutreTypeDiplome",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autre type de diplôme",
   "jurisdiction" : [{
@@ -1292,7 +1292,7 @@ Autre type de diplôme
   },
   {
     "code" : "DIP322",
-    "display" : "Master en Psychologie ou Psychanalyse",
+    "display" : "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS",
     "definition" : "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute",
     "designation" : [{
       "language" : "fr-FR",
@@ -1308,7 +1308,7 @@ Autre type de diplôme
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
