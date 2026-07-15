@@ -13220,7 +13220,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1599 ^designation[0].language = #fr-FR
 * #1599 ^designation[=].use.system = "http://snomed.info/sct"
 * #1599 ^designation[=].use = $sct#900000000000013009
-* #1599 ^designation[=].value = "PEC spécialisée et permanente en médecine interne"
+* #1599 ^designation[=].value = "PEC spécialisée et permanente en médecine vasculaire"
 * #1599 ^property[0].code = #dateValid
 * #1599 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1599 ^property[+].code = #dateMaj
