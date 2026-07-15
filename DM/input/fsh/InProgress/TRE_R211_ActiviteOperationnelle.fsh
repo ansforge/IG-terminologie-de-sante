@@ -1329,11 +1329,11 @@ Description: "Activite Operationnelle"
 * #157 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
-* #158 "Urgences psychiatriques 24h/24 7j/7"
+* #158 "Urgences psychiatriques hospitalières"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #158 ^property[+].code = #dateMaj
-* #158 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #158 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
 * #159 "Urgences spécialisées traumatologiques"
