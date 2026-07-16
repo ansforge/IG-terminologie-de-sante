@@ -788,7 +788,7 @@ Description: "Equipement"
 * #071 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #071 ^property[+].code = #status
 * #071 ^property[=].valueCode = #active
-* #072 "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique"
+* #072 "Table de bloc opératoire obésité (poids > 250 kg) - bariatrique"
 * #072 ^property[0].code = #dateValid
 * #072 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #072 ^property[+].code = #dateMaj
