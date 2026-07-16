@@ -21732,6 +21732,7 @@ Description: "Type activité SMSSE régulée"
 * #50738 ^property[+].code = #modeFonctionnement
 * #50738 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#44
 * #50738 ^property[+].code = #public
+* #50738 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#844
 * #50739 "ASDR/866/03/843"
 * #50739 ^property[0].code = #dateValid
 * #50739 ^property[=].valueDateTime = "2026-07-30T00:00:00+01:00"
