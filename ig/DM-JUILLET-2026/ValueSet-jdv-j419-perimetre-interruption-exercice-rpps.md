@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j419-perimetre-interruption-exercice-rpps | *Version*:20260730120000 | |
 | Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ419PerimetreInterruptionExerciceRpps |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.402 | | |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.403 | | |
 
  
 Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès. 
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -81,7 +81,7 @@ Liens:
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j419-perimetre-interruption-exercice-rpps",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.402"
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.403"
   }],
   "version" : "20260730120000",
   "name" : "JdvJ419PerimetreInterruptionExerciceRpps",
@@ -100,10 +100,13 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
+      "concept" : [{
+        "code" : "D",
+        "display" : "Permanente"
+      },
+      {
+        "code" : "T",
+        "display" : "Temporaire"
       }]
     }]
   }

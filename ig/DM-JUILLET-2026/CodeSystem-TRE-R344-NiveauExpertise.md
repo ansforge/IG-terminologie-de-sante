@@ -58,7 +58,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 43,
+  "count" : 46,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",

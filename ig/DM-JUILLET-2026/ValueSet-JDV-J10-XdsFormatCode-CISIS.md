@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.465 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -86,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.465"
   }],
-  "version" : "20260730120000",
+  "version" : "20260629120000",
   "name" : "JDV_J10_XdsFormatCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS formatCode documents CI-SIS",
   "jurisdiction" : [{
@@ -371,7 +369,7 @@ Liens:
       }]
     },
     {
-      "system" : "http://dicom.nema.org/resources/ontology/DCMUID",
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
         "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"

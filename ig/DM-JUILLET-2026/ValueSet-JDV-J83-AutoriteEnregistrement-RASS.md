@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J83_AutoriteEnregistrement_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS | *Version*:20240628120000 | |
+| Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J83_AutoriteEnregistrement_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.151 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,16 +68,15 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J83-AutoriteEnregistrement-RASS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-22T17:06:52.028+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T19:06:59.873+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2019-08-30T12:00:00+01:00",
-      "end" : "2025-12-22T12:00:00+01:00"
+      "start" : "2019-08-30T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
@@ -85,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.151"
   }],
-  "version" : "20260730120000",
+  "version" : "20240628120000",
   "name" : "JDV_J83_AutoriteEnregistrement_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2024-06-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autorités d'enregistrement des acteurs de santé du RASS",
   "jurisdiction" : [{

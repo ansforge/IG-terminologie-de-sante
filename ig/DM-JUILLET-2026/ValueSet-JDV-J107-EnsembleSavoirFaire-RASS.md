@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J107_EnsembleSavoirFaire_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J107_EnsembleSavoirFaire_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.175 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -70,7 +70,7 @@ Liens:
   "meta" : {
     "versionId" : "12",
     "lastUpdated" : "2026-07-06T19:04:48.245+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.175"
   }],
-  "version" : "20251222120000",
+  "version" : "20260730120000",
   "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des savoir-faire et compétences du RASS",
   "jurisdiction" : [{
@@ -119,6 +119,18 @@ Liens:
       {
         "code" : "SI05",
         "display" : "Exercice infirmier en pratique avancée urgences (SI)"
+      },
+      {
+        "code" : "SI06",
+        "display" : "Infirmier(ère) de bloc opératoire (SI)"
+      },
+      {
+        "code" : "SI07",
+        "display" : "Infirmier(ère) anesthésiste (SI)"
+      },
+      {
+        "code" : "SI08",
+        "display" : "Exercice infirmier en pratique avancée puériculture (SI)"
       },
       {
         "code" : "SCD01",

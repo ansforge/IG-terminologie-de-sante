@@ -1728,7 +1728,7 @@ Equipement
   },
   {
     "code" : "072",
-    "display" : "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique",
+    "display" : "Table de bloc opératoire obésité (poids > 250 kg) - bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"

@@ -7,8 +7,8 @@
   },
   "language" : "fr-FR",
   "text" : {
-    "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j419-perimetre-interruption-exercice-rpps</b></p><a name=\"jdv-j419-perimetre-interruption-exercice-rpps\"> </a><a name=\"hcjdv-j419-perimetre-interruption-exercice-rpps\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r409-type-duree-interruption-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260629120000</span> où status  = active</li></ul></div>"
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j419-perimetre-interruption-exercice-rpps</b></p><a name=\"jdv-j419-perimetre-interruption-exercice-rpps\"> </a><a name=\"hcjdv-j419-perimetre-interruption-exercice-rpps\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-tre-r409-type-duree-interruption-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260629120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-tre-r409-type-duree-interruption-exercice.html#tre-r409-type-duree-interruption-exercice-D\">D</a></td><td>Permanente</td><td>Interruption d’exercice définitive</td></tr><tr><td><a href=\"CodeSystem-tre-r409-type-duree-interruption-exercice.html#tre-r409-type-duree-interruption-exercice-T\">T</a></td><td>Temporaire</td><td>Interruption d’exercice provisoire sur une période donnée</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -19,7 +19,7 @@
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j419-perimetre-interruption-exercice-rpps",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.402"
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.403"
   }],
   "version" : "20260730120000",
   "name" : "JdvJ419PerimetreInterruptionExerciceRpps",
@@ -38,10 +38,13 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
+      "concept" : [{
+        "code" : "D",
+        "display" : "Permanente"
+      },
+      {
+        "code" : "T",
+        "display" : "Temporaire"
       }]
     }]
   }

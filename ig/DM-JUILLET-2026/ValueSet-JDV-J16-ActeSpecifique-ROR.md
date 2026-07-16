@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -5095,6 +5095,62 @@ Liens:
       {
         "code" : "1615",
         "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie du rachis"
+      },
+      {
+        "code" : "1616",
+        "display" : "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
+      },
+      {
+        "code" : "1617",
+        "display" : "Pédicurie-podologie conventionnée soins de support oncologie"
+      },
+      {
+        "code" : "1618",
+        "display" : "Orthoplastie (appareillage d’orteil)"
+      },
+      {
+        "code" : "1619",
+        "display" : "Orthonyxie (appareillage d’ongle)"
+      },
+      {
+        "code" : "1620",
+        "display" : "Onychoplastie (reconstruction de l’ongle)"
+      },
+      {
+        "code" : "1621",
+        "display" : "Orthèse plantaire (semelle orthopédique)"
+      },
+      {
+        "code" : "1622",
+        "display" : "Bilan diagnostique podologique de la prévention de la chute"
+      },
+      {
+        "code" : "1623",
+        "display" : "Rééducation du pied (sous la cheville)"
+      },
+      {
+        "code" : "1624",
+        "display" : "Contention nocturne"
+      },
+      {
+        "code" : "1625",
+        "display" : "Soin de pédicurie"
+      },
+      {
+        "code" : "1626",
+        "display" : "Traitement de la verrue plantaire par azote liquide"
+      },
+      {
+        "code" : "1627",
+        "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
+      },
+      {
+        "code" : "1628",
+        "display" : "Prélèvement unguéal pour analyse biologique (protocole de coopération)"
+      },
+      {
+        "code" : "1629",
+        "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
       },
       {
         "code" : "1630",

@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j420-type-duree-interruption-exercice-rpps | *Version*:20260730120000 | |
 | Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ420TypeDureeInterruptionExerciceRpps |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.403 | | |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.404 | | |
 
  
 Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé. 
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-15
+2026-07-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -81,7 +81,7 @@ Liens:
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j420-type-duree-interruption-exercice-rpps",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.403"
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.404"
   }],
   "version" : "20260730120000",
   "name" : "JdvJ420TypeDureeInterruptionExerciceRpps",
@@ -100,10 +100,13 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
+      "concept" : [{
+        "code" : "T",
+        "display" : "Totale"
+      },
+      {
+        "code" : "P",
+        "display" : "Partielle"
       }]
     }]
   }

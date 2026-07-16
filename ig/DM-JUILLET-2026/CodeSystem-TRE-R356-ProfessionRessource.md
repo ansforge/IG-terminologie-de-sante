@@ -59,7 +59,7 @@ Profession Ressource
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 99,
+  "count" : 100,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
