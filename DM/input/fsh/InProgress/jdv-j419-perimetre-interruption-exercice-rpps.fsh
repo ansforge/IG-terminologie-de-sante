@@ -17,5 +17,5 @@ Description: "Le type de durée d'une interruption d'exercice décrit le caract�
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice
-    where status = "active"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice#D "Permanente"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice#T "Temporaire"

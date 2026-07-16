@@ -17,5 +17,5 @@ Description: "Le périmètre d'une interruption d'exercice décrit l'étendue de
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice
-    where status = "active"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice#T "Totale"
+* https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice#P "Partielle"
