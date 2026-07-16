@@ -3,7 +3,7 @@ Id: TRE-A02-ProfessionSavFaire-CISIS
 Description: "Profession et savoir-faire CI-SIS"
 * ^meta.versionId = "10"
 * ^meta.lastUpdated = "2026-07-06T20:12:20.182+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-10-06T00:00:00+01:00"
@@ -18,7 +18,6 @@ Description: "Profession et savoir-faire CI-SIS"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 376
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2865,6 +2864,27 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI05 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #G15_60/SI05 ^property[+].code = #status
 * #G15_60/SI05 ^property[=].valueCode = #active
+* #G15_60/SI06 "Infirmier - Exercice infirmier en pratique avancée bloc opératoire (SI)"
+* #G15_60/SI06 ^property[0].code = #dateValid
+* #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI06 ^property[+].code = #dateMaj
+* #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI06 ^property[+].code = #status
+* #G15_60/SI06 ^property[=].valueCode = #active
+* #G15_60/SI07 "Infirmier - Exercice infirmier en pratique avancée anesthésie (SI)"
+* #G15_60/SI07 ^property[0].code = #dateValid
+* #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI07 ^property[+].code = #dateMaj
+* #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI07 ^property[+].code = #status
+* #G15_60/SI07 ^property[=].valueCode = #active
+* #G15_60/SI08 "Infirmier - Exercice infirmier en pratique avancée puériculture (SI)"
+* #G15_60/SI08 ^property[0].code = #dateValid
+* #G15_60/SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI08 ^property[+].code = #dateMaj
+* #G15_60/SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI08 ^property[+].code = #status
+* #G15_60/SI08 ^property[=].valueCode = #active
 * #G15_69 "Infirmier psychiatrique"
 * #G15_69 ^property[0].code = #dateValid
 * #G15_69 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"

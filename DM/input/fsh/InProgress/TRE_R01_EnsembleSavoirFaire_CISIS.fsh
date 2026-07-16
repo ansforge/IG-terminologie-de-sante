@@ -3,7 +3,7 @@ Id: TRE-R01-EnsembleSavoirFaire-CISIS
 Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * ^meta.versionId = "13"
 * ^meta.lastUpdated = "2026-07-06T20:12:34.644+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-04-12T00:00:00+01:00"
@@ -18,7 +18,6 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 326
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2190,6 +2189,39 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SI05 ^property[+].code = #status
 * #SI05 ^property[=].valueCode = #active
+* #SI06 "Exercice infirmier en pratique avancée bloc opératoire (SI)"
+* #SI06 ^designation[0].language = #fr-FR
+* #SI06 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI06 ^designation[=].use = $sct#900000000000013009
+* #SI06 ^designation[=].value = "IPA bloc opératoire"
+* #SI06 ^property[0].code = #dateValid
+* #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI06 ^property[+].code = #dateMaj
+* #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI06 ^property[+].code = #status
+* #SI06 ^property[=].valueCode = #active
+* #SI07 "Exercice infirmier en pratique avancée anesthésie (SI)"
+* #SI07 ^designation[0].language = #fr-FR
+* #SI07 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI07 ^designation[=].use = $sct#900000000000013009
+* #SI07 ^designation[=].value = "IPA anesthésie"
+* #SI07 ^property[0].code = #dateValid
+* #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI07 ^property[+].code = #dateMaj
+* #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI07 ^property[+].code = #status
+* #SI07 ^property[=].valueCode = #active
+* #SI08 "Exercice infirmier en pratique avancée puériculture (SI)"
+* #SI08 ^designation[0].language = #fr-FR
+* #SI08 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI08 ^designation[=].use = $sct#900000000000013009
+* #SI08 ^designation[=].value = "IPA puériculture"
+* #SI08 ^property[0].code = #dateValid
+* #SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI08 ^property[+].code = #dateMaj
+* #SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI08 ^property[+].code = #status
+* #SI08 ^property[=].valueCode = #active
 * #SM01 "Anatomie et Cytologie pathologiques (SM)" "Le décret n° 2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers, dans le domaine d'intervention des urgences, publié au Journal officiel ce 26 octobre, précise les modalités de l'exercice en pratique avancée de la profession d'infirmier dans le domaine spécifique d'intervention des urgences.  Ce nouveau domaine d'intervention est ouvert à l'exercice infirmier en pratique avancée à la condition que l'activité soit exercée par un établissement de santé disposant d'une autorisation d'activité de soins de médecine d'urgence donnée en application de l'article R. 6123-1."
 * #SM01 ^designation[0].language = #fr-FR
 * #SM01 ^designation[=].use.system = "http://snomed.info/sct"
