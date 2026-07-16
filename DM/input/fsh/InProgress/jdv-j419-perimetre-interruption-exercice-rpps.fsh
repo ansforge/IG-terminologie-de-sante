@@ -9,7 +9,7 @@ Description: "Le type de durée d'une interruption d'exercice décrit le caract�
 * ^extension.valuePeriod.start = "2026-07-30T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j419-perimetre-interruption-exercice-rpps"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.402"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.403"
 * ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false

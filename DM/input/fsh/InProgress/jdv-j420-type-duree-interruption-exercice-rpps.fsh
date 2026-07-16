@@ -9,7 +9,7 @@ Description: "Le périmètre d'une interruption d'exercice décrit l'étendue de
 * ^extension.valuePeriod.start = "2026-07-30T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j420-type-duree-interruption-exercice-rpps"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.403"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.404"
 * ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
