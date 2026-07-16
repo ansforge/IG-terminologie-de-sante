@@ -2864,21 +2864,33 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI05 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #G15_60/SI05 ^property[+].code = #status
 * #G15_60/SI05 ^property[=].valueCode = #active
-* #G15_60/SI06 "Infirmier - Exercice infirmier en pratique avancée bloc opératoire (SI)"
+* #G15_60/SI06 "Infirmier(ère) de bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
+* #G15_60/SI06 ^designation[0].language = #fr-FR
+* #G15_60/SI06 ^designation[=].use.system = "http://snomed.info/sct"
+* #G15_60/SI06 ^designation[=].use = $sct#900000000000013009
+* #G15_60/SI06 ^designation[=].value = "IBODE"
 * #G15_60/SI06 ^property[0].code = #dateValid
 * #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI06 ^property[+].code = #dateMaj
 * #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI06 ^property[+].code = #status
 * #G15_60/SI06 ^property[=].valueCode = #active
-* #G15_60/SI07 "Infirmier - Exercice infirmier en pratique avancée anesthésie (SI)"
+* #G15_60/SI07 "Infirmier(ère) anesthésiste (SI)" "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle."
+* #G15_60/SI07 ^designation[0].language = #fr-FR
+* #G15_60/SI07 ^designation[=].use.system = "http://snomed.info/sct"
+* #G15_60/SI07 ^designation[=].use = $sct#900000000000013009
+* #G15_60/SI07 ^designation[=].value = "IADE"
 * #G15_60/SI07 ^property[0].code = #dateValid
 * #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI07 ^property[+].code = #dateMaj
 * #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI07 ^property[+].code = #status
 * #G15_60/SI07 ^property[=].valueCode = #active
-* #G15_60/SI08 "Infirmier - Exercice infirmier en pratique avancée puériculture (SI)"
+* #G15_60/SI08 "Exercice infirmier en pratique avancée puériculture (SI)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
+* #G15_60/SI08 ^designation[0].language = #fr-FR
+* #G15_60/SI08 ^designation[=].use.system = "http://snomed.info/sct"
+* #G15_60/SI08 ^designation[=].use = $sct#900000000000013009
+* #G15_60/SI08 ^designation[=].value = "IPDE"
 * #G15_60/SI08 ^property[0].code = #dateValid
 * #G15_60/SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI08 ^property[+].code = #dateMaj

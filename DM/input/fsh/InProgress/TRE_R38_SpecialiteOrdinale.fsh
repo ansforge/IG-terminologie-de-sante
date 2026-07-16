@@ -130,30 +130,22 @@ Description: "Spécialité ordinale"
 * #SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SI05 ^property[+].code = #status
 * #SI05 ^property[=].valueCode = #active
-* #SI06 "Exercice infirmier en pratique avancée bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
+* #SI06 "Infirmier(ère) de bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
 * #SI06 ^designation[0].language = #fr-FR
 * #SI06 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI06 ^designation[=].use = $sct#900000000000013009
 * #SI06 ^designation[=].value = "IBODE"
-* #SI06 ^designation[+].language = #fr-FR
-* #SI06 ^designation[=].use.system = "http://snomed.info/sct"
-* #SI06 ^designation[=].use = $sct#900000000000013009
-* #SI06 ^designation[=].value = "IPA bloc opératoire"
 * #SI06 ^property[0].code = #dateValid
 * #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #SI06 ^property[+].code = #dateMaj
 * #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #SI06 ^property[+].code = #status
 * #SI06 ^property[=].valueCode = #active
-* #SI07 "Exercice infirmier en pratique avancée anesthésie (SI)" "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle."
+* #SI07 "Infirmier(ère) anesthésiste (SI)" "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle."
 * #SI07 ^designation[0].language = #fr-FR
 * #SI07 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI07 ^designation[=].use = $sct#900000000000013009
 * #SI07 ^designation[=].value = "IADE"
-* #SI07 ^designation[+].language = #fr-FR
-* #SI07 ^designation[=].use.system = "http://snomed.info/sct"
-* #SI07 ^designation[=].use = $sct#900000000000013009
-* #SI07 ^designation[=].value = "IPA anesthésie"
 * #SI07 ^property[0].code = #dateValid
 * #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #SI07 ^property[+].code = #dateMaj
@@ -165,10 +157,6 @@ Description: "Spécialité ordinale"
 * #SI08 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI08 ^designation[=].use = $sct#900000000000013009
 * #SI08 ^designation[=].value = "IPDE"
-* #SI08 ^designation[+].language = #fr-FR
-* #SI08 ^designation[=].use.system = "http://snomed.info/sct"
-* #SI08 ^designation[=].use = $sct#900000000000013009
-* #SI08 ^designation[=].value = "IPA puériculture"
 * #SI08 ^property[0].code = #dateValid
 * #SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #SI08 ^property[+].code = #dateMaj
