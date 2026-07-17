@@ -2886,7 +2886,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #G15_60/SI07 ^property[+].code = #status
 * #G15_60/SI07 ^property[=].valueCode = #active
-* #G15_60/SI08 "Exercice infirmier en pratique avancée puériculture (SI)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
+* #G15_60/SI08 "Infirmier(ère) puériculteur(trice)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
 * #G15_60/SI08 ^designation[0].language = #fr-FR
 * #G15_60/SI08 ^designation[=].use.system = "http://snomed.info/sct"
 * #G15_60/SI08 ^designation[=].use = $sct#900000000000013009

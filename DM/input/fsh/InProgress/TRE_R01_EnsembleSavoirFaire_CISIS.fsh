@@ -2211,7 +2211,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #SI07 ^property[+].code = #status
 * #SI07 ^property[=].valueCode = #active
-* #SI08 "Exercice infirmier en pratique avancée puériculture (SI)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
+* #SI08 "Infirmier(ère) puériculteur(trice)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
 * #SI08 ^designation[0].language = #fr-FR
 * #SI08 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI08 ^designation[=].use = $sct#900000000000013009
