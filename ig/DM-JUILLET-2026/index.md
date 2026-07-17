@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.11.1 |
-| Active as of 2026-07-16 | *Computable Name*:Terminologies |
+| Active as of 2026-07-17 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -177,7 +177,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [EntityCode](http://terminology.hl7.org/7.2.0/CodeSystem-v3-EntityCode.html): [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md)
 * [ObservationInterpretation](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationInterpretation.html): [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md), [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) and [ObservationInterpretationSupplementFr](CodeSystem-ObservationInterpretation-supplement-fr.md)
 * [ObservationMethod](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationMethod.html): [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) and [ObservationMethodSupplementFr](CodeSystem-ObservationMethod-supplement-fr.md)
-* [ObservationValue](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationValue.html): [ADICAP](NamingSystem-ADICAP.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md)... Show 14 more, [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md), [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md), [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md), [IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md), [LOINC](NamingSystem-v3-loinc.md), [MEDDRA](NamingSystem-MEDDRA.md), [NCIT](NamingSystem-NCIT.md), [ObservationValueSupplementFr](CodeSystem-ObservationValue-supplement-fr.md), [PCS](NamingSystem-PCS.md), [SERAFIN](NamingSystem-SERAFIN.md), [Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md), [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md), [UCUM](NamingSystem-UCUM.md) and [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
+* [ObservationValue](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationValue.html): [ADICAP](NamingSystem-ADICAP.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md)... Show 15 more, [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md), [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md), [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md), [IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md), [LOINC](NamingSystem-v3-loinc.md), [MEDDRA](NamingSystem-MEDDRA.md), [NCIT](NamingSystem-NCIT.md), [ObservationValueSupplementFr](CodeSystem-ObservationValue-supplement-fr.md), [PCS](NamingSystem-PCS.md), [SERAFIN](NamingSystem-SERAFIN.md), [Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md), [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md), [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md), [UCUM](NamingSystem-UCUM.md) and [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
 * [ParticipationFunction](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ParticipationFunction.html): [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) and [ParticipationFunctionSupplementFr](CodeSystem-ParticipationFunction-supplement-fr.md)
 * [ParticipationType](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ParticipationType.html): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md), [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md) and [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md)
 * [RoleClass](http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md), [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md), [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) and [RoleCode](CodeSystem-v3-RoleCode.md)
@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-07-16T16:04:02+00:00",
+  "date" : "2026-07-17T10:31:48+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -46648,7 +46648,6 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/TRE-R16-LieuFormation"
       },
       "name" : "TRE_R16_LieuFormation",
-      "description" : "Lieu de formation",
       "exampleBoolean" : false
     },
     {

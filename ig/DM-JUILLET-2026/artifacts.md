@@ -1019,7 +1019,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d’exercice |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d’autorisation |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d’autorisation |
 | [TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md) | Canal de communication |

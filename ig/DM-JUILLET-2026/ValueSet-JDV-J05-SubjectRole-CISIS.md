@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-16
+2026-07-17
 
 Liens:
 [Table des matières ](toc.md)|
@@ -716,7 +716,7 @@ Liens:
       },
       {
         "code" : "SI08",
-        "display" : "Exercice infirmier en pratique avancée puériculture (SI)"
+        "display" : "Infirmier(ère) puériculteur(trice)"
       },
       {
         "code" : "C01",

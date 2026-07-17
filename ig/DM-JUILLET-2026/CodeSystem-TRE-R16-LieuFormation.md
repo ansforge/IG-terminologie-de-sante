@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.35 | | |
-
- 
-Lieu de formation 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -30,26 +27,24 @@ Lieu de formation
   "meta" : {
     "versionId" : "15",
     "lastUpdated" : "2026-07-06T20:12:40.253+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
+    "tag" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code" : "SUBSETTED",
+      "display" : "Resource encoded in summary mode"
+    }]
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-    "valuePeriod" : {
-      "start" : "2015-12-29T00:00:00+01:00"
-    }
-  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.35"
   }],
-  "version" : "20251222120000",
+  "version" : "20260730120000",
   "name" : "TRE_R16_LieuFormation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Lieu de formation",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -58,7 +53,7 @@ Lieu de formation
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1360,
+  "count" : 1361,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -8877,6 +8872,30 @@ Lieu de formation
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "UI340",
+    "display" : "IFSI de l'Hôpital de Mont-Saint-Martin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IFSI du CH de Mont-Saint-Martin (Groupe SOS - Santé)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {

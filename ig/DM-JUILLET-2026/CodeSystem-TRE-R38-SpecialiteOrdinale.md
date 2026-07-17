@@ -351,7 +351,7 @@ Spécialité ordinale
   },
   {
     "code" : "SI08",
-    "display" : "Exercice infirmier en pratique avancée puériculture (SI)",
+    "display" : "Infirmier(ère) puériculteur(trice)",
     "definition" : "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements.",
     "designation" : [{
       "language" : "fr-FR",

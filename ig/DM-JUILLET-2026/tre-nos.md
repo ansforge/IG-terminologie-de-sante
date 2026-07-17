@@ -118,7 +118,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 | active |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 05/05/2026 | active |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 | active |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 22/12/2025 | active |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  | 30/07/2026 | active |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 | active |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 | active |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 | active |
