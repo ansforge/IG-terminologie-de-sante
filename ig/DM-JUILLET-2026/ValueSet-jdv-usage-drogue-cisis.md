@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-usage-drogue-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUsageDrogueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-usage-drogue-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUsageDrogueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.94 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-usage-drogue-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-22T14:00:58.789+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-17T13:00:28.070+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.94"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085852",
   "name" : "JdvUsageDrogueCisis",
   "title" : "JDV Usage Drogue CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Usage Drogue CISIS",
   "jurisdiction" : [{

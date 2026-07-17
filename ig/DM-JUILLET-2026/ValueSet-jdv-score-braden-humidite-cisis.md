@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-humidite-cisis | *Version*:20260619134041 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreBradenHumiditeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-humidite-cisis | *Version*:20260716085851 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreBradenHumiditeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.506 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-score-braden-humidite-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-22T14:00:04.939+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-17T12:59:49.314+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.506"
   }],
-  "version" : "20260619134041",
+  "version" : "20260716085851",
   "name" : "JdvScoreBradenHumiditeCisis",
   "title" : "JDV Score Braden Humidite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:41+01:00",
+  "date" : "2026-07-16T08:58:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Braden Humidite CISIS",
   "jurisdiction" : [{

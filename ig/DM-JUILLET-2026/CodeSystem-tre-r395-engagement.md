@@ -19,6 +19,7 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
 
 * [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md)
 * [JdvJ314EngagementFiness](ValueSet-jdv-j314-engagement-finess.md)
+* [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md)
 
 
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-cse24-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAntecedentCse24Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-cse24-cisis | *Version*:20260716085853 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAntecedentCse24Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.104 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-antecedent-cse24-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T13:58:15.634+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-17T12:58:23.578+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.104"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085853",
   "name" : "JdvAntecedentCse24Cisis",
   "title" : "JDV Antecedent Cse24 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Antecedent Cse24 CISIS",
   "jurisdiction" : [{

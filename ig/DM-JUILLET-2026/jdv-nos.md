@@ -30,6 +30,8 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ342TypeActSoumiseAReconnaissanceFiness](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité soumise à reconnaissance | 29/06/2026 | active |
 | [JdvJ344TypeActEquipementMaterielLourdFiness](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité associés aux équipements matériel lourds | 29/06/2026 | active |
 | [JdvJ350TypeActDeSoinAmmFiness](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité de soin AMM | 29/06/2026 | active |
+| [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS | 30/07/2026 | active |
+| [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 30/07/2026 | active |
 | [JdvJ300TypeObjetFiness](ValueSet-jdv-j300-type-objet-finess.md) | Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+. | 29/06/2026 | active |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 | active |
 | [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) | 23/02/2026 | active |
@@ -181,7 +183,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J80_Sexe_RASS](ValueSet-JDV-J80-Sexe-RASS.md) | Sexe des professionnels du RASS | 15/12/2023 | active |
 | [JDV_J81_TypeDiplome_RASS](ValueSet-JDV-J81-TypeDiplome-RASS.md) | Types de diplôme du RASS | 26/05/2023 | active |
 | [JDV_J82_Langue_RASS](ValueSet-JDV-J82-Langue-RASS.md) | Langues (codes ISO-639) des professionnels du RASS | 27/09/2024 | active |
-| [JDV_J83_AutoriteEnregistrement_RASS](ValueSet-JDV-J83-AutoriteEnregistrement-RASS.md) | Autorités d'enregistrement des acteurs de santé du RASS | 28/06/2024 | active |
+| [JDV_J83_AutoriteEnregistrement_RASS](ValueSet-JDV-J83-AutoriteEnregistrement-RASS.md) | Autorités d'enregistrement des acteurs de santé du RASS | 30/07/2026 | active |
 | [JDV_J85_StatutInscription_RASS](ValueSet-JDV-J85-StatutInscription-RASS.md) | Statut avancement dossier de référencement personne du RASS auprès d'un ordre | 24/04/2020 | active |
 | [JDV_J86_NatCycleForm_RASS](ValueSet-JDV-J86-NatCycleForm-RASS.md) | Natures du cycle de formation des professionnels du RASS | 24/04/2020 | active |
 | [JDV_J87_NiveauFormAcquis_RASS](ValueSet-JDV-J87-NiveauFormAcquis-RASS.md) | Niveau de formation acquis dans le cycle de formation des professionnels du RASS | 24/04/2020 | active |
@@ -221,7 +223,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J127_StatutJuridique_ENREG](ValueSet-JDV-J127-StatutJuridique-ENREG.md) | Jeu de valeur sur les statuts juridiques pour ENREG | 15/12/2023 | active |
 | [JDV_J128_TypeCarte_RASS](ValueSet-JDV-J128-TypeCarte-RASS.md) | Type de carte dans le RASS | 27/11/2020 | active |
 | [JDV_J130_CNAMAmeliSecteurConventionnement_RASS](ValueSet-JDV-J130-CNAMAmeliSecteurConventionnement-RASS.md) | Secteur de conventionnement du professionnel libéral | 27/11/2020 | active |
-| [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md) | Mode d'application ou type de soins encadrant une activité dans le RASS | 25/03/2022 | active |
+| [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md) | Mode d'application ou type de soins encadrant une activité dans le RASS | 30/07/2026 | active |
 | [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md) | Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS | 27/11/2020 | active |
 | [JDV_J134_FormeActivite_RASS](ValueSet-JDV-J134-FormeActivite-RASS.md) | Type d'organisation de prise en charge du RASS | 28/06/2024 | active |
 | [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md) | Equipements Matériels Lourds dans le RASS | 27/11/2020 | active |
@@ -335,7 +337,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 22/12/2025 | active |
 | [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS | 27/09/2024 | active |
 | [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) | Tous les codes actifs de la notion sexe | 29/03/2024 | active |
-| [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md) | Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH | 01/06/2026 | active |
+| [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md) | Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH | 30/07/2026 | active |
 | [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md) | Rôles des membres d'un cercle de soins | 26/07/2024 | active |
 | [JDV_J275_EMDN_UPNOS](ValueSet-JDV-J275-EMDN-UPNOS.md) | Termes EMDN utilisés | 27/09/2024 | active |
 | [JDV_J277_NCIT_CISIS](ValueSet-JDV-J277-NCIT-CISIS.md) | Termes NCIT utilisés | 13/12/2024 | active |

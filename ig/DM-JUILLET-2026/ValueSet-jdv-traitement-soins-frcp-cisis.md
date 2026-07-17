@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20260716085853 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.596 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-traitement-soins-frcp-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-22T14:00:28.242+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-17T13:00:06.497+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.596"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085853",
   "name" : "JdvTraitementSoinsFrcpCisis",
   "title" : "JDV Traitement Soins Frcp CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Traitement Soins Frcp CISIS",
   "jurisdiction" : [{

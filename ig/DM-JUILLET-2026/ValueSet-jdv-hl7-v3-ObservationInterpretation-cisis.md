@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ObservationInterpretation |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ObservationInterpretation |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.78 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ObservationInterpretation-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T14:01:01.286+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-17T13:00:29.717+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.78"
   }],
-  "version" : "20260619134042",
+  "version" : "20260716085852",
   "name" : "ObservationInterpretation",
   "title" : "ObservationInterpretation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ObservationInterpretation",
   "jurisdiction" : [{

@@ -798,6 +798,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l’ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
 | [Jdv J371 Etat Objet Administratif Finess](ValueSet-jdv-j371-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+ |
+| [Jdv J372 Convention Rass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS |
 | [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) |
 | [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) |
 | [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. |
@@ -811,6 +812,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
+| [Jdv J388 Mode Fonctionnement Activite Smsse Regulee Rass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS |
 | [Jdv J389 Sexe Insee](ValueSet-jdv-j389-sexe-insee.md) | Liste de valeurs du code Sexe issues de l’INSEE pour le RPPS |
 | [Jdv J390 Origine Interruption Exercice Rpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md) | Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). |
 | [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |

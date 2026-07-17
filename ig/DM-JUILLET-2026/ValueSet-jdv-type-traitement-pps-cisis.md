@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeTraitementPpsCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis | *Version*:20260716085853 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeTraitementPpsCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.478 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-type-traitement-pps-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-22T14:00:50.940+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-17T13:00:22.489+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.478"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085853",
   "name" : "JdvTypeTraitementPpsCisis",
   "title" : "JDV Type Traitement Pps CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Traitement Pps CISIS",
   "jurisdiction" : [{

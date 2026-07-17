@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-raison-absence-etiologie-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRaisonAbsenceEtiologieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-raison-absence-etiologie-cisis | *Version*:20260716085851 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRaisonAbsenceEtiologieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.201 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-raison-absence-etiologie-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T13:59:49.714+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-17T12:59:37.814+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.201"
   }],
-  "version" : "20260619134042",
+  "version" : "20260716085851",
   "name" : "JdvRaisonAbsenceEtiologieCisis",
   "title" : "JDV Raison Absence Etiologie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-07-16T08:58:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Raison Absence Etiologie CISIS",
   "jurisdiction" : [{

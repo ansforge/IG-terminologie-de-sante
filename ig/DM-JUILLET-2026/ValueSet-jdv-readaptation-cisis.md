@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-readaptation-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvReadaptationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-readaptation-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvReadaptationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.66 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-readaptation-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-22T13:59:51.225+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-17T12:59:38.815+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.66"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085852",
   "name" : "JdvReadaptationCisis",
   "title" : "JDV Readaptation CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Readaptation CISIS",
   "jurisdiction" : [{

@@ -18,6 +18,7 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md)
+* [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md)
 
 
 

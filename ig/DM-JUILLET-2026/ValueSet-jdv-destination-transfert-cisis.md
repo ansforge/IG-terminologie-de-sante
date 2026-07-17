@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.70 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-destination-transfert-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-06-23T11:42:56.614+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-17T12:58:42.535+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.70"
   }],
-  "version" : "20260619134043",
+  "version" : "20260716085852",
   "name" : "JdvDestinationTransfertCisis",
   "title" : "JDV Destination Transfert CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Destination Transfert CISIS",
   "jurisdiction" : [{
