@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeleDocumentCdaCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeleDocumentCdaCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.820 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-17
+2026-07-18
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-modele-document-cda-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:29.602+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-17T12:59:18.338+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.820"
   }],
-  "version" : "20260420150250",
+  "version" : "20260716085852",
   "name" : "JdvModeleDocumentCdaCisis",
   "title" : "Jdv Modele Document CDA CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Modele Document CDA CISIS",
   "jurisdiction" : [{
@@ -320,6 +320,26 @@ Liens:
       {
         "code" : "1.2.250.1.213.1.1.1.62",
         "display" : "Fiche de retour du service des urgences"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.1",
+        "display" : "PSIG – Formulaire MSO Rougeole"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.2",
+        "display" : "PSIG – Formulaire MSO Dengue"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.3",
+        "display" : "PSIG – Formulaire MSO Chikungunya"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.4",
+        "display" : "PSIG – Formulaire MSO Zika"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.5",
+        "display" : "PSIG – Formulaire MSO West Nile"
       }]
     },
     {

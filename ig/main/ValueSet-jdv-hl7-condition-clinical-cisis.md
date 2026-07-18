@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-clinical-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConditionClinicalStatusCodes |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-clinical-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConditionClinicalStatusCodes |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.164 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-17
+2026-07-18
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-condition-clinical-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T13:58:05.879+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-17T12:58:16.229+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.164"
   }],
-  "version" : "20260619134042",
+  "version" : "20260716085852",
   "name" : "ConditionClinicalStatusCodes",
   "title" : "Condition Clinical Status Codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Condition Clinical Status Codes",
   "jurisdiction" : [{

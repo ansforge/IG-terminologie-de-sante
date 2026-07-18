@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSectionDocumentCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis | *Version*:20260716085852 | |
+| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSectionDocumentCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.836 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-17
+2026-07-18
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-section-document-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-06-23T14:58:08.635+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-17T12:59:52.609+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.836"
   }],
-  "version" : "20260619134042",
+  "version" : "20260716085852",
   "name" : "JdvSectionDocumentCisis",
   "title" : "JDV Section Document CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-07-16T08:58:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Section Document CISIS",
   "jurisdiction" : [{
@@ -595,10 +595,6 @@ Liens:
       {
         "code" : "101792-0",
         "display" : "Résultats de laboratoire scannés"
-      },
-      {
-        "code" : "xx-MCH-PsychoMDev",
-        "display" : "Développement psychomoteur"
       }]
     },
     {
