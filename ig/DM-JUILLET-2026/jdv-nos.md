@@ -227,7 +227,6 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md) | Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS | 27/11/2020 | active |
 | [JDV_J134_FormeActivite_RASS](ValueSet-JDV-J134-FormeActivite-RASS.md) | Type d'organisation de prise en charge du RASS | 28/06/2024 | active |
 | [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md) | Equipements Matériels Lourds dans le RASS | 27/11/2020 | active |
-| [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md) | Type d'activité dans le RASS | 23/02/2024 | active |
 | [JDV_J139_TypeBAL_RASS](ValueSet-JDV-J139-TypeBAL-RASS.md) | Type de boîte aux lettres dans le RASS | 24/11/2023 | active |
 | [JDV_J140_EncounterParticipationType_CISIS](ValueSet-JDV-J140-EncounterParticipationType-CISIS.md) | JDV_J140-EncounterParticipationType-CISIS | 26/03/2021 | active |
 | [JDV_J141_RoleClass_CISIS](ValueSet-JDV-J141-RoleClass-CISIS.md) | RoleClassAssociative CI-SIS | 26/03/2021 | active |

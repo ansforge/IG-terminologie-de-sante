@@ -938,7 +938,7 @@ Compétence spécifique
   },
   {
     "code" : "40",
-    "display" : "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)",
+    "display" : "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
