@@ -423,7 +423,7 @@ Description: "Compétence spécifique"
 * #39 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #39 ^property[+].code = #status
 * #39 ^property[=].valueCode = #active
-* #40 "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)"
+* #40 "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
 * #40 ^designation[0].language = #fr-FR
 * #40 ^designation[=].use.system = "http://snomed.info/sct"
 * #40 ^designation[=].use = $sct#900000000000013009
