@@ -1,19 +1,3 @@
-Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
-Alias: $tre-r272-equipement-materiel-lourd = https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd
-Alias: $tre-r274-activite-sanitaire-regulee = https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee
-Alias: $tre-r405-modalite-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee
-Alias: $tre-r406-forme-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee
-Alias: $tre-r381-activite-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm
-Alias: $tre-r382-modalite-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm
-Alias: $tre-r383-mention-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm
-Alias: $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm
-Alias: $tre-r385-declaration-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm
-Alias: $tre-r347-activite-sanitaire-diverse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
-Alias: $tre-r404-mode-fonctionnement-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee
-Alias: $tre-r403-public-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee
-Alias: $tre-r401-activite-sociale-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee
-Alias: $tre-r402-activite-enseignement-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee
-
 CodeSystem: TreR392TypeActSmsseRegulee
 Id: tre-r392-type-act-smsse-regulee
 Title: "Tre R392 Type Act Smsse Regulee"
