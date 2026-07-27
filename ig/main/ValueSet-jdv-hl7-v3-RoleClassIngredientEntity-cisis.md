@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-26
+2026-07-27
 
 Liens:
 [Table des matières ](toc.md)|
@@ -101,7 +101,7 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-      "version" : "5.0.0",
+      "version" : "6.0.0",
       "concept" : [{
         "code" : "INGR",
         "display" : "Ingrédient"
