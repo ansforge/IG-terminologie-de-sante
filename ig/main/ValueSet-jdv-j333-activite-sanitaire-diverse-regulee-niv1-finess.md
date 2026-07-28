@@ -1,4 +1,4 @@
-# Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess - Terminologies de Santé v1.11.1
+# Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-27
+2026-07-28
 
 Liens:
 [Table des matières ](toc.md)|

@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.11.1
+# Artifacts Summary - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -843,12 +843,10 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |
-| [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) | JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Origine Information Vaccin Rougeole CISIS](ValueSet-jdv-origine-information-vaccin-rougeole-cisis.md) | Jdv Origine Information Vaccin Rougeole CISIS |
 | [Jdv Resultat Qualitatif CISIS](ValueSet-jdv-resultat-qualitatif-cisis.md) | Jdv Resultat Qualitatif CISIS |
 | [Jdv Role Informateur CISIS](ValueSet-jdv-role-informateur-cisis.md) | Jdv Role Informateur CISIS |
 | [Jdv Situation Matrimoniale CISIS](ValueSet-jdv-situation-matrimoniale-cisis.md) | Jdv Situation Matrimoniale CISIS |
-| [Jdv Tre R221 Modele Document Cda Non Structure All](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Trod Examen CISIS](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS |
 | [Jdv Type Resultat Type CISIS](ValueSet-jdv-resultat-type-cisis.md) | Jdv Type Resultat Type CISIS |
 | [Jdv Type Systeme CISIS](ValueSet-jdv-type-systeme-cisis.md) | Jdv Type Systeme CISIS |

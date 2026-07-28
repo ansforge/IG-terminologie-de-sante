@@ -1,4 +1,4 @@
-# TRE_R221_ModeleDocumentCDANonStructure - Terminologies de Santé v1.11.1
+# TRE_R221_ModeleDocumentCDANonStructure - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,8 +17,6 @@ Identifiant des modèles de CDA non structurés
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md)
-* [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md)
 * [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md)
 * [JdvModeleDocumentCdaNonStructureCisis](ValueSet-jdv-modele-document-cda-non-structure-cisis.md)
 

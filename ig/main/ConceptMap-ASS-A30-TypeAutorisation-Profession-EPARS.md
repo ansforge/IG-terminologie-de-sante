@@ -1,4 +1,4 @@
-# ASS_A30_TypeAutorisation_Profession_EPARS - Terminologies de Santé v1.11.1
+# ASS_A30_TypeAutorisation_Profession_EPARS - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

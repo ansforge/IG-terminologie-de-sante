@@ -1,4 +1,4 @@
-# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.11.1
+# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -58,7 +58,7 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       "code" : "FRA"
     }]
   }],
-  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
+  "sourceUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",

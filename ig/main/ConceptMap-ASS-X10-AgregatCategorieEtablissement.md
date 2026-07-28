@@ -1,4 +1,4 @@
-# ASS_X10_AgregatCategorieEtablissement - Terminologies de Santé v1.11.1
+# ASS_X10_AgregatCategorieEtablissement - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X10_AgregatCategorieEtablissement | *Version*:5.0.0 |
-| Active as of 2026-07-27 | *Computable Name*:ASS_X10_AgregatCategorieEtablissement |
+| Active as of 2026-07-28 | *Computable Name*:ASS_X10_AgregatCategorieEtablissement |
 
  
 ASS_X10_AgregatCategorieEtablissement 
@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X10_AgregatCategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-27T07:02:45+00:00",
+  "date" : "2026-07-28T12:20:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

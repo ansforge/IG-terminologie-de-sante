@@ -1,4 +1,4 @@
-# Vs Tre R378 Motif Arrete All - Terminologies de Santé v1.11.1
+# Vs Tre R378 Motif Arrete All - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -50,9 +50,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-vs-tre-r375-mode-financement-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r378-motif-arrete-all-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-27
+2026-07-28
 
 Liens:
 [Table des matières ](toc.md)|

@@ -1,4 +1,4 @@
-# ValueSet_EDQM_All - Terminologies de Santé v1.11.1
+# ValueSet_EDQM_All - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms?vs | *Version*:20241114120000 | |
-| Active as of 2026-07-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
+| Active as of 2026-07-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie EDQM 
@@ -50,9 +50,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-vs-cipucd-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-edqm-all-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-27
+2026-07-28
 
 Liens:
 [Table des matières ](toc.md)|
@@ -77,7 +77,7 @@ Liens:
   "name" : "ValueSet_EDQM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-27T07:02:45+00:00",
+  "date" : "2026-07-28T12:20:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
   "jurisdiction" : [{

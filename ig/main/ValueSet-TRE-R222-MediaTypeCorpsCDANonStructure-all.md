@@ -1,4 +1,4 @@
-# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.11.1
+# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2026-07-27 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
+| Active as of 2026-07-28 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure 
@@ -50,9 +50,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-voie-abord-cisis.demande.md) | [top](#top) |  [next>](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.1 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-27
+2026-07-28
 
 Liens:
 [Table des matières ](toc.md)|
@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-27T07:02:45+00:00",
+  "date" : "2026-07-28T12:20:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

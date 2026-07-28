@@ -1,4 +1,4 @@
-# ASS_X16_CorrespondanceType_Classe_DMP - Terminologies de Santé v1.11.1
+# ASS_X16_CorrespondanceType_Classe_DMP - Terminologies de Santé v1.12.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
