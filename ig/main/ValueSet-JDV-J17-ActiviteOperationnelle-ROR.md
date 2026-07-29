@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "31",
-    "lastUpdated" : "2026-07-06T19:05:39.614+02:00",
+    "versionId" : "32",
+    "lastUpdated" : "2026-07-29T08:04:51.145+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -1486,7 +1486,7 @@ Liens:
       },
       {
         "code" : "414",
-        "display" : "Soins de support en oncologie et hématologie"
+        "display" : "Soins de support"
       },
       {
         "code" : "416",
@@ -1622,7 +1622,7 @@ Liens:
       },
       {
         "code" : "451",
-        "display" : "Exploration et prise en charge des troubles du sommeil"
+        "display" : "Exploration des troubles du sommeil"
       },
       {
         "code" : "452",
@@ -1698,7 +1698,7 @@ Liens:
       },
       {
         "code" : "480",
-        "display" : "Médecine du sommeil"
+        "display" : "Médecine du sommeil (prise en charge des troubles du sommeil)"
       },
       {
         "code" : "481",
@@ -2291,6 +2291,14 @@ Liens:
       {
         "code" : "629",
         "display" : "Conseil et accompagnement dans la gestion des traitements"
+      },
+      {
+        "code" : "630",
+        "display" : "Evaluation et accompagnement des auteurs de violences conjugales"
+      },
+      {
+        "code" : "631",
+        "display" : "Prise en charge et coordination de plaies et cicatrisations complexes"
       }]
     }]
   }

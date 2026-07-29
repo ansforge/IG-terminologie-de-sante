@@ -20,7 +20,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) | 20/03/2019 | active |
 | [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 01/07/2026 | active |
 | [CCAM](CodeSystem-terminologie-ccam.md) | La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. | 01/07/2026 | active |
-| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 28/07/2026 | active |
+| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 29/07/2026 | active |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 | 20/12/2024 | active |
 | [CISP_2](CodeSystem-terminologie-cisp.md) | La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé). | 26/06/2019 | active |
 | [Catalogue_Vaccins](CodeSystem-terminologie-catalogue-vaccins.md) | Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix | 01/04/2026 | active |
@@ -35,7 +35,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [EmploymentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. | 01/12/2019 | active |
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. | 20/03/2019 | active |
 | [IcdO3](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. | 20/03/2019 | active |
-| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 28/07/2026 | active |
+| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 29/07/2026 | active |
 | [MediaType](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts:1. top level media type, and
 1. media subtype
 However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash "/" followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used. | 20/03/2019 | active |
@@ -60,7 +60,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [SubstanceAdminSubstitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. | 20/03/2019 | active |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 | active |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 | active |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 | active |
+| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 30/07/2026 | active |
 | [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 | active |
 | [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 | active |
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/06/2026 | active |
@@ -90,7 +90,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md) | Attribution particulière ADELI | 15/12/2023 | active |
 | [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 | active |
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 | active |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 | active |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 30/07/2026 | active |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 | active |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 | active |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 | active |
@@ -115,8 +115,8 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 29/06/2026 | active |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 | active |
 | [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 29/06/2026 | active |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 29/06/2026 | active |
-| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 29/06/2026 | active |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/07/2026 | active |
+| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 30/07/2026 | active |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 29/06/2026 | active |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 | active |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 | active |
@@ -137,20 +137,20 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R236_ModeGestion](CodeSystem-TRE-R236-ModeGestion.md) | Mode gestion | 15/12/2023 | active |
 | [TRE_R237_GroupeTarifaireDependance](CodeSystem-TRE-R237-GroupeTarifaireDependance.md) | Niveau de dépendance associé à un tarif | 15/12/2023 | active |
 | [TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md) | Ouverture annuelle | 15/12/2023 | active |
-| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 29/06/2026 | active |
+| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 30/07/2026 | active |
 | [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 | active |
 | [TRE_R240_TemporaliteAccueil](CodeSystem-TRE-R240-TemporaliteAccueil.md) | Temporalité accueil | 15/12/2023 | active |
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 | active |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 | active |
-| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 29/06/2026 | active |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 29/06/2026 | active |
-| [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 | active |
+| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/07/2026 | active |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/07/2026 | active |
+| [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 30/07/2026 | active |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 | active |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 | active |
 | [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md) | Sexe | 15/12/2023 | active |
 | [TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md) | Type d'activité libérale | 15/12/2023 | active |
 | [TRE_R250_ConditionTarifaire](CodeSystem-TRE-R250-ConditionTarifaire.md) | Les conditions d'accès à un tarif modulé | 15/12/2023 | active |
-| [TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md) | Un titre, une position, une fonction de la personne contact dans l'organisation | 31/01/2025 | active |
+| [TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md) | Un titre, une position, une fonction de la personne contact dans l'organisation | 30/07/2026 | active |
 | [TRE_R252_TypeHoraire](CodeSystem-TRE-R252-TypeHoraire.md) | Type horaire | 25/10/2024 | active |
 | [TRE_R253_TypeMaternite](CodeSystem-TRE-R253-TypeMaternite.md) | Type de maternité | 15/12/2023 | active |
 | [TRE_R254_TypeEvenement](CodeSystem-TRE-R254-TypeEvenement.md) | Liste de types d'évènement | 29/03/2024 | active |
@@ -164,7 +164,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R261_AutreSalarieStructureSante](CodeSystem-TRE-R261-AutreSalarieStructureSante.md) | Autre salariés d'une structure de santé | 15/12/2023 | active |
 | [TRE_R262_CategorieSocioProfessionnelle](CodeSystem-TRE-R262-CategorieSocioProfessionnelle.md) | Catégories socio-professionnelles | 15/12/2023 | active |
 | [TRE_R263_TypeNumeroIdentification](CodeSystem-TRE-R263-TypeNumeroIdentification.md) | Type de numéro d'identification | 15/12/2023 | active |
-| [TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md) | Prestations non obligatoire incluses | 15/12/2023 | active |
+| [TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md) | Prestations non obligatoire incluses | 30/07/2026 | active |
 | [TRE_R266_FamilleActiviteOperationnelleHorsSerafin](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md) | Familles activités opérationnelles hors Serafin | 15/12/2023 | active |
 | [TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md) | Codes de représentation des sexes humains provenant de la norme ISO 5218 | 15/12/2023 | active |
 | [TRE_R268_PaysProvenanceISO](CodeSystem-TRE-R268-PaysProvenanceISO.md) | Référentiel des pays provenant de la norme ISO 3166 | 26/01/2024 | active |
@@ -228,13 +228,13 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md) | Permet d'indiquer quel type de source est à l'origine de l'information de capacité | 15/12/2023 | active |
 | [TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md) | Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits | 15/12/2023 | active |
 | [TRE_R337_AffectationTemporaire](CodeSystem-TRE-R337-AffectationTemporaire.md) | Permet d'indiquer la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 15/12/2023 | active |
-| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 29/06/2026 | active |
+| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 30/07/2026 | active |
 | [TRE_R33_StatutInscription](CodeSystem-TRE-R33-StatutInscription.md) | Statut de l'inscription | 15/12/2023 | active |
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 | active |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 | active |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 | active |
 | [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 01/06/2026 | active |
-| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 29/06/2026 | active |
+| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 30/07/2026 | active |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 | active |
 | [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
 | [TRE_R349_ActionAnomalie](CodeSystem-TRE-R349-ActionAnomalie.md) | Action attendue dans le cadre de la gestion d'une anomalie | 15/12/2023 | active |
@@ -243,7 +243,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R352_StatutMetierAnomalie](CodeSystem-TRE-R352-StatutMetierAnomalie.md) | Statut métier des anomalies | 15/12/2023 | active |
 | [TRE_R354_TypeIdentifiantRessourceOperationnelle](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md) | Type d'identifiant des ressources opérationnelles | 29/03/2024 | active |
 | [TRE_R355_TypeIdentifiantOffre](CodeSystem-TRE-R355-TypeIdentifiantOffre.md) | Type d'identifiant de l'offre | 29/03/2024 | active |
-| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 18/09/2025 | active |
+| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 30/07/2026 | active |
 | [TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) | Statut de la personne prise en charge. | 15/12/2023 | active |
 | [TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md) | Motif du statut de la personne prise en charge | 15/12/2023 | active |
 | [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
@@ -251,7 +251,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md) | Profils utilisateur d'un référentiel national | 28/03/2025 | active |
 | [TRE_R36_AutreDiplomeObtenu](CodeSystem-TRE-R36-AutreDiplomeObtenu.md) | Autre diplôme obtenu | 15/12/2023 | active |
 | [TRE_R37_TypeProfessionFonction](CodeSystem-TRE-R37-TypeProfessionFonction.md) | Type des professions et des fonctions | 15/12/2023 | active |
-| [TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md) | Spécialité ordinale | 31/05/2024 | active |
+| [TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md) | Spécialité ordinale | 30/07/2026 | active |
 | [TRE_R391_MotifRestrictionDiffusion](CodeSystem-TRE-R391-MotifRestrictionDiffusion.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 | active |
 | [TRE_R39_Competence](CodeSystem-TRE-R39-Competence.md) | Compétence | 28/06/2024 | active |
 | [TRE_R40_CompetenceExclusive](CodeSystem-TRE-R40-CompetenceExclusive.md) | Compétence exclusive | 15/12/2023 | active |
@@ -326,7 +326,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/03/2026 | active |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 | active |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 | active |
-| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 29/06/2026 | active |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 30/07/2026 | active |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 | active |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 | active |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention | 29/06/2026 | active |

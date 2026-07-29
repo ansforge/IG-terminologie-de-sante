@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.40 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "meta" : {
-    "versionId" : "33",
-    "lastUpdated" : "2026-07-06T19:06:33.138+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-07-29T08:04:56.342+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.40"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "JDV_J34_CategorieOrganisation_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation - ROR",
   "jurisdiction" : [{
@@ -1294,7 +1294,35 @@ Liens:
       },
       {
         "code" : "313",
-        "display" : "Antennes des urgences"
+        "display" : "Antenne des urgences"
+      },
+      {
+        "code" : "314",
+        "display" : "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
+      },
+      {
+        "code" : "315",
+        "display" : "Equipe de Soins Spécialisés (ESS)"
+      },
+      {
+        "code" : "316",
+        "display" : "Société de téléconsultation"
+      },
+      {
+        "code" : "317",
+        "display" : "Unité hospitalière de soins de support"
+      },
+      {
+        "code" : "318",
+        "display" : "Groupe plaies et cicatrisation (dont équipe mobile)"
+      },
+      {
+        "code" : "319",
+        "display" : "Centre du sommeil"
+      },
+      {
+        "code" : "320",
+        "display" : "Offre de relayage au domicile"
       }]
     }]
   }

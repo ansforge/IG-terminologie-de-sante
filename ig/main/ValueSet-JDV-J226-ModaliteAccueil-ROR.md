@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.58 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J226-ModaliteAccueil-ROR",
   "meta" : {
-    "versionId" : "19",
-    "lastUpdated" : "2026-07-06T19:06:03.206+02:00",
+    "versionId" : "20",
+    "lastUpdated" : "2026-07-29T08:04:53.260+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.58"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
   "jurisdiction" : [{
@@ -143,10 +143,6 @@ Liens:
       {
         "code" : "11",
         "display" : "Téléexpertise en moins de 7 jours"
-      },
-      {
-        "code" : "12",
-        "display" : "Téléexpertise en plus de 7 jours"
       },
       {
         "code" : "13",

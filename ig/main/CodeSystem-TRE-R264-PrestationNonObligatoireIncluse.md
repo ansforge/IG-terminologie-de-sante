@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R264-PrestationNonObligatoireIncluse/FHIR/TRE-R264-PrestationNonObligatoireIncluse | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R264_PrestationNonObligatoireIncluse |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R264-PrestationNonObligatoireIncluse/FHIR/TRE-R264-PrestationNonObligatoireIncluse | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R264_PrestationNonObligatoireIncluse |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.59 | | |
 
  
@@ -28,8 +28,8 @@ Prestations non obligatoire incluses
   "resourceType" : "CodeSystem",
   "id" : "TRE-R264-PrestationNonObligatoireIncluse",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-07-06T20:13:13.609+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-29T08:03:39.207+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -43,11 +43,11 @@ Prestations non obligatoire incluses
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.59"
   }],
-  "version" : "20231215120000",
+  "version" : "20260730120000",
   "name" : "TRE_R264_PrestationNonObligatoireIncluse",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations non obligatoire incluses",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Prestations non obligatoire incluses
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 11,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -125,14 +126,14 @@ Prestations non obligatoire incluses
   },
   {
     "code" : "03",
-    "display" : "Fourniture de produits d'hygiène corporelle",
+    "display" : "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)"
+      "value" : "Fourniture de produits d'hygiène corporelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -140,7 +141,7 @@ Prestations non obligatoire incluses
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource | *Version*:20250918120000 | |
-| Active as of 2025-09-18 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R356_ProfessionRessource |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R356_ProfessionRessource |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.246 | | |
 
  
@@ -29,8 +29,8 @@ Profession Ressource
   "resourceType" : "CodeSystem",
   "id" : "TRE-R356-ProfessionRessource",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-07-06T20:13:51.363+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-07-29T08:03:40.409+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -44,11 +44,11 @@ Profession Ressource
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.246"
   }],
-  "version" : "20250918120000",
+  "version" : "20260730120000",
   "name" : "TRE_R356_ProfessionRessource",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-18T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ Profession Ressource
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 99,
+  "count" : 100,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1792,6 +1792,22 @@ Profession Ressource
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "132",
+    "display" : "Stomathérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

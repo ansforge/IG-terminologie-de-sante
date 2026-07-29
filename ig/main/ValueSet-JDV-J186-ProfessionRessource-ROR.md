@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR | *Version*:20250710120000 | |
-| Active as of 2025-07-10 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.19 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J186-ProfessionRessource-ROR",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2026-07-06T19:05:43.006+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-07-29T08:04:52.627+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.19"
   }],
-  "version" : "20250710120000",
+  "version" : "20260730120000",
   "name" : "JDV_J186_ProfessionRessource_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-10T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource des offres dans le ROR",
   "jurisdiction" : [{
@@ -710,6 +710,10 @@ Liens:
       {
         "code" : "131",
         "display" : "Intermédiateur"
+      },
+      {
+        "code" : "132",
+        "display" : "Stomathérapeute"
       }]
     }]
   }

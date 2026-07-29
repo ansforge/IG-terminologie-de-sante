@@ -18,6 +18,7 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J131_CategorieActiviteSanitaireRegulee_RASS](ValueSet-JDV-J131-CategorieActiviteSanitaireRegulee-RASS.md) | Catégorie des activités sanitaires régulées dans le RASS |
 | [JDV_J136_DisciplineEquipementSocial_RASS](ValueSet-JDV-J136-DisciplineEquipementSocial-RASS.md) | Disciplines d'équipement pour le social dans le RASS |
 | [JDV_J137_Clientele_RASS](ValueSet-JDV-J137-Clientele-RASS.md) | Population prise en charge par l'établissement dans le cadre |
+| [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md) | Type d'activité dans le RASS |
 | [JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md) | JDV pour le champ d'application de l'intervalle de référence |
 | [JDV_J153_TypeDiabete_ENS](ValueSet-JDV-J153-TypeDiabete-ENS.md) | JDV pour caractériser le type de diabète dans l'extension DiabetisType |
 | [JDV_J167_DepartementOM_EPARS](ValueSet-JDV-J167-DepartementOM-EPARS.md) | Département pour saisie dans EPARS |
@@ -31,6 +32,7 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md) | Activités opérationnelles de Santé.fr |
 | [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md) | Equipements Santé.fr |
 | [JDV_J74_Pays_RASS](ValueSet-JDV-J74-Pays-RASS.md) | Pays (codes INSEE) du RASS |
+| [JDV_J83_AutoriteEnregistrement_RASS](ValueSet-JDV-J83-AutoriteEnregistrement-RASS.md) | Autorités d'enregistrement des acteurs de santé du RASS |
 | [JDV_J84_DepartementOM_RASS](ValueSet-JDV-J84-DepartementOM-RASS.md) | Départements (outre-mer et Monaco inclus) pour le RASS |
 | [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md) | Régions (outre-mer et Monaco inclus) dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |

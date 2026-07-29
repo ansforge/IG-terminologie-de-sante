@@ -48,12 +48,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j387-role-participant-ms.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j389-sexe-insee-testing.md) |
+|  [<prev](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j389-sexe-insee-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|

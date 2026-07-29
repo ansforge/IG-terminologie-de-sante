@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.470 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-07-28
+2026-07-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-07-06T19:04:36.233+02:00",
+    "versionId" : "31",
+    "lastUpdated" : "2026-07-29T08:04:44.548+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
   }],
-  "version" : "20260505120000",
+  "version" : "20260730120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [{
@@ -705,6 +705,18 @@ Liens:
       {
         "code" : "SI05",
         "display" : "Exercice infirmier en pratique avancée urgences (SI)"
+      },
+      {
+        "code" : "SI06",
+        "display" : "Infirmier(ère) de bloc opératoire (SI)"
+      },
+      {
+        "code" : "SI07",
+        "display" : "Infirmier(ère) anesthésiste (SI)"
+      },
+      {
+        "code" : "SI08",
+        "display" : "Infirmier(ère) puériculteur(trice)"
       },
       {
         "code" : "C01",
