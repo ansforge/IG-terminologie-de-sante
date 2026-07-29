@@ -7780,10 +7780,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0896 ^property[+].code = #status
 * #0896 ^property[=].valueCode = #active
 * #0897 "Vaccination épidémie Grippe" "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l'épidémie grippale"
-* #0897 ^designation[+].language = #fr-FR
-* #0897 ^designation[=].use.system = "http://snomed.info/sct"
-* #0897 ^designation[=].use = $sct#900000000000013009
-* #0897 ^designation[=].value = "Vaccination épidémie Grippe"
 * #0897 ^property[0].code = #dateValid
 * #0897 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0897 ^property[+].code = #dateMaj
