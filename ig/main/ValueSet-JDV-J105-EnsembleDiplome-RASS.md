@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J105-EnsembleDiplome-RASS",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2026-07-29T08:04:46.180+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-07-29T10:33:47.321+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

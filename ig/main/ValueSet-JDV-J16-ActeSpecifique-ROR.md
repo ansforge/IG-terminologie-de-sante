@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260730120000 | |
+| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "33",
-    "lastUpdated" : "2026-07-06T19:05:32.380+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-07-29T10:55:22.600+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260629120000",
+  "version" : "20260730120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -510,7 +510,7 @@ Liens:
       },
       {
         "code" : "0182",
-        "display" : "Programme d’ETP labellisée - Asthme"
+        "display" : "Programme d'ETP labellisée - Asthme (école de l'asthme)"
       },
       {
         "code" : "0183",
@@ -2186,7 +2186,7 @@ Liens:
       },
       {
         "code" : "0822",
-        "display" : "Groupes de soutien et d'échange"
+        "display" : "Groupes de soutien et d'échange ouvert aux aidants"
       },
       {
         "code" : "0823",
@@ -2214,7 +2214,7 @@ Liens:
       },
       {
         "code" : "0829",
-        "display" : "Prise en charge de l'apnée du sommeil"
+        "display" : "Prise en charge de l'apnée du sommeil par appareillage ventilatoire"
       },
       {
         "code" : "0830",
@@ -2466,7 +2466,7 @@ Liens:
       },
       {
         "code" : "0897",
-        "display" : "Drainage Vaccination épidémie Grippe"
+        "display" : "Vaccination épidémie Grippe"
       },
       {
         "code" : "0898",
@@ -3810,7 +3810,7 @@ Liens:
       },
       {
         "code" : "1276",
-        "display" : "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
+        "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
       },
       {
         "code" : "1277",
@@ -4437,6 +4437,10 @@ Liens:
         "display" : "Santé environnementale"
       },
       {
+        "code" : "1449",
+        "display" : "Thérapie cellulaire des brûlures radiques par Cellules Souches Mésenchymateuses (CSM)"
+      },
+      {
         "code" : "1450",
         "display" : "Soins infirmiers de dialyse péritonéale"
       },
@@ -4958,139 +4962,203 @@ Liens:
       },
       {
         "code" : "1582",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en cardiologie"
       },
       {
         "code" : "1583",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie cardiaque et gros vaisseaux"
       },
       {
         "code" : "1584",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie digestive et viscérale"
       },
       {
         "code" : "1585",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie maxillo-faciale et stomatologie"
       },
       {
         "code" : "1586",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie orthopédique et traumatologie"
       },
       {
         "code" : "1587",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique orthopédique et traumatologie"
       },
       {
         "code" : "1588",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique viscérale et digestive"
       },
       {
         "code" : "1589",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie thoracique et pulmonaire"
       },
       {
         "code" : "1590",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie vasculaire"
       },
       {
         "code" : "1591",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en dermatologie"
       },
       {
         "code" : "1592",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en endocrinologie"
       },
       {
         "code" : "1593",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gériatrie (gérontologie)"
       },
       {
         "code" : "1594",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gynécologie"
       },
       {
         "code" : "1595",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hématologie"
       },
       {
         "code" : "1596",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hépato-gastro-entérologie"
       },
       {
         "code" : "1597",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en maladies infectieuses et tropicales"
       },
       {
         "code" : "1598",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine interne"
       },
       {
         "code" : "1599",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine vasculaire"
       },
       {
         "code" : "1600",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en néphrologie (dont dialyse)"
       },
       {
         "code" : "1601",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurochirurgie"
       },
       {
         "code" : "1602",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurologie"
       },
       {
         "code" : "1603",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oncologie"
       },
       {
         "code" : "1604",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en ophtalmologie"
       },
       {
         "code" : "1605",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
       },
       {
         "code" : "1606",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pédiatrie"
       },
       {
         "code" : "1607",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pneumologie"
       },
       {
         "code" : "1608",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en rhumatologie"
       },
       {
         "code" : "1609",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en urologie"
       },
       {
         "code" : "1610",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en caisson oxygène hyperbare"
       },
       {
         "code" : "1611",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie de la main"
       },
       {
         "code" : "1612",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en odontologie"
       },
       {
         "code" : "1613",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)"
+        "display" : "Prise en charge spécialisée et permanente en psychiatrie (dont équipe de liaison)"
       },
       {
         "code" : "1614",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en radiologie interventionnelle"
       },
       {
         "code" : "1615",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie du rachis"
+      },
+      {
+        "code" : "1616",
+        "display" : "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
+      },
+      {
+        "code" : "1617",
+        "display" : "Pédicurie-podologie conventionnée soins de support oncologie"
+      },
+      {
+        "code" : "1618",
+        "display" : "Orthoplastie (appareillage d’orteil)"
+      },
+      {
+        "code" : "1619",
+        "display" : "Orthonyxie (appareillage d’ongle)"
+      },
+      {
+        "code" : "1620",
+        "display" : "Onychoplastie (reconstruction de l’ongle)"
+      },
+      {
+        "code" : "1621",
+        "display" : "Orthèse plantaire (semelle orthopédique)"
+      },
+      {
+        "code" : "1622",
+        "display" : "Bilan diagnostique podologique de la prévention de la chute"
+      },
+      {
+        "code" : "1623",
+        "display" : "Rééducation du pied (sous la cheville)"
+      },
+      {
+        "code" : "1624",
+        "display" : "Contention nocturne"
+      },
+      {
+        "code" : "1625",
+        "display" : "Soin de pédicurie"
+      },
+      {
+        "code" : "1626",
+        "display" : "Traitement de la verrue plantaire par azote liquide"
+      },
+      {
+        "code" : "1627",
+        "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
+      },
+      {
+        "code" : "1628",
+        "display" : "Prélèvement unguéal pour analyse biologique (protocole de coopération)"
+      },
+      {
+        "code" : "1629",
+        "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
+      },
+      {
+        "code" : "1630",
+        "display" : "Prise en charge spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)"
+      },
+      {
+        "code" : "1631",
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) SOS main (agrément FESUM)"
       },
       {
         "code" : "1632",
@@ -5319,6 +5387,66 @@ Liens:
       {
         "code" : "1688",
         "display" : "Remise du kit de dépistage du cancer colorectal"
+      },
+      {
+        "code" : "1689",
+        "display" : "Test de Maintien de l’Eveil (TME)"
+      },
+      {
+        "code" : "1690",
+        "display" : "Test Itératif de Latence d'Endormissement (TILE)"
+      },
+      {
+        "code" : "1691",
+        "display" : "Prise en charge de l’insomnie"
+      },
+      {
+        "code" : "1692",
+        "display" : "Prise en charge des troubles moteurs (syndrome des jambes sans repos)"
+      },
+      {
+        "code" : "1693",
+        "display" : "Prise en charge de parasomnie (somnambulisme)"
+      },
+      {
+        "code" : "1694",
+        "display" : "Prise en charge des hypersomnies"
+      },
+      {
+        "code" : "1695",
+        "display" : "Prise en charge des troubles circadiens"
+      },
+      {
+        "code" : "1696",
+        "display" : "Prise en charge des troubles du sommeil avec trouble neurologique complexe"
+      },
+      {
+        "code" : "1697",
+        "display" : "Prise en charge des troubles du sommeil avec trouble respiratoire complexe"
+      },
+      {
+        "code" : "1698",
+        "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 1 \"coordonnateur\""
+      },
+      {
+        "code" : "1699",
+        "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 2 \"correspondant\""
+      },
+      {
+        "code" : "1700",
+        "display" : "Accréditation par la Société Française de Recherche en Médecine du Sommeil (SFRMS)"
+      },
+      {
+        "code" : "1701",
+        "display" : "Prise en charge de nouveau patient en tant que médecin traitant"
+      },
+      {
+        "code" : "1702",
+        "display" : "Accompagnement à l'essai de fauteuil roulant"
+      },
+      {
+        "code" : "1703",
+        "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive"
       }]
     }]
   }

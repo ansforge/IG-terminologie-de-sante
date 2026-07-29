@@ -33,8 +33,8 @@ Profession et savoir-faire CI-SIS
   "resourceType" : "CodeSystem",
   "id" : "TRE-A02-ProfessionSavFaire-CISIS",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-07-29T08:03:31.745+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-07-29T09:38:07.279+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
