@@ -1,22 +1,23 @@
 CodeSystem: TRE_R245_SpecialisationDePriseEnCharge
 Id: TRE-R245-SpecialisationDePriseEnCharge
 Description: "Spécialisation de prise en charge"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-07-02T18:16:35.233+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-29T08:03:38.623+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.41"
-* ^version = "20250425120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 68
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -108,26 +109,26 @@ Description: "Spécialisation de prise en charge"
 * #10 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
-* #11 "Troubles spécifiques de la communication et / ou des apprentissages hors TSA"
+* #11 "Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA"
 * #11 ^designation.language = #fr-FR
 * #11 ^designation.use.system = "http://snomed.info/sct"
 * #11 ^designation.use = $sct#900000000000013009
-* #11 ^designation.value = "Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA"
+* #11 ^designation.value = "Troubles spécifiques de la communication et / ou des apprentissages hors TSA"
 * #11 ^property[0].code = #dateValid
 * #11 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #11 ^property[+].code = #dateMaj
-* #11 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #11 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active
-* #12 "Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)"
+* #12 "Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)"
 * #12 ^designation.language = #fr-FR
 * #12 ^designation.use.system = "http://snomed.info/sct"
 * #12 ^designation.use = $sct#900000000000013009
-* #12 ^designation.value = "Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)"
+* #12 ^designation.value = "Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)"
 * #12 ^property[0].code = #dateValid
 * #12 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #12 ^property[+].code = #dateMaj
-* #12 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #12 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #12 ^property[+].code = #status
 * #12 ^property[=].valueCode = #active
 * #13 "Démence dégénérative"
@@ -219,15 +220,15 @@ Description: "Spécialisation de prise en charge"
 * #23 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #23 ^property[+].code = #status
 * #23 ^property[=].valueCode = #active
-* #24 "Handicap à prédominance cognitive avec trouble du comportement"
+* #24 "Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"
 * #24 ^designation.language = #fr-FR
 * #24 ^designation.use.system = "http://snomed.info/sct"
 * #24 ^designation.use = $sct#900000000000013009
-* #24 ^designation.value = "Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"
+* #24 ^designation.value = "Handicap à prédominance cognitive avec trouble du comportement"
 * #24 ^property[0].code = #dateValid
 * #24 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #24 ^property[+].code = #dateMaj
-* #24 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #24 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #24 ^property[+].code = #status
 * #24 ^property[=].valueCode = #active
 * #25 "Surdi-cécité avec ou sans troubles associés"
@@ -244,26 +245,22 @@ Description: "Spécialisation de prise en charge"
 * #26 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #active
-* #27 "Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement"
+* #27 "Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs"
 * #27 ^designation.language = #fr-FR
 * #27 ^designation.use.system = "http://snomed.info/sct"
 * #27 ^designation.use = $sct#900000000000013009
-* #27 ^designation.value = "Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs"
+* #27 ^designation.value = "Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement"
 * #27 ^property[0].code = #dateValid
 * #27 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #27 ^property[+].code = #dateMaj
-* #27 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #27 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
-* #28 "Maladies d'Alzheimer et apparentée"
-* #28 ^designation.language = #fr-FR
-* #28 ^designation.use.system = "http://snomed.info/sct"
-* #28 ^designation.use = $sct#900000000000013009
-* #28 ^designation.value = "Maladies d'Alzheimer et apparentées"
+* #28 "Maladies d'Alzheimer et apparentées"
 * #28 ^property[0].code = #dateValid
 * #28 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #28 ^property[+].code = #dateMaj
-* #28 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #28 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #28 ^property[+].code = #status
 * #28 ^property[=].valueCode = #active
 * #29 "Maladies rares liées à une anomalie du développement embryonnaire"
@@ -525,15 +522,15 @@ Description: "Spécialisation de prise en charge"
 * #65 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
-* #66 "Troubles du neurodéveloppement à prédominance motrice"
+* #66 "Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)"
 * #66 ^designation.language = #fr-FR
 * #66 ^designation.use.system = "http://snomed.info/sct"
 * #66 ^designation.use = $sct#900000000000013009
-* #66 ^designation.value = "Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)"
+* #66 ^designation.value = "Troubles du neurodéveloppement à prédominance motrice"
 * #66 ^property[0].code = #dateValid
 * #66 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #66 ^property[+].code = #dateMaj
-* #66 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #66 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #66 ^property[+].code = #status
 * #66 ^property[=].valueCode = #active
 * #67 "Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
@@ -543,13 +540,13 @@ Description: "Spécialisation de prise en charge"
 * #67 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #67 ^property[+].code = #status
 * #67 ^property[=].valueCode = #active
-* #68 "Troubles cognitifs dus à une lésion cérébrale acquise"
+* #68 "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
 * #68 ^designation.language = #fr-FR
 * #68 ^designation.use = $sct#900000000000013009
-* #68 ^designation.value = "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
+* #68 ^designation.value = "Troubles cognitifs dus à une lésion cérébrale acquise"
 * #68 ^property[0].code = #dateValid
 * #68 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #68 ^property[+].code = #dateMaj
-* #68 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #68 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #68 ^property[+].code = #status
 * #68 ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R354_TypeIdentifiantRessourceOperationnelle
 Id: TRE-R354-TypeIdentifiantRessourceOperationnelle
 Description: "Type d'identifiant des ressources opérationnelles"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:51.362+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:13:50.455+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Type d'identifiant des ressources opérationnelles"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

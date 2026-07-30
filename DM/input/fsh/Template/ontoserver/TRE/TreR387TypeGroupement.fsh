@@ -2,8 +2,8 @@ CodeSystem: TreR387TypeGroupement
 Id: tre-r387-type-groupement
 Title: "Tre R387 Type Groupement"
 Description: "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:16+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:14:04+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

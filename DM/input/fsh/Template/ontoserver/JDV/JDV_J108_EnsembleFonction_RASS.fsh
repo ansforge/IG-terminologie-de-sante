@@ -1,8 +1,8 @@
 ValueSet: JDV_J108_EnsembleFonction_RASS
 Id: JDV-J108-EnsembleFonction-RASS
 Description: "Ensemble des fonctions et rôles du RASS"
-* ^meta.versionId = "24"
-* ^meta.lastUpdated = "2026-05-05T19:02:35.569+02:00"
+* ^meta.versionId = "25"
+* ^meta.lastUpdated = "2026-07-06T19:04:49.335+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

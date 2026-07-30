@@ -2,8 +2,8 @@ CodeSystem: TreR388TypeLogement
 Id: tre-r388-type-logement
 Title: "Tre R388 Type Logement"
 Description: "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:16+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:14:04+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

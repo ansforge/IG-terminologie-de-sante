@@ -1,8 +1,8 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "30"
-* ^meta.lastUpdated = "2026-05-05T20:11:59.960+02:00"
+* ^meta.versionId = "33"
+* ^meta.lastUpdated = "2026-07-29T08:03:38.217+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Catégorie d'organisation"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20260505120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 313
+* ^count = 320
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2259,15 +2259,11 @@ Description: "Catégorie d'organisation"
 * #205 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #205 ^property[+].code = #status
 * #205 ^property[=].valueCode = #active
-* #206 "Cabinet de ville de pédicure-podologie"
-* #206 ^designation[0].language = #fr-FR
-* #206 ^designation[=].use.system = "http://snomed.info/sct"
-* #206 ^designation[=].use = $sct#900000000000013009
-* #206 ^designation[=].value = "Cabinet de pédicure-podologie"
+* #206 "Cabinet de ville de pédicurie-podologie"
 * #206 ^property[0].code = #dateValid
 * #206 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #206 ^property[+].code = #dateMaj
-* #206 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #206 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #206 ^property[+].code = #status
 * #206 ^property[=].valueCode = #active
 * #207 "Cabinet de ville de pneumologie"
@@ -2772,10 +2768,14 @@ Description: "Catégorie d'organisation"
 * #252 ^designation[=].value = "EMSP"
 * #252 ^property[0].code = #dateValid
 * #252 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #252 ^property[+].code = #dateFin
+* #252 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #252 ^property[+].code = #dateMaj
-* #252 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #252 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #252 ^property[+].code = #deprecationDate
+* #252 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #252 ^property[+].code = #status
-* #252 ^property[=].valueCode = #active
+* #252 ^property[=].valueCode = #deprecated
 * #253 "Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP)"
 * #253 ^designation[0].language = #fr-FR
 * #253 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2911,10 +2911,14 @@ Description: "Catégorie d'organisation"
 * #265 "Equipe mobile d'algologie"
 * #265 ^property[0].code = #dateValid
 * #265 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #265 ^property[+].code = #dateFin
+* #265 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #265 ^property[+].code = #dateMaj
-* #265 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #265 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #265 ^property[+].code = #deprecationDate
+* #265 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #265 ^property[+].code = #status
-* #265 ^property[=].valueCode = #active
+* #265 ^property[=].valueCode = #deprecated
 * #266 "Equipe mobile de gériatrie (EMG)"
 * #266 ^designation[0].language = #fr-FR
 * #266 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2922,10 +2926,14 @@ Description: "Catégorie d'organisation"
 * #266 ^designation[=].value = "EMG"
 * #266 ^property[0].code = #dateValid
 * #266 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #266 ^property[+].code = #dateFin
+* #266 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #266 ^property[+].code = #dateMaj
-* #266 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #266 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #266 ^property[+].code = #deprecationDate
+* #266 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #266 ^property[+].code = #status
-* #266 ^property[=].valueCode = #active
+* #266 ^property[=].valueCode = #deprecated
 * #267 "Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"
 * #267 ^designation[0].language = #fr-FR
 * #267 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2933,10 +2941,14 @@ Description: "Catégorie d'organisation"
 * #267 ^designation[=].value = "Equipe mobile d'endocrinologie"
 * #267 ^property[0].code = #dateValid
 * #267 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #267 ^property[+].code = #dateFin
+* #267 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #267 ^property[+].code = #dateMaj
-* #267 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #267 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #267 ^property[+].code = #deprecationDate
+* #267 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #267 ^property[+].code = #status
-* #267 ^property[=].valueCode = #active
+* #267 ^property[=].valueCode = #deprecated
 * #268 "Centre de lutte antituberculeuse (CLAT)"
 * #268 ^designation[0].language = #fr-FR
 * #268 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3404,13 +3416,66 @@ Description: "Catégorie d'organisation"
 * #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #312 ^property[+].code = #status
 * #312 ^property[=].valueCode = #active
-* #313 "Antennes des urgences"
-* #313 ^designation[0].language = #fr-FR
-* #313 ^designation[=].use = $sct#900000000000013009
-* #313 ^designation[=].value = "Antennes urgences"
+* #313 "Antenne des urgences"
 * #313 ^property[0].code = #dateValid
 * #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #313 ^property[+].code = #dateMaj
 * #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #313 ^property[+].code = #status
 * #313 ^property[=].valueCode = #active
+* #314 "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
+* #314 ^designation[0].language = #fr-FR
+* #314 ^designation[=].use.system = "http://snomed.info/sct"
+* #314 ^designation[=].use = $sct#900000000000013009
+* #314 ^designation[=].value = "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales"
+* #314 ^property[0].code = #dateValid
+* #314 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #314 ^property[+].code = #dateMaj
+* #314 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #314 ^property[+].code = #status
+* #314 ^property[=].valueCode = #active
+* #315 "Equipe de Soins Spécialisés (ESS)"
+* #315 ^property[0].code = #dateValid
+* #315 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #315 ^property[+].code = #dateMaj
+* #315 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #315 ^property[+].code = #status
+* #315 ^property[=].valueCode = #active
+* #316 "Société de téléconsultation"
+* #316 ^property[0].code = #dateValid
+* #316 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #316 ^property[+].code = #dateMaj
+* #316 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #316 ^property[+].code = #status
+* #316 ^property[=].valueCode = #active
+* #317 "Unité hospitalière de soins de support"
+* #317 ^property[0].code = #dateValid
+* #317 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #317 ^property[+].code = #dateMaj
+* #317 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #317 ^property[+].code = #status
+* #317 ^property[=].valueCode = #active
+* #318 "Groupe plaies et cicatrisation (dont équipe mobile)"
+* #318 ^designation[0].language = #fr-FR
+* #318 ^designation[=].use = $sct#900000000000013009
+* #318 ^designation[=].value = "Groupe plaies et cicatrisation"
+* #318 ^property[0].code = #dateValid
+* #318 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #318 ^property[+].code = #dateMaj
+* #318 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #318 ^property[+].code = #status
+* #318 ^property[=].valueCode = #active
+* #319 "Centre du sommeil"
+* #319 ^property[0].code = #dateValid
+* #319 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #319 ^property[+].code = #dateMaj
+* #319 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #319 ^property[+].code = #status
+* #319 ^property[=].valueCode = #active
+* #320 "Offre de relayage au domicile"
+* #320 ^property[0].code = #dateValid
+* #320 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #320 ^property[+].code = #dateMaj
+* #320 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #320 ^property[+].code = #status
+* #320 ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 ValueSet: JDV_J74_Pays_RASS
 Id: JDV-J74-Pays-RASS
 Description: "Pays (codes INSEE) du RASS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:47.087+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:55.073+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "Pays (codes INSEE) du RASS"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R20-Pays#99100 "République française"
 * $TRE-R20-Pays#99101 "Royaume du Danemark"
 * $TRE-R20-Pays#99102 "République d'Islande"

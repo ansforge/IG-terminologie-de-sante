@@ -1,24 +1,24 @@
 CodeSystem: TRE_A02_ProfessionSavFaire_CISIS
 Id: TRE-A02-ProfessionSavFaire-CISIS
 Description: "Profession et savoir-faire CI-SIS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2026-02-03T15:41:52.194+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-07-29T09:38:07.279+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-10-06T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.5"
-* ^version = "20260202120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-02T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 376
+* ^count = 379
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2843,6 +2843,7 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI02 ^property[=].valueCode = #active
 * #G15_60/SI03 "Infirmier - Exerc. infirmier pratique avancée maladie rénale chroniq., dialyse, transp. rénale (SI)"
 * #G15_60/SI03 ^designation.language = #fr-FR
+* #G15_60/SI03 ^designation.use.system = "http://snomed.info/sct"
 * #G15_60/SI03 ^designation.use = $sct#900000000000013009
 * #G15_60/SI03 ^designation.value = "Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
 * #G15_60/SI03 ^property[0].code = #dateValid
@@ -2865,6 +2866,38 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_60/SI05 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #G15_60/SI05 ^property[+].code = #status
 * #G15_60/SI05 ^property[=].valueCode = #active
+* #G15_60/SI06 "Infirmier(ère) de bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
+* #G15_60/SI06 ^designation.language = #fr-FR
+* #G15_60/SI06 ^designation.use.system = "http://snomed.info/sct"
+* #G15_60/SI06 ^designation.use = $sct#900000000000013009
+* #G15_60/SI06 ^designation.value = "IBODE"
+* #G15_60/SI06 ^property[0].code = #dateValid
+* #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI06 ^property[+].code = #dateMaj
+* #G15_60/SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI06 ^property[+].code = #status
+* #G15_60/SI06 ^property[=].valueCode = #active
+* #G15_60/SI07 "Infirmier(ère) anesthésiste (SI)" "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle."
+* #G15_60/SI07 ^designation.language = #fr-FR
+* #G15_60/SI07 ^designation.use.system = "http://snomed.info/sct"
+* #G15_60/SI07 ^designation.use = $sct#900000000000013009
+* #G15_60/SI07 ^designation.value = "IADE"
+* #G15_60/SI07 ^property[0].code = #dateValid
+* #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI07 ^property[+].code = #dateMaj
+* #G15_60/SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI07 ^property[+].code = #status
+* #G15_60/SI07 ^property[=].valueCode = #active
+* #G15_60/SI08 "Infirmier(ère) puériculteur(trice)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
+* #G15_60/SI08 ^designation.language = #fr-FR
+* #G15_60/SI08 ^designation.use = $sct#900000000000013009
+* #G15_60/SI08 ^designation.value = "IPDE"
+* #G15_60/SI08 ^property[0].code = #dateValid
+* #G15_60/SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI08 ^property[+].code = #dateMaj
+* #G15_60/SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #G15_60/SI08 ^property[+].code = #status
+* #G15_60/SI08 ^property[=].valueCode = #active
 * #G15_69 "Infirmier psychiatrique"
 * #G15_69 ^property[0].code = #dateValid
 * #G15_69 ^property[=].valueDateTime = "2012-10-06T00:00:00+01:00"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J51_FamilleActiviteOperationnelle_ROR
 Id: JDV-J51-FamilleActiviteOperationnelle-ROR
 Description: "Famille Activité Opérationnelle"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2024-04-27T05:07:50.820+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T19:06:38.930+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-05-31T12:00:00+01:00"
@@ -14,6 +14,7 @@ Description: "Famille Activité Opérationnelle"
 * ^experimental = false
 * ^date = "2023-01-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R266-FamilleActiviteOperationnelleHorsSerafin#01 "Accompagnement des aidants"
 * $TRE-R266-FamilleActiviteOperationnelleHorsSerafin#02 "Prévention et éducation thérapeutique"
 * $TRE-R266-FamilleActiviteOperationnelleHorsSerafin#03 "Prévention des violences"

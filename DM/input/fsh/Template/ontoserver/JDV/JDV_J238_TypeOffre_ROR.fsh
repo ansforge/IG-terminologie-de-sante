@@ -1,8 +1,8 @@
 ValueSet: JDV_J238_TypeOffre_ROR
 Id: JDV-J238-TypeOffre-ROR
 Description: "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
-* ^meta.versionId = "31"
-* ^meta.lastUpdated = "2026-05-05T19:02:48.569+02:00"
+* ^meta.versionId = "34"
+* ^meta.lastUpdated = "2026-07-29T08:04:55.005+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.65"
-* ^version = "20260505120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R244-CategorieOrganisation#01 "Appartement thérapeutique en psychiatrie"
@@ -216,7 +216,7 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#203 "Cabinet de ville de neurochirurgie"
 * $TRE-R244-CategorieOrganisation#204 "Cabinet de ville de neurologie"
 * $TRE-R244-CategorieOrganisation#205 "Cabinet de ville de pédiatrie"
-* $TRE-R244-CategorieOrganisation#206 "Cabinet de ville de pédicure-podologie"
+* $TRE-R244-CategorieOrganisation#206 "Cabinet de ville de pédicurie-podologie"
 * $TRE-R244-CategorieOrganisation#207 "Cabinet de ville de pneumologie"
 * $TRE-R244-CategorieOrganisation#208 "Cabinet de ville de psychiatrie"
 * $TRE-R244-CategorieOrganisation#209 "Cabinet de ville de psychologie"
@@ -260,7 +260,6 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#249 "Unité de Soins de Longue Durée (USLD)"
 * $TRE-R244-CategorieOrganisation#250 "Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD)"
 * $TRE-R244-CategorieOrganisation#251 "Centre Périnatal de Proximité (CPP)"
-* $TRE-R244-CategorieOrganisation#252 "Equipes Mobiles de Soins Palliatifs (EMSP)"
 * $TRE-R244-CategorieOrganisation#253 "Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP)"
 * $TRE-R244-CategorieOrganisation#254 "Unité de surveillance continue"
 * $TRE-R244-CategorieOrganisation#255 "Communauté Professionnelle Territoriale de Santé (CPTS)"
@@ -271,9 +270,6 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#262 "Unité de soins intensifs spécialisés cardiologie (USIC)"
 * $TRE-R244-CategorieOrganisation#263 "Unité de soins intensifs spécialisés neurologie vasculaire (USINV)"
 * $TRE-R244-CategorieOrganisation#264 "Unité de soins intensifs spécialisés hématologie (USIH)"
-* $TRE-R244-CategorieOrganisation#265 "Equipe mobile d'algologie"
-* $TRE-R244-CategorieOrganisation#266 "Equipe mobile de gériatrie (EMG)"
-* $TRE-R244-CategorieOrganisation#267 "Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"
 * $TRE-R244-CategorieOrganisation#268 "Centre de lutte antituberculeuse (CLAT)"
 * $TRE-R244-CategorieOrganisation#269 "Centre de vaccination"
 * $TRE-R244-CategorieOrganisation#270 "Centre de vaccination internationale"
@@ -318,4 +314,11 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#310 "Lactarium"
 * $TRE-R244-CategorieOrganisation#311 "Structure des urgences pédiatriques"
 * $TRE-R244-CategorieOrganisation#312 "Pharmacie d'officine (dont mutualiste)"
-* $TRE-R244-CategorieOrganisation#313 "Antennes des urgences"
+* $TRE-R244-CategorieOrganisation#313 "Antenne des urgences"
+* $TRE-R244-CategorieOrganisation#314 "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
+* $TRE-R244-CategorieOrganisation#315 "Equipe de Soins Spécialisés (ESS)"
+* $TRE-R244-CategorieOrganisation#316 "Société de téléconsultation"
+* $TRE-R244-CategorieOrganisation#317 "Unité hospitalière de soins de support"
+* $TRE-R244-CategorieOrganisation#318 "Groupe plaies et cicatrisation (dont équipe mobile)"
+* $TRE-R244-CategorieOrganisation#319 "Centre du sommeil"
+* $TRE-R244-CategorieOrganisation#320 "Offre de relayage au domicile"

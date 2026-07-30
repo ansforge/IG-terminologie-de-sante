@@ -1,8 +1,8 @@
 ValueSet: JDV_J05_SubjectRole_CISIS
 Id: JDV-J05-SubjectRole-CISIS
 Description: "subjectRole CI-SIS"
-* ^meta.versionId = "29"
-* ^meta.lastUpdated = "2026-05-05T19:02:29.620+02:00"
+* ^meta.versionId = "31"
+* ^meta.lastUpdated = "2026-07-29T08:04:44.548+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "subjectRole CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.470"
-* ^version = "20260505120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
@@ -163,6 +163,9 @@ Description: "subjectRole CI-SIS"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#SI03 "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#SI04 "Exercice infirmier en pratique avancée santé mentale (SI)"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#SI05 "Exercice infirmier en pratique avancée urgences (SI)"
+* $TRE-R01-EnsembleSavoirFaire-CISIS#SI06 "Infirmier(ère) de bloc opératoire (SI)"
+* $TRE-R01-EnsembleSavoirFaire-CISIS#SI07 "Infirmier(ère) anesthésiste (SI)"
+* $TRE-R01-EnsembleSavoirFaire-CISIS#SI08 "Infirmier(ère) puériculteur(trice)"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#C01 "Anatomie et Cytologie pathologiques humaines (C)"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#C03 "Anesthésie-réanimation (C)"
 * $TRE-R01-EnsembleSavoirFaire-CISIS#C05 "Médecine appliquée aux sports (C)"

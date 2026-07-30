@@ -1,8 +1,8 @@
 ValueSet: JDV_J81_TypeDiplome_RASS
 Id: JDV-J81-TypeDiplome-RASS
 Description: "Types de diplôme du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:50.549+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:58.062+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Types de diplôme du RASS"
 * ^experimental = false
 * ^date = "2023-05-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R14-TypeDiplome#ATT "Attestation"
 * $TRE-R14-TypeDiplome#AU "Autre type de diplôme"
 * $TRE-R14-TypeDiplome#CAPA "Capacité"

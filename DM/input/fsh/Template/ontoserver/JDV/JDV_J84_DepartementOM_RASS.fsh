@@ -1,8 +1,8 @@
 ValueSet: JDV_J84_DepartementOM_RASS
 Id: JDV-J84-DepartementOM-RASS
 Description: "Départements (outre-mer et Monaco inclus) pour le RASS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:52.758+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:07:00.754+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "Départements (outre-mer et Monaco inclus) pour le RASS"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G09-DepartementOM#01 "Ain"
 * $TRE-G09-DepartementOM#02 "Aisne"
 * $TRE-G09-DepartementOM#03 "Allier"

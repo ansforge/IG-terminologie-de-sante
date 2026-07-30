@@ -1,8 +1,8 @@
 ValueSet: JDV_J206_PrestationNonObligatoireIncluse_ROR
 Id: JDV-J206-PrestationNonObligatoireIncluse-ROR
 Description: "Prestations non obligatoire incluses"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:46.873+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:52.815+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Prestations non obligatoire incluses"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R264-PrestationNonObligatoireIncluse#01 "Entretien du linge du résident non délicat"
 * $TRE-R264-PrestationNonObligatoireIncluse#02 "Marquage du linge"
 * $TRE-R264-PrestationNonObligatoireIncluse#03 "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)"

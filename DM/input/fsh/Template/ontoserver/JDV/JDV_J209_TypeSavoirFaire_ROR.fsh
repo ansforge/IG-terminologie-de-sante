@@ -1,8 +1,8 @@
 ValueSet: JDV_J209_TypeSavoirFaire_ROR
 Id: JDV-J209-TypeSavoirFaire-ROR
 Description: "Type de savoir-faire"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-11-04T19:02:03.930+01:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:05:54.007+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

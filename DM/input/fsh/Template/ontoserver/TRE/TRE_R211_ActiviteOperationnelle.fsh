@@ -1,8 +1,8 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "27"
-* ^meta.lastUpdated = "2026-05-05T20:11:55.520+02:00"
+* ^meta.versionId = "32"
+* ^meta.lastUpdated = "2026-07-29T08:03:36.023+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260330120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 617
+* ^count = 631
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -1239,10 +1239,14 @@ Description: "Activite Operationnelle"
 * #148 "Urgences spécialisées cardiologiques"
 * #148 ^property[0].code = #dateValid
 * #148 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #148 ^property[+].code = #dateFin
+* #148 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #148 ^property[+].code = #dateMaj
-* #148 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #148 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #148 ^property[+].code = #deprecationDate
+* #148 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #148 ^property[+].code = #status
-* #148 ^property[=].valueCode = #active
+* #148 ^property[=].valueCode = #deprecated
 * #149 "Urgences Chirurgie"
 * #149 ^property[0].code = #dateValid
 * #149 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
@@ -1319,18 +1323,18 @@ Description: "Activite Operationnelle"
 * #156 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
-* #157 "Urgences polyvalentes"
+* #157 "Urgences polyvalentes hospitalières"
 * #157 ^property[0].code = #dateValid
 * #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #157 ^property[+].code = #dateMaj
-* #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #157 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
-* #158 "Urgences psychiatriques"
+* #158 "Urgences psychiatriques hospitalières"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #158 ^property[+].code = #dateMaj
-* #158 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #158 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
 * #159 "Urgences spécialisées traumatologiques"
@@ -1671,11 +1675,15 @@ Description: "Activite Operationnelle"
 * #200 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #active
-* #201 "Pédicure-Podologie" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
+* #201 "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
+* #201 ^designation.language = #fr-FR
+* #201 ^designation.use.system = "http://snomed.info/sct"
+* #201 ^designation.use = $sct#900000000000013009
+* #201 ^designation.value = "Pédicurie-Podologie"
 * #201 ^property[0].code = #dateValid
 * #201 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #201 ^property[+].code = #dateMaj
-* #201 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #201 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #201 ^property[+].code = #status
 * #201 ^property[=].valueCode = #active
 * #202 "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
@@ -2111,11 +2119,11 @@ Description: "Activite Operationnelle"
 * #248 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #248 ^property[+].code = #status
 * #248 ^property[=].valueCode = #active
-* #249 "Urgences pédiatriques"
+* #249 "Urgences pédiatriques hospitalières"
 * #249 ^property[0].code = #dateValid
 * #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #249 ^property[+].code = #dateMaj
-* #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #249 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #249 ^property[+].code = #status
 * #249 ^property[=].valueCode = #active
 * #250 "Urgences spécialisées céphalées"
@@ -2750,11 +2758,15 @@ Description: "Activite Operationnelle"
 * #333 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #333 ^property[+].code = #status
 * #333 ^property[=].valueCode = #active
-* #334 "Activité de prévention" "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps."
+* #334 "Activité de dépistage et de prévention" "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps."
+* #334 ^designation.language = #fr-FR
+* #334 ^designation.use.system = "http://snomed.info/sct"
+* #334 ^designation.use = $sct#900000000000013009
+* #334 ^designation.value = "Activité de prévention"
 * #334 ^property[0].code = #dateValid
 * #334 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #334 ^property[+].code = #dateMaj
-* #334 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #334 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #334 ^property[+].code = #status
 * #334 ^property[=].valueCode = #active
 * #335 "Coordination de parcours complexes" "Organisation et coordination des interventions des différents acteurs identifiés lorsqu'un risque de rupture de parcours est identifié ou que la rupture est avérée. Une accumulation de paramètres vient dessiner cette situation complexe : sur le plan social, économique, environnemental, culturel…"
@@ -2999,18 +3011,18 @@ Description: "Activite Operationnelle"
 * #368 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #368 ^property[+].code = #status
 * #368 ^property[=].valueCode = #active
-* #369 "Soins intensifs spécialisés néonatalogique"
+* #369 "Soins intensifs spécialisés néonatalogie"
 * #369 ^property[0].code = #dateValid
 * #369 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #369 ^property[+].code = #dateMaj
-* #369 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #369 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #active
-* #370 "Soins intensifs spécialisés pédiatrique"
+* #370 "Soins intensifs spécialisés pédiatrie"
 * #370 ^property[0].code = #dateValid
 * #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #370 ^property[+].code = #dateMaj
-* #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #370 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #370 ^property[+].code = #status
 * #370 ^property[=].valueCode = #active
 * #371 "Soins intensifs spécialisés néphrologique"
@@ -3326,11 +3338,11 @@ Description: "Activite Operationnelle"
 * #413 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #413 ^property[+].code = #status
 * #413 ^property[=].valueCode = #active
-* #414 "Soins de support en oncologie et hématologie"
+* #414 "Soins de support"
 * #414 ^property[0].code = #dateValid
 * #414 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #414 ^property[+].code = #dateMaj
-* #414 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
+* #414 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #414 ^property[+].code = #status
 * #414 ^property[=].valueCode = #active
 * #415 "Transfusion"
@@ -3601,11 +3613,11 @@ Description: "Activite Operationnelle"
 * #450 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #450 ^property[+].code = #status
 * #450 ^property[=].valueCode = #active
-* #451 "Exploration et prise en charge des troubles du sommeil" "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne"
+* #451 "Exploration des troubles du sommeil" "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne"
 * #451 ^property[0].code = #dateValid
 * #451 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #451 ^property[+].code = #dateMaj
-* #451 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
+* #451 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #451 ^property[+].code = #status
 * #451 ^property[=].valueCode = #active
 * #452 "Exploration des troubles psycho-comportementaux et cognitifs" "Cette exploration comprend une évaluation du fonctionnement cognitif globale (approche psychométrique) et spécifique (évaluation anatomoclinique, mnésique, cognitive, et écologique), une évaluation du comportement (échelles) et la restitution par un compte-rendu"
@@ -3860,11 +3872,11 @@ Description: "Activite Operationnelle"
 * #479 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #479 ^property[+].code = #status
 * #479 ^property[=].valueCode = #active
-* #480 "Médecine du sommeil" "(= hypnologie ou somnologie) est la branche de la médecine spécialisée dans le diagnostic et le traitement des troubles de la vigilance (somnolence excessive) et du sommeil (insomnies, parasomnies)."
+* #480 "Médecine du sommeil (prise en charge des troubles du sommeil)" "(= hypnologie ou somnologie) est la branche de la médecine spécialisée dans le diagnostic et le traitement des troubles de la vigilance (somnolence excessive) et du sommeil (insomnies, parasomnies)."
 * #480 ^property[0].code = #dateValid
 * #480 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #480 ^property[+].code = #dateMaj
-* #480 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #480 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #480 ^property[+].code = #status
 * #480 ^property[=].valueCode = #active
 * #481 "Médecine générale à orientation Allergologie" "Activité d'un médecin généraliste ayant acquis un diplôme ou une mention autorisée en Allergologie."
@@ -4542,10 +4554,14 @@ Description: "Activite Operationnelle"
 * #574 ^property[+].code = #status
 * #574 ^property[=].valueCode = #active
 * #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne" "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci."
+* #575 ^designation.language = #fr-FR
+* #575 ^designation.use.system = "http://snomed.info/sct"
+* #575 ^designation.use = $sct#900000000000013009
+* #575 ^designation.value = "Ergothérapie orientation compensation matérielle dans l’environnement de la pers"
 * #575 ^property[0].code = #dateValid
 * #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #575 ^property[+].code = #dateMaj
-* #575 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
+* #575 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #575 ^property[+].code = #status
 * #575 ^property[=].valueCode = #active
 * #576 "Ergothérapie orientation Gériatrie" "Accompagnement en ergothérapie concerne la prise en charge des personnes âgées, notamment celles confrontées à des pertes d’autonomie, des pathologies chroniques ou neurodégénératives (comme la maladie d'Alzheimer, Parkinson, ou des troubles cognitifs), ainsi qu'à la prévention du vieillissement pathologique. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
@@ -4577,10 +4593,14 @@ Description: "Activite Operationnelle"
 * #579 ^property[+].code = #status
 * #579 ^property[=].valueCode = #active
 * #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne" "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)"
+* #580 ^designation.language = #fr-FR
+* #580 ^designation.use.system = "http://snomed.info/sct"
+* #580 ^designation.use = $sct#900000000000013009
+* #580 ^designation.value = "Eval en ergothérapie par analyse d’activité et accomp dans l’enviro de la person"
 * #580 ^property[0].code = #dateValid
 * #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #580 ^property[+].code = #dateMaj
-* #580 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
+* #580 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #580 ^property[+].code = #status
 * #580 ^property[=].valueCode = #active
 * #581 "Interventions éducatives pour renforcer l’autorégulation" "Consiste à mettre en place des stratégies et des activités visant à aider les personnes, notamment les enfants et les adolescents, à mieux gérer leurs émotions, leurs comportements et leurs pensées. Ces interventions sont particulièrement utiles pour les élèves présentant des troubles du spectre de l'autisme (TSA) et d'autres troubles du neurodéveloppement. Elles sont encadrées par des professionnels, et s'appuient sur des principes de métacognition et d'autodétermination. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
@@ -4627,6 +4647,7 @@ Description: "Activite Operationnelle"
 * #586 ^property[=].valueCode = #active
 * #587 "Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)" "Prise en charge nutritionnelle individualisée visant à limiter les symptômes, prévenir les carences et adapter l’alimentation selon les phases évolutives de pathologies digestives inflammatoire chroniques."
 * #587 ^designation.language = #fr-FR
+* #587 ^designation.use.system = "http://snomed.info/sct"
 * #587 ^designation.use = $sct#900000000000013009
 * #587 ^designation.value = "Diététique orientation maladies inflammatoires et malabsorptives"
 * #587 ^property[0].code = #dateValid
@@ -4845,3 +4866,112 @@ Description: "Activite Operationnelle"
 * #617 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
+* #618 "Collecte de don de lait maternel cru"
+* #618 ^property[0].code = #dateValid
+* #618 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #618 ^property[+].code = #dateMaj
+* #618 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #618 ^property[+].code = #status
+* #618 ^property[=].valueCode = #active
+* #619 "Distribution de lait maternel pasteurisé"
+* #619 ^property[0].code = #dateValid
+* #619 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #619 ^property[+].code = #dateMaj
+* #619 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #619 ^property[+].code = #status
+* #619 ^property[=].valueCode = #active
+* #620 "Bilan psychomoteur"
+* #620 ^property[0].code = #dateValid
+* #620 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #620 ^property[+].code = #dateMaj
+* #620 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #620 ^property[+].code = #status
+* #620 ^property[=].valueCode = #active
+* #621 "Soin psychomoteur"
+* #621 ^property[0].code = #dateValid
+* #621 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #621 ^property[+].code = #dateMaj
+* #621 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #621 ^property[+].code = #status
+* #621 ^property[=].valueCode = #active
+* #622 "Education psychomotrice (pédagogie du développement psychomoteur)"
+* #622 ^property[0].code = #dateValid
+* #622 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #622 ^property[+].code = #dateMaj
+* #622 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #622 ^property[+].code = #status
+* #622 ^property[=].valueCode = #active
+* #623 "Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)"
+* #623 ^designation.language = #fr-FR
+* #623 ^designation.use.system = "http://snomed.info/sct"
+* #623 ^designation.use = $sct#900000000000013009
+* #623 ^designation.value = "Stimulation psychomotrice (fonctionnement psychomoteur à visée préventive)"
+* #623 ^property[0].code = #dateValid
+* #623 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #623 ^property[+].code = #dateMaj
+* #623 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #623 ^property[+].code = #status
+* #623 ^property[=].valueCode = #active
+* #624 "Rééducation de la graphomotricité et de l’écriture (dysgraphie)"
+* #624 ^property[0].code = #dateValid
+* #624 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #624 ^property[+].code = #dateMaj
+* #624 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #624 ^property[+].code = #status
+* #624 ^property[=].valueCode = #active
+* #625 "Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)"
+* #625 ^designation.language = #fr-FR
+* #625 ^designation.use.system = "http://snomed.info/sct"
+* #625 ^designation.use = $sct#900000000000013009
+* #625 ^designation.value = "Orthoptie : orientation troubles neuro-visuels"
+* #625 ^property[0].code = #dateValid
+* #625 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #625 ^property[+].code = #dateMaj
+* #625 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #625 ^property[+].code = #status
+* #625 ^property[=].valueCode = #active
+* #626 "Orthoptie orientation basse vision"
+* #626 ^property[0].code = #dateValid
+* #626 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #626 ^property[+].code = #dateMaj
+* #626 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #626 ^property[+].code = #status
+* #626 ^property[=].valueCode = #active
+* #627 "Orthoptie orientation pédiatrique"
+* #627 ^property[0].code = #dateValid
+* #627 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #627 ^property[+].code = #dateMaj
+* #627 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #627 ^property[+].code = #status
+* #627 ^property[=].valueCode = #active
+* #628 "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+* #628 ^designation.language = #fr-FR
+* #628 ^designation.use = $sct#900000000000013009
+* #628 ^designation.value = "Dispense de médicaments et autres produits de santé du monopole pharma"
+* #628 ^property[0].code = #dateValid
+* #628 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #628 ^property[+].code = #dateMaj
+* #628 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #628 ^property[+].code = #status
+* #628 ^property[=].valueCode = #active
+* #629 "Conseil et accompagnement dans la gestion des traitements"
+* #629 ^property[0].code = #dateValid
+* #629 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #629 ^property[+].code = #dateMaj
+* #629 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #629 ^property[+].code = #status
+* #629 ^property[=].valueCode = #active
+* #630 "Evaluation et accompagnement des auteurs de violences conjugales"
+* #630 ^property[0].code = #dateValid
+* #630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #630 ^property[+].code = #dateMaj
+* #630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #630 ^property[+].code = #status
+* #630 ^property[=].valueCode = #active
+* #631 "Prise en charge et coordination de plaies et cicatrisations complexes"
+* #631 ^property[0].code = #dateValid
+* #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #631 ^property[+].code = #dateMaj
+* #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #631 ^property[+].code = #status
+* #631 ^property[=].valueCode = #active

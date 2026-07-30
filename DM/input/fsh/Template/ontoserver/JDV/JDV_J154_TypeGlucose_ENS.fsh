@@ -1,8 +1,8 @@
 ValueSet: JDV_J154_TypeGlucose_ENS
 Id: JDV-J154-TypeGlucose-ENS
 Description: "JDV pour caractériser le type de glucose"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-07-29T13:17:07.058+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2026-07-06T19:05:16.184+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "JDV pour caractériser le type de glucose"
 * ^experimental = false
 * ^date = "2025-07-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $loinc#2345-7 "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
 * $loinc#4548-4 "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"
 * $loinc#99504-3 "Glucose [Masse/Volume] Liquide interstitiel ; Numérique"

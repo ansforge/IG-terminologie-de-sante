@@ -1,8 +1,8 @@
 ValueSet: JDV_J115_Langue_ENREG
 Id: JDV-J115-Langue-ENREG
 Description: "Langue pour ENREG"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:04:49.968+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:04:54.348+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Langue pour ENREG"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G00-Langue#aa "afar"
 * $TRE-G00-Langue#ab "abkhaze, abkhazien"
 * $TRE-G00-Langue#ae "avestique"

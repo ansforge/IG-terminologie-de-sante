@@ -1,18 +1,18 @@
 CodeSystem: TRE_R58_AutreTypeDiplome
 Id: TRE-R58-AutreTypeDiplome
 Description: "Autre type de diplôme"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2026-05-05T20:12:26.273+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2026-07-29T10:40:19.475+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.53"
-* ^version = "20260223120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -589,7 +589,7 @@ Description: "Autre type de diplôme"
 * #DIP321 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP321 ^property[+].code = #status
 * #DIP321 ^property[=].valueCode = #active
-* #DIP322 "Master en Psychologie ou Psychanalyse" "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
+* #DIP322 "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS" "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
 * #DIP322 ^designation[0].language = #fr-FR
 * #DIP322 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP322 ^designation[=].use = $sct#900000000000013009
@@ -597,7 +597,7 @@ Description: "Autre type de diplôme"
 * #DIP322 ^property[0].code = #dateValid
 * #DIP322 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP322 ^property[+].code = #dateMaj
-* #DIP322 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP322 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #DIP322 ^property[+].code = #status
 * #DIP322 ^property[=].valueCode = #active
 * #DIP323 "Licence + Master mention psychologie + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"

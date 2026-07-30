@@ -1,8 +1,8 @@
 ValueSet: JDV_J138_TypeActivite_RASS
 Id: JDV-J138-TypeActivite-RASS
 Description: "Type d'activité dans le RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:05:03.507+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-29T08:04:47.341+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Type d'activité dans le RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.224"
-* ^version = "20240223120000"
-* ^status = #active
+* ^version = "20260730120000"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2024-02-23T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R209-TypeActivite#01 "Administration"
 * $TRE-R209-TypeActivite#03 "Hospitalisation complète (non compris hospitalisation de semaine)"
 * $TRE-R209-TypeActivite#04 "Hospitalisation de Jour"

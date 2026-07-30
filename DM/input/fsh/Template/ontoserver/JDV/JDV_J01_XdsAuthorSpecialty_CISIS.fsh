@@ -1,8 +1,8 @@
 ValueSet: JDV_J01_XdsAuthorSpecialty_CISIS
 Id: JDV-J01-XdsAuthorSpecialty-CISIS
 Description: "XDS authorSpecialty CI-SIS"
-* ^meta.versionId = "19"
-* ^meta.lastUpdated = "2026-05-05T19:02:26.129+02:00"
+* ^meta.versionId = "21"
+* ^meta.lastUpdated = "2026-07-29T08:04:43.603+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "XDS authorSpecialty CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.461"
-* ^version = "20260505120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
@@ -256,6 +256,9 @@ Description: "XDS authorSpecialty CI-SIS"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI03 "Infirmier - Exerc. infirmier pratique avancée maladie rénale chroniq.,dialyse,transp. rénale (SI)"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI04 "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI05 "Infirmier - Exercice infirmier en pratique avancée urgences (SI)"
+* $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI06 "Infirmier(ère) de bloc opératoire (SI)"
+* $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI07 "Infirmier(ère) anesthésiste (SI)"
+* $TRE-A02-ProfessionSavFaire-CISIS#G15_60/SI08 "Infirmier(ère) puériculteur(trice)"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_69 "Infirmier psychiatrique"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_70 "Masseur-Kinésithérapeute"
 * $TRE-A02-ProfessionSavFaire-CISIS#G15_80 "Pédicure-Podologue"

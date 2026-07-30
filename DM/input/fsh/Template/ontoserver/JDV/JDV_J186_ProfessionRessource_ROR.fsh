@@ -1,8 +1,8 @@
 ValueSet: JDV_J186_ProfessionRessource_ROR
 Id: JDV-J186-ProfessionRessource-ROR
 Description: "Profession Ressource des offres dans le ROR"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-07-25T09:32:12.221+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2026-07-29T08:04:52.627+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Profession Ressource des offres dans le ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.19"
-* ^version = "20250710120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-07-10T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
@@ -165,3 +165,4 @@ Description: "Profession Ressource des offres dans le ROR"
 * $TRE-R356-ProfessionRessource#129 "Ergonome"
 * $TRE-R356-ProfessionRessource#130 "Psychologue du travail"
 * $TRE-R356-ProfessionRessource#131 "Intermédiateur"
+* $TRE-R356-ProfessionRessource#132 "Stomathérapeute"
