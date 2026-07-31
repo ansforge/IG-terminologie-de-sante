@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A15-SexeProvenanceISO-Sexe> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ASS-A15-SexeProvenanceISO-Sexe"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-A15-SexeProvenanceISO-Sexe</b></p><a name=\"ASS-A15-SexeProvenanceISO-Sexe\"> </a><a name=\"hcASS-A15-SexeProvenanceISO-Sexe\"> </a><p>This mapping does not specify any particular context of use.</p><br/><p>Mapping de <a href=\"CodeSystem-TRE-R267-SexeProvenanceISO.html\">TRE_R267_SexeProvenanceISO</a> to <a href=\"CodeSystem-TRE-R249-Sexe.html\">TRE_R249_Sexe</a></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td></tr><tr><td>0 (Inconnu)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UN (Inconnu)</td></tr><tr><td>1 (Masculin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>M (Masculin)</td></tr><tr><td>2 (Féminin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>F (Féminin)</td></tr><tr><td>9 (Autre (sexe ni masculin, ni féminin))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>O (Autre sexe (ni masculin, ni féminin))</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2018-06-29T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/concept-bidirectional" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ] ;
+  fhir:ConceptMap.url [ fhir:value "https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe"] ;
+  fhir:ConceptMap.identifier [
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.2.56" ]
+  ] ;
+  fhir:ConceptMap.version [ fhir:value "20231215120000"] ;
+  fhir:ConceptMap.name [ fhir:value "ASS_A15_SexeProvenanceISO_Sexe"] ;
+  fhir:ConceptMap.title [ fhir:value "ASS_A15_SexeProvenanceISO_Sexe"] ;
+  fhir:ConceptMap.status [ fhir:value "active"] ;
+  fhir:ConceptMap.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ConceptMap.date [ fhir:value "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.description [ fhir:value "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe"] ;
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ConceptMap.group [
+     fhir:index 0 ;
+     fhir:ConceptMap.group.source [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO" ] ;
+     fhir:ConceptMap.group.target [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe" ] ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "0" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "UN" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "1" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "M" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "2" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "F" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "9" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "O" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A15-SexeProvenanceISO-Sexe.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>TRE_G00_Langue - Terminologies  de Santé v1.12.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"7.1038"}
+    h3,h4,h5,h6{--heading-prefix:"7.1038"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  </div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
+            <br/>
+            <span style="display:inline-block;">1.12.0 - final-text
+
+
+
+  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="tre.html">Terminologies</a>
+  </li>
+  <li>
+    <a href="jdv.html">Jeux de valeurs</a>
+  </li>
+  <li>
+    <a href="identifiants.html">Identifiants</a>
+  </li>
+  <li>
+    <a href="ass.html">Association</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="convention.html">Convention de nommage</a>
+      </li>
+      <li>
+        <a href="telechargementNos.html">Téléchargement (NOS)</a>
+      </li>
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://smt.esante.gouv.fr/">SMT</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TRE_G00_Langue</b></li>
+
+          <span style="float:right;">
+
+            <a href="CodeSystem-TRE-A13-HL7ParticipationType.demande.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-TRE-G00-Langue-testing.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.12.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-TRE-G00-Langue.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-TRE-G00-Langue.json.html">JSON</a>
+    </li>
+  
+
+
+
+
+
+
+
+<li>
+  <a href="CodeSystem-TRE-G00-Langue.histoire.html">Historique</a>
+</li>
+
+
+
+  
+  <li>
+    <a href="CodeSystem-TRE-G00-Langue.demande.html">Demande</a>
+  </li>
+  
+
+
+
+
+  
+  <li>
+    <a href="CodeSystem-TRE-G00-Langue.tel.html">Telechargement</a>
+  </li>
+  
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: TRE_G00_Langue
+
+  </h2>
+
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">20240927120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue|20240927120000"/></span>
+      </td>
+    </tr>
+ 
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="3">
+        
+          Active
+          
+            as of 2024-09-27
+          
+        
+      </td>
+
+
+      <td>
+        <i>Responsible:</i> 
+
+        Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
+
+      </td>
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">TRE_G00_Langue</span></td>
+    </tr>
+
+ <!--   
+    <tr>
+      <td colspan="3">
+        <i>As active of:</i> 
+      </td>
+      <td colspan="2">
+        <i>RevisionDate:</i> 2024-09-27T12:00:00+01:00
+      </td>      
+    </tr>
+
+    
+
+    <tr>
+      <td colspan="5">
+        <i>dd:</i> -
+      </td>
+    </tr>
+    -->
+    
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> OID:1.2.250.1.71.2.10
+      </td>
+    </tr>
+
+
+    
+
+
+
+  </table>
+
+
+<p>
+<p>Langue</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants :
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-JDV-J115-Langue-ENREG.html">JDV_J115_Langue_ENREG</a></li>
+ <li><a href="ValueSet-JDV-J82-Langue-RASS.html">JDV_J82_Langue_RASS</a></li>
+</ul>
+
+
+  <div id="orig">  
+    <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="TRE-G00-Langue"> </a><a name="hcTRE-G00-Langue"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 7; Dernière mise à jour : 2026-07-06 20:12:25+0200</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<table class="grid" data-fhir="generated"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
+<tr><td>dateValid</td>
+<td>dateValid</td>
+<td></td>
+<td>dateTime</td>
+<td>date de validité d'un code concept</td></tr>
+<tr><td>dateMaj</td>
+<td>dateMaj</td>
+<td></td>
+<td>dateTime</td>
+<td>Date de mise à jour d'un code concept</td></tr>
+<tr><td>dateFin</td>
+<td>dateFin</td>
+<td></td>
+<td>dateTime</td>
+<td>Date de fin d'exploitation d'un code concept</td></tr>
+<tr><td>deprecationDate</td>
+<td>deprecationDate</td>
+<td>http://hl7.org/fhir/concept-properties#deprecationDate</td>
+<td>dateTime</td>
+<td>Date Concept was deprecated</td></tr>
+<tr><td>status</td>
+<td>status</td>
+<td>http://hl7.org/fhir/concept-properties#status</td>
+<td>code</td>
+<td>A property that indicates the status of the concept.</td></tr>
+<tr><td>retirementDate</td>
+<td>retirementDate</td>
+<td>http://hl7.org/fhir/concept-properties#retirementDate</td>
+<td>dateTime</td>
+<td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
+<tr><td style="white-space:nowrap">aa<a name="TRE-G00-Langue-aa"> </a></td>
+<td>afar</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ab<a name="TRE-G00-Langue-ab"> </a></td>
+<td>abkhaze, abkhazien</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ae<a name="TRE-G00-Langue-ae"> </a></td>
+<td>avestique</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">af<a name="TRE-G00-Langue-af"> </a></td>
+<td>afrikaans</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ak<a name="TRE-G00-Langue-ak"> </a></td>
+<td>akan</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">am<a name="TRE-G00-Langue-am"> </a></td>
+<td>amharique</td>
+<td></td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td>2008-03-20T09:24:54+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">an<a name="TRE-G00-Langue-an"> </a></td>
+<td>aragonais</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ar<a name="TRE-G00-Langue-ar"> </a></td>
+<td>arabe</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">as<a name="TRE-G00-Langue-as"> </a></td>
+<td>assamais</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">av<a name="TRE-G00-Langue-av"> </a></td>
+<td>avar</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ay<a name="TRE-G00-Langue-ay"> </a></td>
+<td>aymara</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">az<a name="TRE-G00-Langue-az"> </a></td>
+<td>azéri, azerbaïdjanais</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ba<a name="TRE-G00-Langue-ba"> </a></td>
+<td>bachkir, bashkir</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">be<a name="TRE-G00-Langue-be"> </a></td>
+<td>biélorusse</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bg<a name="TRE-G00-Langue-bg"> </a></td>
+<td>bulgare</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bh<a name="TRE-G00-Langue-bh"> </a></td>
+<td>bihari</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bi<a name="TRE-G00-Langue-bi"> </a></td>
+<td>bichlamar, bislama</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bm<a name="TRE-G00-Langue-bm"> </a></td>
+<td>bambara</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bn<a name="TRE-G00-Langue-bn"> </a></td>
+<td>bengali</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bo<a name="TRE-G00-Langue-bo"> </a></td>
+<td>tibétain</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">br<a name="TRE-G00-Langue-br"> </a></td>
+<td>breton</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">bs<a name="TRE-G00-Langue-bs"> </a></td>
+<td>bosniaque</td>
+<td></td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td>2008-03-20T09:24:55+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ca<a name="TRE-G00-Langue-ca"> </a></td>
+<td>catalan, valencien</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ce<a name="TRE-G00-Langue-ce"> </a></td>
+<td>tchétchène</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ch<a name="TRE-G00-Langue-ch"> </a></td>
+<td>chamorro</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">co<a name="TRE-G00-Langue-co"> </a></td>
+<td>corse</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">cr<a name="TRE-G00-Langue-cr"> </a></td>
+<td>cree</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">cs<a name="TRE-G00-Langue-cs"> </a></td>
+<td>tchèque</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">cu<a name="TRE-G00-Langue-cu"> </a></td>
+<td>slavon d'église, slavon liturgique, vieux slave, vieux bulgare</td>
+<td></td>
+<td>2015-12-21T00:00:00+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>slavon, vieux slave - bulgare</td></tr>
+<tr><td style="white-space:nowrap">cv<a name="TRE-G00-Langue-cv"> </a></td>
+<td>tchouvache</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">cy<a name="TRE-G00-Langue-cy"> </a></td>
+<td>gallois</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">da<a name="TRE-G00-Langue-da"> </a></td>
+<td>danois</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">de<a name="TRE-G00-Langue-de"> </a></td>
+<td>allemand</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">dv<a name="TRE-G00-Langue-dv"> </a></td>
+<td>maldivien</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">dz<a name="TRE-G00-Langue-dz"> </a></td>
+<td>dzongkha, bhoutani</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ee<a name="TRE-G00-Langue-ee"> </a></td>
+<td>éwé</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">el<a name="TRE-G00-Langue-el"> </a></td>
+<td>grec moderne (après 1453)</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>grec moderne</td></tr>
+<tr><td style="white-space:nowrap">en<a name="TRE-G00-Langue-en"> </a></td>
+<td>anglais</td>
+<td></td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td>2008-03-20T09:24:56+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">eo<a name="TRE-G00-Langue-eo"> </a></td>
+<td>espéranto</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">es<a name="TRE-G00-Langue-es"> </a></td>
+<td>espagnol, castillan</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">et<a name="TRE-G00-Langue-et"> </a></td>
+<td>estonien</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">eu<a name="TRE-G00-Langue-eu"> </a></td>
+<td>basque</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fa<a name="TRE-G00-Langue-fa"> </a></td>
+<td>farsi, persan</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ff<a name="TRE-G00-Langue-ff"> </a></td>
+<td>peul</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fi<a name="TRE-G00-Langue-fi"> </a></td>
+<td>finnois</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fj<a name="TRE-G00-Langue-fj"> </a></td>
+<td>fidjien</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fo<a name="TRE-G00-Langue-fo"> </a></td>
+<td>féroïen</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fr<a name="TRE-G00-Langue-fr"> </a></td>
+<td>français</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">fy<a name="TRE-G00-Langue-fy"> </a></td>
+<td>frison</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ga<a name="TRE-G00-Langue-ga"> </a></td>
+<td>irlandais</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">gd<a name="TRE-G00-Langue-gd"> </a></td>
+<td>gaélique, gaélique écossais</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">gl<a name="TRE-G00-Langue-gl"> </a></td>
+<td>galicien</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">gn<a name="TRE-G00-Langue-gn"> </a></td>
+<td>guarani</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">gu<a name="TRE-G00-Langue-gu"> </a></td>
+<td>gujarati, goudjrati</td>
+<td></td>
+<td>2008-03-20T09:24:57+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">gv<a name="TRE-G00-Langue-gv"> </a></td>
+<td>manx, mannois</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>mannois, manx</td></tr>
+<tr><td style="white-space:nowrap">ha<a name="TRE-G00-Langue-ha"> </a></td>
+<td>haoussa</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">he<a name="TRE-G00-Langue-he"> </a></td>
+<td>hébreu</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">hi<a name="TRE-G00-Langue-hi"> </a></td>
+<td>hindi</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ho<a name="TRE-G00-Langue-ho"> </a></td>
+<td>hiri motu</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">hr<a name="TRE-G00-Langue-hr"> </a></td>
+<td>croate</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ht<a name="TRE-G00-Langue-ht"> </a></td>
+<td>créole haïtien</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>haïtien</td></tr>
+<tr><td style="white-space:nowrap">hu<a name="TRE-G00-Langue-hu"> </a></td>
+<td>hongrois</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">hy<a name="TRE-G00-Langue-hy"> </a></td>
+<td>arménien</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">hz<a name="TRE-G00-Langue-hz"> </a></td>
+<td>herero</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ia<a name="TRE-G00-Langue-ia"> </a></td>
+<td>interlingua (langue auxiliaire internationale)</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>interlingua</td></tr>
+<tr><td style="white-space:nowrap">id<a name="TRE-G00-Langue-id"> </a></td>
+<td>indonésien</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ie<a name="TRE-G00-Langue-ie"> </a></td>
+<td>interlingue</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ig<a name="TRE-G00-Langue-ig"> </a></td>
+<td>igbo</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ii<a name="TRE-G00-Langue-ii"> </a></td>
+<td>Sichuan Yi</td>
+<td></td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ik<a name="TRE-G00-Langue-ik"> </a></td>
+<td>inupiaq</td>
+<td></td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">in<a name="TRE-G00-Langue-in"> </a></td>
+<td>indonésien</td>
+<td>Déprécié</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>1991-01-01T00:00:00+01:00</td>
+<td>1991-01-01T00:00:00+01:00</td>
+<td>1991-01-01T00:00:00+01:00</td>
+<td>deprecated</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">io<a name="TRE-G00-Langue-io"> </a></td>
+<td>ido</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">is<a name="TRE-G00-Langue-is"> </a></td>
+<td>islandais</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">it<a name="TRE-G00-Langue-it"> </a></td>
+<td>italien</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">iu<a name="TRE-G00-Langue-iu"> </a></td>
+<td>inuktitut</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">iw<a name="TRE-G00-Langue-iw"> </a></td>
+<td>hébreu</td>
+<td>Déprécié</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>1989-01-01T00:00:00+01:00</td>
+<td>1989-01-01T00:00:00+01:00</td>
+<td>1989-01-01T00:00:00+01:00</td>
+<td>deprecated</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ja<a name="TRE-G00-Langue-ja"> </a></td>
+<td>japonais</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr style="background-color: #ffeeee"><td style="white-space:nowrap">ji<a name="TRE-G00-Langue-ji"> </a></td>
+<td>yiddish</td>
+<td>Déprécié</td>
+<td>2008-03-20T09:24:58+01:00</td>
+<td>1993-01-01T00:00:00+01:00</td>
+<td>1993-01-01T00:00:00+01:00</td>
+<td>1993-01-01T00:00:00+01:00</td>
+<td>deprecated</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">jv<a name="TRE-G00-Langue-jv"> </a></td>
+<td>javanais</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ka<a name="TRE-G00-Langue-ka"> </a></td>
+<td>géorgien</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kg<a name="TRE-G00-Langue-kg"> </a></td>
+<td>kongo</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ki<a name="TRE-G00-Langue-ki"> </a></td>
+<td>kikuyu</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kj<a name="TRE-G00-Langue-kj"> </a></td>
+<td>kwanyama, kuanyama</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kk<a name="TRE-G00-Langue-kk"> </a></td>
+<td>kazakh</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kl<a name="TRE-G00-Langue-kl"> </a></td>
+<td>groenlandais</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">km<a name="TRE-G00-Langue-km"> </a></td>
+<td>khmer, cambodgien</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kn<a name="TRE-G00-Langue-kn"> </a></td>
+<td>kannada</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ko<a name="TRE-G00-Langue-ko"> </a></td>
+<td>coréen</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kr<a name="TRE-G00-Langue-kr"> </a></td>
+<td>kanouri</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ks<a name="TRE-G00-Langue-ks"> </a></td>
+<td>kashmiri</td>
+<td></td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td>2008-03-20T09:24:59+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ku<a name="TRE-G00-Langue-ku"> </a></td>
+<td>kurde</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kv<a name="TRE-G00-Langue-kv"> </a></td>
+<td>komi</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">kw<a name="TRE-G00-Langue-kw"> </a></td>
+<td>cornique</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ky<a name="TRE-G00-Langue-ky"> </a></td>
+<td>kirghize</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">la<a name="TRE-G00-Langue-la"> </a></td>
+<td>latin</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lb<a name="TRE-G00-Langue-lb"> </a></td>
+<td>luxembourgeois</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lg<a name="TRE-G00-Langue-lg"> </a></td>
+<td>louganda, ganda</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">li<a name="TRE-G00-Langue-li"> </a></td>
+<td>limbourgeois</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ln<a name="TRE-G00-Langue-ln"> </a></td>
+<td>lingala</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lo<a name="TRE-G00-Langue-lo"> </a></td>
+<td>laotien, lao</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ls<a name="TRE-G00-Langue-ls"> </a></td>
+<td>langue des signes française</td>
+<td></td>
+<td>2014-09-30T00:00:00+01:00</td>
+<td>2024-09-27T12:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lt<a name="TRE-G00-Langue-lt"> </a></td>
+<td>lituanien</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lu<a name="TRE-G00-Langue-lu"> </a></td>
+<td>luba-katanga</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">lv<a name="TRE-G00-Langue-lv"> </a></td>
+<td>letton</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mg<a name="TRE-G00-Langue-mg"> </a></td>
+<td>malgache</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mh<a name="TRE-G00-Langue-mh"> </a></td>
+<td>marshall</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mi<a name="TRE-G00-Langue-mi"> </a></td>
+<td>maori</td>
+<td></td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td>2008-03-20T09:25:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mk<a name="TRE-G00-Langue-mk"> </a></td>
+<td>macédonien</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ml<a name="TRE-G00-Langue-ml"> </a></td>
+<td>malayalam</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mn<a name="TRE-G00-Langue-mn"> </a></td>
+<td>mongol</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mo<a name="TRE-G00-Langue-mo"> </a></td>
+<td>moldave</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mr<a name="TRE-G00-Langue-mr"> </a></td>
+<td>marathe</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ms<a name="TRE-G00-Langue-ms"> </a></td>
+<td>malais</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">mt<a name="TRE-G00-Langue-mt"> </a></td>
+<td>maltais</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">my<a name="TRE-G00-Langue-my"> </a></td>
+<td>birman</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">na<a name="TRE-G00-Langue-na"> </a></td>
+<td>nauri</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">nb<a name="TRE-G00-Langue-nb"> </a></td>
+<td>norvégien bokmål</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">nd<a name="TRE-G00-Langue-nd"> </a></td>
+<td>ndébélé du Nord</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ne<a name="TRE-G00-Langue-ne"> </a></td>
+<td>népalais</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ng<a name="TRE-G00-Langue-ng"> </a></td>
+<td>ndonga</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">nl<a name="TRE-G00-Langue-nl"> </a></td>
+<td>néerlandais, flamand</td>
+<td></td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td>2008-03-20T09:25:01+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>néerlandais</td></tr>
+<tr><td style="white-space:nowrap">nn<a name="TRE-G00-Langue-nn"> </a></td>
+<td>norvégien nynorsk, nynorsk, norvégien</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>nynorsk</td></tr>
+<tr><td style="white-space:nowrap">no<a name="TRE-G00-Langue-no"> </a></td>
+<td>norvégien</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">nr<a name="TRE-G00-Langue-nr"> </a></td>
+<td>ndébélé du Sud</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">nv<a name="TRE-G00-Langue-nv"> </a></td>
+<td>navaho</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ny<a name="TRE-G00-Langue-ny"> </a></td>
+<td>nyanja, chewa, chichewa</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>chichewa, chewa, nyanja</td></tr>
+<tr><td style="white-space:nowrap">oc<a name="TRE-G00-Langue-oc"> </a></td>
+<td>occitan, provençal (après 1500)</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td>occitan, provençal</td></tr>
+<tr><td style="white-space:nowrap">oj<a name="TRE-G00-Langue-oj"> </a></td>
+<td>ojibwa</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">om<a name="TRE-G00-Langue-om"> </a></td>
+<td>oromo, afan oromo, galla</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">or<a name="TRE-G00-Langue-or"> </a></td>
+<td>oriya</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">os<a name="TRE-G00-Langue-os"> </a></td>
+<td>ossète</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">pa<a name="TRE-G00-Langue-pa"> </a></td>
+<td>punjabi, panjabi, pendjabi</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">pi<a name="TRE-G00-Langue-pi"> </a></td>
+<td>pali</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">pl<a name="TRE-G00-Langue-pl"> </a></td>
+<td>polonais</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ps<a name="TRE-G00-Langue-ps"> </a></td>
+<td>pachto, pashto, pushto</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">pt<a name="TRE-G00-Langue-pt"> </a></td>
+<td>portugais</td>
+<td></td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td>2008-03-20T09:25:02+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">qu<a name="TRE-G00-Langue-qu"> </a></td>
+<td>quechua, quichua</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">rc<a name="TRE-G00-Langue-rc"> </a></td>
+<td>créole réunionnais</td>
+<td></td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">rm<a name="TRE-G00-Langue-rm"> </a></td>
+<td>rhéto-roman</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">rn<a name="TRE-G00-Langue-rn"> </a></td>
+<td>kirundi, rundi</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ro<a name="TRE-G00-Langue-ro"> </a></td>
+<td>roumain</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ru<a name="TRE-G00-Langue-ru"> </a></td>
+<td>russe</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">rw<a name="TRE-G00-Langue-rw"> </a></td>
+<td>kinyarwanda, rwanda</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sa<a name="TRE-G00-Langue-sa"> </a></td>
+<td>sanskrit</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sc<a name="TRE-G00-Langue-sc"> </a></td>
+<td>sarde</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sd<a name="TRE-G00-Langue-sd"> </a></td>
+<td>sindhi</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">se<a name="TRE-G00-Langue-se"> </a></td>
+<td>sami du Nord</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sg<a name="TRE-G00-Langue-sg"> </a></td>
+<td>sango</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sh<a name="TRE-G00-Langue-sh"> </a></td>
+<td>serbo-croate</td>
+<td></td>
+<td>2014-09-30T00:00:00+01:00</td>
+<td>2014-09-30T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">si<a name="TRE-G00-Langue-si"> </a></td>
+<td>singhalais</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sk<a name="TRE-G00-Langue-sk"> </a></td>
+<td>slovaque</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sl<a name="TRE-G00-Langue-sl"> </a></td>
+<td>slovène</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sm<a name="TRE-G00-Langue-sm"> </a></td>
+<td>samoan</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sn<a name="TRE-G00-Langue-sn"> </a></td>
+<td>shona</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">so<a name="TRE-G00-Langue-so"> </a></td>
+<td>somali</td>
+<td></td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td>2008-03-20T09:25:03+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sq<a name="TRE-G00-Langue-sq"> </a></td>
+<td>albanais</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sr<a name="TRE-G00-Langue-sr"> </a></td>
+<td>serbe</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ss<a name="TRE-G00-Langue-ss"> </a></td>
+<td>swazi, swati, siswati</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">st<a name="TRE-G00-Langue-st"> </a></td>
+<td>sesotho, sotho du Sud</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">su<a name="TRE-G00-Langue-su"> </a></td>
+<td>soundanais</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sv<a name="TRE-G00-Langue-sv"> </a></td>
+<td>suédois</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">sw<a name="TRE-G00-Langue-sw"> </a></td>
+<td>swahili</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ta<a name="TRE-G00-Langue-ta"> </a></td>
+<td>tamoul, tamil</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">te<a name="TRE-G00-Langue-te"> </a></td>
+<td>télougou</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tg<a name="TRE-G00-Langue-tg"> </a></td>
+<td>tadjik</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">th<a name="TRE-G00-Langue-th"> </a></td>
+<td>thaï</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ti<a name="TRE-G00-Langue-ti"> </a></td>
+<td>tigrigna</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tk<a name="TRE-G00-Langue-tk"> </a></td>
+<td>turkmène</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tl<a name="TRE-G00-Langue-tl"> </a></td>
+<td>tagal, tagalog</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tn<a name="TRE-G00-Langue-tn"> </a></td>
+<td>setchwana, tswana</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">to<a name="TRE-G00-Langue-to"> </a></td>
+<td>tonga (îles Tonga)</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tr<a name="TRE-G00-Langue-tr"> </a></td>
+<td>turc</td>
+<td></td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td>2008-03-20T09:25:04+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ts<a name="TRE-G00-Langue-ts"> </a></td>
+<td>tsonga</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tt<a name="TRE-G00-Langue-tt"> </a></td>
+<td>tatar</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">tw<a name="TRE-G00-Langue-tw"> </a></td>
+<td>twi</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ty<a name="TRE-G00-Langue-ty"> </a></td>
+<td>tahitien</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ug<a name="TRE-G00-Langue-ug"> </a></td>
+<td>ouïgour</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">uk<a name="TRE-G00-Langue-uk"> </a></td>
+<td>ukrainien</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ur<a name="TRE-G00-Langue-ur"> </a></td>
+<td>ourdou</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">uz<a name="TRE-G00-Langue-uz"> </a></td>
+<td>ouszbek</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">ve<a name="TRE-G00-Langue-ve"> </a></td>
+<td>venda</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2016-03-29T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">vi<a name="TRE-G00-Langue-vi"> </a></td>
+<td>vietnamien</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">vo<a name="TRE-G00-Langue-vo"> </a></td>
+<td>volapük</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">wa<a name="TRE-G00-Langue-wa"> </a></td>
+<td>wallon</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">wo<a name="TRE-G00-Langue-wo"> </a></td>
+<td>wolof</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">xh<a name="TRE-G00-Langue-xh"> </a></td>
+<td>xhosa</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">yi<a name="TRE-G00-Langue-yi"> </a></td>
+<td>yiddish</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">yo<a name="TRE-G00-Langue-yo"> </a></td>
+<td>yorouba, yoruba</td>
+<td></td>
+<td>2008-03-20T09:25:05+01:00</td>
+<td>2016-09-01T00:00:00+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">za<a name="TRE-G00-Langue-za"> </a></td>
+<td>zhuang, chuang</td>
+<td></td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">zh<a name="TRE-G00-Langue-zh"> </a></td>
+<td>chinois</td>
+<td></td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">zu<a name="TRE-G00-Langue-zu"> </a></td>
+<td>zoulou</td>
+<td></td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td>2008-03-20T09:25:06+01:00</td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr></table></div>
+
+    
+  </div>  
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div style="background-color:var(--footer-nav-bg-color)">
+  <table style="width:100%">
+    <tbody>
+      <tr>
+        <td style="text-align:left">&#xA0;
+
+          <a href="CodeSystem-TRE-A13-HL7ParticipationType.demande.html">&lt;prev</a>
+
+        </td>
+        <td style="text-align:center">
+          <a href="#top">top</a>
+        </td>
+        <td style="text-align:right">&#xA0;
+
+          <a href="CodeSystem-TRE-G00-Langue-testing.html">next&gt;</a>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.12.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 31, 2026 14:38+0000">2026-07-31</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"></span>
+      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/terminologies/history.html">Historique des versions </a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" id="newissue" href="https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=">New Issue</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+<!-- Ajout ANS -->
+<script src="assets/js/app.js" type="text/javascript"> </script>
+<script src="assets/js/vendor.js" type="text/javascript"> </script>
+<script type="text/javascript" src="assets/js/addOnto.js"> </script>
+<!-- Fin ajout ANS -->
+
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+
+
+<!-- Analytics Below
+================================================== -->
+
+
+<!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+<div class="footer__region1">
+<div class="container">
+<div class="row">
+
+  <div class="col-md-6 col-lg-4 text-center text-md-left">
+    <div class="logos">        
+      <div class="logo logo--0">
+        <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+          
+          <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+          
+        </a>
+      </div>
+  
+      <div class="logo logo--1">
+        <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+          
+          <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 text-center text-md-left">
+    <p class="footer__title">Agence du Numérique en Santé</p>
+    <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+    <!-- <div class="m-social">
+      <ul class="m-social__list">        
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+            </div>
+            <span class="sr-only">linkedin</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+            </div>
+            <span class="sr-only">twitter</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+            </div>
+            <span class="sr-only">youtube</span>
+          </a>
+        </li>
+        <li class="m-social__item">
+          <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+            <div class="m-social__icon">
+              <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+            </div>
+            <span class="sr-only">rss</span>
+          </a>
+        </li>
+      </ul>
+    </div> -->
+  </div>
+  
+  <div class="col-6 col-lg-4">
+    <ul class="footer-list">
+      <li class="footer-list__item footer-list__item--hasIcon">
+        <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+          <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+        </li>
+        <!-- <li class="footer-list__item">
+          <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+        </li>
+         -->
+      </ul>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- <div class="footer__region2">
+<div class="container">
+  <div class="footer-contentinfo">
+    <ul class="footer-list footer-list--inline">
+
+    </ul>
+  </div>
+</div>
+</div> -->
+</footer>
+</body>
+</html>

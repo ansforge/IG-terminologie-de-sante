@@ -1,0 +1,587 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-mediaType> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-mediaType"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:50.782+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-mediaType</b></p><a name=\"v3-mediaType\"> </a><a name=\"hcv3-mediaType\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-mediaType</code> provides <b>a fragment</b> that includes following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>synonymCode</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">application<a name=\"v3-mediaType-application\"> </a></td><td>ApplicationMediaType</td><td>Application specific media type.</td><td>21083</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  application/dicom<a name=\"v3-mediaType-application.47dicom\"> </a></td><td>DICOM</td><td>Digital Imaging and Communications in Medicine (DICOM) MIME type defined in RFC3240 \\[http://ietf.org/rfc/rfc3240.txt\\].</td><td>21460</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  application/msword<a name=\"v3-mediaType-application.47msword\"> </a></td><td>MSWORD</td><td>This format is very prone to compatibility problems. If sharing of edit-able text is required, text/plain, text/html or text/rtf should be used instead.</td><td>14834</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  application/pdf<a name=\"v3-mediaType-application.47pdf\"> </a></td><td>PDF</td><td>The Portable Document Format is recommended for written text that is completely laid out and read-only. PDF is a platform independent, widely deployed, and open specification with freely available creation and rendering tools.</td><td>14833</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">audio<a name=\"v3-mediaType-audio\"> </a></td><td>AudioMediaType</td><td>Audio media type.</td><td>21084</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  audio/basic<a name=\"v3-mediaType-audio.47basic\"> </a></td><td>Basic Audio</td><td>This is a format for single channel audio, encoded using 8bit ISDN mu-law \\[PCM\\] at a sample rate of 8000 Hz. This format is standardized by: CCITT, Fascicle III.4 -Recommendation G.711. Pulse Code Modulation (PCM) of Voice Frequencies. Geneva, 1972.</td><td>14836</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  audio/k32adpcm<a name=\"v3-mediaType-audio.47k32adpcm\"> </a></td><td>K32ADPCM Audio</td><td>ADPCM allows compressing audio data. It is defined in the Internet specification RFC 2421 \\[ftp://ftp.isi.edu/in-notes/rfc2421.txt\\]. Its implementation base is unclear.</td><td>14838</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  audio/mpeg<a name=\"v3-mediaType-audio.47mpeg\"> </a></td><td>MPEG audio layer 3</td><td>MPEG-1 Audio layer-3 is an audio compression algorithm and file format defined in ISO 11172-3 and ISO 13818-3. MP3 has an adjustable sampling frequency for highly compressed telephone to CD quality audio.</td><td>14837</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">image<a name=\"v3-mediaType-image\"> </a></td><td>ImageMediaType</td><td>Image media type.</td><td>21085</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  image/g3fax<a name=\"v3-mediaType-image.47g3fax\"> </a></td><td>G3Fax Image</td><td>This is recommended only for fax applications.</td><td>14843</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  image/gif<a name=\"v3-mediaType-image.47gif\"> </a></td><td>GIF Image</td><td>GIF is a popular format that is universally well supported. However GIF is patent encumbered and should therefore be used with caution.</td><td>14841</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  image/jpeg<a name=\"v3-mediaType-image.47jpeg\"> </a></td><td>JPEG Image</td><td>This format is required for high compression of high color photographs. It is a \"lossy\" compression, but the difference to lossless compression is almost unnoticeable to the human vision.</td><td>14842</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  image/png<a name=\"v3-mediaType-image.47png\"> </a></td><td>PNG Image</td><td>Portable Network Graphics (PNG) \\[http://www.cdrom.com/pub/png\\] is a widely supported lossless image compression standard with open source code available.</td><td>14840</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  image/tiff<a name=\"v3-mediaType-image.47tiff\"> </a></td><td>TIFF Image</td><td>Although TIFF (Tag Image File Format) is an international standard it has many interoperability problems in practice. Too many different versions that are not handled by all software alike.</td><td>14844</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">model<a name=\"v3-mediaType-model\"> </a></td><td>ModelMediaType</td><td>Model media type.</td><td>21086</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  model/vrml<a name=\"v3-mediaType-model.47vrml\"> </a></td><td>VRML Model</td><td>This is an openly standardized format for 3D models that can be useful for virtual reality applications such as anatomy or biochemical research (visualization of the steric structure of macromolecules)</td><td>14849</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">multipart<a name=\"v3-mediaType-multipart\"> </a></td><td>MultipartMediaType</td><td>Multipart Media Type</td><td>21087</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  multipart/x-hl7-cda-level-one<a name=\"v3-mediaType-multipart.47x-hl7-cda-level-one\"> </a></td><td>CDA Level 1 Multipart</td><td>The HL7 clinical document Architecture, Level 1 MIME package.</td><td>14851</td><td>active</td><td>multipart/x-hl7-cda-level1</td></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  multipart/x-hl7-cda-level1<a name=\"v3-mediaType-multipart.47x-hl7-cda-level1\"> </a></td><td>CDA Level 1 Multipart</td><td>The HL7 clinical document Architecture, Level 1 MIME package.</td><td>14851</td><td>retired</td><td>multipart/x-hl7-cda-level-one</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">text<a name=\"v3-mediaType-text\"> </a></td><td>TextMediaType</td><td>For any text</td><td>21088</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/html<a name=\"v3-mediaType-text.47html\"> </a></td><td>HTML Text</td><td>For marked-up text according to the Hypertext Mark-up Language. HTML markup is sufficient for typographically marking-up most written-text documents. HTML is platform independent and widely deployed.</td><td>14828</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/plain<a name=\"v3-mediaType-text.47plain\"> </a></td><td>Plain Text</td><td>**Description:**For any plain text. This is the default and is used for a character string (ST) data type.</td><td>14826</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/rtf<a name=\"v3-mediaType-text.47rtf\"> </a></td><td>RTF Text</td><td>The Rich Text Format is widely used to share word-processor documents. However, RTF does have compatibility problems, as it is quite dependent on the word processor. May be useful if word processor edit-able text should be shared.</td><td>14831</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/sgml<a name=\"v3-mediaType-text.47sgml\"> </a></td><td>SGML Text</td><td>For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications.</td><td>14829</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/x-hl7-ft<a name=\"v3-mediaType-text.47x-hl7-ft\"> </a></td><td>HL7 Text</td><td>For compatibility, this represents the HL7 v2.x FT data type. Its use is recommended only for backward compatibility with HL7 v2.x systems.</td><td>14827</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/x-hl7-text+xml<a name=\"v3-mediaType-text.47x-hl7-text.43xml\"> </a></td><td>HL7 Structured Narrative</td><td>**Description:**  The content described by the CDA Narrative Block (not just used by CDA).</td><td>22607</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  text/xml<a name=\"v3-mediaType-text.47xml\"> </a></td><td>XML Text</td><td>For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications.</td><td>14830</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">video<a name=\"v3-mediaType-video\"> </a></td><td>VideoMediaType</td><td>Video media type.</td><td>21089</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/mp4<a name=\"v3-mediaType-video.47mp4\"> </a></td><td>MP4 Video</td><td>Video format by the Motion Picture Experts Group under ISO/IEC 14496</td><td>24125</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/mpeg<a name=\"v3-mediaType-video.47mpeg\"> </a></td><td>MPEG Video</td><td>MPEG is an international standard, widely deployed, highly efficient for high color video; open source code exists; highly interoperable.</td><td>14846</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/quicktime<a name=\"v3-mediaType-video.47quicktime\"> </a></td><td>QuickTime Video</td><td>Proprietary video format from Apple, Inc.</td><td>24127</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/webm<a name=\"v3-mediaType-video.47webm\"> </a></td><td>WebM Video</td><td>A royalty-free audiovisual media file format.</td><td>24128</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/x-avi<a name=\"v3-mediaType-video.47x-avi\"> </a></td><td>X-AVI Video</td><td>The AVI file format is just a wrapper for many different codecs; it is a source of many interoperability problems.</td><td>14847</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  video/x-ms-wmv<a name=\"v3-mediaType-video.47x-ms-wmv\"> </a></td><td>Windows Media Video</td><td>Proprietary video format from Microsoft, Inc.</td><td>24126</td><td>active</td><td/></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-mediaType"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.79" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "MediaType"] ;
+  fhir:CodeSystem.title [ fhir:value "Media Type"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 \\[http://www.ietf.org/rfc/rfc2045.txt\\] and 2046 \\[http://www.ietf.org/rfc/rfc2046.txt\\]. RFC 2046 defines the media type to consist of two parts:\r\n\r\n1.  top level media type, and\r\n2.  media subtype\r\n\r\nHowever, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash \"/\" followed by media subtype. Currently defined media types are registered in a database \\[http://www.iana.org/assignments/media-types/index.html\\] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "fragment"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "synonymCode" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#synonym" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "An additional concept code that was also attributed to a concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "application" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ApplicationMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Application specific media type." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21083" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "application/dicom" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "DICOM" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Digital Imaging and Communications in Medicine (DICOM) MIME type defined in RFC3240 \\[http://ietf.org/rfc/rfc3240.txt\\]." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "21460" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "application/msword" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "MSWORD" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This format is very prone to compatibility problems. If sharing of edit-able text is required, text/plain, text/html or text/rtf should be used instead." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14834" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "application/pdf" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "PDF" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The Portable Document Format is recommended for written text that is completely laid out and read-only. PDF is a platform independent, widely deployed, and open specification with freely available creation and rendering tools." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14833" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "audio" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AudioMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Audio media type." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21084" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "audio/basic" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Basic Audio" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This is a format for single channel audio, encoded using 8bit ISDN mu-law \\[PCM\\] at a sample rate of 8000 Hz. This format is standardized by: CCITT, Fascicle III.4 -Recommendation G.711. Pulse Code Modulation (PCM) of Voice Frequencies. Geneva, 1972." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14836" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "audio/k32adpcm" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "K32ADPCM Audio" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "ADPCM allows compressing audio data. It is defined in the Internet specification RFC 2421 \\[ftp://ftp.isi.edu/in-notes/rfc2421.txt\\]. Its implementation base is unclear." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14838" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "audio/mpeg" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "MPEG audio layer 3" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "MPEG-1 Audio layer-3 is an audio compression algorithm and file format defined in ISO 11172-3 and ISO 13818-3. MP3 has an adjustable sampling frequency for highly compressed telephone to CD quality audio." ] ;
+       fhir:CodeSystem.concept.designation [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+         fhir:CodeSystem.concept.designation.use [
+           a sct:900000000000013009 ;
+           fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+           fhir:Coding.code [ fhir:value "900000000000013009" ]
+         ] ;
+         fhir:CodeSystem.concept.designation.value [ fhir:value "MP3 Audio" ]
+       ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14837" ]
+       ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "image" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ImageMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Image media type." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21085" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "image/g3fax" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "G3Fax Image" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This is recommended only for fax applications." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14843" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "image/gif" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "GIF Image" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "GIF is a popular format that is universally well supported. However GIF is patent encumbered and should therefore be used with caution." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14841" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "image/jpeg" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "JPEG Image" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This format is required for high compression of high color photographs. It is a \"lossy\" compression, but the difference to lossless compression is almost unnoticeable to the human vision." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14842" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "image/png" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "PNG Image" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Portable Network Graphics (PNG) \\[http://www.cdrom.com/pub/png\\] is a widely supported lossless image compression standard with open source code available." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14840" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "image/tiff" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "TIFF Image" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Although TIFF (Tag Image File Format) is an international standard it has many interoperability problems in practice. Too many different versions that are not handled by all software alike." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14844" ]
+       ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "model" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ModelMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Model media type." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21086" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "model/vrml" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "VRML Model" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This is an openly standardized format for 3D models that can be useful for virtual reality applications such as anatomy or biochemical research (visualization of the steric structure of macromolecules)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14849" ]
+       ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "multipart" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MultipartMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Multipart Media Type" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21087" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "multipart/x-hl7-cda-level-one" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "CDA Level 1 Multipart" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The HL7 clinical document Architecture, Level 1 MIME package." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "multipart/x-hl7-cda-level1" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14851" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "multipart/x-hl7-cda-level1" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "CDA Level 1 Multipart" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The HL7 clinical document Architecture, Level 1 MIME package." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "multipart/x-hl7-cda-level-one" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14851" ]
+       ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "text" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TextMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "For any text" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21088" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/html" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "HTML Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "For marked-up text according to the Hypertext Mark-up Language. HTML markup is sufficient for typographically marking-up most written-text documents. HTML is platform independent and widely deployed." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14828" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/plain" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Plain Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:**For any plain text. This is the default and is used for a character string (ST) data type." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14826" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/rtf" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "RTF Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The Rich Text Format is widely used to share word-processor documents. However, RTF does have compatibility problems, as it is quite dependent on the word processor. May be useful if word processor edit-able text should be shared." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14831" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/sgml" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "SGML Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14829" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/x-hl7-ft" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "HL7 Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "For compatibility, this represents the HL7 v2.x FT data type. Its use is recommended only for backward compatibility with HL7 v2.x systems." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14827" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/x-hl7-text+xml" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "HL7 Structured Narrative" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:**  The content described by the CDA Narrative Block (not just used by CDA)." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22607" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:CodeSystem.concept.code [ fhir:value "text/xml" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "XML Text" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "For structured character based data. There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14830" ]
+       ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "video" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VideoMediaType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Video media type." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21089" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/mp4" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "MP4 Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Video format by the Motion Picture Experts Group under ISO/IEC 14496" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "24125" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/mpeg" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "MPEG Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "MPEG is an international standard, widely deployed, highly efficient for high color video; open source code exists; highly interoperable." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14846" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/quicktime" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "QuickTime Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Proprietary video format from Apple, Inc." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "24127" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/webm" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "WebM Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "A royalty-free audiovisual media file format." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "24128" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/x-avi" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "X-AVI Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The AVI file format is just a wrapper for many different codecs; it is a source of many interoperability problems." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14847" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:CodeSystem.concept.code [ fhir:value "video/x-ms-wmv" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Windows Media Video" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Proprietary video format from Microsoft, Inc." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "24126" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-mediaType.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

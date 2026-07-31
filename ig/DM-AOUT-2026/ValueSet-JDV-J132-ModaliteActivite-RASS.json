@@ -1,0 +1,48 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J132-ModaliteActivite-RASS",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-29T08:04:47.024+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J132-ModaliteActivite-RASS</b></p><a name=\"JDV-J132-ModaliteActivite-RASS\"> </a><a name=\"hcJDV-J132-ModaliteActivite-RASS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 6; Dernière mise à jour : 2026-07-29 08:04:47+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r405-modalite-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260223120000</span> où rass  = true</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-11-27T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.218"
+  }],
+  "version" : "20260730120000",
+  "name" : "JDV_J132_ModaliteActivite_RASS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-30T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Mode d'application ou type de soins encadrant une activité dans le RASS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+      "filter" : [{
+        "property" : "rass",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }]
+  }
+}

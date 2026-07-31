@@ -1,0 +1,2485 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R88-TerritoireSante> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TRE-R88-TerritoireSante"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "6" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:14:54.377+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R88-TerritoireSante</b></p><a name=\"TRE-R88-TerritoireSante\"> </a><a name=\"hcTRE-R88-TerritoireSante\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 6; Dernière mise à jour : 2026-07-06 20:14:54+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R88-TerritoireSante-001\"> </a></td><td>Sud Yonne Haut-Nivernais</td><td/><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R88-TerritoireSante-002\"> </a></td><td>Bourgogne méridionale</td><td/><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R88-TerritoireSante-011\"> </a></td><td>Centre</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R88-TerritoireSante-012\"> </a></td><td>Sud Basse-Terre</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R88-TerritoireSante-013\"> </a></td><td>Iles du nord</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">021<a name=\"TRE-R88-TerritoireSante-021\"> </a></td><td>Nord Caraïbe</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">022<a name=\"TRE-R88-TerritoireSante-022\"> </a></td><td>Nord Atlantique</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">023<a name=\"TRE-R88-TerritoireSante-023\"> </a></td><td>Centre</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">024<a name=\"TRE-R88-TerritoireSante-024\"> </a></td><td>Sud</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">031<a name=\"TRE-R88-TerritoireSante-031\"> </a></td><td>Guyane</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">041<a name=\"TRE-R88-TerritoireSante-041\"> </a></td><td>Territoire Ouest</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">042<a name=\"TRE-R88-TerritoireSante-042\"> </a></td><td>Territoire Nord-Est</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">043<a name=\"TRE-R88-TerritoireSante-043\"> </a></td><td>Territoire Sud</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">061<a name=\"TRE-R88-TerritoireSante-061\"> </a></td><td>Mayotte</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"TRE-R88-TerritoireSante-111\"> </a></td><td>Essonne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-R88-TerritoireSante-112\"> </a></td><td>Hauts-de-Seine</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-R88-TerritoireSante-113\"> </a></td><td>Paris</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-R88-TerritoireSante-114\"> </a></td><td>Seine-et-Marne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-R88-TerritoireSante-115\"> </a></td><td>Seine-Saint-Denis</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-R88-TerritoireSante-116\"> </a></td><td>Val-de-Marne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-R88-TerritoireSante-117\"> </a></td><td>Val-d'Oise</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-R88-TerritoireSante-118\"> </a></td><td>Yvelines</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"TRE-R88-TerritoireSante-211\"> </a></td><td>Nord (51-08)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"TRE-R88-TerritoireSante-212\"> </a></td><td>Sud (52-10)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">221<a name=\"TRE-R88-TerritoireSante-221\"> </a></td><td>Oise Est</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">222<a name=\"TRE-R88-TerritoireSante-222\"> </a></td><td>Oise Ouest</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">223<a name=\"TRE-R88-TerritoireSante-223\"> </a></td><td>Aisne Nord Haute Somme</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">224<a name=\"TRE-R88-TerritoireSante-224\"> </a></td><td>Somme</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">225<a name=\"TRE-R88-TerritoireSante-225\"> </a></td><td>Aisne Sud</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"TRE-R88-TerritoireSante-231\"> </a></td><td>Rouen-Elbeuf</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"TRE-R88-TerritoireSante-232\"> </a></td><td>Dieppe</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"TRE-R88-TerritoireSante-233\"> </a></td><td>Le Havre</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"TRE-R88-TerritoireSante-234\"> </a></td><td>Evreux-Vernon</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"TRE-R88-TerritoireSante-241\"> </a></td><td>Territoire Cher (18)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"TRE-R88-TerritoireSante-242\"> </a></td><td>Territoire Eure et Loir (28)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"TRE-R88-TerritoireSante-243\"> </a></td><td>Territoire Indre (36)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"TRE-R88-TerritoireSante-244\"> </a></td><td>territoire Indre et Loire (37)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"TRE-R88-TerritoireSante-245\"> </a></td><td>Territoire Loir et Cher (41)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"TRE-R88-TerritoireSante-246\"> </a></td><td>Territoire Loiret (45)</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"TRE-R88-TerritoireSante-251\"> </a></td><td>Calvados</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"TRE-R88-TerritoireSante-252\"> </a></td><td>Manche</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"TRE-R88-TerritoireSante-253\"> </a></td><td>Orne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"TRE-R88-TerritoireSante-261\"> </a></td><td>Côte d'Or</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"TRE-R88-TerritoireSante-262\"> </a></td><td>Nièvre</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"TRE-R88-TerritoireSante-263\"> </a></td><td>Saône et Loire Bresse-Morvan</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"TRE-R88-TerritoireSante-264\"> </a></td><td>Nord Yonne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">311<a name=\"TRE-R88-TerritoireSante-311\"> </a></td><td>Artois</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">312<a name=\"TRE-R88-TerritoireSante-312\"> </a></td><td>Hainaut</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">313<a name=\"TRE-R88-TerritoireSante-313\"> </a></td><td>Littoral</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">314<a name=\"TRE-R88-TerritoireSante-314\"> </a></td><td>Métropole</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td>deprecated</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"TRE-R88-TerritoireSante-321\"> </a></td><td>Aisne</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"TRE-R88-TerritoireSante-322\"> </a></td><td>Métropole Flandre</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"TRE-R88-TerritoireSante-323\"> </a></td><td>Hainaut</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"TRE-R88-TerritoireSante-324\"> </a></td><td>Oise</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">325<a name=\"TRE-R88-TerritoireSante-325\"> </a></td><td>Pas de Calais</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">326<a name=\"TRE-R88-TerritoireSante-326\"> </a></td><td>Somme</td><td/><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">411<a name=\"TRE-R88-TerritoireSante-411\"> </a></td><td>Meuse</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">412<a name=\"TRE-R88-TerritoireSante-412\"> </a></td><td>Meurthe-et-Moselle</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">413<a name=\"TRE-R88-TerritoireSante-413\"> </a></td><td>Moselle</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">414<a name=\"TRE-R88-TerritoireSante-414\"> </a></td><td>Vosges</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"TRE-R88-TerritoireSante-421\"> </a></td><td>Haguenau</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">422<a name=\"TRE-R88-TerritoireSante-422\"> </a></td><td>Strasbourg</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">423<a name=\"TRE-R88-TerritoireSante-423\"> </a></td><td>Colmar</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">424<a name=\"TRE-R88-TerritoireSante-424\"> </a></td><td>Mulhouse</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"TRE-R88-TerritoireSante-431\"> </a></td><td>Centre Franche-Comté</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">432<a name=\"TRE-R88-TerritoireSante-432\"> </a></td><td>Jura</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">433<a name=\"TRE-R88-TerritoireSante-433\"> </a></td><td>Haute-Saône</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">434<a name=\"TRE-R88-TerritoireSante-434\"> </a></td><td>Nord Franche-Comté</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">521<a name=\"TRE-R88-TerritoireSante-521\"> </a></td><td>Territoire 1 Loire-Atlantique</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">522<a name=\"TRE-R88-TerritoireSante-522\"> </a></td><td>Territoire 2 Maine et Loire</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">523<a name=\"TRE-R88-TerritoireSante-523\"> </a></td><td>Territoire 3 Mayenne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">524<a name=\"TRE-R88-TerritoireSante-524\"> </a></td><td>Territoire 4 Sarthe</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">525<a name=\"TRE-R88-TerritoireSante-525\"> </a></td><td>Territoire 5 Vendée</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">531<a name=\"TRE-R88-TerritoireSante-531\"> </a></td><td>Brest/Carhaix/Morlaix</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">532<a name=\"TRE-R88-TerritoireSante-532\"> </a></td><td>Quimper/Douarnenez/Pont l'Abbé</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">533<a name=\"TRE-R88-TerritoireSante-533\"> </a></td><td>Lorient/Quimperlé</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">534<a name=\"TRE-R88-TerritoireSante-534\"> </a></td><td>Vannes/Ploërmel/Malestroit</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">535<a name=\"TRE-R88-TerritoireSante-535\"> </a></td><td>Rennes/Fougères/Vitré/Redon</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">536<a name=\"TRE-R88-TerritoireSante-536\"> </a></td><td>Saint-Malo/Dinan</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">537<a name=\"TRE-R88-TerritoireSante-537\"> </a></td><td>Saint-Brieuc/Guingamp/Lannion</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">538<a name=\"TRE-R88-TerritoireSante-538\"> </a></td><td>Pontivy/Loudéac</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">541<a name=\"TRE-R88-TerritoireSante-541\"> </a></td><td>Charente</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">543<a name=\"TRE-R88-TerritoireSante-543\"> </a></td><td>Charente Maritime</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">544<a name=\"TRE-R88-TerritoireSante-544\"> </a></td><td>Deux-Sèvres</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">545<a name=\"TRE-R88-TerritoireSante-545\"> </a></td><td>Vienne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">721<a name=\"TRE-R88-TerritoireSante-721\"> </a></td><td>Dordogne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">722<a name=\"TRE-R88-TerritoireSante-722\"> </a></td><td>Gironde</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">723<a name=\"TRE-R88-TerritoireSante-723\"> </a></td><td>Landes</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">724<a name=\"TRE-R88-TerritoireSante-724\"> </a></td><td>Lot et Garonne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">725<a name=\"TRE-R88-TerritoireSante-725\"> </a></td><td>Navarre Côte Basque</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">726<a name=\"TRE-R88-TerritoireSante-726\"> </a></td><td>Béarn et Soule</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">727<a name=\"TRE-R88-TerritoireSante-727\"> </a></td><td>Pyrénées Atlantiques</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">731<a name=\"TRE-R88-TerritoireSante-731\"> </a></td><td>Ariège</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">732<a name=\"TRE-R88-TerritoireSante-732\"> </a></td><td>Aveyron</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">733<a name=\"TRE-R88-TerritoireSante-733\"> </a></td><td>Hte Garonne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">734<a name=\"TRE-R88-TerritoireSante-734\"> </a></td><td>Gers</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">735<a name=\"TRE-R88-TerritoireSante-735\"> </a></td><td>Lot</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">736<a name=\"TRE-R88-TerritoireSante-736\"> </a></td><td>Htes-Pyrénées</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">737<a name=\"TRE-R88-TerritoireSante-737\"> </a></td><td>Tarn</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">738<a name=\"TRE-R88-TerritoireSante-738\"> </a></td><td>Tarn et Garonne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">741<a name=\"TRE-R88-TerritoireSante-741\"> </a></td><td>Corrèze</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">742<a name=\"TRE-R88-TerritoireSante-742\"> </a></td><td>Creuse</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">743<a name=\"TRE-R88-TerritoireSante-743\"> </a></td><td>Haute Vienne</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">821<a name=\"TRE-R88-TerritoireSante-821\"> </a></td><td>TS01 - Centre</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">822<a name=\"TRE-R88-TerritoireSante-822\"> </a></td><td>TS02 - Est</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">823<a name=\"TRE-R88-TerritoireSante-823\"> </a></td><td>TS03 - Nord</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">824<a name=\"TRE-R88-TerritoireSante-824\"> </a></td><td>TS04 - Ouest</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">825<a name=\"TRE-R88-TerritoireSante-825\"> </a></td><td>TS05 - Sud</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">831<a name=\"TRE-R88-TerritoireSante-831\"> </a></td><td>Allier</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2021-06-25T12:00:00+01:00</td><td>2021-06-25T12:00:00+01:00</td><td>2021-06-25T12:00:00+01:00</td><td>deprecated</td></tr><tr><td style=\"white-space:nowrap\">832<a name=\"TRE-R88-TerritoireSante-832\"> </a></td><td>Cantal</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2021-06-25T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">833<a name=\"TRE-R88-TerritoireSante-833\"> </a></td><td>Haute-Loire</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">834<a name=\"TRE-R88-TerritoireSante-834\"> </a></td><td>Puy de Dôme</td><td>Déprécié</td><td>2018-03-30T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>deprecated</td></tr><tr><td style=\"white-space:nowrap\">835<a name=\"TRE-R88-TerritoireSante-835\"> </a></td><td>Ain</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">836<a name=\"TRE-R88-TerritoireSante-836\"> </a></td><td>Allier-Puy-de-Dôme</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">837<a name=\"TRE-R88-TerritoireSante-837\"> </a></td><td>Drôme-Ardèche</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">838<a name=\"TRE-R88-TerritoireSante-838\"> </a></td><td>Haute-Savoie</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">839<a name=\"TRE-R88-TerritoireSante-839\"> </a></td><td>Isère</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">840<a name=\"TRE-R88-TerritoireSante-840\"> </a></td><td>Loire</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">841<a name=\"TRE-R88-TerritoireSante-841\"> </a></td><td>Rhône</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">842<a name=\"TRE-R88-TerritoireSante-842\"> </a></td><td>Savoie</td><td/><td>2019-02-22T12:00:00+01:00</td><td>2019-02-22T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">911<a name=\"TRE-R88-TerritoireSante-911\"> </a></td><td>Aude</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">912<a name=\"TRE-R88-TerritoireSante-912\"> </a></td><td>Gard</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">913<a name=\"TRE-R88-TerritoireSante-913\"> </a></td><td>Hérault</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">914<a name=\"TRE-R88-TerritoireSante-914\"> </a></td><td>Lozère</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">915<a name=\"TRE-R88-TerritoireSante-915\"> </a></td><td>Pyrénées Orientales</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">931<a name=\"TRE-R88-TerritoireSante-931\"> </a></td><td>Alpes de Haute Provence</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">932<a name=\"TRE-R88-TerritoireSante-932\"> </a></td><td>Alpes Maritimes</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">933<a name=\"TRE-R88-TerritoireSante-933\"> </a></td><td>Bouches du Rhône</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">934<a name=\"TRE-R88-TerritoireSante-934\"> </a></td><td>Hautes Alpes</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">935<a name=\"TRE-R88-TerritoireSante-935\"> </a></td><td>Var</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">936<a name=\"TRE-R88-TerritoireSante-936\"> </a></td><td>Vaucluse</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">941<a name=\"TRE-R88-TerritoireSante-941\"> </a></td><td>Corse Nord</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr><tr><td style=\"white-space:nowrap\">942<a name=\"TRE-R88-TerritoireSante-942\"> </a></td><td>Corse Sud</td><td/><td>2018-03-30T12:00:00+01:00</td><td>2018-03-30T12:00:00+01:00</td><td/><td/><td>active</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.104" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20231215120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TRE_R88_TerritoireSante"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Territoire de Santé (au sens ARS) en France"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sud Yonne Haut-Nivernais" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "002" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bourgogne méridionale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "011" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "012" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sud Basse-Terre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "013" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Iles du nord" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "021" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nord Caraïbe" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "022" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nord Atlantique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "023" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "024" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sud" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "031" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Guyane" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "041" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Ouest" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "042" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Nord-Est" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "043" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Sud" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "061" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mayotte" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Essonne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hauts-de-Seine" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paris" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Seine-et-Marne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Seine-Saint-Denis" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Val-de-Marne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Val-d'Oise" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Yvelines" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nord (51-08)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sud (52-10)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oise Est" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oise Ouest" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aisne Nord Haute Somme" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Somme" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aisne Sud" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "231" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rouen-Elbeuf" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "232" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dieppe" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "233" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Le Havre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "234" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Evreux-Vernon" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "241" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Cher (18)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "242" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Eure et Loir (28)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "243" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Indre (36)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "244" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "territoire Indre et Loire (37)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "245" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Loir et Cher (41)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "246" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire Loiret (45)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "251" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Calvados" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "252" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Manche" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "253" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "261" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Côte d'Or" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "262" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nièvre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "263" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Saône et Loire Bresse-Morvan" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "264" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nord Yonne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "311" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Artois" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "312" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hainaut" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "313" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Littoral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "314" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Métropole" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "321" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aisne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "322" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Métropole Flandre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "323" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hainaut" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "324" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oise" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "325" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pas de Calais" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "326" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Somme" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-10-26T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "411" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Meuse" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "412" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Meurthe-et-Moselle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "413" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Moselle" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "414" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vosges" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "421" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haguenau" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "422" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Strasbourg" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "423" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Colmar" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "424" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mulhouse" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "431" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centre Franche-Comté" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "432" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jura" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "433" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haute-Saône" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "434" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nord Franche-Comté" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "521" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire 1 Loire-Atlantique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "522" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire 2 Maine et Loire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "523" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire 3 Mayenne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "524" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire 4 Sarthe" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "525" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Territoire 5 Vendée" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "531" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Brest/Carhaix/Morlaix" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "532" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Quimper/Douarnenez/Pont l'Abbé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "533" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lorient/Quimperlé" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "534" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vannes/Ploërmel/Malestroit" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "535" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rennes/Fougères/Vitré/Redon" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "536" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Saint-Malo/Dinan" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "537" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Saint-Brieuc/Guingamp/Lannion" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "538" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pontivy/Loudéac" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "541" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Charente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 82 ;
+     fhir:CodeSystem.concept.code [ fhir:value "543" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Charente Maritime" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 83 ;
+     fhir:CodeSystem.concept.code [ fhir:value "544" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Deux-Sèvres" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 84 ;
+     fhir:CodeSystem.concept.code [ fhir:value "545" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vienne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 85 ;
+     fhir:CodeSystem.concept.code [ fhir:value "721" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dordogne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 86 ;
+     fhir:CodeSystem.concept.code [ fhir:value "722" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gironde" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 87 ;
+     fhir:CodeSystem.concept.code [ fhir:value "723" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Landes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 88 ;
+     fhir:CodeSystem.concept.code [ fhir:value "724" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lot et Garonne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 89 ;
+     fhir:CodeSystem.concept.code [ fhir:value "725" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Navarre Côte Basque" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 90 ;
+     fhir:CodeSystem.concept.code [ fhir:value "726" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Béarn et Soule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 91 ;
+     fhir:CodeSystem.concept.code [ fhir:value "727" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pyrénées Atlantiques" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 92 ;
+     fhir:CodeSystem.concept.code [ fhir:value "731" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ariège" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 93 ;
+     fhir:CodeSystem.concept.code [ fhir:value "732" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aveyron" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 94 ;
+     fhir:CodeSystem.concept.code [ fhir:value "733" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hte Garonne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 95 ;
+     fhir:CodeSystem.concept.code [ fhir:value "734" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gers" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 96 ;
+     fhir:CodeSystem.concept.code [ fhir:value "735" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lot" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 97 ;
+     fhir:CodeSystem.concept.code [ fhir:value "736" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Htes-Pyrénées" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 98 ;
+     fhir:CodeSystem.concept.code [ fhir:value "737" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tarn" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 99 ;
+     fhir:CodeSystem.concept.code [ fhir:value "738" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tarn et Garonne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 100 ;
+     fhir:CodeSystem.concept.code [ fhir:value "741" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Corrèze" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 101 ;
+     fhir:CodeSystem.concept.code [ fhir:value "742" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Creuse" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 102 ;
+     fhir:CodeSystem.concept.code [ fhir:value "743" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haute Vienne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 103 ;
+     fhir:CodeSystem.concept.code [ fhir:value "821" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TS01 - Centre" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 104 ;
+     fhir:CodeSystem.concept.code [ fhir:value "822" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TS02 - Est" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 105 ;
+     fhir:CodeSystem.concept.code [ fhir:value "823" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TS03 - Nord" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 106 ;
+     fhir:CodeSystem.concept.code [ fhir:value "824" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TS04 - Ouest" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 107 ;
+     fhir:CodeSystem.concept.code [ fhir:value "825" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TS05 - Sud" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 108 ;
+     fhir:CodeSystem.concept.code [ fhir:value "831" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Allier" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2021-06-25T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2021-06-25T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2021-06-25T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 109 ;
+     fhir:CodeSystem.concept.code [ fhir:value "832" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cantal" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2021-06-25T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 110 ;
+     fhir:CodeSystem.concept.code [ fhir:value "833" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haute-Loire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 111 ;
+     fhir:CodeSystem.concept.code [ fhir:value "834" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Puy de Dôme" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateFin" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+     ]
+  ], [
+     fhir:index 112 ;
+     fhir:CodeSystem.concept.code [ fhir:value "835" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ain" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 113 ;
+     fhir:CodeSystem.concept.code [ fhir:value "836" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Allier-Puy-de-Dôme" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 114 ;
+     fhir:CodeSystem.concept.code [ fhir:value "837" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Drôme-Ardèche" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 115 ;
+     fhir:CodeSystem.concept.code [ fhir:value "838" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Haute-Savoie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 116 ;
+     fhir:CodeSystem.concept.code [ fhir:value "839" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Isère" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 117 ;
+     fhir:CodeSystem.concept.code [ fhir:value "840" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Loire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 118 ;
+     fhir:CodeSystem.concept.code [ fhir:value "841" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rhône" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 119 ;
+     fhir:CodeSystem.concept.code [ fhir:value "842" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Savoie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 120 ;
+     fhir:CodeSystem.concept.code [ fhir:value "911" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aude" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 121 ;
+     fhir:CodeSystem.concept.code [ fhir:value "912" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gard" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 122 ;
+     fhir:CodeSystem.concept.code [ fhir:value "913" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hérault" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 123 ;
+     fhir:CodeSystem.concept.code [ fhir:value "914" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lozère" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 124 ;
+     fhir:CodeSystem.concept.code [ fhir:value "915" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pyrénées Orientales" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 125 ;
+     fhir:CodeSystem.concept.code [ fhir:value "931" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alpes de Haute Provence" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 126 ;
+     fhir:CodeSystem.concept.code [ fhir:value "932" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alpes Maritimes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 127 ;
+     fhir:CodeSystem.concept.code [ fhir:value "933" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bouches du Rhône" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 128 ;
+     fhir:CodeSystem.concept.code [ fhir:value "934" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hautes Alpes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 129 ;
+     fhir:CodeSystem.concept.code [ fhir:value "935" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Var" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 130 ;
+     fhir:CodeSystem.concept.code [ fhir:value "936" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaucluse" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 131 ;
+     fhir:CodeSystem.concept.code [ fhir:value "941" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Corse Nord" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 132 ;
+     fhir:CodeSystem.concept.code [ fhir:value "942" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Corse Sud" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2018-03-30T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R88-TerritoireSante.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,2503 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R36-AutreDiplomeObtenu> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TRE-R36-AutreDiplomeObtenu"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "6" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:13:53.196+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R36-AutreDiplomeObtenu</b></p><a name=\"TRE-R36-AutreDiplomeObtenu\"> </a><a name=\"hcTRE-R36-AutreDiplomeObtenu\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 6; Dernière mise à jour : 2026-07-06 20:13:53+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">AUT001<a name=\"TRE-R36-AutreDiplomeObtenu-AUT001\"> </a></td><td>Diplôme Université Kabul (Afghanistan)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Kabul (Afghanistan)</td></tr><tr><td style=\"white-space:nowrap\">AUT002<a name=\"TRE-R36-AutreDiplomeObtenu-AUT002\"> </a></td><td>Faculté de Médecine de Annaba (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Fac Médecine Annaba (Algérie)</td></tr><tr><td style=\"white-space:nowrap\">AUT003<a name=\"TRE-R36-AutreDiplomeObtenu-AUT003\"> </a></td><td>Diplôme Université Alger (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td>Dip Univ Alger (Algérie)</td></tr><tr><td style=\"white-space:nowrap\">AUT004<a name=\"TRE-R36-AutreDiplomeObtenu-AUT004\"> </a></td><td>Diplôme Université Constantine (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Constantine (Algérie)</td></tr><tr><td style=\"white-space:nowrap\">AUT005<a name=\"TRE-R36-AutreDiplomeObtenu-AUT005\"> </a></td><td>Diplôme Université Oran (Algérie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Oran (Algérie)</td></tr><tr><td style=\"white-space:nowrap\">AUT006<a name=\"TRE-R36-AutreDiplomeObtenu-AUT006\"> </a></td><td>Diplôme Université Buenos Aires (Argentine)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Buenos Aires</td></tr><tr><td style=\"white-space:nowrap\">AUT007<a name=\"TRE-R36-AutreDiplomeObtenu-AUT007\"> </a></td><td>Diplôme Université Australie</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Australie</td></tr><tr><td style=\"white-space:nowrap\">AUT008<a name=\"TRE-R36-AutreDiplomeObtenu-AUT008\"> </a></td><td>Diplôme Université Santa-Catarina (Brésil)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Sta-Catarina (Brésil)</td></tr><tr><td style=\"white-space:nowrap\">AUT009<a name=\"TRE-R36-AutreDiplomeObtenu-AUT009\"> </a></td><td>Diplôme Université de Médecine de Sofia</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ de Médecine de Sofia</td></tr><tr><td style=\"white-space:nowrap\">AUT010<a name=\"TRE-R36-AutreDiplomeObtenu-AUT010\"> </a></td><td>Diplôme Université Santiago (Chili)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Santiago (Chili)</td></tr><tr><td style=\"white-space:nowrap\">AUT011<a name=\"TRE-R36-AutreDiplomeObtenu-AUT011\"> </a></td><td>Diplôme Université Congo</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Congo</td></tr><tr><td style=\"white-space:nowrap\">AUT012<a name=\"TRE-R36-AutreDiplomeObtenu-AUT012\"> </a></td><td>Diplôme Université Danemark</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Danemark</td></tr><tr><td style=\"white-space:nowrap\">AUT013<a name=\"TRE-R36-AutreDiplomeObtenu-AUT013\"> </a></td><td>Diplôme Université Alexandrie (Egypte)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Alexandrie (Egypte)</td></tr><tr><td style=\"white-space:nowrap\">AUT014<a name=\"TRE-R36-AutreDiplomeObtenu-AUT014\"> </a></td><td>Diplôme Université Le Caire (Egypte)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Le Caire (Egypte)</td></tr><tr><td style=\"white-space:nowrap\">AUT015<a name=\"TRE-R36-AutreDiplomeObtenu-AUT015\"> </a></td><td>Diplôme Université Athènes (Grèce)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td>Dip Univ Athènes (Grèce)</td></tr><tr><td style=\"white-space:nowrap\">AUT016<a name=\"TRE-R36-AutreDiplomeObtenu-AUT016\"> </a></td><td>Diplôme Université San Carlos (Guatemala)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ SanCarlos (Guatemala)</td></tr><tr><td style=\"white-space:nowrap\">AUT017<a name=\"TRE-R36-AutreDiplomeObtenu-AUT017\"> </a></td><td>Diplôme Université Conakry (Guinée)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Conakry (Guinée)</td></tr><tr><td style=\"white-space:nowrap\">AUT018<a name=\"TRE-R36-AutreDiplomeObtenu-AUT018\"> </a></td><td>Diplôme Université Téhéran (Iran)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Téhéran (Iran)</td></tr><tr><td style=\"white-space:nowrap\">AUT019<a name=\"TRE-R36-AutreDiplomeObtenu-AUT019\"> </a></td><td>Faculté de Pharmacie Université Saint-Joseph Beyrouth</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Fac Pharm St-Joseph Beyrouth</td></tr><tr><td style=\"white-space:nowrap\">AUT020<a name=\"TRE-R36-AutreDiplomeObtenu-AUT020\"> </a></td><td>Diplôme Université Bamako (Mali)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Bamako (Mali)</td></tr><tr><td style=\"white-space:nowrap\">AUT021<a name=\"TRE-R36-AutreDiplomeObtenu-AUT021\"> </a></td><td>Diplôme Université Bucarest</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Bucarest</td></tr><tr><td style=\"white-space:nowrap\">AUT022<a name=\"TRE-R36-AutreDiplomeObtenu-AUT022\"> </a></td><td>Diplôme Université Cluj-Napoca (Roumanie)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Cluj-Napoca, Roumanie</td></tr><tr><td style=\"white-space:nowrap\">AUT023<a name=\"TRE-R36-AutreDiplomeObtenu-AUT023\"> </a></td><td>Diplôme Université Roumanie</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Roumanie</td></tr><tr><td style=\"white-space:nowrap\">AUT024<a name=\"TRE-R36-AutreDiplomeObtenu-AUT024\"> </a></td><td>Diplôme Université Kharkov (Russie)</td><td>2008-04-02T12:05:38+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td>Dip Univ Kharkov (Russie)</td></tr><tr><td style=\"white-space:nowrap\">AUT025<a name=\"TRE-R36-AutreDiplomeObtenu-AUT025\"> </a></td><td>Faculté de Médecine, Pharmacie de Dakar</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Fac Médecine, Pharmacie, Dakar</td></tr><tr><td style=\"white-space:nowrap\">AUT026<a name=\"TRE-R36-AutreDiplomeObtenu-AUT026\"> </a></td><td>Diplôme Université Damas (Syrie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Damas (Syrie)</td></tr><tr><td style=\"white-space:nowrap\">AUT027<a name=\"TRE-R36-AutreDiplomeObtenu-AUT027\"> </a></td><td>Diplôme Université Monastir (Tunisie)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Dip Univ Monastir (Tunisie)</td></tr><tr><td style=\"white-space:nowrap\">AUT028<a name=\"TRE-R36-AutreDiplomeObtenu-AUT028\"> </a></td><td>Faculté de Médecine Hanoï (Viêt Nam)</td><td>2008-04-02T12:05:38+01:00</td><td>2008-04-02T12:05:38+01:00</td><td>active</td><td>Fac Médecine Hanoï (Viêt Nam)</td></tr><tr><td style=\"white-space:nowrap\">AUT029<a name=\"TRE-R36-AutreDiplomeObtenu-AUT029\"> </a></td><td>Diplôme Université Saigon (Viêt Nam)</td><td>2008-04-02T12:05:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Saigon (Viêt Nam)</td></tr><tr><td style=\"white-space:nowrap\">AUT030<a name=\"TRE-R36-AutreDiplomeObtenu-AUT030\"> </a></td><td>Diplôme Faculté Médecine, Pharmacie Rabat (Maroc)</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Fac Méd, Pharm Rabat</td></tr><tr><td style=\"white-space:nowrap\">AUT031<a name=\"TRE-R36-AutreDiplomeObtenu-AUT031\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Médecin</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip éq pays hors EEE Médecin</td></tr><tr><td style=\"white-space:nowrap\">AUT032<a name=\"TRE-R36-AutreDiplomeObtenu-AUT032\"> </a></td><td>Diplôme éq de Pharmacie d'un pays hors EEE</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip éq Pharmacie pays hors EEE</td></tr><tr><td style=\"white-space:nowrap\">AUT033<a name=\"TRE-R36-AutreDiplomeObtenu-AUT033\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip éq pays hors EEE Chir-Dent</td></tr><tr><td style=\"white-space:nowrap\">AUT034<a name=\"TRE-R36-AutreDiplomeObtenu-AUT034\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Sage-Femme</td><td>2008-12-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip éq pays hors EEE Sage-Fem</td></tr><tr><td style=\"white-space:nowrap\">AUT035<a name=\"TRE-R36-AutreDiplomeObtenu-AUT035\"> </a></td><td>Diplôme Université d'Etat Méd Pharm Erevan (Arménie)</td><td>2008-12-15T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Etat Méd, Phar Erevan</td></tr><tr><td style=\"white-space:nowrap\">AUT036<a name=\"TRE-R36-AutreDiplomeObtenu-AUT036\"> </a></td><td>Diplôme Université Tichrine (Syrie)</td><td>2009-09-07T00:00:00+01:00</td><td>2009-09-07T00:00:00+01:00</td><td>active</td><td>Dip Univ Tichrine (Syrie)</td></tr><tr><td style=\"white-space:nowrap\">AUT100<a name=\"TRE-R36-AutreDiplomeObtenu-AUT100\"> </a></td><td>Diplôme d'Etat français de docteur en Pharmacie</td><td>2008-12-19T09:01:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DE français docteur Pharmacie</td></tr><tr><td style=\"white-space:nowrap\">AUT101<a name=\"TRE-R36-AutreDiplomeObtenu-AUT101\"> </a></td><td>DEES Médecine générale</td><td>2009-01-30T16:33:56+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT102<a name=\"TRE-R36-AutreDiplomeObtenu-AUT102\"> </a></td><td>DEES Anesthésie réanimation</td><td>2009-01-30T16:34:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT103<a name=\"TRE-R36-AutreDiplomeObtenu-AUT103\"> </a></td><td>DEES Chirurgie générale</td><td>2009-01-30T16:34:06+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT104<a name=\"TRE-R36-AutreDiplomeObtenu-AUT104\"> </a></td><td>DEES Médecine physique et de réadaptation</td><td>2009-01-30T16:34:54+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Médecine physiq, réadapt</td></tr><tr><td style=\"white-space:nowrap\">AUT105<a name=\"TRE-R36-AutreDiplomeObtenu-AUT105\"> </a></td><td>DEES Radio-diagnostic et Imagerie médicale</td><td>2009-01-30T16:35:12+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Radio-diag, Imagerie méd</td></tr><tr><td style=\"white-space:nowrap\">AUT106<a name=\"TRE-R36-AutreDiplomeObtenu-AUT106\"> </a></td><td>DEES Rhumatologie</td><td>2009-01-30T16:35:15+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT107<a name=\"TRE-R36-AutreDiplomeObtenu-AUT107\"> </a></td><td>DEES Médecine du travail</td><td>2009-01-30T16:35:26+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT108<a name=\"TRE-R36-AutreDiplomeObtenu-AUT108\"> </a></td><td>DEES Neurologie</td><td>2009-01-30T16:35:41+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT109<a name=\"TRE-R36-AutreDiplomeObtenu-AUT109\"> </a></td><td>DEES Pédiatrie</td><td>2009-01-30T16:36:01+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT110<a name=\"TRE-R36-AutreDiplomeObtenu-AUT110\"> </a></td><td>DEES Neuro-chirurgie</td><td>2009-01-30T16:36:09+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT111<a name=\"TRE-R36-AutreDiplomeObtenu-AUT111\"> </a></td><td>DEES Psychiatrie</td><td>2009-01-30T16:36:25+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT112<a name=\"TRE-R36-AutreDiplomeObtenu-AUT112\"> </a></td><td>DEES Médecine générale nouveau régime</td><td>2009-01-30T16:36:38+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td>DEES MG nouveau régime</td></tr><tr><td style=\"white-space:nowrap\">AUT113<a name=\"TRE-R36-AutreDiplomeObtenu-AUT113\"> </a></td><td>DEES Cardiologie et Maladies vasculaires</td><td>2009-01-30T16:36:55+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Cardiologie, Malad vascul</td></tr><tr><td style=\"white-space:nowrap\">AUT114<a name=\"TRE-R36-AutreDiplomeObtenu-AUT114\"> </a></td><td>DEES Ophtalmologie</td><td>2009-01-30T16:36:56+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT115<a name=\"TRE-R36-AutreDiplomeObtenu-AUT115\"> </a></td><td>DEES Biologie médicale</td><td>2009-01-30T16:37:16+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT116<a name=\"TRE-R36-AutreDiplomeObtenu-AUT116\"> </a></td><td>DEES Chirurgie orthopédique et traumatologique</td><td>2009-01-30T16:37:19+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir orthopédique, trauma</td></tr><tr><td style=\"white-space:nowrap\">AUT117<a name=\"TRE-R36-AutreDiplomeObtenu-AUT117\"> </a></td><td>DEES hématologie</td><td>2009-01-30T16:37:45+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT118<a name=\"TRE-R36-AutreDiplomeObtenu-AUT118\"> </a></td><td>DEES Gynécologie-obstétrique</td><td>2009-01-30T16:37:56+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT119<a name=\"TRE-R36-AutreDiplomeObtenu-AUT119\"> </a></td><td>DEES Chirurgie plastique, reconstructrice et esthétique</td><td>2009-01-30T16:38:45+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir plastiq recon esthét</td></tr><tr><td style=\"white-space:nowrap\">AUT120<a name=\"TRE-R36-AutreDiplomeObtenu-AUT120\"> </a></td><td>DEES Médecine interne</td><td>2009-01-30T16:39:18+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT121<a name=\"TRE-R36-AutreDiplomeObtenu-AUT121\"> </a></td><td>DEES Chirurgie urologique</td><td>2009-01-30T16:40:54+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir urologique</td></tr><tr><td style=\"white-space:nowrap\">AUT122<a name=\"TRE-R36-AutreDiplomeObtenu-AUT122\"> </a></td><td>DEES Pathologie cardio-vasculaire</td><td>2009-01-30T16:42:17+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Pathologie cardio-vascul</td></tr><tr><td style=\"white-space:nowrap\">AUT123<a name=\"TRE-R36-AutreDiplomeObtenu-AUT123\"> </a></td><td>DEES Radio-thérapie</td><td>2009-01-30T16:43:08+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT124<a name=\"TRE-R36-AutreDiplomeObtenu-AUT124\"> </a></td><td>DEES Chirurgie vasculaire</td><td>2009-01-30T16:45:09+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT125<a name=\"TRE-R36-AutreDiplomeObtenu-AUT125\"> </a></td><td>DEES Dermato-vénéréologie</td><td>2009-01-30T16:45:13+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT126<a name=\"TRE-R36-AutreDiplomeObtenu-AUT126\"> </a></td><td>DEES Chirurgie orthopédique et traumatologique</td><td>2009-01-30T16:46:32+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir orthopédique, trauma</td></tr><tr><td style=\"white-space:nowrap\">AUT127<a name=\"TRE-R36-AutreDiplomeObtenu-AUT127\"> </a></td><td>DEES Chirurgie vasculaire</td><td>2009-01-30T16:47:49+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT128<a name=\"TRE-R36-AutreDiplomeObtenu-AUT128\"> </a></td><td>DEES Pneumologie</td><td>2009-01-30T16:48:23+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT129<a name=\"TRE-R36-AutreDiplomeObtenu-AUT129\"> </a></td><td>DEES Anatomie et Cytologie pathologiques</td><td>2009-01-30T16:48:55+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Anatomie, Cytologie patho</td></tr><tr><td style=\"white-space:nowrap\">AUT130<a name=\"TRE-R36-AutreDiplomeObtenu-AUT130\"> </a></td><td>DEES Chirurgie thoracique et cardio-vasculaire</td><td>2009-01-30T16:49:50+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir thoraciq cardio-vasc</td></tr><tr><td style=\"white-space:nowrap\">AUT131<a name=\"TRE-R36-AutreDiplomeObtenu-AUT131\"> </a></td><td>DEES Psychiatrie infantile</td><td>2009-01-30T16:50:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT132<a name=\"TRE-R36-AutreDiplomeObtenu-AUT132\"> </a></td><td>DEES ORL et Chirurgie cervico-faciale</td><td>2009-01-30T16:53:05+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES ORL, Chir cervico-fac</td></tr><tr><td style=\"white-space:nowrap\">AUT133<a name=\"TRE-R36-AutreDiplomeObtenu-AUT133\"> </a></td><td>DEES ORL</td><td>2009-01-30T16:53:54+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT134<a name=\"TRE-R36-AutreDiplomeObtenu-AUT134\"> </a></td><td>DEES Chirurgie thoracique et cardio-vasculaire</td><td>2009-01-30T16:55:03+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>DEES Chir thoraciq cardio-vasc</td></tr><tr><td style=\"white-space:nowrap\">AUT135<a name=\"TRE-R36-AutreDiplomeObtenu-AUT135\"> </a></td><td>DEES Génétique médicale</td><td>2009-01-30T17:34:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT136<a name=\"TRE-R36-AutreDiplomeObtenu-AUT136\"> </a></td><td>DEES Néphrologie</td><td>2009-01-30T16:32:23+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT140<a name=\"TRE-R36-AutreDiplomeObtenu-AUT140\"> </a></td><td>Dip d'un pays hors EEE profession Médecin</td><td>2009-02-23T11:19:55+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip pays hors EEE Médecin</td></tr><tr><td style=\"white-space:nowrap\">AUT141<a name=\"TRE-R36-AutreDiplomeObtenu-AUT141\"> </a></td><td>Diplôme équivalent d'un pays hors EEE profession Médecin</td><td>2009-06-26T11:57:32+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip éq pays hors EEE Médecin</td></tr><tr><td style=\"white-space:nowrap\">AUT142<a name=\"TRE-R36-AutreDiplomeObtenu-AUT142\"> </a></td><td>Dip Université Montréal (Canada)</td><td>2009-12-30T09:12:39+01:00</td><td>2009-12-30T09:12:39+01:00</td><td>active</td><td>Dip Univ Montréal (Canada)</td></tr><tr><td style=\"white-space:nowrap\">AUT143<a name=\"TRE-R36-AutreDiplomeObtenu-AUT143\"> </a></td><td>Dip Faculté Pharm Univ Cocody (Côte d'Ivoire)</td><td>2010-04-21T09:21:07+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Fac Pharm Univ Cocody</td></tr><tr><td style=\"white-space:nowrap\">AUT144<a name=\"TRE-R36-AutreDiplomeObtenu-AUT144\"> </a></td><td>Dip Université Beyrouth</td><td>2011-04-14T09:01:37+01:00</td><td>2011-04-14T09:01:37+01:00</td><td>active</td><td>Dip Univ Beyrouth</td></tr><tr><td style=\"white-space:nowrap\">AUT145<a name=\"TRE-R36-AutreDiplomeObtenu-AUT145\"> </a></td><td>Dip Faculté Pharm Univ Lattaquié (Syrie)</td><td>2012-02-28T16:28:14+01:00</td><td>2015-12-29T00:00:00+01:00</td><td>active</td><td>Dip Fac Pharm Univ Lattaquié</td></tr><tr><td style=\"white-space:nowrap\">AUT154<a name=\"TRE-R36-AutreDiplomeObtenu-AUT154\"> </a></td><td>Dip Université Saint-Joseph Beyrouth</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td><td>active</td><td>Dip Univ Saint-Joseph Beyrouth</td></tr><tr><td style=\"white-space:nowrap\">AUT159<a name=\"TRE-R36-AutreDiplomeObtenu-AUT159\"> </a></td><td>Dip Faculté Pharm Univ Alep (Syrie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Fac Pharm Alep (Syrie)</td></tr><tr><td style=\"white-space:nowrap\">AUT164<a name=\"TRE-R36-AutreDiplomeObtenu-AUT164\"> </a></td><td>Dip Faculté Pharm Univ Koursk (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Fac Pharm Koursk (Russie)</td></tr><tr><td style=\"white-space:nowrap\">AUT169<a name=\"TRE-R36-AutreDiplomeObtenu-AUT169\"> </a></td><td>Dip Université Mogi das Cruzes (Brésil)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Mogi Cruzes (Brésil)</td></tr><tr><td style=\"white-space:nowrap\">AUT174<a name=\"TRE-R36-AutreDiplomeObtenu-AUT174\"> </a></td><td>Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Fac Méd Univ Pharm, Tirana</td></tr><tr><td style=\"white-space:nowrap\">AUT179<a name=\"TRE-R36-AutreDiplomeObtenu-AUT179\"> </a></td><td>Dip Université Al Baath (Homs,Syrie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Al Baath (Homs,Syrie)</td></tr><tr><td style=\"white-space:nowrap\">AUT184<a name=\"TRE-R36-AutreDiplomeObtenu-AUT184\"> </a></td><td>Dip Université de Saint-Petersbourg (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Saint-Petersbourg</td></tr><tr><td style=\"white-space:nowrap\">AUT189<a name=\"TRE-R36-AutreDiplomeObtenu-AUT189\"> </a></td><td>Dip Université Lima (Pérou)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td><td>active</td><td>Dip Univ Lima (Pérou)</td></tr><tr><td style=\"white-space:nowrap\">AUT194<a name=\"TRE-R36-AutreDiplomeObtenu-AUT194\"> </a></td><td>Dip Université Cordoba (Argentine)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Cordoba (Argentine)</td></tr><tr><td style=\"white-space:nowrap\">AUT199<a name=\"TRE-R36-AutreDiplomeObtenu-AUT199\"> </a></td><td>Nomenclature interne</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">AUT204<a name=\"TRE-R36-AutreDiplomeObtenu-AUT204\"> </a></td><td>Dip Université Chisinau (Moldavie)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td><td>active</td><td>Dip Univ Chisinau (Moldavie)</td></tr><tr><td style=\"white-space:nowrap\">AUT209<a name=\"TRE-R36-AutreDiplomeObtenu-AUT209\"> </a></td><td>Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie)</td><td>2015-02-09T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Dip Univ Djil Liabès, SB Abbès</td></tr><tr><td style=\"white-space:nowrap\">AUT214<a name=\"TRE-R36-AutreDiplomeObtenu-AUT214\"> </a></td><td>Dip Université de Moscou (Russie)</td><td>2015-02-09T00:00:00+01:00</td><td>2015-02-09T00:00:00+01:00</td><td>active</td><td>Dip Univ de Moscou (Russie)</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.54" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20231215120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TRE_R36_AutreDiplomeObtenu"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Autre diplôme obtenu"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT001" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Kabul (Afghanistan)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Kabul (Afghanistan)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT002" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faculté de Médecine de Annaba (Algérie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Fac Médecine Annaba (Algérie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT003" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Alger (Algérie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Alger (Algérie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT004" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Constantine (Algérie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Constantine (Algérie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT005" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Oran (Algérie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Oran (Algérie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT006" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Buenos Aires (Argentine)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Buenos Aires" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT007" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Australie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Australie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT008" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Santa-Catarina (Brésil)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Sta-Catarina (Brésil)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT009" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université de Médecine de Sofia" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ de Médecine de Sofia" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT010" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Santiago (Chili)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Santiago (Chili)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT011" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Congo" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Congo" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT012" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Danemark" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Danemark" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT013" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Alexandrie (Egypte)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Alexandrie (Egypte)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT014" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Le Caire (Egypte)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Le Caire (Egypte)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT015" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Athènes (Grèce)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Athènes (Grèce)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT016" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université San Carlos (Guatemala)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ SanCarlos (Guatemala)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT017" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Conakry (Guinée)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Conakry (Guinée)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT018" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Téhéran (Iran)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Téhéran (Iran)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT019" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faculté de Pharmacie Université Saint-Joseph Beyrouth" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Fac Pharm St-Joseph Beyrouth" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT020" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Bamako (Mali)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Bamako (Mali)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT021" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Bucarest" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Bucarest" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT022" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Cluj-Napoca (Roumanie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Cluj-Napoca, Roumanie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT023" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Roumanie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Roumanie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT024" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Kharkov (Russie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Kharkov (Russie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT025" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faculté de Médecine, Pharmacie de Dakar" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Fac Médecine, Pharmacie, Dakar" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Faculté de Médecine, de Pharmacie de Dakar" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT026" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Damas (Syrie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Damas (Syrie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT027" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Monastir (Tunisie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Monastir (Tunisie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT028" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faculté de Médecine Hanoï (Viêt Nam)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Fac Médecine Hanoï (Viêt Nam)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT029" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Saigon (Viêt Nam)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Saigon (Viêt Nam)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-04-02T12:05:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT030" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Faculté Médecine, Pharmacie Rabat (Maroc)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Méd, Pharm Rabat" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Faculté Méd Pharm Rabat (Maroc)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT031" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme équivalent d'un pays hors EEE profession Médecin" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip éq pays hors EEE Médecin" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT032" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme éq de Pharmacie d'un pays hors EEE" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip éq Pharmacie pays hors EEE" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme équivalent de Pharmacie d'un pays hors EEE" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT033" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme équivalent d'un pays hors EEE profession Chirurgien-Dentiste" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip éq pays hors EEE Chir-Dent" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT034" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme équivalent d'un pays hors EEE profession Sage-Femme" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip éq pays hors EEE Sage-Fem" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT035" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université d'Etat Méd Pharm Erevan (Arménie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Etat Méd, Phar Erevan" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-15T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT036" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Université Tichrine (Syrie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Tichrine (Syrie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-09-07T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-09-07T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT100" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme d'Etat français de docteur en Pharmacie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DE français docteur Pharmacie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-12-19T09:01:44+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Médecine générale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:33:56+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Anesthésie réanimation" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:34:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie générale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:34:06+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Médecine physique et de réadaptation" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Médecine physiq, réadapt" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:34:54+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Radio-diagnostic et Imagerie médicale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Radio-diag, Imagerie méd" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:35:12+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Rhumatologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:35:15+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Médecine du travail" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:35:26+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Neurologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:35:41+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Pédiatrie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:01+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Neuro-chirurgie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:09+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Psychiatrie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:25+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Médecine générale nouveau régime" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES MG nouveau régime" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Cardiologie et Maladies vasculaires" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Cardiologie, Malad vascul" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:55+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Ophtalmologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:36:56+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Biologie médicale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:37:16+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie orthopédique et traumatologique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir orthopédique, trauma" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:37:19+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES hématologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:37:45+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Gynécologie-obstétrique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:37:56+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT119" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie plastique, reconstructrice et esthétique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir plastiq recon esthét" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:38:45+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT120" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Médecine interne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:39:18+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT121" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie urologique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir urologique" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:40:54+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Pathologie cardio-vasculaire" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Pathologie cardio-vascul" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:42:17+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT123" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Radio-thérapie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:43:08+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT124" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie vasculaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:45:09+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT125" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Dermato-vénéréologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:45:13+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT126" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie orthopédique et traumatologique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir orthopédique, trauma" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:46:32+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT127" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie vasculaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:47:49+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT128" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Pneumologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:48:23+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT129" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Anatomie et Cytologie pathologiques" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Anatomie, Cytologie patho" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:48:55+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT130" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir thoraciq cardio-vasc" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:49:50+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT131" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Psychiatrie infantile" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:50:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT132" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES ORL et Chirurgie cervico-faciale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES ORL, Chir cervico-fac" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:53:05+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT133" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES ORL" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:53:54+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT134" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Chirurgie thoracique et cardio-vasculaire" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "DEES Chir thoraciq cardio-vasc" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:55:03+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT135" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Génétique médicale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T17:34:38+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT136" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEES Néphrologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-01-30T16:32:23+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT140" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip d'un pays hors EEE profession Médecin" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip pays hors EEE Médecin" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme d'un pays hors EEE profession Médecin" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-02-23T11:19:55+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT141" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme équivalent d'un pays hors EEE profession Médecin" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip éq pays hors EEE Médecin" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-06-26T11:57:32+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT142" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Montréal (Canada)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Montréal (Canada)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Montréal (Canada)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-12-30T09:12:39+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2009-12-30T09:12:39+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT143" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Faculté Pharm Univ Cocody (Côte d'Ivoire)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Pharm Univ Cocody" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Faculté Pharm Univ Cocody (Côte d'Ivoire)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2010-04-21T09:21:07+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT144" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Beyrouth" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Beyrouth" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Beyrouth" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2011-04-14T09:01:37+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2011-04-14T09:01:37+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT145" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Faculté Pharm Univ Lattaquié (Syrie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Pharm Univ Lattaquié" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Faculté Pharm Univ Lattaquié (Syrie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2012-02-28T16:28:14+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-12-29T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT154" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Saint-Joseph Beyrouth" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Saint-Joseph Beyrouth" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Saint-Joseph Beyrouth" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT159" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Faculté Pharm Univ Alep (Syrie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Pharm Alep (Syrie)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Faculté Pharm Univ Alep (Syrie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT164" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Faculté Pharm Univ Koursk (Russie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Pharm Koursk (Russie)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Faculté Pharm Univ Koursk (Russie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 82 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT169" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Mogi das Cruzes (Brésil)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Mogi Cruzes (Brésil)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Mogi das Cruzes (Brésil)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 83 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT174" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Faculté Méd Univ Tirana Département Pharm (Albanie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Fac Méd Univ Pharm, Tirana" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 84 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT179" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Al Baath (Homs,Syrie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Al Baath (Homs,Syrie)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Al Baath (Homs,Syrie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 85 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT184" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université de Saint-Petersbourg (Russie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Saint-Petersbourg" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université de Saint-Petersbourg (Russie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 86 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT189" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Lima (Pérou)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Lima (Pérou)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Lima (Pérou)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 87 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT194" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Cordoba (Argentine)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Cordoba (Argentine)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Cordoba (Argentine)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 88 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT199" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nomenclature interne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 89 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université Chisinau (Moldavie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Chisinau (Moldavie)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université Chisinau (Moldavie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 90 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diplôme Univ Djillali Liabès, Sidi Bel Abbès (Algérie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ Djil Liabès, SB Abbès" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 91 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AUT214" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dip Université de Moscou (Russie)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dip Univ de Moscou (Russie)" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Diplôme Université de Moscou (Russie)" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-02-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R36-AutreDiplomeObtenu.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

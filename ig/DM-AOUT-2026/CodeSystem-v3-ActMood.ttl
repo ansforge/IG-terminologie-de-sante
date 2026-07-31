@@ -1,0 +1,690 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActMood> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-ActMood"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:50.192+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-ActMood</b></p><a name=\"v3-ActMood\"> </a><a name=\"hcv3-ActMood\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr><tr><td>Name:Class</td><td>Name:Class</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-Class</td><td>code</td><td>The formal name for the class clone under this code</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr><tr><td>HL7 Concept Usage Notes</td><td>HL7usageNotes</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes</td><td>string</td><td>HL7 Concept Usage Notes</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ActMood</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>Name:Class</b></td><td><b>Not Selectable</b></td><td><b>synonymCode</b></td><td><b>HL7 Concept Usage Notes</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_ActMoodCompletionTrack<a name=\"v3-ActMood-_ActMoodCompletionTrack\"> </a></td><td>ActMoodCompletionTrack</td><td><div><p>These are moods describing activities as they progress in the business cycle, from defined, through planned and ordered to completed.</p>\n</div></td><td/><td>20935</td><td>active</td><td/><td>Process</td><td>true</td><td/><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _ActMoodPotential<a name=\"v3-ActMood-_ActMoodPotential\"> </a></td><td>potential</td><td><div><p><strong>Definition:</strong> A possible act.</p>\n</div></td><td/><td>23087</td><td>active</td><td/><td>Potential</td><td>true</td><td/><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    DEF<a name=\"v3-ActMood-DEF\"> </a></td><td>definition</td><td><div><p><strong>Definition:</strong> A definition of a kind of act that can occur .</p>\n<p><strong>OpenIssue:</strong> The semantic constructs embodied in DEF and CRT moods seem indistinguishable, and their uses can readily be determined by the context in which these are used. Therefore, this OpenIssue has been created to declare that it is likely that ActMood.DEF will be \"retired\" in the future in favor of the more general ActMood.CRT.</p>\n</div></td><td/><td>10198</td><td>active</td><td/><td>Definition</td><td/><td/><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PERM<a name=\"v3-ActMood-PERM\"> </a></td><td>permission</td><td><div><p><strong>Definition:</strong> A kind of act that defines a permission that has been granted.</p>\n</div></td><td/><td>21381</td><td>active</td><td/><td>Permission</td><td/><td/><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SLOT<a name=\"v3-ActMood-SLOT\"> </a></td><td>resource slot</td><td><div><p><strong>Definition:</strong> A kind of act that may occur during the specified time period.</p>\n</div></td><td/><td>19168</td><td>active</td><td/><td>ResourceSlot</td><td/><td/><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EVN<a name=\"v3-ActMood-EVN\"> </a></td><td>event (occurrence)</td><td><div><p><strong>Definition:</strong> An act that actually happens (may be an ongoing act or a documentation of a past act).</p>\n</div></td><td/><td>10201</td><td>active</td><td/><td>Event</td><td/><td/><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  INT<a name=\"v3-ActMood-INT\"> </a></td><td>intent</td><td><div><p><strong>Definition:</strong> An intention or plan for an act.</p>\n<p><strong>&gt;UsageNotes:</strong> The final outcome of the intent, the act that is intended to occur, is always an event. However the final outcome may be reached indirectly via steps through other intents, such as promise, permission request, or an appointment that may lead to an actual event to occur. Alternatively, the intended act may never occur.</p>\n</div></td><td/><td>10199</td><td>active</td><td/><td>Intent</td><td/><td/><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    _ActMoodDesire<a name=\"v3-ActMood-_ActMoodDesire\"> </a></td><td>desire</td><td><div><p><strong>Definition:</strong> A desire to have an act occur.</p>\n</div></td><td/><td>23088</td><td>active</td><td/><td>Desire</td><td>true</td><td/><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      _ActMoodActRequest<a name=\"v3-ActMood-_ActMoodActRequest\"> </a></td><td>act request</td><td><div><p><strong>Definition:</strong> A request (or order) for an act that is part of a defined request/fulfillment cycle.</p>\n<p><strong>UsageNotes:</strong> Use of an HL7 defined request/fulfillment framework is not required to use this mood code.</p>\n</div></td><td/><td>23089</td><td>active</td><td/><td>ActRequest</td><td>true</td><td/><td>Use of an HL7 defined request/fulfillment framework is not required to use this mood code.</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ARQ<a name=\"v3-ActMood-ARQ\"> </a></td><td>appointment request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment <em>(the actual act may well not happen if that is the professional decision during the appointment)</em>.</p>\n</div></td><td/><td>11625</td><td>active</td><td/><td>AppointmentRequest</td><td/><td/><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        PERMRQ<a name=\"v3-ActMood-PERMRQ\"> </a></td><td>permission request</td><td><div><p><strong>Definition:</strong> A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission.</p>\n</div></td><td/><td>21382</td><td>active</td><td/><td>PermissionRequest</td><td/><td/><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        RQO<a name=\"v3-ActMood-RQO\"> </a></td><td>request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for an event request/fulfillment cycle.</p>\n<p><strong>UsageNotes:</strong> The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.</p>\n<p><strong>UsageNotes:</strong> The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is \"request.\"</p>\n<p>Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.</p>\n<p>The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</p>\n</div></td><td/><td>19973</td><td>active</td><td/><td>Request</td><td/><td>ORD</td><td>The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is \"request.\" Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</td></tr><tr style=\"background-color: #ffeeee\"><td>5</td><td style=\"white-space:nowrap\">        ORD<a name=\"v3-ActMood-ORD\"> </a></td><td>request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for an event request/fulfillment cycle.</p>\n<p><strong>UsageNotes:</strong> The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.</p>\n<p><strong>UsageNotes:</strong> The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is \"request.\"</p>\n<p>Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.</p>\n<p>The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</p>\n</div></td><td/><td>19973</td><td>retired</td><td/><td>Request</td><td/><td>RQO</td><td>The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is \"request.\" Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      PRP<a name=\"v3-ActMood-PRP\"> </a></td><td>proposal</td><td><div><p><strong>Definition:</strong> A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present.</p>\n</div></td><td/><td>16726</td><td>active</td><td/><td>Proposal</td><td/><td/><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        RMD<a name=\"v3-ActMood-RMD\"> </a></td><td>recommendation</td><td><div><p><strong>Definition:</strong> A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .</p>\n<p><strong>UsageNotes:</strong> Where there is no clear definition or applicable concept of \"professional responsibility\", RMD becomes indistinguishable from PRP. .</p>\n</div></td><td/><td>21571</td><td>active</td><td/><td>Recommendation</td><td/><td/><td>Where there is no clear definition or applicable concept of \"professional responsibility\", RMD becomes indistinguishable from PRP. .</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PRMS<a name=\"v3-ActMood-PRMS\"> </a></td><td>promise</td><td><div><p><strong>Definition:</strong> A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.</p>\n<p><strong>UsageNotes:</strong> Commitments may be retracted or cancelled.</p>\n</div></td><td/><td>16728</td><td>active</td><td/><td>Promise</td><td/><td/><td>Commitments may be retracted or cancelled.</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      APT<a name=\"v3-ActMood-APT\"> </a></td><td>appointment</td><td><div><p><strong>Definition:</strong> An act that has been scheduled to be performed at a specific place and time.</p>\n</div></td><td/><td>11626</td><td>active</td><td/><td>Appointment</td><td/><td/><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">_ActMoodPredicate<a name=\"v3-ActMood-_ActMoodPredicate\"> </a></td><td>ActMoodPredicate</td><td><div><p><strong>Definition:</strong> An act that expresses condition statements for other acts.</p>\n</div></td><td/><td>20936</td><td>active</td><td/><td>Predicate</td><td>true</td><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  CRT<a name=\"v3-ActMood-CRT\"> </a></td><td>criterion</td><td><div><p><em><strong>Deprecation Comment:</strong></em> This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to \"true\" and use the desired mood for your criterion.</p>\n<p><strong>Definition:</strong> A condition that must be true for the source act to be considered.</p>\n</div></td><td>Déprécié</td><td>22042</td><td>deprecated</td><td>2010-07-12</td><td>Criterion</td><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>3</td><td style=\"white-space:nowrap\">    EVN.CRT<a name=\"v3-ActMood-EVN.46CRT\"> </a></td><td>event criterion</td><td><div><p><em><strong>Deprecation Comment:</strong></em> This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to \"true\" and use the desired mood for your criterion.</p>\n<p><strong>Definition:</strong> A criterion (CRT) that has_match = an event (EVN).</p>\n</div></td><td>Déprécié</td><td>10203</td><td>deprecated</td><td>2010-07-12</td><td>EventCriterion</td><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>3</td><td style=\"white-space:nowrap\">    GOL.CRT<a name=\"v3-ActMood-GOL.46CRT\"> </a></td><td>goal criterion</td><td><div><p>A criterion expressed over goals (ActMood.GOL).</p>\n</div></td><td/><td>23057</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>3</td><td style=\"white-space:nowrap\">    INT.CRT<a name=\"v3-ActMood-INT.46CRT\"> </a></td><td>intent criterion</td><td><div><p>A criterion expressed over intents (ActMood.INT).</p>\n</div></td><td/><td>23054</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>4</td><td style=\"white-space:nowrap\">      PRMS.CRT<a name=\"v3-ActMood-PRMS.46CRT\"> </a></td><td>promise criterion</td><td><div><p>A criterion expressed over promises (ActMood.PRMS).</p>\n</div></td><td/><td>23056</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>4</td><td style=\"white-space:nowrap\">      RQO.CRT<a name=\"v3-ActMood-RQO.46CRT\"> </a></td><td>request criterion</td><td><div><p>A criterion expressed over requests or orders (ActMood.RQO).</p>\n</div></td><td/><td>23055</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style=\"background-color: #ffeeee\"><td>3</td><td style=\"white-space:nowrap\">    RSK.CRT<a name=\"v3-ActMood-RSK.46CRT\"> </a></td><td>risk criterion</td><td><div><p>A criterion expressed over risks (ActMood.RSK).</p>\n</div></td><td/><td>23058</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EXPEC<a name=\"v3-ActMood-EXPEC\"> </a></td><td>expectation</td><td><div><p><strong>Definition:</strong> An act that is considered to have some noteworthy likelihood of occurring in the future (has_match = event).</p>\n<p>**Examples:**Prognosis of a condition, Expected date of discharge from hospital, patient will likely need an emergency decompression of the intracranial pressure by morning.</p>\n<p>**UsageNotes:**INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen.</p>\n</div></td><td/><td>21574</td><td>active</td><td/><td>Expectation</td><td/><td/><td>INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen.</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GOL<a name=\"v3-ActMood-GOL\"> </a></td><td>Goal</td><td><div><p><strong>Definition:</strong> An expectation that is considered to be desirable to occur in the future</p>\n<p>**Examples:**Target weight below 80Kg, Stop smoking, Regain ability to walk, goal is to administer thrombolytics to candidate patients presenting with acute myocardial infarction.</p>\n<p><strong>UsageNotes:</strong> INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result. A goal is distinct from the intended actions to reach that goal. \"I will reduce the dose of drug x to 20mg\" is an intent. \"I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg\" is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope.</p>\n</div></td><td/><td>18864</td><td>active</td><td/><td>Goal</td><td/><td/><td>INT (intent) reflects a plan for the future, which is a declaration to do something.  This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result.  A goal is distinct from the intended actions to reach that goal.  \"I will reduce the dose of drug x to 20mg\" is an intent.  \"I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg\" is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope.</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    RSK<a name=\"v3-ActMood-RSK\"> </a></td><td>risk</td><td><div><p>**Definition:**An act that may occur in the future and which is regarded as undesirable</p>\n<p>**Examples:**Increased risk of DVT, at risk for sub-acute bacterial endocarditis.</p>\n<p>**UsageNotes:**Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen.</p>\n</div></td><td/><td>21575</td><td>active</td><td/><td>Risk</td><td/><td/><td>Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  OPT<a name=\"v3-ActMood-OPT\"> </a></td><td>option</td><td><div><p><strong>Definition:</strong> One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN.</p>\n</div></td><td/><td>10204</td><td>active</td><td/><td>Option</td><td/><td/><td/></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActMood"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.1001" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ActMood"] ;
+  fhir:CodeSystem.title [ fhir:value "ActMood"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-05-30"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found \"Persuasive With Mod\", with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "Name:Class" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-Class" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The formal name for the class clone under this code" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "notSelectable" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#notSelectable" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "synonymCode" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#synonym" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "An additional concept code that was also attributed to a concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "HL7usageNotes" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "HL7 Concept Usage Notes" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ActMoodCompletionTrack" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ActMoodCompletionTrack" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "These are moods describing activities as they progress in the business cycle, from defined, through planned and ordered to completed." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "20935" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "Process" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "_ActMoodPotential" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "potential" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A possible act." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+         fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "23087" ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Potential" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "DEF" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "definition" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A definition of a kind of act that can occur .\r\n\r\n**OpenIssue:** The semantic constructs embodied in DEF and CRT moods seem indistinguishable, and their uses can readily be determined by the context in which these are used. Therefore, this OpenIssue has been created to declare that it is likely that ActMood.DEF will be \"retired\" in the future in favor of the more general ActMood.CRT." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "10198" ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Definition" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PERM" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "permission" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A kind of act that defines a permission that has been granted." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "21381" ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Permission" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "SLOT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "resource slot" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A kind of act that may occur during the specified time period." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "19168" ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "ResourceSlot" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EVN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "event (occurrence)" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An act that actually happens (may be an ongoing act or a documentation of a past act)." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10201" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Event" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "INT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "intent" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An intention or plan for an act.\r\n\r\n**>UsageNotes:** The final outcome of the intent, the act that is intended to occur, is always an event. However the final outcome may be reached indirectly via steps through other intents, such as promise, permission request, or an appointment that may lead to an actual event to occur. Alternatively, the intended act may never occur." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10199" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Intent" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "_ActMoodDesire" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "desire" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A desire to have an act occur." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+           fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "23088" ]
+         ], [
+           fhir:index 3 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Desire" ]
+         ] ;
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.code [ fhir:value "_ActMoodActRequest" ] ;
+           fhir:CodeSystem.concept.display [ fhir:value "act request" ] ;
+           fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A request (or order) for an act that is part of a defined request/fulfillment cycle.\r\n\r\n**UsageNotes:** Use of an HL7 defined request/fulfillment framework is not required to use this mood code." ] ;
+           fhir:CodeSystem.concept.property [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+             fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+           ], [
+             fhir:index 2 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+             fhir:CodeSystem.concept.property.valueString [ fhir:value "Use of an HL7 defined request/fulfillment framework is not required to use this mood code." ]
+           ], [
+             fhir:index 3 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "23089" ]
+           ], [
+             fhir:index 4 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "ActRequest" ]
+           ] ;
+           fhir:CodeSystem.concept.concept [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.code [ fhir:value "ARQ" ] ;
+             fhir:CodeSystem.concept.display [ fhir:value "appointment request" ] ;
+             fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment *(the actual act may well not happen if that is the professional decision during the appointment)*." ] ;
+             fhir:CodeSystem.concept.property [
+               fhir:index 0 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+             ], [
+               fhir:index 1 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "11625" ]
+             ], [
+               fhir:index 2 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "AppointmentRequest" ]
+             ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.code [ fhir:value "PERMRQ" ] ;
+             fhir:CodeSystem.concept.display [ fhir:value "permission request" ] ;
+             fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission." ] ;
+             fhir:CodeSystem.concept.property [
+               fhir:index 0 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+             ], [
+               fhir:index 1 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "21382" ]
+             ], [
+               fhir:index 2 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "PermissionRequest" ]
+             ]
+           ], [
+             fhir:index 2 ;
+             fhir:CodeSystem.concept.code [ fhir:value "RQO" ] ;
+             fhir:CodeSystem.concept.display [ fhir:value "request" ] ;
+             fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A request act that is specialized for an event request/fulfillment cycle.\r\n\r\n**UsageNotes:** The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.\r\n\r\n**UsageNotes:** The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is \"request.\"\r\n\r\nThus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.\r\n\r\nThe critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request." ] ;
+             fhir:CodeSystem.concept.property [
+               fhir:index 0 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+             ], [
+               fhir:index 1 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORD" ]
+             ], [
+               fhir:index 2 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+               fhir:CodeSystem.concept.property.valueString [ fhir:value "The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is \"request.\" Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request." ]
+             ], [
+               fhir:index 3 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "19973" ]
+             ], [
+               fhir:index 4 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "Request" ]
+             ]
+           ], [
+             fhir:index 3 ;
+             fhir:CodeSystem.concept.code [ fhir:value "ORD" ] ;
+             fhir:CodeSystem.concept.display [ fhir:value "request" ] ;
+             fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A request act that is specialized for an event request/fulfillment cycle.\r\n\r\n**UsageNotes:** The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.\r\n\r\n**UsageNotes:** The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is \"request.\"\r\n\r\nThus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.\r\n\r\nThe critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request." ] ;
+             fhir:CodeSystem.concept.property [
+               fhir:index 0 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+             ], [
+               fhir:index 1 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "RQO" ]
+             ], [
+               fhir:index 2 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+               fhir:CodeSystem.concept.property.valueString [ fhir:value "The concepts of a \"request\" and an \"order\" are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  \"Orders\" are commonly refused for a variety of clinical and business reasons, and the notion of a \"request\" obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is \"request.\" Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the \"local\" business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an \"intent\", of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request." ]
+             ], [
+               fhir:index 3 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "19973" ]
+             ], [
+               fhir:index 4 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "Request" ]
+             ]
+           ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.code [ fhir:value "PRP" ] ;
+           fhir:CodeSystem.concept.display [ fhir:value "proposal" ] ;
+           fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present." ] ;
+           fhir:CodeSystem.concept.property [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "16726" ]
+           ], [
+             fhir:index 2 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "Proposal" ]
+           ] ;
+           fhir:CodeSystem.concept.concept [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.code [ fhir:value "RMD" ] ;
+             fhir:CodeSystem.concept.display [ fhir:value "recommendation" ] ;
+             fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .\r\n\r\n**UsageNotes:** Where there is no clear definition or applicable concept of \"professional responsibility\", RMD becomes indistinguishable from PRP. ." ] ;
+             fhir:CodeSystem.concept.property [
+               fhir:index 0 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+             ], [
+               fhir:index 1 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+               fhir:CodeSystem.concept.property.valueString [ fhir:value "Where there is no clear definition or applicable concept of \"professional responsibility\", RMD becomes indistinguishable from PRP. ." ]
+             ], [
+               fhir:index 2 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "21571" ]
+             ], [
+               fhir:index 3 ;
+               fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+               fhir:CodeSystem.concept.property.valueCode [ fhir:value "Recommendation" ]
+             ]
+           ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "PRMS" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "promise" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.\r\n\r\n**UsageNotes:** Commitments may be retracted or cancelled." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+           fhir:CodeSystem.concept.property.valueString [ fhir:value "Commitments may be retracted or cancelled." ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "16728" ]
+         ], [
+           fhir:index 3 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Promise" ]
+         ] ;
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.code [ fhir:value "APT" ] ;
+           fhir:CodeSystem.concept.display [ fhir:value "appointment" ] ;
+           fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An act that has been scheduled to be performed at a specific place and time." ] ;
+           fhir:CodeSystem.concept.property [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "11626" ]
+           ], [
+             fhir:index 2 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "Appointment" ]
+           ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ActMoodPredicate" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ActMoodPredicate" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An act that expresses condition statements for other acts." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "20936" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "Predicate" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CRT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "criterion" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "***Deprecation Comment:*** This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to \"true\" and use the desired mood for your criterion.\r\n\r\n**Definition:** A condition that must be true for the source act to be considered." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+         fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2010-07-12"^^xsd:date ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22042" ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Criterion" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "EVN.CRT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "event criterion" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "***Deprecation Comment:*** This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to \"true\" and use the desired mood for your criterion.\r\n\r\n**Definition:** A criterion (CRT) that has\\_match = an event (EVN)." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "deprecated" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "deprecationDate" ] ;
+           fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2010-07-12"^^xsd:date ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "10203" ]
+         ], [
+           fhir:index 3 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "EventCriterion" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "GOL.CRT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "goal criterion" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "A criterion expressed over goals (ActMood.GOL)." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "23057" ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.code [ fhir:value "INT.CRT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "intent criterion" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "A criterion expressed over intents (ActMood.INT)." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "23054" ]
+         ] ;
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.code [ fhir:value "PRMS.CRT" ] ;
+           fhir:CodeSystem.concept.display [ fhir:value "promise criterion" ] ;
+           fhir:CodeSystem.concept.definition [ fhir:value "A criterion expressed over promises (ActMood.PRMS)." ] ;
+           fhir:CodeSystem.concept.property [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "23056" ]
+           ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.code [ fhir:value "RQO.CRT" ] ;
+           fhir:CodeSystem.concept.display [ fhir:value "request criterion" ] ;
+           fhir:CodeSystem.concept.definition [ fhir:value "A criterion expressed over requests or orders (ActMood.RQO)." ] ;
+           fhir:CodeSystem.concept.property [
+             fhir:index 0 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+           ], [
+             fhir:index 1 ;
+             fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+             fhir:CodeSystem.concept.property.valueCode [ fhir:value "23055" ]
+           ]
+         ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.code [ fhir:value "RSK.CRT" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "risk criterion" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "A criterion expressed over risks (ActMood.RSK)." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "23058" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EXPEC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "expectation" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An act that is considered to have some noteworthy likelihood of occurring in the future (has\\_match = event).\r\n\r\n**Examples:**Prognosis of a condition, Expected date of discharge from hospital, patient will likely need an emergency decompression of the intracranial pressure by morning.\r\n\r\n**UsageNotes:**INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+         fhir:CodeSystem.concept.property.valueString [ fhir:value "INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen." ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "21574" ]
+       ], [
+         fhir:index 3 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Expectation" ]
+       ] ;
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.code [ fhir:value "GOL" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "Goal" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** An expectation that is considered to be desirable to occur in the future\r\n\r\n**Examples:**Target weight below 80Kg, Stop smoking, Regain ability to walk, goal is to administer thrombolytics to candidate patients presenting with acute myocardial infarction.\r\n\r\n**UsageNotes:** INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result. A goal is distinct from the intended actions to reach that goal. \"I will reduce the dose of drug x to 20mg\" is an intent. \"I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg\" is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+           fhir:CodeSystem.concept.property.valueString [ fhir:value "INT (intent) reflects a plan for the future, which is a declaration to do something.  This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result.  A goal is distinct from the intended actions to reach that goal.  \"I will reduce the dose of drug x to 20mg\" is an intent.  \"I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg\" is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope." ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "18864" ]
+         ], [
+           fhir:index 3 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Goal" ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.code [ fhir:value "RSK" ] ;
+         fhir:CodeSystem.concept.display [ fhir:value "risk" ] ;
+         fhir:CodeSystem.concept.definition [ fhir:value "**Definition:**An act that may occur in the future and which is regarded as undesirable\r\n\r\n**Examples:**Increased risk of DVT, at risk for sub-acute bacterial endocarditis.\r\n\r\n**UsageNotes:**Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen." ] ;
+         fhir:CodeSystem.concept.property [
+           fhir:index 0 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+         ], [
+           fhir:index 1 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+           fhir:CodeSystem.concept.property.valueString [ fhir:value "Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen." ]
+         ], [
+           fhir:index 2 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "21575" ]
+         ], [
+           fhir:index 3 ;
+           fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+           fhir:CodeSystem.concept.property.valueCode [ fhir:value "Risk" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "OPT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "option" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Definition:** One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10204" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "Name:Class" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "Option" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActMood.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

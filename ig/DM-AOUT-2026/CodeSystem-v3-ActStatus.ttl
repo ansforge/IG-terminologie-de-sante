@@ -1,0 +1,220 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActStatus> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-ActStatus"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:50.394+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-ActStatus</b></p><a name=\"v3-ActStatus\"> </a><a name=\"hcv3-ActStatus\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ActStatus</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">normal<a name=\"v3-ActStatus-normal\"> </a></td><td>Encompasses the expected states of an Act, but excludes \"nullified\" and \"obsolete\" which represent unusual terminal states for the life-cycle.</td><td>15936</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  aborted<a name=\"v3-ActStatus-aborted\"> </a></td><td>The Act has been terminated prior to the originally intended completion.</td><td>15941</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  active<a name=\"v3-ActStatus-active\"> </a></td><td>The Act can be performed or is being performed</td><td>15942</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  cancelled<a name=\"v3-ActStatus-cancelled\"> </a></td><td>The Act has been abandoned before activation.</td><td>15938</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  completed<a name=\"v3-ActStatus-completed\"> </a></td><td>An Act that has terminated normally after all of its constituents have been performed.</td><td>15940</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  held<a name=\"v3-ActStatus-held\"> </a></td><td>An Act that is still in the preparatory stages has been put aside. No action can occur until the Act is released.</td><td>15937</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  new<a name=\"v3-ActStatus-new\"> </a></td><td>An Act that is in the preparatory stages and may not yet be acted upon</td><td>15943</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  suspended<a name=\"v3-ActStatus-suspended\"> </a></td><td>An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled. No further action should be taken against it until it is released</td><td>15939</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">nullified<a name=\"v3-ActStatus-nullified\"> </a></td><td>This Act instance was created in error and has been 'removed' and is treated as though it never existed. A record is retained for audit purposes only.</td><td>15934</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">obsolete<a name=\"v3-ActStatus-obsolete\"> </a></td><td>This Act instance has been replaced by a new instance.</td><td>15935</td><td>active</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActStatus"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.14" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ActStatus"] ;
+  fhir:CodeSystem.title [ fhir:value "ActStatus"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Codes representing the defined possible states of an Act, as defined by the Act class state machine."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "normal" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "normal" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Encompasses the expected states of an Act, but excludes \"nullified\" and \"obsolete\" which represent unusual terminal states for the life-cycle." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "15936" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "aborted" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "aborted" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The Act has been terminated prior to the originally intended completion." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15941" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "active" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "active" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The Act can be performed or is being performed" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15942" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "cancelled" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "cancelled" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "The Act has been abandoned before activation." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15938" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "completed" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "completed" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "An Act that has terminated normally after all of its constituents have been performed." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15940" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "held" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "held" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "An Act that is still in the preparatory stages has been put aside. No action can occur until the Act is released." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15937" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:CodeSystem.concept.code [ fhir:value "new" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "new" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "An Act that is in the preparatory stages and may not yet be acted upon" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15943" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:CodeSystem.concept.code [ fhir:value "suspended" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "suspended" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled. No further action should be taken against it until it is released" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "15939" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "nullified" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "nullified" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "This Act instance was created in error and has been 'removed' and is treated as though it never existed. A record is retained for audit purposes only." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "15934" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "obsolete" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "obsolete" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "This Act instance has been replaced by a new instance." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "15935" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActStatus.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
