@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-lahn | *Version*:2026-04 | |
-| Active as of 2026-07-31 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
+| Active as of 2026-08-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
 | *Other Identifiers:*OID:1.2.250.1.213.2.79 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-lahn (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -49,7 +49,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
   "title" : "Liste des Actes Inovants Hors Nomenclature",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-31T06:43:14+00:00",
+  "date" : "2026-08-01T06:27:03+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
   "jurisdiction" : [{
