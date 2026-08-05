@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd | *Version*:2026-07 | |
-| Active as of 2026-07-01 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd) | *Computable Name*:Alignement_Codes_Presentation_BDPM_CIPUCD |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd | *Version*:2026-08 | |
+| Active as of 2026-08-03 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd) | *Computable Name*:Alignement_Codes_Presentation_BDPM_CIPUCD |
 | **Usage:**Workflow Task: alignement des données | | |
 
 
@@ -21,8 +21,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-bdpm-cipucd",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2026-07-06T11:32:58.908+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-08-04T09:16:08.667+02:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
@@ -30,11 +30,11 @@
     }]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2026-07",
+  "version" : "2026-08",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD",
   "title" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
   "status" : "active",
-  "date" : "2026-07-01",
+  "date" : "2026-08-03",
   "publisher" : "Agence du numérique en santé",
   "contact" : [{
     "telecom" : [{

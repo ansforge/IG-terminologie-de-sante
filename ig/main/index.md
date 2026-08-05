@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.12.0 |
-| Active as of 2026-08-04 | *Computable Name*:Terminologies |
+| Active as of 2026-08-05 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -86,6 +86,11 @@ Testez et explorez directement le service FHIR du Serveur Multi-Terminologies gr
 
 Certaines ressources sémantiques de ce guide sont protégées par des droits de propriété intellectuelle couverte par les déclarations ci-dessous. L’utilisation de ces ressources est soumise à l’acceptation et au respect des conditions précisées dans la licence d’utilisation de chacune d’entre elle.
 
+* © World Health Organization (WHO) 2019-2026. Licensed under CC BY-ND 3.0 IGO. ICD-11 for Mortality and Morbidity Statistics.
+
+* [CIE-11 para Estadísticas de Mortalidad y Morbilidad (MMS) - Español](https://tx.hl7chile.cl/r4/ValueSet/icd11-mms-es): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
+
+
 * [CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) 
 
 * [Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)](CodeSystem-terminologie-cim-10.md): [JDV_J280_CIM10ATIH_UPNOS](ValueSet-JDV-J280-CIM10ATIH-UPNOS.md)
@@ -133,11 +138,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
 
 * [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-ucum.html): [JDV_J163_GlucoseUnits_ENS](ValueSet-JDV-J163-GlucoseUnits-ENS.md), [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md), [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) and [JDV_J49_UcumUniteLongueur](ValueSet-JDV-J49-UcumUniteLongueur.md)
-
-
-* The WHO grants a license for "commercial and non-commercial use" of ICD-11CC BY-ND 3.0 IGODetailed information can be found here: [[https://icd.who.int/en/docs/icd11-license.pdf](https://icd.who.int/en/docs/icd11-license.pdf)](https://icd.who.int/en/docs/icd11-license.pdf) Contact licensing@who.int to obtain further information.
-
-* [International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)](https://tx-nordics.fhir.org/fhir/r4/ValueSet/398b8f74-822b-4822-8a7a-1b3c40dd0f7b): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
 
 
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association.
@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-08-04T06:27:06+00:00",
+  "date" : "2026-08-05T06:27:16+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim11-mms | *Version*:2026-02 | |
-| Active as of 2026-08-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
+| Active as of 2026-08-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.347 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim11-mms (use: secondary, ) | | |
 | **Copyright/Legal**: [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
@@ -48,7 +48,7 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-04T06:27:06+00:00",
+  "date" : "2026-08-05T06:27:16+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [{
