@@ -17,7 +17,7 @@ Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisé
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR378MotifArreteAll](ValueSet-vs-tre-r378-motif-arrete-all.md)
+* [Vs Tre R378 Motif Arrete All](ValueSet-vs-tre-r378-motif-arrete-all.md)
 
 
 

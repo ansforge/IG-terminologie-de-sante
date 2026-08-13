@@ -17,7 +17,7 @@ Le type de durée d’une interruption d’exercice décrit le caractère tempor
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ419PerimetreInterruptionExerciceRpps](ValueSet-jdv-j419-perimetre-interruption-exercice-rpps.md)
+* [Jdv J419 Perimetre Interruption Exercice Rpps](ValueSet-jdv-j419-perimetre-interruption-exercice-rpps.md)
 
 
 

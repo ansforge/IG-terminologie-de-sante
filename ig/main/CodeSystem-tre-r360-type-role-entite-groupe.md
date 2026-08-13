@@ -17,7 +17,7 @@ Nomenclature des types de rôles que peuvent exercer des entités participants �
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md)
+* [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md)
 
 
 

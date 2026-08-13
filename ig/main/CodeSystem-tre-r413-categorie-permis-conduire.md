@@ -17,7 +17,7 @@ Catégorie de permis de conduire.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md)
+* [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md)
 
 
 

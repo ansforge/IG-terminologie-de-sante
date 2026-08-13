@@ -17,7 +17,7 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md)
+* [Vs Tre R370 Role Relation Ege All](ValueSet-vs-tre-r370-role-relation-ege-all.md)
 
 
 

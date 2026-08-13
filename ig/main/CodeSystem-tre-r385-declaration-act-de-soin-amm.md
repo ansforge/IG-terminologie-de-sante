@@ -17,7 +17,7 @@ Nomenclature des déclarations pour les activités de soin AMM
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR385DeclarationActDeSoinAmmAll](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md)
+* [Vs Tre R385 Declaration Act De Soin Amm All](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md)
 
 
 

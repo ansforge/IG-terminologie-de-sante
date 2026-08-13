@@ -17,7 +17,7 @@ Identifiant des modèles de CDA non structurés
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
+* [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
 
 
 

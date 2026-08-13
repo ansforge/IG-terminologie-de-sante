@@ -17,7 +17,7 @@ L’origine d’une interruption d’exercice correspond à l’autorité juridi
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ390OrigineInterruptionExerciceRpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md)
+* [Jdv J390 Origine Interruption Exercice Rpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md)
 
 
 

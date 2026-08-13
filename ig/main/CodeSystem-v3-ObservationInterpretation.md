@@ -19,7 +19,7 @@ One or more codes providing a rough qualitative interpretation of the observatio
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
-* [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md)
+* [JDV Indicateur Anormalite CISIS](ValueSet-jdv-indicateur-anormalite-cisis.md)
 
 
 

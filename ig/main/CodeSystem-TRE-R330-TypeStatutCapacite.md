@@ -18,7 +18,7 @@ Permet de préciser le statut des capacités concernées
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md)
-* [JdvJ353TypeStatutCapaciteFiness](ValueSet-jdv-j353-type-statut-capacite-finess.md)
+* [Jdv J353 Type Statut Capacite Finess](ValueSet-jdv-j353-type-statut-capacite-finess.md)
 
 
 

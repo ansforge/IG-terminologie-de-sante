@@ -20,7 +20,7 @@ OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several 
 
 * [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md)
 * [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md)
-* [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
+* [x_ActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
 
 
 

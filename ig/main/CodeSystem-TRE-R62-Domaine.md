@@ -17,7 +17,7 @@ Domaine
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md)
+* [Vs Tre R62 Domaine All](ValueSet-vs-tre-r62-domaine-all.md)
 
 
 

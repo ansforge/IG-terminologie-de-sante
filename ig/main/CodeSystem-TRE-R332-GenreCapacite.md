@@ -18,7 +18,7 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J190_GenreCapacite_ROR](ValueSet-JDV-J190-GenreCapacite-ROR.md)
-* [JdvJ357GenreCapaciteFiness](ValueSet-jdv-j357-genre-capacite-finess.md)
+* [Jdv J357 Genre Capacite Finess](ValueSet-jdv-j357-genre-capacite-finess.md)
 
 
 

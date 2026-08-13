@@ -17,7 +17,7 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md)
+* [Jdv J305 Type Groupement Finess](ValueSet-jdv-j305-type-groupement-finess.md)
 
 
 

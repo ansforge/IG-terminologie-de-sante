@@ -92,16 +92,16 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR392TypeActSmsseReguleeAll](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md)
-* [JdvJ322TypeActEnseignementReguleeFiness](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md)
-* [JdvJ331TypeActSocialeReguleeFiness](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md)
-* [JdvJ332TypeActMedicoSocialeReguleeFiness](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md)
-* [JdvJ336TypeActSanitaireDiverseReguleeFiness](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md)
-* [JdvJ340TypeActDeSoinAmfFiness](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md)
-* [JdvJ341TypeActAutreActeSoinFiness](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md)
-* [JdvJ342TypeActSoumiseAReconnaissanceFiness](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md)
-* [JdvJ344TypeActEquipementMaterielLourdFiness](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md)
-* [JdvJ350TypeActDeSoinAmmFiness](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md)
+* [Vs Tre R392 Type Act Smsse Regulee All](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md)
+* [Jdv J322 Type Act Enseignement Regulee Finess](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md)
+* [Jdv J331 Type Act Sociale Regulee Finess](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md)
+* [Jdv J332 Type Act Medico Sociale Regulee Finess](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md)
+* [Jdv J336 Type Act Sanitaire Diverse Regulee Finess](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md)
+* [Jdv J340 Type Act De Soin Amf Finess](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md)
+* [Jdv J341 Type Act Autre Acte Soin Finess](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md)
+* [Jdv J342 Type Act Soumise A Reconnaissance Finess](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md)
+* [Jdv J344 Type Act Equipement Materiel Lourd Finess](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md)
+* [Jdv J350 Type Act De Soin Amm Finess](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md)
 
 
 

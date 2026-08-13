@@ -17,11 +17,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
-* [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
-* [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
-* [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
-* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
+* [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
+* [Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
+* [Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
+* [Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
+* [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
 
 
 

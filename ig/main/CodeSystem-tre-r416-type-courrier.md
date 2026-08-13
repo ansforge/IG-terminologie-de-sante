@@ -17,7 +17,7 @@ Type de courrier en France.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md)
+* [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md)
 
 
 

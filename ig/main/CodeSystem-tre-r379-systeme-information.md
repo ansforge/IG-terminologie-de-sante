@@ -17,7 +17,7 @@ Nomenclature des systemes d’information généralement déclarés pour défini
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ299SystemeInformationFiness](ValueSet-jdv-j299-systeme-information-finess.md)
+* [Jdv J299 Systeme Information Finess](ValueSet-jdv-j299-systeme-information-finess.md)
 
 
 

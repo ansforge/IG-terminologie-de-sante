@@ -17,9 +17,9 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md)
-* [JdvJ314EngagementFiness](ValueSet-jdv-j314-engagement-finess.md)
-* [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md)
+* [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md)
+* [Jdv J314 Engagement Finess](ValueSet-jdv-j314-engagement-finess.md)
+* [Jdv J372 Convention Rass](ValueSet-jdv-j372-convention-rass.md)
 
 
 

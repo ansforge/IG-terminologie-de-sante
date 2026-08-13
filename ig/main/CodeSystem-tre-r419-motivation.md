@@ -17,7 +17,7 @@ Considération(s) de droit ou de fait qui constituent le fondement de la proposi
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md)
+* [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md)
 
 
 

@@ -19,7 +19,7 @@ The gender of a person used for adminstrative purposes (as opposed to clinical g
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md)
-* [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
+* [JDV Reference Range Applies To CISIS](ValueSet-jdv-reference-range-applies-to-cisis.md)
 
 
 

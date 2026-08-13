@@ -21,7 +21,7 @@ Underlying Master Code System for V2 table 0066 (Employment Status)
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
+* [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
 
 
 

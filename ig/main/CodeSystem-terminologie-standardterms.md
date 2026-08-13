@@ -18,11 +18,11 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvFluideRouteCodeCisis](ValueSet-jdv-fluide-route-code-cisis.md)
-* [JdvImmunizationRouteCodeCisis](ValueSet-jdv-immunization-route-code-cisis.md)
-* [JdvModeAdministrationCisis](ValueSet-jdv-mode-administration-cisis.md)
-* [JdvRouteOfAdministrationCisis](ValueSet-jdv-route-of-administration-cisis.md)
-* [JdvUsageDrogueCisis](ValueSet-jdv-usage-drogue-cisis.md)
+* [JDV Fluide Route Code CISIS](ValueSet-jdv-fluide-route-code-cisis.md)
+* [JDV Immunization Route Code CISIS](ValueSet-jdv-immunization-route-code-cisis.md)
+* [JDV Mode Administration CISIS](ValueSet-jdv-mode-administration-cisis.md)
+* [JDV Route Of Administration CISIS](ValueSet-jdv-route-of-administration-cisis.md)
+* [JDV Usage Drogue CISIS](ValueSet-jdv-usage-drogue-cisis.md)
 * [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md)
 
 

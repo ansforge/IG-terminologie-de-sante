@@ -18,7 +18,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md)
-* [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
+* [JDV J69 ActiviteOperationnelle Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 
 

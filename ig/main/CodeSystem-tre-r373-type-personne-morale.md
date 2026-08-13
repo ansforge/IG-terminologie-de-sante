@@ -17,7 +17,7 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR373TypePersonneMoraleAll](ValueSet-vs-tre-r373-type-personne-morale-all.md)
+* [Vs Tre R373 Type Personne Morale All](ValueSet-vs-tre-r373-type-personne-morale-all.md)
 
 
 

@@ -18,7 +18,7 @@ Canal de communication
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md)
-* [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md)
+* [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md)
 
 
 

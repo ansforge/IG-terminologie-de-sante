@@ -18,7 +18,7 @@ Type de messagerie électronique
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md)
-* [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md)
+* [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md)
 
 
 

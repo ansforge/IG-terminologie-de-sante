@@ -17,7 +17,7 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ297TypeEvenementAdministratifFiness](ValueSet-jdv-j297-type-evenement-administratif-finess.md)
+* [Jdv J297 Type Evenement Administratif Finess](ValueSet-jdv-j297-type-evenement-administratif-finess.md)
 
 
 

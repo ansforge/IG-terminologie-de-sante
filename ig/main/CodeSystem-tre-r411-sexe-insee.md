@@ -17,7 +17,7 @@ Liste de valeurs du code Sexe pour l’INSEE - En attente de faire directement r
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ389SexeInsee](ValueSet-jdv-j389-sexe-insee.md)
+* [Jdv J389 Sexe Insee](ValueSet-jdv-j389-sexe-insee.md)
 
 
 

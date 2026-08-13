@@ -17,7 +17,7 @@ International Classification of Diseases for Oncology, version 3. For more infor
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvMorphologieCisis](ValueSet-jdv-morphologie-cisis.md)
+* [JDV Morphologie CISIS](ValueSet-jdv-morphologie-cisis.md)
 
 
 

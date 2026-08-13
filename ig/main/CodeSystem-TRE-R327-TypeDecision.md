@@ -17,8 +17,8 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md)
-* [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md)
+* [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md)
+* [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md)
 
 
 

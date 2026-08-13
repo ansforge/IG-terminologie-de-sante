@@ -17,7 +17,7 @@ Nomenclature des modes de financement associés aux capacités de certaines acti
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR375ModeFinancementAll](ValueSet-vs-tre-r375-mode-financement-all.md)
+* [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md)
 
 
 

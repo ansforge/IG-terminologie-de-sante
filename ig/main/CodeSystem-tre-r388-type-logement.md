@@ -17,7 +17,7 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md)
+* [Vs Tre R388 Type Logement All](ValueSet-vs-tre-r388-type-logement-all.md)
 
 
 

@@ -17,7 +17,7 @@ Orientation vers un Service d’éducation spéciale et de soins à domicile (SE
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
+* [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md)
 
 
 

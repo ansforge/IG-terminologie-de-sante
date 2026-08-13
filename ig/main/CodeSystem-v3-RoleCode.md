@@ -18,12 +18,12 @@ A set of codes further specifying the kind of Role; specific classification code
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)
-* [JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md)
+* [JDV Famille Femme CISIS](ValueSet-jdv-famille-femme-cisis.md)
+* [JDV Famille Id CISIS](ValueSet-jdv-famille-id-cisis.md)
 * [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md)
 * [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md)
 * [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
-* [JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md)
+* [JDV Lien Assure Beneficiaire CISIS](ValueSet-jdv-lien-assure-beneficiaire-cisis.md)
 
 
 

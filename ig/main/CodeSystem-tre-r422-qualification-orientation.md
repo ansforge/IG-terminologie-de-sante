@@ -17,7 +17,7 @@ La qualification de l’orientation peut être cible ou alternative.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ404QualificationOrientationMs](ValueSet-jdv-j404-qualification-orientation-ms.md)
+* [Jdv J404 Qualification Orientation Ms](ValueSet-jdv-j404-qualification-orientation-ms.md)
 
 
 

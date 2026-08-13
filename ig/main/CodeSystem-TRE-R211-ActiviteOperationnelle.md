@@ -18,7 +18,7 @@ Activite Operationnelle
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md)
-* [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
+* [JDV J69 ActiviteOperationnelle Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 
 

@@ -18,10 +18,10 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvInvestigationRealiseeAunvCisis](ValueSet-jdv-investigation-realisee-aunv-cisis.md)
-* [JdvInvestigationRealiseeEunvCisis](ValueSet-jdv-investigation-realisee-eunv-cisis.md)
-* [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
-* [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
+* [JDV Investigation Realisee Aunv CISIS](ValueSet-jdv-investigation-realisee-aunv-cisis.md)
+* [JDV Investigation Realisee Eunv CISIS](ValueSet-jdv-investigation-realisee-eunv-cisis.md)
+* [JDV Static Sem Procedure CISIS](ValueSet-jdv-static-sem-procedure-cisis.md)
+* [JDV Type Acte Post Partum CISIS](ValueSet-jdv-type-acte-post-partum-cisis.md)
 
 
 

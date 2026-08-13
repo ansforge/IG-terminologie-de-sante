@@ -17,7 +17,7 @@ Niveau scolaire de l’usager en France.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md)
+* [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md)
 
 
 

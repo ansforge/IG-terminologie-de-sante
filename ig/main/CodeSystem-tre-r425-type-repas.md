@@ -17,7 +17,7 @@ Type de repas.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md)
+* [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md)
 
 
 

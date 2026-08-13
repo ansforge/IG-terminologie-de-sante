@@ -17,7 +17,7 @@ Nomenclature des pratiques thérapeutiques spécifiques pour les activités de s
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md)
+* [Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md)
 
 
 
