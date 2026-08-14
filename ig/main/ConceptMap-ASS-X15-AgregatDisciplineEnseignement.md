@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X15_AgregatDisciplineEnseignement | *Version*:5.0.0 |
-| Active as of 2026-08-13 | *Computable Name*:ASS_X15_AgregatDisciplineEnseignement |
+| Active as of 2026-08-14 | *Computable Name*:ASS_X15_AgregatDisciplineEnseignement |
 
  
 ASS_X15_AgregatDisciplineEnseignement 
@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X15_AgregatDisciplineEnseignement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-13T05:34:44+00:00",
+  "date" : "2026-08-14T05:32:34+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
