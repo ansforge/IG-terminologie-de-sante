@@ -23,7 +23,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
-* [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md)
+* [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md)
 
 
 

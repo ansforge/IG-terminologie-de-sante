@@ -17,7 +17,7 @@ Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est just
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ300TypeObjetFiness](ValueSet-jdv-j300-type-objet-finess.md)
+* [Jdv J300 Type Objet Finess](ValueSet-jdv-j300-type-objet-finess.md)
 
 
 

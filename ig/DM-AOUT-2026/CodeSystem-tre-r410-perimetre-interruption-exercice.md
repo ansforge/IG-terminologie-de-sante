@@ -17,7 +17,7 @@ Le périmètre d’une interruption d’exercice décrit l’étendue de la rest
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ420TypeDureeInterruptionExerciceRpps](ValueSet-jdv-j420-type-duree-interruption-exercice-rpps.md)
+* [Jdv J420 Type Duree Interruption Exercice Rpps](ValueSet-jdv-j420-type-duree-interruption-exercice-rpps.md)
 
 
 

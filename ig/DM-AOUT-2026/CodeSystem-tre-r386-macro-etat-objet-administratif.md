@@ -17,7 +17,7 @@ Nomenclature des macro-etat des structures FINESS qui dérivent de l’état de 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ298MacroEtatObjetAdministratifFiness](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md)
+* [Jdv J298 Macro Etat Objet Administratif Finess](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md)
 
 
 

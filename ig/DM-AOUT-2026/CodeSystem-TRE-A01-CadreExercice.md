@@ -19,7 +19,7 @@ Cadre d’exercice
 
 * [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md)
 * [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md)
-* [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md)
+* [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md)
 
 
 

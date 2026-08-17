@@ -18,8 +18,8 @@ Equipement
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md)
-* [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
-* [JdvJ351AppareilAmmFiness](ValueSet-jdv-j351-appareil-amm-finess.md)
+* [JDV J70 Equipement Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
+* [Jdv J351 Appareil Amm Finess](ValueSet-jdv-j351-appareil-amm-finess.md)
 
 
 

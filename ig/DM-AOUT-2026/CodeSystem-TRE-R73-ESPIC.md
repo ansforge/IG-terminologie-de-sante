@@ -19,7 +19,7 @@ Etablissement de santé privé d’intérêt collectif
 
 * [JDV_J162_ESPIC_RASS](ValueSet-JDV-J162-ESPIC-RASS.md)
 * [JDV_J202_ESPIC_ROR](ValueSet-JDV-J202-ESPIC-ROR.md)
-* [VsTreR73EspicAll](ValueSet-vs-tre-r73-espic-all.md)
+* [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md)
 
 
 

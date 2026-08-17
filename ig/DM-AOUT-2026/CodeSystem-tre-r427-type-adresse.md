@@ -17,7 +17,7 @@ Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livrai
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md)
+* [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md)
 
 
 

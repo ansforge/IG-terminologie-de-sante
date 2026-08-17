@@ -17,7 +17,7 @@ Nomenclature des types de budget associés aux Entités Géographiques d’Exerc
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md)
+* [Vs Tre R362 Type Budget All](ValueSet-vs-tre-r362-type-budget-all.md)
 
 
 

@@ -17,7 +17,7 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md)
+* [Jdv J306 Type Groupe Gcc Finess](ValueSet-jdv-j306-type-groupe-gcc-finess.md)
 
 
 

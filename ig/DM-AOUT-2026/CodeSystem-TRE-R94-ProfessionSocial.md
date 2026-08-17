@@ -26,7 +26,7 @@ Profession du social
 * [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
 * [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md)
-* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
+* [JDV Profession Personnel Activite CISIS](ValueSet-jdv-profession-personnel-activite-cisis.md)
 
 
 

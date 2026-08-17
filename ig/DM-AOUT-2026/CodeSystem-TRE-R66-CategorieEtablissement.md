@@ -20,7 +20,7 @@ Catégorie d’établissements
 * [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md)
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
+* [JDV Structure De Soins CISIS](ValueSet-jdv-structure-de-soins-cisis.md)
 
 
 

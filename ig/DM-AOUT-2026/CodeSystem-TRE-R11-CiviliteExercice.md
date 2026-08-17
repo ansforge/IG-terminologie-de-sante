@@ -17,7 +17,7 @@ Civilité d’exercice
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JDV_J12_CiviliteTitre_CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
+* [JDV J12 CiviliteTitre CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
 * [JDV_J208_CiviliteExercice_ROR](ValueSet-JDV-J208-CiviliteExercice-ROR.md)
 * [JDV_J246_Titre_CISIS](ValueSet-JDV-J246-Titre-CISIS.md)
 * [JDV_J79_CiviliteExercice_RASS](ValueSet-JDV-J79-CiviliteExercice-RASS.md)

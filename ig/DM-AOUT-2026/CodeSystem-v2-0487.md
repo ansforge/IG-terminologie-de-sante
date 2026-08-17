@@ -21,12 +21,12 @@ Underlying Master Code System for V2 table 0487 (Specimen Type)
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
-* [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [JdvSpecimenTypeDengueCisis](ValueSet-jdv-specimen-type-dengue-cisis.md)
-* [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md)
-* [JdvSpecimenTypeWestNileCisis](ValueSet-jdv-specimen-type-westnile-cisis.md)
-* [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
+* [jDV Specimen Type Chikungunya CISIS](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
+* [JDV Specimen Type CISIS](ValueSet-jdv-specimen-type-cisis.md)
+* [jDV Specimen Type Dengue CISIS](ValueSet-jdv-specimen-type-dengue-cisis.md)
+* [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md)
+* [jDV Specimen Type West Nile CISIS](ValueSet-jdv-specimen-type-westnile-cisis.md)
+* [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md)
 
 
 

@@ -18,7 +18,7 @@ The verification status to support or decline the clinical status of the conditi
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
+* [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
 
 
 

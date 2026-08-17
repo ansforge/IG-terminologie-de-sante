@@ -18,7 +18,7 @@ Equipements Matériels Lourds
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md)
-* [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md)
+* [Vs Tre R272 Equipement Materiel Lourd All](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md)
 
 
 

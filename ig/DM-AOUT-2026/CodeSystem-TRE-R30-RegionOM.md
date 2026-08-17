@@ -20,7 +20,7 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
 * [JDV_J237_RegionOM_ROR](ValueSet-JDV-J237-RegionOM-ROR.md)
 * [JDV_J257_Region](ValueSet-JDV-J257-Region.md)
 * [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md)
-* [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md)
+* [Jdv J378 Region Om Finess](ValueSet-jdv-j378-region-om-finess.md)
 
 
 

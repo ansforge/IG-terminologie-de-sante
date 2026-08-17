@@ -18,7 +18,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md)
-* [JdvJ352NatureCapaciteFiness](ValueSet-jdv-j352-nature-capacite-finess.md)
+* [Jdv J352 Nature Capacite Finess](ValueSet-jdv-j352-nature-capacite-finess.md)
 
 
 

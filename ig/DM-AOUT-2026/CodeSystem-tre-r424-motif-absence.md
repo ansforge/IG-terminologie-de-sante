@@ -17,7 +17,7 @@ Motif pour lequel l’usager n’est pas présent lors d’un événement organi
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md)
+* [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md)
 
 
 

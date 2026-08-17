@@ -17,7 +17,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ371EtatObjetAdministratifFiness](ValueSet-jdv-j371-etat-objet-administratif-finess.md)
+* [Jdv J371 Etat Objet Administratif Finess](ValueSet-jdv-j371-etat-objet-administratif-finess.md)
 
 
 

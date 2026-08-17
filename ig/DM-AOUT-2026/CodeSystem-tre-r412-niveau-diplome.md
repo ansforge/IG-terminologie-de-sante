@@ -17,7 +17,7 @@ Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md)
+* [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md)
 
 
 

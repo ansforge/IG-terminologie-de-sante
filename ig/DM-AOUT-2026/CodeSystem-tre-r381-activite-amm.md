@@ -17,7 +17,7 @@ Nomenclature des activités de soin AMM
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR381ActiviteAmmAll](ValueSet-vs-tre-r381-activite-amm-all.md)
+* [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md)
 
 
 

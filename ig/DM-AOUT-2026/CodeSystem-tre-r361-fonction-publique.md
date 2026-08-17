@@ -17,7 +17,7 @@ Nomenclature des versants de la fonction publique
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md)
+* [Vs Tre R361 Fonction Publique All](ValueSet-vs-tre-r361-fonction-publique-all.md)
 
 
 

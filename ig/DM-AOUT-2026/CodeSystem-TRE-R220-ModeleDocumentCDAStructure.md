@@ -17,7 +17,7 @@ Identifiant des modèles de CDA structurés
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md)
+* [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md)
 
 
 

@@ -18,7 +18,7 @@ Preferred value set for Condition Clinical Status.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
+* [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
 
 
 

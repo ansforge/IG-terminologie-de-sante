@@ -28,8 +28,8 @@ Lieu de formation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-07-29T11:13:49.793+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-08-04T11:03:16.712+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",

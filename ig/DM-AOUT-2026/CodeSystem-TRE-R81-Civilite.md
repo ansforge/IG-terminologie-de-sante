@@ -18,7 +18,7 @@ Civilité
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J113_Civilite_ENREG](ValueSet-JDV-J113-Civilite-ENREG.md)
-* [JDV_J12_CiviliteTitre_CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
+* [JDV J12 CiviliteTitre CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
 * [JDV_J207_Civilite_ROR](ValueSet-JDV-J207-Civilite-ROR.md)
 * [JDV_J245_Civilite_CISIS](ValueSet-JDV-J245-Civilite-CISIS.md)
 * [JDV_J78_Civilite_RASS](ValueSet-JDV-J78-Civilite-RASS.md)

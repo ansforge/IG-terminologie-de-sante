@@ -17,13 +17,13 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
-* [JdvJ358TypeAutoriteEnregistrementFiness](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
-* [JdvJ359AutoriteEnregistrementFiness](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
-* [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md)
-* [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
-* [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
-* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
+* [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
+* [Jdv J358 Type Autorite Enregistrement Finess](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
+* [Jdv J359 Autorite Enregistrement Finess](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
+* [Jdv J360 Autorite Regulation Finess](ValueSet-jdv-j360-autorite-regulation-finess.md)
+* [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md)
+* [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md)
+* [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md)
 
 
 

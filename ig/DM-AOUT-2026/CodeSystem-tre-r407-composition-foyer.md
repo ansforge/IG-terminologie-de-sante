@@ -17,7 +17,7 @@ Désigne avec qui vit l’usager dans son logement.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md)
+* [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md)
 
 
 

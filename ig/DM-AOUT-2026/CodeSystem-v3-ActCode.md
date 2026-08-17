@@ -21,15 +21,15 @@ Act.classCode and Act.code are not modifiers of each other but the Act.code conc
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvCompletudeDispensationCisis](ValueSet-jdv-completude-dispensation-cisis.md)
-* [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md)
+* [JDV Completude Dispensation CISIS](ValueSet-jdv-completude-dispensation-cisis.md)
+* [JDV Encompassing Encounter Code CISIS](ValueSet-jdv-encompassing-encounter-code-cisis.md)
 * [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md)
 * [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md)
 * [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md)
 * [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md)
 * [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md)
 * [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md)
-* [JdvModaliteSortieEsmsCisis](ValueSet-jdv-modalite-sortie-esms-cisis.md)
+* [JDV Modalite Sortie ESMS CISIS](ValueSet-jdv-modalite-sortie-esms-cisis.md)
 
 
 

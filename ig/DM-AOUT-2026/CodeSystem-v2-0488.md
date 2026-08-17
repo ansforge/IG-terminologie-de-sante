@@ -21,7 +21,7 @@ Underlying Master Code System for V2 table 0488 (Specimen Collection Method)
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
+* [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
 
 
 

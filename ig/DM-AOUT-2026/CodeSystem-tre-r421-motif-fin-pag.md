@@ -17,7 +17,7 @@ Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le co
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ403MotifFinPagMs](ValueSet-jdv-j403-motif-fin-pag-ms.md)
+* [Jdv J403 Motif Fin Pag Ms](ValueSet-jdv-j403-motif-fin-pag-ms.md)
 
 
 

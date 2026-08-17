@@ -17,7 +17,7 @@ Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée a
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ313UsageAdresseFiness](ValueSet-jdv-j313-usage-adresse-finess.md)
+* [Jdv J313 Usage Adresse Finess](ValueSet-jdv-j313-usage-adresse-finess.md)
 
 
 

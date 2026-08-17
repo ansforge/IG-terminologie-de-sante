@@ -17,8 +17,8 @@ Nomenclature des types de documents administratif ( exemple : agrément, convent
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ294DocumentJustificatifFiness](ValueSet-jdv-j294-document-justificatif-finess.md)
-* [JdvJ295DocumentInformatifFiness](ValueSet-jdv-j295-document-informatif-finess.md)
+* [Jdv J294 Document Justificatif Finess](ValueSet-jdv-j294-document-justificatif-finess.md)
+* [Jdv J295 Document Informatif Finess](ValueSet-jdv-j295-document-informatif-finess.md)
 
 
 

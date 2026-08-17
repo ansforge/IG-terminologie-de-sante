@@ -19,8 +19,8 @@ A code specifying the meaning and purpose of every Participation instance. Each 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
-* [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md)
-* [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md)
+* [JDV Participant Additionnel Resultat CISIS](ValueSet-jdv-participant-additionnel-resultat-cisis.md)
+* [JDV Participant Resultat CISIS](ValueSet-jdv-participant-resultat-cisis.md)
 
 
 
