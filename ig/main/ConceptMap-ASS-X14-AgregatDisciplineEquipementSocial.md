@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X14_AgregatDisciplineEquipementSocial | *Version*:5.0.0 |
-| Active as of 2026-08-16 | *Computable Name*:ASS_X14_AgregatDisciplineEquipementSocial |
+| Active as of 2026-08-17 | *Computable Name*:ASS_X14_AgregatDisciplineEquipementSocial |
 
  
 ASS_X14_AgregatDisciplineEquipementSocial 
@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X14_AgregatDisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-16T04:34:25+00:00",
+  "date" : "2026-08-17T04:38:40+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
