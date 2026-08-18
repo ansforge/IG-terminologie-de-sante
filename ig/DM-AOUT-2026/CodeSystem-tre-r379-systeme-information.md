@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR379SystemeInformation |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r379-systeme-information | *Version*:20260827120000 | |
+| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR379SystemeInformation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.294 | | |
 
  
@@ -17,7 +17,7 @@ Nomenclature des systemes d’information généralement déclarés pour défini
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Jdv J299 Systeme Information Finess](ValueSet-jdv-j299-systeme-information-finess.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -39,17 +39,17 @@ Nomenclature des systemes d’information généralement déclarés pour défini
       "start" : "1900-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r379-systeme-information",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.294"
   }],
-  "version" : "20260629120000",
+  "version" : "20260827120000",
   "name" : "TreR379SystemeInformation",
   "title" : "Tre R379 Systeme Information",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
   "jurisdiction" : [{
@@ -125,14 +125,14 @@ Nomenclature des systemes d’information généralement déclarés pour défini
   },
   {
     "code" : "02",
-    "display" : "ARHGOS",
+    "display" : "SI-AUTORISATIONS",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
