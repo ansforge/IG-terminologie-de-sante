@@ -388,79 +388,79 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * #A6 ^property[=].valueCode = #active
 * #A8 "Greffe de face ou de face inférieure"
 * #A8 ^property[0].code = #dateValid
-* #A8 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #A8 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #A8 ^property[+].code = #dateMaj
-* #A8 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #A8 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #A8 ^property[+].code = #status
 * #A8 ^property[=].valueCode = #active
 * #A9 "Greffe unilatérale ou bilatérale de main"
 * #A9 ^property[0].code = #dateValid
-* #A9 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #A9 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #A9 ^property[+].code = #dateMaj
-* #A9 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #A9 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #A9 ^property[+].code = #status
 * #A9 ^property[=].valueCode = #active
 * #B0 "Prélèvement de cellules mononuclées autologues"
 * #B0 ^property[0].code = #dateValid
-* #B0 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #B0 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #B0 ^property[+].code = #dateMaj
-* #B0 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #B0 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #B0 ^property[+].code = #status
 * #B0 ^property[=].valueCode = #active
 * #B1 "Prélèvement de cellules mononuclées allogéniques"
 * #B1 ^property[0].code = #dateValid
-* #B1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #B1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #B1 ^property[+].code = #dateMaj
-* #B1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #B1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #B1 ^property[+].code = #status
 * #B1 ^property[=].valueCode = #active
 * #C1 "Greffe unilatérale ou bilatérale d'avant-bras"
 * #C1 ^property[0].code = #dateValid
-* #C1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #C1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #C1 ^property[+].code = #dateMaj
-* #C1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #C1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #C1 ^property[+].code = #status
 * #C1 ^property[=].valueCode = #active
 * #C3 "Greffe unilatérale ou bilatérale de bras"
 * #C3 ^property[0].code = #dateValid
-* #C3 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #C3 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #C3 ^property[+].code = #dateMaj
-* #C3 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #C3 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #C3 ^property[+].code = #status
 * #C3 ^property[=].valueCode = #active
 * #D1 "Greffe de membre inférieur"
 * #D1 ^property[0].code = #dateValid
-* #D1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #D1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #D1 ^property[+].code = #dateMaj
-* #D1 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #D1 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #D1 ^property[+].code = #status
 * #D1 ^property[=].valueCode = #active
 * #F4 "Greffe de langue"
 * #F4 ^property[0].code = #dateValid
-* #F4 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #F4 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #F4 ^property[+].code = #dateMaj
-* #F4 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #F4 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #F4 ^property[+].code = #status
 * #F4 ^property[=].valueCode = #active
 * #F9 "Greffe de pénis"
 * #F9 ^property[0].code = #dateValid
-* #F9 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #F9 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #F9 ^property[+].code = #dateMaj
-* #F9 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #F9 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #F9 ^property[+].code = #status
 * #F9 ^property[=].valueCode = #active
 * #H2 "Greffe de paroi abdominale"
 * #H2 ^property[0].code = #dateValid
-* #H2 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #H2 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #H2 ^property[+].code = #dateMaj
-* #H2 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #H2 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #H2 ^property[+].code = #status
 * #H2 ^property[=].valueCode = #active
 * #H3 "Greffe de tissus cutanés conjonctifs et vasculo- nerveux"
 * #H3 ^property[0].code = #dateValid
-* #H3 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #H3 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #H3 ^property[+].code = #dateMaj
-* #H3 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #H3 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #H3 ^property[+].code = #status
 * #H3 ^property[=].valueCode = #active
 * #R1 "Addictologie"
@@ -577,9 +577,9 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * #S7 ^property[=].valueCode = #active
 * #S8 "Maison de naissance"
 * #S8 ^property[0].code = #dateValid
-* #S8 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #S8 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #S8 ^property[+].code = #dateMaj
-* #S8 ^property[=].valueDateTime = "2026-08-27T12:00:00+01:00"
+* #S8 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
 * #S8 ^property[+].code = #status
 * #S8    ^property[=].valueCode = #active
 * #T0 "SSRS- EVC-EVP (lits Eveil de Coma-Etat Végétatif Persistant)"
