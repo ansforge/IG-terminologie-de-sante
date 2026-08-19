@@ -874,6 +874,182 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     }]
   },
   {
+    "code" : "A8",
+    "display" : "Greffe de face ou de face inférieure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "A9",
+    "display" : "Greffe unilatérale ou bilatérale de main",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "B0",
+    "display" : "Prélèvement de cellules mononuclées autologues",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "B1",
+    "display" : "Prélèvement de cellules mononuclées allogéniques",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "C1",
+    "display" : "Greffe unilatérale ou bilatérale d'avant-bras",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "C3",
+    "display" : "Greffe unilatérale ou bilatérale de bras",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "D1",
+    "display" : "Greffe de membre inférieur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F4",
+    "display" : "Greffe de langue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F9",
+    "display" : "Greffe de pénis",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "H2",
+    "display" : "Greffe de paroi abdominale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "H3",
+    "display" : "Greffe de tissus cutanés conjonctifs et vasculo- nerveux",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "R1",
     "display" : "Addictologie",
     "property" : [{
@@ -1130,6 +1306,22 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     }]
   },
   {
+    "code" : "S8",
+    "display" : "Maison de naissance",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "T0",
     "display" : "SSRS- EVC-EVP (lits Eveil de Coma-Etat Végétatif Persistant)",
     "property" : [{
@@ -1251,198 +1443,6 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "A8",
-    "display" : "Greffe de face ou de face inférieure",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "A9",
-    "display" : "Greffe unilatérale ou bilatérale de main",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "B0",
-    "display" : "Prélèvement de cellules mononuclées autologues",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "B1",
-    "display" : "Prélèvement de cellules mononuclées allogéniques",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "C1",
-    "display" : "Greffe unilatérale ou bilatérale d'avant-bras",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "C3",
-    "display" : "Greffe unilatérale ou bilatérale de bras",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "D1",
-    "display" : "Greffe de membre inférieur",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "F4",
-    "display" : "Greffe de langue",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "F9",
-    "display" : "Greffe de pénis",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "H2",
-    "display" : "Greffe de paroi abdominale",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "H3",
-    "display" : "Greffe de tissus cutanés conjonctifs et vasculo- nerveux",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "S8",
-    "display" : "Maison de naissance",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
     },
     {
       "code" : "status",

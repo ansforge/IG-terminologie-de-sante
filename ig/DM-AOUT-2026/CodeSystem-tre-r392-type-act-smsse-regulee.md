@@ -12280,7 +12280,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
       "code" : "formeActivite",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-        "code" : "21"
+        "code" : "00"
       }
     }]
   },
