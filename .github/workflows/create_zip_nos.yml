@@ -61,6 +61,13 @@ jobs:
           
       - name: List des repertoires
         run: ls -R ./igSource/input
+
+      - name: Cache TX responses
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/.fhir/txcache
+          key: tx-cache-${{ runner.os }}-${{ hashFiles('**/sushi-config.yaml') }}
+          restore-keys: tx-cache-${{ runner.os }}-
         
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
@@ -79,10 +86,11 @@ jobs:
         
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
-        run : |
-              cd  ./igSource
-              java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
-     
+        run: |
+          cd ./igSource
+          java -Xmx6g -jar ../publisher.jar -ig . \
+            -tx https://r4.ontoserver.csiro.au/fhir \
+            -authorise-non-conformant-tx-servers     
 
           
       - name: Setup Python # Set Python version
