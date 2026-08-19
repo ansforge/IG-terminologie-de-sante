@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS | *Version*:20201127120000 | |
-| Active as of 2020-11-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J133_ActiviteSanitaireRegulee_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS | *Version*:20260827120000 | |
+| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J133_ActiviteSanitaireRegulee_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.219 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-08-18
+2026-08-19
 
 Liens:
 [Table des matières ](toc.md)|
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.219"
   }],
-  "version" : "20201127120000",
+  "version" : "20260827120000",
   "name" : "JDV_J133_ActiviteSanitaireRegulee_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2020-11-27T12:00:00+01:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS",
   "jurisdiction" : [{
@@ -363,6 +363,54 @@ Liens:
       {
         "code" : "T8",
         "display" : "SSRS - Viroses chroniques"
+      },
+      {
+        "code" : "A8",
+        "display" : "Greffe de face ou de face inférieure"
+      },
+      {
+        "code" : "A9",
+        "display" : "Greffe unilatérale ou bilatérale de main"
+      },
+      {
+        "code" : "B0",
+        "display" : "Prélèvement de cellules mononuclées autologues"
+      },
+      {
+        "code" : "B1",
+        "display" : "Prélèvement de cellules mononuclées allogéniques"
+      },
+      {
+        "code" : "C1",
+        "display" : "Greffe unilatérale ou bilatérale d'avant-bras"
+      },
+      {
+        "code" : "C3",
+        "display" : "Greffe unilatérale ou bilatérale de bras"
+      },
+      {
+        "code" : "D1",
+        "display" : "Greffe de membre inférieur"
+      },
+      {
+        "code" : "F4",
+        "display" : "Greffe de langue"
+      },
+      {
+        "code" : "F9",
+        "display" : "Greffe de pénis"
+      },
+      {
+        "code" : "H2",
+        "display" : "Greffe de paroi abdominale"
+      },
+      {
+        "code" : "H3",
+        "display" : "Greffe de tissus cutanés conjonctifs et vasculo- nerveux"
+      },
+      {
+        "code" : "S8",
+        "display" : "Maison de naissance"
       }]
     }]
   }
