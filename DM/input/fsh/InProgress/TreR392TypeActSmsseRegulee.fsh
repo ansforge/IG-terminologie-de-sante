@@ -4221,7 +4221,7 @@ Title: "Tre R392 Type Act Smsse Regulee"
 * #30024 ^property[+].code = #modaliteActivite
 * #30024 ^property[=].valueCoding = $tre-r405-modalite-activite-smsse-regulee#76
 * #30024 ^property[+].code = #formeActivite
-* #30024 ^property[=].valueCoding = $tre-r406-forme-activite-smsse-regulee#21
+* #30024 ^property[=].valueCoding = $tre-r406-forme-activite-smsse-regulee#00
 * #30025 "AASA/A8/09/00"
 * #30025 ^property[0].code = #dateValid
 * #30025 ^property[=].valueDateTime = "2026-08-27T00:00:00+01:00"
