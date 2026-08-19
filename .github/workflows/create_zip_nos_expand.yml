@@ -87,10 +87,9 @@ jobs:
       - name: 🏃‍♂️ Run IG Publisher
         run: |
           cd ./igSource
-          java -Xmx6g \
-            -Dsun.net.client.defaultConnectTimeout=10000 \
-            -Dsun.net.client.defaultReadTimeout=30000 \
-            -jar ../publisher.jar -ig . -authorise-non-conformant-tx-servers
+          java -Xmx6g -jar ../publisher.jar -ig . \
+            -tx https://r4.ontoserver.csiro.au/fhir \
+            -authorise-non-conformant-tx-servers
 
 
       - name: Setup Python # Set Python version
