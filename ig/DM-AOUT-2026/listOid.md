@@ -353,7 +353,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR376TypeEvenementAdministratif | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif | 1.2.250.1.213.1.6.1.291 |
 | TreR377UsageAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse | 1.2.250.1.213.1.6.1.292 |
 | TreR378MotifArrete | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete | 1.2.250.1.213.1.6.1.293 |
-| TreR379SystemeInformation | http://hl7.org/fhir/us/example/CodeSystem/tre-r379-systeme-information | 1.2.250.1.213.1.6.1.294 |
+| TreR379SystemeInformation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information | 1.2.250.1.213.1.6.1.294 |
 | TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
 | TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |
 | TreR383MentionActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm | 1.2.250.1.213.1.6.1.298 |
