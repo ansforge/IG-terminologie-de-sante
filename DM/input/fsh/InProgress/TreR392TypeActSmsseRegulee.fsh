@@ -18,10 +18,14 @@ Alias: $tre-r402-activite-enseignement-regulee = https://smt.esante.gouv.fr/fhir
 CodeSystem: TreR392TypeActSmsseRegulee
 Id: tre-r392-type-act-smsse-regulee
 Title: "Tre R392 Type Act Smsse Regulee"
+Description: "Type activité SMSSE régulée"
 * ^meta.versionId = "4"
-* ^meta.lastUpdated = "2026-07-29T08:03:51.543+02:00"
+* ^meta.lastUpdated = "2026-07-30T14:11:19.571+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^url = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee
+* ^language = #fr-FR
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2026-06-29T00:00:00+01:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.374"
 * ^version = "20260827120000"

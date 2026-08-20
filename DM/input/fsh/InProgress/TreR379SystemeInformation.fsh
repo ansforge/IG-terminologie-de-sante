@@ -9,7 +9,7 @@ Remarque : Cette TRE est initialisée avec les codes FINESS"""
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = http://hl7.org/fhir/us/example/CodeSystem/tre-r379-systeme-information
+* ^url = "http://hl7.org/fhir/us/example/CodeSystem/tre-r379-systeme-information"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.294"
 * ^version = "20260827120000"
