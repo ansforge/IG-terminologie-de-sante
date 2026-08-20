@@ -878,11 +878,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de face ou de face inférieure",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -894,11 +894,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe unilatérale ou bilatérale de main",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -910,11 +910,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Prélèvement de cellules mononuclées autologues",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -926,11 +926,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Prélèvement de cellules mononuclées allogéniques",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -942,11 +942,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe unilatérale ou bilatérale d'avant-bras",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -958,11 +958,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe unilatérale ou bilatérale de bras",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -974,11 +974,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de membre inférieur",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -990,11 +990,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de langue",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1006,11 +1006,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de pénis",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1022,11 +1022,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de paroi abdominale",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1038,11 +1038,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Greffe de tissus cutanés conjonctifs et vasculo- nerveux",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1310,11 +1310,11 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "display" : "Maison de naissance",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-08-27T12:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
