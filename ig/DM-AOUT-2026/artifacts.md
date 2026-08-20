@@ -1257,7 +1257,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
-| [Tre R392 Type Act Smsse Regulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) |  |
+| [Tre R392 Type Act Smsse Regulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
 | [Tre R395 Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention |

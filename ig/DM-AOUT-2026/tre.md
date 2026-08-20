@@ -326,7 +326,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/03/2026 | active |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 | active |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 | active |
-| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) |  | 27/08/2026 | active |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 27/08/2026 | active |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 | active |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 | active |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention | 29/06/2026 | active |

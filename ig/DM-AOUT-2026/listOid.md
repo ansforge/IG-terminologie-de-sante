@@ -342,7 +342,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
 | TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
 | TreR364TypeDocumentAdministratif | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif | 1.2.250.1.213.1.6.1.258 |
-| TreR365EtatObjet | http://hl7.org/fhir/us/example/CodeSystem/tre-r365-etat-objet | 1.2.250.1.213.1.6.1.259 |
+| TreR365EtatObjet | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet | 1.2.250.1.213.1.6.1.259 |
 | TreR366TypeObjet | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet | 1.2.250.1.213.1.6.1.260 |
 | TreR370RoleRelationEge | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege | 1.2.250.1.213.1.6.1.286 |
 | TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
@@ -364,7 +364,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR388TypeLogement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | 1.2.250.1.213.1.6.1.303 |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
-| TreR392TypeActSmsseRegulee | http://hl7.org/fhir/us/example/CodeSystem/tre-r392-type-act-smsse-regulee | 1.2.250.1.213.1.6.1.374 |
+| TreR392TypeActSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | 1.2.250.1.213.1.6.1.374 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |

@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r365-etat-objet | *Version*:20260827120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet | *Version*:20260827120000 | |
 | Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR365EtatObjet |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.259 | | |
 
@@ -17,7 +17,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [Jdv J371 Etat Objet Administratif Finess](ValueSet-jdv-j371-etat-objet-administratif-finess.md)
 
 
 
@@ -39,7 +39,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
       "start" : "1900-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r365-etat-objet",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.259"

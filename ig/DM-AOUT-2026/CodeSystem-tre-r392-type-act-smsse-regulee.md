@@ -8,9 +8,12 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260827120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260827120000 | |
 | Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.374 | | |
+
+ 
+Type activité SMSSE régulée 
 
 ### Récupération de l’ensemble des types d’activités avec leurs propriétés
 
@@ -89,7 +92,16 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [Vs Tre R392 Type Act Smsse Regulee All](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md)
+* [Jdv J322 Type Act Enseignement Regulee Finess](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md)
+* [Jdv J331 Type Act Sociale Regulee Finess](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md)
+* [Jdv J332 Type Act Medico Sociale Regulee Finess](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md)
+* [Jdv J336 Type Act Sanitaire Diverse Regulee Finess](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md)
+* [Jdv J340 Type Act De Soin Amf Finess](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md)
+* [Jdv J341 Type Act Autre Acte Soin Finess](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md)
+* [Jdv J342 Type Act Soumise A Reconnaissance Finess](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md)
+* [Jdv J344 Type Act Equipement Materiel Lourd Finess](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md)
+* [Jdv J350 Type Act De Soin Amm Finess](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md)
 
 
 
@@ -101,10 +113,17 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
     "versionId" : "4",
-    "lastUpdated" : "2026-07-29T08:03:51.543+02:00",
+    "lastUpdated" : "2026-07-30T14:11:19.571+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r392-type-act-smsse-regulee",
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-06-29T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.374"
@@ -116,6 +135,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "experimental" : false,
   "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Type activité SMSSE régulée",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
