@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms | *Version*:20260601120000 | |
-| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ408OrientationMs |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms | *Version*:20260827120000 | |
+| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ408OrientationMs |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.248 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-08-20
+2026-08-21
 
 Liens:
 [Table des matières ](toc.md)|
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.248"
   }],
-  "version" : "20260601120000",
+  "version" : "20260827120000",
   "name" : "JdvJ408OrientationMs",
   "title" : "Jdv J408 Orientation Ms",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
   "jurisdiction" : [{
@@ -119,7 +119,7 @@ Liens:
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
       "concept" : [{
         "code" : "UEA",
         "display" : "Unité d'enseignement élémentaire autisme"
