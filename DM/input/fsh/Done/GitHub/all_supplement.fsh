@@ -5305,3 +5305,47 @@ Description: "Traduction Française"
 * #URTH ^designation.use =  $sct#900000000000013009
 * #URTH ^designation.value = "Urètre"
 
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr"
+* ^version = "1.0"
+* ^status = #draft
+* ^experimental = true
+* ^date = "2026-08-24T16:40:38+11:00"
+* ^content = #supplement
+* ^supplements = "http://hl7.org/fhir/days-of-week"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
+
+* #mon
+* #mon ^designation.language = #fr-FR
+* #mon ^designation.use =  $sct#900000000000013009
+* #mon ^designation.value = "lundi"
+
+* #tue
+* #tue ^designation.language = #fr-FR
+* #tue ^designation.use =  $sct#900000000000013009
+* #tue ^designation.value = "mardi"
+
+* #wed
+* #wed ^designation.language = #fr-FR
+* #wed ^designation.use =  $sct#900000000000013009
+* #wed ^designation.value = "mercredi"
+
+* #thu
+* #thu ^designation.language = #fr-FR
+* #thu ^designation.use =  $sct#900000000000013009
+* #thu ^designation.value = "jeudi"
+
+* #fri
+* #fri ^designation.language = #fr-FR
+* #fri ^designation.use =  $sct#900000000000013009
+* #fri ^designation.value = "vendredi"
+
+* #sat
+* #sat ^designation.language = #fr-FR
+* #sat ^designation.use =  $sct#900000000000013009
+* #sat ^designation.value = "samedi"
+
+* #sun
+* #sun ^designation.language = #fr-FR
+* #sun ^designation.use =  $sct#900000000000013009
+* #sun ^designation.value = "dimanche"
