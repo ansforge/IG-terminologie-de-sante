@@ -400,5 +400,5 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
 | TreR436OrigineInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice | 1.2.250.1.213.1.6.1.402 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
-| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
+| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr |  |
 

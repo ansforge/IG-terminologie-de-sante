@@ -34,5 +34,5 @@ Les suppléments de système de code contiennent des informations qui peuvent de
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [SubstanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française | 24/10/2025 |
-| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/08/2026 |
 

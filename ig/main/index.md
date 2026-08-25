@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.12.0 |
-| Active as of 2026-08-24 | *Computable Name*:Terminologies |
+| Active as of 2026-08-25 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -88,7 +88,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * © World Health Organization (WHO) 2019-2026. Licensed under CC BY-ND 3.0 IGO. ICD-11 for Mortality and Morbidity Statistics.
 
-* [CIE-11 para Estadísticas de Mortalidad y Morbilidad (MMS) - Español](https://tx.hl7chile.cl/r4/ValueSet/icd11-mms-es): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
+* [ICD-11 for Mortality and Morbidity Statistics (MMS)](https://tx.hl7chile.cl/r4/ValueSet/icd11-mms): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
 
 
 * [CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) 
@@ -182,7 +182,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [ParticipationType](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ParticipationType.html): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md), [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md) and [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md)
 * [RoleClass](http://terminology.hl7.org/7.3.0/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md), [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md), [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) and [RoleCode](CodeSystem-v3-RoleCode.md)
 * [RoleCode](http://terminology.hl7.org/7.3.0/CodeSystem-v3-RoleCode.html): [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md), [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)... Show 5 more, [JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md), [JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md), [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md), [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) and [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
-* [SpecimenType](http://terminology.hl7.org/7.3.0/CodeSystem-v3-SpecimenType.html): [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md), [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md), [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md), [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md) and [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md)
+* [SpecimenType](http://terminology.hl7.org/7.3.0/CodeSystem-v3-SpecimenType.html): [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md), [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md), [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md) and [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
 * [TimingEvent](http://terminology.hl7.org/7.3.0/CodeSystem-v3-TimingEvent.html): [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) and [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md)
 * [Media Type](http://terminology.hl7.org/7.3.0/CodeSystem-v3-mediaType.html): [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md), [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) and [MediaTypeSupplementFr](CodeSystem-mediaType-supplement-fr.md)
 * [Orderable Drug Form](http://terminology.hl7.org/7.3.0/CodeSystem-v3-orderableDrugForm.html): [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) and [OrderableDrugFormSupplementFr](CodeSystem-orderableDrugForm-supplement-fr.md)
@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-08-24T04:43:24+00:00",
+  "date" : "2026-08-25T04:38:28+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
