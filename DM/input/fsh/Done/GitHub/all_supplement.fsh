@@ -5305,6 +5305,14 @@ Description: "Traduction Française"
 * #URTH ^designation.use =  $sct#900000000000013009
 * #URTH ^designation.value = "Urètre"
 
+
+
+CodeSystem: DaysOfWeekSupplementFr
+Id: days-of-week-supplement-fr
+Title: "DaysOfWeekSupplementFr"
+Description: "Traduction Française"
+
+
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr"
 * ^version = "1.0"
 * ^status = #draft
