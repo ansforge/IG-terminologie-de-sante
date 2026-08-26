@@ -940,6 +940,7 @@ These define new code systems used by systems conforming to this implementation 
 | [ConditionVerificationStatus](CodeSystem-condition-ver-status.md) | The verification status to support or decline the clinical status of the condition or diagnosis. |
 | [Confidentiality](CodeSystem-v3-Confidentiality.md) | A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain “Confidentiality”. |
 | [Confidentiality SupplementFr](CodeSystem-Confidentiality-supplement-fr.md) | Traduction Française |
+| [DaysOfWeekSupplementFr](CodeSystem-days-of-week-supplement-fr.md) | Traduction Française |
 | [Dictionnaire européen multilingue des substances entrant dans la composition de médicaments](CodeSystem-terminologie-sms.md) | Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire. |
 | [EmploymentStatusSupplementFr](CodeSystem-employmentStatus-supplement-fr.md) | Traduction Française |
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. |

@@ -55,7 +55,7 @@ Expansions are not generated for retired value sets
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-08-25
+2026-08-26
 
 Liens:
 [Table des matières ](toc.md)|

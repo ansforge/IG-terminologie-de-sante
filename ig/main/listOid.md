@@ -40,6 +40,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | ConditionVerificationStatus | http://terminology.hl7.org/CodeSystem/condition-ver-status | 2.16.840.1.113883.4.642.1.1075 |
 | Confidentiality | http://terminology.hl7.org/CodeSystem/v3-Confidentiality | 2.16.840.1.113883.5.25 |
 | ConfidentialitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr |  |
+| DaysOfWeekSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr |  |
 | Dictionnaire_SMS_Substance_Management_Services_ | https://smt.esante.gouv.fr/terminologie-sms | 2.16.840.1.113883.3.6905.2 |
 | EMDN | https://smt.esante.gouv.fr/terminologie-emdn | 1.2.250.1.213.2.68 |
 | EmploymentStatus | http://terminology.hl7.org/CodeSystem/v2-0066 | 2.16.840.1.113883.18.26 |
@@ -400,5 +401,5 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
 | TreR436OrigineInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice | 1.2.250.1.213.1.6.1.402 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
-| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr |  |
+| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

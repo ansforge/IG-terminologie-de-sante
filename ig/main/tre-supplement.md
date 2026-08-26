@@ -21,6 +21,7 @@ Les suppléments de système de code contiennent des informations qui peuvent de
 | [ConditionClinicalSupplementFr](CodeSystem-condition-clinical-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [ConditionVerStatusSupplementFr](CodeSystem-condition-ver-status-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [ConfidentialitySupplementFr](CodeSystem-Confidentiality-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [DaysOfWeekSupplementFr](CodeSystem-days-of-week-supplement-fr.md) | Traduction Française | 24/08/2026 |
 | [EmploymentStatusSupplementFr](CodeSystem-employmentStatus-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [MediaTypeSupplementFr](CodeSystem-mediaType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [ObservationInterpretationSupplementFr](CodeSystem-ObservationInterpretation-supplement-fr.md) | Traduction Française | 24/10/2025 |
@@ -34,5 +35,5 @@ Les suppléments de système de code contiennent des informations qui peuvent de
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [SubstanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française | 24/10/2025 |
-| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/08/2026 |
+| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 

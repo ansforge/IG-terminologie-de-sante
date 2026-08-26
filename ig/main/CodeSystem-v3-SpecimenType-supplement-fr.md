@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr | *Version*:1.0 |
-| Draft as of 2026-08-24 | *Computable Name*:V3SpecimenTypeSupplementFr |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr | *Version*:1.0 |
+| Draft as of 2025-10-24 | *Computable Name*:V3SpecimenTypeSupplementFr |
 
  
 Traduction Française 
@@ -30,13 +30,13 @@ Traduction Française
     "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
     "valueCode" : "lang-pack"
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/days-of-week-supplement-fr",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr",
   "version" : "1.0",
   "name" : "V3SpecimenTypeSupplementFr",
   "title" : "V3SpecimenTypeSupplementFr",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-08-24T16:40:38+11:00",
+  "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
   "jurisdiction" : [{
     "coding" : [{
@@ -45,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://hl7.org/fhir/days-of-week",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
   "concept" : [{
     "code" : "BLDC",
     "display" : "Sang capillaire",
@@ -375,83 +375,6 @@ Traduction Française
         "code" : "900000000000013009"
       },
       "value" : "Urètre"
-    }]
-  },
-  {
-    "code" : "mon",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "lundi"
-    }]
-  },
-  {
-    "code" : "tue",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "mardi"
-    }]
-  },
-  {
-    "code" : "wed",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "mercredi"
-    }]
-  },
-  {
-    "code" : "thu",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "jeudi"
-    }]
-  },
-  {
-    "code" : "fri",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "vendredi"
-    }]
-  },
-  {
-    "code" : "sat",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "samedi"
-    }]
-  },
-  {
-    "code" : "sun",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "dimanche"
     }]
   }]
 }
