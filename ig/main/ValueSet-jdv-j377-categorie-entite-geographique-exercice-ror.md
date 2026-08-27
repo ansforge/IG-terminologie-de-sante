@@ -1,4 +1,4 @@
-# Jdv J377 Categorie Entite Geographique Exercice Ror - Terminologies de Santé v1.12.0
+# Jdv J377 Categorie Entite Geographique Exercice Ror - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.12.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-08-26
+2026-08-27
 
 Liens:
 [Table des matières ](toc.md)|

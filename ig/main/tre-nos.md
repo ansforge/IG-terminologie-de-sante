@@ -1,4 +1,4 @@
-# Terminologies du NOS - Terminologies de Santé v1.12.0
+# Terminologies du NOS - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -16,7 +16,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 | active |
 | [TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+ | 30/03/2026 | active |
 | [TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS | 29/06/2026 | active |
-| [TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+ | 29/06/2026 | active |
+| [TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+ | 27/08/2026 | active |
 | [TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ | 29/06/2026 | active |
 | [TreR370RoleRelationEge](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE | 05/05/2026 | active |
 | [TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique | 30/03/2026 | active |
@@ -27,7 +27,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR376TypeEvenementAdministratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+ | 29/06/2026 | active |
 | [TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée avec les codes FINESS. | 29/06/2026 | active |
 | [TreR378MotifArrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ | 29/06/2026 | active |
-| [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS | 29/06/2026 | active |
+| [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS | 27/08/2026 | active |
 | [TreR381ActiviteAmm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM | 30/03/2026 | active |
 | [TreR382ModaliteActDeSoinAmm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM | 30/03/2026 | active |
 | [TreR383MentionActDeSoinAmm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM | 30/03/2026 | active |
@@ -38,7 +38,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/03/2026 | active |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 | active |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 | active |
-| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 30/07/2026 | active |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 27/08/2026 | active |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 | active |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 | active |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention | 29/06/2026 | active |
@@ -242,7 +242,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R270_AvailabilityStatus](CodeSystem-TRE-R270-AvailabilityStatus.md) | Statut de l'objet | 15/12/2023 | active |
 | [TRE_R271_TypeRequete](CodeSystem-TRE-R271-TypeRequete.md) | Code de type requêtes | 15/12/2023 | active |
 | [TRE_R272_EquipementMaterielLourd](CodeSystem-TRE-R272-EquipementMaterielLourd.md) | Equipements Matériels Lourds | 15/12/2023 | active |
-| [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) | Activités sanitaires soumises à une régulation de la part de l'ARS | 15/12/2023 | active |
+| [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) | Activités sanitaires soumises à une régulation de la part de l'ARS | 27/08/2026 | active |
 | [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md) | Mode d'application ou type de soins encadrant une activité | 15/12/2023 | active |
 | [TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md) | Type d'organisation de prise en charge | 29/03/2024 | active |
 | [TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md) | Convention du domaine social FINESS | 31/01/2025 | active |

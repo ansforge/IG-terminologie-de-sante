@@ -1,4 +1,4 @@
-# Classification internationale des soins primaires - 2ème version - Terminologies de Santé v1.12.0
+# Classification internationale des soins primaires - 2ème version - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

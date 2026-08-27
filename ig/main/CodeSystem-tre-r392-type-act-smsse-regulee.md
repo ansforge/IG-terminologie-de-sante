@@ -1,4 +1,4 @@
-# Tre R392 Type Act Smsse Regulee - Terminologies de Santé v1.12.0
+# Tre R392 Type Act Smsse Regulee - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260827120000 | |
+| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.374 | | |
 
  
@@ -112,8 +112,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "resourceType" : "CodeSystem",
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-07-29T08:03:51.543+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-08-27T15:13:54.837+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -128,12 +128,12 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.374"
   }],
-  "version" : "20260730120000",
+  "version" : "20260827120000",
   "name" : "TreR392TypeActSmsseRegulee",
   "title" : "Tre R392 Type Act Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type activité SMSSE régulée",
   "jurisdiction" : [{
@@ -145,7 +145,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 4877,
+  "count" : 4914,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -12257,6 +12257,1458 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
         "code" : "21"
+      }
+    }]
+  },
+  {
+    "code" : "30024",
+    "display" : "AASA/A8/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A8"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30025",
+    "display" : "AASA/A8/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A8"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30026",
+    "display" : "AASA/A8/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A8"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30027",
+    "display" : "AASA/A9/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30028",
+    "display" : "AASA/A9/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30029",
+    "display" : "AASA/A9/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "A9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30030",
+    "display" : "AASA/B0/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "B0"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30031",
+    "display" : "AASA/B0/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "B0"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30032",
+    "display" : "AASA/B1/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "B1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30033",
+    "display" : "AASA/B1/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "B1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30034",
+    "display" : "AASA/C1/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30035",
+    "display" : "AASA/C1/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30036",
+    "display" : "AASA/C1/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30037",
+    "display" : "AASA/C3/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30038",
+    "display" : "AASA/C3/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30039",
+    "display" : "AASA/C3/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "C3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30040",
+    "display" : "AASA/D1/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "D1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30041",
+    "display" : "AASA/D1/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "D1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30042",
+    "display" : "AASA/D1/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "D1"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30043",
+    "display" : "AASA/F4/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F4"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30044",
+    "display" : "AASA/F4/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F4"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30045",
+    "display" : "AASA/F4/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F4"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30046",
+    "display" : "AASA/F9/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30047",
+    "display" : "AASA/F9/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30048",
+    "display" : "AASA/F9/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "F9"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30049",
+    "display" : "AASA/H2/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H2"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30050",
+    "display" : "AASA/H2/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H2"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30051",
+    "display" : "AASA/H2/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H2"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30052",
+    "display" : "AASA/H3/09/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "09"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30053",
+    "display" : "AASA/H3/10/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "10"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30054",
+    "display" : "AASA/H3/76/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "H3"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "76"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30055",
+    "display" : "AASA/S8/00/00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "S8"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "00"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "00"
+      }
+    }]
+  },
+  {
+    "code" : "30056",
+    "display" : "AASA/03/05/08",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AASA"
+      }
+    },
+    {
+      "code" : "activiteSanitaireRegulee",
+      "valueCoding" : {
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+        "code" : "03"
+      }
+    },
+    {
+      "code" : "modaliteActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+        "code" : "05"
+      }
+    },
+    {
+      "code" : "formeActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "code" : "08"
       }
     }]
   },
@@ -232903,6 +234355,182 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "code" : "811"
+      }
+    }]
+  },
+  {
+    "code" : "81061",
+    "display" : "ASOCR/246/21/824",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASOCR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "246"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "21"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "824"
+      }
+    }]
+  },
+  {
+    "code" : "81062",
+    "display" : "ASOCR/246/21/835",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASOCR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "246"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "21"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "835"
+      }
+    }]
+  },
+  {
+    "code" : "81063",
+    "display" : "ASOCR/247/21/824",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASOCR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "247"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "21"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "824"
+      }
+    }]
+  },
+  {
+    "code" : "81064",
+    "display" : "ASOCR/247/21/835",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASOCR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "247"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "21"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "835"
       }
     }]
   }]

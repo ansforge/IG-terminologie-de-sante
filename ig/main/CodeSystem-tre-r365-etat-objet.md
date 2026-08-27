@@ -1,4 +1,4 @@
-# Tre R365 Etat Objet - Terminologies de Santé v1.12.0
+# Tre R365 Etat Objet - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR365EtatObjet |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet | *Version*:20260827120000 | |
+| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR365EtatObjet |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.259 | | |
 
  
@@ -28,8 +28,8 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   "resourceType" : "CodeSystem",
   "id" : "tre-r365-etat-objet",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-07-06T20:13:55+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-08-27T15:13:05+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.259"
   }],
-  "version" : "20260629120000",
+  "version" : "20260827120000",
   "name" : "TreR365EtatObjet",
   "title" : "Tre R365 Etat Objet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
   "jurisdiction" : [{
@@ -497,14 +497,14 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   },
   {
     "code" : "018",
-    "display" : "EGE fermée suite à cession",
+    "display" : "EGE cédée",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",
