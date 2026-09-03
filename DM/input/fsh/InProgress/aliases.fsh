@@ -1,5 +1,5 @@
 Alias: $loinc = http://loinc.org
-Alias: $dcmuid : "http://dicom.nema.org/resources/ontology/DCMUID"
+Alias: $dcmuid = "http://dicom.nema.org/resources/ontology/DCMUID"
 Alias: $v3-Confidentiality = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
 Alias: $v3-ActCode = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
 Alias: $TRE-A00-ProducteurDocNonPS = https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS
