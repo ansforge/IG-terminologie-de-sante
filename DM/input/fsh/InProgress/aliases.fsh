@@ -19,6 +19,8 @@ Alias: $TRE-A10-NomenclatureURN = https://mos.esante.gouv.fr/NOS/TRE_A10-Nomencl
 Alias: $TRE-A05-TypeDocComplementaire = https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire
 Alias: $loinc = http://loinc.org
 Alias: $dcmuid : "http://dicom.nema.org/resources/ontology/DCMUID"
+Alias: $v3-Confidentiality = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+Alias: $v3-ActCode = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
 Alias: $TRE-A12-NomenclatureASTM = https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM
 Alias: $TRE-A08-HL7Confidentiality = https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality
 Alias: $TRE-A07-StatutVisibiliteDocument = https://mos.esante.gouv.fr/NOS/TRE_A07-StatutVisibiliteDocument/FHIR/TRE-A07-StatutVisibiliteDocument
