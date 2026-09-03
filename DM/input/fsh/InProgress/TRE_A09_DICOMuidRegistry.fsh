@@ -9,10 +9,10 @@ Description: "DICOM UID Registry"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.840.10008.2.6.1"
-* ^version = "20231215120000"
-* ^status = #active
+* ^version = "20260928120000"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
