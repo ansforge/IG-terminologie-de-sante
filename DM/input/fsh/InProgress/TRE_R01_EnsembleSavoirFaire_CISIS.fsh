@@ -10,10 +10,10 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.4.2.5"
-* ^version = "20260730120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-07-30T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -2130,63 +2130,59 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SCH60 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #SCH60 ^property[+].code = #status
 * #SCH60 ^property[=].valueCode = #deprecated
-* #SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+* #SI01 "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)" "Suivi des patients chroniques (diabète, HTA, insuffisance cardiaque...), prévention, coordination des parcours, en complémentarité avec le médecin et les autres professionnels de santé."
 * #SI01 ^designation[0].language = #fr-FR
 * #SI01 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI01 ^designation[=].use = $sct#900000000000013009
-* #SI01 ^designation[=].value = "IPA pathologies chroniques"
+* #SI01 ^designation[=].value = "IPA Pathologies chroniques stabilisées"
 * #SI01 ^property[0].code = #dateValid
 * #SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI01 ^property[+].code = #dateMaj
-* #SI01 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #SI01 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #SI01 ^property[+].code = #status
 * #SI01 ^property[=].valueCode = #active
-* #SI02 "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+* #SI02 "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)" "Prise en charge des cancers et maladies du sang, administration de traitements, gestion des effets secondaires, en complémentarité avec le médecin et les autres professionnels de santé."
 * #SI02 ^designation[0].language = #fr-FR
 * #SI02 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI02 ^designation[=].use = $sct#900000000000013009
-* #SI02 ^designation[=].value = "IPA oncologie"
+* #SI02 ^designation[=].value = "IPA Oncologie et hémato-oncologie"
 * #SI02 ^property[0].code = #dateValid
 * #SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI02 ^property[+].code = #dateMaj
-* #SI02 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #SI02 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #SI02 ^property[+].code = #status
 * #SI02 ^property[=].valueCode = #active
-* #SI03 "Exerc. infirmier pratique avancée maladie rénale chroniq., dialyse, transp. rénale (SI)"
+* #SI03 "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)" "Suivi des patients insuffisants rénaux, gestion de la dialyse, accompagnement à la transplantation, en complémentarité avec le médecin et les autres professionnels de santé."
 * #SI03 ^designation[0].language = #fr-FR
 * #SI03 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI03 ^designation[=].use = $sct#900000000000013009
-* #SI03 ^designation[=].value = "IPA maladie rénale"
-* #SI03 ^designation[+].language = #fr-FR
-* #SI03 ^designation[=].use.system = "http://snomed.info/sct"
-* #SI03 ^designation[=].use = $sct#900000000000013009
-* #SI03 ^designation[=].value = "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+* #SI03 ^designation[=].value = "IPA Maladie rénale chronique, dialyse, transplantation rénale"
 * #SI03 ^property[0].code = #dateValid
 * #SI03 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI03 ^property[+].code = #dateMaj
-* #SI03 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #SI03 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #SI03 ^property[+].code = #status
 * #SI03 ^property[=].valueCode = #active
-* #SI04 "Exercice infirmier en pratique avancée santé mentale (SI)"
+* #SI04 "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)" "Suivi des troubles psychiatriques, entretiens cliniques, prescription de psychotropes, coordination des soins, en complémentarité avec le médecin et les autres professionnels de santé."
 * #SI04 ^designation[0].language = #fr-FR
 * #SI04 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI04 ^designation[=].use = $sct#900000000000013009
-* #SI04 ^designation[=].value = "IPA santé mentale"
+* #SI04 ^designation[=].value = "IPA Psychiatrie et santé mentale"
 * #SI04 ^property[0].code = #dateValid
 * #SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #SI04 ^property[+].code = #dateMaj
-* #SI04 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
+* #SI04 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #SI04 ^property[+].code = #status
 * #SI04 ^property[=].valueCode = #active
-* #SI05 "Exercice infirmier en pratique avancée urgences (SI)" "Le décret n°2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers (IPA) dans le domaine d'intervention des urgences a inscrit les « urgences » comme nouveau domaine d'intervention de l'infirmier en pratique avancé. C'est le 5e domaine d'exercice des IPA ainsi acté (après pathologies chroniques stabilisées ; oncologie et hémato-oncologie ; maladie rénale chronique, dialyse et transplantation rénale ; santé mentale)."
+* #SI05 "Infirmier(ère) en pratique avancée Urgences (SI)" "Prise en charge des situations d'urgence, gestes techniques, gestion du stress, collaboration avec urgentistes, en complémentarité avec le médecin et les autres professionnels de santé."
 * #SI05 ^designation[0].language = #fr-FR
 * #SI05 ^designation[=].use.system = "http://snomed.info/sct"
 * #SI05 ^designation[=].use = $sct#900000000000013009
-* #SI05 ^designation[=].value = "IPA urgences"
+* #SI05 ^designation[=].value = "IPA Urgences"
 * #SI05 ^property[0].code = #dateValid
 * #SI05 ^property[=].valueDateTime = "2022-08-26T12:00:00+01:00"
 * #SI05 ^property[+].code = #dateMaj
-* #SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #SI05 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #SI05 ^property[+].code = #status
 * #SI05 ^property[=].valueCode = #active
 * #SI06 "Infirmier(ère) de bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
