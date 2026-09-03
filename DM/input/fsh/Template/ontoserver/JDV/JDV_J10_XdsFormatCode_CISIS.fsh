@@ -1,8 +1,8 @@
 ValueSet: JDV_J10_XdsFormatCode_CISIS
 Id: JDV-J10-XdsFormatCode-CISIS
 Description: "XDS formatCode documents CI-SIS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-11-04T19:01:58.541+01:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:04:50.066+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "XDS formatCode documents CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.465"
-* ^version = "20251029120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-10-29T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:bio-ep-bio:2022 "Prescription d'actes de biologie médicale"
@@ -63,6 +63,11 @@ Description: "XDS formatCode documents CI-SIS"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:ft-su:2024 "Fiche de transfert vers le service des urgences"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:fr-su:2024 "Fiche de retour du service des urgences"
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:trod:2024 "Test rapide d'orientation diagnostique"
+* $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:mso-rougeole:2026 "Déclaration de maladie à signalement obligatoire : Rougeole"
+* $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:mso-dengue:2026 "Déclaration de maladie à signalement obligatoire : Dengue"
+* $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:mso-chikungunya:2026 "Déclaration de maladie à signalement obligatoire : Chikungunya"
+* $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:mso-zika:2026 "Déclaration de maladie à signalement obligatoire : Zika"
+* $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:mso-westnile:2026 "Déclaration de maladie à signalement obligatoire : West Nile"
 * $TRE-A11-IheFormatCode#urn:ihe:iti:dsg:detached:2014 "Signature détachée"
 * $TRE-A11-IheFormatCode#urn:ihe:iti:dsg:enveloping:2014 "Document signé avec une signature enveloppante"
 * $TRE-A11-IheFormatCode#urn:ihe:iti:xds-sd:pdf:2008 "Document à corps non structuré en Pdf/A-1"

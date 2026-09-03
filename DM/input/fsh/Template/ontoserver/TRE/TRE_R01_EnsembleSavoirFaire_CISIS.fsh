@@ -1,24 +1,24 @@
 CodeSystem: TRE_R01_EnsembleSavoirFaire_CISIS
 Id: TRE-R01-EnsembleSavoirFaire-CISIS
 Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-02-03T15:41:54.070+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2026-07-29T08:03:33.058+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-04-12T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.4.2.5"
-* ^version = "20260202120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-02T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 326
+* ^count = 329
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2190,6 +2190,39 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SI05 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SI05 ^property[+].code = #status
 * #SI05 ^property[=].valueCode = #active
+* #SI06 "Infirmier(ère) de bloc opératoire (SI)" "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive."
+* #SI06 ^designation[0].language = #fr-FR
+* #SI06 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI06 ^designation[=].use = $sct#900000000000013009
+* #SI06 ^designation[=].value = "IBODE"
+* #SI06 ^property[0].code = #dateValid
+* #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI06 ^property[+].code = #dateMaj
+* #SI06 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI06 ^property[+].code = #status
+* #SI06 ^property[=].valueCode = #active
+* #SI07 "Infirmier(ère) anesthésiste (SI)" "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle."
+* #SI07 ^designation[0].language = #fr-FR
+* #SI07 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI07 ^designation[=].use = $sct#900000000000013009
+* #SI07 ^designation[=].value = "IADE"
+* #SI07 ^property[0].code = #dateValid
+* #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI07 ^property[+].code = #dateMaj
+* #SI07 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI07 ^property[+].code = #status
+* #SI07 ^property[=].valueCode = #active
+* #SI08 "Infirmier(ère) puériculteur(trice)" "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements."
+* #SI08 ^designation[0].language = #fr-FR
+* #SI08 ^designation[=].use.system = "http://snomed.info/sct"
+* #SI08 ^designation[=].use = $sct#900000000000013009
+* #SI08 ^designation[=].value = "IPDE"
+* #SI08 ^property[0].code = #dateValid
+* #SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI08 ^property[+].code = #dateMaj
+* #SI08 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #SI08 ^property[+].code = #status
+* #SI08 ^property[=].valueCode = #active
 * #SM01 "Anatomie et Cytologie pathologiques (SM)" "Le décret n° 2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers, dans le domaine d'intervention des urgences, publié au Journal officiel ce 26 octobre, précise les modalités de l'exercice en pratique avancée de la profession d'infirmier dans le domaine spécifique d'intervention des urgences.  Ce nouveau domaine d'intervention est ouvert à l'exercice infirmier en pratique avancée à la condition que l'activité soit exercée par un établissement de santé disposant d'une autorisation d'activité de soins de médecine d'urgence donnée en application de l'article R. 6123-1."
 * #SM01 ^designation[0].language = #fr-FR
 * #SM01 ^designation[=].use.system = "http://snomed.info/sct"

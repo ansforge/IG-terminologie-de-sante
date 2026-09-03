@@ -1,8 +1,8 @@
 CodeSystem: TRE_G09_DepartementOM
 Id: TRE-G09-DepartementOM
 Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-05-05T20:11:49.658+02:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T20:12:28.976+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

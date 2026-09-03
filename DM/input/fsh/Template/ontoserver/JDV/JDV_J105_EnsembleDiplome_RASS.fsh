@@ -1,8 +1,8 @@
 ValueSet: JDV_J105_EnsembleDiplome_RASS
 Id: JDV-J105-EnsembleDiplome-RASS
 Description: "Ensemble des diplômes et qualifications du RASS"
-* ^meta.versionId = "20"
-* ^meta.lastUpdated = "2026-05-05T19:02:34.186+02:00"
+* ^meta.versionId = "23"
+* ^meta.lastUpdated = "2026-07-29T10:33:47.321+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Ensemble des diplômes et qualifications du RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.173"
-* ^version = "20260223120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R54-DiplomeUniversiteInterUniversitaire#DIP02 "Doctorat de 3ème cycle sciences Odontologiques"
@@ -250,7 +250,7 @@ Description: "Ensemble des diplômes et qualifications du RASS"
 * $TRE-R58-AutreTypeDiplome#DIP317 "Validation d'un DPC Otologie médicale"
 * $TRE-R58-AutreTypeDiplome#DIP319 "Titre d'assistant dentaire"
 * $TRE-R58-AutreTypeDiplome#DIP321 "Diplôme d'Ostéopathe d'un établissement agréé pour la formation en Ostéopathie"
-* $TRE-R58-AutreTypeDiplome#DIP322 "Master en Psychologie ou Psychanalyse"
+* $TRE-R58-AutreTypeDiplome#DIP322 "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS"
 * $TRE-R58-AutreTypeDiplome#DIP323 "Master mention psychologie"
 * $TRE-R58-AutreTypeDiplome#DIP324 "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage"
 * $TRE-R58-AutreTypeDiplome#DIP325 "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage"

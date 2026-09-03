@@ -1,8 +1,8 @@
 ValueSet: JDV_J54_Profession_ROR
 Id: JDV-J54-Profession-ROR
 Description: "Profession de santé - ROR"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:06:36.169+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:06:40.370+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Profession de santé - ROR"
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"

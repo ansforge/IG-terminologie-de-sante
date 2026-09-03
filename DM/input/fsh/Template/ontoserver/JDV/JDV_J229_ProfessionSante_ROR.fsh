@@ -1,8 +1,8 @@
 ValueSet: JDV_J229_ProfessionSante_ROR
 Id: JDV-J229-ProfessionSante-ROR
 Description: "Type de caractéristique équipement"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-05-05T19:02:47.119+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-29T08:04:53.838+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Type de caractéristique équipement"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.61"
-* ^version = "20260330120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
@@ -46,3 +46,4 @@ Description: "Type de caractéristique équipement"
 * $TRE-G15-ProfessionSante#96 "Psychomotricien"
 * $TRE-G15-ProfessionSante#98 "Manipulateur ERM"
 * $TRE-R356-ProfessionRessource#86 "Infirmier en pratique avancée (IPA)"
+* $TRE-R356-ProfessionRessource#132 "Stomathérapeute"

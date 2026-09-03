@@ -1,19 +1,19 @@
 ValueSet: JDV_J107_EnsembleSavoirFaire_RASS
 Id: JDV-J107-EnsembleSavoirFaire-RASS
 Description: "Ensemble des savoir-faire et compétences du RASS"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-12-22T10:46:26.045+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-29T08:04:46.790+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.175"
-* ^version = "20251222120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R38-SpecialiteOrdinale#SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
@@ -21,6 +21,9 @@ Description: "Ensemble des savoir-faire et compétences du RASS"
 * $TRE-R38-SpecialiteOrdinale#SI03 "Exercice infirmier en pratique avancée maladie rénale chronique (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI04 "Exercice infirmier en pratique avancée santé mentale (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI05 "Exercice infirmier en pratique avancée urgences (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI06 "Infirmier(ère) de bloc opératoire (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI07 "Infirmier(ère) anesthésiste (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI08 "Infirmier(ère) puériculteur(trice)"
 * $TRE-R38-SpecialiteOrdinale#SCD01 "Orthopédie dento-faciale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD02 "Chirurgie orale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD03 "Médecine bucco-dentaire (SCD)"

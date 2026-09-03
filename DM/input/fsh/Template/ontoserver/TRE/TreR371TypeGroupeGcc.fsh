@@ -2,8 +2,8 @@ CodeSystem: TreR371TypeGroupeGcc
 Id: tre-r371-type-groupe-gcc
 Title: "Tre R371 Type Groupe Gcc"
 Description: "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:11+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:57+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

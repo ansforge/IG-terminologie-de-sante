@@ -1,8 +1,8 @@
 ValueSet: JDV_J56_AuthorSpecialty_DMP
 Id: JDV-J56-AuthorSpecialty-DMP
 Description: "Jeu de valeurs pour authorSpecialty"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T17:06:38.272+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:06:44.061+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Jeu de valeurs pour authorSpecialty"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
 * $TRE-A00-ProducteurDocNonPS#DISPOSITIF "Dispositif médical"
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"

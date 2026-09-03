@@ -2,8 +2,8 @@ CodeSystem: TreR375ModeFinancement
 Id: tre-r375-mode-financement
 Title: "Tre R375 Mode Financement"
 Description: "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:13+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:59+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

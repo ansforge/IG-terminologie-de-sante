@@ -1,8 +1,8 @@
 CodeSystem: TRE_R276_FormeActivite
 Id: TRE-R276-FormeActivite
 Description: "Type d'organisation de prise en charge"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:02.393+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:13:18.378+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Type d'organisation de prise en charge"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

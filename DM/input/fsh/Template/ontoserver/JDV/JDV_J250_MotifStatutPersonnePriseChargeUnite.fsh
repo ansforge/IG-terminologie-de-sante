@@ -1,8 +1,8 @@
 ValueSet: JDV_J250_MotifStatutPersonnePriseChargeUnite
 Id: JDV-J250-MotifStatutPersonnePriseChargeUnite
 Description: "Motif du statut de la personne prise en charge au sein d'une unité"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:10.771+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:18.107+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Motif du statut de la personne prise en charge au sein d'une unit�
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R358-MotifStatutPersonnePriseCharge#84 "Le demandeur ne remplit pas les exigences d'admission"
 * $TRE-R358-MotifStatutPersonnePriseCharge#85 "Volonté du demandeur"
 * $TRE-R358-MotifStatutPersonnePriseCharge#87 "L'usager est admis dans un autre ESMS suite à un déménagement"

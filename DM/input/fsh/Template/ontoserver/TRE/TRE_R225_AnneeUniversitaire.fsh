@@ -1,8 +1,8 @@
 CodeSystem: TRE_R225_AnneeUniversitaire
 Id: TRE-R225-AnneeUniversitaire
 Description: "Année universitaire"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-10-31T15:01:32.300+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:12:56.582+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Année universitaire"
 * ^experimental = false
 * ^date = "2025-10-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 21

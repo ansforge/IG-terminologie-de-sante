@@ -1,8 +1,8 @@
 ValueSet: JDV_J66_TypeCode_DMP
 Id: JDV-J66-TypeCode-DMP
 Description: "Jeu de valeurs pour métadonnée typeCode DMP"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T17:06:44.012+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:06:51.319+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Jeu de valeurs pour métadonnée typeCode DMP"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A05-TypeDocComplementaire#AUTORIS-SOINS "Autorisation de soins et actes non usuels sanitaires"
 * $TRE-A05-TypeDocComplementaire#ATTEST-RESID "Attestation de résidence"
 * $TRE-A05-TypeDocComplementaire#ATTEST-DROITS-AM "Attestation de droits à l'assurance maladie"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J137_Clientele_RASS
 Id: JDV-J137-Clientele-RASS
 Description: "Population prise en charge par l'établissement dans le cadre"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2026-05-05T19:02:39.751+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T19:05:08.245+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

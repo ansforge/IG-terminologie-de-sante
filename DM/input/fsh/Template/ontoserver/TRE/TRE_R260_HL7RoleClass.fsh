@@ -1,8 +1,8 @@
 CodeSystem: TRE_R260_HL7RoleClass
 Id: TRE-R260-HL7RoleClass
 Description: "Rôle de la personne point de contact auprès d'une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html)"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-02-03T15:41:55.811+01:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:11.874+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J190_GenreCapacite_ROR
 Id: JDV-J190-GenreCapacite-ROR
 Description: "Permet d'indiquer dans le ROR le genre des patients qui peuvent être installés dans des lits disponibles"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-10-02T19:02:00.435+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:05:45.662+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Permet d'indiquer dans le ROR le genre des patients qui peuvent ê
 * ^experimental = false
 * ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R332-GenreCapacite#01 "Femme"
 * $TRE-R332-GenreCapacite#02 "Homme"
 * $TRE-R332-GenreCapacite#04 "Indéterminé"

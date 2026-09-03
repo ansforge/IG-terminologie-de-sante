@@ -2,8 +2,8 @@ ValueSet: JdvJ364TypeFermeturePmFiness
 Id: jdv-j364-type-fermeture-pm-finess
 Title: "Jdv J364 Type Fermeture Pm Finess"
 Description: "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T19:02:20.271+02:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2026-07-07T17:48:18.340+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,5 +15,4 @@ Description: "Jeu de valeurs FINESS contenant les types de fermeture dédiées a
 * ^experimental = false
 * ^date = "2026-05-05T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * include codes from system $TRE-R286-TypeFermeture where TypeFermeturePmFiness = "true"

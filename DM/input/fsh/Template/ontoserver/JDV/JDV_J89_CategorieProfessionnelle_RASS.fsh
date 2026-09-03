@@ -1,8 +1,8 @@
 ValueSet: JDV_J89_CategorieProfessionnelle_RASS
 Id: JDV-J89-CategorieProfessionnelle-RASS
 Description: "Catégories professionnelles dans le RASS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T19:02:53.575+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:07:02.678+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J53_TypeRequeteGestionDossier_CISIS
 Id: JDV-J53-TypeRequeteGestionDossier-CISIS
 Description: "Code de requêtes de gestion de dossier CI-SIS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:35.391+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:39.689+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Code de requêtes de gestion de dossier CI-SIS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R271-TypeRequete#TEST_EXST "Test d'existence de dossier"
 * $TRE-R271-TypeRequete#CREA_RD "Création de dossier"
 * $TRE-R271-TypeRequete#CNSLT_DATA "Consultation des données de gestion de dossier"
