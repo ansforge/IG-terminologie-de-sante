@@ -1,0 +1,665 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R225-AnneeUniversitaire> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TRE-R225-AnneeUniversitaire"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "7" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:12:56.582+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R225-AnneeUniversitaire</b></p><a name=\"TRE-R225-AnneeUniversitaire\"> </a><a name=\"hcTRE-R225-AnneeUniversitaire\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 7; Dernière mise à jour : 2026-07-06 20:12:56+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">AU0809<a name=\"TRE-R225-AnneeUniversitaire-AU0809\"> </a></td><td>2008-2009</td><td>2025-10-09T00:00:00+01:00</td><td>2025-10-09T00:00:00+01:00</td><td>active</td><td>Année universitaire 2008-2009</td></tr><tr><td style=\"white-space:nowrap\">AU0910<a name=\"TRE-R225-AnneeUniversitaire-AU0910\"> </a></td><td>2009-2010</td><td>2025-10-09T00:00:00+01:00</td><td>2025-10-09T00:00:00+01:00</td><td>active</td><td>Année universitaire 2009-2010</td></tr><tr><td style=\"white-space:nowrap\">AU1011<a name=\"TRE-R225-AnneeUniversitaire-AU1011\"> </a></td><td>2010-2011</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2010-2011</td></tr><tr><td style=\"white-space:nowrap\">AU1112<a name=\"TRE-R225-AnneeUniversitaire-AU1112\"> </a></td><td>2011-2012</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2011-2012</td></tr><tr><td style=\"white-space:nowrap\">AU1213<a name=\"TRE-R225-AnneeUniversitaire-AU1213\"> </a></td><td>2012-2013</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2012-2013</td></tr><tr><td style=\"white-space:nowrap\">AU1314<a name=\"TRE-R225-AnneeUniversitaire-AU1314\"> </a></td><td>2013-2014</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2013-2014</td></tr><tr><td style=\"white-space:nowrap\">AU1415<a name=\"TRE-R225-AnneeUniversitaire-AU1415\"> </a></td><td>2014-2015</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2014-2015</td></tr><tr><td style=\"white-space:nowrap\">AU1516<a name=\"TRE-R225-AnneeUniversitaire-AU1516\"> </a></td><td>2015-2016</td><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td>active</td><td>Année universitaire 2015-2016</td></tr><tr><td style=\"white-space:nowrap\">AU1617<a name=\"TRE-R225-AnneeUniversitaire-AU1617\"> </a></td><td>2016-2017</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2016-2017</td></tr><tr><td style=\"white-space:nowrap\">AU1718<a name=\"TRE-R225-AnneeUniversitaire-AU1718\"> </a></td><td>2017-2018</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2017-2018</td></tr><tr><td style=\"white-space:nowrap\">AU1819<a name=\"TRE-R225-AnneeUniversitaire-AU1819\"> </a></td><td>2018-2019</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2018-2019</td></tr><tr><td style=\"white-space:nowrap\">AU1920<a name=\"TRE-R225-AnneeUniversitaire-AU1920\"> </a></td><td>2019-2020</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2019-2020</td></tr><tr><td style=\"white-space:nowrap\">AU2021<a name=\"TRE-R225-AnneeUniversitaire-AU2021\"> </a></td><td>2020-2021</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2020-2021</td></tr><tr><td style=\"white-space:nowrap\">AU2122<a name=\"TRE-R225-AnneeUniversitaire-AU2122\"> </a></td><td>2021-2022</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2021-2022</td></tr><tr><td style=\"white-space:nowrap\">AU2223<a name=\"TRE-R225-AnneeUniversitaire-AU2223\"> </a></td><td>2022-2023</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2022-2023</td></tr><tr><td style=\"white-space:nowrap\">AU2324<a name=\"TRE-R225-AnneeUniversitaire-AU2324\"> </a></td><td>2023-2024</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2023-2024</td></tr><tr><td style=\"white-space:nowrap\">AU2425<a name=\"TRE-R225-AnneeUniversitaire-AU2425\"> </a></td><td>2024-2025</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2024-2025</td></tr><tr><td style=\"white-space:nowrap\">AU2526<a name=\"TRE-R225-AnneeUniversitaire-AU2526\"> </a></td><td>2025-2026</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2025-2026</td></tr><tr><td style=\"white-space:nowrap\">AU2627<a name=\"TRE-R225-AnneeUniversitaire-AU2627\"> </a></td><td>2026-2027</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2026-2027</td></tr><tr><td style=\"white-space:nowrap\">AU2728<a name=\"TRE-R225-AnneeUniversitaire-AU2728\"> </a></td><td>2027-2028</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2027-2028</td></tr><tr><td style=\"white-space:nowrap\">AU2829<a name=\"TRE-R225-AnneeUniversitaire-AU2829\"> </a></td><td>2028-2029</td><td>2017-03-22T12:00:00+01:00</td><td>2017-03-22T12:00:00+01:00</td><td>active</td><td>Année universitaire 2028-2029</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.117" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20251009120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TRE_R225_AnneeUniversitaire"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-10-09T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Année universitaire"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "21"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU0809" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2008-2009" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2008-2009" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2025-10-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2025-10-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU0910" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2009-2010" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2009-2010" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2025-10-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2025-10-09T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1011" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2010-2011" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2010-2011" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2011-2012" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2011-2012" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1213" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2012-2013" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2012-2013" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1314" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2013-2014" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2013-2014" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1415" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2014-2015" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2014-2015" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1516" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2015-2016" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2015-2016" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-10-23T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1617" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2016-2017" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2016-2017" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1718" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2017-2018" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2017-2018" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1819" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2018-2019" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2018-2019" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU1920" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2019-2020" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2019-2020" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2021" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2020-2021" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2020-2021" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2021-2022" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2021-2022" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2223" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2022-2023" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2022-2023" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2324" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2023-2024" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2023-2024" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2425" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2024-2025" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2024-2025" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2526" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2025-2026" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2025-2026" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2627" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2026-2027" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2026-2027" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2728" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2027-2028" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2027-2028" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AU2829" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2028-2029" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Année universitaire 2028-2029" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2017-03-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R225-AnneeUniversitaire.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

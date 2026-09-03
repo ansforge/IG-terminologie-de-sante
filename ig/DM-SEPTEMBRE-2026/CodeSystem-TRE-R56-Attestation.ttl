@@ -1,0 +1,560 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R56-Attestation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TRE-R56-Attestation"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "7" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:14:41.893+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R56-Attestation</b></p><a name=\"TRE-R56-Attestation\"> </a><a name=\"hcTRE-R56-Attestation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 7; Dernière mise à jour : 2026-07-06 20:14:41+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DIP24<a name=\"TRE-R56-Attestation-DIP24\"> </a></td><td>Attestation études Léprologie</td><td/><td>2008-03-20T10:49:21+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu Léprologie</td></tr><tr><td style=\"white-space:nowrap\">DIP25<a name=\"TRE-R56-Attestation-DIP25\"> </a></td><td>Attestation études Electroencéphalographie clinique</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu Electroencéphalograph</td></tr><tr><td style=\"white-space:nowrap\">DIP26<a name=\"TRE-R56-Attestation-DIP26\"> </a></td><td>Attestation études Endoscopie digestive</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu Endoscopie digestive</td></tr><tr><td style=\"white-space:nowrap\">DIP27<a name=\"TRE-R56-Attestation-DIP27\"> </a></td><td>Attestation EU Réparation juridique du dommage corporel</td><td/><td>2008-03-20T10:49:17+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att EU Répar jur domm corporel</td></tr><tr><td style=\"white-space:nowrap\">DIP28<a name=\"TRE-R56-Attestation-DIP28\"> </a></td><td>Attestation études Exploration fonctionnelle neuromusculaire</td><td/><td>2008-03-20T10:49:23+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu Explor fonct neuromusc</td></tr><tr><td style=\"white-space:nowrap\">DIP29<a name=\"TRE-R56-Attestation-DIP29\"> </a></td><td>Attestation EU Vertébrothérapie et Médecine manuelle</td><td/><td>2008-03-20T10:49:24+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att EU Vertébrothérap, Méd man</td></tr><tr><td style=\"white-space:nowrap\">DIP194<a name=\"TRE-R56-Attestation-DIP194\"> </a></td><td>Attestation EU Echographie générale</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att EU Echographie générale</td></tr><tr><td style=\"white-space:nowrap\">DIP200<a name=\"TRE-R56-Attestation-DIP200\"> </a></td><td>Attestation études supérieures de Proctologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu sup Proctologie</td></tr><tr><td style=\"white-space:nowrap\">DIP202<a name=\"TRE-R56-Attestation-DIP202\"> </a></td><td>Attestation études Thérapeutiques manuelles et Médecine physique</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att étu Thérap man, Méd phys</td></tr><tr><td style=\"white-space:nowrap\">DIP205<a name=\"TRE-R56-Attestation-DIP205\"> </a></td><td>Attestation formation à l'Ostéodensitométrie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att form Ostéodensitométrie</td></tr><tr><td style=\"white-space:nowrap\">DIP208<a name=\"TRE-R56-Attestation-DIP208\"> </a></td><td>Attestation étude complémentaire Echographie hépato-gastro-entérologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att EC Echograph hép-gast-enté</td></tr><tr><td style=\"white-space:nowrap\">DIP217<a name=\"TRE-R56-Attestation-DIP217\"> </a></td><td>Attestation étude complémentaire Echographie, option Echotomographie</td><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>active</td><td>Att EC Echograph Echotomograph</td></tr><tr><td style=\"white-space:nowrap\">DIP307<a name=\"TRE-R56-Attestation-DIP307\"> </a></td><td>Attestation de 5ième année de médecine validée</td><td>Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td>active</td><td>Attest5ièmeannéeméd</td></tr><tr><td style=\"white-space:nowrap\">DIP363<a name=\"TRE-R56-Attestation-DIP363\"> </a></td><td>Attestation de connaissances d'Ergothérapeute</td><td>Article L4331-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>active</td><td>Attestation Ergothérapeute</td></tr><tr><td style=\"white-space:nowrap\">DIP366<a name=\"TRE-R56-Attestation-DIP366\"> </a></td><td>Attestation de connaissances de Psychomotricien</td><td>Article L4332-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>active</td><td>Attestation Psychomotricien</td></tr><tr><td style=\"white-space:nowrap\">DIP370<a name=\"TRE-R56-Attestation-DIP370\"> </a></td><td>Attestation de connaissances de MER</td><td>Article L4351-6 2° du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>active</td><td>Attestation MER</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.27" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20240329120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TRE_R56_Attestation"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2024-03-29T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Attestation"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études Léprologie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu Léprologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:21+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études Electroencéphalographie clinique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu Electroencéphalograph" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:22+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études Endoscopie digestive" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu Endoscopie digestive" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:22+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation EU Réparation juridique du dommage corporel" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att EU Répar jur domm corporel" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:17+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études Exploration fonctionnelle neuromusculaire" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu Explor fonct neuromusc" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:23+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation EU Vertébrothérapie et Médecine manuelle" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att EU Vertébrothérap, Méd man" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T10:49:24+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP194" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation EU Echographie générale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att EU Echographie générale" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP200" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études supérieures de Proctologie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu sup Proctologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation études Thérapeutiques manuelles et Médecine physique" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att étu Thérap man, Méd phys" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation formation à l'Ostéodensitométrie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att form Ostéodensitométrie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation étude complémentaire Echographie hépato-gastro-entérologie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att EC Echograph hép-gast-enté" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP217" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation étude complémentaire Echographie, option Echotomographie" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Att EC Echograph Echotomograph" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2008-03-20T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP307" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation de 5ième année de médecine validée" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attest5ièmeannéeméd" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2020-01-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2020-07-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP363" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation de connaissances d'Ergothérapeute" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Article L4331-5 du code de la santé publique (CSP)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation Ergothérapeute" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation de vérification de connaissances d'Ergothérapeute" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP366" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation de connaissances de Psychomotricien" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Article L4332-5 du code de la santé publique (CSP)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation Psychomotricien" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation de vérification de connaissances de Psychomotricien" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIP370" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Attestation de connaissances de MER" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Article L4351-6 2° du code de la santé publique (CSP)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation MER" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Attestation de vérification de connaissances de Manipulateur d'Electro-Radiologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2023-03-31T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R56-Attestation.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

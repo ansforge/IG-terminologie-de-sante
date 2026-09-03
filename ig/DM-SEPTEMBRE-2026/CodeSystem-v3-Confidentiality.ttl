@@ -1,0 +1,387 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-Confidentiality> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-Confidentiality"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:50.532+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-Confidentiality</b></p><a name=\"v3-Confidentiality\"> </a><a name=\"hcv3-Confidentiality\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-Confidentiality</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>Not Selectable</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_Confidentiality<a name=\"v3-Confidentiality-_Confidentiality\"> </a></td><td>Confidentiality</td><td><div><p>A specializable code and its leaf codes used in Confidentiality value sets to value the Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".</p>\n</div></td><td>23320</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  L<a name=\"v3-Confidentiality-L\"> </a></td><td>low</td><td><div><p>Privacy metadata indicating that a low level of protection is required to safeguard personal and healthcare information, which has been altered in such a way as to minimize the need for confidentiality protections with some residual risks associated with re-linking. The risk of harm to an individual's reputation and sense of privacy if disclosed without authorization is considered negligible, and mitigations are in place to address reidentification risk.</p>\n<p><em>Usage Note:</em></p>\n<p>The level of protection afforded anonymized and pseudonymized, and non-personally identifiable information (e.g., a limited data set) is dictated by privacy policies and data use agreements intended to engender trust that health information can be used and disclosed with little or no risk of re-identification.</p>\n<p><strong>Example:</strong> Personal and healthcare information, which excludes 16 designated categories of direct identifiers in a HIPAA Limited Data Set. This information may be disclosed by HIPAA Covered Entities without patient authorization for a research, public health, and operations purposes if conditions are met, which includes obtaining a signed data use agreement from the recipient. See 45 CFR Section 164.514.</p>\n<p>This metadata indicates that the receiver may have an obligation to comply with a data use agreement with the discloser. The discloser may have obligations to comply with policies dictating the methods for de-identification.</p>\n<p>Confidentiality code total order hierarchy: Low (L) is less protective than <em>V, R, N,</em> and <em>M</em>, and subsumes <em>U</em>.</p>\n</div></td><td>10234</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  M<a name=\"v3-Confidentiality-M\"> </a></td><td>moderate</td><td><div><p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.</p>\n<p><em>Usage Note:</em> The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.</p>\n<p>Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. \"Moderate\" confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.</p>\n<p>Confidentiality code total order hierarchy: Moderate (M) is less protective than <em>V, R, and N</em>, and subsumes all other protection levels (i.e., <em>L</em> and <em>U</em>).</p>\n<p><strong>Examples:</strong> Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes</p>\n</div></td><td>23322</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  N<a name=\"v3-Confidentiality-N\"> </a></td><td>normal</td><td><div><p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a considerable risk of harm to an individual's reputation and sense of privacy.</p>\n<p><em>Usage Note:</em> The level of protection afforded normatively confidential information is dictated by the prevailing normative privacy policies, which are intended to engender patient trust in their healthcare providers.</p>\n<p>Privacy policies mandating normative levels of protection, which preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).</p>\n<p>Confidentiality code total order hierarchy: Normal (N) is less protective than <em>V</em> and <em>R</em>, and subsumes all other protection levels (i.e., <em>M, L, and U</em>).</p>\n<p>**Map:**Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care when purpose of use is treatment: Default for normal clinical care access (i.e., most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.</p>\n<p><strong>Examples:</strong></p>\n<p>n the US, this includes what HIPAA identifies as protected health information (PHI) under 45 CFR Section 160.103.</p>\n</div></td><td>10230</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  R<a name=\"v3-Confidentiality-R\"> </a></td><td>restricted</td><td><div><p>Privacy metadata indicating the level of protection required to safeguard potentially stigmatizing information, which if disclosed without authorization, would present a high risk of harm to an individual's reputation and sense of privacy.</p>\n<p><em>Usage Note:</em> The level of protection afforded restricted confidential information is dictated by specially protective organizational or jurisdictional privacy policies, including at an authorized individual's request, intended to engender patient trust in providers of sensitive services.</p>\n<p>Privacy policies mandating additional levels of protection by restricting information access preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).</p>\n<p>Confidentiality code total order hierarchy: Restricted (R) is less protective than <em>V</em>, and subsumes all other protection levels (i.e., <em>N, M, L, and U</em>).</p>\n<p><strong>Examples:</strong></p>\n<p>Includes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patient's standing as an employee or a celebrity. May be used to indicate proprietary or classified information that is not related to an individual (e.g., secret ingredients in a therapeutic substance; or the name of a manufacturer).</p>\n</div></td><td>10232</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  U<a name=\"v3-Confidentiality-U\"> </a></td><td>unrestricted</td><td><div><p>Privacy metadata indicating that no level of protection is required to safeguard personal and healthcare information that has been disclosed by an authorized individual without restrictions on its use.</p>\n<p><strong>Examples:</strong> Includes publicly available information e.g., business name, phone, email and physical address.</p>\n<p><em>Usage Note:</em> The authorization to collect, access, use, and disclose this information may be stipulated in a contract of adhesion by a data user (e.g., via terms of service or data user privacy policies) in exchange for the data subject's use of a service.</p>\n<p>This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.</p>\n<p>This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.</p>\n<p>Confidentiality code total order hierarchy: Unrestricted (U) is less protective than <em>V, R, N, M,</em> and <em>L</em>, and is the lowest protection levels.</p>\n</div></td><td>23321</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  V<a name=\"v3-Confidentiality-V\"> </a></td><td>very restricted</td><td><div><p>Privacy metadata indicating the level of protection required under atypical cicumstances to safeguard potentially damaging or harmful information, which if disclosed without authorization, would (1) present an extremely high risk of harm to an individual's reputation, sense of privacy, and possibly safety; or (2) impact an individual's or organization's legal matters.</p>\n<p><em>Usage Note:</em> The level of protection afforded very restricted confidential information is dictated by specially protective privacy or legal policies intended to ensure that under atypical circumstances additional protections limit access to only those with a high 'need to know' and the information is kept in highest confidence..</p>\n<p>Privacy and legal policies mandating the highest level of protection by stringently restricting information access, preempt less protective privacy policies when the information is used in the delivery and management of healthcare including legal proceedings related to healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment but only under limited circumstances).</p>\n<p>Confidentiality code total order hierarchy: Very Restricted (V) is the highest protection level and subsumes all other protection levels s (i.e., <em>R, N, M, L, and UI</em>).</p>\n<p><strong>Examples:</strong></p>\n<p>Includes information about a victim of abuse, patient requested information sensitivity, and taboo subjects relating to health status that must be discussed with the patient by an attending provider before sharing with the patient. May also include information held under a legal hold or attorney-client privilege.</p>\n</div></td><td>14799</td><td>active</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>1</td><td style=\"white-space:nowrap\">_ConfidentialityByAccessKind<a name=\"v3-Confidentiality-_ConfidentialityByAccessKind\"> </a></td><td>ConfidentialityByAccessKind</td><td><div><p><strong>Description:</strong> By accessing subject / role and relationship based rights (These concepts are mutually exclusive, one and only one is required for a valid confidentiality coding.)</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>21049</td><td>retired</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  B<a name=\"v3-Confidentiality-B\"> </a></td><td>business</td><td><div><p><strong>Description:</strong> Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality. However, no patient related information may ever be of this confidentiality level.</p>\n<p><em>Deprecation Comment:</em> Replced by ActCode.B</p>\n</div></td><td>10235</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  D<a name=\"v3-Confidentiality-D\"> </a></td><td>clinician</td><td><div><p><strong>Description:</strong> Only clinicians may see this item, billing and administration persons can not access this item without special permission.</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>10231</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  I<a name=\"v3-Confidentiality-I\"> </a></td><td>individual</td><td><div><p><strong>Description:</strong> Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor type code).</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>10233</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>1</td><td style=\"white-space:nowrap\">_ConfidentialityByInfoType<a name=\"v3-Confidentiality-_ConfidentialityByInfoType\"> </a></td><td>ConfidentialityByInfoType</td><td><div><p><strong>Description:</strong> By information type, only for service catalog entries (multiples allowed). Not to be used with actual patient data!</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>21050</td><td>retired</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  ETH<a name=\"v3-Confidentiality-ETH\"> </a></td><td>substance abuse related</td><td><div><p><strong>Description:</strong> Alcohol/drug-abuse related item</p>\n<p>*Deprecation Comment:*Replced by ActCode.ETH</p>\n</div></td><td>10243</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  HIV<a name=\"v3-Confidentiality-HIV\"> </a></td><td>HIV related</td><td><div><p><strong>Description:</strong> HIV and AIDS related item</p>\n<p>*Deprecation Comment:*Replced by ActCode.HIV</p>\n</div></td><td>10241</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  PSY<a name=\"v3-Confidentiality-PSY\"> </a></td><td>psychiatry relate</td><td><div><p><strong>Description:</strong> Psychiatry related item</p>\n<p>*Deprecation Comment:*Replced by ActCode.PSY</p>\n</div></td><td>10242</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  SDV<a name=\"v3-Confidentiality-SDV\"> </a></td><td>sexual and domestic violence related</td><td><div><p><strong>Description:</strong> Sexual assault / domestic violence related item</p>\n<p>*Deprecation Comment:*Replced by ActCode.SDV</p>\n</div></td><td>10244</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>1</td><td style=\"white-space:nowrap\">_ConfidentialityModifiers<a name=\"v3-Confidentiality-_ConfidentialityModifiers\"> </a></td><td>ConfidentialityModifiers</td><td><div><p><strong>Description:</strong> Modifiers of role based access rights (multiple allowed)</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>21051</td><td>retired</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  C<a name=\"v3-Confidentiality-C\"> </a></td><td>celebrity</td><td><div><p><strong>Description:</strong> Celebrities are people of public interest (VIP) including employees, whose information require special protection.</p>\n<p>*Deprecation Comment:*Replced by ActCode.CEL</p>\n</div></td><td>10239</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  S<a name=\"v3-Confidentiality-S\"> </a></td><td>sensitive</td><td><div><p><strong>Description:</strong></p>\n<p>Information for which the patient seeks heightened confidentiality. Sensitive information is not to be shared with family members. Information reported by the patient about family members is sensitive by default. Flag can be set or cleared on patient's request.</p>\n<p>*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode</p>\n</div></td><td>10237</td><td>retired</td><td/></tr><tr style=\"background-color: #ffeeee\"><td>2</td><td style=\"white-space:nowrap\">  T<a name=\"v3-Confidentiality-T\"> </a></td><td>taboo</td><td><div><p><strong>Description:</strong> Information not to be disclosed or discussed with patient except through physician assigned to patient in this case. This is usually a temporary constraint only, example use is a new fatal diagnosis or finding, such as malignancy or HIV.</p>\n<p>*Deprecation Note:*Replced by ActCode.TBOO</p>\n</div></td><td>10238</td><td>retired</td><td/></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.25" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "Confidentiality"] ;
+  fhir:CodeSystem.title [ fhir:value "Confidentiality"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-05-30"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain \"Confidentiality\"."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept. One of active, experimental, deprecated, or retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "notSelectable" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#notSelectable" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_Confidentiality" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Confidentiality" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A specializable code and its leaf codes used in Confidentiality value sets to value the Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\"." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "23320" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "L" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "low" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating that a low level of protection is required to safeguard personal and healthcare information, which has been altered in such a way as to minimize the need for confidentiality protections with some residual risks associated with re-linking. The risk of harm to an individual's reputation and sense of privacy if disclosed without authorization is considered negligible, and mitigations are in place to address reidentification risk.\r\n\r\n*Usage Note:* \r\n\r\nThe level of protection afforded anonymized and pseudonymized, and non-personally identifiable information (e.g., a limited data set) is dictated by privacy policies and data use agreements intended to engender trust that health information can be used and disclosed with little or no risk of re-identification.\r\n\r\n**Example:** Personal and healthcare information, which excludes 16 designated categories of direct identifiers in a HIPAA Limited Data Set. This information may be disclosed by HIPAA Covered Entities without patient authorization for a research, public health, and operations purposes if conditions are met, which includes obtaining a signed data use agreement from the recipient. See 45 CFR Section 164.514.\r\n\r\nThis metadata indicates that the receiver may have an obligation to comply with a data use agreement with the discloser. The discloser may have obligations to comply with policies dictating the methods for de-identification.\r\n\r\nConfidentiality code total order hierarchy: Low (L) is less protective than *V, R, N,* and *M*, and subsumes *U*." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10234" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "M" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "moderate" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.\r\n\r\n*Usage Note:* The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.\r\n\r\nPrivacy policies mandating moderate levels of protection, which preempt less protective privacy policies. \"Moderate\" confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.\r\n\r\nConfidentiality code total order hierarchy: Moderate (M) is less protective than *V, R, and N*, and subsumes all other protection levels (i.e., *L* and *U*).\r\n\r\n**Examples:** Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "23322" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "normal" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a considerable risk of harm to an individual's reputation and sense of privacy.\r\n\r\n*Usage Note:* The level of protection afforded normatively confidential information is dictated by the prevailing normative privacy policies, which are intended to engender patient trust in their healthcare providers.\r\n\r\nPrivacy policies mandating normative levels of protection, which preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).\r\n\r\nConfidentiality code total order hierarchy: Normal (N) is less protective than *V* and *R*, and subsumes all other protection levels (i.e., *M, L, and U*).\r\n\r\n**Map:**Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care when purpose of use is treatment: Default for normal clinical care access (i.e., most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.\r\n\r\n**Examples:** \r\n\r\nn the US, this includes what HIPAA identifies as protected health information (PHI) under 45 CFR Section 160.103." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10230" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "R" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "restricted" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating the level of protection required to safeguard potentially stigmatizing information, which if disclosed without authorization, would present a high risk of harm to an individual's reputation and sense of privacy.\r\n\r\n*Usage Note:* The level of protection afforded restricted confidential information is dictated by specially protective organizational or jurisdictional privacy policies, including at an authorized individual's request, intended to engender patient trust in providers of sensitive services.\r\n\r\nPrivacy policies mandating additional levels of protection by restricting information access preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).\r\n\r\nConfidentiality code total order hierarchy: Restricted (R) is less protective than *V*, and subsumes all other protection levels (i.e., *N, M, L, and U*).\r\n\r\n**Examples:** \r\n\r\nIncludes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patient's standing as an employee or a celebrity. May be used to indicate proprietary or classified information that is not related to an individual (e.g., secret ingredients in a therapeutic substance; or the name of a manufacturer)." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10232" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "unrestricted" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating that no level of protection is required to safeguard personal and healthcare information that has been disclosed by an authorized individual without restrictions on its use.\r\n\r\n**Examples:** Includes publicly available information e.g., business name, phone, email and physical address.\r\n\r\n*Usage Note:* The authorization to collect, access, use, and disclose this information may be stipulated in a contract of adhesion by a data user (e.g., via terms of service or data user privacy policies) in exchange for the data subject's use of a service.\r\n\r\nThis metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.\r\n\r\nThis metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.\r\n\r\nConfidentiality code total order hierarchy: Unrestricted (U) is less protective than *V, R, N, M,* and *L*, and is the lowest protection levels." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "23321" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:CodeSystem.concept.code [ fhir:value "V" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "very restricted" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "Privacy metadata indicating the level of protection required under atypical cicumstances to safeguard potentially damaging or harmful information, which if disclosed without authorization, would (1) present an extremely high risk of harm to an individual's reputation, sense of privacy, and possibly safety; or (2) impact an individual's or organization's legal matters.\r\n\r\n*Usage Note:* The level of protection afforded very restricted confidential information is dictated by specially protective privacy or legal policies intended to ensure that under atypical circumstances additional protections limit access to only those with a high 'need to know' and the information is kept in highest confidence..\r\n\r\nPrivacy and legal policies mandating the highest level of protection by stringently restricting information access, preempt less protective privacy policies when the information is used in the delivery and management of healthcare including legal proceedings related to healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment but only under limited circumstances).\r\n\r\nConfidentiality code total order hierarchy: Very Restricted (V) is the highest protection level and subsumes all other protection levels s (i.e., *R, N, M, L, and UI*).\r\n\r\n**Examples:** \r\n\r\nIncludes information about a victim of abuse, patient requested information sensitivity, and taboo subjects relating to health status that must be discussed with the patient by an attending provider before sharing with the patient. May also include information held under a legal hold or attorney-client privilege." ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "14799" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ConfidentialityByAccessKind" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ConfidentialityByAccessKind" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** By accessing subject / role and relationship based rights (These concepts are mutually exclusive, one and only one is required for a valid confidentiality coding.)\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21049" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "B" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "business" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality. However, no patient related information may ever be of this confidentiality level.\r\n\r\n*Deprecation Comment:* Replced by ActCode.B" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10235" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "D" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "clinician" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Only clinicians may see this item, billing and administration persons can not access this item without special permission.\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10231" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "individual" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor type code).\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10233" ]
+       ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ConfidentialityByInfoType" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ConfidentialityByInfoType" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** By information type, only for service catalog entries (multiples allowed). Not to be used with actual patient data!\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21050" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ETH" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "substance abuse related" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Alcohol/drug-abuse related item\r\n\r\n*Deprecation Comment:*Replced by ActCode.ETH" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10243" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "HIV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "HIV related" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** HIV and AIDS related item\r\n\r\n*Deprecation Comment:*Replced by ActCode.HIV" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10241" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PSY" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "psychiatry relate" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Psychiatry related item\r\n\r\n*Deprecation Comment:*Replced by ActCode.PSY" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10242" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SDV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "sexual and domestic violence related" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Sexual assault / domestic violence related item\r\n\r\n*Deprecation Comment:*Replced by ActCode.SDV" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10244" ]
+       ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_ConfidentialityModifiers" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ConfidentialityModifiers" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Modifiers of role based access rights (multiple allowed)\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21051" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "celebrity" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Celebrities are people of public interest (VIP) including employees, whose information require special protection.\r\n\r\n*Deprecation Comment:*Replced by ActCode.CEL" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10239" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "sensitive" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** \r\n\r\nInformation for which the patient seeks heightened confidentiality. Sensitive information is not to be shared with family members. Information reported by the patient about family members is sensitive by default. Flag can be set or cleared on patient's request.\r\n\r\n*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10237" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "taboo" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Information not to be disclosed or discussed with patient except through physician assigned to patient in this case. This is usually a temporary constraint only, example use is a new fatal diagnosis or finding, such as malignancy or HIV.\r\n\r\n*Deprecation Note:*Replced by ActCode.TBOO" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10238" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-Confidentiality.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

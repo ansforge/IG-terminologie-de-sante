@@ -1,0 +1,141 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/ActStatus-supplement-fr> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ActStatus-supplement-fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ActStatus-supplement-fr</b></p><a name=\"ActStatus-supplement-fr\"> </a><a name=\"hcActStatus-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-aborted\">aborted</a><a name=\"ActStatus-supplement-fr-aborted\"> </a></td><td>Arrêté (après son lancement)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-active\">active</a><a name=\"ActStatus-supplement-fr-active\"> </a></td><td>Actif (en cours ou à venir)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-cancelled\">cancelled</a><a name=\"ActStatus-supplement-fr-cancelled\"> </a></td><td>Annulé (avant son lancement)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-completed\">completed</a><a name=\"ActStatus-supplement-fr-completed\"> </a></td><td>Terminé</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-held\">held</a><a name=\"ActStatus-supplement-fr-held\"> </a></td><td>En attente (avant son lancement)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-new\">new</a><a name=\"ActStatus-supplement-fr-new\"> </a></td><td>En préparation</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActStatus.html#v3-ActStatus-suspended\">suspended</a><a name=\"ActStatus-supplement-fr-suspended\"> </a></td><td>Suspendu (au cours de sa réalisation)</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type" ] ;
+     fhir:Extension.valueCode [ fhir:value "lang-pack" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ActStatusSupplementFr"] ;
+  fhir:CodeSystem.title [ fhir:value "ActStatusSupplementFr"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.description [ fhir:value "Traduction Française"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActStatus" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActStatus>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aborted" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Arrêté (après son lancement)" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "active" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Actif (en cours ou à venir)" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cancelled" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Annulé (avant son lancement)" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "completed" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Terminé" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "held" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "En attente (avant son lancement)" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "new" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "En préparation" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "suspended" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Suspendu (au cours de sa réalisation)" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/ActStatus-supplement-fr.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

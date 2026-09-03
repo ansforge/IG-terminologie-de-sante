@@ -1,0 +1,745 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R97-DroitExerciceCompl> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TRE-R97-DroitExerciceCompl"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "6" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:14:56.997+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R97-DroitExerciceCompl</b></p><a name=\"TRE-R97-DroitExerciceCompl\"> </a><a name=\"hcTRE-R97-DroitExerciceCompl\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 6; Dernière mise à jour : 2026-07-06 20:14:56+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DEC01<a name=\"TRE-R97-DroitExerciceCompl-DEC01\"> </a></td><td>Addictologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Addictologie</td></tr><tr><td style=\"white-space:nowrap\">DEC02<a name=\"TRE-R97-DroitExerciceCompl-DEC02\"> </a></td><td>Allergologie et Immunologie clinique (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Allergologie, Immunologie clin</td></tr><tr><td style=\"white-space:nowrap\">DEC03<a name=\"TRE-R97-DroitExerciceCompl-DEC03\"> </a></td><td>Andrologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Andrologie</td></tr><tr><td style=\"white-space:nowrap\">DEC04<a name=\"TRE-R97-DroitExerciceCompl-DEC04\"> </a></td><td>Cancérologie, option traitements médicaux des cancers (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Cancéro, opt Trait méd cancers</td></tr><tr><td style=\"white-space:nowrap\">DEC05<a name=\"TRE-R97-DroitExerciceCompl-DEC05\"> </a></td><td>Cancérologie, option chirurgie cancérologique (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Cancéro, opt Chirurgie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DEC06<a name=\"TRE-R97-DroitExerciceCompl-DEC06\"> </a></td><td>Cancérologie, option réseaux de cancérologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Cancéro, opt Réseaux cancéro</td></tr><tr><td style=\"white-space:nowrap\">DEC07<a name=\"TRE-R97-DroitExerciceCompl-DEC07\"> </a></td><td>Cancérologie, option biologie en cancérologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Cancéro, opt Biologie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DEC08<a name=\"TRE-R97-DroitExerciceCompl-DEC08\"> </a></td><td>Cancérologie, option imagerie en cancérologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Cancéro, opt Imagerie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DEC09<a name=\"TRE-R97-DroitExerciceCompl-DEC09\"> </a></td><td>Dermatopathologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Dermatopathologie</td></tr><tr><td style=\"white-space:nowrap\">DEC10<a name=\"TRE-R97-DroitExerciceCompl-DEC10\"> </a></td><td>Foetopathologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Foetopathologie</td></tr><tr><td style=\"white-space:nowrap\">DEC11<a name=\"TRE-R97-DroitExerciceCompl-DEC11\"> </a></td><td>Hémobiologie et Transfusion (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Hémobiologie, Transfusion</td></tr><tr><td style=\"white-space:nowrap\">DEC12<a name=\"TRE-R97-DroitExerciceCompl-DEC12\"> </a></td><td>Médecine de la douleur et Médecine palliative (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Médecine douleur, palliative</td></tr><tr><td style=\"white-space:nowrap\">DEC13<a name=\"TRE-R97-DroitExerciceCompl-DEC13\"> </a></td><td>Médecine de la reproduction (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Médecine de la reproduction</td></tr><tr><td style=\"white-space:nowrap\">DEC14<a name=\"TRE-R97-DroitExerciceCompl-DEC14\"> </a></td><td>Médecine d'urgence (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Médecine d'urgence</td></tr><tr><td style=\"white-space:nowrap\">DEC15<a name=\"TRE-R97-DroitExerciceCompl-DEC15\"> </a></td><td>Médecine du sport (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Médecine du sport</td></tr><tr><td style=\"white-space:nowrap\">DEC16<a name=\"TRE-R97-DroitExerciceCompl-DEC16\"> </a></td><td>Médecine légale et Expertises médicales (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Méd légale, Expertise médicale</td></tr><tr><td style=\"white-space:nowrap\">DEC17<a name=\"TRE-R97-DroitExerciceCompl-DEC17\"> </a></td><td>Médecine vasculaire (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Médecine vasculaire</td></tr><tr><td style=\"white-space:nowrap\">DEC18<a name=\"TRE-R97-DroitExerciceCompl-DEC18\"> </a></td><td>Néonatologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Neonatologie</td></tr><tr><td style=\"white-space:nowrap\">DEC19<a name=\"TRE-R97-DroitExerciceCompl-DEC19\"> </a></td><td>Neuropathologie (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Neuropathologie</td></tr><tr><td style=\"white-space:nowrap\">DEC20<a name=\"TRE-R97-DroitExerciceCompl-DEC20\"> </a></td><td>Nutrition (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Nutrition</td></tr><tr><td style=\"white-space:nowrap\">DEC21<a name=\"TRE-R97-DroitExerciceCompl-DEC21\"> </a></td><td>Orthopédie dento-maxillo-faciale (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Orthopédie dento-maxilo-fac</td></tr><tr><td style=\"white-space:nowrap\">DEC22<a name=\"TRE-R97-DroitExerciceCompl-DEC22\"> </a></td><td>Pathologie infectieuse et tropicale, clinique et biologique (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Patho infect, trop, clin, bio</td></tr><tr><td style=\"white-space:nowrap\">DEC23<a name=\"TRE-R97-DroitExerciceCompl-DEC23\"> </a></td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Pharmacol cliniq, Eval thérap</td></tr><tr><td style=\"white-space:nowrap\">DEC24<a name=\"TRE-R97-DroitExerciceCompl-DEC24\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (DEC)</td><td>2015-05-29T15:58:30+01:00</td><td>2019-02-22T12:00:00+01:00</td><td>active</td><td>Psychiatrie enfant et ado</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.111" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20231215120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TRE_R97_DroitExerciceCompl"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Droit d'exercice complémentaire"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A property that indicates the status of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date Concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC01" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Addictologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Addictologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC02" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Allergologie et Immunologie clinique (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Allergologie, Immunologie clin" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC03" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Andrologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Andrologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC04" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancérologie, option traitements médicaux des cancers (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cancéro, opt Trait méd cancers" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC05" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancérologie, option chirurgie cancérologique (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cancéro, opt Chirurgie cancéro" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC06" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancérologie, option réseaux de cancérologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cancéro, opt Réseaux cancéro" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC07" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancérologie, option biologie en cancérologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cancéro, opt Biologie cancéro" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC08" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cancérologie, option imagerie en cancérologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cancéro, opt Imagerie cancéro" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC09" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dermatopathologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Dermatopathologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Foetopathologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Foetopathologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hémobiologie et Transfusion (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Hémobiologie, Transfusion" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine de la douleur et Médecine palliative (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Médecine douleur, palliative" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine de la reproduction (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Médecine de la reproduction" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine d'urgence (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Médecine d'urgence" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine du sport (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Médecine du sport" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine légale et Expertises médicales (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Méd légale, Expertise médicale" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médecine vasculaire (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Médecine vasculaire" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Néonatologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Neonatologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neuropathologie (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Neuropathologie" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutrition (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Nutrition" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orthopédie dento-maxillo-faciale (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Orthopédie dento-maxilo-fac" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pathologie infectieuse et tropicale, clinique et biologique (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Patho infect, trop, clin, bio" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pharmacologie clinique et Evaluation des thérapeutiques (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pharmacol cliniq, Eval thérap" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEC24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psychiatrie de l'enfant et de l'adolescent (DEC)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Psychiatrie enfant et ado" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2015-05-29T15:58:30+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "2019-02-22T12:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R97-DroitExerciceCompl.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

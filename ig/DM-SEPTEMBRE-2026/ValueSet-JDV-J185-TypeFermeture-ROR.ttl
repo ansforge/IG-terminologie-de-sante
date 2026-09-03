@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J185-TypeFermeture-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J185-TypeFermeture-ROR"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "8" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:05:41.826+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J185-TypeFermeture-ROR</b></p><a name=\"JDV-J185-TypeFermeture-ROR\"> </a><a name=\"hcJDV-J185-TypeFermeture-ROR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 8; Dernière mise à jour : 2026-07-06 19:05:41+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R286-TypeFermeture.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-DEF\">DEF</a></td><td>Définitive</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRO\">PRO</a></td><td>Provisoire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-PRE\">PRE</a></td><td>Prévisionnelle</td><td>Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2022-09-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.4.18" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20250923120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J185_TypeFermeture_ROR"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2025-09-23T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Définitive" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRO" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Provisoire" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prévisionnelle" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J185-TypeFermeture-ROR.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
