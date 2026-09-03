@@ -9,10 +9,10 @@ Description: "Secteur de conventionnement du professionnel libéral par la CNAM 
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.135"
-* ^version = "20231215120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -41,31 +41,75 @@ Description: "Secteur de conventionnement du professionnel libéral par la CNAM 
 * #nc "Non conventionné"
 * #nc ^property[0].code = #dateValid
 * #nc ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #nc ^property[+].code = #dateFin
+* #nc ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #nc ^property[+].code = #dateMaj
-* #nc ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #nc ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #nc ^property[+].code = #deprecationDate
+* #nc ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #nc ^property[+].code = #status
-* #nc ^property[=].valueCode = #active
+* #nc ^property[=].valueCode = #deprecated
 * #c1 "Secteur 1 ou conventionné"
 * #c1 ^property[0].code = #dateValid
 * #c1 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c1 ^property[+].code = #dateFin
+* #c1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c1 ^property[+].code = #dateMaj
-* #c1 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #c1 ^property[+].code = #deprecationDate
+* #c1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c1 ^property[+].code = #status
-* #c1 ^property[=].valueCode = #active
+* #c1 ^property[=].valueCode = #deprecated
 * #c2 "Secteur 1 ou conventionné avec droit au dépassement permanent"
 * #c2 ^designation.language = #fr-FR
 * #c2 ^designation.use = $sct#900000000000013009
 * #c2 ^designation.value = "Sect. 1 ou conv. ac dt dépass."
 * #c2 ^property[0].code = #dateValid
 * #c2 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c2 ^property[+].code = #dateFin
+* #c2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c2 ^property[+].code = #dateMaj
-* #c2 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #c2 ^property[+].code = #deprecationDate
+* #c2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c2 ^property[+].code = #status
-* #c2 ^property[=].valueCode = #active
+* #c2 ^property[=].valueCode = #deprecated
 * #c3 "Secteur 2"
 * #c3 ^property[0].code = #dateValid
 * #c3 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c3 ^property[+].code = #dateFin
+* #c3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c3 ^property[+].code = #dateMaj
-* #c3 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #c3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #c3 ^property[+].code = #deprecationDate
+* #c3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #c3 ^property[+].code = #status
-* #c3 ^property[=].valueCode = #active
+* #c3 ^property[=].valueCode = #deprecated
+* #0 "Non conventionné"
+* #0 ^property[0].code = #dateValid
+* #0 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #0 ^property[+].code = #dateMaj
+* #0 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #0 ^property[+].code = #status
+* #0 ^property[=].valueCode = #active
+* #1 "Secteur 1 ou conventionné"
+* #1 ^property[0].code = #dateValid
+* #1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1 ^property[+].code = #dateMaj
+* #1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1 ^property[+].code = #status
+* #1 ^property[=].valueCode = #active
+* #2 "Conventionné Dépassement Permanent"
+* #2 ^property[0].code = #dateValid
+* #2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #2 ^property[+].code = #dateMaj
+* #2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #2 ^property[+].code = #status
+* #2 ^property[=].valueCode = #active
+* #3 "Secteur 2"
+* #3 ^property[0].code = #dateValid
+* #3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #3 ^property[+].code = #dateMaj
+* #3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #3 ^property[+].code = #status
+* #3 ^property[=].valueCode = #active
