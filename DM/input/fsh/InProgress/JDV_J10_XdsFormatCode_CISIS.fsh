@@ -77,5 +77,5 @@ Description: "XDS formatCode documents CI-SIS"
 * $TRE-A11-IheFormatCode#urn:ihe:palm:apsr:2016 "CR d'anatomie et de cytologie pathologiques"
 * $TRE-A11-IheFormatCode#urn:ihe:eyecare:geneyeevalcn:2014 "CR de consultation en ophtalmologie"
 * $TRE-A11-IheFormatCode#urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013 "Compte-rendu d'imagerie médicale"
-* $dcmuid#1.2.840.10008.5.1.4.1.1.88.59 "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
+* $dcmuid#1.2.840.10008.5.1.4.1.1.88.59
 * $TRE-A10-NomenclatureURN#urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1 "Digital Signature"
