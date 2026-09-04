@@ -212,7 +212,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 16/07/2026 | active |
 | [JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md) | JDV Lateralite CISIS | 16/07/2026 | active |
 | [JdvLateraliteManuelleCisis](ValueSet-jdv-lateralite-manuelle-cisis.md) | JDV Lateralite Manuelle CISIS | 16/07/2026 | active |
-| [JdvLateraliteNcitCisis](ValueSet-jdv-lateralite-ncit-cisis.md) | JDV Lateralite Ncit CISIS | 28/10/2025 | active |
 | [JdvLateraliteTechniqueImagerieCisis](ValueSet-jdv-lateralite-technique-imagerie-cisis.md) | JDV Lateralite Technique Imagerie CISIS | 16/07/2026 | active |
 | [JdvLesionTraumatiqueObstetricaleCisis](ValueSet-jdv-lesion-traumatique-obstetricale-cisis.md) | JDV Lesion Traumatique Obstetricale CISIS | 16/07/2026 | active |
 | [JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md) | JDV Lien Assure Beneficiaire CISIS | 16/07/2026 | active |
