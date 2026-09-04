@@ -349,7 +349,8 @@ Liens:
     {
       "system" : "http://dicom.nema.org/resources/ontology/DCMUID",
       "concept" : [{
-        "code" : "1.2.840.10008.5.1.4.1.1.88.59"
+        "code" : "1.2.840.10008.5.1.4.1.1.88.59",
+        "display" : "Key Object Selection Document Storage"
       }]
     },
     {

@@ -86,11 +86,6 @@ Testez et explorez directement le service FHIR du Serveur Multi-Terminologies gr
 
 Certaines ressources sémantiques de ce guide sont protégées par des droits de propriété intellectuelle couverte par les déclarations ci-dessous. L’utilisation de ces ressources est soumise à l’acceptation et au respect des conditions précisées dans la licence d’utilisation de chacune d’entre elle.
 
-* © World Health Organization (WHO) 2019-2026. Licensed under CC BY-ND 3.0 IGO. ICD-11 for Mortality and Morbidity Statistics.
-
-* [ICD-11 for Mortality and Morbidity Statistics (MMS)](https://tx.hl7chile.cl/r4/ValueSet/icd11-mms): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
-
-
 * [CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) 
 
 * [Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)](CodeSystem-terminologie-cim-10.md): [JDV_J280_CIM10ATIH_UPNOS](ValueSet-JDV-J280-CIM10ATIH-UPNOS.md)
@@ -220,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-09-04T10:10:30+00:00",
+  "date" : "2026-09-04T12:54:27+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:10:30+00:00",
+  "date" : "2026-09-04T12:54:27+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
