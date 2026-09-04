@@ -92,21 +92,21 @@ Description: "Secteur de conventionnement du professionnel libéral par la CNAM 
 * #0 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0 ^property[+].code = #status
 * #0 ^property[=].valueCode = #active
-* #1 "Secteur 1 ou conventionné"
+* #1 "Conventionné"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1 ^property[+].code = #status
 * #1 ^property[=].valueCode = #active
-* #2 "Conventionné Dépassement Permanent"
+* #2 "Conventionné avec dépassement"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
 * #2 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #2 ^property[+].code = #status
 * #2 ^property[=].valueCode = #active
-* #3 "Secteur 2"
+* #3 "Conventionné avec honoraires libres"
 * #3 ^property[0].code = #dateValid
 * #3 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #3 ^property[+].code = #dateMaj
