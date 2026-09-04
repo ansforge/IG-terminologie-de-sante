@@ -215,7 +215,7 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
   },
   {
     "code" : "1",
-    "display" : "Secteur 1 ou conventionné",
+    "display" : "Conventionné",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
@@ -231,7 +231,7 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
   },
   {
     "code" : "2",
-    "display" : "Conventionné Dépassement Permanent",
+    "display" : "Conventionné avec dépassement",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
@@ -247,7 +247,7 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
   },
   {
     "code" : "3",
-    "display" : "Secteur 2",
+    "display" : "Conventionné avec honoraires libres",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
