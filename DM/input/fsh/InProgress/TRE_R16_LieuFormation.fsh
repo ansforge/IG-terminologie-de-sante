@@ -7,10 +7,10 @@ Id: TRE-R16-LieuFormation
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.35"
-* ^version = "20260730120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-07-30T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -127,15 +127,15 @@ Id: TRE-R16-LieuFormation
 * #U33 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
 * #U33 ^property[+].code = #status
 * #U33 ^property[=].valueCode = #active
-* #U34 "Université de Montpellier 1 - Nîmes"
+* #U34 "Université de Montpellier - Nîmes"
 * #U34 ^designation[0].language = #fr-FR
 * #U34 ^designation[=].use.system = "http://snomed.info/sct"
 * #U34 ^designation[=].use = $sct#900000000000013009
-* #U34 ^designation[=].value = "Montpellier 1 - Nîmes"
+* #U34 ^designation[=].value = "Montpellier - Nîmes"
 * #U34 ^property[0].code = #dateValid
 * #U34 ^property[=].valueDateTime = "2007-07-27T15:34:53+01:00"
 * #U34 ^property[+].code = #dateMaj
-* #U34 ^property[=].valueDateTime = "2015-12-29T00:00:00+01:00"
+* #U34 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #U34 ^property[+].code = #status
 * #U34 ^property[=].valueCode = #active
 * #U35 "Université de Rennes 1"
@@ -230,15 +230,15 @@ Id: TRE-R16-LieuFormation
 * #U54 ^property[=].valueDateTime = "2015-12-29T00:00:00+01:00"
 * #U54 ^property[+].code = #status
 * #U54 ^property[=].valueCode = #active
-* #U59 "Lille 2, Université de Droit et Sante"
+* #U59 "Université de Lille"
 * #U59 ^designation[0].language = #fr-FR
 * #U59 ^designation[=].use.system = "http://snomed.info/sct"
 * #U59 ^designation[=].use = $sct#900000000000013009
-* #U59 ^designation[=].value = "Lille 2"
+* #U59 ^designation[=].value = "Lille"
 * #U59 ^property[0].code = #dateValid
 * #U59 ^property[=].valueDateTime = "2007-07-27T15:34:53+01:00"
 * #U59 ^property[+].code = #dateMaj
-* #U59 ^property[=].valueDateTime = "2008-02-28T00:00:00+01:00"
+* #U59 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #U59 ^property[+].code = #status
 * #U59 ^property[=].valueCode = #active
 * #U63 "Clermont-Ferrand 1, Université d'Auvergne"
