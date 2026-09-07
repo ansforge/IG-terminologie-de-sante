@@ -889,7 +889,7 @@ Description: "Activite Operationnelle"
 * #105 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #105 ^property[+].code = #status
 * #105 ^property[=].valueCode = #active
-* #106 "Orthoptie" "Orthoptie : exploration et rééducation de la fonction visuelle" "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle."
+* #106 "Orthoptie : exploration et rééducation de la fonction visuelle" "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle."
 * #106 ^property[0].code = #dateValid
 * #106 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #106 ^property[+].code = #dateMaj
