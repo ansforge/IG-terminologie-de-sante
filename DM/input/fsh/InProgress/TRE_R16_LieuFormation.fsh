@@ -3,7 +3,6 @@ Id: TRE-R16-LieuFormation
 * ^meta.versionId = "18"
 * ^meta.lastUpdated = "2026-08-04T11:03:16.712+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-* ^meta.tag = $v3-ObservationValue#SUBSETTED "Resource encoded in summary mode"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.35"
