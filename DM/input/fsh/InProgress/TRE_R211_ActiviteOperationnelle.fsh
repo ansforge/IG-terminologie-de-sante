@@ -10,15 +10,14 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260730120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-07-30T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 631
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -890,11 +889,11 @@ Description: "Activite Operationnelle"
 * #105 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #105 ^property[+].code = #status
 * #105 ^property[=].valueCode = #active
-* #106 "Orthoptie" "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle."
+* #106 "Orthoptie" "Orthoptie : exploration et rééducation de la fonction visuelle" "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle."
 * #106 ^property[0].code = #dateValid
 * #106 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #106 ^property[+].code = #dateMaj
-* #106 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
+* #106 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
 * #107 "Oto-rhino-laryngologie (ORL)"
@@ -4930,18 +4929,18 @@ Description: "Activite Operationnelle"
 * #625 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #625 ^property[+].code = #status
 * #625 ^property[=].valueCode = #active
-* #626 "Orthoptie orientation basse vision"
+* #626 "Orthoptie Basse Vision adulte" "Activité orthoptique dédiée à l'évaluation de la fonction visuelle, sensori-motrice et perceptivo-cognitive, à la prise en soins et  à l'accompagnement des personnes présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer les stratégies de compensation et à favoriser l'autonomie dans les activités de la vie quotidienne, de formation, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation."
 * #626 ^property[0].code = #dateValid
 * #626 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #626 ^property[+].code = #dateMaj
-* #626 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #626 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #626 ^property[+].code = #status
 * #626 ^property[=].valueCode = #active
-* #627 "Orthoptie orientation pédiatrique"
+* #627 "Orthoptie orientation pédiatrique" "Activité orthoptique spécialisée dans le dépistage, l'évaluation et la prise en soins de la fonction visuelle des nourrissons, enfants et adolescents présentant des troubles visuels sensori-moteurs et / ou neurovisuels. Cette activité participe au dépistage précoce, au diagnostic fonctionnel, au suivi et à la rééducation des troubles susceptibles d'altérer le développement visuel, les apprentissages ou l'autonomie en utilisant des conditions d'examen adaptées à l'âge, y compris à l'enfant non verbal ou en situation de handicap."
 * #627 ^property[0].code = #dateValid
 * #627 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #627 ^property[+].code = #dateMaj
-* #627 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #627 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #627 ^property[+].code = #status
 * #627 ^property[=].valueCode = #active
 * #628 "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
@@ -4975,3 +4974,31 @@ Description: "Activite Operationnelle"
 * #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #631 ^property[+].code = #status
 * #631 ^property[=].valueCode = #active
+* #632 "Médecine nucléaire - Diagnostic"
+* #632 ^property[0].code = #dateValid
+* #632 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #632 ^property[+].code = #dateMaj
+* #632 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #632 ^property[+].code = #status
+* #632 ^property[=].valueCode = #active
+* #633 "Médecine nucléaire - Thérapie"
+* #633 ^property[0].code = #dateValid
+* #633 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #633 ^property[+].code = #dateMaj
+* #633 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #633 ^property[+].code = #status
+* #633 ^property[=].valueCode = #active
+* #634 "Orthoptie orientation neurovisuelle enfant" "Activité orthoptique dédiée à l'évaluation de la fonction visuelle sensori-motrice et perceptivo-cognitive, à l'évaluation fonctionnelle des capacités visuelles résiduelles ainsi qu'à la prise en soins et à l'accompagnement de l'enfant présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer le contexte perceptivo-cognitif visuel, les stratégies de compensation, l'apprentissage de l'utilisation des aides optiques et non optiques, ainsi qu'à favoriser l'autonomie dans les activités de la vie quotidienne, scolaires, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation."
+* #634 ^property[0].code = #dateValid
+* #634 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #634 ^property[+].code = #dateMaj
+* #634 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #634 ^property[+].code = #status
+* #634 ^property[=].valueCode = #active
+* #635 "Orthoptie Basse Vision enfant" "Activité orthoptique dédiée à l'évaluation et à la prise en soins des troubles neurovisuels de l'enfant (altérations du champ visuel d'origine neurologique, troubles de la mémoire visuelle, troubles de l'oculomotricité et des stratégies du regard, troubles visuo-attentionnels, visuo-spatiaux et gnosiques), notamment dans le cadre des troubles du neurodéveloppement, des troubles des apprentissages et des atteintes neurologiques pédiatriques, en coordination avec l'équipe pluridisciplinaire."
+* #635 ^property[0].code = #dateValid
+* #635 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #635 ^property[+].code = #dateMaj
+* #635 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #635 ^property[+].code = #status
+* #635 ^property[=].valueCode = #active
