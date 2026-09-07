@@ -10,16 +10,15 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^extension.valuePeriod.start = "2016-02-02T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.377"
-* ^version = "20260629120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-06-29T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 388
 * ^property[0].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
@@ -5529,14 +5528,14 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DRHIL-11 ^designation[0].language = #fr-FR
 * #DRHIL-11 ^designation[=].use.system = "http://snomed.info/sct"
 * #DRHIL-11 ^designation[=].use = $sct#900000000000013009
-* #DRHIL-11 ^designation[=].value = "DRIHL Ile-deFrance"
+* #DRHIL-11 ^designation[=].value = "DRHIL Ile-deFrance"
 * #DRHIL-11 ^designation[+].language = #fr-FR
 * #DRHIL-11 ^designation[=].use = $sct#900000000000013009
 * #DRHIL-11 ^designation[=].value = "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
 * #DRHIL-11 ^property[0].code = #dateValid
 * #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #dateMaj
-* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #status
 * #DRHIL-11 ^property[=].valueCode = #active
 * #DRHIL-11 ^property[+].code = #niveau
