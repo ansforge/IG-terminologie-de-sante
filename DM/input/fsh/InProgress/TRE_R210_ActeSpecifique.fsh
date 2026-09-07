@@ -7,15 +7,14 @@ Id: TRE-R210-ActeSpecifique
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20260730120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-07-30T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
-* ^content = #not-present
-* ^count = 1703
+* ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -1965,15 +1964,11 @@ Id: TRE-R210-ActeSpecifique
 * #0215 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0215 ^property[+].code = #status
 * #0215 ^property[=].valueCode = #deprecated
-* #0216 "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
-* #0216 ^designation[+].language = #fr-FR
-* #0216 ^designation[=].use.system = "http://snomed.info/sct"
-* #0216 ^designation[=].use = $sct#900000000000013009
-* #0216 ^designation[=].value = "Gamma-angiographie cardiaque, tomographie cavitaire"
+* #0216 "Exploration en médecine nucléaire mesure de la fraction éjection ventriculaire"
 * #0216 ^property[0].code = #dateValid
 * #0216 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0216 ^property[+].code = #dateMaj
-* #0216 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #0216 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0216 ^property[+].code = #status
 * #0216 ^property[=].valueCode = #active
 * #0217 "Génétique chromosomique et moléculaire ante natale (constitutionnelle)"
@@ -2487,11 +2482,15 @@ Id: TRE-R210-ActeSpecifique
 * #0277 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0277 ^property[+].code = #status
 * #0277 ^property[=].valueCode = #active
-* #0278 "Lymphoscintigraphie"
+* #0278 "Exploration diagnostique par lymphoscintigraphie incluant recherche de ganglion sentinelle (GLS)"
+* #0278 ^designation[+].language = #fr-FR
+* #0278 ^designation[=].use.system = "http://snomed.info/sct"
+* #0278 ^designation[=].use = $sct#900000000000013009
+* #0278 ^designation[=].value = "Explo diag par lymphoscintigraphie incluant recherche de GLS"
 * #0278 ^property[0].code = #dateValid
 * #0278 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0278 ^property[+].code = #dateMaj
-* #0278 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0278 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0278 ^property[+].code = #status
 * #0278 ^property[=].valueCode = #active
 * #0279 "Maladie autoimmune"
@@ -3879,18 +3878,26 @@ Id: TRE-R210-ActeSpecifique
 * #0425 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #0425 ^property[+].code = #status
 * #0425 ^property[=].valueCode = #active
-* #0426 "Scintigraphie au 18F-choline (suivi cancer de prostate)"
+* #0426 "Exploration diagnostique par TEP PSMA pour cancer de la prostate"
+* #0426 ^designation[+].language = #fr-FR
+* #0426 ^designation[=].use.system = "http://snomed.info/sct"
+* #0426 ^designation[=].use = $sct#900000000000013009
+* #0426 ^designation[=].value = "Explo diag par TEP PSMA pour cancer de la prostate"
 * #0426 ^property[0].code = #dateValid
 * #0426 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0426 ^property[+].code = #dateMaj
-* #0426 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0426 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0426 ^property[+].code = #status
 * #0426 ^property[=].valueCode = #active
-* #0427 "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)"
+* #0427 "Exploration diagnostique scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endocrine"
+* #0427 ^designation[+].language = #fr-FR
+* #0427 ^designation[=].use.system = "http://snomed.info/sct"
+* #0427 ^designation[=].use = $sct#900000000000013009
+* #0427 ^designation[=].value = "Explo diag scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endo"
 * #0427 ^property[0].code = #dateValid
 * #0427 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0427 ^property[+].code = #dateMaj
-* #0427 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0427 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0427 ^property[+].code = #status
 * #0427 ^property[=].valueCode = #active
 * #0428 "Scintigraphie au 18F-FDG"
@@ -3900,32 +3907,48 @@ Id: TRE-R210-ActeSpecifique
 * #0428 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0428 ^property[+].code = #status
 * #0428 ^property[=].valueCode = #active
-* #0429 "Scintigraphie rénale"
+* #0429 "Exploration diagnostique scintigraphique rénale"
+* #0429 ^designation[+].language = #fr-FR
+* #0429 ^designation[=].use.system = "http://snomed.info/sct"
+* #0429 ^designation[=].use = $sct#900000000000013009
+* #0429 ^designation[=].value = "Explo diag scintigraphique rénale"
 * #0429 ^property[0].code = #dateValid
 * #0429 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0429 ^property[+].code = #dateMaj
-* #0429 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0429 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0429 ^property[+].code = #status
 * #0429 ^property[=].valueCode = #active
-* #0430 "Scintigraphie au MIBG"
+* #0430 "Exploration diagnostique scintigraphique au MIBG"
+* #0430 ^designation[+].language = #fr-FR
+* #0430 ^designation[=].use.system = "http://snomed.info/sct"
+* #0430 ^designation[=].use = $sct#900000000000013009
+* #0430 ^designation[=].value = "Explo diag scintigraphique au MIBG"
 * #0430 ^property[0].code = #dateValid
 * #0430 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0430 ^property[+].code = #dateMaj
-* #0430 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0430 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0430 ^property[+].code = #status
 * #0430 ^property[=].valueCode = #active
-* #0431 "Scintigraphie aux hématies marquées (recherche de saignement)"
+* #0431 "Exploration diagnostique scintigraphique aux hématies marquées (recherche de saignement)"
+* #0431 ^designation[+].language = #fr-FR
+* #0431 ^designation[=].use.system = "http://snomed.info/sct"
+* #0431 ^designation[=].use = $sct#900000000000013009
+* #0431 ^designation[=].value = "Explo diag scintigraphique aux hématies marquées (recherche de saignement)"
 * #0431 ^property[0].code = #dateValid
 * #0431 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0431 ^property[+].code = #dateMaj
-* #0431 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0431 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0431 ^property[+].code = #status
 * #0431 ^property[=].valueCode = #active
-* #0432 "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)"
+* #0432 "Exploration diagnostique scintigraphique ou TEP de la neurotransmission dopaminergique par Dat-scan ou F-DOPA (Syndrome Parkinsonien)"
+* #0432 ^designation[+].language = #fr-FR
+* #0432 ^designation[=].use.system = "http://snomed.info/sct"
+* #0432 ^designation[=].use = $sct#900000000000013009
+* #0432 ^designation[=].value = "Explo diag scintigraphique ou TEP de la neurotransmission dopaminergique"
 * #0432 ^property[0].code = #dateValid
 * #0432 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0432 ^property[+].code = #dateMaj
-* #0432 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0432 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0432 ^property[+].code = #status
 * #0432 ^property[=].valueCode = #active
 * #0433 "Scintigraphie de perfusion à l'ECD (bilan de démence)"
@@ -3935,15 +3958,15 @@ Id: TRE-R210-ActeSpecifique
 * #0433 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0433 ^property[+].code = #status
 * #0433 ^property[=].valueCode = #active
-* #0434 "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
+* #0434 "Exploration diagnostique scintigraphique rénale de perfusion avec test médicamenteux pour recherche d'une HTA"
 * #0434 ^designation[+].language = #fr-FR
 * #0434 ^designation[=].use.system = "http://snomed.info/sct"
 * #0434 ^designation[=].use = $sct#900000000000013009
-* #0434 ^designation[=].value = "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
+* #0434 ^designation[=].value = "Explo diag scintigraphique rénale de perfusion avec test méd pour recherche HTA"
 * #0434 ^property[0].code = #dateValid
 * #0434 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0434 ^property[+].code = #dateMaj
-* #0434 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #0434 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0434 ^property[+].code = #status
 * #0434 ^property[=].valueCode = #active
 * #0435 "Scintigraphie des récepteurs à la somatostatine (Octreoscan)"
@@ -3953,18 +3976,26 @@ Id: TRE-R210-ActeSpecifique
 * #0435 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0435 ^property[+].code = #status
 * #0435 ^property[=].valueCode = #active
-* #0436 "Scintigraphie myocardique à l'effort ou pharmacologique"
+* #0436 "Exploration diagnostique scintigraphique de perfusion myocardique à l'effort ou après stress pharmacologique (99mTc/201Tl)"
+* #0436 ^designation[+].language = #fr-FR
+* #0436 ^designation[=].use.system = "http://snomed.info/sct"
+* #0436 ^designation[=].use = $sct#900000000000013009
+* #0436 ^designation[=].value = "Explo diag scintigraphique de perf myocardique à l'effort / post stress pharmaco"
 * #0436 ^property[0].code = #dateValid
 * #0436 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0436 ^property[+].code = #dateMaj
-* #0436 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #0436 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0436 ^property[+].code = #status
 * #0436 ^property[=].valueCode = #active
-* #0437 "Scintigraphie SPECT-CT"
+* #0437 "Exploration diagnostique scintigraphique ventilation perfusion pulmonaire"
+* #0437 ^designation[+].language = #fr-FR
+* #0437 ^designation[=].use.system = "http://snomed.info/sct"
+* #0437 ^designation[=].use = $sct#900000000000013009
+* #0437 ^designation[=].value = "Explo diag scintigraphique ventilation perfusion pulmonaire"
 * #0437 ^property[0].code = #dateValid
 * #0437 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0437 ^property[+].code = #dateMaj
-* #0437 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0437 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0437 ^property[+].code = #status
 * #0437 ^property[=].valueCode = #active
 * #0438 "Scolarisation sur site"
@@ -6429,11 +6460,15 @@ Id: TRE-R210-ActeSpecifique
 * #0719 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #0719 ^property[+].code = #status
 * #0719 ^property[=].valueCode = #active
-* #0720 "Scintigraphie osseuse"
+* #0720 "Exploration diagnostique scintigraphique osseuse"
+* #0720 ^designation[+].language = #fr-FR
+* #0720 ^designation[=].use.system = "http://snomed.info/sct"
+* #0720 ^designation[=].use = $sct#900000000000013009
+* #0720 ^designation[=].value = "Explo diag scintigraphique osseuse"
 * #0720 ^property[0].code = #dateValid
 * #0720 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0720 ^property[+].code = #dateMaj
-* #0720 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0720 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #0720 ^property[+].code = #status
 * #0720 ^property[=].valueCode = #active
 * #0721 "Lavage Broncho-Alvéolaire (LBA)"
@@ -10642,10 +10677,14 @@ Id: TRE-R210-ActeSpecifique
 * #1273 "Téléexpertise en plus de 7 jours"
 * #1273 ^property[0].code = #dateValid
 * #1273 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #1273 ^property[+].code = #dateFin
+* #1273 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1273 ^property[+].code = #dateMaj
-* #1273 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
+* #1273 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1273 ^property[+].code = #deprecationDate
+* #1273 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1273 ^property[+].code = #status
-* #1273 ^property[=].valueCode = #active
+* #1273 ^property[=].valueCode = #deprecated
 * #1274 "Thrombectomie cérébrale"
 * #1274 ^property[0].code = #dateValid
 * #1274 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
@@ -11990,11 +12029,15 @@ Id: TRE-R210-ActeSpecifique
 * #1446 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1446 ^property[+].code = #status
 * #1446 ^property[=].valueCode = #active
-* #1447 "Prescription de vaccin"
+* #1447 "Prescription de vaccins selon le calendrier vaccinal de l'adolescent et de l'adulte"
+* #1447 ^designation[0].language = #fr-FR
+* #1447 ^designation[=].use.system = "http://snomed.info/sct"
+* #1447 ^designation[=].use = $sct#900000000000013009
+* #1447 ^designation[=].value = "Prescription de vaccins selon le calendrier vaccinal"
 * #1447 ^property[0].code = #dateValid
 * #1447 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1447 ^property[+].code = #dateMaj
-* #1447 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #1447 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1447 ^property[+].code = #status
 * #1447 ^property[=].valueCode = #active
 * #1448 "Santé environnementale"
@@ -12677,25 +12720,25 @@ Id: TRE-R210-ActeSpecifique
 * #1534 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #1534 ^property[+].code = #status
 * #1534 ^property[=].valueCode = #active
-* #1535 "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte" "Administration d’un ensemble de vaccins (primo-vaccination et rappels) chez l’adolescent et l’adulte, selon le calendrier vaccinal officiel déterminé annuellement par le ministère de la Santé après avis de la HAS, visant à prévenir les maladies infectieuses selon l’âge ou le contexte individuel . Cette vaccination est réalisée par des professionnels habilités (médecins, infirmiers, sages-femmes, pharmaciens) et suit des schémas validés scientifiquement pour garantir une protection durable et collective."
+* #1535 "Vaccination selon le calendrier vaccinal de l'adolescent et de l'adulte" "Administration d’un ensemble de vaccins (primo-vaccination et rappels) chez l’adolescent et l’adulte, selon le calendrier vaccinal officiel déterminé annuellement par le ministère de la Santé après avis de la HAS, visant à prévenir les maladies infectieuses selon l’âge ou le contexte individuel . Cette vaccination est réalisée par des professionnels habilités (médecins, infirmiers, sages-femmes, pharmaciens) et suit des schémas validés scientifiquement pour garantir une protection durable et collective."
 * #1535 ^property[0].code = #dateValid
 * #1535 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1535 ^property[+].code = #dateMaj
-* #1535 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
+* #1535 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1535 ^property[+].code = #status
 * #1535 ^property[=].valueCode = #active
-* #1536 "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)" "Administration programmée des vaccins du calendrier vaccinal national pour les enfants de 0 à 12 ans, conformément aux exigences légales (vaccinations obligatoires comme diphtérie, tétanos, poliomyélite, coqueluche, rougeole, oreillons, rubéole, Haemophilus influenzae b, hépatite B, pneumocoque, méningocoque ACWY/B) visant à assurer une protection effective contre des maladies graves. Elle suit les recommandations officielles publiées par le ministère de la Santé et la HAS, actualisées chaque année, pour garantir que l’enfant bénéficie des vaccins au bon âge selon les schémas définis (primo-vaccinations, rappels, rattrapages)"
+* #1536 "Vaccination selon le calendrier vaccinal du jeune enfant (0-12 ans)" "Administration programmée des vaccins du calendrier vaccinal national pour les enfants de 0 à 12 ans, conformément aux exigences légales (vaccinations obligatoires comme diphtérie, tétanos, poliomyélite, coqueluche, rougeole, oreillons, rubéole, Haemophilus influenzae b, hépatite B, pneumocoque, méningocoque ACWY/B) visant à assurer une protection effective contre des maladies graves. Elle suit les recommandations officielles publiées par le ministère de la Santé et la HAS, actualisées chaque année, pour garantir que l’enfant bénéficie des vaccins au bon âge selon les schémas définis (primo-vaccinations, rappels, rattrapages)"
 * #1536 ^property[0].code = #dateValid
 * #1536 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1536 ^property[+].code = #dateMaj
-* #1536 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
+* #1536 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1536 ^property[+].code = #status
 * #1536 ^property[=].valueCode = #active
-* #1537 "Vaccination du calendrier vaccinal du sénior" "Administration des vaccins recommandés dans le calendrier vaccinal des personnes âgées (65 ans et plus), incluant notamment les rappels de diphtérie-tétanos-poliomyélite (DTP), le vaccin antigrippal annuel, la vaccination contre le pneumocoque et le zona, et, selon les situations, la vaccination contre le virus respiratoire syncytial (VRS), conformément aux recommandations officielles publiées par le ministère de la Santé après avis de la HAS."
+* #1537 "Vaccination selon le calendrier vaccinal du sénior" "Administration des vaccins recommandés dans le calendrier vaccinal des personnes âgées (65 ans et plus), incluant notamment les rappels de diphtérie-tétanos-poliomyélite (DTP), le vaccin antigrippal annuel, la vaccination contre le pneumocoque et le zona, et, selon les situations, la vaccination contre le virus respiratoire syncytial (VRS), conformément aux recommandations officielles publiées par le ministère de la Santé après avis de la HAS."
 * #1537 ^property[0].code = #dateValid
 * #1537 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1537 ^property[+].code = #dateMaj
-* #1537 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
+* #1537 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1537 ^property[+].code = #status
 * #1537 ^property[=].valueCode = #active
 * #1538 "Vaccination épidémie Covid"
@@ -13456,20 +13499,24 @@ Id: TRE-R210-ActeSpecifique
 * #1623 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1623 ^property[+].code = #status
 * #1623 ^property[=].valueCode = #active
-* #1624 "Contention nocturne"
+* #1624 "Création de contention nocturne"
 * #1624 ^property[0].code = #dateValid
 * #1624 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1624 ^property[+].code = #dateMaj
-* #1624 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1624 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1624 ^property[+].code = #status
 * #1624 ^property[=].valueCode = #active
 * #1625 "Soin de pédicurie"
 * #1625 ^property[0].code = #dateValid
 * #1625 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1625 ^property[+].code = #dateFin
+* #1625 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1625 ^property[+].code = #dateMaj
-* #1625 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1625 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1625 ^property[+].code = #deprecationDate
+* #1625 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1625 ^property[+].code = #status
-* #1625 ^property[=].valueCode = #active
+* #1625 ^property[=].valueCode = #deprecated
 * #1626 "Traitement de la verrue plantaire par azote liquide"
 * #1626 ^property[0].code = #dateValid
 * #1626 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
@@ -13686,7 +13733,7 @@ Id: TRE-R210-ActeSpecifique
 * #1653 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1653 ^property[+].code = #status
 * #1653 ^property[=].valueCode = #active
-* #1654 "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges"
+* #1654 "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges" "Activité orthoptique permettant l'évaluation et  la prise en soins des interactions entre les systèmes visuel, vestibulaire et proprioceptif, pour assurer la stabilisation du regard, l'équilibration, l'orientation spatiale et la cohérence des informations sensorielles. Elle comprend l'évaluation de la fonction visuelle statique et dynamique, des fonctions oculomotrices, des interactions visuo-vestibulaires, des fonctions perceptivo-cognitives et, lorsque cela est indiqué, l'enregistrement oculométrique des mouvements oculaires et la recherche d'un nystagmus. L'évaluation permet d'analyser le rôle de la fonction visuelle dans les troubles vestibulaires et réciproquement, d'établir le diagnostic orthoptique, de contribuer à la localisation de l'atteinte (périphérique ou centrale), au diagnostic différentiel, à l'élaboration du projet de soins et à l'orientation du patient vers le professionnel le plus adapté (ORL, ophtalmologiste, neurologue ou médecin traitant). La prise en soins, qui relève de l'expertise de l'orthoptiste, repose sur les mécanismes de plasticité cérébrale afin de favoriser la compensation et la substitution sensorielle. Elle vise à restaurer la stabilité du regard, l'intégration visuo-vestibulaire, l'équilibration et l'orientation spatiale, à réduire les symptômes vertigineux, à améliorer l'autonomie et la qualité de vie et à favoriser le retour aux activités de la vie quotidienne."
 * #1654 ^designation[0].language = #fr-FR
 * #1654 ^designation[=].use.system = "http://snomed.info/sct"
 * #1654 ^designation[=].use = $sct#900000000000013009
@@ -13694,10 +13741,10 @@ Id: TRE-R210-ActeSpecifique
 * #1654 ^property[0].code = #dateValid
 * #1654 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1654 ^property[+].code = #dateMaj
-* #1654 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1654 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1654 ^property[+].code = #status
 * #1654 ^property[=].valueCode = #active
-* #1655 "Evaluation visuelle des troubles orthoptiques et neurovisuels dans le cadre des troubles du neuro-développement (TNV - TND)"
+* #1655 "Evaluation orthoptique et/ou prise en soins de la fonction visuelle et neurovisuelle dans le cadre du neurodéveloppement (TNV - TND)" "Evaluation orthoptique spécialisée de la fonction visuelle chez les patients présentant un trouble du neurodéveloppement (trouble du spectre de l'autisme, TDAH, troubles spécifiques des apprentissages, TDI). Elle repose sur une analyse sensori-motrice et perceptivo-cognitive de la fonction visuelle intégrant l'évaluation de la communication visuelle, indispensable au développement de l'attention conjointe, du contact visuel, de la désignation, des interactions sociales et de la communication non verbale. L'évaluation s'appuie sur des tests cliniques et des outils standardisés adaptés à l'âge, au niveau développemental et au profil du patient, et aboutit au diagnostic orthoptique. La prise en soins orthoptiques associe la rééducation des fonctions sensori-motrices et perceptivo-cognitives déficitaires ainsi que la mise en œuvre de stratégies compensatoires, afin d'améliorer les capacités fonctionnelles et de favoriser la communication, les apprentissages, l'autonomie et la participation du patient dans son environnement de vie, en articulation avec les équipes de diagnostic et de soins."
 * #1655 ^designation[0].language = #fr-FR
 * #1655 ^designation[=].use.system = "http://snomed.info/sct"
 * #1655 ^designation[=].use = $sct#900000000000013009
@@ -13705,17 +13752,17 @@ Id: TRE-R210-ActeSpecifique
 * #1655 ^property[0].code = #dateValid
 * #1655 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1655 ^property[+].code = #dateMaj
-* #1655 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1655 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1655 ^property[+].code = #status
 * #1655 ^property[=].valueCode = #active
-* #1656 "Bilan de dépistage réfractif et de l'amblyopie"
+* #1656 "Bilan de dépistage réfractif et de l'amblyopie" "Bilan visuel de dépistage des troubles de la réfraction et de l'amblyopie chez le nourrisson et le jeune enfant, réalisable en accès direct dans les conditions fixées par la réglementation en vigueur (décret n° 2022-691 du 26 avril 2022), avec orientation vers l'ophtalmologiste en cas d'anomalie dépistée."
 * #1656 ^property[0].code = #dateValid
 * #1656 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1656 ^property[+].code = #dateMaj
-* #1656 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1656 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1656 ^property[+].code = #status
 * #1656 ^property[=].valueCode = #active
-* #1657 "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))"
+* #1657 "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))" "Bilan visuel réalisé dans le cadre des protocoles de coopération RNM/RNO conclus avec un ophtalmologiste et déposés auprès de l'ARS, permettant le renouvellement ou l'adaptation de la correction optique avec lecture médicale du dossier."
 * #1657 ^designation[0].language = #fr-FR
 * #1657 ^designation[=].use.system = "http://snomed.info/sct"
 * #1657 ^designation[=].use = $sct#900000000000013009
@@ -13723,38 +13770,38 @@ Id: TRE-R210-ActeSpecifique
 * #1657 ^property[0].code = #dateValid
 * #1657 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1657 ^property[+].code = #dateMaj
-* #1657 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1657 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1657 ^property[+].code = #status
 * #1657 ^property[=].valueCode = #active
-* #1658 "Exploration du sens chromatique"
+* #1658 "Exploration du sens chromatique" "Examen spécifique visant à apprécier la perception et la discrimination des couleurs dans le cadre du dépistage, du diagnostic et du suivi des dyschromatopsies congénitales ou acquises, à l'aide de tests standardisés adaptés à l'âge et aux capacités du patient. Cette activité permet de documenter les capacités de perception chromatique dans le cadre d'exigences réglementaires, scolaires ou professionnelles, et contribue à l'accompagnement des projets d'orientation et d'insertion."
 * #1658 ^property[0].code = #dateValid
 * #1658 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1658 ^property[+].code = #dateMaj
-* #1658 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1658 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1658 ^property[+].code = #status
 * #1658 ^property[=].valueCode = #active
-* #1659 "Examen de la courbe d'adaptation à l'obscurité"
+* #1659 "Examen de la courbe d'adaptation à l'obscurité" "Examen mesurant l'évolution des seuils de sensibilité lumineuse lors du passage à l'obscurité, utile à l'exploration des héméralopies et des pathologies rétiniennes (dystrophies rétiniennes, rétinopathies pigmentaires)."
 * #1659 ^property[0].code = #dateValid
 * #1659 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1659 ^property[+].code = #dateMaj
-* #1659 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1659 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1659 ^property[+].code = #status
 * #1659 ^property[=].valueCode = #active
-* #1660 "Protocole de dépistage de la rétinopathie diabétique"
+* #1660 "Protocole de dépistage de la rétinopathie diabétique" "Réalisation, dans le cadre du protocole organisé de dépistage de la rétinopathie diabétique, de rétinographies (photographies du fond d'œil, avec ou sans mydriase) avec lecture différée des clichés par un ophtalmologiste."
 * #1660 ^property[0].code = #dateValid
 * #1660 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1660 ^property[+].code = #dateMaj
-* #1660 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1660 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1660 ^property[+].code = #status
 * #1660 ^property[=].valueCode = #active
-* #1661 "Examen dépistage réfractif avec Photoscreener"
+* #1661 "Examen dépistage réfractif avec Photoscreener" "Dépistage visuel instrumenté par photoscreener visant au repérage précoce des facteurs de risque d'amblyopie, de strabisme et des troubles visuels chez le nourrisson, le jeune enfant et les patients peu coopérants. Réalisé de façon binoculaire, à distance, sans contact et en quelques secondes, il permet d'identifier des anomalies réfractives telles que l'hypermétropie, la myopie, l'astigmatisme ou l'anisométropie. Permet d'orienter rapidement les patients nécessitant une évaluation ophtalmologique complémentaire, notamment une réfraction sous cycloplégie."
 * #1661 ^property[0].code = #dateValid
 * #1661 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1661 ^property[+].code = #dateMaj
-* #1661 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1661 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1661 ^property[+].code = #status
 * #1661 ^property[=].valueCode = #active
-* #1662 "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans"
+* #1662 "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans" "Bilan visuel réalisé en accès direct dans les conditions fixées par le décret n° 2022-691 du 26 avril 2022, permettant la primo-prescription ou le renouvellement de verres correcteurs et de lentilles de contact souples chez les patients de 16 à 42 ans, avec orientation vers l'ophtalmologiste en cas de signe d'appel ou de contre-indication."
 * #1662 ^designation[0].language = #fr-FR
 * #1662 ^designation[=].use.system = "http://snomed.info/sct"
 * #1662 ^designation[=].use = $sct#900000000000013009
@@ -13762,17 +13809,17 @@ Id: TRE-R210-ActeSpecifique
 * #1662 ^property[0].code = #dateValid
 * #1662 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1662 ^property[+].code = #dateMaj
-* #1662 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1662 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1662 ^property[+].code = #status
 * #1662 ^property[=].valueCode = #active
-* #1663 "Evaluation oculométrique par enregistrement – technique d'Eye tracking"
+* #1663 "Evaluation oculométrique par enregistrement - technique d'Eye tracking" "Enregistrement et quantification des mouvements oculaires dédié à l'analyse objective, quantitative qualitative et reproductible des biomarqueurs oculomoteurs. Cet enregistrement automatisé du regard à l'aide d'un système vidéo d'oculométrie (Eye Tracking) est réalisé en temps réel. Les biomarqueurs témoignent du fonctionnement du système nerveux central, et sont utiles à l'évaluation objective des troubles neurovisuels et au suivi de pathologies neurologiques ou neurodégénératives débutantes (syndromes parkinsoniens, paralysies oculomotrices, …)."
 * #1663 ^property[0].code = #dateValid
 * #1663 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1663 ^property[+].code = #dateMaj
-* #1663 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1663 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1663 ^property[+].code = #status
 * #1663 ^property[=].valueCode = #active
-* #1664 "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)"
+* #1664 "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)" "Évaluation des particularités du traitement sensoriel et perceptif visuel au moyen d'outils standardisés (profil sensoriel de Dunn, questionnaire de Bogdashina) et prise en soins adaptée, concernant notamment les enfants et adultes présentant un trouble du neurodéveloppement (TND), un trouble neurovisuel ou une pathologie neurologique."
 * #1664 ^designation[0].language = #fr-FR
 * #1664 ^designation[=].use.system = "http://snomed.info/sct"
 * #1664 ^designation[=].use = $sct#900000000000013009
@@ -13780,10 +13827,10 @@ Id: TRE-R210-ActeSpecifique
 * #1664 ^property[0].code = #dateValid
 * #1664 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1664 ^property[+].code = #dateMaj
-* #1664 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1664 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1664 ^property[+].code = #status
 * #1664 ^property[=].valueCode = #active
-* #1665 "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)"
+* #1665 "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)" "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle" "Evaluation orthoptique des capacités visuelles résiduelles et de leur retentissement sur les activités de la vie quotidienne, les apprentissages, la vie professionnelle et les loisirs, chez les personnes présentant une déficience visuelle permanente ou évolutive. Elle comprend l'évaluation individualisée des besoins en compensation, l'essai comparatif, le choix, le réglage, l'adaptation et l'apprentissage de l'utilisation des aides visuelles les plus adaptées au projet de vie du patient : aides optiques , aides électroniques et numériques (vidéo-loupes, téléagrandisseurs, lecteurs d'écran, logiciels d'agrandissement, applications mobiles, dispositifs connectés…), ainsi que les technologies d'assistance destinées à optimiser l'utilisation du potentiel visuel résiduel, la lecture, l'écriture, la communication, les déplacements, les activités scolaires, professionnelles et l'autonomie. Le choix des aides visuelles repose sur une évaluation des capacités visuelles, des besoins fonctionnels, de l'environnement et des objectifs du patient, et s'accompagne d'un apprentissage spécifique visant à optimiser leur utilisation. Cette activité contribue à l'élaboration du projet de soins, au choix des solutions de compensation du handicap visuel, au suivi de l'évolution des capacités fonctionnelles, à la réévaluation des besoins, à l'ajustement des aides optiques et technologiques, à l'évaluation de leur efficacité et à l'accompagnement du patient, en coordination avec les autres professionnels impliqués dans son parcours de soins."
 * #1665 ^designation[0].language = #fr-FR
 * #1665 ^designation[=].use.system = "http://snomed.info/sct"
 * #1665 ^designation[=].use = $sct#900000000000013009
@@ -13791,10 +13838,10 @@ Id: TRE-R210-ActeSpecifique
 * #1665 ^property[0].code = #dateValid
 * #1665 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1665 ^property[+].code = #dateMaj
-* #1665 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1665 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1665 ^property[+].code = #status
 * #1665 ^property[=].valueCode = #active
-* #1666 "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle"
+* #1666 "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle" "Évaluation de l'environnement du domicile au regard des capacités visuelles de la personne (éclairage, contrastes, repères visuels, sécurisation des déplacements) préconisation et suivi de la mise en œuvre des adaptations, des aménagements du logement visant à améliorer l'accessibilité, le repérage visuel, la sécurité et l'autonomie. dans le cadre d'un handicap de la fonction visuelle."
 * #1666 ^designation[0].language = #fr-FR
 * #1666 ^designation[=].use.system = "http://snomed.info/sct"
 * #1666 ^designation[=].use = $sct#900000000000013009
@@ -13802,10 +13849,10 @@ Id: TRE-R210-ActeSpecifique
 * #1666 ^property[0].code = #dateValid
 * #1666 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1666 ^property[+].code = #dateMaj
-* #1666 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1666 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1666 ^property[+].code = #status
 * #1666 ^property[=].valueCode = #active
-* #1667 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile"
+* #1667 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile" "Évaluation des aptitudes visuelles requises pour la conduite automobile (acuité visuelle, champ visuel, vision crépusculaire, sensibilité à l'éblouissement, stratégies d'exploration visuelle) et prise en soins associée, notamment dans le cadre de la reprise de la conduite après une atteinte neurologique ou visuelle, en lien avec les dispositifs d'évaluation de l'aptitude à la conduite."
 * #1667 ^designation[0].language = #fr-FR
 * #1667 ^designation[=].use.system = "http://snomed.info/sct"
 * #1667 ^designation[=].use = $sct#900000000000013009
@@ -13813,10 +13860,10 @@ Id: TRE-R210-ActeSpecifique
 * #1667 ^property[0].code = #dateValid
 * #1667 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1667 ^property[+].code = #dateMaj
-* #1667 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1667 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1667 ^property[+].code = #status
 * #1667 ^property[=].valueCode = #active
-* #1668 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée"
+* #1668 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée" "Evaluation et prise en soins de la fonction visuelle, des compétences  sensori-motrices, neurosensorielles, neurovisuelles  et de la cognition visuelle chez les patients présentant des pathologies ophtalmologiques, neurologiques, neurodégénératives ou post-traumatiques susceptibles d'altérer les capacités motrices et fonctionnelles. L'évaluation permet d'objectiver le retentissement de ces troubles sur les capacités motrices et fonctionnelles du patient, les activités de la vie quotidienne, la mobilité et les déplacements, les activités physiques adaptées, les activités sportives, les loisirs et, plus largement, sur la participation sociale en coordination avec les professionnels de l'activité physique adaptée."
 * #1668 ^designation[0].language = #fr-FR
 * #1668 ^designation[=].use.system = "http://snomed.info/sct"
 * #1668 ^designation[=].use = $sct#900000000000013009
@@ -13824,10 +13871,10 @@ Id: TRE-R210-ActeSpecifique
 * #1668 ^property[0].code = #dateValid
 * #1668 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1668 ^property[+].code = #dateMaj
-* #1668 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1668 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1668 ^property[+].code = #status
 * #1668 ^property[=].valueCode = #active
-* #1669 "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle"
+* #1669 "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle" "Expertise orthoptique dédiée à l'évaluation de la fonction visuelle et à la prise en soins des troubles de la cognition visuelle, c'est-à-dire des processus cérébraux permettant de percevoir, analyser, interpréter, mémoriser et utiliser les informations visuelles. Elle repose sur une démarche clinique associée à des tests standardisés, normés et scorés, sélectionnés en fonction de l'âge développemental, des capacités du patient et des différentes habiletés neurovisuelles explorées. L'évaluation porte notamment sur les fonctions visuo-perceptives, visuo-motrices, visuo-spatiales, visuo-attentionnelles, visuo-constructives, la mémoire visuelle, les stratégies d'exploration visuelle, les fonctions exécutives impliquées dans le traitement de l'information visuelle, ainsi que sur leurs répercussions dans les apprentissages, la lecture, les activités de la vie quotidienne et l'autonomie. Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins chez les patients présentant des troubles du neurodéveloppement (TND), des troubles neurovisuels (TNV), des lésions cérébrales acquises, des pathologies neuro-ophtalmologiques ou neurologiques, ou toute autre affection susceptible d'altérer les fonctions cognitives visuelles."
 * #1669 ^designation[0].language = #fr-FR
 * #1669 ^designation[=].use.system = "http://snomed.info/sct"
 * #1669 ^designation[=].use = $sct#900000000000013009
@@ -13835,7 +13882,7 @@ Id: TRE-R210-ActeSpecifique
 * #1669 ^property[0].code = #dateValid
 * #1669 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1669 ^property[+].code = #dateMaj
-* #1669 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1669 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1669 ^property[+].code = #status
 * #1669 ^property[=].valueCode = #active
 * #1670 "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)"
@@ -13920,11 +13967,15 @@ Id: TRE-R210-ActeSpecifique
 * #1679 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1679 ^property[+].code = #status
 * #1679 ^property[=].valueCode = #active
-* #1680 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #1680 "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique présentant un risque pour la santé"
+* #1680 ^designation[0].language = #fr-FR
+* #1680 ^designation[=].use.system = "http://snomed.info/sct"
+* #1680 ^designation[=].use = $sct#900000000000013009
+* #1680 ^designation[=].value = "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique"
 * #1680 ^property[0].code = #dateValid
 * #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1680 ^property[+].code = #dateMaj
-* #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1680 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1680 ^property[+].code = #status
 * #1680 ^property[=].valueCode = #active
 * #1681 "Orthèses et prothèses externes (orthopédie sur mesure)"
@@ -14127,3 +14178,182 @@ Id: TRE-R210-ActeSpecifique
 * #1703 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1703 ^property[+].code = #status
 * #1703 ^property[=].valueCode = #active
+* #1704 "Exploration diagnostique scintigraphique pour patient dialysé"
+* #1704 ^designation[0].language = #fr-FR
+* #1704 ^designation[=].use.system = "http://snomed.info/sct"
+* #1704 ^designation[=].use = $sct#900000000000013009
+* #1704 ^designation[=].value = "Explo diag scintigraphique pour patient dialysé"
+* #1704 ^property[0].code = #dateValid
+* #1704 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1704 ^property[+].code = #dateMaj
+* #1704 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1704 ^property[+].code = #status
+* #1704 ^property[=].valueCode = #active
+* #1705 "Exploration diagnostique par TEP 18F-FDG pour pathologie neurologique (démence, épilepsie, Parkinson, AVC)"
+* #1705 ^designation[0].language = #fr-FR
+* #1705 ^designation[=].use.system = "http://snomed.info/sct"
+* #1705 ^designation[=].use = $sct#900000000000013009
+* #1705 ^designation[=].value = "Explo diag par TEP 18F-FDG pour pathologie neurologique"
+* #1705 ^property[0].code = #dateValid
+* #1705 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1705 ^property[+].code = #dateMaj
+* #1705 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1705 ^property[+].code = #status
+* #1705 ^property[=].valueCode = #active
+* #1706 "Exploration diagnostique par TEP pour des plaques amyloïdes"
+* #1706 ^designation[0].language = #fr-FR
+* #1706 ^designation[=].use.system = "http://snomed.info/sct"
+* #1706 ^designation[=].use = $sct#900000000000013009
+* #1706 ^designation[=].value = "Explo diag par TEP pour des plaques amyloïdes"
+* #1706 ^property[0].code = #dateValid
+* #1706 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1706 ^property[+].code = #dateMaj
+* #1706 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1706 ^property[+].code = #status
+* #1706 ^property[=].valueCode = #active
+* #1707 "Exploration diagnostique scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+* #1707 ^designation[0].language = #fr-FR
+* #1707 ^designation[=].use.system = "http://snomed.info/sct"
+* #1707 ^designation[=].use = $sct#900000000000013009
+* #1707 ^designation[=].value = "Explo diag scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+* #1707 ^property[0].code = #dateValid
+* #1707 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1707 ^property[+].code = #dateMaj
+* #1707 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1707 ^property[+].code = #status
+* #1707 ^property[=].valueCode = #active
+* #1708 "Exploration diagnostique scintigraphique ou TEP de pathologie surrénalienne"
+* #1708 ^designation[0].language = #fr-FR
+* #1708 ^designation[=].use.system = "http://snomed.info/sct"
+* #1708 ^designation[=].use = $sct#900000000000013009
+* #1708 ^designation[=].value = "Explo diag scintigraphique ou TEP de pathologie surrénalienne"
+* #1708 ^property[0].code = #dateValid
+* #1708 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1708 ^property[+].code = #dateMaj
+* #1708 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1708 ^property[+].code = #status
+* #1708 ^property[=].valueCode = #active
+* #1709 "Traitement de médecine nucléaire / RIV par 131I des pathologies bénignes de la thyroïde"
+* #1709 ^designation[0].language = #fr-FR
+* #1709 ^designation[=].use.system = "http://snomed.info/sct"
+* #1709 ^designation[=].use = $sct#900000000000013009
+* #1709 ^designation[=].value = "Traitement de méd nucl / RIV par 131I des pathologies bénignes de la thyroïde"
+* #1709 ^property[0].code = #dateValid
+* #1709 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1709 ^property[+].code = #dateMaj
+* #1709 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1709 ^property[+].code = #status
+* #1709 ^property[=].valueCode = #active
+* #1710 "Traitement de médecine nucléaire / RIV  par lutetium-177 oxodotreotide pour Tumeur neuroendocrine - TNE"
+* #1710 ^designation[0].language = #fr-FR
+* #1710 ^designation[=].use.system = "http://snomed.info/sct"
+* #1710 ^designation[=].use = $sct#900000000000013009
+* #1710 ^designation[=].value = "Traitement de méd nucl / RIV par Lu177 oxodotreotide pour TNE"
+* #1710 ^property[0].code = #dateValid
+* #1710 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1710 ^property[+].code = #dateMaj
+* #1710 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1710 ^property[+].code = #status
+* #1710 ^property[=].valueCode = #active
+* #1711 "Traitement de médecine nucléaire / RIV  par lutetium-177 PSMA pour cancer de la prostate"
+* #1711 ^designation[0].language = #fr-FR
+* #1711 ^designation[=].use.system = "http://snomed.info/sct"
+* #1711 ^designation[=].use = $sct#900000000000013009
+* #1711 ^designation[=].value = "Traitement de méd nucl / RIV par Lu177 PSMA pour cancer de la prostate"
+* #1711 ^property[0].code = #dateValid
+* #1711 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1711 ^property[+].code = #dateMaj
+* #1711 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1711 ^property[+].code = #status
+* #1711 ^property[=].valueCode = #active
+* #1712 "Traitement de médecine nucléaire / RIV par radium-223 pour cancer de la prostate avec métastases osseuses"
+* #1712 ^designation[0].language = #fr-FR
+* #1712 ^designation[=].use.system = "http://snomed.info/sct"
+* #1712 ^designation[=].use = $sct#900000000000013009
+* #1712 ^designation[=].value = "Traitement de méd nucl / RIV par Ra223 pour cancer prostate & métastase osseuse"
+* #1712 ^property[0].code = #dateValid
+* #1712 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1712 ^property[+].code = #dateMaj
+* #1712 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1712 ^property[+].code = #status
+* #1712 ^property[=].valueCode = #active
+* #1713 "Traitement de médecine nucléaire / RIV  par 90Y microsphères pour cancer hépatocellulaire (CHC) et lésion secondaire hépatique"
+* #1713 ^designation[0].language = #fr-FR
+* #1713 ^designation[=].use.system = "http://snomed.info/sct"
+* #1713 ^designation[=].use = $sct#900000000000013009
+* #1713 ^designation[=].value = "Traitement de méd nucl / RIV par 90Y microsphères pour CHC et lésion hépatique"
+* #1713 ^property[0].code = #dateValid
+* #1713 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1713 ^property[+].code = #dateMaj
+* #1713 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1713 ^property[+].code = #status
+* #1713 ^property[=].valueCode = #active
+* #1714 "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
+* #1714 ^designation[0].language = #fr-FR
+* #1714 ^designation[=].use.system = "http://snomed.info/sct"
+* #1714 ^designation[=].use = $sct#900000000000013009
+* #1714 ^designation[=].value = "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+* #1714 ^property[0].code = #dateValid
+* #1714 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1714 ^property[+].code = #dateMaj
+* #1714 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1714 ^property[+].code = #status
+* #1714 ^property[=].valueCode = #active
+* #1715 "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
+* #1715 ^designation[0].language = #fr-FR
+* #1715 ^designation[=].use.system = "http://snomed.info/sct"
+* #1715 ^designation[=].use = $sct#900000000000013009
+* #1715 ^designation[=].value = "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+* #1715 ^property[0].code = #dateValid
+* #1715 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1715 ^property[+].code = #dateMaj
+* #1715 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1715 ^property[+].code = #status
+* #1715 ^property[=].valueCode = #active
+* #1716 "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
+* #1716 ^property[0].code = #dateValid
+* #1716 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1716 ^property[+].code = #dateMaj
+* #1716 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1716 ^property[+].code = #status
+* #1716 ^property[=].valueCode = #active
+* #1717 "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
+* #1717 ^designation[0].language = #fr-FR
+* #1717 ^designation[=].use.system = "http://snomed.info/sct"
+* #1717 ^designation[=].use = $sct#900000000000013009
+* #1717 ^designation[=].value = "Explo diag scintigraphique splénique ou hépatosplénique"
+* #1717 ^property[0].code = #dateValid
+* #1717 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1717 ^property[+].code = #dateMaj
+* #1717 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1717 ^property[+].code = #status
+* #1717 ^property[=].valueCode = #active
+* #1718 "Exploration diagnostique scintigraphique des glandes salivaires"
+* #1718 ^designation[0].language = #fr-FR
+* #1718 ^designation[=].use.system = "http://snomed.info/sct"
+* #1718 ^designation[=].use = $sct#900000000000013009
+* #1718 ^designation[=].value = "Explo diag scintigraphique des glandes salivaires"
+* #1718 ^property[0].code = #dateValid
+* #1718 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1718 ^property[+].code = #dateMaj
+* #1718 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1718 ^property[+].code = #status
+* #1718 ^property[=].valueCode = #active
+* #1719 "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
+* #1719 ^designation[0].language = #fr-FR
+* #1719 ^designation[=].use.system = "http://snomed.info/sct"
+* #1719 ^designation[=].use = $sct#900000000000013009
+* #1719 ^designation[=].value = "Explo diag scintigraphique aux leucocytes marqués pour recherche d'infection"
+* #1719 ^property[0].code = #dateValid
+* #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1719 ^property[+].code = #dateMaj
+* #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1719 ^property[+].code = #status
+* #1719 ^property[=].valueCode = #active
+* #1720 "Recherche en oncologie, bilan d'extension"
+* #1720 ^property[0].code = #dateValid
+* #1720 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1720 ^property[+].code = #dateMaj
+* #1720 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #1720 ^property[+].code = #status
+* #1720 ^property[=].valueCode = #active
