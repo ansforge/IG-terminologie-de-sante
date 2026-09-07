@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2026-09-07 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.2.0 |
+| Retired as of 2026-09-28 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure 
@@ -31,6 +31,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -76,12 +78,12 @@ Liens:
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",
-  "version" : "1.1.0",
+  "version" : "1.2.0",
   "name" : "JDV_TRE_R222_MediaTypeCorpsCDANonStructure",
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2026-09-07T07:40:03+00:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

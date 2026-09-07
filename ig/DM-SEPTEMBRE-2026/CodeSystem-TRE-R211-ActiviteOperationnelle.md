@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 631,
+  "count" : 635,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -2020,7 +2020,7 @@ Activite Operationnelle
   },
   {
     "code" : "106",
-    "display" : "Orthoptie",
+    "display" : "Orthoptie : exploration et rééducation de la fonction visuelle",
     "definition" : "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle.",
     "property" : [{
       "code" : "dateValid",
@@ -2028,7 +2028,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11339,14 +11339,15 @@ Activite Operationnelle
   },
   {
     "code" : "626",
-    "display" : "Orthoptie orientation basse vision",
+    "display" : "Orthoptie Basse Vision adulte",
+    "definition" : "Activité orthoptique dédiée à l'évaluation de la fonction visuelle, sensori-motrice et perceptivo-cognitive, à la prise en soins et  à l'accompagnement des personnes présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer les stratégies de compensation et à favoriser l'autonomie dans les activités de la vie quotidienne, de formation, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11356,13 +11357,14 @@ Activite Operationnelle
   {
     "code" : "627",
     "display" : "Orthoptie orientation pédiatrique",
+    "definition" : "Activité orthoptique spécialisée dans le dépistage, l'évaluation et la prise en soins de la fonction visuelle des nourrissons, enfants et adolescents présentant des troubles visuels sensori-moteurs et / ou neurovisuels. Cette activité participe au dépistage précoce, au diagnostic fonctionnel, au suivi et à la rééducation des troubles susceptibles d'altérer le développement visuel, les apprentissages ou l'autonomie en utilisant des conditions d'examen adaptées à l'âge, y compris à l'enfant non verbal ou en situation de handicap.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11435,6 +11437,72 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "632",
+    "display" : "Médecine nucléaire - Diagnostic",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "633",
+    "display" : "Médecine nucléaire - Thérapie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "634",
+    "display" : "Orthoptie orientation neurovisuelle enfant",
+    "definition" : "Activité orthoptique dédiée à l'évaluation de la fonction visuelle sensori-motrice et perceptivo-cognitive, à l'évaluation fonctionnelle des capacités visuelles résiduelles ainsi qu'à la prise en soins et à l'accompagnement de l'enfant présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer le contexte perceptivo-cognitif visuel, les stratégies de compensation, l'apprentissage de l'utilisation des aides optiques et non optiques, ainsi qu'à favoriser l'autonomie dans les activités de la vie quotidienne, scolaires, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "635",
+    "display" : "Orthoptie Basse Vision enfant",
+    "definition" : "Activité orthoptique dédiée à l'évaluation et à la prise en soins des troubles neurovisuels de l'enfant (altérations du champ visuel d'origine neurologique, troubles de la mémoire visuelle, troubles de l'oculomotricité et des stratégies du regard, troubles visuo-attentionnels, visuo-spatiaux et gnosiques), notamment dans le cadre des troubles du neurodéveloppement, des troubles des apprentissages et des atteintes neurologiques pédiatriques, en coordination avec l'équipe pluridisciplinaire.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

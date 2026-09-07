@@ -1887,10 +1887,6 @@ Liens:
         "display" : "Attaché de recherche clinique"
       },
       {
-        "code" : "364",
-        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
-      },
-      {
         "code" : "365",
         "display" : "Gestionnaire admissions / frais de séjour / traitement externe"
       },

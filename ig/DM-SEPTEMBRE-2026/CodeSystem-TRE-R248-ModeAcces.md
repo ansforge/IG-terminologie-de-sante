@@ -8,9 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces | *Version*:20250131120000 | |
-| Active as of 2025-01-31 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R248_ModeAcces |
-| *Other Identifiers:*OID:1.2.250.1.213.1.1.4.336 | | |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R248_ModeAcces |
+| *Other Identifiers:*OID:1.2.250.1.213.1.1.4.248 | | |
 
  
 Mode d’accès pour accéder à un SI santé avec données patients 
@@ -41,13 +41,13 @@ Mode d’accès pour accéder à un SI santé avec données patients
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.1.4.336"
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.248"
   }],
-  "version" : "20250131120000",
+  "version" : "20260928120000",
   "name" : "TRE_R248_ModeAcces",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-31T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode d'accès pour accéder à un SI santé avec données patients",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Mode d’accès pour accéder à un SI santé avec données patients
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 3,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

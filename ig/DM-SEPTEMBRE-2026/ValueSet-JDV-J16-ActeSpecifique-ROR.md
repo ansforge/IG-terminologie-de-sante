@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -590,7 +590,7 @@ Liens:
       },
       {
         "code" : "0216",
-        "display" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
+        "display" : "Exploration en médecine nucléaire mesure de la fraction éjection ventriculaire"
       },
       {
         "code" : "0217",
@@ -754,7 +754,7 @@ Liens:
       },
       {
         "code" : "0278",
-        "display" : "Lymphoscintigraphie"
+        "display" : "Exploration diagnostique par lymphoscintigraphie incluant recherche de ganglion sentinelle (GLS)"
       },
       {
         "code" : "0284",
@@ -998,11 +998,11 @@ Liens:
       },
       {
         "code" : "0426",
-        "display" : "Scintigraphie au 18F-choline (suivi cancer de prostate)"
+        "display" : "Exploration diagnostique par TEP PSMA pour cancer de la prostate"
       },
       {
         "code" : "0427",
-        "display" : "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)"
+        "display" : "Exploration diagnostique scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endocrine"
       },
       {
         "code" : "0428",
@@ -1010,19 +1010,19 @@ Liens:
       },
       {
         "code" : "0429",
-        "display" : "Scintigraphie rénale"
+        "display" : "Exploration diagnostique scintigraphique rénale"
       },
       {
         "code" : "0430",
-        "display" : "Scintigraphie au MIBG"
+        "display" : "Exploration diagnostique scintigraphique au MIBG"
       },
       {
         "code" : "0431",
-        "display" : "Scintigraphie aux hématies marquées (recherche de saignement)"
+        "display" : "Exploration diagnostique scintigraphique aux hématies marquées (recherche de saignement)"
       },
       {
         "code" : "0432",
-        "display" : "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)"
+        "display" : "Exploration diagnostique scintigraphique ou TEP de la neurotransmission dopaminergique par Dat-scan ou F-DOPA (Syndrome Parkinsonien)"
       },
       {
         "code" : "0433",
@@ -1030,7 +1030,7 @@ Liens:
       },
       {
         "code" : "0434",
-        "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
+        "display" : "Exploration diagnostique scintigraphique rénale de perfusion avec test médicamenteux pour recherche d'une HTA"
       },
       {
         "code" : "0435",
@@ -1038,11 +1038,11 @@ Liens:
       },
       {
         "code" : "0436",
-        "display" : "Scintigraphie myocardique à l'effort ou pharmacologique"
+        "display" : "Exploration diagnostique scintigraphique de perfusion myocardique à l'effort ou après stress pharmacologique (99mTc/201Tl)"
       },
       {
         "code" : "0437",
-        "display" : "Scintigraphie SPECT-CT"
+        "display" : "Exploration diagnostique scintigraphique ventilation perfusion pulmonaire"
       },
       {
         "code" : "0441",
@@ -1818,7 +1818,7 @@ Liens:
       },
       {
         "code" : "0720",
-        "display" : "Scintigraphie osseuse"
+        "display" : "Exploration diagnostique scintigraphique osseuse"
       },
       {
         "code" : "0721",
@@ -1855,6 +1855,10 @@ Liens:
       {
         "code" : "0730",
         "display" : "Suivi de grossesse à risque"
+      },
+      {
+        "code" : "0731",
+        "display" : "Surveillance du nouveau-né à risque"
       },
       {
         "code" : "0732",
@@ -3797,10 +3801,6 @@ Liens:
         "display" : "Téléexpertise en moins de 7 jours"
       },
       {
-        "code" : "1273",
-        "display" : "Téléexpertise en plus de 7 jours"
-      },
-      {
         "code" : "1274",
         "display" : "Thrombectomie cérébrale"
       },
@@ -4430,7 +4430,7 @@ Liens:
       },
       {
         "code" : "1447",
-        "display" : "Prescription de vaccin"
+        "display" : "Prescription de vaccins selon le calendrier vaccinal de l'adolescent et de l'adulte"
       },
       {
         "code" : "1448",
@@ -4774,15 +4774,15 @@ Liens:
       },
       {
         "code" : "1535",
-        "display" : "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte"
+        "display" : "Vaccination selon le calendrier vaccinal de l'adolescent et de l'adulte"
       },
       {
         "code" : "1536",
-        "display" : "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)"
+        "display" : "Vaccination selon le calendrier vaccinal du jeune enfant (0-12 ans)"
       },
       {
         "code" : "1537",
-        "display" : "Vaccination du calendrier vaccinal du sénior"
+        "display" : "Vaccination selon le calendrier vaccinal du sénior"
       },
       {
         "code" : "1538",
@@ -5130,11 +5130,7 @@ Liens:
       },
       {
         "code" : "1624",
-        "display" : "Contention nocturne"
-      },
-      {
-        "code" : "1625",
-        "display" : "Soin de pédicurie"
+        "display" : "Création de contention nocturne"
       },
       {
         "code" : "1626",
@@ -5286,7 +5282,7 @@ Liens:
       },
       {
         "code" : "1663",
-        "display" : "Evaluation oculométrique par enregistrement – technique d'Eye tracking"
+        "display" : "Evaluation oculométrique par enregistrement - technique d'Eye tracking"
       },
       {
         "code" : "1664",
@@ -5354,7 +5350,7 @@ Liens:
       },
       {
         "code" : "1680",
-        "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+        "display" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique présentant un risque pour la santé"
       },
       {
         "code" : "1681",
@@ -5447,6 +5443,74 @@ Liens:
       {
         "code" : "1703",
         "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive"
+      },
+      {
+        "code" : "1704",
+        "display" : "Exploration diagnostique scintigraphique pour patient dialysé"
+      },
+      {
+        "code" : "1705",
+        "display" : "Exploration diagnostique par TEP 18F-FDG pour pathologie neurologique (démence, épilepsie, Parkinson, AVC)"
+      },
+      {
+        "code" : "1706",
+        "display" : "Exploration diagnostique par TEP pour des plaques amyloïdes"
+      },
+      {
+        "code" : "1707",
+        "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+      },
+      {
+        "code" : "1708",
+        "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie surrénalienne"
+      },
+      {
+        "code" : "1709",
+        "display" : "Traitement de médecine nucléaire / RIV par 131I des pathologies bénignes de la thyroïde"
+      },
+      {
+        "code" : "1710",
+        "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 oxodotreotide pour Tumeur neuroendocrine - TNE"
+      },
+      {
+        "code" : "1711",
+        "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 PSMA pour cancer de la prostate"
+      },
+      {
+        "code" : "1712",
+        "display" : "Traitement de médecine nucléaire / RIV par radium-223 pour cancer de la prostate avec métastases osseuses"
+      },
+      {
+        "code" : "1713",
+        "display" : "Traitement de médecine nucléaire / RIV  par 90Y microsphères pour cancer hépatocellulaire (CHC) et lésion secondaire hépatique"
+      },
+      {
+        "code" : "1714",
+        "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
+      },
+      {
+        "code" : "1715",
+        "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
+      },
+      {
+        "code" : "1716",
+        "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
+      },
+      {
+        "code" : "1717",
+        "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
+      },
+      {
+        "code" : "1718",
+        "display" : "Exploration diagnostique scintigraphique des glandes salivaires"
+      },
+      {
+        "code" : "1719",
+        "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
+      },
+      {
+        "code" : "1720",
+        "display" : "Recherche en oncologie, bilan d'extension"
       }]
     }]
   }

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -410,7 +410,7 @@ Liens:
       },
       {
         "code" : "106",
-        "display" : "Orthoptie"
+        "display" : "Orthoptie : exploration et rééducation de la fonction visuelle"
       },
       {
         "code" : "110",
@@ -2278,7 +2278,7 @@ Liens:
       },
       {
         "code" : "626",
-        "display" : "Orthoptie orientation basse vision"
+        "display" : "Orthoptie Basse Vision adulte"
       },
       {
         "code" : "627",
@@ -2299,6 +2299,22 @@ Liens:
       {
         "code" : "631",
         "display" : "Prise en charge et coordination de plaies et cicatrisations complexes"
+      },
+      {
+        "code" : "632",
+        "display" : "Médecine nucléaire - Diagnostic"
+      },
+      {
+        "code" : "633",
+        "display" : "Médecine nucléaire - Thérapie"
+      },
+      {
+        "code" : "634",
+        "display" : "Orthoptie orientation neurovisuelle enfant"
+      },
+      {
+        "code" : "635",
+        "display" : "Orthoptie Basse Vision enfant"
       }]
     }]
   }

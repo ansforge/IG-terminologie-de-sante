@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.58 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.58"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
   "jurisdiction" : [{
@@ -118,7 +118,7 @@ Liens:
       },
       {
         "code" : "05",
-        "display" : "Visite à domicile"
+        "display" : "Visite et soins à domicile"
       },
       {
         "code" : "06",
@@ -194,15 +194,11 @@ Liens:
       },
       {
         "code" : "25",
-        "display" : "Relayage courte durée (quelques heures par jour)"
+        "display" : "Relayage courte durée (< un jour)"
       },
       {
         "code" : "26",
-        "display" : "Relayage longue durée (sur plusieurs jours)"
-      },
-      {
-        "code" : "27",
-        "display" : "Soins à domicile"
+        "display" : "Relayage longue durée (> un jour)"
       }]
     }]
   }

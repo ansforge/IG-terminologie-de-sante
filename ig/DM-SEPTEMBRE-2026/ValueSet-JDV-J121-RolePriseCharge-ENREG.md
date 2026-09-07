@@ -70,7 +70,7 @@ Liens:
   "meta" : {
     "versionId" : "17",
     "lastUpdated" : "2026-07-06T19:04:57.039+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

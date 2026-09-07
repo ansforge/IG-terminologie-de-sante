@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
-
- 
-Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -38,13 +35,12 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -53,7 +49,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1703,
+  "count" : 1720,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -4397,22 +4393,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0216",
-    "display" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Gamma-angiographie cardiaque, tomographie cavitaire"
-    }],
+    "display" : "Exploration en médecine nucléaire mesure de la fraction éjection ventriculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5572,14 +5560,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0278",
-    "display" : "Lymphoscintigraphie",
+    "display" : "Exploration diagnostique par lymphoscintigraphie incluant recherche de ganglion sentinelle (GLS)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par lymphoscintigraphie incluant recherche de GLS"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8654,14 +8650,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0426",
-    "display" : "Scintigraphie au 18F-choline (suivi cancer de prostate)",
+    "display" : "Exploration diagnostique par TEP PSMA pour cancer de la prostate",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP PSMA pour cancer de la prostate"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8670,14 +8674,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0427",
-    "display" : "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)",
+    "display" : "Exploration diagnostique scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endocrine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endo"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8702,14 +8714,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0429",
-    "display" : "Scintigraphie rénale",
+    "display" : "Exploration diagnostique scintigraphique rénale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique rénale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8718,14 +8738,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0430",
-    "display" : "Scintigraphie au MIBG",
+    "display" : "Exploration diagnostique scintigraphique au MIBG",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique au MIBG"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8734,14 +8762,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0431",
-    "display" : "Scintigraphie aux hématies marquées (recherche de saignement)",
+    "display" : "Exploration diagnostique scintigraphique aux hématies marquées (recherche de saignement)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique aux hématies marquées (recherche de saignement)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8750,14 +8786,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0432",
-    "display" : "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de la neurotransmission dopaminergique par Dat-scan ou F-DOPA (Syndrome Parkinsonien)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de la neurotransmission dopaminergique"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8782,14 +8826,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0434",
-    "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)",
+    "display" : "Exploration diagnostique scintigraphique rénale de perfusion avec test médicamenteux pour recherche d'une HTA",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
+      "value" : "Explo diag scintigraphique rénale de perfusion avec test méd pour recherche HTA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8797,7 +8841,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8822,14 +8866,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0436",
-    "display" : "Scintigraphie myocardique à l'effort ou pharmacologique",
+    "display" : "Exploration diagnostique scintigraphique de perfusion myocardique à l'effort ou après stress pharmacologique (99mTc/201Tl)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique de perf myocardique à l'effort / post stress pharmaco"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8838,14 +8890,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0437",
-    "display" : "Scintigraphie SPECT-CT",
+    "display" : "Exploration diagnostique scintigraphique ventilation perfusion pulmonaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ventilation perfusion pulmonaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14362,14 +14422,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0720",
-    "display" : "Scintigraphie osseuse",
+    "display" : "Exploration diagnostique scintigraphique osseuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique osseuse"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24035,12 +24103,20 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
       "valueDateTime" : "2022-10-28T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-10-28T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -27148,14 +27224,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1447",
-    "display" : "Prescription de vaccin",
+    "display" : "Prescription de vaccins selon le calendrier vaccinal de l'adolescent et de l'adulte",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prescription de vaccins selon le calendrier vaccinal"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28735,7 +28819,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1535",
-    "display" : "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte",
+    "display" : "Vaccination selon le calendrier vaccinal de l'adolescent et de l'adulte",
     "definition" : "Administration d’un ensemble de vaccins (primo-vaccination et rappels) chez l’adolescent et l’adulte, selon le calendrier vaccinal officiel déterminé annuellement par le ministère de la Santé après avis de la HAS, visant à prévenir les maladies infectieuses selon l’âge ou le contexte individuel . Cette vaccination est réalisée par des professionnels habilités (médecins, infirmiers, sages-femmes, pharmaciens) et suit des schémas validés scientifiquement pour garantir une protection durable et collective.",
     "property" : [{
       "code" : "dateValid",
@@ -28743,7 +28827,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28752,7 +28836,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1536",
-    "display" : "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)",
+    "display" : "Vaccination selon le calendrier vaccinal du jeune enfant (0-12 ans)",
     "definition" : "Administration programmée des vaccins du calendrier vaccinal national pour les enfants de 0 à 12 ans, conformément aux exigences légales (vaccinations obligatoires comme diphtérie, tétanos, poliomyélite, coqueluche, rougeole, oreillons, rubéole, Haemophilus influenzae b, hépatite B, pneumocoque, méningocoque ACWY/B) visant à assurer une protection effective contre des maladies graves. Elle suit les recommandations officielles publiées par le ministère de la Santé et la HAS, actualisées chaque année, pour garantir que l’enfant bénéficie des vaccins au bon âge selon les schémas définis (primo-vaccinations, rappels, rattrapages)",
     "property" : [{
       "code" : "dateValid",
@@ -28760,7 +28844,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28769,7 +28853,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1537",
-    "display" : "Vaccination du calendrier vaccinal du sénior",
+    "display" : "Vaccination selon le calendrier vaccinal du sénior",
     "definition" : "Administration des vaccins recommandés dans le calendrier vaccinal des personnes âgées (65 ans et plus), incluant notamment les rappels de diphtérie-tétanos-poliomyélite (DTP), le vaccin antigrippal annuel, la vaccination contre le pneumocoque et le zona, et, selon les situations, la vaccination contre le virus respiratoire syncytial (VRS), conformément aux recommandations officielles publiées par le ministère de la Santé après avis de la HAS.",
     "property" : [{
       "code" : "dateValid",
@@ -28777,7 +28861,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30487,14 +30571,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1624",
-    "display" : "Contention nocturne",
+    "display" : "Création de contention nocturne",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30509,12 +30593,20 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -31008,6 +31100,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1654",
     "display" : "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges",
+    "definition" : "Activité orthoptique permettant l'évaluation et  la prise en soins des interactions entre les systèmes visuel, vestibulaire et proprioceptif, pour assurer la stabilisation du regard, l'équilibration, l'orientation spatiale et la cohérence des informations sensorielles. Elle comprend l'évaluation de la fonction visuelle statique et dynamique, des fonctions oculomotrices, des interactions visuo-vestibulaires, des fonctions perceptivo-cognitives et, lorsque cela est indiqué, l'enregistrement oculométrique des mouvements oculaires et la recherche d'un nystagmus. L'évaluation permet d'analyser le rôle de la fonction visuelle dans les troubles vestibulaires et réciproquement, d'établir le diagnostic orthoptique, de contribuer à la localisation de l'atteinte (périphérique ou centrale), au diagnostic différentiel, à l'élaboration du projet de soins et à l'orientation du patient vers le professionnel le plus adapté (ORL, ophtalmologiste, neurologue ou médecin traitant). La prise en soins, qui relève de l'expertise de l'orthoptiste, repose sur les mécanismes de plasticité cérébrale afin de favoriser la compensation et la substitution sensorielle. Elle vise à restaurer la stabilité du regard, l'intégration visuo-vestibulaire, l'équilibration et l'orientation spatiale, à réduire les symptômes vertigineux, à améliorer l'autonomie et la qualité de vie et à favoriser le retour aux activités de la vie quotidienne.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31022,7 +31115,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31031,7 +31124,8 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1655",
-    "display" : "Evaluation visuelle des troubles orthoptiques et neurovisuels dans le cadre des troubles du neuro-développement (TNV - TND)",
+    "display" : "Evaluation orthoptique et/ou prise en soins de la fonction visuelle et neurovisuelle dans le cadre du neurodéveloppement (TNV - TND)",
+    "definition" : "Evaluation orthoptique spécialisée de la fonction visuelle chez les patients présentant un trouble du neurodéveloppement (trouble du spectre de l'autisme, TDAH, troubles spécifiques des apprentissages, TDI). Elle repose sur une analyse sensori-motrice et perceptivo-cognitive de la fonction visuelle intégrant l'évaluation de la communication visuelle, indispensable au développement de l'attention conjointe, du contact visuel, de la désignation, des interactions sociales et de la communication non verbale. L'évaluation s'appuie sur des tests cliniques et des outils standardisés adaptés à l'âge, au niveau développemental et au profil du patient, et aboutit au diagnostic orthoptique. La prise en soins orthoptiques associe la rééducation des fonctions sensori-motrices et perceptivo-cognitives déficitaires ainsi que la mise en œuvre de stratégies compensatoires, afin d'améliorer les capacités fonctionnelles et de favoriser la communication, les apprentissages, l'autonomie et la participation du patient dans son environnement de vie, en articulation avec les équipes de diagnostic et de soins.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31046,7 +31140,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31056,13 +31150,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1656",
     "display" : "Bilan de dépistage réfractif et de l'amblyopie",
+    "definition" : "Bilan visuel de dépistage des troubles de la réfraction et de l'amblyopie chez le nourrisson et le jeune enfant, réalisable en accès direct dans les conditions fixées par la réglementation en vigueur (décret n° 2022-691 du 26 avril 2022), avec orientation vers l'ophtalmologiste en cas d'anomalie dépistée.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31071,7 +31166,8 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1657",
-    "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))",
+    "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))",
+    "definition" : "Bilan visuel réalisé dans le cadre des protocoles de coopération RNM/RNO conclus avec un ophtalmologiste et déposés auprès de l'ARS, permettant le renouvellement ou l'adaptation de la correction optique avec lecture médicale du dossier.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31086,7 +31182,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31096,13 +31192,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1658",
     "display" : "Exploration du sens chromatique",
+    "definition" : "Examen spécifique visant à apprécier la perception et la discrimination des couleurs dans le cadre du dépistage, du diagnostic et du suivi des dyschromatopsies congénitales ou acquises, à l'aide de tests standardisés adaptés à l'âge et aux capacités du patient. Cette activité permet de documenter les capacités de perception chromatique dans le cadre d'exigences réglementaires, scolaires ou professionnelles, et contribue à l'accompagnement des projets d'orientation et d'insertion.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31112,13 +31209,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1659",
     "display" : "Examen de la courbe d'adaptation à l'obscurité",
+    "definition" : "Examen mesurant l'évolution des seuils de sensibilité lumineuse lors du passage à l'obscurité, utile à l'exploration des héméralopies et des pathologies rétiniennes (dystrophies rétiniennes, rétinopathies pigmentaires).",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31128,13 +31226,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1660",
     "display" : "Protocole de dépistage de la rétinopathie diabétique",
+    "definition" : "Réalisation, dans le cadre du protocole organisé de dépistage de la rétinopathie diabétique, de rétinographies (photographies du fond d'œil, avec ou sans mydriase) avec lecture différée des clichés par un ophtalmologiste.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31144,13 +31243,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1661",
     "display" : "Examen dépistage réfractif avec Photoscreener",
+    "definition" : "Dépistage visuel instrumenté par photoscreener visant au repérage précoce des facteurs de risque d'amblyopie, de strabisme et des troubles visuels chez le nourrisson, le jeune enfant et les patients peu coopérants. Réalisé de façon binoculaire, à distance, sans contact et en quelques secondes, il permet d'identifier des anomalies réfractives telles que l'hypermétropie, la myopie, l'astigmatisme ou l'anisométropie. Permet d'orienter rapidement les patients nécessitant une évaluation ophtalmologique complémentaire, notamment une réfraction sous cycloplégie.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31160,6 +31260,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1662",
     "display" : "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans",
+    "definition" : "Bilan visuel réalisé en accès direct dans les conditions fixées par le décret n° 2022-691 du 26 avril 2022, permettant la primo-prescription ou le renouvellement de verres correcteurs et de lentilles de contact souples chez les patients de 16 à 42 ans, avec orientation vers l'ophtalmologiste en cas de signe d'appel ou de contre-indication.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31174,7 +31275,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31183,14 +31284,15 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1663",
-    "display" : "Evaluation oculométrique par enregistrement – technique d'Eye tracking",
+    "display" : "Evaluation oculométrique par enregistrement - technique d'Eye tracking",
+    "definition" : "Enregistrement et quantification des mouvements oculaires dédié à l'analyse objective, quantitative qualitative et reproductible des biomarqueurs oculomoteurs. Cet enregistrement automatisé du regard à l'aide d'un système vidéo d'oculométrie (Eye Tracking) est réalisé en temps réel. Les biomarqueurs témoignent du fonctionnement du système nerveux central, et sont utiles à l'évaluation objective des troubles neurovisuels et au suivi de pathologies neurologiques ou neurodégénératives débutantes (syndromes parkinsoniens, paralysies oculomotrices, …).",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31200,6 +31302,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1664",
     "display" : "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)",
+    "definition" : "Évaluation des particularités du traitement sensoriel et perceptif visuel au moyen d'outils standardisés (profil sensoriel de Dunn, questionnaire de Bogdashina) et prise en soins adaptée, concernant notamment les enfants et adultes présentant un trouble du neurodéveloppement (TND), un trouble neurovisuel ou une pathologie neurologique.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31214,7 +31317,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31224,6 +31327,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1665",
     "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)",
+    "definition" : "Evaluation orthoptique des capacités visuelles résiduelles et de leur retentissement sur les activités de la vie quotidienne, les apprentissages, la vie professionnelle et les loisirs, chez les personnes présentant une déficience visuelle permanente ou évolutive. Elle comprend l'évaluation individualisée des besoins en compensation, l'essai comparatif, le choix, le réglage, l'adaptation et l'apprentissage de l'utilisation des aides visuelles les plus adaptées au projet de vie du patient : aides optiques , aides électroniques et numériques (vidéo-loupes, téléagrandisseurs, lecteurs d'écran, logiciels d'agrandissement, applications mobiles, dispositifs connectés…), ainsi que les technologies d'assistance destinées à optimiser l'utilisation du potentiel visuel résiduel, la lecture, l'écriture, la communication, les déplacements, les activités scolaires, professionnelles et l'autonomie. Le choix des aides visuelles repose sur une évaluation des capacités visuelles, des besoins fonctionnels, de l'environnement et des objectifs du patient, et s'accompagne d'un apprentissage spécifique visant à optimiser leur utilisation. Cette activité contribue à l'élaboration du projet de soins, au choix des solutions de compensation du handicap visuel, au suivi de l'évolution des capacités fonctionnelles, à la réévaluation des besoins, à l'ajustement des aides optiques et technologiques, à l'évaluation de leur efficacité et à l'accompagnement du patient, en coordination avec les autres professionnels impliqués dans son parcours de soins.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31238,7 +31342,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31248,6 +31352,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1666",
     "display" : "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle",
+    "definition" : "Évaluation de l'environnement du domicile au regard des capacités visuelles de la personne (éclairage, contrastes, repères visuels, sécurisation des déplacements) préconisation et suivi de la mise en œuvre des adaptations, des aménagements du logement visant à améliorer l'accessibilité, le repérage visuel, la sécurité et l'autonomie. dans le cadre d'un handicap de la fonction visuelle.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31262,7 +31367,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31272,6 +31377,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1667",
     "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile",
+    "definition" : "Évaluation des aptitudes visuelles requises pour la conduite automobile (acuité visuelle, champ visuel, vision crépusculaire, sensibilité à l'éblouissement, stratégies d'exploration visuelle) et prise en soins associée, notamment dans le cadre de la reprise de la conduite après une atteinte neurologique ou visuelle, en lien avec les dispositifs d'évaluation de l'aptitude à la conduite.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31286,7 +31392,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31296,6 +31402,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1668",
     "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée",
+    "definition" : "Evaluation et prise en soins de la fonction visuelle, des compétences  sensori-motrices, neurosensorielles, neurovisuelles  et de la cognition visuelle chez les patients présentant des pathologies ophtalmologiques, neurologiques, neurodégénératives ou post-traumatiques susceptibles d'altérer les capacités motrices et fonctionnelles. L'évaluation permet d'objectiver le retentissement de ces troubles sur les capacités motrices et fonctionnelles du patient, les activités de la vie quotidienne, la mobilité et les déplacements, les activités physiques adaptées, les activités sportives, les loisirs et, plus largement, sur la participation sociale en coordination avec les professionnels de l'activité physique adaptée.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31310,7 +31417,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31320,6 +31427,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1669",
     "display" : "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle",
+    "definition" : "Expertise orthoptique dédiée à l'évaluation de la fonction visuelle et à la prise en soins des troubles de la cognition visuelle, c'est-à-dire des processus cérébraux permettant de percevoir, analyser, interpréter, mémoriser et utiliser les informations visuelles. Elle repose sur une démarche clinique associée à des tests standardisés, normés et scorés, sélectionnés en fonction de l'âge développemental, des capacités du patient et des différentes habiletés neurovisuelles explorées. L'évaluation porte notamment sur les fonctions visuo-perceptives, visuo-motrices, visuo-spatiales, visuo-attentionnelles, visuo-constructives, la mémoire visuelle, les stratégies d'exploration visuelle, les fonctions exécutives impliquées dans le traitement de l'information visuelle, ainsi que sur leurs répercussions dans les apprentissages, la lecture, les activités de la vie quotidienne et l'autonomie. Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins chez les patients présentant des troubles du neurodéveloppement (TND), des troubles neurovisuels (TNV), des lésions cérébrales acquises, des pathologies neuro-ophtalmologiques ou neurologiques, ou toute autre affection susceptible d'altérer les fonctions cognitives visuelles.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -31334,7 +31442,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31527,14 +31635,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1680",
-    "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique",
+    "display" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique présentant un risque pour la santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -31680,6 +31796,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1688",
     "display" : "Remise du kit de dépistage du cancer colorectal",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
@@ -31696,6 +31815,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1689",
     "display" : "Test de Maintien de l'Eveil (TME)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31712,6 +31834,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1690",
     "display" : "Test Itératif de Latence d'Endormissement (TILE)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31728,6 +31853,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1691",
     "display" : "Prise en charge de l’insomnie",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31744,6 +31872,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1692",
     "display" : "Prise en charge des troubles moteurs (syndrome des jambes sans repos)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31760,6 +31891,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1693",
     "display" : "Prise en charge de parasomnie (somnambulisme)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31776,6 +31910,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1694",
     "display" : "Prise en charge des hypersomnies",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31792,6 +31929,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1695",
     "display" : "Prise en charge des troubles circadiens",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31808,6 +31948,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1696",
     "display" : "Prise en charge des troubles du sommeil avec trouble neurologique complexe",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31824,6 +31967,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1697",
     "display" : "Prise en charge des troubles du sommeil avec trouble respiratoire complexe",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31959,6 +32105,398 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1704",
+    "display" : "Exploration diagnostique scintigraphique pour patient dialysé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique pour patient dialysé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1705",
+    "display" : "Exploration diagnostique par TEP 18F-FDG pour pathologie neurologique (démence, épilepsie, Parkinson, AVC)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP 18F-FDG pour pathologie neurologique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1706",
+    "display" : "Exploration diagnostique par TEP pour des plaques amyloïdes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP pour des plaques amyloïdes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1707",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1708",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie surrénalienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de pathologie surrénalienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1709",
+    "display" : "Traitement de médecine nucléaire / RIV par 131I des pathologies bénignes de la thyroïde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 131I des pathologies bénignes de la thyroïde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1710",
+    "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 oxodotreotide pour Tumeur neuroendocrine - TNE",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Lu177 oxodotreotide pour TNE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1711",
+    "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 PSMA pour cancer de la prostate",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Lu177 PSMA pour cancer de la prostate"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1712",
+    "display" : "Traitement de médecine nucléaire / RIV par radium-223 pour cancer de la prostate avec métastases osseuses",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Ra223 pour cancer prostate & métastase osseuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1713",
+    "display" : "Traitement de médecine nucléaire / RIV  par 90Y microsphères pour cancer hépatocellulaire (CHC) et lésion secondaire hépatique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 90Y microsphères pour CHC et lésion hépatique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1714",
+    "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1715",
+    "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1716",
+    "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1717",
+    "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique splénique ou hépatosplénique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1718",
+    "display" : "Exploration diagnostique scintigraphique des glandes salivaires",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique des glandes salivaires"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1719",
+    "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique aux leucocytes marqués pour recherche d'infection"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1720",
+    "display" : "Recherche en oncologie, bilan d'extension",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
