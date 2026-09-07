@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-04
+2026-09-07
 
 Liens:
 [Table des matières ](toc.md)|
@@ -127,18 +127,6 @@ Liens:
       {
         "code" : "SI04",
         "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
-      },
-      {
-        "code" : "SI05",
-        "display" : "Infirmier(ère) en pratique avancée Urgences (SI)"
-      },
-      {
-        "code" : "SI06",
-        "display" : "Infirmier(ère) de bloc opératoire (SI)"
-      },
-      {
-        "code" : "SI07",
-        "display" : "Infirmier(ère) anesthésiste (SI)"
       },
       {
         "code" : "SI08",
