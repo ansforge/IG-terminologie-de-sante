@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-atc?vs | *Version*:20241114120000 | |
-| Active as of 2026-09-07 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
+| Active as of 2026-09-08 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC 
@@ -32,6 +32,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unknown Code System)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -52,7 +54,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-07
+2026-09-08
 
 Liens:
 [Table des matières ](toc.md)|
@@ -77,7 +79,7 @@ Liens:
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-07T08:53:36+00:00",
+  "date" : "2026-09-08T08:34:00+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [{
