@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJourSemaineCisis |
+| Retired as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJourSemaineCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.77 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -53,7 +55,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-09
+2026-09-10
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-jour-semaine-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:36.030+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-09-09T14:27:48.371+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -87,7 +89,7 @@ Liens:
   "version" : "20250624152100",
   "name" : "JdvJourSemaineCisis",
   "title" : "JDV Jour Semaine CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-06-24T15:21:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

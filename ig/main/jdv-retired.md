@@ -38,7 +38,9 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
 | [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) | JDV Indicateur Anormalite CISIS |
+| [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS |
 | [JdvLateraliteNcitCisis](ValueSet-jdv-lateralite-ncit-cisis.md) | JDV Lateralite Ncit CISIS |
+| [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |

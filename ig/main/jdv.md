@@ -268,7 +268,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J96_TypeActiviteLiberale_RASS](ValueSet-JDV-J96-TypeActiviteLiberale-RASS.md) | Types d'activité libérale des professionnels du RASS | 24/04/2020 | active |
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 | active |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 23/02/2026 | active |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 09/09/2026 | active |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 10/09/2026 | active |
 | [JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS | 16/07/2026 | active |
 | [JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS | 16/07/2026 | active |
 | [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md) | JDV Absent Or Unknown Allergy CISIS | 16/07/2026 | active |
@@ -534,7 +534,6 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 | active |
 | [JdvJ419PerimetreInterruptionExerciceRpps](ValueSet-jdv-j419-perimetre-interruption-exercice-rpps.md) | Le type de durée d'une interruption d'exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l'interruption s'inscrit dans une durée limitée ou si elle s'applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l'analyse de la capacité d'exercice du professionnel et pour la gestion de ses effets dans les systèmes d'information, notamment en matière de publication des données et de gestion des accès. | 30/07/2026 | active |
 | [JdvJ420TypeDureeInterruptionExerciceRpps](ValueSet-jdv-j420-type-duree-interruption-exercice-rpps.md) | Le périmètre d'une interruption d'exercice décrit l'étendue de la restriction appliquée à l'activité du professionnel. Cette information permet d'apprécier concrètement les possibilités d'exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d'accès aux services numériques en santé. | 30/07/2026 | active |
-| [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS | 24/06/2025 | active |
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 16/07/2026 | active |
 | [JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md) | JDV Lateralite CISIS | 16/07/2026 | active |
 | [JdvLateraliteManuelleCisis](ValueSet-jdv-lateralite-manuelle-cisis.md) | JDV Lateralite Manuelle CISIS | 16/07/2026 | active |
@@ -544,7 +543,6 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvLieuAccouchementCisis](ValueSet-jdv-lieu-accouchement-cisis.md) | JDV Lieu Accouchement CISIS | 16/07/2026 | active |
 | [JdvLieuContactRougeoleCisis](ValueSet-jdv-lieu-contact-rougeole-cisis.md) | JDV Lieu Contact Rougeole CISIS | 16/07/2026 | active |
 | [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md) | JDV Lieu De Vie CISIS | 16/07/2026 | active |
-| [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS | 28/10/2025 | active |
 | [JdvLocalisationAnesthesieCisis](ValueSet-jdv-localisation-anesthesie-cisis.md) | JDV Localisation Anesthesie CISIS | 16/07/2026 | active |
 | [JdvLocalisationHemorragieCerebraleCisis](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md) | JDV Localisation Hemorragie Cerebrale CISIS | 16/07/2026 | active |
 | [JdvLocalisationInfarctusCerebralCisis](ValueSet-jdv-localisation-infarctus-cerebral-cisis.md) | JDV Localisation Infarctus Cerebral CISIS | 16/07/2026 | active |
@@ -840,12 +838,12 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 16/07/2026 | active |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 16/07/2026 | active |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 | active |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 09/09/2026 | active |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 09/09/2026 | active |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 09/09/2026 | active |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 09/09/2026 | active |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 09/09/2026 | active |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 09/09/2026 | active |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 10/09/2026 | active |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 10/09/2026 | active |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 10/09/2026 | active |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 10/09/2026 | active |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 10/09/2026 | active |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 10/09/2026 | active |
 | [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 30/03/2026 | active |
 | [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 30/03/2026 | active |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 | active |
