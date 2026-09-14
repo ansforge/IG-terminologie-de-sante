@@ -10,15 +10,13 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.212"
-* ^version = "20260505120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
-* ^content = #complete
-* ^count = 3
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -72,3 +70,10 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * #03 ^property[=].valueCode = #active
 * #03 ^property[+].code = #finess
 * #03 ^property[=].valueBoolean = true
+* #04 "Salle"
+* #04 ^property[0].code = #dateValid
+* #04 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #04 ^property[+].code = #dateMaj
+* #04 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active

@@ -10,11 +10,12 @@ Description: "Permet d'indiquer dans le ROR si la capacité est exprimée en lit
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J187-NatureCapacite-ROR/FHIR/JDV-J187-NatureCapacite-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.20"
-* ^version = "20220527120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2022-05-27T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R329-NatureCapacite#01 "Lit"
 * $TRE-R329-NatureCapacite#02 "Place"
+* $TRE-R329-NatureCapacite#04 "Salle"
