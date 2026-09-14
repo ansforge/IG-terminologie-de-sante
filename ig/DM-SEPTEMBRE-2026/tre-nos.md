@@ -285,7 +285,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu'elle est sans emploi | 29/03/2024 | active |
 | [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager. | 29/03/2024 | active |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne | 29/03/2024 | active |
-| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 05/05/2026 | active |
+| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 28/09/2026 | active |
 | [TRE_R330_TypeStatutCapacite](CodeSystem-TRE-R330-TypeStatutCapacite.md) | Permet de préciser le statut des capacités concernées | 28/03/2025 | active |
 | [TRE_R331_TemporaliteCapacite](CodeSystem-TRE-R331-TemporaliteCapacite.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 15/12/2023 | active |
 | [TRE_R332_GenreCapacite](CodeSystem-TRE-R332-GenreCapacite.md) | Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles | 28/08/2025 | active |
@@ -312,6 +312,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md) | Motif du statut de la personne prise en charge | 15/12/2023 | active |
 | [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
 | [TRE_R368_StatutRessource](CodeSystem-TRE-R368-StatutRessource.md) | Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie | 05/05/2026 | active |
-| [TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md) | Profils utilisateur d'un référentiel national | 28/03/2025 | active |
+| [TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md) | Profils utilisateur d'un référentiel national | 28/09/2026 | active |
 | [TRE_R391_MotifRestrictionDiffusion](CodeSystem-TRE-R391-MotifRestrictionDiffusion.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 | active |
 

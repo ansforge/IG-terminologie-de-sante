@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202606190000 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202609140000 | |
+| Active as of 2026-09-14 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -196,6 +196,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JDV Statut Cas Presente CISIS](ValueSet-jdv-statut-cas-presente-cisis.md)
 * [JDV Statut Quorum CISIS](ValueSet-jdv-statut-quorum-cisis.md)
 * [JDV Structure De Soins CISIS](ValueSet-jdv-structure-de-soins-cisis.md)
+* [Jdv Substitution Medicament Dispensateur CISIS](ValueSet-jdv-substitution-medicament-dispensateur-cisis.md)
+* [Jdv Substitution Medicament Prescripteur CISIS](ValueSet-jdv-substitution-medicament-prescripteur-cisis.md)
 * [JDV Support Nutritionnel CISIS](ValueSet-jdv-support-nutritionnel-cisis.md)
 * [JDV Technique Diagnostic CISIS](ValueSet-jdv-technique-diagnostic-cisis.md)
 * [JDV Territoire Infarctus CISIS](ValueSet-jdv-territoire-infarctus-cisis.md)
@@ -267,8 +269,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-19T16:11:01.373+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-09-14T15:40:50.334+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -282,12 +284,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202606190000",
+  "version" : "202609140000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T15:54:56-00:00",
+  "date" : "2026-09-14T15:26:43-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -329,126 +331,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "type" : "dateTime"
   }],
   "concept" : [{
-    "code" : "DLU_002",
-    "display" : "Conscient et éveillé",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "DLU_003",
-    "display" : "Eveillable",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "DLU_004",
-    "display" : "Non éveillable",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "DLU_006",
-    "display" : "Attestation de la carte vitale",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "DLU_007",
-    "display" : "Attestation de mutuelle",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "DLU_008",
-    "display" : "Photocopie de la carte d’identité",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "DLU_009",
     "display" : "Grille AGGIR (la plus récente)",
     "property" : [{
@@ -462,26 +344,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "DLU_010",
-    "display" : "Photocopie des directives anticipées",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -658,26 +520,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "FLUDT",
-    "display" : "Fiche de Liaison d'Urgence-Document de Transfert",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -921,26 +763,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "GEN-018",
-    "display" : "PPS : Plan Personnalisé de Soins",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "GEN-023",
     "display" : "Précisions difficultés",
     "property" : [{
@@ -1034,26 +856,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "GEN-047",
-    "display" : "Facteur de risque",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1358,26 +1160,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "GEN-078",
-    "display" : "Dépistage de la trisomie 21",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -2709,6 +2491,22 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.06.12",
+    "display" : "Autre lieu",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "GEN-092.07.01",
     "display" : "Autre nature du matériel étudié",
     "property" : [{
@@ -2878,6 +2676,22 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.08.10",
+    "display" : "Autre fruit de mer",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4101,26 +3915,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "GEN-207",
-    "display" : "Facteurs de risques environnementaux",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "GEN-208",
     "display" : "Sédentarité",
     "property" : [{
@@ -4182,26 +3976,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "GEN-234",
-    "display" : "Taille",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -4429,66 +4203,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "GEN-253",
-    "display" : "Complet",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "GEN-254",
-    "display" : "Presque complet",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "GEN-255",
-    "display" : "Incomplet",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "GEN-257",
     "display" : "Bas grade (bien ou moyennement différencié)",
     "property" : [{
@@ -4518,46 +4232,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "GEN-259",
-    "display" : "Présent(s)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "GEN-260",
-    "display" : "Absent(s)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -7057,6 +6731,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-431",
+    "display" : "Correspond aux critères de déclaration du réseau européen des cas de légionellose liés au voyage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-432",
+    "display" : "Nombre de cas",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-24T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-24T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-433",
+    "display" : "Contact avec au moins un cas humain d’orthopoxvirose",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-24T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-24T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "MED-001",
     "display" : "Précision échographie",
     "property" : [{
@@ -8049,26 +7771,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-076",
-    "display" : "Périmètre crânien",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-077",
     "display" : "Précision terme (cas échéant)",
     "property" : [{
@@ -8421,26 +8123,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-123",
-    "display" : "Antécédents familiaux",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-126",
     "display" : "Allogreffe / Autogreffe",
     "property" : [{
@@ -8678,26 +8360,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-145",
-    "display" : "Transfusion de produits sanguins",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9021,26 +8683,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-178",
-    "display" : "Test auditif normal",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-179",
     "display" : "Audition à recontrôler",
     "property" : [{
@@ -9214,26 +8856,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-212",
-    "display" : "Autre pathologie",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9413,26 +9035,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-236",
-    "display" : "Voies aéro-digestives supérieures",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-237",
     "display" : "Fosses nasales, sinus, oreille moy/int",
     "property" : [{
@@ -9446,66 +9048,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-238",
-    "display" : "Tumeur primitive",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-239",
-    "display" : "Echelle de performance OMS",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-240",
-    "display" : "Echelle de Performance OMS Stade 0",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9554,26 +9096,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-245",
-    "display" : "Progression du cancer",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9753,86 +9275,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-264",
-    "display" : "Echelle de Performance OMS Stade 1",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-265",
-    "display" : "Echelle de Performance OMS Stade 2",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-266",
-    "display" : "Echelle de Performance OMS Stade 3",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-267",
-    "display" : "Echelle de Performance OMS Stade 4",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-268",
     "display" : "Phase initiale du cancer",
     "property" : [{
@@ -9910,46 +9352,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-277",
-    "display" : "1ère série vaccinante",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-278",
-    "display" : "Rappel",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -10622,46 +10024,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-333",
-    "display" : "Trouble de l'élimination urinaire",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-334",
-    "display" : "Trouble de l'élimination fécale",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -12873,86 +12235,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-552",
-    "display" : "Gêne",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-553",
-    "display" : "Consanguinité",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-554",
-    "display" : "Mutation",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-555",
-    "display" : "Contraception",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-556",
     "display" : "Fenêtre thérapeutique",
     "property" : [{
@@ -13190,26 +12472,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-571",
-    "display" : "Suivi",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -13629,106 +12891,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-601",
-    "display" : "Douleur nulle (0)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-602",
-    "display" : "Douleur faible (1-3)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-603",
-    "display" : "Douleur modérée (4-6)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-604",
-    "display" : "Douleur forte (7-9)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "MED-605",
-    "display" : "Douleur atroce (10)",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-609",
     "display" : "Risque faible (18 à 23)",
     "property" : [{
@@ -13969,26 +13131,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-638",
-    "display" : "Score de Mallampati",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "MED-639",
     "display" : "Ouverture de bouche",
     "property" : [{
@@ -14210,26 +13352,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-670",
-    "display" : "Cancer",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {
@@ -21881,22 +21003,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "MED-1281",
-    "display" : "décès auquel l’effet a pu contribuer",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
     "code" : "MED-1282",
     "display" : "décès sans rapport avec l’effet",
     "property" : [{
@@ -22994,6 +22100,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-05-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1353",
+    "display" : "Envoi souche / prélèvement au CNR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-10T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-10T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1354",
+    "display" : "Batterie d'examens et surveillance prénataux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-23T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1355",
+    "display" : "non substituable (MTE)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1356",
+    "display" : "non substituable (EFG)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1357",
+    "display" : "non substituable (CIF)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1358",
+    "display" : "non substituable (MTE-PH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -25913,46 +25115,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "PAT-040",
-    "display" : "Activité salariée",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "PAT-042",
-    "display" : "Retraité",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
     "code" : "PAT-043",
     "display" : "Au foyer",
     "property" : [{
@@ -25966,66 +25128,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "PAT-044",
-    "display" : "Congé parental",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "PAT-045",
-    "display" : "Chômeur",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "PAT-046",
-    "display" : "Elève, étudiant ou en formation",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2025-02-25T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "deprecated"
     }]
   },
   {

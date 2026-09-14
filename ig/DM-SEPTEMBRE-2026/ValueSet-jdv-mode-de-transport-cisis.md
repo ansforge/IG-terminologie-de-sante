@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis | *Version*:20260716085853 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeTransportCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis | *Version*:20260911143446 | |
+| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeTransportCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.140 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-de-transport-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-07-17T12:59:17.740+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-14T16:28:48.493+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.140"
   }],
-  "version" : "20260716085853",
+  "version" : "20260911143446",
   "name" : "JdvModeDeTransportCisis",
   "title" : "JDV Mode De Transport CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:53+01:00",
+  "date" : "2026-09-11T14:34:46+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode De Transport CISIS",
   "jurisdiction" : [{

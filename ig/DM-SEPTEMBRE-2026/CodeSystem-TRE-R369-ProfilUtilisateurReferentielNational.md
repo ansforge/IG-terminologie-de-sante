@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R369_ProfilUtilisateurReferentielNational |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R369_ProfilUtilisateurReferentielNational |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.255 | | |
 
  
@@ -43,11 +43,11 @@ Profils utilisateur d’un référentiel national
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.255"
   }],
-  "version" : "20250328120000",
+  "version" : "20260928120000",
   "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profils utilisateur d'un référentiel national",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Profils utilisateur d’un référentiel national
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 11,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -141,14 +142,14 @@ Profils utilisateur d’un référentiel national
   },
   {
     "code" : "RESP_OFFRE_STRUCT",
-    "display" : "Responsable Offre de structure",
+    "display" : "Responsable de structure",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

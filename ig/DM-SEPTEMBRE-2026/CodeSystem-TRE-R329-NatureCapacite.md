@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.212 | | |
 
  
@@ -45,11 +45,11 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.212"
   }],
-  "version" : "20260505120000",
+  "version" : "20260928120000",
   "name" : "TRE_R329_NatureCapacite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer si la capacité est exprimée en lits ou en places",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 3,
+  "count" : 4,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -157,6 +157,22 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     {
       "code" : "finess",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Salle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis | *Version*:20260716085852 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownImmunizationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis | *Version*:20260911143444 | |
+| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownImmunizationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.666 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-absent-or-unknown-immunization-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-07-17T12:58:19.249+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-14T16:27:46.542+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.666"
   }],
-  "version" : "20260716085852",
+  "version" : "20260911143444",
   "name" : "JdvAbsentOrUnknownImmunizationCisis",
   "title" : "JDV Absent Or Unknown Immunization CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:52+01:00",
+  "date" : "2026-09-11T14:34:44+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Absent Or Unknown Immunization CISIS",
   "jurisdiction" : [{

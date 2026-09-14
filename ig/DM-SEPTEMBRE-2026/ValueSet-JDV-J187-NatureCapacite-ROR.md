@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J187-NatureCapacite-ROR/FHIR/JDV-J187-NatureCapacite-ROR | *Version*:20220527120000 | |
-| Active as of 2022-05-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J187_NatureCapacite_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J187-NatureCapacite-ROR/FHIR/JDV-J187-NatureCapacite-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J187_NatureCapacite_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.20 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.20"
   }],
-  "version" : "20220527120000",
+  "version" : "20260928120000",
   "name" : "JDV_J187_NatureCapacite_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2022-05-27T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places",
   "jurisdiction" : [{
@@ -107,6 +107,10 @@ Liens:
       {
         "code" : "02",
         "display" : "Place"
+      },
+      {
+        "code" : "04",
+        "display" : "Salle"
       }]
     }]
   }

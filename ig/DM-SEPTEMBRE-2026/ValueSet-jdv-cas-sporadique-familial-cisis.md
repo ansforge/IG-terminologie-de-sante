@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cas-sporadique-familial-cisis | *Version*:20260716085853 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCasSporadiqueFamilialCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cas-sporadique-familial-cisis | *Version*:20260911143445 | |
+| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCasSporadiqueFamilialCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.46 | | |
 
  
@@ -48,7 +48,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-bio-instruction-patient-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-cas-sporadique-familial-cisis-testing.md) |
+|  [<prev](ValueSet-jdv-body-structure-qualifier-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-cas-sporadique-familial-cisis-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-cas-sporadique-familial-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-07-17T12:58:28.837+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-09-14T16:27:55.798+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.46"
   }],
-  "version" : "20260716085853",
+  "version" : "20260911143445",
   "name" : "JdvCasSporadiqueFamilialCisis",
   "title" : "JDV Cas Sporadique Familial CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:53+01:00",
+  "date" : "2026-09-11T14:34:45+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Cas Sporadique Familial CISIS",
   "jurisdiction" : [{

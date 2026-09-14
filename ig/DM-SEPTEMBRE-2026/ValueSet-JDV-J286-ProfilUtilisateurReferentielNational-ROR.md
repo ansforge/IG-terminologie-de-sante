@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J286_ProfilUtilisateurReferentielNational_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J286_ProfilUtilisateurReferentielNational_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.256 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.256"
   }],
-  "version" : "20250328120000",
+  "version" : "20260928120000",
   "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profils utilisateurs du ROR National",
   "jurisdiction" : [{
@@ -114,7 +114,7 @@ Liens:
       },
       {
         "code" : "RESP_OFFRE_STRUCT",
-        "display" : "Responsable Offre de structure"
+        "display" : "Responsable de structure"
       },
       {
         "code" : "RESP_DISPO_PLACE",

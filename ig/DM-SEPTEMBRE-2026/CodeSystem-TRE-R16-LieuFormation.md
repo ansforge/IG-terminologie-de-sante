@@ -47,7 +47,8 @@
     }]
   }],
   "caseSensitive" : false,
-  "content" : "not-present",
+  "content" : "complete",
+  "count" : 1361,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",

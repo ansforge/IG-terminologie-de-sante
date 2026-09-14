@@ -1,19 +1,19 @@
-# DaysOfWeek - Terminologies de Santé v1.13.0
+# Days Of Week - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **DaysOfWeek**
+* **Days Of Week**
 
-## ValueSet: DaysOfWeek 
+## ValueSet: Days Of Week 
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis | *Version*:20260716085853 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis | *Version*:20260911143446 | |
+| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.512 | | |
 
  
-DaysOfWeek 
+Days Of Week 
 
  **References** 
 
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-07-17T12:58:17.391+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-09-14T16:27:44.668+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,14 +84,14 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
   }],
-  "version" : "20260716085853",
+  "version" : "20260911143446",
   "name" : "DaysOfWeek",
-  "title" : "DaysOfWeek",
+  "title" : "Days Of Week",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:53+01:00",
+  "date" : "2026-09-11T14:34:46+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "DaysOfWeek",
+  "description" : "Days Of Week",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
