@@ -208,7 +208,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvInvestigationRealiseeSunvCisis](ValueSet-jdv-investigation-realisee-sunv-cisis.md) | JDV Investigation Realisee Sunv CISIS | 16/07/2026 | active |
 | [JdvIssueGrossesseCisis](ValueSet-jdv-issue-grossesse-cisis.md) | JDV Issue Grossesse CISIS | 16/07/2026 | active |
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice | 05/05/2026 | active |
-| [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS | 24/06/2025 | active |
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 16/07/2026 | active |
 | [JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md) | JDV Lateralite CISIS | 16/07/2026 | active |
 | [JdvLateraliteManuelleCisis](ValueSet-jdv-lateralite-manuelle-cisis.md) | JDV Lateralite Manuelle CISIS | 16/07/2026 | active |
@@ -218,7 +217,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvLieuAccouchementCisis](ValueSet-jdv-lieu-accouchement-cisis.md) | JDV Lieu Accouchement CISIS | 16/07/2026 | active |
 | [JdvLieuContactRougeoleCisis](ValueSet-jdv-lieu-contact-rougeole-cisis.md) | JDV Lieu Contact Rougeole CISIS | 16/07/2026 | active |
 | [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md) | JDV Lieu De Vie CISIS | 16/07/2026 | active |
-| [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS | 28/10/2025 | active |
 | [JdvLocalisationAnesthesieCisis](ValueSet-jdv-localisation-anesthesie-cisis.md) | JDV Localisation Anesthesie CISIS | 16/07/2026 | active |
 | [JdvLocalisationHemorragieCerebraleCisis](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md) | JDV Localisation Hemorragie Cerebrale CISIS | 16/07/2026 | active |
 | [JdvLocalisationInfarctusCerebralCisis](ValueSet-jdv-localisation-infarctus-cerebral-cisis.md) | JDV Localisation Infarctus Cerebral CISIS | 16/07/2026 | active |
