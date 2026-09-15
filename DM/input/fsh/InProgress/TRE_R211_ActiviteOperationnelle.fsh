@@ -4918,7 +4918,7 @@ Description: "Activite Operationnelle"
 * #624 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #624 ^property[+].code = #status
 * #624 ^property[=].valueCode = #active
-* #625 "Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)"
+* #625 "Orthoptie orientation neurovisuelle adulte (pathologies neurologiques, maladies neurodégénératives)" "Activité orthoptique dédiée au repérage, à l'évaluation et à la prise en soins des troubles neurovisuels de l'adulte consécutifs à une atteinte neurologique acquise, neuro-ophtalmologique, neurodégénérative ou une lésion cérébrale acquise : troubles oculomoteurs, altérations du champ visuel d'origine neurologique, hémianopsie, négligence spatiale unilatérale, troubles de la cognition visuelle.  Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins."
 * #625 ^designation.language = #fr-FR
 * #625 ^designation.use.system = "http://snomed.info/sct"
 * #625 ^designation.use = $sct#900000000000013009
