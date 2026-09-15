@@ -4926,7 +4926,7 @@ Description: "Activite Operationnelle"
 * #625 ^property[0].code = #dateValid
 * #625 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #625 ^property[+].code = #dateMaj
-* #625 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #625 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #625 ^property[+].code = #status
 * #625 ^property[=].valueCode = #active
 * #626 "Orthoptie Basse Vision adulte" "Activité orthoptique dédiée à l'évaluation de la fonction visuelle, sensori-motrice et perceptivo-cognitive, à la prise en soins et  à l'accompagnement des personnes présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer les stratégies de compensation et à favoriser l'autonomie dans les activités de la vie quotidienne, de formation, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation."
