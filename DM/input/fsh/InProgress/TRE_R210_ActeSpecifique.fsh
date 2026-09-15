@@ -14298,61 +14298,50 @@ Id: TRE-R210-ActeSpecifique
 * #1714 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1714 ^property[+].code = #status
 * #1714 ^property[=].valueCode = #active
-* #1715 "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
-* #1715 ^designation[0].language = #fr-FR
-* #1715 ^designation[=].use.system = "http://snomed.info/sct"
-* #1715 ^designation[=].use = $sct#900000000000013009
-* #1715 ^designation[=].value = "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+* #1715 "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
 * #1715 ^property[0].code = #dateValid
 * #1715 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1715 ^property[+].code = #dateMaj
 * #1715 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1715 ^property[+].code = #status
 * #1715 ^property[=].valueCode = #active
-* #1716 "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
+* #1716 "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
+* #1716 ^designation[0].language = #fr-FR
+* #1716 ^designation[=].use.system = "http://snomed.info/sct"
+* #1716 ^designation[=].use = $sct#900000000000013009
+* #1716 ^designation[=].value = "Explo diag scintigraphique splénique ou hépatosplénique"
 * #1716 ^property[0].code = #dateValid
 * #1716 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1716 ^property[+].code = #dateMaj
 * #1716 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1716 ^property[+].code = #status
 * #1716 ^property[=].valueCode = #active
-* #1717 "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
+* #1717 "Exploration diagnostique scintigraphique des glandes salivaires"
 * #1717 ^designation[0].language = #fr-FR
 * #1717 ^designation[=].use.system = "http://snomed.info/sct"
 * #1717 ^designation[=].use = $sct#900000000000013009
-* #1717 ^designation[=].value = "Explo diag scintigraphique splénique ou hépatosplénique"
+* #1717 ^designation[=].value = "Explo diag scintigraphique des glandes salivaires"
 * #1717 ^property[0].code = #dateValid
 * #1717 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1717 ^property[+].code = #dateMaj
 * #1717 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1717 ^property[+].code = #status
 * #1717 ^property[=].valueCode = #active
-* #1718 "Exploration diagnostique scintigraphique des glandes salivaires"
+* #1718 "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
 * #1718 ^designation[0].language = #fr-FR
 * #1718 ^designation[=].use.system = "http://snomed.info/sct"
 * #1718 ^designation[=].use = $sct#900000000000013009
-* #1718 ^designation[=].value = "Explo diag scintigraphique des glandes salivaires"
+* #1718 ^designation[=].value = "Explo diag scintigraphique aux leucocytes marqués pour recherche d'infection"
 * #1718 ^property[0].code = #dateValid
 * #1718 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1718 ^property[+].code = #dateMaj
 * #1718 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1718 ^property[+].code = #status
 * #1718 ^property[=].valueCode = #active
-* #1719 "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
-* #1719 ^designation[0].language = #fr-FR
-* #1719 ^designation[=].use.system = "http://snomed.info/sct"
-* #1719 ^designation[=].use = $sct#900000000000013009
-* #1719 ^designation[=].value = "Explo diag scintigraphique aux leucocytes marqués pour recherche d'infection"
+* #1719 "Recherche en oncologie, bilan d'extension"
 * #1719 ^property[0].code = #dateValid
 * #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1719 ^property[+].code = #dateMaj
 * #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1719 ^property[+].code = #status
 * #1719 ^property[=].valueCode = #active
-* #1720 "Recherche en oncologie, bilan d'extension"
-* #1720 ^property[0].code = #dateValid
-* #1720 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
-* #1720 ^property[+].code = #dateMaj
-* #1720 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
-* #1720 ^property[+].code = #status
-* #1720 ^property[=].valueCode = #active
