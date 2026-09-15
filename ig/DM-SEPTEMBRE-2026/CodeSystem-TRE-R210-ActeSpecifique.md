@@ -49,7 +49,7 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1720,
+  "count" : 1719,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -32377,30 +32377,6 @@
   },
   {
     "code" : "1715",
-    "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-09-28T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-09-28T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1716",
     "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)",
     "property" : [{
       "code" : "dateValid",
@@ -32416,7 +32392,7 @@
     }]
   },
   {
-    "code" : "1717",
+    "code" : "1716",
     "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique",
     "designation" : [{
       "language" : "fr-FR",
@@ -32440,7 +32416,7 @@
     }]
   },
   {
-    "code" : "1718",
+    "code" : "1717",
     "display" : "Exploration diagnostique scintigraphique des glandes salivaires",
     "designation" : [{
       "language" : "fr-FR",
@@ -32464,7 +32440,7 @@
     }]
   },
   {
-    "code" : "1719",
+    "code" : "1718",
     "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection",
     "designation" : [{
       "language" : "fr-FR",
@@ -32488,7 +32464,7 @@
     }]
   },
   {
-    "code" : "1720",
+    "code" : "1719",
     "display" : "Recherche en oncologie, bilan d'extension",
     "property" : [{
       "code" : "dateValid",

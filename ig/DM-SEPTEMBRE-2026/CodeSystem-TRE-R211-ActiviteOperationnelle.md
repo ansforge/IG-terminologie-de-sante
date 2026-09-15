@@ -11315,7 +11315,8 @@ Activite Operationnelle
   },
   {
     "code" : "625",
-    "display" : "Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)",
+    "display" : "Orthoptie orientation neurovisuelle adulte (pathologies neurologiques, maladies neurodégénératives)",
+    "definition" : "Activité orthoptique dédiée au repérage, à l'évaluation et à la prise en soins des troubles neurovisuels de l'adulte consécutifs à une atteinte neurologique acquise, neuro-ophtalmologique, neurodégénérative ou une lésion cérébrale acquise : troubles oculomoteurs, altérations du champ visuel d'origine neurologique, hémianopsie, négligence spatiale unilatérale, troubles de la cognition visuelle.  Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {

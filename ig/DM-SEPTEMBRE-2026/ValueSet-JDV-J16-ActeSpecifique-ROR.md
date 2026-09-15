@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-14
+2026-09-15
 
 Liens:
 [Table des matières ](toc.md)|
@@ -5490,26 +5490,22 @@ Liens:
       },
       {
         "code" : "1715",
-        "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
-      },
-      {
-        "code" : "1716",
         "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
       },
       {
-        "code" : "1717",
+        "code" : "1716",
         "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
       },
       {
-        "code" : "1718",
+        "code" : "1717",
         "display" : "Exploration diagnostique scintigraphique des glandes salivaires"
       },
       {
-        "code" : "1719",
+        "code" : "1718",
         "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
       },
       {
-        "code" : "1720",
+        "code" : "1719",
         "display" : "Recherche en oncologie, bilan d'extension"
       }]
     }]

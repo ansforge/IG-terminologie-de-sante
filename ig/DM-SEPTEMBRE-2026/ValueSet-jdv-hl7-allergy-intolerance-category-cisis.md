@@ -55,7 +55,7 @@ No Expansion for this valueset (Unknown Code System)
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-14
+2026-09-15
 
 Liens:
 [Table des matières ](toc.md)|
@@ -70,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-category-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-09-14T16:27:43.284+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-09-15T12:57:42.454+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
