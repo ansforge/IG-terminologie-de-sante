@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20260716085852 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20260911143445 | |
+| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10430 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-14
+2026-09-15
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-RoleClassIngredientEntity-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-07-17T13:00:44.510+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-14T16:29:46.718+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10430"
   }],
-  "version" : "20260716085852",
+  "version" : "20260911143445",
   "name" : "RoleClassIngredientEntity",
   "title" : "RoleClassIngredientEntity",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:52+01:00",
+  "date" : "2026-09-11T14:34:45+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "RoleClassIngredientEntity",
   "jurisdiction" : [{

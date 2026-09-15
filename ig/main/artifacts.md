@@ -31,8 +31,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
 | [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType |
+| [Days Of Week](ValueSet-jdv-hl7-days-of-week-cisis.md) | Days Of Week |
 | [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
-| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week-cisis.md) | DaysOfWeek |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH |
 | [JDV Abord Veineux Central CISIS](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS |
 | [JDV Abord Veineux Peripherique CISIS](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS |
@@ -75,6 +75,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Batterie Examen CISIS](ValueSet-jdv-batterie-examen-cisis.md) | JDV Batterie Examen CISIS |
 | [JDV Bilan Technique CISIS](ValueSet-jdv-bilan-technique-cisis.md) | JDV Bilan Technique CISIS |
 | [JDV Bio Instruction Patient CISIS](ValueSet-jdv-bio-instruction-patient-cisis.md) | JDV Bio Instruction Patient CISIS |
+| [JDV Body Structure Qualifier CISIS](ValueSet-jdv-body-structure-qualifier-cisis.md) | JDV Body Structure Qualifier CISIS |
 | [JDV Cas Sporadique Familial CISIS](ValueSet-jdv-cas-sporadique-familial-cisis.md) | JDV Cas Sporadique Familial CISIS |
 | [JDV Cause Accident Domestique CISIS](ValueSet-jdv-cause-accident-domestique-cisis.md) | JDV Cause Accident Domestique CISIS |
 | [JDV Cause Cesarienne CISIS](ValueSet-jdv-cause-cesarienne-cisis.md) | JDV Cause Cesarienne CISIS |
@@ -851,6 +852,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Resultat Qualitatif CISIS](ValueSet-jdv-resultat-qualitatif-cisis.md) | Jdv Resultat Qualitatif CISIS |
 | [Jdv Role Informateur CISIS](ValueSet-jdv-role-informateur-cisis.md) | Jdv Role Informateur CISIS |
 | [Jdv Situation Matrimoniale CISIS](ValueSet-jdv-situation-matrimoniale-cisis.md) | Jdv Situation Matrimoniale CISIS |
+| [Jdv Substitution Medicament Dispensateur CISIS](ValueSet-jdv-substitution-medicament-dispensateur-cisis.md) | Jdv Substitution Medicament Dispensateur CISIS |
+| [Jdv Substitution Medicament Prescripteur CISIS](ValueSet-jdv-substitution-medicament-prescripteur-cisis.md) | Jdv Substitution Medicament Prescripteur CISIS |
 | [Jdv Trod Examen CISIS](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS |
 | [Jdv Type Resultat Type CISIS](ValueSet-jdv-resultat-type-cisis.md) | Jdv Type Resultat Type CISIS |
 | [Jdv Type Systeme CISIS](ValueSet-jdv-type-systeme-cisis.md) | Jdv Type Systeme CISIS |
