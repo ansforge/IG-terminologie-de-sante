@@ -28,10 +28,10 @@ Description: "Type activité SMSSE régulée"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.374"
-* ^version = "20260827120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-08-27T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs"
@@ -66078,6 +66078,111 @@ Description: "Type activité SMSSE régulée"
 * #72536 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#43
 * #72536 ^property[+].code = #public
 * #72536 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#700
+* #72537 "AMSR/508/11/840"
+* #72537 ^property[0].code = #dateValid
+* #72537 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72537 ^property[+].code = #dateMaj
+* #72537 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72537 ^property[+].code = #status
+* #72537 ^property[=].valueCode = #active
+* #72537 ^property[+].code = #natureActivite
+* #72537 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72537 ^property[+].code = #activiteSocialeRegulee
+* #72537 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#508
+* #72537 ^property[+].code = #modeFonctionnement
+* #72537 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#11
+* #72537 ^property[+].code = #public
+* #72537 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#840
+* #72538 "AMSR/508/11/841"
+* #72538 ^property[0].code = #dateValid
+* #72538 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72538 ^property[+].code = #dateMaj
+* #72538 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72538 ^property[+].code = #status
+* #72538 ^property[=].valueCode = #active
+* #72538 ^property[+].code = #natureActivite
+* #72538 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72538 ^property[+].code = #activiteSocialeRegulee
+* #72538 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#508
+* #72538 ^property[+].code = #modeFonctionnement
+* #72538 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#11
+* #72538 ^property[+].code = #public
+* #72538 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#841
+* #72539 "AMSR/508/16/841"
+* #72539 ^property[0].code = #dateValid
+* #72539 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72539 ^property[+].code = #dateMaj
+* #72539 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72539 ^property[+].code = #status
+* #72539 ^property[=].valueCode = #active
+* #72539 ^property[+].code = #natureActivite
+* #72539 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72539 ^property[+].code = #activiteSocialeRegulee
+* #72539 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#508
+* #72539 ^property[+].code = #modeFonctionnement
+* #72539 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#16
+* #72539 ^property[+].code = #public
+* #72539 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#841
+* #72540 "AMSR/570/11/441"
+* #72540 ^property[0].code = #dateValid
+* #72540 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72540 ^property[+].code = #dateMaj
+* #72540 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72540 ^property[+].code = #status
+* #72540 ^property[=].valueCode = #active
+* #72540 ^property[+].code = #natureActivite
+* #72540 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72540 ^property[+].code = #activiteSocialeRegulee
+* #72540 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#570
+* #72540 ^property[+].code = #modeFonctionnement
+* #72540 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#11
+* #72540 ^property[+].code = #public
+* #72540 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#441
+* #72541 "AMSR/570/40/441"
+* #72541 ^property[0].code = #dateValid
+* #72541 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72541 ^property[+].code = #dateMaj
+* #72541 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72541 ^property[+].code = #status
+* #72541 ^property[=].valueCode = #active
+* #72541 ^property[+].code = #natureActivite
+* #72541 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72541 ^property[+].code = #activiteSocialeRegulee
+* #72541 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#570
+* #72541 ^property[+].code = #modeFonctionnement
+* #72541 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#40
+* #72541 ^property[+].code = #public
+* #72541 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#441
+* #72542 "AMSR/962/11/441"
+* #72542 ^property[0].code = #dateValid
+* #72542 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72542 ^property[+].code = #dateMaj
+* #72542 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72542 ^property[+].code = #status
+* #72542 ^property[=].valueCode = #active
+* #72542 ^property[+].code = #natureActivite
+* #72542 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72542 ^property[+].code = #activiteSocialeRegulee
+* #72542 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#962
+* #72542 ^property[+].code = #modeFonctionnement
+* #72542 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#11
+* #72542 ^property[+].code = #public
+* #72542 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#441
+* #72543 "AMSR/962/40/441"
+* #72543 ^property[0].code = #dateValid
+* #72543 ^property[=].valueDateTime = "2026-07-16T00:00:00+01:00"
+* #72543 ^property[+].code = #dateMaj
+* #72543 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
+* #72543 ^property[+].code = #status
+* #72543 ^property[=].valueCode = #active
+* #72543 ^property[+].code = #natureActivite
+* #72543 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMSR
+* #72543 ^property[+].code = #activiteSocialeRegulee
+* #72543 ^property[=].valueCoding = $tre-r401-activite-sociale-regulee#962
+* #72543 ^property[+].code = #modeFonctionnement
+* #72543 ^property[=].valueCoding = $tre-r404-mode-fonctionnement-activite-smsse-regulee#40
+* #72543 ^property[+].code = #public
+* #72543 ^property[=].valueCoding = $tre-r403-public-activite-smsse-regulee#441
 * #80001 "ASOCR/246/11/800"
 * #80001 ^property[0].code = #dateValid
 * #80001 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
