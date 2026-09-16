@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-15
+2026-09-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-obp-resultat-evenement-cisis",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2026-09-15T12:59:11.120+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-15T16:29:08.792+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -134,7 +134,7 @@ Liens:
       },
       {
         "code" : "92022-3",
-        "display" : "Cause initiale du décès fœtus"
+        "display" : "Cause initiale du décès fœtus"
       }]
     }]
   }

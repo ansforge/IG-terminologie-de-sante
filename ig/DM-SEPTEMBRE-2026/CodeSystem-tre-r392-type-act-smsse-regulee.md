@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260827120000 | |
-| Active as of 2026-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.374 | | |
 
  
@@ -112,8 +112,8 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "resourceType" : "CodeSystem",
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-08-27T15:13:54.837+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-30T14:11:19.571+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -128,12 +128,12 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.374"
   }],
-  "version" : "20260827120000",
+  "version" : "20260928120000",
   "name" : "TreR392TypeActSmsseRegulee",
   "title" : "Tre R392 Type Act Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-27T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type activité SMSSE régulée",
   "jurisdiction" : [{
@@ -145,7 +145,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 4914,
+  "count" : 4921,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -187335,6 +187335,314 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "code" : "700"
+      }
+    }]
+  },
+  {
+    "code" : "72537",
+    "display" : "AMSR/508/11/840",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "508"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "11"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "840"
+      }
+    }]
+  },
+  {
+    "code" : "72538",
+    "display" : "AMSR/508/11/841",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "508"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "11"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "841"
+      }
+    }]
+  },
+  {
+    "code" : "72539",
+    "display" : "AMSR/508/16/841",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "508"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "16"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "841"
+      }
+    }]
+  },
+  {
+    "code" : "72540",
+    "display" : "AMSR/570/11/441",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "570"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "11"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "441"
+      }
+    }]
+  },
+  {
+    "code" : "72541",
+    "display" : "AMSR/570/40/441",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "570"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "40"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "441"
+      }
+    }]
+  },
+  {
+    "code" : "72542",
+    "display" : "AMSR/962/11/441",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "962"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "11"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "441"
+      }
+    }]
+  },
+  {
+    "code" : "72543",
+    "display" : "AMSR/962/40/441",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "AMSR"
+      }
+    },
+    {
+      "code" : "activiteSocialeRegulee",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+        "code" : "962"
+      }
+    },
+    {
+      "code" : "modeFonctionnement",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+        "code" : "40"
+      }
+    },
+    {
+      "code" : "public",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "code" : "441"
       }
     }]
   },
