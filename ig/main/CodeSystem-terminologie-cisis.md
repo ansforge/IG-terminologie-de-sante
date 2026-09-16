@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202609140000 | |
-| Active as of 2026-09-14 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202609160000 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -269,8 +269,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2026-09-14T15:40:50.334+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-16T09:55:52.201+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -284,12 +284,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202609140000",
+  "version" : "202609160000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-14T15:26:43-00:00",
+  "date" : "2026-09-16T09:43:39-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -331,6 +331,194 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "type" : "dateTime"
   }],
   "concept" : [{
+    "code" : "DLU",
+    "display" : "Document de liaison d'urgence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_001",
+    "display" : "Peut alerter",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "DLU_002",
+    "display" : "Conscient et éveillé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_003",
+    "display" : "Eveillable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_004",
+    "display" : "Non éveillable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_005",
+    "display" : "Douleur récente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "DLU_006",
+    "display" : "Attestation de la carte vitale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_007",
+    "display" : "Attestation de mutuelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DLU_008",
+    "display" : "Photocopie de la carte d’identité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "DLU_009",
     "display" : "Grille AGGIR (la plus récente)",
     "property" : [{
@@ -344,6 +532,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DLU_010",
+    "display" : "Photocopie des directives anticipées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -523,6 +731,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "FLUDT",
+    "display" : "Fiche de Liaison d'Urgence-Document de Transfert",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "GEN-001",
     "display" : "Apparue",
     "property" : [{
@@ -632,6 +860,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-008",
+    "display" : "Oui",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-009",
+    "display" : "Non",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -763,6 +1039,122 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-018",
+    "display" : "PPS : Plan Personnalisé de Soins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GEN-019",
+    "display" : "à la naissance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-020",
+    "display" : "à l'âge de",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-021",
+    "display" : "Non déterminé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-022",
+    "display" : "Non classable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-023",
     "display" : "Précisions difficultés",
     "property" : [{
@@ -776,6 +1168,318 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-024",
+    "display" : "Lundi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-025",
+    "display" : "Mardi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-026",
+    "display" : "Mercredi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-027",
+    "display" : "Jeudi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-028",
+    "display" : "Vendredi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-029",
+    "display" : "Samedi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-030",
+    "display" : "Dimanche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-031",
+    "display" : "Autre contexte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-032",
+    "display" : "Non approprié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-033",
+    "display" : "Approprié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-034",
+    "display" : "En cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-035",
+    "display" : "Confirmé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-036",
+    "display" : "Imagerie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -827,6 +1531,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-040",
+    "display" : "Autre technique seule",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-041",
     "display" : "Précision technique",
     "property" : [{
@@ -856,6 +1584,122 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-043",
+    "display" : "Grand-mère paternelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-044",
+    "display" : "Grand-mère maternelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-045",
+    "display" : "Au moins 3 antécédents familiaux connus du côté de la mère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-046",
+    "display" : "Au moins 3 antécédents familiaux connus du côté du père",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-047",
+    "display" : "Facteur de risque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1147,6 +1991,270 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-066",
+    "display" : "En cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-067",
+    "display" : "Complété",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-068",
+    "display" : "Validé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-069",
+    "display" : "Clôturé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-070",
+    "display" : "Voie nasale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-071",
+    "display" : "Inférieur à la normale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-072",
+    "display" : "Supérieur à la normale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-073",
+    "display" : "Inférieur à la valeur panique basse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-074",
+    "display" : "Supérieur à la valeur panique haute",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-075",
+    "display" : "Non validé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-076",
+    "display" : "Modifié, corrigé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-077",
     "display" : "Région",
     "property" : [{
@@ -1160,6 +2268,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-078",
+    "display" : "Dépistage de la trisomie 21",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1179,6 +2307,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-080",
+    "display" : "Hospitalisation (y compris à domicile)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-081",
+    "display" : "Infection néonatale confirmée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-082",
+    "display" : "Imite un geste simple (au revoir/bravo)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-083",
+    "display" : "Joue à faire semblant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-084",
     "display" : "Sollicite un adulte/une autre personne",
     "property" : [{
@@ -1192,6 +2416,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-085",
+    "display" : "Dépistage néonatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1272,6 +2520,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-091",
+    "display" : "Autre information",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-092",
+    "display" : "Autre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-092.01",
+    "display" : "Autre problème - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1707,6 +3027,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.02",
+    "display" : "Autre dispositif médical - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.02.01",
     "display" : "Autre dispositif ou objet personnel",
     "property" : [{
@@ -1736,6 +3080,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.03",
+    "display" : "Autre traitement / produit - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1864,6 +3232,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.04",
+    "display" : "Autre acte, examen ou suivi - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2251,6 +3643,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.05",
+    "display" : "Autre profession / activité - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.05.01",
     "display" : "Autre personne",
     "property" : [{
@@ -2280,6 +3696,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.05.03",
+    "display" : "Autre professionnel(le)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2331,6 +3771,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.06",
+    "display" : "Autre Lieu / Transport - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.06.01",
     "display" : "Autre établissement de santé",
     "property" : [{
@@ -2344,6 +3808,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.06.02",
+    "display" : "Autre structure de soins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2507,6 +3995,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.07",
+    "display" : "Autre Anatomie - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.07.01",
     "display" : "Autre nature du matériel étudié",
     "property" : [{
@@ -2536,6 +4048,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.08",
+    "display" : "Autre (divers) - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2699,6 +4235,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.09",
+    "display" : "Autre rencontre - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.09.01",
     "display" : "Autre type de rencontre",
     "property" : [{
@@ -2728,6 +4288,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-094",
+    "display" : "1er trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-095",
+    "display" : "2e trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-096",
+    "display" : "3e trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-097",
+    "display" : "Autre (préciser)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2843,6 +4499,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-105",
+    "display" : "Protection universelle maladie (PUMa)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-14T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-05-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-106",
     "display" : "Assurance maladie complémentaire (AMC)",
     "property" : [{
@@ -2907,6 +4587,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-110",
+    "display" : "Prison",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-111",
+    "display" : "Identifiant du dispositif médical",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-112",
+    "display" : "Nom du fabricant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-113",
     "display" : "Nom du professionnel ayant utilisé le DM",
     "property" : [{
@@ -2920,6 +4672,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-114",
+    "display" : "Autres informations",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2952,6 +4728,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-117",
+    "display" : "Domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3192,6 +4992,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-133",
+    "display" : "En couple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-134",
+    "display" : "En famille",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-135",
+    "display" : "Seul",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3451,6 +5323,150 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-152",
+    "display" : "Grand",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-153",
+    "display" : "Petit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-154",
+    "display" : "Partiellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-155",
+    "display" : "Avec aide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-156",
+    "display" : "A poursuivre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-157",
+    "display" : "A modifier",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-158",
     "display" : "Soins de réadaptation",
     "property" : [{
@@ -3624,6 +5640,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-169",
+    "display" : "Très important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-170",
+    "display" : "Important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-171",
+    "display" : "Peu important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-172",
+    "display" : "Pas important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3803,6 +5915,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-184",
+    "display" : "Activité sportive régulière",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-185",
     "display" : "Sportif de haut niveau",
     "property" : [{
@@ -3816,6 +5952,126 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-186",
+    "display" : "Solvants",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-187",
+    "display" : "Pesticides",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-188",
+    "display" : "Isolement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-189",
+    "display" : "SDF",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-190",
+    "display" : "Revenus insuffisants",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3848,6 +6104,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-193",
+    "display" : "Marche avec canne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-194",
+    "display" : "Marche avec déambulateur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-195",
+    "display" : "Fauteuil roulant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-196",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3915,6 +6267,170 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-201",
+    "display" : "Pas d'activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-202",
+    "display" : "Peu d'activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-203",
+    "display" : "Activité régulière",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-204",
+    "display" : "Facile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-205",
+    "display" : "Difficile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-206",
+    "display" : "Impossible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-207",
+    "display" : "Facteurs de risques environnementaux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "GEN-208",
     "display" : "Sédentarité",
     "property" : [{
@@ -3928,6 +6444,510 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-209",
+    "display" : "Complètement limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-210",
+    "display" : "Très limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-211",
+    "display" : "Légèrement diminuée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-212",
+    "display" : "Aucune atteinte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-213",
+    "display" : "Constamment mouillé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-214",
+    "display" : "Humide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-215",
+    "display" : "Humidité occasionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-216",
+    "display" : "Rarement humide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-217",
+    "display" : "Alité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-218",
+    "display" : "Confiné au fauteuil",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-219",
+    "display" : "Marche occasionnellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-220",
+    "display" : "Marche fréquemment",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-221",
+    "display" : "Complètement immobile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-223",
+    "display" : "Légèrement limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-224",
+    "display" : "Aucune limitation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-225",
+    "display" : "Très pauvre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-226",
+    "display" : "Probablement inadéquate",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-227",
+    "display" : "Adéquate",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-228",
+    "display" : "Excellente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-229",
+    "display" : "Problème présent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-230",
+    "display" : "Problème potentiel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3979,6 +6999,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-234",
+    "display" : "Taille",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "GEN-235",
     "display" : "Respirateur d'anesthésie défectueux",
     "property" : [{
@@ -4027,6 +7067,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-238",
+    "display" : "Matériel manquant (Moniteurs, curamètre, pousse-seringue, réchauffeur)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-239",
     "display" : "Panne de fluides médicaux (oxygène, air comprimé ou vide)",
     "property" : [{
@@ -4059,6 +7123,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-241",
+    "display" : "Grabataire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-242",
+    "display" : "Non applicable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-243",
     "display" : "Topographie",
     "property" : [{
@@ -4088,6 +7200,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-245",
+    "display" : "Présent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4203,6 +7339,66 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-253",
+    "display" : "Complet",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GEN-254",
+    "display" : "Presque complet",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GEN-255",
+    "display" : "Incomplet",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "GEN-257",
     "display" : "Bas grade (bien ou moyennement différencié)",
     "property" : [{
@@ -4232,6 +7428,46 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-259",
+    "display" : "Présent(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GEN-260",
+    "display" : "Absent(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -4267,6 +7503,246 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-263",
+    "display" : "Temporale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-264",
+    "display" : "Supérieure",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-265",
+    "display" : "Inférieure",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-266",
+    "display" : "Intégré",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-267",
+    "display" : "Souple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-268",
+    "display" : "Rigide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-269",
+    "display" : "Hybride",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-270",
+    "display" : "Faible(Low)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-271",
+    "display" : "Moyen(Med)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-272",
+    "display" : "Elevé(High)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-273",
     "display" : "Non renseigné",
     "property" : [{
@@ -4280,6 +7756,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-274",
+    "display" : "Non identifié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4811,6 +8311,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-308",
+    "display" : "Non fait",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-309",
     "display" : "matériau",
     "property" : [{
@@ -4936,6 +8460,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-317",
+    "display" : "Le patient (ou son représentant légal) ne s'oppose pas à la réutilisation de ses données pour la recherche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -5208,6 +8756,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-335",
+    "display" : "Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7067,6 +10639,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-019",
+    "display" : "Densité mammaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-020",
     "display" : "Microbiopsie",
     "property" : [{
@@ -7451,6 +11047,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-044",
+    "display" : "Prélèvement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-045",
     "display" : "Si comparaison avec mammographie antérieure l'anomalie est",
     "property" : [{
@@ -7464,6 +11084,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-046",
+    "display" : "Cancer du sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-047",
+    "display" : "Chirurgie pour lésion bénigne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7547,6 +11215,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-053",
+    "display" : "Soins de support",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-054",
     "display" : "Proposition thérapeutique",
     "property" : [{
@@ -7576,6 +11268,198 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-056",
+    "display" : "Problèmes liés aux médicaments",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-057",
+    "display" : "Problème de mobilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-058",
+    "display" : "Isolement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-059",
+    "display" : "Précarité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-060",
+    "display" : "Incapacité dans les activités de base de la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-061",
+    "display" : "Troubles nutritionnels / difficulté à avoir une alimentation adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-062",
+    "display" : "Difficulté à prendre soin de soi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-063",
+    "display" : "Troubles de l'humeur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7771,6 +11655,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-076",
+    "display" : "Périmètre crânien",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-077",
     "display" : "Précision terme (cas échéant)",
     "property" : [{
@@ -7816,6 +11720,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-080",
+    "display" : "Anténatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-081",
+    "display" : "Chromosomique (caryotype, FISH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7867,6 +11819,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-085",
+    "display" : "Fœtus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-086",
     "display" : "Signes inhabituels associés à la MR",
     "property" : [{
@@ -7880,6 +11856,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-087",
+    "display" : "Autres descriptions génétiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-088",
+    "display" : "Date de début de la grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-089",
+    "display" : "Grossesse multiple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-090",
+    "display" : "Statut vital du patient",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7915,6 +11987,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-093",
+    "display" : "Tabagique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-094",
+    "display" : "Autre addiction",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-095",
     "display" : "Avis d'expertise sur un dossier",
     "property" : [{
@@ -7928,6 +12048,174 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-096",
+    "display" : "Téléconsultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-097",
+    "display" : "Diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-098",
+    "display" : "Conseil génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-099",
+    "display" : "Diagnostic prénatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-100",
+    "display" : "Diagnostic préimplantatoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-101",
+    "display" : "Génétique moléculaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-102",
+    "display" : "Cytogénétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7979,6 +12267,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-106",
+    "display" : "Compte Rendu Anatomocytopathologique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-107",
+    "display" : "Implant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-01-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-01-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-108",
+    "display" : "Antécédent de chirurgie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-109",
+    "display" : "Chirurgie pour lésions à risque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-110",
     "display" : "Mammographique",
     "property" : [{
@@ -8008,6 +12392,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-112",
+    "display" : "Autres clichés",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-113",
+    "display" : "Tomosynthèse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-114",
+    "display" : "Autre technique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-115",
+    "display" : "Dépistage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8123,6 +12603,74 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-123",
+    "display" : "Antécédents familiaux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-124",
+    "display" : "Autre(s) traitement(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-125",
+    "display" : "Autres traitements médicamenteux spécifiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-126",
     "display" : "Allogreffe / Autogreffe",
     "property" : [{
@@ -8136,6 +12684,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-127",
+    "display" : "Hormonothérapie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8232,6 +12804,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-134",
+    "display" : "Protéine d’œuf",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-135",
+    "display" : "Antibiotiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-136",
+    "display" : "Gélatine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8363,6 +13007,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-145",
+    "display" : "Transfusion de produits sanguins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-146",
     "display" : "Accidents transfusionnels",
     "property" : [{
@@ -8491,6 +13155,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-154",
+    "display" : "Autres traitements",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-155",
     "display" : "Allergies connues",
     "property" : [{
@@ -8523,6 +13211,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-157",
+    "display" : "Consommation d'alcool",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-158",
+    "display" : "Consommation de tabac",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-159",
     "display" : "Nombre d'enfants pesant moins de 2500 g",
     "property" : [{
@@ -8536,6 +13272,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-160",
+    "display" : "Nombre d'enfants mort-nés",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-161",
+    "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-162",
+    "display" : "Rang de naissance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8555,6 +13363,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-164",
+    "display" : "Pathologie en cours de grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-165",
+    "display" : "Autre pathologie en cours de grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-166",
     "display" : "Rupture membranaire plus de 12 h avant l'accouchement",
     "property" : [{
@@ -8571,6 +13427,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-167",
+    "display" : "Mesure de la clarté nucale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-168",
     "display" : "Analgésie au cours du travail",
     "property" : [{
@@ -8584,6 +13464,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-169",
+    "display" : "Mode d'accouchement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-170",
+    "display" : "Urgence chirurgicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-171",
+    "display" : "Autres pathologies de la 1ère semaine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8683,6 +13635,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-178",
+    "display" : "Test auditif normal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-179",
     "display" : "Audition à recontrôler",
     "property" : [{
@@ -8696,6 +13668,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-180",
+    "display" : "Autre anomalie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8715,6 +13711,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-182",
+    "display" : "Affections bronchopulmonaires à répétition",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-183",
     "display" : "Prématurité inf. à 33 semaines",
     "property" : [{
@@ -8728,6 +13748,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-184",
+    "display" : "Affections bronchopulmonaires à répétition dont plus de trois sifflantes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8811,6 +13855,246 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-190",
+    "display" : "Tient assis sans appui",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-191",
+    "display" : "Réagit à son prénom",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-192",
+    "display" : "Répète une syllabe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-193",
+    "display" : "Se déplace",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-194",
+    "display" : "Saisit un objet avec participation du pouce",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-195",
+    "display" : "Motricité symétrique des 4 membres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-196",
+    "display" : "Comprend une consigne simple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-197",
+    "display" : "Nomme au moins une image",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-198",
+    "display" : "Superpose des objets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-199",
+    "display" : "Associe deux mots",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-200",
     "display" : "Marche acquise",
     "property" : [{
@@ -8843,6 +14127,198 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-202",
+    "display" : "Pointe du doigt",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-203",
+    "display" : "Durée de l'alimentation au sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-204",
+    "display" : "Durée de l'alimentation exclusive au sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-205",
+    "display" : "Autres vaccins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-206",
+    "display" : "Autre(s) accident(s) domestique(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-207",
+    "display" : "Vaccin DT Polio",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-208",
+    "display" : "Consommation d'alcool",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-209",
+    "display" : "Césarienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-210",
     "display" : "Cause fœtale",
     "property" : [{
@@ -8856,6 +14332,170 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-211",
+    "display" : "Otites à répétition",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-212",
+    "display" : "Autre pathologie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-213",
+    "display" : "Joue à coucou le voilà",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-214",
+    "display" : "HbsAg EIA positive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-215",
+    "display" : "HbsAg EIA negative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-216",
+    "display" : "Vaccin contre le méningocoque C",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-217",
+    "display" : "Accouchement par voie basse non instrumentale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8907,6 +14547,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-221",
+    "display" : "Analgésie inhalatoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-222",
     "display" : "Pas d'anesthésie",
     "property" : [{
@@ -8920,6 +14584,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-223",
+    "display" : "Autre analgésie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-224",
+    "display" : "Facteurs de croissance hématopoïétiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8952,6 +14664,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-227",
+    "display" : "Surveillance active",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-228",
+    "display" : "Thérapies ciblées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-229",
+    "display" : "Radiologie interventionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-230",
+    "display" : "Soins de support",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9035,6 +14843,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-236",
+    "display" : "Voies aéro-digestives supérieures",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-237",
     "display" : "Fosses nasales, sinus, oreille moy/int",
     "property" : [{
@@ -9048,6 +14876,90 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-238",
+    "display" : "Tumeur primitive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-239",
+    "display" : "Echelle de performance OMS",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-240",
+    "display" : "Echelle de Performance OMS Stade 0",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-241",
+    "display" : "Capable d'une activité identique à celle précédant la maladie sans aucune restriction.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9096,6 +15008,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-245",
+    "display" : "Progression du cancer",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9195,6 +15127,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-252",
+    "display" : "Foie et voies biliaires",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-253",
     "display" : "Maladie myéloproliférative et syndrome myélodysplasique",
     "property" : [{
@@ -9243,6 +15199,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-256",
+    "display" : "Préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-257",
+    "display" : "Cancer rare",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-258",
     "display" : "Nouvelle localisation",
     "property" : [{
@@ -9275,6 +15279,182 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-260",
+    "display" : "Activité physique diminuée mais ambulatoire et capable de mener un travail",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-261",
+    "display" : "Ambulatoire et capable de prendre soin de soi-même, incapable de travailler. Alité moins de 50 % de son temps",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-262",
+    "display" : "Capable seulement de quelques soins. Alité ou en chaise plus de 50 % du temps",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-263",
+    "display" : "Incapable de prendre soins de soi-même. Alité ou en chaise en permanence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-264",
+    "display" : "Echelle de Performance OMS Stade 1",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-265",
+    "display" : "Echelle de Performance OMS Stade 2",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-266",
+    "display" : "Echelle de Performance OMS Stade 3",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-267",
+    "display" : "Echelle de Performance OMS Stade 4",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-268",
     "display" : "Phase initiale du cancer",
     "property" : [{
@@ -9288,6 +15468,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-269",
+    "display" : "Autre anesthésie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9323,6 +15527,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-272",
+    "display" : "Nombre de grossesses antérieures",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-273",
+    "display" : "Aucun traitement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-274",
+    "display" : "Aucune allergie, intolérance et réaction adverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-275",
     "display" : "Aucun problème",
     "property" : [{
@@ -9352,6 +15628,46 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-277",
+    "display" : "1ère série vaccinante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-278",
+    "display" : "Rappel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -9464,6 +15780,294 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-286",
+    "display" : "Sérologie positive Hépatite A",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-287",
+    "display" : "Sérologie positive Hépatite B",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-288",
+    "display" : "Antécédents de varicelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-289",
+    "display" : "Intradermo-réaction positive à la tuberculine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-290",
+    "display" : "Maintient artificiel en vie en cas de perte de conscience définitive et impossibilité de communiquer avec les proches",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-291",
+    "display" : "Réanimation cardiaque et respiratoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-292",
+    "display" : "Branchement sur un appareil à dialyse rénale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-293",
+    "display" : "Intervention chirurgicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-294",
+    "display" : "Assistance respiratoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-295",
+    "display" : "Dialyse rénale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-296",
+    "display" : "Alimentation et hydratation artificielles",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-297",
+    "display" : "Autre directive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -10024,6 +16628,46 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-333",
+    "display" : "Trouble de l'élimination urinaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-334",
+    "display" : "Trouble de l'élimination fécale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -10763,6 +17407,174 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-381",
+    "display" : "Score de Rankin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-382",
+    "display" : "Absence de symptômes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-383",
+    "display" : "Symptômes mineurs sans retentissement sur la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-384",
+    "display" : "Symptôme ou handicap mineur qui conduit à certaines restrictions dans le mode de vie, mais qui n’interfère pas avec la capacité du patient à se prendre en charge",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-385",
+    "display" : "Handicap modéré qui restreint significativement le mode de vie et/ou empêche une existence totalement indépendante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-386",
+    "display" : "Handicap modérément sévère qui empêche clairement une existence indépendante bien que nécessitant pas une attention constante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-387",
+    "display" : "Handicap sévère entraînant une dépendance totale et nécessitant une attention jour et nuit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-388",
     "display" : "Absence de sang",
     "property" : [{
@@ -10872,6 +17684,1134 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-395",
+    "display" : "Vigilant, réagit vivement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-396",
+    "display" : "Non vigilant (somnolent),  mais réagit ou répond s'il est éveillé par une stimulation mineure.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-397",
+    "display" : "Non vigilant; ne réagit qu'à des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéréotypés.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-398",
+    "display" : "On obtient uniquement des réponses réflexes motrices ou végétatives ou le patient est totalement aréactif et flasque.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-399",
+    "display" : "Répond aux deux questions correctement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-400",
+    "display" : "Ne répond correctement qu’à une seule question.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-401",
+    "display" : "Ne répond correctement à aucune des deux questions.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-402",
+    "display" : "Exécute les deux ordres correctement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-403",
+    "display" : "Exécute un seul ordre sur les deux.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-404",
+    "display" : "N'exécute aucun des deux ordres.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-405",
+    "display" : "Paralysie partielle (ce score est attribué quand l'oculomotricité est anormale pour 1 ou 2 yeux, mais sans déviation forcée, ni paralysie complète).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-406",
+    "display" : "Déviation forcée ou paralysie complète non vaincue par les manœuvres oculo céphaliques.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-407",
+    "display" : "Aucun trouble du champ visuel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-408",
+    "display" : "Hémianopsie partielle (ou extinction visuelle).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-409",
+    "display" : "Hémianopsie complète.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-410",
+    "display" : "Hémianopsie bilatérale (incluant cécité corticale).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-411",
+    "display" : "Mobilité normale, symétrique.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-412",
+    "display" : "Paralysie mineure (effacement du sillon nasogénien, asymétrie du sourire).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-413",
+    "display" : "Paralysie partielle (paralysie de la partie inférieure de la face, totale ou subtotale).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-414",
+    "display" : "Paralysie complète (facial supérieur et inférieur).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-415",
+    "display" : "absence de chute; maintien du membre supérieur à 90° (ou 45°) pendant 10 secondes.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-416",
+    "display" : "Chute; le membre supérieur chute en moins de 10 secondes mais sans atteindre le plan du lit ou un autre support.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-417",
+    "display" : "Le membre supérieur ne peut pas atteindre ou maintenir 90° (ou 45°), tombe sur le lit mais peut faire un certain mouvement contre la pesanteur.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-418",
+    "display" : "Aucun mouvement contre la pesanteur; le membre supérieur tombe.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-419",
+    "display" : "absence de mouvement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-420",
+    "display" : "Amputation, blocage articulaire (expliquer)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-421",
+    "display" : "Absence de chute; maintien du membre inférieur à 30° pendant 5 secondes.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-422",
+    "display" : "Chute; la position ne peut être maintenue pendant 5 secondes mais le membre inférieur ne retombe pas sur le lit.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-423",
+    "display" : "Le membre inférieur retombe sur le lit dans les 5 secondes mais le membre inférieur peut faire un certain mouvement contre la pesanteur.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-424",
+    "display" : "Absence de mouvement contre la pesanteur; le membre inférieur tombe instantanément.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-425",
+    "display" : "Absence de mouvement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-426",
+    "display" : "Absent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-427",
+    "display" : "Absente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-428",
+    "display" : "Présente pour un membre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-429",
+    "display" : "Présente pour deux membres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-430",
+    "display" : "postmortem",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-431",
+    "display" : "Normal, pas d’aphasie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-432",
+    "display" : "Aphasie discrète à modérée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-433",
+    "display" : "Aphasie sévère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-434",
+    "display" : "Mutisme; aphasie globale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-435",
+    "display" : "Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-436",
+    "display" : "Héminégligence sévère ou portant sur plus d’une modalité sensorielle. Ne reconnaît pas sa propre main ou ne s’oriente que vers un côté de l’espace.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-437",
+    "display" : "Déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-438",
+    "display" : "Déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-439",
+    "display" : "Discrète à modérée; le patient n’articule pas bien au moins quelques mots et, au pire, peut être compris avec quelques difficultés.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-440",
+    "display" : "Sévère: le discours du patient est tellement mal articulé qu'il devient inintelligible en l'absence ou hors de proportion avec toute éventuelle aphasie ou est mutique, anarthrique.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-441",
+    "display" : "Intubation, autre obstacle mécanique (expliquer)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -10987,6 +18927,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-449",
+    "display" : "Système ventriculaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-450",
     "display" : "Sinus longitudinal supérieur partiel",
     "property" : [{
@@ -11000,6 +18964,198 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-451",
+    "display" : "Sinus longitudinal supérieur total",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-452",
+    "display" : "Sinus Latéral droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-453",
+    "display" : "Sinus Latéral gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-454",
+    "display" : "Sinus droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-455",
+    "display" : "Veines corticales",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-456",
+    "display" : "Veines jugulaires droite",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-457",
+    "display" : "Veines jugulaires gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-458",
+    "display" : "Veines profondes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11035,6 +19191,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-461",
+    "display" : "Artère cérébrale antérieure territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-462",
     "display" : "Artère cérébrale moyenne territoire superficiel",
     "property" : [{
@@ -11067,6 +19247,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-464",
+    "display" : "Artère cérébrale moyenne territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-465",
     "display" : "Artère cérébrale postérieure territoire superficiel",
     "property" : [{
@@ -11080,6 +19284,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-466",
+    "display" : "Artère cérébrale postérieure territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11243,6 +19471,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-477",
+    "display" : "Exploration fonctionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-478",
+    "display" : "Anatomopathologie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-479",
     "display" : "Athérome extracrânien",
     "property" : [{
@@ -11304,6 +19580,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-483",
+    "display" : "Perforantes directes de la carotide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11403,6 +19703,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-490",
+    "display" : "Capsulo-thalamique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-491",
+    "display" : "Capsulo-lenticulaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-492",
     "display" : "Carrefour",
     "property" : [{
@@ -11499,6 +19847,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-498",
+    "display" : "Clopidogrel (Plavix)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-499",
+    "display" : "Héparine curative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-500",
     "display" : "Inclusion dans protocole",
     "property" : [{
@@ -11528,6 +19924,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-502",
+    "display" : "Nom du protocole",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11624,6 +20044,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-509",
+    "display" : "Germe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-510",
+    "display" : "Autre infection",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11851,6 +20319,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-525",
+    "display" : "Troubles du sommeil",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-06-30T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-06-30T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-526",
+    "display" : "Autres syndromes psycho-comportementaux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-527",
     "display" : "Soins ou traitements nocturnes",
     "property" : [{
@@ -11928,6 +20444,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-532",
+    "display" : "Angor Stable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -12235,6 +20775,86 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-552",
+    "display" : "Gêne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-553",
+    "display" : "Consanguinité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-554",
+    "display" : "Mutation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-555",
+    "display" : "Contraception",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-556",
     "display" : "Fenêtre thérapeutique",
     "property" : [{
@@ -12475,6 +21095,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-571",
+    "display" : "Suivi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-572",
     "display" : "Soin oncologique de support",
     "property" : [{
@@ -12619,6 +21259,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-581",
+    "display" : "Anesthésie générale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-582",
     "display" : "Anesthésie locorégionale péridurale ou épidurale",
     "property" : [{
@@ -12680,6 +21344,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-586",
+    "display" : "Sédation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -12795,6 +21483,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-594",
+    "display" : "Score de Cormack",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-595",
     "display" : "Rachianesthésie",
     "property" : [{
@@ -12891,6 +21603,178 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-601",
+    "display" : "Douleur nulle (0)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-602",
+    "display" : "Douleur faible (1-3)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-603",
+    "display" : "Douleur modérée (4-6)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-604",
+    "display" : "Douleur forte (7-9)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-605",
+    "display" : "Douleur atroce (10)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-606",
+    "display" : "Normal (0 à 10)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-607",
+    "display" : "Dépression légère (11 à 20)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-608",
+    "display" : "Dépression modérée ou grave (21 à 30)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-609",
     "display" : "Risque faible (18 à 23)",
     "property" : [{
@@ -12952,6 +21836,246 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-613",
+    "display" : "1 - Patient normal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-614",
+    "display" : "2 - Patient avec anomalie systémique modérée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-615",
+    "display" : "3 - Patient avec anomalie systémique sévère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-616",
+    "display" : "4 - Patient avec anomalie systémique sévère représentant une menace vitale constante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-617",
+    "display" : "5 - Patient moribond dont la survie est improbable sans l'intervention",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-618",
+    "display" : "6 - Patient déclaré en état de mort cérébrale dont on prélève les organes pour greffe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-619",
+    "display" : "Grade 1 : La glotte est vue en totalité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-620",
+    "display" : "Grade 2 : Seule la moitié postérieure de la glotte est vue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-621",
+    "display" : "Grade 3 : Seule une infime partie de la glotte est vue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-622",
+    "display" : "Grade 4 : La glotte est cachée par l’épiglotte et la langue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13131,6 +22255,122 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-634",
+    "display" : "Classe 1 : toute la luette et les loges amygdaliennes sont visibles",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-635",
+    "display" : "Classe 2 : la luette est partiellement visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-636",
+    "display" : "Classe 3 : le palais membraneux est visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-637",
+    "display" : "Classe 4 : seul le palais osseux est visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-638",
+    "display" : "Score de Mallampati",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "MED-639",
     "display" : "Ouverture de bouche",
     "property" : [{
@@ -13160,6 +22400,150 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-641",
+    "display" : "5,5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-642",
+    "display" : "6",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-643",
+    "display" : "6,5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-644",
+    "display" : "7",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-645",
+    "display" : "7,5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-646",
+    "display" : "8",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13291,6 +22675,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-655",
+    "display" : "Intubation orotrachéale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-656",
+    "display" : "Intubation nasotrachéale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-657",
     "display" : "Abord trachéal direct",
     "property" : [{
@@ -13352,6 +22784,26 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-670",
+    "display" : "Cancer",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -13592,6 +23044,222 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-686",
+    "display" : "Caecum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-687",
+    "display" : "Côlon ascendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-688",
+    "display" : "Angle colique droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-689",
+    "display" : "Côlon transverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-690",
+    "display" : "Angle colique gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-691",
+    "display" : "Côlon descendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-692",
+    "display" : "Côlon sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-693",
+    "display" : "Recto-sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-694",
+    "display" : "Rectum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13896,6 +23564,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-714",
+    "display" : "Autre carcinome",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -14443,6 +24135,222 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-749",
+    "display" : "Caecum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-750",
+    "display" : "Côlon ascendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-751",
+    "display" : "Angle colique droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-752",
+    "display" : "Côlon transverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-753",
+    "display" : "Angle colique gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-754",
+    "display" : "Côlon descendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-755",
+    "display" : "Côlon sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-756",
+    "display" : "Recto-sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-757",
+    "display" : "Rectum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-758",
     "display" : "Aspect normal/subnormal",
     "property" : [{
@@ -14619,6 +24527,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-769",
+    "display" : "Autre - Absence de cellules cancéreuses",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-770",
     "display" : "Bas grade (bien ou moyennement différencié)",
     "property" : [{
@@ -14664,6 +24596,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-773",
+    "display" : "Maladie de Crohn",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -14824,6 +24780,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-784",
+    "display" : "Péritoine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-785",
+    "display" : "Epiploon",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-786",
+    "display" : "Foie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -15979,6 +26007,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-859",
+    "display" : "Autres constations sur les polypes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-860",
     "display" : "Appendice",
     "property" : [{
@@ -16008,6 +26060,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-862",
+    "display" : "Péritoine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16056,6 +26132,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-866",
+    "display" : "Diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16139,6 +26239,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-872",
+    "display" : "Stadiomètre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-873",
+    "display" : "Cardiofréquencemètre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-874",
+    "display" : "Non diabétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-875",
+    "display" : "MAPA : mesure automatisée de la pression artérielle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-876",
     "display" : "Pose d'une sonde nasogastrique",
     "property" : [{
@@ -16168,6 +26364,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-878",
+    "display" : "Sonde gastrique orogastrique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-879",
+    "display" : "Sonde gastrique nasogastrique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16315,6 +26559,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-889",
+    "display" : "Marque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-890",
     "display" : "Demi-écart interpupillaire VL",
     "property" : [{
@@ -16379,6 +26647,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-894",
+    "display" : "Renouvellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-895",
+    "display" : "Diamètre lentille",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-896",
+    "display" : "Autres paramètres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-897",
     "display" : "Prise en charge LPP",
     "property" : [{
@@ -16392,6 +26732,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-898",
+    "display" : "Date de fin d'adaptation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-899",
+    "display" : "Produit d'entretien",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16456,6 +26844,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-904",
+    "display" : "Nasale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16571,6 +26983,1446 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-912",
+    "display" : "Œil gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-913",
+    "display" : "Œil droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-914",
+    "display" : "Deux yeux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-915",
+    "display" : "Biopsie Shaving",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-916",
+    "display" : "Biopsie Punch",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-917",
+    "display" : "Exérèse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-918",
+    "display" : "Amputation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-919",
+    "display" : "Tête et cou",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-920",
+    "display" : "Epaule et membre supérieur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-921",
+    "display" : "Tronc",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-922",
+    "display" : "Hanche et membre inférieur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-923",
+    "display" : "Mélanome de Dubreuilh in situ (LM, Lentigo Maligna)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-924",
+    "display" : "Mélanome acrolentigineux (ALM, Acral Lentiginous Melanoma) in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-925",
+    "display" : "Mélanome simulant un nævus [question=Précisez]",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-926",
+    "display" : "Mélanome développé sur nævus congénital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-927",
+    "display" : "Mélanome développé sur naevus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-928",
+    "display" : "Mélanome sur naevus bleu",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-929",
+    "display" : "Mélanome desmoplastique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-930",
+    "display" : "Mélanome inclassable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-931",
+    "display" : "Présente sans répercussion sur l'histopronostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-932",
+    "display" : "Présente avec répercussion sur l'histopronostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-933",
+    "display" : "Présents brisk (très nombreux et diffus)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-934",
+    "display" : "Présents non brisk (focal)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-935",
+    "display" : "Investigations complémentaires en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-936",
+    "display" : "Demande de second avis en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-937",
+    "display" : "Investigations complémentaires et demande de second avis en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-938",
+    "display" : "Limites latérales envahies par du mélanome in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-939",
+    "display" : "Limites latérales envahies par du mélanome invasif",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-940",
+    "display" : "Limite profonde envahie au niveau du derme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-941",
+    "display" : "Limite profonde envahie au niveau de l'hypoderme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-942",
+    "display" : "Mélanome primitif dont l'épaisseur ne peut être évaluée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-943",
+    "display" : "Pas de mélanome primitif évident (ex. mélanome entièrement régressif)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-944",
+    "display" : "Mélanome in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-945",
+    "display" : "Mélanome d'épaisseur inférieure ou égale à 1,0 mm (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-946",
+    "display" : "Mélanome < 0,8 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-947",
+    "display" : "Mélanome < 0,8 mm d'épaisseur avec ulcération ou mélanome de 0,8 à 1,0 mm d'épaisseur avec ou sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-948",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-949",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-950",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-951",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-952",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-953",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-954",
+    "display" : "Mélanome > 4,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-955",
+    "display" : "Mélanome > 4,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-956",
+    "display" : "Mélanome > 4,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-957",
+    "display" : "Ganglions non évaluables",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-958",
+    "display" : "Pas de métastase ganglionnaire régionale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-959",
+    "display" : "Micrométastase dans 1 ganglion lymphatique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-960",
+    "display" : "Macrométastase dans 1 ganglion lymphatique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-961",
+    "display" : "Micrométastase dans 2 ou 3 ganglions lymphatiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-962",
+    "display" : "Macrométastase dans 2 ou 3 ganglions lymphatiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-963",
+    "display" : "Métastase(s) en transit / satellite(s) sans ganglion envahi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-964",
+    "display" : "Métastases dans 4 ganglions lymphatiques ou plus, ou agglomérat de N+ ou métastase en transit avec ganglion(s) envahi(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-965",
+    "display" : "Métastases à distance (cutanées ou sous-cutanées ou ganglionnaires au-delà des ganglions loco-régionaux)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-966",
+    "display" : "Métastases pulmonaires",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-967",
+    "display" : "Autres métastases viscérales. Toutes métastases à distance (autres que SNC)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-968",
+    "display" : "Métastases dans le SNC",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-969",
+    "display" : "Glucose interstitiel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-970",
+    "display" : "Complications liées aux DMs",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-971",
+    "display" : "Cervico-facial",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-972",
     "display" : "Index de gestion de glycémie (IGG)",
     "property" : [{
@@ -16587,6 +28439,414 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-973",
+    "display" : "Résultat d'acuité visuelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-974",
+    "display" : "Test d'image Allen",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-975",
+    "display" : "Mesure de la lensométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-976",
+    "display" : "Verre de lunettes (objets physiques)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-977",
+    "display" : "Astigmatisme irrégulier de la cornée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-978",
+    "display" : "Recherche de mesure réfractive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-979",
+    "display" : "Réfraction subjective",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-980",
+    "display" : "Réfraction objective",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-981",
+    "display" : "Rétinoscopie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-982",
+    "display" : "Réfraction cycloplégique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-983",
+    "display" : "Mesure de kératométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-984",
+    "display" : "Mesure de kératométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-985",
+    "display" : "Puissance du cylindre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-986",
+    "display" : "Axe du cylindre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-987",
+    "display" : "Puissance d'addition de lecture",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-988",
+    "display" : "Puissance de distance intermédiaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-989",
+    "display" : "Distance interpupillaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-990",
     "display" : "Prisme – puissance – acuité visuelle",
     "property" : [{
@@ -16600,6 +28860,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-991",
+    "display" : "Direction de la base du prisme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17531,6 +29815,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1050",
+    "display" : "Chirurgie plastie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1051",
+    "display" : "Acuité visuelle de près",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1052",
+    "display" : "Acuité visuelle à distance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1053",
+    "display" : "Acuité visuelle intermédiaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1054",
     "display" : "Type de distance de visualisation",
     "property" : [{
@@ -17544,6 +29924,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1055",
+    "display" : "Libre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17752,6 +30156,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1069",
+    "display" : "Lentilles délivrées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -18571,6 +30999,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1121",
+    "display" : "Autre contre-indication connue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1122",
     "display" : "Hypersensibilité au produit de contraste gadoliné",
     "property" : [{
@@ -18859,6 +31311,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1140",
+    "display" : "Autre (autres traceurs, TEP-IRM)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1141",
     "display" : "Cardiaque : Perfusion myocardique",
     "property" : [{
@@ -19035,6 +31511,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1152",
+    "display" : "Autre fonction étudiée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1153",
     "display" : "avec injection de produit de contraste",
     "property" : [{
@@ -19112,6 +31612,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1158",
+    "display" : "Autre demande d’examen ou de suivi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -19416,6 +31940,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1178",
+    "display" : "Autre mode d'administration",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -20091,6 +32639,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1221",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1222",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1223",
     "display" : "Présentation fœtale",
     "property" : [{
@@ -20424,6 +33020,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1244",
+    "display" : "Estimation sans matériel (prise du pouls)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -21003,6 +33623,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1281",
+    "display" : "décès auquel l’effet a pu contribuer",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-11T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-11T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1282",
     "display" : "décès sans rapport avec l’effet",
     "property" : [{
@@ -21051,6 +33695,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1285",
+    "display" : "Diagnostic de la maladie complexe non rare",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1286",
     "display" : "Technique sur laquelle repose le diagnostic génétique",
     "property" : [{
@@ -21096,6 +33764,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1289",
+    "display" : "Rendu de résultat diagnostic génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22315,6 +35007,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-008",
+    "display" : "Autres mesures anticipées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-009",
+    "display" : "Prise en charge médicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-010",
+    "display" : "Prise en charge sociale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-011",
     "display" : "Organisation du suivi",
     "property" : [{
@@ -22392,6 +35156,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-016",
+    "display" : "Lieu de consultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22491,6 +35279,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-023",
+    "display" : "Centre de protection maternelle et infantile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-024",
+    "display" : "Autre spécialiste",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-025",
     "display" : "Site de prise en charge",
     "property" : [{
@@ -22523,6 +35359,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-027",
+    "display" : "Centre de dépistage prénatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-028",
+    "display" : "Consultation pluridisciplinaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-029",
     "display" : "Avis sur dossier en consultation",
     "property" : [{
@@ -22552,6 +35436,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-031",
+    "display" : "Acte médical",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-032",
+    "display" : "Enseignant(e) spécialisé(e)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-033",
+    "display" : "Contexte de l'activité MR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22619,6 +35575,174 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-038",
+    "display" : "Prise en charge sociale, familiale et professionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-039",
+    "display" : "Accompagnement pour la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-040",
+    "display" : "Reconditionnement physique, activité physique adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-041",
+    "display" : "Mesure de préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-042",
+    "display" : "Prise en charge des troubles de la sexualité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-043",
+    "display" : "Prise en charge palliative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-044",
+    "display" : "Hôpital de jour (HDJ)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-045",
     "display" : "Hospitalisation traditionnelle",
     "property" : [{
@@ -22635,6 +35759,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-046",
+    "display" : "Mise en place de la prise en charge",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-047",
+    "display" : "Suivi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-048",
+    "display" : "Prise en charge en urgence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-049",
     "display" : "Protocole de recherche",
     "property" : [{
@@ -22648,6 +35844,318 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-050",
+    "display" : "Assistante sociale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-051",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-052",
+    "display" : "Conseiller(e) en génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-053",
+    "display" : "Autre professionnel(le)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-054",
+    "display" : "Établissement de santé de référence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-055",
+    "display" : "Centre d'hébergement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-056",
+    "display" : "Structure(s) de coordination ville-hôpital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-057",
+    "display" : "Organisme social et de maintien dans l'emploi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-058",
+    "display" : "Structure(s) de coordination ville-hôpital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-059",
+    "display" : "Lieu d'administration",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-060",
+    "display" : "Lieu de prise en charge en oncogératrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-061",
+    "display" : "Lieu des mesures de préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-062",
+    "display" : "Structure(s) de soutien et d'information",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22699,6 +36207,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-066",
+    "display" : "Autres suites à donner",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-067",
+    "display" : "Urgences",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-068",
+    "display" : "Programmées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-069",
+    "display" : "Transfert ou mutation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-070",
     "display" : "Modalité d'entrée",
     "property" : [{
@@ -22712,6 +36316,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-071",
+    "display" : "SSR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-072",
+    "display" : "Hospitalisation à domicile (HAD)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-073",
+    "display" : "Autre établissement de santé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22747,6 +36423,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-076",
+    "display" : "Date de la première consultation (déclaration de grossesse)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-077",
     "display" : "Hospitalisation (y compris à domicile)",
     "property" : [{
@@ -22760,6 +36460,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-078",
+    "display" : "Autre motif d'hospitalisation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22808,6 +36532,78 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-082",
+    "display" : "Transfert dans une unité de soins intensifs",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-083",
+    "display" : "Demande de rappel par le médecin de PMI",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-084",
+    "display" : "Demande de consutation médicale spécialisée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22891,6 +36687,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-090",
+    "display" : "Hospitalisations depuis le 9ème mois",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-091",
+    "display" : "Hospitalisation en période néonatale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-092",
     "display" : "Nombre d'hospitalisations en période néonatale",
     "property" : [{
@@ -22904,6 +36748,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-093",
+    "display" : "Hospitalisation après la période néonatale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22936,6 +36804,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-096",
+    "display" : "Médecin traitant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-11T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-11T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22987,6 +36879,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-100",
+    "display" : "EHPAD",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-101",
+    "display" : "Retour au domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-102",
     "display" : "SSR spécialisé neuro",
     "property" : [{
@@ -23032,6 +36972,222 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-105",
+    "display" : "Accompagnement au sevrage tabagique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-106",
+    "display" : "Accompagnement au sevrage de drogue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-107",
+    "display" : "Service de médecine du travail",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-108",
+    "display" : "Service social",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-109",
+    "display" : "Caisse d'assurance de retraite et santé au travail (CARSAT)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-21T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-110",
+    "display" : "Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-21T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-21T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-111",
+    "display" : "Maison départementale des personnes handicapées (MDPH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-112",
+    "display" : "Coordination gérontologique (CLIC)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-113",
+    "display" : "RCP",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23179,6 +37335,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-123",
+    "display" : "Consultation de transition enfant/adulte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-124",
+    "display" : "Autre examen/expertise complémentaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-125",
     "display" : "Quorum RCP",
     "property" : [{
@@ -23272,6 +37476,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-131",
+    "display" : "Oncologie médicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23387,6 +37615,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-139",
+    "display" : "Réanimation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-140",
+    "display" : "Néonatologie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-141",
     "display" : "Unité Kangourou",
     "property" : [{
@@ -23403,6 +37679,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-142",
+    "display" : "Unité de soin intensif en néonatalogie (USIN)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-143",
     "display" : "Réanimation/soins intentifs",
     "property" : [{
@@ -23416,6 +37716,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-144",
+    "display" : "Autre court-séjour",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23675,6 +37999,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-161",
+    "display" : "Autre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-162",
     "display" : "MCO",
     "property" : [{
@@ -23707,6 +38055,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-164",
+    "display" : "Education thérapeutique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-165",
     "display" : "Séjour de répit",
     "property" : [{
@@ -23720,6 +38092,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-166",
+    "display" : "Maison d'accueil spécialisé (MAS) / Foyer d'accueil médicalisé (FAM)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-167",
+    "display" : "Hospitalisation complète",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-168",
+    "display" : "Services de soins infirmiers à domicile (SSIAD)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-169",
+    "display" : "Médecine physique et de réadaptation (MPR)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23992,6 +38460,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-187",
+    "display" : "Consultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24427,6 +38919,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "ORG-215",
+    "display" : "Intervenant à domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-216",
     "display" : "Retour vers l'EHPAD",
     "property" : [{
@@ -24456,6 +38972,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-218",
+    "display" : "Transfert vers une structure plus adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-219",
+    "display" : "Retour au domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24843,6 +39407,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "PAT-015",
+    "display" : "Age au diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "PAT-016",
     "display" : "Précision de l'âge au diagnostic",
     "property" : [{
@@ -24856,6 +39444,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-017",
+    "display" : "Familial",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24971,6 +39583,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "PAT-025",
+    "display" : "Scolarité et ses adaptations",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "PAT-026",
     "display" : "Sortie de l’arrêt de travail (invalidité, retraite, médecine du travail)",
     "property" : [{
@@ -25000,6 +39636,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-028",
+    "display" : "Autre démarche (à préciser)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-029",
+    "display" : "Masculin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-030",
+    "display" : "Féminin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-031",
+    "display" : "Indeterminé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25115,6 +39847,70 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "PAT-040",
+    "display" : "Activité salariée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAT-041",
+    "display" : "Autre activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-042",
+    "display" : "Retraité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
     "code" : "PAT-043",
     "display" : "Au foyer",
     "property" : [{
@@ -25131,6 +39927,90 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "PAT-044",
+    "display" : "Congé parental",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAT-045",
+    "display" : "Chômeur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAT-046",
+    "display" : "Elève, étudiant ou en formation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAT-047",
+    "display" : "Autre inactif",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "PAT-048",
     "display" : "Type de garde principal de l'enfant",
     "property" : [{
@@ -25144,6 +40024,30 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-049",
+    "display" : "Garde par la mère ou le père",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25176,6 +40080,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-052",
+    "display" : "A domicile par un tiers",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-053",
+    "display" : "Type de garde de l'enfant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
