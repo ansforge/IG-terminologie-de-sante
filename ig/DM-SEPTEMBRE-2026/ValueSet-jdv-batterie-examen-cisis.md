@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-batterie-examen-cisis | *Version*:20260716085853 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvBatterieExamenCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-batterie-examen-cisis | *Version*:20260916095456 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvBatterieExamenCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.102 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-16
+2026-09-17
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-batterie-examen-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-07-17T12:58:27.777+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-16T14:12:56.435+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.102"
   }],
-  "version" : "20260716085853",
+  "version" : "20260916095456",
   "name" : "JdvBatterieExamenCisis",
   "title" : "JDV Batterie Examen CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:53+01:00",
+  "date" : "2026-09-16T09:54:56+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Batterie Examen CISIS",
   "jurisdiction" : [{
@@ -102,10 +102,6 @@ Liens:
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "GEN-078",
-        "display" : "Dépistage de la trisomie 21"
-      },
-      {
         "code" : "ORG-079",
         "display" : "Nombre total d'échographies"
       },
@@ -123,6 +119,13 @@ Liens:
       "concept" : [{
         "code" : "51659-1",
         "display" : "Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "315115008",
+        "display" : "dépistage de la trisomie 21"
       }]
     }]
   }

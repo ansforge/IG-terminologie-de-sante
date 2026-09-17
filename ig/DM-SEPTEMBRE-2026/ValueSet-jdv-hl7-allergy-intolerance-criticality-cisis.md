@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis | *Version*:20260911143444 | |
-| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCriticality |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis | *Version*:20260916095453 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCriticality |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.129 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-16
+2026-09-17
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-criticality-cisis",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-09-15T16:27:44.651+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-16T14:12:41.966+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.129"
   }],
-  "version" : "20260911143444",
+  "version" : "20260916095453",
   "name" : "AllergyIntoleranceCriticality",
   "title" : "Allergy Intolerance Criticality",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T14:34:44+01:00",
+  "date" : "2026-09-16T09:54:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Allergy Intolerance Criticality",
   "jurisdiction" : [{

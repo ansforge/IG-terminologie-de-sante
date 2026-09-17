@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis | *Version*:20260716085852 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDeficiencePhysiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis | *Version*:20260916095455 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDeficiencePhysiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.62 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-16
+2026-09-17
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-deficience-physique-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-07-17T12:58:40.811+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-09-16T14:13:19.608+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.62"
   }],
-  "version" : "20260716085852",
+  "version" : "20260916095455",
   "name" : "JdvDeficiencePhysiqueCisis",
   "title" : "JDV Deficience Physique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:52+01:00",
+  "date" : "2026-09-16T09:54:55+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Deficience Physique CISIS",
   "jurisdiction" : [{
@@ -104,6 +104,14 @@ Liens:
       "concept" : [{
         "code" : "R47.02",
         "display" : "Aphasie, autre et sans précision"
+      },
+      {
+        "code" : "R39.8",
+        "display" : "Symptômes et signes relatifs à l'appareil urinaire, autres et non précisés"
+      },
+      {
+        "code" : "R19.8",
+        "display" : "Autres symptômes et signes précisés relatifs à l'appareil digestif et à l'abdomen"
       }]
     },
     {
@@ -123,14 +131,6 @@ Liens:
       {
         "code" : "MED-332",
         "display" : "Trouble de la déglutition"
-      },
-      {
-        "code" : "MED-333",
-        "display" : "Trouble de l'élimination urinaire"
-      },
-      {
-        "code" : "MED-334",
-        "display" : "Trouble de l'élimination fécale"
       },
       {
         "code" : "MED-335",
