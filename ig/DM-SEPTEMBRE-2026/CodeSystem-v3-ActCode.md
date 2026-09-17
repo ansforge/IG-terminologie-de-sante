@@ -21,7 +21,6 @@ Act.classCode and Act.code are not modifiers of each other but the Act.code conc
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Jdv J421 Niveau Confidentialite Document](ValueSet-jdv-j421-niveau-confidentialite-document.md)
 * [JDV Completude Dispensation CISIS](ValueSet-jdv-completude-dispensation-cisis.md)
 * [JDV Encompassing Encounter Code CISIS](ValueSet-jdv-encompassing-encounter-code-cisis.md)
 * [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md)

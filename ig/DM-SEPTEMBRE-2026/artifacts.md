@@ -840,7 +840,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv J419 Perimetre Interruption Exercice Rpps](ValueSet-jdv-j419-perimetre-interruption-exercice-rpps.md) | Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès. |
 | [Jdv J420 Type Duree Interruption Exercice Rpps](ValueSet-jdv-j420-type-duree-interruption-exercice-rpps.md) | Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé. |
-| [Jdv J421 Niveau Confidentialite Document](ValueSet-jdv-j421-niveau-confidentialite-document.md) | Ce jeu de valeurs sert à indiquer le niveau de confidentialité d’un document médical. |
 | [Jdv MSO Resultat Qualitatif 2 CISIS](ValueSet-jdv-mso-resultat-qualitatif-2-cisis.md) | Jdv MSO Resultat Qualitatif 2 CISIS |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 4 CISIS](ValueSet-jdv-mso-resultat-qualitatif-4-cisis.md) | Jdv MSO Resultat Qualitatif 4 CISIS |
@@ -1024,7 +1023,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d’exercice |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d’autorisation |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d’autorisation |
 | [TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md) | Canal de communication |
@@ -1038,7 +1037,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d’âge |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d’activité |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. |
 | [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge |

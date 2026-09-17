@@ -18,7 +18,6 @@ A set of codes specifying the security classification of acts and roles in accor
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Jdv J421 Niveau Confidentialite Document](ValueSet-jdv-j421-niveau-confidentialite-document.md)
 * [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md)
 * [x_BasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
 

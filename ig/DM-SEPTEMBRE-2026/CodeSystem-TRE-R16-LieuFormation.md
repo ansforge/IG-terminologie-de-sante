@@ -12,6 +12,9 @@
 | Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.35 | | |
 
+ 
+Lieu de formation 
+
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J235_LieuFormation_EPARS](ValueSet-JDV-J235-LieuFormation-EPARS.md)
@@ -40,6 +43,7 @@
   "experimental" : false,
   "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Lieu de formation",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
