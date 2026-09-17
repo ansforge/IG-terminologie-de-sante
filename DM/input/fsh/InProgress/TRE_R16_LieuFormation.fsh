@@ -1,5 +1,6 @@
 CodeSystem: TRE_R16_LieuFormation
 Id: TRE-R16-LieuFormation
+Description: "Lieu de formation"
 * ^meta.versionId = "18"
 * ^meta.lastUpdated = "2026-08-04T11:03:16.712+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

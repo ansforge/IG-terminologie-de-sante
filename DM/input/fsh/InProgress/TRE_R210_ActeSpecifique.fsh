@@ -1,5 +1,6 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
+Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."
 * ^meta.versionId = "35"
 * ^meta.lastUpdated = "2026-07-29T10:40:18.653+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
