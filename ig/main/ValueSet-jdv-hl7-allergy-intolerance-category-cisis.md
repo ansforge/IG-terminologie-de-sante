@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis | *Version*:20260911143444 | |
-| Active as of 2026-09-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCategory |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis | *Version*:20260916095452 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCategory |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.133 | | |
 
  
@@ -55,7 +55,7 @@ No Expansion for this valueset (Unknown Code System)
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-16
+2026-09-18
 
 Liens:
 [Table des matières ](toc.md)|
@@ -70,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-category-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-09-15T16:27:43.937+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-16T14:12:41.231+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -86,12 +86,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.133"
   }],
-  "version" : "20260911143444",
+  "version" : "20260916095452",
   "name" : "AllergyIntoleranceCategory",
   "title" : "AllergyIntoleranceCategory",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T14:34:44+01:00",
+  "date" : "2026-09-16T09:54:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "AllergyIntoleranceCategory",
   "jurisdiction" : [{
