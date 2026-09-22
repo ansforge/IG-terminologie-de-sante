@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis | *Version*:20260716085852 | |
-| Active as of 2026-07-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActStatus |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis | *Version*:20260916095454 | |
+| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActStatus |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.15933 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-17
+2026-09-22
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ActStatus-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-07-17T12:58:13.051+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-18T16:12:40.062+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.15933"
   }],
-  "version" : "20260716085852",
+  "version" : "20260916095454",
   "name" : "ActStatus",
   "title" : "ActStatus",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-16T08:58:52+01:00",
+  "date" : "2026-09-16T09:54:54+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActStatus",
   "jurisdiction" : [{

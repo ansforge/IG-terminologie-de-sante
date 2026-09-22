@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-17
+2026-09-22
 
 Liens:
 [Table des matières ](toc.md)|
@@ -5250,7 +5250,7 @@ Liens:
       },
       {
         "code" : "1655",
-        "display" : "Evaluation visuelle des troubles orthoptiques et neurovisuels dans le cadre des troubles du neuro-développement (TNV - TND)"
+        "display" : "Evaluation orthoptique et/ou prise en soins de la fonction visuelle et neurovisuelle dans le cadre du neurodéveloppement (TNV - TND)"
       },
       {
         "code" : "1656",
@@ -5258,7 +5258,7 @@ Liens:
       },
       {
         "code" : "1657",
-        "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))"
+        "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))"
       },
       {
         "code" : "1658",

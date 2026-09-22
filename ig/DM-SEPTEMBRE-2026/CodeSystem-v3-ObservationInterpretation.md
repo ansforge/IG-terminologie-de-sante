@@ -20,6 +20,13 @@ One or more codes providing a rough qualitative interpretation of the observatio
 
 * [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
 * [JDV Indicateur Anormalite CISIS](ValueSet-jdv-indicateur-anormalite-cisis.md)
+* [JDV Resultat Depistage Cetonemie CISIS](ValueSet-jdv-resultat-depistage-cetonemie-cisis.md)
+* [JDV Resultat Depistage Crp CISIS](ValueSet-jdv-resultat-depistage-crp-cisis.md)
+* [JDV Resultat Depistage Glucose CISIS](ValueSet-jdv-resultat-depistage-glucose-cisis.md)
+* [JDV Resultat Depistage Glycemie CISIS](ValueSet-jdv-resultat-depistage-glycemie-cisis.md)
+* [JDV Resultat Depistage Proteinurie CISIS](ValueSet-jdv-resultat-depistage-proteinurie-cisis.md)
+* [JDV Resultat Depistage Rupture Membrane Ph CISIS](ValueSet-jdv-resultat-depistage-rupture-membrane-ph-cisis.md)
+* [JDV Resultat Depistage Urobilinogenurie CISIS](ValueSet-jdv-resultat-depistage-urobilinogenurie-cisis.md)
 
 
 
