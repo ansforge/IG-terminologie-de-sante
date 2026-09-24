@@ -1,0 +1,383 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J199-StatutJuridique-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J199-StatutJuridique-ROR"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "4" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:05:49.546+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J199-StatutJuridique-ROR</b></p><a name=\"JDV-J199-StatutJuridique-ROR\"> </a><a name=\"hcJDV-J199-StatutJuridique-ROR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 4; Dernière mise à jour : 2026-07-06 19:05:49+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20240329120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-000\">000</a></td><td>En cours de vérification</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-01\">01</a></td><td>Etat</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-02\">02</a></td><td>Département</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-03\">03</a></td><td>Commune</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-04\">04</a></td><td>Région</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-05\">05</a></td><td>Territoire d'Outre Mer</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-06\">06</a></td><td>Autre collectivité territoriale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-07\">07</a></td><td>Métropole ou Pôle métropolitain</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-08\">08</a></td><td>Centre Intercommunal d'Action Sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-10\">10</a></td><td>Etablissement public national d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-11\">11</a></td><td>Etablissement public départemental d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-12\">12</a></td><td>Etablissement public interdépartemental d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-13\">13</a></td><td>Etablissement public communal d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-14\">14</a></td><td>Etablissement public intercommunal d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-15\">15</a></td><td>Etablissement public régional d'hospitalisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-16\">16</a></td><td>Syndicat interhospitalier</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-17\">17</a></td><td>Centre communal d'action sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-18\">18</a></td><td>Etablissement social et médico-social national</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-19\">19</a></td><td>Etablissement social et médico-social départemental</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-20\">20</a></td><td>Etablissement social et médico-social interdépartemental</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-21\">21</a></td><td>Etablissement social et médico-social communal</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-22\">22</a></td><td>Etablissement social et médico-social intercommunal</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-23\">23</a></td><td>Etablissement social et médico-social régional</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-24\">24</a></td><td>Office public d'HLM</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-25\">25</a></td><td>Caisse des écoles</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-26\">26</a></td><td>Autre établissement public à caractère administratif</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-27\">27</a></td><td>Etablissement public à caractère industriel ou commercial</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-28\">28</a></td><td>Groupement d'intérêt public (GIP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-29\">29</a></td><td>Groupement de coopération sanitaire (GCS) public</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-30\">30</a></td><td>Groupement de coopération sociale ou médico-sociale public (GCSMS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-40\">40</a></td><td>Régime général de sécurité sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-41\">41</a></td><td>Régime spécial de sécurité sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-42\">42</a></td><td>Institution de prévoyance</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-43\">43</a></td><td>Mutualité sociale agricole (MSA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-44\">44</a></td><td>Régime maladie des non salariés, non agricole</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-45\">45</a></td><td>Régime vieillesse particulier</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-46\">46</a></td><td>Autre régime de prévoyance sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-47\">47</a></td><td>Société mutualiste</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-48\">48</a></td><td>Assurance mutuelle agricole</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-49\">49</a></td><td>Autre organisme mutualiste</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-50\">50</a></td><td>Comité d'entreprise ou Comité d'établissement</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-51\">51</a></td><td>Syndicat</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-52\">52</a></td><td>Syndicat de propriétaires</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-60\">60</a></td><td>Association Loi 1901 non reconnue d'utilité publique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-61\">61</a></td><td>Association Loi 1901 reconnue d'utilité publique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-62\">62</a></td><td>Association de droit local</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-63\">63</a></td><td>Fondation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-64\">64</a></td><td>Congrégation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-65\">65</a></td><td>Autre organisme privé à but non lucratif</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-66\">66</a></td><td>Groupement de coopération sociale ou médico-sociale (GCSMS) privé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-70\">70</a></td><td>Personne physique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-71\">71</a></td><td>Société en nom collectif (SNC)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-72\">72</a></td><td>Société à responsabilité limitée (SARL)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-73\">73</a></td><td>Société anonyme (SA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-74\">74</a></td><td>Société civile</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-75\">75</a></td><td>Autre société</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-76\">76</a></td><td>Groupement d'intérêt économique (GIE)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-77\">77</a></td><td>Autre organisme privé à caractère commercial</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-78\">78</a></td><td>Entreprise unipersonnelle à responsabilité limitée (EURL)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-79\">79</a></td><td>Société civile de moyens (SCM)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-80\">80</a></td><td>Société interprofessionnelle soins ambulatoires (SISA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-85\">85</a></td><td>Société d'exercice libéral responsabilité limitée (SELARL)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-86\">86</a></td><td>Société d'exercice libéral à forme anonyme (SELAFA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-87\">87</a></td><td>Société d'exercice libéral commandite par actions (SELCA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-88\">88</a></td><td>Société civile professionnelle (SCP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-89\">89</a></td><td>Groupement de coopération sanitaire (GCS) privé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-90\">90</a></td><td>Organisme de droit étranger</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-91\">91</a></td><td>Société d'exercice libéral par actions simplifiée (SELAS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-93\">93</a></td><td>Société en commandite</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-95\">95</a></td><td>Société par actions simplifiée (SAS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-100\">100</a></td><td>Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-101\">101</a></td><td>Société d'exercice libéral par actions simplifiée (SELAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-102\">102</a></td><td>Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-103\">103</a></td><td>Société en commandite simple (SCS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-104\">104</a></td><td>Société en commandite par actions (SCA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-105\">105</a></td><td>Société par actions simplifiée (SAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-106\">106</a></td><td>Société anonyme à directoire (SADI)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-107\">107</a></td><td>Société Anonyme à conseil d'administration (SACA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R72-FinessStatutJuridique.html#TRE-R72-FinessStatutJuridique-110\">110</a></td><td>Société en participation (SEP)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2022-08-26T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J199-StatutJuridique-ROR/FHIR/JDV-J199-StatutJuridique-ROR"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.4.31" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20220826120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J199_StatutJuridique_ROR"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2022-08-26T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Statuts juridiques provenant de FINESS et RPPS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "En cours de vérification" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "01" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etat" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Département" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "03" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Commune" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "04" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Région" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Territoire d'Outre Mer" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "06" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre collectivité territoriale" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "07" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Métropole ou Pôle métropolitain" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "08" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre Intercommunal d'Action Sociale" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public national d'hospitalisation" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public départemental d'hospitalisation" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public interdépartemental d'hospitalisation" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public communal d'hospitalisation" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public intercommunal d'hospitalisation" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public régional d'hospitalisation" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Syndicat interhospitalier" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre communal d'action sociale" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social national" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social départemental" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social interdépartemental" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social communal" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social intercommunal" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement social et médico-social régional" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Office public d'HLM" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caisse des écoles" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre établissement public à caractère administratif" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public à caractère industriel ou commercial" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement d'intérêt public (GIP)" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sanitaire (GCS) public" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sociale ou médico-sociale public (GCSMS)" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Régime général de sécurité sociale" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Régime spécial de sécurité sociale" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institution de prévoyance" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mutualité sociale agricole (MSA)" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Régime maladie des non salariés, non agricole" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Régime vieillesse particulier" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "46" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre régime de prévoyance sociale" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société mutualiste" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "48" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assurance mutuelle agricole" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "49" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre organisme mutualiste" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comité d'entreprise ou Comité d'établissement" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Syndicat" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Syndicat de propriétaires" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Association Loi 1901 non reconnue d'utilité publique" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Association Loi 1901 reconnue d'utilité publique" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "62" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Association de droit local" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fondation" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "64" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Congrégation" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "65" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre organisme privé à but non lucratif" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "66" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sociale ou médico-sociale (GCSMS) privé" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Personne physique" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "71" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société en nom collectif (SNC)" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société à responsabilité limitée (SARL)" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "73" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société anonyme (SA)" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société civile" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre société" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "76" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement d'intérêt économique (GIE)" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre organisme privé à caractère commercial" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entreprise unipersonnelle à responsabilité limitée (EURL)" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "79" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société civile de moyens (SCM)" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société interprofessionnelle soins ambulatoires (SISA)" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral responsabilité limitée (SELARL)" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "86" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral à forme anonyme (SELAFA)" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral commandite par actions (SELCA)" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "88" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société civile professionnelle (SCP)" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sanitaire (GCS) privé" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "90" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Organisme de droit étranger" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "91" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral par actions simplifiée (SELAS)" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "93" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société en commandite" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "95" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société par actions simplifiée (SAS)" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral par actions simplifiée (SELAS)" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "103" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société en commandite simple (SCS)" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "104" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société en commandite par actions (SCA)" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "105" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société par actions simplifiée (SAS)" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "106" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société anonyme à directoire (SADI)" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "107" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société Anonyme à conseil d'administration (SACA)" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "110" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société en participation (SEP)" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J199-StatutJuridique-ROR.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

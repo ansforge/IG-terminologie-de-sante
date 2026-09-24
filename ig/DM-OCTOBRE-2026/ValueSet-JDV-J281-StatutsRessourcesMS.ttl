@@ -1,0 +1,107 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J281-StatutsRessourcesMS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J281-StatutsRessourcesMS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "11" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:06:28.524+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J281-StatutsRessourcesMS</b></p><a name=\"JDV-J281-StatutsRessourcesMS\"> </a><a name=\"hcJDV-J281-StatutsRessourcesMS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 11; Dernière mise à jour : 2026-07-06 19:06:28+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R368-StatutRessource.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-TERMINE\">TERMINE</a></td><td>Terminé</td><td>La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-VALIDE\">VALIDE</a></td><td>Validé</td><td>Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.  Ce statut s'adresse également à la ressource PresenceAbsence de l'usager.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-APPROUVE\">APPROUVE</a></td><td>Approuvé</td><td>Le professionnel considère la ressource comme correcte. Ce statut s'adresse à la ressource Evaluation de l'individu.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-PLANIFIE\">PLANIFIE</a></td><td>Planifié</td><td>Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également à la ressource PresenceAbsence de l'usager.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-ANNULE\">ANNULE</a></td><td>Annulé</td><td>La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également aux ressources Action, Objectif et Prestation du projet personnalisé.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-ACTIF\">ACTIF</a></td><td>Actif</td><td>Ressource vivante. Ce statut s'adresse aux ressources Action, Objectif et Prestation du projet personnalisé.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-ENPREPARATION\">ENPREPARATION</a></td><td>En préparation</td><td>Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse aux ressources Evaluation de l'individu. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-ENCOURS\">ENCOURS</a></td><td>En cours</td><td>Ressource qui est en cours de mise en pratique. Ce statut s'adresse au projet personnalisé.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-ENPAUSE\">ENPAUSE</a></td><td>En pause</td><td>Etat de la ressource lors d’un arrêt temporaire. Ce statut s'adresse au projet personnalisé.</td></tr><tr><td><a href=\"CodeSystem-TRE-R368-StatutRessource.html#TRE-R368-StatutRessource-FACTURE\">FACTURE</a></td><td>Facturé</td><td>Ressource pour laquelle une facture a été établie.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2024-09-27T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.4.219" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260505120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J281_StatutsRessourcesMS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TERMINE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Terminé" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VALIDE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Validé" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "APPROUVE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Approuvé" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLANIFIE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Planifié" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANNULE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Annulé" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACTIF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Actif" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENPREPARATION" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "En préparation" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENCOURS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "En cours" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENPAUSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "En pause" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FACTURE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Facturé" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J281-StatutsRessourcesMS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

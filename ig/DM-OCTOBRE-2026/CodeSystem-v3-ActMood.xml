@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActMood"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2026-01-07T10:12:50.192+01:00"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Narratif généré : CodeSystem v3-ActMood</b></p><a name="v3-ActMood"> </a><a name="hcv3-ActMood"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept. One of active, experimental, deprecated, or retired.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged.</td></tr><tr><td>Name:Class</td><td>Name:Class</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-Class</td><td>code</td><td>The formal name for the class clone under this code</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr><tr><td>HL7 Concept Usage Notes</td><td>HL7usageNotes</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes</td><td>string</td><td>HL7 Concept Usage Notes</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ActMood</code> defines the following codes dans une hiérarchie Is-A:</p><table class="codes"><tr><td><b>Niv</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>Name:Class</b></td><td><b>Not Selectable</b></td><td><b>synonymCode</b></td><td><b>HL7 Concept Usage Notes</b></td></tr><tr><td>1</td><td style="white-space:nowrap">_ActMoodCompletionTrack<a name="v3-ActMood-_ActMoodCompletionTrack"> </a></td><td>ActMoodCompletionTrack</td><td><div><p>These are moods describing activities as they progress in the business cycle, from defined, through planned and ordered to completed.</p>
+</div></td><td/><td>20935</td><td>active</td><td/><td>Process</td><td>true</td><td/><td/></tr><tr><td>2</td><td style="white-space:nowrap">  _ActMoodPotential<a name="v3-ActMood-_ActMoodPotential"> </a></td><td>potential</td><td><div><p><strong>Definition:</strong> A possible act.</p>
+</div></td><td/><td>23087</td><td>active</td><td/><td>Potential</td><td>true</td><td/><td/></tr><tr><td>3</td><td style="white-space:nowrap">    DEF<a name="v3-ActMood-DEF"> </a></td><td>definition</td><td><div><p><strong>Definition:</strong> A definition of a kind of act that can occur .</p>
+<p><strong>OpenIssue:</strong> The semantic constructs embodied in DEF and CRT moods seem indistinguishable, and their uses can readily be determined by the context in which these are used. Therefore, this OpenIssue has been created to declare that it is likely that ActMood.DEF will be &quot;retired&quot; in the future in favor of the more general ActMood.CRT.</p>
+</div></td><td/><td>10198</td><td>active</td><td/><td>Definition</td><td/><td/><td/></tr><tr><td>3</td><td style="white-space:nowrap">    PERM<a name="v3-ActMood-PERM"> </a></td><td>permission</td><td><div><p><strong>Definition:</strong> A kind of act that defines a permission that has been granted.</p>
+</div></td><td/><td>21381</td><td>active</td><td/><td>Permission</td><td/><td/><td/></tr><tr><td>3</td><td style="white-space:nowrap">    SLOT<a name="v3-ActMood-SLOT"> </a></td><td>resource slot</td><td><div><p><strong>Definition:</strong> A kind of act that may occur during the specified time period.</p>
+</div></td><td/><td>19168</td><td>active</td><td/><td>ResourceSlot</td><td/><td/><td/></tr><tr><td>2</td><td style="white-space:nowrap">  EVN<a name="v3-ActMood-EVN"> </a></td><td>event (occurrence)</td><td><div><p><strong>Definition:</strong> An act that actually happens (may be an ongoing act or a documentation of a past act).</p>
+</div></td><td/><td>10201</td><td>active</td><td/><td>Event</td><td/><td/><td/></tr><tr><td>2</td><td style="white-space:nowrap">  INT<a name="v3-ActMood-INT"> </a></td><td>intent</td><td><div><p><strong>Definition:</strong> An intention or plan for an act.</p>
+<p><strong>&gt;UsageNotes:</strong> The final outcome of the intent, the act that is intended to occur, is always an event. However the final outcome may be reached indirectly via steps through other intents, such as promise, permission request, or an appointment that may lead to an actual event to occur. Alternatively, the intended act may never occur.</p>
+</div></td><td/><td>10199</td><td>active</td><td/><td>Intent</td><td/><td/><td/></tr><tr><td>3</td><td style="white-space:nowrap">    _ActMoodDesire<a name="v3-ActMood-_ActMoodDesire"> </a></td><td>desire</td><td><div><p><strong>Definition:</strong> A desire to have an act occur.</p>
+</div></td><td/><td>23088</td><td>active</td><td/><td>Desire</td><td>true</td><td/><td/></tr><tr><td>4</td><td style="white-space:nowrap">      _ActMoodActRequest<a name="v3-ActMood-_ActMoodActRequest"> </a></td><td>act request</td><td><div><p><strong>Definition:</strong> A request (or order) for an act that is part of a defined request/fulfillment cycle.</p>
+<p><strong>UsageNotes:</strong> Use of an HL7 defined request/fulfillment framework is not required to use this mood code.</p>
+</div></td><td/><td>23089</td><td>active</td><td/><td>ActRequest</td><td>true</td><td/><td>Use of an HL7 defined request/fulfillment framework is not required to use this mood code.</td></tr><tr><td>5</td><td style="white-space:nowrap">        ARQ<a name="v3-ActMood-ARQ"> </a></td><td>appointment request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment <em>(the actual act may well not happen if that is the professional decision during the appointment)</em>.</p>
+</div></td><td/><td>11625</td><td>active</td><td/><td>AppointmentRequest</td><td/><td/><td/></tr><tr><td>5</td><td style="white-space:nowrap">        PERMRQ<a name="v3-ActMood-PERMRQ"> </a></td><td>permission request</td><td><div><p><strong>Definition:</strong> A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission.</p>
+</div></td><td/><td>21382</td><td>active</td><td/><td>PermissionRequest</td><td/><td/><td/></tr><tr><td>5</td><td style="white-space:nowrap">        RQO<a name="v3-ActMood-RQO"> </a></td><td>request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for an event request/fulfillment cycle.</p>
+<p><strong>UsageNotes:</strong> The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.</p>
+<p><strong>UsageNotes:</strong> The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot;</p>
+<p>Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.</p>
+<p>The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</p>
+</div></td><td/><td>19973</td><td>active</td><td/><td>Request</td><td/><td>ORD</td><td>The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot; Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</td></tr><tr style="background-color: #ffeeee"><td>5</td><td style="white-space:nowrap">        ORD<a name="v3-ActMood-ORD"> </a></td><td>request</td><td><div><p><strong>Definition:</strong> A request act that is specialized for an event request/fulfillment cycle.</p>
+<p><strong>UsageNotes:</strong> The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.</p>
+<p><strong>UsageNotes:</strong> The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot;</p>
+<p>Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.</p>
+<p>The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</p>
+</div></td><td/><td>19973</td><td>retired</td><td/><td>Request</td><td/><td>RQO</td><td>The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot; Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request.</td></tr><tr><td>4</td><td style="white-space:nowrap">      PRP<a name="v3-ActMood-PRP"> </a></td><td>proposal</td><td><div><p><strong>Definition:</strong> A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present.</p>
+</div></td><td/><td>16726</td><td>active</td><td/><td>Proposal</td><td/><td/><td/></tr><tr><td>5</td><td style="white-space:nowrap">        RMD<a name="v3-ActMood-RMD"> </a></td><td>recommendation</td><td><div><p><strong>Definition:</strong> A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .</p>
+<p><strong>UsageNotes:</strong> Where there is no clear definition or applicable concept of &quot;professional responsibility&quot;, RMD becomes indistinguishable from PRP. .</p>
+</div></td><td/><td>21571</td><td>active</td><td/><td>Recommendation</td><td/><td/><td>Where there is no clear definition or applicable concept of &quot;professional responsibility&quot;, RMD becomes indistinguishable from PRP. .</td></tr><tr><td>3</td><td style="white-space:nowrap">    PRMS<a name="v3-ActMood-PRMS"> </a></td><td>promise</td><td><div><p><strong>Definition:</strong> A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.</p>
+<p><strong>UsageNotes:</strong> Commitments may be retracted or cancelled.</p>
+</div></td><td/><td>16728</td><td>active</td><td/><td>Promise</td><td/><td/><td>Commitments may be retracted or cancelled.</td></tr><tr><td>4</td><td style="white-space:nowrap">      APT<a name="v3-ActMood-APT"> </a></td><td>appointment</td><td><div><p><strong>Definition:</strong> An act that has been scheduled to be performed at a specific place and time.</p>
+</div></td><td/><td>11626</td><td>active</td><td/><td>Appointment</td><td/><td/><td/></tr><tr><td>1</td><td style="white-space:nowrap">_ActMoodPredicate<a name="v3-ActMood-_ActMoodPredicate"> </a></td><td>ActMoodPredicate</td><td><div><p><strong>Definition:</strong> An act that expresses condition statements for other acts.</p>
+</div></td><td/><td>20936</td><td>active</td><td/><td>Predicate</td><td>true</td><td/><td/></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  CRT<a name="v3-ActMood-CRT"> </a></td><td>criterion</td><td><div><p><em><strong>Deprecation Comment:</strong></em> This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to &quot;true&quot; and use the desired mood for your criterion.</p>
+<p><strong>Definition:</strong> A condition that must be true for the source act to be considered.</p>
+</div></td><td>Déprécié</td><td>22042</td><td>deprecated</td><td>2010-07-12</td><td>Criterion</td><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>3</td><td style="white-space:nowrap">    EVN.CRT<a name="v3-ActMood-EVN.46CRT"> </a></td><td>event criterion</td><td><div><p><em><strong>Deprecation Comment:</strong></em> This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to &quot;true&quot; and use the desired mood for your criterion.</p>
+<p><strong>Definition:</strong> A criterion (CRT) that has_match = an event (EVN).</p>
+</div></td><td>Déprécié</td><td>10203</td><td>deprecated</td><td>2010-07-12</td><td>EventCriterion</td><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>3</td><td style="white-space:nowrap">    GOL.CRT<a name="v3-ActMood-GOL.46CRT"> </a></td><td>goal criterion</td><td><div><p>A criterion expressed over goals (ActMood.GOL).</p>
+</div></td><td/><td>23057</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>3</td><td style="white-space:nowrap">    INT.CRT<a name="v3-ActMood-INT.46CRT"> </a></td><td>intent criterion</td><td><div><p>A criterion expressed over intents (ActMood.INT).</p>
+</div></td><td/><td>23054</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>4</td><td style="white-space:nowrap">      PRMS.CRT<a name="v3-ActMood-PRMS.46CRT"> </a></td><td>promise criterion</td><td><div><p>A criterion expressed over promises (ActMood.PRMS).</p>
+</div></td><td/><td>23056</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>4</td><td style="white-space:nowrap">      RQO.CRT<a name="v3-ActMood-RQO.46CRT"> </a></td><td>request criterion</td><td><div><p>A criterion expressed over requests or orders (ActMood.RQO).</p>
+</div></td><td/><td>23055</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr style="background-color: #ffeeee"><td>3</td><td style="white-space:nowrap">    RSK.CRT<a name="v3-ActMood-RSK.46CRT"> </a></td><td>risk criterion</td><td><div><p>A criterion expressed over risks (ActMood.RSK).</p>
+</div></td><td/><td>23058</td><td>retired</td><td/><td/><td/><td/><td/></tr><tr><td>2</td><td style="white-space:nowrap">  EXPEC<a name="v3-ActMood-EXPEC"> </a></td><td>expectation</td><td><div><p><strong>Definition:</strong> An act that is considered to have some noteworthy likelihood of occurring in the future (has_match = event).</p>
+<p>**Examples:**Prognosis of a condition, Expected date of discharge from hospital, patient will likely need an emergency decompression of the intracranial pressure by morning.</p>
+<p>**UsageNotes:**INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen.</p>
+</div></td><td/><td>21574</td><td>active</td><td/><td>Expectation</td><td/><td/><td>INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen.</td></tr><tr><td>3</td><td style="white-space:nowrap">    GOL<a name="v3-ActMood-GOL"> </a></td><td>Goal</td><td><div><p><strong>Definition:</strong> An expectation that is considered to be desirable to occur in the future</p>
+<p>**Examples:**Target weight below 80Kg, Stop smoking, Regain ability to walk, goal is to administer thrombolytics to candidate patients presenting with acute myocardial infarction.</p>
+<p><strong>UsageNotes:</strong> INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result. A goal is distinct from the intended actions to reach that goal. &quot;I will reduce the dose of drug x to 20mg&quot; is an intent. &quot;I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg&quot; is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope.</p>
+</div></td><td/><td>18864</td><td>active</td><td/><td>Goal</td><td/><td/><td>INT (intent) reflects a plan for the future, which is a declaration to do something.  This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result.  A goal is distinct from the intended actions to reach that goal.  &quot;I will reduce the dose of drug x to 20mg&quot; is an intent.  &quot;I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg&quot; is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope.</td></tr><tr><td>3</td><td style="white-space:nowrap">    RSK<a name="v3-ActMood-RSK"> </a></td><td>risk</td><td><div><p>**Definition:**An act that may occur in the future and which is regarded as undesirable</p>
+<p>**Examples:**Increased risk of DVT, at risk for sub-acute bacterial endocarditis.</p>
+<p>**UsageNotes:**Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen.</p>
+</div></td><td/><td>21575</td><td>active</td><td/><td>Risk</td><td/><td/><td>Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen.</td></tr><tr><td>2</td><td style="white-space:nowrap">  OPT<a name="v3-ActMood-OPT"> </a></td><td>option</td><td><div><p><strong>Definition:</strong> One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN.</p>
+</div></td><td/><td>10204</td><td>active</td><td/><td>Option</td><td/><td/><td/></tr></table></div>
+  </text>
+  <url value="http://terminology.hl7.org/CodeSystem/v3-ActMood"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1001"/>
+  </identifier>
+  <version value="3.0.0"/>
+  <name value="ActMood"/>
+  <title value="ActMood"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-05-30"/>
+  <publisher value="Health Level Seven International"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="hq@HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found &quot;Persuasive With Mod&quot;, with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"/>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <property>
+    <code value="internalId"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"/>
+    <description value="The internal identifier for the concept in the HL7 Access database repository."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="Name:Class"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#rim-Class"/>
+    <description value="The formal name for the class clone under this code"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="notSelectable"/>
+    <uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+    <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="synonymCode"/>
+    <uri value="http://hl7.org/fhir/concept-properties#synonym"/>
+    <description value="An additional concept code that was also attributed to a concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="HL7usageNotes"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes"/>
+    <description value="HL7 Concept Usage Notes"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="_ActMoodCompletionTrack"/>
+    <display value="ActMoodCompletionTrack"/>
+    <definition value="These are moods describing activities as they progress in the business cycle, from defined, through planned and ordered to completed."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="20935"/>
+    </property>
+    <property>
+      <code value="Name:Class"/>
+      <valueCode value="Process"/>
+    </property>
+    <concept>
+      <code value="_ActMoodPotential"/>
+      <display value="potential"/>
+      <definition value="**Definition:** A possible act."/>
+      <property>
+        <code value="notSelectable"/>
+        <valueBoolean value="true"/>
+      </property>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="23087"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Potential"/>
+      </property>
+      <concept>
+        <code value="DEF"/>
+        <display value="definition"/>
+        <definition value="**Definition:** A definition of a kind of act that can occur .&#xD;&#xA;&#xD;&#xA;**OpenIssue:** The semantic constructs embodied in DEF and CRT moods seem indistinguishable, and their uses can readily be determined by the context in which these are used. Therefore, this OpenIssue has been created to declare that it is likely that ActMood.DEF will be &quot;retired&quot; in the future in favor of the more general ActMood.CRT."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="10198"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Definition"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="PERM"/>
+        <display value="permission"/>
+        <definition value="**Definition:** A kind of act that defines a permission that has been granted."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21381"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Permission"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="SLOT"/>
+        <display value="resource slot"/>
+        <definition value="**Definition:** A kind of act that may occur during the specified time period."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="19168"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="ResourceSlot"/>
+        </property>
+      </concept>
+    </concept>
+    <concept>
+      <code value="EVN"/>
+      <display value="event (occurrence)"/>
+      <definition value="**Definition:** An act that actually happens (may be an ongoing act or a documentation of a past act)."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="10201"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Event"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="INT"/>
+      <display value="intent"/>
+      <definition value="**Definition:** An intention or plan for an act.&#xD;&#xA;&#xD;&#xA;**&gt;UsageNotes:** The final outcome of the intent, the act that is intended to occur, is always an event. However the final outcome may be reached indirectly via steps through other intents, such as promise, permission request, or an appointment that may lead to an actual event to occur. Alternatively, the intended act may never occur."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="10199"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Intent"/>
+      </property>
+      <concept>
+        <code value="_ActMoodDesire"/>
+        <display value="desire"/>
+        <definition value="**Definition:** A desire to have an act occur."/>
+        <property>
+          <code value="notSelectable"/>
+          <valueBoolean value="true"/>
+        </property>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23088"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Desire"/>
+        </property>
+        <concept>
+          <code value="_ActMoodActRequest"/>
+          <display value="act request"/>
+          <definition value="**Definition:** A request (or order) for an act that is part of a defined request/fulfillment cycle.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** Use of an HL7 defined request/fulfillment framework is not required to use this mood code."/>
+          <property>
+            <code value="notSelectable"/>
+            <valueBoolean value="true"/>
+          </property>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="HL7usageNotes"/>
+            <valueString value="Use of an HL7 defined request/fulfillment framework is not required to use this mood code."/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23089"/>
+          </property>
+          <property>
+            <code value="Name:Class"/>
+            <valueCode value="ActRequest"/>
+          </property>
+          <concept>
+            <code value="ARQ"/>
+            <display value="appointment request"/>
+            <definition value="**Definition:** A request act that is specialized for the appointment scheduling request/fulfillment cycle. An appointment request is fulfilled only and completely by an appointment (APT), i.e., all that the appointment request intends is to create an appointment *(the actual act may well not happen if that is the professional decision during the appointment)*."/>
+            <property>
+              <code value="status"/>
+              <valueCode value="active"/>
+            </property>
+            <property>
+              <code value="internalId"/>
+              <valueCode value="11625"/>
+            </property>
+            <property>
+              <code value="Name:Class"/>
+              <valueCode value="AppointmentRequest"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="PERMRQ"/>
+            <display value="permission request"/>
+            <definition value="**Definition:** A request for a permission to perform the act. Typically a payer (or possibly a supervisor) is being requested to give permission to perform the act. As opposed to the RQO, the requestee is not asked to perform or cause to perform the act but only to give the permission."/>
+            <property>
+              <code value="status"/>
+              <valueCode value="active"/>
+            </property>
+            <property>
+              <code value="internalId"/>
+              <valueCode value="21382"/>
+            </property>
+            <property>
+              <code value="Name:Class"/>
+              <valueCode value="PermissionRequest"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="RQO"/>
+            <display value="request"/>
+            <definition value="**Definition:** A request act that is specialized for an event request/fulfillment cycle.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot;&#xD;&#xA;&#xD;&#xA;Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.&#xD;&#xA;&#xD;&#xA;The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request."/>
+            <property>
+              <code value="status"/>
+              <valueCode value="active"/>
+            </property>
+            <property>
+              <code value="synonymCode"/>
+              <valueCode value="ORD"/>
+            </property>
+            <property>
+              <code value="HL7usageNotes"/>
+              <valueString value="The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot; Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request."/>
+            </property>
+            <property>
+              <code value="internalId"/>
+              <valueCode value="19973"/>
+            </property>
+            <property>
+              <code value="Name:Class"/>
+              <valueCode value="Request"/>
+            </property>
+          </concept>
+          <concept>
+            <code value="ORD"/>
+            <display value="request"/>
+            <definition value="**Definition:** A request act that is specialized for an event request/fulfillment cycle.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** The fulfillment cycle may involve intermediary fulfilling acts in moods such as PRMS, APT, or even another RQO before being fulfilled by the final event.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order. In practice, however, this distinction has no general functional value in the inter-operation of health care computing. &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author). Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot;&#xD;&#xA;&#xD;&#xA;Thus, the concept embodies both notions, as there is no useful distinction to be made. If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions. Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept.&#xD;&#xA;&#xD;&#xA;The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization. An intent involves decisions by a single party, the author. A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request."/>
+            <property>
+              <code value="status"/>
+              <valueCode value="retired"/>
+            </property>
+            <property>
+              <code value="synonymCode"/>
+              <valueCode value="RQO"/>
+            </property>
+            <property>
+              <code value="HL7usageNotes"/>
+              <valueString value="The concepts of a &quot;request&quot; and an &quot;order&quot; are viewed as different, because there is an implication of a mandate associated with order.  In practice, however, this distinction has no general functional value in the inter-operation of health care computing.  &quot;Orders&quot; are commonly refused for a variety of clinical and business reasons, and the notion of a &quot;request&quot; obligates the recipient (the fulfiller) to respond to the sender (the author).  Indeed, in many regions, including Australia and Europe, the common term used is &quot;request.&quot; Thus, the concept embodies both notions, as there is no useful distinction to be made.  If a mandate is to be associated with a request, this will be embodied in the &quot;local&quot; business rules applied to the transactions.  Should HL7 desire to provide a distinction between these in the future, the individual concepts could be added as specializations of this concept. The critical distinction here, is the difference between this concept and an &quot;intent&quot;, of which it is a specialization.  An intent involves decisions by a single party, the author.  A request, however, involves decisions by two parties, the author and the fulfiller, with an obligation on the part of the fulfiller to respond to the request indicating that the fulfiller will indeed fulfill the request."/>
+            </property>
+            <property>
+              <code value="internalId"/>
+              <valueCode value="19973"/>
+            </property>
+            <property>
+              <code value="Name:Class"/>
+              <valueCode value="Request"/>
+            </property>
+          </concept>
+        </concept>
+        <concept>
+          <code value="PRP"/>
+          <display value="proposal"/>
+          <definition value="**Definition:** A suggestion that an act might be performed. Not an explicit request, and professional responsibility may or may not be present."/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="16726"/>
+          </property>
+          <property>
+            <code value="Name:Class"/>
+            <valueCode value="Proposal"/>
+          </property>
+          <concept>
+            <code value="RMD"/>
+            <display value="recommendation"/>
+            <definition value="**Definition:** A suggestion that an act should be performed with an acceptance of some degree of professional responsibility for the resulting act. Not an explicit request. .&#xD;&#xA;&#xD;&#xA;**UsageNotes:** Where there is no clear definition or applicable concept of &quot;professional responsibility&quot;, RMD becomes indistinguishable from PRP. ."/>
+            <property>
+              <code value="status"/>
+              <valueCode value="active"/>
+            </property>
+            <property>
+              <code value="HL7usageNotes"/>
+              <valueString value="Where there is no clear definition or applicable concept of &quot;professional responsibility&quot;, RMD becomes indistinguishable from PRP. ."/>
+            </property>
+            <property>
+              <code value="internalId"/>
+              <valueCode value="21571"/>
+            </property>
+            <property>
+              <code value="Name:Class"/>
+              <valueCode value="Recommendation"/>
+            </property>
+          </concept>
+        </concept>
+      </concept>
+      <concept>
+        <code value="PRMS"/>
+        <display value="promise"/>
+        <definition value="**Definition:** A commitment to perform an act (may be either solicited or unsolicited). The committer becomes responsible to the other party for executing the act, and, as a consequence, the other party may rely on the first party to perform or cause to perform the act.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** Commitments may be retracted or cancelled."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="HL7usageNotes"/>
+          <valueString value="Commitments may be retracted or cancelled."/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="16728"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Promise"/>
+        </property>
+        <concept>
+          <code value="APT"/>
+          <display value="appointment"/>
+          <definition value="**Definition:** An act that has been scheduled to be performed at a specific place and time."/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="11626"/>
+          </property>
+          <property>
+            <code value="Name:Class"/>
+            <valueCode value="Appointment"/>
+          </property>
+        </concept>
+      </concept>
+    </concept>
+  </concept>
+  <concept>
+    <code value="_ActMoodPredicate"/>
+    <display value="ActMoodPredicate"/>
+    <definition value="**Definition:** An act that expresses condition statements for other acts."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="20936"/>
+    </property>
+    <property>
+      <code value="Name:Class"/>
+      <valueCode value="Predicate"/>
+    </property>
+    <concept>
+      <code value="CRT"/>
+      <display value="criterion"/>
+      <definition value="***Deprecation Comment:*** This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to &quot;true&quot; and use the desired mood for your criterion.&#xD;&#xA;&#xD;&#xA;**Definition:** A condition that must be true for the source act to be considered."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="deprecated"/>
+      </property>
+      <property>
+        <code value="deprecationDate"/>
+        <valueDateTime value="2010-07-12"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="22042"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Criterion"/>
+      </property>
+      <concept>
+        <code value="EVN.CRT"/>
+        <display value="event criterion"/>
+        <definition value="***Deprecation Comment:*** This concept This codes should no longer be used. Instead, set attribute Act.isCriterionInd to &quot;true&quot; and use the desired mood for your criterion.&#xD;&#xA;&#xD;&#xA;**Definition:** A criterion (CRT) that has\_match = an event (EVN)."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="deprecated"/>
+        </property>
+        <property>
+          <code value="deprecationDate"/>
+          <valueDateTime value="2010-07-12"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="10203"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="EventCriterion"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="GOL.CRT"/>
+        <display value="goal criterion"/>
+        <definition value="A criterion expressed over goals (ActMood.GOL)."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23057"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="INT.CRT"/>
+        <display value="intent criterion"/>
+        <definition value="A criterion expressed over intents (ActMood.INT)."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23054"/>
+        </property>
+        <concept>
+          <code value="PRMS.CRT"/>
+          <display value="promise criterion"/>
+          <definition value="A criterion expressed over promises (ActMood.PRMS)."/>
+          <property>
+            <code value="status"/>
+            <valueCode value="retired"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23056"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="RQO.CRT"/>
+          <display value="request criterion"/>
+          <definition value="A criterion expressed over requests or orders (ActMood.RQO)."/>
+          <property>
+            <code value="status"/>
+            <valueCode value="retired"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23055"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="RSK.CRT"/>
+        <display value="risk criterion"/>
+        <definition value="A criterion expressed over risks (ActMood.RSK)."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23058"/>
+        </property>
+      </concept>
+    </concept>
+    <concept>
+      <code value="EXPEC"/>
+      <display value="expectation"/>
+      <definition value="**Definition:** An act that is considered to have some noteworthy likelihood of occurring in the future (has\_match = event).&#xD;&#xA;&#xD;&#xA;**Examples:**Prognosis of a condition, Expected date of discharge from hospital, patient will likely need an emergency decompression of the intracranial pressure by morning.&#xD;&#xA;&#xD;&#xA;**UsageNotes:**INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="HL7usageNotes"/>
+        <valueString value="INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with expectation, which is a prediction that something will happen in the future. GOL (goal) reflects a hope rather than a prediction. RSK (risk) reflects a potential negative event that may or may not be expected to happen."/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="21574"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Expectation"/>
+      </property>
+      <concept>
+        <code value="GOL"/>
+        <display value="Goal"/>
+        <definition value="**Definition:** An expectation that is considered to be desirable to occur in the future&#xD;&#xA;&#xD;&#xA;**Examples:**Target weight below 80Kg, Stop smoking, Regain ability to walk, goal is to administer thrombolytics to candidate patients presenting with acute myocardial infarction.&#xD;&#xA;&#xD;&#xA;**UsageNotes:** INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result. A goal is distinct from the intended actions to reach that goal. &quot;I will reduce the dose of drug x to 20mg&quot; is an intent. &quot;I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg&quot; is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="HL7usageNotes"/>
+          <valueString value="INT (intent) reflects a plan for the future, which is a declaration to do something.  This contrasts with goal which doesn't represent an intention to act, merely a hope for an eventual result.  A goal is distinct from the intended actions to reach that goal.  &quot;I will reduce the dose of drug x to 20mg&quot; is an intent.  &quot;I hope to be able to get the patient to the point where I can reduce the dose of drug x to 20mg&quot; is a goal. EXPEC (expectation) reflects a prediction rather than a hope. RSK (risk) reflects a potential negative event rather than a hope."/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="18864"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Goal"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RSK"/>
+        <display value="risk"/>
+        <definition value="**Definition:**An act that may occur in the future and which is regarded as undesirable&#xD;&#xA;&#xD;&#xA;**Examples:**Increased risk of DVT, at risk for sub-acute bacterial endocarditis.&#xD;&#xA;&#xD;&#xA;**UsageNotes:**Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen."/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="HL7usageNotes"/>
+          <valueString value="Note: An observation in RSK mood expresses the undesirable act, and not the underlying risk factor. A risk factor that is present (e.g. obesity, smoking, etc) should be expressed in event mood. INT (intent) reflects a plan for the future, which is a declaration to do something. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen. GOL (goal) reflects a hope to achieve something. EXPEC (expectation) is the prediction of a positive or negative event. This contrasts with RSK (risk), which is the potential that something negative will occur that may or may not ever happen, and may not be expected to happen."/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21575"/>
+        </property>
+        <property>
+          <code value="Name:Class"/>
+          <valueCode value="Risk"/>
+        </property>
+      </concept>
+    </concept>
+    <concept>
+      <code value="OPT"/>
+      <display value="option"/>
+      <definition value="**Definition:** One of a set of acts that specify an option for the property values that the parent act may have. Typically used in definitions or orders to describe alternatives. An option can only be used as a group, that is, all assigned values must be used together. The actual mood of the act is the same as the parent act, and they must be linked by an actrelationship with type = OPTN."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="10204"/>
+      </property>
+      <property>
+        <code value="Name:Class"/>
+        <valueCode value="Option"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

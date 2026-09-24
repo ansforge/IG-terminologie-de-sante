@@ -1,0 +1,342 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-TimingEvent> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-TimingEvent"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:52.392+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-TimingEvent</b></p><a name=\"v3-TimingEvent\"> </a><a name=\"hcv3-TimingEvent\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:52+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr><tr><td>HL7 Concept Usage Notes</td><td>HL7usageNotes</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes</td><td>string</td><td>HL7 Concept Usage Notes</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-TimingEvent</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>HL7 Concept Usage Notes</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">AC<a name=\"v3-TimingEvent-AC\"> </a></td><td><div><p>before meal (from lat. ante cibus)</p>\n</div></td><td>10708</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ACD<a name=\"v3-TimingEvent-ACD\"> </a></td><td><div><p>before lunch (from lat. ante cibus diurnus)</p>\n</div></td><td>10712</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ACM<a name=\"v3-TimingEvent-ACM\"> </a></td><td><div><p>before breakfast (from lat. ante cibus matutinus)</p>\n</div></td><td>10711</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ACV<a name=\"v3-TimingEvent-ACV\"> </a></td><td><div><p>before dinner (from lat. ante cibus vespertinus)</p>\n</div></td><td>10713</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">C<a name=\"v3-TimingEvent-C\"> </a></td><td><div><p><strong>Description:</strong> meal (from lat. ante cibus)</p>\n</div></td><td>22717</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CD<a name=\"v3-TimingEvent-CD\"> </a></td><td><div><p><strong>Description:</strong> lunch (from lat. cibus diurnus)</p>\n</div></td><td>22719</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CM<a name=\"v3-TimingEvent-CM\"> </a></td><td><div><p><strong>Description:</strong> breakfast (from lat. cibus matutinus)</p>\n</div></td><td>22718</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CV<a name=\"v3-TimingEvent-CV\"> </a></td><td><div><p><strong>Description:</strong> dinner (from lat. cibus vespertinus)</p>\n</div></td><td>22720</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">HS<a name=\"v3-TimingEvent-HS\"> </a></td><td><div><p><strong>Description:</strong> Prior to beginning a regular period of extended sleep (this would exclude naps). Note that this might occur at different times of day depending on a person's regular sleep schedule.</p>\n</div></td><td>10707</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">IC<a name=\"v3-TimingEvent-IC\"> </a></td><td><div><p>between meals (from lat. inter cibus)</p>\n</div></td><td>10710</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ICD<a name=\"v3-TimingEvent-ICD\"> </a></td><td><div><p>between lunch and dinner</p>\n</div></td><td>10718</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ICM<a name=\"v3-TimingEvent-ICM\"> </a></td><td><div><p>between breakfast and lunch</p>\n</div></td><td>10717</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">ICV<a name=\"v3-TimingEvent-ICV\"> </a></td><td><div><p>between dinner and the hour of sleep</p>\n</div></td><td>10719</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">PC<a name=\"v3-TimingEvent-PC\"> </a></td><td><div><p>after meal (from lat. post cibus)</p>\n</div></td><td>10709</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">PCD<a name=\"v3-TimingEvent-PCD\"> </a></td><td><div><p>after lunch (from lat. post cibus diurnus)</p>\n</div></td><td>10715</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">PCM<a name=\"v3-TimingEvent-PCM\"> </a></td><td><div><p>after breakfast (from lat. post cibus matutinus)</p>\n</div></td><td>10714</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">PCV<a name=\"v3-TimingEvent-PCV\"> </a></td><td><div><p>after dinner (from lat. post cibus vespertinus)</p>\n</div></td><td>10716</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">WAKE<a name=\"v3-TimingEvent-WAKE\"> </a></td><td><div><p><strong>Description:</strong> Upon waking up from a regular period of sleep, in order to start regular activities (this would exclude waking up from a nap or temporarily waking up during a period of sleep)</p>\n<p><strong>Usage Notes:</strong> e.g.</p>\n<p>Take pulse rate on waking in management of thyrotoxicosis.</p>\n<p>Take BP on waking in management of hypertension</p>\n<p>Take basal body temperature on waking in establishing date of ovulation</p>\n</div></td><td>22721</td><td>active</td><td>e.g. Take pulse rate on waking in management of thyrotoxicosis. Take BP on waking in management of hypertension Take basal body temperature on waking in establishing date of ovulation</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.139" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "TimingEvent"] ;
+  fhir:CodeSystem.title [ fhir:value "TimingEvent"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "**** MISSING DESCRIPTION ****"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "HL7usageNotes" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#HL7usageNotes" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "HL7 Concept Usage Notes" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "before meal (from lat. ante cibus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10708" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACD" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "before lunch (from lat. ante cibus diurnus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10712" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "before breakfast (from lat. ante cibus matutinus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10711" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "before dinner (from lat. ante cibus vespertinus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10713" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** meal (from lat. ante cibus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "22717" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CD" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "CD" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** lunch (from lat. cibus diurnus)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22719" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "CM" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** breakfast (from lat. cibus matutinus)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22718" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "CV" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "**Description:** dinner (from lat. cibus vespertinus)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "22720" ]
+       ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Prior to beginning a regular period of extended sleep (this would exclude naps). Note that this might occur at different times of day depending on a person's regular sleep schedule." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10707" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "between meals (from lat. inter cibus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10710" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ICD" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "between lunch and dinner" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10718" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ICM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "between breakfast and lunch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10717" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ICV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "between dinner and the hour of sleep" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10719" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "after meal (from lat. post cibus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10709" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCD" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "after lunch (from lat. post cibus diurnus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10715" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "after breakfast (from lat. post cibus matutinus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10714" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PCV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "after dinner (from lat. post cibus vespertinus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "10716" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WAKE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "WAKE" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "**Description:** Upon waking up from a regular period of sleep, in order to start regular activities (this would exclude waking up from a nap or temporarily waking up during a period of sleep)\r\n\r\n**Usage Notes:** e.g.\r\n\r\nTake pulse rate on waking in management of thyrotoxicosis.\r\n\r\nTake BP on waking in management of hypertension\r\n\r\nTake basal body temperature on waking in establishing date of ovulation" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "HL7usageNotes" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "e.g. Take pulse rate on waking in management of thyrotoxicosis. Take BP on waking in management of hypertension Take basal body temperature on waking in establishing date of ovulation" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "22721" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-TimingEvent.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

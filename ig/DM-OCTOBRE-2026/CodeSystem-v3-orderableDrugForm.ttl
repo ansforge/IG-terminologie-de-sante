@@ -1,0 +1,2914 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-orderableDrugForm> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-orderableDrugForm"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:51.534+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-orderableDrugForm</b></p><a name=\"v3-orderableDrugForm\"> </a><a name=\"hcv3-orderableDrugForm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:51+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state.  Normally is not populated unless the state is retired..</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>Parent</td><td>subsumedBy</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>The concept code of a parent concept</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>Not Selectable</b></td><td><b>Parent</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_AdministrableDrugForm<a name=\"v3-orderableDrugForm-_AdministrableDrugForm\"> </a></td><td>AdministrableDrugForm</td><td/><td>21101</td><td>active</td><td>true</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  APPFUL<a name=\"v3-orderableDrugForm-APPFUL\"> </a></td><td>Applicatorful</td><td/><td>14572</td><td>active</td><td/><td>_AdministrableDrugForm</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DROP<a name=\"v3-orderableDrugForm-DROP\"> </a></td><td>Drops</td><td/><td>14420</td><td>active</td><td/><td>_AdministrableDrugForm, SOL</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    NDROP<a name=\"v3-orderableDrugForm-NDROP\"> </a></td><td>Nasal Drops</td><td/><td>14422</td><td>active</td><td/><td>DROP</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    OPDROP<a name=\"v3-orderableDrugForm-OPDROP\"> </a></td><td>Ophthalmic Drops</td><td/><td>14421</td><td>active</td><td/><td>DROP</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    ORDROP<a name=\"v3-orderableDrugForm-ORDROP\"> </a></td><td>Oral Drops</td><td/><td>14423</td><td>active</td><td/><td>DROP, ORALSOL</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    OTDROP<a name=\"v3-orderableDrugForm-OTDROP\"> </a></td><td>Otic Drops</td><td/><td>14424</td><td>active</td><td/><td>DROP</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PUFF<a name=\"v3-orderableDrugForm-PUFF\"> </a></td><td>Puff</td><td/><td>14571</td><td>active</td><td/><td>_AdministrableDrugForm</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SCOOP<a name=\"v3-orderableDrugForm-SCOOP\"> </a></td><td>Scoops</td><td/><td>14574</td><td>active</td><td/><td>_AdministrableDrugForm</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SPRY<a name=\"v3-orderableDrugForm-SPRY\"> </a></td><td>Sprays</td><td/><td>14573</td><td>active</td><td/><td>_AdministrableDrugForm</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_DispensableDrugForm<a name=\"v3-orderableDrugForm-_DispensableDrugForm\"> </a></td><td>DispensableDrugForm</td><td/><td>21102</td><td>active</td><td>true</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _GasDrugForm<a name=\"v3-orderableDrugForm-_GasDrugForm\"> </a></td><td>GasDrugForm</td><td>Any elastic aeriform fluid in which the molecules are separated from one another and have free paths.</td><td>21103</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GASINHL<a name=\"v3-orderableDrugForm-GASINHL\"> </a></td><td>Gas for Inhalation</td><td/><td>14569</td><td>active</td><td/><td>_GasDrugForm</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _GasLiquidMixture<a name=\"v3-orderableDrugForm-_GasLiquidMixture\"> </a></td><td>GasLiquidMixture</td><td/><td>21104</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    AER<a name=\"v3-orderableDrugForm-AER\"> </a></td><td>Aerosol</td><td/><td>14551</td><td>active</td><td/><td>_GasLiquidMixture</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      BAINHL<a name=\"v3-orderableDrugForm-BAINHL\"> </a></td><td>Breath Activated Inhaler</td><td/><td>14553</td><td>active</td><td/><td>AER</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      INHLSOL<a name=\"v3-orderableDrugForm-INHLSOL\"> </a></td><td>Inhalant Solution</td><td/><td>14555</td><td>active</td><td/><td>AER</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      MDINHL<a name=\"v3-orderableDrugForm-MDINHL\"> </a></td><td>Metered Dose Inhaler</td><td/><td>14552</td><td>active</td><td/><td>AER</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      NASSPRY<a name=\"v3-orderableDrugForm-NASSPRY\"> </a></td><td>Nasal Spray</td><td/><td>14554</td><td>active</td><td/><td>AER</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    DERMSPRY<a name=\"v3-orderableDrugForm-DERMSPRY\"> </a></td><td>Dermal Spray</td><td/><td>14556</td><td>active</td><td/><td>_GasLiquidMixture</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    FOAM<a name=\"v3-orderableDrugForm-FOAM\"> </a></td><td>Foam</td><td/><td>14546</td><td>active</td><td/><td>_GasLiquidMixture</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      FOAMAPL<a name=\"v3-orderableDrugForm-FOAMAPL\"> </a></td><td>Foam with Applicator</td><td/><td>14547</td><td>active</td><td/><td>FOAM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECFORM<a name=\"v3-orderableDrugForm-RECFORM\"> </a></td><td>Rectal foam</td><td/><td>14548</td><td>active</td><td/><td>FOAM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      VAGFOAM<a name=\"v3-orderableDrugForm-VAGFOAM\"> </a></td><td>Vaginal foam</td><td/><td>14549</td><td>active</td><td/><td>FOAM</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VAGFOAMAPL<a name=\"v3-orderableDrugForm-VAGFOAMAPL\"> </a></td><td>Vaginal foam with applicator</td><td/><td>14550</td><td>active</td><td/><td>VAGFOAM</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    RECSPRY<a name=\"v3-orderableDrugForm-RECSPRY\"> </a></td><td>Rectal Spray</td><td/><td>14557</td><td>active</td><td/><td>_GasLiquidMixture</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    VAGSPRY<a name=\"v3-orderableDrugForm-VAGSPRY\"> </a></td><td>Vaginal Spray</td><td/><td>14558</td><td>active</td><td/><td>_GasLiquidMixture</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _GasSolidSpray<a name=\"v3-orderableDrugForm-_GasSolidSpray\"> </a></td><td>GasSolidSpray</td><td/><td>21105</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    INHL<a name=\"v3-orderableDrugForm-INHL\"> </a></td><td>Inhalant</td><td/><td>14560</td><td>active</td><td/><td>_GasSolidSpray</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      BAINHLPWD<a name=\"v3-orderableDrugForm-BAINHLPWD\"> </a></td><td>Breath Activated Powder Inhaler</td><td/><td>14562</td><td>active</td><td/><td>INHL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      INHLPWD<a name=\"v3-orderableDrugForm-INHLPWD\"> </a></td><td>Inhalant Powder</td><td/><td>14561</td><td>active</td><td/><td>INHL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      MDINHLPWD<a name=\"v3-orderableDrugForm-MDINHLPWD\"> </a></td><td>Metered Dose Powder Inhaler</td><td/><td>14563</td><td>active</td><td/><td>INHL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      NASINHL<a name=\"v3-orderableDrugForm-NASINHL\"> </a></td><td>Nasal Inhalant</td><td/><td>14564</td><td>active</td><td/><td>INHL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      ORINHL<a name=\"v3-orderableDrugForm-ORINHL\"> </a></td><td>Oral Inhalant</td><td/><td>14565</td><td>active</td><td/><td>INHL</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PWDSPRY<a name=\"v3-orderableDrugForm-PWDSPRY\"> </a></td><td>Powder Spray</td><td/><td>14567</td><td>active</td><td/><td>_GasSolidSpray</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SPRYADAPT<a name=\"v3-orderableDrugForm-SPRYADAPT\"> </a></td><td>Spray with Adaptor</td><td/><td>14566</td><td>active</td><td/><td>_GasSolidSpray</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _Liquid<a name=\"v3-orderableDrugForm-_Liquid\"> </a></td><td>Liquid</td><td>A state of substance that is an intermediate one entered into as matter goes from solid to gas; liquids are also intermediate in that they have neither the orderliness of a crystal nor the randomness of a gas. (Note: This term should not be used to describe solutions, only pure chemicals in their liquid state.)</td><td>21106</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    LIQCLN<a name=\"v3-orderableDrugForm-LIQCLN\"> </a></td><td>Liquid Cleanser</td><td/><td>14414</td><td>active</td><td/><td>_Liquid</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      LIQSOAP<a name=\"v3-orderableDrugForm-LIQSOAP\"> </a></td><td>Medicated Liquid Soap</td><td/><td>14415</td><td>active</td><td/><td>LIQCLN</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      SHMP<a name=\"v3-orderableDrugForm-SHMP\"> </a></td><td>Shampoo</td><td>A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic agents.</td><td>14416</td><td>active</td><td/><td>LIQCLN</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    OIL<a name=\"v3-orderableDrugForm-OIL\"> </a></td><td>Oil</td><td>An unctuous, combustible substance which is liquid, or easily liquefiable, on warming, and is soluble in ether but insoluble in water. Such substances, depending on their origin, are classified as animal, mineral, or vegetable oils.</td><td>14417</td><td>active</td><td/><td>_Liquid</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPOIL<a name=\"v3-orderableDrugForm-TOPOIL\"> </a></td><td>Topical Oil</td><td/><td>14418</td><td>active</td><td/><td>OIL</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SOL<a name=\"v3-orderableDrugForm-SOL\"> </a></td><td>Solution</td><td>A liquid preparation that contains one or more chemical substances dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of mutually miscible solvents.</td><td>14419</td><td>active</td><td/><td>_Liquid</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      IPSOL<a name=\"v3-orderableDrugForm-IPSOL\"> </a></td><td>Intraperitoneal Solution</td><td/><td>14425</td><td>active</td><td/><td>SOL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      IRSOL<a name=\"v3-orderableDrugForm-IRSOL\"> </a></td><td>Irrigation Solution</td><td>A sterile solution intended to bathe or flush open wounds or body cavities; they're used topically, never parenterally.</td><td>14427</td><td>active</td><td/><td>SOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        DOUCHE<a name=\"v3-orderableDrugForm-DOUCHE\"> </a></td><td>Douche</td><td>A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible solvents.</td><td>14428</td><td>active</td><td/><td>IRSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ENEMA<a name=\"v3-orderableDrugForm-ENEMA\"> </a></td><td>Enema</td><td>A rectal preparation for therapeutic, diagnostic, or nutritive purposes.</td><td>14429</td><td>active</td><td/><td>IRSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        OPIRSOL<a name=\"v3-orderableDrugForm-OPIRSOL\"> </a></td><td>Ophthalmic Irrigation Solution</td><td/><td>14430</td><td>active</td><td/><td>IRSOL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      IVSOL<a name=\"v3-orderableDrugForm-IVSOL\"> </a></td><td>Intravenous Solution</td><td/><td>14426</td><td>active</td><td/><td>SOL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      ORALSOL<a name=\"v3-orderableDrugForm-ORALSOL\"> </a></td><td>Oral Solution</td><td/><td>14431</td><td>active</td><td/><td>SOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ELIXIR<a name=\"v3-orderableDrugForm-ELIXIR\"> </a></td><td>Elixir</td><td>A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended for oral use.</td><td>14432</td><td>active</td><td/><td>ORALSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        RINSE<a name=\"v3-orderableDrugForm-RINSE\"> </a></td><td>Mouthwash/Rinse</td><td>An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect.</td><td>14434</td><td>active</td><td/><td>ORALSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        SYRUP<a name=\"v3-orderableDrugForm-SYRUP\"> </a></td><td>Syrup</td><td>An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions.</td><td>14433</td><td>active</td><td/><td>ORALSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        <a href=\"#v3-orderableDrugForm-ORDROP\">ORDROP</a></td><td>Oral Drops</td><td colspan=\"5\"/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECSOL<a name=\"v3-orderableDrugForm-RECSOL\"> </a></td><td>Rectal Solution</td><td/><td>14436</td><td>active</td><td/><td>SOL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPSOL<a name=\"v3-orderableDrugForm-TOPSOL\"> </a></td><td>Topical Solution</td><td/><td>14437</td><td>active</td><td/><td>SOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        LIN<a name=\"v3-orderableDrugForm-LIN\"> </a></td><td>Liniment</td><td>A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external application.</td><td>14438</td><td>active</td><td/><td>TOPSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        MUCTOPSOL<a name=\"v3-orderableDrugForm-MUCTOPSOL\"> </a></td><td>Mucous Membrane Topical Solution</td><td/><td>14440</td><td>active</td><td/><td>TOPSOL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TINC<a name=\"v3-orderableDrugForm-TINC\"> </a></td><td>Tincture</td><td/><td>14439</td><td>active</td><td/><td>TOPSOL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      <a href=\"#v3-orderableDrugForm-DROP\">DROP</a></td><td>Drops</td><td colspan=\"5\"/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _LiquidLiquidEmulsion<a name=\"v3-orderableDrugForm-_LiquidLiquidEmulsion\"> </a></td><td>LiquidLiquidEmulsion</td><td>A two-phase system in which one liquid is dispersed throughout another liquid in the form of small droplets.</td><td>21107</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    CRM<a name=\"v3-orderableDrugForm-CRM\"> </a></td><td>Cream</td><td>A semisolid dosage form containing one or more drug substances dissolved or dispersed in a suitable base; more recently, the term has been restricted to products consisting of oil-in-water emulsions or aqueous microcrystalline dispersions of long chain fatty acids or alcohols that are water washable and more cosmetically and aesthetically acceptable.</td><td>14466</td><td>active</td><td/><td>_LiquidLiquidEmulsion</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      NASCRM<a name=\"v3-orderableDrugForm-NASCRM\"> </a></td><td>Nasal Cream</td><td/><td>14467</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OPCRM<a name=\"v3-orderableDrugForm-OPCRM\"> </a></td><td>Ophthalmic Cream</td><td/><td>14468</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      ORCRM<a name=\"v3-orderableDrugForm-ORCRM\"> </a></td><td>Oral Cream</td><td/><td>14469</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OTCRM<a name=\"v3-orderableDrugForm-OTCRM\"> </a></td><td>Otic Cream</td><td/><td>14470</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECCRM<a name=\"v3-orderableDrugForm-RECCRM\"> </a></td><td>Rectal Cream</td><td/><td>14471</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPCRM<a name=\"v3-orderableDrugForm-TOPCRM\"> </a></td><td>Topical Cream</td><td/><td>14472</td><td>active</td><td/><td>CRM</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      VAGCRM<a name=\"v3-orderableDrugForm-VAGCRM\"> </a></td><td>Vaginal Cream</td><td/><td>14473</td><td>active</td><td/><td>CRM</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VAGCRMAPL<a name=\"v3-orderableDrugForm-VAGCRMAPL\"> </a></td><td>Vaginal Cream with Applicator</td><td/><td>14474</td><td>active</td><td/><td>VAGCRM</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    LTN<a name=\"v3-orderableDrugForm-LTN\"> </a></td><td>Lotion</td><td>The term \"lotion\" has been used to categorize many topical suspensions, solutions and emulsions intended for application to the skin.</td><td>14464</td><td>active</td><td/><td>_LiquidLiquidEmulsion</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPLTN<a name=\"v3-orderableDrugForm-TOPLTN\"> </a></td><td>Topical Lotion</td><td/><td>14465</td><td>active</td><td/><td>LTN</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    OINT<a name=\"v3-orderableDrugForm-OINT\"> </a></td><td>Ointment</td><td>A semisolid preparation intended for external application to the skin or mucous membranes.</td><td>14475</td><td>active</td><td/><td>_LiquidLiquidEmulsion</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      NASOINT<a name=\"v3-orderableDrugForm-NASOINT\"> </a></td><td>Nasal Ointment</td><td/><td>14479</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OINTAPL<a name=\"v3-orderableDrugForm-OINTAPL\"> </a></td><td>Ointment with Applicator</td><td/><td>14476</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OPOINT<a name=\"v3-orderableDrugForm-OPOINT\"> </a></td><td>Ophthalmic Ointment</td><td/><td>14477</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OTOINT<a name=\"v3-orderableDrugForm-OTOINT\"> </a></td><td>Otic Ointment</td><td/><td>14478</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECOINT<a name=\"v3-orderableDrugForm-RECOINT\"> </a></td><td>Rectal Ointment</td><td/><td>14480</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPOINT<a name=\"v3-orderableDrugForm-TOPOINT\"> </a></td><td>Topical Ointment</td><td/><td>14481</td><td>active</td><td/><td>OINT</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      VAGOINT<a name=\"v3-orderableDrugForm-VAGOINT\"> </a></td><td>Vaginal Ointment</td><td/><td>14482</td><td>active</td><td/><td>OINT</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VAGOINTAPL<a name=\"v3-orderableDrugForm-VAGOINTAPL\"> </a></td><td>Vaginal Ointment with Applicator</td><td/><td>14483</td><td>active</td><td/><td>VAGOINT</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _LiquidSolidSuspension<a name=\"v3-orderableDrugForm-_LiquidSolidSuspension\"> </a></td><td>LiquidSolidSuspension</td><td>A liquid preparation which consists of solid particles dispersed throughout a liquid phase in which the particles are not soluble.</td><td>21108</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GEL<a name=\"v3-orderableDrugForm-GEL\"> </a></td><td>Gel</td><td>A semisolid system consisting of either suspensions made up of small inorganic particles or large organic molecules interpenetrated by a liquid.</td><td>14442</td><td>active</td><td/><td>_LiquidSolidSuspension</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      GELAPL<a name=\"v3-orderableDrugForm-GELAPL\"> </a></td><td>Gel with Applicator</td><td/><td>14443</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      NASGEL<a name=\"v3-orderableDrugForm-NASGEL\"> </a></td><td>Nasal Gel</td><td/><td>14444</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OPGEL<a name=\"v3-orderableDrugForm-OPGEL\"> </a></td><td>Ophthalmic Gel</td><td/><td>14445</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OTGEL<a name=\"v3-orderableDrugForm-OTGEL\"> </a></td><td>Otic Gel</td><td/><td>14446</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPGEL<a name=\"v3-orderableDrugForm-TOPGEL\"> </a></td><td>Topical Gel</td><td/><td>14447</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      URETHGEL<a name=\"v3-orderableDrugForm-URETHGEL\"> </a></td><td>Urethral Gel</td><td/><td>14448</td><td>active</td><td/><td>GEL</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      VAGGEL<a name=\"v3-orderableDrugForm-VAGGEL\"> </a></td><td>Vaginal Gel</td><td/><td>14449</td><td>active</td><td/><td>GEL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VGELAPL<a name=\"v3-orderableDrugForm-VGELAPL\"> </a></td><td>Vaginal Gel with Applicator</td><td/><td>14450</td><td>active</td><td/><td>VAGGEL</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PASTE<a name=\"v3-orderableDrugForm-PASTE\"> </a></td><td>Paste</td><td>A semisolid dosage form that contains one or more drug substances intended for topical application.</td><td>14451</td><td>active</td><td/><td>_LiquidSolidSuspension</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      PUD<a name=\"v3-orderableDrugForm-PUD\"> </a></td><td>Pudding</td><td/><td>14453</td><td>active</td><td/><td>PASTE</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TPASTE<a name=\"v3-orderableDrugForm-TPASTE\"> </a></td><td>Toothpaste</td><td>A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional agents.</td><td>14452</td><td>active</td><td/><td>PASTE</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SUSP<a name=\"v3-orderableDrugForm-SUSP\"> </a></td><td>Suspension</td><td/><td>14454</td><td>active</td><td/><td>_LiquidSolidSuspension</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      ITSUSP<a name=\"v3-orderableDrugForm-ITSUSP\"> </a></td><td>Intrathecal Suspension</td><td/><td>14455</td><td>active</td><td/><td>SUSP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OPSUSP<a name=\"v3-orderableDrugForm-OPSUSP\"> </a></td><td>Ophthalmic Suspension</td><td/><td>14456</td><td>active</td><td/><td>SUSP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      ORSUSP<a name=\"v3-orderableDrugForm-ORSUSP\"> </a></td><td>Oral Suspension</td><td/><td>14457</td><td>active</td><td/><td>SUSP</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ERSUSP<a name=\"v3-orderableDrugForm-ERSUSP\"> </a></td><td>Extended-Release Suspension</td><td/><td>14458</td><td>active</td><td/><td>ORSUSP</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ERSUSP12<a name=\"v3-orderableDrugForm-ERSUSP12\"> </a></td><td>12 Hour Extended-Release Suspension</td><td/><td>14459</td><td>active</td><td/><td>ERSUSP</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ERSUSP24<a name=\"v3-orderableDrugForm-ERSUSP24\"> </a></td><td>24 Hour Extended Release Suspension</td><td/><td>14460</td><td>active</td><td/><td>ERSUSP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      OTSUSP<a name=\"v3-orderableDrugForm-OTSUSP\"> </a></td><td>Otic Suspension</td><td/><td>14461</td><td>active</td><td/><td>SUSP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECSUSP<a name=\"v3-orderableDrugForm-RECSUSP\"> </a></td><td>Rectal Suspension</td><td/><td>14462</td><td>active</td><td/><td>SUSP</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _SolidDrugForm<a name=\"v3-orderableDrugForm-_SolidDrugForm\"> </a></td><td>SolidDrugForm</td><td/><td>21109</td><td>active</td><td>true</td><td>_DispensableDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    BAR<a name=\"v3-orderableDrugForm-BAR\"> </a></td><td>Bar</td><td/><td>14485</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      BARSOAP<a name=\"v3-orderableDrugForm-BARSOAP\"> </a></td><td>Bar Soap</td><td/><td>14486</td><td>active</td><td/><td>BAR</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        MEDBAR<a name=\"v3-orderableDrugForm-MEDBAR\"> </a></td><td>Medicated Bar Soap</td><td/><td>14487</td><td>active</td><td/><td>BARSOAP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      CHEWBAR<a name=\"v3-orderableDrugForm-CHEWBAR\"> </a></td><td>Chewable Bar</td><td>A solid dosage form usually in the form of a rectangle that is meant to be chewed.</td><td>14488</td><td>active</td><td/><td>BAR</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    BEAD<a name=\"v3-orderableDrugForm-BEAD\"> </a></td><td>Beads</td><td>A solid dosage form in the shape of a small ball.</td><td>14489</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    CAKE<a name=\"v3-orderableDrugForm-CAKE\"> </a></td><td>Cake</td><td/><td>14490</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    CEMENT<a name=\"v3-orderableDrugForm-CEMENT\"> </a></td><td>Cement</td><td>A substance that serves to produce solid union between two surfaces.</td><td>14491</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    CRYS<a name=\"v3-orderableDrugForm-CRYS\"> </a></td><td>Crystals</td><td>A naturally produced angular solid of definite form in which the ultimate units from which it is built up are systematically arranged; they are usually evenly spaced on a regular space lattice.</td><td>14492</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    DISK<a name=\"v3-orderableDrugForm-DISK\"> </a></td><td>Disk</td><td>A circular plate-like organ or structure.</td><td>14493</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    FLAKE<a name=\"v3-orderableDrugForm-FLAKE\"> </a></td><td>Flakes</td><td/><td>14494</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GRAN<a name=\"v3-orderableDrugForm-GRAN\"> </a></td><td>Granules</td><td>A small particle or grain.</td><td>14495</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    GUM<a name=\"v3-orderableDrugForm-GUM\"> </a></td><td>ChewingGum</td><td>A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance into the oral cavity.</td><td>14496</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PAD<a name=\"v3-orderableDrugForm-PAD\"> </a></td><td>Pad</td><td/><td>14497</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      MEDPAD<a name=\"v3-orderableDrugForm-MEDPAD\"> </a></td><td>Medicated Pad</td><td/><td>14498</td><td>active</td><td/><td>PAD</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PATCH<a name=\"v3-orderableDrugForm-PATCH\"> </a></td><td>Patch</td><td>A drug delivery system that contains an adhesived backing and that permits its ingredients to diffuse from some portion of it (e.g., the backing itself, a reservoir, the adhesive, or some other component) into the body from the external site where it is applied.</td><td>14499</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TPATCH<a name=\"v3-orderableDrugForm-TPATCH\"> </a></td><td>Transdermal Patch</td><td/><td>14500</td><td>active</td><td/><td>PATCH</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TPATH16<a name=\"v3-orderableDrugForm-TPATH16\"> </a></td><td>16 Hour Transdermal Patch</td><td/><td>14501</td><td>active</td><td/><td>TPATCH</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TPATH24<a name=\"v3-orderableDrugForm-TPATH24\"> </a></td><td>24 Hour Transdermal Patch</td><td/><td>14502</td><td>active</td><td/><td>TPATCH</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TPATH2WK<a name=\"v3-orderableDrugForm-TPATH2WK\"> </a></td><td>Biweekly Transdermal Patch</td><td/><td>14505</td><td>active</td><td/><td>TPATCH</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TPATH72<a name=\"v3-orderableDrugForm-TPATH72\"> </a></td><td>72 Hour Transdermal Patch</td><td/><td>14503</td><td>active</td><td/><td>TPATCH</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        TPATHWK<a name=\"v3-orderableDrugForm-TPATHWK\"> </a></td><td>Weekly Transdermal Patch</td><td/><td>14504</td><td>active</td><td/><td>TPATCH</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PELLET<a name=\"v3-orderableDrugForm-PELLET\"> </a></td><td>Pellet</td><td>A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding.</td><td>14533</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    PILL<a name=\"v3-orderableDrugForm-PILL\"> </a></td><td>Pill</td><td>A small, round solid dosage form containing a medicinal agent intended for oral administration.</td><td>14506</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      CAP<a name=\"v3-orderableDrugForm-CAP\"> </a></td><td>Capsule</td><td>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or \"shell\" made from a suitable form of gelatin.</td><td>14507</td><td>active</td><td/><td>PILL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ORCAP<a name=\"v3-orderableDrugForm-ORCAP\"> </a></td><td>Oral Capsule</td><td/><td>14508</td><td>active</td><td/><td>CAP</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ENTCAP<a name=\"v3-orderableDrugForm-ENTCAP\"> </a></td><td>Enteric Coated Capsule</td><td/><td>14509</td><td>active</td><td/><td>ORCAP</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERENTCAP<a name=\"v3-orderableDrugForm-ERENTCAP\"> </a></td><td>Extended Release Enteric Coated Capsule</td><td/><td>14510</td><td>active</td><td/><td>ENTCAP, ERCAP</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ERCAP<a name=\"v3-orderableDrugForm-ERCAP\"> </a></td><td>Extended Release Capsule</td><td>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form.</td><td>14511</td><td>active</td><td/><td>ORCAP</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERCAP12<a name=\"v3-orderableDrugForm-ERCAP12\"> </a></td><td>12 Hour Extended Release Capsule</td><td/><td>14513</td><td>active</td><td/><td>ERCAP</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERCAP24<a name=\"v3-orderableDrugForm-ERCAP24\"> </a></td><td>24 Hour Extended Release Capsule</td><td/><td>14514</td><td>active</td><td/><td>ERCAP</td></tr><tr style=\"background-color: #ffeeee\"><td>7</td><td style=\"white-space:nowrap\">            ERECCAP<a name=\"v3-orderableDrugForm-ERECCAP\"> </a></td><td>Extended Release Enteric Coated Capsule</td><td>*Rationale:* Duplicate of code ERENTCAP. Use code ERENTCAP instead.</td><td>14512</td><td>retired</td><td/><td>ERCAP</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            <a href=\"#v3-orderableDrugForm-ERENTCAP\">ERENTCAP</a></td><td>Extended Release Enteric Coated Capsule</td><td colspan=\"5\"/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TAB<a name=\"v3-orderableDrugForm-TAB\"> </a></td><td>Tablet</td><td>A solid dosage form containing medicinal substances with or without suitable diluents.</td><td>14515</td><td>active</td><td/><td>PILL</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        ORTAB<a name=\"v3-orderableDrugForm-ORTAB\"> </a></td><td>Oral Tablet</td><td/><td>14516</td><td>active</td><td/><td>TAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          BUCTAB<a name=\"v3-orderableDrugForm-BUCTAB\"> </a></td><td>Buccal Tablet</td><td/><td>14518</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            SRBUCTAB<a name=\"v3-orderableDrugForm-SRBUCTAB\"> </a></td><td>Sustained Release Buccal Tablet</td><td/><td>14519</td><td>active</td><td/><td>BUCTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          CAPLET<a name=\"v3-orderableDrugForm-CAPLET\"> </a></td><td>Caplet</td><td/><td>14517</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          CHEWTAB<a name=\"v3-orderableDrugForm-CHEWTAB\"> </a></td><td>Chewable Tablet</td><td>A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed, producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant after-taste.</td><td>14520</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          CPTAB<a name=\"v3-orderableDrugForm-CPTAB\"> </a></td><td>Coated Particles Tablet</td><td/><td>14521</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          DISINTAB<a name=\"v3-orderableDrugForm-DISINTAB\"> </a></td><td>Disintegrating Tablet</td><td>A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue.</td><td>14523</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          DRTAB<a name=\"v3-orderableDrugForm-DRTAB\"> </a></td><td>Delayed Release Tablet</td><td/><td>14522</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ECTAB<a name=\"v3-orderableDrugForm-ECTAB\"> </a></td><td>Enteric Coated Tablet</td><td/><td>14524</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERECTAB<a name=\"v3-orderableDrugForm-ERECTAB\"> </a></td><td>Extended Release Enteric Coated Tablet</td><td/><td>14525</td><td>active</td><td/><td>ECTAB, ERTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ERTAB<a name=\"v3-orderableDrugForm-ERTAB\"> </a></td><td>Extended Release Tablet</td><td>A solid dosage form containing a drug which allows at least a reduction in dosing frequency as compared to that drug presented in conventional dosage form.</td><td>14526</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERTAB12<a name=\"v3-orderableDrugForm-ERTAB12\"> </a></td><td>12 Hour Extended Release Tablet</td><td/><td>14528</td><td>active</td><td/><td>ERTAB</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            ERTAB24<a name=\"v3-orderableDrugForm-ERTAB24\"> </a></td><td>24 Hour Extended Release Tablet</td><td/><td>14527</td><td>active</td><td/><td>ERTAB</td></tr><tr><td>7</td><td style=\"white-space:nowrap\">            <a href=\"#v3-orderableDrugForm-ERECTAB\">ERECTAB</a></td><td>Extended Release Enteric Coated Tablet</td><td colspan=\"5\"/></tr><tr><td>6</td><td style=\"white-space:nowrap\">          ORTROCHE<a name=\"v3-orderableDrugForm-ORTROCHE\"> </a></td><td>Lozenge/Oral Troche</td><td>A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to dissolve or disintegrate slowly in the mouth.</td><td>14530</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>6</td><td style=\"white-space:nowrap\">          SLTAB<a name=\"v3-orderableDrugForm-SLTAB\"> </a></td><td>Sublingual Tablet</td><td/><td>14531</td><td>active</td><td/><td>ORTAB</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VAGTAB<a name=\"v3-orderableDrugForm-VAGTAB\"> </a></td><td>Vaginal Tablet</td><td/><td>14532</td><td>active</td><td/><td>TAB</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    POWD<a name=\"v3-orderableDrugForm-POWD\"> </a></td><td>Powder</td><td>An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use.</td><td>14534</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TOPPWD<a name=\"v3-orderableDrugForm-TOPPWD\"> </a></td><td>Topical Powder</td><td/><td>14535</td><td>active</td><td/><td>POWD</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        RECPWD<a name=\"v3-orderableDrugForm-RECPWD\"> </a></td><td>Rectal Powder</td><td/><td>14536</td><td>active</td><td/><td>TOPPWD</td></tr><tr><td>5</td><td style=\"white-space:nowrap\">        VAGPWD<a name=\"v3-orderableDrugForm-VAGPWD\"> </a></td><td>Vaginal Powder</td><td/><td>14537</td><td>active</td><td/><td>TOPPWD</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SUPP<a name=\"v3-orderableDrugForm-SUPP\"> </a></td><td>Suppository</td><td>A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature.</td><td>14538</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      RECSUPP<a name=\"v3-orderableDrugForm-RECSUPP\"> </a></td><td>Rectal Suppository</td><td/><td>14539</td><td>active</td><td/><td>SUPP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      URETHSUPP<a name=\"v3-orderableDrugForm-URETHSUPP\"> </a></td><td>Urethral suppository</td><td/><td>14541</td><td>active</td><td/><td>SUPP</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      VAGSUPP<a name=\"v3-orderableDrugForm-VAGSUPP\"> </a></td><td>Vaginal Suppository</td><td/><td>14540</td><td>active</td><td/><td>SUPP</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SWAB<a name=\"v3-orderableDrugForm-SWAB\"> </a></td><td>Swab</td><td>A wad of absorbent material usually wound around one end of a small stick and used for applying medication or for removing material from an area.</td><td>14542</td><td>active</td><td/><td>_SolidDrugForm</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      MEDSWAB<a name=\"v3-orderableDrugForm-MEDSWAB\"> </a></td><td>Medicated swab</td><td/><td>14543</td><td>active</td><td/><td>SWAB</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    WAFER<a name=\"v3-orderableDrugForm-WAFER\"> </a></td><td>Wafer</td><td>A thin slice of material containing a medicinal agent.</td><td>14544</td><td>active</td><td/><td>_SolidDrugForm</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.85" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "OrderableDrugForm"] ;
+  fhir:CodeSystem.title [ fhir:value "Orderable Drug Form"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "*OpenIssue:* Missing description."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state.  Normally is not populated unless the state is retired.." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "notSelectable" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#notSelectable" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "subsumedBy" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The concept code of a parent concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_AdministrableDrugForm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AdministrableDrugForm" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21101" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_DispensableDrugForm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DispensableDrugForm" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21102" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "APPFUL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Applicatorful" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14572" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_AdministrableDrugForm" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DROP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Drops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14420" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_AdministrableDrugForm" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PUFF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Puff" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14571" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_AdministrableDrugForm" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SCOOP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Scoops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14574" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_AdministrableDrugForm" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sprays" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14573" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_AdministrableDrugForm" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_GasDrugForm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GasDrugForm" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Any elastic aeriform fluid in which the molecules are separated from one another and have free paths." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21103" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_GasLiquidMixture" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GasLiquidMixture" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21104" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_GasSolidSpray" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GasSolidSpray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21105" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_Liquid" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Liquid" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A state of substance that is an intermediate one entered into as matter goes from solid to gas; liquids are also intermediate in that they have neither the orderliness of a crystal nor the randomness of a gas. (Note: This term should not be used to describe solutions, only pure chemicals in their liquid state.)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21106" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_LiquidLiquidEmulsion" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LiquidLiquidEmulsion" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A two-phase system in which one liquid is dispersed throughout another liquid in the form of small droplets." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21107" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_LiquidSolidSuspension" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LiquidSolidSuspension" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A liquid preparation which consists of solid particles dispersed throughout a liquid phase in which the particles are not soluble." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21108" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_SolidDrugForm" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SolidDrugForm" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21109" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_DispensableDrugForm" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GASINHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gas for Inhalation" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14569" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasDrugForm" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aerosol" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14551" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasLiquidMixture" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DERMSPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dermal Spray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14556" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasLiquidMixture" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FOAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Foam" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14546" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasLiquidMixture" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECSPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Spray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14557" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasLiquidMixture" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGSPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Spray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14558" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasLiquidMixture" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inhalant" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14560" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasSolidSpray" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PWDSPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Powder Spray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14567" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasSolidSpray" ]
+     ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SPRYADAPT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Spray with Adaptor" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14566" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_GasSolidSpray" ]
+     ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LIQCLN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Liquid Cleanser" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14414" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_Liquid" ]
+     ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OIL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oil" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An unctuous, combustible substance which is liquid, or easily liquefiable, on warming, and is soluble in ether but insoluble in water. Such substances, depending on their origin, are classified as animal, mineral, or vegetable oils." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14417" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_Liquid" ]
+     ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Solution" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A liquid preparation that contains one or more chemical substances dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of mutually miscible solvents." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14419" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_Liquid" ]
+     ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cream" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A semisolid dosage form containing one or more drug substances dissolved or dispersed in a suitable base; more recently, the term has been restricted to products consisting of oil-in-water emulsions or aqueous microcrystalline dispersions of long chain fatty acids or alcohols that are water washable and more cosmetically and aesthetically acceptable." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14466" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidLiquidEmulsion" ]
+     ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LTN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lotion" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The term \"lotion\" has been used to categorize many topical suspensions, solutions and emulsions intended for application to the skin." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14464" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidLiquidEmulsion" ]
+     ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ointment" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A semisolid preparation intended for external application to the skin or mucous membranes." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14475" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidLiquidEmulsion" ]
+     ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gel" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A semisolid system consisting of either suspensions made up of small inorganic particles or large organic molecules interpenetrated by a liquid." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14442" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidSolidSuspension" ]
+     ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PASTE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paste" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A semisolid dosage form that contains one or more drug substances intended for topical application." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14451" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidSolidSuspension" ]
+     ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14454" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_LiquidSolidSuspension" ]
+     ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BAR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bar" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14485" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BEAD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Beads" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form in the shape of a small ball." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14489" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CAKE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cake" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14490" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CEMENT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cement" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A substance that serves to produce solid union between two surfaces." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14491" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CRYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Crystals" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A naturally produced angular solid of definite form in which the ultimate units from which it is built up are systematically arranged; they are usually evenly spaced on a regular space lattice." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14492" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DISK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Disk" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A circular plate-like organ or structure." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14493" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FLAKE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Flakes" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14494" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GRAN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Granules" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A small particle or grain." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14495" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GUM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ChewingGum" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance into the oral cavity." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14496" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pad" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14497" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PATCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Patch" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A drug delivery system that contains an adhesived backing and that permits its ingredients to diffuse from some portion of it (e.g., the backing itself, a reservoir, the adhesive, or some other component) into the body from the external site where it is applied." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14499" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PELLET" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pellet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14533" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PILL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pill" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A small, round solid dosage form containing a medicinal agent intended for oral administration." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14506" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "POWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Powder" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14534" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SUPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Suppository" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14538" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SWAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Swab" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A wad of absorbent material usually wound around one end of a small stick and used for applying medication or for removing material from an area." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14542" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WAFER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wafer" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A thin slice of material containing a medicinal agent." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14544" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "_SolidDrugForm" ]
+     ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BAINHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Breath Activated Inhaler" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14553" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "AER" ]
+     ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INHLSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inhalant Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14555" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "AER" ]
+     ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MDINHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Metered Dose Inhaler" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14552" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "AER" ]
+     ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASSPRY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Spray" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14554" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "AER" ]
+     ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BARSOAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bar Soap" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14486" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BAR" ]
+     ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHEWBAR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chewable Bar" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form usually in the form of a rectangle that is meant to be chewed." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14488" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BAR" ]
+     ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MEDBAR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicated Bar Soap" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14487" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BARSOAP" ]
+     ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SRBUCTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sustained Release Buccal Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14519" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "BUCTAB" ]
+     ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Capsule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14508" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CAP" ]
+     ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14467" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14468" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14469" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Otic Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14470" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14471" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14472" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGCRM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Cream" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14473" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "CRM" ]
+     ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NDROP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Drops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14422" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "DROP" ]
+     ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPDROP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Drops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14421" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "DROP" ]
+     ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORDROP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Drops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14423" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "DROP" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORALSOL" ]
+     ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTDROP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Otic Drops" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14424" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "DROP" ]
+     ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERECTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended Release Enteric Coated Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14525" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ECTAB" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERTAB" ]
+     ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERENTCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended Release Enteric Coated Capsule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14510" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ENTCAP" ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERCAP" ]
+     ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERCAP12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "12 Hour Extended Release Capsule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14513" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERCAP" ]
+     ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERCAP24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "24 Hour Extended Release Capsule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14514" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERCAP" ]
+     ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERECCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended Release Enteric Coated Capsule" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "*Rationale:* Duplicate of code ERENTCAP. Use code ERENTCAP instead." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "retired" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14512" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERCAP" ]
+     ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERSUSP12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "12 Hour Extended-Release Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14459" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERSUSP" ]
+     ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERSUSP24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "24 Hour Extended Release Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14460" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERSUSP" ]
+     ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERTAB12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "12 Hour Extended Release Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14528" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERTAB" ]
+     ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERTAB24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "24 Hour Extended Release Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14527" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ERTAB" ]
+     ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "FOAMAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Foam with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14547" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "FOAM" ]
+     ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECFORM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal foam" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14548" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "FOAM" ]
+     ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGFOAM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal foam" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14549" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "FOAM" ]
+     ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GELAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gel with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14443" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 82 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14444" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 83 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14445" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 84 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Otic Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14446" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 85 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14447" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 86 ;
+     fhir:CodeSystem.concept.code [ fhir:value "URETHGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urethral Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14448" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 87 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGGEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Gel" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14449" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "GEL" ]
+     ]
+  ], [
+     fhir:index 88 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BAINHLPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Breath Activated Powder Inhaler" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14562" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "INHL" ]
+     ]
+  ], [
+     fhir:index 89 ;
+     fhir:CodeSystem.concept.code [ fhir:value "INHLPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Inhalant Powder" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14561" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "INHL" ]
+     ]
+  ], [
+     fhir:index 90 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MDINHLPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Metered Dose Powder Inhaler" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14563" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "INHL" ]
+     ]
+  ], [
+     fhir:index 91 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASINHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Inhalant" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14564" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "INHL" ]
+     ]
+  ], [
+     fhir:index 92 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORINHL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Inhalant" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14565" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "INHL" ]
+     ]
+  ], [
+     fhir:index 93 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOUCHE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Douche" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible solvents." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14428" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "IRSOL" ]
+     ]
+  ], [
+     fhir:index 94 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ENEMA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enema" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A rectal preparation for therapeutic, diagnostic, or nutritive purposes." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14429" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "IRSOL" ]
+     ]
+  ], [
+     fhir:index 95 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPIRSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Irrigation Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14430" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "IRSOL" ]
+     ]
+  ], [
+     fhir:index 96 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LIQSOAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicated Liquid Soap" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14415" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "LIQCLN" ]
+     ]
+  ], [
+     fhir:index 97 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SHMP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Shampoo" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic agents." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14416" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "LIQCLN" ]
+     ]
+  ], [
+     fhir:index 98 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPLTN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Lotion" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14465" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "LTN" ]
+     ]
+  ], [
+     fhir:index 99 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPOIL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Oil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14418" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OIL" ]
+     ]
+  ], [
+     fhir:index 100 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NASOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nasal Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14479" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 101 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OINTAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ointment with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14476" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 102 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14477" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 103 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Otic Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14478" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 104 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14480" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 105 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14481" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 106 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGOINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Ointment" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14482" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "OINT" ]
+     ]
+  ], [
+     fhir:index 107 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ELIXIR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Elixir" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended for oral use." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14432" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORALSOL" ]
+     ]
+  ], [
+     fhir:index 108 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RINSE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mouthwash/Rinse" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14434" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORALSOL" ]
+     ]
+  ], [
+     fhir:index 109 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SYRUP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Syrup" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14433" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORALSOL" ]
+     ]
+  ], [
+     fhir:index 110 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ENTCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enteric Coated Capsule" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14509" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORCAP" ]
+     ]
+  ], [
+     fhir:index 111 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERCAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended Release Capsule" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14511" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORCAP" ]
+     ]
+  ], [
+     fhir:index 112 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended-Release Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14458" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORSUSP" ]
+     ]
+  ], [
+     fhir:index 113 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BUCTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Buccal Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14518" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 114 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CAPLET" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Caplet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14517" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 115 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHEWTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chewable Tablet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed, producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant after-taste." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14520" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 116 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CPTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coated Particles Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14521" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 117 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DISINTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Disintegrating Tablet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14523" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 118 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DRTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Delayed Release Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14522" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 119 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ECTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enteric Coated Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14524" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 120 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ERTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extended Release Tablet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form containing a drug which allows at least a reduction in dosing frequency as compared to that drug presented in conventional dosage form." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14526" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 121 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORTROCHE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lozenge/Oral Troche" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to dissolve or disintegrate slowly in the mouth." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14530" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 122 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SLTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sublingual Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14531" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "ORTAB" ]
+     ]
+  ], [
+     fhir:index 123 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MEDPAD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicated Pad" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14498" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PAD" ]
+     ]
+  ], [
+     fhir:index 124 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PUD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pudding" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14453" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PASTE" ]
+     ]
+  ], [
+     fhir:index 125 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPASTE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Toothpaste" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional agents." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14452" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PASTE" ]
+     ]
+  ], [
+     fhir:index 126 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14500" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PATCH" ]
+     ]
+  ], [
+     fhir:index 127 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CAP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Capsule" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or \"shell\" made from a suitable form of gelatin." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14507" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PILL" ]
+     ]
+  ], [
+     fhir:index 128 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tablet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solid dosage form containing medicinal substances with or without suitable diluents." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14515" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "PILL" ]
+     ]
+  ], [
+     fhir:index 129 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Powder" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14535" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "POWD" ]
+     ]
+  ], [
+     fhir:index 130 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IPSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intraperitoneal Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14425" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 131 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IRSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Irrigation Solution" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A sterile solution intended to bathe or flush open wounds or body cavities; they're used topically, never parenterally." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14427" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 132 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IVSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intravenous Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14426" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 133 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORALSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14431" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 134 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14436" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 135 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TOPSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Topical Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14437" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SOL" ]
+     ]
+  ], [
+     fhir:index 136 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECSUPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Suppository" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14539" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUPP" ]
+     ]
+  ], [
+     fhir:index 137 ;
+     fhir:CodeSystem.concept.code [ fhir:value "URETHSUPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urethral suppository" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14541" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUPP" ]
+     ]
+  ], [
+     fhir:index 138 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGSUPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Suppository" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14540" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUPP" ]
+     ]
+  ], [
+     fhir:index 139 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ITSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intrathecal Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14455" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUSP" ]
+     ]
+  ], [
+     fhir:index 140 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OPSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmic Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14456" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUSP" ]
+     ]
+  ], [
+     fhir:index 141 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14457" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUSP" ]
+     ]
+  ], [
+     fhir:index 142 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OTSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Otic Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14461" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUSP" ]
+     ]
+  ], [
+     fhir:index 143 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECSUSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Suspension" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14462" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SUSP" ]
+     ]
+  ], [
+     fhir:index 144 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MEDSWAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicated swab" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14543" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "SWAB" ]
+     ]
+  ], [
+     fhir:index 145 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ORTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oral Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14516" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TAB" ]
+     ]
+  ], [
+     fhir:index 146 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGTAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Tablet" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14532" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TAB" ]
+     ]
+  ], [
+     fhir:index 147 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RECPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rectal Powder" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14536" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TOPPWD" ]
+     ]
+  ], [
+     fhir:index 148 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGPWD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Powder" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14537" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TOPPWD" ]
+     ]
+  ], [
+     fhir:index 149 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Liniment" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external application." ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14438" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TOPSOL" ]
+     ]
+  ], [
+     fhir:index 150 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MUCTOPSOL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mucous Membrane Topical Solution" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14440" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TOPSOL" ]
+     ]
+  ], [
+     fhir:index 151 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TINC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tincture" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14439" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TOPSOL" ]
+     ]
+  ], [
+     fhir:index 152 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATH16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "16 Hour Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14501" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TPATCH" ]
+     ]
+  ], [
+     fhir:index 153 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATH24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "24 Hour Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14502" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TPATCH" ]
+     ]
+  ], [
+     fhir:index 154 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATH2WK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biweekly Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14505" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TPATCH" ]
+     ]
+  ], [
+     fhir:index 155 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATH72" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "72 Hour Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14503" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TPATCH" ]
+     ]
+  ], [
+     fhir:index 156 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TPATHWK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Weekly Transdermal Patch" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14504" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "TPATCH" ]
+     ]
+  ], [
+     fhir:index 157 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGCRMAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Cream with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14474" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "VAGCRM" ]
+     ]
+  ], [
+     fhir:index 158 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGFOAMAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal foam with applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14550" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "VAGFOAM" ]
+     ]
+  ], [
+     fhir:index 159 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VGELAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Gel with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14450" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "VAGGEL" ]
+     ]
+  ], [
+     fhir:index 160 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VAGOINTAPL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vaginal Ointment with Applicator" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "14483" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "subsumedBy" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "VAGOINT" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-orderableDrugForm.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

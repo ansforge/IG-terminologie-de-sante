@@ -1,0 +1,795 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J55-CategorieEG-ROR> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J55-CategorieEG-ROR"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "22" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:06:41.659+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J55-CategorieEG-ROR</b></p><a name=\"JDV-J55-CategorieEG-ROR\"> </a><a name=\"hcJDV-J55-CategorieEG-ROR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 22; Dernière mise à jour : 2026-07-06 19:06:41+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-101\">101</a></td><td>Centre hospitalier régional (CHR)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-106\">106</a></td><td>Centre hospitalier (ex Hôpital local)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-109\">109</a></td><td>Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-114\">114</a></td><td>Hôpital des armées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-115\">115</a></td><td>Etablissement de soins du Service de santé des armées (SSA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-122\">122</a></td><td>Etablissement de soins obstétriques et chirurgico-gynécologiques</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-124\">124</a></td><td>Centre de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-126\">126</a></td><td>Etablissement thermal</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-127\">127</a></td><td>Hospitalisation à domicile (HAD)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-128\">128</a></td><td>Etablissement de soins chirurgicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-129\">129</a></td><td>Etablissement de soins médicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-130\">130</a></td><td>Centre de soins médicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-131\">131</a></td><td>Centre de lutte contre cancer</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-132\">132</a></td><td>Etablissement de transfusion sanguine</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-141\">141</a></td><td>Centre de dialyse</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-142\">142</a></td><td>Dispensaire antituberculeux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-143\">143</a></td><td>Centre de vaccination BCG</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-146\">146</a></td><td>Structure d'alternative à la dialyse en centre</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-156\">156</a></td><td>Centre médico-psychologique (CMP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-161\">161</a></td><td>Maison de santé pour maladies mentales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-165\">165</a></td><td>Appartement de coordination thérapeutique (ACT)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-166\">166</a></td><td>Centre Parents-Enfants de moins de 3 ans</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-172\">172</a></td><td>Pouponnière à caractère social</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-175\">175</a></td><td>Foyer de l'enfance</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-176\">176</a></td><td>Village d'enfants</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-177\">177</a></td><td>Maison d'enfants à caractère social</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-178\">178</a></td><td>Centre d'accueil et d'accompagnement à la réduction des risques pour usagers de drogues (CAARUD)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-180\">180</a></td><td>Lits halte soins santé (LHSS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-182\">182</a></td><td>Service d'éducation spéciale et de soins à domicile (SESSAD)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-183\">183</a></td><td>Institut médico-éducatif (IME)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-186\">186</a></td><td>Institut thérapeutique éducatif et pédagogique (ITEP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-188\">188</a></td><td>Etablissement pour enfants ou adolescents polyhandicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-189\">189</a></td><td>Centre médico-psycho-pédagogique (CMPP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-190\">190</a></td><td>Centre action médico-sociale précoce (CAMSP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-192\">192</a></td><td>Institut d'éducation motrice</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-194\">194</a></td><td>Institut pour déficients visuels</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-195\">195</a></td><td>Institut pour déficients auditifs</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-196\">196</a></td><td>Institut d'éducation sensorielle sourd-aveugle</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-197\">197</a></td><td>Centre de soins d'accompagnement et de prévention en addictologie (CSAPA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-198\">198</a></td><td>Établissement et Service de Préorientation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-202\">202</a></td><td>Résidences autonomie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-207\">207</a></td><td>Centre de jour pour personnes âgées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-209\">209</a></td><td>Service autonomie aide et soins (SAAS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-213\">213</a></td><td>Lits d'accueil médicalisés (L.A.M.)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-214\">214</a></td><td>Centre d'hébergement et de réinsertion sociale (CHRS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-216\">216</a></td><td>Résidence Hôtelière à Vocation Sociale (R.H.V.S)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-219\">219</a></td><td>Autre centre d'accueil</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-221\">221</a></td><td>Bureau d'aide psychologique universitaire (BAPU)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-223\">223</a></td><td>Protection maternelle et infantile (PMI)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-224\">224</a></td><td>Etablissement de consultation pré et post-natale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-228\">228</a></td><td>Centre de santé sexuelle</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-230\">230</a></td><td>Etablissement consultation protection infantile</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-231\">231</a></td><td>Espaces de vie affective, relationnelle et sexuelle (EVARS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-236\">236</a></td><td>Service de placement familial (SPF)</td><td>Le placement familial est, au sens strict du terme, un dispositif qui permet de prendre en charge un enfant dans une autre famille que la sienne, afin de résoudre une situation de danger le concernant. Remarque : Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236).</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-238\">238</a></td><td>Centre d'accueil familial spécialisé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-241\">241</a></td><td>Établissement de Placement</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-242\">242</a></td><td>Service d'Activité de Jour</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-246\">246</a></td><td>Etablissement et service d'aide par le travail (ESAT)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-247\">247</a></td><td>Entreprise adaptée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-249\">249</a></td><td>Établissement et Service de Réadaptation Professionnelle</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-252\">252</a></td><td>Foyer d'hébergement d'adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-253\">253</a></td><td>Foyer d'accueil polyvalent pour adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-255\">255</a></td><td>Maison d'accueil spécialisée (MAS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-256\">256</a></td><td>Foyer de travailleurs migrants non transformé en résidence sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-257\">257</a></td><td>Foyers de jeunes travailleurs</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-258\">258</a></td><td>Maison relais, Pension de famille</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-259\">259</a></td><td>Autres résidences sociales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-266\">266</a></td><td>Dispensaire antivénérien</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-267\">267</a></td><td>Dispensaire antihansénien</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-268\">268</a></td><td>Centre médico-scolaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-269\">269</a></td><td>Centre de médecine universitaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-270\">270</a></td><td>Centre de médecine sportive</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-271\">271</a></td><td>Maison d'accueil Hospitalière</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-286\">286</a></td><td>Service de prévention spécialisée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-292\">292</a></td><td>Centre hospitalier spécialisé de lutte contre les maladies mentales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-294\">294</a></td><td>Centre de consultations cancer</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-295\">295</a></td><td>Service AEMO et AED</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-300\">300</a></td><td>Ecole formant aux professions sanitaires</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-330\">330</a></td><td>Ecole formant aux professions sociales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-340\">340</a></td><td>Service mandataire judiciaire à la protection des majeurs</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-341\">341</a></td><td>Service dédié aux mesures d'accompagnement social personnalisé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-342\">342</a></td><td>Service d'information et de soutien aux tuteurs familiaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-344\">344</a></td><td>Service délégué aux prestations familiales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-347\">347</a></td><td>Centre d'examens de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-354\">354</a></td><td>Service de soins infirmiers à domicile (SSIAD)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-355\">355</a></td><td>Centre hospitalier (CH)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-362\">362</a></td><td>Etablissement de soins longue durée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-365\">365</a></td><td>Etablissement de soins pluridisciplinaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-366\">366</a></td><td>Atelier thérapeutique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-370\">370</a></td><td>Etablissement Expérimental pour personnes handicapées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-374\">374</a></td><td>Ecole nationale de santé publique (ENSP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-377\">377</a></td><td>Etablissement expérimental pour enfance handicapée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-378\">378</a></td><td>Etablissement expérimental enfance protégée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-379\">379</a></td><td>Etablissement expérimental pour adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-380\">380</a></td><td>Etablissement expérimental autres adultes</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-381\">381</a></td><td>Etablissement expérimental pour personnes âgées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-382\">382</a></td><td>Foyer de vie pour adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-390\">390</a></td><td>Etablissement d'accueil temporaire d'enfants handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-395\">395</a></td><td>Etablissement d'accueil temporaire pour adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-396\">396</a></td><td>Foyer d'hébergement pour enfants et adolescents handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-402\">402</a></td><td>Jardin d'enfants spécialisé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-411\">411</a></td><td>Intermédiaire de placement social</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-412\">412</a></td><td>Appartement thérapeutique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-415\">415</a></td><td>Service médico-psychologique régional (SMPR)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-422\">422</a></td><td>Traitements spécialisés à domicile</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-425\">425</a></td><td>Centre d'accueil thérapeutique à temps partiel (CATTP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-426\">426</a></td><td>Syndicat inter hospitalier (SIH)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-430\">430</a></td><td>Centre postcure pour malades mentaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-433\">433</a></td><td>Etablissement sanitaire des prisons</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-436\">436</a></td><td>Ecoles formant aux professions sanitaires et sociales</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-437\">437</a></td><td>Foyer d'accueil médicalisé pour adultes handicapés (FAM)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-438\">438</a></td><td>Centre de médecine collective</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-439\">439</a></td><td>Centre de santé polyvalent</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-440\">440</a></td><td>Service d'Investigation Educative</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-441\">441</a></td><td>Service d'Intervention Educative en Milieu Ouvert</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-442\">442</a></td><td>Centre provisoire d'hébergement</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-443\">443</a></td><td>Centre d'accueil de demandeurs d'asile (CADA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-444\">444</a></td><td>Centre de crise et d'accueil permanent</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-445\">445</a></td><td>Service d'accompagnement médico-social pour adultes handicapés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-446\">446</a></td><td>Service d'accompagnement à la vie sociale (SAVS)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-448\">448</a></td><td>Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-449\">449</a></td><td>Etablissement d'Accueil Non Médicalisé pour personnes handicapées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-460\">460</a></td><td>Service autonomie aide (SAA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-461\">461</a></td><td>Centres de ressources SAI (sans aucune indication)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-462\">462</a></td><td>Lieux de Vie et d'Accueil</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-463\">463</a></td><td>Centre local d'information et de coordination de personnes âgées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-464\">464</a></td><td>Unité d'évaluation, de réentraînement et d'orientation sociale et-ou professionnelle</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-500\">500</a></td><td>Etablissement d'hébergement pour personnes âgées dépendantes</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-501\">501</a></td><td>EHPA percevant des crédits d'assurance maladie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-502\">502</a></td><td>EHPA ne percevant pas des crédits d'assurance maladie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-603\">603</a></td><td>Maison de santé (L6223-3)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-604\">604</a></td><td>Communauté Professionnelle Territoriale de Santé (CPTS)</td><td>Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS.</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-606\">606</a></td><td>Dispositif d'appui à la coordination (DAC)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-608\">608</a></td><td>Equipe mobile médico-sociale précarité (EMMSP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-609\">609</a></td><td>Maison Départementale pour Personnes Handicapées (MDPH)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-610\">610</a></td><td>Laboratoire d'analyses</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-611\">611</a></td><td>Laboratoire de biologie médicale (LBM)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-612\">612</a></td><td>Autre laboratoire de biologie médicale sans FSE</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-614\">614</a></td><td>Dispositif Spécifique Régional du Cancer (DSRC)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-616\">616</a></td><td>Services de Prévention et de Santé au Travail (SPST)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-617\">617</a></td><td>Lieu de soins non programmés</td><td>Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés.</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-618\">618</a></td><td>Autre structure de soins non programmés (SNP)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-620\">620</a></td><td>Pharmacie d'officine</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-624\">624</a></td><td>Laboratoire pharmaceutique préparant et délivrant des allergènes</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-627\">627</a></td><td>Propharmacie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-628\">628</a></td><td>Pharmacie minière</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-629\">629</a></td><td>Pharmacie mutualiste</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-630\">630</a></td><td>Installation autonome de chirurgie esthétique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-631\">631</a></td><td>Maisons de naissance</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-632\">632</a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-633\">633</a></td><td>Structure Expérimentale en Santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-636\">636</a></td><td>Centre de soins et de prévention</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-637\">637</a></td><td>Centre de Lutte Antituberculeuse (CLAT)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-638\">638</a></td><td>Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-639\">639</a></td><td>Sociétés de téléconsultation (STLC)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-640\">640</a></td><td>Service d'aide et d'accompagnement à domicile aux familles (SAADF)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-642\">642</a></td><td>Services départementaux d'incendie et de secours</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-643\">643</a></td><td>Service d'évaluation de la minorité et de l'isolement pour les personnes se déclarant mineures (SEMIPM)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-644\">644</a></td><td>Etablissement de mise à l'abri pour les personnes se déclarant mineures non accompagnées (EMAMNA)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-641\">641</a></td><td>Antenne de Pharmacie d'officine</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-645\">645</a></td><td>Centre de Vaccination</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-646\">646</a></td><td>Centre de Vaccination Internationale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-647\">647</a></td><td>Equipe de Soins Spécialisés</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-648\">648</a></td><td>Structure qui contribue au Service d'Accès aux Soins</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-649\">649</a></td><td>Centre de santé et de médiation en santé sexuelle</td><td>Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle.</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-650\">650</a></td><td>Dispositifs Spécifiques Régionaux en périnatalité</td><td>Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI).</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-695\">695</a></td><td>Groupement de coopération sanitaire de moyens - Exploitant</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-696\">696</a></td><td>Groupement de coopération sanitaire de moyens</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-697\">697</a></td><td>Groupement de coopération sanitaire, Etablissement de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-698\">698</a></td><td>Autre établissement relevant de la loi hospitalière</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-699\">699</a></td><td>Entité ayant autorisation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-700\">700</a></td><td>Maison sport-santé</td><td>Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-701\">701</a></td><td>Maison des adolescents (MDA)</td><td>Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-702\">702</a></td><td>Point Accueil Ecoute Jeunes (PAEJ)</td><td>Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-703\">703</a></td><td>Espace Santé Jeunes (ESJ)</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-704\">704</a></td><td>Autre service territorial</td><td>Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)</td></tr><tr><td><a href=\"CodeSystem-TRE-R66-CategorieEtablissement.html#TRE-R66-CategorieEtablissement-705\">705</a></td><td>Groupe d’Entraide Mutuelle (GEM)</td><td>Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R02-SecteurActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20250523120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA05\">SA05</a></td><td>Centre de santé</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA07\">SA07</a></td><td>Cabinet individuel</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA08\">SA08</a></td><td>Cabinet de groupe</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA09\">SA09</a></td><td>Exercice en société</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2019-01-25T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.3.65" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260505120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J55_CategorieEG_ROR"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-05-05T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre hospitalier régional (CHR)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "106" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre hospitalier (ex Hôpital local)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "114" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hôpital des armées" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "115" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins du Service de santé des armées (SSA)" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "122" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins obstétriques et chirurgico-gynécologiques" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "124" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "126" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement thermal" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "127" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hospitalisation à domicile (HAD)" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "128" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins chirurgicaux" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "129" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins médicaux" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "130" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de soins médicaux" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "131" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de lutte contre cancer" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "132" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de transfusion sanguine" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "141" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de dialyse" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "142" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispensaire antituberculeux" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "143" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de vaccination BCG" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "146" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure d'alternative à la dialyse en centre" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "156" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre médico-psychologique (CMP)" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "161" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison de santé pour maladies mentales" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "165" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appartement de coordination thérapeutique (ACT)" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "166" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre Parents-Enfants de moins de 3 ans" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "172" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pouponnière à caractère social" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "175" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer de l'enfance" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "176" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Village d'enfants" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "177" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison d'enfants à caractère social" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "178" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'accueil et d'accompagnement à la réduction des risques pour usagers de drogues (CAARUD)" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "180" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits halte soins santé (LHSS)" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "182" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'éducation spéciale et de soins à domicile (SESSAD)" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "183" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut médico-éducatif (IME)" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "186" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut thérapeutique éducatif et pédagogique (ITEP)" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "188" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement pour enfants ou adolescents polyhandicapés" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "189" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre médico-psycho-pédagogique (CMPP)" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "190" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre action médico-sociale précoce (CAMSP)" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "192" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut d'éducation motrice" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "194" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut pour déficients visuels" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "195" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut pour déficients auditifs" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "196" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Institut d'éducation sensorielle sourd-aveugle" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "197" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de soins d'accompagnement et de prévention en addictologie (CSAPA)" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "198" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Établissement et Service de Préorientation" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "202" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Résidences autonomie" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "207" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de jour pour personnes âgées" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "209" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service autonomie aide et soins (SAAS)" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "213" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lits d'accueil médicalisés (L.A.M.)" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "214" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'hébergement et de réinsertion sociale (CHRS)" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "216" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Résidence Hôtelière à Vocation Sociale (R.H.V.S)" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "219" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre centre d'accueil" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "221" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bureau d'aide psychologique universitaire (BAPU)" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "223" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Protection maternelle et infantile (PMI)" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "224" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de consultation pré et post-natale" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "228" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé sexuelle" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "230" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement consultation protection infantile" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "231" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Espaces de vie affective, relationnelle et sexuelle (EVARS)" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "236" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service de placement familial (SPF)" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "238" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'accueil familial spécialisé" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "241" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Établissement de Placement" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "242" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'Activité de Jour" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "246" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement et service d'aide par le travail (ESAT)" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "247" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entreprise adaptée" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "249" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Établissement et Service de Réadaptation Professionnelle" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "252" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer d'hébergement d'adultes handicapés" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "253" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer d'accueil polyvalent pour adultes handicapés" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison d'accueil spécialisée (MAS)" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "256" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer de travailleurs migrants non transformé en résidence sociale" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "257" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyers de jeunes travailleurs" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "258" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison relais, Pension de famille" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "259" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autres résidences sociales" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "266" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispensaire antivénérien" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "267" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispensaire antihansénien" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "268" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre médico-scolaire" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "269" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de médecine universitaire" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "270" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de médecine sportive" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "271" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison d'accueil Hospitalière" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "286" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service de prévention spécialisée" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "292" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre hospitalier spécialisé de lutte contre les maladies mentales" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "294" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de consultations cancer" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "295" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service AEMO et AED" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "300" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecole formant aux professions sanitaires" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "330" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecole formant aux professions sociales" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "340" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service mandataire judiciaire à la protection des majeurs" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "341" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service dédié aux mesures d'accompagnement social personnalisé" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "342" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'information et de soutien aux tuteurs familiaux" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "344" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service délégué aux prestations familiales" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "347" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'examens de santé" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "354" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service de soins infirmiers à domicile (SSIAD)" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "355" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre hospitalier (CH)" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "362" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins longue durée" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "365" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins pluridisciplinaire" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "366" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atelier thérapeutique" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "370" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement Expérimental pour personnes handicapées" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "374" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecole nationale de santé publique (ENSP)" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "377" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement expérimental pour enfance handicapée" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "378" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement expérimental enfance protégée" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "379" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement expérimental pour adultes handicapés" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "380" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement expérimental autres adultes" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "381" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement expérimental pour personnes âgées" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "382" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer de vie pour adultes handicapés" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "390" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'accueil temporaire d'enfants handicapés" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "395" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'accueil temporaire pour adultes handicapés" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "396" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer d'hébergement pour enfants et adolescents handicapés" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "402" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jardin d'enfants spécialisé" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "411" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intermédiaire de placement social" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "412" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appartement thérapeutique" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "415" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service médico-psychologique régional (SMPR)" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "422" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traitements spécialisés à domicile" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "425" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'accueil thérapeutique à temps partiel (CATTP)" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "426" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Syndicat inter hospitalier (SIH)" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "430" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre postcure pour malades mentaux" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "433" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement sanitaire des prisons" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "436" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecoles formant aux professions sanitaires et sociales" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "437" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer d'accueil médicalisé pour adultes handicapés (FAM)" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "438" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de médecine collective" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "439" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé polyvalent" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "440" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'Investigation Educative" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "441" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'Intervention Educative en Milieu Ouvert" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "442" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre provisoire d'hébergement" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "443" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre d'accueil de demandeurs d'asile (CADA)" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "444" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de crise et d'accueil permanent" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "445" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'accompagnement médico-social pour adultes handicapés" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "446" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'accompagnement à la vie sociale (SAVS)" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "448" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'Accueil Médicalisé en tout ou partie personnes handicapées" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "449" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'Accueil Non Médicalisé pour personnes handicapées" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "460" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service autonomie aide (SAA)" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "461" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centres de ressources SAI (sans aucune indication)" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "462" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lieux de Vie et d'Accueil" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "463" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre local d'information et de coordination de personnes âgées" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "464" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unité d'évaluation, de réentraînement et d'orientation sociale et-ou professionnelle" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "500" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'hébergement pour personnes âgées dépendantes" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "501" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EHPA percevant des crédits d'assurance maladie" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "502" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EHPA ne percevant pas des crédits d'assurance maladie" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "603" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison de santé (L6223-3)" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "604" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Communauté Professionnelle Territoriale de Santé (CPTS)" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "606" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositif d'appui à la coordination (DAC)" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "608" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipe mobile médico-sociale précarité (EMMSP)" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "609" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison Départementale pour Personnes Handicapées (MDPH)" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "610" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire d'analyses" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "611" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire de biologie médicale (LBM)" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "612" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre laboratoire de biologie médicale sans FSE" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "614" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositif Spécifique Régional du Cancer (DSRC)" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "616" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Services de Prévention et de Santé au Travail (SPST)" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "617" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lieu de soins non programmés" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "618" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre structure de soins non programmés (SNP)" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "620" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie d'officine" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "624" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire pharmaceutique préparant et délivrant des allergènes" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "627" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Propharmacie" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "628" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie minière" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "629" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie mutualiste" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "630" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Installation autonome de chirurgie esthétique" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "631" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maisons de naissance" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "632" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure Dispensatrice à domicile d'Oxygène à usage médical" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "633" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure Expérimentale en Santé" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "636" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de soins et de prévention" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "637" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de Lutte Antituberculeuse (CLAT)" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "638" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "639" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sociétés de téléconsultation (STLC)" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "640" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'aide et d'accompagnement à domicile aux familles (SAADF)" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "642" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Services départementaux d'incendie et de secours" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "643" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service d'évaluation de la minorité et de l'isolement pour les personnes se déclarant mineures (SEMIPM)" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "644" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de mise à l'abri pour les personnes se déclarant mineures non accompagnées (EMAMNA)" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "641" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antenne de Pharmacie d'officine" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "645" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de Vaccination" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "646" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de Vaccination Internationale" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "647" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipe de Soins Spécialisés" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "648" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure qui contribue au Service d'Accès aux Soins" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "649" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé et de médiation en santé sexuelle" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "650" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositifs Spécifiques Régionaux en périnatalité" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "695" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sanitaire de moyens - Exploitant" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "696" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sanitaire de moyens" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "697" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement de coopération sanitaire, Etablissement de santé" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "698" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre établissement relevant de la loi hospitalière" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "699" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entité ayant autorisation" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "700" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison sport-santé" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "701" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison des adolescents (MDA)" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "702" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Point Accueil Ecoute Jeunes (PAEJ)" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "703" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Espace Santé Jeunes (ESJ)" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "704" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre service territorial" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "705" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupe d’Entraide Mutuelle (GEM)" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA07" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabinet individuel" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA08" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabinet de groupe" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA09" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Exercice en société" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J55-CategorieEG-ROR.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

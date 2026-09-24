@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "condition-ver-status"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:48+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem condition-ver-status</b></p><a name=\"condition-ver-status\"> </a><a name=\"hccondition-ver-status\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:48+0100</p></div><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/condition-ver-status</code> defines the following codes dans une hiérarchie non définie:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">unconfirmed<a name=\"condition-ver-status-unconfirmed\"> </a></td><td>Unconfirmed</td><td>There is not sufficient evidence to assert the presence of the subject's condition.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  provisional<a name=\"condition-ver-status-provisional\"> </a></td><td>Provisional</td><td>This is a tentative diagnosis - still a candidate that is under consideration.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  differential<a name=\"condition-ver-status-differential\"> </a></td><td>Differential</td><td>One of a set of potential (and typically mutually exclusive) diagnoses asserted to further guide the diagnostic process and preliminary treatment.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">confirmed<a name=\"condition-ver-status-confirmed\"> </a></td><td>Confirmed</td><td>There is sufficient evidence to assert the presence of the subject's condition.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">refuted<a name=\"condition-ver-status-refuted\"> </a></td><td>Refuted</td><td>This condition has been ruled out by subsequent diagnostic and clinical evidence.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">entered-in-error<a name=\"condition-ver-status-entered-in-error\"> </a></td><td>Entered in Error</td><td>The statement was entered in error and is not valid.</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "pc" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-ver-status"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.4.642.1.1075" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "2.0.1"] ;
+  fhir:CodeSystem.name [ fhir:value "ConditionVerificationStatus"] ;
+  fhir:CodeSystem.title [ fhir:value "ConditionVerificationStatus"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2024-04-24T00:00:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "The verification status to support or decline the clinical status of the condition or diagnosis."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "http://terminology.hl7.org/ValueSet/condition-ver-status" ;
+     fhir:link <http://terminology.hl7.org/ValueSet/condition-ver-status>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "unconfirmed" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Unconfirmed" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "There is not sufficient evidence to assert the presence of the subject's condition." ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "provisional" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Provisional" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "This is a tentative diagnosis - still a candidate that is under consideration." ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "differential" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Differential" ] ;
+       fhir:CodeSystem.concept.definition [ fhir:value "One of a set of potential (and typically mutually exclusive) diagnoses asserted to further guide the diagnostic process and preliminary treatment." ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "confirmed" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Confirmed" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "There is sufficient evidence to assert the presence of the subject's condition." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "refuted" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Refuted" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "This condition has been ruled out by subsequent diagnostic and clinical evidence." ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "entered-in-error" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Entered in Error" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The statement was entered in error and is not valid." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
