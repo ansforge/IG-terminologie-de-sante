@@ -17,7 +17,7 @@ Formes des activités autorisées /exercées provenant d’E-CARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [Vs Tre R429 Forme Reconnaissance Contractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md)
 
 
 

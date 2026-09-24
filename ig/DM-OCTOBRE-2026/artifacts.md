@@ -895,6 +895,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées |
 | [Vs Tre R405 Modalite Activite Smsse Regulee All](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées |
 | [Vs Tre R406 Forme Activite Smsse Regulee All](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées |
+| [Vs Tre R428 Activite Reconnaissance Contractuelle](ValueSet-vs-tre-r428-activite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des activités soumises à reconnaissances (ASR) |
+| [Vs Tre R429 Forme Reconnaissance Contractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des formes de reconnaissances (ASR) |
+| [Vs Tre R430 Modalité Reconnaissance Contractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des modalités de reconnaissances (ASR) |
 | [Vs Tre R62 Domaine All](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines |
 | [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d’intérêt collectif |
 | [Vs Tre R74 Mode Fixation Tarifaire All](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire |

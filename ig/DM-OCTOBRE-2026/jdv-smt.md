@@ -11,6 +11,9 @@ Vous touverez ici la liste des JDV du smt .
 | | | | |
 | :--- | :--- | :--- | :--- |
 | Name | Description | date_maj | Status |
+| [VsTreR428ActiviteReconnaissanceContractuelle](ValueSet-vs-tre-r428-activite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des activités soumises à reconnaissances (ASR) | 02/11/2026 | active |
+| [VsTreR429FormeReconnaissanceContractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des formes de reconnaissances (ASR) | 02/11/2026 | active |
+| [VsTreR430ModaliteReconnaissanceContractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des modalités de reconnaissances (ASR) | 02/11/2026 | active |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 | active |
 | [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 24/09/2026 | active |
 | [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 24/09/2026 | active |

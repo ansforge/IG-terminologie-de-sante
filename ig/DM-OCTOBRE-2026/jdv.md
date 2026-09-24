@@ -866,6 +866,9 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 30/03/2026 | active |
 | [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 30/03/2026 | active |
 | [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 30/03/2026 | active |
+| [VsTreR428ActiviteReconnaissanceContractuelle](ValueSet-vs-tre-r428-activite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des activités soumises à reconnaissances (ASR) | 02/11/2026 | active |
+| [VsTreR429FormeReconnaissanceContractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des formes de reconnaissances (ASR) | 02/11/2026 | active |
+| [VsTreR430ModaliteReconnaissanceContractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des modalités de reconnaissances (ASR) | 02/11/2026 | active |
 | [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines | 30/03/2026 | active |
 | [VsTreR73EspicAll](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d'intérêt collectif | 23/02/2026 | active |
 | [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire | 30/03/2026 | active |
