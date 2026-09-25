@@ -15,12 +15,12 @@ Vous touverez ici la liste des JDV du smt .
 | [VsTreR429FormeReconnaissanceContractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des formes de reconnaissances (ASR) | 02/11/2026 | active |
 | [VsTreR430ModaliteReconnaissanceContractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l'ensemble des codes des modalités de reconnaissances (ASR) | 02/11/2026 | active |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 | active |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 24/09/2026 | active |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 24/09/2026 | active |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 24/09/2026 | active |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 24/09/2026 | active |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 24/09/2026 | active |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 24/09/2026 | active |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 25/09/2026 | active |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 25/09/2026 | active |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 25/09/2026 | active |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 25/09/2026 | active |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 25/09/2026 | active |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 25/09/2026 | active |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 | active |
 | [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 30/03/2026 | active |
 | [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE. | 05/05/2026 | active |
