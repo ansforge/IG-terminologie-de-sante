@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-23
+2026-09-26
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-trod-examen-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-09-18T16:14:41.752+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-09-23T11:14:20.381+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
