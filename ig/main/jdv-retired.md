@@ -1,4 +1,4 @@
-# Jeux de valeurs (Retired) - Terminologies de Santé v1.13.0
+# Jeux de valeurs (Retired) - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Jeux de valeurs**](jdv.md)
@@ -11,6 +11,8 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
 | [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md) | Référentiel dérivé des pays provenant de la norme INSEE pour ENREG |
 | [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md) | Toute la nomenclature des codes pays auquel on ajoute le code applicatif r "non renseigné" |
 | [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS |
@@ -18,7 +20,6 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J131_CategorieActiviteSanitaireRegulee_RASS](ValueSet-JDV-J131-CategorieActiviteSanitaireRegulee-RASS.md) | Catégorie des activités sanitaires régulées dans le RASS |
 | [JDV_J136_DisciplineEquipementSocial_RASS](ValueSet-JDV-J136-DisciplineEquipementSocial-RASS.md) | Disciplines d'équipement pour le social dans le RASS |
 | [JDV_J137_Clientele_RASS](ValueSet-JDV-J137-Clientele-RASS.md) | Population prise en charge par l'établissement dans le cadre |
-| [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md) | Type d'activité dans le RASS |
 | [JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md) | JDV pour le champ d'application de l'intervalle de référence |
 | [JDV_J153_TypeDiabete_ENS](ValueSet-JDV-J153-TypeDiabete-ENS.md) | JDV pour caractériser le type de diabète dans l'extension DiabetisType |
 | [JDV_J167_DepartementOM_EPARS](ValueSet-JDV-J167-DepartementOM-EPARS.md) | Département pour saisie dans EPARS |

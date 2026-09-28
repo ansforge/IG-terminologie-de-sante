@@ -1,4 +1,4 @@
-# Accueil - Terminologies de Santé v1.13.0
+# Accueil - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.13.0 |
-| Active as of 2026-09-27 | *Computable Name*:Terminologies |
+| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.14.0 |
+| Active as of 2026-09-28 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -211,11 +211,11 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fr.terminologies",
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.13.0",
+  "version" : "1.14.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-09-27T09:48:22+00:00",
+  "date" : "2026-09-28T10:08:08+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -46914,7 +46914,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210_ActeSpecifique",
-      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
+      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
       "exampleBoolean" : false
     },
     {

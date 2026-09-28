@@ -1,4 +1,4 @@
-# Tre R396 Autorite - Terminologies de Santé v1.13.0
+# Tre R396 Autorite - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR396Autorite |
+| *Official URL*:http://example.org/CodeSystem/tre-r396-autorite | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR396Autorite |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.377 | | |
 
  
@@ -17,13 +17,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
-* [Jdv J358 Type Autorite Enregistrement Finess](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
-* [Jdv J359 Autorite Enregistrement Finess](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
-* [Jdv J360 Autorite Regulation Finess](ValueSet-jdv-j360-autorite-regulation-finess.md)
-* [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md)
-* [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md)
-* [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -34,8 +28,8 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "resourceType" : "CodeSystem",
   "id" : "tre-r396-autorite",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-07-06T20:14:25.731+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-09-28T10:28:53.393+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,17 +39,17 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "start" : "2016-02-02T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "url" : "http://example.org/CodeSystem/tre-r396-autorite",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.377"
   }],
-  "version" : "20260629120000",
+  "version" : "20260928120000",
   "name" : "TreR396Autorite",
   "title" : "Tre R396 Autorite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
   "jurisdiction" : [{
@@ -11634,7 +11628,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "DRIHL Ile-deFrance"
+      "value" : "DRHIL Ile-deFrance"
     },
     {
       "language" : "fr-FR",
@@ -11650,7 +11644,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

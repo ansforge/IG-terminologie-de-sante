@@ -1,4 +1,4 @@
-# TRE_R16_LieuFormation - Terminologies de Santé v1.13.0
+# TRE_R16_LieuFormation - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.35 | | |
 
  
@@ -28,8 +28,8 @@ Lieu de formation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-08-04T11:03:16.712+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-09-28T10:27:41.221+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
@@ -37,11 +37,11 @@ Lieu de formation
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.35"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "TRE_R16_LieuFormation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Lieu de formation",
   "jurisdiction" : [{
@@ -283,14 +283,14 @@ Lieu de formation
   },
   {
     "code" : "U34",
-    "display" : "Université de Montpellier 1 - Nîmes",
+    "display" : "Université de Montpellier - Nîmes",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Montpellier 1 - Nîmes"
+      "value" : "Montpellier - Nîmes"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -298,7 +298,7 @@ Lieu de formation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-12-29T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -507,14 +507,14 @@ Lieu de formation
   },
   {
     "code" : "U59",
-    "display" : "Lille 2, Université de Droit et Sante",
+    "display" : "Université de Lille",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Lille 2"
+      "value" : "Lille"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -522,7 +522,7 @@ Lieu de formation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

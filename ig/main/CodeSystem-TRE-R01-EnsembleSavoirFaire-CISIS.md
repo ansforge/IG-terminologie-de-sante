@@ -1,4 +1,4 @@
-# TRE_R01_EnsembleSavoirFaire_CISIS - Terminologies de Santé v1.13.0
+# TRE_R01_EnsembleSavoirFaire_CISIS - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.71.4.2.5 | | |
 
  
@@ -29,8 +29,8 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   "resourceType" : "CodeSystem",
   "id" : "TRE-R01-EnsembleSavoirFaire-CISIS",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-07-29T08:03:33.058+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T10:27:32.757+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.4.2.5"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "TRE_R01_EnsembleSavoirFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble Savoir-faire CI-SIS (TRE provisoire)",
   "jurisdiction" : [{
@@ -4611,14 +4611,15 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SI01",
-    "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)",
+    "definition" : "Suivi des patients chroniques (diabète, HTA, insuffisance cardiaque...), prévention, coordination des parcours, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA pathologies chroniques"
+      "value" : "IPA Pathologies chroniques stabilisées"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4626,7 +4627,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4635,14 +4636,15 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SI02",
-    "display" : "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)",
+    "definition" : "Prise en charge des cancers et maladies du sang, administration de traitements, gestion des effets secondaires, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA oncologie"
+      "value" : "IPA Oncologie et hémato-oncologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4650,7 +4652,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4659,22 +4661,15 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SI03",
-    "display" : "Exerc. infirmier pratique avancée maladie rénale chroniq., dialyse, transp. rénale (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)",
+    "definition" : "Suivi des patients insuffisants rénaux, gestion de la dialyse, accompagnement à la transplantation, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA maladie rénale"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+      "value" : "IPA Maladie rénale chronique, dialyse, transplantation rénale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4682,7 +4677,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4691,14 +4686,15 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SI04",
-    "display" : "Exercice infirmier en pratique avancée santé mentale (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)",
+    "definition" : "Suivi des troubles psychiatriques, entretiens cliniques, prescription de psychotropes, coordination des soins, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA santé mentale"
+      "value" : "IPA Psychiatrie et santé mentale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4706,7 +4702,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4715,15 +4711,15 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SI05",
-    "display" : "Exercice infirmier en pratique avancée urgences (SI)",
-    "definition" : "Le décret n°2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers (IPA) dans le domaine d'intervention des urgences a inscrit les « urgences » comme nouveau domaine d'intervention de l'infirmier en pratique avancé. C'est le 5e domaine d'exercice des IPA ainsi acté (après pathologies chroniques stabilisées ; oncologie et hémato-oncologie ; maladie rénale chronique, dialyse et transplantation rénale ; santé mentale).",
+    "display" : "Infirmier(ère) en pratique avancée Urgences (SI)",
+    "definition" : "Prise en charge des situations d'urgence, gestes techniques, gestion du stress, collaboration avec urgentistes, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA urgences"
+      "value" : "IPA Urgences"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4731,7 +4727,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

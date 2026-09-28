@@ -1,4 +1,4 @@
-# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.13.0
+# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-27
+2026-09-28
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-07-29T08:04:43.603+02:00",
+    "versionId" : "22",
+    "lastUpdated" : "2026-09-28T10:32:23.409+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [{
@@ -1045,23 +1045,23 @@ Liens:
       },
       {
         "code" : "G15_60/SI01",
-        "display" : "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)"
       },
       {
         "code" : "G15_60/SI02",
-        "display" : "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)"
       },
       {
         "code" : "G15_60/SI03",
-        "display" : "Infirmier - Exerc. infirmier pratique avancée maladie rénale chroniq.,dialyse,transp. rénale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)"
       },
       {
         "code" : "G15_60/SI04",
-        "display" : "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
       },
       {
         "code" : "G15_60/SI05",
-        "display" : "Infirmier - Exercice infirmier en pratique avancée urgences (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Urgences (SI)"
       },
       {
         "code" : "G15_60/SI06",

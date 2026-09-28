@@ -1,4 +1,4 @@
-# Jdv J359 Autorite Enregistrement Finess - Terminologies de Santé v1.13.0
+# Jdv J359 Autorite Enregistrement Finess - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unsupported Code System Version)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -51,9 +53,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-jdv-j358-type-autorite-enregistrement-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j359-autorite-enregistrement-finess-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-27
+2026-09-28
 
 Liens:
 [Table des matières ](toc.md)|

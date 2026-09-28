@@ -1,4 +1,4 @@
-# JDV_J10_XdsFormatCode_CISIS - Terminologies de Santé v1.13.0
+# JDV_J10_XdsFormatCode_CISIS - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.465 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unknown Code System)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -51,9 +53,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J108-EnsembleFonction-RASS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J10-XdsFormatCode-CISIS-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-27
+2026-09-28
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J10-XdsFormatCode-CISIS",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-07-06T19:04:50.066+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-09-28T10:32:25.657+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +86,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.465"
   }],
-  "version" : "20260629120000",
+  "version" : "20260928120000",
   "name" : "JDV_J10_XdsFormatCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS formatCode documents CI-SIS",
   "jurisdiction" : [{
@@ -287,26 +289,6 @@ Liens:
       {
         "code" : "urn:ans:ci-sis:trod:2024",
         "display" : "Test rapide d'orientation diagnostique"
-      },
-      {
-        "code" : "urn:ans:ci-sis:mso-rougeole:2026",
-        "display" : "Déclaration de maladie à signalement obligatoire : Rougeole"
-      },
-      {
-        "code" : "urn:ans:ci-sis:mso-dengue:2026",
-        "display" : "Déclaration de maladie à signalement obligatoire : Dengue"
-      },
-      {
-        "code" : "urn:ans:ci-sis:mso-chikungunya:2026",
-        "display" : "Déclaration de maladie à signalement obligatoire : Chikungunya"
-      },
-      {
-        "code" : "urn:ans:ci-sis:mso-zika:2026",
-        "display" : "Déclaration de maladie à signalement obligatoire : Zika"
-      },
-      {
-        "code" : "urn:ans:ci-sis:mso-westnile:2026",
-        "display" : "Déclaration de maladie à signalement obligatoire : West Nile"
       }]
     },
     {
@@ -369,10 +351,10 @@ Liens:
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+      "system" : "http://dicom.nema.org/resources/ontology/DCMUID",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
-        "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
+        "display" : "Key Object Selection Document Storage"
       }]
     },
     {

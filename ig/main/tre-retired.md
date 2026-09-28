@@ -1,4 +1,4 @@
-# Terminologies (Retired) - Terminologies de Santé v1.13.0
+# Terminologies (Retired) - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -11,6 +11,7 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md) | DICOM UID Registry |
 | [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
 | [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
 | [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés |

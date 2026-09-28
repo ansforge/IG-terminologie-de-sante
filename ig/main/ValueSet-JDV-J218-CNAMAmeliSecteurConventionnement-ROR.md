@@ -1,4 +1,4 @@
-# JDV_J218_CNAMAmeliSecteurConventionnement_ROR - Terminologies de Santé v1.13.0
+# JDV_J218_CNAMAmeliSecteurConventionnement_ROR - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J218-CNAMAmeliSecteurConventionnement-ROR/FHIR/JDV-J218-CNAMAmeliSecteurConventionnement-ROR | *Version*:20220826120000 | |
-| Active as of 2022-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J218_CNAMAmeliSecteurConventionnement_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J218-CNAMAmeliSecteurConventionnement-ROR/FHIR/JDV-J218-CNAMAmeliSecteurConventionnement-ROR | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J218_CNAMAmeliSecteurConventionnement_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.50 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J217-ModeExercice-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J218-CNAMAmeliSecteurConventionnement-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-27
+2026-09-28
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J218-CNAMAmeliSecteurConventionnement-ROR",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-06T19:05:58.554+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-09-28T10:32:33.366+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.50"
   }],
-  "version" : "20220826120000",
+  "version" : "20260928120000",
   "name" : "JDV_J218_CNAMAmeliSecteurConventionnement_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2022-08-26T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli",
   "jurisdiction" : [{
@@ -115,6 +115,22 @@ Liens:
       {
         "code" : "c3",
         "display" : "Secteur 2"
+      },
+      {
+        "code" : "0",
+        "display" : "Non conventionné"
+      },
+      {
+        "code" : "1",
+        "display" : "Conventionné"
+      },
+      {
+        "code" : "2",
+        "display" : "Conventionné avec dépassement"
+      },
+      {
+        "code" : "3",
+        "display" : "Conventionné avec honoraires libres"
       }]
     }]
   }

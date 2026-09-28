@@ -1,4 +1,4 @@
-# TRE_R278_FinessConvention - Terminologies de Santé v1.13.0
+# TRE_R278_FinessConvention - Terminologies de Santé v1.14.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Convention du domaine social FINESS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
