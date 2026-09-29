@@ -2,8 +2,8 @@ CodeSystem: TreR361FonctionPublique
 Id: tre-r361-fonction-publique
 Title: "Tre R361 Fonction Publique"
 Description: "Nomenclature des versants de la fonction publique"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:09+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:54+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -3,8 +3,8 @@ Id: tre-r373-type-personne-morale
 Title: "Tre R373 Type Personne Morale"
 Description: """Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).
 Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs."""
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:12+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:58+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

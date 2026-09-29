@@ -1,8 +1,8 @@
 CodeSystem: TRE_R72_FinessStatutJuridique
 Id: TRE-R72-FinessStatutJuridique
 Description: "Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017."
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2025-07-02T18:18:44.240+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:14:48.786+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Statuts juridiques provenant de FINESS, excepté pour les codes 00
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

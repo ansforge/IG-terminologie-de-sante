@@ -1,8 +1,8 @@
 CodeSystem: TRE_R39_Competence
 Id: TRE-R39-Competence
 Description: "Compétence"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:18:03.827+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:14:05.413+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-28T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Compétence"
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R02_SecteurActivite
 Id: TRE-R02-SecteurActivite
 Description: "Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2026-05-05T20:11:50.301+02:00"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-07-06T20:12:35.191+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

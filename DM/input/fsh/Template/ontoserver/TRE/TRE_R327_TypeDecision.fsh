@@ -1,8 +1,8 @@
 CodeSystem: TRE_R327_TypeDecision
 Id: TRE-R327-TypeDecision
 Description: "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T20:12:04.370+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:13:37.934+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-09-24T12:00:00+01:00"

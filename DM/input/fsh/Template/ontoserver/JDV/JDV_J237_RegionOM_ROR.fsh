@@ -1,8 +1,8 @@
 ValueSet: JDV_J237_RegionOM_ROR
 Id: JDV-J237-RegionOM-ROR
 Description: "Région Outre-Mer et Monaco"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:03.448+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:08.597+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "Région Outre-Mer et Monaco"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R30-RegionOM#01 "Guadeloupe"
 * $TRE-R30-RegionOM#02 "Martinique"
 * $TRE-R30-RegionOM#03 "Guyane"

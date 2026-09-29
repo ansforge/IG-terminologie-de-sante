@@ -1,23 +1,24 @@
 CodeSystem: TRE_R343_FonctionLieu
 Id: TRE-R343-FonctionLieu
 Description: "Destination d'usage du lieu"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-12-22T10:46:44.572+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-07-06T20:13:44.899+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.227"
-* ^version = "20251222120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 28
+* ^count = 29
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -305,3 +306,10 @@ Description: "Destination d'usage du lieu"
 * #028 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #028 ^property[+].code = #status
 * #028 ^property[=].valueCode = #active
+* #029 "Plateau de médecine nucléaire"
+* #029 ^property[0].code = #dateValid
+* #029 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #029 ^property[+].code = #dateMaj
+* #029 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #029 ^property[+].code = #status
+* #029 ^property[=].valueCode = #active

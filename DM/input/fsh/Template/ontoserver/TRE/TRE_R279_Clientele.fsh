@@ -1,22 +1,23 @@
 CodeSystem: TRE_R279_Clientele
 Id: TRE-R279-Clientele
 Description: "Clientèles"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:17:06.863+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:13:19.931+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.132"
-* ^version = "20240927120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-09-27T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 132
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -750,9 +751,9 @@ Description: "Clientèles"
 * #441 ^designation.use = $sct#900000000000013009
 * #441 ^designation.value = "Adultes autistes cas complexes"
 * #441 ^property[0].code = #dateValid
-* #441 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2024-06-28T00:00:00+01:00"
 * #441 ^property[+].code = #dateMaj
-* #441 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #441 ^property[=].valueDateTime = "2024-06-28T00:00:00+01:00"
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
 * #442 "Troubles du neurodéveloppement"
@@ -1436,6 +1437,46 @@ Description: "Clientèles"
 * #840 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #840 ^property[+].code = #status
 * #840 ^property[=].valueCode = #active
+* #841 "Périnatalité"
+* #841 ^property[0].code = #dateValid
+* #841 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #841 ^property[+].code = #dateMaj
+* #841 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #841 ^property[+].code = #status
+* #841 ^property[=].valueCode = #active
+* #842 "Adultes (sans autre indication)"
+* #842 ^designation.language = #fr-FR
+* #842 ^designation.use.system = "http://snomed.info/sct"
+* #842 ^designation.use = $sct#900000000000013009
+* #842 ^designation.value = "Adultes (SAI)"
+* #842 ^property[0].code = #dateValid
+* #842 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #842 ^property[+].code = #dateMaj
+* #842 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #842 ^property[+].code = #status
+* #842 ^property[=].valueCode = #active
+* #843 "Enfants et adolescents (sans autre indication)"
+* #843 ^designation.language = #fr-FR
+* #843 ^designation.use.system = "http://snomed.info/sct"
+* #843 ^designation.use = $sct#900000000000013009
+* #843 ^designation.value = "Enfants et adolescents (SAI)"
+* #843 ^property[0].code = #dateValid
+* #843 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #843 ^property[+].code = #dateMaj
+* #843 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #843 ^property[+].code = #status
+* #843 ^property[=].valueCode = #active
+* #844 "Patients de soins sans consentement"
+* #844 ^designation.language = #fr-FR
+* #844 ^designation.use.system = "http://snomed.info/sct"
+* #844 ^designation.use = $sct#900000000000013009
+* #844 ^designation.value = "Patients S.C.C."
+* #844 ^property[0].code = #dateValid
+* #844 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #844 ^property[+].code = #dateMaj
+* #844 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #844 ^property[+].code = #status
+* #844 ^property[=].valueCode = #active
 * #850 "Personnes souffrant d'addictions sans substances"
 * #850 ^designation.language = #fr-FR
 * #850 ^designation.use.system = "http://snomed.info/sct"

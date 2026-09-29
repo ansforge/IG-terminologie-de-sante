@@ -1,8 +1,8 @@
 CodeSystem: TRE_R62_Domaine
 Id: TRE-R62-Domaine
 Description: "Domaine"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:26.727+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:14:43.846+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-05-19T00:00:00+01:00"

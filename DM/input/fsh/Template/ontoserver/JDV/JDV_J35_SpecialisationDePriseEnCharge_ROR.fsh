@@ -1,8 +1,8 @@
 ValueSet: JDV_J35_SpecialisationDePriseEnCharge_ROR
 Id: JDV-J35-SpecialisationDePriseEnCharge-ROR
 Description: "Spécialisation de prise en charge - ROR"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-05-05T19:02:52.240+02:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T19:06:33.852+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

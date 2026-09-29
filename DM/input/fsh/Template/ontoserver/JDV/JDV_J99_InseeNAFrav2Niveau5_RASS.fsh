@@ -1,8 +1,8 @@
 ValueSet: JDV_J99_InseeNAFrav2Niveau5_RASS
 Id: JDV-J99-InseeNAFrav2Niveau5-RASS
 Description: "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T19:02:56.959+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:07:10.468+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

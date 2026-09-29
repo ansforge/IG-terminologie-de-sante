@@ -1,8 +1,8 @@
 CodeSystem: TRE_R25_MotifFinActivite
 Id: TRE-R25-MotifFinActivite
 Description: "Motif de fin d'activité"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-12-22T10:46:43.702+01:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:07.230+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:43+01:00"

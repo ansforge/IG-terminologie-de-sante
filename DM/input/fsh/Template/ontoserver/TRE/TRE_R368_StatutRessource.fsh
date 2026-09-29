@@ -1,8 +1,8 @@
 CodeSystem: TRE_R368_StatutRessource
 Id: TRE-R368-StatutRessource
 Description: "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-05-05T20:12:10.708+02:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:13:56.258+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-09-27T12:00:00+01:00"

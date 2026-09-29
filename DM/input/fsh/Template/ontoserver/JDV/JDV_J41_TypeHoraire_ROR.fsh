@@ -1,8 +1,8 @@
 ValueSet: JDV_J41_TypeHoraire_ROR
 Id: JDV-J41-TypeHoraire-ROR
 Description: "Type horaire"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T17:06:31.708+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:06:35.941+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type horaire"
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R252-TypeHoraire#01 "Horaire d'ouverture"
 * $TRE-R252-TypeHoraire#02 "Horaire de fonctionnement"
 * $TRE-R252-TypeHoraire#03 "Horaire de garde"

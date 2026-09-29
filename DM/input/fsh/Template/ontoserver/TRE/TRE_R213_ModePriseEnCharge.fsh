@@ -1,8 +1,8 @@
 CodeSystem: TRE_R213_ModePriseEnCharge
 Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2026-05-05T20:11:56.538+02:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-07-06T20:12:51.597+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Mode de la prise en charge"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.13"
-* ^version = "20260330120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 59
+* ^count = 60
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -675,3 +675,10 @@ Description: "Mode de la prise en charge"
 * #59 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #59 ^property[+].code = #status
 * #59 ^property[=].valueCode = #active
+* #60 "Dispositif expérimental"
+* #60 ^property[0].code = #dateValid
+* #60 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #60 ^property[+].code = #dateMaj
+* #60 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #60 ^property[+].code = #status
+* #60 ^property[=].valueCode = #active

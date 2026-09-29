@@ -1,8 +1,8 @@
 ValueSet: JDV_J76_DisciplineAutorisation_RASS
 Id: JDV-J76-DisciplineAutorisation-RASS
 Description: "Discipline à laquelle l'autorisation d'exercice est restreinte dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:48.096+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:56.246+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Discipline à laquelle l'autorisation d'exercice est restreinte da
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R18-DisciplineAutorisation#DAUT01 "Biologie médicale"
 * $TRE-R18-DisciplineAutorisation#DAUT02 "Chirurgie générale"
 * $TRE-R18-DisciplineAutorisation#DAUT03 "Chirurgie infantile"

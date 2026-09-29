@@ -1,8 +1,8 @@
 ValueSet: JDV_J200_SousEnsembleAgregatStatutJuridique_ROR
 Id: JDV-J200-SousEnsembleAgregatStatutJuridique-ROR
 Description: "Agrégats de statuts juridiques FINESS niveau 2"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2025-07-02T17:05:43.671+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2026-07-06T19:05:50.445+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Agrégats de statuts juridiques FINESS niveau 2"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R69-FinessAgregatStatutJuridiqueNiv2#1100 "Etat et Collectivités territoriales"
 * $TRE-R69-FinessAgregatStatutJuridiqueNiv2#1200 "Etablissement public"
 * $TRE-R69-FinessAgregatStatutJuridiqueNiv2#2100 "Organisme privé à but non lucratif"

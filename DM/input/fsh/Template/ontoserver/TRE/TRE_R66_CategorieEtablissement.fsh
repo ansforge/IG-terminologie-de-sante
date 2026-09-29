@@ -1,8 +1,8 @@
 CodeSystem: TRE_R66_CategorieEtablissement
 Id: TRE-R66-CategorieEtablissement
 Description: "Catégorie d'établissements"
-* ^meta.versionId = "25"
-* ^meta.lastUpdated = "2026-05-06T17:57:47.986+02:00"
+* ^meta.versionId = "26"
+* ^meta.lastUpdated = "2026-07-06T20:14:46.468+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

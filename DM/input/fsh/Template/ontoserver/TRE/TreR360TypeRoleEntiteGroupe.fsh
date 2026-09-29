@@ -2,8 +2,8 @@ CodeSystem: TreR360TypeRoleEntiteGroupe
 Id: tre-r360-type-role-entite-groupe
 Title: "Tre R360 Type Role Entite Groupe"
 Description: "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:09+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:53+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

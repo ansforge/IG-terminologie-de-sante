@@ -1,8 +1,8 @@
 ValueSet: JDV_J32_TypeHabitation_ROR
 Id: JDV-J32-TypeHabitation-ROR
 Description: "Type habitation - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:26.345+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:30.417+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type habitation - ROR"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R242-TypeHabitation#01 "Chambre double"
 * $TRE-R242-TypeHabitation#02 "Chambre simple"
 * $TRE-R242-TypeHabitation#03 "F1"

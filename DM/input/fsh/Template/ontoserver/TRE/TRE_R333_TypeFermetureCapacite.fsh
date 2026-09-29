@@ -1,8 +1,8 @@
 CodeSystem: TRE_R333_TypeFermetureCapacite
 Id: TRE-R333-TypeFermetureCapacite
 Description: "Permet d'indiquer le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:17:37.605+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T20:13:40.706+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Permet d'indiquer le statut de lits fermés, afin d'identifier le 
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

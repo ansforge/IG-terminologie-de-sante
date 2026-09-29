@@ -1,8 +1,8 @@
 CodeSystem: TRE_G09_DepartementOM
 Id: TRE-G09-DepartementOM
 Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-05-05T20:11:49.658+02:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T20:12:28.976+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -63,7 +63,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #01 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #01 ^property[+].code = #autoriteEpars
 * #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #01 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #01 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #01 ^property[+].code = #region
 * #01 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #01 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -80,7 +80,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #02 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #02 ^property[+].code = #autoriteEpars
 * #02 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #02 ^property[=].valueCoding = TreR396Autorite#ARS-32
+* #02 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #02 ^property[+].code = #region
 * #02 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #02 ^property[=].valueCoding = TRE_R30_RegionOM#32
@@ -97,7 +97,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #03 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #03 ^property[+].code = #autoriteEpars
 * #03 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #03 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #03 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #03 ^property[+].code = #region
 * #03 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #03 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -118,7 +118,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #04 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #04 ^property[+].code = #autoriteEpars
 * #04 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #04 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #04 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #04 ^property[+].code = #region
 * #04 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #04 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -139,7 +139,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #05 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #05 ^property[+].code = #autoriteEpars
 * #05 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #05 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #05 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #05 ^property[+].code = #region
 * #05 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #05 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -160,7 +160,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #06 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #06 ^property[+].code = #autoriteEpars
 * #06 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #06 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #06 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #06 ^property[+].code = #region
 * #06 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #06 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -181,7 +181,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #07 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #07 ^property[+].code = #autoriteEpars
 * #07 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #07 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #07 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #07 ^property[+].code = #region
 * #07 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #07 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -198,7 +198,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #08 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #08 ^property[+].code = #autoriteEpars
 * #08 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #08 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #08 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #08 ^property[+].code = #region
 * #08 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #08 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -219,7 +219,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #09 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #09 ^property[+].code = #autoriteEpars
 * #09 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #09 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #09 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #09 ^property[+].code = #region
 * #09 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #09 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -236,7 +236,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #10 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #10 ^property[+].code = #autoriteEpars
 * #10 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #10 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #10 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #10 ^property[+].code = #region
 * #10 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #10 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -253,7 +253,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #11 ^property[+].code = #autoriteEpars
 * #11 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #11 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #11 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #11 ^property[+].code = #region
 * #11 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #11 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -270,7 +270,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #12 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #12 ^property[+].code = #autoriteEpars
 * #12 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #12 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #12 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #12 ^property[+].code = #region
 * #12 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #12 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -291,7 +291,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #13 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #13 ^property[+].code = #autoriteEpars
 * #13 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #13 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #13 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #13 ^property[+].code = #region
 * #13 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #13 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -308,7 +308,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #14 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #14 ^property[+].code = #autoriteEpars
 * #14 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #14 ^property[=].valueCoding = TreR396Autorite#ARS-28
+* #14 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #14 ^property[+].code = #region
 * #14 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #14 ^property[=].valueCoding = TRE_R30_RegionOM#28
@@ -325,7 +325,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #15 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #15 ^property[+].code = #autoriteEpars
 * #15 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #15 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #15 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #15 ^property[+].code = #region
 * #15 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #15 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -342,7 +342,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #16 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #16 ^property[+].code = #autoriteEpars
 * #16 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #16 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #16 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #16 ^property[+].code = #region
 * #16 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #16 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -363,7 +363,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #17 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #17 ^property[+].code = #autoriteEpars
 * #17 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #17 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #17 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #17 ^property[+].code = #region
 * #17 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #17 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -380,7 +380,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #18 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #18 ^property[+].code = #autoriteEpars
 * #18 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #18 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #18 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #18 ^property[+].code = #region
 * #18 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #18 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -401,7 +401,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #19 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #19 ^property[+].code = #autoriteEpars
 * #19 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #19 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #19 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #19 ^property[+].code = #region
 * #19 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #19 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -440,7 +440,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #21 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #21 ^property[+].code = #autoriteEpars
 * #21 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #21 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #21 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #21 ^property[+].code = #region
 * #21 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #21 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -461,7 +461,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #22 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #22 ^property[+].code = #autoriteEpars
 * #22 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #22 ^property[=].valueCoding = TreR396Autorite#ARS-53
+* #22 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #22 ^property[+].code = #region
 * #22 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #22 ^property[=].valueCoding = TRE_R30_RegionOM#53
@@ -478,7 +478,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #23 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #23 ^property[+].code = #autoriteEpars
 * #23 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #23 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #23 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #23 ^property[+].code = #region
 * #23 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #23 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -495,7 +495,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #24 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #24 ^property[+].code = #autoriteEpars
 * #24 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #24 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #24 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #24 ^property[+].code = #region
 * #24 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #24 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -512,7 +512,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #25 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #25 ^property[+].code = #autoriteEpars
 * #25 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #25 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #25 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #25 ^property[+].code = #region
 * #25 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #25 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -533,7 +533,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #26 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #26 ^property[+].code = #autoriteEpars
 * #26 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #26 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #26 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #26 ^property[+].code = #region
 * #26 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #26 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -550,7 +550,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #27 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #27 ^property[+].code = #autoriteEpars
 * #27 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #27 ^property[=].valueCoding = TreR396Autorite#ARS-28
+* #27 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #27 ^property[+].code = #region
 * #27 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #27 ^property[=].valueCoding = TRE_R30_RegionOM#28
@@ -571,7 +571,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #28 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #28 ^property[+].code = #autoriteEpars
 * #28 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #28 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #28 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #28 ^property[+].code = #region
 * #28 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #28 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -592,7 +592,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #29 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #29 ^property[+].code = #autoriteEpars
 * #29 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #29 ^property[=].valueCoding = TreR396Autorite#ARS-53
+* #29 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #29 ^property[+].code = #region
 * #29 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #29 ^property[=].valueCoding = TRE_R30_RegionOM#53
@@ -609,7 +609,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #30 ^property[+].code = #region
 * #30 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #30 ^property[=].valueCoding = TreR396Autorite#76
+* #30 ^property[=].valueCoding = $tre-r396-autorite#76
 * #30 ^property[+].code = #status
 * #30 ^property[=].valueCode = #active
 * #31 "Haute-Garonne"
@@ -627,7 +627,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #31 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #31 ^property[+].code = #autoriteEpars
 * #31 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #31 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #31 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #31 ^property[+].code = #region
 * #31 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #31 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -644,7 +644,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #32 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #32 ^property[+].code = #autoriteEpars
 * #32 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #32 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #32 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #32 ^property[+].code = #region
 * #32 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #32 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -661,7 +661,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #33 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #33 ^property[+].code = #autoriteEpars
 * #33 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #33 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #33 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #33 ^property[+].code = #region
 * #33 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #33 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -682,7 +682,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #34 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #34 ^property[+].code = #autoriteEpars
 * #34 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #34 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #34 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #34 ^property[+].code = #region
 * #34 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #34 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -703,7 +703,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #35 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #35 ^property[+].code = #autoriteEpars
 * #35 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #35 ^property[=].valueCoding = TreR396Autorite#ARS-53
+* #35 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #35 ^property[+].code = #region
 * #35 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #35 ^property[=].valueCoding = TRE_R30_RegionOM#53
@@ -720,7 +720,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #36 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #36 ^property[+].code = #autoriteEpars
 * #36 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #36 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #36 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #36 ^property[+].code = #region
 * #36 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #36 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -741,7 +741,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #37 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #37 ^property[+].code = #autoriteEpars
 * #37 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #37 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #37 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #37 ^property[+].code = #region
 * #37 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #37 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -762,7 +762,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #38 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #38 ^property[+].code = #autoriteEpars
 * #38 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #38 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #38 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #38 ^property[+].code = #region
 * #38 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #38 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -779,7 +779,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #39 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #39 ^property[+].code = #autoriteEpars
 * #39 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #39 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #39 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #39 ^property[+].code = #region
 * #39 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #39 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -796,7 +796,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #40 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #40 ^property[+].code = #autoriteEpars
 * #40 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #40 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #40 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #40 ^property[+].code = #region
 * #40 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #40 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -817,7 +817,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #41 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #41 ^property[+].code = #autoriteEpars
 * #41 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #41 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #41 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #41 ^property[+].code = #region
 * #41 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #41 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -834,7 +834,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #42 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #42 ^property[+].code = #autoriteEpars
 * #42 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #42 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #42 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #42 ^property[+].code = #region
 * #42 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #42 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -855,7 +855,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #43 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #43 ^property[+].code = #autoriteEpars
 * #43 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #43 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #43 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #43 ^property[+].code = #region
 * #43 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #43 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -876,7 +876,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #44 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #44 ^property[+].code = #autoriteEpars
 * #44 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #44 ^property[=].valueCoding = TreR396Autorite#ARS-52
+* #44 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #44 ^property[+].code = #region
 * #44 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #44 ^property[=].valueCoding = TRE_R30_RegionOM#52
@@ -893,7 +893,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #45 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #45 ^property[+].code = #autoriteEpars
 * #45 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #45 ^property[=].valueCoding = TreR396Autorite#ARS-24
+* #45 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #45 ^property[+].code = #region
 * #45 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #45 ^property[=].valueCoding = TRE_R30_RegionOM#24
@@ -910,7 +910,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #46 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #46 ^property[+].code = #autoriteEpars
 * #46 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #46 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #46 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #46 ^property[+].code = #region
 * #46 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #46 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -931,7 +931,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #47 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #47 ^property[+].code = #autoriteEpars
 * #47 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #47 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #47 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #47 ^property[+].code = #region
 * #47 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #47 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -952,7 +952,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #48 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #48 ^property[+].code = #autoriteEpars
 * #48 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #48 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #48 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #48 ^property[+].code = #region
 * #48 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #48 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -973,7 +973,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #49 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #49 ^property[+].code = #autoriteEpars
 * #49 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #49 ^property[=].valueCoding = TreR396Autorite#ARS-52
+* #49 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #49 ^property[+].code = #region
 * #49 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #49 ^property[=].valueCoding = TRE_R30_RegionOM#52
@@ -990,7 +990,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #50 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #50 ^property[+].code = #autoriteEpars
 * #50 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #50 ^property[=].valueCoding = TreR396Autorite#ARS-28
+* #50 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #50 ^property[+].code = #region
 * #50 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #50 ^property[=].valueCoding = TRE_R30_RegionOM#28
@@ -1007,7 +1007,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #51 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #51 ^property[+].code = #autoriteEpars
 * #51 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #51 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #51 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #51 ^property[+].code = #region
 * #51 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #51 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1028,7 +1028,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #52 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #52 ^property[+].code = #autoriteEpars
 * #52 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #52 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #52 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #52 ^property[+].code = #region
 * #52 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #52 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1045,7 +1045,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #53 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #53 ^property[+].code = #autoriteEpars
 * #53 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #53 ^property[=].valueCoding = TreR396Autorite#ARS-52
+* #53 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #53 ^property[+].code = #region
 * #53 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #53 ^property[=].valueCoding = TRE_R30_RegionOM#52
@@ -1066,7 +1066,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #54 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #54 ^property[+].code = #autoriteEpars
 * #54 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #54 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #54 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #54 ^property[+].code = #region
 * #54 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #54 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1083,7 +1083,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #55 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #55 ^property[+].code = #autoriteEpars
 * #55 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #55 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #55 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #55 ^property[+].code = #region
 * #55 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #55 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1100,7 +1100,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #56 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #56 ^property[+].code = #autoriteEpars
 * #56 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #56 ^property[=].valueCoding = TreR396Autorite#ARS-53
+* #56 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #56 ^property[+].code = #region
 * #56 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #56 ^property[=].valueCoding = TRE_R30_RegionOM#53
@@ -1117,7 +1117,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #57 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #57 ^property[+].code = #autoriteEpars
 * #57 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #57 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #57 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #57 ^property[+].code = #region
 * #57 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #57 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1138,7 +1138,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #58 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #58 ^property[+].code = #autoriteEpars
 * #58 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #58 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #58 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #58 ^property[+].code = #region
 * #58 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #58 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -1155,7 +1155,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #59 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #59 ^property[+].code = #autoriteEpars
 * #59 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #59 ^property[=].valueCoding = TreR396Autorite#ARS-32
+* #59 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #59 ^property[+].code = #region
 * #59 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #59 ^property[=].valueCoding = TRE_R30_RegionOM#32
@@ -1172,7 +1172,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #60 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #60 ^property[+].code = #autoriteEpars
 * #60 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #60 ^property[=].valueCoding = TreR396Autorite#ARS-32
+* #60 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #60 ^property[+].code = #region
 * #60 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #60 ^property[=].valueCoding = TRE_R30_RegionOM#32
@@ -1189,7 +1189,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #61 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #61 ^property[+].code = #autoriteEpars
 * #61 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #61 ^property[=].valueCoding = TreR396Autorite#ARS-28
+* #61 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #61 ^property[+].code = #region
 * #61 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #61 ^property[=].valueCoding = TRE_R30_RegionOM#28
@@ -1210,7 +1210,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #62 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #62 ^property[+].code = #autoriteEpars
 * #62 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #62 ^property[=].valueCoding = TreR396Autorite#ARS-32
+* #62 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #62 ^property[+].code = #region
 * #62 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #62 ^property[=].valueCoding = TRE_R30_RegionOM#32
@@ -1231,7 +1231,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #63 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #63 ^property[+].code = #autoriteEpars
 * #63 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #63 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #63 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #63 ^property[+].code = #region
 * #63 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #63 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -1252,7 +1252,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #64 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #64 ^property[+].code = #autoriteEpars
 * #64 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #64 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #64 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #64 ^property[+].code = #region
 * #64 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #64 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -1273,7 +1273,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #65 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #65 ^property[+].code = #autoriteEpars
 * #65 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #65 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #65 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #65 ^property[+].code = #region
 * #65 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #65 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -1294,7 +1294,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #66 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #66 ^property[+].code = #autoriteEpars
 * #66 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #66 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #66 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #66 ^property[+].code = #region
 * #66 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #66 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -1315,7 +1315,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #67 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #67 ^property[+].code = #autoriteEpars
 * #67 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #67 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #67 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #67 ^property[+].code = #region
 * #67 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #67 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1336,7 +1336,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #68 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #68 ^property[+].code = #autoriteEpars
 * #68 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #68 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #68 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #68 ^property[+].code = #region
 * #68 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #68 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1357,7 +1357,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #69 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #69 ^property[+].code = #autoriteEpars
 * #69 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #69 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #69 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #69 ^property[+].code = #region
 * #69 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #69 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -1378,7 +1378,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #70 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #70 ^property[+].code = #autoriteEpars
 * #70 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #70 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #70 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #70 ^property[+].code = #region
 * #70 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #70 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -1399,7 +1399,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #71 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #71 ^property[+].code = #autoriteEpars
 * #71 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #71 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #71 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #71 ^property[+].code = #region
 * #71 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #71 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -1416,7 +1416,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #72 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #72 ^property[+].code = #autoriteEpars
 * #72 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #72 ^property[=].valueCoding = TreR396Autorite#ARS-52
+* #72 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #72 ^property[+].code = #region
 * #72 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #72 ^property[=].valueCoding = TRE_R30_RegionOM#52
@@ -1433,7 +1433,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #73 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #73 ^property[+].code = #autoriteEpars
 * #73 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #73 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #73 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #73 ^property[+].code = #region
 * #73 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #73 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -1454,7 +1454,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #74 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #74 ^property[+].code = #autoriteEpars
 * #74 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #74 ^property[=].valueCoding = TreR396Autorite#ARS-84
+* #74 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #74 ^property[+].code = #region
 * #74 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #74 ^property[=].valueCoding = TRE_R30_RegionOM#84
@@ -1471,7 +1471,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #75 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #75 ^property[+].code = #autoriteEpars
 * #75 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #75 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #75 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #75 ^property[+].code = #region
 * #75 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #75 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1492,7 +1492,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #76 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #76 ^property[+].code = #autoriteEpars
 * #76 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #76 ^property[=].valueCoding = TreR396Autorite#ARS-28
+* #76 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #76 ^property[+].code = #region
 * #76 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #76 ^property[=].valueCoding = TRE_R30_RegionOM#28
@@ -1513,7 +1513,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #77 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #77 ^property[+].code = #autoriteEpars
 * #77 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #77 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #77 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #77 ^property[+].code = #region
 * #77 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #77 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1530,7 +1530,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #78 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #78 ^property[+].code = #autoriteEpars
 * #78 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #78 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #78 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #78 ^property[+].code = #region
 * #78 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #78 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1551,7 +1551,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #79 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #79 ^property[+].code = #autoriteEpars
 * #79 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #79 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #79 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #79 ^property[+].code = #region
 * #79 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #79 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -1568,7 +1568,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #80 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #80 ^property[+].code = #autoriteEpars
 * #80 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #80 ^property[=].valueCoding = TreR396Autorite#ARS-32
+* #80 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #80 ^property[+].code = #region
 * #80 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #80 ^property[=].valueCoding = TRE_R30_RegionOM#32
@@ -1585,7 +1585,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #81 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #81 ^property[+].code = #autoriteEpars
 * #81 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #81 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #81 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #81 ^property[+].code = #region
 * #81 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #81 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -1606,7 +1606,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #82 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #82 ^property[+].code = #autoriteEpars
 * #82 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #82 ^property[=].valueCoding = TreR396Autorite#ARS-76
+* #82 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #82 ^property[+].code = #region
 * #82 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #82 ^property[=].valueCoding = TRE_R30_RegionOM#76
@@ -1623,7 +1623,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #83 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #83 ^property[+].code = #autoriteEpars
 * #83 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #83 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #83 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #83 ^property[+].code = #region
 * #83 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #83 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -1640,7 +1640,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #84 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #84 ^property[+].code = #autoriteEpars
 * #84 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #84 ^property[=].valueCoding = TreR396Autorite#ARS-93
+* #84 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #84 ^property[+].code = #region
 * #84 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #84 ^property[=].valueCoding = TRE_R30_RegionOM#93
@@ -1661,7 +1661,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #85 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #85 ^property[+].code = #autoriteEpars
 * #85 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #85 ^property[=].valueCoding = TreR396Autorite#ARS-52
+* #85 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #85 ^property[+].code = #region
 * #85 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #85 ^property[=].valueCoding = TRE_R30_RegionOM#52
@@ -1678,7 +1678,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #86 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #86 ^property[+].code = #autoriteEpars
 * #86 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #86 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #86 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #86 ^property[+].code = #region
 * #86 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #86 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -1699,7 +1699,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #87 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #87 ^property[+].code = #autoriteEpars
 * #87 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #87 ^property[=].valueCoding = TreR396Autorite#ARS-75
+* #87 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #87 ^property[+].code = #region
 * #87 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #87 ^property[=].valueCoding = TRE_R30_RegionOM#75
@@ -1716,7 +1716,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #88 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #88 ^property[+].code = #autoriteEpars
 * #88 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #88 ^property[=].valueCoding = TreR396Autorite#ARS-41
+* #88 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #88 ^property[+].code = #region
 * #88 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #88 ^property[=].valueCoding = TRE_R30_RegionOM#44
@@ -1733,7 +1733,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #89 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #89 ^property[+].code = #autoriteEpars
 * #89 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #89 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #89 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #89 ^property[+].code = #region
 * #89 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #89 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -1750,7 +1750,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #90 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #90 ^property[+].code = #autoriteEpars
 * #90 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #90 ^property[=].valueCoding = TreR396Autorite#ARS-27
+* #90 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #90 ^property[+].code = #region
 * #90 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #90 ^property[=].valueCoding = TRE_R30_RegionOM#27
@@ -1767,7 +1767,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #91 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #91 ^property[+].code = #autoriteEpars
 * #91 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #91 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #91 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #91 ^property[+].code = #region
 * #91 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #91 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1788,7 +1788,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #92 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #92 ^property[+].code = #autoriteEpars
 * #92 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #92 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #92 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #92 ^property[+].code = #region
 * #92 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #92 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1809,7 +1809,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #93 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #93 ^property[+].code = #autoriteEpars
 * #93 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #93 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #93 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #93 ^property[+].code = #region
 * #93 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #93 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1830,7 +1830,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #94 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #94 ^property[+].code = #autoriteEpars
 * #94 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #94 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #94 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #94 ^property[+].code = #region
 * #94 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #94 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1851,7 +1851,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #95 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #95 ^property[+].code = #autoriteEpars
 * #95 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #95 ^property[=].valueCoding = TreR396Autorite#ARS-11
+* #95 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #95 ^property[+].code = #region
 * #95 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #95 ^property[=].valueCoding = TRE_R30_RegionOM#11
@@ -1868,7 +1868,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #971 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #971 ^property[+].code = #autoriteEpars
 * #971 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #971 ^property[=].valueCoding = TreR396Autorite#ARS-01
+* #971 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #971 ^property[+].code = #region
 * #971 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #971 ^property[=].valueCoding = TRE_R30_RegionOM#01
@@ -1885,7 +1885,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #972 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #972 ^property[+].code = #autoriteEpars
 * #972 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #972 ^property[=].valueCoding = TreR396Autorite#ARS-02
+* #972 ^property[=].valueCoding = $tre-r396-autorite#ARS-02
 * #972 ^property[+].code = #region
 * #972 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #972 ^property[=].valueCoding = TRE_R30_RegionOM#02
@@ -1902,7 +1902,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #973 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #973 ^property[+].code = #autoriteEpars
 * #973 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #973 ^property[=].valueCoding = TreR396Autorite#ARS-03
+* #973 ^property[=].valueCoding = $tre-r396-autorite#ARS-03
 * #973 ^property[+].code = #region
 * #973 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #973 ^property[=].valueCoding = TRE_R30_RegionOM#03
@@ -1923,7 +1923,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #974 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #974 ^property[+].code = #autoriteEpars
 * #974 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #974 ^property[=].valueCoding = TreR396Autorite#ARS-05
+* #974 ^property[=].valueCoding = $tre-r396-autorite#ARS-05
 * #974 ^property[+].code = #region
 * #974 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #974 ^property[=].valueCoding = TRE_R30_RegionOM#04
@@ -1940,7 +1940,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #975 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #975 ^property[+].code = #region
 * #975 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #975 ^property[=].valueCoding = TreR396Autorite#975
+* #975 ^property[=].valueCoding = $tre-r396-autorite#975
 * #975 ^property[+].code = #status
 * #975 ^property[=].valueCode = #active
 * #976 "Mayotte"
@@ -1954,7 +1954,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #976 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #976 ^property[+].code = #region
 * #976 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #976 ^property[=].valueCoding = TreR396Autorite#06
+* #976 ^property[=].valueCoding = $tre-r396-autorite#06
 * #976 ^property[+].code = #status
 * #976 ^property[=].valueCode = #active
 * #977 "Saint-Barthélemy"
@@ -1972,7 +1972,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #977 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #977 ^property[+].code = #autoriteEpars
 * #977 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #977 ^property[=].valueCoding = TreR396Autorite#ARS-01
+* #977 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #977 ^property[+].code = #region
 * #977 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #977 ^property[=].valueCoding = TRE_R30_RegionOM#977
@@ -1993,7 +1993,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #978 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #978 ^property[+].code = #autoriteEpars
 * #978 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #978 ^property[=].valueCoding = TreR396Autorite#ARS-01
+* #978 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #978 ^property[+].code = #region
 * #978 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #978 ^property[=].valueCoding = TRE_R30_RegionOM#978
@@ -2014,7 +2014,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #984 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #984 ^property[+].code = #region
 * #984 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #984 ^property[=].valueCoding = TreR396Autorite#984
+* #984 ^property[=].valueCoding = $tre-r396-autorite#984
 * #984 ^property[+].code = #status
 * #984 ^property[=].valueCode = #active
 * #985 "Mayotte (Ancien Code)"
@@ -2050,7 +2050,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #986 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #986 ^property[+].code = #region
 * #986 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #986 ^property[=].valueCoding = TreR396Autorite#986
+* #986 ^property[=].valueCoding = $tre-r396-autorite#986
 * #986 ^property[+].code = #status
 * #986 ^property[=].valueCode = #active
 * #987 "Polynésie française"
@@ -2068,7 +2068,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #987 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #987 ^property[+].code = #region
 * #987 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #987 ^property[=].valueCoding = TreR396Autorite#987
+* #987 ^property[=].valueCoding = $tre-r396-autorite#987
 * #987 ^property[+].code = #status
 * #987 ^property[=].valueCode = #active
 * #988 "Nouvelle-Calédonie"
@@ -2086,7 +2086,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #988 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #988 ^property[+].code = #region
 * #988 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #988 ^property[=].valueCoding = TreR396Autorite#988
+* #988 ^property[=].valueCoding = $tre-r396-autorite#988
 * #988 ^property[+].code = #status
 * #988 ^property[=].valueCode = #active
 * #989 "La Passion-Clipperton"
@@ -2104,7 +2104,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #989 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #989 ^property[+].code = #region
 * #989 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #989 ^property[=].valueCoding = TreR396Autorite#989
+* #989 ^property[=].valueCoding = $tre-r396-autorite#989
 * #989 ^property[+].code = #status
 * #989 ^property[=].valueCode = #active
 * #91352 "Alger"
@@ -2200,7 +2200,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #99138 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #99138 ^property[+].code = #region
 * #99138 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
-* #99138 ^property[=].valueCoding = TreR396Autorite#99138
+* #99138 ^property[=].valueCoding = $tre-r396-autorite#99138
 * #99138 ^property[+].code = #status
 * #99138 ^property[=].valueCode = #active
 * #2A "Corse-du-Sud"
@@ -2218,7 +2218,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2A ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #2A ^property[+].code = #autoriteEpars
 * #2A ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #2A ^property[=].valueCoding = TreR396Autorite#ARS-94
+* #2A ^property[=].valueCoding = $tre-r396-autorite#ARS-94
 * #2A ^property[+].code = #region
 * #2A ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #2A ^property[=].valueCoding = TRE_R30_RegionOM#94
@@ -2236,7 +2236,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2B ^property[+].code = #dateMaj
 * #2B ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #2B ^property[+].code = #autoriteEpars
-* #2B ^property[=].valueCoding = TreR396Autorite#ARS-94
+* #2B ^property[=].valueCoding = $tre-r396-autorite#ARS-94
 * #2B ^property[+].code = #region
 * #2B ^property[=].valueCoding = TRE_R30_RegionOM#94
 * #2B ^property[+].code = #status

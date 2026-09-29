@@ -1,8 +1,8 @@
 CodeSystem: TRE_R257_TypeBAL
 Id: TRE-R257-TypeBAL
 Description: "Type de boîte aux lettres"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:42.167+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T20:13:10.607+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-03-30T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Type de boîte aux lettres"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

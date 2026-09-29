@@ -1,8 +1,8 @@
 ValueSet: JDV_J50_AccessibiliteLieu_ROR
 Id: JDV-J50-AccessibiliteLieu-ROR
 Description: "Niveaux d'accessibilité d'un établissement recevant du public (ERP) - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:34.431+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:38.546+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Niveaux d'accessibilité d'un établissement recevant du public (E
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R202-AccessibiliteLieu#1 "Accessible"
 * $TRE-R202-AccessibiliteLieu#2 "Non accessible"
 * $TRE-R202-AccessibiliteLieu#3 "Sur demande"

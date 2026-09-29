@@ -1,8 +1,8 @@
 ValueSet: JDV_J275_EMDN_UPNOS
 Id: JDV-J275-EMDN-UPNOS
 Description: "Termes EMDN utilisés"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2025-07-02T17:06:19.118+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T19:06:26.711+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Termes EMDN utilisés"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $terminologie-emdn#V030201 "TOISES"
 * $terminologie-emdn#V030209 "TOISES À USAGE CLINIQUE"
 * $terminologie-emdn#Z12030205 "TENSIOMÈTRES NON INVASIFS"

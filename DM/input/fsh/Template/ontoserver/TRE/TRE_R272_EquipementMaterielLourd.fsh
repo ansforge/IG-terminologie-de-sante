@@ -1,8 +1,8 @@
 CodeSystem: TRE_R272_EquipementMaterielLourd
 Id: TRE-R272-EquipementMaterielLourd
 Description: "Equipements Matériels Lourds"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:00.509+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:16.929+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"

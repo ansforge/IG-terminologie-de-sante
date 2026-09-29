@@ -1,8 +1,8 @@
 ValueSet: JDV_J224_StatutLieu_ROR
 Id: JDV-J224-StatutLieu-ROR
 Description: "Statut lieu"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:56.954+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:02.290+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Statut lieu"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R203-StatutLieu#1 "Fermé définitivement"
 * $TRE-R203-StatutLieu#2 "Fermé temporairement"
 * $TRE-R203-StatutLieu#3 "Opérationnel"

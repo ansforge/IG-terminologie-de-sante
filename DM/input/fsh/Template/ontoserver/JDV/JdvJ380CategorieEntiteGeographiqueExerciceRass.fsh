@@ -2,8 +2,8 @@ ValueSet: JdvJ380CategorieEntiteGeographiqueExerciceRass
 Id: jdv-j380-categorie-entite-geographique-exercice-rass
 Title: "Jdv J380 Categorie Entite Geographique Exercice Rass"
 Description: "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-05-05T19:02:24.131+02:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-07T17:48:20.580+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"
 * ^experimental = false
 * ^date = "2026-02-23T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FRA
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * include codes from system $tre-r397-categorie-entite-geographique-exercice
     where rass = "true" and
     niveau = "4"

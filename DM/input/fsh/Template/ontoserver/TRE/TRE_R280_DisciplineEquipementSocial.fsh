@@ -1,8 +1,8 @@
 CodeSystem: TRE_R280_DisciplineEquipementSocial
 Id: TRE-R280-DisciplineEquipementSocial
 Description: "Disciplines d'équipement pour le social"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:02.176+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:13:20.594+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Disciplines d'équipement pour le social"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.133"
-* ^version = "20260330120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 133
+* ^count = 134
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -600,6 +600,17 @@ Description: "Disciplines d'équipement pour le social"
 * #569 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #569 ^property[+].code = #status
 * #569 ^property[=].valueCode = #deprecated
+* #570 "Unités résidentielles pour cas complexes" "Ces unités ont le statut de MAS et sont adossées à des établissements médico-sociaux pour adultes handicapés existants mentionnés au 7° de l’article L.312-1 du CASF.\n\nLe fonctionnement et l’organisation des URTSA :\n\n- Ces unités ont une haute intensité de prise en charge des patients, avec des pathologies lourdes.\n\n- La création de ces unités nécessite des locaux spécifiques adaptés à l'accueil de ce public.\n\n- Le public ne peut pas être accueilli dans les locaux dans lesquels sont accueillis les autres publics car les personnes accueillies dans ces unités présentent des troubles majeurs du comportement et nécessitent un accompagnement spécifique, de très grande proximité, un écosystème sécurisé, une architecture adaptée et des professionnels experts notamment formés à la gestion de crise.\n\n- Ce sont généralement des très petites unités de vie avec deux unités de trois places ou trois unités de deux places au sein d'un unique bâtiment. Cette configuration permet d’avoir des espaces de vie collective et des espaces de prise en charge individuelle pour isoler les résidents du collectif.\n\n- L’accueil prévu est de 6 personnes."
+* #570 ^designation[0].language = #fr-FR
+* #570 ^designation[=].use.system = "http://snomed.info/sct"
+* #570 ^designation[=].use = $sct#900000000000013009
+* #570 ^designation[=].value = "URTSA"
+* #570 ^property[0].code = #dateValid
+* #570 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #570 ^property[+].code = #dateMaj
+* #570 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #570 ^property[+].code = #status
+* #570 ^property[=].valueCode = #active
 * #589 "Tutelle d'État"
 * #589 ^designation[0].language = #fr-FR
 * #589 ^designation[=].use.system = "http://snomed.info/sct"

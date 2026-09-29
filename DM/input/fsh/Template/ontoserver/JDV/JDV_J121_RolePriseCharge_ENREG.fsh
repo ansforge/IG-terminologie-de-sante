@@ -1,9 +1,9 @@
 ValueSet: JDV_J121_RolePriseCharge_ENREG
 Id: JDV-J121-RolePriseCharge-ENREG
 Description: "Code des rôles et fonctions pour l'application ENREG"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2026-05-05T19:02:36.500+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.versionId = "18"
+* ^meta.lastUpdated = "2026-09-28T10:32:27.411+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"

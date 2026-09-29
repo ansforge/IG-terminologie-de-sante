@@ -1,30 +1,33 @@
 CodeSystem: TRE_R220_ModeleDocumentCDAStructure
 Id: TRE-R220-ModeleDocumentCDAStructure
 Description: "Identifiant des modèles de CDA structurés"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-10-31T15:01:31.499+01:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:12:55.221+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.328"
-* ^version = "20251029120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-10-29T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 83
+* ^count = 88
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -164,6 +167,61 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.18 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.18 ^property[+].code = #status
 * #1.2.250.1.213.1.1.1.18 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.11.1.19.1 "PSIG – Formulaire MSO Rougeole"
+* #1.2.250.1.213.1.11.1.19.1 ^designation[0].language = #fr-FR
+* #1.2.250.1.213.1.11.1.19.1 ^designation[=].use.system = "http://snomed.info/sct"
+* #1.2.250.1.213.1.11.1.19.1 ^designation[=].use = $sct#900000000000013009
+* #1.2.250.1.213.1.11.1.19.1 ^designation[=].value = "PSIG-MSO-ROUGEOLE"
+* #1.2.250.1.213.1.11.1.19.1 ^property[0].code = #dateValid
+* #1.2.250.1.213.1.11.1.19.1 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.1 ^property[+].code = #dateMaj
+* #1.2.250.1.213.1.11.1.19.1 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.1 ^property[+].code = #status
+* #1.2.250.1.213.1.11.1.19.1 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.11.1.19.2 "PSIG – Formulaire MSO Dengue"
+* #1.2.250.1.213.1.11.1.19.2 ^designation[0].language = #fr-FR
+* #1.2.250.1.213.1.11.1.19.2 ^designation[=].use.system = "http://snomed.info/sct"
+* #1.2.250.1.213.1.11.1.19.2 ^designation[=].use = $sct#900000000000013009
+* #1.2.250.1.213.1.11.1.19.2 ^designation[=].value = "PSIG-MSO-DENGUE"
+* #1.2.250.1.213.1.11.1.19.2 ^property[0].code = #dateValid
+* #1.2.250.1.213.1.11.1.19.2 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.2 ^property[+].code = #dateMaj
+* #1.2.250.1.213.1.11.1.19.2 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.2 ^property[+].code = #status
+* #1.2.250.1.213.1.11.1.19.2 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.11.1.19.3 "PSIG – Formulaire MSO Chikungunya"
+* #1.2.250.1.213.1.11.1.19.3 ^designation[0].language = #fr-FR
+* #1.2.250.1.213.1.11.1.19.3 ^designation[=].use.system = "http://snomed.info/sct"
+* #1.2.250.1.213.1.11.1.19.3 ^designation[=].use = $sct#900000000000013009
+* #1.2.250.1.213.1.11.1.19.3 ^designation[=].value = "PSIG-MSO-CHIKUNG"
+* #1.2.250.1.213.1.11.1.19.3 ^property[0].code = #dateValid
+* #1.2.250.1.213.1.11.1.19.3 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.3 ^property[+].code = #dateMaj
+* #1.2.250.1.213.1.11.1.19.3 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.3 ^property[+].code = #status
+* #1.2.250.1.213.1.11.1.19.3 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.11.1.19.4 "PSIG – Formulaire MSO Zika"
+* #1.2.250.1.213.1.11.1.19.4 ^designation[0].language = #fr-FR
+* #1.2.250.1.213.1.11.1.19.4 ^designation[=].use.system = "http://snomed.info/sct"
+* #1.2.250.1.213.1.11.1.19.4 ^designation[=].use = $sct#900000000000013009
+* #1.2.250.1.213.1.11.1.19.4 ^designation[=].value = "PSIG-MSO-ZIKA"
+* #1.2.250.1.213.1.11.1.19.4 ^property[0].code = #dateValid
+* #1.2.250.1.213.1.11.1.19.4 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.4 ^property[+].code = #dateMaj
+* #1.2.250.1.213.1.11.1.19.4 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.4 ^property[+].code = #status
+* #1.2.250.1.213.1.11.1.19.4 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.11.1.19.5 "PSIG – Formulaire MSO West Nile"
+* #1.2.250.1.213.1.11.1.19.5 ^designation[0].language = #fr-FR
+* #1.2.250.1.213.1.11.1.19.5 ^designation[=].use.system = "http://snomed.info/sct"
+* #1.2.250.1.213.1.11.1.19.5 ^designation[=].use = $sct#900000000000013009
+* #1.2.250.1.213.1.11.1.19.5 ^designation[=].value = "PSIG-MSO-WESTNILE"
+* #1.2.250.1.213.1.11.1.19.5 ^property[0].code = #dateValid
+* #1.2.250.1.213.1.11.1.19.5 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.5 ^property[+].code = #dateMaj
+* #1.2.250.1.213.1.11.1.19.5 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1.2.250.1.213.1.11.1.19.5 ^property[+].code = #status
+* #1.2.250.1.213.1.11.1.19.5 ^property[=].valueCode = #active
 * #1.2.250.1.213.1.1.1.2.1.1 "Fiche patient à risque en cardiologie - Traitement AVK"
 * #1.2.250.1.213.1.1.1.2.1.1 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.2.1.1 ^designation[=].use.system = "http://snomed.info/sct"

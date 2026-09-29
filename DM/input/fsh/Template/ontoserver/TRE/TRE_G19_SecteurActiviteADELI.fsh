@@ -1,8 +1,8 @@
 CodeSystem: TRE_G19_SecteurActiviteADELI
 Id: TRE-G19-SecteurActiviteADELI
 Description: "Secteur d'activité ADELI"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T18:11:51.547+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:12:33.378+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
@@ -14,7 +14,7 @@ Description: "Secteur d'activité ADELI"
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

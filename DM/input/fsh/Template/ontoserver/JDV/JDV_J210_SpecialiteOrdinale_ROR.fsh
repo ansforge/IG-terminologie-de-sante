@@ -1,8 +1,8 @@
 ValueSet: JDV_J210_SpecialiteOrdinale_ROR
 Id: JDV-J210-SpecialiteOrdinale-ROR
 Description: "Spécialité ordinale"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-05-05T19:02:45.540+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-09-28T10:32:33.139+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,19 +10,20 @@ Description: "Spécialité ordinale"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.42"
-* ^version = "20260330120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R38-SpecialiteOrdinale#SCD01 "Orthopédie dento-faciale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD02 "Chirurgie orale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD03 "Médecine bucco-dentaire (SCD)"
-* $TRE-R38-SpecialiteOrdinale#SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
-* $TRE-R38-SpecialiteOrdinale#SI02 "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
-* $TRE-R38-SpecialiteOrdinale#SI03 "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
-* $TRE-R38-SpecialiteOrdinale#SI04 "Exercice infirmier en pratique avancée santé mentale (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI01 "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI02 "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI03 "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI04 "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
+* $TRE-R38-SpecialiteOrdinale#SI08 "Infirmier(ère) puériculteur(trice)"
 * $TRE-R38-SpecialiteOrdinale#SM01 "Anatomie et Cytologie pathologiques (SM)"
 * $TRE-R38-SpecialiteOrdinale#SM02 "Anesthésie-réanimation (SM)"
 * $TRE-R38-SpecialiteOrdinale#SM03 "Biologie médicale (SM)"

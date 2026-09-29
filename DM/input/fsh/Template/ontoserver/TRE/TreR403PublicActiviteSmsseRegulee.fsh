@@ -2,24 +2,24 @@ CodeSystem: TreR403PublicActiviteSmsseRegulee
 Id: tre-r403-public-activite-smsse-regulee
 Title: "Tre R403 Public Activite Smsse Regulee"
 Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2026-05-05T20:12:23.967+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:14:31.868+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-02-23T12:00:00.000+00:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.382"
-* ^version = "20260223120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00.000+00:00"
+* ^date = "2026-06-29T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 157
+* ^count = 161
 * ^property[0].code = #niveau
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
@@ -2583,6 +2583,70 @@ Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Client
 * #840 ^property[=].valueCode = #5100
 * #840 ^property[+].code = #finess
 * #840 ^property[=].valueBoolean = true
+* #841 "Périnatalité"
+* #841 ^property[0].code = #dateValid
+* #841 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #841 ^property[+].code = #dateMaj
+* #841 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #841 ^property[+].code = #status
+* #841 ^property[=].valueCode = #active
+* #841 ^property[+].code = #niveau
+* #841 ^property[=].valueInteger = 3
+* #841 ^property[+].code = #parent
+* #841 ^property[=].valueCode = #6100
+* #841 ^property[+].code = #finess
+* #841 ^property[=].valueBoolean = true
+* #842 "Adultes (sans autre indication)"
+* #842 ^designation.language = #fr-FR
+* #842 ^designation.use.system = "http://snomed.info/sct"
+* #842 ^designation.use = $sct#900000000000013009
+* #842 ^designation.value = "Adultes (SAI)"
+* #842 ^property[0].code = #dateValid
+* #842 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #842 ^property[+].code = #dateMaj
+* #842 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #842 ^property[+].code = #status
+* #842 ^property[=].valueCode = #active
+* #842 ^property[+].code = #niveau
+* #842 ^property[=].valueInteger = 3
+* #842 ^property[+].code = #parent
+* #842 ^property[=].valueCode = #6100
+* #842 ^property[+].code = #finess
+* #842 ^property[=].valueBoolean = true
+* #843 "Enfants et adolescents (sans autre indication)"
+* #843 ^designation.language = #fr-FR
+* #843 ^designation.use.system = "http://snomed.info/sct"
+* #843 ^designation.use = $sct#900000000000013009
+* #843 ^designation.value = "Enfants et adolescents (SAI)"
+* #843 ^property[0].code = #dateValid
+* #843 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #843 ^property[+].code = #dateMaj
+* #843 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #843 ^property[+].code = #status
+* #843 ^property[=].valueCode = #active
+* #843 ^property[+].code = #niveau
+* #843 ^property[=].valueInteger = 3
+* #843 ^property[+].code = #parent
+* #843 ^property[=].valueCode = #6100
+* #843 ^property[+].code = #finess
+* #843 ^property[=].valueBoolean = true
+* #844 "Patients de soins sans consentement"
+* #844 ^designation.language = #fr-FR
+* #844 ^designation.use.system = "http://snomed.info/sct"
+* #844 ^designation.use = $sct#900000000000013009
+* #844 ^designation.value = "Patients S.C.C."
+* #844 ^property[0].code = #dateValid
+* #844 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #844 ^property[+].code = #dateMaj
+* #844 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #844 ^property[+].code = #status
+* #844 ^property[=].valueCode = #active
+* #844 ^property[+].code = #niveau
+* #844 ^property[=].valueInteger = 3
+* #844 ^property[+].code = #parent
+* #844 ^property[=].valueCode = #6100
+* #844 ^property[+].code = #finess
+* #844 ^property[=].valueBoolean = true
 * #850 "Personnes souffrant d'addictions sans substances"
 * #850 ^designation.language = #fr-FR
 * #850 ^designation.use.system = "http://snomed.info/sct"

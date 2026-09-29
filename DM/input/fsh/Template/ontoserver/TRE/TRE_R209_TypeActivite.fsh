@@ -1,22 +1,23 @@
 CodeSystem: TRE_R209_TypeActivite
 Id: TRE-R209-TypeActivite
 Description: "Type d'activité"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:13:47.558+00:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:12:46.462+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.2.2"
-* ^version = "20240223120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-02-23T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 52
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -594,6 +595,13 @@ Description: "Type d'activité"
 * #53 ^property[=].valueDateTime = "2010-11-26T00:00:00+01:00"
 * #53 ^property[+].code = #status
 * #53 ^property[=].valueCode = #active
+* #54 "Accueil familial"
+* #54 ^property[0].code = #dateValid
+* #54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #54 ^property[+].code = #dateMaj
+* #54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #54 ^property[+].code = #status
+* #54 ^property[=].valueCode = #active
 * #60 "Consultations et actes"
 * #60 ^designation[0].language = #fr-FR
 * #60 ^designation[=].use.system = "http://snomed.info/sct"

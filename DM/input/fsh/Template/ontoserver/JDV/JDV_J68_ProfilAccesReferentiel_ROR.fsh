@@ -1,8 +1,8 @@
 ValueSet: JDV_J68_ProfilAccesReferentiel_ROR
 Id: JDV-J68-ProfilAccesReferentiel-ROR
 Description: "Liste des rôles métiers définis dans la politique d'accès au ROR"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:44.854+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:52.063+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Liste des rôles métiers définis dans la politique d'accès au R
 * ^experimental = false
 * ^date = "2025-05-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R78-ProfilAccesReferentiel#CU17 "Professionnel de santé"
 * $TRE-R78-ProfilAccesReferentiel#CU18 "Orientation sanitaire et médico-sociale"
 * $TRE-R78-ProfilAccesReferentiel#CU19 "Orientation médico-sociale"

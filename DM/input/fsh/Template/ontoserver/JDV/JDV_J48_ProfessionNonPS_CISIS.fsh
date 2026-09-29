@@ -1,8 +1,8 @@
 ValueSet: JDV_J48_ProfessionNonPS_CISIS
 Id: JDV-J48-ProfessionNonPS-CISIS
 Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T17:06:33.556+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:06:37.823+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "Jeux de Valeurs des professions/spécialités des Non Ps"
 * ^experimental = false
 * ^date = "2024-12-13T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R95-UsagerTitre#71 "Ostéopathe"
 * $TRE-R95-UsagerTitre#72 "Psychothérapeute"
 * $TRE-R95-UsagerTitre#73 "Chiropracteur"

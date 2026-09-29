@@ -2,9 +2,9 @@ ValueSet: JdvJ326ActiviteSocialeReguleeNiv3Finess
 Id: jdv-j326-activite-sociale-regulee-niv3-finess
 Title: "Jdv J326 Activite Sociale Regulee Niv3 Finess"
 Description: "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2026-05-05T19:02:15.402+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-07T17:48:15.656+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-02-23T12:00:00.000+00:00"
@@ -15,7 +15,6 @@ Description: "Jeu de valeurs FINESS contenant les activités régulées pour le 
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * include codes from system $tre-r401-activite-sociale-regulee
     where niveau = "3" and
     finess = "true"

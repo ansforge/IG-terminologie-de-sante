@@ -1,8 +1,8 @@
 ValueSet: JDV_J245_Civilite_CISIS
 Id: JDV-J245-Civilite-CISIS
 Description: "Civilités CI-SIS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:07.095+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:13.083+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,6 +15,6 @@ Description: "Civilités CI-SIS"
 * ^experimental = false
 * ^date = "2023-03-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R81-Civilite#M "Monsieur"
 * $TRE-R81-Civilite#MME "Madame"

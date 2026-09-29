@@ -2,8 +2,8 @@ CodeSystem: TreR402ActiviteEnseignementRegulee
 Id: tre-r402-activite-enseignement-regulee
 Title: "Tre R402 Activite Enseignement Regulee"
 Description: "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2026-05-05T20:12:23.041+02:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2026-07-06T20:14:30.992+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

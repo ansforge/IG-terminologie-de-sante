@@ -1,8 +1,8 @@
 ValueSet: JDV_J28_OuvertureAnnuelle_ROR
 Id: JDV-J28-OuvertureAnnuelle-ROR
 Description: "Ouverture annuelle - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:24.466+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:28.879+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Ouverture annuelle - ROR"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R238-OuvertureAnnuelle#01 "Semaine hors week-end jusqu'à 210 jours par an"
 * $TRE-R238-OuvertureAnnuelle#02 "Semaine et week-end (de 211 à 364 jours par an)"
 * $TRE-R238-OuvertureAnnuelle#03 "Année complète (365 jours par an)"

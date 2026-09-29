@@ -1,8 +1,8 @@
 CodeSystem: TRE_R54_DiplomeUniversiteInterUniversitaire
 Id: TRE-R54-DiplomeUniversiteInterUniversitaire
 Description: "Diplôme d'Université ou Inter-Universitaire"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-07-02T18:18:20.052+00:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:14:40.944+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-29T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * ^experimental = false
 * ^date = "2024-07-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

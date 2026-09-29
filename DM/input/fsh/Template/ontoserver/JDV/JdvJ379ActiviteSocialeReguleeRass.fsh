@@ -2,9 +2,9 @@ ValueSet: JdvJ379ActiviteSocialeReguleeRass
 Id: jdv-j379-activite-sociale-regulee-rass
 Title: "Jdv J379 Activite Sociale Regulee Rass"
 Description: "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2026-05-05T19:02:23.737+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-07T17:48:20.117+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-02-23T18:02:28.249+00:00"
@@ -15,7 +15,7 @@ Description: "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"
 * ^experimental = false
 * ^date = "2026-02-23T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FRA
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * include codes from system $tre-r401-activite-sociale-regulee
     where niveau = "4" and
     status = "active"

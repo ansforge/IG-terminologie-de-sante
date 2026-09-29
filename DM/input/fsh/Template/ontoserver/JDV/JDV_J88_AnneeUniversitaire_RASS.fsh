@@ -1,8 +1,8 @@
 ValueSet: JDV_J88_AnneeUniversitaire_RASS
 Id: JDV-J88-AnneeUniversitaire-RASS
 Description: "Années universitaires des professionnels du RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-11-04T19:02:08.552+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:07:02.335+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

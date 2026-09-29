@@ -1,8 +1,8 @@
 ValueSet: JDV_J128_TypeCarte_RASS
 Id: JDV-J128-TypeCarte-RASS
 Description: "Type de carte dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:56.594+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:00.754+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type de carte dans le RASS"
 * ^experimental = false
 * ^date = "2020-11-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R87-TypeCarte#CPA "Carte de Personnel Autorisé (CDA/CPA)"
 * $TRE-R87-TypeCarte#CPE "Carte de Personnel d'Etablissement de santé (CDE/CPE)"
 * $TRE-R87-TypeCarte#CPF "Carte de Professionnel de Santé en Formation (CPF)"

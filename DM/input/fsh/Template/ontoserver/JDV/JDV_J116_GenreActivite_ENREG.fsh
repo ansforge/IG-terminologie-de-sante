@@ -1,8 +1,8 @@
 ValueSet: JDV_J116_GenreActivite_ENREG
 Id: JDV-J116-GenreActivite-ENREG
 Description: "Genre d'activité pour ENREG"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:50.388+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:04:54.742+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Genre d'activité pour ENREG"
 * ^experimental = false
 * ^date = "2023-11-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R22-GenreActivite#GENR01 "Activité de soin et de pharmacie"
 * $TRE-R22-GenreActivite#GENR08 "Coordination et orientation"
 * $TRE-R22-GenreActivite#GENR09 "Administratif ou appui à l'organisation de l'accompagnement social/médico-social"

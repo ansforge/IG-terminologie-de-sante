@@ -1,8 +1,8 @@
 ValueSet: JDV_J249_TerritoireSante_ROR
 Id: JDV-J249-TerritoireSante-ROR
 Description: "Territoire de Santé (au sens ARS) en France - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:09.845+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:17.157+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Territoire de Santé (au sens ARS) en France - ROR"
 * ^experimental = false
 * ^date = "2023-03-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R88-TerritoireSante#001 "Sud Yonne Haut-Nivernais"
 * $TRE-R88-TerritoireSante#002 "Bourgogne méridionale"
 * $TRE-R88-TerritoireSante#011 "Centre"

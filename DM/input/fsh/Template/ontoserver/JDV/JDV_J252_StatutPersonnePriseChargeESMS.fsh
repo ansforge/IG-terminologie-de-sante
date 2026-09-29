@@ -1,8 +1,8 @@
 ValueSet: JDV_J252_StatutPersonnePriseChargeESMS
 Id: JDV-J252-StatutPersonnePriseChargeESMS
 Description: "Statut de la personne prise en charge au sein d'un ESMS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:11.689+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:18.975+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Statut de la personne prise en charge au sein d'un ESMS"
 * ^experimental = false
 * ^date = "2023-09-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R357-StatutPersonnePriseCharge#37 "Décision d'orientation annulée"
 * $TRE-R357-StatutPersonnePriseCharge#39 "Notification envoyée"
 * $TRE-R357-StatutPersonnePriseCharge#40 "Notification lue"

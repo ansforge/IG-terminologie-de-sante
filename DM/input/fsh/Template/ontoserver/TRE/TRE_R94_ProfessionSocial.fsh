@@ -1,8 +1,8 @@
 CodeSystem: TRE_R94_ProfessionSocial
 Id: TRE-R94-ProfessionSocial
 Description: "Profession du social"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:19:22.247+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:14:55.702+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Profession du social"
 * ^experimental = false
 * ^date = "2024-12-13T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

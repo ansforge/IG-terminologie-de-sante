@@ -1,8 +1,8 @@
 ValueSet: JDV_J220_FonctionContact_ROR
 Id: JDV-J220-FonctionContact-ROR
 Description: "Un titre, une position, une fonction de la personne contact dans l'organisation"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:05:55.061+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:00.819+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Un titre, une position, une fonction de la personne contact dans l
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R251-FonctionContact#01 "Directeur"
 * $TRE-R251-FonctionContact#02 "Assistant social"
 * $TRE-R251-FonctionContact#03 "Cadre de santé"

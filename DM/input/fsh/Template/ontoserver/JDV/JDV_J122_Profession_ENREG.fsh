@@ -1,8 +1,8 @@
 ValueSet: JDV_J122_Profession_ENREG
 Id: JDV-J122-Profession-ENREG
 Description: "Liste des professions autorisées dans ENREG Cette liste ne doit contenir qu'une professions définie comme profession par défaut pour les professionnels caractérisés par leur rôle."
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:53.438+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:04:57.363+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,5 +15,5 @@ Description: "Liste des professions autorisées dans ENREG Cette liste ne doit c
 * ^experimental = false
 * ^date = "2023-11-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R291-AutreProfession#99 "Acteur participant au système de santé caractérisé par rôle"
