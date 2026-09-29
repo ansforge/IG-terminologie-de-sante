@@ -11,7 +11,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | | | | |
 | :--- | :--- | :--- | :--- |
 | Name | Description | date_maj | Status |
-| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) |  | 02/11/2026 | active |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 02/11/2026 | active |
 | [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 29/06/2026 | active |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 | active |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 | active |

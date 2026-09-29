@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mediatype-corps-cda-non-structure-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMediatypeCorpsCdaNonStructureCisis |
+| Retired as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMediatypeCorpsCdaNonStructureCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.822 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-mediatype-corps-cda-non-structure-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:45:00.406+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-29T11:27:20.954+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -87,7 +89,7 @@ Liens:
   "version" : "20251216141839",
   "name" : "JdvMediatypeCorpsCdaNonStructureCisis",
   "title" : "Jdv Mediatype Corps Cda Non Structure CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

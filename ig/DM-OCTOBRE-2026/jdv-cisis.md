@@ -224,7 +224,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvLocalisationPrelevementCcuCisis](ValueSet-jdv-localisation-prelevement-ccu-cisis.md) | JDV Localisation Prelevement Ccu CISIS | 28/09/2026 | active |
 | [JdvLocalisationThromboseVeineuseCisis](ValueSet-jdv-localisation-thrombose-veineuse-cisis.md) | JDV Localisation Thrombose Veineuse CISIS | 28/09/2026 | active |
 | [JdvMalformationAntenataleCisis](ValueSet-jdv-malformation-antenatale-cisis.md) | JDV Malformation Antenatale CISIS | 28/09/2026 | active |
-| [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS | 16/12/2025 | active |
 | [JdvMesureAssocieeCisis](ValueSet-jdv-mesure-associee-cisis.md) | JDV Mesure Associee CISIS | 28/09/2026 | active |
 | [JdvMesureLentilleDelivreeCisis](ValueSet-jdv-mesure-lentille-delivree-cisis.md) | JDV Mesure Lentille Delivree CISIS | 28/09/2026 | active |
 | [JdvMesureLentillePrescriteCisis](ValueSet-jdv-mesure-lentille-prescrite-cisis.md) | JDV Mesure Lentille Prescrite CISIS | 28/09/2026 | active |
@@ -470,7 +469,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvTypePresentationCisis](ValueSet-jdv-type-presentation-cisis.md) | JDV Type Presentation CISIS | 28/09/2026 | active |
 | [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md) | JDV Type Prise En Charge CISIS | 28/09/2026 | active |
 | [JdvTypeProduitSanguinLabileCisis](ValueSet-jdv-type-produit-sanguin-labile-cisis.md) | JDV Type Produit Sanguin Labile CISIS | 28/09/2026 | active |
-| [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md) | JDV Type Rencontre CISIS | 16/09/2026 | active |
 | [JdvTypeRencontreObpCisis](ValueSet-jdv-type-rencontre-obp-cisis.md) | JDV Type Rencontre Obp CISIS | 28/09/2026 | active |
 | [JdvTypeResultatCisis](ValueSet-jdv-type-resultat-cisis.md) | JDV Type Resultat CISIS | 28/09/2026 | active |
 | [JdvTypeServiceCisis](ValueSet-jdv-type-service-cisis.md) | JDV Type Service CISIS | 28/09/2026 | active |

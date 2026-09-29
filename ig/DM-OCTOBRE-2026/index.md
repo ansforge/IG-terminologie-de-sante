@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-09-29T08:39:07+00:00",
+  "date" : "2026-09-29T12:08:37+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -45459,6 +45459,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r392-type-act-smsse-regulee"
       },
       "name" : "Tre R392 Type Act Smsse Regulee",
+      "description" : "Type activité SMSSE régulée",
       "exampleBoolean" : false
     },
     {

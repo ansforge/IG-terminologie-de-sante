@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
 
  
 CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS 
@@ -39,12 +39,12 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-  "version" : "20260629120000",
+  "version" : "20261102120000",
   "name" : "ConceptProperties",
   "title" : "Concept Properties",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00.000+00:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
   "jurisdiction" : [{
@@ -55,7 +55,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 37,
+  "count" : 40,
   "property" : [{
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
@@ -390,6 +390,33 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     "code" : "autoriteEnregistrementRass",
     "display" : "Autorite Enregistrement Rass",
     "definition" : "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "activiteReconnaisanceEcars",
+    "display" : "Activité Reconnaisance E-CARS",
+    "definition" : "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "modaliteEcars",
+    "display" : "Modalité E-CARS",
+    "definition" : "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant d'E-CARS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "formeEcars",
+    "display" : "Forme E-CARS",
+    "definition" : "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant d'E-CARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

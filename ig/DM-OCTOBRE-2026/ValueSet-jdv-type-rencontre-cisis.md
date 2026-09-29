@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis | *Version*:20260916095457 | |
-| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeRencontreCisis |
+| Retired as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeRencontreCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.291 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-type-rencontre-cisis",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-23T11:14:31.087+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-09-29T11:27:21.366+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -87,7 +89,7 @@ Liens:
   "version" : "20260916095457",
   "name" : "JdvTypeRencontreCisis",
   "title" : "JDV Type Rencontre CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-09-16T09:54:57+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
