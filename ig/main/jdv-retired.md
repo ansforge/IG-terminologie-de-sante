@@ -42,8 +42,10 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS |
 | [JdvLateraliteNcitCisis](ValueSet-jdv-lateralite-ncit-cisis.md) | JDV Lateralite Ncit CISIS |
 | [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS |
+| [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS |
+| [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md) | JDV Type Rencontre CISIS |
 

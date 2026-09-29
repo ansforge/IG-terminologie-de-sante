@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-event-indesirable-previsible-cisis | *Version*:20260916095454 | |
-| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEventIndesirablePrevisibleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-event-indesirable-previsible-cisis | *Version*:20260928134051 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEventIndesirablePrevisibleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.842 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-28
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-type-event-indesirable-previsible-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-09-23T11:14:27.909+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-09-28T15:44:15.553+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.842"
   }],
-  "version" : "20260916095454",
+  "version" : "20260928134051",
   "name" : "JdvTypeEventIndesirablePrevisibleCisis",
   "title" : "JDV Type Event Indesirable Previsible CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-16T09:54:54+01:00",
+  "date" : "2026-09-28T13:40:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Event Indesirable Previsible CISIS",
   "jurisdiction" : [{
@@ -107,11 +107,11 @@ Liens:
       },
       {
         "code" : "609328004",
-        "display" : "prédisposition aux allergies"
+        "display" : "allergie"
       },
       {
         "code" : "609396006",
-        "display" : "terrain d'hypersensibilité non allergique"
+        "display" : "hypersensibilité non allergique"
       },
       {
         "code" : "782197009",
