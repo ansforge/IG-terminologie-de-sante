@@ -48,7 +48,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-hl7-v2-0488-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-abord-veineux-central-cisis-testing.md) |
+|  [<prev](ValueSet-jdv-hl7-iso3166-1-2-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-abord-veineux-central-cisis-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on

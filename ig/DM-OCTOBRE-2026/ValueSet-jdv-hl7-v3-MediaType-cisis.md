@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:MediaType |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis | *Version*:20260928134051 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:MediaType |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.14824 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-MediaType-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:32.394+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-29T16:42:29.283+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.14824"
   }],
-  "version" : "20251216141839",
+  "version" : "20260928134051",
   "name" : "MediaType",
   "title" : "MediaType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-09-28T13:40:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "MediaType",
   "jurisdiction" : [{

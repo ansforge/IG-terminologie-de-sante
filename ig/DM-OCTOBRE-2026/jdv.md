@@ -32,6 +32,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 28/09/2026 | active |
 | [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 28/09/2026 | active |
 | [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 28/09/2026 | active |
+| [Iso316612](ValueSet-jdv-hl7-iso3166-1-2-cisis.md) | Iso 3166 Part 1: 2 Letter Codes | 16/09/2026 | active |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 28/09/2026 | active |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 | active |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 28/09/2026 | active |
@@ -826,7 +827,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvVaccinCse9Cisis](ValueSet-jdv-vaccin-cse9-cisis.md) | JDV Vaccin Cse9 CISIS | 28/09/2026 | active |
 | [JdvVieEnCollectiviteCisis](ValueSet-jdv-vie-en-collectivite-cisis.md) | JDV Vie En Collectivite CISIS | 28/09/2026 | active |
 | [JdvVoieAbordCisis](ValueSet-jdv-voie-abord-cisis.md) | JDV Voie Abord CISIS | 28/09/2026 | active |
-| [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType | 16/12/2025 | active |
+| [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType | 28/09/2026 | active |
 | [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 28/09/2026 | active |
 | [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) | ObservationMethod | 28/09/2026 | active |
 | [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) | ParticipationFunction | 28/09/2026 | active |
