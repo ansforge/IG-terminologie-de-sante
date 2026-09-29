@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis | *Version*:20260916095454 | |
-| Active as of 2026-09-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ParticipationFunction |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis | *Version*:20260928134050 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ParticipationFunction |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10267 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-25
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ParticipationFunction-cisis",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2026-09-23T11:14:39.244+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-28T15:44:26.533+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10267"
   }],
-  "version" : "20260916095454",
+  "version" : "20260928134050",
   "name" : "ParticipationFunction",
   "title" : "ParticipationFunction",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-16T09:54:54+01:00",
+  "date" : "2026-09-28T13:40:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ParticipationFunction",
   "jurisdiction" : [{

@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
+| Retired as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.512 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -53,7 +55,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-25
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-03-11T15:27:49.552+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-09-28T11:42:23.059+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -87,7 +89,7 @@ Liens:
   "version" : "20260311144904",
   "name" : "DaysOfWeek",
   "title" : "DaysOfWeek",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

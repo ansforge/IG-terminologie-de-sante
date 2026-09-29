@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R282_CNAMAmeliSecteurConventionnement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R282_CNAMAmeliSecteurConventionnement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.135 | | |
 
  
@@ -29,8 +29,8 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
   "resourceType" : "CodeSystem",
   "id" : "TRE-R282-CNAMAmeliSecteurConventionnement",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-07-06T20:13:21.585+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-28T10:28:02.081+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -44,11 +44,11 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.135"
   }],
-  "version" : "20231215120000",
+  "version" : "20260928120000",
   "name" : "TRE_R282_CNAMAmeliSecteurConventionnement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli",
   "jurisdiction" : [{
@@ -59,6 +59,7 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 8,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -100,12 +101,20 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -116,12 +125,20 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -140,12 +157,20 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -156,8 +181,80 @@ Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "0",
+    "display" : "Non conventionné",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1",
+    "display" : "Conventionné",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Conventionné avec dépassement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Conventionné avec honoraires libres",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

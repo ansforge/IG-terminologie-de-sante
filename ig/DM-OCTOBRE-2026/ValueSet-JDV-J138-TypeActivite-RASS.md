@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS | *Version*:20260730120000 | |
-| Retired as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J138_TypeActivite_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J138_TypeActivite_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.224 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-Expansions are not generated for retired value sets
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,7 +53,7 @@ Expansions are not generated for retired value sets
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-25
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -70,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J138-TypeActivite-RASS",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-07-29T08:04:47.341+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-09-28T10:32:28.005+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -86,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.224"
   }],
-  "version" : "20260730120000",
+  "version" : "20260928120000",
   "name" : "JDV_J138_TypeActivite_RASS",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type d'activité dans le RASS",
   "jurisdiction" : [{
@@ -261,6 +259,10 @@ Liens:
       {
         "code" : "53",
         "display" : "Information des Tuteurs Familiaux"
+      },
+      {
+        "code" : "54",
+        "display" : "Accueil familial"
       },
       {
         "code" : "60",

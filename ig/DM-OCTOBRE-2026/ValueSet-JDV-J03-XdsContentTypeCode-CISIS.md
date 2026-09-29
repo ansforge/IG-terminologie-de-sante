@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J03_XdsContentTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J03_XdsContentTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.464 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-25
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J03-XdsContentTypeCode-CISIS",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-07-06T19:04:32.739+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T10:32:24.027+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.464"
   }],
-  "version" : "20260223120000",
+  "version" : "20260928120000",
   "name" : "JDV_J03_XdsContentTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS contentTypeCode CI-SIS",
   "jurisdiction" : [{
@@ -230,6 +230,10 @@ Liens:
       {
         "code" : "52",
         "display" : "Accompagnement social personnalisé"
+      },
+      {
+        "code" : "54",
+        "display" : "Accueil familial"
       },
       {
         "code" : "60",

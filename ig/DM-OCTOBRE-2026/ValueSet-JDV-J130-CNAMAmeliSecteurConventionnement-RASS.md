@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J130-CNAMAmeliSecteurConventionnement-RASS/FHIR/JDV-J130-CNAMAmeliSecteurConventionnement-RASS | *Version*:20201127120000 | |
-| Active as of 2020-11-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J130_CNAMAmeliSecteurConventionnement_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J130-CNAMAmeliSecteurConventionnement-RASS/FHIR/JDV-J130-CNAMAmeliSecteurConventionnement-RASS | *Version*:20260928120000 | |
+| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J130_CNAMAmeliSecteurConventionnement_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.216 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-09-25
+2026-09-29
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J130-CNAMAmeliSecteurConventionnement-RASS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-06T19:05:03.300+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-09-28T10:32:27.669+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.216"
   }],
-  "version" : "20201127120000",
+  "version" : "20260928120000",
   "name" : "JDV_J130_CNAMAmeliSecteurConventionnement_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2020-11-27T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteur de conventionnement du professionnel libéral",
   "jurisdiction" : [{
@@ -101,20 +101,20 @@ Liens:
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement",
       "concept" : [{
-        "code" : "nc",
+        "code" : "0",
         "display" : "Non conventionné"
       },
       {
-        "code" : "c1",
-        "display" : "Secteur 1 ou conventionné"
+        "code" : "1",
+        "display" : "Conventionné"
       },
       {
-        "code" : "c2",
-        "display" : "Secteur 1 ou conventionné avec droit au dépassement permanent"
+        "code" : "2",
+        "display" : "Conventionné avec dépassement"
       },
       {
-        "code" : "c3",
-        "display" : "Secteur 2"
+        "code" : "3",
+        "display" : "Conventionné avec honoraires libres"
       }]
     }]
   }
