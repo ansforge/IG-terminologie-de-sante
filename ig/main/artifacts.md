@@ -34,6 +34,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Days Of Week](ValueSet-jdv-hl7-days-of-week-cisis.md) | Days Of Week |
 | [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH |
+| [Iso 3166 Part 1: 2 Letter Codes](ValueSet-jdv-hl7-iso3166-1-2-cisis.md) | Iso 3166 Part 1: 2 Letter Codes |
 | [JDV Abord Veineux Central CISIS](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS |
 | [JDV Abord Veineux Peripherique CISIS](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS |
 | [JDV Absent Or Unknown Allergy CISIS](ValueSet-jdv-absent-or-unknown-allergy-cisis.md) | JDV Absent Or Unknown Allergy CISIS |
