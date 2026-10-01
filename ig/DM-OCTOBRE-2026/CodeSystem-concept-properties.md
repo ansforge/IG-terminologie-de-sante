@@ -396,8 +396,8 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }]
   },
   {
-    "code" : "activiteReconnaisanceEcars",
-    "display" : "Activité Reconnaisance E-CARS",
+    "code" : "activiteReconnaisanceContractuelle",
+    "display" : "Activité Reconnaisance Contractuelle",
     "definition" : "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)",
     "property" : [{
       "code" : "status",
@@ -405,18 +405,18 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }]
   },
   {
-    "code" : "modaliteEcars",
-    "display" : "Modalité E-CARS",
-    "definition" : "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant d'E-CARS",
+    "code" : "modaliteReconnaissanceContractuelle",
+    "display" : "Modalité Reconnaisance Contractuelle",
+    "definition" : "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant provenant d'E-CARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"
     }]
   },
   {
-    "code" : "formeEcars",
-    "display" : "Forme E-CARS",
-    "definition" : "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant d'E-CARS",
+    "code" : "formeReconnaissanceContractuelle",
+    "display" : "Forme Reconnaisance Contractuelle",
+    "definition" : "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant provenant d'E-CARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"
