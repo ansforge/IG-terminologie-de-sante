@@ -131,12 +131,12 @@ Description: "CodeSystem permettant définir les propriétés NOS utilisées dan
 * #autoriteEnregistrementRass "Autorite Enregistrement Rass" "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS"
 * #autoriteEnregistrementRass ^property.code = #status
 * #autoriteEnregistrementRass ^property.valueCode = #active
-* #activiteReconnaisanceEcars "Activité Reconnaisance E-CARS" "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)"
-* #activiteReconnaisanceEcars ^property.code = #status
-* #activiteReconnaisanceEcars ^property.valueCode = #active
-* #modaliteEcars "Modalité E-CARS" "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant d'E-CARS"
-* #modaliteEcars ^property.code = #status
-* #modaliteEcars ^property.valueCode = #active
-* #formeEcars "Forme E-CARS" "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant d'E-CARS"
-* #formeEcars ^property.code = #status
-* #formeEcars ^property.valueCode = #active
+* #activiteReconnaisanceContractuelle "Activité Reconnaisance Contractuelle" "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)"
+* #activiteReconnaisanceContractuelle ^property.code = #status
+* #activiteReconnaisanceContractuelle ^property.valueCode = #active
+* #modaliteReconnaissanceContractuelle "Modalité Reconnaisance Contractuelle" "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant provenant d'E-CARS"
+* #modaliteReconnaissanceContractuelle ^property.code = #status
+* #modaliteReconnaissanceContractuelle ^property.valueCode = #active
+* #formeReconnaissanceContractuelle "Forme Reconnaisance Contractuelle" "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant provenant d'E-CARS"
+* #formeReconnaissanceContractuelle ^property.code = #status
+* #formeReconnaissanceContractuelle ^property.valueCode = #active
