@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.5.587"
-* version = "20240927120000"
 * name = "ASS_X16_CorrespondanceType_Classe_DMP"
 * title = "ASS_X16_CorrespondanceType_Classe_DMP"
-* experimental = false
+* version = "20261102120000"
 * status = #active
-* date = "2024-09-27T12:00:00+01:00"
+* experimental = false
+* date = "2026-11-02T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP"
@@ -249,6 +249,12 @@ Usage: #definition
 * group[=].element[+].code = #101881-1
 * group[=].element[=].target.code = #52
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #85895-1
+* group[=].element[=].target.code = #31
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #104144-1
+* group[=].element[=].target.code = #90
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #AUTORIS-SOINS
@@ -342,6 +348,9 @@ Usage: #definition
 * group[=].element[=].target.code = #42
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #PRESC-ORTHOPTIE
+* group[=].element[=].target.code = #42
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #JUSTIF-PRESC-RENF
 * group[=].element[=].target.code = #42
 * group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM"
