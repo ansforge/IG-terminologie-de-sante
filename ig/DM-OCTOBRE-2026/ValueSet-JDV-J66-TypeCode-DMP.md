@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J66_TypeCode_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J66_TypeCode_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.7 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-02
+2026-10-05
 
 Liens:
 [Table des matières ](toc.md)|
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.7"
   }],
-  "version" : "20240927120000",
+  "version" : "20261102120000",
   "name" : "JDV_J66_TypeCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour métadonnée typeCode DMP",
   "jurisdiction" : [{
@@ -223,6 +223,10 @@ Liens:
       {
         "code" : "PRESC-ORTHOPTIE",
         "display" : "Prescription d'actes d'orthoptie"
+      },
+      {
+        "code" : "JUSTIF-PRESC-RENF",
+        "display" : "Justificatif de prescription renforcée"
       }]
     },
     {
@@ -530,6 +534,14 @@ Liens:
       {
         "code" : "101881-1",
         "display" : "Carte d'implant"
+      },
+      {
+        "code" : "101882-9",
+        "display" : "CR de médecine nucléaire"
+      },
+      {
+        "code" : "104144-1",
+        "display" : "Directives anticipées en santé mentale"
       }]
     },
     {

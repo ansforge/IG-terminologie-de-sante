@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260629120000 |
-| Active as of 2026-06-29 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20261102120000 |
+| Active as of 2026-11-02 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.249 | |
 
  
@@ -37,12 +37,12 @@ Correspondance entre types et classes de documents CI-SIS
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.4.249"
   },
-  "version" : "20260629120000",
+  "version" : "20261102120000",
   "name" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "title" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents CI-SIS",
   "jurisdiction" : [{
     "coding" : [{
@@ -775,6 +775,20 @@ Correspondance entre types et classes de documents CI-SIS
         "code" : "52",
         "equivalence" : "equivalent"
       }]
+    },
+    {
+      "code" : "85895-1",
+      "target" : [{
+        "code" : "31",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "104144-1",
+      "target" : [{
+        "code" : "90",
+        "equivalence" : "equivalent"
+      }]
     }]
   },
   {
@@ -1043,6 +1057,13 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "FICHE-CONTACTS",
       "target" : [{
         "code" : "95",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "JUSTIF-PRESC-RENF",
+      "target" : [{
+        "code" : "42",
         "equivalence" : "equivalent"
       }]
     }]
