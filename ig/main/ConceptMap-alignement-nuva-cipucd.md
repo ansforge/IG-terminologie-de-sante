@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd | *Version*:1.0.1144 | |
-| Active as of 2026-09-07 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd | *Version*:1.0.1164 | |
+| Active as of 2026-10-05 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
 | **Usage:**Workflow Task: alignement des données | | |
 
 
@@ -21,8 +21,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-cipucd",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-09-07T14:05:09.112+02:00",
+    "versionId" : "31",
+    "lastUpdated" : "2026-10-05T11:25:08.382+02:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
@@ -30,11 +30,11 @@
     }]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-  "version" : "1.0.1144",
+  "version" : "1.0.1164",
   "name" : "Alignement_Codes_NUVA_CIP_CIPUCD",
   "title" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
   "status" : "active",
-  "date" : "2026-09-07",
+  "date" : "2026-10-05",
   "publisher" : "Agence du numérique en santé",
   "contact" : [{
     "telecom" : [{
