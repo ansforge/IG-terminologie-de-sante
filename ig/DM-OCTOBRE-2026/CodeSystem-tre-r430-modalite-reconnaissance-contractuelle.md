@@ -17,7 +17,7 @@ Modalités des activités autorisées /exercées provenant d’E-CARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [Vs Tre R430 Modalité Reconnaissance Contractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md)
+* [Vs Tre R430 Modalite Reconnaissance Contractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md)
 
 
 

@@ -1,10 +1,10 @@
-# Vs Tre R430 Modalité Reconnaissance Contractuelle - Terminologies de Santé v1.13.0
+# Vs Tre R430 Modalite Reconnaissance Contractuelle - Terminologies de Santé v1.13.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Vs Tre R430 Modalité Reconnaissance Contractuelle**
+* **Vs Tre R430 Modalite Reconnaissance Contractuelle**
 
-## ValueSet: Vs Tre R430 Modalité Reconnaissance Contractuelle 
+## ValueSet: Vs Tre R430 Modalite Reconnaissance Contractuelle 
 
 | | | |
 | :--- | :--- | :--- |
@@ -52,7 +52,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-05
+2026-10-06
 
 Liens:
 [Table des matières ](toc.md)|
@@ -80,7 +80,7 @@ Liens:
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle?vs",
   "version" : "20261102120000",
   "name" : "VsTreR430ModaliteReconnaissanceContractuelle",
-  "title" : "Vs Tre R430 Modalité Reconnaissance Contractuelle",
+  "title" : "Vs Tre R430 Modalite Reconnaissance Contractuelle",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-11-02T12:00:00+01:00",

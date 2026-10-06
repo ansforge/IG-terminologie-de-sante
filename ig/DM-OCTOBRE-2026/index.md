@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.13.0 |
-| Active as of 2026-10-05 | *Computable Name*:Terminologies |
+| Active as of 2026-10-06 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -215,7 +215,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-10-05T15:45:17+00:00",
+  "date" : "2026-10-06T07:55:41+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -50543,7 +50543,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       "reference" : {
         "reference" : "ValueSet/vs-tre-r430-modalite-reconnaissance-contractuelle"
       },
-      "name" : "Vs Tre R430 Modalité Reconnaissance Contractuelle",
+      "name" : "Vs Tre R430 Modalite Reconnaissance Contractuelle",
       "description" : "Jeu de valeurs ALL contenant l'ensemble des codes des modalités de reconnaissances (ASR)",
       "exampleBoolean" : false
     },
