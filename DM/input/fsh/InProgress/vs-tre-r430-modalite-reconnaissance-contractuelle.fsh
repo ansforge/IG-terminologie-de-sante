@@ -2,7 +2,7 @@ Alias: $tre-r430-modalite-reconnaissance-contractuelle = https://smt.esante.gouv
 
 ValueSet: VsTreR430ModaliteReconnaissanceContractuelle
 Id: vs-tre-r430-modalite-reconnaissance-contractuelle
-Title: "Vs Tre R430 Modalité Reconnaissance Contractuelle"
+Title: "Vs Tre R430 Modalite Reconnaissance Contractuelle"
 Description: "Jeu de valeurs ALL contenant l'ensemble des codes des modalités de reconnaissances (ASR)"
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
