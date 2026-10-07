@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-10-01 | |
 | Active as of 2026-10-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
-| *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
+| *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  

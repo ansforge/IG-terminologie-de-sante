@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-emdn | *Version*:v1.2 | |
 | Active as of 2022-04-28 | *Responsible:*Agence du numérique en santé | *Computable Name*:EMDN |
-| *Other Identifiers:*OID:1.2.250.1.213.2.68 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-emdn (use: secondary, ) | | |
+| *Other Identifiers:*OID:1.2.250.1.213.2.68 (use: usual), https://smt.esante.gouv.fr/#terminologie-emdn (use: secondary) | | |
 | **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  

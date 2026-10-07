@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2026-10 | |
 | Active as of 2026-10-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
-| *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary, ) | | |
+| *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary) | | |
 | **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  

@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim-10 | *Version*:2025-01-01 | |
 | Active as of 2024-12-20 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM_10_FR_PMSI |
-| *Other Identifiers:*OID:2.16.840.1.113883.6.3 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim-10 (use: secondary, ) | | |
+| *Other Identifiers:*OID:2.16.840.1.113883.6.3 (use: usual), https://smt.esante.gouv.fr/#terminologie-cim-10 (use: secondary) | | |
 | **Copyright/Legal**: [CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) | | |
 
  

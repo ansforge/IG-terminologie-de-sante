@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cladimed | *Version*:v15 | |
 | Active as of 2021-01-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:ClaDiMed |
-| *Other Identifiers:*OID:1.2.250.1.213.2.65 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cladimed (use: secondary, ) | | |
+| *Other Identifiers:*OID:1.2.250.1.213.2.65 (use: usual), https://smt.esante.gouv.fr/#terminologie-cladimed (use: secondary) | | |
 | **Copyright/Legal**: CLADIMED | | |
 
  

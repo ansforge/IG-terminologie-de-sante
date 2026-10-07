@@ -11,7 +11,7 @@
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:20260629120000 |
 | Active as of 2026-06-29 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.331 | |
-| **Usage:**Workflow Task:  | |
+| **Usage:**Workflow Task: Pour la constitution des metadata XDS | |
 
  
 Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provient de l’élément ‘templateId’ (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d’association 

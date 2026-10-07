@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cisp | *Version*:2019-05 | |
 | Active as of 2019-06-26 | *Responsible:*Agence du numérique en santé | *Computable Name*:CISP_2 |
-| *Other Identifiers:*OID:2.16.840.1.113883.6.139 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cisp (use: secondary, ) | | |
+| *Other Identifiers:*OID:2.16.840.1.113883.6.139 (use: usual), https://smt.esante.gouv.fr/#terminologie-cisp (use: secondary) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  

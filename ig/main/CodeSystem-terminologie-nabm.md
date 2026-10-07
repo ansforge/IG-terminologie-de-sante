@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V105 | |
 | Active as of 2026-06-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
-| *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
+| *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  

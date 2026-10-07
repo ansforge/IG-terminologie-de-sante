@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd | *Version*:2026-10 | |
 | Active as of 2026-10-02 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd) | *Computable Name*:Alignement_Codes_Presentation_BDPM_CIPUCD |
-| **Usage:**Workflow Task: alignement des données | | |
+| **Usage:**Workflow Task: Aligner les codes CIP BDPM avec les codes CIP du référentiel CIP UCD. | | |
 
 
 
