@@ -9,12 +9,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge"
 * identifier.value = "urn:oid:1.2.250.1.213.3.4.217"
-* version = "20250411120000"
 * name = "ASS_A32_StatutMotifPersonnePriseCharge"
 * title = "ASS_A32_StatutMotifPersonnePriseCharge"
-* experimental = false
+* version = "20261102120000"
 * status = #active
-* date = "2025-04-11T12:00:00+01:00"
+* experimental = false
+* date = "2026-11-02T12:00:00+01:00"
 * description = "Association du motif au statut de la personne prise en charge"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"
