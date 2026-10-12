@@ -1,5 +1,3 @@
-Alias: $usage-context-type = http://terminology.hl7.org/CodeSystem/usage-context-type
-
 Instance: ASS-A32-StatutMotifPersonnePriseCharge
 InstanceOf: ConceptMap
 Usage: #definition
