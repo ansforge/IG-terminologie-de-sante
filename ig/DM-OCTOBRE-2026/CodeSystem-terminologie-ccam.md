@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v84.00 | |
 | Active as of 2026-07-31 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
-| *Other Identifiers:*OID:1.2.250.1.215.300.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-ccam (use: secondary, ) | | |
+| *Other Identifiers:*OID:1.2.250.1.215.300.1 (use: usual), https://smt.esante.gouv.fr/#terminologie-ccam (use: secondary) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  

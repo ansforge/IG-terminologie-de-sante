@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1164 | |
 | Active as of 2026-10-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
-| *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary, ) | | |
+| *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary) | | |
 | **Copyright/Legal**: SYADEM | | |
 
  

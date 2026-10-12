@@ -113,7 +113,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 | active |
 | [JdvJ419PerimetreInterruptionExerciceRpps](ValueSet-jdv-j419-perimetre-interruption-exercice-rpps.md) | Le type de durée d'une interruption d'exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l'interruption s'inscrit dans une durée limitée ou si elle s'applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l'analyse de la capacité d'exercice du professionnel et pour la gestion de ses effets dans les systèmes d'information, notamment en matière de publication des données et de gestion des accès. | 30/07/2026 | active |
 | [JdvJ420TypeDureeInterruptionExerciceRpps](ValueSet-jdv-j420-type-duree-interruption-exercice-rpps.md) | Le périmètre d'une interruption d'exercice décrit l'étendue de la restriction appliquée à l'activité du professionnel. Cette information permet d'apprécier concrètement les possibilités d'exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d'accès aux services numériques en santé. | 30/07/2026 | active |
-| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 28/09/2026 | active |
+| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 02/11/2026 | active |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 | active |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 28/09/2026 | active |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 | active |
@@ -160,16 +160,16 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J53_TypeRequeteGestionDossier_CISIS](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.md) | Code de requêtes de gestion de dossier CI-SIS | 24/04/2020 | active |
 | [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 23/05/2025 | active |
 | [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 05/05/2026 | active |
-| [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 27/09/2024 | active |
+| [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 02/11/2026 | active |
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 | active |
 | [JDV_J58_ConfidentialityCode_DMP](ValueSet-JDV-J58-ConfidentialityCode-DMP.md) | Jeu de valeurs pour métadonnée confidentialityCode | 24/04/2020 | active |
-| [JDV_J59_ContentTypeCode_DMP](ValueSet-JDV-J59-ContentTypeCode-DMP.md) | Jeu de valeurs pour contentTypeCode | 28/09/2026 | active |
+| [JDV_J59_ContentTypeCode_DMP](ValueSet-JDV-J59-ContentTypeCode-DMP.md) | Jeu de valeurs pour contentTypeCode | 02/11/2026 | active |
 | [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md) | Jeu de valeurs pour métadonnée formatCode | 28/09/2026 | active |
-| [JDV_J61_HealthcareFacilityTypeCode_DMP](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.md) | Jeu de valeurs pour healthcareFacilityTypeCode | 27/09/2024 | active |
-| [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md) | Jeu de valeurs pour practiceSettingCode | 22/09/2023 | active |
+| [JDV_J61_HealthcareFacilityTypeCode_DMP](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.md) | Jeu de valeurs pour healthcareFacilityTypeCode | 02/11/2026 | active |
+| [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md) | Jeu de valeurs pour practiceSettingCode | 02/11/2026 | active |
 | [JDV_J64_RestrictionAudienceVIHF_DMP](ValueSet-JDV-J64-RestrictionAudienceVIHF-DMP.md) | Restriction d'audience pour les traces des VIHF | 24/04/2020 | active |
-| [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md) | Jeu de valeurs pour subjectRole | 27/09/2024 | active |
-| [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) | Jeu de valeurs pour métadonnée typeCode DMP | 02/11/2026 | active |
+| [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md) | Jeu de valeurs pour subjectRole | 02/11/2026 | active |
+| [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) | Jeu de valeurs pour métadonnée typeCode DMP | 27/09/2024 | active |
 | [JDV_J67_TraitementDocument_CISIS](ValueSet-JDV-J67-TraitementDocument-CISIS.md) | Traitement du document-CISIS | 24/04/2020 | active |
 | [JDV_J68_ProfilAccesReferentiel_ROR](ValueSet-JDV-J68-ProfilAccesReferentiel-ROR.md) | Liste des rôles métiers définis dans la politique d'accès au ROR | 23/05/2025 | active |
 | [JDV_J71_ProfessionFonction_MSSante](ValueSet-JDV-J71-ProfessionFonction-MSSante.md) | Professions et fonctions MSSanté | 29/06/2026 | active |

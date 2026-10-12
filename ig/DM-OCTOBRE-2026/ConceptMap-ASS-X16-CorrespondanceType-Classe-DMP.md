@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP | *Version*:20261102120000 |
-| Active as of 2026-11-02 | *Computable Name*:ASS_X16_CorrespondanceType_Classe_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP | *Version*:20240927120000 |
+| Active as of 2024-09-27 | *Computable Name*:ASS_X16_CorrespondanceType_Classe_DMP |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.5.587 | |
 
  
@@ -37,12 +37,12 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.5.587"
   },
-  "version" : "20261102120000",
+  "version" : "20240927120000",
   "name" : "ASS_X16_CorrespondanceType_Classe_DMP",
   "title" : "ASS_X16_CorrespondanceType_Classe_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-02T12:00:00+01:00",
+  "date" : "2024-09-27T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP",
   "jurisdiction" : [{
     "coding" : [{
@@ -593,20 +593,6 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
         "code" : "52",
         "equivalence" : "equivalent"
       }]
-    },
-    {
-      "code" : "85895-1",
-      "target" : [{
-        "code" : "31",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "104144-1",
-      "target" : [{
-        "code" : "90",
-        "equivalence" : "equivalent"
-      }]
     }]
   },
   {
@@ -824,13 +810,6 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
     },
     {
       "code" : "PRESC-ORTHOPTIE",
-      "target" : [{
-        "code" : "42",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "JUSTIF-PRESC-RENF",
       "target" : [{
         "code" : "42",
         "equivalence" : "equivalent"

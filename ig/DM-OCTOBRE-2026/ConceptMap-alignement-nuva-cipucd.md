@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd | *Version*:1.0.1164 | |
 | Active as of 2026-10-05 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
-| **Usage:**Workflow Task: alignement des données | | |
+| **Usage:**Workflow Task: Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD | | |
 
 
 

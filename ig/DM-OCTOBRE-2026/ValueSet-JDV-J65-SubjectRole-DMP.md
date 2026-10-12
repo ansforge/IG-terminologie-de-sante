@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J65-SubjectRole-DMP/FHIR/JDV-J65-SubjectRole-DMP | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J65_SubjectRole_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J65-SubjectRole-DMP/FHIR/JDV-J65-SubjectRole-DMP | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J65_SubjectRole_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.5 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-06
+2026-10-12
 
 Liens:
 [Table des matières ](toc.md)|
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.5"
   }],
-  "version" : "20240927120000",
+  "version" : "20261102120000",
   "name" : "JDV_J65_SubjectRole_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour subjectRole",
   "jurisdiction" : [{
@@ -1564,14 +1564,6 @@ Liens:
         "display" : "Responsable d'établissement"
       },
       {
-        "code" : "FON-15",
-        "display" : "Directeur de laboratoire"
-      },
-      {
-        "code" : "FON-16",
-        "display" : "Directeur-adjoint de laboratoire"
-      },
-      {
         "code" : "FON-17",
         "display" : "Collaborateur"
       },
@@ -1823,6 +1815,10 @@ Liens:
         "display" : "Conseiller en génétique"
       },
       {
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
         "code" : "331",
         "display" : "Secrétaire médicale"
       },
@@ -1843,10 +1839,6 @@ Liens:
         "display" : "Gestionnaire alertes et urgences sanitaires"
       },
       {
-        "code" : "350",
-        "display" : "Aide à domicile"
-      },
-      {
         "code" : "351",
         "display" : "Assistant(e) maternel(le)"
       },
@@ -1857,6 +1849,14 @@ Liens:
       {
         "code" : "353",
         "display" : "Membre de l'équipe de soins"
+      },
+      {
+        "code" : "371",
+        "display" : "Aide à domicile qualifié(e)"
+      },
+      {
+        "code" : "372",
+        "display" : "Aide à domicile"
       }]
     }]
   }

@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2026-01-30 | |
 | Active as of 2026-01-30 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
-| *Other Identifiers:*OID:0.4.0.127.0.16.1.1.2.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-standardterms (use: secondary, ) | | |
+| *Other Identifiers:*OID:0.4.0.127.0.16.1.1.2.1 (use: usual), https://smt.esante.gouv.fr/#terminologie-standardterms (use: secondary) | | |
 | **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  

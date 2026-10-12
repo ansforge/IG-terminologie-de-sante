@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-atc | *Version*:2026-02 | |
 | Active as of 2026-02-10 | *Responsible:*Agence du numérique en santé | *Computable Name*:ATC |
-| *Other Identifiers:*OID:2.16.840.1.113883.6.73 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-atc (use: secondary, ) | | |
+| *Other Identifiers:*OID:2.16.840.1.113883.6.73 (use: usual), https://smt.esante.gouv.fr/#terminologie-atc (use: secondary) | | |
 | **Copyright/Legal**: [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
  

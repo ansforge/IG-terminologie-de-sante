@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm | *Version*:1.0.1164 | |
 | Active as of 2026-10-05 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
-| **Usage:**Workflow Task: alignement des données | | |
+| **Usage:**Workflow Task: Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM | | |
 
 
 

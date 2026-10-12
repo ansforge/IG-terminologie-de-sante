@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-catalogue-vaccins | *Version*:2026-04 | |
 | Active as of 2026-04-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d Oradour-sur-Glane, 75015 Paris | *Computable Name*:Catalogue_Vaccins |
-| *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-catalogue-vaccins (use: secondary, ) | | |
+| *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-catalogue-vaccins (use: secondary) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  
