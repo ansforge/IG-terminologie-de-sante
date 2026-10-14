@@ -93,7 +93,6 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#76 "Unité d'évaluation et de régulation des admissions en psychiatrie"
 * $TRE-R244-CategorieOrganisation#77 "Equipe Mobile Psychiatrie et Précarité (EMPP)"
 * $TRE-R244-CategorieOrganisation#78 "Equipe Mobile Géronto-Psychiatrie (EMGP)"
-* $TRE-R244-CategorieOrganisation#79 "Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)"
 * $TRE-R244-CategorieOrganisation#80 "Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)"
 * $TRE-R244-CategorieOrganisation#81 "Centre d'Accueil et d'Accompagnement à la Réduction des risques pour Usagers de Drogues (CAARUD)"
 * $TRE-R244-CategorieOrganisation#82 "Pharmacie à Usage Intérieur (PUI)"

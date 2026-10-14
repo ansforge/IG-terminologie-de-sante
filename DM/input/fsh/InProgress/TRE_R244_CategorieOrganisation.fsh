@@ -902,10 +902,14 @@ Description: "Catégorie d'organisation"
 * #79 ^designation[=].value = "EARS"
 * #79 ^property[0].code = #dateValid
 * #79 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #79 ^property[+].code = #dateFin
+* #79 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #79 ^property[+].code = #dateMaj
-* #79 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #79 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #79 ^property[+].code = #deprecationDate
+* #79 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #79 ^property[+].code = #status
-* #79 ^property[=].valueCode = #active
+* #79 ^property[=].valueCode = #deprecated
 * #80 "Centre de Soins, d'Accompagnement et de Prévention en Addictologie (CSAPA)"
 * #80 ^designation[0].language = #fr-FR
 * #80 ^designation[=].use.system = "http://snomed.info/sct"
