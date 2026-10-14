@@ -5001,3 +5001,10 @@ Description: "Activite Operationnelle"
 * #635 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #635 ^property[+].code = #status
 * #635 ^property[=].valueCode = #active
+* #636 "Psychiatrie et médiation transculturelle"
+* #636 ^property[0].code = #dateValid
+* #636 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #636 ^property[+].code = #dateMaj
+* #636 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #636 ^property[+].code = #status
+* #636 ^property[=].valueCode = #active
