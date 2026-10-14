@@ -10,15 +10,13 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260928120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-09-28T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
-* ^content = #complete
-* ^count = 635
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
