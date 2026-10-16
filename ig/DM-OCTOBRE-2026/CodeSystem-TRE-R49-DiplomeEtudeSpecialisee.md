@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee | *Version*:20240531120000 | |
-| Active as of 2024-05-31 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R49_DiplomeEtudeSpecialisee |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R49_DiplomeEtudeSpecialisee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.32 | | |
 
  
@@ -43,11 +43,11 @@ Diplôme d’Etudes Spécialisées
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.32"
   }],
-  "version" : "20240531120000",
+  "version" : "20261102120000",
   "name" : "TRE_R49_DiplomeEtudeSpecialisee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-05-31T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplôme d'Etudes Spécialisées",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Diplôme d’Etudes Spécialisées
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 119,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1380,6 +1381,22 @@ Diplôme d’Etudes Spécialisées
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DSP13",
+    "display" : "DES Innovation Pharmaceutique et Recherche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

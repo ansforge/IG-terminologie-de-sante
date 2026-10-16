@@ -144,7 +144,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R44_QualificationPAC](CodeSystem-TRE-R44-QualificationPAC.md) | Qualification de praticien adjoint contractuel | 15/12/2023 | active |
 | [TRE_R45_FonctionQualifiee](CodeSystem-TRE-R45-FonctionQualifiee.md) | Fonction qualifiée | 15/12/2023 | active |
 | [TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md) | Diplôme de l'Etat français | 25/04/2025 | active |
-| [TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md) | Diplôme d'Etudes Spécialisées | 31/05/2024 | active |
+| [TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md) | Diplôme d'Etudes Spécialisées | 02/11/2026 | active |
 | [TRE_R50_DESCGroupe1Diplome](CodeSystem-TRE-R50-DESCGroupe1Diplome.md) | DESC Groupe 1 (diplôme) | 15/12/2023 | active |
 | [TRE_R51_DESCGroupe2Diplome](CodeSystem-TRE-R51-DESCGroupe2Diplome.md) | DESC Groupe 2 (diplôme) | 15/12/2023 | active |
 | [TRE_R52_CapaciteDiplome](CodeSystem-TRE-R52-CapaciteDiplome.md) | Capacité (diplôme) | 15/12/2023 | active |
@@ -191,8 +191,8 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 | active |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 | active |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 29/06/2026 | active |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 28/09/2026 | active |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 28/09/2026 | active |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  | 02/11/2026 | active |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 02/11/2026 | active |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 30/07/2026 | active |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 29/06/2026 | active |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 | active |
@@ -217,7 +217,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 | active |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 | active |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/07/2026 | active |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 28/09/2026 | active |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 02/11/2026 | active |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 30/07/2026 | active |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 | active |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 28/09/2026 | active |

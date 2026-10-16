@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.173 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-12
+2026-10-16
 
 Liens:
 [Table des matières ](toc.md)|
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.173"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "JDV_J105_EnsembleDiplome_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des diplômes et qualifications du RASS",
   "jurisdiction" : [{
@@ -2783,6 +2783,10 @@ Liens:
       {
         "code" : "DSP12",
         "display" : "DES Pharmacie hospitalière radiopharmacie (RPH)"
+      },
+      {
+        "code" : "DSP13",
+        "display" : "DES Innovation Pharmaceutique et Recherche"
       }]
     },
     {

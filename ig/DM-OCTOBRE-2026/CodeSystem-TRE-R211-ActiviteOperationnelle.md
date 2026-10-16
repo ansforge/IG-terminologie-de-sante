@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 635,
+  "count" : 636,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -11504,6 +11504,22 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "636",
+    "display" : "Psychiatrie et médiation transculturelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -45,11 +45,11 @@ Catégorie d’organisation
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.39"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [{
@@ -1984,12 +1984,20 @@ Catégorie d’organisation
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {

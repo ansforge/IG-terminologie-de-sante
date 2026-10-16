@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
-
- 
-Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -38,13 +35,12 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -31800,6 +31796,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1688",
     "display" : "Remise du kit de dépistage du cancer colorectal",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
@@ -31816,6 +31815,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1689",
     "display" : "Test de Maintien de l'Eveil (TME)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31832,6 +31834,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1690",
     "display" : "Test Itératif de Latence d'Endormissement (TILE)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31848,6 +31853,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1691",
     "display" : "Prise en charge de l’insomnie",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31864,6 +31872,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1692",
     "display" : "Prise en charge des troubles moteurs (syndrome des jambes sans repos)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31880,6 +31891,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1693",
     "display" : "Prise en charge de parasomnie (somnambulisme)",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31896,6 +31910,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1694",
     "display" : "Prise en charge des hypersomnies",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31912,6 +31929,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1695",
     "display" : "Prise en charge des troubles circadiens",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31928,6 +31948,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1696",
     "display" : "Prise en charge des troubles du sommeil avec trouble neurologique complexe",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
@@ -31944,6 +31967,9 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1697",
     "display" : "Prise en charge des troubles du sommeil avec trouble respiratoire complexe",
+    "designation" : [{
+      "language" : "fr-FR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
