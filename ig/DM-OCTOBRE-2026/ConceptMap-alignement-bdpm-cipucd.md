@@ -21,8 +21,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-bdpm-cipucd",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-10-05T11:26:33.904+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-10-16T09:43:48.503+02:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
