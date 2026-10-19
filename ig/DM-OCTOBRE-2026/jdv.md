@@ -195,7 +195,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 22/12/2025 | active |
 | [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS | 27/09/2024 | active |
 | [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) | Tous les codes actifs de la notion sexe | 29/03/2024 | active |
-| [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md) | Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH | 30/07/2026 | active |
+| [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md) | Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH | 02/11/2026 | active |
 | [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md) | Rôles des membres d'un cercle de soins | 26/07/2024 | active |
 | [JDV_J26_ModeGestion_ROR](ValueSet-JDV-J26-ModeGestion-ROR.md) | Mode gestion - ROR | 24/04/2020 | active |
 | [JDV_J275_EMDN_UPNOS](ValueSet-JDV-J275-EMDN-UPNOS.md) | Termes EMDN utilisés | 27/09/2024 | active |

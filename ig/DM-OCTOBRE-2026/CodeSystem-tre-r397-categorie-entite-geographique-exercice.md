@@ -17,7 +17,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV Destination Transfert CISIS](ValueSet-jdv-destination-transfert-cisis.md)
 * [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md)
 * [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)

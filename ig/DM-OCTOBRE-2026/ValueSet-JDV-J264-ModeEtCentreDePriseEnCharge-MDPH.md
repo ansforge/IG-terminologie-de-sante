@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.105 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.105"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
   "jurisdiction" : [{
@@ -108,12 +108,9 @@ Liens:
       },
       {
         "code" : "48"
-      }]
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "concept" : [{
-        "code" : "238"
+      },
+      {
+        "code" : "49"
       }]
     }]
   }
