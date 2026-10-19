@@ -10,10 +10,10 @@ Description: "Type de caractéristique équipement"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.61"
-* ^version = "20260730120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-07-30T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
@@ -47,3 +47,5 @@ Description: "Type de caractéristique équipement"
 * $TRE-G15-ProfessionSante#98 "Manipulateur ERM"
 * $TRE-R356-ProfessionRessource#86 "Infirmier en pratique avancée (IPA)"
 * $TRE-R356-ProfessionRessource#132 "Stomathérapeute"
+* $TRE-R356-ProfessionRessource#133 "Infirmier expert en plaies et cicatrisation"
+* $TRE-R356-ProfessionRessource#134 "Sexologue"
