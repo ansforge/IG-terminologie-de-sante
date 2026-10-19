@@ -10,10 +10,10 @@ Description: "Profession de santé - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.64"
-* ^version = "20250523120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
@@ -69,3 +69,5 @@ Description: "Profession de santé - ROR"
 * $TRE-R85-RolePriseCharge#335 "Gestionnaire alertes et urgences sanitaires"
 * $TRE-R85-RolePriseCharge#350 "Aide à domicile"
 * $TRE-R85-RolePriseCharge#351 "Assistant(e) maternel(le)"
+* $TRE-R356-ProfessionRessource#133 "Infirmier expert en plaies et cicatrisation"
+* $TRE-R356-ProfessionRessource#134 "Sexologue"
