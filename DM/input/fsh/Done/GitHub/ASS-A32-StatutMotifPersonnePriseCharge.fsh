@@ -58,6 +58,9 @@ Usage: #definition
 * group.element[+].code = #180
 * group.element[=].target.code = #112
 * group.element[=].target.equivalence = #relatedto
+* group.element[+].code = #180
+* group.element[=].target.code = #136
+* group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #37
 * group.element[=].target.code = #112
 * group.element[=].target.equivalence = #relatedto
@@ -243,7 +246,4 @@ Usage: #definition
 * group.element[=].target.equivalence = #relatedto
 * group.element[+].code = #49
 * group.element[=].target.code = #174
-* group.element[=].target.equivalence = #relatedto
-* group.element[+].code = #180
-* group.element[=].target.code = #136
 * group.element[=].target.equivalence = #relatedto
