@@ -5001,10 +5001,34 @@ Description: "Activite Operationnelle"
 * #635 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #635 ^property[+].code = #status
 * #635 ^property[=].valueCode = #active
-* #636 "Psychiatrie et médiation transculturelle"
+* #636 "Psychiatrie et médiation transculturelle" "Activité de soins psychiatriques spécialisée qui prend en compte la dimension culturelle du patient, notamment les migrants, réfugiés et leurs enfants, pour comprendre l'expression de leur souffrance psychique et lever les obstacles aux soins lorsque les prises en charge habituelles sont inefficaces. Elle associe une approche psychothérapeutique transculturelle, conduite par une équipe plurilingue et transdisciplinaire, et une médiation ponctuelle faisant intervenir un médiateur culturel pour débloquer des situations de rupture dans le projet de soins."
 * #636 ^property[0].code = #dateValid
 * #636 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #636 ^property[+].code = #dateMaj
 * #636 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #636 ^property[+].code = #status
 * #636 ^property[=].valueCode = #active
+* #637 "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)"
+* #637 ^designation.language = #fr-FR
+* #637 ^designation.use = $sct#900000000000013009
+* #637 ^designation.value = "Santé sexuelle à approche communautaire (trans, TDS, chemsexeur …)"
+* #637 ^property[0].code = #dateValid
+* #637 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #637 ^property[+].code = #dateMaj
+* #637 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #637 ^property[+].code = #status
+* #637 ^property[=].valueCode = #active
+* #638 "Stomathérapie"
+* #638 ^property[0].code = #dateValid
+* #638 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #638 ^property[+].code = #dateMaj
+* #638 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #638 ^property[+].code = #status
+* #638 ^property[=].valueCode = #active
+* #639 "Epileptologie"
+* #639 ^property[0].code = #dateValid
+* #639 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #639 ^property[+].code = #dateMaj
+* #639 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #639 ^property[+].code = #status
+* #639 ^property[=].valueCode = #active

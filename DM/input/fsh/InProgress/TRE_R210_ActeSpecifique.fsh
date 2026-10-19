@@ -5766,10 +5766,14 @@ Id: TRE-R210-ActeSpecifique
 * #0627 "Aide aux aidants (atelier pro-famille)"
 * #0627 ^property[0].code = #dateValid
 * #0627 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #0627 ^property[+].code = #dateFin
+* #0627 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0627 ^property[+].code = #dateMaj
-* #0627 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #0627 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #0627 ^property[+].code = #deprecationDate
+* #0627 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0627 ^property[+].code = #status
-* #0627 ^property[=].valueCode = #active
+* #0627 ^property[=].valueCode = #deprecated
 * #0628 "Education thérapeutique du patient non labellisée ou psychoéducation" "Processus d'apprentissage par lequel une personne acquiert des compétences pour gérer la maladie. Cet AS ne comprend pas les ETP n'ayant pas été labellisés par une ARS."
 * #0628 ^property[0].code = #dateValid
 * #0628 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
@@ -13573,64 +13577,64 @@ Id: TRE-R210-ActeSpecifique
 * #1631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1631 ^property[+].code = #status
 * #1631 ^property[=].valueCode = #active 
-* #1632 "Programme d’ETP labellisée - Accident Vasculaire Cérébral (AVC)"
+* #1632 "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP"
 * #1632 ^property[0].code = #dateValid
 * #1632 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1632 ^property[+].code = #dateMaj
-* #1632 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1632 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1632 ^property[+].code = #status
 * #1632 ^property[=].valueCode = #active
-* #1633 "Programme d’ETP labellisée - Allergologie"
+* #1633 "Programme d'ETP labellisée - Allergologie" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient allergique chronique dans la gestion de ses symptômes, de ses traitements et des situations à risque. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1633 ^property[0].code = #dateValid
 * #1633 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1633 ^property[+].code = #dateMaj
-* #1633 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1633 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1633 ^property[+].code = #status
 * #1633 ^property[=].valueCode = #active
-* #1634 "Programme d’ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)"
+* #1634 "Programme d'ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient sous anticoagulants oraux pour prévenir les complications thromboemboliques et hémorragiques. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1634 ^property[0].code = #dateValid
 * #1634 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1634 ^property[+].code = #dateMaj
-* #1634 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1634 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1634 ^property[+].code = #status
 * #1634 ^property[=].valueCode = #active
-* #1635 "Programme d’ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)"
+* #1635 "Programme d'ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une maladie rare dans la gestion de sa pathologie, souvent complexe et nécessitant un suivi spécialisé. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1635 ^designation[0].language = #fr-FR
 * #1635 ^designation[=].use.system = "http://snomed.info/sct"
 * #1635 ^designation[=].use = $sct#900000000000013009
-* #1635 ^designation[=].value = "Prog. d’ETP labellisée - Maladies rares"
+* #1635 ^designation[=].value = "Prog. d'ETP labellisée - Maladies rares"
 * #1635 ^property[0].code = #dateValid
 * #1635 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1635 ^property[+].code = #dateMaj
-* #1635 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1635 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1635 ^property[+].code = #status
 * #1635 ^property[=].valueCode = #active
-* #1636 "Programme d’ETP labellisée - Maladies urologiques et gynécologiques"
+* #1636 "Programme d'ETP labellisée - Maladies urologiques et gynécologiques" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie urologique ou gynécologique chronique dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1636 ^property[0].code = #dateValid
 * #1636 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1636 ^property[+].code = #dateMaj
-* #1636 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1636 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1636 ^property[+].code = #status
 * #1636 ^property[=].valueCode = #active
-* #1637 "Programme d’ETP labellisée - Obésité"
+* #1637 "Programme d'ETP labellisée - Obésité" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient obèse dans la gestion de son poids et de ses comorbidités. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1637 ^property[0].code = #dateValid
 * #1637 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1637 ^property[+].code = #dateMaj
-* #1637 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1637 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1637 ^property[+].code = #status
 * #1637 ^property[=].valueCode = #active
-* #1638 "Programme d’ETP labellisée - Ophtalmologie"
+* #1638 "Programme d'ETP labellisée - Ophtalmologie" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie ophtalmologique chronique dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1638 ^property[0].code = #dateValid
 * #1638 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1638 ^property[+].code = #dateMaj
-* #1638 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1638 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1638 ^property[+].code = #status
 * #1638 ^property[=].valueCode = #active
-* #1639 "Programme d’ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)"
+* #1639 "Programme d'ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie endocrine (thyroïde, surrénales, hypophyse…) dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1639 ^property[0].code = #dateValid
 * #1639 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1639 ^property[+].code = #dateMaj
-* #1639 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1639 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1639 ^property[+].code = #status
 * #1639 ^property[=].valueCode = #active
 * #1640 "Lyophilisation de lait maternel"
@@ -13894,32 +13898,32 @@ Id: TRE-R210-ActeSpecifique
 * #1670 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1670 ^property[+].code = #status
 * #1670 ^property[=].valueCode = #active
-* #1671 "Dispensation médicamenteuse à domicile en cas d’impossibilité du patient à se déplacer"
+* #1671 "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer" "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié)"
 * #1671 ^designation[0].language = #fr-FR
 * #1671 ^designation[=].use.system = "http://snomed.info/sct"
 * #1671 ^designation[=].use = $sct#900000000000013009
-* #1671 ^designation[=].value = "Dispense médicament à domicile en cas d’impossibilité du patient à se déplacer"
+* #1671 ^designation[=].value = "Dispense médicament à domicile en cas d'impossibilité du patient à se déplacer"
 * #1671 ^property[0].code = #dateValid
 * #1671 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1671 ^property[+].code = #dateMaj
-* #1671 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1671 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1671 ^property[+].code = #status
 * #1671 ^property[=].valueCode = #active
-* #1672 "Préparation des doses à administrer (PDA)"
+* #1672 "Préparation des doses à administrer (PDA)" "C'est un acte pharmaceutique consistant à conditionner individuellement, par prise et par patient, l'ensemble des médicaments d'une ordonnance sur une période donnée, afin de sécuriser la prise et favoriser l'observance. Elle est réalisée sous la responsabilité du pharmacien et constitue une composante de l'acte de dispensation. "
 * #1672 ^property[0].code = #dateValid
 * #1672 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1672 ^property[+].code = #dateMaj
-* #1672 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1672 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1672 ^property[+].code = #status
 * #1672 ^property[=].valueCode = #active
-* #1673 "Entretien pharmaceutique de la femme enceinte"
+* #1673 "Entretien pharmaceutique de la femme enceinte" "C'est un entretien individuel unique conduit par le pharmacien d'officine auprès de toute femme enceinte, visant à sécuriser la prise médicamenteuse pendant la grossesse et à délivrer des conseils adaptés à cette période. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A."
 * #1673 ^property[0].code = #dateValid
 * #1673 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1673 ^property[+].code = #dateMaj
-* #1673 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1673 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1673 ^property[+].code = #status
 * #1673 ^property[=].valueCode = #active
-* #1674 "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)"
+* #1674 "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)" "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient asthmatique traité par corticoïdes inhalés depuis au moins six mois, visant à améliorer la technique d'inhalation, l'observance et la connaissance de la maladie. Source : CSP, art. L. 5125-1-1 A ; CNOP."
 * #1674 ^designation[0].language = #fr-FR
 * #1674 ^designation[=].use.system = "http://snomed.info/sct"
 * #1674 ^designation[=].use = $sct#900000000000013009
@@ -13927,28 +13931,28 @@ Id: TRE-R210-ActeSpecifique
 * #1674 ^property[0].code = #dateValid
 * #1674 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1674 ^property[+].code = #dateMaj
-* #1674 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1674 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1674 ^property[+].code = #status
 * #1674 ^property[=].valueCode = #active
-* #1675 "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)"
+* #1675 "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)" "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient sous anticoagulant oral (AVK ou AOD) depuis au moins six mois, visant à prévenir les complications hémorragiques et thromboemboliques par un meilleur suivi de l'observance et des interactions médicamenteuses. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A ; CNOP."
 * #1675 ^property[0].code = #dateValid
 * #1675 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1675 ^property[+].code = #dateMaj
-* #1675 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1675 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1675 ^property[+].code = #status
 * #1675 ^property[=].valueCode = #active
-* #1676 "Entretien pharmaceutique du patient sous anticancéreux oraux"
+* #1676 "Entretien pharmaceutique du patient sous anticancéreux oraux" "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient traité par anticancéreux par voie orale, visant à sécuriser la prise, surveiller les effets indésirables et renforcer l'observance en coordination avec l'équipe soignante.  Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A ; CNOP."
 * #1676 ^property[0].code = #dateValid
 * #1676 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1676 ^property[+].code = #dateMaj
-* #1676 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1676 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1676 ^property[+].code = #status
 * #1676 ^property[=].valueCode = #active
-* #1677 "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2"
+* #1677 "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2" "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient traité par antalgique opioïde de palier 2 (tramadol, codéine…), visant à prévenir les risques de mésusage, à surveiller la tolérance et à soutenir l'observance. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A."
 * #1677 ^property[0].code = #dateValid
 * #1677 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1677 ^property[+].code = #dateMaj
-* #1677 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1677 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1677 ^property[+].code = #status
 * #1677 ^property[=].valueCode = #active
 * #1678 "Entretien bilan partagé de médication"
@@ -14344,3 +14348,70 @@ Id: TRE-R210-ActeSpecifique
 * #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1719 ^property[+].code = #status
 * #1719 ^property[=].valueCode = #active
+* #1720 "Programme de psychoéducation psy pour les familles et aidants (ProFamille, BREF...)" "Programme structuré d'intervention thérapeutique destiné aux familles et aidants de personnes souffrant d'un trouble psychiatrique, visant à les informer sur la maladie, renforcer leurs capacités à accompagner le patient et prévenir leur propre épuisement."
+* #1720 ^designation[0].language = #fr-FR
+* #1720 ^designation[=].use.system = "http://snomed.info/sct"
+* #1720 ^designation[=].use = $sct#900000000000013009
+* #1720 ^designation[=].value = "Programme de psychoéducation psy pour les familles et aidants"
+* #1720 ^property[0].code = #dateValid
+* #1720 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1720 ^property[+].code = #dateMaj
+* #1720 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1720 ^property[+].code = #status
+* #1720 ^property[=].valueCode = #active
+* #1721 "Centre expert pied diabétique"
+* #1721 ^property[0].code = #dateValid
+* #1721 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1721 ^property[+].code = #dateMaj
+* #1721 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1721 ^property[+].code = #status
+* #1721 ^property[=].valueCode = #active
+* #1722 "Centre expert pied Repérage du psychotraumatisme des victimes de violence"
+* #1722 ^property[0].code = #dateValid
+* #1722 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1722 ^property[+].code = #dateMaj
+* #1722 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1722 ^property[+].code = #status
+* #1722 ^property[=].valueCode = #active
+* #1723 "Prophylaxie pré-exposition injectable (PrEP)"
+* #1723 ^property[0].code = #dateValid
+* #1723 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1723 ^property[+].code = #dateMaj
+* #1723 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1723 ^property[+].code = #status
+* #1723 ^property[=].valueCode = #active
+* #1724 "Accompagnement et orientation des personnes vivant avec le VIH"
+* #1724 ^property[0].code = #dateValid
+* #1724 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1724 ^property[+].code = #dateMaj
+* #1724 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1724 ^property[+].code = #status
+* #1724 ^property[=].valueCode = #active
+* #1725 "Vaccination Mpox (Variole B)"
+* #1725 ^property[0].code = #dateValid
+* #1725 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1725 ^property[+].code = #dateMaj
+* #1725 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1725 ^property[+].code = #status
+* #1725 ^property[=].valueCode = #active
+* #1726 "Prise en soin des stomies digestives et/ou urinaires"
+* #1726 ^property[0].code = #dateValid
+* #1726 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1726 ^property[+].code = #dateMaj
+* #1726 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1726 ^property[+].code = #status
+* #1726 ^property[=].valueCode = #active
+* #1727 "Tomothérapie"
+* #1727 ^property[0].code = #dateValid
+* #1727 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1727 ^property[+].code = #dateMaj
+* #1727 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1727 ^property[+].code = #status
+* #1727 ^property[=].valueCode = #active
+* #1728 "Centre expert Epileptologie"
+* #1728 ^property[0].code = #dateValid
+* #1728 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1728 ^property[+].code = #dateMaj
+* #1728 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #1728 ^property[+].code = #status
+* #1728 ^property[=].valueCode = #active
