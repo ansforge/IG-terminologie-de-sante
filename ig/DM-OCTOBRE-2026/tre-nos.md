@@ -302,7 +302,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 | active |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 | active |
 | [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 01/06/2026 | active |
-| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 28/09/2026 | active |
+| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 02/11/2026 | active |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 | active |
 | [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
 | [TRE_R349_ActionAnomalie](CodeSystem-TRE-R349-ActionAnomalie.md) | Action attendue dans le cadre de la gestion d'une anomalie | 15/12/2023 | active |
@@ -310,7 +310,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R352_StatutMetierAnomalie](CodeSystem-TRE-R352-StatutMetierAnomalie.md) | Statut métier des anomalies | 15/12/2023 | active |
 | [TRE_R354_TypeIdentifiantRessourceOperationnelle](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md) | Type d'identifiant des ressources opérationnelles | 29/03/2024 | active |
 | [TRE_R355_TypeIdentifiantOffre](CodeSystem-TRE-R355-TypeIdentifiantOffre.md) | Type d'identifiant de l'offre | 29/03/2024 | active |
-| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 30/07/2026 | active |
+| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 02/11/2026 | active |
 | [TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) | Statut de la personne prise en charge. | 15/12/2023 | active |
 | [TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md) | Motif du statut de la personne prise en charge | 15/12/2023 | active |
 | [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 | active |

@@ -160,6 +160,13 @@ Pour cette association, les fichiers suivants sont également disponibles :
       }]
     },
     {
+      "code" : "180",
+      "target" : [{
+        "code" : "136",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
       "code" : "37",
       "target" : [{
         "code" : "112",
@@ -590,13 +597,6 @@ Pour cette association, les fichiers suivants sont également disponibles :
       "code" : "49",
       "target" : [{
         "code" : "174",
-        "equivalence" : "relatedto"
-      }]
-    },
-    {
-      "code" : "180",
-      "target" : [{
-        "code" : "136",
         "equivalence" : "relatedto"
       }]
     }]

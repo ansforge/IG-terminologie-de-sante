@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-16
+2026-10-19
 
 Liens:
 [Table des matières ](toc.md)|
@@ -2319,6 +2319,18 @@ Liens:
       {
         "code" : "636",
         "display" : "Psychiatrie et médiation transculturelle"
+      },
+      {
+        "code" : "637",
+        "display" : "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)"
+      },
+      {
+        "code" : "638",
+        "display" : "Stomathérapie"
+      },
+      {
+        "code" : "639",
+        "display" : "Epileptologie"
       }]
     }]
   }

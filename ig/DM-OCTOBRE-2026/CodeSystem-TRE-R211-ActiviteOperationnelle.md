@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 636,
+  "count" : 639,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -11513,6 +11513,63 @@ Activite Operationnelle
   {
     "code" : "636",
     "display" : "Psychiatrie et médiation transculturelle",
+    "definition" : "Activité de soins psychiatriques spécialisée qui prend en compte la dimension culturelle du patient, notamment les migrants, réfugiés et leurs enfants, pour comprendre l'expression de leur souffrance psychique et lever les obstacles aux soins lorsque les prises en charge habituelles sont inefficaces. Elle associe une approche psychothérapeutique transculturelle, conduite par une équipe plurilingue et transdisciplinaire, et une médiation ponctuelle faisant intervenir un médiateur culturel pour débloquer des situations de rupture dans le projet de soins.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "637",
+    "display" : "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Santé sexuelle à approche communautaire (trans, TDS, chemsexeur …)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "638",
+    "display" : "Stomathérapie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "639",
+    "display" : "Epileptologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-11-02T12:00:00+01:00"

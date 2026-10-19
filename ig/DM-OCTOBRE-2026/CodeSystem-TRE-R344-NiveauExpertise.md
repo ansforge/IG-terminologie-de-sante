@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R344_NiveauExpertise |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R344_NiveauExpertise |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.228 | | |
 
  
@@ -43,11 +43,11 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.228"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R344_NiveauExpertise",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel.",
   "jurisdiction" : [{
@@ -1178,6 +1178,38 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "56",
+    "display" : "Centre expert pied diabétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "57",
+    "display" : "Centre expert Epileptologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

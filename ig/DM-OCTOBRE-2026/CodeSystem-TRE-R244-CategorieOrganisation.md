@@ -60,7 +60,7 @@ Catégorie d’organisation
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 321,
+  "count" : 322,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -7662,6 +7662,30 @@ Catégorie d’organisation
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "322",
+    "display" : "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CSMSS - ancien CSSAC"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

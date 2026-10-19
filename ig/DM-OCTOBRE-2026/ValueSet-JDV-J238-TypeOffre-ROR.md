@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-16
+2026-10-19
 
 Liens:
 [Table des matières ](toc.md)|
@@ -1323,6 +1323,10 @@ Liens:
       {
         "code" : "321",
         "display" : "Point d'accès de téléconsultation"
+      },
+      {
+        "code" : "322",
+        "display" : "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
       }]
     }]
   }

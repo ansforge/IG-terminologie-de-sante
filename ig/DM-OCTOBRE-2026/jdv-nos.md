@@ -158,7 +158,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J51_FamilleActiviteOperationnelle_ROR](ValueSet-JDV-J51-FamilleActiviteOperationnelle-ROR.md) | Famille Activité Opérationnelle | 27/01/2023 | active |
 | [JDV_J52_AvailabilityStatus_CISIS](ValueSet-JDV-J52-AvailabilityStatus-CISIS.md) | Statut du document CI-SIS | 24/04/2020 | active |
 | [JDV_J53_TypeRequeteGestionDossier_CISIS](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.md) | Code de requêtes de gestion de dossier CI-SIS | 24/04/2020 | active |
-| [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 23/05/2025 | active |
+| [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 02/11/2026 | active |
 | [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 05/05/2026 | active |
 | [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 02/11/2026 | active |
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 | active |
@@ -266,7 +266,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J182_BesoinScolarite_MDPH](ValueSet-JDV-J182-BesoinScolarite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages | 24/09/2021 | active |
 | [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md) | Diplômes pour l'application EPARS | 30/07/2026 | active |
 | [JDV_J185_TypeFermeture_ROR](ValueSet-JDV-J185-TypeFermeture-ROR.md) | Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres | 23/09/2025 | active |
-| [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md) | Profession Ressource des offres dans le ROR | 30/07/2026 | active |
+| [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md) | Profession Ressource des offres dans le ROR | 02/11/2026 | active |
 | [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md) | Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places | 28/09/2026 | active |
 | [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md) | Permet de préciser dans le ROR le statut des lits décrits | 31/01/2025 | active |
 | [JDV_J189_TemporaliteCapacite_ROR](ValueSet-JDV-J189-TemporaliteCapacite-ROR.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 22/09/2023 | active |
@@ -307,9 +307,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 | active |
 | [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 01/06/2026 | active |
 | [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 28/09/2026 | active |
-| [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 28/09/2026 | active |
+| [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 02/11/2026 | active |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 | active |
-| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 30/07/2026 | active |
+| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 02/11/2026 | active |
 | [JDV_J231_XdsTypesIdentifiantsReferenceId_DMP](ValueSet-JDV-J231-XdsTypesIdentifiantsReferenceId-DMP.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du DMP | 16/12/2022 | active |
 | [JDV_J232_Competence_ROR](ValueSet-JDV-J232-Competence-ROR.md) | Compétence | 28/06/2024 | active |
 | [JDV_J233_TypeDiplome_EPARS](ValueSet-JDV-J233-TypeDiplome-EPARS.md) | Jeu de valeur intégrant les types de diplômes pour EPARS | 25/04/2025 | active |
