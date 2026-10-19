@@ -3488,3 +3488,13 @@ Description: "Catégorie d'organisation"
 * #321 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #321 ^property[+].code = #status
 * #321 ^property[=].valueCode = #active
+* #322 "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
+* #322 ^designation[0].language = #fr-FR
+* #322 ^designation[=].use = $sct#900000000000013009
+* #322 ^designation[=].value = "CSMSS - ancien CSSAC"
+* #322 ^property[0].code = #dateValid
+* #322 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #322 ^property[+].code = #dateMaj
+* #322 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #322 ^property[+].code = #status
+* #322 ^property[=].valueCode = #active

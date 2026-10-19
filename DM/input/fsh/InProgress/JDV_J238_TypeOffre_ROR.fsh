@@ -322,3 +322,4 @@ Description: "Prestations que peut réaliser une structure et qui permettent de 
 * $TRE-R244-CategorieOrganisation#319 "Centre du sommeil"
 * $TRE-R244-CategorieOrganisation#320 "Offre de relayage au domicile"
 * $TRE-R244-CategorieOrganisation#321 "Point d'accès de téléconsultation"
+* $TRE-R244-CategorieOrganisation#322 "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
