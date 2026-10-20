@@ -1,5 +1,6 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
+Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."
 * ^meta.versionId = "36"
 * ^meta.lastUpdated = "2026-09-28T10:27:53.309+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -13577,7 +13578,7 @@ Id: TRE-R210-ActeSpecifique
 * #1631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #1631 ^property[+].code = #status
 * #1631 ^property[=].valueCode = #active 
-* #1632 "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP"
+* #1632 "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)" "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP."
 * #1632 ^property[0].code = #dateValid
 * #1632 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1632 ^property[+].code = #dateMaj
@@ -13898,7 +13899,7 @@ Id: TRE-R210-ActeSpecifique
 * #1670 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1670 ^property[+].code = #status
 * #1670 ^property[=].valueCode = #active
-* #1671 "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer" "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié)"
+* #1671 "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer" "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié)."
 * #1671 ^designation[0].language = #fr-FR
 * #1671 ^designation[=].use.system = "http://snomed.info/sct"
 * #1671 ^designation[=].use = $sct#900000000000013009
@@ -14366,7 +14367,7 @@ Id: TRE-R210-ActeSpecifique
 * #1721 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1721 ^property[+].code = #status
 * #1721 ^property[=].valueCode = #active
-* #1722 "Centre expert pied Repérage du psychotraumatisme des victimes de violence"
+* #1722 "Repérage du psychotraumatisme des victimes de violence"
 * #1722 ^property[0].code = #dateValid
 * #1722 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1722 ^property[+].code = #dateMaj
