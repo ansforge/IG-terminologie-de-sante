@@ -1271,7 +1271,7 @@ Fonction
     }]
   },
   {
-    "code" : "FON-64",
+    "code" : "FON-65",
     "display" : "Remplaçant du titulaire d'officine (IE)",
     "property" : [{
       "code" : "dateValid",

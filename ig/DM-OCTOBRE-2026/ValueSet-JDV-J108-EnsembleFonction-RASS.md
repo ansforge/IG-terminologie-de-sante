@@ -277,7 +277,7 @@ Liens:
         "display" : "Coordonnateur en EHPAD"
       },
       {
-        "code" : "FON-64",
+        "code" : "FON-65",
         "display" : "Remplaçant du titulaire d'officine (IE)"
       },
       {
