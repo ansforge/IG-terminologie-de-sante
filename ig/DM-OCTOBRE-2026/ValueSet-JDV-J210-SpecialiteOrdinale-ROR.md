@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J210_SpecialiteOrdinale_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J210_SpecialiteOrdinale_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.42 | | |
 
  
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.42"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "JDV_J210_SpecialiteOrdinale_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialité ordinale",
   "jurisdiction" : [{
@@ -434,7 +434,7 @@ Liens:
       },
       {
         "code" : "SM76",
-        "display" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "SM77",

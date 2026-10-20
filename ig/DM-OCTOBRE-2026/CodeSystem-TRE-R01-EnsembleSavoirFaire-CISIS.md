@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.71.4.2.5 | | |
 
  
@@ -45,11 +45,11 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.4.2.5"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R01_EnsembleSavoirFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble Savoir-faire CI-SIS (TRE provisoire)",
   "jurisdiction" : [{
@@ -6620,14 +6620,14 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   },
   {
     "code" : "SM76",
-    "display" : "Anesthésie-réanimation opt anesthésie-pédiatrique (SM)",
+    "display" : "Anesthésie-réanimation opt réanimation-pédiatrique (SM)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Anesth-réanim opt anesth-pédia"
+      "value" : "Anesth-réanim opt réanim-pédia"
     },
     {
       "language" : "fr-FR",
@@ -6635,7 +6635,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+      "value" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6643,7 +6643,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-05-31T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

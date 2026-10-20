@@ -592,7 +592,7 @@ Liens:
       },
       {
         "code" : "SM76",
-        "display" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "SM77",

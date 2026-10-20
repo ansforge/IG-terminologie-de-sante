@@ -441,7 +441,7 @@ Liens:
       },
       {
         "code" : "G15_10/SM76",
-        "display" : "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Médecin - Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "G15_10/SM77",

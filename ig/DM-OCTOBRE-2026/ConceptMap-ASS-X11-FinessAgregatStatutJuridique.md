@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X11_FinessAgregatStatutJuridique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-20T09:17:11+00:00",
+  "date" : "2026-10-20T10:27:48+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

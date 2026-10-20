@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A02_ProfessionSavFaire_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A02_ProfessionSavFaire_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.5 | | |
 
  
@@ -49,11 +49,11 @@ Profession et savoir-faire CI-SIS
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.5"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_A02_ProfessionSavFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession et savoir-faire CI-SIS",
   "jurisdiction" : [{
@@ -1351,14 +1351,14 @@ Profession et savoir-faire CI-SIS
   },
   {
     "code" : "G15_10/SM76",
-    "display" : "Médecin - Anesthésie-réanimation opt anesthésie-pédiatrique (SM)",
+    "display" : "Médecin - Anesthésie-réanimation opt réanimation-pédiatrique (SM)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+      "value" : "Médecin - Anesthésie-réanimation option réanimation-pédiatrique (SM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1366,7 +1366,7 @@ Profession et savoir-faire CI-SIS
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
