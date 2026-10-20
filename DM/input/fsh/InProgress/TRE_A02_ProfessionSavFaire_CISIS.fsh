@@ -590,15 +590,15 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SM75 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM75 ^property[+].code = #status
 * #G15_10/SM75 ^property[=].valueCode = #active
-* #G15_10/SM76 "Médecin - Anesthésie-réanimation opt anesthésie-pédiatrique (SM)"
+* #G15_10/SM76 "Médecin - Anesthésie-réanimation opt réanimation-pédiatrique (SM)"
 * #G15_10/SM76 ^designation.language = #fr-FR
 * #G15_10/SM76 ^designation.use.system = "http://snomed.info/sct"
 * #G15_10/SM76 ^designation.use = $sct#900000000000013009
-* #G15_10/SM76 ^designation.value = "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+* #G15_10/SM76 ^designation.value = "Médecin - Anesthésie-réanimation option réanimation-pédiatrique (SM)"
 * #G15_10/SM76 ^property[0].code = #dateValid
 * #G15_10/SM76 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #G15_10/SM76 ^property[+].code = #dateMaj
-* #G15_10/SM76 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
+* #G15_10/SM76 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #G15_10/SM76 ^property[+].code = #status
 * #G15_10/SM76 ^property[=].valueCode = #active
 * #G15_10/SM77 "Médecin - Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)"

@@ -989,19 +989,19 @@ Description: "Spécialité ordinale"
 * #SM75 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM75 ^property[+].code = #status
 * #SM75 ^property[=].valueCode = #active
-* #SM76 "Anesthésie-réanimation opt anesthésie-pédiatrique (SM)"
+* #SM76 "Anesthésie-réanimation opt réanimation-pédiatrique (SM)"
 * #SM76 ^designation[0].language = #fr-FR
 * #SM76 ^designation[=].use.system = "http://snomed.info/sct"
 * #SM76 ^designation[=].use = $sct#900000000000013009
-* #SM76 ^designation[=].value = "Anesth-réanim opt anesth-pédia"
+* #SM76 ^designation[=].value = "Anesth-réanim opt réanim-pédia"
 * #SM76 ^designation[+].language = #fr-FR
 * #SM76 ^designation[=].use.system = "http://snomed.info/sct"
 * #SM76 ^designation[=].use = $sct#900000000000013009
-* #SM76 ^designation[=].value = "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+* #SM76 ^designation[=].value = "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
 * #SM76 ^property[0].code = #dateValid
 * #SM76 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #SM76 ^property[+].code = #dateMaj
-* #SM76 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #SM76 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #SM76 ^property[+].code = #status
 * #SM76 ^property[=].valueCode = #active
 * #SM77 "Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)"
