@@ -29,8 +29,8 @@ La Classification Internationale des Maladies (CIM) permet d’établir les stat
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cim-10",
   "meta" : {
-    "versionId" : "11.1792157368035",
-    "lastUpdated" : "2026-10-16T15:29:28.035+02:00"
+    "versionId" : "11.1792424240425",
+    "lastUpdated" : "2026-10-19T17:37:20.425+02:00"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",
   "identifier" : [{

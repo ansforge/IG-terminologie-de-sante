@@ -12,6 +12,9 @@
 | Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
 
+ 
+Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. 
+
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md)
@@ -41,6 +44,7 @@
   "experimental" : false,
   "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -30748,7 +30752,7 @@
   {
     "code" : "1632",
     "display" : "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)",
-    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
@@ -31492,7 +31496,7 @@
   {
     "code" : "1671",
     "display" : "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer",
-    "definition" : "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié)",
+    "definition" : "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié).",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -32545,7 +32549,7 @@
   },
   {
     "code" : "1722",
-    "display" : "Centre expert pied Repérage du psychotraumatisme des victimes de violence",
+    "display" : "Repérage du psychotraumatisme des victimes de violence",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-11-02T12:00:00+01:00"
