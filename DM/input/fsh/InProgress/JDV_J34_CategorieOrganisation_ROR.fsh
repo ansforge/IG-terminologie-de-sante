@@ -10,10 +10,10 @@ Description: "Catégorie d'organisation - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.40"
-* ^version = "20260928120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-09-28T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R244-CategorieOrganisation#01 "Appartement thérapeutique en psychiatrie"
@@ -323,3 +323,4 @@ Description: "Catégorie d'organisation - ROR"
 * $TRE-R244-CategorieOrganisation#319 "Centre du sommeil"
 * $TRE-R244-CategorieOrganisation#320 "Offre de relayage au domicile"
 * $TRE-R244-CategorieOrganisation#321 "Point d'accès de téléconsultation"
+* $TRE-R244-CategorieOrganisation#322 "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
