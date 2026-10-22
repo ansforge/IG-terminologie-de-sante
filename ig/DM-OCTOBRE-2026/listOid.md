@@ -369,7 +369,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |
-| TreR396Autorite | http://example.org/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
+| TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
