@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-22
+2026-10-23
 
 Liens:
 [Table des matières ](toc.md)|
@@ -220,6 +220,10 @@ Liens:
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
       "concept" : [{
+        "code" : "08",
+        "display" : "Médiateur de santé pair ou de santé communautaire"
+      },
+      {
         "code" : "86",
         "display" : "Infirmier en pratique avancée (IPA)"
       },

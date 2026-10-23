@@ -6873,14 +6873,14 @@ Activite Operationnelle
   },
   {
     "code" : "370",
-    "display" : "Soins intensifs spécialisés pédiatrie",
+    "display" : "Soins intensifs pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11430,14 +11430,23 @@ Activite Operationnelle
   },
   {
     "code" : "631",
-    "display" : "Prise en charge et coordination de plaies et cicatrisations complexes",
+    "display" : "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques",
+    "definition" : "C'est l'activité d'appui et de coordination du parcours de soins des patients porteurs de plaies dont le délai de cicatrisation est allongé au-delà de 4 à 6 semaines (plaies chroniques) ou dont la complexité nécessite une expertise pluridisciplinaire spécialisée (ulcères veineux ou artériels, escarres, plaies du pied diabétique, plaies post-chirurgicales difficiles, etc), en orientant les professionnels de santé de premier recours et en coordonnant les interventions des différents acteurs jusqu'à la stabilisation ou la cicatrisation.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orientation et coordination de plaies et cicatrisations complexes / chroniques"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

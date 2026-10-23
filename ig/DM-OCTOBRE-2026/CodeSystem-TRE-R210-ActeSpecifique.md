@@ -1417,12 +1417,20 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -15223,14 +15231,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0764",
-    "display" : "Soins de stomie d'élimination digestive",
+    "display" : "Suivi et surveillance de stomie d'élimination digestive",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15239,14 +15247,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0765",
-    "display" : "Soins de stomie d'élimination urinaire",
+    "display" : "Suivi et surveillance de stomie d'élimination urinaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -32508,7 +32516,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1720",
-    "display" : "Programme de psychoéducation psy pour les familles et aidants (ProFamille, BREF...)",
+    "display" : "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)",
     "definition" : "Programme structuré d'intervention thérapeutique destiné aux familles et aidants de personnes souffrant d'un trouble psychiatrique, visant à les informer sur la maladie, renforcer leurs capacités à accompagner le patient et prévenir leur propre épuisement.",
     "designation" : [{
       "language" : "fr-FR",
@@ -32516,7 +32524,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Programme de psychoéducation psy pour les familles et aidants"
+      "value" : "Programme de psychoéducation psychiatrique pour les familles et aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32630,6 +32638,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1727",
     "display" : "Tomothérapie",
+    "definition" : "La tomothérapie est une technique avancée de radiothérapie qui combine un scanner et un accélérateur de particules afin de délivrer les rayonnements avec une très grande précision autour de la tumeur tout en limitant l'irradiation des tissus sains.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-11-02T12:00:00+01:00"

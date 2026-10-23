@@ -128,14 +128,14 @@ Profession Ressource
   },
   {
     "code" : "08",
-    "display" : "Médiateur de santé pair",
+    "display" : "Médiateur de santé pair ou de santé communautaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

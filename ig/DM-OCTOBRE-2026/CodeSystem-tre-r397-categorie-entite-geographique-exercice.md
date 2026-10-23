@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
 | Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.378 | | |
 
@@ -17,21 +17,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JDV Destination Transfert CISIS](ValueSet-jdv-destination-transfert-cisis.md)
-* [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md)
-* [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)
-* [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md)
-* [Jdv J310 Categorie Entite Geographique Exercice Finess](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md)
-* [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
-* [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
-* [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
-* [JDV Lieu De Vie CISIS](ValueSet-jdv-lieu-de-vie-cisis.md)
-* [JDV Modalite Entree ESMS CISIS](ValueSet-jdv-modalite-entree-esms-cisis.md)
-* [JDV Modalite Sortie CISIS](ValueSet-jdv-modalite-sortie-cisis.md)
-* [JDV Mode Sortie CISIS](ValueSet-jdv-mode-sortie-cisis.md)
-* [JDV Patient adresse par CISIS](ValueSet-jdv-patient-adresse-par-cisis.md)
-* [JDV Traitement Suivi CISIS](ValueSet-jdv-traitement-suivi-cisis.md)
-* [JDV Type Prise En Charge CISIS](ValueSet-jdv-type-prise-en-charge-cisis.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -53,7 +39,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.378"

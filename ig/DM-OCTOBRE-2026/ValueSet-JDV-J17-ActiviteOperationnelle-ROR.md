@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-22
+2026-10-23
 
 Liens:
 [Table des matières ](toc.md)|
@@ -1322,7 +1322,7 @@ Liens:
       },
       {
         "code" : "370",
-        "display" : "Soins intensifs spécialisés pédiatrie"
+        "display" : "Soins intensifs pédiatrie"
       },
       {
         "code" : "371",
@@ -2298,7 +2298,7 @@ Liens:
       },
       {
         "code" : "631",
-        "display" : "Prise en charge et coordination de plaies et cicatrisations complexes"
+        "display" : "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques"
       },
       {
         "code" : "632",

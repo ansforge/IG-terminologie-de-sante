@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-22
+2026-10-23
 
 Liens:
 [Table des matières ](toc.md)|
@@ -259,10 +259,6 @@ Liens:
       {
         "code" : "0066",
         "display" : "Chirurgie de la cataracte - implants mono focaux et toriques"
-      },
-      {
-        "code" : "0068",
-        "display" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
       },
       {
         "code" : "0069",
@@ -1974,11 +1970,11 @@ Liens:
       },
       {
         "code" : "0764",
-        "display" : "Soins de stomie d'élimination digestive"
+        "display" : "Suivi et surveillance de stomie d'élimination digestive"
       },
       {
         "code" : "0765",
-        "display" : "Soins de stomie d'élimination urinaire"
+        "display" : "Suivi et surveillance de stomie d'élimination urinaire"
       },
       {
         "code" : "0767",
@@ -5506,7 +5502,7 @@ Liens:
       },
       {
         "code" : "1720",
-        "display" : "Programme de psychoéducation psy pour les familles et aidants (ProFamille, BREF...)"
+        "display" : "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)"
       },
       {
         "code" : "1721",
