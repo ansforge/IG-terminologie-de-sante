@@ -3016,11 +3016,11 @@ Description: "Activite Operationnelle"
 * #369 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #active
-* #370 "Soins intensifs spécialisés pédiatrie"
+* #370 "Soins intensifs pédiatrie"
 * #370 ^property[0].code = #dateValid
 * #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #370 ^property[+].code = #dateMaj
-* #370 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #370 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #370 ^property[+].code = #status
 * #370 ^property[=].valueCode = #active
 * #371 "Soins intensifs spécialisés néphrologique"
@@ -4966,11 +4966,14 @@ Description: "Activite Operationnelle"
 * #630 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #630 ^property[+].code = #status
 * #630 ^property[=].valueCode = #active
-* #631 "Prise en charge et coordination de plaies et cicatrisations complexes"
+* #631 "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques" "C'est l'activité d'appui et de coordination du parcours de soins des patients porteurs de plaies dont le délai de cicatrisation est allongé au-delà de 4 à 6 semaines (plaies chroniques) ou dont la complexité nécessite une expertise pluridisciplinaire spécialisée (ulcères veineux ou artériels, escarres, plaies du pied diabétique, plaies post-chirurgicales difficiles, etc), en orientant les professionnels de santé de premier recours et en coordonnant les interventions des différents acteurs jusqu'à la stabilisation ou la cicatrisation."
+* #631 ^designation.language = #fr-FR
+* #631 ^designation.use = $sct#900000000000013009
+* #631 ^designation.value = "Orientation et coordination de plaies et cicatrisations complexes / chroniques"
 * #631 ^property[0].code = #dateValid
 * #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #631 ^property[+].code = #dateMaj
-* #631 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #631 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #631 ^property[+].code = #status
 * #631 ^property[=].valueCode = #active
 * #632 "Médecine nucléaire - Diagnostic"
