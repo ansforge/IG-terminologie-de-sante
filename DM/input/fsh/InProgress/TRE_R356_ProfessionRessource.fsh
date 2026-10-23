@@ -53,11 +53,11 @@ Description: "Profession Ressource"
 * #05 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
-* #08 "Médiateur de santé pair"
+* #08 "Médiateur de santé pair ou de santé communautaire"
 * #08 ^property[0].code = #dateValid
 * #08 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
-* #08 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #08 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
 * #10 "Socio-esthéticien"
