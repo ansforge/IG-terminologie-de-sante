@@ -3174,15 +3174,11 @@ Description: "Catégorie d'établissements"
 * #405 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #deprecated
-* #411 "Intermédiaire de Placement Social"
-* #411 ^designation[0].language = #fr-FR
-* #411 ^designation[=].use.system = "http://snomed.info/sct"
-* #411 ^designation[=].use = $sct#900000000000013009
-* #411 ^designation[=].value = "Interméd.Pla.Social"
+* #411 "Services accompagnement TDC et ADB"
 * #411 ^property[0].code = #dateValid
 * #411 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #411 ^property[+].code = #dateMaj
-* #411 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #411 ^property[=].valueDateTime = "2026-11-02T00:00:00+01:00"
 * #411 ^property[+].code = #status
 * #411 ^property[=].valueCode = #active
 * #412 "Appartement Thérapeutique"

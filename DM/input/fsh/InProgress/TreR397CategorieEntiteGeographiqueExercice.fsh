@@ -7736,11 +7736,7 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * #405 ^property[=].valueCode = #deprecated
 * #405 ^property[+].code = #cisis
 * #405 ^property[=].valueBoolean = true
-* #411 "Intermédiaire de Placement Social"
-* #411 ^designation[0].language = #fr-FR
-* #411 ^designation[=].use.system = "http://snomed.info/sct"
-* #411 ^designation[=].use = $sct#900000000000013009
-* #411 ^designation[=].value = "Interméd.Pla.Social"
+* #411 "Services accompagnement TDC et ADB"
 * #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger = 4
 * #411 ^property[+].code = #domaine
@@ -7751,7 +7747,7 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * #411 ^property[+].code = #dateValid
 * #411 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #411 ^property[+].code = #dateMaj
-* #411 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #411 ^property[=].valueDateTime = "2026-11-02T00:00:00+01:00"
 * #411 ^property[+].code = #status
 * #411 ^property[=].valueCode = #active
 * #411 ^property[+].code = #rass
