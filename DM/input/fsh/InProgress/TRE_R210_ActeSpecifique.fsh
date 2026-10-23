@@ -630,10 +630,14 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0068 ^designation[=].value = "Chirurgie SOS main (Agrément FESUM)"
 * #0068 ^property[0].code = #dateValid
 * #0068 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #0068 ^property[+].code = #dateFin
+* #0068 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0068 ^property[+].code = #dateMaj
-* #0068 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #0068 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #0068 ^property[+].code = #deprecationDate
+* #0068 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0068 ^property[+].code = #status
-* #0068 ^property[=].valueCode = #active
+* #0068 ^property[=].valueCode = #deprecated
 * #0069 "Chirurgie de la maladie thrombo-embolique pulmonaire aiguë (EP) et chronique (HTAP post-embolique)"
 * #0069 ^designation[+].language = #fr-FR
 * #0069 ^designation[=].use.system = "http://snomed.info/sct"
@@ -6811,18 +6815,18 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0763 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0763 ^property[+].code = #status
 * #0763 ^property[=].valueCode = #active
-* #0764 "Soins de stomie d'élimination digestive"
+* #0764 "Suivi et surveillance de stomie d'élimination digestive"
 * #0764 ^property[0].code = #dateValid
 * #0764 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0764 ^property[+].code = #dateMaj
-* #0764 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0764 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0764 ^property[+].code = #status
 * #0764 ^property[=].valueCode = #active
-* #0765 "Soins de stomie d'élimination urinaire"
+* #0765 "Suivi et surveillance de stomie d'élimination urinaire"
 * #0765 ^property[0].code = #dateValid
 * #0765 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0765 ^property[+].code = #dateMaj
-* #0765 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
+* #0765 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #0765 ^property[+].code = #status
 * #0765 ^property[=].valueCode = #active
 * #0766 "Bilan psychologique clinique"
@@ -14349,11 +14353,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1719 ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #1719 ^property[+].code = #status
 * #1719 ^property[=].valueCode = #active
-* #1720 "Programme de psychoéducation psy pour les familles et aidants (ProFamille, BREF...)" "Programme structuré d'intervention thérapeutique destiné aux familles et aidants de personnes souffrant d'un trouble psychiatrique, visant à les informer sur la maladie, renforcer leurs capacités à accompagner le patient et prévenir leur propre épuisement."
+* #1720 "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)" "Programme structuré d'intervention thérapeutique destiné aux familles et aidants de personnes souffrant d'un trouble psychiatrique, visant à les informer sur la maladie, renforcer leurs capacités à accompagner le patient et prévenir leur propre épuisement."
 * #1720 ^designation[0].language = #fr-FR
 * #1720 ^designation[=].use.system = "http://snomed.info/sct"
 * #1720 ^designation[=].use = $sct#900000000000013009
-* #1720 ^designation[=].value = "Programme de psychoéducation psy pour les familles et aidants"
+* #1720 ^designation[=].value = "Programme de psychoéducation psychiatrique pour les familles et aidants"
 * #1720 ^property[0].code = #dateValid
 * #1720 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1720 ^property[+].code = #dateMaj
@@ -14402,7 +14406,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1726 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1726 ^property[+].code = #status
 * #1726 ^property[=].valueCode = #active
-* #1727 "Tomothérapie"
+* #1727 "Tomothérapie" "La tomothérapie est une technique avancée de radiothérapie qui combine un scanner et un accélérateur de particules afin de délivrer les rayonnements avec une très grande précision autour de la tumeur tout en limitant l'irradiation des tissus sains."
 * #1727 ^property[0].code = #dateValid
 * #1727 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #1727 ^property[+].code = #dateMaj
