@@ -10,10 +10,10 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.378"
-* ^version = "20260601120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-06-01T12:00:00.000+00:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
