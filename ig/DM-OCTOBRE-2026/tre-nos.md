@@ -149,7 +149,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R51_DESCGroupe2Diplome](CodeSystem-TRE-R51-DESCGroupe2Diplome.md) | DESC Groupe 2 (diplôme) | 15/12/2023 | active |
 | [TRE_R52_CapaciteDiplome](CodeSystem-TRE-R52-CapaciteDiplome.md) | Capacité (diplôme) | 15/12/2023 | active |
 | [TRE_R53_DiplomePaysEEE](CodeSystem-TRE-R53-DiplomePaysEEE.md) | Diplôme d'un pays de l'EEE | 15/12/2023 | active |
-| [TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md) | Diplôme d'Université ou Inter-Universitaire | 26/07/2024 | active |
+| [TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md) | Diplôme d'Université ou Inter-Universitaire | 02/11/2026 | active |
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 | active |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 | active |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 | active |

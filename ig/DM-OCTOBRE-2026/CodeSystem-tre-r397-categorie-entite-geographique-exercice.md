@@ -16346,15 +16346,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   },
   {
     "code" : "411",
-    "display" : "Intermédiaire de Placement Social",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Interméd.Pla.Social"
-    }],
+    "display" : "Services accompagnement TDC et ADB",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 4
@@ -16376,7 +16368,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-11-02T00:00:00+01:00"
     },
     {
       "code" : "status",

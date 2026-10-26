@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-23
+2026-10-26
 
 Liens:
 [Table des matières ](toc.md)|
@@ -851,6 +851,26 @@ Liens:
       {
         "code" : "DIP416",
         "display" : "DUT Biologie appliquée option diététique"
+      },
+      {
+        "code" : "DIP417",
+        "display" : "DU Plaies chroniques et cicatrisation"
+      },
+      {
+        "code" : "DIP418",
+        "display" : "DU Appropriation des méthodologies de recherche clinique appliquées à la rééducation et la réadaptation"
+      },
+      {
+        "code" : "DIP419",
+        "display" : "DIU Posture, équilibre, locomotion"
+      },
+      {
+        "code" : "DIP420",
+        "display" : "DU Plaies, brûlures et cicatrisation"
+      },
+      {
+        "code" : "DIP421",
+        "display" : "DIU Soigner les soignants : spécificités et ressources"
       }]
     },
     {
