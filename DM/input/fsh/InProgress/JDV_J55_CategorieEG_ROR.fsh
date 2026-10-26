@@ -10,10 +10,10 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20260505120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
