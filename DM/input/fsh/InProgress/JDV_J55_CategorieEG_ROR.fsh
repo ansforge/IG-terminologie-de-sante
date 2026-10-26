@@ -117,7 +117,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#395 "Etablissement d'accueil temporaire pour adultes handicapés"
 * $TRE-R66-CategorieEtablissement#396 "Foyer d'hébergement pour enfants et adolescents handicapés"
 * $TRE-R66-CategorieEtablissement#402 "Jardin d'enfants spécialisé"
-* $TRE-R66-CategorieEtablissement#411 "Intermédiaire de placement social"
+* $TRE-R66-CategorieEtablissement#411 "Services accompagnement TDC et ADB"
 * $TRE-R66-CategorieEtablissement#412 "Appartement thérapeutique"
 * $TRE-R66-CategorieEtablissement#415 "Service médico-psychologique régional (SMPR)"
 * $TRE-R66-CategorieEtablissement#422 "Traitements spécialisés à domicile"
