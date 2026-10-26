@@ -7,6 +7,7 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.378"
