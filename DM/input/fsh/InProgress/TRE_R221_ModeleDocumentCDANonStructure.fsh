@@ -6,14 +6,13 @@ Description: "Identifiant des modèles de CDA non structurés"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
-* ^extension.valuePeriod.end = "2025-12-22T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.329"
-* ^version = "20251222120000"
-* ^status = #retired
+* ^version = "20261102120000"
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
