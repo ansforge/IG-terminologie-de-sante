@@ -7738,6 +7738,10 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * #405 ^property[+].code = #cisis
 * #405 ^property[=].valueBoolean = true
 * #411 "Services accompagnement TDC et ADB"
+* #411 ^designation[0].language = #fr-FR
+* #411 ^designation[=].use.system = "http://snomed.info/sct"
+* #411 ^designation[=].use = $sct#900000000000013009
+* #411 ^designation[=].value = "Interméd.Pla.Social"
 * #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger = 4
 * #411 ^property[+].code = #domaine
