@@ -1,0 +1,284 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TimingEvent-supplement-fr> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TimingEvent-supplement-fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TimingEvent-supplement-fr</b></p><a name=\"TimingEvent-supplement-fr\"> </a><a name=\"hcTimingEvent-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-AC\">AC</a><a name=\"TimingEvent-supplement-fr-AC\"> </a></td><td>Avant le repas</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ACD\">ACD</a><a name=\"TimingEvent-supplement-fr-ACD\"> </a></td><td>Avant le déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ACM\">ACM</a><a name=\"TimingEvent-supplement-fr-ACM\"> </a></td><td>Avant le petit-déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ACV\">ACV</a><a name=\"TimingEvent-supplement-fr-ACV\"> </a></td><td>Avant le dîner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-C\">C</a><a name=\"TimingEvent-supplement-fr-C\"> </a></td><td>Pendant les repas</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-CD\">CD</a><a name=\"TimingEvent-supplement-fr-CD\"> </a></td><td>Pendant le déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-CM\">CM</a><a name=\"TimingEvent-supplement-fr-CM\"> </a></td><td>Pendant le petit-déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-CV\">CV</a><a name=\"TimingEvent-supplement-fr-CV\"> </a></td><td>Pendant le dîner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-HS\">HS</a><a name=\"TimingEvent-supplement-fr-HS\"> </a></td><td>Au coucher</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-IC\">IC</a><a name=\"TimingEvent-supplement-fr-IC\"> </a></td><td>Entre les repas</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ICD\">ICD</a><a name=\"TimingEvent-supplement-fr-ICD\"> </a></td><td>Entre le déjeuner et le dîner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ICM\">ICM</a><a name=\"TimingEvent-supplement-fr-ICM\"> </a></td><td>Entre le petit-déjeûner et le déjeûner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-ICV\">ICV</a><a name=\"TimingEvent-supplement-fr-ICV\"> </a></td><td>Entre le diner et le coucher</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-PC\">PC</a><a name=\"TimingEvent-supplement-fr-PC\"> </a></td><td>Après le repas</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-PCD\">PCD</a><a name=\"TimingEvent-supplement-fr-PCD\"> </a></td><td>Après le déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-PCM\">PCM</a><a name=\"TimingEvent-supplement-fr-PCM\"> </a></td><td>Après le petit-déjeuner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-PCV\">PCV</a><a name=\"TimingEvent-supplement-fr-PCV\"> </a></td><td>Après le dîner</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-TimingEvent.html#v3-TimingEvent-WAKE\">WAKE</a><a name=\"TimingEvent-supplement-fr-WAKE\"> </a></td><td>Au réveil</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type" ] ;
+     fhir:Extension.valueCode [ fhir:value "lang-pack" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "TimingEventSupplementFr"] ;
+  fhir:CodeSystem.title [ fhir:value "TimingEventSupplementFr"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.description [ fhir:value "Traduction Française"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v3-TimingEvent" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-TimingEvent>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AC" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Avant le repas" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACD" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Avant le déjeuner" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACM" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Avant le petit-déjeuner" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ACV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Avant le dîner" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pendant les repas" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CD" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pendant le déjeuner" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CM" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pendant le petit-déjeuner" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pendant le dîner" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HS" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Au coucher" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IC" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Entre les repas" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICD" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Entre le déjeuner et le dîner" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICM" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Entre le petit-déjeûner et le déjeûner" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ICV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Entre le diner et le coucher" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PC" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Après le repas" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCD" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Après le déjeuner" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCM" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Après le petit-déjeuner" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PCV" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Après le dîner" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WAKE" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Au réveil" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/TimingEvent-supplement-fr.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,803 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J103-TypeVoie-RASS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J103-TypeVoie-RASS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "5" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:04:40.537+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J103-TypeVoie-RASS</b></p><a name=\"JDV-J103-TypeVoie-RASS\"> </a><a name=\"hcJDV-J103-TypeVoie-RASS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 5; Dernière mise à jour : 2026-07-06 19:04:40+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R35-TypeVoie.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20231215120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ABE\">ABE</a></td><td>Abbaye</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ACH\">ACH</a></td><td>Ancien chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AERD\">AERD</a></td><td>Aérodrome</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AERG\">AERG</a></td><td>Aérogare</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AERP\">AERP</a></td><td>Aéroport</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AGL\">AGL</a></td><td>Agglomération</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AIRE\">AIRE</a></td><td>Aire</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ALL\">ALL</a></td><td>Allée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ANGL\">ANGL</a></td><td>Angle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ANSE\">ANSE</a></td><td>Anse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ARC\">ARC</a></td><td>Arcade</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ART\">ART</a></td><td>Ancienne route</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AUT\">AUT</a></td><td>Autoroute</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-AV\">AV</a></td><td>Avenue</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BAST\">BAST</a></td><td>Bastion</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BCH\">BCH</a></td><td>Bas chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BCLE\">BCLE</a></td><td>Boucle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BD\">BD</a></td><td>Boulevard</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BEGI\">BEGI</a></td><td>Béguinage</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BER\">BER</a></td><td>Berge</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BOIS\">BOIS</a></td><td>Bois</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BRE\">BRE</a></td><td>Barrière</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BRG\">BRG</a></td><td>Bourg</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BSTD\">BSTD</a></td><td>Bastide</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-BUT\">BUT</a></td><td>Butte</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CALE\">CALE</a></td><td>Cale</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CAMP\">CAMP</a></td><td>Camp</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CAR\">CAR</a></td><td>Carrefour</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CARE\">CARE</a></td><td>Carrière</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CARR\">CARR</a></td><td>Carré</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CAU\">CAU</a></td><td>Carreau</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CAV\">CAV</a></td><td>Cavée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CCAL\">CCAL</a></td><td>Centre commercial</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CGNE\">CGNE</a></td><td>Campagne</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHE\">CHE</a></td><td>Chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHEM\">CHEM</a></td><td>Chemin, cheminement</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHEZ\">CHEZ</a></td><td>Chez</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHI\">CHI</a></td><td>Charmille</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHL\">CHL</a></td><td>Chalet</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHP\">CHP</a></td><td>Chapelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHS\">CHS</a></td><td>Chaussée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHT\">CHT</a></td><td>Château</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CHV\">CHV</a></td><td>Chemin vicinal</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CITE\">CITE</a></td><td>Cité</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CLOI\">CLOI</a></td><td>Cloître</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CLOS\">CLOS</a></td><td>Clos</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COL\">COL</a></td><td>Col</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COLI\">COLI</a></td><td>Colline</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COR\">COR</a></td><td>Corniche</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COTE\">COTE</a></td><td>Cote</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COTT\">COTT</a></td><td>Cottage</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-COUR\">COUR</a></td><td>Cour</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CPG\">CPG</a></td><td>Camping</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CRS\">CRS</a></td><td>Cours</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CST\">CST</a></td><td>Castel</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CTR\">CTR</a></td><td>Contour</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-CTRE\">CTRE</a></td><td>Centre</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-DARS\">DARS</a></td><td>Darse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-DEG\">DEG</a></td><td>Degré</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-DIG\">DIG</a></td><td>Digue</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-DOM\">DOM</a></td><td>Domaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-DSC\">DSC</a></td><td>Descente</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ECL\">ECL</a></td><td>Ecluse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-EGL\">EGL</a></td><td>Eglise</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-EN\">EN</a></td><td>Enceinte</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ENC\">ENC</a></td><td>Enclos</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ENV\">ENV</a></td><td>Enclave</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ESC\">ESC</a></td><td>Escalier</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ESP\">ESP</a></td><td>Esplanade</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ESPA\">ESPA</a></td><td>Espace</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ETNG\">ETNG</a></td><td>Etang</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FG\">FG</a></td><td>Faubourg</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FON\">FON</a></td><td>Fontaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FORM\">FORM</a></td><td>Forum</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FORT\">FORT</a></td><td>Fort</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FOS\">FOS</a></td><td>Fosse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FOYR\">FOYR</a></td><td>Foyer</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-FRM\">FRM</a></td><td>Ferme</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GAL\">GAL</a></td><td>Galerie</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GARE\">GARE</a></td><td>Gare</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GARN\">GARN</a></td><td>Garenne</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GBD\">GBD</a></td><td>Grand boulevard</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GDEN\">GDEN</a></td><td>Grand ensemble</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GPE\">GPE</a></td><td>Groupe</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GPT\">GPT</a></td><td>Groupement</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GR\">GR</a></td><td>Grand rue</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GRI\">GRI</a></td><td>Grille</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-GRIM\">GRIM</a></td><td>Grimpette</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-HAM\">HAM</a></td><td>Hameau</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-HCH\">HCH</a></td><td>Haut chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-HIP\">HIP</a></td><td>Hippodrome</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-HLE\">HLE</a></td><td>Halle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-HLM\">HLM</a></td><td>HLM</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ILE\">ILE</a></td><td>Ile</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-IMM\">IMM</a></td><td>Immeuble</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-IMP\">IMP</a></td><td>Impasse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-JARD\">JARD</a></td><td>Jardin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-JTE\">JTE</a></td><td>Jetée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-LD\">LD</a></td><td>Lieu dit</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-LEVE\">LEVE</a></td><td>Levée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-LOT\">LOT</a></td><td>Lotissement</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MAIL\">MAIL</a></td><td>Mail</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MAN\">MAN</a></td><td>Manoir</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MAR\">MAR</a></td><td>Marche</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MAS\">MAS</a></td><td>Mas</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MET\">MET</a></td><td>Métro</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MF\">MF</a></td><td>Maison forestière</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MLN\">MLN</a></td><td>Moulin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MTE\">MTE</a></td><td>Montée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-MUS\">MUS</a></td><td>Musée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-NTE\">NTE</a></td><td>Nouvelle route</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PAE\">PAE</a></td><td>Petite avenue</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PAL\">PAL</a></td><td>Palais</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PARC\">PARC</a></td><td>Parc</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PAS\">PAS</a></td><td>Passage</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PASS\">PASS</a></td><td>Passe</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PAT\">PAT</a></td><td>Patio</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PAV\">PAV</a></td><td>Pavillon</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PCH\">PCH</a></td><td>Petit chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PCHE\">PCHE</a></td><td>Porche</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PERI\">PERI</a></td><td>Périphérique</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PIM\">PIM</a></td><td>Petite impasse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PKG\">PKG</a></td><td>Parking</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PL\">PL</a></td><td>Place</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLAG\">PLAG</a></td><td>Plage</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLAN\">PLAN</a></td><td>Plan</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLCI\">PLCI</a></td><td>Placis</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLE\">PLE</a></td><td>Passerelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLN\">PLN</a></td><td>Plaine</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PLT\">PLT</a></td><td>Plateau</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PN\">PN</a></td><td>Passage à niveau</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PNT\">PNT</a></td><td>Pointe</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PONT\">PONT</a></td><td>Pont</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PORQ\">PORQ</a></td><td>Portique</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PORT\">PORT</a></td><td>Port</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-POT\">POT</a></td><td>Poterne</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-POUR\">POUR</a></td><td>Pourtour</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PRE\">PRE</a></td><td>Pré</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PROM\">PROM</a></td><td>Promenade</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PRQ\">PRQ</a></td><td>Presqu'ile</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PRT\">PRT</a></td><td>Petite route</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PRV\">PRV</a></td><td>Parvis</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PSTY\">PSTY</a></td><td>Péristyle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PTA\">PTA</a></td><td>Petite allée</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-PTE\">PTE</a></td><td>Porte</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-QU\">QU</a></td><td>Quai</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-QUA\">QUA</a></td><td>Quartier</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-R\">R</a></td><td>Rue</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RAC\">RAC</a></td><td>Raccourci</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RAID\">RAID</a></td><td>Raidillon</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-REM\">REM</a></td><td>Rempart</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RES\">RES</a></td><td>Résidence</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RLE\">RLE</a></td><td>Ruelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ROC\">ROC</a></td><td>Rocade</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ROQT\">ROQT</a></td><td>Roquet</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RPE\">RPE</a></td><td>Rampe</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RPT\">RPT</a></td><td>Rond point</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RTD\">RTD</a></td><td>Rotonde</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-RTE\">RTE</a></td><td>Route</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-SEN\">SEN</a></td><td>Sentier</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-SQ\">SQ</a></td><td>Square</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-STA\">STA</a></td><td>Station</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-STDE\">STDE</a></td><td>Stade</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TOUR\">TOUR</a></td><td>Tour</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TPL\">TPL</a></td><td>Terre plein</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TRA\">TRA</a></td><td>Traverse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TRN\">TRN</a></td><td>Terrain</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TRT\">TRT</a></td><td>Tertre</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-TSSE\">TSSE</a></td><td>Terrasse</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VAL\">VAL</a></td><td>Vallée, vallon</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VCHE\">VCHE</a></td><td>Vieux chemin</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VEN\">VEN</a></td><td>Venelle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VGE\">VGE</a></td><td>Village</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VIA\">VIA</a></td><td>Via</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VLA\">VLA</a></td><td>Villa</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VLGE\">VLGE</a></td><td>Village</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VOI\">VOI</a></td><td>Voie</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-VTE\">VTE</a></td><td>Vieille route</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZA\">ZA</a></td><td>Zone d'activité</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZAC\">ZAC</a></td><td>Zone d'aménagement concerté</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZAD\">ZAD</a></td><td>Zone d'aménagement différé</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZI\">ZI</a></td><td>Zone industrielle</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZONE\">ZONE</a></td><td>Zone</td></tr><tr><td><a href=\"CodeSystem-TRE-R35-TypeVoie.html#TRE-R35-TypeVoie-ZUP\">ZUP</a></td><td>Zone à urbaniser en priorité</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2019-08-30T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J103-TypeVoie-RASS/FHIR/JDV-J103-TypeVoie-RASS"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.171" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20200424120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J103_TypeVoie_RASS"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Type de voie du professionnel du RASS"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ABE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abbaye" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ACH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ancien chemin" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AERD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aérodrome" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AERG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aérogare" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AERP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aéroport" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AGL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Agglomération" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AIRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aire" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ALL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Allée" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANGL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Angle" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anse" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ARC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arcade" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ART" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ancienne route" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autoroute" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Avenue" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BAST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bastion" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BCH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bas chemin" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BCLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Boucle" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Boulevard" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BEGI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Béguinage" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Berge" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BOIS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bois" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Barrière" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bourg" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BSTD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bastide" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Butte" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CALE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cale" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAMP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Camp" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carrefour" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CARE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carrière" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CARR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carré" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carreau" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CAV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cavée" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CCAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre commercial" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CGNE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Campagne" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chemin" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chemin, cheminement" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHEZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chez" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Charmille" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chalet" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chapelle" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chaussée" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Château" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chemin vicinal" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CITE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cité" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLOI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cloître" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CLOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Clos" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Col" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COLI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Colline" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Corniche" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cote" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COTT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cottage" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "COUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cour" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CPG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Camping" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CRS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cours" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Castel" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CTR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Contour" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CTRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DARS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Darse" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Degré" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Digue" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DOM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Domaine" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DSC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Descente" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ECL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecluse" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EGL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eglise" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enceinte" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enclos" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enclave" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ESC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Escalier" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ESP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Esplanade" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ESPA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Espace" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ETNG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etang" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Faubourg" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FON" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fontaine" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FORM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Forum" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FORT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fort" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FOS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fosse" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FOYR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foyer" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FRM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ferme" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Galerie" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GARE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gare" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GARN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Garenne" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GBD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grand boulevard" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GDEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grand ensemble" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GPE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupe" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GPT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Groupement" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grand rue" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grille" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GRIM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Grimpette" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HAM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hameau" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HCH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Haut chemin" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HIP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hippodrome" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Halle" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HLM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HLM" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ILE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ile" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IMM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immeuble" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IMP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Impasse" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JARD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jardin" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jetée" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lieu dit" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LEVE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Levée" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LOT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lotissement" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mail" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Manoir" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marche" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mas" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MET" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Métro" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison forestière" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MLN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Moulin" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Montée" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MUS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Musée" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nouvelle route" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Petite avenue" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palais" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PARC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Parc" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Passage" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PASS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Passe" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Patio" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pavillon" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Petit chemin" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Porche" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PERI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Périphérique" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PIM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Petite impasse" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PKG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Parking" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Place" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLAG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plage" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLAN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plan" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLCI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Placis" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Passerelle" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plaine" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateau" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Passage à niveau" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PNT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pointe" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PONT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pont" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PORQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Portique" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PORT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Port" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poterne" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pourtour" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pré" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PROM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Promenade" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Presqu'ile" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Petite route" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PRV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Parvis" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PSTY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Péristyle" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PTA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Petite allée" ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Porte" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Quai" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QUA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Quartier" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rue" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Raccourci" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RAID" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Raidillon" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "REM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rempart" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Résidence" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ruelle" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ROC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rocade" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ROQT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Roquet" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RPE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rampe" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RPT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rond point" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RTD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rotonde" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Route" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sentier" ]
+       ], [
+         fhir:index 160 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SQ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Square" ]
+       ], [
+         fhir:index 161 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Station" ]
+       ], [
+         fhir:index 162 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STDE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Stade" ]
+       ], [
+         fhir:index 163 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TOUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tour" ]
+       ], [
+         fhir:index 164 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TPL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Terre plein" ]
+       ], [
+         fhir:index 165 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Traverse" ]
+       ], [
+         fhir:index 166 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Terrain" ]
+       ], [
+         fhir:index 167 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tertre" ]
+       ], [
+         fhir:index 168 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TSSE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Terrasse" ]
+       ], [
+         fhir:index 169 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VAL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vallée, vallon" ]
+       ], [
+         fhir:index 170 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VCHE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vieux chemin" ]
+       ], [
+         fhir:index 171 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VEN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Venelle" ]
+       ], [
+         fhir:index 172 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VGE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Village" ]
+       ], [
+         fhir:index 173 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Via" ]
+       ], [
+         fhir:index 174 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VLA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Villa" ]
+       ], [
+         fhir:index 175 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VLGE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Village" ]
+       ], [
+         fhir:index 176 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VOI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Voie" ]
+       ], [
+         fhir:index 177 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "VTE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vieille route" ]
+       ], [
+         fhir:index 178 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone d'activité" ]
+       ], [
+         fhir:index 179 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZAC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone d'aménagement concerté" ]
+       ], [
+         fhir:index 180 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZAD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone d'aménagement différé" ]
+       ], [
+         fhir:index 181 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone industrielle" ]
+       ], [
+         fhir:index 182 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZONE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone" ]
+       ], [
+         fhir:index 183 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ZUP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zone à urbaniser en priorité" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J103-TypeVoie-RASS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

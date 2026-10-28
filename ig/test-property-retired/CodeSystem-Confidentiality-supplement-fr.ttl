@@ -1,0 +1,128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/Confidentiality-supplement-fr> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Confidentiality-supplement-fr"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem Confidentiality-supplement-fr</b></p><a name=\"Confidentiality-supplement-fr\"> </a><a name=\"hcConfidentiality-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-L\">L</a><a name=\"Confidentiality-supplement-fr-L\"> </a></td><td>Bas</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-M\">M</a><a name=\"Confidentiality-supplement-fr-M\"> </a></td><td>Modéré</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-N\">N</a><a name=\"Confidentiality-supplement-fr-N\"> </a></td><td>Normal</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-R\">R</a><a name=\"Confidentiality-supplement-fr-R\"> </a></td><td>Restreint</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-U\">U</a><a name=\"Confidentiality-supplement-fr-U\"> </a></td><td>Non restreint</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-Confidentiality.html#v3-Confidentiality-V\">V</a><a name=\"Confidentiality-supplement-fr-V\"> </a></td><td>Très restreint</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type" ] ;
+     fhir:Extension.valueCode [ fhir:value "lang-pack" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ConfidentialitySupplementFr"] ;
+  fhir:CodeSystem.title [ fhir:value "Confidentiality SupplementFr"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.description [ fhir:value "Traduction Française"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "supplement"] ;
+  fhir:CodeSystem.supplements [
+     fhir:value "http://terminology.hl7.org/CodeSystem/v3-Confidentiality" ;
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-Confidentiality>
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Bas" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Modéré" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Normal" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "R" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Restreint" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Non restreint" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "V" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-FR" ] ;
+       fhir:CodeSystem.concept.designation.use [
+         a sct:900000000000013009 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "900000000000013009" ]
+       ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Très restreint" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/Confidentiality-supplement-fr.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

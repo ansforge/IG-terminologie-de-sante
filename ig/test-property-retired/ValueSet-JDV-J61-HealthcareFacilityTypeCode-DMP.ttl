@@ -1,0 +1,343 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J61-HealthcareFacilityTypeCode-DMP> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "JDV-J61-HealthcareFacilityTypeCode-DMP"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "7" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T19:06:47.211+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J61-HealthcareFacilityTypeCode-DMP</b></p><a name=\"JDV-J61-HealthcareFacilityTypeCode-DMP\"> </a><a name=\"hcJDV-J61-HealthcareFacilityTypeCode-DMP\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 7; Dernière mise à jour : 2026-07-06 19:06:47+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20240329120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-EXP_PATIENT\">EXP_PATIENT</a></td><td>Expression personnelle du patient</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-A00-ProducteurDocNonPS.html#TRE-A00-ProducteurDocNonPS-SNR\">SNR</a></td><td>Service numérique référencé</td><td>Service numérique référencé par Mon Espace Santé</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"CodeSystem-TRE-R02-SecteurActivite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20250523120000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA01\">SA01</a></td><td>Etablissement public de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA02\">SA02</a></td><td>Hôpital militaire du Service de santé des armées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA03\">SA03</a></td><td>Etablissement privé PSPH</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA04\">SA04</a></td><td>Etablissement privé non PSPH</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA05\">SA05</a></td><td>Centre de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA06\">SA06</a></td><td>Autre structure du Service de santé des armées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA07\">SA07</a></td><td>Cabinet individuel</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA08\">SA08</a></td><td>Cabinet de groupe</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA09\">SA09</a></td><td>Exercice en société</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA10\">SA10</a></td><td>Transporteur sanitaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA11\">SA11</a></td><td>Entreprise d'intérim</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA12\">SA12</a></td><td>Etablissement de soins et prévention</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA13\">SA13</a></td><td>Prévention et soins en entreprise</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA14\">SA14</a></td><td>Etablissements scolaires, universitaires et de formation hors champ FINESS</td><td>Etablissements scolaires, universitaires et de formation hors champ FINESS (venant donc en complément des établissements du secteur SA19)</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA15\">SA15</a></td><td>PMI et Planification familiale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA16\">SA16</a></td><td>Etablissement pour personnes handicapées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA17\">SA17</a></td><td>Etablissement pour personnes âgées</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA18\">SA18</a></td><td>Etablissement aide à la famille</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA19\">SA19</a></td><td>Etablissements FINESS de formation aux professions sanitaires et sociales</td><td>Etablissements de formation préparant aux diplômes délivrés par l'administration sanitaire et sociale, relevant du répertoire FINESS. Hormis les écoles universitaires de sages-femmes, qui sont dans FINESS, ce secteur ne comprend pas les universités formant aux professions médicales qui sont hors champ FINESS</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA20\">SA20</a></td><td>Etablissement pour la protection de l'enfance</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA21\">SA21</a></td><td>Etablissement d'hébergement et de réadaptation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA22\">SA22</a></td><td>Recherche</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA23\">SA23</a></td><td>Assurance privée</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA24\">SA24</a></td><td>Organisme de sécurité sociale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA25\">SA25</a></td><td>Laboratoire de biologie médicale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA26\">SA26</a></td><td>Ministère ou Service déconcentré</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA27\">SA27</a></td><td>Collectivité territoriale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA28\">SA28</a></td><td>Association ou organisme humanitaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA29\">SA29</a></td><td>Laboratoire d'analyses et de biologie médicale</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA30\">SA30</a></td><td>Autre établissement sanitaire</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA31\">SA31</a></td><td>Répartition et Distribution de médicaments et dispositifs médicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA32\">SA32</a></td><td>Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA33\">SA33</a></td><td>Pharmacie d'officine</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA34\">SA34</a></td><td>Centre de dialyse</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA35\">SA35</a></td><td>Para-pharmacie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA36\">SA36</a></td><td>Centre anti-cancer</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA37\">SA37</a></td><td>Centre de transfusion sanguine</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA38\">SA38</a></td><td>Pharmacie minière</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA39\">SA39</a></td><td>Pharmacie mutualiste</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA40\">SA40</a></td><td>Secteur privé, praticien hospitalier temps plein</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA41\">SA41</a></td><td>Autre établissement du domaine social ou médico-social</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA42\">SA42</a></td><td>Appareillage médical</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA43\">SA43</a></td><td>Secteur non défini</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA44\">SA44</a></td><td>Recrutement ou Gestion RH</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA45\">SA45</a></td><td>Communication, Marketing, Consulting, Média</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA46\">SA46</a></td><td>Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA47\">SA47</a></td><td>Incendie et secours</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA48\">SA48</a></td><td>Entreprise industrielle et tertiaire hors industrie pharmaceutique</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA49\">SA49</a></td><td>Entité Outre-Mer</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA50\">SA50</a></td><td>Permanence des soins ambulatoires hors cabinet</td><td>Ce secteur est utilisé pour un usage spécifique lié à la facturation et n'a pas vocation à recenser exhaustivement les structures de PDSA. Le SA50 contient les SIRET des professionnels ayant une activité de PDSA et qui ne sont pas déjà établis à titre libéral non remplaçant. Ces structures permettent aux professionnels de facturer à l'Assurance Maladie dans le cadre de leur activité de PDSA (feuilles de soins électroniques).</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA51\">SA51</a></td><td>Structure de coopération avec autorisation de soins</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA52\">SA52</a></td><td>Maison de santé ou Pôle de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA53\">SA53</a></td><td>Siège administratif d'un établissement de santé</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA54\">SA54</a></td><td>Centre de dépistage et de prévention</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA55\">SA55</a></td><td>Laboratoire pharmaceutique préparant et délivrant des allergènes</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA56\">SA56</a></td><td>Propharmacie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA57\">SA57</a></td><td>Structure de coopération avec mission de coordination de soins</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA58\">SA58</a></td><td>Entreprise de taxis</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA59\">SA59</a></td><td>Laboratoire de biologie médicale hors catégorie standard</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA60\">SA60</a></td><td>Centres médicaux SNCF</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA61\">SA61</a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA63\">SA63</a></td><td>Communauté Professionnelle Territoriale de Santé</td><td>Structures non effectrices de soins permettant la coordination entre professionnels de santé et/ou l'orientation des personnes dans leur parcours de soins</td></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA64\">SA64</a></td><td>Société de téléconsultation</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA65\">SA65</a></td><td>Antenne de pharmacie</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA68\">SA68</a></td><td>Services départementaux d'incendie et de secours</td><td/></tr><tr><td><a href=\"CodeSystem-TRE-R02-SecteurActivite.html#TRE-R02-SecteurActivite-SA69\">SA69</a></td><td>Maisons de naissance</td><td/></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2019-01-18T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J61-HealthcareFacilityTypeCode-DMP/FHIR/JDV-J61-HealthcareFacilityTypeCode-DMP"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.1.5.3" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20240927120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J61_HealthcareFacilityTypeCode_DMP"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2024-09-27T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Jeu de valeurs pour healthcareFacilityTypeCode"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "EXP_PATIENT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Expression personnelle du patient" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SNR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Service numérique référencé" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA01" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement public de santé" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hôpital militaire du Service de santé des armées" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA03" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement privé PSPH" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA04" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement privé non PSPH" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de santé" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA06" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre structure du Service de santé des armées" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA07" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabinet individuel" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA08" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabinet de groupe" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA09" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Exercice en société" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transporteur sanitaire" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entreprise d'intérim" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement de soins et prévention" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prévention et soins en entreprise" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissements scolaires, universitaires et de formation hors champ FINESS" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA15" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PMI et Planification familiale" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement pour personnes handicapées" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA17" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement pour personnes âgées" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA18" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement aide à la famille" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA19" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissements FINESS de formation aux professions sanitaires et sociales" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement pour la protection de l'enfance" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA21" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Etablissement d'hébergement et de réadaptation" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Recherche" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assurance privée" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Organisme de sécurité sociale" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA25" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire de biologie médicale" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ministère ou Service déconcentré" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Collectivité territoriale" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA28" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Association ou organisme humanitaire" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire d'analyses et de biologie médicale" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre établissement sanitaire" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA31" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Répartition et Distribution de médicaments et dispositifs médicaux" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA32" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA33" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie d'officine" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA34" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de dialyse" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA35" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Para-pharmacie" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA36" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre anti-cancer" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA37" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de transfusion sanguine" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA38" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie minière" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA39" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pharmacie mutualiste" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Secteur privé, praticien hospitalier temps plein" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autre établissement du domaine social ou médico-social" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareillage médical" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Secteur non défini" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA44" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Recrutement ou Gestion RH" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Communication, Marketing, Consulting, Média" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA46" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA47" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Incendie et secours" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA48" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entreprise industrielle et tertiaire hors industrie pharmaceutique" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA49" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entité Outre-Mer" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Permanence des soins ambulatoires hors cabinet" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure de coopération avec autorisation de soins" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA52" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maison de santé ou Pôle de santé" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA53" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Siège administratif d'un établissement de santé" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA54" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centre de dépistage et de prévention" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA55" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire pharmaceutique préparant et délivrant des allergènes" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA56" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Propharmacie" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA57" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure de coopération avec mission de coordination de soins" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA58" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Entreprise de taxis" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA59" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire de biologie médicale hors catégorie standard" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA60" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centres médicaux SNCF" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA61" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure Dispensatrice à domicile d'Oxygène à usage médical" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA63" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Communauté Professionnelle Territoriale de Santé" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA64" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Société de téléconsultation" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA65" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antenne de pharmacie" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA68" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Services départementaux d'incendie et de secours" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SA69" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maisons de naissance" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J61-HealthcareFacilityTypeCode-DMP.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

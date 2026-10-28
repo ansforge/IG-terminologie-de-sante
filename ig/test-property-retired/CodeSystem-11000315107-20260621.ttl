@@ -1,0 +1,236 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20260621> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "11000315107-20260621"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-29T13:55:59.016+02:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem 11000315107-20260621</b></p><a name=\"11000315107-20260621\"> </a><a name=\"hc11000315107-20260621\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-06-29 13:55:59+0200</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>inactive</td><td>inactive</td><td>boolean</td><td>Whether the code is active or not (defaults to false).</td></tr><tr><td>sufficientlyDefined</td><td>sufficientlyDefined</td><td>boolean</td><td>True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).</td></tr><tr><td>parent</td><td>parent</td><td>code</td><td>The SNOMED CT concept id that is a direct parent of the concept.</td></tr><tr><td>child</td><td>child</td><td>code</td><td>The SNOMED CT concept id that is a direct child of the concept.</td></tr><tr><td>moduleId</td><td>moduleId</td><td>code</td><td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td><td>is-a </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.</td><td>descendent-of </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.</td><td>in </td><td>A SNOMED CT concept id</td></tr><tr><td>constraint</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>expression</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>parent</td><td>Includes all concept ids that have/do not have a parent concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr><tr><td>child</td><td>Includes all concept ids that have/do not have a child concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines codes dans une hiérarchie Is-A, but no codes are represented here</p></div>"
+  ] ;
+  fhir:DomainResource.contained [
+     a fhir:Provenance ;
+     fhir:index 0 ;
+     fhir:Resource.id [ fhir:value "592cb490-abb5-48f2-9c99-49167b6888ae" ] ;
+     fhir:Provenance.target [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "11000315107-20260621" ]
+     ] ;
+     fhir:Provenance.recorded [ fhir:value "2026-06-29T13:55:59.016+02:00"^^xsd:dateTime ] ;
+     fhir:Provenance.activity [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/w3c-provenance-activity-type" ] ;
+         fhir:Coding.code [ fhir:value "Derivation" ] ;
+         fhir:Coding.display [ fhir:value "wasDerivedFrom" ]
+       ]
+     ] ;
+     fhir:Provenance.agent [
+       fhir:index 0 ;
+       fhir:Provenance.agent.role [
+         fhir:index 0 ;
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/extra-security-role-type" ] ;
+           fhir:Coding.code [ fhir:value "dataprocessor" ]
+         ]
+       ] ;
+       fhir:Provenance.agent.who [
+         fhir:Reference.reference [ fhir:value "#fcc18cb2-8b67-4e10-b6eb-38d760eabd1f" ]
+       ]
+     ] ;
+     fhir:Provenance.entity [
+       fhir:index 0 ;
+       fhir:Provenance.entity.role [ fhir:value "source" ] ;
+       fhir:Provenance.entity.what [
+         fhir:Reference.reference [ fhir:value "#e7baa1cc-b2a9-40ce-931f-0a6b299f90ce" ]
+       ]
+     ]
+  ], [
+     a fhir:Device ;
+     fhir:index 1 ;
+     fhir:Resource.id [ fhir:value "fcc18cb2-8b67-4e10-b6eb-38d760eabd1f" ] ;
+     fhir:Device.identifier [
+       fhir:index 0 ;
+       fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+       fhir:Identifier.value [ fhir:value "http://ontoserver.csiro.au" ]
+     ] ;
+     fhir:Device.version [
+       fhir:index 0 ;
+       fhir:Device.version.value [ fhir:value "6.25.3" ]
+     ]
+  ], [
+     a fhir:DocumentReference ;
+     fhir:index 2 ;
+     fhir:Resource.id [ fhir:value "e7baa1cc-b2a9-40ce-931f-0a6b299f90ce" ] ;
+     fhir:DocumentReference.status [ fhir:value "current" ] ;
+     fhir:DocumentReference.content [
+       fhir:index 0 ;
+       fhir:DocumentReference.content.attachment [
+         fhir:Attachment.url [ fhir:value "file:/tmp/rawdata-1405529777169612924.zip" ] ;
+         fhir:Attachment.title [ fhir:value "RF2_SOURCE_SNAPSHOT" ]
+       ]
+     ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "provenance" ] ;
+       fhir:Extension.valueReference [
+         fhir:Reference.reference [ fhir:value "#592cb490-abb5-48f2-9c99-49167b6888ae" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "source" ] ;
+       fhir:Extension.valueAttachment [
+         fhir:Attachment.url [ fhir:value "file:/tmp/rawdata-1405529777169612924.zip" ] ;
+         fhir:Attachment.title [ fhir:value "RF2_SOURCE_SNAPSHOT" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/cs-provenance" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://snomed.info/sct"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.6.96" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "http://snomed.info/sct/11000315107/version/20260621"] ;
+  fhir:CodeSystem.name [ fhir:value "SNOMED_CT"] ;
+  fhir:CodeSystem.title [ fhir:value "module français SNOMED CT"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-21T00:00:00+02:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "The owner of the module 11000315107"] ;
+  fhir:CodeSystem.description [ fhir:value "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "© 2002-2016 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. \"SNOMED\" and \"SNOMED CT\" are registered trademarks of the IHTSDO https://www.snomed.org/get-snomed"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "http://snomed.info/sct/11000315107/version/20260621?fhir_vs" ;
+     fhir:link <http://snomed.info/sct/11000315107/version/20260621?fhir_vs>
+  ] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.compositional [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "not-present"] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "concept" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Includes all concept ids that have a transitive is-a relationship with the code provided as the value." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "is-a" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A SNOMED CT code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "concept" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "descendent-of" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A SNOMED CT code" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "concept" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Includes all concept ids that are active members of the reference set identified by the concept id provided as the value." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "in" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A SNOMED CT concept id" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.filter.code [ fhir:value "constraint" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A SNOMED CT Expression Constraint" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.filter.code [ fhir:value "expression" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A SNOMED CT Expression Constraint" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.filter.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Includes all concept ids that have/do not have a parent concept." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "exists" ;
+       fhir:index 0
+     ], [
+       fhir:value "=" ;
+       fhir:index 1
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A boolean, to specifiy whether or not the property has a value." ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.filter.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Includes all concept ids that have/do not have a child concept." ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "exists" ;
+       fhir:index 0
+     ], [
+       fhir:value "=" ;
+       fhir:index 1
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "A boolean, to specifiy whether or not the property has a value." ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Whether the code is active or not (defaults to false)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "sufficientlyDefined" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The SNOMED CT concept id that is a direct parent of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The SNOMED CT concept id that is a direct child of the concept." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "moduleId" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The SNOMED CT concept id of the module that the concept belongs to." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20260621.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

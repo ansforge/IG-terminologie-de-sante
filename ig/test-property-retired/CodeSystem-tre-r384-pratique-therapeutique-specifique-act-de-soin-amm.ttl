@@ -1,0 +1,480 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "3" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-07-06T20:14:03+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r384-pratique-therapeutique-specifique-act-de-soin-amm</b></p><a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm\"> </a><a name=\"hctre-r384-pratique-therapeutique-specifique-act-de-soin-amm\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2026-07-06 20:14:03+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>The date at which a concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>status</b></td></tr><tr><td style=\"white-space:nowrap\">PTS00<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS00\"> </a></td><td>Pas de pratique thérapeutique spécifique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS01<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS01\"> </a></td><td>Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS11<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS11\"> </a></td><td>Maxillo-faciale, stomatologie et chirurgie orale</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS12<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS12\"> </a></td><td>Orthopédique et traumatologique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS13<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS13\"> </a></td><td>Plastique, reconstructrice</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS14<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS14\"> </a></td><td>Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS15<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS15\"> </a></td><td>Vasculaire et endovasculaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS16<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS16\"> </a></td><td>Viscérale et digestive</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS17<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS17\"> </a></td><td>Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS18<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS18\"> </a></td><td>Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS19<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS19\"> </a></td><td>Ophtalmologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS02<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS02\"> </a></td><td>Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS20<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS20\"> </a></td><td>Oto-rhino-laryngologie et cervico-faciale</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS21<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS21\"> </a></td><td>Urologie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS03<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS03\"> </a></td><td>Chirurgie oncologique du foie</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS04<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS04\"> </a></td><td>Chirurgie oncologique du l’estomac</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS05<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS05\"> </a></td><td>Chirurgie oncologique du pancréas</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS06<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS06\"> </a></td><td>Chirurgie oncologique du rectum</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS07<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS07\"> </a></td><td>Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS08<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS08\"> </a></td><td>Chirurgie oncologique de l'ovaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS09<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS09\"> </a></td><td>Hors actes portant sur l'aorte thoracique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PTS10<a name=\"tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS10\"> </a></td><td>Y compris actes portant sur l'aorte thoracique</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.299" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "20260330120000"] ;
+  fhir:CodeSystem.name [ fhir:value "TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm"] ;
+  fhir:CodeSystem.title [ fhir:value "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-30T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:CodeSystem.description [ fhir:value "Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs" ;
+     fhir:link <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "22"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateValid" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "date de validité d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateMaj" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de mise à jour d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "dateFin" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "deprecationDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#deprecationDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "retirementDate" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#retirementDate" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The date at which a concept was retired" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "dateTime" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS00" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pas de pratique thérapeutique spécifique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS01" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Maxillo-faciale, stomatologie et chirurgie orale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Orthopédique et traumatologique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Plastique, reconstructrice" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vasculaire et endovasculaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Viscérale et digestive" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ophtalmologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS02" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Oto-rhino-laryngologie et cervico-faciale" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urologie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS03" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique du foie" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS04" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique du l’estomac" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS05" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique du pancréas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS06" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique du rectum" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS07" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS08" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Chirurgie oncologique de l'ovaire" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS09" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hors actes portant sur l'aorte thoracique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PTS10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Y compris actes portant sur l'aorte thoracique" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateValid" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "dateMaj" ] ;
+       fhir:CodeSystem.concept.property.valueDateTime [ fhir:value "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

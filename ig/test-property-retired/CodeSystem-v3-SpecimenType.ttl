@@ -1,0 +1,1791 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "v3-SpecimenType"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:52.204+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-SpecimenType</b></p><a name=\"v3-SpecimenType\"> </a><a name=\"hcv3-SpecimenType\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:52+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>Not Selectable</td><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr><tr><td>synonymCode</td><td>synonymCode</td><td>http://hl7.org/fhir/concept-properties#synonym</td><td>code</td><td>An additional concept code that was also attributed to a concept</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>internalId</b></td><td><b>Not Selectable</b></td><td><b>status</b></td><td><b>synonymCode</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_SpecimenEntityType<a name=\"v3-SpecimenType-_SpecimenEntityType\"> </a></td><td>SpecimenEntityType</td><td>21283</td><td>true</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ABS<a name=\"v3-SpecimenType-ABS\"> </a></td><td>Abcess</td><td>10446</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  AMN<a name=\"v3-SpecimenType-AMN\"> </a></td><td>Amniotic fluid</td><td>10447</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ASP<a name=\"v3-SpecimenType-ASP\"> </a></td><td>Aspirate</td><td>10448</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BBL<a name=\"v3-SpecimenType-BBL\"> </a></td><td>Blood bag</td><td>10452</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BDY<a name=\"v3-SpecimenType-BDY\"> </a></td><td>Whole body</td><td>10562</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BIFL<a name=\"v3-SpecimenType-BIFL\"> </a></td><td>Bile fluid</td><td>10450</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BLD<a name=\"v3-SpecimenType-BLD\"> </a></td><td>Whole blood</td><td>10561</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BLDA<a name=\"v3-SpecimenType-BLDA\"> </a></td><td>Blood arterial</td><td>10451</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BLDC<a name=\"v3-SpecimenType-BLDC\"> </a></td><td>Blood capillary</td><td>10453</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BLDCO<a name=\"v3-SpecimenType-BLDCO\"> </a></td><td>Blood - cord</td><td>10454</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BLDV<a name=\"v3-SpecimenType-BLDV\"> </a></td><td>Blood venous</td><td>10456</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BON<a name=\"v3-SpecimenType-BON\"> </a></td><td>Bone</td><td>10457</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BPH<a name=\"v3-SpecimenType-BPH\"> </a></td><td>Basophils</td><td>10449</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BPU<a name=\"v3-SpecimenType-BPU\"> </a></td><td>Blood product unit</td><td>10455</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BRN<a name=\"v3-SpecimenType-BRN\"> </a></td><td>Burn</td><td>10460</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BRO<a name=\"v3-SpecimenType-BRO\"> </a></td><td>Bronchial</td><td>10459</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  BRTH<a name=\"v3-SpecimenType-BRTH\"> </a></td><td>Exhaled gas (=breath)</td><td>10458</td><td/><td>active</td><td>EXG</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EXG<a name=\"v3-SpecimenType-EXG\"> </a></td><td>Exhaled gas (=breath)</td><td>10458</td><td/><td>active</td><td>BRTH</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CALC<a name=\"v3-SpecimenType-CALC\"> </a></td><td>Calculus (=Stone)</td><td>10461</td><td/><td>active</td><td>STON</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  STON<a name=\"v3-SpecimenType-STON\"> </a></td><td>Calculus (=Stone)</td><td>10461</td><td/><td>active</td><td>CALC</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CDM<a name=\"v3-SpecimenType-CDM\"> </a></td><td>Cardiac muscle</td><td>10462</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CNJT<a name=\"v3-SpecimenType-CNJT\"> </a></td><td>Conjunctiva</td><td>10469</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CNL<a name=\"v3-SpecimenType-CNL\"> </a></td><td>Cannula</td><td>10463</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  COL<a name=\"v3-SpecimenType-COL\"> </a></td><td>Colostrum</td><td>10468</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CRN<a name=\"v3-SpecimenType-CRN\"> </a></td><td>Cornea</td><td>10471</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CSF<a name=\"v3-SpecimenType-CSF\"> </a></td><td>Cerebral spinal fluid</td><td>10465</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CTP<a name=\"v3-SpecimenType-CTP\"> </a></td><td>Catheter tip</td><td>10464</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CUR<a name=\"v3-SpecimenType-CUR\"> </a></td><td>Curettage</td><td>10470</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CVM<a name=\"v3-SpecimenType-CVM\"> </a></td><td>Cervical mucus</td><td>10466</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CVX<a name=\"v3-SpecimenType-CVX\"> </a></td><td>Cervix</td><td>10467</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CYST<a name=\"v3-SpecimenType-CYST\"> </a></td><td>Cyst</td><td>10472</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DIAF<a name=\"v3-SpecimenType-DIAF\"> </a></td><td>Dialysis fluid</td><td>10473</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DOSE<a name=\"v3-SpecimenType-DOSE\"> </a></td><td>Dose med or substance</td><td>10474</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DRN<a name=\"v3-SpecimenType-DRN\"> </a></td><td>Drain</td><td>10475</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DUFL<a name=\"v3-SpecimenType-DUFL\"> </a></td><td>Duodenal fluid</td><td>10476</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EAR<a name=\"v3-SpecimenType-EAR\"> </a></td><td>Ear</td><td>10477</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EARW<a name=\"v3-SpecimenType-EARW\"> </a></td><td>Ear wax (cerumen)</td><td>10478</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ELT<a name=\"v3-SpecimenType-ELT\"> </a></td><td>Electrode</td><td>10479</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ENDC<a name=\"v3-SpecimenType-ENDC\"> </a></td><td>Endocardium</td><td>10480</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ENDM<a name=\"v3-SpecimenType-ENDM\"> </a></td><td>Endometrium</td><td>10481</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EOS<a name=\"v3-SpecimenType-EOS\"> </a></td><td>Eosinophils</td><td>10482</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  EYE<a name=\"v3-SpecimenType-EYE\"> </a></td><td>Eye</td><td>10484</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FIB<a name=\"v3-SpecimenType-FIB\"> </a></td><td>Fibroblasts</td><td>10485</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FIST<a name=\"v3-SpecimenType-FIST\"> </a></td><td>Fistula</td><td>10487</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FLT<a name=\"v3-SpecimenType-FLT\"> </a></td><td>Filter</td><td>10486</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FLU<a name=\"v3-SpecimenType-FLU\"> </a></td><td>Body fluid, unsp</td><td>10488</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FOOD<a name=\"v3-SpecimenType-FOOD\"> </a></td><td>Food sample</td><td>10489</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GAS<a name=\"v3-SpecimenType-GAS\"> </a></td><td>Gas</td><td>10490</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GAST<a name=\"v3-SpecimenType-GAST\"> </a></td><td>Gastric fluid/contents</td><td>10491</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GEN<a name=\"v3-SpecimenType-GEN\"> </a></td><td>Genital</td><td>10492</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GENC<a name=\"v3-SpecimenType-GENC\"> </a></td><td>Genital cervix</td><td>10493</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GENF<a name=\"v3-SpecimenType-GENF\"> </a></td><td>Genital fluid</td><td>10494</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GENL<a name=\"v3-SpecimenType-GENL\"> </a></td><td>Genital lochia</td><td>10495</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  GENV<a name=\"v3-SpecimenType-GENV\"> </a></td><td>Genital vaginal</td><td>10496</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  HAR<a name=\"v3-SpecimenType-HAR\"> </a></td><td>Hair</td><td>10497</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  IHG<a name=\"v3-SpecimenType-IHG\"> </a></td><td>Inhaled Gas</td><td>10498</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ISLT<a name=\"v3-SpecimenType-ISLT\"> </a></td><td>Isolate</td><td>10500</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  IT<a name=\"v3-SpecimenType-IT\"> </a></td><td>Intubation tube</td><td>10499</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LAM<a name=\"v3-SpecimenType-LAM\"> </a></td><td>Lamella</td><td>10501</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LIQ<a name=\"v3-SpecimenType-LIQ\"> </a></td><td>Liquid NOS</td><td>10506</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LN<a name=\"v3-SpecimenType-LN\"> </a></td><td>Line</td><td>10503</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LNA<a name=\"v3-SpecimenType-LNA\"> </a></td><td>Line arterial</td><td>10504</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LNV<a name=\"v3-SpecimenType-LNV\"> </a></td><td>Line venous</td><td>10505</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  LYM<a name=\"v3-SpecimenType-LYM\"> </a></td><td>Lymphocytes</td><td>10507</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MAC<a name=\"v3-SpecimenType-MAC\"> </a></td><td>Macrophages</td><td>10508</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MAR<a name=\"v3-SpecimenType-MAR\"> </a></td><td>Marrow (bone)</td><td>10509</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MBLD<a name=\"v3-SpecimenType-MBLD\"> </a></td><td>Menstrual blood</td><td>10511</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MEC<a name=\"v3-SpecimenType-MEC\"> </a></td><td>Meconium</td><td>10510</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MILK<a name=\"v3-SpecimenType-MILK\"> </a></td><td>Breast milk</td><td>10513</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MLK<a name=\"v3-SpecimenType-MLK\"> </a></td><td>Milk</td><td>10512</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  NAIL<a name=\"v3-SpecimenType-NAIL\"> </a></td><td>Nail</td><td>10514</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  NOS<a name=\"v3-SpecimenType-NOS\"> </a></td><td>Nose (nasal passage)</td><td>10515</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PAFL<a name=\"v3-SpecimenType-PAFL\"> </a></td><td>Pancreatic fluid</td><td>10516</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PAT<a name=\"v3-SpecimenType-PAT\"> </a></td><td>Patient</td><td>10517</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PLAS<a name=\"v3-SpecimenType-PLAS\"> </a></td><td>Plasma</td><td>10520</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PLB<a name=\"v3-SpecimenType-PLB\"> </a></td><td>Plasma bag</td><td>10521</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PLC<a name=\"v3-SpecimenType-PLC\"> </a></td><td>Placenta</td><td>10519</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PLR<a name=\"v3-SpecimenType-PLR\"> </a></td><td>Pleural fluid (thoracentesis fld)</td><td>10522</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PMN<a name=\"v3-SpecimenType-PMN\"> </a></td><td>Polymorphonuclear neutrophils</td><td>10523</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PPP<a name=\"v3-SpecimenType-PPP\"> </a></td><td>Platelet poor plasma</td><td>10524</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PRP<a name=\"v3-SpecimenType-PRP\"> </a></td><td>Platelet rich plasma</td><td>10525</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PRT<a name=\"v3-SpecimenType-PRT\"> </a></td><td>Peritoneal fluid /ascites</td><td>10518</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PUS<a name=\"v3-SpecimenType-PUS\"> </a></td><td>Pus</td><td>10526</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  RBC<a name=\"v3-SpecimenType-RBC\"> </a></td><td>Erythrocytes</td><td>10483</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SAL<a name=\"v3-SpecimenType-SAL\"> </a></td><td>Saliva</td><td>10527</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SER<a name=\"v3-SpecimenType-SER\"> </a></td><td>Serum</td><td>10530</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SKM<a name=\"v3-SpecimenType-SKM\"> </a></td><td>Skeletal muscle</td><td>10532</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SKN<a name=\"v3-SpecimenType-SKN\"> </a></td><td>Skin</td><td>10531</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SMN<a name=\"v3-SpecimenType-SMN\"> </a></td><td>Seminal fluid</td><td>10528</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SMPLS<a name=\"v3-SpecimenType-SMPLS\"> </a></td><td>Seminal plasma</td><td>10529</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SNV<a name=\"v3-SpecimenType-SNV\"> </a></td><td>Synovial fluid (Joint fluid)</td><td>10539</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SPRM<a name=\"v3-SpecimenType-SPRM\"> </a></td><td>Spermatozoa</td><td>10533</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SPT<a name=\"v3-SpecimenType-SPT\"> </a></td><td>Sputum</td><td>10534</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SPTC<a name=\"v3-SpecimenType-SPTC\"> </a></td><td>Sputum - coughed</td><td>10535</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SPTT<a name=\"v3-SpecimenType-SPTT\"> </a></td><td>Sputum - tracheal aspirate</td><td>10536</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  STL<a name=\"v3-SpecimenType-STL\"> </a></td><td>Stool = Fecal</td><td>10537</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  SWT<a name=\"v3-SpecimenType-SWT\"> </a></td><td>Sweat</td><td>10538</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TEAR<a name=\"v3-SpecimenType-TEAR\"> </a></td><td>Tears</td><td>10540</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  THRB<a name=\"v3-SpecimenType-THRB\"> </a></td><td>Thrombocyte (platelet)</td><td>10542</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  THRT<a name=\"v3-SpecimenType-THRT\"> </a></td><td>Throat</td><td>10541</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TISG<a name=\"v3-SpecimenType-TISG\"> </a></td><td>Tissue gall bladder</td><td>10544</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TISPL<a name=\"v3-SpecimenType-TISPL\"> </a></td><td>Tissue placenta</td><td>10547</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TISS<a name=\"v3-SpecimenType-TISS\"> </a></td><td>Tissue, unspecified</td><td>10543</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TISU<a name=\"v3-SpecimenType-TISU\"> </a></td><td>Tissue ulcer</td><td>10549</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TLGI<a name=\"v3-SpecimenType-TLGI\"> </a></td><td>Tissue large intestine</td><td>10545</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TLNG<a name=\"v3-SpecimenType-TLNG\"> </a></td><td>Tissue lung</td><td>10546</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TSMI<a name=\"v3-SpecimenType-TSMI\"> </a></td><td>Tissue small intestine Tissue ulcer</td><td>10548</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TUB<a name=\"v3-SpecimenType-TUB\"> </a></td><td>Tube, unspecified</td><td>10550</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ULC<a name=\"v3-SpecimenType-ULC\"> </a></td><td>Ulcer</td><td>10551</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  UMB<a name=\"v3-SpecimenType-UMB\"> </a></td><td>Umbilical blood</td><td>10552</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  UMED<a name=\"v3-SpecimenType-UMED\"> </a></td><td>Unknown medicine</td><td>10553</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  UR<a name=\"v3-SpecimenType-UR\"> </a></td><td>Urine</td><td>10555</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  URC<a name=\"v3-SpecimenType-URC\"> </a></td><td>Urine clean catch</td><td>10556</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  URNS<a name=\"v3-SpecimenType-URNS\"> </a></td><td>Urine sediment</td><td>10558</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  URT<a name=\"v3-SpecimenType-URT\"> </a></td><td>Urine catheter</td><td>10557</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  URTH<a name=\"v3-SpecimenType-URTH\"> </a></td><td>Urethra</td><td>10554</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  USUB<a name=\"v3-SpecimenType-USUB\"> </a></td><td>Unknown substance</td><td>10559</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  VOM<a name=\"v3-SpecimenType-VOM\"> </a></td><td>Vomitus</td><td>10560</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WAT<a name=\"v3-SpecimenType-WAT\"> </a></td><td>Water</td><td>10563</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WBC<a name=\"v3-SpecimenType-WBC\"> </a></td><td>Leukocytes</td><td>10502</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WICK<a name=\"v3-SpecimenType-WICK\"> </a></td><td>Wick</td><td>10564</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WND<a name=\"v3-SpecimenType-WND\"> </a></td><td>Wound</td><td>10565</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WNDA<a name=\"v3-SpecimenType-WNDA\"> </a></td><td>Wound abscess</td><td>10566</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WNDD<a name=\"v3-SpecimenType-WNDD\"> </a></td><td>Wound drainage</td><td>10568</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  WNDE<a name=\"v3-SpecimenType-WNDE\"> </a></td><td>Wound exudate</td><td>10567</td><td/><td>active</td><td/></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.129" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "SpecimenType"] ;
+  fhir:CodeSystem.title [ fhir:value "SpecimenType"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
+  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "**** MISSING DESCRIPTION ****"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "notSelectable" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#notSelectable" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "synonymCode" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#synonym" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "An additional concept code that was also attributed to a concept" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "_SpecimenEntityType" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SpecimenEntityType" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "notSelectable" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "21283" ]
+     ] ;
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ABS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Abcess" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10446" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.code [ fhir:value "AMN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Amniotic fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10447" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ASP" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Aspirate" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10448" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BBL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood bag" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10452" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BDY" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Whole body" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10562" ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BIFL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Bile fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10450" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BLD" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Whole blood" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10561" ]
+       ]
+     ], [
+       fhir:index 7 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BLDA" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood arterial" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10451" ]
+       ]
+     ], [
+       fhir:index 8 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BLDC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood capillary" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10453" ]
+       ]
+     ], [
+       fhir:index 9 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BLDCO" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood - cord" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10454" ]
+       ]
+     ], [
+       fhir:index 10 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BLDV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood venous" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10456" ]
+       ]
+     ], [
+       fhir:index 11 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BON" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Bone" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10457" ]
+       ]
+     ], [
+       fhir:index 12 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BPH" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Basophils" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10449" ]
+       ]
+     ], [
+       fhir:index 13 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BPU" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Blood product unit" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10455" ]
+       ]
+     ], [
+       fhir:index 14 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BRN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Burn" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10460" ]
+       ]
+     ], [
+       fhir:index 15 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BRO" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Bronchial" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10459" ]
+       ]
+     ], [
+       fhir:index 16 ;
+       fhir:CodeSystem.concept.code [ fhir:value "BRTH" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Exhaled gas (=breath)" ] ;
+       fhir:CodeSystem.concept.designation [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+         fhir:CodeSystem.concept.designation.use [
+           a sct:900000000000013009 ;
+           fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+           fhir:Coding.code [ fhir:value "900000000000013009" ]
+         ] ;
+         fhir:CodeSystem.concept.designation.value [ fhir:value "Breath (use EXG)" ]
+       ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "EXG" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10458" ]
+       ]
+     ], [
+       fhir:index 17 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EXG" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Exhaled gas (=breath)" ] ;
+       fhir:CodeSystem.concept.designation [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+         fhir:CodeSystem.concept.designation.use [
+           a sct:900000000000013009 ;
+           fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+           fhir:Coding.code [ fhir:value "900000000000013009" ]
+         ] ;
+         fhir:CodeSystem.concept.designation.value [ fhir:value "Breath (use EXG)" ]
+       ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "BRTH" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10458" ]
+       ]
+     ], [
+       fhir:index 18 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CALC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Calculus (=Stone)" ] ;
+       fhir:CodeSystem.concept.designation [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+         fhir:CodeSystem.concept.designation.use [
+           a sct:900000000000013009 ;
+           fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+           fhir:Coding.code [ fhir:value "900000000000013009" ]
+         ] ;
+         fhir:CodeSystem.concept.designation.value [ fhir:value "Stone (use CALC)" ]
+       ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "STON" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10461" ]
+       ]
+     ], [
+       fhir:index 19 ;
+       fhir:CodeSystem.concept.code [ fhir:value "STON" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Calculus (=Stone)" ] ;
+       fhir:CodeSystem.concept.designation [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+         fhir:CodeSystem.concept.designation.use [
+           a sct:900000000000013009 ;
+           fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+           fhir:Coding.code [ fhir:value "900000000000013009" ]
+         ] ;
+         fhir:CodeSystem.concept.designation.value [ fhir:value "Stone (use CALC)" ]
+       ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "synonymCode" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "CALC" ]
+       ], [
+         fhir:index 2 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10461" ]
+       ]
+     ], [
+       fhir:index 20 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CDM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cardiac muscle" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10462" ]
+       ]
+     ], [
+       fhir:index 21 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CNJT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Conjunctiva" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10469" ]
+       ]
+     ], [
+       fhir:index 22 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CNL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cannula" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10463" ]
+       ]
+     ], [
+       fhir:index 23 ;
+       fhir:CodeSystem.concept.code [ fhir:value "COL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Colostrum" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10468" ]
+       ]
+     ], [
+       fhir:index 24 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CRN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cornea" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10471" ]
+       ]
+     ], [
+       fhir:index 25 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CSF" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cerebral spinal fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10465" ]
+       ]
+     ], [
+       fhir:index 26 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CTP" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Catheter tip" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10464" ]
+       ]
+     ], [
+       fhir:index 27 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CUR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Curettage" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10470" ]
+       ]
+     ], [
+       fhir:index 28 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CVM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cervical mucus" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10466" ]
+       ]
+     ], [
+       fhir:index 29 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CVX" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cervix" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10467" ]
+       ]
+     ], [
+       fhir:index 30 ;
+       fhir:CodeSystem.concept.code [ fhir:value "CYST" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Cyst" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10472" ]
+       ]
+     ], [
+       fhir:index 31 ;
+       fhir:CodeSystem.concept.code [ fhir:value "DIAF" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Dialysis fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10473" ]
+       ]
+     ], [
+       fhir:index 32 ;
+       fhir:CodeSystem.concept.code [ fhir:value "DOSE" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Dose med or substance" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10474" ]
+       ]
+     ], [
+       fhir:index 33 ;
+       fhir:CodeSystem.concept.code [ fhir:value "DRN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Drain" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10475" ]
+       ]
+     ], [
+       fhir:index 34 ;
+       fhir:CodeSystem.concept.code [ fhir:value "DUFL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Duodenal fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10476" ]
+       ]
+     ], [
+       fhir:index 35 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EAR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Ear" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10477" ]
+       ]
+     ], [
+       fhir:index 36 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EARW" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Ear wax (cerumen)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10478" ]
+       ]
+     ], [
+       fhir:index 37 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ELT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Electrode" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10479" ]
+       ]
+     ], [
+       fhir:index 38 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ENDC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Endocardium" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10480" ]
+       ]
+     ], [
+       fhir:index 39 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ENDM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Endometrium" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10481" ]
+       ]
+     ], [
+       fhir:index 40 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EOS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Eosinophils" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10482" ]
+       ]
+     ], [
+       fhir:index 41 ;
+       fhir:CodeSystem.concept.code [ fhir:value "EYE" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Eye" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10484" ]
+       ]
+     ], [
+       fhir:index 42 ;
+       fhir:CodeSystem.concept.code [ fhir:value "FIB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Fibroblasts" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10485" ]
+       ]
+     ], [
+       fhir:index 43 ;
+       fhir:CodeSystem.concept.code [ fhir:value "FIST" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Fistula" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10487" ]
+       ]
+     ], [
+       fhir:index 44 ;
+       fhir:CodeSystem.concept.code [ fhir:value "FLT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Filter" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10486" ]
+       ]
+     ], [
+       fhir:index 45 ;
+       fhir:CodeSystem.concept.code [ fhir:value "FLU" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Body fluid, unsp" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10488" ]
+       ]
+     ], [
+       fhir:index 46 ;
+       fhir:CodeSystem.concept.code [ fhir:value "FOOD" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Food sample" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10489" ]
+       ]
+     ], [
+       fhir:index 47 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GAS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Gas" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10490" ]
+       ]
+     ], [
+       fhir:index 48 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GAST" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Gastric fluid/contents" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10491" ]
+       ]
+     ], [
+       fhir:index 49 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GEN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Genital" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10492" ]
+       ]
+     ], [
+       fhir:index 50 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GENC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Genital cervix" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10493" ]
+       ]
+     ], [
+       fhir:index 51 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GENF" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Genital fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10494" ]
+       ]
+     ], [
+       fhir:index 52 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GENL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Genital lochia" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10495" ]
+       ]
+     ], [
+       fhir:index 53 ;
+       fhir:CodeSystem.concept.code [ fhir:value "GENV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Genital vaginal" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10496" ]
+       ]
+     ], [
+       fhir:index 54 ;
+       fhir:CodeSystem.concept.code [ fhir:value "HAR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Hair" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10497" ]
+       ]
+     ], [
+       fhir:index 55 ;
+       fhir:CodeSystem.concept.code [ fhir:value "IHG" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Inhaled Gas" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10498" ]
+       ]
+     ], [
+       fhir:index 56 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ISLT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Isolate" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10500" ]
+       ]
+     ], [
+       fhir:index 57 ;
+       fhir:CodeSystem.concept.code [ fhir:value "IT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Intubation tube" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10499" ]
+       ]
+     ], [
+       fhir:index 58 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LAM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Lamella" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10501" ]
+       ]
+     ], [
+       fhir:index 59 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LIQ" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Liquid NOS" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10506" ]
+       ]
+     ], [
+       fhir:index 60 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Line" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10503" ]
+       ]
+     ], [
+       fhir:index 61 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LNA" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Line arterial" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10504" ]
+       ]
+     ], [
+       fhir:index 62 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LNV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Line venous" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10505" ]
+       ]
+     ], [
+       fhir:index 63 ;
+       fhir:CodeSystem.concept.code [ fhir:value "LYM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Lymphocytes" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10507" ]
+       ]
+     ], [
+       fhir:index 64 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MAC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Macrophages" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10508" ]
+       ]
+     ], [
+       fhir:index 65 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MAR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Marrow (bone)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10509" ]
+       ]
+     ], [
+       fhir:index 66 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MBLD" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Menstrual blood" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10511" ]
+       ]
+     ], [
+       fhir:index 67 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MEC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Meconium" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10510" ]
+       ]
+     ], [
+       fhir:index 68 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MILK" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Breast milk" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10513" ]
+       ]
+     ], [
+       fhir:index 69 ;
+       fhir:CodeSystem.concept.code [ fhir:value "MLK" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Milk" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10512" ]
+       ]
+     ], [
+       fhir:index 70 ;
+       fhir:CodeSystem.concept.code [ fhir:value "NAIL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Nail" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10514" ]
+       ]
+     ], [
+       fhir:index 71 ;
+       fhir:CodeSystem.concept.code [ fhir:value "NOS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Nose (nasal passage)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10515" ]
+       ]
+     ], [
+       fhir:index 72 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PAFL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Pancreatic fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10516" ]
+       ]
+     ], [
+       fhir:index 73 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PAT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Patient" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10517" ]
+       ]
+     ], [
+       fhir:index 74 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PLAS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Plasma" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10520" ]
+       ]
+     ], [
+       fhir:index 75 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PLB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Plasma bag" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10521" ]
+       ]
+     ], [
+       fhir:index 76 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PLC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Placenta" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10519" ]
+       ]
+     ], [
+       fhir:index 77 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PLR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Pleural fluid (thoracentesis fld)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10522" ]
+       ]
+     ], [
+       fhir:index 78 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PMN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Polymorphonuclear neutrophils" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10523" ]
+       ]
+     ], [
+       fhir:index 79 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PPP" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Platelet poor plasma" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10524" ]
+       ]
+     ], [
+       fhir:index 80 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PRP" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Platelet rich plasma" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10525" ]
+       ]
+     ], [
+       fhir:index 81 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PRT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Peritoneal fluid /ascites" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10518" ]
+       ]
+     ], [
+       fhir:index 82 ;
+       fhir:CodeSystem.concept.code [ fhir:value "PUS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Pus" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10526" ]
+       ]
+     ], [
+       fhir:index 83 ;
+       fhir:CodeSystem.concept.code [ fhir:value "RBC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Erythrocytes" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10483" ]
+       ]
+     ], [
+       fhir:index 84 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SAL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Saliva" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10527" ]
+       ]
+     ], [
+       fhir:index 85 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SER" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Serum" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10530" ]
+       ]
+     ], [
+       fhir:index 86 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SKM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Skeletal muscle" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10532" ]
+       ]
+     ], [
+       fhir:index 87 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SKN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Skin" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10531" ]
+       ]
+     ], [
+       fhir:index 88 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SMN" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Seminal fluid" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10528" ]
+       ]
+     ], [
+       fhir:index 89 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SMPLS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Seminal plasma" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10529" ]
+       ]
+     ], [
+       fhir:index 90 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SNV" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Synovial fluid (Joint fluid)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10539" ]
+       ]
+     ], [
+       fhir:index 91 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SPRM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Spermatozoa" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10533" ]
+       ]
+     ], [
+       fhir:index 92 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SPT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Sputum" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10534" ]
+       ]
+     ], [
+       fhir:index 93 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SPTC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Sputum - coughed" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10535" ]
+       ]
+     ], [
+       fhir:index 94 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SPTT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Sputum - tracheal aspirate" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10536" ]
+       ]
+     ], [
+       fhir:index 95 ;
+       fhir:CodeSystem.concept.code [ fhir:value "STL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Stool = Fecal" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10537" ]
+       ]
+     ], [
+       fhir:index 96 ;
+       fhir:CodeSystem.concept.code [ fhir:value "SWT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Sweat" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10538" ]
+       ]
+     ], [
+       fhir:index 97 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TEAR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tears" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10540" ]
+       ]
+     ], [
+       fhir:index 98 ;
+       fhir:CodeSystem.concept.code [ fhir:value "THRB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Thrombocyte (platelet)" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10542" ]
+       ]
+     ], [
+       fhir:index 99 ;
+       fhir:CodeSystem.concept.code [ fhir:value "THRT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Throat" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10541" ]
+       ]
+     ], [
+       fhir:index 100 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TISG" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue gall bladder" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10544" ]
+       ]
+     ], [
+       fhir:index 101 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TISPL" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue placenta" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10547" ]
+       ]
+     ], [
+       fhir:index 102 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TISS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue, unspecified" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10543" ]
+       ]
+     ], [
+       fhir:index 103 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TISU" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue ulcer" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10549" ]
+       ]
+     ], [
+       fhir:index 104 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TLGI" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue large intestine" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10545" ]
+       ]
+     ], [
+       fhir:index 105 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TLNG" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue lung" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10546" ]
+       ]
+     ], [
+       fhir:index 106 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TSMI" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tissue small intestine Tissue ulcer" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10548" ]
+       ]
+     ], [
+       fhir:index 107 ;
+       fhir:CodeSystem.concept.code [ fhir:value "TUB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Tube, unspecified" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10550" ]
+       ]
+     ], [
+       fhir:index 108 ;
+       fhir:CodeSystem.concept.code [ fhir:value "ULC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Ulcer" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10551" ]
+       ]
+     ], [
+       fhir:index 109 ;
+       fhir:CodeSystem.concept.code [ fhir:value "UMB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Umbilical blood" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10552" ]
+       ]
+     ], [
+       fhir:index 110 ;
+       fhir:CodeSystem.concept.code [ fhir:value "UMED" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Unknown medicine" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10553" ]
+       ]
+     ], [
+       fhir:index 111 ;
+       fhir:CodeSystem.concept.code [ fhir:value "UR" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Urine" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10555" ]
+       ]
+     ], [
+       fhir:index 112 ;
+       fhir:CodeSystem.concept.code [ fhir:value "URC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Urine clean catch" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10556" ]
+       ]
+     ], [
+       fhir:index 113 ;
+       fhir:CodeSystem.concept.code [ fhir:value "URNS" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Urine sediment" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10558" ]
+       ]
+     ], [
+       fhir:index 114 ;
+       fhir:CodeSystem.concept.code [ fhir:value "URT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Urine catheter" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10557" ]
+       ]
+     ], [
+       fhir:index 115 ;
+       fhir:CodeSystem.concept.code [ fhir:value "URTH" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Urethra" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10554" ]
+       ]
+     ], [
+       fhir:index 116 ;
+       fhir:CodeSystem.concept.code [ fhir:value "USUB" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Unknown substance" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10559" ]
+       ]
+     ], [
+       fhir:index 117 ;
+       fhir:CodeSystem.concept.code [ fhir:value "VOM" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Vomitus" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10560" ]
+       ]
+     ], [
+       fhir:index 118 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WAT" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Water" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10563" ]
+       ]
+     ], [
+       fhir:index 119 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WBC" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Leukocytes" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10502" ]
+       ]
+     ], [
+       fhir:index 120 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WICK" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Wick" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10564" ]
+       ]
+     ], [
+       fhir:index 121 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WND" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Wound" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10565" ]
+       ]
+     ], [
+       fhir:index 122 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WNDA" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Wound abscess" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10566" ]
+       ]
+     ], [
+       fhir:index 123 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WNDD" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Wound drainage" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10568" ]
+       ]
+     ], [
+       fhir:index 124 ;
+       fhir:CodeSystem.concept.code [ fhir:value "WNDE" ] ;
+       fhir:CodeSystem.concept.display [ fhir:value "Wound exudate" ] ;
+       fhir:CodeSystem.concept.property [
+         fhir:index 0 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
+       ], [
+         fhir:index 1 ;
+         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
+         fhir:CodeSystem.concept.property.valueCode [ fhir:value "10567" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

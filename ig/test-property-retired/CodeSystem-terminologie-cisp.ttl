@@ -1,0 +1,154 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisp> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "terminologie-cisp"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "3" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2025-03-24T13:28:48.192+00:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem terminologie-cisp</b></p><a name=\"terminologie-cisp\"> </a><a name=\"hcterminologie-cisp\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2025-03-24 13:28:48+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>comment</td><td>comment</td><td>http://www.w3.org/2000/01/rdf-schema#comment</td><td>string</td><td/></tr><tr><td>title</td><td>title</td><td>http://purl.org/dc/terms/title</td><td>string</td><td/></tr><tr><td>inclusion</td><td>inclusion</td><td>http://id.who.int/icd/schema/inclusion</td><td>string</td><td/></tr><tr><td>consider</td><td>consider</td><td>https://data.esante.gouv.fr/terminologies/cisp#consider</td><td>code</td><td/></tr><tr><td>icd10Code</td><td>icd10Code</td><td>http://id.who.int/icd/schema/icd10Code</td><td>code</td><td/></tr><tr><td>exclusion</td><td>exclusion</td><td>http://id.who.int/icd/schema/exclusion</td><td>code</td><td/></tr><tr><td>note</td><td>note</td><td>http://www.w3.org/2004/02/skos/core#note</td><td>string</td><td/></tr><tr><td>criteria</td><td>criteria</td><td>https://data.esante.gouv.fr/terminologies/cisp#criteria</td><td>string</td><td/></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>Codes des parents du concept courant</td></tr><tr><td>Child</td><td>child</td><td>http://hl7.org/fhir/concept-properties#child</td><td>code</td><td>Codes des enfants du concept courant</td></tr><tr><td>imported</td><td>imported</td><td/><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td>root</td><td/><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p><b>Concepts</b></p><p>This  code system <code>https://smt.esante.gouv.fr/terminologie-cisp</code> defines codes, but no codes are represented here</p></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://smt.esante.gouv.fr/terminologie-cisp"] ;
+  fhir:CodeSystem.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "usual" ] ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.6.139" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.system [ fhir:value "https://smt.esante.gouv.fr/" ] ;
+     fhir:Identifier.value [ fhir:value "terminologie-cisp" ]
+  ] ;
+  fhir:CodeSystem.version [ fhir:value "2019-05"] ;
+  fhir:CodeSystem.name [ fhir:value "CISP_2"] ;
+  fhir:CodeSystem.title [ fhir:value "Classification internationale des soins primaires - 2ème version"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2019-06-26T00:00:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Agence du numérique en santé"] ;
+  fhir:CodeSystem.description [ fhir:value "La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé)."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:CodeSystem.copyright [ fhir:value "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"] ;
+  fhir:CodeSystem.valueSet [
+     fhir:value "https://smt.esante.gouv.fr/terminologie-cisp?vs" ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-cisp?vs>
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "not-present"] ;
+  fhir:CodeSystem.count [ fhir:value "1434"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "True or false" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "comment" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2000/01/rdf-schema#comment" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "title" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://purl.org/dc/terms/title" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "inclusion" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://id.who.int/icd/schema/inclusion" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "consider" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://data.esante.gouv.fr/terminologies/cisp#consider" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.property.code [ fhir:value "icd10Code" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://id.who.int/icd/schema/icd10Code" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.property.code [ fhir:value "exclusion" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://id.who.int/icd/schema/exclusion" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.property.code [ fhir:value "note" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://www.w3.org/2004/02/skos/core#note" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.property.code [ fhir:value "criteria" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "https://data.esante.gouv.fr/terminologies/cisp#criteria" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des parents du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.property.code [ fhir:value "child" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#child" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Codes des enfants du concept courant" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.property.code [ fhir:value "imported" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if the concept is imported from another code system." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.property.code [ fhir:value "root" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cisp.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
