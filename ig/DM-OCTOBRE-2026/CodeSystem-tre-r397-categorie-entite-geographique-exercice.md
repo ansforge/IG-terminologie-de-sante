@@ -16361,6 +16361,14 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   {
     "code" : "411",
     "display" : "Services accompagnement TDC et ADB",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Interméd.Pla.Social"
+    }],
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 4
