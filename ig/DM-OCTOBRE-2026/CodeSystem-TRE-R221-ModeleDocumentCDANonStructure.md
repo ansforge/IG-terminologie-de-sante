@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure | *Version*:20251222120000 | |
-| Retired as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R221_ModeleDocumentCDANonStructure |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R221_ModeleDocumentCDANonStructure |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.329 | | |
 
  
@@ -36,8 +36,7 @@ Identifiant des modèles de CDA non structurés
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2016-09-01T00:00:00+01:00",
-      "end" : "2025-12-22T00:00:00+01:00"
+      "start" : "2016-09-01T00:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
@@ -45,11 +44,11 @@ Identifiant des modèles de CDA non structurés
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.329"
   }],
-  "version" : "20251222120000",
+  "version" : "20261102120000",
   "name" : "TRE_R221_ModeleDocumentCDANonStructure",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Identifiant des modèles de CDA non structurés",
   "jurisdiction" : [{
