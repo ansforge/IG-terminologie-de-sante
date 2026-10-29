@@ -1461,10 +1461,6 @@ Liens:
         "display" : "Autre acteur mettant en oeuvre la méthode MAIA"
       },
       {
-        "code" : "312",
-        "display" : "Autre professionnel"
-      },
-      {
         "code" : "313",
         "display" : "Aide-soignant"
       },
@@ -1549,44 +1545,12 @@ Liens:
         "display" : "Gestionnaire alertes et urgences sanitaires"
       },
       {
-        "code" : "336",
-        "display" : "Autre professionnel intervenant dans l'accueil et l'orientation des personnes"
-      },
-      {
-        "code" : "337",
-        "display" : "Autre professionnel intervenant dans la logistique"
-      },
-      {
         "code" : "338",
         "display" : "Autre professionnel intervenant dans l'hôtellerie et la restauration"
       },
       {
-        "code" : "339",
-        "display" : "Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement"
-      },
-      {
         "code" : "340",
         "display" : "Autre professionnel intervenant dans la direction des systèmes d'information"
-      },
-      {
-        "code" : "341",
-        "display" : "Autre professionnel intervenant dans la direction des finances et comptabilité"
-      },
-      {
-        "code" : "342",
-        "display" : "Autre professionnel intervenant dans la direction de la communication"
-      },
-      {
-        "code" : "343",
-        "display" : "Autre professionnel intervenant dans la direction des ressources humaines"
-      },
-      {
-        "code" : "344",
-        "display" : "Autre professionnel intervenant dans la direction des affaires médicales"
-      },
-      {
-        "code" : "345",
-        "display" : "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
       },
       {
         "code" : "346",
@@ -1599,10 +1563,6 @@ Liens:
       {
         "code" : "348",
         "display" : "Etudiant - auxiliaire de puériculture"
-      },
-      {
-        "code" : "349",
-        "display" : "Etudiant - masseur-kinésithérapeute"
       },
       {
         "code" : "351",
@@ -1631,10 +1591,6 @@ Liens:
       {
         "code" : "358",
         "display" : "Autre étudiant"
-      },
-      {
-        "code" : "359",
-        "display" : "Directeur d'établissement"
       },
       {
         "code" : "360",

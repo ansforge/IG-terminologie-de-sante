@@ -382,11 +382,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -885,11 +893,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -909,11 +925,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -965,11 +989,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1013,11 +1045,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1037,11 +1077,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1061,11 +1109,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1085,11 +1141,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1109,11 +1173,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1189,11 +1261,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1375,11 +1455,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {

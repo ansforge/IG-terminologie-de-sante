@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
+
 -------
 
  Explanation of the columns that may appear on this page: 
