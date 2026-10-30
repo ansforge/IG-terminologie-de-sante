@@ -16367,7 +16367,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Interméd.Pla.Social"
+      "value" : "Serv.Acc.TDC.ADB"
     }],
     "property" : [{
       "code" : "niveau",

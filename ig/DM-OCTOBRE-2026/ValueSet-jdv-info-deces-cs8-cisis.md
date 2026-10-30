@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,7 +53,7 @@ This value set cannot be expanded because the terminology server(s) deemed it to
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.13.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-10-29
+2026-10-30
 
 Liens:
 [Table des matières ](toc.md)|
