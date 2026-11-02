@@ -160,9 +160,17 @@ jobs:
       - name: 🏃‍♂️ Generate package registry
         run : java -Xmx6g -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
         
-      - name: 🏃‍♂️ Run  Publisher to release
-        run :   java -Xmx6g   -Dfile.encoding=UTF-8 -jar publisher.jar   -go-publish  -authorise-non-conformant-tx-servers -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
-
+      - name: 🏃‍♂️ Run Publisher to release
+        run: |
+          java -Xmx6g -Dfile.encoding=UTF-8 -jar publisher.jar \
+          -go-publish \
+          -authorise-non-conformant-tx-servers \
+          -source "${{ github.workspace }}/igSource" \
+          -web "${{ github.workspace }}/IG-terminology-website-release/www" \
+          -registry "${{ github.workspace }}/IG-terminology-website-release/ig-registry/fhir-ig-list.json" \
+          -history "${{ github.workspace }}/IG-terminology-website-release/fhir-ig-history-template" \
+          -templates "${{ github.workspace }}/IG-terminology-website-release/templates" \
+          -temp "${{ github.workspace }}/temp"
                
       - name: Liste des fichiers de www
         run: |
