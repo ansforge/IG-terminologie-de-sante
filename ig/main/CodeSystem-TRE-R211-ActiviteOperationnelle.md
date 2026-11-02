@@ -1,4 +1,4 @@
-# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.14.0
+# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -29,8 +29,8 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "33",
-    "lastUpdated" : "2026-09-28T10:27:58.260+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-11-02T10:28:22.627+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 635,
+  "count" : 639,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -6873,14 +6873,14 @@ Activite Operationnelle
   },
   {
     "code" : "370",
-    "display" : "Soins intensifs spécialisés pédiatrie",
+    "display" : "Soins intensifs pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11430,14 +11430,23 @@ Activite Operationnelle
   },
   {
     "code" : "631",
-    "display" : "Prise en charge et coordination de plaies et cicatrisations complexes",
+    "display" : "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques",
+    "definition" : "C'est l'activité d'appui et de coordination du parcours de soins des patients porteurs de plaies dont le délai de cicatrisation est allongé au-delà de 4 à 6 semaines (plaies chroniques) ou dont la complexité nécessite une expertise pluridisciplinaire spécialisée (ulcères veineux ou artériels, escarres, plaies du pied diabétique, plaies post-chirurgicales difficiles, etc), en orientant les professionnels de santé de premier recours et en coordonnant les interventions des différents acteurs jusqu'à la stabilisation ou la cicatrisation.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orientation et coordination de plaies et cicatrisations complexes / chroniques"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11504,6 +11513,79 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "636",
+    "display" : "Psychiatrie et médiation transculturelle",
+    "definition" : "Activité de soins psychiatriques spécialisée qui prend en compte la dimension culturelle du patient, notamment les migrants, réfugiés et leurs enfants, pour comprendre l'expression de leur souffrance psychique et lever les obstacles aux soins lorsque les prises en charge habituelles sont inefficaces. Elle associe une approche psychothérapeutique transculturelle, conduite par une équipe plurilingue et transdisciplinaire, et une médiation ponctuelle faisant intervenir un médiateur culturel pour débloquer des situations de rupture dans le projet de soins.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "637",
+    "display" : "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Santé sexuelle à approche communautaire (trans, TDS, chemsexeur …)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "638",
+    "display" : "Stomathérapie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "639",
+    "display" : "Epileptologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

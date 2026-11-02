@@ -1,4 +1,4 @@
-# Listes des OID - Terminologies de Santé v1.14.0
+# Listes des OID - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Identifiants**](identifiants.md)
@@ -369,7 +369,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |
-| TreR396Autorite | http://example.org/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
+| TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
@@ -399,6 +399,9 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR425TypeRepas | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas | 1.2.250.1.213.3.3.276 |
 | TreR426Orientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation | 1.2.250.1.213.3.3.277 |
 | TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
+| TreR428ActiviteReconnaisanceContractuelle | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle | 1.2.250.1.213.2.83.1 |
+| TreR429FormeReconnaissanceContractuelle | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle | 1.2.250.1.213.2.83.2 |
+| TreR430ModaliteReconnaissanceContractuelle | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle | 1.2.250.1.213.2.83.3 |
 | TreR436OrigineInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice | 1.2.250.1.213.1.6.1.402 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |

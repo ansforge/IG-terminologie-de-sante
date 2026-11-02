@@ -1,4 +1,4 @@
-# JDV_J121_RolePriseCharge_ENREG - Terminologies de Santé v1.14.0
+# JDV_J121_RolePriseCharge_ENREG - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.200 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J120-CommuneHistorisee.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J121-RolePriseCharge-ENREG-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J121-RolePriseCharge-ENREG",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-28T10:32:27.411+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-02T10:32:53.730+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.200"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "JDV_J121_RolePriseCharge_ENREG",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Code des rôles et fonctions pour l'application ENREG",
   "jurisdiction" : [{
@@ -283,10 +283,6 @@ Liens:
       {
         "code" : "363",
         "display" : "Attaché de recherche clinique"
-      },
-      {
-        "code" : "364",
-        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
       },
       {
         "code" : "365",

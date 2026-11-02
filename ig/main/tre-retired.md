@@ -1,4 +1,4 @@
-# Terminologies (Retired) - Terminologies de Santé v1.14.0
+# Terminologies (Retired) - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -14,7 +14,6 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | [TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md) | DICOM UID Registry |
 | [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
 | [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
-| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés |
 | [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) | Identifiant des modèles de CDA non structurés |
 | [TRE_R232_TypeFermetureEJ](CodeSystem-TRE-R232-TypeFermetureEJ.md) | Type de fermeture de l'entité juridique FINESS |
 | [TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md) | Type de fermeture de l'entité géographique FINESS |

@@ -1,4 +1,4 @@
-# TRE_R54_DiplomeUniversiteInterUniversitaire - Terminologies de Santé v1.14.0
+# TRE_R54_DiplomeUniversiteInterUniversitaire - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire | *Version*:20240726120000 | |
-| Active as of 2024-07-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R54_DiplomeUniversiteInterUniversitaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R54_DiplomeUniversiteInterUniversitaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.34 | | |
 
  
@@ -29,8 +29,8 @@ Diplôme d’Université ou Inter-Universitaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R54-DiplomeUniversiteInterUniversitaire",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-07-06T20:14:40.944+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-11-02T10:29:35.275+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -44,11 +44,11 @@ Diplôme d’Université ou Inter-Universitaire
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.34"
   }],
-  "version" : "20240726120000",
+  "version" : "20261102120000",
   "name" : "TRE_R54_DiplomeUniversiteInterUniversitaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-07-26T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplôme d'Université ou Inter-Universitaire",
   "jurisdiction" : [{
@@ -59,6 +59,7 @@ Diplôme d’Université ou Inter-Universitaire
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 193,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -4366,6 +4367,86 @@ Diplôme d’Université ou Inter-Universitaire
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DIP417",
+    "display" : "DU Plaies chroniques et cicatrisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DIP418",
+    "display" : "DU Appropriation des méthodologies de recherche clinique appliquées à la rééducation et la réadaptation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DIP419",
+    "display" : "DIU Posture, équilibre, locomotion",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DIP420",
+    "display" : "DU Plaies, brûlures et cicatrisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DIP421",
+    "display" : "DIU Soigner les soignants : spécificités et ressources",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

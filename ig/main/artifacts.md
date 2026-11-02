@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.14.0
+# Artifacts Summary - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -896,6 +896,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées |
 | [Vs Tre R405 Modalite Activite Smsse Regulee All](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées |
 | [Vs Tre R406 Forme Activite Smsse Regulee All](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées |
+| [Vs Tre R428 Activite Reconnaissance Contractuelle](ValueSet-vs-tre-r428-activite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des activités soumises à reconnaissances (ASR) |
+| [Vs Tre R429 Forme Reconnaissance Contractuelle](ValueSet-vs-tre-r429-forme-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des formes de reconnaissances (ASR) |
+| [Vs Tre R430 Modalite Reconnaissance Contractuelle](ValueSet-vs-tre-r430-modalite-reconnaissance-contractuelle.md) | Jeu de valeurs ALL contenant l’ensemble des codes des modalités de reconnaissances (ASR) |
 | [Vs Tre R62 Domaine All](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines |
 | [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d’intérêt collectif |
 | [Vs Tre R74 Mode Fixation Tarifaire All](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire |
@@ -1299,6 +1302,9 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
 | [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
+| [Tre R428 Activite Reconnaisance Contractuelle](CodeSystem-tre-r428-activite-reconnaissance-contractuelle.md) | Libellés des activités soumises à reconnaissances (ASR) |
+| [Tre R429 Forme Reconnaissance Contractuelle](CodeSystem-tre-r429-forme-reconnaissance-contractuelle.md) | Formes des activités autorisées /exercées provenant d’E-CARS |
+| [Tre R430 Modalite Reconnaissance Contractuelle](CodeSystem-tre-r430-modalite-reconnaissance-contractuelle.md) | Modalités des activités autorisées /exercées provenant d’E-CARS |
 | [Tre R436 Origine Interruption Exercice](CodeSystem-tre-r436-origine-interruption-exercice.md) | L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |

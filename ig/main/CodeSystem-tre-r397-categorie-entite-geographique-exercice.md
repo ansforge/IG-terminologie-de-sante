@@ -1,4 +1,4 @@
-# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.14.0
+# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.378 | | |
 
  
@@ -17,7 +17,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV Destination Transfert CISIS](ValueSet-jdv-destination-transfert-cisis.md)
 * [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md)
 * [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)
@@ -43,8 +42,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-07-06T20:14:28.155+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-11-02T10:29:30.843+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -59,12 +58,12 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.378"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
   "jurisdiction" : [{
@@ -16361,14 +16360,14 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   },
   {
     "code" : "411",
-    "display" : "Intermédiaire de Placement Social",
+    "display" : "Services accompagnement TDC et ADB",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Interméd.Pla.Social"
+      "value" : "Serv.Acc.TDC.ADB"
     }],
     "property" : [{
       "code" : "niveau",
@@ -16391,7 +16390,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-11-02T00:00:00+01:00"
     },
     {
       "code" : "status",

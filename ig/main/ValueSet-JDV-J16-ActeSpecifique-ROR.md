@@ -1,4 +1,4 @@
-# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.14.0
+# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J169-MotifFinActivite-EPARS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J16-ActeSpecifique-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "35",
-    "lastUpdated" : "2026-09-28T10:32:31.198+02:00",
+    "versionId" : "36",
+    "lastUpdated" : "2026-11-02T11:32:54.096+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -259,10 +259,6 @@ Liens:
       {
         "code" : "0066",
         "display" : "Chirurgie de la cataracte - implants mono focaux et toriques"
-      },
-      {
-        "code" : "0068",
-        "display" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
       },
       {
         "code" : "0069",
@@ -1477,10 +1473,6 @@ Liens:
         "display" : "Bilan neuro-psychologique"
       },
       {
-        "code" : "0627",
-        "display" : "Aide aux aidants (atelier pro-famille)"
-      },
-      {
         "code" : "0628",
         "display" : "Education thérapeutique du patient non labellisée ou psychoéducation"
       },
@@ -1978,11 +1970,11 @@ Liens:
       },
       {
         "code" : "0764",
-        "display" : "Soins de stomie d'élimination digestive"
+        "display" : "Suivi et surveillance de stomie d'élimination digestive"
       },
       {
         "code" : "0765",
-        "display" : "Soins de stomie d'élimination urinaire"
+        "display" : "Suivi et surveillance de stomie d'élimination urinaire"
       },
       {
         "code" : "0767",
@@ -5158,35 +5150,35 @@ Liens:
       },
       {
         "code" : "1632",
-        "display" : "Programme d’ETP labellisée - Accident Vasculaire Cérébral (AVC)"
+        "display" : "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)"
       },
       {
         "code" : "1633",
-        "display" : "Programme d’ETP labellisée - Allergologie"
+        "display" : "Programme d'ETP labellisée - Allergologie"
       },
       {
         "code" : "1634",
-        "display" : "Programme d’ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)"
+        "display" : "Programme d'ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)"
       },
       {
         "code" : "1635",
-        "display" : "Programme d’ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)"
+        "display" : "Programme d'ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)"
       },
       {
         "code" : "1636",
-        "display" : "Programme d’ETP labellisée - Maladies urologiques et gynécologiques"
+        "display" : "Programme d'ETP labellisée - Maladies urologiques et gynécologiques"
       },
       {
         "code" : "1637",
-        "display" : "Programme d’ETP labellisée - Obésité"
+        "display" : "Programme d'ETP labellisée - Obésité"
       },
       {
         "code" : "1638",
-        "display" : "Programme d’ETP labellisée - Ophtalmologie"
+        "display" : "Programme d'ETP labellisée - Ophtalmologie"
       },
       {
         "code" : "1639",
-        "display" : "Programme d’ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)"
+        "display" : "Programme d'ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)"
       },
       {
         "code" : "1640",
@@ -5314,7 +5306,7 @@ Liens:
       },
       {
         "code" : "1671",
-        "display" : "Dispensation médicamenteuse à domicile en cas d’impossibilité du patient à se déplacer"
+        "display" : "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer"
       },
       {
         "code" : "1672",
@@ -5507,6 +5499,42 @@ Liens:
       {
         "code" : "1719",
         "display" : "Recherche en oncologie, bilan d'extension"
+      },
+      {
+        "code" : "1720",
+        "display" : "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)"
+      },
+      {
+        "code" : "1721",
+        "display" : "Centre expert pied diabétique"
+      },
+      {
+        "code" : "1722",
+        "display" : "Repérage du psychotraumatisme des victimes de violence"
+      },
+      {
+        "code" : "1723",
+        "display" : "Prophylaxie pré-exposition injectable (PrEP)"
+      },
+      {
+        "code" : "1724",
+        "display" : "Accompagnement et orientation des personnes vivant avec le VIH"
+      },
+      {
+        "code" : "1725",
+        "display" : "Vaccination Mpox (Variole B)"
+      },
+      {
+        "code" : "1726",
+        "display" : "Prise en soin des stomies digestives et/ou urinaires"
+      },
+      {
+        "code" : "1727",
+        "display" : "Tomothérapie"
+      },
+      {
+        "code" : "1728",
+        "display" : "Centre expert Epileptologie"
       }]
     }]
   }

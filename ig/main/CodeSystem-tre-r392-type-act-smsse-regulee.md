@@ -1,4 +1,4 @@
-# Tre R392 Type Act Smsse Regulee - Terminologies de Santé v1.14.0
+# Tre R392 Type Act Smsse Regulee - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR392TypeActSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.374 | | |
 
  
@@ -112,28 +112,21 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "resourceType" : "CodeSystem",
   "id" : "tre-r392-type-act-smsse-regulee",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-09-28T10:28:49.859+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-11-02T10:29:22.201+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "language" : "fr-FR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-    "valuePeriod" : {
-      "start" : "2026-06-29T00:00:00+01:00"
-    }
-  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.374"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "TreR392TypeActSmsseRegulee",
   "title" : "Tre R392 Type Act Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type activité SMSSE régulée",
   "jurisdiction" : [{
@@ -145,7 +138,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 4921,
+  "count" : 5048,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -270,6 +263,24 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "code" : "activiteEnseignementRegulee",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#activiteEnseignementRegulee",
     "description" : "Propriété permettant de renseigner les activitées d'enseignement régulées associées aux types d'activité",
+    "type" : "Coding"
+  },
+  {
+    "code" : "activiteReconnaissanceContractuelle",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#activiteReconnaissanceContractuelle",
+    "description" : "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)",
+    "type" : "Coding"
+  },
+  {
+    "code" : "modaliteReconnaissanceContractuelle",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#modaliteReconnaissanceContractuelle",
+    "description" : "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant provenant d'E-CARS",
+    "type" : "Coding"
+  },
+  {
+    "code" : "formeReconnaissanceContractuelle",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#formeReconnaissanceContractuelle",
+    "description" : "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant provenant d'E-CARS",
     "type" : "Coding"
   }],
   "concept" : [{
@@ -509,6 +520,5594 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
       "valueCoding" : {
         "system" : "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd",
         "code" : "44901"
+      }
+    }]
+  },
+  {
+    "code" : "10001",
+    "display" : "RC01/M01/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10002",
+    "display" : "RC01/M01/F02",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F02"
+      }
+    }]
+  },
+  {
+    "code" : "10003",
+    "display" : "RC01/M02/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10004",
+    "display" : "RC01/M02/F02",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F02"
+      }
+    }]
+  },
+  {
+    "code" : "10005",
+    "display" : "RC01/M03/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M03"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10006",
+    "display" : "RC01/M03/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC01"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M03"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10007",
+    "display" : "RC02/M00/F05",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC02"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F05"
+      }
+    }]
+  },
+  {
+    "code" : "10008",
+    "display" : "RC02/M00/F06",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC02"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F06"
+      }
+    }]
+  },
+  {
+    "code" : "10009",
+    "display" : "RC03/M00/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10010",
+    "display" : "RC03/M04/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M04"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10011",
+    "display" : "RC03/M05/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M05"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10012",
+    "display" : "RC03/M06/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M06"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10013",
+    "display" : "RC03/M07/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M07"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10014",
+    "display" : "RC03/M08/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC03"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M08"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10015",
+    "display" : "RC04/M00/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10016",
+    "display" : "RC04/M09/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M09"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10017",
+    "display" : "RC04/M10/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M10"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10018",
+    "display" : "RC04/M11/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M11"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10019",
+    "display" : "RC04/M12/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M12"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10020",
+    "display" : "RC04/M13/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M13"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10021",
+    "display" : "RC04/M14/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M14"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10022",
+    "display" : "RC04/M15/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M15"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10023",
+    "display" : "RC04/M16/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M16"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10024",
+    "display" : "RC04/M17/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M17"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10025",
+    "display" : "RC04/M18/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M18"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10026",
+    "display" : "RC04/M18/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M18"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10027",
+    "display" : "RC04/M19/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M19"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10028",
+    "display" : "RC04/M21/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M21"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10029",
+    "display" : "RC04/M21/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M21"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10030",
+    "display" : "RC04/M22/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M22"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10031",
+    "display" : "RC04/M22/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC04"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M22"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10032",
+    "display" : "RC05/M01/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC05"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10033",
+    "display" : "RC05/M01/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC05"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10034",
+    "display" : "RC05/M02/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC05"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10035",
+    "display" : "RC05/M23/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC05"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M23"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10036",
+    "display" : "RC05/M24/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC05"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M24"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10037",
+    "display" : "RC06/M01/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC06"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10038",
+    "display" : "RC06/M02/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC06"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10039",
+    "display" : "RC06/M25/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC06"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M25"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10040",
+    "display" : "RC06/M25/F08",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC06"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M25"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F08"
+      }
+    }]
+  },
+  {
+    "code" : "10041",
+    "display" : "RC07/M20/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC07"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M20"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10042",
+    "display" : "RC07/M26/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC07"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M26"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10043",
+    "display" : "RC08/M27/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M27"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10044",
+    "display" : "RC08/M28/F09",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F09"
+      }
+    }]
+  },
+  {
+    "code" : "10045",
+    "display" : "RC08/M28/F10",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F10"
+      }
+    }]
+  },
+  {
+    "code" : "10046",
+    "display" : "RC08/M28/F11",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F11"
+      }
+    }]
+  },
+  {
+    "code" : "10047",
+    "display" : "RC08/M28/F12",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F12"
+      }
+    }]
+  },
+  {
+    "code" : "10048",
+    "display" : "RC08/M28/F13",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F13"
+      }
+    }]
+  },
+  {
+    "code" : "10049",
+    "display" : "RC08/M28/F14",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F14"
+      }
+    }]
+  },
+  {
+    "code" : "10050",
+    "display" : "RC08/M28/F15",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F15"
+      }
+    }]
+  },
+  {
+    "code" : "10051",
+    "display" : "RC08/M28/F16",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F16"
+      }
+    }]
+  },
+  {
+    "code" : "10052",
+    "display" : "RC08/M28/F17",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F17"
+      }
+    }]
+  },
+  {
+    "code" : "10053",
+    "display" : "RC08/M28/F18",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F18"
+      }
+    }]
+  },
+  {
+    "code" : "10054",
+    "display" : "RC08/M28/F19",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F19"
+      }
+    }]
+  },
+  {
+    "code" : "10055",
+    "display" : "RC08/M28/F20",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F20"
+      }
+    }]
+  },
+  {
+    "code" : "10056",
+    "display" : "RC08/M28/F21",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F21"
+      }
+    }]
+  },
+  {
+    "code" : "10057",
+    "display" : "RC08/M28/F22",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M28"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F22"
+      }
+    }]
+  },
+  {
+    "code" : "10058",
+    "display" : "RC08/M70/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M70"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10059",
+    "display" : "RC08/M70/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC08"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M70"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10060",
+    "display" : "RC09/M29/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC09"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M29"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10061",
+    "display" : "RC10/M30/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC10"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M30"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10062",
+    "display" : "RC10/M30/F23",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC10"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M30"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F23"
+      }
+    }]
+  },
+  {
+    "code" : "10063",
+    "display" : "RC10/M30/F24",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC10"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M30"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F24"
+      }
+    }]
+  },
+  {
+    "code" : "10064",
+    "display" : "RC10/M31/F25",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC10"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M31"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F25"
+      }
+    }]
+  },
+  {
+    "code" : "10065",
+    "display" : "RC10/M30/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC10"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M30"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10066",
+    "display" : "RC11/M00/F26",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F26"
+      }
+    }]
+  },
+  {
+    "code" : "10067",
+    "display" : "RC11/M32/F03",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F03"
+      }
+    }]
+  },
+  {
+    "code" : "10068",
+    "display" : "RC11/M32/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10069",
+    "display" : "RC11/M32/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10070",
+    "display" : "RC11/M32/F27",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F27"
+      }
+    }]
+  },
+  {
+    "code" : "10071",
+    "display" : "RC11/M32/F28",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F28"
+      }
+    }]
+  },
+  {
+    "code" : "10072",
+    "display" : "RC11/M32/F29",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F29"
+      }
+    }]
+  },
+  {
+    "code" : "10073",
+    "display" : "RC11/M32/F30",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F30"
+      }
+    }]
+  },
+  {
+    "code" : "10074",
+    "display" : "RC11/M32/F31",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC11"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M32"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F31"
+      }
+    }]
+  },
+  {
+    "code" : "10075",
+    "display" : "RC12/M01/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC12"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10076",
+    "display" : "RC12/M01/F32",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC12"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F32"
+      }
+    }]
+  },
+  {
+    "code" : "10077",
+    "display" : "RC12/M02/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC12"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10078",
+    "display" : "RC12/M02/F32",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC12"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F32"
+      }
+    }]
+  },
+  {
+    "code" : "10079",
+    "display" : "RC13/M01/F33",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC13"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M01"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F33"
+      }
+    }]
+  },
+  {
+    "code" : "10080",
+    "display" : "RC13/M02/F33",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC13"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F33"
+      }
+    }]
+  },
+  {
+    "code" : "10081",
+    "display" : "RC14/M00/F34",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC14"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F34"
+      }
+    }]
+  },
+  {
+    "code" : "10082",
+    "display" : "RC14/M00/F35",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC14"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F35"
+      }
+    }]
+  },
+  {
+    "code" : "10083",
+    "display" : "RC14/M00/F36",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC14"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F36"
+      }
+    }]
+  },
+  {
+    "code" : "10084",
+    "display" : "RC14/M00/F37",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC14"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F37"
+      }
+    }]
+  },
+  {
+    "code" : "10085",
+    "display" : "RC14/M33/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC14"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M33"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10086",
+    "display" : "RC15/M34/F38",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M34"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F38"
+      }
+    }]
+  },
+  {
+    "code" : "10087",
+    "display" : "RC15/M34/F39",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M34"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F39"
+      }
+    }]
+  },
+  {
+    "code" : "10088",
+    "display" : "RC15/M34/F40",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M34"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F40"
+      }
+    }]
+  },
+  {
+    "code" : "10089",
+    "display" : "RC15/M34/F41",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M34"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F41"
+      }
+    }]
+  },
+  {
+    "code" : "10090",
+    "display" : "RC15/M35/F42",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M35"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F42"
+      }
+    }]
+  },
+  {
+    "code" : "10091",
+    "display" : "RC15/M36/F34",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M36"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F34"
+      }
+    }]
+  },
+  {
+    "code" : "10092",
+    "display" : "RC15/M36/F43",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC15"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M36"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F43"
+      }
+    }]
+  },
+  {
+    "code" : "10093",
+    "display" : "RC16/M37/F32",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC16"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M37"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F32"
+      }
+    }]
+  },
+  {
+    "code" : "10094",
+    "display" : "RC17/M02/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC17"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M02"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10095",
+    "display" : "RC17/M38/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC17"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M38"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10096",
+    "display" : "RC17/M39/F04",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC17"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M39"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F04"
+      }
+    }]
+  },
+  {
+    "code" : "10097",
+    "display" : "RC18/M40/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC18"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M40"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10098",
+    "display" : "RC19/M41/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC19"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M41"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10099",
+    "display" : "RC19/M42/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC19"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M42"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10100",
+    "display" : "RC19/M43/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC19"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M43"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10101",
+    "display" : "RC19/M44/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC19"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M44"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10102",
+    "display" : "RC20/M45/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC20"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M45"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10103",
+    "display" : "RC20/M46/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC20"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M46"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10104",
+    "display" : "RC21/M47/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC21"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M47"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10105",
+    "display" : "RC21/M48/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC21"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M48"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10106",
+    "display" : "RC22/M49/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC22"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M49"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10107",
+    "display" : "RC23/M50/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC23"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M50"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10108",
+    "display" : "RC23/M51/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC23"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M51"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10109",
+    "display" : "RC23/M52/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC23"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M52"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10110",
+    "display" : "RC23/M53/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC23"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M53"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10111",
+    "display" : "RC23/M54/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC23"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M54"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10112",
+    "display" : "RC24/M55/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC24"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M55"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10113",
+    "display" : "RC24/M56/F25",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC24"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M56"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F25"
+      }
+    }]
+  },
+  {
+    "code" : "10114",
+    "display" : "RC24/M57/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC24"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M57"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10115",
+    "display" : "RC24/M58/F32",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC24"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M58"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F32"
+      }
+    }]
+  },
+  {
+    "code" : "10116",
+    "display" : "RC24/M59/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC24"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M59"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10117",
+    "display" : "RC25/M60/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC25"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M60"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10118",
+    "display" : "RC26/M61/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC26"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M61"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10119",
+    "display" : "RC26/M62/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC26"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M62"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10120",
+    "display" : "RC26/M63/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC26"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M63"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10121",
+    "display" : "RC27/M64/F32",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC27"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M64"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F32"
+      }
+    }]
+  },
+  {
+    "code" : "10122",
+    "display" : "RC28/M65/F07",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC28"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M65"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F07"
+      }
+    }]
+  },
+  {
+    "code" : "10123",
+    "display" : "RC28/M66/F01",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC28"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M66"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F01"
+      }
+    }]
+  },
+  {
+    "code" : "10124",
+    "display" : "RC29/M00/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC29"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M00"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10125",
+    "display" : "RC30/M67/F00",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC30"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M67"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F00"
+      }
+    }]
+  },
+  {
+    "code" : "10126",
+    "display" : "RC31/M68/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC31"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M68"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
+      }
+    }]
+  },
+  {
+    "code" : "10127",
+    "display" : "RC31/M69/F44",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "natureActivite",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+        "code" : "ASR"
+      }
+    },
+    {
+      "code" : "activiteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-activite-reconnaissance-contractuelle",
+        "code" : "RC31"
+      }
+    },
+    {
+      "code" : "modaliteReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r430-modalite-reconnaissance-contractuelle",
+        "code" : "M69"
+      }
+    },
+    {
+      "code" : "formeReconnaissanceContractuelle",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-forme-reconnaissance-contractuelle",
+        "code" : "F44"
       }
     }]
   },
@@ -187343,7 +192942,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/508/11/840",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187387,7 +192986,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/508/11/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187431,7 +193030,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/508/16/841",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187475,7 +193074,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/570/11/441",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187519,7 +193118,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/570/40/441",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187563,7 +193162,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/962/11/441",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
@@ -187607,7 +193206,7 @@ Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
     "display" : "AMSR/962/40/441",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-16T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",

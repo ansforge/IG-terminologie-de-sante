@@ -1,4 +1,4 @@
-# JDV_J229_ProfessionSante_ROR - Terminologies de Santé v1.14.0
+# JDV_J229_ProfessionSante_ROR - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J229_ProfessionSante_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J229_ProfessionSante_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.61 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J229-ProfessionSante-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J229-ProfessionSante-ROR",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-07-29T08:04:53.838+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-11-02T10:33:00.010+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.61"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "JDV_J229_ProfessionSante_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de caractéristique équipement",
   "jurisdiction" : [{
@@ -220,12 +220,24 @@ Liens:
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
       "concept" : [{
+        "code" : "08",
+        "display" : "Médiateur de santé pair ou de santé communautaire"
+      },
+      {
         "code" : "86",
         "display" : "Infirmier en pratique avancée (IPA)"
       },
       {
         "code" : "132",
         "display" : "Stomathérapeute"
+      },
+      {
+        "code" : "133",
+        "display" : "Infirmier expert en plaies et cicatrisation"
+      },
+      {
+        "code" : "134",
+        "display" : "Sexologue"
       }]
     }]
   }

@@ -1,4 +1,4 @@
-# JDV_J105_EnsembleDiplome_RASS - Terminologies de Santé v1.14.0
+# JDV_J105_EnsembleDiplome_RASS - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.173 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J105-EnsembleDiplome-RASS-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J105-EnsembleDiplome-RASS",
   "meta" : {
-    "versionId" : "23",
-    "lastUpdated" : "2026-07-29T10:33:47.321+02:00",
+    "versionId" : "24",
+    "lastUpdated" : "2026-11-02T10:32:52.155+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.173"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "JDV_J105_EnsembleDiplome_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des diplômes et qualifications du RASS",
   "jurisdiction" : [{
@@ -851,6 +851,26 @@ Liens:
       {
         "code" : "DIP416",
         "display" : "DUT Biologie appliquée option diététique"
+      },
+      {
+        "code" : "DIP417",
+        "display" : "DU Plaies chroniques et cicatrisation"
+      },
+      {
+        "code" : "DIP418",
+        "display" : "DU Appropriation des méthodologies de recherche clinique appliquées à la rééducation et la réadaptation"
+      },
+      {
+        "code" : "DIP419",
+        "display" : "DIU Posture, équilibre, locomotion"
+      },
+      {
+        "code" : "DIP420",
+        "display" : "DU Plaies, brûlures et cicatrisation"
+      },
+      {
+        "code" : "DIP421",
+        "display" : "DIU Soigner les soignants : spécificités et ressources"
       }]
     },
     {
@@ -2783,6 +2803,10 @@ Liens:
       {
         "code" : "DSP12",
         "display" : "DES Pharmacie hospitalière radiopharmacie (RPH)"
+      },
+      {
+        "code" : "DSP13",
+        "display" : "DES Innovation Pharmaceutique et Recherche"
       }]
     },
     {

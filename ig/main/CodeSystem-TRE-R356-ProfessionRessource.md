@@ -1,4 +1,4 @@
-# TRE_R356_ProfessionRessource - Terminologies de Santé v1.14.0
+# TRE_R356_ProfessionRessource - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R356_ProfessionRessource |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R356_ProfessionRessource |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.246 | | |
 
  
@@ -19,6 +19,7 @@ Profession Ressource
 
 * [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md)
 * [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md)
+* [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md)
 
 
 
@@ -29,8 +30,8 @@ Profession Ressource
   "resourceType" : "CodeSystem",
   "id" : "TRE-R356-ProfessionRessource",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-07-29T08:03:40.409+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-02T10:28:27.922+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -44,11 +45,11 @@ Profession Ressource
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.246"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "TRE_R356_ProfessionRessource",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource",
   "jurisdiction" : [{
@@ -59,7 +60,7 @@ Profession Ressource
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 100,
+  "count" : 102,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -127,14 +128,14 @@ Profession Ressource
   },
   {
     "code" : "08",
-    "display" : "Médiateur de santé pair",
+    "display" : "Médiateur de santé pair ou de santé communautaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1808,6 +1809,38 @@ Profession Ressource
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "133",
+    "display" : "Infirmier expert en plaies et cicatrisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "134",
+    "display" : "Sexologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

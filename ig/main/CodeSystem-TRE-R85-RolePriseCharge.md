@@ -1,4 +1,4 @@
-# TRE_R85_RolePriseCharge - Terminologies de Santé v1.14.0
+# TRE_R85_RolePriseCharge - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -40,8 +40,8 @@ Rôle dans la prise en charge des patients ou des usagers
   "resourceType" : "CodeSystem",
   "id" : "TRE-R85-RolePriseCharge",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-07-06T20:14:52.956+02:00",
+    "versionId" : "28",
+    "lastUpdated" : "2026-11-02T10:29:39.726+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -56,11 +56,11 @@ Rôle dans la prise en charge des patients ou des usagers
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [{
@@ -382,11 +382,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -885,11 +893,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -909,11 +925,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -965,11 +989,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1013,11 +1045,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1037,11 +1077,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1061,11 +1109,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1085,11 +1141,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1109,11 +1173,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1189,11 +1261,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1375,11 +1455,19 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1479,12 +1567,20 @@ Rôle dans la prise en charge des patients ou des usagers
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {

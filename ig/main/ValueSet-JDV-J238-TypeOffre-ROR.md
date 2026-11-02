@@ -1,4 +1,4 @@
-# JDV_J238_TypeOffre_ROR - Terminologies de Santé v1.14.0
+# JDV_J238_TypeOffre_ROR - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.65 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J237-RegionOM-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J238-TypeOffre-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J238-TypeOffre-ROR",
   "meta" : {
-    "versionId" : "35",
-    "lastUpdated" : "2026-09-28T10:32:34.687+02:00",
+    "versionId" : "36",
+    "lastUpdated" : "2026-11-02T10:33:00.940+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.65"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
   "jurisdiction" : [{
@@ -407,10 +407,6 @@ Liens:
       {
         "code" : "78",
         "display" : "Equipe Mobile Géronto-Psychiatrie (EMGP)"
-      },
-      {
-        "code" : "79",
-        "display" : "Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)"
       },
       {
         "code" : "80",
@@ -1327,6 +1323,10 @@ Liens:
       {
         "code" : "321",
         "display" : "Point d'accès de téléconsultation"
+      },
+      {
+        "code" : "322",
+        "display" : "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
       }]
     }]
   }

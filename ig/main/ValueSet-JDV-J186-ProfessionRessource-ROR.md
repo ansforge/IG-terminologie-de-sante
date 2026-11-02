@@ -1,4 +1,4 @@
-# JDV_J186_ProfessionRessource_ROR - Terminologies de Santé v1.14.0
+# JDV_J186_ProfessionRessource_ROR - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR | *Version*:20260730120000 | |
-| Active as of 2026-07-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.19 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J185-TypeFermeture-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J186-ProfessionRessource-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J186-ProfessionRessource-ROR",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-07-29T08:04:52.627+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-11-02T10:32:58.882+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.19"
   }],
-  "version" : "20260730120000",
+  "version" : "20261102120000",
   "name" : "JDV_J186_ProfessionRessource_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource des offres dans le ROR",
   "jurisdiction" : [{
@@ -333,7 +333,7 @@ Liens:
       },
       {
         "code" : "08",
-        "display" : "Médiateur de santé pair"
+        "display" : "Médiateur de santé pair ou de santé communautaire"
       },
       {
         "code" : "10",
@@ -714,6 +714,14 @@ Liens:
       {
         "code" : "132",
         "display" : "Stomathérapeute"
+      },
+      {
+        "code" : "133",
+        "display" : "Infirmier expert en plaies et cicatrisation"
+      },
+      {
+        "code" : "134",
+        "display" : "Sexologue"
       }]
     }]
   }

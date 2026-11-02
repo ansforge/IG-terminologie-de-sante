@@ -1,4 +1,4 @@
-# Terminologies du NOS - Terminologies de Santé v1.14.0
+# Terminologies du NOS - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -38,12 +38,12 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/03/2026 | active |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 | active |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 | active |
-| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 28/09/2026 | active |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 02/11/2026 | active |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 | active |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 | active |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention | 29/06/2026 | active |
-| [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 28/09/2026 | active |
-| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 01/06/2026 | active |
+| [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 30/03/2026 | active |
+| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 02/11/2026 | active |
 | [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 29/06/2026 | active |
 | [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.Cette TRE possède des propriétés spécifiques :1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
 1. Le parent d'un agrégat d'ASOCR ou d'une ASOCR
@@ -75,12 +75,15 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR425TypeRepas](CodeSystem-tre-r425-type-repas.md) | Type de repas. | 05/05/2026 | draft |
 | [TreR426Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP) | 05/05/2026 | draft |
 | [TreR427TypeAdresse](CodeSystem-tre-r427-type-adresse.md) | Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. | 05/05/2026 | draft |
+| [TreR428ActiviteReconnaisanceContractuelle](CodeSystem-tre-r428-activite-reconnaissance-contractuelle.md) | Libellés des activités soumises à reconnaissances (ASR) | 02/11/2026 | active |
+| [TreR429FormeReconnaissanceContractuelle](CodeSystem-tre-r429-forme-reconnaissance-contractuelle.md) | Formes des activités autorisées /exercées provenant d'E-CARS | 02/11/2026 | active |
+| [TreR430ModaliteReconnaissanceContractuelle](CodeSystem-tre-r430-modalite-reconnaissance-contractuelle.md) | Modalités des activités autorisées /exercées provenant d'E-CARS | 02/11/2026 | active |
 | [TreR436OrigineInterruptionExercice](CodeSystem-tre-r436-origine-interruption-exercice.md) | L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). | 29/06/2026 | active |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 | active |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 | active |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 28/09/2026 | active |
+| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/11/2026 | active |
 | [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 | active |
-| [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 | active |
+| [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 02/11/2026 | active |
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/06/2026 | active |
 | [TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md) | Restriction d'audience applicable aux objets référencés | 15/12/2023 | active |
 | [TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md) | HL7 confidentiality | 15/12/2023 | active |
@@ -107,7 +110,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 | active |
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 | active |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 | active |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 28/09/2026 | active |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/11/2026 | active |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 | active |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 | active |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 | active |
@@ -117,11 +120,11 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 | active |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 05/05/2026 | active |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 | active |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 28/09/2026 | active |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 02/11/2026 | active |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 | active |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 | active |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 | active |
-| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/02/2026 | active |
+| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 02/11/2026 | active |
 | [TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md) | Genre d'activité | 29/03/2024 | active |
 | [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 | active |
 | [TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md) | Type d'activité libérale | 15/12/2023 | active |
@@ -133,7 +136,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R34_StatutProfessionnelSSA](CodeSystem-TRE-R34-StatutProfessionnelSSA.md) | Statut du professionnel au SSA | 15/12/2023 | active |
 | [TRE_R36_AutreDiplomeObtenu](CodeSystem-TRE-R36-AutreDiplomeObtenu.md) | Autre diplôme obtenu | 15/12/2023 | active |
 | [TRE_R37_TypeProfessionFonction](CodeSystem-TRE-R37-TypeProfessionFonction.md) | Type des professions et des fonctions | 15/12/2023 | active |
-| [TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md) | Spécialité ordinale | 28/09/2026 | active |
+| [TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md) | Spécialité ordinale | 02/11/2026 | active |
 | [TRE_R39_Competence](CodeSystem-TRE-R39-Competence.md) | Compétence | 28/06/2024 | active |
 | [TRE_R40_CompetenceExclusive](CodeSystem-TRE-R40-CompetenceExclusive.md) | Compétence exclusive | 15/12/2023 | active |
 | [TRE_R42_DESCnonQualifiant](CodeSystem-TRE-R42-DESCnonQualifiant.md) | Savoir-faire liés aux DESC du groupe 1 non qualifiants | 28/06/2024 | active |
@@ -141,12 +144,12 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R44_QualificationPAC](CodeSystem-TRE-R44-QualificationPAC.md) | Qualification de praticien adjoint contractuel | 15/12/2023 | active |
 | [TRE_R45_FonctionQualifiee](CodeSystem-TRE-R45-FonctionQualifiee.md) | Fonction qualifiée | 15/12/2023 | active |
 | [TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md) | Diplôme de l'Etat français | 25/04/2025 | active |
-| [TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md) | Diplôme d'Etudes Spécialisées | 31/05/2024 | active |
+| [TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md) | Diplôme d'Etudes Spécialisées | 02/11/2026 | active |
 | [TRE_R50_DESCGroupe1Diplome](CodeSystem-TRE-R50-DESCGroupe1Diplome.md) | DESC Groupe 1 (diplôme) | 15/12/2023 | active |
 | [TRE_R51_DESCGroupe2Diplome](CodeSystem-TRE-R51-DESCGroupe2Diplome.md) | DESC Groupe 2 (diplôme) | 15/12/2023 | active |
 | [TRE_R52_CapaciteDiplome](CodeSystem-TRE-R52-CapaciteDiplome.md) | Capacité (diplôme) | 15/12/2023 | active |
 | [TRE_R53_DiplomePaysEEE](CodeSystem-TRE-R53-DiplomePaysEEE.md) | Diplôme d'un pays de l'EEE | 15/12/2023 | active |
-| [TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md) | Diplôme d'Université ou Inter-Universitaire | 26/07/2024 | active |
+| [TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md) | Diplôme d'Université ou Inter-Universitaire | 02/11/2026 | active |
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 | active |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 | active |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 | active |
@@ -156,7 +159,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 | active |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 01/06/2026 | active |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 | active |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 05/05/2026 | active |
+| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 02/11/2026 | active |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 | active |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 | active |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 | active |
@@ -168,7 +171,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 | active |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 | active |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 | active |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 05/05/2026 | active |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 02/11/2026 | active |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 | active |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 | active |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 | active |
@@ -188,8 +191,8 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 | active |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 | active |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 29/06/2026 | active |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 28/09/2026 | active |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 28/09/2026 | active |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 02/11/2026 | active |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 02/11/2026 | active |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 30/07/2026 | active |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 29/06/2026 | active |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 | active |
@@ -197,6 +200,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 | active |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 | active |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/06/2026 | active |
+| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 02/11/2026 | active |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 | active |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 | active |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 | active |
@@ -214,7 +218,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 | active |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 | active |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/07/2026 | active |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 28/09/2026 | active |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 02/11/2026 | active |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 30/07/2026 | active |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 | active |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 28/09/2026 | active |
@@ -299,7 +303,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 | active |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 | active |
 | [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 01/06/2026 | active |
-| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 28/09/2026 | active |
+| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 02/11/2026 | active |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 | active |
 | [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
 | [TRE_R349_ActionAnomalie](CodeSystem-TRE-R349-ActionAnomalie.md) | Action attendue dans le cadre de la gestion d'une anomalie | 15/12/2023 | active |
@@ -307,7 +311,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R352_StatutMetierAnomalie](CodeSystem-TRE-R352-StatutMetierAnomalie.md) | Statut métier des anomalies | 15/12/2023 | active |
 | [TRE_R354_TypeIdentifiantRessourceOperationnelle](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md) | Type d'identifiant des ressources opérationnelles | 29/03/2024 | active |
 | [TRE_R355_TypeIdentifiantOffre](CodeSystem-TRE-R355-TypeIdentifiantOffre.md) | Type d'identifiant de l'offre | 29/03/2024 | active |
-| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 30/07/2026 | active |
+| [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 02/11/2026 | active |
 | [TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) | Statut de la personne prise en charge. | 15/12/2023 | active |
 | [TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md) | Motif du statut de la personne prise en charge | 15/12/2023 | active |
 | [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 | active |

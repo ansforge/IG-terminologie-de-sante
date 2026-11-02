@@ -1,4 +1,4 @@
-# JDV_J62_PracticeSettingCode_DMP - Terminologies de Santé v1.14.0
+# JDV_J62_PracticeSettingCode_DMP - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J62-PracticeSettingCode-DMP/FHIR/JDV-J62-PracticeSettingCode-DMP | *Version*:20230922120000 | |
-| Active as of 2023-09-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J62_PracticeSettingCode_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J62-PracticeSettingCode-DMP/FHIR/JDV-J62-PracticeSettingCode-DMP | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J62_PracticeSettingCode_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.4 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J62-PracticeSettingCode-DMP-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J62-PracticeSettingCode-DMP",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-07-06T19:06:47.617+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-11-02T10:33:06.206+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.4"
   }],
-  "version" : "20230922120000",
+  "version" : "20261102120000",
   "name" : "JDV_J62_PracticeSettingCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-09-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour practiceSettingCode",
   "jurisdiction" : [{
@@ -146,6 +146,10 @@ Liens:
       {
         "code" : "SAMU_SMUR",
         "display" : "SAMU/SMUR"
+      },
+      {
+        "code" : "ESSMS",
+        "display" : "Etablissement ou Service Social ou Médico-Social"
       }]
     }]
   }

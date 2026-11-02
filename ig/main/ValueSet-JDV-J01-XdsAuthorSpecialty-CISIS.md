@@ -1,4 +1,4 @@
-# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.14.0
+# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260928120000 | |
-| Active as of 2026-09-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2026-09-28T10:32:23.409+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-11-02T10:32:48.538+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
   }],
-  "version" : "20260928120000",
+  "version" : "20261102120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [{
@@ -441,7 +441,7 @@ Liens:
       },
       {
         "code" : "G15_10/SM76",
-        "display" : "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Médecin - Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "G15_10/SM77",
@@ -1461,10 +1461,6 @@ Liens:
         "display" : "Autre acteur mettant en oeuvre la méthode MAIA"
       },
       {
-        "code" : "312",
-        "display" : "Autre professionnel"
-      },
-      {
         "code" : "313",
         "display" : "Aide-soignant"
       },
@@ -1549,44 +1545,12 @@ Liens:
         "display" : "Gestionnaire alertes et urgences sanitaires"
       },
       {
-        "code" : "336",
-        "display" : "Autre professionnel intervenant dans l'accueil et l'orientation des personnes"
-      },
-      {
-        "code" : "337",
-        "display" : "Autre professionnel intervenant dans la logistique"
-      },
-      {
         "code" : "338",
         "display" : "Autre professionnel intervenant dans l'hôtellerie et la restauration"
       },
       {
-        "code" : "339",
-        "display" : "Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement"
-      },
-      {
         "code" : "340",
         "display" : "Autre professionnel intervenant dans la direction des systèmes d'information"
-      },
-      {
-        "code" : "341",
-        "display" : "Autre professionnel intervenant dans la direction des finances et comptabilité"
-      },
-      {
-        "code" : "342",
-        "display" : "Autre professionnel intervenant dans la direction de la communication"
-      },
-      {
-        "code" : "343",
-        "display" : "Autre professionnel intervenant dans la direction des ressources humaines"
-      },
-      {
-        "code" : "344",
-        "display" : "Autre professionnel intervenant dans la direction des affaires médicales"
-      },
-      {
-        "code" : "345",
-        "display" : "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
       },
       {
         "code" : "346",
@@ -1599,10 +1563,6 @@ Liens:
       {
         "code" : "348",
         "display" : "Etudiant - auxiliaire de puériculture"
-      },
-      {
-        "code" : "349",
-        "display" : "Etudiant - masseur-kinésithérapeute"
       },
       {
         "code" : "351",
@@ -1633,10 +1593,6 @@ Liens:
         "display" : "Autre étudiant"
       },
       {
-        "code" : "359",
-        "display" : "Directeur d'établissement"
-      },
-      {
         "code" : "360",
         "display" : "Brancardier"
       },
@@ -1651,10 +1607,6 @@ Liens:
       {
         "code" : "363",
         "display" : "Attaché de recherche clinique"
-      },
-      {
-        "code" : "364",
-        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
       },
       {
         "code" : "365",

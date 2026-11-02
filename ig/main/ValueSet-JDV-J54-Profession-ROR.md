@@ -1,4 +1,4 @@
-# JDV_J54_Profession_ROR - Terminologies de Santé v1.14.0
+# JDV_J54_Profession_ROR - Terminologies de Santé v1.15.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR | *Version*:20250523120000 | |
-| Active as of 2025-05-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J54_Profession_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR | *Version*:20261102120000 | |
+| Active as of 2026-11-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J54_Profession_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.64 | | |
 
  
@@ -51,9 +51,9 @@ Requête sur le SMT
 |  [<prev](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J54-Profession-ROR-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.14.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.15.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-11-01
+2026-11-02
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J54-Profession-ROR",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-07-06T19:06:40.370+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-11-02T10:33:02.992+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.64"
   }],
-  "version" : "20250523120000",
+  "version" : "20261102120000",
   "name" : "JDV_J54_Profession_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-23T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession de santé - ROR",
   "jurisdiction" : [{
@@ -323,6 +323,17 @@ Liens:
       {
         "code" : "351",
         "display" : "Assistant(e) maternel(le)"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
+      "concept" : [{
+        "code" : "133",
+        "display" : "Infirmier expert en plaies et cicatrisation"
+      },
+      {
+        "code" : "134",
+        "display" : "Sexologue"
       }]
     }]
   }
