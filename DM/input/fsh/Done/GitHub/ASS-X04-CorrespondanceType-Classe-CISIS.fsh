@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.4.249"
-* version = "20260629120000"
 * name = "ASS_X04_CorrespondanceType_Classe_CISIS"
 * title = "ASS_X04_CorrespondanceType_Classe_CISIS"
-* experimental = false
+* version = "20261102120000"
 * status = #active
-* date = "2026-06-29T12:00:00+01:00"
+* experimental = false
+* date = "2026-11-02T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents CI-SIS"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"
@@ -327,6 +327,12 @@ Usage: #definition
 * group[=].element[+].code = #101881-1
 * group[=].element[=].target.code = #52
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #85895-1
+* group[=].element[=].target.code = #31
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #104144-1
+* group[=].element[=].target.code = #90
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #ATTEST-ASS-COMPL
@@ -442,6 +448,9 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #FICHE-CONTACTS
 * group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #JUSTIF-PRESC-RENF
+* group[=].element[=].target.code = #42
 * group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN"
