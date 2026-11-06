@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-evolution-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-04-20T16:58:02.204+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:42:59.245+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.788"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134050",
   "name" : "JdvEvolutionCisis",
   "title" : "JDV Evolution CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evolution CISIS",
   "jurisdiction" : [{
@@ -71,10 +71,6 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "MED-1281",
-        "display" : "décès auquel l’effet a pu contribuer"
-      },
-      {
         "code" : "MED-1282",
         "display" : "décès sans rapport avec l’effet"
       }]
@@ -82,20 +78,20 @@ Requête sur le SMT
     {
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "1352007006",
-        "display" : "guérison sans séquelle"
-      },
-      {
-        "code" : "1335890004",
-        "display" : "guéri(e) de l’évènement indésirable avec séquelle"
-      },
-      {
         "code" : "1336140009",
         "display" : "en cours de guérison de l'évènement indésirable"
       },
       {
         "code" : "1339036001",
         "display" : "évènement indésirable persistant sans guérison"
+      },
+      {
+        "code" : "1352007006",
+        "display" : "guérison sans séquelle"
+      },
+      {
+        "code" : "1335890004",
+        "display" : "guéri(e) de l'évènement indésirable avec séquelle"
       },
       {
         "code" : "405535005",

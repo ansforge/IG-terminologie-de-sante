@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X09_DepartementOM_RegionOM 
 
- 
-Association départements - régions (outre-mer et Monaco inclus) 
-
 
 
 ## Resource Content

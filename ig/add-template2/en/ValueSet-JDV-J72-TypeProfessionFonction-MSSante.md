@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J72-TypeProfessionFonction-MSSante",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:45.840+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:06:53.060+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -8,7 +8,7 @@ Canal de communication
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md)
-* [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md)
+* [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R200-CanalCommunication",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:11:51.238+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:12:42.567+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

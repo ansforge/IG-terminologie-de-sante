@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J170-AutoriteEnregistrement-EPARS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:05:27.389+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:05:32.884+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A28_TypeDiplome_Diplome_Profession_EPARS 
 
- 
-Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales 
-
 ### Accés
 
 Pour cette association, les fichiers suivants sont également disponibles :

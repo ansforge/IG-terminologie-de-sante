@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ParticipationType-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:59:38.793+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-09-28T15:44:26.747+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10901"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134055",
   "name" : "ParticipationType",
   "title" : "ParticipationType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:55+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ParticipationType",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-      "version" : "2018-08-12",
+      "version" : "7.0.0",
       "concept" : [{
         "code" : "ADM",
         "display" : "Responsable de l'admission"

@@ -7,8 +7,8 @@ Type d'enseignement spécialisé.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
-* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
+* [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
+* [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md)
 
 -------
 

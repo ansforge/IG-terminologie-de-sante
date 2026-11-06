@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J281-StatutsRessourcesMS",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-05T19:02:49.314+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T19:06:28.524+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

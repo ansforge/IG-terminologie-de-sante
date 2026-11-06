@@ -7,7 +7,7 @@ Domaine
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md)
+* [Vs Tre R62 Domaine All](ValueSet-vs-tre-r62-domaine-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R62-Domaine",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:26.727+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:43.846+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

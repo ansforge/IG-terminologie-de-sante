@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R338-ModaliteAccueil",
   "meta" : {
-    "versionId" : "20",
-    "lastUpdated" : "2026-05-05T20:12:05.993+02:00",
+    "versionId" : "24",
+    "lastUpdated" : "2026-09-28T10:28:02.959+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -38,11 +38,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.221"
   }],
-  "version" : "20260330120000",
+  "version" : "20260928120000",
   "name" : "TRE_R338_ModaliteAccueil",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalités d'accueil",
   "jurisdiction" : [{
@@ -54,7 +54,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 26,
+  "count" : 27,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -157,14 +157,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "05",
-    "display" : "Visite à domicile",
+    "display" : "Visite et soins à domicile",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2022-09-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-09-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -316,11 +316,15 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-02-17T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -554,7 +558,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "25",
-    "display" : "Relayage courte durée (quelques heures par jour)",
+    "display" : "Relayage courte durée (< un jour)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -577,7 +581,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -586,7 +590,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "26",
-    "display" : "Relayage longue durée (sur plusieurs jours)",
+    "display" : "Relayage longue durée (> un jour)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -609,11 +613,35 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "27",
+    "display" : "Soins à domicile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   }]
 }

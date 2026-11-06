@@ -23,9 +23,9 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-A06-FormatCodeComplementaire",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-12-22T10:46:29.488+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:12:21.681+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -38,11 +38,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.282"
   }],
-  "version" : "20251029120000",
+  "version" : "20260629120000",
   "name" : "TRE_A06_FormatCodeComplementaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "formatCode en complément des nomenclatures internationales",
   "jurisdiction" : [{
@@ -54,7 +54,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 63,
+  "count" : 68,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1727,6 +1727,126 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "urn:ans:ci-sis:mso-rougeole:2026",
+    "display" : "Déclaration de maladie à signalement obligatoire : Rougeole",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-ROUGEOLE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "urn:ans:ci-sis:mso-dengue:2026",
+    "display" : "Déclaration de maladie à signalement obligatoire : Dengue",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-DENGUE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "urn:ans:ci-sis:mso-chikungunya:2026",
+    "display" : "Déclaration de maladie à signalement obligatoire : Chikungunya",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-CHIKUNG"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "urn:ans:ci-sis:mso-zika:2026",
+    "display" : "Déclaration de maladie à signalement obligatoire : Zika",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-ZIKA"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "urn:ans:ci-sis:mso-westnile:2026",
+    "display" : "Déclaration de maladie à signalement obligatoire : West Nile",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-WESTNILE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

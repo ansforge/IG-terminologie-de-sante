@@ -7,7 +7,7 @@ Précise l'utilisation du canal de communication.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md)
+* [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md)
 
 -------
 

@@ -7,7 +7,7 @@ Type de la demande de compensation adressée à la CDAPH.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md)
+* [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md)
 
 -------
 

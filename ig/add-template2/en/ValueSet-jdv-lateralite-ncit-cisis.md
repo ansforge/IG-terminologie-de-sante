@@ -23,7 +23,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansions are not generated for retired value sets
 
 -------
 
@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-lateralite-ncit-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:44:06.158+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-09-03T15:27:55.943+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -57,7 +57,7 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "20251028115835",
   "name" : "JdvLateraliteNcitCisis",
   "title" : "JDV Lateralite Ncit CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-10-28T11:58:35+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

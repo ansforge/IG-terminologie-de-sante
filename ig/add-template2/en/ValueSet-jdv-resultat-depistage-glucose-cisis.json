@@ -2,14 +2,14 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-glucose-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:53.161+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:43:48.705+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "en",
   "text" : {
-    "status" : "generated",
-    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-resultat-depistage-glucose-cisis</b></p><a name=\"en-jdv-resultat-depistage-glucose-cisis\"> </a><a name=\"en-hcjdv-resultat-depistage-glucose-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 9; Last updated: 2026-04-20 16:58:53+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/260385009\">260385009</a></td><td>négatif(-ive)</td></tr><tr><td><a href=\"http://snomed.info/id/10828004\">10828004</a></td><td>positif(-ive)</td></tr></table></li></ul></div>"
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-resultat-depistage-glucose-cisis</b></p><a name=\"en-jdv-resultat-depistage-glucose-cisis\"> </a><a name=\"en-hcjdv-resultat-depistage-glucose-cisis\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 15; Last updated: 2026-09-28 15:43:48+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-ObservationInterpretation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-NEG\">NEG</a></td><td>Négatif</td><td>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.<br/><br/>\\[Note: Negative does not necessarily imply the complete absence of the specified item.\\]</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-POS\">POS</a></td><td>Positif</td><td>A presence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -22,12 +22,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.777"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134048",
   "name" : "JdvResultatDepistageGlucoseCisis",
   "title" : "JDV Resultat Depistage Glucose CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:48+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Glucose CISIS",
   "jurisdiction" : [{
@@ -39,14 +39,15 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://snomed.info/sct",
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "4.0.0",
       "concept" : [{
-        "code" : "260385009",
-        "display" : "négatif(-ive)"
+        "code" : "NEG",
+        "display" : "Négatif"
       },
       {
-        "code" : "10828004",
-        "display" : "positif(-ive)"
+        "code" : "POS",
+        "display" : "Positif"
       }]
     }]
   }

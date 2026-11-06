@@ -8,7 +8,7 @@ A set of codes specifying the security classification of acts and roles in accor
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md)
-* [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
+* [x_BasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
 
 -------
 

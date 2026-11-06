@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS 
 
- 
-Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association. 
-
 
 
 ## Resource Content
@@ -19,7 +16,7 @@ Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-02T14:00:56+00:00",
+  "date" : "2026-11-06T13:32:02+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

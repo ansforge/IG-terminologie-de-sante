@@ -7,7 +7,7 @@ Identifiant des modèles de CDA non structurés
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
+* [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
 
 -------
 

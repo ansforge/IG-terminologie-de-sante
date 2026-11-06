@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A14_FamilleActivite_ActiviteOperationnelle 
 
- 
-Association Famille activité - Activité opérationnelle 
-
 
 
 ## Resource Content

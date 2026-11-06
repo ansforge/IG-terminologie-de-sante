@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X04_CorrespondanceType_Classe_CISIS 
 
- 
-Correspondance entre types et classes de documents CI-SIS 
-
 
 
 ## Resource Content

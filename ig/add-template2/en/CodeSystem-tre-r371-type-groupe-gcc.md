@@ -7,7 +7,7 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md)
+* [Jdv J306 Type Groupe Gcc Finess](ValueSet-jdv-j306-type-groupe-gcc-finess.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r371-type-groupe-gcc",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:11+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:57+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

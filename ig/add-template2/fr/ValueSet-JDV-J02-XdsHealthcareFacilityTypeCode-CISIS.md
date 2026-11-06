@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-05-05T19:02:26.780+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-07-06T19:04:31.809+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

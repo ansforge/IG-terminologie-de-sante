@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J225-CanalCommunication-ROR",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-02T15:19:02.564+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T19:06:02.711+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

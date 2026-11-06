@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J111-StatutEtatCivil-ENREG",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:47.297+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:04:50.802+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

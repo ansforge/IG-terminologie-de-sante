@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-qualitatif-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-04-21T10:46:58.852+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-09-28T15:43:50.874+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.832"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134052",
   "name" : "JdvResultatQualitatifCisis",
   "title" : "Jdv Resultat Qualitatif CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Resultat Qualitatif CISIS",
   "jurisdiction" : [{
@@ -125,10 +125,6 @@ Requête sur le SMT
       {
         "code" : "441521003",
         "display" : "présence +++ sur +++"
-      },
-      {
-        "code" : "373121007",
-        "display" : "test non effectué"
       }]
     }]
   }

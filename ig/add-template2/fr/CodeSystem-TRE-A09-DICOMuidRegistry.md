@@ -7,8 +7,7 @@ DICOM UID Registry
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
-* [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 -------
 
@@ -23,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-A09-DICOMuidRegistry",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:28.159+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-28T10:27:29.694+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +37,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.840.10008.2.6.1"
   }],
-  "version" : "20231215120000",
+  "version" : "20260928120000",
   "name" : "TRE_A09_DICOMuidRegistry",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "DICOM UID Registry",
   "jurisdiction" : [{
@@ -54,6 +53,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 2,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",

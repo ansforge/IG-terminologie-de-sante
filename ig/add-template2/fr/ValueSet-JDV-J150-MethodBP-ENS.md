@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J150-MethodBP-ENS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:11.336+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:05:14.923+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

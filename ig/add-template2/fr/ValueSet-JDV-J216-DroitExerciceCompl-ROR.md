@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J216-DroitExerciceCompl-ROR",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:52.156+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:05:57.824+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

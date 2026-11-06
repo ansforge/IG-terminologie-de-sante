@@ -7,10 +7,10 @@ Liste des activités d'enseignement régulées organisée en 3 niveaux d'agréga
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md)
-* [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md)
-* [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md)
-* [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md)
+* [Jdv J318 Activite Enseignement Regulee Finess](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md)
+* [Jdv J319 Activite Enseignement Regulee Niv1 Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md)
+* [Jdv J320 Activite Enseignement Regulee Niv2 Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md)
+* [Jdv J321 Activite Enseignement Regulee Niv3 Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md)
 
 -------
 
@@ -25,8 +25,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r402-activite-enseignement-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T20:12:23.041+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T20:14:30.992+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A29_Departement_AE 
 
- 
-Table d'association Département- AE responsable pour détermination de l'autorité d'enregistrement 
-
 
 
 ## Resource Content

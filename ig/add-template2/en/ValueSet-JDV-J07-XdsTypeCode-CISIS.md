@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
-    "versionId" : "20",
-    "lastUpdated" : "2026-06-02T15:18:57.384+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-11-02T10:32:50.098+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.471"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS typeCode CI-SIS",
   "jurisdiction" : [{
@@ -208,6 +208,10 @@ Requête sur le SMT
       {
         "code" : "EXPORT_DUI",
         "display" : "Export du Dossier Usager Informatisé"
+      },
+      {
+        "code" : "JUSTIF-PRESC-RENF",
+        "display" : "Justificatif de prescription renforcée"
       }]
     },
     {
@@ -327,6 +331,10 @@ Requête sur le SMT
       {
         "code" : "55115-0",
         "display" : "Demande d'actes d'imagerie"
+      },
+      {
+        "code" : "55751-2",
+        "display" : "Déclaration de problème de santé publique"
       },
       {
         "code" : "56445-0",
@@ -555,6 +563,14 @@ Requête sur le SMT
       {
         "code" : "101881-1",
         "display" : "Carte d'implant"
+      },
+      {
+        "code" : "85895-1",
+        "display" : "CR de médecine nucléaire"
+      },
+      {
+        "code" : "104144-1",
+        "display" : "Directives anticipées en santé mentale"
       }]
     },
     {

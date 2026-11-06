@@ -11,8 +11,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-bdpm",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-05-07T11:18:11.400+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-11-05T11:10:17.033+01:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
@@ -20,11 +20,11 @@
     }]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-  "version" : "1.0.1096",
+  "version" : "1.0.1175",
   "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP",
   "title" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
   "status" : "active",
-  "date" : "2026-05-07",
+  "date" : "2026-11-05",
   "publisher" : "Agence du numérique en santé",
   "contact" : [{
     "telecom" : [{

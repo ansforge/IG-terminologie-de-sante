@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J154-TypeGlucose-ENS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-07-29T13:17:07.058+00:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-07-06T19:05:16.184+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

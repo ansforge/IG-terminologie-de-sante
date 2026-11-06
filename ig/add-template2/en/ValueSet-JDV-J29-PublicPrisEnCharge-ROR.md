@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J29-PublicPrisEnCharge-ROR",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T19:02:49.666+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-29T08:04:55.543+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.30"
   }],
-  "version" : "20260330120000",
+  "version" : "20260730120000",
   "name" : "JDV_J29_PublicPrisEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Public pris en charge - ROR",
   "jurisdiction" : [{
@@ -107,7 +107,11 @@ Requête sur le SMT
       },
       {
         "code" : "10",
-        "display" : "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
+        "display" : "Victime de violence"
+      },
+      {
+        "code" : "11",
+        "display" : "Auteur de violence ou à risque de violence"
       }]
     }]
   }

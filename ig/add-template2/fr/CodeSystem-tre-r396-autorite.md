@@ -7,9 +7,13 @@ liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, 
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
-* [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
-* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
+* [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
+* [Jdv J358 Type Autorite Enregistrement Finess](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
+* [Jdv J359 Autorite Enregistrement Finess](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
+* [Jdv J360 Autorite Regulation Finess](ValueSet-jdv-j360-autorite-regulation-finess.md)
+* [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md)
+* [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md)
+* [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md)
 
 -------
 
@@ -24,8 +28,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r396-autorite",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:17.035+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-11-02T10:29:25.480+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

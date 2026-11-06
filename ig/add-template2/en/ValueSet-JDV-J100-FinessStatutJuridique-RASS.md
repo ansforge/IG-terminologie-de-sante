@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J100-FinessStatutJuridique-RASS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:04:37.970+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T19:04:38.438+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

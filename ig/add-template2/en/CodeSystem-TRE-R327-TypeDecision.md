@@ -7,8 +7,8 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md)
-* [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md)
+* [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md)
+* [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R327-TypeDecision",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-05-05T20:12:04.370+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:37.934+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

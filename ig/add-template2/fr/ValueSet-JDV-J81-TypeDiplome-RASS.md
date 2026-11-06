@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J81-TypeDiplome-RASS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:50.549+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:06:58.062+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

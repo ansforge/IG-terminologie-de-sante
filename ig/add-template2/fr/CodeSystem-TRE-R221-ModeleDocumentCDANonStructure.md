@@ -7,10 +7,10 @@ Identifiant des modèles de CDA non structurés
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md)
-* [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md)
-* [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md)
-* [JdvModeleDocumentCdaNonStructureCisis](ValueSet-jdv-modele-document-cda-non-structure-cisis.md)
+* [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md)
+* [Jdv Tre R221 Modele Document Cda Non Structure All](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md)
+* [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md)
+* [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md)
 
 -------
 
@@ -25,15 +25,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R221-ModeleDocumentCDANonStructure",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-18T16:42:46.301+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-11-02T10:28:23.902+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2016-09-01T00:00:00+01:00",
-      "end" : "2025-12-22T00:00:00+01:00"
+      "start" : "2016-09-01T00:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
@@ -41,11 +40,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.329"
   }],
-  "version" : "20251222120000",
+  "version" : "20261102120000",
   "name" : "TRE_R221_ModeleDocumentCDANonStructure",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Identifiant des modèles de CDA non structurés",
   "jurisdiction" : [{

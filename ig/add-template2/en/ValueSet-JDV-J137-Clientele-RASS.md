@@ -38,8 +38,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J137-Clientele-RASS",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-05-05T19:02:39.751+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T19:05:08.245+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

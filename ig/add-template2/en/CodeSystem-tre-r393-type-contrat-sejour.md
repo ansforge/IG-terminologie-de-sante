@@ -7,7 +7,7 @@ Type de contrat conclu entre l’établissement/service et la personne/son repr�
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md)
+* [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md)
 
 -------
 

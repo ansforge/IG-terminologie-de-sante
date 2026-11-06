@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-jour-semaine-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:36.030+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-09-09T14:27:48.371+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -55,7 +57,7 @@ Requête sur le SMT
   "version" : "20250624152100",
   "name" : "JdvJourSemaineCisis",
   "title" : "JDV Jour Semaine CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-06-24T15:21:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -7,8 +7,8 @@ Identifiant des modèles de CDA structurés
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md)
-* [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md)
+* [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md)
+* [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R220-ModeleDocumentCDAStructure",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-10-31T15:01:31.499+01:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:12:55.221+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +38,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.328"
   }],
-  "version" : "20251029120000",
+  "version" : "20260629120000",
   "name" : "TRE_R220_ModeleDocumentCDAStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Identifiant des modèles de CDA structurés",
   "jurisdiction" : [{
@@ -54,19 +54,22 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 83,
+  "count" : 88,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -355,6 +358,126 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1.2.250.1.213.1.11.1.19.1",
+    "display" : "PSIG – Formulaire MSO Rougeole",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-ROUGEOLE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1.2.250.1.213.1.11.1.19.2",
+    "display" : "PSIG – Formulaire MSO Dengue",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-DENGUE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1.2.250.1.213.1.11.1.19.3",
+    "display" : "PSIG – Formulaire MSO Chikungunya",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-CHIKUNG"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1.2.250.1.213.1.11.1.19.4",
+    "display" : "PSIG – Formulaire MSO Zika",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-ZIKA"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1.2.250.1.213.1.11.1.19.5",
+    "display" : "PSIG – Formulaire MSO West Nile",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PSIG-MSO-WESTNILE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

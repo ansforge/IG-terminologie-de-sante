@@ -7,11 +7,11 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvFluideRouteCodeCisis](ValueSet-jdv-fluide-route-code-cisis.md)
-* [JdvImmunizationRouteCodeCisis](ValueSet-jdv-immunization-route-code-cisis.md)
-* [JdvModeAdministrationCisis](ValueSet-jdv-mode-administration-cisis.md)
-* [JdvRouteOfAdministrationCisis](ValueSet-jdv-route-of-administration-cisis.md)
-* [JdvUsageDrogueCisis](ValueSet-jdv-usage-drogue-cisis.md)
+* [JDV Fluide Route Code CISIS](ValueSet-jdv-fluide-route-code-cisis.md)
+* [JDV Immunization Route Code CISIS](ValueSet-jdv-immunization-route-code-cisis.md)
+* [JDV Mode Administration CISIS](ValueSet-jdv-mode-administration-cisis.md)
+* [JDV Route Of Administration CISIS](ValueSet-jdv-route-of-administration-cisis.md)
+* [JDV Usage Drogue CISIS](ValueSet-jdv-usage-drogue-cisis.md)
 * [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md)
 
 -------
@@ -27,8 +27,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "terminologie-standardterms",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-11T12:01:41.851+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-04T10:00:28.844+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
@@ -42,12 +42,12 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-standardterms"
   }],
-  "version" : "2025-03-19",
+  "version" : "2026-01-30",
   "name" : "Standard_terms_EDQM",
   "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-11T00:00:00+00:00",
+  "date" : "2026-01-30T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ This Code system is referenced in the definition of the following value sets:
   "copyright" : "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
   "content" : "not-present",
-  "count" : 1297,
+  "count" : 1305,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

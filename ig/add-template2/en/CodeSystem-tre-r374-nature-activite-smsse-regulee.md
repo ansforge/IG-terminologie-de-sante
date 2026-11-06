@@ -7,7 +7,7 @@ Nomenclature des grandes natures d'activité SMSSE exercées par les entités FI
 
 This Code system is referenced in the definition of the following value sets:
 
-* [VsTreR374NatureActiviteSmsseReguleeAll](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md)
+* [Vs Tre R374 Nature Activite Smsse Regulee All](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r374-nature-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:12+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:58+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

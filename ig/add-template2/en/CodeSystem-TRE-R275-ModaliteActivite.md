@@ -7,7 +7,7 @@ Mode d'application ou type de soins encadrant une activité
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md)
+* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R275-ModaliteActivite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:01.194+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:17.915+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

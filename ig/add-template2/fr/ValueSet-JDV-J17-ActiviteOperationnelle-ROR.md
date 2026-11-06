@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-06-02T15:19:00.544+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-11-02T10:32:58.211+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -379,7 +379,7 @@ Requête sur le SMT
       },
       {
         "code" : "106",
-        "display" : "Orthoptie"
+        "display" : "Orthoptie : exploration et rééducation de la fonction visuelle"
       },
       {
         "code" : "110",
@@ -492,10 +492,6 @@ Requête sur le SMT
       {
         "code" : "147",
         "display" : "Urgences Médico-Psychologiques (CUMP)"
-      },
-      {
-        "code" : "148",
-        "display" : "Urgences spécialisées cardiologiques"
       },
       {
         "code" : "152",
@@ -1155,7 +1151,7 @@ Requête sur le SMT
       },
       {
         "code" : "334",
-        "display" : "Activité de prévention"
+        "display" : "Activité de dépistage et de prévention"
       },
       {
         "code" : "335",
@@ -1291,11 +1287,11 @@ Requête sur le SMT
       },
       {
         "code" : "369",
-        "display" : "Soins intensifs spécialisés néonatalogique"
+        "display" : "Soins intensifs spécialisés néonatalogie"
       },
       {
         "code" : "370",
-        "display" : "Soins intensifs spécialisés pédiatrique"
+        "display" : "Soins intensifs pédiatrie"
       },
       {
         "code" : "371",
@@ -1459,7 +1455,7 @@ Requête sur le SMT
       },
       {
         "code" : "414",
-        "display" : "Soins de support en oncologie et hématologie"
+        "display" : "Soins de support"
       },
       {
         "code" : "416",
@@ -1595,7 +1591,7 @@ Requête sur le SMT
       },
       {
         "code" : "451",
-        "display" : "Exploration et prise en charge des troubles du sommeil"
+        "display" : "Exploration des troubles du sommeil"
       },
       {
         "code" : "452",
@@ -1671,7 +1667,7 @@ Requête sur le SMT
       },
       {
         "code" : "480",
-        "display" : "Médecine du sommeil"
+        "display" : "Médecine du sommeil (prise en charge des troubles du sommeil)"
       },
       {
         "code" : "481",
@@ -2216,6 +2212,94 @@ Requête sur le SMT
       {
         "code" : "617",
         "display" : "Soins infirmiers en pratique avancée en santé mentale"
+      },
+      {
+        "code" : "618",
+        "display" : "Collecte de don de lait maternel cru"
+      },
+      {
+        "code" : "619",
+        "display" : "Distribution de lait maternel pasteurisé"
+      },
+      {
+        "code" : "620",
+        "display" : "Bilan psychomoteur"
+      },
+      {
+        "code" : "621",
+        "display" : "Soin psychomoteur"
+      },
+      {
+        "code" : "622",
+        "display" : "Education psychomotrice (pédagogie du développement psychomoteur)"
+      },
+      {
+        "code" : "623",
+        "display" : "Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)"
+      },
+      {
+        "code" : "624",
+        "display" : "Rééducation de la graphomotricité et de l’écriture (dysgraphie)"
+      },
+      {
+        "code" : "625",
+        "display" : "Orthoptie orientation neurovisuelle adulte (pathologies neurologiques, maladies neurodégénératives)"
+      },
+      {
+        "code" : "626",
+        "display" : "Orthoptie Basse Vision adulte"
+      },
+      {
+        "code" : "627",
+        "display" : "Orthoptie orientation pédiatrique"
+      },
+      {
+        "code" : "628",
+        "display" : "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+      },
+      {
+        "code" : "629",
+        "display" : "Conseil et accompagnement dans la gestion des traitements"
+      },
+      {
+        "code" : "630",
+        "display" : "Evaluation et accompagnement des auteurs de violences conjugales"
+      },
+      {
+        "code" : "631",
+        "display" : "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques"
+      },
+      {
+        "code" : "632",
+        "display" : "Médecine nucléaire - Diagnostic"
+      },
+      {
+        "code" : "633",
+        "display" : "Médecine nucléaire - Thérapie"
+      },
+      {
+        "code" : "634",
+        "display" : "Orthoptie orientation neurovisuelle enfant"
+      },
+      {
+        "code" : "635",
+        "display" : "Orthoptie Basse Vision enfant"
+      },
+      {
+        "code" : "636",
+        "display" : "Psychiatrie et médiation transculturelle"
+      },
+      {
+        "code" : "637",
+        "display" : "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)"
+      },
+      {
+        "code" : "638",
+        "display" : "Stomathérapie"
+      },
+      {
+        "code" : "639",
+        "display" : "Epileptologie"
       }]
     }]
   }

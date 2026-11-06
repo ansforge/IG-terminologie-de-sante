@@ -7,7 +7,7 @@ International Classification of Diseases for Oncology, version 3. For more infor
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvMorphologieCisis](ValueSet-jdv-morphologie-cisis.md)
+* [JDV Morphologie CISIS](ValueSet-jdv-morphologie-cisis.md)
 
 -------
 

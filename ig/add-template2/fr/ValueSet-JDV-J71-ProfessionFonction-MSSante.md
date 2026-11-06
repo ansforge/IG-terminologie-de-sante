@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J71-ProfessionFonction-MSSante",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:45.415+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T19:06:52.686+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.9.1.2"
   }],
-  "version" : "20231030120000",
+  "version" : "20260629120000",
   "name" : "JDV_J71_ProfessionFonction_MSSante",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Professions et fonctions MSSanté",
   "jurisdiction" : [{
@@ -225,10 +225,6 @@ Requête sur le SMT
         "display" : "Préparateur en pharmacie (officine)"
       },
       {
-        "code" : "318",
-        "display" : "Auxiliaire de vie sociale"
-      },
-      {
         "code" : "319",
         "display" : "Technicien de l'intervention sociale et familiale"
       },
@@ -243,10 +239,6 @@ Requête sur le SMT
       {
         "code" : "322",
         "display" : "Assistant familial"
-      },
-      {
-        "code" : "323",
-        "display" : "Aide médico-psychologique (AMP)"
       },
       {
         "code" : "324",

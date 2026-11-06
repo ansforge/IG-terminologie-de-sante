@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J20-ChampActivite-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-05-05T19:02:44.819+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T19:05:54.375+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

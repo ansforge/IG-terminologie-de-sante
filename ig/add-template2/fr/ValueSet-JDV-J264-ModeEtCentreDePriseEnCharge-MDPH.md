@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-06-02T15:19:02.966+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-11-02T10:33:01.228+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.105"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
   "jurisdiction" : [{
@@ -70,20 +70,16 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
       "concept" : [{
-        "code" : "46",
-        "display" : "Hébergement (accueil jour et nuit)"
+        "code" : "46"
       },
       {
-        "code" : "47",
-        "display" : "Accueil de jour"
+        "code" : "47"
       },
       {
-        "code" : "48",
-        "display" : "Accueil de nuit"
+        "code" : "48"
       },
       {
-        "code" : "49",
-        "display" : "Sur les lieux de vie"
+        "code" : "49"
       }]
     }]
   }

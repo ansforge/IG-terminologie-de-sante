@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A15_SexeProvenanceISO_Sexe 
 
- 
-Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe 
-
 
 
 ## Resource Content

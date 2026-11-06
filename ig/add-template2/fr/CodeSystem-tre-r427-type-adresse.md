@@ -3,11 +3,11 @@
 ## CodeSystem: Tre R427 Type Adresse 
 
  
-Type d'adresse postale. 
+Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. 
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md)
+* [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r427-type-adresse",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:12:43.949+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-06-29T11:14:12.781+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,7 +45,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type d'adresse postale.",
+  "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

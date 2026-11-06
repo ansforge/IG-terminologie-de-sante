@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J33-CompetenceSpecifique-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-05-05T19:02:50.184+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:06:31.038+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.38"
   }],
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "JDV_J33_CompetenceSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Compétence spécifique - ROR",
   "jurisdiction" : [{
@@ -292,6 +292,10 @@ Requête sur le SMT
       {
         "code" : "62",
         "display" : "Maîtrise du Facile à Lire et à Comprendre (FALC)"
+      },
+      {
+        "code" : "63",
+        "display" : "Maitrise des outils informatisés à commande oculaire"
       }]
     }]
   }

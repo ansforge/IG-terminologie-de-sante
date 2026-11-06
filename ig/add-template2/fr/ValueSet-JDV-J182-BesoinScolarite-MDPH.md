@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J182-BesoinScolarite-MDPH",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:34.417+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:05:40.790+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

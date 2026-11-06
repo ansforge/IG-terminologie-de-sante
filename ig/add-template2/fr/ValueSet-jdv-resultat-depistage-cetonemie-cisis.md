@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-cetonemie-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:51.989+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:43:47.697+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.769"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134048",
   "name" : "JdvResultatDepistageCetonemieCisis",
   "title" : "JDV Resultat Depistage Cetonemie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:48+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Cetonemie CISIS",
   "jurisdiction" : [{
@@ -71,12 +71,16 @@ Requête sur le SMT
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "17621005",
-        "display" : "normal"
-      },
-      {
         "code" : "274783007",
         "display" : "cétonurie"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "4.0.0",
+      "concept" : [{
+        "code" : "N",
+        "display" : "Normal"
       }]
     }]
   }

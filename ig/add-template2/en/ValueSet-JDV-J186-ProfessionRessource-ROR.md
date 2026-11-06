@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J186-ProfessionRessource-ROR",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-07-25T09:32:12.221+00:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-11-02T10:32:58.882+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.19"
   }],
-  "version" : "20250710120000",
+  "version" : "20261102120000",
   "name" : "JDV_J186_ProfessionRessource_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-10T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource des offres dans le ROR",
   "jurisdiction" : [{
@@ -302,7 +302,7 @@ Requête sur le SMT
       },
       {
         "code" : "08",
-        "display" : "Médiateur de santé pair"
+        "display" : "Médiateur de santé pair ou de santé communautaire"
       },
       {
         "code" : "10",
@@ -679,6 +679,18 @@ Requête sur le SMT
       {
         "code" : "131",
         "display" : "Intermédiateur"
+      },
+      {
+        "code" : "132",
+        "display" : "Stomathérapeute"
+      },
+      {
+        "code" : "133",
+        "display" : "Infirmier expert en plaies et cicatrisation"
+      },
+      {
+        "code" : "134",
+        "display" : "Sexologue"
       }]
     }]
   }

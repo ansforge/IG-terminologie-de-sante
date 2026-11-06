@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-technique-diagnostic-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-04-20T16:59:10.490+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-09-28T15:44:04.665+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.48"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134053",
   "name" : "JdvTechniqueDiagnosticCisis",
   "title" : "JDV Technique Diagnostic CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Technique Diagnostic CISIS",
   "jurisdiction" : [{
@@ -91,7 +91,7 @@ Requête sur le SMT
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "73735000",
-        "display" : "technique cytogénétique"
+        "display" : "procédure cytogénétique"
       }]
     }]
   }

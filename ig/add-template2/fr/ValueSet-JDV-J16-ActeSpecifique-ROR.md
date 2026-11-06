@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "31",
-    "lastUpdated" : "2026-06-02T15:18:58.088+02:00",
+    "versionId" : "36",
+    "lastUpdated" : "2026-11-02T11:32:54.096+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -228,10 +228,6 @@ Requête sur le SMT
       {
         "code" : "0066",
         "display" : "Chirurgie de la cataracte - implants mono focaux et toriques"
-      },
-      {
-        "code" : "0068",
-        "display" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
       },
       {
         "code" : "0069",
@@ -479,7 +475,7 @@ Requête sur le SMT
       },
       {
         "code" : "0182",
-        "display" : "Education thérapeutique labellisée du patient asthmatique (école de l'asthme)"
+        "display" : "Programme d'ETP labellisée - Asthme (école de l'asthme)"
       },
       {
         "code" : "0183",
@@ -559,7 +555,7 @@ Requête sur le SMT
       },
       {
         "code" : "0216",
-        "display" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
+        "display" : "Exploration en médecine nucléaire mesure de la fraction éjection ventriculaire"
       },
       {
         "code" : "0217",
@@ -723,7 +719,7 @@ Requête sur le SMT
       },
       {
         "code" : "0278",
-        "display" : "Lymphoscintigraphie"
+        "display" : "Exploration diagnostique par lymphoscintigraphie incluant recherche de ganglion sentinelle (GLS)"
       },
       {
         "code" : "0284",
@@ -967,11 +963,11 @@ Requête sur le SMT
       },
       {
         "code" : "0426",
-        "display" : "Scintigraphie au 18F-choline (suivi cancer de prostate)"
+        "display" : "Exploration diagnostique par TEP PSMA pour cancer de la prostate"
       },
       {
         "code" : "0427",
-        "display" : "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)"
+        "display" : "Exploration diagnostique scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endocrine"
       },
       {
         "code" : "0428",
@@ -979,19 +975,19 @@ Requête sur le SMT
       },
       {
         "code" : "0429",
-        "display" : "Scintigraphie rénale"
+        "display" : "Exploration diagnostique scintigraphique rénale"
       },
       {
         "code" : "0430",
-        "display" : "Scintigraphie au MIBG"
+        "display" : "Exploration diagnostique scintigraphique au MIBG"
       },
       {
         "code" : "0431",
-        "display" : "Scintigraphie aux hématies marquées (recherche de saignement)"
+        "display" : "Exploration diagnostique scintigraphique aux hématies marquées (recherche de saignement)"
       },
       {
         "code" : "0432",
-        "display" : "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)"
+        "display" : "Exploration diagnostique scintigraphique ou TEP de la neurotransmission dopaminergique par Dat-scan ou F-DOPA (Syndrome Parkinsonien)"
       },
       {
         "code" : "0433",
@@ -999,7 +995,7 @@ Requête sur le SMT
       },
       {
         "code" : "0434",
-        "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
+        "display" : "Exploration diagnostique scintigraphique rénale de perfusion avec test médicamenteux pour recherche d'une HTA"
       },
       {
         "code" : "0435",
@@ -1007,11 +1003,11 @@ Requête sur le SMT
       },
       {
         "code" : "0436",
-        "display" : "Scintigraphie myocardique à l'effort ou pharmacologique"
+        "display" : "Exploration diagnostique scintigraphique de perfusion myocardique à l'effort ou après stress pharmacologique (99mTc/201Tl)"
       },
       {
         "code" : "0437",
-        "display" : "Scintigraphie SPECT-CT"
+        "display" : "Exploration diagnostique scintigraphique ventilation perfusion pulmonaire"
       },
       {
         "code" : "0441",
@@ -1231,7 +1227,7 @@ Requête sur le SMT
       },
       {
         "code" : "0538",
-        "display" : "Thérapie de groupe ou atelier à médiation orale et/ou écrite (groupe de parole, d'écriture)"
+        "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
       },
       {
         "code" : "0539",
@@ -1444,10 +1440,6 @@ Requête sur le SMT
       {
         "code" : "0626",
         "display" : "Bilan neuro-psychologique"
-      },
-      {
-        "code" : "0627",
-        "display" : "Aide aux aidants (atelier pro-famille)"
       },
       {
         "code" : "0628",
@@ -1787,7 +1779,7 @@ Requête sur le SMT
       },
       {
         "code" : "0720",
-        "display" : "Scintigraphie osseuse"
+        "display" : "Exploration diagnostique scintigraphique osseuse"
       },
       {
         "code" : "0721",
@@ -1824,6 +1816,10 @@ Requête sur le SMT
       {
         "code" : "0730",
         "display" : "Suivi de grossesse à risque"
+      },
+      {
+        "code" : "0731",
+        "display" : "Surveillance du nouveau-né à risque"
       },
       {
         "code" : "0732",
@@ -1943,11 +1939,11 @@ Requête sur le SMT
       },
       {
         "code" : "0764",
-        "display" : "Soins de stomie d'élimination digestive"
+        "display" : "Suivi et surveillance de stomie d'élimination digestive"
       },
       {
         "code" : "0765",
-        "display" : "Soins de stomie d'élimination urinaire"
+        "display" : "Suivi et surveillance de stomie d'élimination urinaire"
       },
       {
         "code" : "0767",
@@ -2155,7 +2151,7 @@ Requête sur le SMT
       },
       {
         "code" : "0822",
-        "display" : "Groupes de soutien et d'échange"
+        "display" : "Groupes de soutien et d'échange ouvert aux aidants"
       },
       {
         "code" : "0823",
@@ -2183,7 +2179,7 @@ Requête sur le SMT
       },
       {
         "code" : "0829",
-        "display" : "Prise en charge de l'apnée du sommeil"
+        "display" : "Prise en charge de l'apnée du sommeil par appareillage ventilatoire"
       },
       {
         "code" : "0830",
@@ -2435,7 +2431,7 @@ Requête sur le SMT
       },
       {
         "code" : "0897",
-        "display" : "Drainage Vaccination épidémie Grippe"
+        "display" : "Vaccination épidémie Grippe"
       },
       {
         "code" : "0898",
@@ -2759,7 +2755,7 @@ Requête sur le SMT
       },
       {
         "code" : "1014",
-        "display" : "Fourniture de matériel d’hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD)"
+        "display" : "Fourniture de matériel d'hygiène, de prévention et de RdRD"
       },
       {
         "code" : "1015",
@@ -3766,10 +3762,6 @@ Requête sur le SMT
         "display" : "Téléexpertise en moins de 7 jours"
       },
       {
-        "code" : "1273",
-        "display" : "Téléexpertise en plus de 7 jours"
-      },
-      {
         "code" : "1274",
         "display" : "Thrombectomie cérébrale"
       },
@@ -3779,7 +3771,7 @@ Requête sur le SMT
       },
       {
         "code" : "1276",
-        "display" : "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
+        "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)"
       },
       {
         "code" : "1277",
@@ -3799,11 +3791,11 @@ Requête sur le SMT
       },
       {
         "code" : "1281",
-        "display" : "Programme d'ETP labellisée - Affections neurologiques"
+        "display" : "Programme d'ETP labellisée - Affections neurologiques (hors AVC)"
       },
       {
         "code" : "1282",
-        "display" : "Programme d'ETP labellisée - Diabète et pathologies endocrines"
+        "display" : "Programme d'ETP labellisée - Diabète"
       },
       {
         "code" : "1283",
@@ -3819,7 +3811,7 @@ Requête sur le SMT
       },
       {
         "code" : "1286",
-        "display" : "Programme d'ETP labellisée - Maladies Cancéreuses"
+        "display" : "Programme d'ETP labellisée - Maladies Cancéreuses (dont soins de support)"
       },
       {
         "code" : "1287",
@@ -3831,11 +3823,11 @@ Requête sur le SMT
       },
       {
         "code" : "1289",
-        "display" : "Programme d'ETP labellisée - Maladies du système ostéoarticulaire"
+        "display" : "Programme d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire"
       },
       {
         "code" : "1290",
-        "display" : "Programme d'ETP labellisée - Maladies infectieuses"
+        "display" : "Programme d'ETP labellisée - Maladies infectieuses chroniques (dont VIH et tuberculose)"
       },
       {
         "code" : "1291",
@@ -4399,11 +4391,15 @@ Requête sur le SMT
       },
       {
         "code" : "1447",
-        "display" : "Prescription de vaccination"
+        "display" : "Prescription de vaccins selon le calendrier vaccinal de l'adolescent et de l'adulte"
       },
       {
         "code" : "1448",
         "display" : "Santé environnementale"
+      },
+      {
+        "code" : "1449",
+        "display" : "Thérapie cellulaire des brûlures radiques par Cellules Souches Mésenchymateuses (CSM)"
       },
       {
         "code" : "1450",
@@ -4419,7 +4415,7 @@ Requête sur le SMT
       },
       {
         "code" : "1453",
-        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
       },
       {
         "code" : "1454",
@@ -4739,15 +4735,15 @@ Requête sur le SMT
       },
       {
         "code" : "1535",
-        "display" : "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte"
+        "display" : "Vaccination selon le calendrier vaccinal de l'adolescent et de l'adulte"
       },
       {
         "code" : "1536",
-        "display" : "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)"
+        "display" : "Vaccination selon le calendrier vaccinal du jeune enfant (0-12 ans)"
       },
       {
         "code" : "1537",
-        "display" : "Vaccination du calendrier vaccinal du sénior"
+        "display" : "Vaccination selon le calendrier vaccinal du sénior"
       },
       {
         "code" : "1538",
@@ -4911,7 +4907,7 @@ Requête sur le SMT
       },
       {
         "code" : "1578",
-        "display" : "Centre expert Parkinson"
+        "display" : "Centre expert en maladie de Parkinson"
       },
       {
         "code" : "1579",
@@ -4927,139 +4923,139 @@ Requête sur le SMT
       },
       {
         "code" : "1582",
-        "display" : "Prise en charge spécialisée et continue en cardiologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en cardiologie"
       },
       {
         "code" : "1583",
-        "display" : "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie cardiaque et gros vaisseaux"
       },
       {
         "code" : "1584",
-        "display" : "Prise en charge spécialisée et continue en chirurgie digestive et viscérale"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie digestive et viscérale"
       },
       {
         "code" : "1585",
-        "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie maxillo-faciale et stomatologie"
       },
       {
         "code" : "1586",
-        "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie orthopédique et traumatologie"
       },
       {
         "code" : "1587",
-        "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique orthopédique et traumatologie"
       },
       {
         "code" : "1588",
-        "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique viscérale et digestive"
       },
       {
         "code" : "1589",
-        "display" : "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie thoracique et pulmonaire"
       },
       {
         "code" : "1590",
-        "display" : "Prise en charge spécialisée et continue en chirurgie vasculaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie vasculaire"
       },
       {
         "code" : "1591",
-        "display" : "Prise en charge spécialisée et continue en dermatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en dermatologie"
       },
       {
         "code" : "1592",
-        "display" : "Prise en charge spécialisée et continue en endocrinologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en endocrinologie"
       },
       {
         "code" : "1593",
-        "display" : "Prise en charge spécialisée et continue en gériatrie (gérontologie)"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gériatrie (gérontologie)"
       },
       {
         "code" : "1594",
-        "display" : "Prise en charge spécialisée et continue en gynécologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gynécologie"
       },
       {
         "code" : "1595",
-        "display" : "Prise en charge spécialisée et continue en hématologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hématologie"
       },
       {
         "code" : "1596",
-        "display" : "Prise en charge spécialisée et continue en hépato-gastro-entérologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hépato-gastro-entérologie"
       },
       {
         "code" : "1597",
-        "display" : "Prise en charge spécialisée et continue en maladies infectieuses et tropicales"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en maladies infectieuses et tropicales"
       },
       {
         "code" : "1598",
-        "display" : "Prise en charge spécialisée et continue en médecine interne"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine interne"
       },
       {
         "code" : "1599",
-        "display" : "Prise en charge spécialisée et continue en médecine vasculaire"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine vasculaire"
       },
       {
         "code" : "1600",
-        "display" : "Prise en charge spécialisée et continue en néphrologie (dont dialyse)"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en néphrologie (dont dialyse)"
       },
       {
         "code" : "1601",
-        "display" : "Prise en charge spécialisée et continue en neurochirurgie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurochirurgie"
       },
       {
         "code" : "1602",
-        "display" : "Prise en charge spécialisée et continue en neurologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurologie"
       },
       {
         "code" : "1603",
-        "display" : "Prise en charge spécialisée et continue en oncologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oncologie"
       },
       {
         "code" : "1604",
-        "display" : "Prise en charge spécialisée et continue en ophtalmologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en ophtalmologie"
       },
       {
         "code" : "1605",
-        "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
       },
       {
         "code" : "1606",
-        "display" : "Prise en charge spécialisée et continue en pédiatrie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pédiatrie"
       },
       {
         "code" : "1607",
-        "display" : "Prise en charge spécialisée et continue en pneumologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pneumologie"
       },
       {
         "code" : "1608",
-        "display" : "Prise en charge spécialisée et continue en rhumatologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en rhumatologie"
       },
       {
         "code" : "1609",
-        "display" : "Prise en charge spécialisée et continue en urologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en urologie"
       },
       {
         "code" : "1610",
-        "display" : "Prise en charge spécialisée et continue en caisson oxygène hyperbare"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en caisson oxygène hyperbare"
       },
       {
         "code" : "1611",
-        "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie de la main"
       },
       {
         "code" : "1612",
-        "display" : "Prise en charge spécialisée et continue en odontologie"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en odontologie"
       },
       {
         "code" : "1613",
-        "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
+        "display" : "Prise en charge spécialisée et permanente en psychiatrie (dont équipe de liaison)"
       },
       {
         "code" : "1614",
-        "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en radiologie interventionnelle"
       },
       {
         "code" : "1615",
-        "display" : "Prise en charge spécialisée et continue rachis"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie du rachis"
       },
       {
         "code" : "1616",
@@ -5095,11 +5091,7 @@ Requête sur le SMT
       },
       {
         "code" : "1624",
-        "display" : "Contention nocturne"
-      },
-      {
-        "code" : "1625",
-        "display" : "Soin de pédicurie"
+        "display" : "Création de contention nocturne"
       },
       {
         "code" : "1626",
@@ -5119,11 +5111,399 @@ Requête sur le SMT
       },
       {
         "code" : "1630",
-        "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+        "display" : "Prise en charge spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)"
       },
       {
         "code" : "1631",
-        "display" : "Prise en charge spécialisée et continue SOS main"
+        "display" : "Prise en charge spécialisée et permanente (dont PDSES) SOS main (agrément FESUM)"
+      },
+      {
+        "code" : "1632",
+        "display" : "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)"
+      },
+      {
+        "code" : "1633",
+        "display" : "Programme d'ETP labellisée - Allergologie"
+      },
+      {
+        "code" : "1634",
+        "display" : "Programme d'ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)"
+      },
+      {
+        "code" : "1635",
+        "display" : "Programme d'ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)"
+      },
+      {
+        "code" : "1636",
+        "display" : "Programme d'ETP labellisée - Maladies urologiques et gynécologiques"
+      },
+      {
+        "code" : "1637",
+        "display" : "Programme d'ETP labellisée - Obésité"
+      },
+      {
+        "code" : "1638",
+        "display" : "Programme d'ETP labellisée - Ophtalmologie"
+      },
+      {
+        "code" : "1639",
+        "display" : "Programme d'ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)"
+      },
+      {
+        "code" : "1640",
+        "display" : "Lyophilisation de lait maternel"
+      },
+      {
+        "code" : "1641",
+        "display" : "Centre de Traitement des Brûlés (CTB)"
+      },
+      {
+        "code" : "1642",
+        "display" : "Remédiation psychosociale"
+      },
+      {
+        "code" : "1643",
+        "display" : "Réadaptation psychomotrice d’un trouble du neurodéveloppement"
+      },
+      {
+        "code" : "1644",
+        "display" : "Réadaptation psychomotrice d’un trouble de l’apprentissage"
+      },
+      {
+        "code" : "1645",
+        "display" : "Réadaptation psychomotrice des troubles tonico-émotionnels"
+      },
+      {
+        "code" : "1646",
+        "display" : "Réadaptation psychomotrice des troubles de la latéralisation"
+      },
+      {
+        "code" : "1647",
+        "display" : "Réadaptation psychomotrice du schéma corporel et des représentations du corps"
+      },
+      {
+        "code" : "1648",
+        "display" : "Réadaptation psychomotrice des troubles d’organisation spatio-temporelle"
+      },
+      {
+        "code" : "1649",
+        "display" : "Réadaptation psychomotrice des troubles sensoriels"
+      },
+      {
+        "code" : "1650",
+        "display" : "Réadaptation psychomotrice du développement psychomoteur"
+      },
+      {
+        "code" : "1651",
+        "display" : "Réadaptation psychomotrice des troubles psychiques"
+      },
+      {
+        "code" : "1652",
+        "display" : "Programmes d’Entraînement aux Habiletés Parentales"
+      },
+      {
+        "code" : "1653",
+        "display" : "Relaxation psychomotrice"
+      },
+      {
+        "code" : "1654",
+        "display" : "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges"
+      },
+      {
+        "code" : "1655",
+        "display" : "Evaluation orthoptique et/ou prise en soins de la fonction visuelle et neurovisuelle dans le cadre du neurodéveloppement (TNV - TND)"
+      },
+      {
+        "code" : "1656",
+        "display" : "Bilan de dépistage réfractif et de l'amblyopie"
+      },
+      {
+        "code" : "1657",
+        "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))"
+      },
+      {
+        "code" : "1658",
+        "display" : "Exploration du sens chromatique"
+      },
+      {
+        "code" : "1659",
+        "display" : "Examen de la courbe d'adaptation à l'obscurité"
+      },
+      {
+        "code" : "1660",
+        "display" : "Protocole de dépistage de la rétinopathie diabétique"
+      },
+      {
+        "code" : "1661",
+        "display" : "Examen dépistage réfractif avec Photoscreener"
+      },
+      {
+        "code" : "1662",
+        "display" : "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans"
+      },
+      {
+        "code" : "1663",
+        "display" : "Evaluation oculométrique par enregistrement - technique d'Eye tracking"
+      },
+      {
+        "code" : "1664",
+        "display" : "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)"
+      },
+      {
+        "code" : "1665",
+        "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)"
+      },
+      {
+        "code" : "1666",
+        "display" : "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle"
+      },
+      {
+        "code" : "1667",
+        "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile"
+      },
+      {
+        "code" : "1668",
+        "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée"
+      },
+      {
+        "code" : "1669",
+        "display" : "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle"
+      },
+      {
+        "code" : "1670",
+        "display" : "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)"
+      },
+      {
+        "code" : "1671",
+        "display" : "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer"
+      },
+      {
+        "code" : "1672",
+        "display" : "Préparation des doses à administrer (PDA)"
+      },
+      {
+        "code" : "1673",
+        "display" : "Entretien pharmaceutique de la femme enceinte"
+      },
+      {
+        "code" : "1674",
+        "display" : "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)"
+      },
+      {
+        "code" : "1675",
+        "display" : "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)"
+      },
+      {
+        "code" : "1676",
+        "display" : "Entretien pharmaceutique du patient sous anticancéreux oraux"
+      },
+      {
+        "code" : "1677",
+        "display" : "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2"
+      },
+      {
+        "code" : "1678",
+        "display" : "Entretien bilan partagé de médication"
+      },
+      {
+        "code" : "1679",
+        "display" : "Réseau France Santé"
+      },
+      {
+        "code" : "1680",
+        "display" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique présentant un risque pour la santé"
+      },
+      {
+        "code" : "1681",
+        "display" : "Orthèses et prothèses externes (orthopédie sur mesure)"
+      },
+      {
+        "code" : "1682",
+        "display" : "Orthèses et prothèses externes (de série)"
+      },
+      {
+        "code" : "1683",
+        "display" : "Optique lunetterie"
+      },
+      {
+        "code" : "1684",
+        "display" : "Audioprothèse"
+      },
+      {
+        "code" : "1685",
+        "display" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)"
+      },
+      {
+        "code" : "1686",
+        "display" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)"
+      },
+      {
+        "code" : "1687",
+        "display" : "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)"
+      },
+      {
+        "code" : "1688",
+        "display" : "Remise du kit de dépistage du cancer colorectal"
+      },
+      {
+        "code" : "1689",
+        "display" : "Test de Maintien de l’Eveil (TME)"
+      },
+      {
+        "code" : "1690",
+        "display" : "Test Itératif de Latence d'Endormissement (TILE)"
+      },
+      {
+        "code" : "1691",
+        "display" : "Prise en charge de l’insomnie"
+      },
+      {
+        "code" : "1692",
+        "display" : "Prise en charge des troubles moteurs (syndrome des jambes sans repos)"
+      },
+      {
+        "code" : "1693",
+        "display" : "Prise en charge de parasomnie (somnambulisme)"
+      },
+      {
+        "code" : "1694",
+        "display" : "Prise en charge des hypersomnies"
+      },
+      {
+        "code" : "1695",
+        "display" : "Prise en charge des troubles circadiens"
+      },
+      {
+        "code" : "1696",
+        "display" : "Prise en charge des troubles du sommeil avec trouble neurologique complexe"
+      },
+      {
+        "code" : "1697",
+        "display" : "Prise en charge des troubles du sommeil avec trouble respiratoire complexe"
+      },
+      {
+        "code" : "1698",
+        "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 1 \"coordonnateur\""
+      },
+      {
+        "code" : "1699",
+        "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 2 \"correspondant\""
+      },
+      {
+        "code" : "1700",
+        "display" : "Accréditation par la Société Française de Recherche en Médecine du Sommeil (SFRMS)"
+      },
+      {
+        "code" : "1701",
+        "display" : "Prise en charge de nouveau patient en tant que médecin traitant"
+      },
+      {
+        "code" : "1702",
+        "display" : "Accompagnement à l'essai de fauteuil roulant"
+      },
+      {
+        "code" : "1703",
+        "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive"
+      },
+      {
+        "code" : "1704",
+        "display" : "Exploration diagnostique scintigraphique pour patient dialysé"
+      },
+      {
+        "code" : "1705",
+        "display" : "Exploration diagnostique par TEP 18F-FDG pour pathologie neurologique (démence, épilepsie, Parkinson, AVC)"
+      },
+      {
+        "code" : "1706",
+        "display" : "Exploration diagnostique par TEP pour des plaques amyloïdes"
+      },
+      {
+        "code" : "1707",
+        "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+      },
+      {
+        "code" : "1708",
+        "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie surrénalienne"
+      },
+      {
+        "code" : "1709",
+        "display" : "Traitement de médecine nucléaire / RIV par 131I des pathologies bénignes de la thyroïde"
+      },
+      {
+        "code" : "1710",
+        "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 oxodotreotide pour Tumeur neuroendocrine - TNE"
+      },
+      {
+        "code" : "1711",
+        "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 PSMA pour cancer de la prostate"
+      },
+      {
+        "code" : "1712",
+        "display" : "Traitement de médecine nucléaire / RIV par radium-223 pour cancer de la prostate avec métastases osseuses"
+      },
+      {
+        "code" : "1713",
+        "display" : "Traitement de médecine nucléaire / RIV  par 90Y microsphères pour cancer hépatocellulaire (CHC) et lésion secondaire hépatique"
+      },
+      {
+        "code" : "1714",
+        "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde"
+      },
+      {
+        "code" : "1715",
+        "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)"
+      },
+      {
+        "code" : "1716",
+        "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique"
+      },
+      {
+        "code" : "1717",
+        "display" : "Exploration diagnostique scintigraphique des glandes salivaires"
+      },
+      {
+        "code" : "1718",
+        "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection"
+      },
+      {
+        "code" : "1719",
+        "display" : "Recherche en oncologie, bilan d'extension"
+      },
+      {
+        "code" : "1720",
+        "display" : "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)"
+      },
+      {
+        "code" : "1721",
+        "display" : "Centre expert pied diabétique"
+      },
+      {
+        "code" : "1722",
+        "display" : "Repérage du psychotraumatisme des victimes de violence"
+      },
+      {
+        "code" : "1723",
+        "display" : "Prophylaxie pré-exposition injectable (PrEP)"
+      },
+      {
+        "code" : "1724",
+        "display" : "Accompagnement et orientation des personnes vivant avec le VIH"
+      },
+      {
+        "code" : "1725",
+        "display" : "Vaccination Mpox (Variole B)"
+      },
+      {
+        "code" : "1726",
+        "display" : "Prise en soin des stomies digestives et/ou urinaires"
+      },
+      {
+        "code" : "1727",
+        "display" : "Tomothérapie"
+      },
+      {
+        "code" : "1728",
+        "display" : "Centre expert Epileptologie"
       }]
     }]
   }

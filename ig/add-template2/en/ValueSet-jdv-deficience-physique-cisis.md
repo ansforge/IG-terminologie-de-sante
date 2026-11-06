@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-deficience-physique-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:54.296+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-28T15:42:52.698+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.62"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134052",
   "name" : "JdvDeficiencePhysiqueCisis",
   "title" : "JDV Deficience Physique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Deficience Physique CISIS",
   "jurisdiction" : [{
@@ -73,6 +73,14 @@ Requête sur le SMT
       "concept" : [{
         "code" : "R47.02",
         "display" : "Aphasie, autre et sans précision"
+      },
+      {
+        "code" : "R39.8",
+        "display" : "Symptômes et signes relatifs à l'appareil urinaire, autres et non précisés"
+      },
+      {
+        "code" : "R19.8",
+        "display" : "Autres symptômes et signes précisés relatifs à l'appareil digestif et à l'abdomen"
       }]
     },
     {
@@ -92,14 +100,6 @@ Requête sur le SMT
       {
         "code" : "MED-332",
         "display" : "Trouble de la déglutition"
-      },
-      {
-        "code" : "MED-333",
-        "display" : "Trouble de l'élimination urinaire"
-      },
-      {
-        "code" : "MED-334",
-        "display" : "Trouble de l'élimination fécale"
       },
       {
         "code" : "MED-335",

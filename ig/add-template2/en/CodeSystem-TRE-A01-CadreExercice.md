@@ -9,7 +9,7 @@ This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md)
 * [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md)
-* [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md)
+* [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md)
 
 -------
 
@@ -24,8 +24,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-A01-CadreExercice",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-03T15:41:50.914+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:12:19.471+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

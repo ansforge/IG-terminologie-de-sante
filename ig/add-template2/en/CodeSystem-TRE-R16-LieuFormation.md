@@ -22,26 +22,20 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-12-22T10:46:33.897+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "20",
+    "lastUpdated" : "2026-11-02T11:27:59.007+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-    "valuePeriod" : {
-      "start" : "2015-12-29T00:00:00+01:00"
-    }
-  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.35"
   }],
-  "version" : "20251222120000",
+  "version" : "20261102120000",
   "name" : "TRE_R16_LieuFormation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Lieu de formation",
   "jurisdiction" : [{
@@ -53,7 +47,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1360,
+  "count" : 1361,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -284,14 +278,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "U34",
-    "display" : "Université de Montpellier 1 - Nîmes",
+    "display" : "Université de Montpellier",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Montpellier 1 - Nîmes"
+      "value" : "Montpellier - Nîmes"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -299,7 +293,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-12-29T00:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -508,14 +502,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "U59",
-    "display" : "Lille 2, Université de Droit et Sante",
+    "display" : "Université de Lille",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Lille 2"
+      "value" : "Lille"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -523,7 +517,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8872,6 +8866,30 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "UI340",
+    "display" : "IFSI de l'Hôpital de Mont-Saint-Martin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IFSI du CH de Mont-Saint-Martin (Groupe SOS - Santé)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {

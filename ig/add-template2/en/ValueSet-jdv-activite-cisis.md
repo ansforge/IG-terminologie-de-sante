@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-activite-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:34.425+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:42:31.509+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.110"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134054",
   "name" : "JdvActiviteCisis",
   "title" : "JDV Activite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:54+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Activite CISIS",
   "jurisdiction" : [{
@@ -71,28 +71,8 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "PAT-040",
-        "display" : "Activité salariée"
-      },
-      {
-        "code" : "PAT-042",
-        "display" : "Retraité"
-      },
-      {
         "code" : "PAT-043",
         "display" : "Au foyer"
-      },
-      {
-        "code" : "PAT-044",
-        "display" : "Congé parental"
-      },
-      {
-        "code" : "PAT-045",
-        "display" : "Chômeur"
-      },
-      {
-        "code" : "PAT-046",
-        "display" : "Elève, étudiant ou en formation"
       },
       {
         "code" : "GEN-092.05.06",
@@ -101,6 +81,29 @@ Requête sur le SMT
       {
         "code" : "GEN-092.05.05",
         "display" : "Autre activité"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "224363007",
+        "display" : "employé(e)"
+      },
+      {
+        "code" : "105493001",
+        "display" : "retraité(e)"
+      },
+      {
+        "code" : "700149001",
+        "display" : "en congé parental"
+      },
+      {
+        "code" : "73438004",
+        "display" : "sans emploi"
+      },
+      {
+        "code" : "65853000",
+        "display" : "étudiant(e)"
       }]
     }]
   }

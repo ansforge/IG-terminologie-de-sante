@@ -23,9 +23,9 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R58-AutreTypeDiplome",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-05-05T20:12:26.273+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "17",
+    "lastUpdated" : "2026-07-29T10:40:19.475+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -38,11 +38,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.53"
   }],
-  "version" : "20260223120000",
+  "version" : "20260730120000",
   "name" : "TRE_R58_AutreTypeDiplome",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autre type de diplôme",
   "jurisdiction" : [{
@@ -1287,7 +1287,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "DIP322",
-    "display" : "Master en Psychologie ou Psychanalyse",
+    "display" : "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS",
     "definition" : "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute",
     "designation" : [{
       "language" : "fr-FR",
@@ -1303,7 +1303,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

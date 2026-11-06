@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J161-Lateralite-CISIS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-18T16:47:40.852+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:05:19.149+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J56-AuthorSpecialty-DMP",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:38.272+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-11-02T10:33:04.810+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.1"
   }],
-  "version" : "20240927120000",
+  "version" : "20261102120000",
   "name" : "JDV_J56_AuthorSpecialty_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour authorSpecialty",
   "jurisdiction" : [{
@@ -1562,8 +1562,12 @@ Requête sur le SMT
         "display" : "Conseiller en génétique"
       },
       {
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
         "code" : "331",
-        "display" : "Secrétaire médicale"
+        "display" : "Secrétaire assistante médico-administrative"
       },
       {
         "code" : "332",
@@ -1582,8 +1586,60 @@ Requête sur le SMT
         "display" : "Gestionnaire alertes et urgences sanitaires"
       },
       {
-        "code" : "350",
-        "display" : "Aide à domicile"
+        "code" : "336",
+        "display" : "Autre professionnel intervenant dans l'accueil et l'orientation des personnes"
+      },
+      {
+        "code" : "337",
+        "display" : "Autre professionnel intervenant dans la logistique"
+      },
+      {
+        "code" : "338",
+        "display" : "Autre professionnel intervenant dans l'hôtellerie et la restauration"
+      },
+      {
+        "code" : "339",
+        "display" : "Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement"
+      },
+      {
+        "code" : "340",
+        "display" : "Autre professionnel intervenant dans la direction des systèmes d'information"
+      },
+      {
+        "code" : "341",
+        "display" : "Autre professionnel intervenant dans la direction des finances et comptabilité"
+      },
+      {
+        "code" : "342",
+        "display" : "Autre professionnel intervenant dans la direction de la communication"
+      },
+      {
+        "code" : "343",
+        "display" : "Autre professionnel intervenant dans la direction des ressources humaines"
+      },
+      {
+        "code" : "344",
+        "display" : "Autre professionnel intervenant dans la direction des affaires médicales"
+      },
+      {
+        "code" : "345",
+        "display" : "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
+      },
+      {
+        "code" : "346",
+        "display" : "Etudiant - infirmier"
+      },
+      {
+        "code" : "347",
+        "display" : "Etudiant - aide-soignant"
+      },
+      {
+        "code" : "348",
+        "display" : "Etudiant - auxiliaire de puériculture"
+      },
+      {
+        "code" : "349",
+        "display" : "Etudiant - masseur-kinésithérapeute"
       },
       {
         "code" : "351",
@@ -1596,6 +1652,78 @@ Requête sur le SMT
       {
         "code" : "353",
         "display" : "Membre de l'équipe de soins"
+      },
+      {
+        "code" : "354",
+        "display" : "Externe en médecine"
+      },
+      {
+        "code" : "355",
+        "display" : "Externe en odontologie"
+      },
+      {
+        "code" : "356",
+        "display" : "Externe en maïeutique"
+      },
+      {
+        "code" : "357",
+        "display" : "Externe en pharmacie"
+      },
+      {
+        "code" : "358",
+        "display" : "Autre étudiant"
+      },
+      {
+        "code" : "359",
+        "display" : "Directeur d'établissement"
+      },
+      {
+        "code" : "360",
+        "display" : "Brancardier"
+      },
+      {
+        "code" : "361",
+        "display" : "Educateur en activité physique adaptée"
+      },
+      {
+        "code" : "362",
+        "display" : "Technicien d'informations médicales"
+      },
+      {
+        "code" : "363",
+        "display" : "Attaché de recherche clinique"
+      },
+      {
+        "code" : "364",
+        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
+      },
+      {
+        "code" : "365",
+        "display" : "Gestionnaire admissions / frais de séjour / traitement externe"
+      },
+      {
+        "code" : "366",
+        "display" : "Archiviste"
+      },
+      {
+        "code" : "367",
+        "display" : "Surveillant de nuit"
+      },
+      {
+        "code" : "368",
+        "display" : "Animateur"
+      },
+      {
+        "code" : "370",
+        "display" : "Opérateur de Soins Non Programmés"
+      },
+      {
+        "code" : "371",
+        "display" : "Aide à domicile qualifié(e)"
+      },
+      {
+        "code" : "372",
+        "display" : "Aide à domicile"
       }]
     }]
   }

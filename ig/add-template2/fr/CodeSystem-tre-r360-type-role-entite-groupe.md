@@ -7,7 +7,7 @@ Nomenclature des types de rôles que peuvent exercer des entités participants �
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md)
+* [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r360-type-role-entite-groupe",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:09+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:53+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

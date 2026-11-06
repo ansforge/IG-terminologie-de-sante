@@ -7,7 +7,7 @@ Nomenclature des types de Groupement de Coopération Organique (GCO)
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md)
+* [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r372-type-groupe-gco",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:12+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:58+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

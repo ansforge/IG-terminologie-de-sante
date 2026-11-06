@@ -8,7 +8,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activi
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md)
-* [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
+* [JDV J69 ActiviteOperationnelle Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 -------
 
@@ -23,27 +23,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "32",
-    "lastUpdated" : "2026-05-29T13:13:06.392+02:00",
+    "versionId" : "37",
+    "lastUpdated" : "2026-11-02T11:28:19.755+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "language" : "fr-FR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-    "valuePeriod" : {
-      "start" : "2015-04-08T00:00:00+01:00"
-    }
-  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
@@ -55,7 +48,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1630,
+  "count" : 1728,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1419,12 +1412,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -3706,7 +3707,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0182",
-    "display" : "Education thérapeutique labellisée du patient asthmatique (école de l'asthme)",
+    "display" : "Programme d'ETP labellisée - Asthme (école de l'asthme)",
     "definition" : "Service soumis à autorisation de l'ARS proposants des séances d'éducation thérapeutique pour les enfants, les adolescents et les adultes afin d'améliorer la compréhension de la maladie, rendre le patient autonome et permettre l'adaptation de la maladie aux évènements de la vie (sport, vacances, sorties scolaires…)",
     "property" : [{
       "code" : "dateValid",
@@ -3714,7 +3715,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4399,22 +4400,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0216",
-    "display" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Gamma-angiographie cardiaque, tomographie cavitaire"
-    }],
+    "display" : "Exploration en médecine nucléaire mesure de la fraction éjection ventriculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5574,14 +5567,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0278",
-    "display" : "Lymphoscintigraphie",
+    "display" : "Exploration diagnostique par lymphoscintigraphie incluant recherche de ganglion sentinelle (GLS)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par lymphoscintigraphie incluant recherche de GLS"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8656,14 +8657,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0426",
-    "display" : "Scintigraphie au 18F-choline (suivi cancer de prostate)",
+    "display" : "Exploration diagnostique par TEP PSMA pour cancer de la prostate",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP PSMA pour cancer de la prostate"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8672,14 +8681,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0427",
-    "display" : "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)",
+    "display" : "Exploration diagnostique scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endocrine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP paragangliome, phéochromocytome, tumeur endo"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8704,14 +8721,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0429",
-    "display" : "Scintigraphie rénale",
+    "display" : "Exploration diagnostique scintigraphique rénale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique rénale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8720,14 +8745,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0430",
-    "display" : "Scintigraphie au MIBG",
+    "display" : "Exploration diagnostique scintigraphique au MIBG",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique au MIBG"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8736,14 +8769,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0431",
-    "display" : "Scintigraphie aux hématies marquées (recherche de saignement)",
+    "display" : "Exploration diagnostique scintigraphique aux hématies marquées (recherche de saignement)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique aux hématies marquées (recherche de saignement)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8752,14 +8793,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0432",
-    "display" : "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de la neurotransmission dopaminergique par Dat-scan ou F-DOPA (Syndrome Parkinsonien)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de la neurotransmission dopaminergique"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8784,14 +8833,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0434",
-    "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)",
+    "display" : "Exploration diagnostique scintigraphique rénale de perfusion avec test médicamenteux pour recherche d'une HTA",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
+      "value" : "Explo diag scintigraphique rénale de perfusion avec test méd pour recherche HTA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8799,7 +8848,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8824,14 +8873,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0436",
-    "display" : "Scintigraphie myocardique à l'effort ou pharmacologique",
+    "display" : "Exploration diagnostique scintigraphique de perfusion myocardique à l'effort ou après stress pharmacologique (99mTc/201Tl)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique de perf myocardique à l'effort / post stress pharmaco"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8840,14 +8897,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0437",
-    "display" : "Scintigraphie SPECT-CT",
+    "display" : "Exploration diagnostique scintigraphique ventilation perfusion pulmonaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ventilation perfusion pulmonaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12788,12 +12853,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -14364,14 +14437,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0720",
-    "display" : "Scintigraphie osseuse",
+    "display" : "Exploration diagnostique scintigraphique osseuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique osseuse"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15145,14 +15226,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0764",
-    "display" : "Soins de stomie d'élimination digestive",
+    "display" : "Suivi et surveillance de stomie d'élimination digestive",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15161,14 +15242,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0765",
-    "display" : "Soins de stomie d'élimination urinaire",
+    "display" : "Suivi et surveillance de stomie d'élimination urinaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -16160,14 +16241,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0822",
-    "display" : "Groupes de soutien et d'échange",
+    "display" : "Groupes de soutien et d'échange ouvert aux aidants",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -16275,14 +16356,15 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0829",
-    "display" : "Prise en charge de l'apnée du sommeil",
+    "display" : "Prise en charge de l'apnée du sommeil par appareillage ventilatoire",
+    "definition" : "L'apnée du sommeil ou syndrome d'apnées-hypopnées obstructives du sommeil (SAHOS) est un trouble de la ventilation nocturne dû à la survenue anormalement fréquente de pauses respiratoires.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -17435,23 +17517,15 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "0897",
-    "display" : "Vaccination épidémie saisonnière",
-    "definition" : "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Vaccination épidémie Grippe"
-    }],
+    "display" : "Vaccination épidémie Grippe",
+    "definition" : "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l'épidémie grippale",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24044,12 +24118,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2022-10-28T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-10-28T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -24087,14 +24169,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1276",
-    "display" : "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)",
+    "display" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de Syndrome d'Apnées/Hypopnées Obstructives du Sommeil (SAHOS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Enregistrement polygraphique dans le cadre du SAOS"
+      "value" : "Enregistrement polygraphique dans le cadre d'une forte suspicion de SAHOS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -24102,7 +24184,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-12-16T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24176,7 +24258,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1281",
-    "display" : "Programme d'ETP labellisée - Affections neurologiques",
+    "display" : "Programme d'ETP labellisée - Affections neurologiques (hors AVC)",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une affection neurologique",
     "property" : [{
       "code" : "dateValid",
@@ -24184,7 +24266,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24193,7 +24275,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1282",
-    "display" : "Programme d'ETP labellisée - Diabète et pathologies endocrines",
+    "display" : "Programme d'ETP labellisée - Diabète",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant un diabète et des pathologies endocrines",
     "property" : [{
       "code" : "dateValid",
@@ -24201,7 +24283,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-05-31T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24269,7 +24351,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1286",
-    "display" : "Programme d'ETP labellisée - Maladies Cancéreuses",
+    "display" : "Programme d'ETP labellisée - Maladies Cancéreuses (dont soins de support)",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient pris en charge pour une pathologie oncologique",
     "property" : [{
       "code" : "dateValid",
@@ -24277,7 +24359,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24320,15 +24402,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1289",
-    "display" : "Programme d'ETP labellisée - Maladies du système ostéoarticulaire",
+    "display" : "Programme d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie du système ostéoarticulaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prog. d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24337,15 +24427,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1290",
-    "display" : "Programme d'ETP labellisée - Maladies infectieuses",
+    "display" : "Programme d'ETP labellisée - Maladies infectieuses chroniques (dont VIH et tuberculose)",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie infectieuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prog. d'ETP labellisée - Maladies infectieuses chroniques"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -26119,7 +26217,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1391",
-    "display" : "Prise en charge de ùaladies vectorielles à tique (Lyme…)",
+    "display" : "Prise en charge de maladies vectorielles à tique (Lyme…)",
     "definition" : "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme).",
     "property" : [{
       "code" : "dateValid",
@@ -26127,7 +26225,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -27141,14 +27239,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1447",
-    "display" : "Prescription de vaccination",
+    "display" : "Prescription de vaccins selon le calendrier vaccinal de l'adolescent et de l'adulte",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prescription de vaccins selon le calendrier vaccinal"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -27165,6 +27271,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1449",
+    "display" : "Thérapie cellulaire des brûlures radiques par Cellules Souches Mésenchymateuses (CSM)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Thérapie cellulaire des brûlures radiques par CSM"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28704,7 +28834,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1535",
-    "display" : "Vaccination du calendrier vaccinal de l’adolescent et de l’adulte",
+    "display" : "Vaccination selon le calendrier vaccinal de l'adolescent et de l'adulte",
     "definition" : "Administration d’un ensemble de vaccins (primo-vaccination et rappels) chez l’adolescent et l’adulte, selon le calendrier vaccinal officiel déterminé annuellement par le ministère de la Santé après avis de la HAS, visant à prévenir les maladies infectieuses selon l’âge ou le contexte individuel . Cette vaccination est réalisée par des professionnels habilités (médecins, infirmiers, sages-femmes, pharmaciens) et suit des schémas validés scientifiquement pour garantir une protection durable et collective.",
     "property" : [{
       "code" : "dateValid",
@@ -28712,7 +28842,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28721,7 +28851,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1536",
-    "display" : "Vaccination du calendrier vaccinal du jeune enfant (0-12 ans)",
+    "display" : "Vaccination selon le calendrier vaccinal du jeune enfant (0-12 ans)",
     "definition" : "Administration programmée des vaccins du calendrier vaccinal national pour les enfants de 0 à 12 ans, conformément aux exigences légales (vaccinations obligatoires comme diphtérie, tétanos, poliomyélite, coqueluche, rougeole, oreillons, rubéole, Haemophilus influenzae b, hépatite B, pneumocoque, méningocoque ACWY/B) visant à assurer une protection effective contre des maladies graves. Elle suit les recommandations officielles publiées par le ministère de la Santé et la HAS, actualisées chaque année, pour garantir que l’enfant bénéficie des vaccins au bon âge selon les schémas définis (primo-vaccinations, rappels, rattrapages)",
     "property" : [{
       "code" : "dateValid",
@@ -28729,7 +28859,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28738,7 +28868,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1537",
-    "display" : "Vaccination du calendrier vaccinal du sénior",
+    "display" : "Vaccination selon le calendrier vaccinal du sénior",
     "definition" : "Administration des vaccins recommandés dans le calendrier vaccinal des personnes âgées (65 ans et plus), incluant notamment les rappels de diphtérie-tétanos-poliomyélite (DTP), le vaccin antigrippal annuel, la vaccination contre le pneumocoque et le zona, et, selon les situations, la vaccination contre le virus respiratoire syncytial (VRS), conformément aux recommandations officielles publiées par le ministère de la Santé après avis de la HAS.",
     "property" : [{
       "code" : "dateValid",
@@ -28746,7 +28876,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-18T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29448,14 +29578,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1578",
-    "display" : "Centre expert Parkinson",
+    "display" : "Centre expert en maladie de Parkinson",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29512,14 +29642,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1582",
-    "display" : "Prise en charge spécialisée et continue en cardiologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en cardiologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en cardiologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29528,14 +29666,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1583",
-    "display" : "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie cardiaque et gros vaisseaux",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en chirurgie cardiaque et gros vaisseaux"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29544,14 +29690,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1584",
-    "display" : "Prise en charge spécialisée et continue en chirurgie digestive et viscérale",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie digestive et viscérale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en chirurgie digestive et viscérale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29560,14 +29714,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1585",
-    "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie maxillo-faciale et stomatologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
+      "value" : "PEC spécialisée et permanente en chirurgie maxillo-faciale et stomatologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29575,7 +29729,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29584,14 +29738,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1586",
-    "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie orthopédique et traumatologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
+      "value" : "PEC spécialisée et permanente en chirurgie orthopédique et traumatologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29599,7 +29753,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29608,14 +29762,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1587",
-    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique orthopédique et traumatologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
+      "value" : "PEC spécialisée et permanente en chir. pédiatrique orthopédique et traumatologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29623,7 +29777,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29632,14 +29786,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1588",
-    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie pédiatrique viscérale et digestive",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
+      "value" : "PEC spécialisée et permanente en chirurgie pédiatrique viscérale et digestive"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29647,7 +29801,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29656,14 +29810,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1589",
-    "display" : "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie thoracique et pulmonaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en chirurgie thoracique et pulmonaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29672,14 +29834,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1590",
-    "display" : "Prise en charge spécialisée et continue en chirurgie vasculaire",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie vasculaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en chirurgie vasculaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29688,14 +29858,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1591",
-    "display" : "Prise en charge spécialisée et continue en dermatologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en dermatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en dermatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29704,14 +29882,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1592",
-    "display" : "Prise en charge spécialisée et continue en endocrinologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en endocrinologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en endocrinologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29720,14 +29906,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1593",
-    "display" : "Prise en charge spécialisée et continue en gériatrie (gérontologie)",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gériatrie (gérontologie)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en gériatrie (gérontologie)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29736,14 +29930,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1594",
-    "display" : "Prise en charge spécialisée et continue en gynécologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en gynécologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en gynécologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29752,14 +29954,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1595",
-    "display" : "Prise en charge spécialisée et continue en hématologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hématologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en hématologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29768,14 +29978,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1596",
-    "display" : "Prise en charge spécialisée et continue en hépato-gastro-entérologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en hépato-gastro-entérologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en hépato-gastro-entérologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29784,14 +30002,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1597",
-    "display" : "Prise en charge spécialisée et continue en maladies infectieuses et tropicales",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en maladies infectieuses et tropicales",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en maladies infectieuses et tropicales"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29800,14 +30026,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1598",
-    "display" : "Prise en charge spécialisée et continue en médecine interne",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine interne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en médecine interne"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29816,14 +30050,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1599",
-    "display" : "Prise en charge spécialisée et continue en médecine vasculaire",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en médecine vasculaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en médecine vasculaire"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29832,14 +30074,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1600",
-    "display" : "Prise en charge spécialisée et continue en néphrologie (dont dialyse)",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en néphrologie (dont dialyse)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en néphrologie (dont dialyse)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29848,14 +30098,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1601",
-    "display" : "Prise en charge spécialisée et continue en neurochirurgie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurochirurgie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en neurochirurgie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29864,14 +30122,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1602",
-    "display" : "Prise en charge spécialisée et continue en neurologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en neurologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en neurologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29880,14 +30146,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1603",
-    "display" : "Prise en charge spécialisée et continue en oncologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oncologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en oncologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29896,14 +30170,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1604",
-    "display" : "Prise en charge spécialisée et continue en ophtalmologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en ophtalmologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en ophtalmologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29912,14 +30194,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1605",
-    "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en ORL et chir. cervico-faciale"
+      "value" : "PEC spécialisée et permanente en ORL et chirurgie cervico-faciale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29927,7 +30209,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29936,14 +30218,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1606",
-    "display" : "Prise en charge spécialisée et continue en pédiatrie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pédiatrie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en pédiatrie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29952,14 +30242,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1607",
-    "display" : "Prise en charge spécialisée et continue en pneumologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en pneumologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en pneumologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29968,14 +30266,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1608",
-    "display" : "Prise en charge spécialisée et continue en rhumatologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en rhumatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en rhumatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29984,14 +30290,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1609",
-    "display" : "Prise en charge spécialisée et continue en urologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en urologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en urologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30000,14 +30314,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1610",
-    "display" : "Prise en charge spécialisée et continue en caisson oxygène hyperbare",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en caisson oxygène hyperbare",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et permanente en caisson oxygène hyperbare"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30016,14 +30338,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1611",
-    "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie de la main",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en chirurgie de la main"
+      "value" : "PEC spécialisée et permanente en chirurgie de la main"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30031,7 +30353,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30040,14 +30362,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1612",
-    "display" : "Prise en charge spécialisée et continue en odontologie",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en odontologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en odontologie"
+      "value" : "PEC spécialisée et permanente en odontologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30055,7 +30377,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30064,14 +30386,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1613",
-    "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)",
+    "display" : "Prise en charge spécialisée et permanente en psychiatrie (dont équipe de liaison)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
+      "value" : "PEC spécialisée et permanente en psychiatrie (dont équipe de liaison)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30079,7 +30401,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30088,14 +30410,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1614",
-    "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en radiologie interventionnelle",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en radiologie interventionnelle"
+      "value" : "PEC spécialisée et permanente en radiologie interventionnelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30103,7 +30425,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30112,14 +30434,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1615",
-    "display" : "Prise en charge spécialisée et continue rachis",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) en chirurgie du rachis",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en chirurgie du rachis"
+      "value" : "PEC spécialisée et permanente en chirurgie du rachis"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30127,7 +30449,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30264,14 +30586,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1624",
-    "display" : "Contention nocturne",
+    "display" : "Création de contention nocturne",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30286,12 +30608,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -30376,14 +30706,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1630",
-    "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)",
+    "display" : "Prise en charge spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+      "value" : "PEC spécialisée et permanente en pédopsychiatrie (dont équipe de liaison)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30391,7 +30721,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30400,14 +30730,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "1631",
-    "display" : "Prise en charge spécialisée et continue SOS main",
+    "display" : "Prise en charge spécialisée et permanente (dont PDSES) SOS main (agrément FESUM)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "PEC spécialisée et continue SOS main"
+      "value" : "PEC spécialisée et permanente SOS main (agrément FESUM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30415,7 +30745,1888 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1632",
+    "display" : "Programme d'ETP labellisée - Accident Vasculaire Cérébral (AVC)",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient après un AVC dans la gestion des facteurs de risque et la prévention de la récidive. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1633",
+    "display" : "Programme d'ETP labellisée - Allergologie",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient allergique chronique dans la gestion de ses symptômes, de ses traitements et des situations à risque. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1634",
+    "display" : "Programme d'ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient sous anticoagulants oraux pour prévenir les complications thromboemboliques et hémorragiques. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1635",
+    "display" : "Programme d'ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une maladie rare dans la gestion de sa pathologie, souvent complexe et nécessitant un suivi spécialisé. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prog. d'ETP labellisée - Maladies rares"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1636",
+    "display" : "Programme d'ETP labellisée - Maladies urologiques et gynécologiques",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie urologique ou gynécologique chronique dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1637",
+    "display" : "Programme d'ETP labellisée - Obésité",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient obèse dans la gestion de son poids et de ses comorbidités. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1638",
+    "display" : "Programme d'ETP labellisée - Ophtalmologie",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie ophtalmologique chronique dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1639",
+    "display" : "Programme d'ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)",
+    "definition" : "C'est un programme d'ETP, déclaré auprès de l'ARS suivant le cahier des charges HAS, visant à renforcer l'autonomie du patient atteint d'une pathologie endocrine (thyroïde, surrénales, hypophyse…) dans la gestion de sa maladie et de son traitement. Source : CSP, art. L. 1161-1 et L. 1161-2 ; arrêté du 30 décembre 2020 relatif au cahier des charges des programmes d'ETP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1640",
+    "display" : "Lyophilisation de lait maternel",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1641",
+    "display" : "Centre de Traitement des Brûlés (CTB)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1642",
+    "display" : "Remédiation psychosociale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1643",
+    "display" : "Réadaptation psychomotrice d’un trouble du neurodéveloppement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1644",
+    "display" : "Réadaptation psychomotrice d’un trouble de l’apprentissage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1645",
+    "display" : "Réadaptation psychomotrice des troubles tonico-émotionnels",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1646",
+    "display" : "Réadaptation psychomotrice des troubles de la latéralisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1647",
+    "display" : "Réadaptation psychomotrice du schéma corporel et des représentations du corps",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1648",
+    "display" : "Réadaptation psychomotrice des troubles d’organisation spatio-temporelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1649",
+    "display" : "Réadaptation psychomotrice des troubles sensoriels",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1650",
+    "display" : "Réadaptation psychomotrice du développement psychomoteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1651",
+    "display" : "Réadaptation psychomotrice des troubles psychiques",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1652",
+    "display" : "Programmes d’Entraînement aux Habiletés Parentales",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1653",
+    "display" : "Relaxation psychomotrice",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1654",
+    "display" : "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges",
+    "definition" : "Activité orthoptique permettant l'évaluation et  la prise en soins des interactions entre les systèmes visuel, vestibulaire et proprioceptif, pour assurer la stabilisation du regard, l'équilibration, l'orientation spatiale et la cohérence des informations sensorielles. Elle comprend l'évaluation de la fonction visuelle statique et dynamique, des fonctions oculomotrices, des interactions visuo-vestibulaires, des fonctions perceptivo-cognitives et, lorsque cela est indiqué, l'enregistrement oculométrique des mouvements oculaires et la recherche d'un nystagmus. L'évaluation permet d'analyser le rôle de la fonction visuelle dans les troubles vestibulaires et réciproquement, d'établir le diagnostic orthoptique, de contribuer à la localisation de l'atteinte (périphérique ou centrale), au diagnostic différentiel, à l'élaboration du projet de soins et à l'orientation du patient vers le professionnel le plus adapté (ORL, ophtalmologiste, neurologue ou médecin traitant). La prise en soins, qui relève de l'expertise de l'orthoptiste, repose sur les mécanismes de plasticité cérébrale afin de favoriser la compensation et la substitution sensorielle. Elle vise à restaurer la stabilité du regard, l'intégration visuo-vestibulaire, l'équilibration et l'orientation spatiale, à réduire les symptômes vertigineux, à améliorer l'autonomie et la qualité de vie et à favoriser le retour aux activités de la vie quotidienne.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval. orthoptique à visée visio-vestibulaire pour trouble équilibre / vertige"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1655",
+    "display" : "Evaluation orthoptique et/ou prise en soins de la fonction visuelle et neurovisuelle dans le cadre du neurodéveloppement (TNV - TND)",
+    "definition" : "Evaluation orthoptique spécialisée de la fonction visuelle chez les patients présentant un trouble du neurodéveloppement (trouble du spectre de l'autisme, TDAH, troubles spécifiques des apprentissages, TDI). Elle repose sur une analyse sensori-motrice et perceptivo-cognitive de la fonction visuelle intégrant l'évaluation de la communication visuelle, indispensable au développement de l'attention conjointe, du contact visuel, de la désignation, des interactions sociales et de la communication non verbale. L'évaluation s'appuie sur des tests cliniques et des outils standardisés adaptés à l'âge, au niveau développemental et au profil du patient, et aboutit au diagnostic orthoptique. La prise en soins orthoptiques associe la rééducation des fonctions sensori-motrices et perceptivo-cognitives déficitaires ainsi que la mise en œuvre de stratégies compensatoires, afin d'améliorer les capacités fonctionnelles et de favoriser la communication, les apprentissages, l'autonomie et la participation du patient dans son environnement de vie, en articulation avec les équipes de diagnostic et de soins.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval. visuelle des troubles orthoptiques et neurovisuels pour des TNV - TND"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1656",
+    "display" : "Bilan de dépistage réfractif et de l'amblyopie",
+    "definition" : "Bilan visuel de dépistage des troubles de la réfraction et de l'amblyopie chez le nourrisson et le jeune enfant, réalisable en accès direct dans les conditions fixées par la réglementation en vigueur (décret n° 2022-691 du 26 avril 2022), avec orientation vers l'ophtalmologiste en cas d'anomalie dépistée.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1657",
+    "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))",
+    "definition" : "Bilan visuel réalisé dans le cadre des protocoles de coopération RNM/RNO conclus avec un ophtalmologiste et déposés auprès de l'ARS, permettant le renouvellement ou l'adaptation de la correction optique avec lecture médicale du dossier.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Bilan visuel pour renouvellement / adaptation de la correction optique (RNO)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1658",
+    "display" : "Exploration du sens chromatique",
+    "definition" : "Examen spécifique visant à apprécier la perception et la discrimination des couleurs dans le cadre du dépistage, du diagnostic et du suivi des dyschromatopsies congénitales ou acquises, à l'aide de tests standardisés adaptés à l'âge et aux capacités du patient. Cette activité permet de documenter les capacités de perception chromatique dans le cadre d'exigences réglementaires, scolaires ou professionnelles, et contribue à l'accompagnement des projets d'orientation et d'insertion.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1659",
+    "display" : "Examen de la courbe d'adaptation à l'obscurité",
+    "definition" : "Examen mesurant l'évolution des seuils de sensibilité lumineuse lors du passage à l'obscurité, utile à l'exploration des héméralopies et des pathologies rétiniennes (dystrophies rétiniennes, rétinopathies pigmentaires).",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1660",
+    "display" : "Protocole de dépistage de la rétinopathie diabétique",
+    "definition" : "Réalisation, dans le cadre du protocole organisé de dépistage de la rétinopathie diabétique, de rétinographies (photographies du fond d'œil, avec ou sans mydriase) avec lecture différée des clichés par un ophtalmologiste.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1661",
+    "display" : "Examen dépistage réfractif avec Photoscreener",
+    "definition" : "Dépistage visuel instrumenté par photoscreener visant au repérage précoce des facteurs de risque d'amblyopie, de strabisme et des troubles visuels chez le nourrisson, le jeune enfant et les patients peu coopérants. Réalisé de façon binoculaire, à distance, sans contact et en quelques secondes, il permet d'identifier des anomalies réfractives telles que l'hypermétropie, la myopie, l'astigmatisme ou l'anisométropie. Permet d'orienter rapidement les patients nécessitant une évaluation ophtalmologique complémentaire, notamment une réfraction sous cycloplégie.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1662",
+    "display" : "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans",
+    "definition" : "Bilan visuel réalisé en accès direct dans les conditions fixées par le décret n° 2022-691 du 26 avril 2022, permettant la primo-prescription ou le renouvellement de verres correcteurs et de lentilles de contact souples chez les patients de 16 à 42 ans, avec orientation vers l'ophtalmologiste en cas de signe d'appel ou de contre-indication.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Bilan visuel de la correction optique (lunettes, lentilles, souples) 16 - 42 ans"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1663",
+    "display" : "Evaluation oculométrique par enregistrement - technique d'Eye tracking",
+    "definition" : "Enregistrement et quantification des mouvements oculaires dédié à l'analyse objective, quantitative qualitative et reproductible des biomarqueurs oculomoteurs. Cet enregistrement automatisé du regard à l'aide d'un système vidéo d'oculométrie (Eye Tracking) est réalisé en temps réel. Les biomarqueurs témoignent du fonctionnement du système nerveux central, et sont utiles à l'évaluation objective des troubles neurovisuels et au suivi de pathologies neurologiques ou neurodégénératives débutantes (syndromes parkinsoniens, paralysies oculomotrices, …).",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1664",
+    "display" : "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)",
+    "definition" : "Évaluation des particularités du traitement sensoriel et perceptif visuel au moyen d'outils standardisés (profil sensoriel de Dunn, questionnaire de Bogdashina) et prise en soins adaptée, concernant notamment les enfants et adultes présentant un trouble du neurodéveloppement (TND), un trouble neurovisuel ou une pathologie neurologique.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Evaluation / prise en soins pour les particularités sensorielles et perceptives"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1665",
+    "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)",
+    "definition" : "Evaluation orthoptique des capacités visuelles résiduelles et de leur retentissement sur les activités de la vie quotidienne, les apprentissages, la vie professionnelle et les loisirs, chez les personnes présentant une déficience visuelle permanente ou évolutive. Elle comprend l'évaluation individualisée des besoins en compensation, l'essai comparatif, le choix, le réglage, l'adaptation et l'apprentissage de l'utilisation des aides visuelles les plus adaptées au projet de vie du patient : aides optiques , aides électroniques et numériques (vidéo-loupes, téléagrandisseurs, lecteurs d'écran, logiciels d'agrandissement, applications mobiles, dispositifs connectés…), ainsi que les technologies d'assistance destinées à optimiser l'utilisation du potentiel visuel résiduel, la lecture, l'écriture, la communication, les déplacements, les activités scolaires, professionnelles et l'autonomie. Le choix des aides visuelles repose sur une évaluation des capacités visuelles, des besoins fonctionnels, de l'environnement et des objectifs du patient, et s'accompagne d'un apprentissage spécifique visant à optimiser leur utilisation. Cette activité contribue à l'élaboration du projet de soins, au choix des solutions de compensation du handicap visuel, au suivi de l'évolution des capacités fonctionnelles, à la réévaluation des besoins, à l'ajustement des aides optiques et technologiques, à l'évaluation de leur efficacité et à l'accompagnement du patient, en coordination avec les autres professionnels impliqués dans son parcours de soins.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval orthopt / prise en soins d'un handicap visuel. avec d'aide optique et tech."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1666",
+    "display" : "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle",
+    "definition" : "Évaluation de l'environnement du domicile au regard des capacités visuelles de la personne (éclairage, contrastes, repères visuels, sécurisation des déplacements) préconisation et suivi de la mise en œuvre des adaptations, des aménagements du logement visant à améliorer l'accessibilité, le repérage visuel, la sécurité et l'autonomie. dans le cadre d'un handicap de la fonction visuelle.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval et suivi dans le cadre de l'adaptat du logement à un handicap de la vision"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1667",
+    "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile",
+    "definition" : "Évaluation des aptitudes visuelles requises pour la conduite automobile (acuité visuelle, champ visuel, vision crépusculaire, sensibilité à l'éblouissement, stratégies d'exploration visuelle) et prise en soins associée, notamment dans le cadre de la reprise de la conduite après une atteinte neurologique ou visuelle, en lien avec les dispositifs d'évaluation de l'aptitude à la conduite.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval orthoptique de la fonct visuelle / prise en soins pour la conduite auto"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1668",
+    "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée",
+    "definition" : "Evaluation et prise en soins de la fonction visuelle, des compétences  sensori-motrices, neurosensorielles, neurovisuelles  et de la cognition visuelle chez les patients présentant des pathologies ophtalmologiques, neurologiques, neurodégénératives ou post-traumatiques susceptibles d'altérer les capacités motrices et fonctionnelles. L'évaluation permet d'objectiver le retentissement de ces troubles sur les capacités motrices et fonctionnelles du patient, les activités de la vie quotidienne, la mobilité et les déplacements, les activités physiques adaptées, les activités sportives, les loisirs et, plus largement, sur la participation sociale en coordination avec les professionnels de l'activité physique adaptée.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval orthoptique de la fonct visuelle / PES pour de l'act. physique adaptée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1669",
+    "display" : "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle",
+    "definition" : "Expertise orthoptique dédiée à l'évaluation de la fonction visuelle et à la prise en soins des troubles de la cognition visuelle, c'est-à-dire des processus cérébraux permettant de percevoir, analyser, interpréter, mémoriser et utiliser les informations visuelles. Elle repose sur une démarche clinique associée à des tests standardisés, normés et scorés, sélectionnés en fonction de l'âge développemental, des capacités du patient et des différentes habiletés neurovisuelles explorées. L'évaluation porte notamment sur les fonctions visuo-perceptives, visuo-motrices, visuo-spatiales, visuo-attentionnelles, visuo-constructives, la mémoire visuelle, les stratégies d'exploration visuelle, les fonctions exécutives impliquées dans le traitement de l'information visuelle, ainsi que sur leurs répercussions dans les apprentissages, la lecture, les activités de la vie quotidienne et l'autonomie. Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins chez les patients présentant des troubles du neurodéveloppement (TND), des troubles neurovisuels (TNV), des lésions cérébrales acquises, des pathologies neuro-ophtalmologiques ou neurologiques, ou toute autre affection susceptible d'altérer les fonctions cognitives visuelles.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval / prise en soins orthoptiques neurovisuels des troubles de cognition visu"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1670",
+    "display" : "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval / prise en soins de la rééducation neurovisuelle visuo-vestibulaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1671",
+    "display" : "Dispensation médicamenteuse à domicile en cas d'impossibilité du patient à se déplacer",
+    "definition" : "C'est un acte pharmaceutique par lequel le pharmacien d'officine délivre les médicaments au domicile du patient dans l'impossibilité de se déplacer, en raison de son état de santé, de son âge ou d'une situation géographique particulière. Il comprend les mêmes étapes que la dispensation en officine, incluant l'analyse de l'ordonnance et les conseils de bon usage. Source : CSP, art. R. 5125-50 et R. 4235-48 ; bonnes pratiques de dispensation des médicaments (arrêté du 28 novembre 2016 modifié).",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dispense médicament à domicile en cas d'impossibilité du patient à se déplacer"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1672",
+    "display" : "Préparation des doses à administrer (PDA)",
+    "definition" : "C'est un acte pharmaceutique consistant à conditionner individuellement, par prise et par patient, l'ensemble des médicaments d'une ordonnance sur une période donnée, afin de sécuriser la prise et favoriser l'observance. Elle est réalisée sous la responsabilité du pharmacien et constitue une composante de l'acte de dispensation.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1673",
+    "display" : "Entretien pharmaceutique de la femme enceinte",
+    "definition" : "C'est un entretien individuel unique conduit par le pharmacien d'officine auprès de toute femme enceinte, visant à sécuriser la prise médicamenteuse pendant la grossesse et à délivrer des conseils adaptés à cette période. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1674",
+    "display" : "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)",
+    "definition" : "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient asthmatique traité par corticoïdes inhalés depuis au moins six mois, visant à améliorer la technique d'inhalation, l'observance et la connaissance de la maladie. Source : CSP, art. L. 5125-1-1 A ; CNOP.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Entretien pharmaceutique du patient asthmatique sous CSI"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1675",
+    "display" : "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)",
+    "definition" : "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient sous anticoagulant oral (AVK ou AOD) depuis au moins six mois, visant à prévenir les complications hémorragiques et thromboemboliques par un meilleur suivi de l'observance et des interactions médicamenteuses. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A ; CNOP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1676",
+    "display" : "Entretien pharmaceutique du patient sous anticancéreux oraux",
+    "definition" : "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient traité par anticancéreux par voie orale, visant à sécuriser la prise, surveiller les effets indésirables et renforcer l'observance en coordination avec l'équipe soignante.  Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A ; CNOP.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1677",
+    "display" : "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2",
+    "definition" : "C'est un entretien structuré conduit par le pharmacien d'officine auprès du patient traité par antalgique opioïde de palier 2 (tramadol, codéine…), visant à prévenir les risques de mésusage, à surveiller la tolérance et à soutenir l'observance. Source : Convention pharmaceutique nationale ; CSP, art. L. 5125-1-1 A.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1678",
+    "display" : "Entretien bilan partagé de médication",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1679",
+    "display" : "Réseau France Santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1680",
+    "display" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique présentant un risque pour la santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autorisation par l'ARS pour la sous-traitance de préparation pharmaceutique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1681",
+    "display" : "Orthèses et prothèses externes (orthopédie sur mesure)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1682",
+    "display" : "Orthèses et prothèses externes (de série)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1683",
+    "display" : "Optique lunetterie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1684",
+    "display" : "Audioprothèse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1685",
+    "display" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1686",
+    "display" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1687",
+    "display" : "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Distribution de comprimés d’iode en application du PPI"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1688",
+    "display" : "Remise du kit de dépistage du cancer colorectal",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1689",
+    "display" : "Test de Maintien de l'Eveil (TME)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1690",
+    "display" : "Test Itératif de Latence d'Endormissement (TILE)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1691",
+    "display" : "Prise en charge de l’insomnie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1692",
+    "display" : "Prise en charge des troubles moteurs (syndrome des jambes sans repos)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1693",
+    "display" : "Prise en charge de parasomnie (somnambulisme)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1694",
+    "display" : "Prise en charge des hypersomnies",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1695",
+    "display" : "Prise en charge des troubles circadiens",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1696",
+    "display" : "Prise en charge des troubles du sommeil avec trouble neurologique complexe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1697",
+    "display" : "Prise en charge des troubles du sommeil avec trouble respiratoire complexe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1698",
+    "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 1 \"coordonnateur\"",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CRIOA/ C - Niv 1 coordonnateur"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1699",
+    "display" : "Centre de Référence d'Infection Ostéo-Articulaire/ Complexes (CRIOA/ C) - Niveau 2 \"correspondant\"",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CRIOA/ C - Niv 2 correspondant"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1700",
+    "display" : "Accréditation par la Société Française de Recherche en Médecine du Sommeil (SFRMS)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Accréditation par la SFRMS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1701",
+    "display" : "Prise en charge de nouveau patient en tant que médecin traitant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1702",
+    "display" : "Accompagnement à l'essai de fauteuil roulant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1703",
+    "display" : "Groupe (ou stage) psycho-éducatif de responsabilisation pour prévention de la violence et/ou de sa récidive",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Groupe psycho-éducatif de responsabilisation pour prévention de la violence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1704",
+    "display" : "Exploration diagnostique scintigraphique pour patient dialysé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique pour patient dialysé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1705",
+    "display" : "Exploration diagnostique par TEP 18F-FDG pour pathologie neurologique (démence, épilepsie, Parkinson, AVC)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP 18F-FDG pour pathologie neurologique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1706",
+    "display" : "Exploration diagnostique par TEP pour des plaques amyloïdes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag par TEP pour des plaques amyloïdes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1707",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de pathologie thyroïdienne ou parathyroïdienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1708",
+    "display" : "Exploration diagnostique scintigraphique ou TEP de pathologie surrénalienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique ou TEP de pathologie surrénalienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1709",
+    "display" : "Traitement de médecine nucléaire / RIV par 131I des pathologies bénignes de la thyroïde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 131I des pathologies bénignes de la thyroïde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1710",
+    "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 oxodotreotide pour Tumeur neuroendocrine - TNE",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Lu177 oxodotreotide pour TNE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1711",
+    "display" : "Traitement de médecine nucléaire / RIV  par lutetium-177 PSMA pour cancer de la prostate",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Lu177 PSMA pour cancer de la prostate"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1712",
+    "display" : "Traitement de médecine nucléaire / RIV par radium-223 pour cancer de la prostate avec métastases osseuses",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par Ra223 pour cancer prostate & métastase osseuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1713",
+    "display" : "Traitement de médecine nucléaire / RIV  par 90Y microsphères pour cancer hépatocellulaire (CHC) et lésion secondaire hépatique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 90Y microsphères pour CHC et lésion hépatique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1714",
+    "display" : "Traitement de médecine nucléaire / RIV  par 131I pour cancer de la thyroïde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement de méd nucl / RIV par 131I pour cancer de la thyroïde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1715",
+    "display" : "Prise en charge médecine nucléaire pédiatrique (0 - 5 ans)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1716",
+    "display" : "Exploration diagnostique scintigraphique splénique ou hépatosplénique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique splénique ou hépatosplénique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1717",
+    "display" : "Exploration diagnostique scintigraphique des glandes salivaires",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique des glandes salivaires"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1718",
+    "display" : "Exploration diagnostique scintigraphique aux leucocytes marqués pour recherche d'infection",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Explo diag scintigraphique aux leucocytes marqués pour recherche d'infection"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1719",
+    "display" : "Recherche en oncologie, bilan d'extension",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1720",
+    "display" : "Programme de psychoéducation psychiatrique pour les familles et aidants (ProFamille, BREF...)",
+    "definition" : "Programme structuré d'intervention thérapeutique destiné aux familles et aidants de personnes souffrant d'un trouble psychiatrique, visant à les informer sur la maladie, renforcer leurs capacités à accompagner le patient et prévenir leur propre épuisement.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Programme de psychoéducation psychiatrique pour les familles et aidants"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1721",
+    "display" : "Centre expert pied diabétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1722",
+    "display" : "Repérage du psychotraumatisme des victimes de violence",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1723",
+    "display" : "Prophylaxie pré-exposition injectable (PrEP)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1724",
+    "display" : "Accompagnement et orientation des personnes vivant avec le VIH",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1725",
+    "display" : "Vaccination Mpox (Variole B)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1726",
+    "display" : "Prise en soin des stomies digestives et/ou urinaires",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1727",
+    "display" : "Tomothérapie",
+    "definition" : "La tomothérapie est une technique avancée de radiothérapie qui combine un scanner et un accélérateur de particules afin de délivrer les rayonnements avec une très grande précision autour de la tumeur tout en limitant l'irradiation des tissus sains.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1728",
+    "display" : "Centre expert Epileptologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

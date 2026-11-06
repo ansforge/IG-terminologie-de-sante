@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-section-document-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-04-21T10:46:59.135+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-09-28T15:43:56.020+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.836"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134052",
   "name" : "JdvSectionDocumentCisis",
   "title" : "JDV Section Document CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Section Document CISIS",
   "jurisdiction" : [{
@@ -564,10 +564,6 @@ Requête sur le SMT
       {
         "code" : "101792-0",
         "display" : "Résultats de laboratoire scannés"
-      },
-      {
-        "code" : "xx-MCH-PsychoMDev",
-        "display" : "Développement psychomoteur"
       }]
     },
     {

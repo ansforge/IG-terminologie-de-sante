@@ -7,7 +7,7 @@ HL7-defined code system of concepts specifying the specimen collection method. U
 
 This Code system is referenced in the definition of the following value sets:
 
-* [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
+* [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
 
 -------
 

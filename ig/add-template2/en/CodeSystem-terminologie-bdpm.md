@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "30",
-    "lastUpdated" : "2026-06-02T15:42:15.812+02:00",
+    "versionId" : "35",
+    "lastUpdated" : "2026-11-03T15:55:03.524+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
@@ -32,12 +32,12 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-bdpm"
   }],
-  "version" : "2026-06-01",
+  "version" : "2026-11-03",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T00:00:00+00:00",
+  "date" : "2026-11-03T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM",
   "jurisdiction" : [{
@@ -50,7 +50,7 @@ This Code system is referenced in the definition of the following value sets:
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41218,
+  "count" : 41257,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -69,6 +69,16 @@ This Code system is referenced in the definition of the following value sets:
   "property" : [{
     "code" : "broader",
     "uri" : "http://www.w3.org/2004/02/skos/core#broader",
+    "type" : "code"
+  },
+  {
+    "code" : "etat_commercialisation",
+    "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/etat_commercialisation",
+    "type" : "code"
+  },
+  {
+    "code" : "statut_CIP",
+    "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/statut_CIP",
     "type" : "code"
   },
   {
@@ -157,6 +167,11 @@ This Code system is referenced in the definition of the following value sets:
     "type" : "code"
   },
   {
+    "code" : "CPD_Category",
+    "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/CPD_Category",
+    "type" : "code"
+  },
+  {
     "code" : "indication_Remboursement",
     "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement",
     "type" : "string"
@@ -165,6 +180,11 @@ This Code system is referenced in the definition of the following value sets:
     "code" : "numero_AutorisationEuropéenne",
     "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne",
     "type" : "string"
+  },
+  {
+    "code" : "BDPM_Status",
+    "uri" : "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/BDPM_Status",
+    "type" : "code"
   },
   {
     "code" : "parent",

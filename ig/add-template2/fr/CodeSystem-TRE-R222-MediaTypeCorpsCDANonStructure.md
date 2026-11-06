@@ -7,7 +7,7 @@ Identifiant des modèles de CDA non structurés
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
+* [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
 
 -------
 

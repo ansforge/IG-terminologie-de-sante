@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-artere-posterieure-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-04-20T16:57:38.943+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:42:35.415+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.209"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134049",
   "name" : "JdvArterePosterieureCisis",
   "title" : "JDV Artere Posterieure CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Artere Posterieure CISIS",
   "jurisdiction" : [{
@@ -87,15 +87,15 @@ Requête sur le SMT
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "70382005",
-        "display" : "Artère cérébrale postérieure"
+        "display" : "artère cérébrale postérieure"
       },
       {
         "code" : "43119007",
-        "display" : "Artère communicante postérieure"
+        "display" : "artère communicante postérieure"
       },
       {
         "code" : "7736000",
-        "display" : "Artère choroïdienne postérieure"
+        "display" : "artère choroïdienne postérieure"
       }]
     }]
   }

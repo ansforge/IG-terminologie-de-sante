@@ -7,10 +7,10 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvInvestigationRealiseeAunvCisis](ValueSet-jdv-investigation-realisee-aunv-cisis.md)
-* [JdvInvestigationRealiseeEunvCisis](ValueSet-jdv-investigation-realisee-eunv-cisis.md)
-* [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
-* [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
+* [JDV Investigation Realisee Aunv CISIS](ValueSet-jdv-investigation-realisee-aunv-cisis.md)
+* [JDV Investigation Realisee Eunv CISIS](ValueSet-jdv-investigation-realisee-eunv-cisis.md)
+* [JDV Static Sem Procedure CISIS](ValueSet-jdv-static-sem-procedure-cisis.md)
+* [JDV Type Acte Post Partum CISIS](ValueSet-jdv-type-acte-post-partum-cisis.md)
 
 -------
 
@@ -25,8 +25,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-03-17T15:12:14.687+01:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-31T15:07:29.738+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -40,12 +40,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-ccam"
   }],
-  "version" : "v82.00",
+  "version" : "v84.00",
   "name" : "CCAM",
   "title" : "Classification Commune des Actes Médicaux",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-02T00:00:00+00:00",
+  "date" : "2026-07-31T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.",
   "jurisdiction" : [{
@@ -58,7 +58,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-ccam?vs",
   "content" : "not-present",
-  "count" : 38223,
+  "count" : 38235,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

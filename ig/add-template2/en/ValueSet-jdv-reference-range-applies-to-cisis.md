@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-reference-range-applies-to-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:48.833+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-28T15:43:45.370+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.517"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134049",
   "name" : "JdvReferenceRangeAppliesToCisis",
   "title" : "JDV Reference Range Applies To CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Reference Range Applies To CISIS",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
-      "version" : "2018-08-12",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "F",
         "display" : "Féminin"

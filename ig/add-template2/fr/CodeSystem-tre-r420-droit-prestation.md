@@ -7,8 +7,8 @@ Catégorie et type de droit et prestation caractérisant la décision d'orientat
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ401CategorieDroitPrestationMs](ValueSet-jdv-j401-categorie-droit-prestation-ms.md)
-* [JdvJ402TypeDroitPrestationMs](ValueSet-jdv-j402-type-droit-prestation-ms.md)
+* [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md)
+* [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md)
 
 -------
 

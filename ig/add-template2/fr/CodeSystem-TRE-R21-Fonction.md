@@ -24,9 +24,9 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R21-Fonction",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-05-05T20:11:51.739+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "16",
+    "lastUpdated" : "2026-11-02T11:28:02.316+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -40,11 +40,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.17"
   }],
-  "version" : "20260223120000",
+  "version" : "20261102120000",
   "name" : "TRE_R21_Fonction",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Fonction",
   "jurisdiction" : [{
@@ -56,7 +56,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 57,
+  "count" : 58,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1259,6 +1259,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "FON-65",
+    "display" : "Remplaçant du titulaire d'officine (IE)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

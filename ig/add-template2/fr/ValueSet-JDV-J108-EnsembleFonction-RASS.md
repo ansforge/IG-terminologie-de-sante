@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2026-05-05T19:02:35.569+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-11-02T11:32:49.904+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.176"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des fonctions et rôles du RASS",
   "jurisdiction" : [{
@@ -244,6 +244,10 @@ Requête sur le SMT
       {
         "code" : "FON-63",
         "display" : "Coordonnateur en EHPAD"
+      },
+      {
+        "code" : "FON-65",
+        "display" : "Remplaçant du titulaire d'officine (IE)"
       },
       {
         "code" : "FON-AU",
@@ -506,10 +510,6 @@ Requête sur le SMT
       {
         "code" : "363",
         "display" : "Attaché de recherche clinique"
-      },
-      {
-        "code" : "364",
-        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
       },
       {
         "code" : "365",

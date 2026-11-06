@@ -38,8 +38,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J48-ProfessionNonPS-CISIS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:33.556+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:06:37.823+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

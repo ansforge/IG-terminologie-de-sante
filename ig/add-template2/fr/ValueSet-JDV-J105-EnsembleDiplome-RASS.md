@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J105-EnsembleDiplome-RASS",
   "meta" : {
-    "versionId" : "20",
-    "lastUpdated" : "2026-05-05T19:02:34.186+02:00",
+    "versionId" : "24",
+    "lastUpdated" : "2026-11-02T10:32:52.155+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.173"
   }],
-  "version" : "20260223120000",
+  "version" : "20261102120000",
   "name" : "JDV_J105_EnsembleDiplome_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des diplômes et qualifications du RASS",
   "jurisdiction" : [{
@@ -820,6 +820,26 @@ Requête sur le SMT
       {
         "code" : "DIP416",
         "display" : "DUT Biologie appliquée option diététique"
+      },
+      {
+        "code" : "DIP417",
+        "display" : "DU Plaies chroniques et cicatrisation"
+      },
+      {
+        "code" : "DIP418",
+        "display" : "DU Appropriation des méthodologies de recherche clinique appliquées à la rééducation et la réadaptation"
+      },
+      {
+        "code" : "DIP419",
+        "display" : "DIU Posture, équilibre, locomotion"
+      },
+      {
+        "code" : "DIP420",
+        "display" : "DU Plaies, brûlures et cicatrisation"
+      },
+      {
+        "code" : "DIP421",
+        "display" : "DIU Soigner les soignants : spécificités et ressources"
       }]
     },
     {
@@ -1010,7 +1030,7 @@ Requête sur le SMT
       },
       {
         "code" : "DIP322",
-        "display" : "Master en Psychologie ou Psychanalyse"
+        "display" : "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS"
       },
       {
         "code" : "DIP323",
@@ -2752,6 +2772,10 @@ Requête sur le SMT
       {
         "code" : "DSP12",
         "display" : "DES Pharmacie hospitalière radiopharmacie (RPH)"
+      },
+      {
+        "code" : "DSP13",
+        "display" : "DES Innovation Pharmaceutique et Recherche"
       }]
     },
     {

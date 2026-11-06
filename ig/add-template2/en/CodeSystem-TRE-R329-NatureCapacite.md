@@ -8,7 +8,7 @@ Permet d'indiquer si la capacité est exprimée en lits ou en places
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md)
-* [JdvJ352NatureCapaciteFiness](ValueSet-jdv-j352-nature-capacite-finess.md)
+* [Jdv J352 Nature Capacite Finess](ValueSet-jdv-j352-nature-capacite-finess.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R329-NatureCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-05-05T20:12:04.748+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-09-28T10:28:02.516+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -39,11 +39,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.212"
   }],
-  "version" : "20260505120000",
+  "version" : "20260928120000",
   "name" : "TRE_R329_NatureCapacite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer si la capacité est exprimée en lits ou en places",
   "jurisdiction" : [{
@@ -55,7 +55,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 3,
+  "count" : 4,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -152,6 +152,22 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "finess",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Salle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

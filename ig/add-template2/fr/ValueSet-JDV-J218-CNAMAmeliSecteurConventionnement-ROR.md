@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J218-CNAMAmeliSecteurConventionnement-ROR",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:53.303+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-09-28T10:32:33.366+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.50"
   }],
-  "version" : "20220826120000",
+  "version" : "20260928120000",
   "name" : "JDV_J218_CNAMAmeliSecteurConventionnement_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2022-08-26T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli",
   "jurisdiction" : [{
@@ -84,6 +84,22 @@ Requête sur le SMT
       {
         "code" : "c3",
         "display" : "Secteur 2"
+      },
+      {
+        "code" : "0",
+        "display" : "Non conventionné"
+      },
+      {
+        "code" : "1",
+        "display" : "Conventionné"
+      },
+      {
+        "code" : "2",
+        "display" : "Conventionné avec dépassement"
+      },
+      {
+        "code" : "3",
+        "display" : "Conventionné avec honoraires libres"
       }]
     }]
   }

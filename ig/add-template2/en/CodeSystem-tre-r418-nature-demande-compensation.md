@@ -7,7 +7,7 @@ Nature de la demande de compensation adressée à la CDAPH.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ395NatureDemandeCompensationMs](ValueSet-jdv-j395-nature-demande-compensation-ms.md)
+* [Jdv J395 Nature Demande Compensation Ms](ValueSet-jdv-j395-nature-demande-compensation-ms.md)
 
 -------
 

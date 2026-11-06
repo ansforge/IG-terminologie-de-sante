@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-05-05T19:02:29.620+02:00",
+    "versionId" : "33",
+    "lastUpdated" : "2026-11-02T11:32:49.315+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [{
@@ -561,7 +561,7 @@ Requête sur le SMT
       },
       {
         "code" : "SM76",
-        "display" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "SM77",
@@ -657,23 +657,35 @@ Requête sur le SMT
       },
       {
         "code" : "SI01",
-        "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)"
       },
       {
         "code" : "SI02",
-        "display" : "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)"
       },
       {
         "code" : "SI03",
-        "display" : "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)"
       },
       {
         "code" : "SI04",
-        "display" : "Exercice infirmier en pratique avancée santé mentale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
       },
       {
         "code" : "SI05",
-        "display" : "Exercice infirmier en pratique avancée urgences (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Urgences (SI)"
+      },
+      {
+        "code" : "SI06",
+        "display" : "Infirmier(ère) de bloc opératoire (SI)"
+      },
+      {
+        "code" : "SI07",
+        "display" : "Infirmier(ère) anesthésiste (SI)"
+      },
+      {
+        "code" : "SI08",
+        "display" : "Infirmier(ère) puériculteur(trice)"
       },
       {
         "code" : "C01",
@@ -1597,6 +1609,10 @@ Requête sur le SMT
         "display" : "Coordonnateur en EHPAD"
       },
       {
+        "code" : "FON-65",
+        "display" : "Remplaçant du titulaire d'officine (IE)"
+      },
+      {
         "code" : "FON-AU",
         "display" : "Fonction non définie"
       }]
@@ -1650,10 +1666,6 @@ Requête sur le SMT
       {
         "code" : "311",
         "display" : "Autre acteur mettant en oeuvre la méthode MAIA"
-      },
-      {
-        "code" : "312",
-        "display" : "Autre professionnel"
       },
       {
         "code" : "313",
@@ -1740,44 +1752,12 @@ Requête sur le SMT
         "display" : "Gestionnaire alertes et urgences sanitaires"
       },
       {
-        "code" : "336",
-        "display" : "Autre professionnel intervenant dans l'accueil et l'orientation des personnes"
-      },
-      {
-        "code" : "337",
-        "display" : "Autre professionnel intervenant dans la logistique"
-      },
-      {
         "code" : "338",
         "display" : "Autre professionnel intervenant dans l'hôtellerie et la restauration"
       },
       {
-        "code" : "339",
-        "display" : "Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement"
-      },
-      {
         "code" : "340",
         "display" : "Autre professionnel intervenant dans la direction des systèmes d'information"
-      },
-      {
-        "code" : "341",
-        "display" : "Autre professionnel intervenant dans la direction des finances et comptabilité"
-      },
-      {
-        "code" : "342",
-        "display" : "Autre professionnel intervenant dans la direction de la communication"
-      },
-      {
-        "code" : "343",
-        "display" : "Autre professionnel intervenant dans la direction des ressources humaines"
-      },
-      {
-        "code" : "344",
-        "display" : "Autre professionnel intervenant dans la direction des affaires médicales"
-      },
-      {
-        "code" : "345",
-        "display" : "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
       },
       {
         "code" : "346",
@@ -1790,10 +1770,6 @@ Requête sur le SMT
       {
         "code" : "348",
         "display" : "Etudiant - auxiliaire de puériculture"
-      },
-      {
-        "code" : "349",
-        "display" : "Etudiant - masseur-kinésithérapeute"
       },
       {
         "code" : "351",
@@ -1824,10 +1800,6 @@ Requête sur le SMT
         "display" : "Autre étudiant"
       },
       {
-        "code" : "359",
-        "display" : "Directeur d'établissement"
-      },
-      {
         "code" : "360",
         "display" : "Brancardier"
       },
@@ -1842,10 +1814,6 @@ Requête sur le SMT
       {
         "code" : "363",
         "display" : "Attaché de recherche clinique"
-      },
-      {
-        "code" : "364",
-        "display" : "Praticien A Diplôme Hors Union Européenne (PADHUE)"
       },
       {
         "code" : "365",

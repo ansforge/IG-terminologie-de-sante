@@ -36,9 +36,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J107-EnsembleSavoirFaire-RASS",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-12-22T10:46:26.045+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "15",
+    "lastUpdated" : "2026-11-02T10:32:53.076+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.175"
   }],
-  "version" : "20251222120000",
+  "version" : "20261102120000",
   "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des savoir-faire et compétences du RASS",
   "jurisdiction" : [{
@@ -71,23 +71,35 @@ Requête sur le SMT
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
       "concept" : [{
         "code" : "SI01",
-        "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)"
       },
       {
         "code" : "SI02",
-        "display" : "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)"
       },
       {
         "code" : "SI03",
-        "display" : "Exercice infirmier en pratique avancée maladie rénale chronique (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)"
       },
       {
         "code" : "SI04",
-        "display" : "Exercice infirmier en pratique avancée santé mentale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
       },
       {
         "code" : "SI05",
-        "display" : "Exercice infirmier en pratique avancée urgences (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Urgences (SI)"
+      },
+      {
+        "code" : "SI06",
+        "display" : "Infirmier(ère) de bloc opératoire (SI)"
+      },
+      {
+        "code" : "SI07",
+        "display" : "Infirmier(ère) anesthésiste (SI)"
+      },
+      {
+        "code" : "SI08",
+        "display" : "Infirmier(ère) puériculteur(trice)"
       },
       {
         "code" : "SCD01",
@@ -403,7 +415,7 @@ Requête sur le SMT
       },
       {
         "code" : "SM76",
-        "display" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "SM77",

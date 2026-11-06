@@ -10,8 +10,8 @@ This Code system is referenced in the definition of the following value sets:
 * [JDV_J185_TypeFermeture_ROR](ValueSet-JDV-J185-TypeFermeture-ROR.md)
 * [JDV_J201_TypeFermeture_ROR](ValueSet-JDV-J201-TypeFermeture-ROR.md)
 * [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md)
-* [JdvJ364TypeFermeturePmFiness](ValueSet-jdv-j364-type-fermeture-pm-finess.md)
-* [JdvJ365TypeFermetureEgeFiness](ValueSet-jdv-j365-type-fermeture-ege-finess.md)
+* [Jdv J364 Type Fermeture Pm Finess](ValueSet-jdv-j364-type-fermeture-pm-finess.md)
+* [Jdv J365 Type Fermeture Ege Finess](ValueSet-jdv-j365-type-fermeture-ege-finess.md)
 
 -------
 
@@ -26,8 +26,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R286-TypeFermeture",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-05-06T11:12:50.766+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-07-06T20:13:23.249+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

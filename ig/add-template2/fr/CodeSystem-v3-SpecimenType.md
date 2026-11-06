@@ -7,10 +7,10 @@
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
-* [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md)
-* [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
+* [jDV Specimen Type Chikungunya CISIS](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
+* [JDV Specimen Type CISIS](ValueSet-jdv-specimen-type-cisis.md)
+* [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md)
+* [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md)
 
 -------
 

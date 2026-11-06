@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J369-MotifRestrictionDiffusion-ROR",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T17:06:29.503+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T19:06:34.185+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

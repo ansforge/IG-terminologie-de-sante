@@ -22,9 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cim11-mms",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-04T11:43:58.036+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-13T09:34:02.170+02:00"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
   "identifier" : [{
@@ -42,7 +41,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-02T14:00:56+00:00",
+  "date" : "2026-11-06T13:32:02+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [{

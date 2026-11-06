@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J128-TypeCarte-RASS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:56.594+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-06T19:05:00.754+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

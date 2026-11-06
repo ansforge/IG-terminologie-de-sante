@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A20_RolePriseCharge_GenreActivite 
 
- 
-Table d'association rôle / genre d'activité pour la saisie automatique 
-
 
 
 ## Resource Content

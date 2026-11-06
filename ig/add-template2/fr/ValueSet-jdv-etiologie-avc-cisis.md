@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-etiologie-avc-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:57:59.367+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:42:57.104+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.679"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134050",
   "name" : "JdvEtiologieAvcCisis",
   "title" : "JDV Etiologie Avc CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etiologie Avc CISIS",
   "jurisdiction" : [{

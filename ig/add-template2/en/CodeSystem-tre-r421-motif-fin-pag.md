@@ -7,7 +7,7 @@ Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coor
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ403MotifFinPagMs](ValueSet-jdv-j403-motif-fin-pag-ms.md)
+* [Jdv J403 Motif Fin Pag Ms](ValueSet-jdv-j403-motif-fin-pag-ms.md)
 
 -------
 

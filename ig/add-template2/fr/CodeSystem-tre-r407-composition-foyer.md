@@ -7,7 +7,7 @@ Désigne avec qui vit l’usager dans son logement.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md)
+* [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md)
 
 -------
 

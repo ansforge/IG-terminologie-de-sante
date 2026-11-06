@@ -24,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R209-TypeActivite",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:13:47.558+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:12:46.462+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -39,11 +39,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.2.2"
   }],
-  "version" : "20240223120000",
+  "version" : "20260629120000",
   "name" : "TRE_R209_TypeActivite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-23T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type d'activité",
   "jurisdiction" : [{
@@ -55,6 +55,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 52,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1290,6 +1291,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-26T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "54",
+    "display" : "Accueil familial",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J256-Pays",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T17:06:14.026+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T19:06:21.930+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

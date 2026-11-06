@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,15 +38,16 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J83-AutoriteEnregistrement-RASS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:06:52.028+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-29T08:04:57.523+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2019-08-30T12:00:00+01:00"
+      "start" : "2019-08-30T12:00:00+01:00",
+      "end" : "2025-12-22T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
@@ -52,11 +55,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.151"
   }],
-  "version" : "20240628120000",
+  "version" : "20260730120000",
   "name" : "JDV_J83_AutoriteEnregistrement_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autorités d'enregistrement des acteurs de santé du RASS",
   "jurisdiction" : [{

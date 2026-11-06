@@ -8,7 +8,7 @@ Mode de fixation tarifaire
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md)
-* [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md)
+* [Vs Tre R74 Mode Fixation Tarifaire All](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R74-ModeFixationTarifaire",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T20:12:28.986+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:14:49.750+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

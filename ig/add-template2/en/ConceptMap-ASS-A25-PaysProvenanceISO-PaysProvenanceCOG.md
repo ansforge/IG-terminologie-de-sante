@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A25_PaysProvenanceISO_PaysProvenanceCOG 
 
- 
-Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays 
-
 
 
 ## Resource Content

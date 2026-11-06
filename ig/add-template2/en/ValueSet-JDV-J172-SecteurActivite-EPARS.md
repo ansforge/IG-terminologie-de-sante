@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J172-SecteurActivite-EPARS",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T19:02:41.012+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T19:05:34.042+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

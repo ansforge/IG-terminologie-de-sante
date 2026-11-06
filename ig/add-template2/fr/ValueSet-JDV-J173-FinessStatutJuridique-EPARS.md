@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J173-FinessStatutJuridique-EPARS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:05:28.970+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T19:05:34.784+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

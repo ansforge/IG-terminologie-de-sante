@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-conduite-a-tenir-3-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:51.035+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:42:50.734+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.87"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134052",
   "name" : "JdvConduiteATenir3Cisis",
   "title" : "JDV Conduite A Tenir 3 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Conduite A Tenir 3 CISIS",
   "jurisdiction" : [{

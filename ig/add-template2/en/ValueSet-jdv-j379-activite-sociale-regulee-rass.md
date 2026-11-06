@@ -23,8 +23,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -38,9 +36,9 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-j379-activite-sociale-regulee-rass",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:23.737+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-07T17:48:20.117+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

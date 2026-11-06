@@ -8,7 +8,7 @@ Civilité
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J113_Civilite_ENREG](ValueSet-JDV-J113-Civilite-ENREG.md)
-* [JDV_J12_CiviliteTitre_CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
+* [JDV J12 CiviliteTitre CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md)
 * [JDV_J207_Civilite_ROR](ValueSet-JDV-J207-Civilite-ROR.md)
 * [JDV_J245_Civilite_CISIS](ValueSet-JDV-J245-Civilite-CISIS.md)
 * [JDV_J78_Civilite_RASS](ValueSet-JDV-J78-Civilite-RASS.md)
@@ -26,8 +26,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R81-Civilite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:14.696+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:51.672+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

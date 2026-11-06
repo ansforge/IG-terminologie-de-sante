@@ -7,7 +7,8 @@ Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivit
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md)
+* [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md)
+* [Vs Tre R405 Modalite Activite Smsse Regulee All](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md)
 
 -------
 
@@ -22,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r405-modalite-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T20:12:25.162+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T20:14:32.960+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

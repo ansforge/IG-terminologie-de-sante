@@ -7,7 +7,7 @@ Nomenclature des types de budget associés aux Entités Géographiques d'Exercic
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md)
+* [Vs Tre R362 Type Budget All](ValueSet-vs-tre-r362-type-budget-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r362-type-budget",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:10+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:54+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

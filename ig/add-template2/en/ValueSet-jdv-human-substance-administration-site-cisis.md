@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-human-substance-administration-site-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:10.741+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:43:05.839+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.686"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134049",
   "name" : "JdvHumanSubstanceAdministrationSiteCisis",
   "title" : "JDV Human Substance Administration Site CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Human Substance Administration Site CISIS",
   "jurisdiction" : [{
@@ -160,11 +160,11 @@ Requête sur le SMT
       },
       {
         "code" : "1290032005",
-        "display" : "œil droit"
+        "display" : "œil droit proprement dit"
       },
       {
         "code" : "1290031003",
-        "display" : "œil gauche"
+        "display" : "œil gauche proprement dit"
       },
       {
         "code" : "40638003",
@@ -192,7 +192,7 @@ Requête sur le SMT
       },
       {
         "code" : "16217661000119109",
-        "display" : "deltoïde droit"
+        "display" : "deltoïde droit"
       },
       {
         "code" : "25577004",

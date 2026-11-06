@@ -7,7 +7,7 @@ Niveau scolaire de l'usager en France.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md)
+* [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md)
 
 -------
 

@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS 
 
- 
-Association qui permet de deduire l'attribut XDS 'formatCode' à partir de l'attribut 'component/nonXMLBody/text@mediaType' du CDA N1 
-
 
 
 ## Resource Content
@@ -19,7 +16,7 @@ Association qui permet de deduire l'attribut XDS 'formatCode' à partir de l'att
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-02T14:00:56+00:00",
+  "date" : "2026-11-06T13:32:02+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

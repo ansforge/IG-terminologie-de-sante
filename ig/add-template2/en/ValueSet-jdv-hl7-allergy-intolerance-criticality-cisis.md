@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-criticality-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:57:29.589+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:42:26.190+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.129"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134049",
   "name" : "AllergyIntoleranceCriticality",
   "title" : "Allergy Intolerance Criticality",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Allergy Intolerance Criticality",
   "jurisdiction" : [{

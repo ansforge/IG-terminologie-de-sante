@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R48-DiplomeEtatFrancais",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-07-02T18:18:10.480+00:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T20:14:37.978+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

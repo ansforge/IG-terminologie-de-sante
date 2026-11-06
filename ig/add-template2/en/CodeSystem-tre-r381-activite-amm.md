@@ -7,7 +7,7 @@ Nomenclature des activités de soin AMM
 
 This Code system is referenced in the definition of the following value sets:
 
-* [VsTreR381ActiviteAmmAll](ValueSet-vs-tre-r381-activite-amm-all.md)
+* [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r381-activite-amm",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:13+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:01+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

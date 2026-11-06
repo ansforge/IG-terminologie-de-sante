@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "meta" : {
-    "versionId" : "31",
-    "lastUpdated" : "2026-05-05T19:02:51.611+02:00",
+    "versionId" : "36",
+    "lastUpdated" : "2026-11-02T10:33:02.628+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.40"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "JDV_J34_CategorieOrganisation_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation - ROR",
   "jurisdiction" : [{
@@ -376,10 +376,6 @@ Requête sur le SMT
       {
         "code" : "78",
         "display" : "Equipe Mobile Géronto-Psychiatrie (EMGP)"
-      },
-      {
-        "code" : "79",
-        "display" : "Equipe Mobile Ambulatoire de Réadaptation Spécialisé (EARS)"
       },
       {
         "code" : "80",
@@ -1046,10 +1042,6 @@ Requête sur le SMT
         "display" : "Centre Périnatal de Proximité (CPP)"
       },
       {
-        "code" : "252",
-        "display" : "Equipes Mobiles de Soins Palliatifs (EMSP)"
-      },
-      {
         "code" : "253",
         "display" : "Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP)"
       },
@@ -1088,18 +1080,6 @@ Requête sur le SMT
       {
         "code" : "264",
         "display" : "Unité de soins intensifs spécialisés hématologie (USIH)"
-      },
-      {
-        "code" : "265",
-        "display" : "Equipe mobile d'algologie"
-      },
-      {
-        "code" : "266",
-        "display" : "Equipe mobile de gériatrie (EMG)"
-      },
-      {
-        "code" : "267",
-        "display" : "Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"
       },
       {
         "code" : "268",
@@ -1279,7 +1259,43 @@ Requête sur le SMT
       },
       {
         "code" : "313",
-        "display" : "Antennes des urgences"
+        "display" : "Antenne des urgences"
+      },
+      {
+        "code" : "314",
+        "display" : "Centre de Prise en Charge des Auteurs et/ou Auteures de violences conjugales (CPCA)"
+      },
+      {
+        "code" : "315",
+        "display" : "Equipe de Soins Spécialisés (ESS)"
+      },
+      {
+        "code" : "316",
+        "display" : "Société de téléconsultation"
+      },
+      {
+        "code" : "317",
+        "display" : "Unité hospitalière de soins de support"
+      },
+      {
+        "code" : "318",
+        "display" : "Groupe plaies et cicatrisation (dont équipe mobile)"
+      },
+      {
+        "code" : "319",
+        "display" : "Centre du sommeil"
+      },
+      {
+        "code" : "320",
+        "display" : "Offre de relayage au domicile"
+      },
+      {
+        "code" : "321",
+        "display" : "Point d'accès de téléconsultation"
+      },
+      {
+        "code" : "322",
+        "display" : "Centre de Santé et de Médiation en Santé Sexuelle (CSMSS)"
       }]
     }]
   }

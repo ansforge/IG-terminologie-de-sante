@@ -7,7 +7,7 @@ Type de courrier en France.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md)
+* [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md)
 
 -------
 

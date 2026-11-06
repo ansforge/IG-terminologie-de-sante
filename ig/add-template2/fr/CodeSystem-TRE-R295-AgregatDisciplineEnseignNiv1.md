@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R295-AgregatDisciplineEnseignNiv1",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:19.070+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:27.102+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

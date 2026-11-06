@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R245-SpecialisationDePriseEnCharge",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-07-02T18:16:35.233+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-07-29T08:03:38.623+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.41"
   }],
-  "version" : "20250425120000",
+  "version" : "20260730120000",
   "name" : "TRE_R245_SpecialisationDePriseEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialisation de prise en charge",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 68,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -248,14 +249,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "11",
-    "display" : "Troubles spécifiques de la communication et / ou des apprentissages hors TSA",
+    "display" : "Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA"
+      "value" : "Troubles spécifiques de la communication et / ou des apprentissages hors TSA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -263,7 +264,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -272,14 +273,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "12",
-    "display" : "Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)",
+    "display" : "Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)"
+      "value" : "Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -287,7 +288,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -496,14 +497,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "24",
-    "display" : "Handicap à prédominance cognitive avec trouble du comportement",
+    "display" : "Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"
+      "value" : "Handicap à prédominance cognitive avec trouble du comportement"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -511,7 +512,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -552,14 +553,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "27",
-    "display" : "Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement",
+    "display" : "Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs"
+      "value" : "Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -567,7 +568,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -576,22 +577,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "28",
-    "display" : "Maladies d'Alzheimer et apparentée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Maladies d'Alzheimer et apparentées"
-    }],
+    "display" : "Maladies d'Alzheimer et apparentées",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1192,14 +1185,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "66",
-    "display" : "Troubles du neurodéveloppement à prédominance motrice",
+    "display" : "Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)"
+      "value" : "Troubles du neurodéveloppement à prédominance motrice"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1207,7 +1200,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1232,14 +1225,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "68",
-    "display" : "Troubles cognitifs dus à une lésion cérébrale acquise",
+    "display" : "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
+      "value" : "Troubles cognitifs dus à une lésion cérébrale acquise"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1247,7 +1240,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -7,7 +7,7 @@ Type de repas.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md)
+* [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md)
 
 -------
 

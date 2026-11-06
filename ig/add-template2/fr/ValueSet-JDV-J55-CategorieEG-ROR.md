@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J55-CategorieEG-ROR",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-05-05T19:02:53.231+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-11-02T10:33:03.663+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.65"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "JDV_J55_CategorieEG_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
   "jurisdiction" : [{
@@ -475,7 +475,7 @@ Requête sur le SMT
       },
       {
         "code" : "411",
-        "display" : "Intermédiaire de placement social"
+        "display" : "Services accompagnement TDC et ADB"
       },
       {
         "code" : "412",

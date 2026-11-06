@@ -7,7 +7,7 @@ Nomenclature des modes de financement associés aux capacités de certaines acti
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [VsTreR375ModeFinancementAll](ValueSet-vs-tre-r375-mode-financement-all.md)
+* [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r375-mode-financement",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:13+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:59+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

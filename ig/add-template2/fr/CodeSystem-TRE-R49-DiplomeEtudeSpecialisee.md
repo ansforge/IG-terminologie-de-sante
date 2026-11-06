@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R49-DiplomeEtudeSpecialisee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:13.236+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-11-02T10:29:33.945+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.32"
   }],
-  "version" : "20240531120000",
+  "version" : "20261102120000",
   "name" : "TRE_R49_DiplomeEtudeSpecialisee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-05-31T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplôme d'Etudes Spécialisées",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 119,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1375,6 +1376,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DSP13",
+    "display" : "DES Innovation Pharmaceutique et Recherche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

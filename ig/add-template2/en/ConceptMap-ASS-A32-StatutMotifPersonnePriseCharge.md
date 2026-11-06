@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A32_StatutMotifPersonnePriseCharge 
 
- 
-Association du motif au statut de la personne prise en charge 
-
 ### Accés
 
 Pour cette association, les fichiers suivants sont également disponibles :

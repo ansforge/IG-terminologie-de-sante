@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R314-TypeCreneau",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:17:26.761+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:32.633+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

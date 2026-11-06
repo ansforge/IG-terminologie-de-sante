@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J183-Diplome-EPARS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-05-05T19:02:43.990+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-07-29T10:33:49.962+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.240"
   }],
-  "version" : "20260223120000",
+  "version" : "20260730120000",
   "name" : "JDV_J183_Diplome_EPARS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplômes pour l'application EPARS",
   "jurisdiction" : [{
@@ -106,7 +106,7 @@ Requête sur le SMT
       },
       {
         "code" : "DIP322",
-        "display" : "Master en Psychologie ou Psychanalyse"
+        "display" : "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS"
       },
       {
         "code" : "DIP323",

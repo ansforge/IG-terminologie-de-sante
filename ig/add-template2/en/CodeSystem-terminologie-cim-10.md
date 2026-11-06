@@ -22,9 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cim-10",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-04-07T16:50:05.247+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "11.1792424240425",
+    "lastUpdated" : "2026-10-19T17:37:20.425+02:00"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",
   "identifier" : [{

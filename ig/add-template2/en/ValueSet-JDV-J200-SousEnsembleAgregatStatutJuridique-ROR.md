@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J200-SousEnsembleAgregatStatutJuridique-ROR",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:05:43.671+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T19:05:50.445+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

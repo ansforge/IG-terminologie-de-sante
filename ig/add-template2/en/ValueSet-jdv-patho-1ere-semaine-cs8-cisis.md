@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-patho-1ere-semaine-cs8-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:42.741+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:43:38.905+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.704"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134051",
   "name" : "JdvPatho1ereSemaineCs8Cisis",
   "title" : "JDV Patho 1ere Semaine Cs8 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Patho 1ere Semaine Cs8 CISIS",
   "jurisdiction" : [{

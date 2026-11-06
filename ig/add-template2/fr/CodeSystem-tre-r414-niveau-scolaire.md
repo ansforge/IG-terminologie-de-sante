@@ -7,7 +7,7 @@ Niveau scolaire de l'usager en France.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md)
+* [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md)
 
 -------
 

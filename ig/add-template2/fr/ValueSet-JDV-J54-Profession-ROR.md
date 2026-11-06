@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J54-Profession-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:06:36.169+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-11-02T10:33:02.992+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.64"
   }],
-  "version" : "20250523120000",
+  "version" : "20261102120000",
   "name" : "JDV_J54_Profession_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-23T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession de santé - ROR",
   "jurisdiction" : [{
@@ -292,6 +292,17 @@ Requête sur le SMT
       {
         "code" : "351",
         "display" : "Assistant(e) maternel(le)"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
+      "concept" : [{
+        "code" : "133",
+        "display" : "Infirmier expert en plaies et cicatrisation"
+      },
+      {
+        "code" : "134",
+        "display" : "Sexologue"
       }]
     }]
   }

@@ -24,8 +24,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R38-SpecialiteOrdinale",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:18:02.679+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-11-02T10:28:28.961+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -39,11 +39,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.2.28"
   }],
-  "version" : "20240531120000",
+  "version" : "20261102120000",
   "name" : "TRE_R38_SpecialiteOrdinale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-05-31T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialité ordinale",
   "jurisdiction" : [{
@@ -55,6 +55,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 110,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -162,15 +163,15 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SI01",
-    "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)",
-    "definition" : "Exercice infirmier autorisé en pratique avancée pour les pathologies chroniques stabilisées.  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier.",
+    "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)",
+    "definition" : "Suivi des patients chroniques (diabète, HTA, insuffisance cardiaque...), prévention, coordination des parcours, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA pathologies chroniques"
+      "value" : "IPA Pathologies chroniques stabilisées"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -178,7 +179,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -187,15 +188,15 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SI02",
-    "display" : "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)",
-    "definition" : "Exercice infirmier autorisé en pratique avancée en oncologie et hémato-oncologie  La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier.",
+    "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)",
+    "definition" : "Prise en charge des cancers et maladies du sang, administration de traitements, gestion des effets secondaires, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA oncologie"
+      "value" : "IPA Oncologie et hémato-oncologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -203,7 +204,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -212,23 +213,15 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SI03",
-    "display" : "Exercice infirmier en pratique avancée maladie rénale chronique (SI)",
-    "definition" : "Exercice infirmier autorisé en pratique avancée en maladie rénale. chronique, dialyse et transplantation rénale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier.",
+    "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)",
+    "definition" : "Suivi des patients insuffisants rénaux, gestion de la dialyse, accompagnement à la transplantation, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA maladie rénale"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+      "value" : "IPA Maladie rénale chronique, dialyse, transplantation rénale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -236,7 +229,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -245,15 +238,15 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SI04",
-    "display" : "Exercice infirmier en pratique avancée santé mentale (SI)",
-    "definition" : "Exercice infirmier autorisé en pratique avancée en santé mentale. La notion de spécialité ordinale a été introduite sachant qu'il est nécessaire de distinguer l'exercice d'IPA de celui d'infirmier et que le diplôme ne suffit  pas pour autoriser l'exercice d'IPA. Il faut 3 ans de pratique infirmière pour pouvoir exercer comme IPA; mais le cursus d'IPA peut être accessible dans le prolongement du DE d'infirmier.  Un IPA peut exercer des activités d'IPA dans plusieurs spécialités, mais aussi, plus fréquemment cumuler des activités d'IPA et d'activité d'infirmier polyvalent du niveau du DE Infirmier.",
+    "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)",
+    "definition" : "Suivi des troubles psychiatriques, entretiens cliniques, prescription de psychotropes, coordination des soins, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA santé mentale"
+      "value" : "IPA Psychiatrie et santé mentale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -261,7 +254,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -270,15 +263,15 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SI05",
-    "display" : "Exercice infirmier en pratique avancée urgences (SI)",
-    "definition" : "Le décret n°2021-1384 du 25 octobre 2021 relatif à l'exercice en pratique avancée de la profession d'infirmiers (IPA) dans le domaine d'intervention des urgences a inscrit les « urgences » comme nouveau domaine d'intervention de l'infirmier en pratique avancé. C'est le 5e domaine d'exercice des IPA ainsi acté (après pathologies chroniques stabilisées ; oncologie et hémato-oncologie ; maladie rénale chronique, dialyse et transplantation rénale ; santé mentale).",
+    "display" : "Infirmier(ère) en pratique avancée Urgences (SI)",
+    "definition" : "Prise en charge des situations d'urgence, gestes techniques, gestion du stress, collaboration avec urgentistes, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "IPA urgences"
+      "value" : "IPA Urgences"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -286,7 +279,82 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "SI06",
+    "display" : "Infirmier(ère) de bloc opératoire (SI)",
+    "definition" : "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IBODE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "SI07",
+    "display" : "Infirmier(ère) anesthésiste (SI)",
+    "definition" : "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IADE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "SI08",
+    "display" : "Infirmier(ère) puériculteur(trice)",
+    "definition" : "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPDE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2103,14 +2171,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "SM76",
-    "display" : "Anesthésie-réanimation opt anesthésie-pédiatrique (SM)",
+    "display" : "Anesthésie-réanimation opt réanimation-pédiatrique (SM)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Anesth-réanim opt anesth-pédia"
+      "value" : "Anesth-réanim opt réanim-pédia"
     },
     {
       "language" : "fr-FR",
@@ -2118,7 +2186,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+      "value" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2126,7 +2194,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-05-31T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

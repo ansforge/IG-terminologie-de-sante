@@ -9,9 +9,9 @@ This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md)
 * [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
-* [JdvContexteActiviteCisis](ValueSet-jdv-contexte-activite-cisis.md)
-* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
-* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
+* [JDV Contexte Activite CISIS](ValueSet-jdv-contexte-activite-cisis.md)
+* [JDV Traitement Suivi CISIS](ValueSet-jdv-traitement-suivi-cisis.md)
+* [JDV Type Prise En Charge CISIS](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 -------
 
@@ -26,8 +26,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2026-05-05T20:11:56.538+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-07-06T20:12:51.597+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -42,11 +42,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.13"
   }],
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "TRE_R213_ModePriseEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge",
   "jurisdiction" : [{
@@ -58,7 +58,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 59,
+  "count" : 60,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1480,6 +1480,22 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "60",
+    "display" : "Dispositif expérimental",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

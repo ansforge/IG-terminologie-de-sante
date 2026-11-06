@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J259-ModeFixationTarifaire-RASS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-12-18T16:47:49.579+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T19:06:23.937+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

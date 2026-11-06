@@ -7,7 +7,7 @@ Type de repas.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md)
+* [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md)
 
 -------
 

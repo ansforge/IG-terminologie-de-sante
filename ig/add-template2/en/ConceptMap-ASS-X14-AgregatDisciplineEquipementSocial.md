@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X14_AgregatDisciplineEquipementSocial 
 
- 
-ASS_X14_AgregatDisciplineEquipementSocial 
-
 ### Accés
 
 Pour cette association, seuls les fichiers sont disponibles :
@@ -27,7 +24,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X14_AgregatDisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-02T14:00:56+00:00",
+  "date" : "2026-11-06T13:32:02+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

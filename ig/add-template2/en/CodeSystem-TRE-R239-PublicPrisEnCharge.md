@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R239-PublicPrisEnCharge",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-05-05T20:11:57.717+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-29T08:03:37.116+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -38,11 +38,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.29"
   }],
-  "version" : "20260330120000",
+  "version" : "20260730120000",
   "name" : "TRE_R239_PublicPrisEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Public pris en charge",
   "jurisdiction" : [{
@@ -54,7 +54,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 10,
+  "count" : 11,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -93,7 +93,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "concept" : [{
     "code" : "01",
-    "display" : "Personnes âgées en perte d'autonomie et aidants",
+    "display" : "Personnes âgées en perte d'autonomie (PA) et aidants",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -108,7 +108,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes âgées en perte d'autonomie (PA) et aidants"
+      "value" : "Personnes âgées en perte d'autonomie et aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -116,7 +116,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -125,7 +125,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "02",
-    "display" : "Personnes en situation de handicap et aidants",
+    "display" : "Personnes en situation de handicap (PH) et aidants",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -140,7 +140,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes en situation de handicap (PH) et aidants"
+      "value" : "Personnes en situation de handicap et aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -148,7 +148,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -277,7 +277,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "09",
-    "display" : "Personnes atteintes de pathologies chroniques ou présentant une ALD",
+    "display" : "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -292,7 +292,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
+      "value" : "Personnes atteintes de pathologies chroniques ou présentant une ALD"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -300,7 +300,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-04-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -309,22 +309,30 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "10",
-    "display" : "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Victime de violence"
-    }],
+    "display" : "Victime de violence",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Auteur de violence ou à risque de violence",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

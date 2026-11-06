@@ -7,7 +7,7 @@ Considération(s) de droit ou de fait qui constituent le fondement de la proposi
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md)
+* [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md)
 
 -------
 

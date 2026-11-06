@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-SpecimenRoleType-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:59:40.528+02:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-09-28T15:44:28.081+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.16515"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134052",
   "name" : "SpecimenRoleType",
   "title" : "SpecimenRoleType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "SpecimenRoleType",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "2018-08-12",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "C",
         "display" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"

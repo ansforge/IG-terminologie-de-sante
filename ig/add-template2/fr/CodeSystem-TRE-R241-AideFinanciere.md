@@ -8,7 +8,7 @@ Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md)
-* [JdvJ354HabilitationFiness](ValueSet-jdv-j354-habilitation-finess.md)
+* [Jdv J354 Habilitation Finess](ValueSet-jdv-j354-habilitation-finess.md)
 
 -------
 
@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R241-AideFinanciere",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:11:58.157+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:03.117+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R369-ProfilUtilisateurReferentielNational",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:17:59.592+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-09-28T10:28:03.913+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.255"
   }],
-  "version" : "20250328120000",
+  "version" : "20260928120000",
   "name" : "TRE_R369_ProfilUtilisateurReferentielNational",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profils utilisateur d'un référentiel national",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 11,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -136,14 +137,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "RESP_OFFRE_STRUCT",
-    "display" : "Responsable Offre de structure",
+    "display" : "Responsable de structure",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",

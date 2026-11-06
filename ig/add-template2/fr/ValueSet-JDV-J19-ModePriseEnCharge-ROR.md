@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J19-ModePriseEnCharge-ROR",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-05T19:02:44.451+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T19:05:50.092+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.1"
   }],
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "JDV_J19_ModePriseEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge - ROR",
   "jurisdiction" : [{
@@ -212,6 +212,10 @@ Requête sur le SMT
       {
         "code" : "59",
         "display" : "Equipe d'intervention mobile"
+      },
+      {
+        "code" : "60",
+        "display" : "Dispositif expérimental"
       }]
     }]
   }

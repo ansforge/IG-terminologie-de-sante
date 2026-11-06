@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-06-01T20:12:21.877+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:44.830+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

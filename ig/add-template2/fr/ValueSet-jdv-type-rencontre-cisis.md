@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-type-rencontre-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:59:28.201+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-09-29T11:27:21.366+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +54,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.291"
   }],
-  "version" : "20260420150251",
+  "version" : "20260916095457",
   "name" : "JdvTypeRencontreCisis",
   "title" : "JDV Type Rencontre CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-16T09:54:57+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Rencontre CISIS",
   "jurisdiction" : [{

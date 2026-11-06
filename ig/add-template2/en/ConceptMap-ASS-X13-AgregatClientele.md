@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X13_AgregatClientele 
 
- 
-Association d'agrégats de clientèle 
-
 
 
 ## Resource Content

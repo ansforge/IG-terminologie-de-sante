@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unknown Code System)
+
 -------
 
  [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J10-XdsFormatCode-CISIS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-11-04T19:01:58.541+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-09-28T10:32:25.657+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +54,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.465"
   }],
-  "version" : "20251029120000",
+  "version" : "20260928120000",
   "name" : "JDV_J10_XdsFormatCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS formatCode documents CI-SIS",
   "jurisdiction" : [{
@@ -318,10 +320,10 @@ Requête sur le SMT
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
+      "system" : "http://dicom.nema.org/resources/ontology/DCMUID",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
-        "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
+        "display" : "Key Object Selection Document Storage"
       }]
     },
     {

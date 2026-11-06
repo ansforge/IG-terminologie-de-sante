@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-03-11T15:27:49.552+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-09-28T11:42:23.059+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -55,7 +57,7 @@ Requête sur le SMT
   "version" : "20260311144904",
   "name" : "DaysOfWeek",
   "title" : "DaysOfWeek",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

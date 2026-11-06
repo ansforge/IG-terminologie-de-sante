@@ -7,7 +7,7 @@ Considération(s) de droit ou de fait qui constituent le fondement de la proposi
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md)
+* [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md)
 
 -------
 

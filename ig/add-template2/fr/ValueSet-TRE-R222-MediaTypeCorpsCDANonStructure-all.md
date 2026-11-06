@@ -50,7 +50,7 @@ Requête sur le SMT
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-02T14:00:56+00:00",
+  "date" : "2026-11-06T13:32:02+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

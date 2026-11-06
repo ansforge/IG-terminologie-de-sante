@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R50-DESCGroupe1Diplome",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:14.272+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:39.045+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

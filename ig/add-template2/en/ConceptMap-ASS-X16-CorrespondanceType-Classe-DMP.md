@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X16_CorrespondanceType_Classe_DMP 
 
- 
-Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP 
-
 
 
 ## Resource Content

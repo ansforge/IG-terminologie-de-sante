@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J286-ProfilUtilisateurReferentielNational-ROR",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:24.055+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-09-28T10:32:34.932+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.256"
   }],
-  "version" : "20250328120000",
+  "version" : "20260928120000",
   "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profils utilisateurs du ROR National",
   "jurisdiction" : [{
@@ -83,7 +83,7 @@ Requête sur le SMT
       },
       {
         "code" : "RESP_OFFRE_STRUCT",
-        "display" : "Responsable Offre de structure"
+        "display" : "Responsable de structure"
       },
       {
         "code" : "RESP_DISPO_PLACE",

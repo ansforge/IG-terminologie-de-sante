@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R359-SurspecialiteTransversale",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-12-22T10:46:45.929+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:13:52.702+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

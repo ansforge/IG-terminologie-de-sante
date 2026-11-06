@@ -23,7 +23,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansions are not generated for retired value sets
 
 -------
 
@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-mso-resultat-qualitatif-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-11T15:28:43.504+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-06-17T11:43:00.919+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -57,7 +57,7 @@ No Expansion for this valueset (Unknown Code System)
   "version" : "20260311144903",
   "name" : "JdvMsoResultatQualitatifCisis",
   "title" : "Jdv MSO Resultat Qualitatif CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J254-CategorieEtablissementESSMSPH",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:12.685+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:06:19.813+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X12-CommuneDeptRegionOM 
 
- 
-Association communes - départements - régions (outre-mer et Monaco inclus) 
-
 
 
 ## Resource Content

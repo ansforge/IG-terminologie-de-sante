@@ -12,7 +12,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 This Code system is referenced in the definition of the following value sets:
 
 * [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
-* [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md)
+* [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md)
 
 -------
 

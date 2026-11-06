@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-batterie-examen-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:41.033+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:42:37.386+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.102"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134054",
   "name" : "JdvBatterieExamenCisis",
   "title" : "JDV Batterie Examen CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:54+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Batterie Examen CISIS",
   "jurisdiction" : [{
@@ -71,10 +71,6 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "GEN-078",
-        "display" : "Dépistage de la trisomie 21"
-      },
-      {
         "code" : "ORG-079",
         "display" : "Nombre total d'échographies"
       },
@@ -92,6 +88,13 @@ Requête sur le SMT
       "concept" : [{
         "code" : "51659-1",
         "display" : "Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "315115008",
+        "display" : "dépistage de la trisomie 21"
       }]
     }]
   }

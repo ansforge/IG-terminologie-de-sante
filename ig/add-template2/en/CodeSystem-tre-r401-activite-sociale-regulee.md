@@ -12,7 +12,11 @@ Cette TRE possède des propriétés spécifiques :
 
 This Code system is referenced in the definition of the following value sets:
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Jdv J323 Activite Sociale Regulee Finess](ValueSet-jdv-j323-activite-sociale-regulee-finess.md)
+* [Jdv J324 Activite Sociale Regulee Niv1 Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md)
+* [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md)
+* [Jdv J326 Activite Sociale Regulee Niv3 Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md)
+* [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md)
 
 -------
 
@@ -27,8 +31,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r401-activite-sociale-regulee",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-06-01T20:12:21.296+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:14:30.392+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -38,7 +42,7 @@ This Code system is referenced in the definition of the following value sets:
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://example.org/CodeSystem/tre-r401-activite-sociale-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.380"

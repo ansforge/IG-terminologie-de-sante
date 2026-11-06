@@ -10,7 +10,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 * [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md)
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
+* [JDV Structure De Soins CISIS](ValueSet-jdv-structure-de-soins-cisis.md)
 
 -------
 
@@ -25,8 +25,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2026-05-06T17:57:47.986+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-11-02T10:29:38.818+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -41,11 +41,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
   }],
-  "version" : "20260505120000",
+  "version" : "20261102120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [{
@@ -6801,22 +6801,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "411",
-    "display" : "Intermédiaire de Placement Social",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Interméd.Pla.Social"
-    }],
+    "display" : "Services accompagnement TDC et ADB",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-11-02T00:00:00+01:00"
     },
     {
       "code" : "status",

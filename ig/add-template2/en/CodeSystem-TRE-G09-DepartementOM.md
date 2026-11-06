@@ -25,8 +25,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-05-05T20:11:49.658+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-07-06T20:12:28.976+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

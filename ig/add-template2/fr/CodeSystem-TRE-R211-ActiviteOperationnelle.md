@@ -8,7 +8,7 @@ Activite Operationnelle
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md)
-* [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
+* [JDV J69 ActiviteOperationnelle Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 -------
 
@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-06-01T20:12:09.761+02:00",
+    "versionId" : "34",
+    "lastUpdated" : "2026-11-02T10:28:22.627+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -39,11 +39,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260601120000",
+  "version" : "20261102120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -55,7 +55,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 617,
+  "count" : 639,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -2015,7 +2015,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "106",
-    "display" : "Orthoptie",
+    "display" : "Orthoptie : exploration et rééducation de la fonction visuelle",
     "definition" : "Discipline paramédicale spécialisée dans le dépistage, la rééducation et l'exploration de la fonction visuelle.",
     "property" : [{
       "code" : "dateValid",
@@ -2023,7 +2023,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2802,12 +2802,20 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6256,15 +6264,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "334",
-    "display" : "Activité de prévention",
+    "display" : "Activité de dépistage et de prévention",
     "definition" : "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Activité de prévention"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6836,14 +6852,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "369",
-    "display" : "Soins intensifs spécialisés néonatalogique",
+    "display" : "Soins intensifs spécialisés néonatalogie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6852,14 +6868,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "370",
-    "display" : "Soins intensifs spécialisés pédiatrique",
+    "display" : "Soins intensifs pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7589,14 +7605,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "414",
-    "display" : "Soins de support en oncologie et hématologie",
+    "display" : "Soins de support",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-02-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-02-28T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8228,7 +8244,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "451",
-    "display" : "Exploration et prise en charge des troubles du sommeil",
+    "display" : "Exploration des troubles du sommeil",
     "definition" : "Cette exploration consiste en des examens qui permettent d'enregistrer et d'analyser le sommeil au plan neurologique, respiratoire et cardiologique, ils comprennent entre autres la polysomnographie (correspond à l'exploration nocturne), des tests de maintien d'éveil et des tests de latence d'endormissement correspondent à l'exploration diurne",
     "property" : [{
       "code" : "dateValid",
@@ -8236,7 +8252,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-04-29T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8831,7 +8847,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "480",
-    "display" : "Médecine du sommeil",
+    "display" : "Médecine du sommeil (prise en charge des troubles du sommeil)",
     "definition" : "(= hypnologie ou somnologie) est la branche de la médecine spécialisée dans le diagnostic et le traitement des troubles de la vigilance (somnolence excessive) et du sommeil (insomnies, parasomnies).",
     "property" : [{
       "code" : "dateValid",
@@ -8839,7 +8855,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-10-28T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11166,6 +11182,405 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "618",
+    "display" : "Collecte de don de lait maternel cru",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "619",
+    "display" : "Distribution de lait maternel pasteurisé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "620",
+    "display" : "Bilan psychomoteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "621",
+    "display" : "Soin psychomoteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "622",
+    "display" : "Education psychomotrice (pédagogie du développement psychomoteur)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "623",
+    "display" : "Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Stimulation psychomotrice (fonctionnement psychomoteur à visée préventive)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "624",
+    "display" : "Rééducation de la graphomotricité et de l’écriture (dysgraphie)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "625",
+    "display" : "Orthoptie orientation neurovisuelle adulte (pathologies neurologiques, maladies neurodégénératives)",
+    "definition" : "Activité orthoptique dédiée au repérage, à l'évaluation et à la prise en soins des troubles neurovisuels de l'adulte consécutifs à une atteinte neurologique acquise, neuro-ophtalmologique, neurodégénérative ou une lésion cérébrale acquise : troubles oculomoteurs, altérations du champ visuel d'origine neurologique, hémianopsie, négligence spatiale unilatérale, troubles de la cognition visuelle.  Cette activité contribue au diagnostic fonctionnel, à l'élaboration du projet de soins, à la prise en soins neurovisuelle, au suivi de l'évolution et à l'évaluation de l'efficacité des prises en soins.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orthoptie : orientation troubles neuro-visuels"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "626",
+    "display" : "Orthoptie Basse Vision adulte",
+    "definition" : "Activité orthoptique dédiée à l'évaluation de la fonction visuelle, sensori-motrice et perceptivo-cognitive, à la prise en soins et  à l'accompagnement des personnes présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer les stratégies de compensation et à favoriser l'autonomie dans les activités de la vie quotidienne, de formation, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "627",
+    "display" : "Orthoptie orientation pédiatrique",
+    "definition" : "Activité orthoptique spécialisée dans le dépistage, l'évaluation et la prise en soins de la fonction visuelle des nourrissons, enfants et adolescents présentant des troubles visuels sensori-moteurs et / ou neurovisuels. Cette activité participe au dépistage précoce, au diagnostic fonctionnel, au suivi et à la rééducation des troubles susceptibles d'altérer le développement visuel, les apprentissages ou l'autonomie en utilisant des conditions d'examen adaptées à l'âge, y compris à l'enfant non verbal ou en situation de handicap.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "628",
+    "display" : "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dispense de médicaments et autres produits de santé du monopole pharma"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "629",
+    "display" : "Conseil et accompagnement dans la gestion des traitements",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "630",
+    "display" : "Evaluation et accompagnement des auteurs de violences conjugales",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "631",
+    "display" : "Orientation et coordination de plaies et cicatrisations complexes et/ou chroniques",
+    "definition" : "C'est l'activité d'appui et de coordination du parcours de soins des patients porteurs de plaies dont le délai de cicatrisation est allongé au-delà de 4 à 6 semaines (plaies chroniques) ou dont la complexité nécessite une expertise pluridisciplinaire spécialisée (ulcères veineux ou artériels, escarres, plaies du pied diabétique, plaies post-chirurgicales difficiles, etc), en orientant les professionnels de santé de premier recours et en coordonnant les interventions des différents acteurs jusqu'à la stabilisation ou la cicatrisation.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orientation et coordination de plaies et cicatrisations complexes / chroniques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "632",
+    "display" : "Médecine nucléaire - Diagnostic",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "633",
+    "display" : "Médecine nucléaire - Thérapie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "634",
+    "display" : "Orthoptie orientation neurovisuelle enfant",
+    "definition" : "Activité orthoptique dédiée à l'évaluation de la fonction visuelle sensori-motrice et perceptivo-cognitive, à l'évaluation fonctionnelle des capacités visuelles résiduelles ainsi qu'à la prise en soins et à l'accompagnement de l'enfant présentant une déficience visuelle permanente ou évolutive. Elle vise à optimiser l'utilisation du potentiel visuel résiduel, à développer le contexte perceptivo-cognitif visuel, les stratégies de compensation, l'apprentissage de l'utilisation des aides optiques et non optiques, ainsi qu'à favoriser l'autonomie dans les activités de la vie quotidienne, scolaires, professionnelles et de loisirs. Cette activité comprend l'évaluation des besoins, le conseil dans le choix et l'utilisation des aides optiques et non optiques, ainsi que l'accompagnement à leur appropriation.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "635",
+    "display" : "Orthoptie Basse Vision enfant",
+    "definition" : "Activité orthoptique dédiée à l'évaluation et à la prise en soins des troubles neurovisuels de l'enfant (altérations du champ visuel d'origine neurologique, troubles de la mémoire visuelle, troubles de l'oculomotricité et des stratégies du regard, troubles visuo-attentionnels, visuo-spatiaux et gnosiques), notamment dans le cadre des troubles du neurodéveloppement, des troubles des apprentissages et des atteintes neurologiques pédiatriques, en coordination avec l'équipe pluridisciplinaire.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "636",
+    "display" : "Psychiatrie et médiation transculturelle",
+    "definition" : "Activité de soins psychiatriques spécialisée qui prend en compte la dimension culturelle du patient, notamment les migrants, réfugiés et leurs enfants, pour comprendre l'expression de leur souffrance psychique et lever les obstacles aux soins lorsque les prises en charge habituelles sont inefficaces. Elle associe une approche psychothérapeutique transculturelle, conduite par une équipe plurilingue et transdisciplinaire, et une médiation ponctuelle faisant intervenir un médiateur culturel pour débloquer des situations de rupture dans le projet de soins.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "637",
+    "display" : "Santé sexuelle à approche communautaire (trans, travailleur/travailleuse du sexe, chemsexeur …)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Santé sexuelle à approche communautaire (trans, TDS, chemsexeur …)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "638",
+    "display" : "Stomathérapie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "639",
+    "display" : "Epileptologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R45-FonctionQualifiee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:07.759+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:36.983+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

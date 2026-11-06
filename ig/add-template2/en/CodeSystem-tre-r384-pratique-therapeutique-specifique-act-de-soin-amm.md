@@ -7,7 +7,7 @@ Nomenclature des pratiques thérapeutiques spécifiques pour les activités de s
 
 This Code system is referenced in the definition of the following value sets:
 
-* [VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md)
+* [Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:15+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:03+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

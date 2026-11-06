@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A13_TypeEvenement_FluxStandardise 
 
- 
-Correspondance entre un type d'évènement et le flux standardisé correspondant 
-
 
 
 ## Resource Content

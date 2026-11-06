@@ -15,7 +15,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
 * [JDV_J59_ContentTypeCode_DMP](ValueSet-JDV-J59-ContentTypeCode-DMP.md)
 * [JDV_J61_HealthcareFacilityTypeCode_DMP](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.md)
-* [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
+* [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
 
 -------
 
@@ -30,8 +30,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R02-SecteurActivite",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-05-05T20:11:50.301+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-07-06T20:12:35.191+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

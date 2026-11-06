@@ -8,8 +8,8 @@ Type de rencontre
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J142_TypeRencontre_CISIS](ValueSet-JDV-J142-TypeRencontre-CISIS.md)
-* [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md)
-* [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md)
+* [JDV Encompassing Encounter Code CISIS](ValueSet-jdv-encompassing-encounter-code-cisis.md)
+* [JDV Type Rencontre CISIS](ValueSet-jdv-type-rencontre-cisis.md)
 
 -------
 
@@ -24,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R305-TypeRencontre",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:25.683+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:13:31.792+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -9,7 +9,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md)
 * [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md)
-* [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
+* [x_ActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
 
 -------
 

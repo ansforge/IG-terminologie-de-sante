@@ -8,7 +8,7 @@ Permet de préciser le statut des capacités concernées
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md)
-* [JdvJ353TypeStatutCapaciteFiness](ValueSet-jdv-j353-type-statut-capacite-finess.md)
+* [Jdv J353 Type Statut Capacite Finess](ValueSet-jdv-j353-type-statut-capacite-finess.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R330-TypeStatutCapacite",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T20:12:05.141+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-07-06T20:13:39.513+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J91-TypeSavoirFaire-RASS",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-11-04T19:02:09.071+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-06T19:07:03.428+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J149-BodySiteBP-ENS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-18T16:47:39.232+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T19:05:13.784+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

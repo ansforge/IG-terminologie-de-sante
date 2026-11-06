@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v2-0066-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:57:31.190+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:42:27.799+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.21.29"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134053",
   "name" : "Hl7VSEmploymentStatus",
   "title" : "hl7VS-employmentStatus",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:53+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "hl7VS-employmentStatus",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0066",
-      "version" : "2.9",
+      "version" : "3.0.0",
       "concept" : [{
         "code" : "1",
         "display" : "Employé à temps plein"

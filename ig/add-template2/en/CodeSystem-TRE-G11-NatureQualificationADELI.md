@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-G11-NatureQualificationADELI",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-10-31T14:58:00.535+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:12:29.977+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

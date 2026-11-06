@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R90-TypeAE",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:21.337+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:14:55.222+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.74"
   }],
-  "version" : "20231215120000",
+  "version" : "20260629120000",
   "name" : "TRE_R90_TypeAE",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type Autorité d'enregistrement",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 6,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -128,6 +129,54 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Direction régionale et de l'Hébergement et du Logement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Agence nationales",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

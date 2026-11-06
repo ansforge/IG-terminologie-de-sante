@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A30_TypeAutorisation_Profession_EPARS 
 
- 
-Table d'association entre les types d'autorisations et les professions de santé, médico-sociales ou sociales 
-
 
 
 ## Resource Content

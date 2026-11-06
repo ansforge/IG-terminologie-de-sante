@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-category-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-04-21T14:12:24.914+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-09-28T15:42:25.780+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -54,12 +54,12 @@ No Expansion for this valueset (Unknown Code System)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.133"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134048",
   "name" : "AllergyIntoleranceCategory",
   "title" : "AllergyIntoleranceCategory",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:48+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "AllergyIntoleranceCategory",
   "jurisdiction" : [{
@@ -71,7 +71,7 @@ No Expansion for this valueset (Unknown Code System)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "system" : "http://hl7.org/fhir/codesystem-allergy-intolerance-category.html",
       "concept" : [{
         "code" : "food",
         "display" : "aliment"

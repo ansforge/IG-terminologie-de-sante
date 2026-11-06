@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-localisation-sonde-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:59:32.266+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:44:21.734+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.15"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134055",
   "name" : "JdvUfcvLocalisationSondeCisis",
   "title" : "JDV UFCV Localisation Sonde CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:55+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Localisation Sonde CISIS",
   "jurisdiction" : [{
@@ -103,11 +103,11 @@ Requête sur le SMT
       },
       {
         "code" : "44627009",
-        "display" : "voie efférente du ventricule droit"
+        "display" : "voie d'éjection du ventricule droit"
       },
       {
         "code" : "6871001",
-        "display" : "péricarde viscéral"
+        "display" : "feuillet viscéral du péricarde séreux"
       },
       {
         "code" : "68300000",

@@ -8,7 +8,7 @@ Activités sanitaires soumises à une régulation de la part de l'ARS
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md)
-* [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md)
+* [Vs Tre R274 Activite Sanitaire Regulee All](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md)
 
 -------
 
@@ -23,8 +23,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R274-ActiviteSanitaireRegulee",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:00.999+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-08-27T15:13:04.905+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +38,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.126"
   }],
-  "version" : "20231215120000",
+  "version" : "20260827120000",
   "name" : "TRE_R274_ActiviteSanitaireRegulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-08-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activités sanitaires soumises à une régulation de la part de l'ARS",
   "jurisdiction" : [{
@@ -55,7 +55,7 @@ This Code system is referenced in the definition of the following value sets:
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
   "content" : "complete",
-  "count" : 66,
+  "count" : 78,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -869,6 +869,182 @@ This Code system is referenced in the definition of the following value sets:
     }]
   },
   {
+    "code" : "A8",
+    "display" : "Greffe de face ou de face inférieure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "A9",
+    "display" : "Greffe unilatérale ou bilatérale de main",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "B0",
+    "display" : "Prélèvement de cellules mononuclées autologues",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "B1",
+    "display" : "Prélèvement de cellules mononuclées allogéniques",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "C1",
+    "display" : "Greffe unilatérale ou bilatérale d'avant-bras",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "C3",
+    "display" : "Greffe unilatérale ou bilatérale de bras",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "D1",
+    "display" : "Greffe de membre inférieur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F4",
+    "display" : "Greffe de langue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F9",
+    "display" : "Greffe de pénis",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "H2",
+    "display" : "Greffe de paroi abdominale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "H3",
+    "display" : "Greffe de tissus cutanés conjonctifs et vasculo- nerveux",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "R1",
     "display" : "Addictologie",
     "property" : [{
@@ -1118,6 +1294,22 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "S8",
+    "display" : "Maison de naissance",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-08-27T00:00:00+01:00"
     },
     {
       "code" : "status",

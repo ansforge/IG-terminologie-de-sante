@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R322-BesoinMobilite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:31.508+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T20:13:35.903+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

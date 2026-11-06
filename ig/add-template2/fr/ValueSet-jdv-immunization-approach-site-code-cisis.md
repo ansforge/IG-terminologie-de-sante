@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-immunization-approach-site-code-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:11.216+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:43:07.060+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.621"
   }],
-  "version" : "20260420150249",
+  "version" : "20260928134049",
   "name" : "JdvImmunizationApproachSiteCodeCisis",
   "title" : "JDV Immunization Approach Site Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-09-28T13:40:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Immunization Approach Site Code CISIS",
   "jurisdiction" : [{
@@ -88,11 +88,11 @@ Requête sur le SMT
       },
       {
         "code" : "91774008",
-        "display" : "épaule droite"
+        "display" : "région de l'épaule droite"
       },
       {
         "code" : "91775009",
-        "display" : "épaule gauche"
+        "display" : "région de l'épaule gauche"
       },
       {
         "code" : "11207009",

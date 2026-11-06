@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J221-NatureContact-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:05:55.584+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T19:06:01.241+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

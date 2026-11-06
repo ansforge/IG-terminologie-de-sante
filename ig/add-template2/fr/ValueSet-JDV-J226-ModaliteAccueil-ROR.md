@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J226-ModaliteAccueil-ROR",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-05-05T19:02:46.670+02:00",
+    "versionId" : "21",
+    "lastUpdated" : "2026-09-28T10:32:33.622+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.58"
   }],
-  "version" : "20260330120000",
+  "version" : "20260928120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-09-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
       },
       {
         "code" : "05",
-        "display" : "Visite à domicile"
+        "display" : "Visite et soins à domicile"
       },
       {
         "code" : "06",
@@ -112,10 +112,6 @@ Requête sur le SMT
       {
         "code" : "11",
         "display" : "Téléexpertise en moins de 7 jours"
-      },
-      {
-        "code" : "12",
-        "display" : "Téléexpertise en plus de 7 jours"
       },
       {
         "code" : "13",
@@ -167,11 +163,11 @@ Requête sur le SMT
       },
       {
         "code" : "25",
-        "display" : "Relayage courte durée (quelques heures par jour)"
+        "display" : "Relayage courte durée (< un jour)"
       },
       {
         "code" : "26",
-        "display" : "Relayage longue durée (sur plusieurs jours)"
+        "display" : "Relayage longue durée (> un jour)"
       }]
     }]
   }

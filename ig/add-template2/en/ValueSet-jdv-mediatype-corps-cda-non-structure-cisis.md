@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mediatype-corps-cda-non-structure-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:45:00.406+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-09-29T11:27:20.954+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -55,7 +57,7 @@ Requête sur le SMT
   "version" : "20251216141839",
   "name" : "JdvMediatypeCorpsCdaNonStructureCisis",
   "title" : "Jdv Mediatype Corps Cda Non Structure CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

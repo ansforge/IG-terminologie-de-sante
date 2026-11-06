@@ -9,7 +9,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [JDV_J162_ESPIC_RASS](ValueSet-JDV-J162-ESPIC-RASS.md)
 * [JDV_J202_ESPIC_ROR](ValueSet-JDV-J202-ESPIC-ROR.md)
-* [VsTreR73EspicAll](ValueSet-vs-tre-r73-espic-all.md)
+* [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md)
 
 -------
 
@@ -24,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R73-ESPIC",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-05-05T20:12:28.443+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-07-06T20:14:49.288+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

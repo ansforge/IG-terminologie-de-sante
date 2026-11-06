@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "JDV-J51-FamilleActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2024-04-27T05:07:50.820+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T19:06:38.930+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

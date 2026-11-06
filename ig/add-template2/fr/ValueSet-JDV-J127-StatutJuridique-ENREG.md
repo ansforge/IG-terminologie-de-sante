@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J127-StatutJuridique-ENREG",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:04:56.118+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T19:05:00.412+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

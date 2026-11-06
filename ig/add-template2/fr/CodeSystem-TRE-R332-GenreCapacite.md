@@ -8,7 +8,7 @@ Permet d'indiquer le genre des patients qui peuvent être installés dans des li
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J190_GenreCapacite_ROR](ValueSet-JDV-J190-GenreCapacite-ROR.md)
-* [JdvJ357GenreCapaciteFiness](ValueSet-jdv-j357-genre-capacite-finess.md)
+* [Jdv J357 Genre Capacite Finess](ValueSet-jdv-j357-genre-capacite-finess.md)
 
 -------
 
@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R332-GenreCapacite",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-05T20:12:05.518+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:13:40.339+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

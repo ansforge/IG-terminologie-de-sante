@@ -7,7 +7,7 @@ The verification status to support or decline the clinical status of the conditi
 
 This Code system is referenced in the definition of the following value sets:
 
-* [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
+* [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
 
 -------
 

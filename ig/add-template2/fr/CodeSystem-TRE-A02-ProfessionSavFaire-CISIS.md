@@ -9,10 +9,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
-* [JdvAvisMedicalComplementaireCisis](ValueSet-jdv-avis-medical-complementaire-cisis.md)
-* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
-* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
-* [JdvReadaptationCisis](ValueSet-jdv-readaptation-cisis.md)
+* [JDV Avis Medical Complementaire CISIS](ValueSet-jdv-avis-medical-complementaire-cisis.md)
+* [JDV Patient adresse par CISIS](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JDV Profession Personnel Activite CISIS](ValueSet-jdv-profession-personnel-activite-cisis.md)
+* [JDV Readaptation CISIS](ValueSet-jdv-readaptation-cisis.md)
 
 -------
 
@@ -27,9 +27,9 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-A02-ProfessionSavFaire-CISIS",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-02-03T15:41:52.194+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-02T10:27:55.538+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -43,11 +43,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.5"
   }],
-  "version" : "20260202120000",
+  "version" : "20261102120000",
   "name" : "TRE_A02_ProfessionSavFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession et savoir-faire CI-SIS",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 376,
+  "count" : 379,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1346,14 +1346,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_10/SM76",
-    "display" : "Médecin - Anesthésie-réanimation opt anesthésie-pédiatrique (SM)",
+    "display" : "Médecin - Anesthésie-réanimation opt réanimation-pédiatrique (SM)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Médecin - Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+      "value" : "Médecin - Anesthésie-réanimation option réanimation-pédiatrique (SM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1361,7 +1361,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6370,14 +6370,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_60/SI01",
-    "display" : "Infirmier - Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)",
+    "definition" : "Suivi des patients chroniques (diabète, HTA, insuffisance cardiaque...), prévention, coordination des parcours, en complémentarité avec le médecin et les autres professionnels de santé.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPA Pathologies chroniques stabilisées"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6386,14 +6395,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_60/SI02",
-    "display" : "Infirmier - Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)",
+    "definition" : "Prise en charge des cancers et maladies du sang, administration de traitements, gestion des effets secondaires, en complémentarité avec le médecin et les autres professionnels de santé.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPA Oncologie et hémato-oncologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6402,14 +6420,15 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_60/SI03",
-    "display" : "Infirmier - Exerc. infirmier pratique avancée maladie rénale chroniq., dialyse, transp. rénale (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)",
+    "definition" : "Suivi des patients insuffisants rénaux, gestion de la dialyse, accompagnement à la transplantation, en complémentarité avec le médecin et les autres professionnels de santé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Infirmier - Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+      "value" : "IPA Maladie rénale chronique, dialyse, transplantation rénale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6417,7 +6436,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6426,14 +6445,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_60/SI04",
-    "display" : "Infirmier - Exercice infirmier en pratique avancée santé mentale (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)",
+    "definition" : "Suivi des troubles psychiatriques, entretiens cliniques, prescription de psychotropes, coordination des soins, en complémentarité avec le médecin et les autres professionnels de santé.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPA Psychiatrie et santé mentale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6442,14 +6470,98 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "G15_60/SI05",
-    "display" : "Infirmier - Exercice infirmier en pratique avancée urgences (SI)",
+    "display" : "Infirmier(ère) en pratique avancée Urgences (SI)",
+    "definition" : "Prise en charge des situations d'urgence, gestes techniques, gestion du stress, collaboration avec urgentistes, en complémentarité avec le médecin et les autres professionnels de santé.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPA Urgences"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2022-08-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "G15_60/SI06",
+    "display" : "Infirmier(ère) de bloc opératoire (SI)",
+    "definition" : "- Organiser, réaliser des soins et des activités, en équipe pluridisciplinaire, en lien avec le geste opératoire, en pré, per et post interventionnel auprès des personnes bénéficiant d'interventions chirurgicales, endoscopiques et autres actes techniques invasifs à visée préventive, diagnostique et/ou thérapeutique. - Mettre en œuvre des mesures d'hygiène et de sécurité en tenant compte du contexte opératoire, des risques inhérents à la nature des interventions et à la spécificité des patients, au travail en zone protégée et à l'utilisation de dispositifs médicaux spécifiques et aux ressources disponibles - Mettre en œuvre les actes et activités relevant de sa compétence exclusive.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IBODE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "G15_60/SI07",
+    "display" : "Infirmier(ère) anesthésiste (SI)",
+    "definition" : "- Réaliser des soins infirmiers d'anesthésie et/ou de réanimation concourant au diagnostic, au traitement et à la recherche. - Accompagner le patient, dans les domaines de l'intervention chirurgicale, du traitement de la douleur, de l'urgence ou de la réanimation. - Mettre en œuvre des mesures qui garantissent la sécurité des patients en anesthésie-réanimation dans la période péri-interventionnelle.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IADE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "G15_60/SI08",
+    "display" : "Infirmier(ère) puériculteur(trice)",
+    "definition" : "- Dispenser des soins auprès des enfants pour maintenir, restaurer et promouvoir la santé, le développement, l'éveil, l'autonomie et la socialisation. - Evaluer l'état de santé d'un enfant, définir des projets de soins personnalisés, planifier et prodiguer des soins, mettre en œuvre des traitements.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "IPDE"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

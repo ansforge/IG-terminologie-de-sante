@@ -7,12 +7,12 @@ HL7-defined code system of concepts that describe the precise nature of an entit
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
-* [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [JdvSpecimenTypeDengueCisis](ValueSet-jdv-specimen-type-dengue-cisis.md)
-* [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md)
-* [JdvSpecimenTypeWestNileCisis](ValueSet-jdv-specimen-type-westnile-cisis.md)
-* [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
+* [jDV Specimen Type Chikungunya CISIS](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
+* [JDV Specimen Type CISIS](ValueSet-jdv-specimen-type-cisis.md)
+* [jDV Specimen Type Dengue CISIS](ValueSet-jdv-specimen-type-dengue-cisis.md)
+* [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md)
+* [jDV Specimen Type West Nile CISIS](ValueSet-jdv-specimen-type-westnile-cisis.md)
+* [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md)
 
 -------
 

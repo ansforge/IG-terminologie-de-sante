@@ -7,8 +7,8 @@ Type d'enseignement spécialisé.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
-* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
+* [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
+* [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md)
 
 -------
 

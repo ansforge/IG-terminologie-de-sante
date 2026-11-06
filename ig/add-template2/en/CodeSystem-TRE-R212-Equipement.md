@@ -8,8 +8,8 @@ Equipement
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md)
-* [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
-* [JdvJ351AppareilAmmFiness](ValueSet-jdv-j351-appareil-amm-finess.md)
+* [JDV J70 Equipement Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
+* [Jdv J351 Appareil Amm Finess](ValueSet-jdv-j351-appareil-amm-finess.md)
 
 -------
 
@@ -24,8 +24,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R212-Equipement",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2026-05-29T14:43:05.017+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-07-29T08:03:36.706+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -40,11 +40,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.10"
   }],
-  "version" : "20260601120000",
+  "version" : "20260730120000",
   "name" : "TRE_R212_Equipement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement",
   "jurisdiction" : [{
@@ -56,7 +56,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 245,
+  "count" : 256,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1331,14 +1331,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "054",
-    "display" : "IRM corps entier",
+    "display" : "Imagerie par Résonance Magnétique (IRM) corps entier",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1724,21 +1724,13 @@ This Code system is referenced in the definition of the following value sets:
   {
     "code" : "072",
     "display" : "Table de bloc opératoire obésité (poids > 250 kg) - bariatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2019,22 +2011,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "084",
-    "display" : "Table de radiologie obésité (poids > 250 kg) - bariatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique"
-    }],
+    "display" : "Table de radiologie interventionnelle obésité (poids supérieur à 250 kg) - bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2075,14 +2059,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "087",
-    "display" : "IRM à champ ouvert",
+    "display" : "Imagerie par Résonance Magnétique (IRM) à champ ouvert",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2814,14 +2798,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "130",
-    "display" : "Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire",
+    "display" : "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire"
+      "value" : "Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2829,7 +2813,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3118,22 +3102,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "147",
-    "display" : "Espace de calme-retrait, apaisement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Espace de calme-retrait, d'apaisement"
-    }],
+    "display" : "Espace de calme-retrait, d'apaisement",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3753,22 +3729,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "184",
-    "display" : "Dispositif de réadaptation à la marche par allègement du poids du corps",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)"
-    }],
+    "display" : "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-06-24T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4359,14 +4327,14 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "221",
-    "display" : "IRM obésité – bariatrique",
+    "display" : "Imagerie par Résonance Magnétique (IRM) obésité – bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-01-31T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4822,6 +4790,182 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "specialisationFiness",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "246",
+    "display" : "Échographe polyvalent",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "247",
+    "display" : "Imagerie par Résonance Magnétique (IRM) à champ fermé (ou tunnel)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "248",
+    "display" : "Imagerie par Résonance Magnétique (IRM) pédiatrique (compatible anesthésie)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "249",
+    "display" : "Radiologie numérique standard",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "250",
+    "display" : "Scanner base dose (LDCT)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "251",
+    "display" : "Plateau réfraction - Pachymétrie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "252",
+    "display" : "Rétinographe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "253",
+    "display" : "Oculomètre certifié (C2)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "254",
+    "display" : "Coordimètre",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "255",
+    "display" : "Tests scorés et/ou normés en neurovision",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "256",
+    "display" : "Accompagnement à l’essai de fauteuil roulant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

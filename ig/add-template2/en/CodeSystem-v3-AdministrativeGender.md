@@ -8,7 +8,7 @@ The gender of a person used for adminstrative purposes (as opposed to clinical g
 This Code system is referenced in the definition of the following value sets:
 
 * [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md)
-* [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
+* [JDV Reference Range Applies To CISIS](ValueSet-jdv-reference-range-applies-to-cisis.md)
 
 -------
 

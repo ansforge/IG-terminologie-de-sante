@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J210-SpecialiteOrdinale-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-05-05T19:02:45.540+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-11-02T10:32:59.328+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.42"
   }],
-  "version" : "20260330120000",
+  "version" : "20261102120000",
   "name" : "JDV_J210_SpecialiteOrdinale_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialité ordinale",
   "jurisdiction" : [{
@@ -83,19 +83,23 @@ Requête sur le SMT
       },
       {
         "code" : "SI01",
-        "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Pathologies chroniques stabilisées (SI)"
       },
       {
         "code" : "SI02",
-        "display" : "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Oncologie et hémato-oncologie (SI)"
       },
       {
         "code" : "SI03",
-        "display" : "Exercice infirmier en pratique avancée maladie rénale chronique, dialyse et transplantation rénale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Maladie rénale chronique, dialyse, transplantation rénale (SI)"
       },
       {
         "code" : "SI04",
-        "display" : "Exercice infirmier en pratique avancée santé mentale (SI)"
+        "display" : "Infirmier(ère) en pratique avancée Psychiatrie et santé mentale (SI)"
+      },
+      {
+        "code" : "SI08",
+        "display" : "Infirmier(ère) puériculteur(trice)"
       },
       {
         "code" : "SM01",
@@ -399,7 +403,7 @@ Requête sur le SMT
       },
       {
         "code" : "SM76",
-        "display" : "Anesthésie-réanimation option anesthésie-pédiatrique (SM)"
+        "display" : "Anesthésie-réanimation option réanimation-pédiatrique (SM)"
       },
       {
         "code" : "SM77",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J68-ProfilAccesReferentiel-ROR",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:06:44.854+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T19:06:52.063+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

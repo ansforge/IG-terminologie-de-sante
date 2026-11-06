@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-condition-ver-status-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:57:30.037+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:42:26.655+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.166"
   }],
-  "version" : "20260420150250",
+  "version" : "20260928134051",
   "name" : "ConditionVerificationStatus",
   "title" : "Condition Verification Status",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-09-28T13:40:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Condition Verification Status",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-      "version" : "4.0.1",
+      "version" : "2.0.1",
       "concept" : [{
         "code" : "unconfirmed",
         "display" : "Non confirmé"

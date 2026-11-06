@@ -7,7 +7,7 @@ Motif pour lequel l'usager n'est pas présent lors d'un événement organisé pa
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md)
+* [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md)
 
 -------
 

@@ -9,7 +9,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [JDV_J169_MotifFinActivite_EPARS](ValueSet-JDV-J169-MotifFinActivite-EPARS.md)
 * [JDV_J92_MotifFinActivite_RASS](ValueSet-JDV-J92-MotifFinActivite-RASS.md)
-* [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md)
+* [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md)
 
 -------
 
@@ -24,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R25-MotifFinActivite",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-12-22T10:46:43.702+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:07.230+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

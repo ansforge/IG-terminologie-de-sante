@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A24_ModeExercice_TypeActivite_ENREG 
 
- 
-Table d'association Mode d'exercice / Type d'activité pour permettre la saisie automatique du type d'activité 
-
 
 
 ## Resource Content

@@ -7,7 +7,7 @@ Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour o
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md)
+* [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md)
 
 -------
 

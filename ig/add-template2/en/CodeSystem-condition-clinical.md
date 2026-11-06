@@ -7,7 +7,7 @@ Preferred value set for Condition Clinical Status.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
+* [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
 
 -------
 

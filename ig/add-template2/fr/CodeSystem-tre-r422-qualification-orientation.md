@@ -7,7 +7,7 @@ La qualification de l'orientation peut être cible ou alternative.
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ404QualificationOrientationMs](ValueSet-jdv-j404-qualification-orientation-ms.md)
+* [Jdv J404 Qualification Orientation Ms](ValueSet-jdv-j404-qualification-orientation-ms.md)
 
 -------
 

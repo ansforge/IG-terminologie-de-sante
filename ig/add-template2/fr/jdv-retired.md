@@ -7,6 +7,7 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
 | [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md) | Référentiel dérivé des pays provenant de la norme INSEE pour ENREG |
 | [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md) | Toute la nomenclature des codes pays auquel on ajoute le code applicatif r "non renseigné" |
 | [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS |
@@ -27,10 +28,19 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md) | Activités opérationnelles de Santé.fr |
 | [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md) | Equipements Santé.fr |
 | [JDV_J74_Pays_RASS](ValueSet-JDV-J74-Pays-RASS.md) | Pays (codes INSEE) du RASS |
+| [JDV_J83_AutoriteEnregistrement_RASS](ValueSet-JDV-J83-AutoriteEnregistrement-RASS.md) | Autorités d'enregistrement des acteurs de santé du RASS |
 | [JDV_J84_DepartementOM_RASS](ValueSet-JDV-J84-DepartementOM-RASS.md) | Départements (outre-mer et Monaco inclus) pour le RASS |
 | [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md) | Régions (outre-mer et Monaco inclus) dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
 | [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) | JDV Indicateur Anormalite CISIS |
+| [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS |
+| [JdvLateraliteNcitCisis](ValueSet-jdv-lateralite-ncit-cisis.md) | JDV Lateralite Ncit CISIS |
+| [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS |
+| [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
+| [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
+| [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
+| [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS |
+| [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md) | JDV Type Rencontre CISIS |
 

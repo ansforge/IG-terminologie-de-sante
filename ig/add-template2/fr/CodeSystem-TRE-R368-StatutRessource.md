@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R368-StatutRessource",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-05T20:12:10.708+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:13:56.258+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

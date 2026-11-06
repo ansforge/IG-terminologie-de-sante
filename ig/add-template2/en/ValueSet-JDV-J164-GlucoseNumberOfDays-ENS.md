@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J164-GlucoseNumberOfDays-ENS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-29T14:32:07.086+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-07-06T19:05:20.264+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

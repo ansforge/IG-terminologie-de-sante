@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-checklist-dlu-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:43.325+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-28T15:42:39.801+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.71"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134052",
   "name" : "JdvChecklistDluCisis",
   "title" : "JDV Checklist Dlu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:52+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Checklist Dlu CISIS",
   "jurisdiction" : [{
@@ -71,24 +71,8 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "DLU_006",
-        "display" : "Attestation de la carte vitale"
-      },
-      {
-        "code" : "DLU_007",
-        "display" : "Attestation de mutuelle"
-      },
-      {
-        "code" : "DLU_008",
-        "display" : "Photocopie de la carte d’identité"
-      },
-      {
         "code" : "DLU_009",
         "display" : "Grille AGGIR (la plus récente)"
-      },
-      {
-        "code" : "DLU_010",
-        "display" : "Photocopie des directives anticipées"
       },
       {
         "code" : "DLU_011",
@@ -125,6 +109,25 @@ Requête sur le SMT
       {
         "code" : "DLU_019",
         "display" : "Liste des capacités en soins de l’EHPAD"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
+      "concept" : [{
+        "code" : "ATTEST-DROITS-AM",
+        "display" : "Attestation de droits à l’assurance maladie"
+      },
+      {
+        "code" : "ATTEST-ASS-COMPL",
+        "display" : "Attestation assurance complémentaire"
+      },
+      {
+        "code" : "PIECE-IDENTITE",
+        "display" : "Copie pièce d'identité"
+      },
+      {
+        "code" : "EXPPAT_3",
+        "display" : "Directives anticipées"
       }]
     }]
   }

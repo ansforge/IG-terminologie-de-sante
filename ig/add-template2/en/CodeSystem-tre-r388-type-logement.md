@@ -7,7 +7,7 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
 
 This Code system is referenced in the definition of the following value sets:
 
-* [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md)
+* [Vs Tre R388 Type Logement All](ValueSet-vs-tre-r388-type-logement-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r388-type-logement",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:16+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:04+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

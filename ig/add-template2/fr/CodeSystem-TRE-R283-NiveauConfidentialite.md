@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R283-NiveauConfidentialite",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:02.619+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:22.045+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

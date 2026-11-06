@@ -7,7 +7,7 @@ Convention du domaine social FINESS
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 -------
 
@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R278-FinessConvention",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T18:17:03.932+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-07-06T20:13:19.303+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

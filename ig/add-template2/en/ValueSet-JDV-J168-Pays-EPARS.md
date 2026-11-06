@@ -38,8 +38,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J168-Pays-EPARS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:05:24.697+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T19:05:23.597+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

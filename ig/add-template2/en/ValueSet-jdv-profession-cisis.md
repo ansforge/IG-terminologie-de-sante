@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-profession-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:44.666+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:43:40.414+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -54,12 +54,12 @@ No Expansion for this valueset (Unknown Code System)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.109"
   }],
-  "version" : "20260420150251",
+  "version" : "20260928134054",
   "name" : "JdvProfessionCisis",
   "title" : "JDV Profession CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-09-28T13:40:54+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Profession CISIS",
   "jurisdiction" : [{

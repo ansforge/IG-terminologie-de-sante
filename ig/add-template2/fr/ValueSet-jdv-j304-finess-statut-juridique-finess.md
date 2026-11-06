@@ -36,9 +36,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j304-finess-statut-juridique-finess",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:08.779+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-07T15:18:11.141+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

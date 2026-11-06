@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X08_TranscoSavoirFaireR01_SavoirFaire 
 
- 
-Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS 
-
 
 
 ## Resource Content

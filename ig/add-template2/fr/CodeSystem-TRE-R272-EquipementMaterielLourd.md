@@ -8,7 +8,7 @@ Equipements Matériels Lourds
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
 * [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md)
-* [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md)
+* [Vs Tre R272 Equipement Materiel Lourd All](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md)
 
 -------
 
@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R272-EquipementMaterielLourd",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:00.509+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:16.929+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

@@ -9,6 +9,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md)
 * [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md)
+* [JDV Checklist Dlu CISIS](ValueSet-jdv-checklist-dlu-cisis.md)
 
 -------
 
@@ -23,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-A05-TypeDocComplementaire",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:11:24.782+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-11-02T10:27:56.550+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +39,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.12"
   }],
-  "version" : "20240329120000",
+  "version" : "20261102120000",
   "name" : "TRE_A05_TypeDocComplementaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-03-29T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de document en complément des nomenclatures internationales",
   "jurisdiction" : [{
@@ -54,6 +55,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 40,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -934,6 +936,23 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-12-15T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "JUSTIF-PRESC-RENF",
+    "display" : "Justificatif de prescription renforcée",
+    "definition" : "Justificatif généré à partir du téléservice \"Accompagnement à la prescription renforcée\", pour certains médicaments uniquement, après saisie par le prescripteur de certaines informations permettant de vérifier si la prescription est conforme aux indications thérapeutiques remboursables (ITR) ou de celles de l'Autorisation de Mise sur le marché (AMM) du médicament.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

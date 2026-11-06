@@ -7,7 +7,7 @@ Orientation vers un Service d'éducation spéciale et de soins à domicile (SESS
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
+* [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md)
 
 -------
 

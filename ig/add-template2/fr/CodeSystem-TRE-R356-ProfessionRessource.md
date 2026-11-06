@@ -9,6 +9,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 
 * [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md)
 * [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md)
+* [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md)
 
 -------
 
@@ -23,8 +24,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R356-ProfessionRessource",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-10-02T20:13:53.106+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-02T10:28:27.922+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +39,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.246"
   }],
-  "version" : "20250918120000",
+  "version" : "20261102120000",
   "name" : "TRE_R356_ProfessionRessource",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-18T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource",
   "jurisdiction" : [{
@@ -54,7 +55,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 99,
+  "count" : 102,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -122,14 +123,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "08",
-    "display" : "Médiateur de santé pair",
+    "display" : "Médiateur de santé pair ou de santé communautaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-03-31T12:00:00+01:00"
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1787,6 +1788,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-07-10T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "132",
+    "display" : "Stomathérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "133",
+    "display" : "Infirmier expert en plaies et cicatrisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "134",
+    "display" : "Sexologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-11-02T12:00:00+01:00"
     },
     {
       "code" : "status",

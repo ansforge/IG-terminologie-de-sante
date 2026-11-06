@@ -7,7 +7,7 @@ Statut du bilan du projet personnalisé.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md)
+* [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md)
 
 -------
 

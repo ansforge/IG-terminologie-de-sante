@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J126-SecteurActivite-ENREG",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:04:55.408+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:04:59.744+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

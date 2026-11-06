@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R279-Clientele",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:17:06.863+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:13:19.931+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.132"
   }],
-  "version" : "20240927120000",
+  "version" : "20260629120000",
   "name" : "TRE_R279_Clientele",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Clientèles",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 132,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1627,11 +1628,11 @@ This Code system is referenced in the definition of the following value sets:
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2024-06-28T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2024-06-28T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3112,6 +3113,94 @@ This Code system is referenced in the definition of the following value sets:
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "841",
+    "display" : "Périnatalité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "842",
+    "display" : "Adultes (sans autre indication)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Adultes (SAI)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "843",
+    "display" : "Enfants et adolescents (sans autre indication)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Enfants et adolescents (SAI)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "844",
+    "display" : "Patients de soins sans consentement",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Patients S.C.C."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

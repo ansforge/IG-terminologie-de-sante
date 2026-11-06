@@ -7,7 +7,7 @@ Catégorie de permis de conduire.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md)
+* [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md)
 
 -------
 

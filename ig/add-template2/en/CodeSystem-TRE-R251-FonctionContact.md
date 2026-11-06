@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R251-FonctionContact",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:16:38.659+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-29T08:03:38.934+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -37,11 +37,11 @@ This Code system is referenced in the definition of the following value sets:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.48"
   }],
-  "version" : "20250131120000",
+  "version" : "20260730120000",
   "name" : "TRE_R251_FonctionContact",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-01-31T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Un titre, une position, une fonction de la personne contact dans l'organisation",
   "jurisdiction" : [{
@@ -53,6 +53,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 28,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -472,7 +473,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "23",
-    "display" : "Spécialiste en hygiène prévention contrôle des IAS",
+    "display" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -487,7 +488,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
+      "value" : "Spécialiste en hygiène prévention contrôle des IAS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -495,7 +496,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -504,7 +505,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "24",
-    "display" : "Responsable du signalement des IAS",
+    "display" : "Responsable du signalement des Infections Associées aux Soins (IAS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -519,7 +520,7 @@ This Code system is referenced in the definition of the following value sets:
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Responsable du signalement des Infections Associées aux Soins (IAS)"
+      "value" : "Responsable du signalement des IAS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -527,7 +528,7 @@ This Code system is referenced in the definition of the following value sets:
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-07-05T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",

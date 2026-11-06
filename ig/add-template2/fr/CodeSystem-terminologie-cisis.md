@@ -1,6 +1,6 @@
 # TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies - Terminologies de Santé v1.10.0
 
-## CodeSystem: TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies 
+## CodeSystem: TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies (Expérimental) 
 
  
 Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. 
@@ -10,244 +10,245 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 * [JDV_J154_TypeGlucose_ENS](ValueSet-JDV-J154-TypeGlucose-ENS.md)
 * [JDV_J157_MomentGlucose_ENS](ValueSet-JDV-J157-MomentGlucose-ENS.md)
 * [JDV_J164_GlucoseNumberOfDays_ENS](ValueSet-JDV-J164-GlucoseNumberOfDays-ENS.md)
-* [JdvActeCs8Cisis](ValueSet-jdv-acte-cs8-cisis.md)
-* [JdvActeCseCisis](ValueSet-jdv-acte-cse-cisis.md)
-* [JdvActeObpCisis](ValueSet-jdv-acte-obp-cisis.md)
-* [JdvActiviteCisis](ValueSet-jdv-activite-cisis.md)
-* [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md)
-* [JdvAgeCisis](ValueSet-jdv-age-cisis.md)
-* [JdvAgeDeSurvenueCisis](ValueSet-jdv-age-de-survenue-cisis.md)
-* [JdvAideAuDeplacementCisis](ValueSet-jdv-aide-au-deplacement-cisis.md)
-* [JdvAnomalieCroissanceCisis](ValueSet-jdv-anomalie-croissance-cisis.md)
-* [JdvAntecedantMedicalCisis](ValueSet-jdv-antecedant-medical-cisis.md)
-* [JdvAntecedentCse24Cisis](ValueSet-jdv-antecedent-cse24-cisis.md)
-* [JdvAntecedentCse9Cisis](ValueSet-jdv-antecedent-cse9-cisis.md)
-* [JdvAntecedentObstetricalCisis](ValueSet-jdv-antecedent-obstetrical-cisis.md)
-* [JdvAntecedentObstetricalObpCisis](ValueSet-jdv-antecedent-obstetrical-obp-cisis.md)
-* [JdvArtereAnterieureCisis](ValueSet-jdv-artere-anterieure-cisis.md)
-* [JdvArtereCerveletCisis](ValueSet-jdv-artere-cervelet-cisis.md)
-* [JdvArterePosterieureCisis](ValueSet-jdv-artere-posterieure-cisis.md)
-* [JdvAspectLiquideAmniotiqueCisis](ValueSet-jdv-aspect-liquide-amniotique-cisis.md)
-* [JdvAutreSymptomeExNeuroCisis](ValueSet-jdv-autre-symptome-ex-neuro-cisis.md)
-* [JdvAvisMedicalComplementaireCisis](ValueSet-jdv-avis-medical-complementaire-cisis.md)
-* [JdvBatterieExamenCisis](ValueSet-jdv-batterie-examen-cisis.md)
-* [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)
-* [JdvBioInstructionPatientCisis](ValueSet-jdv-bio-instruction-patient-cisis.md)
-* [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
-* [JdvCauseCesarienneCisis](ValueSet-jdv-cause-cesarienne-cisis.md)
-* [JdvCddFaCisis](ValueSet-jdv-cdd-fa-cisis.md)
-* [JdvCerveletLocalisationCisis](ValueSet-jdv-cervelet-localisation-cisis.md)
-* [JdvChecklistDluCisis](ValueSet-jdv-checklist-dlu-cisis.md)
-* [JdvChecklistFludrCisis](ValueSet-jdv-checklist-fludr-cisis.md)
-* [JdvClassificationAcr1Cisis](ValueSet-jdv-classification-acr-1-cisis.md)
-* [JdvClassificationAcr2Cisis](ValueSet-jdv-classification-acr-2-cisis.md)
-* [JdvClassificationAcrCisis](ValueSet-jdv-classification-acr-cisis.md)
-* [JdvClassificationAcrEchographieCisis](ValueSet-jdv-classification-acr-echographie-cisis.md)
-* [JdvClassificationRingMessmerCisis](ValueSet-jdv-classification-ring-messmer-cisis.md)
-* [JdvClicheTechniquementInsuffisantCisis](ValueSet-jdv-cliche-techniquement-insuffisant-cisis.md)
-* [JdvCollectiviteSujetsARisqueRougeoleCisis](ValueSet-jdv-collectivite-sujets-a-risque-rougeole-cisis.md)
-* [JdvComplicationCisis](ValueSet-jdv-complication-cisis.md)
-* [JdvComplicationDigestiveCisis](ValueSet-jdv-complication-digestive-cisis.md)
-* [JdvComplicationNeurologiqueCisis](ValueSet-jdv-complication-neurologique-cisis.md)
-* [JdvComplicationNeuropsychiatriqueCisis](ValueSet-jdv-complication-neuropsychiatrique-cisis.md)
-* [JdvComplicationPulmonaireCisis](ValueSet-jdv-complication-pulmonaire-cisis.md)
-* [JdvComplicationUrinaireCisis](ValueSet-jdv-complication-urinaire-cisis.md)
-* [JdvConclusionSimplifieeCcuCisis](ValueSet-jdv-conclusion-simplifiee-ccu-cisis.md)
-* [JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md)
-* [JdvConduiteATenir2Cisis](ValueSet-jdv-conduite-a-tenir-2-cisis.md)
-* [JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md)
-* [JdvContexteActiviteCisis](ValueSet-jdv-contexte-activite-cisis.md)
-* [JdvContexteExamenCcuCisis](ValueSet-jdv-contexte-examen-ccu-cisis.md)
-* [JdvContrindicationCisis](ValueSet-jdv-contre-indication-cisis.md)
-* [JdvContrindicationThrombolyseCisis](ValueSet-jdv-contreindication-thrombolyse-cisis.md)
-* [JdvCouvertureSocialeCisis](ValueSet-jdv-couverture-sociale-cisis.md)
-* [JdvDateConsultationCisis](ValueSet-jdv-date-consultation-cisis.md)
-* [JdvDeficiencePhysiqueCisis](ValueSet-jdv-deficience-physique-cisis.md)
-* [JdvDelimitationActiviteCisis](ValueSet-jdv-delimitation-activite-cisis.md)
-* [JdvDensiteMammaireCisis](ValueSet-jdv-densite-mammaire-cisis.md)
-* [JdvDestinationObpSneCisis](ValueSet-jdv-destination-obp-sne-cisis.md)
-* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
-* [JdvDetailMaterielSpecialiseCisis](ValueSet-jdv-detail-materiel-specialise-cisis.md)
-* [JdvDetailRessourceImmobiliereUtiliseeCisis](ValueSet-jdv-detail-ressource-immobiliere-utilisee-cisis.md)
-* [JdvDeveloppementPsychomoteurCs24Cisis](ValueSet-jdv-developpement-psychomoteur-cs24-cisis.md)
-* [JdvDispositionPretherapeutiqueCisis](ValueSet-jdv-disposition-pretherapeutique-cisis.md)
-* [JdvDocumentAnnexeFludrCisis](ValueSet-jdv-document-annexe-fludr-cisis.md)
-* [JdvDureeAllaitementCisis](ValueSet-jdv-duree-allaitement-cisis.md)
-* [JdvEnfantExposeAuxEcransCs24Cisis](ValueSet-jdv-enfant-expose-aux-ecrans-cs24-cisis.md)
-* [JdvEtatDeConscienceCisis](ValueSet-jdv-etat-de-conscience-cisis.md)
-* [JdvEtiologieHemorragieCisis](ValueSet-jdv-etiologie-hemorragie-cisis.md)
-* [JdvEtiologieInfarctusCisis](ValueSet-jdv-etiologie-infarctus-cisis.md)
-* [JdvEvaluationDouleurCisis](ValueSet-jdv-evaluation-douleur-cisis.md)
-* [JdvEvaluationNeurocognitiveCisis](ValueSet-jdv-evaluation-neurocognitive-cisis.md)
-* [JdvEvaluationSsiadCisis](ValueSet-jdv-evaluation-ssiad-cisis.md)
-* [JdvEvenementAccouchementCisis](ValueSet-jdv-evenement-accouchement-cisis.md)
-* [JdvEvolutionCisis](ValueSet-jdv-evolution-cisis.md)
-* [JdvExamenCliniqueCisis](ValueSet-jdv-examen-clinique-cisis.md)
-* [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md)
-* [JdvExamenEnfantObligatoireCisis](ValueSet-jdv-examen-enfant-obligatoire-cisis.md)
-* [JdvExamenRealiseCisis](ValueSet-jdv-examen-realise-cisis.md)
-* [JdvExpositionWestNileCisis](ValueSet-jdv-exposition-west-nile-cisis.md)
-* [JdvFacteurDeRisqueAvcCisis](ValueSet-jdv-facteur-de-risque-avc-cisis.md)
-* [JdvFacteurRisqueRougeoleCisis](ValueSet-jdv-facteur-risque-rougeole-cisis.md)
-* [JdvFonctionEtudieeScintigraphieCisis](ValueSet-jdv-fonction-etudiee-scintigraphie-cisis.md)
-* [JdvFonctionEtudieeTepCisis](ValueSet-jdv-fonction-etudiee-tep-cisis.md)
-* [JdvGeneCisis](ValueSet-jdv-gene-cisis.md)
-* [JdvGesteReanimationNouveauNeCisis](ValueSet-jdv-geste-reanimation-nouveau-ne-cisis.md)
-* [JdvGestionEffetSecondaireCisis](ValueSet-jdv-gestion-effet-secondaire-cisis.md)
-* [JdvGirCisis](ValueSet-jdv-gir-cisis.md)
-* [JdvGraviteCisis](ValueSet-jdv-gravite-cisis.md)
-* [JdvHandicapDeficitDluDomCisis](ValueSet-jdv-handicap-deficit-dlu-dom-cisis.md)
-* [JdvHemisphereLobaireCisis](ValueSet-jdv-hemisphere-lobaire-cisis.md)
-* [JdvInfoDecesCs8Cisis](ValueSet-jdv-info-deces-cs8-cisis.md)
-* [JdvInfoPriseEnChargeCisis](ValueSet-jdv-info-prise-en-charge-cisis.md)
-* [JdvInjectionPdcTepCisis](ValueSet-jdv-injection-pdc-tep-cisis.md)
-* [JdvInvestigationRealiseeCisis](ValueSet-jdv-investigation-realisee-cisis.md)
-* [JdvInvestigationRealiseeSunvCisis](ValueSet-jdv-investigation-realisee-sunv-cisis.md)
-* [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md)
-* [JdvLieuAccouchementCisis](ValueSet-jdv-lieu-accouchement-cisis.md)
-* [JdvLocalisationHemorragieCerebraleCisis](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md)
-* [JdvLocalisationThromboseVeineuseCisis](ValueSet-jdv-localisation-thrombose-veineuse-cisis.md)
-* [JdvMesureAssocieeCisis](ValueSet-jdv-mesure-associee-cisis.md)
-* [JdvMesureLentilleDelivreeCisis](ValueSet-jdv-mesure-lentille-delivree-cisis.md)
-* [JdvMesureLentillePrescriteCisis](ValueSet-jdv-mesure-lentille-prescrite-cisis.md)
-* [JdvMesureProtectionConduiteAutomobileCisis](ValueSet-jdv-mesure-protection-conduite-automobile-cisis.md)
-* [JdvMesureTypeVerreDelivreCisis](ValueSet-jdv-mesure-type-verre-delivre-cisis.md)
-* [JdvMesureTypeVerrePrescritCisis](ValueSet-jdv-mesure-type-verre-prescrit-cisis.md)
-* [JdvMesureVerreDelivreCisis](ValueSet-jdv-mesure-verre-delivre-cisis.md)
-* [JdvMesureVerrePrescritCisis](ValueSet-jdv-mesure-verre-prescrit-cisis.md)
-* [JdvMethodeAccouchementCisis](ValueSet-jdv-methode-accouchement-cisis.md)
-* [JdvMethodeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md)
-* [JdvMethodePreparationEchantillonCisis](ValueSet-jdv-methode-preparation-echantillon-cisis.md)
-* [JdvMilieuCytologieCcuCisis](ValueSet-jdv-milieu-cytologie-ccu-cisis.md)
-* [JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md)
-* [JdvModaliteEntreeCisis](ValueSet-jdv-modalite-entree-cisis.md)
-* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
-* [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
-* [JdvModaliteSortieEsmsCisis](ValueSet-jdv-modalite-sortie-esms-cisis.md)
-* [JdvModeAccouchementCisis](ValueSet-jdv-mode-accouchement-cisis.md)
-* [JdvModeDeTransportCisis](ValueSet-jdv-mode-de-transport-cisis.md)
-* [JdvModeNaissanceCisis](ValueSet-jdv-mode-naissance-cisis.md)
-* [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
-* [JdvModeSortieObpScmCisis](ValueSet-jdv-mode-sortie-obp-scm-cisis.md)
-* [JdvModeSortieObpSemCisis](ValueSet-jdv-mode-sortie-obp-sem-cisis.md)
-* [JdvModeSortieObpSneCisis](ValueSet-jdv-mode-sortie-obp-sne-cisis.md)
-* [JdvModeSortieObpSnmCisis](ValueSet-jdv-mode-sortie-obp-snm-cisis.md)
-* [JdvMotifConsultationOphtalmologiqueCisis](ValueSet-jdv-motif-consultation-ophtalmologique-cisis.md)
-* [JdvMotifDeclenchementTravailCisis](ValueSet-jdv-motif-declenchement-travail-cisis.md)
-* [JdvMotifDiagnosticCisis](ValueSet-jdv-motif-diagnostic-cisis.md)
-* [JdvMotifEchographieCisis](ValueSet-jdv-motif-echographie-cisis.md)
-* [JdvMotifHospitalisationCseCisis](ValueSet-jdv-motif-hospitalisation-cse-cisis.md)
-* [JdvMotifMiseAJourCisis](ValueSet-jdv-motif-mise-a-jour-cisis.md)
-* [JdvMotifNonRealisationEvenementCisis](ValueSet-jdv-motif-non-realisation-evenement-cisis.md)
-* [JdvNatureDiscussionCisis](ValueSet-jdv-nature-discussion-cisis.md)
-* [JdvNatureFractionCisis](ValueSet-jdv-nature-fraction-cisis.md)
-* [JdvNatureMaterielEtudieCisis](ValueSet-jdv-nature-materiel-etudie-cisis.md)
-* [JdvNiveauDependanceCisis](ValueSet-jdv-niveau-dependance-cisis.md)
-* [JdvNiveauEtudeCisis](ValueSet-jdv-niveau-etude-cisis.md)
-* [JdvNvpoCisis](ValueSet-jdv-nvpo-cisis.md)
-* [JdvObpResultatEvenementCisis](ValueSet-jdv-obp-resultat-evenement-cisis.md)
-* [JdvObservationGrossesseCisis](ValueSet-jdv-observation-grossesse-cisis.md)
-* [JdvOrigineEffetIndesirableCisis](ValueSet-jdv-origine-effet-indesirable-cisis.md)
-* [JdvPatho1ereSemaineCs8Cisis](ValueSet-jdv-patho-1ere-semaine-cs8-cisis.md)
-* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
-* [JdvPhaseCancerCisis](ValueSet-jdv-phase-cancer-cisis.md)
-* [JdvPolypathologiesAvcCisis](ValueSet-jdv-polypathologies-avc-cisis.md)
-* [JdvPresentationFoetaleCisis](ValueSet-jdv-presentation-foetale-cisis.md)
-* [JdvPriseEnChargeReguliereCisis](ValueSet-jdv-prise-en-charge-reguliere-cisis.md)
-* [JdvPriseEnChargeSpecifiqueCisis](ValueSet-jdv-prise-en-charge-specifique-cisis.md)
-* [JdvProfessionExposeeCisis](ValueSet-jdv-profession-exposee-cisis.md)
-* [JdvProgressionCancerCisis](ValueSet-jdv-progression-cancer-cisis.md)
-* [JdvProtheseObjetPersonnelCisis](ValueSet-jdv-prothese-objet-personnel-cisis.md)
-* [JdvQualificationFractionCisis](ValueSet-jdv-qualification-fraction-cisis.md)
-* [JdvRaisonAbsenceEtiologieCisis](ValueSet-jdv-raison-absence-etiologie-cisis.md)
-* [JdvRaisonNonRealisationCisis](ValueSet-jdv-raison-non-realisation-cisis.md)
-* [JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md)
-* [JdvRegistreErnCisis](ValueSet-jdv-registre-ern-cisis.md)
-* [JdvRencontreCs8Cisis](ValueSet-jdv-rencontre-cs8-cisis.md)
-* [JdvRencontreCs9Cs24Cisis](ValueSet-jdv-rencontre-cs9-cs24-cisis.md)
-* [JdvReperageTroubleNeurodeveloppementCisis](ValueSet-jdv-reperage-trouble-neurodeveloppement-cisis.md)
-* [JdvRepriseProfessionnelleCisis](ValueSet-jdv-reprise-professionnelle-cisis.md)
-* [JdvRessourceUtiliseeCisis](ValueSet-jdv-ressource-utilisee-cisis.md)
-* [JdvResultatComparaisonCisis](ValueSet-jdv-resultat-comparaison-cisis.md)
-* [JdvResultatDepistageSurditeCisis](ValueSet-jdv-resultat-depistage-surdite-cisis.md)
-* [JdvResultatExamenCytologiqueCcuCisis](ValueSet-jdv-resultat-examen-cytologique-ccu-cisis.md)
-* [JdvResultatQuestionEvaluationCisis](ValueSet-jdv-resultat-question-evaluation-cisis.md)
-* [JdvRisquePourEntourageCisis](ValueSet-jdv-risque-pour-entourage-cisis.md)
-* [JdvRisquePourUsagerCisis](ValueSet-jdv-risque-pour-usager-cisis.md)
-* [JdvScoreBradenResultatCisis](ValueSet-jdv-score-braden-resultat-cisis.md)
-* [JdvScoreDukeCisis](ValueSet-jdv-score-duke-cisis.md)
-* [JdvScoreFisherCisis](ValueSet-jdv-score-fisher-cisis.md)
-* [JdvScoreGlasgowCisis](ValueSet-jdv-score-glasgow-cisis.md)
-* [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md)
-* [JdvSituationMatrimonialeCisis](ValueSet-jdv-situation-matrimoniale-cisis.md)
-* [JdvSituationMedicaleCisis](ValueSet-jdv-situation-medicale-cisis.md)
-* [JdvSoinOncoDeSupportCisis](ValueSet-jdv-soin-onco-de-support-cisis.md)
-* [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
-* [JdvStatutActuelDiagnosticCisis](ValueSet-jdv-statut-actuel-diagnostic-cisis.md)
-* [JdvStatutCasPresenteCisis](ValueSet-jdv-statut-cas-presente-cisis.md)
-* [JdvStatutQuorumCisis](ValueSet-jdv-statut-quorum-cisis.md)
-* [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
-* [JdvSupportNutritionnelCisis](ValueSet-jdv-support-nutritionnel-cisis.md)
-* [JdvTechniqueDiagnosticCisis](ValueSet-jdv-technique-diagnostic-cisis.md)
-* [JdvTerritoireInfarctusCisis](ValueSet-jdv-territoire-infarctus-cisis.md)
-* [JdvTnmPtnmPm2Cisis](ValueSet-jdv-tnm-ptnm-pm-2-cisis.md)
-* [JdvTnmPtnmPmCisis](ValueSet-jdv-tnm-ptnm-pm-cisis.md)
-* [JdvTnmPtnmPn1Cisis](ValueSet-jdv-tnm-ptnm-pn-1-cisis.md)
-* [JdvTnmPtnmPnCisis](ValueSet-jdv-tnm-ptnm-pn-cisis.md)
-* [JdvTnmPtnmPt1Cisis](ValueSet-jdv-tnm-ptnm-pt-1-cisis.md)
-* [JdvTnmPtnmPt2Cisis](ValueSet-jdv-tnm-ptnm-pt-2-cisis.md)
-* [JdvTnmPtnmPt3Cisis](ValueSet-jdv-tnm-ptnm-pt-3-cisis.md)
-* [JdvTraiteNontraiteCisis](ValueSet-jdv-traite-nontraite-cisis.md)
-* [JdvTraitementSoinsFrcpCisis](ValueSet-jdv-traitement-soins-frcp-cisis.md)
-* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
-* [JdvTransfertMutationCisis](ValueSet-jdv-transfert-mutation-cisis.md)
-* [JdvTroubleVisuelCisis](ValueSet-jdv-trouble-visuel-cisis.md)
-* [JdvTrousseCcuCisis](ValueSet-jdv-trousse-ccu-cisis.md)
-* [JdvTypeAccompagnementSocioproCisis](ValueSet-jdv-type-accompagnement-sociopro-cisis.md)
-* [JdvTypeActeEunvCisis](ValueSet-jdv-type-acte-eunv-cisis.md)
-* [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
-* [JdvTypeAllaitementNouveauNeCisis](ValueSet-jdv-type-allaitement-nouveau-ne-cisis.md)
-* [JdvTypeAnalgesieCisis](ValueSet-jdv-type-analgesie-cisis.md)
-* [JdvTypeAnesthesieApresNaissanceCisis](ValueSet-jdv-type-anesthesie-apres-naissance-cisis.md)
-* [JdvTypeAnesthesieAvantNaissanceCisis](ValueSet-jdv-type-anesthesie-avant-naissance-cisis.md)
-* [JdvTypeAnesthesieCisis](ValueSet-jdv-type-anesthesie-cisis.md)
-* [JdvTypeConclusionCisis](ValueSet-jdv-type-conclusion-cisis.md)
-* [JdvTypeDeLentilleCisis](ValueSet-jdv-type-de-lentille-cisis.md)
-* [JdvTypeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-type-de-mesure-acuite-visuelle-cisis.md)
-* [JdvTypeDeMesureDeRefractionCisis](ValueSet-jdv-type-de-mesure-de-refraction-cisis.md)
-* [JdvTypeDeMesureDispositifOculaireCisis](ValueSet-jdv-type-de-mesure-dispositif-oculaire-cisis.md)
-* [JdvTypeDePrismeCisis](ValueSet-jdv-type-de-prisme-cisis.md)
-* [JdvTypeDeSuiviCisis](ValueSet-jdv-type-de-suivi-cisis.md)
-* [JdvTypeDeVerrePrescritCisis](ValueSet-jdv-type-de-verre-prescrit-cisis.md)
-* [JdvTypeDirectiveAnticipeeCisis](ValueSet-jdv-type-directive-anticipee-cisis.md)
-* [JdvTypeDossierCisis](ValueSet-jdv-type-dossier-cisis.md)
-* [JdvTypeEvaluationCisis](ValueSet-jdv-type-evaluation-cisis.md)
-* [JdvTypeEvenementIndesirablePrevisibleCisis](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md)
-* [JdvTypeEvenementSsiadCisis](ValueSet-jdv-type-evenement-ssiad-cisis.md)
-* [JdvTypeGardeCisis](ValueSet-jdv-type-garde-cisis.md)
-* [JdvTypeInterventionVoieBasseCisis](ValueSet-jdv-type-intervention-voie-basse-cisis.md)
-* [JdvTypeIntubationCisis](ValueSet-jdv-type-intubation-cisis.md)
-* [JdvTypeLectureCisis](ValueSet-jdv-type-lecture-cisis.md)
-* [JdvTypeLesionImagerieCisis](ValueSet-jdv-type-lesion-imagerie-cisis.md)
-* [JdvTypeMammographieCisis](ValueSet-jdv-type-mammographie-cisis.md)
-* [JdvTypeMotorisationCisis](ValueSet-jdv-type-motorisation-cisis.md)
-* [JdvTypePresentationCisis](ValueSet-jdv-type-presentation-cisis.md)
-* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
-* [JdvTypeProduitSanguinLabileCisis](ValueSet-jdv-type-produit-sanguin-labile-cisis.md)
-* [JdvTypeRencontreObpCisis](ValueSet-jdv-type-rencontre-obp-cisis.md)
-* [JdvTypeResultatCisis](ValueSet-jdv-type-resultat-cisis.md)
-* [JdvTypeServiceCisis](ValueSet-jdv-type-service-cisis.md)
-* [JdvTypeTraitementFrcpCisis](ValueSet-jdv-type-traitement-frcp-cisis.md)
-* [JdvTypeTraitementPpsCisis](ValueSet-jdv-type-traitement-pps-cisis.md)
-* [JdvUfcvCodeEntreeCisis](ValueSet-jdv-ufcv-code-entree-cisis.md)
-* [JdvUfcvConnexionSondeCisis](ValueSet-jdv-ufcv-connexion-sonde-cisis.md)
-* [JdvUfcvEffetInrCisis](ValueSet-jdv-ufcv-effet-inr-cisis.md)
-* [JdvUfcvLocalisationSondeCisis](ValueSet-jdv-ufcv-localisation-sonde-cisis.md)
-* [JdvUfcvMotifImplantCisis](ValueSet-jdv-ufcv-motif-implant-cisis.md)
-* [JdvUfcvMotifImplantEndoprotheseCisis](ValueSet-jdv-ufcv-motif-implant-endoprothese-cisis.md)
-* [JdvUfcvPolariteSondeCisis](ValueSet-jdv-ufcv-polarite-sonde-cisis.md)
-* [JdvVieEnCollectiviteCisis](ValueSet-jdv-vie-en-collectivite-cisis.md)
-* [JdvVoieAbordCisis](ValueSet-jdv-voie-abord-cisis.md)
+* [JDV ActeCs8 CISIS](ValueSet-jdv-acte-cs8-cisis.md)
+* [JDV Acte Cse CISIS](ValueSet-jdv-acte-cse-cisis.md)
+* [JDV Acte Obp CISIS](ValueSet-jdv-acte-obp-cisis.md)
+* [JDV Activite CISIS](ValueSet-jdv-activite-cisis.md)
+* [JDV Addiction CISIS](ValueSet-jdv-addiction-cisis.md)
+* [JDV Age CISIS](ValueSet-jdv-age-cisis.md)
+* [JDV Age De Survenue CISIS](ValueSet-jdv-age-de-survenue-cisis.md)
+* [JDV Aide Au Deplacement CISIS](ValueSet-jdv-aide-au-deplacement-cisis.md)
+* [JDV Anomalie Croissance CISIS](ValueSet-jdv-anomalie-croissance-cisis.md)
+* [JDV Antecedant Medical CISIS](ValueSet-jdv-antecedant-medical-cisis.md)
+* [JDV Antecedent Cse24 CISIS](ValueSet-jdv-antecedent-cse24-cisis.md)
+* [JDV Antecedent Cse9 CISIS](ValueSet-jdv-antecedent-cse9-cisis.md)
+* [JDV Antecedent Obstetrical CISIS](ValueSet-jdv-antecedent-obstetrical-cisis.md)
+* [JDV Antecedent Obstetrical Obp CISIS](ValueSet-jdv-antecedent-obstetrical-obp-cisis.md)
+* [JDV Artere Anterieure CISIS](ValueSet-jdv-artere-anterieure-cisis.md)
+* [JDV Artere Cervelet CISIS](ValueSet-jdv-artere-cervelet-cisis.md)
+* [JDV Artere Posterieure CISIS](ValueSet-jdv-artere-posterieure-cisis.md)
+* [JDV Aspect Liquide Amniotique CISIS](ValueSet-jdv-aspect-liquide-amniotique-cisis.md)
+* [JDV Autre Symptome Ex Neuro CISIS](ValueSet-jdv-autre-symptome-ex-neuro-cisis.md)
+* [JDV Avis Medical Complementaire CISIS](ValueSet-jdv-avis-medical-complementaire-cisis.md)
+* [JDV Batterie Examen CISIS](ValueSet-jdv-batterie-examen-cisis.md)
+* [JDV Bilan Technique CISIS](ValueSet-jdv-bilan-technique-cisis.md)
+* [JDV Bio Instruction Patient CISIS](ValueSet-jdv-bio-instruction-patient-cisis.md)
+* [JDV Cause Accident Domestique CISIS](ValueSet-jdv-cause-accident-domestique-cisis.md)
+* [JDV Cause Cesarienne CISIS](ValueSet-jdv-cause-cesarienne-cisis.md)
+* [JDV Cdd Fa CISIS](ValueSet-jdv-cdd-fa-cisis.md)
+* [JDV Cervelet Localisation CISIS](ValueSet-jdv-cervelet-localisation-cisis.md)
+* [JDV Checklist Dlu CISIS](ValueSet-jdv-checklist-dlu-cisis.md)
+* [JDV Checklist Fludr CISIS](ValueSet-jdv-checklist-fludr-cisis.md)
+* [JDV Classification Acr 1 CISIS](ValueSet-jdv-classification-acr-1-cisis.md)
+* [JDV Classification Acr 2 CISIS](ValueSet-jdv-classification-acr-2-cisis.md)
+* [JDV Classification Acr CISIS](ValueSet-jdv-classification-acr-cisis.md)
+* [JDV Classification Acr Echographie CISIS](ValueSet-jdv-classification-acr-echographie-cisis.md)
+* [JDV Classification Ring Messmer CISIS](ValueSet-jdv-classification-ring-messmer-cisis.md)
+* [JDV Cliche Techniquement Insuffisant CISIS](ValueSet-jdv-cliche-techniquement-insuffisant-cisis.md)
+* [Jdv Collectivite Sujets A Risque Rougeole CISIS](ValueSet-jdv-collectivite-sujets-a-risque-rougeole-cisis.md)
+* [JDV Complication CISIS](ValueSet-jdv-complication-cisis.md)
+* [JDV Complication Digestive CISIS](ValueSet-jdv-complication-digestive-cisis.md)
+* [JDV Complication Neurologique CISIS](ValueSet-jdv-complication-neurologique-cisis.md)
+* [JDV Complication Neuropsychiatrique CISIS](ValueSet-jdv-complication-neuropsychiatrique-cisis.md)
+* [JDV Complication Pulmonaire CISIS](ValueSet-jdv-complication-pulmonaire-cisis.md)
+* [JDV Complication Urinaire CISIS](ValueSet-jdv-complication-urinaire-cisis.md)
+* [JDV Conclusion Simplifiee Ccu CISIS](ValueSet-jdv-conclusion-simplifiee-ccu-cisis.md)
+* [JDV Conduite A Tenir 1 CISIS](ValueSet-jdv-conduite-a-tenir-1-cisis.md)
+* [JDV Conduite A Tenir 2 CISIS](ValueSet-jdv-conduite-a-tenir-2-cisis.md)
+* [JDV Conduite A Tenir 3 CISIS](ValueSet-jdv-conduite-a-tenir-3-cisis.md)
+* [JDV Contexte Activite CISIS](ValueSet-jdv-contexte-activite-cisis.md)
+* [JDV Contexte Examen Ccu CISIS](ValueSet-jdv-contexte-examen-ccu-cisis.md)
+* [JDV Contrindication CISIS](ValueSet-jdv-contre-indication-cisis.md)
+* [JDV Contrindication Thrombolyse CISIS](ValueSet-jdv-contreindication-thrombolyse-cisis.md)
+* [JDV Couverture Sociale CISIS](ValueSet-jdv-couverture-sociale-cisis.md)
+* [JDV Date Consultation CISIS](ValueSet-jdv-date-consultation-cisis.md)
+* [JDV Deficience Physique CISIS](ValueSet-jdv-deficience-physique-cisis.md)
+* [JDV Delimitation Activite CISIS](ValueSet-jdv-delimitation-activite-cisis.md)
+* [JDV Densite Mammaire CISIS](ValueSet-jdv-densite-mammaire-cisis.md)
+* [JDV Destination Obp Sne CISIS](ValueSet-jdv-destination-obp-sne-cisis.md)
+* [JDV Destination Transfert CISIS](ValueSet-jdv-destination-transfert-cisis.md)
+* [JDV Detail Materiel Specialise CISIS](ValueSet-jdv-detail-materiel-specialise-cisis.md)
+* [JDV Detail Ressource Immobiliere Utilisee CISIS](ValueSet-jdv-detail-ressource-immobiliere-utilisee-cisis.md)
+* [JDV Developpement Psychomoteur Cs24 CISIS](ValueSet-jdv-developpement-psychomoteur-cs24-cisis.md)
+* [JDV Disposition Pretherapeutique CISIS](ValueSet-jdv-disposition-pretherapeutique-cisis.md)
+* [JDV Document Annexe Fludr CISIS](ValueSet-jdv-document-annexe-fludr-cisis.md)
+* [JDV Duree Allaitement CISIS](ValueSet-jdv-duree-allaitement-cisis.md)
+* [JDV Enfant Expose Aux Ecrans Cs24 CISIS](ValueSet-jdv-enfant-expose-aux-ecrans-cs24-cisis.md)
+* [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md)
+* [JDV Etiologie Hemorragie CISIS](ValueSet-jdv-etiologie-hemorragie-cisis.md)
+* [JDV Etiologie Infarctus CISIS](ValueSet-jdv-etiologie-infarctus-cisis.md)
+* [JDV Evaluation Douleur CISIS](ValueSet-jdv-evaluation-douleur-cisis.md)
+* [JDV Evaluation Neurocognitive CISIS](ValueSet-jdv-evaluation-neurocognitive-cisis.md)
+* [JDV Evaluation Ssiad CISIS](ValueSet-jdv-evaluation-ssiad-cisis.md)
+* [JDV Evenement Accouchement CISIS](ValueSet-jdv-evenement-accouchement-cisis.md)
+* [JDV Evolution CISIS](ValueSet-jdv-evolution-cisis.md)
+* [JDV Examen Clinique CISIS](ValueSet-jdv-examen-clinique-cisis.md)
+* [JDV Examen Complementaire CISIS](ValueSet-jdv-examen-complementaire-cisis.md)
+* [JDV Examen Enfant Obligatoire CISIS](ValueSet-jdv-examen-enfant-obligatoire-cisis.md)
+* [JDV Examen Realise CISIS](ValueSet-jdv-examen-realise-cisis.md)
+* [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md)
+* [JDV Facteur De Risque Avc CISIS](ValueSet-jdv-facteur-de-risque-avc-cisis.md)
+* [JDV Facteur Risque Rougeole CISIS](ValueSet-jdv-facteur-risque-rougeole-cisis.md)
+* [JDV Fonction Etudiee Scintigraphie CISIS](ValueSet-jdv-fonction-etudiee-scintigraphie-cisis.md)
+* [JDV Fonction Etudiee Tep CISIS](ValueSet-jdv-fonction-etudiee-tep-cisis.md)
+* [JDV Gene CISIS](ValueSet-jdv-gene-cisis.md)
+* [JDV Geste Reanimation Nouveau Ne CISIS](ValueSet-jdv-geste-reanimation-nouveau-ne-cisis.md)
+* [JDV Gestion Effet Secondaire CISIS](ValueSet-jdv-gestion-effet-secondaire-cisis.md)
+* [JDV Gir CISIS](ValueSet-jdv-gir-cisis.md)
+* [JDV Gravite CISIS](ValueSet-jdv-gravite-cisis.md)
+* [JDV Handicap Deficit Dlu Dom CISIS](ValueSet-jdv-handicap-deficit-dlu-dom-cisis.md)
+* [JDV Hemisphere Lobaire CISIS](ValueSet-jdv-hemisphere-lobaire-cisis.md)
+* [JDV Info Deces Cs8 CISIS](ValueSet-jdv-info-deces-cs8-cisis.md)
+* [JDV Info Prise En Charge CISIS](ValueSet-jdv-info-prise-en-charge-cisis.md)
+* [JDV Injection Pdc Tep CISIS](ValueSet-jdv-injection-pdc-tep-cisis.md)
+* [JDV Investigation Realisee CISIS](ValueSet-jdv-investigation-realisee-cisis.md)
+* [JDV Investigation Realisee Sunv CISIS](ValueSet-jdv-investigation-realisee-sunv-cisis.md)
+* [JDV Juridique CISIS](ValueSet-jdv-juridique-cisis.md)
+* [JDV Lieu Accouchement CISIS](ValueSet-jdv-lieu-accouchement-cisis.md)
+* [JDV Localisation Hemorragie Cerebrale CISIS](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md)
+* [JDV Localisation Thrombose Veineuse CISIS](ValueSet-jdv-localisation-thrombose-veineuse-cisis.md)
+* [JDV Mesure Associee CISIS](ValueSet-jdv-mesure-associee-cisis.md)
+* [JDV Mesure Lentille Delivree CISIS](ValueSet-jdv-mesure-lentille-delivree-cisis.md)
+* [JDV Mesure Lentille Prescrite CISIS](ValueSet-jdv-mesure-lentille-prescrite-cisis.md)
+* [JDV Mesure Protection Conduite Automobile CISIS](ValueSet-jdv-mesure-protection-conduite-automobile-cisis.md)
+* [JDV Mesure Type Verre Delivre CISIS](ValueSet-jdv-mesure-type-verre-delivre-cisis.md)
+* [JDV Mesure Type Verre Prescrit CISIS](ValueSet-jdv-mesure-type-verre-prescrit-cisis.md)
+* [JDV Mesure Verre Delivre CISIS](ValueSet-jdv-mesure-verre-delivre-cisis.md)
+* [JDV Mesure Verre Prescrit CISIS](ValueSet-jdv-mesure-verre-prescrit-cisis.md)
+* [JDV Methode Accouchement CISIS](ValueSet-jdv-methode-accouchement-cisis.md)
+* [JDV Methode De Mesure Acuite Visuelle CISIS](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md)
+* [JDV Methode Preparation Echantillon CISIS](ValueSet-jdv-methode-preparation-echantillon-cisis.md)
+* [JDV Milieu Cytologie Ccu CISIS](ValueSet-jdv-milieu-cytologie-ccu-cisis.md)
+* [JDV Modalite Demande Acte Imagerie CISIS](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md)
+* [JDV Modalite Entree CISIS](ValueSet-jdv-modalite-entree-cisis.md)
+* [JDV Modalite Entree ESMS CISIS](ValueSet-jdv-modalite-entree-esms-cisis.md)
+* [JDV Modalite Sortie CISIS](ValueSet-jdv-modalite-sortie-cisis.md)
+* [JDV Modalite Sortie ESMS CISIS](ValueSet-jdv-modalite-sortie-esms-cisis.md)
+* [JDV Mode Accouchement CISIS](ValueSet-jdv-mode-accouchement-cisis.md)
+* [JDV Mode De Transport CISIS](ValueSet-jdv-mode-de-transport-cisis.md)
+* [JDV Mode Naissance CISIS](ValueSet-jdv-mode-naissance-cisis.md)
+* [JDV Mode Sortie CISIS](ValueSet-jdv-mode-sortie-cisis.md)
+* [JDV Mode Sortie Obp Scm CISIS](ValueSet-jdv-mode-sortie-obp-scm-cisis.md)
+* [JDV Mode Sortie Obp Sem CISIS](ValueSet-jdv-mode-sortie-obp-sem-cisis.md)
+* [JDV Mode Sortie Obp Sne CISIS](ValueSet-jdv-mode-sortie-obp-sne-cisis.md)
+* [JDV Mode Sortie Obp Snm CISIS](ValueSet-jdv-mode-sortie-obp-snm-cisis.md)
+* [JDV Motif Consultation Ophtalmologique CISIS](ValueSet-jdv-motif-consultation-ophtalmologique-cisis.md)
+* [JDV Motif Declenchement Travail CISIS](ValueSet-jdv-motif-declenchement-travail-cisis.md)
+* [JDV Motif Diagnostic CISIS](ValueSet-jdv-motif-diagnostic-cisis.md)
+* [JDV Motif Echographie CISIS](ValueSet-jdv-motif-echographie-cisis.md)
+* [JDV Motif Hospitalisation Cse CISIS](ValueSet-jdv-motif-hospitalisation-cse-cisis.md)
+* [JDV Motif Mise A Jour CISIS](ValueSet-jdv-motif-mise-a-jour-cisis.md)
+* [JDV Motif Non Realisation Evenement CISIS](ValueSet-jdv-motif-non-realisation-evenement-cisis.md)
+* [JDV Nature Discussion CISIS](ValueSet-jdv-nature-discussion-cisis.md)
+* [JDV Nature Fraction CISIS](ValueSet-jdv-nature-fraction-cisis.md)
+* [JDV Nature Materiel Etudie CISIS](ValueSet-jdv-nature-materiel-etudie-cisis.md)
+* [JDV Niveau Dependance CISIS](ValueSet-jdv-niveau-dependance-cisis.md)
+* [JDV Niveau Etude CISIS](ValueSet-jdv-niveau-etude-cisis.md)
+* [JDV Nvpo CISIS](ValueSet-jdv-nvpo-cisis.md)
+* [JDV Obp Resultat Evenement CISIS](ValueSet-jdv-obp-resultat-evenement-cisis.md)
+* [JDV Observation Grossesse CISIS](ValueSet-jdv-observation-grossesse-cisis.md)
+* [JDV Origine Effet Indesirable CISIS](ValueSet-jdv-origine-effet-indesirable-cisis.md)
+* [JDV Patho 1ere Semaine Cs8 CISIS](ValueSet-jdv-patho-1ere-semaine-cs8-cisis.md)
+* [JDV Patient adresse par CISIS](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JDV Phase Cancer CISIS](ValueSet-jdv-phase-cancer-cisis.md)
+* [JDV Polypathologies Avc CISIS](ValueSet-jdv-polypathologies-avc-cisis.md)
+* [JDV Presentation Foetale CISIS](ValueSet-jdv-presentation-foetale-cisis.md)
+* [JDV Prise En Charge Reguliere CISIS](ValueSet-jdv-prise-en-charge-reguliere-cisis.md)
+* [JDV Prise En Charge Specifique CISIS](ValueSet-jdv-prise-en-charge-specifique-cisis.md)
+* [JDV Profession Exposee CISIS](ValueSet-jdv-profession-exposee-cisis.md)
+* [JDV Progression Cancer CISIS](ValueSet-jdv-progression-cancer-cisis.md)
+* [JDV Prothese Objet Personnel CISIS](ValueSet-jdv-prothese-objet-personnel-cisis.md)
+* [JDV Qualification Fraction CISIS](ValueSet-jdv-qualification-fraction-cisis.md)
+* [JDV Raison Absence Etiologie CISIS](ValueSet-jdv-raison-absence-etiologie-cisis.md)
+* [JDV Raison Non Realisation CISIS](ValueSet-jdv-raison-non-realisation-cisis.md)
+* [JDV Registre Ern CISIS](ValueSet-jdv-registre-ern-cisis.md)
+* [JDV Rencontre Cs8 CISIS](ValueSet-jdv-rencontre-cs8-cisis.md)
+* [JDV Rencontre Cs9 Cs24 CISIS](ValueSet-jdv-rencontre-cs9-cs24-cisis.md)
+* [JDV Reperage Trouble Neurodeveloppement CISIS](ValueSet-jdv-reperage-trouble-neurodeveloppement-cisis.md)
+* [JDV Reprise Professionnelle CISIS](ValueSet-jdv-reprise-professionnelle-cisis.md)
+* [JDV Ressource Utilisee CISIS](ValueSet-jdv-ressource-utilisee-cisis.md)
+* [JDV Resultat Comparaison CISIS](ValueSet-jdv-resultat-comparaison-cisis.md)
+* [JDV Resultat Depistage Surdite CISIS](ValueSet-jdv-resultat-depistage-surdite-cisis.md)
+* [JDV Resultat Examen Cytologique Ccu CISIS](ValueSet-jdv-resultat-examen-cytologique-ccu-cisis.md)
+* [JDV Resultat Question Evaluation CISIS](ValueSet-jdv-resultat-question-evaluation-cisis.md)
+* [JDV Risque Pour Entourage CISIS](ValueSet-jdv-risque-pour-entourage-cisis.md)
+* [JDV Risque Pour Usager CISIS](ValueSet-jdv-risque-pour-usager-cisis.md)
+* [JDV Score Braden Resultat CISIS](ValueSet-jdv-score-braden-resultat-cisis.md)
+* [JDV Score Duke CISIS](ValueSet-jdv-score-duke-cisis.md)
+* [JDV Score Fisher CISIS](ValueSet-jdv-score-fisher-cisis.md)
+* [JDV Score Glasgow CISIS](ValueSet-jdv-score-glasgow-cisis.md)
+* [JDV Section Document CISIS](ValueSet-jdv-section-document-cisis.md)
+* [Jdv Situation Matrimoniale CISIS](ValueSet-jdv-situation-matrimoniale-cisis.md)
+* [JDV Situation Medicale CISIS](ValueSet-jdv-situation-medicale-cisis.md)
+* [JDV Soin Onco De Support CISIS](ValueSet-jdv-soin-onco-de-support-cisis.md)
+* [JDV Static Sem Procedure CISIS](ValueSet-jdv-static-sem-procedure-cisis.md)
+* [JDV Statut Actuel Diagnostic CISIS](ValueSet-jdv-statut-actuel-diagnostic-cisis.md)
+* [JDV Statut Cas Presente CISIS](ValueSet-jdv-statut-cas-presente-cisis.md)
+* [JDV Statut Quorum CISIS](ValueSet-jdv-statut-quorum-cisis.md)
+* [JDV Structure De Soins CISIS](ValueSet-jdv-structure-de-soins-cisis.md)
+* [Jdv Substitution Medicament Dispensateur CISIS](ValueSet-jdv-substitution-medicament-dispensateur-cisis.md)
+* [Jdv Substitution Medicament Prescripteur CISIS](ValueSet-jdv-substitution-medicament-prescripteur-cisis.md)
+* [JDV Support Nutritionnel CISIS](ValueSet-jdv-support-nutritionnel-cisis.md)
+* [JDV Technique Diagnostic CISIS](ValueSet-jdv-technique-diagnostic-cisis.md)
+* [JDV Territoire Infarctus CISIS](ValueSet-jdv-territoire-infarctus-cisis.md)
+* [JDV Tnm Ptnm Pm 2 CISIS](ValueSet-jdv-tnm-ptnm-pm-2-cisis.md)
+* [JDV Tnm Ptnm Pm CISIS](ValueSet-jdv-tnm-ptnm-pm-cisis.md)
+* [JDV Tnm Ptnm Pn 1 CISIS](ValueSet-jdv-tnm-ptnm-pn-1-cisis.md)
+* [JDV Tnm Ptnm Pn CISIS](ValueSet-jdv-tnm-ptnm-pn-cisis.md)
+* [JDV Tnm Ptnm Pt 1 CISIS](ValueSet-jdv-tnm-ptnm-pt-1-cisis.md)
+* [JDV Tnm Ptnm Pt 2 CISIS](ValueSet-jdv-tnm-ptnm-pt-2-cisis.md)
+* [JDV Tnm Ptnm Pt 3 CISIS](ValueSet-jdv-tnm-ptnm-pt-3-cisis.md)
+* [JDV Traite Nontraite CISIS](ValueSet-jdv-traite-nontraite-cisis.md)
+* [JDV Traitement Soins Frcp CISIS](ValueSet-jdv-traitement-soins-frcp-cisis.md)
+* [JDV Traitement Suivi CISIS](ValueSet-jdv-traitement-suivi-cisis.md)
+* [JDV Transfert Mutation CISIS](ValueSet-jdv-transfert-mutation-cisis.md)
+* [JDV Trouble Visuel CISIS](ValueSet-jdv-trouble-visuel-cisis.md)
+* [JDV Trousse Ccu CISIS](ValueSet-jdv-trousse-ccu-cisis.md)
+* [JDV Type Accompagnement Sociopro CISIS](ValueSet-jdv-type-accompagnement-sociopro-cisis.md)
+* [JDV Type Acte Eunv CISIS](ValueSet-jdv-type-acte-eunv-cisis.md)
+* [JDV Type Acte Post Partum CISIS](ValueSet-jdv-type-acte-post-partum-cisis.md)
+* [JDV Type Allaitement Nouveau Ne CISIS](ValueSet-jdv-type-allaitement-nouveau-ne-cisis.md)
+* [JDV Type Analgesie CISIS](ValueSet-jdv-type-analgesie-cisis.md)
+* [JDV Type Anesthesie Apres Naissance CISIS](ValueSet-jdv-type-anesthesie-apres-naissance-cisis.md)
+* [JDV Type Anesthesie Avant Naissance CISIS](ValueSet-jdv-type-anesthesie-avant-naissance-cisis.md)
+* [JDV Type Anesthesie CISIS](ValueSet-jdv-type-anesthesie-cisis.md)
+* [JDV Type Conclusion CISIS](ValueSet-jdv-type-conclusion-cisis.md)
+* [JDV Type De Lentille CISIS](ValueSet-jdv-type-de-lentille-cisis.md)
+* [JDV Type De Mesure Acuite Visuelle CISIS](ValueSet-jdv-type-de-mesure-acuite-visuelle-cisis.md)
+* [JDV Type De Mesure De Refraction CISIS](ValueSet-jdv-type-de-mesure-de-refraction-cisis.md)
+* [JDV Type De Mesure Dispositif Oculaire CISIS](ValueSet-jdv-type-de-mesure-dispositif-oculaire-cisis.md)
+* [JDV Type De Prisme CISIS](ValueSet-jdv-type-de-prisme-cisis.md)
+* [JDV Type De Suivi CISIS](ValueSet-jdv-type-de-suivi-cisis.md)
+* [JDV Type De Verre Prescrit CISIS](ValueSet-jdv-type-de-verre-prescrit-cisis.md)
+* [JDV Type Directive Anticipee CISIS](ValueSet-jdv-type-directive-anticipee-cisis.md)
+* [JDV Type Dossier CISIS](ValueSet-jdv-type-dossier-cisis.md)
+* [JDV Type Evaluation CISIS](ValueSet-jdv-type-evaluation-cisis.md)
+* [JDV Type Evenement Indesirable Previsible CISIS](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md)
+* [JDV Type Evenement Ssiad CISIS](ValueSet-jdv-type-evenement-ssiad-cisis.md)
+* [JDV Type Garde CISIS](ValueSet-jdv-type-garde-cisis.md)
+* [JDV Type Intervention Voie Basse CISIS](ValueSet-jdv-type-intervention-voie-basse-cisis.md)
+* [JDV Type Intubation CISIS](ValueSet-jdv-type-intubation-cisis.md)
+* [JDV Type Lecture CISIS](ValueSet-jdv-type-lecture-cisis.md)
+* [JDV Type Lesion Imagerie CISIS](ValueSet-jdv-type-lesion-imagerie-cisis.md)
+* [JDV Type Mammographie CISIS](ValueSet-jdv-type-mammographie-cisis.md)
+* [JDV Type Motorisation CISIS](ValueSet-jdv-type-motorisation-cisis.md)
+* [JDV Type Presentation CISIS](ValueSet-jdv-type-presentation-cisis.md)
+* [JDV Type Prise En Charge CISIS](ValueSet-jdv-type-prise-en-charge-cisis.md)
+* [JDV Type Produit Sanguin Labile CISIS](ValueSet-jdv-type-produit-sanguin-labile-cisis.md)
+* [JDV Type Rencontre Obp CISIS](ValueSet-jdv-type-rencontre-obp-cisis.md)
+* [JDV Type Resultat CISIS](ValueSet-jdv-type-resultat-cisis.md)
+* [JDV Type Service CISIS](ValueSet-jdv-type-service-cisis.md)
+* [JDV Type Traitement Frcp CISIS](ValueSet-jdv-type-traitement-frcp-cisis.md)
+* [JDV Type Traitement Pps CISIS](ValueSet-jdv-type-traitement-pps-cisis.md)
+* [JDV UFCV Code Entree CISIS](ValueSet-jdv-ufcv-code-entree-cisis.md)
+* [JDV UFCV Connexion Sonde CISIS](ValueSet-jdv-ufcv-connexion-sonde-cisis.md)
+* [JDV UFCV Effet INR CISIS](ValueSet-jdv-ufcv-effet-inr-cisis.md)
+* [JDV UFCV Localisation Sonde CISIS](ValueSet-jdv-ufcv-localisation-sonde-cisis.md)
+* [JDV UFCV Motif Implant CISIS](ValueSet-jdv-ufcv-motif-implant-cisis.md)
+* [JDV UFCV Motif Implant Endoprothese CISIS](ValueSet-jdv-ufcv-motif-implant-endoprothese-cisis.md)
+* [JDV UFCV Polarite Sonde CISIS](ValueSet-jdv-ufcv-polarite-sonde-cisis.md)
+* [JDV Vie En Collectivite CISIS](ValueSet-jdv-vie-en-collectivite-cisis.md)
+* [JDV Voie Abord CISIS](ValueSet-jdv-voie-abord-cisis.md)
 
 -------
 
@@ -262,8 +263,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-04-20T11:25:29.352+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-09-21T16:55:45.107+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -277,12 +278,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202604200000",
+  "version" : "202609211638",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
-  "experimental" : false,
-  "date" : "2026-04-20T11:06:51-00:00",
+  "experimental" : true,
+  "date" : "2026-09-21T16:38:40+02:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -292,7 +293,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "display" : "France (la)"
     }]
   }],
-  "caseSensitive" : false,
+  "caseSensitive" : true,
   "content" : "complete",
   "property" : [{
     "code" : "status",
@@ -325,6 +326,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "type" : "dateTime"
   }],
   "concept" : [{
+    "code" : "DLU",
+    "display" : "Document de liaison d'urgence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "DLU_001",
+    "display" : "Peut alerter",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "DLU_002",
     "display" : "Conscient et éveillé",
     "property" : [{
@@ -340,8 +389,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -360,8 +413,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -380,8 +437,36 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "DLU_005",
+    "display" : "Douleur récente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -400,8 +485,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -420,8 +509,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -440,8 +533,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -476,8 +573,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -672,8 +773,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -786,6 +891,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-008",
+    "display" : "Oui",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-009",
+    "display" : "Non",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -937,6 +1090,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-019",
+    "display" : "à la naissance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-020",
+    "display" : "à l'âge de",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-021",
+    "display" : "Non déterminé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-022",
+    "display" : "Non classable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-023",
     "display" : "Précisions difficultés",
     "property" : [{
@@ -950,6 +1199,318 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-024",
+    "display" : "Lundi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-025",
+    "display" : "Mardi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-026",
+    "display" : "Mercredi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-027",
+    "display" : "Jeudi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-028",
+    "display" : "Vendredi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-029",
+    "display" : "Samedi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-030",
+    "display" : "Dimanche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-031",
+    "display" : "Autre contexte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-032",
+    "display" : "Non approprié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-033",
+    "display" : "Approprié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-034",
+    "display" : "En cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-035",
+    "display" : "Confirmé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-036",
+    "display" : "Imagerie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1001,6 +1562,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-040",
+    "display" : "Autre technique seule",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-041",
     "display" : "Précision technique",
     "property" : [{
@@ -1030,6 +1615,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-043",
+    "display" : "Grand-mère paternelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-044",
+    "display" : "Grand-mère maternelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-045",
+    "display" : "Au moins 3 antécédents familiaux connus du côté de la mère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-046",
+    "display" : "Au moins 3 antécédents familiaux connus du côté du père",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1341,6 +2022,270 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-066",
+    "display" : "En cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-067",
+    "display" : "Complété",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-068",
+    "display" : "Validé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-069",
+    "display" : "Clôturé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-070",
+    "display" : "Voie nasale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-071",
+    "display" : "Inférieur à la normale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-072",
+    "display" : "Supérieur à la normale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-073",
+    "display" : "Inférieur à la valeur panique basse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-074",
+    "display" : "Supérieur à la valeur panique haute",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-075",
+    "display" : "Non validé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-076",
+    "display" : "Modifié, corrigé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-077",
     "display" : "Région",
     "property" : [{
@@ -1372,8 +2317,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1393,6 +2342,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-080",
+    "display" : "Hospitalisation (y compris à domicile)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-081",
+    "display" : "Infection néonatale confirmée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-082",
+    "display" : "Imite un geste simple (au revoir/bravo)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-083",
+    "display" : "Joue à faire semblant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-084",
     "display" : "Sollicite un adulte/une autre personne",
     "property" : [{
@@ -1406,6 +2451,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-085",
+    "display" : "Dépistage néonatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1486,6 +2555,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-091",
+    "display" : "Autre information",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-092",
+    "display" : "Autre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-092.01",
+    "display" : "Autre problème - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -1921,6 +3062,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-092.02",
+    "display" : "Autre dispositif médical - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.02.01",
     "display" : "Autre dispositif ou objet personnel",
     "property" : [{
@@ -1950,6 +3115,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.03",
+    "display" : "Autre traitement / produit - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2078,6 +3267,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.04",
+    "display" : "Autre acte, examen ou suivi - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2465,6 +3678,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-092.05",
+    "display" : "Autre profession / activité - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.05.01",
     "display" : "Autre personne",
     "property" : [{
@@ -2494,6 +3731,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.05.03",
+    "display" : "Autre professionnel(le)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2545,6 +3806,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-092.06",
+    "display" : "Autre Lieu / Transport - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.06.01",
     "display" : "Autre établissement de santé",
     "property" : [{
@@ -2558,6 +3843,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.06.02",
+    "display" : "Autre structure de soins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2705,6 +4014,46 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-092.06.12",
+    "display" : "Autre lieu",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.07",
+    "display" : "Autre Anatomie - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.07.01",
     "display" : "Autre nature du matériel étudié",
     "property" : [{
@@ -2734,6 +4083,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.08",
+    "display" : "Autre (divers) - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -2881,6 +4254,46 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-092.08.10",
+    "display" : "Autre fruit de mer",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.09",
+    "display" : "Autre rencontre - Ne pas utiliser",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-092.09.01",
     "display" : "Autre type de rencontre",
     "property" : [{
@@ -2910,6 +4323,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-094",
+    "display" : "1er trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-095",
+    "display" : "2e trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-096",
+    "display" : "3e trimestre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-097",
+    "display" : "Autre (préciser)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3025,6 +4534,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-105",
+    "display" : "Protection universelle maladie (PUMa)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-05-14T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-05-14T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-106",
     "display" : "Assurance maladie complémentaire (AMC)",
     "property" : [{
@@ -3089,6 +4622,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-110",
+    "display" : "Prison",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-111",
+    "display" : "Identifiant du dispositif médical",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-112",
+    "display" : "Nom du fabricant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-113",
     "display" : "Nom du professionnel ayant utilisé le DM",
     "property" : [{
@@ -3102,6 +4707,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-114",
+    "display" : "Autres informations",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3134,6 +4763,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-117",
+    "display" : "Domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3377,6 +5030,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-133",
+    "display" : "En couple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-134",
+    "display" : "En famille",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-135",
+    "display" : "Seul",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-136",
     "display" : "Dossier MDPH en cours, adapté",
     "property" : [{
@@ -3586,7 +5311,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "GEN-149",
-    "display" : "Communiquer : proches",
+    "display" : "Communiquer : proches",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -3630,6 +5355,150 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-152",
+    "display" : "Grand",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-153",
+    "display" : "Petit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-154",
+    "display" : "Partiellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-155",
+    "display" : "Avec aide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-156",
+    "display" : "A poursuivre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-157",
+    "display" : "A modifier",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -3809,6 +5678,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-169",
+    "display" : "Très important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-170",
+    "display" : "Important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-171",
+    "display" : "Peu important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-172",
+    "display" : "Pas important",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-173",
     "display" : "Délivré dans la période d'un séjour hospitalier",
     "property" : [{
@@ -3985,6 +5950,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-184",
+    "display" : "Activité sportive régulière",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-185",
     "display" : "Sportif de haut niveau",
     "property" : [{
@@ -3998,6 +5987,126 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-186",
+    "display" : "Solvants",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-187",
+    "display" : "Pesticides",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-188",
+    "display" : "Isolement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-189",
+    "display" : "SDF",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-190",
+    "display" : "Revenus insuffisants",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4030,6 +6139,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-193",
+    "display" : "Marche avec canne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-194",
+    "display" : "Marche avec déambulateur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-195",
+    "display" : "Fauteuil roulant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-196",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4097,6 +6302,150 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-201",
+    "display" : "Pas d'activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-202",
+    "display" : "Peu d'activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-203",
+    "display" : "Activité régulière",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-204",
+    "display" : "Facile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-205",
+    "display" : "Difficile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-206",
+    "display" : "Impossible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-207",
     "display" : "Facteurs de risques environnementaux",
     "property" : [{
@@ -4130,6 +6479,510 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-209",
+    "display" : "Complètement limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-210",
+    "display" : "Très limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-211",
+    "display" : "Légèrement diminuée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-212",
+    "display" : "Aucune atteinte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-213",
+    "display" : "Constamment mouillé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-214",
+    "display" : "Humide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-215",
+    "display" : "Humidité occasionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-216",
+    "display" : "Rarement humide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-217",
+    "display" : "Alité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-218",
+    "display" : "Confiné au fauteuil",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-219",
+    "display" : "Marche occasionnellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-220",
+    "display" : "Marche fréquemment",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-221",
+    "display" : "Complètement immobile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-223",
+    "display" : "Légèrement limitée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-224",
+    "display" : "Aucune limitation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-225",
+    "display" : "Très pauvre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-226",
+    "display" : "Probablement inadéquate",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-227",
+    "display" : "Adéquate",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-228",
+    "display" : "Excellente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-229",
+    "display" : "Problème présent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-230",
+    "display" : "Problème potentiel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4249,6 +7102,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-238",
+    "display" : "Matériel manquant (Moniteurs, curamètre, pousse-seringue, réchauffeur)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-239",
     "display" : "Panne de fluides médicaux (oxygène, air comprimé ou vide)",
     "property" : [{
@@ -4281,6 +7158,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-241",
+    "display" : "Grabataire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-242",
+    "display" : "Non applicable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-243",
     "display" : "Topographie",
     "property" : [{
@@ -4310,6 +7235,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-245",
+    "display" : "Présent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -4486,7 +7435,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "GEN-257",
-    "display" : "Bas grade (bien ou moyennement différencié)",
+    "display" : "Bas grade (bien ou moyennement différencié)",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -4502,7 +7451,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "GEN-258",
-    "display" : "Haut grade (peu différencié ou indifférencié)",
+    "display" : "Haut grade (peu différencié ou indifférencié)",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -4589,6 +7538,246 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-263",
+    "display" : "Temporale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-264",
+    "display" : "Supérieure",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-265",
+    "display" : "Inférieure",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-266",
+    "display" : "Intégré",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-267",
+    "display" : "Souple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-268",
+    "display" : "Rigide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-269",
+    "display" : "Hybride",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-270",
+    "display" : "Faible(Low)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-271",
+    "display" : "Moyen(Med)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "GEN-272",
+    "display" : "Elevé(High)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-273",
     "display" : "Non renseigné",
     "property" : [{
@@ -4602,6 +7791,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-274",
+    "display" : "Non identifié",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -5133,6 +8346,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "GEN-308",
+    "display" : "Non fait",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "GEN-309",
     "display" : "matériau",
     "property" : [{
@@ -5258,6 +8495,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-317",
+    "display" : "Le patient (ou son représentant légal) ne s'oppose pas à la réutilisation de ses données pour la recherche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -5530,6 +8791,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-335",
+    "display" : "Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -6753,11 +10038,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Assurance maladie (Sécurité sociale)",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-05-14T00:00:00+01:00"
+      "valueDateTime" : "2025-05-14T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-05-14T00:00:00+01:00"
+      "valueDateTime" : "2025-05-14T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -6769,11 +10054,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Aucun objet",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-21T00:00:00+01:00"
+      "valueDateTime" : "2025-07-21T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-21T00:00:00+01:00"
+      "valueDateTime" : "2025-07-21T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -6785,11 +10070,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Liste des prothèses et objets personnels",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -6801,11 +10086,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Prescriptions",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -7006,7 +10291,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "GEN-428",
-    "display" : "Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?",
+    "display" : "Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2026-03-03T00:00:00+01:00"
@@ -7022,7 +10307,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "GEN-429",
-    "display" : "Nombre de kits",
+    "display" : "Nombre de kits salivaires",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2026-03-03T00:00:00+01:00"
@@ -7046,6 +10331,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-431",
+    "display" : "Correspond aux critères de déclaration du réseau européen des cas de légionellose liés au voyage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-16T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-432",
+    "display" : "Nombre de cas",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-24T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-24T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-433",
+    "display" : "Contact avec au moins un cas humain d’orthopoxvirose",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-24T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-24T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -7338,6 +10671,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-019",
+    "display" : "Densité mammaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7725,6 +11082,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-044",
+    "display" : "Prélèvement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-045",
     "display" : "Si comparaison avec mammographie antérieure l'anomalie est",
     "property" : [{
@@ -7738,6 +11119,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-046",
+    "display" : "Cancer du sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-047",
+    "display" : "Chirurgie pour lésion bénigne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -7821,6 +11250,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-053",
+    "display" : "Soins de support",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-054",
     "display" : "Proposition thérapeutique",
     "property" : [{
@@ -7850,6 +11303,198 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-056",
+    "display" : "Problèmes liés aux médicaments",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-057",
+    "display" : "Problème de mobilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-058",
+    "display" : "Isolement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-059",
+    "display" : "Précarité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-060",
+    "display" : "Incapacité dans les activités de base de la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-061",
+    "display" : "Troubles nutritionnels / difficulté à avoir une alimentation adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-062",
+    "display" : "Difficulté à prendre soin de soi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-063",
+    "display" : "Troubles de l'humeur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8113,6 +11758,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-080",
+    "display" : "Anténatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-081",
+    "display" : "Chromosomique (caryotype, FISH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-082",
     "display" : "Analyse chromosomique sur puce à ADN",
     "property" : [{
@@ -8161,6 +11854,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-085",
+    "display" : "Fœtus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-086",
     "display" : "Signes inhabituels associés à la MR",
     "property" : [{
@@ -8174,6 +11891,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-087",
+    "display" : "Autres descriptions génétiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-088",
+    "display" : "Date de début de la grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-089",
+    "display" : "Grossesse multiple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-090",
+    "display" : "Statut vital du patient",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8209,6 +12022,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-093",
+    "display" : "Tabagique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-094",
+    "display" : "Autre addiction",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-095",
     "display" : "Avis d'expertise sur un dossier",
     "property" : [{
@@ -8222,6 +12083,174 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-096",
+    "display" : "Téléconsultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-097",
+    "display" : "Diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-098",
+    "display" : "Conseil génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-099",
+    "display" : "Diagnostic prénatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-100",
+    "display" : "Diagnostic préimplantatoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-101",
+    "display" : "Génétique moléculaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-102",
+    "display" : "Cytogénétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8273,6 +12302,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-106",
+    "display" : "Compte Rendu Anatomocytopathologique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-107",
+    "display" : "Implant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-01-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-01-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-108",
+    "display" : "Antécédent de chirurgie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-109",
+    "display" : "Chirurgie pour lésions à risque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-110",
     "display" : "Mammographique",
     "property" : [{
@@ -8302,6 +12427,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-112",
+    "display" : "Autres clichés",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-113",
+    "display" : "Tomosynthèse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-114",
+    "display" : "Autre technique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-115",
+    "display" : "Dépistage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8437,6 +12658,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-124",
+    "display" : "Autre(s) traitement(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-125",
+    "display" : "Autres traitements médicamenteux spécifiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-126",
     "display" : "Allogreffe / Autogreffe",
     "property" : [{
@@ -8450,6 +12719,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-127",
+    "display" : "Hormonothérapie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8546,6 +12839,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-134",
+    "display" : "Protéine d’œuf",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-135",
+    "display" : "Antibiotiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-136",
+    "display" : "Gélatine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8825,6 +13190,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-154",
+    "display" : "Autres traitements",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-155",
     "display" : "Allergies connues",
     "property" : [{
@@ -8857,6 +13246,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-157",
+    "display" : "Consommation d'alcool",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-158",
+    "display" : "Consommation de tabac",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-159",
     "display" : "Nombre d'enfants pesant moins de 2500 g",
     "property" : [{
@@ -8870,6 +13307,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-160",
+    "display" : "Nombre d'enfants mort-nés",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-161",
+    "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-162",
+    "display" : "Rang de naissance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -8889,6 +13398,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-164",
+    "display" : "Pathologie en cours de grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-165",
+    "display" : "Autre pathologie en cours de grossesse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-166",
     "display" : "Rupture membranaire plus de 12 h avant l'accouchement",
     "property" : [{
@@ -8905,6 +13462,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-167",
+    "display" : "Mesure de la clarté nucale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-168",
     "display" : "Analgésie au cours du travail",
     "property" : [{
@@ -8918,6 +13499,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-169",
+    "display" : "Mode d'accouchement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-170",
+    "display" : "Urgence chirurgicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-171",
+    "display" : "Autres pathologies de la 1ère semaine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9053,6 +13706,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-180",
+    "display" : "Autre anomalie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-181",
     "display" : "Risque de saturnisme",
     "property" : [{
@@ -9069,6 +13746,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-182",
+    "display" : "Affections bronchopulmonaires à répétition",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-183",
     "display" : "Prématurité inf. à 33 semaines",
     "property" : [{
@@ -9082,6 +13783,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-184",
+    "display" : "Affections bronchopulmonaires à répétition dont plus de trois sifflantes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9165,6 +13890,246 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-190",
+    "display" : "Tient assis sans appui",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-191",
+    "display" : "Réagit à son prénom",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-192",
+    "display" : "Répète une syllabe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-193",
+    "display" : "Se déplace",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-194",
+    "display" : "Saisit un objet avec participation du pouce",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-195",
+    "display" : "Motricité symétrique des 4 membres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-196",
+    "display" : "Comprend une consigne simple",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-197",
+    "display" : "Nomme au moins une image",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-198",
+    "display" : "Superpose des objets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-199",
+    "display" : "Associe deux mots",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-200",
     "display" : "Marche acquise",
     "property" : [{
@@ -9197,6 +14162,198 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-202",
+    "display" : "Pointe du doigt",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-203",
+    "display" : "Durée de l'alimentation au sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-204",
+    "display" : "Durée de l'alimentation exclusive au sein",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-205",
+    "display" : "Autres vaccins",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-206",
+    "display" : "Autre(s) accident(s) domestique(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-207",
+    "display" : "Vaccin DT Polio",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-208",
+    "display" : "Consommation d'alcool",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-209",
+    "display" : "Césarienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-210",
     "display" : "Cause fœtale",
     "property" : [{
@@ -9210,6 +14367,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-211",
+    "display" : "Otites à répétition",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9230,6 +14411,126 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-213",
+    "display" : "Joue à coucou le voilà",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-214",
+    "display" : "HbsAg EIA positive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-215",
+    "display" : "HbsAg EIA negative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-216",
+    "display" : "Vaccin contre le méningocoque C",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-217",
+    "display" : "Accouchement par voie basse non instrumentale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9281,6 +14582,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-221",
+    "display" : "Analgésie inhalatoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-222",
     "display" : "Pas d'anesthésie",
     "property" : [{
@@ -9294,6 +14619,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-223",
+    "display" : "Autre analgésie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-224",
+    "display" : "Facteurs de croissance hématopoïétiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9326,6 +14699,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-227",
+    "display" : "Surveillance active",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-228",
+    "display" : "Thérapies ciblées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-229",
+    "display" : "Radiologie interventionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-230",
+    "display" : "Soins de support",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9505,6 +14974,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-241",
+    "display" : "Capable d'une activité identique à celle précédant la maladie sans aucune restriction.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-242",
     "display" : "Dépistage de la fragilité gériatrique",
     "property" : [{
@@ -9638,7 +15131,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-250",
-    "display" : "Proposition d’inclusion dans un essai clinique",
+    "display" : "Proposition d’inclusion dans un essai clinique",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -9666,6 +15159,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-252",
+    "display" : "Foie et voies biliaires",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9717,6 +15234,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-256",
+    "display" : "Préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-257",
+    "display" : "Cancer rare",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-258",
     "display" : "Nouvelle localisation",
     "property" : [{
@@ -9746,6 +15311,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-260",
+    "display" : "Activité physique diminuée mais ambulatoire et capable de mener un travail",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-261",
+    "display" : "Ambulatoire et capable de prendre soin de soi-même, incapable de travailler. Alité moins de 50 % de son temps",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-262",
+    "display" : "Capable seulement de quelques soins. Alité ou en chaise plus de 50 % du temps",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-263",
+    "display" : "Incapable de prendre soins de soi-même. Alité ou en chaise en permanence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -9845,6 +15506,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-269",
+    "display" : "Autre anesthésie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-270",
     "display" : "Indication de la césarienne",
     "property" : [{
@@ -9874,6 +15559,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-272",
+    "display" : "Nombre de grossesses antérieures",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-273",
+    "display" : "Aucun traitement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-274",
+    "display" : "Aucune allergie, intolérance et réaction adverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -10058,6 +15815,294 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-286",
+    "display" : "Sérologie positive Hépatite A",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-287",
+    "display" : "Sérologie positive Hépatite B",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-288",
+    "display" : "Antécédents de varicelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-289",
+    "display" : "Intradermo-réaction positive à la tuberculine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-290",
+    "display" : "Maintient artificiel en vie en cas de perte de conscience définitive et impossibilité de communiquer avec les proches",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-291",
+    "display" : "Réanimation cardiaque et respiratoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-292",
+    "display" : "Branchement sur un appareil à dialyse rénale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-293",
+    "display" : "Intervention chirurgicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-294",
+    "display" : "Assistance respiratoire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-295",
+    "display" : "Dialyse rénale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-296",
+    "display" : "Alimentation et hydratation artificielles",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-297",
+    "display" : "Autre directive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -10636,8 +16681,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -10656,8 +16705,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11397,6 +17450,174 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-381",
+    "display" : "Score de Rankin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-382",
+    "display" : "Absence de symptômes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-383",
+    "display" : "Symptômes mineurs sans retentissement sur la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-384",
+    "display" : "Symptôme ou handicap mineur qui conduit à certaines restrictions dans le mode de vie, mais qui n’interfère pas avec la capacité du patient à se prendre en charge",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-385",
+    "display" : "Handicap modéré qui restreint significativement le mode de vie et/ou empêche une existence totalement indépendante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-386",
+    "display" : "Handicap modérément sévère qui empêche clairement une existence indépendante bien que nécessitant pas une attention constante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-387",
+    "display" : "Handicap sévère entraînant une dépendance totale et nécessitant une attention jour et nuit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-388",
     "display" : "Absence de sang",
     "property" : [{
@@ -11506,6 +17727,1134 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-395",
+    "display" : "Vigilant, réagit vivement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-396",
+    "display" : "Non vigilant (somnolent),  mais réagit ou répond s'il est éveillé par une stimulation mineure.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-397",
+    "display" : "Non vigilant; ne réagit qu'à des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéréotypés.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-398",
+    "display" : "On obtient uniquement des réponses réflexes motrices ou végétatives ou le patient est totalement aréactif et flasque.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-399",
+    "display" : "Répond aux deux questions correctement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-400",
+    "display" : "Ne répond correctement qu’à une seule question.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-401",
+    "display" : "Ne répond correctement à aucune des deux questions.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-402",
+    "display" : "Exécute les deux ordres correctement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-403",
+    "display" : "Exécute un seul ordre sur les deux.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-404",
+    "display" : "N'exécute aucun des deux ordres.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-405",
+    "display" : "Paralysie partielle (ce score est attribué quand l'oculomotricité est anormale pour 1 ou 2 yeux, mais sans déviation forcée, ni paralysie complète).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-406",
+    "display" : "Déviation forcée ou paralysie complète non vaincue par les manœuvres oculo céphaliques.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-407",
+    "display" : "Aucun trouble du champ visuel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-408",
+    "display" : "Hémianopsie partielle (ou extinction visuelle).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-409",
+    "display" : "Hémianopsie complète.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-410",
+    "display" : "Hémianopsie bilatérale (incluant cécité corticale).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-411",
+    "display" : "Mobilité normale, symétrique.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-412",
+    "display" : "Paralysie mineure (effacement du sillon nasogénien, asymétrie du sourire).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-413",
+    "display" : "Paralysie partielle (paralysie de la partie inférieure de la face, totale ou subtotale).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-414",
+    "display" : "Paralysie complète (facial supérieur et inférieur).",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-415",
+    "display" : "absence de chute; maintien du membre supérieur à 90° (ou 45°) pendant 10 secondes.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-416",
+    "display" : "Chute; le membre supérieur chute en moins de 10 secondes mais sans atteindre le plan du lit ou un autre support.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-417",
+    "display" : "Le membre supérieur ne peut pas atteindre ou maintenir 90° (ou 45°), tombe sur le lit mais peut faire un certain mouvement contre la pesanteur.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-418",
+    "display" : "Aucun mouvement contre la pesanteur; le membre supérieur tombe.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-419",
+    "display" : "absence de mouvement.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-420",
+    "display" : "Amputation, blocage articulaire (expliquer)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-421",
+    "display" : "Absence de chute; maintien du membre inférieur à 30° pendant 5 secondes.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-422",
+    "display" : "Chute; la position ne peut être maintenue pendant 5 secondes mais le membre inférieur ne retombe pas sur le lit.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-423",
+    "display" : "Le membre inférieur retombe sur le lit dans les 5 secondes mais le membre inférieur peut faire un certain mouvement contre la pesanteur.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-424",
+    "display" : "Absence de mouvement contre la pesanteur; le membre inférieur tombe instantanément.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-425",
+    "display" : "Absence de mouvement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-426",
+    "display" : "Absent",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-427",
+    "display" : "Absente",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-428",
+    "display" : "Présente pour un membre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-429",
+    "display" : "Présente pour deux membres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-430",
+    "display" : "postmortem",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-431",
+    "display" : "Normal, pas d’aphasie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-432",
+    "display" : "Aphasie discrète à modérée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-433",
+    "display" : "Aphasie sévère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-434",
+    "display" : "Mutisme; aphasie globale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-435",
+    "display" : "Extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-436",
+    "display" : "Héminégligence sévère ou portant sur plus d’une modalité sensorielle. Ne reconnaît pas sa propre main ou ne s’oriente que vers un côté de l’espace.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-437",
+    "display" : "Déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-438",
+    "display" : "Déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-439",
+    "display" : "Discrète à modérée; le patient n’articule pas bien au moins quelques mots et, au pire, peut être compris avec quelques difficultés.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-440",
+    "display" : "Sévère: le discours du patient est tellement mal articulé qu'il devient inintelligible en l'absence ou hors de proportion avec toute éventuelle aphasie ou est mutique, anarthrique.",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-441",
+    "display" : "Intubation, autre obstacle mécanique (expliquer)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11621,6 +18970,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-449",
+    "display" : "Système ventriculaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-450",
     "display" : "Sinus longitudinal supérieur partiel",
     "property" : [{
@@ -11634,6 +19007,198 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-451",
+    "display" : "Sinus longitudinal supérieur total",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-452",
+    "display" : "Sinus Latéral droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-453",
+    "display" : "Sinus Latéral gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-454",
+    "display" : "Sinus droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-455",
+    "display" : "Veines corticales",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-456",
+    "display" : "Veines jugulaires droite",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-457",
+    "display" : "Veines jugulaires gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-458",
+    "display" : "Veines profondes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11669,6 +19234,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-461",
+    "display" : "Artère cérébrale antérieure territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-462",
     "display" : "Artère cérébrale moyenne territoire superficiel",
     "property" : [{
@@ -11701,6 +19290,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-464",
+    "display" : "Artère cérébrale moyenne territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-465",
     "display" : "Artère cérébrale postérieure territoire superficiel",
     "property" : [{
@@ -11714,6 +19327,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-466",
+    "display" : "Artère cérébrale postérieure territoires complets",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -11877,6 +19514,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-477",
+    "display" : "Exploration fonctionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-478",
+    "display" : "Anatomopathologie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-479",
     "display" : "Athérome extracrânien",
     "property" : [{
@@ -11938,6 +19623,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-483",
+    "display" : "Perforantes directes de la carotide",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -12037,6 +19746,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-490",
+    "display" : "Capsulo-thalamique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-491",
+    "display" : "Capsulo-lenticulaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-492",
     "display" : "Carrefour",
     "property" : [{
@@ -12133,6 +19890,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-498",
+    "display" : "Clopidogrel (Plavix)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-499",
+    "display" : "Héparine curative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-500",
     "display" : "Inclusion dans protocole",
     "property" : [{
@@ -12162,6 +19967,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-502",
+    "display" : "Nom du protocole",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -12258,6 +20087,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-509",
+    "display" : "Germe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-510",
+    "display" : "Autre infection",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -12485,6 +20362,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-525",
+    "display" : "Troubles du sommeil",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-06-30T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-06-30T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-526",
+    "display" : "Autres syndromes psycho-comportementaux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-527",
     "display" : "Soins ou traitements nocturnes",
     "property" : [{
@@ -12562,6 +20487,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-532",
+    "display" : "Angor Stable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13353,6 +21302,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-581",
+    "display" : "Anesthésie générale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-582",
     "display" : "Anesthésie locorégionale péridurale ou épidurale",
     "property" : [{
@@ -13414,6 +21387,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-586",
+    "display" : "Sédation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13529,6 +21526,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-594",
+    "display" : "Score de Cormack",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-595",
     "display" : "Rachianesthésie",
     "property" : [{
@@ -13637,7 +21658,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+      "valueDateTime" : "2025-05-06T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -13657,7 +21678,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+      "valueDateTime" : "2025-05-06T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -13677,7 +21698,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+      "valueDateTime" : "2025-05-06T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -13697,7 +21718,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+      "valueDateTime" : "2025-05-06T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -13717,11 +21738,83 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "deprecationDate",
-      "valueDateTime" : "2025-05-06T00:00:00+01:00"
+      "valueDateTime" : "2025-05-06T00:00:00+02:00"
     },
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MED-606",
+    "display" : "Normal (0 à 10)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-607",
+    "display" : "Dépression légère (11 à 20)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-608",
+    "display" : "Dépression modérée ou grave (21 à 30)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13786,6 +21879,246 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-613",
+    "display" : "1 - Patient normal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-614",
+    "display" : "2 - Patient avec anomalie systémique modérée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-615",
+    "display" : "3 - Patient avec anomalie systémique sévère",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-616",
+    "display" : "4 - Patient avec anomalie systémique sévère représentant une menace vitale constante",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-617",
+    "display" : "5 - Patient moribond dont la survie est improbable sans l'intervention",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-618",
+    "display" : "6 - Patient déclaré en état de mort cérébrale dont on prélève les organes pour greffe",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-619",
+    "display" : "Grade 1 : La glotte est vue en totalité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-620",
+    "display" : "Grade 2 : Seule la moitié postérieure de la glotte est vue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-621",
+    "display" : "Grade 3 : Seule une infime partie de la glotte est vue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-622",
+    "display" : "Grade 4 : La glotte est cachée par l’épiglotte et la langue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -13965,6 +22298,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-634",
+    "display" : "Classe 1 : toute la luette et les loges amygdaliennes sont visibles",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-635",
+    "display" : "Classe 2 : la luette est partiellement visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-636",
+    "display" : "Classe 3 : le palais membraneux est visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-637",
+    "display" : "Classe 4 : seul le palais osseux est visible",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-638",
     "display" : "Score de Mallampati",
     "property" : [{
@@ -14014,6 +22443,150 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-641",
+    "display" : "5.5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-642",
+    "display" : "6.0",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-643",
+    "display" : "6.5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-644",
+    "display" : "7.0",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-645",
+    "display" : "7.5",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-646",
+    "display" : "8.0",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -14142,6 +22715,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-655",
+    "display" : "Intubation orotrachéale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-656",
+    "display" : "Intubation nasotrachéale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -14469,6 +23090,222 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-686",
+    "display" : "Caecum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-687",
+    "display" : "Côlon ascendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-688",
+    "display" : "Angle colique droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-689",
+    "display" : "Côlon transverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-690",
+    "display" : "Angle colique gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-691",
+    "display" : "Côlon descendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-692",
+    "display" : "Côlon sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-693",
+    "display" : "Recto-sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-694",
+    "display" : "Rectum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-695",
     "display" : "Bourgeonnante",
     "property" : [{
@@ -14710,7 +23547,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-710",
-    "display" : "Adénocarcinome 'adenoma-like'",
+    "display" : "Adénocarcinome \"adenoma-like\"",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -14770,6 +23607,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-714",
+    "display" : "Autre carcinome",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -15158,7 +24019,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-739",
-    "display" : "TRG0 : réponse complète - absence de cellules tumorale viables",
+    "display" : "TRG0 : réponse complète - absence de cellules tumorale viables",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15174,7 +24035,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-740",
-    "display" : "TRG1 : réponse modérée - cellules tumorales isolées ou rares petits amas de cellules tumorales",
+    "display" : "TRG1 : réponse modérée - cellules tumorales isolées ou rares petits amas de cellules tumorales",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15190,7 +24051,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-741",
-    "display" : "TRG2 : réponse minime - cancer avec régression tumorale évidente, mais persistance de plus que des cellules tumorales isolées ou de rares petits amas de cellules tumorales",
+    "display" : "TRG2 : réponse minime - cancer avec régression tumorale évidente, mais persistance de plus que des cellules tumorales isolées ou de rares petits amas de cellules tumorales",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15206,7 +24067,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-742",
-    "display" : "TRG3 : absence de réponse - pas d’aspect de régression tumorale",
+    "display" : "TRG3 : absence de réponse - pas d’aspect de régression tumorale",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15314,6 +24175,222 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-749",
+    "display" : "Caecum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-750",
+    "display" : "Côlon ascendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-751",
+    "display" : "Angle colique droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-752",
+    "display" : "Côlon transverse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-753",
+    "display" : "Angle colique gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-754",
+    "display" : "Côlon descendant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-755",
+    "display" : "Côlon sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-756",
+    "display" : "Recto-sigmoïde",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-757",
+    "display" : "Rectum",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -15493,8 +24570,32 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-769",
+    "display" : "Autre - Absence de cellules cancéreuses",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-770",
-    "display" : "Bas grade (bien ou moyennement différencié)",
+    "display" : "Bas grade (bien ou moyennement différencié)",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15510,7 +24611,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-771",
-    "display" : "Haut grade (peu différencié ou indifférencié)",
+    "display" : "Haut grade (peu différencié ou indifférencié)",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -15538,6 +24639,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-773",
+    "display" : "Maladie de Crohn",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -15698,6 +24823,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-784",
+    "display" : "Péritoine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-785",
+    "display" : "Epiploon",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-786",
+    "display" : "Foie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16853,6 +26050,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-859",
+    "display" : "Autres constations sur les polypes",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-860",
     "display" : "Appendice",
     "property" : [{
@@ -16882,6 +26103,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-862",
+    "display" : "Péritoine",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -16930,6 +26175,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-866",
+    "display" : "Diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17013,6 +26282,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-872",
+    "display" : "Stadiomètre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-873",
+    "display" : "Cardiofréquencemètre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-874",
+    "display" : "Non diabétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-875",
+    "display" : "MAPA : mesure automatisée de la pression artérielle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-876",
     "display" : "Pose d'une sonde nasogastrique",
     "property" : [{
@@ -17042,6 +26407,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-878",
+    "display" : "Sonde gastrique orogastrique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-879",
+    "display" : "Sonde gastrique nasogastrique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17189,6 +26602,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-889",
+    "display" : "Marque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-890",
     "display" : "Demi-écart interpupillaire VL",
     "property" : [{
@@ -17253,6 +26690,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-894",
+    "display" : "Renouvellement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-895",
+    "display" : "Diamètre lentille",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-896",
+    "display" : "Autres paramètres",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-897",
     "display" : "Prise en charge LPP",
     "property" : [{
@@ -17266,6 +26775,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-898",
+    "display" : "Date de fin d'adaptation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-899",
+    "display" : "Produit d'entretien",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17330,6 +26887,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-904",
+    "display" : "Nasale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -17445,6 +27026,1446 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-912",
+    "display" : "Œil gauche",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-913",
+    "display" : "Œil droit",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-914",
+    "display" : "Deux yeux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-915",
+    "display" : "Biopsie Shaving",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-916",
+    "display" : "Biopsie Punch",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-917",
+    "display" : "Exérèse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-918",
+    "display" : "Amputation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-919",
+    "display" : "Tête et cou",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-920",
+    "display" : "Epaule et membre supérieur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-921",
+    "display" : "Tronc",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-922",
+    "display" : "Hanche et membre inférieur",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-923",
+    "display" : "Mélanome de Dubreuilh in situ (LM, Lentigo Maligna)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-924",
+    "display" : "Mélanome acrolentigineux (ALM, Acral Lentiginous Melanoma) in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-925",
+    "display" : "Mélanome simulant un nævus [question=Précisez]",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-926",
+    "display" : "Mélanome développé sur nævus congénital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-927",
+    "display" : "Mélanome développé sur naevus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-928",
+    "display" : "Mélanome sur naevus bleu",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-929",
+    "display" : "Mélanome desmoplastique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-930",
+    "display" : "Mélanome inclassable",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-931",
+    "display" : "Présente sans répercussion sur l'histopronostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-932",
+    "display" : "Présente avec répercussion sur l'histopronostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-933",
+    "display" : "Présents brisk (très nombreux et diffus)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-934",
+    "display" : "Présents non brisk (focal)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-935",
+    "display" : "Investigations complémentaires en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-936",
+    "display" : "Demande de second avis en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-937",
+    "display" : "Investigations complémentaires et demande de second avis en cours",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-938",
+    "display" : "Limites latérales envahies par du mélanome in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-939",
+    "display" : "Limites latérales envahies par du mélanome invasif",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-940",
+    "display" : "Limite profonde envahie au niveau du derme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-941",
+    "display" : "Limite profonde envahie au niveau de l'hypoderme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-942",
+    "display" : "Mélanome primitif dont l'épaisseur ne peut être évaluée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-943",
+    "display" : "Pas de mélanome primitif évident (ex. mélanome entièrement régressif)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-944",
+    "display" : "Mélanome in situ",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-945",
+    "display" : "Mélanome d'épaisseur inférieure ou égale à 1,0 mm (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-946",
+    "display" : "Mélanome < 0,8 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-947",
+    "display" : "Mélanome < 0,8 mm d'épaisseur avec ulcération ou mélanome de 0,8 à 1,0 mm d'épaisseur avec ou sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-948",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-949",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-950",
+    "display" : "Mélanome > 1,0 <= 2,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-951",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-952",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-953",
+    "display" : "Mélanome > 2,0 <= 4,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-954",
+    "display" : "Mélanome > 4,0 mm d'épaisseur (statut ulcération inconnu)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-955",
+    "display" : "Mélanome > 4,0 mm d'épaisseur sans ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-956",
+    "display" : "Mélanome > 4,0 mm d'épaisseur avec ulcération",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-957",
+    "display" : "Ganglions non évaluables",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-958",
+    "display" : "Pas de métastase ganglionnaire régionale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-959",
+    "display" : "Micrométastase dans 1 ganglion lymphatique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-960",
+    "display" : "Macrométastase dans 1 ganglion lymphatique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-961",
+    "display" : "Micrométastase dans 2 ou 3 ganglions lymphatiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-962",
+    "display" : "Macrométastase dans 2 ou 3 ganglions lymphatiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-963",
+    "display" : "Métastase(s) en transit / satellite(s) sans ganglion envahi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-964",
+    "display" : "Métastases dans 4 ganglions lymphatiques ou plus, ou agglomérat de N+ ou métastase en transit avec ganglion(s) envahi(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-965",
+    "display" : "Métastases à distance (cutanées ou sous-cutanées ou ganglionnaires au-delà des ganglions loco-régionaux)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-966",
+    "display" : "Métastases pulmonaires",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-967",
+    "display" : "Autres métastases viscérales. Toutes métastases à distance (autres que SNC)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-968",
+    "display" : "Métastases dans le SNC",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-969",
+    "display" : "Glucose interstitiel",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-970",
+    "display" : "Complications liées aux DMs",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-971",
+    "display" : "Cervico-facial",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-972",
     "display" : "Index de gestion de glycémie (IGG)",
     "property" : [{
@@ -17461,6 +28482,414 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-973",
+    "display" : "Résultat d'acuité visuelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-974",
+    "display" : "Test d'image Allen",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-975",
+    "display" : "Mesure de la lensométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-976",
+    "display" : "Verre de lunettes (objets physiques)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-977",
+    "display" : "Astigmatisme irrégulier de la cornée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-978",
+    "display" : "Recherche de mesure réfractive",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-979",
+    "display" : "Réfraction subjective",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-980",
+    "display" : "Réfraction objective",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-981",
+    "display" : "Rétinoscopie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-982",
+    "display" : "Réfraction cycloplégique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-983",
+    "display" : "Mesure de kératométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-984",
+    "display" : "Mesure de kératométrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-985",
+    "display" : "Puissance du cylindre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-986",
+    "display" : "Axe du cylindre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-987",
+    "display" : "Puissance d'addition de lecture",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-988",
+    "display" : "Puissance de distance intermédiaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-989",
+    "display" : "Distance interpupillaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-990",
     "display" : "Prisme – puissance – acuité visuelle",
     "property" : [{
@@ -17474,6 +28903,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-991",
+    "display" : "Direction de la base du prisme",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -18405,6 +29858,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1050",
+    "display" : "Chirurgie plastie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1051",
+    "display" : "Acuité visuelle de près",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1052",
+    "display" : "Acuité visuelle à distance",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1053",
+    "display" : "Acuité visuelle intermédiaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1054",
     "display" : "Type de distance de visualisation",
     "property" : [{
@@ -18418,6 +29967,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1055",
+    "display" : "Libre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -18626,6 +30199,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1069",
+    "display" : "Lentilles délivrées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -19445,6 +31042,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1121",
+    "display" : "Autre contre-indication connue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1122",
     "display" : "Hypersensibilité au produit de contraste gadoliné",
     "property" : [{
@@ -19733,6 +31354,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1140",
+    "display" : "Autre (autres traceurs, TEP-IRM)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1141",
     "display" : "Cardiaque : Perfusion myocardique",
     "property" : [{
@@ -19909,6 +31554,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1152",
+    "display" : "Autre fonction étudiée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1153",
     "display" : "avec injection de produit de contraste",
     "property" : [{
@@ -19986,6 +31655,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1158",
+    "display" : "Autre demande d’examen ou de suivi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -20290,6 +31983,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1178",
+    "display" : "Autre mode d'administration",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -20965,6 +32682,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1221",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "MED-1222",
+    "display" : "NA",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1223",
     "display" : "Présentation fœtale",
     "property" : [{
@@ -21298,6 +33063,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1244",
+    "display" : "Estimation sans matériel (prise du pouls)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -21814,7 +33603,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-1277",
-    "display" : "Protocole de soins ALD patient",
+    "display" : "Protocole de soins ALD patient",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -21888,8 +33677,16 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
     },
     {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-09-11T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-11T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -21941,6 +33738,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1285",
+    "display" : "Diagnostic de la maladie complexe non rare",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-10-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "MED-1286",
     "display" : "Technique sur laquelle repose le diagnostic génétique",
     "property" : [{
@@ -21986,6 +33807,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1289",
+    "display" : "Rendu de résultat diagnostic génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -22518,7 +34363,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-1323",
-    "display" : "Intervention d'un accompagnant éducatif et social",
+    "display" : "Intervention d'un accompagnant éducatif et social",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2025-03-20T00:00:00+01:00"
@@ -22534,7 +34379,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "MED-1324",
-    "display" : "Intervention d'un infirmier d'un centre de santé infirmier",
+    "display" : "Intervention d'un infirmier d'un centre de santé infirmier",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2025-03-20T00:00:00+01:00"
@@ -22553,11 +34398,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Evaluation de la déficience selon le tableau de la performance ANAP",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -22569,11 +34414,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Evaluation de la déficience selon FINESS",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -22585,11 +34430,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Evaluation PATHOS",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -22601,11 +34446,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Evaluation CIM10",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -22617,11 +34462,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Evaluation CIM11",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-04-25T00:00:00+01:00"
+      "valueDateTime" : "2025-04-25T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -22965,6 +34810,134 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "MED-1351",
+    "display" : "Envoi kit salivaire au CNR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-05-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1352",
+    "display" : "Envoi autres prélèvements au CNR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-05-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1353",
+    "display" : "Envoi souche / prélèvement au CNR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-10T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-10T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1354",
+    "display" : "Batterie d'examens et surveillance prénataux",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-07-23T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-23T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1355",
+    "display" : "non substituable (MTE)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1356",
+    "display" : "non substituable (EFG)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1357",
+    "display" : "non substituable (CIF)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1358",
+    "display" : "non substituable (MTE-PH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "ORG-001",
     "display" : "Prise en charge spécifique en oncogériatrie",
     "property" : [{
@@ -23077,6 +35050,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-008",
+    "display" : "Autres mesures anticipées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-009",
+    "display" : "Prise en charge médicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-010",
+    "display" : "Prise en charge sociale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-011",
     "display" : "Organisation du suivi",
     "property" : [{
@@ -23154,6 +35199,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-016",
+    "display" : "Lieu de consultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23253,6 +35322,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-023",
+    "display" : "Centre de protection maternelle et infantile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-27T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-024",
+    "display" : "Autre spécialiste",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-025",
     "display" : "Site de prise en charge",
     "property" : [{
@@ -23285,6 +35402,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-027",
+    "display" : "Centre de dépistage prénatal",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-028",
+    "display" : "Consultation pluridisciplinaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-029",
     "display" : "Avis sur dossier en consultation",
     "property" : [{
@@ -23314,6 +35479,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-031",
+    "display" : "Acte médical",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-032",
+    "display" : "Enseignant(e) spécialisé(e)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-033",
+    "display" : "Contexte de l'activité MR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23381,6 +35618,174 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-038",
+    "display" : "Prise en charge sociale, familiale et professionnelle",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-039",
+    "display" : "Accompagnement pour la vie quotidienne",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-040",
+    "display" : "Reconditionnement physique, activité physique adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-041",
+    "display" : "Mesure de préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-042",
+    "display" : "Prise en charge des troubles de la sexualité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-043",
+    "display" : "Prise en charge palliative",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-044",
+    "display" : "Hôpital de jour (HDJ)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-045",
     "display" : "Hospitalisation traditionnelle",
     "property" : [{
@@ -23397,6 +35802,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-046",
+    "display" : "Mise en place de la prise en charge",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-047",
+    "display" : "Suivi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-048",
+    "display" : "Prise en charge en urgence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-049",
     "display" : "Protocole de recherche",
     "property" : [{
@@ -23410,6 +35887,318 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-050",
+    "display" : "Assistante sociale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-051",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-052",
+    "display" : "Conseiller(e) en génétique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-053",
+    "display" : "Autre professionnel(le)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-054",
+    "display" : "Établissement de santé de référence",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-055",
+    "display" : "Centre d'hébergement",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-056",
+    "display" : "Structure(s) de coordination ville-hôpital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-057",
+    "display" : "Organisme social et de maintien dans l'emploi",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-058",
+    "display" : "Structure(s) de coordination ville-hôpital",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-059",
+    "display" : "Lieu d'administration",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-060",
+    "display" : "Lieu de prise en charge en oncogératrie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-061",
+    "display" : "Lieu des mesures de préservation de la fertilité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-062",
+    "display" : "Structure(s) de soutien et d'information",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23461,6 +36250,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-066",
+    "display" : "Autres suites à donner",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-067",
+    "display" : "Urgences",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-068",
+    "display" : "Programmées",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-069",
+    "display" : "Transfert ou mutation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-070",
     "display" : "Modalité d'entrée",
     "property" : [{
@@ -23474,6 +36359,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-071",
+    "display" : "SSR",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-072",
+    "display" : "Hospitalisation à domicile (HAD)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-073",
+    "display" : "Autre établissement de santé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23509,6 +36466,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-076",
+    "display" : "Date de la première consultation (déclaration de grossesse)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-077",
     "display" : "Hospitalisation (y compris à domicile)",
     "property" : [{
@@ -23522,6 +36503,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-078",
+    "display" : "Autre motif d'hospitalisation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23570,6 +36575,78 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-082",
+    "display" : "Transfert dans une unité de soins intensifs",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-083",
+    "display" : "Demande de rappel par le médecin de PMI",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-084",
+    "display" : "Demande de consutation médicale spécialisée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23653,6 +36730,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-090",
+    "display" : "Hospitalisations depuis le 9ème mois",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-091",
+    "display" : "Hospitalisation en période néonatale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-092",
     "display" : "Nombre d'hospitalisations en période néonatale",
     "property" : [{
@@ -23666,6 +36791,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-093",
+    "display" : "Hospitalisation après la période néonatale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23698,6 +36847,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-096",
+    "display" : "Médecin traitant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-11T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-11T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23749,6 +36922,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-100",
+    "display" : "EHPAD",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-101",
+    "display" : "Retour au domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-102",
     "display" : "SSR spécialisé neuro",
     "property" : [{
@@ -23794,6 +37015,222 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-105",
+    "display" : "Accompagnement au sevrage tabagique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-106",
+    "display" : "Accompagnement au sevrage de drogue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-107",
+    "display" : "Service de médecine du travail",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-02-25T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-108",
+    "display" : "Service social",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-109",
+    "display" : "Caisse d'assurance de retraite et santé au travail (CARSAT)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-21T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-21T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-110",
+    "display" : "Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-10-21T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-10-21T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-111",
+    "display" : "Maison départementale des personnes handicapées (MDPH)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-112",
+    "display" : "Coordination gérontologique (CLIC)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-113",
+    "display" : "RCP",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -23941,6 +37378,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-123",
+    "display" : "Consultation de transition enfant/adulte",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-04-15T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-124",
+    "display" : "Autre examen/expertise complémentaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-125",
     "display" : "Quorum RCP",
     "property" : [{
@@ -24034,6 +37519,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-131",
+    "display" : "Oncologie médicale",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24149,6 +37658,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-139",
+    "display" : "Réanimation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-140",
+    "display" : "Néonatologie",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-141",
     "display" : "Unité Kangourou",
     "property" : [{
@@ -24165,6 +37722,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-142",
+    "display" : "Unité de soin intensif en néonatalogie (USIN)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-143",
     "display" : "Réanimation/soins intentifs",
     "property" : [{
@@ -24178,6 +37759,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-144",
+    "display" : "Autre court-séjour",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-02-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24437,6 +38042,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-161",
+    "display" : "Autre",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-162",
     "display" : "MCO",
     "property" : [{
@@ -24469,6 +38098,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-164",
+    "display" : "Education thérapeutique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-165",
     "display" : "Séjour de répit",
     "property" : [{
@@ -24482,6 +38135,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-166",
+    "display" : "Maison d'accueil spécialisé (MAS) / Foyer d'accueil médicalisé (FAM)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-167",
+    "display" : "Hospitalisation complète",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-168",
+    "display" : "Services de soins infirmiers à domicile (SSIAD)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-169",
+    "display" : "Médecine physique et de réadaptation (MPR)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -24754,6 +38503,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-187",
+    "display" : "Consultation",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-12-20T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25189,6 +38962,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-215",
+    "display" : "Intervenant à domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-216",
     "display" : "Retour vers l'EHPAD",
     "property" : [{
@@ -25221,6 +39018,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "ORG-218",
+    "display" : "Transfert vers une structure plus adaptée",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "ORG-219",
+    "display" : "Retour au domicile",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2025-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "ORG-220",
     "display" : "service d'aide et/ou de soins à domicile",
     "property" : [{
@@ -25241,11 +39086,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Destination du transfert",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-05-07T00:00:00+01:00"
+      "valueDateTime" : "2025-05-07T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-05-07T00:00:00+01:00"
+      "valueDateTime" : "2025-05-07T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -25257,11 +39102,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Etablissement d'origine",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -25273,11 +39118,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Entourage du patient",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-22T00:00:00+01:00"
+      "valueDateTime" : "2025-07-22T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -25289,11 +39134,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "display" : "Intervenant à domicile",
     "property" : [{
       "code" : "creationDate",
-      "valueDateTime" : "2025-07-23T00:00:00+01:00"
+      "valueDateTime" : "2025-07-23T00:00:00+02:00"
     },
     {
       "code" : "dateValid",
-      "valueDateTime" : "2025-07-23T00:00:00+01:00"
+      "valueDateTime" : "2025-07-23T00:00:00+02:00"
     },
     {
       "code" : "status",
@@ -25366,7 +39211,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "ORG-229",
-    "display" : "Provenance inconnue",
+    "display" : "Provenance inconnue",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2026-03-02T00:00:00+01:00"
@@ -25605,6 +39450,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "PAT-015",
+    "display" : "Age au diagnostic",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "PAT-016",
     "display" : "Précision de l'âge au diagnostic",
     "property" : [{
@@ -25618,6 +39487,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-017",
+    "display" : "Familial",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25733,6 +39626,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   },
   {
+    "code" : "PAT-025",
+    "display" : "Scolarité et ses adaptations",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
     "code" : "PAT-026",
     "display" : "Sortie de l’arrêt de travail (invalidité, retraite, médecine du travail)",
     "property" : [{
@@ -25762,6 +39679,102 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-028",
+    "display" : "Autre démarche (à préciser)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-029",
+    "display" : "Masculin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-030",
+    "display" : "Féminin",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-031",
+    "display" : "Indeterminé",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-09-17T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25892,8 +39905,36 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-041",
+    "display" : "Autre activité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25912,8 +39953,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25948,8 +39993,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25968,8 +40017,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
     }]
   },
   {
@@ -25988,8 +40041,36 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
       "valueDateTime" : "2025-02-25T00:00:00+01:00"
     },
     {
+      "code" : "retirementDate",
+      "valueDateTime" : "2026-09-15T00:00:00+02:00"
+    },
+    {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-047",
+    "display" : "Autre inactif",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2023-06-19T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -26006,6 +40087,30 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-049",
+    "display" : "Garde par la mère ou le père",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {
@@ -26038,6 +40143,54 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PAT-052",
+    "display" : "A domicile par un tiers",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2024-06-06T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
+    }]
+  },
+  {
+    "code" : "PAT-053",
+    "display" : "Type de garde de l'enfant",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "retirementDate",
+      "valueDateTime" : "2022-12-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "retired"
     }]
   },
   {

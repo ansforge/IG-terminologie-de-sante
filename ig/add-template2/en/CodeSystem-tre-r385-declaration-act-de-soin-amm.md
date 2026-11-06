@@ -7,7 +7,7 @@ Nomenclature des déclarations pour les activités de soin AMM
 
 This Code system is referenced in the definition of the following value sets:
 
-* [VsTreR385DeclarationActDeSoinAmmAll](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md)
+* [Vs Tre R385 Declaration Act De Soin Amm All](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md)
 
 -------
 
@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "tre-r385-declaration-act-de-soin-amm",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T20:12:15+02:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:03+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

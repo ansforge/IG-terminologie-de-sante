@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R68-FinessAgregatStatutJuridiqueNiv1",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T18:18:41.253+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:14:47.451+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

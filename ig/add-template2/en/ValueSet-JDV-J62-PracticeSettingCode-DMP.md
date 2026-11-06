@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J62-PracticeSettingCode-DMP",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:41.558+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-11-02T10:33:06.206+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.4"
   }],
-  "version" : "20230922120000",
+  "version" : "20261102120000",
   "name" : "JDV_J62_PracticeSettingCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-09-22T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour practiceSettingCode",
   "jurisdiction" : [{
@@ -115,6 +115,10 @@ Requête sur le SMT
       {
         "code" : "SAMU_SMUR",
         "display" : "SAMU/SMUR"
+      },
+      {
+        "code" : "ESSMS",
+        "display" : "Etablissement ou Service Social ou Médico-Social"
       }]
     }]
   }

@@ -22,8 +22,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "concept-properties",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:04.161+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-11-02T10:27:51.980+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -34,12 +34,12 @@ This Code system is referenced in the definition of the following value sets:
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-  "version" : "20260330120000",
+  "version" : "20261102120000",
   "name" : "ConceptProperties",
   "title" : "Concept Properties",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00.000+00:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
   "jurisdiction" : [{
@@ -51,7 +51,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 36,
+  "count" : 40,
   "property" : [{
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
@@ -122,6 +122,15 @@ This Code system is referenced in the definition of the following value sets:
     }]
   },
   {
+    "code" : "specialisationFiness",
+    "display" : "Specialisation FINESS",
+    "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "ror",
     "display" : "ROR",
     "definition" : "Permet de définir les codes concepts uilisés par le ROR",
@@ -159,8 +168,8 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "epars",
-    "display" : "ENREG",
-    "definition" : "Permet de définir les codes concepts utilisés par ENREG",
+    "display" : "EPARS",
+    "definition" : "Permet de définir les codes concepts utilisés par EPARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"
@@ -377,6 +386,33 @@ This Code system is referenced in the definition of the following value sets:
     "code" : "autoriteEnregistrementRass",
     "display" : "Autorite Enregistrement Rass",
     "definition" : "Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "activiteReconnaisanceContractuelle",
+    "display" : "Activité Reconnaisance Contractuelle",
+    "definition" : "Propriété permettant de renseigner les activités soumises à reconnaissances (ASR)",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "modaliteReconnaissanceContractuelle",
+    "display" : "Modalité Reconnaisance Contractuelle",
+    "definition" : "Propriété permettant de renseigner les modalités des activités autorisées /exercées provenant provenant d'E-CARS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "formeReconnaissanceContractuelle",
+    "display" : "Forme Reconnaisance Contractuelle",
+    "definition" : "Propriété permettant de renseigner les formes des activités autorisées /exercées provenant provenant d'E-CARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

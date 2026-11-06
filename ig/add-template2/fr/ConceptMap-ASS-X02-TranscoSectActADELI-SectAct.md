@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_X02_TranscoSectActADELI_SectAct 
 
- 
-Transco Secteur d'activité ADELI vers Secteur d'activité 
-
 
 
 ## Resource Content

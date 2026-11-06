@@ -7,7 +7,7 @@ HL7-defined code system of concepts which specify an employment status of a pers
 
 This Code system is referenced in the definition of the following value sets:
 
-* [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
+* [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
 
 -------
 

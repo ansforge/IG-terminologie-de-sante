@@ -22,8 +22,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R243-CompetenceSpecifique",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:11:58.790+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-07-29T08:03:37.481+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -38,11 +38,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.37"
   }],
-  "version" : "20260330120000",
+  "version" : "20260730120000",
   "name" : "TRE_R243_CompetenceSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-07-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Compétence spécifique",
   "jurisdiction" : [{
@@ -54,7 +54,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 62,
+  "count" : 63,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -805,7 +805,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "35",
-    "display" : "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)",
+    "display" : "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -820,7 +820,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)"
+      "value" : "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -828,7 +828,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -837,7 +837,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "36",
-    "display" : "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)",
+    "display" : "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -852,7 +852,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)"
+      "value" : "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -860,7 +860,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -933,7 +933,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   },
   {
     "code" : "40",
-    "display" : "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)",
+    "display" : "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -948,7 +948,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
+      "value" : "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -956,7 +956,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-07-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1381,6 +1381,22 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "63",
+    "display" : "Maitrise des outils informatisés à commande oculaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

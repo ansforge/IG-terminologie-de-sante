@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J106-EnsembleProfession-RASS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T19:02:34.720+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:04:46.389+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

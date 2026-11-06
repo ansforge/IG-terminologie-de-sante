@@ -8,8 +8,8 @@ A code specifying the meaning and purpose of every Participation instance. Each 
 This Code system is referenced in the definition of the following value sets:
 
 * [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
-* [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md)
-* [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md)
+* [JDV Participant Additionnel Resultat CISIS](ValueSet-jdv-participant-additionnel-resultat-cisis.md)
+* [JDV Participant Resultat CISIS](ValueSet-jdv-participant-resultat-cisis.md)
 
 -------
 

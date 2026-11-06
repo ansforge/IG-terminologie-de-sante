@@ -2,9 +2,6 @@
 
 ## ConceptMap: ASS_A33_AdministrativeGender_Sexe 
 
- 
-Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l'adaptation du MOS à FHIR. 
-
 
 
 ## Resource Content

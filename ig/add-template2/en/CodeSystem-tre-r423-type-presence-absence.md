@@ -7,7 +7,7 @@ Déclaration du type de présence absence de l'usager lors d'un événement orga
 
 This Code system is referenced in the definition of the following value sets:
 
-* [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md)
+* [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md)
 
 -------
 

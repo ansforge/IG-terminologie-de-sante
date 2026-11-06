@@ -23,8 +23,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R60-AutoriteEnregistrement",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:18:27.409+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-07-06T20:14:43.422+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -38,11 +38,11 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.57"
   }],
-  "version" : "20240628120000",
+  "version" : "20260629120000",
   "name" : "TRE_R60_AutoriteEnregistrement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autorité d'enregistrement",
   "jurisdiction" : [{
@@ -54,6 +54,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 65,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -88,6 +89,26 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "type" : "dateTime"
   }],
   "concept" : [{
+    "code" : "ANS",
+    "display" : "ANS : Agence du numérique en santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A.N.S."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "ARS-01",
     "display" : "ARS-01 : Guadeloupe",
     "designation" : [{
@@ -1169,6 +1190,234 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2007-07-25T15:04:41+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEETS-01",
+    "display" : "DEETS-01 :DEETS Guadeloupe",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEETS-02",
+    "display" : "DEETS-02 :  DEETS Martinique",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEETS-03",
+    "display" : "DEETS-03 :  DEETS  Guyane",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEETS-05",
+    "display" : "DEETS-05 :  DEETS de La Réunion",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEETS-06",
+    "display" : "DEETS-06 : DEETS Mayotte",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-11",
+    "display" : "DREETS-11 : DREETS d'Ile de France",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-24",
+    "display" : "DREETS-24 : DREETS Centre-Val de Loire",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-27",
+    "display" : "DREETS-27 :DREETS Bourgogne-Franche-Comté",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-28",
+    "display" : "DREETS-28 : DREETS Normandie",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-32",
+    "display" : "DREETS-32 : DREETS Hauts-de-France",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-44",
+    "display" : "DREETS-44 : DREETS Grand Est",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-52",
+    "display" : "DREETS-52 : DREETS Pays de la Loire",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-53",
+    "display" : "DREETS-53 : DREETS Bretagne",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-75",
+    "display" : "DREETS-75 : DREETS Nouvelle-Aquitaine",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-76",
+    "display" : "DREETS-76 : DREETS Occitanie",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-84",
+    "display" : "DREETS-84 : DREETS Auvergne-Rhône-Alpes",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-93",
+    "display" : "DREETS-93 : DREETS Provence-Alpes-Côte d'Azur",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DREETS-94",
+    "display" : "DREETS-94 : DREETS de Corse",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DRHIL-11",
+    "display" : "DRHIL-11 : DRHIL Ile de France",
+    "property" : [{
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

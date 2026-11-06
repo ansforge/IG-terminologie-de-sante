@@ -1,13 +1,14 @@
-# Tre R404 Mode Fonctionnemet Activite Smsse Regulee - Terminologies de Santé v1.10.0
+# Tre R404 Mode Fonctionnement Activite Smsse Regulee - Terminologies de Santé v1.10.0
 
-## CodeSystem: Tre R404 Mode Fonctionnemet Activite Smsse Regulee 
+## CodeSystem: Tre R404 Mode Fonctionnement Activite Smsse Regulee 
 
  
-Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite 
+Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la TRE_R209-TypeActivite 
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md)
+* [Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md)
+* [Jdv J388 Mode Fonctionnement Activite Smsse Regulee Rass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md)
 
 -------
 
@@ -22,9 +23,9 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T20:12:24.528+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "6",
+    "lastUpdated" : "2026-07-06T20:14:32.387+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -38,14 +39,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.383"
   }],
-  "version" : "20260223120000",
-  "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
-  "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+  "version" : "20260629120000",
+  "name" : "TreR404ModeFonctionnementActiviteSmsseRegulee",
+  "title" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
+  "date" : "2026-06-29T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+  "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -54,8 +55,9 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 51,
+  "count" : 52,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -78,6 +80,18 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "code" : "cisis",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
     "description" : "Permet de définir les codes concepts uilisés dans le J03 du CISIS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "rass",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
+    "description" : "Permet de définir les codes concepts uilisés par le RASS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "dmp",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dmp",
+    "description" : "Permet de définir les codes concepts uilisés par le DMP",
     "type" : "boolean"
   },
   {
@@ -112,6 +126,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -140,6 +158,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -167,6 +193,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -276,6 +310,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -303,6 +345,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -339,6 +389,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -392,6 +450,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -432,6 +498,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -452,6 +522,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -471,6 +549,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -500,6 +586,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -528,6 +622,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -547,6 +649,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -584,6 +694,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -611,6 +729,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -640,6 +766,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -668,6 +802,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -687,6 +829,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -800,6 +950,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "deprecated"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -827,6 +985,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -856,6 +1022,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -883,6 +1057,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -916,6 +1098,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -932,6 +1118,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -976,6 +1166,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -992,6 +1190,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1019,6 +1221,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1112,6 +1322,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1136,6 +1354,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1163,6 +1385,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1192,6 +1422,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1219,6 +1457,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1248,6 +1494,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1275,6 +1529,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1304,6 +1566,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1332,6 +1602,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1351,6 +1629,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1376,6 +1662,10 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1404,6 +1694,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "cisis",
       "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1424,6 +1722,26 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-26T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "54",
+    "display" : "Accueil familial",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1455,6 +1773,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1491,6 +1817,14 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     },
     {
       "code" : "cisis",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "rass",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "dmp",
       "valueBoolean" : true
     }]
   },

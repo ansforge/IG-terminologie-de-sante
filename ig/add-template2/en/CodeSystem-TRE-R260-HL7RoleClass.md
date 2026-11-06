@@ -9,7 +9,7 @@ This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J141_RoleClass_CISIS](ValueSet-JDV-J141-RoleClass-CISIS.md)
 * [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md)
-* [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md)
+* [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md)
 
 -------
 
@@ -24,8 +24,8 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TRE-R260-HL7RoleClass",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-03T15:41:55.811+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T20:13:11.874+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

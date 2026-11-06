@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J61-HealthcareFacilityTypeCode-DMP",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:06:41.147+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-11-02T10:33:05.864+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,11 +52,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.3"
   }],
-  "version" : "20240927120000",
+  "version" : "20261102120000",
   "name" : "JDV_J61_HealthcareFacilityTypeCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-11-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour healthcareFacilityTypeCode",
   "jurisdiction" : [{
@@ -326,7 +326,7 @@ Requête sur le SMT
       },
       {
         "code" : "SA63",
-        "display" : "Communauté Professionnelle Territoriale de Santé"
+        "display" : "Structures de coordination et d'orientation"
       },
       {
         "code" : "SA64",

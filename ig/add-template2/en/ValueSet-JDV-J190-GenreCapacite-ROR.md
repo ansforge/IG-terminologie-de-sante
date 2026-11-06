@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J190-GenreCapacite-ROR",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-10-02T19:02:00.435+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-07-06T19:05:45.662+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

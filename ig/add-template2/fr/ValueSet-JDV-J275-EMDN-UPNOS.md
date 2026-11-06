@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J275-EMDN-UPNOS",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T17:06:19.118+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T19:06:26.711+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
