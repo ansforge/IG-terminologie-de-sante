@@ -88,7 +88,7 @@ jobs:
         run : |
               cd  ./igSource
               #java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
-              java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
+              java -Xmx6g -jar ../publisher.jar -ig . -authorise-non-conformant-tx-servers
       - name: Minify QA
         run : |
               cd  ./igSource
@@ -139,6 +139,9 @@ jobs:
               zip -FSrj ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/listFormat/*CISIS*.tabs               
        
 
+      - name:  Suppression des fichiers trop volumineux
+        run : |
+              rm -f ./igSource/output/qa-ipreview.html
 
       - name: Get branch names
         id: branch-name
