@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2026-11-10 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
+| Active as of 2026-11-11 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task: Pour la constitution des metadata XDS | |
 
  
@@ -29,7 +29,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-10T12:04:46+00:00",
+  "date" : "2026-11-11T11:43:24+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
