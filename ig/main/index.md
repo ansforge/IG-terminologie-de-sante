@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.15.0 |
-| Active as of 2026-11-11 | *Computable Name*:Terminologies |
+| Active as of 2026-11-12 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -130,6 +130,11 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Nomenclature Unifiée des Vaccins](CodeSystem-terminologie-nuva.md): [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md)
 
 
+* Source: DICOM PS3.6 2026d, National Electrical Manufacturers Association. Copyright 2026 NEMA
+
+* [DICOM UID Registry](https://tx.healthall.co.kr/fhir/r4/CodeSystem/r4-dcmuid-2026d): [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md) and [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md)
+
+
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
 
 * [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-ucum.html): [JDV_J163_GlucoseUnits_ENS](ValueSet-JDV-J163-GlucoseUnits-ENS.md), [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md), [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) and [JDV_J49_UcumUniteLongueur](ValueSet-JDV-J49-UcumUniteLongueur.md)
@@ -215,7 +220,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-11-11T11:43:24+00:00",
+  "date" : "2026-11-12T12:08:34+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
