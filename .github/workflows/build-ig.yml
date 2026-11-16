@@ -70,8 +70,8 @@ jobs:
       # Downloads the newest version of the IG Publisher, this could probable be cached.
       - name: 📥 Download IG Publisher
       #  run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/1.8.22/publisher.jar
-        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar 
-     #   run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/2.0.9/publisher.jar
+     #   run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar 
+        run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/3.0.3/publisher.jar
 
 
 
@@ -155,5 +155,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./igSource/output
           destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
-          exclude_assets: '**.zip,**.tgz,**.pack,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'
+          exclude_assets: '**.zip,**.tgz,**.pack,**expansions.json,**expansions.xml,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'          
           commit_message: ' ${{ github.event.head_commit.message }}'
