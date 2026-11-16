@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X12-CommuneDeptRegionOM> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ASS-X12-CommuneDeptRegionOM"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-X12-CommuneDeptRegionOM</b></p><a name=\"ASS-X12-CommuneDeptRegionOM\"> </a><a name=\"hcASS-X12-CommuneDeptRegionOM\"> </a><p>This mapping does not specify any particular context of use.</p><br/></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2017-07-07T10:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/concept-bidirectional" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ] ;
+  fhir:ConceptMap.url [ fhir:value "https://mos.esante.gouv.fr/NOS/ASS_X12-CommuneDeptRegionOM/FHIR/ASS-X12-CommuneDeptRegionOM"] ;
+  fhir:ConceptMap.identifier [
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.119" ]
+  ] ;
+  fhir:ConceptMap.version [ fhir:value "20200424120000"] ;
+  fhir:ConceptMap.name [ fhir:value "ASS_X12-CommuneDeptRegionOM"] ;
+  fhir:ConceptMap.status [ fhir:value "active"] ;
+  fhir:ConceptMap.date [ fhir:value "2020-04-24T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.description [ fhir:value "Association communes - départements - régions (outre-mer et Monaco inclus)"] ;
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-X12-CommuneDeptRegionOM.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
