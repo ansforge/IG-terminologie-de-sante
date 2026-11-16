@@ -62,7 +62,7 @@ jobs:
           mkdir ./igSource/input/ontoserver/ASS
           mkdir ./igSource/input/ontoserver/NamingSystem
           cd ./igSource/tools
-          python ./upload_nos_expand.py 
+          python ./upload.py 
           
       - name: List des repertoires
         run: ls -R ./igSource/input
@@ -88,7 +88,7 @@ jobs:
         run : |
               cd  ./igSource
               #java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
-              java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
+              java -Xmx6g -jar ../publisher.jar -ig . -authorise-non-conformant-tx-servers
       - name: Minify QA
         run : |
               cd  ./igSource

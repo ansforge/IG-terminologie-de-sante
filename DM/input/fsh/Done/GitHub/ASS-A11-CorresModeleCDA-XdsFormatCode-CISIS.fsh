@@ -19,7 +19,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://esante.gouv.fr"
 * jurisdiction = urn:iso:std:iso:3166#FR "France"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"
+* sourceUri = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"

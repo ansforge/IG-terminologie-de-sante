@@ -9,7 +9,7 @@ publisher:
   url: https://esante.gouv.fr
 status: active
 description: Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé
-version: 1.11.0
+version: 1.15.0
 
 #date: 2023-03
 fhirVersion: 4.0.1
@@ -47,6 +47,7 @@ parameters:
         - input/sql/sql-add-info-codesystem-property.sql 
         - input/sql/sql-add-info-namingSystemOid.sql
     shownav: 'true'
+
 
     no-validate:
       - 'CodeSystem/TRE-R13-Commune'
@@ -122,6 +123,87 @@ parameters:
       - https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs
       - https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA
       - https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs
+      - https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs
+      - https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs
+      - https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs
+      - https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs
+      - https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice
       - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd
       - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActEncounterCode-cisis
@@ -146,6 +228,98 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0488-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j297-type-evenement-administratif-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j298-macro-etat-objet-administratif-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j299-systeme-information-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j300-type-objet-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j313-usage-adresse-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j314-engagement-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j328-public-activite-smsse-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j331-type-act-sociale-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j341-type-act-autre-acte-soin-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j350-type-act-de-soin-amm-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j352-nature-capacite-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j357-genre-capacite-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j359-autorite-enregistrement-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j360-autorite-regulation-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j371-etat-objet-administratif-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j387-role-participant-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j389-sexe-insee
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j390-origine-interruption-exercice-rpps
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j393-utilisation-canal-communication-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j397-type-messagerie-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j398-type-decision-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j400-nature-droit-prestation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j402-type-droit-prestation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-qualification-orientation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j405-type-presence-absence-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-type-repas-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active
       - https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS
       - https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS
       - https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS
@@ -1136,75 +1310,43 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise
       - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour
       - https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/icd-o-3
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r400-finess-statut-juridique
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r401-activite-sociale-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r402-activite-enseignement-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r403-public-activite-smsse-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r405-modalite-activite-smsse-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r407-composition-foyer
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-type-enseignement-specialise
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0066
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0487
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v2-0488
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActCode
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActMood
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActStatus
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-AdministrativeGender
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-Confidentiality
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-EntityCode
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationInterpretation
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationMethod
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ObservationValue
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationFunction
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ParticipationType
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-RoleCode
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-TimingEvent
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-mediaType
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-orderableDrugForm
-      - https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-substanceAdminSubstitution
-      - https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j304-finess-statut-juridique-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j318-activite-enseignement-regulee-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j322-type-act-enseignement-regulee-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j328-public-activite-smsse-regulee-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j376-public-activite-smsse-regulee-rass
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j384-role-membre-famille-ms
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j385-composition-foyer-ms
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j387-role-participant-ms
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis
-      - https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r73-espic-all
-
+      - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd
+      - https://smt.esante.gouv.fr/fhir/ValueSet/VS-test
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-prelevement-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-gestationnel-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-date-accouchement-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-2-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-exposition-west-nile-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-risque-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-historique-grossesses-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunisation-vrs-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-contact-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-esms-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-esms-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-information-vaccin-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-type-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-serotype-dengue-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-chikungunya-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-dengue-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-rougeole-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-event-indesirable-previsible-cisis
+      - https://smt.esante.gouv.fr/fhir/concept-properties
+      - http://ontoserver.csiro.au/profiles/expansion
 
 pages:
     index.md:

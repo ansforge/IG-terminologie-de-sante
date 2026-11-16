@@ -171,7 +171,7 @@ async def main():
                     try:
 
                         if (
-                            (CodeSystem["count"] > 1000)
+                            (CodeSystem["count"] > 5000)
                             or (e_codeSystem["name"] == "TRE_R13_CommuneOM")
                         ):
 
@@ -226,14 +226,14 @@ async def main():
                 ).to_resource()
 
                 # Expand automatique des JDV logiques
-
+                
                 if has_filter(ValueSet):
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
                         expansion = expanded.get("expansion")
                         if expansion and "contains" in expansion:
-                            for item in expansion["contains"]:
+                            for item in expansion["contains"]: # suppression de l'extension Ontoserver
                                 item.pop("extension", None)
                         ValueSet["expansion"] = expansion
                         
@@ -283,6 +283,4 @@ async def main():
 
 
 if __name__ == "__main__":
-
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
+    asyncio.run(main())
