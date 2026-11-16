@@ -8,8 +8,9 @@ Description: "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorps
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-04-17T09:25:08.004+00:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs"
-* ^version = "1.1.0"
-* ^status = #active
+* ^version = "1.2.0"
+* ^status = #retired
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^experimental = false
 * ^publisher = "ANS"
 * ^contact.name = "ANS"

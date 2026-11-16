@@ -59,6 +59,7 @@ jobs:
       - uses: actions/checkout@v4
         with:      
           path: igSource
+          fetch-depth: 1
 
       - name: Run GIT GC 
         run:  |
@@ -157,11 +158,19 @@ jobs:
 
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Generate package registry
-        run : java -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
+        run : java -Xmx6g -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
         
-      - name: 🏃‍♂️ Run  Publisher to release
-        run :   java -Xmx6g   -Dfile.encoding=UTF-8 -jar publisher.jar   -go-publish  -authorise-non-conformant-tx-servers -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
-
+      - name: 🏃‍♂️ Run Publisher to release
+        run: |
+          java -Xmx6g -Dfile.encoding=UTF-8 -jar publisher.jar \
+          -go-publish \
+          -authorise-non-conformant-tx-servers \
+          -source "${{ github.workspace }}/igSource" \
+          -web "${{ github.workspace }}/IG-terminology-website-release/www" \
+          -registry "${{ github.workspace }}/IG-terminology-website-release/ig-registry/fhir-ig-list.json" \
+          -history "${{ github.workspace }}/IG-terminology-website-release/fhir-ig-history-template" \
+          -templates "${{ github.workspace }}/IG-terminology-website-release/templates" \
+          -temp "${{ github.workspace }}/temp"
                
       - name: Liste des fichiers de www
         run: |
@@ -225,6 +234,8 @@ jobs:
       - name: Commit change on IG-terminology-website-release
         run: |
           cd  IG-terminology-website-release
+          find . -name "qa-ipreview.html" -delete
+          find . -name "qa-tx.html" -delete          
           git config http.postBuffer 524288000
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"

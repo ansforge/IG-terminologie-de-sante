@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.194"
-* version = "20240628120000"
+* version = "20260629120000"
 * name = "ASS_X13_AgregatClientele"
 * title = "ASS_X13_AgregatClientele"
 * status = #active
 * experimental = false
-* date = "2024-06-28T12:00:00+01:00"
+* date = "2026-06-29T12:00:00+01:00"
 * description = "Association d'agrégats de clientèle"
 * group.source = "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2"
 * group.target = "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3"
@@ -634,6 +634,30 @@ Usage: #definition
 * group.element[=].target.comment = "TO DO"
 * group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
 * group.element[=].target.dependsOn.value = "834"
+* group.element[+].code = #6000
+* group.element[=].target.code = #6100
+* group.element[=].target.equivalence = #narrower 
+* group.element[=].target.comment = "TO DO"
+* group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
+* group.element[=].target.dependsOn.value = "841"
+* group.element[+].code = #6000
+* group.element[=].target.code = #6100
+* group.element[=].target.equivalence = #narrower 
+* group.element[=].target.comment = "TO DO"
+* group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
+* group.element[=].target.dependsOn.value = "842"
+* group.element[+].code = #6000
+* group.element[=].target.code = #6100
+* group.element[=].target.equivalence = #narrower 
+* group.element[=].target.comment = "TO DO"
+* group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
+* group.element[=].target.dependsOn.value = "843"
+* group.element[+].code = #6000
+* group.element[=].target.code = #6100
+* group.element[=].target.equivalence = #narrower 
+* group.element[=].target.comment = "TO DO"
+* group.element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
+* group.element[=].target.dependsOn.value = "844"
 * group.element[+].code = #6000
 * group.element[=].target.code = #6200
 * group.element[=].target.equivalence = #narrower 

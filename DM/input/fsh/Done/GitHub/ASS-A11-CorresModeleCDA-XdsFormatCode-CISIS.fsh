@@ -4,12 +4,14 @@ Instance: ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS
 InstanceOf: ConceptMap
 Usage: #definition
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
-* version = "5.0.0"
+* identifier.value = "urn:oid:1.2.250.1.213.1.1.4.331"
+* version = "20260629120000"
 * name = "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS"
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * status = #active
+* date = "2026-06-29T12:00:00+01:00"
 * experimental = false
-* description = "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association."
+* description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
 * useContext.code = $usage-context-type#task
 * useContext.valueCodeableConcept.text = "Pour la constitution des metadata XDS"
 * publisher = "ANS"
@@ -39,7 +41,9 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.9
 * group[=].element[=].target.code = #urn:asip:ci-sis:idap:2011
 * group[=].element[=].target.equivalence = #equivalent
-
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.10
+* group[=].element[=].target.code = #urn:asip:ci-sis:cva:2017
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.12.1
 * group[=].element[=].target.code = #urn:asip:ci-sis:obp-sap:2023
 * group[=].element[=].target.equivalence = #equivalent
@@ -85,7 +89,9 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.2.1.5
 * group[=].element[=].target.code = #urn:asip:ci-sis:ppv:2009
 * group[=].element[=].target.equivalence = #equivalent
-
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.20
+* group[=].element[=].target.code = #urn:asip:ci-sis:pps-paerpa:2017
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.21
 * group[=].element[=].target.code = #urn:asip:ci-sis:ldl-ees:2017
 * group[=].element[=].target.equivalence = #equivalent
@@ -140,7 +146,15 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.47
 * group[=].element[=].target.code = #urn:ans:ci-sis:img-da:2022
 * group[=].element[=].target.equivalence = #equivalent
-
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.48
+* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-dlu-dom:2022
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.49
+* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-fludt-dom:2022
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.50
+* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-fludr-dom:2022
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.52
 * group[=].element[=].target.code = #urn:ans:ci-sis:bio-ep-bio:2022
 * group[=].element[=].target.equivalence = #equivalent
@@ -150,16 +164,21 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.56
 * group[=].element[=].target.code = #urn:asip:ci-sis:ppp:2023
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.59
-* group[=].element[=].target.code = #urn:ans:ci-sis:trod:2024
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.1
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-rougeole:2026
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.61
-* group[=].element[=].target.code = #urn:asip:ci-sis:ft-su:2024
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.2
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-dengue:2026
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.62
-* group[=].element[=].target.code = #urn:asip:ci-sis:fr-su:2024
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.3
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-chikungunya:2026
 * group[=].element[=].target.equivalence = #equivalent
-
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.4
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-zika:2026
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.5
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-westnile:2026
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"
 * group[=].element[0].code = #1.2.250.1.213.1.1.1.39

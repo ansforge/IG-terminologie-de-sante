@@ -18,9 +18,10 @@ def has_filter(valueset):
     for include in compose.get("include", []):
         if include.get("filter"):
             return True
-
+        if not include.get("concept") and include.get("system"):
+            return True
+        
     return False
-
 
 def expand_valueset(valueset):
     """
@@ -93,7 +94,6 @@ def is_allowed_valueset(url):
             re.IGNORECASE
         )
     )
-
 
 async def main():
 
@@ -171,7 +171,7 @@ async def main():
                     try:
 
                         if (
-                            (CodeSystem["count"] > 1000)
+                            (CodeSystem["count"] > 5000)
                             or (e_codeSystem["name"] == "TRE_R13_CommuneOM")
                         ):
 
@@ -226,13 +226,16 @@ async def main():
                 ).to_resource()
 
                 # Expand automatique des JDV logiques
-
+                
                 if has_filter(ValueSet):
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
-                        expanded["id"] = e_valueSet["id"]
-                        ValueSet = expanded
+                        expansion = expanded.get("expansion")
+                        if expansion and "contains" in expansion:
+                            for item in expansion["contains"]: # suppression de l'extension Ontoserver
+                                item.pop("extension", None)
+                        ValueSet["expansion"] = expansion
                         
                 with open(
                     "../input/ontoserver/JDV/"
@@ -280,6 +283,4 @@ async def main():
 
 
 if __name__ == "__main__":
-
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
+    asyncio.run(main())

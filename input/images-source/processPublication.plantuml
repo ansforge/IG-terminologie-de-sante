@@ -1,0 +1,117 @@
+@startuml
+title Process de publication de l'IG Terminologies de Santé
+
+start
+
+:Vérifications préalables;
+note right
+[[https://github.com/ansforge/IG-terminologie-de-sante/issues/503 Issue #503]]
+end note
+partition "Génération JSON à partir des FSH" {
+
+:Récupérer le dossier GENERATION_NOS_PUBLICATION_IG;
+
+:Nettoyer les anciens FSH et JSON;
+
+:Déposer les nouveaux FSH (validés et à publier) dans input/fsh;
+
+:Vérifier si sushi-config.yaml bien présent;
+
+:Ouvrir le dossier GENERATION_NOS_PUBLICATION_IG dans VSCode;
+
+:Exécuter\nsushi .;
+
+if (Erreurs SUSHI) then (Oui)
+    :Corriger les erreurs;
+else (Non)
+endif
+
+:Créer resources.zip (depuis fsh-generated/resources);
+
+note right
+Conserver l'arborescence :
+resources/
+  fichiers...
+end note
+}
+
+partition "Pousser les ressources sur le SMT"{
+:Déposer resources.zip sur le GIT SMT-TerminoStream/NOS_nouveau_format via upload;
+note right
+[[https://github.com/ansforge/SMT-TerminoStream/tree/main/NOS_nouveau_format GIT SMT]]
+end note
+
+
+:Attendre le traitement du Talend (~15 min);
+note right
+Mail est envoyé automatiquement pour confirmer que c'est bon
+end note
+
+:Contrôler les logs Talend;
+note right
+Commencer par le bas car les logs ne sont pas écrasés 
+end note
+
+if (Erreurs dans les logs) then (Oui)
+    :Corriger;
+else (Non)
+endif
+
+}
+
+partition "Préparation publication IG" {
+
+:Incrémenter la version sushi-config.yaml;
+note right
+version
+end note
+
+:Mettre à jour publication-request.json;
+note right
+version, path, desc, introduction
+end note
+}
+
+partition "Release de l'IG"{
+:Exécuter le workflow validate DM (SUSHI);
+note right #Orange
+⚠ Warning : ne remonte pas toutes les erreurs
+end note
+
+if (SUSHI OK) then (Non)
+    :Corriger les erreurs;
+else (Oui)
+endif
+
+:Exécuter le workflow build-ig;
+note right
+branche main
+end note
+
+if (Build OK) then (Non)
+    :Corriger les erreurs;
+else (Oui)
+endif
+
+:Exécuter le workflow Release IG;
+
+if (Release OK) then (Non)
+    #FFA500:Créer une PR avec les modifications apportées sur le workflow\nMettre Maël en review;
+else (Oui)
+endif
+
+:Exécuter le workflow Create ZIP NOS Expand;
+note right
+ZIP est attaché à la release
+end note
+
+}
+
+:Intégration sur le serveur\nhttps://interop.esante.gouv.fr/terminologies/;
+note right
+Script update_IG, serveur géré par Kereval accessible avec VPN FortiClient puis SSH
+end note
+
+stop
+
+@enduml

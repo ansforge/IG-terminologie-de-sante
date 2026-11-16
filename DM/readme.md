@@ -72,3 +72,7 @@ Lancement du workflow 'validate-dm'
 ### 5.  Creation du guide d'implémentation
 
 Lancement du workflow ' Build IG"
+
+# Process de publication de l'IG
+
+![Process IG](../input/images/processPublication.svg)

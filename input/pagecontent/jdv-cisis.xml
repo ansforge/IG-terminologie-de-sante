@@ -18,7 +18,7 @@
         <br/>
     <div id="orig">
    {% sql {
-  "query" : "select name as Name, Description, STRFTIME('%d/%m/%Y',date(date)) date_maj ,Web from Resources where Type='ValueSet' and name like '%_CISIS%'  and json_extract(Resources.json,'$.status') != 'retired'  ",
+  "query" : "select name as Name, Description, STRFTIME('%d/%m/%Y',date(date)) date_maj ,Status as Status,Web from Resources where Type='ValueSet' and name like '%_CISIS%'  and json_extract(Resources.json,'$.status') != 'retired'  ",
   "class" : "codes",
   "columns" : [
     { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
