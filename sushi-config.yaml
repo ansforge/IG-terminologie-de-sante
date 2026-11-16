@@ -16,7 +16,7 @@ fhirVersion: 4.0.1
 copyrightYear: 2020+
 #releaseLabel: for-comment
 releaseLabel: final-text
-jurisdiction: urn:iso:std:iso:3166#FRA
+jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
 dependencies:
    hl7.fhir.uv.ips: 1.1.0
@@ -31,6 +31,11 @@ parameters:
     apply-contact : false
     apply-publisher : false
     apply-jurisdiction : true
+    i18n-default-lang: fr 
+    i18n-lang:
+      - en
+    translation-sources:
+      - input/translations/en    
     path-expansion-params: '../../input/_resources/exp-params.json' # for using FR  of SNOMED    
 #    related-ig: ref-impl:convention=ans.fr.documentation   
     logging:
@@ -1401,7 +1406,8 @@ pages:
             title: Sécurité
         downloads.md:
             title: Téléchargements et usages
-
+    translationinfo.md:
+        title: Informations sur la traduction
 menu:
     Accueil: index.html         
     Terminologies  : tre.html
