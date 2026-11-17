@@ -8,6 +8,16 @@ import sys
 from fhirpy import AsyncFHIRClient
 
 ONTOSERVER_URL = "https://smt.esante.gouv.fr/fhir"
+JDV_FORCE_EXPAND = [
+    "JdvJ322TypeActEnseignementReguleeFiness",
+    "JdvJ331TypeActSocialeReguleeFiness",
+    "JdvJ336TypeActSanitaireDiverseReguleeFiness",
+    "JdvJ340TypeActDeSoinAmfFiness",
+    "JdvJ341TypeActAutreActeSoinFiness",
+    "JdvJ342TypeActSoumiseReconnaissanceFiness",
+    "JdvJ344TypeActEquipementMaterielLourdFiness",
+    "JdvJ350TypeActDeSoinAmmFiness"
+]
 
 
 def has_filter(valueset):
@@ -20,7 +30,7 @@ def has_filter(valueset):
             return True
         if not include.get("concept") and include.get("system"):
             return True
-        
+
     return False
 
 def expand_valueset(valueset):
@@ -212,10 +222,13 @@ async def main():
 
         if is_allowed_valueset(url):
 
-            if not os.path.isfile(
+            if (
+                not os.path.isfile(
                 "../DM/fsh-generated/resources/ValueSet-"
                 + e_valueSet["id"]
                 + ".json"
+                )
+                or e_valueSet["name"] in JDV_FORCE_EXPAND
             ):
 
                 print("------------> OK")
@@ -226,8 +239,8 @@ async def main():
                 ).to_resource()
 
                 # Expand automatique des JDV logiques
-                
-                if has_filter(ValueSet):
+
+                if has_filter(ValueSet) or e_valueSet["name"] in JDV_FORCE_EXPAND:
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
@@ -236,7 +249,7 @@ async def main():
                             for item in expansion["contains"]: # suppression de l'extension Ontoserver
                                 item.pop("extension", None)
                         ValueSet["expansion"] = expansion
-                        
+
                 with open(
                     "../input/ontoserver/JDV/"
                     + e_valueSet["name"]
@@ -280,7 +293,6 @@ async def main():
                 ) as f:
 
                     f.write(json.dumps(ConceptMap))
-
 
 if __name__ == "__main__":
     asyncio.run(main())
