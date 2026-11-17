@@ -77,7 +77,7 @@ jobs:
 
       - name: Build and test with Rake        
         run: |
-          sudo apt-get install ruby-full
+          sudo apt-get install ruby-full graphviz
           sudo gem install jekyll
 
       - name: Run sushi 
@@ -161,5 +161,8 @@ jobs:
       - name: Debug PlantUML
         if: failure()
         run: |
-          which dot || echo "dot absent"
-          java -jar igSource/template/scripts/plantuml.jar -nometadata -failfast2 -tsvg -o /tmp/puml "igSource/input/images-source/**/*.plantuml"
+          find igSource/input/images-source -name '*.plantuml' | while read f; do
+            echo "== $f"
+            java -jar igSource/template/scripts/plantuml.jar -nometadata -checkonly "$f" 2>&1 | tail -5
+            echo "exit=${PIPESTATUS[0]}"
+          done
