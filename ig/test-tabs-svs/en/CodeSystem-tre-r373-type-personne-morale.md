@@ -1,0 +1,122 @@
+# Tre R373 Type Personne Morale - Terminologies de Santé v1.15.0
+
+## CodeSystem: Tre R373 Type Personne Morale 
+
+ 
+Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [Vs Tre R373 Type Personne Morale All](ValueSet-vs-tre-r373-type-personne-morale-all.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tre-r373-type-personne-morale",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-07-06T20:13:58+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "1900-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.253"
+  }],
+  "version" : "20260505120000",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-05T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "caseSensitive" : false,
+  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
+  "content" : "complete",
+  "count" : 1,
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "The date at which a concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Personne morale d'exercice (Exercice)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PM d'exercice"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
+}
+
+```

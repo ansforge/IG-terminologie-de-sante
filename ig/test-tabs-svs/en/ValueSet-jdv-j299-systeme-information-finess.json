@@ -1,0 +1,88 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j299-systeme-information-finess",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:15.053+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j299-systeme-information-finess</b></p><a name=\"en-jdv-j299-systeme-information-finess\"> </a><a name=\"en-hcjdv-j299-systeme-information-finess\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-07-02 16:33:15+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-tre-r379-systeme-information.html\">codesystem Tre R379 Systeme Information v20260827120000 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"en-jdv-j299-systeme-information-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information-05\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tre-r379-systeme-information.html#tre-r379-systeme-information-05\">05</a></td><td>BIO2</td></tr><tr><td><a name=\"en-jdv-j299-systeme-information-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information-01\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tre-r379-systeme-information.html#tre-r379-systeme-information-01\">01</a></td><td>FINESS</td></tr><tr><td><a name=\"en-jdv-j299-systeme-information-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information-04\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tre-r379-systeme-information.html#tre-r379-systeme-information-04\">04</a></td><td>PHARMA-SI</td></tr><tr><td><a name=\"en-jdv-j299-systeme-information-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information-02\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tre-r379-systeme-information.html#tre-r379-systeme-information-02\">02</a></td><td>SI-AUTORISATIONS</td></tr><tr><td><a name=\"en-jdv-j299-systeme-information-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information-03\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-tre-r379-systeme-information.html#tre-r379-systeme-information-03\">03</a></td><td>SIRENE</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-06-11T18:02:28.249+00:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j299-systeme-information-finess",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.307"
+  }],
+  "version" : "20260629120000",
+  "name" : "JdvJ299SystemeInformationFiness",
+  "title" : "Jdv J299 Systeme Information Finess",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-29T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "filter" : [{
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:888a611c-7398-4c3a-88c4-a56f3ecc8667",
+    "timestamp" : "2026-11-17T16:32:03+01:00",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information|20260827120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information|20260827120000"
+    }],
+    "contains" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "code" : "05",
+      "display" : "BIO2"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "code" : "01",
+      "display" : "FINESS"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "code" : "04",
+      "display" : "PHARMA-SI"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "code" : "02",
+      "display" : "SI-AUTORISATIONS"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+      "code" : "03",
+      "display" : "SIRENE"
+    }]
+  }
+}
