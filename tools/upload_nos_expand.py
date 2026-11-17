@@ -9,7 +9,6 @@ from fhirpy import AsyncFHIRClient
 
 ONTOSERVER_URL = "https://smt.esante.gouv.fr/fhir"
 
-
 def has_filter(valueset):
     """Retourne True si le ValueSet contient une règle logique (filter dans compose.include)."""
 
@@ -20,7 +19,7 @@ def has_filter(valueset):
             return True
         if not include.get("concept") and include.get("system"):
             return True
-        
+
     return False
 
 def expand_valueset(valueset):
@@ -213,9 +212,12 @@ async def main():
         if is_allowed_valueset(url):
 
             if not os.path.isfile(
+
                 "../DM/fsh-generated/resources/ValueSet-"
                 + e_valueSet["id"]
                 + ".json"
+
+
             ):
 
                 print("------------> OK")
@@ -226,7 +228,7 @@ async def main():
                 ).to_resource()
 
                 # Expand automatique des JDV logiques
-                
+
                 if has_filter(ValueSet):
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
@@ -236,7 +238,7 @@ async def main():
                             for item in expansion["contains"]: # suppression de l'extension Ontoserver
                                 item.pop("extension", None)
                         ValueSet["expansion"] = expansion
-                        
+
                 with open(
                     "../input/ontoserver/JDV/"
                     + e_valueSet["name"]
@@ -280,7 +282,6 @@ async def main():
                 ) as f:
 
                     f.write(json.dumps(ConceptMap))
-
 
 if __name__ == "__main__":
     asyncio.run(main())
