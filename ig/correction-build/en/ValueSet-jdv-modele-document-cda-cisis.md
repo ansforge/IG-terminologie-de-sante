@@ -1,0 +1,324 @@
+# Jdv Modele Document CDA CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: Jdv Modele Document CDA CISIS 
+
+ 
+Jdv Modele Document CDA CISIS 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-modele-document-cda-cisis",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:43:28.022+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-09-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.820"
+  }],
+  "version" : "20260928134051",
+  "name" : "JdvModeleDocumentCdaCisis",
+  "title" : "Jdv Modele Document CDA CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-28T13:40:51+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jdv Modele Document CDA CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
+      "concept" : [{
+        "code" : "1.2.250.1.213.1.1.1.2.1.1",
+        "display" : "Fiche patient à risque en cardiologie - Traitement AVK"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.2.1.2",
+        "display" : "Fiche patient à risque en cardiologie - Trait. antiagrég. plaquettaire, stent"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.2.1.3",
+        "display" : "Fiche patient à risque en cardiologie - Défibrillateur cardiaque interne"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.2.1.4",
+        "display" : "Fiche patient à risque en cardiologie - Porteur d'un stimulateur cardiaque"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.2.1.5",
+        "display" : "Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.5.1",
+        "display" : "Certificat de santé du 8ème jour de l'enfant"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.5.2",
+        "display" : "Certificat de santé du 9ème mois de l'enfant"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.5.3",
+        "display" : "Certificat de santé du 24ème mois de l'enfant"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.5.4",
+        "display" : "Mesures de signes vitaux"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.8",
+        "display" : "Fiche de réunion de concertation pluridisciplinaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.9",
+        "display" : "Document d'information et de directives anticipées du patient"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.12.1",
+        "display" : "Synthèse antepartum"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.12.2",
+        "display" : "Synthèse Salle de Naissance Mère"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.12.3",
+        "display" : "Synthèse Salle de Naissance Enfant"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.12.4",
+        "display" : "Synthèse Suites de Couches Mère"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.12.5",
+        "display" : "Synthèse Enfant en Maternité"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.13",
+        "display" : "Synthèse médicale"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.15",
+        "display" : "Fiche d'admission en unité neuro-vasculaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.16",
+        "display" : "Fiche d'épisode de soin en unité neuro-vasculaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.17",
+        "display" : "Fiche de sortie d'unité neuro-vasculaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.18",
+        "display" : "Compte-rendu de rétinographie"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.21",
+        "display" : "Lettre de Liaison à l'entrée d'un établissement de santé"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.22",
+        "display" : "Document de liaison d'urgence"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.23",
+        "display" : "Fiche de liaison d'urgence -Transfert de l'EHPAD vers les urgences"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.24",
+        "display" : "Fiche de liaison d'urgence - Retour des urgences vers l'EHPAD"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.25",
+        "display" : "CR consultation d'évaluation pluri-professionnelle post AVC"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.26",
+        "display" : "Programme Personnalisé de Soins - Cancer"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.27",
+        "display" : "D2LM - Fiche d'interprétation nationale"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.28",
+        "display" : "D2LM - Fiche d'interprétation du bilan de diagnostic différé"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.29",
+        "display" : "Lettre de Liaison à la sortie de l'établissement de santé"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.30",
+        "display" : "Set de Données Minimum - Maladies Rares"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.32",
+        "display" : "Compte rendu de génétique moléculaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.36",
+        "display" : "Historique des remboursements"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.37",
+        "display" : "Historique des vaccinations"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.38",
+        "display" : "Demande d'acte de télémédecine"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.39",
+        "display" : "Prescription de médicaments"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.40",
+        "display" : "Compte rendu d'anesthésie"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.41",
+        "display" : "Compte rendu de consultation pré-anesthésique"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.42",
+        "display" : "CR de consultation en ophtalmologie - Bilan de réfraction"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.43",
+        "display" : "CR de consultation en ophtalmologie - Bilan cataracte"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.44",
+        "display" : "CR de consultation en ophtalmologie - Bilan DMLA"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.45",
+        "display" : "Compte-rendu d'imagerie médicale"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.46",
+        "display" : "Note de vaccination"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.47",
+        "display" : "Demande d'actes d'imagerie"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.51",
+        "display" : "Synthèse médicale"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.52",
+        "display" : "Prescription d'actes de biologie médicale"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.54",
+        "display" : "Dispensation médicamenteuse"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.55",
+        "display" : "CR d'examens biologiques"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.56",
+        "display" : "Plan personnalisé de prévention"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.57",
+        "display" : "CR d'anatomie et de cytologie pathologiques"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.58",
+        "display" : "Export du Dossier Usager informatisé"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.59",
+        "display" : "Test rapide d'orientation diagnostique"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.60",
+        "display" : "Document de liaison d'urgence"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.61",
+        "display" : "Fiche de transfert vers le service des urgences"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.1.62",
+        "display" : "Fiche de retour du service des urgences"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.1",
+        "display" : "PSIG – Formulaire MSO Rougeole"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.2",
+        "display" : "PSIG – Formulaire MSO Dengue"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.3",
+        "display" : "PSIG – Formulaire MSO Chikungunya"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.4",
+        "display" : "PSIG – Formulaire MSO Zika"
+      },
+      {
+        "code" : "1.2.250.1.213.1.11.1.19.5",
+        "display" : "PSIG – Formulaire MSO West Nile"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
+      "concept" : [{
+        "code" : "1.3.6.1.4.1.19376.1.2.20",
+        "display" : "Modèle de document CDA non structuré"
+      }]
+    }]
+  }
+}
+
+```

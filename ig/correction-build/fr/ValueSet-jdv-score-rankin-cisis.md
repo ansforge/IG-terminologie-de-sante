@@ -1,0 +1,105 @@
+# JDV Score Rankin CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV Score Rankin CISIS 
+
+ 
+JDV Score Rankin CISIS 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-score-rankin-cisis",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2026-09-28T15:43:55.429+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.176"
+  }],
+  "version" : "20260928134055",
+  "name" : "JdvScoreRankinCisis",
+  "title" : "JDV Score Rankin CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-28T13:40:55+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Score Rankin CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6111-4",
+        "display" : "Aucun symptome"
+      },
+      {
+        "code" : "LA6112-2",
+        "display" : "Pas d’incapacité en dehors des symptomes : activités et autonomie conservées"
+      },
+      {
+        "code" : "LA6113-0",
+        "display" : "Handicap faible : incapable d’assurer les activités habituelles mais autonomie"
+      },
+      {
+        "code" : "LA6114-8",
+        "display" : "Handicap modéré : besoin d’aide mais marche possible sans assistance"
+      },
+      {
+        "code" : "LA6115-5",
+        "display" : "Handicap modérément sévère : marche et gestes quotidiens impossibles sans aide"
+      },
+      {
+        "code" : "LA10137-0",
+        "display" : "Handicap majeur : alitement permanent, incontinence et soins de nursing permanent"
+      },
+      {
+        "code" : "LA10138-8",
+        "display" : "Décédé"
+      }]
+    }]
+  }
+}
+
+```
