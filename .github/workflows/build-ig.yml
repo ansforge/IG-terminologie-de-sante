@@ -157,3 +157,9 @@ jobs:
           destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
           exclude_assets: '**.zip,**.tgz,**.pack,**expansions.json,**expansions.xml,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'          
           commit_message: ' ${{ github.event.head_commit.message }}'
+      
+      - name: Debug PlantUML
+        if: failure()
+        run: |
+          which dot || echo "dot absent"
+          java -jar igSource/template/scripts/plantuml.jar -nometadata -failfast2 -tsvg -o /tmp/puml "igSource/input/images-source/**/*.plantuml"
