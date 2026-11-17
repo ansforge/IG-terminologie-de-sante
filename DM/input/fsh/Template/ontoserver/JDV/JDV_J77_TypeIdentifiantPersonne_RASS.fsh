@@ -1,8 +1,8 @@
 ValueSet: JDV_J77_TypeIdentifiantPersonne_RASS
 Id: JDV-J77-TypeIdentifiantPersonne-RASS
 Description: "Type d'identifiant national de personne physique du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:48.504+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:56.619+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type d'identifiant national de personne physique du RASS"
 * ^experimental = false
 * ^date = "2020-05-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G08-TypeIdentifiantPersonne#0 "N° ADELI"
 * $TRE-G08-TypeIdentifiantPersonne#1 "Id Cabinet ADELI / N° de registre"
 * $TRE-G08-TypeIdentifiantPersonne#3 "FINESS / N° de registre"

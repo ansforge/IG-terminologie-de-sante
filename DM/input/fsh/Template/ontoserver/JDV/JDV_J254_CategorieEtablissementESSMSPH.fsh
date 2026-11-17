@@ -1,8 +1,8 @@
 ValueSet: JDV_J254_CategorieEtablissementESSMSPH
 Id: JDV-J254-CategorieEtablissementESSMSPH
 Description: "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T17:06:12.685+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:06:19.813+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Liste les catégories d'établissements ESSMS (Etablissement ou Se
 * ^experimental = false
 * ^date = "2024-10-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R66-CategorieEtablissement#182 "Service d'Éducation Spéciale et de Soins à Domicile"
 * $TRE-R66-CategorieEtablissement#183 "Institut Médico-Educatif (I.M.E.)"
 * $TRE-R66-CategorieEtablissement#186 "Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)"

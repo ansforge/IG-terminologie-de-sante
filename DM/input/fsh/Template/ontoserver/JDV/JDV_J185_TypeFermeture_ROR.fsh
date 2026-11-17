@@ -1,8 +1,8 @@
 ValueSet: JDV_J185_TypeFermeture_ROR
 Id: JDV-J185-TypeFermeture-ROR
 Description: "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-10-02T19:02:00.002+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:05:41.826+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Les seules valeurs acceptées par le ROR pour les Organisations in
 * ^experimental = false
 * ^date = "2025-09-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R286-TypeFermeture#DEF "Définitive"
 * $TRE-R286-TypeFermeture#PRO "Provisoire"
 * $TRE-R286-TypeFermeture#PRE "Prévisionnelle"

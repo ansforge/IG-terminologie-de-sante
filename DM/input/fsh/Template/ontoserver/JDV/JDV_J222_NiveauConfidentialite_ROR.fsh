@@ -1,8 +1,8 @@
 ValueSet: JDV_J222_NiveauConfidentialite_ROR
 Id: JDV-J222-NiveauConfidentialite-ROR
 Description: "Niveau de restriction d'accès"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-05-05T19:02:45.870+02:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:06:01.579+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

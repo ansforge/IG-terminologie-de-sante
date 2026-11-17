@@ -1,8 +1,8 @@
 ValueSet: JDV_J101_SecteurActivite_RASS
 Id: JDV-J101-SecteurActivite-RASS
 Description: "Secteurs d'activité des établissements avec la même activité dans le RASS"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2026-05-05T19:02:30.896+02:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2026-07-06T19:04:39.173+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

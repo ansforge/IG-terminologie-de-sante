@@ -1,8 +1,8 @@
 ValueSet: JDV_J177_BesoinAideMobilite_MDPH
 Id: JDV-J177-BesoinAideMobilite-MDPH
 Description: "La personne a besoin d'aide pour se déplacer à l'intérieur de son domicile"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:29.865+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:35.491+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "La personne a besoin d'aide pour se déplacer à l'intérieur de s
 * ^experimental = false
 * ^date = "2021-09-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R318-BesoinAideMobilite#01 "Se déplacer dans le domicile"
 * $TRE-R318-BesoinAideMobilite#02 "Sortir du domicile ou y entrer"
 * $TRE-R318-BesoinAideMobilite#03 "Se déplacer à l'extérieur du domicile"

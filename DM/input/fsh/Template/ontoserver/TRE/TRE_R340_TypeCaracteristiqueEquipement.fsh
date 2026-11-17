@@ -1,8 +1,8 @@
 CodeSystem: TRE_R340_TypeCaracteristiqueEquipement
 Id: TRE-R340-TypeCaracteristiqueEquipement
 Description: "Type de caractéristique de l'équipement"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:41.300+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T20:13:43.637+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Type de caractéristique de l'équipement"
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

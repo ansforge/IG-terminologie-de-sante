@@ -1,8 +1,8 @@
 CodeSystem: TRE_G15_ProfessionSante
 Id: TRE-G15-ProfessionSante
 Description: "Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3)"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T18:11:48.373+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:12:31.491+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-06-18T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Professions de santé définies par le code de la santé publique 
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

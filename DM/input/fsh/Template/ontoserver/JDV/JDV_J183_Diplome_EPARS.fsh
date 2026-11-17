@@ -1,8 +1,8 @@
 ValueSet: JDV_J183_Diplome_EPARS
 Id: JDV-J183-Diplome-EPARS
 Description: "Diplômes pour l'application EPARS"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2026-05-05T19:02:43.990+02:00"
+* ^meta.versionId = "19"
+* ^meta.lastUpdated = "2026-07-29T10:33:49.962+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Diplômes pour l'application EPARS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.240"
-* ^version = "20260223120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R48-DiplomeEtatFrancais#DE28 "DE Assistant de Service Social"
@@ -24,7 +24,7 @@ Description: "Diplômes pour l'application EPARS"
 * $TRE-R48-DiplomeEtatFrancais#DE39 "DE Manipulateur d'Electro-Radiologie médicale"
 * $TRE-R58-AutreTypeDiplome#DIP319 "Titre d'assistant dentaire"
 * $TRE-R58-AutreTypeDiplome#DIP321 "Diplôme d'Ostéopathe d'un établissement agréé"
-* $TRE-R58-AutreTypeDiplome#DIP322 "Master en Psychologie ou Psychanalyse"
+* $TRE-R58-AutreTypeDiplome#DIP322 "Master en Psychologie ou Psychanalyse + formation établissement agréé incluant un stage en ESSMS"
 * $TRE-R58-AutreTypeDiplome#DIP323 "Licence + Master mention psychologie + Attest stage"
 * $TRE-R58-AutreTypeDiplome#DIP324 "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage"
 * $TRE-R58-AutreTypeDiplome#DIP325 "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage"

@@ -2,24 +2,24 @@ CodeSystem: TreR347ActiviteSanitaireDiverseRegulee
 Id: tre-r347-activite-sanitaire-diverse-regulee
 Title: "Tre R347 Activite Sanitaire Diverse Regulee"
 Description: "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:08.851+02:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-07-06T20:13:47.736+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.248"
-* ^version = "20260505120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 457
+* ^count = 478
 * ^property[0].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
@@ -1099,7 +1099,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0361 ^property[=].valueDateTime = "2017-06-07T00:00:00+01:00"
 * #0361 ^property[+].code = #niveau
 * #0361 ^property[=].valueInteger = 3
-* #0371 "structures de psychiatrie sans hébergement"
+* #0371 "structures de psychiatrie ambulatoire"
 * #0371 ^designation.language = #fr-FR
 * #0371 ^designation.use.system = "http://snomed.info/sct"
 * #0371 ^designation.use = $sct#900000000000013009
@@ -1109,7 +1109,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0371 ^property[+].code = #dateValid
 * #0371 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #0371 ^property[+].code = #dateMaj
-* #0371 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #0371 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #0371 ^property[+].code = #status
 * #0371 ^property[=].valueCode = #active
 * #0371 ^property[+].code = #niveau
@@ -1408,6 +1408,233 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0821 ^property[=].valueCode = #active
 * #0821 ^property[+].code = #niveau
 * #0821 ^property[=].valueInteger = 3
+* #861 "Accueil familial thérapeutique"
+* #861 ^property[0].code = #parent
+* #861 ^property[=].valueCode = #0371
+* #861 ^property[+].code = #dateValid
+* #861 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #861 ^property[+].code = #dateMaj
+* #861 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #861 ^property[+].code = #status
+* #861 ^property[=].valueCode = #active
+* #861 ^property[+].code = #niveau
+* #861 ^property[=].valueInteger = 4
+* #862 "Appartement thérapeutique"
+* #862 ^designation.language = #fr-FR
+* #862 ^designation.use.system = "http://snomed.info/sct"
+* #862 ^designation.use = $sct#900000000000013009
+* #862 ^designation.value = "A.T."
+* #862 ^property[0].code = #parent
+* #862 ^property[=].valueCode = #0371
+* #862 ^property[+].code = #dateValid
+* #862 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #862 ^property[+].code = #dateMaj
+* #862 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #862 ^property[+].code = #status
+* #862 ^property[=].valueCode = #active
+* #862 ^property[+].code = #niveau
+* #862 ^property[=].valueInteger = 4
+* #863 "Accueil permanent"
+* #863 ^property[0].code = #parent
+* #863 ^property[=].valueCode = #0371
+* #863 ^property[+].code = #dateValid
+* #863 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #863 ^property[+].code = #dateMaj
+* #863 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #863 ^property[+].code = #status
+* #863 ^property[=].valueCode = #active
+* #863 ^property[+].code = #niveau
+* #863 ^property[=].valueInteger = 4
+* #864 "Centre d'activités thérapeutiques et de temps de groupe"
+* #864 ^designation.language = #fr-FR
+* #864 ^designation.use.system = "http://snomed.info/sct"
+* #864 ^designation.use = $sct#900000000000013009
+* #864 ^designation.value = "C.A.T.T.G."
+* #864 ^property[0].code = #parent
+* #864 ^property[=].valueCode = #0371
+* #864 ^property[+].code = #dateValid
+* #864 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #864 ^property[+].code = #dateMaj
+* #864 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #864 ^property[+].code = #status
+* #864 ^property[=].valueCode = #active
+* #864 ^property[+].code = #niveau
+* #864 ^property[=].valueInteger = 4
+* #865 "Centre de crise"
+* #865 ^property[0].code = #parent
+* #865 ^property[=].valueCode = #0371
+* #865 ^property[+].code = #dateValid
+* #865 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #865 ^property[+].code = #dateMaj
+* #865 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #865 ^property[+].code = #status
+* #865 ^property[=].valueCode = #active
+* #865 ^property[+].code = #niveau
+* #865 ^property[=].valueInteger = 4
+* #866 "Centre de soins post-aigus"
+* #866 ^designation.language = #fr-FR
+* #866 ^designation.use.system = "http://snomed.info/sct"
+* #866 ^designation.use = $sct#900000000000013009
+* #866 ^designation.value = "Ce.S.P.A."
+* #866 ^property[0].code = #parent
+* #866 ^property[=].valueCode = #0371
+* #866 ^property[+].code = #dateValid
+* #866 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #866 ^property[+].code = #dateMaj
+* #866 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #866 ^property[+].code = #status
+* #866 ^property[=].valueCode = #active
+* #866 ^property[+].code = #niveau
+* #866 ^property[=].valueInteger = 4
+* #867 "Centre médico-psychologique"
+* #867 ^designation.language = #fr-FR
+* #867 ^designation.use.system = "http://snomed.info/sct"
+* #867 ^designation.use = $sct#900000000000013009
+* #867 ^designation.value = "C.M.P."
+* #867 ^property[0].code = #parent
+* #867 ^property[=].valueCode = #0371
+* #867 ^property[+].code = #dateValid
+* #867 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #867 ^property[+].code = #dateMaj
+* #867 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #867 ^property[+].code = #status
+* #867 ^property[=].valueCode = #active
+* #867 ^property[+].code = #niveau
+* #867 ^property[=].valueInteger = 4
+* #868 "Hôpital de jour"
+* #868 ^designation.language = #fr-FR
+* #868 ^designation.use.system = "http://snomed.info/sct"
+* #868 ^designation.use = $sct#900000000000013009
+* #868 ^designation.value = "H.D.J."
+* #868 ^property[0].code = #parent
+* #868 ^property[=].valueCode = #0371
+* #868 ^property[+].code = #dateValid
+* #868 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #868 ^property[+].code = #dateMaj
+* #868 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #868 ^property[+].code = #status
+* #868 ^property[=].valueCode = #active
+* #868 ^property[+].code = #niveau
+* #868 ^property[=].valueInteger = 4
+* #869 "Service médico-psychologique régional"
+* #869 ^designation.language = #fr-FR
+* #869 ^designation.use.system = "http://snomed.info/sct"
+* #869 ^designation.use = $sct#900000000000013009
+* #869 ^designation.value = "S.M.P.R."
+* #869 ^property[0].code = #parent
+* #869 ^property[=].valueCode = #0371
+* #869 ^property[+].code = #dateValid
+* #869 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #869 ^property[+].code = #dateMaj
+* #869 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #869 ^property[+].code = #status
+* #869 ^property[=].valueCode = #active
+* #869 ^property[+].code = #niveau
+* #869 ^property[=].valueInteger = 4
+* #870 "Soins à domicile"
+* #870 ^property[0].code = #parent
+* #870 ^property[=].valueCode = #0371
+* #870 ^property[+].code = #dateValid
+* #870 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #870 ^property[+].code = #dateMaj
+* #870 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #870 ^property[+].code = #status
+* #870 ^property[=].valueCode = #active
+* #870 ^property[+].code = #niveau
+* #870 ^property[=].valueInteger = 4
+* #871 "Unité hospitalière spécialement aménagée"
+* #871 ^designation.language = #fr-FR
+* #871 ^designation.use.system = "http://snomed.info/sct"
+* #871 ^designation.use = $sct#900000000000013009
+* #871 ^designation.value = "U.H.S.A."
+* #871 ^property[0].code = #parent
+* #871 ^property[=].valueCode = #0371
+* #871 ^property[+].code = #dateValid
+* #871 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #871 ^property[+].code = #dateMaj
+* #871 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #871 ^property[+].code = #status
+* #871 ^property[=].valueCode = #active
+* #871 ^property[+].code = #niveau
+* #871 ^property[=].valueInteger = 4
+* #872 "Unité pour malades difficiles"
+* #872 ^designation.language = #fr-FR
+* #872 ^designation.use.system = "http://snomed.info/sct"
+* #872 ^designation.use = $sct#900000000000013009
+* #872 ^designation.value = "U.M.D."
+* #872 ^property[0].code = #parent
+* #872 ^property[=].valueCode = #0371
+* #872 ^property[+].code = #dateValid
+* #872 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #872 ^property[+].code = #dateMaj
+* #872 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #872 ^property[+].code = #status
+* #872 ^property[=].valueCode = #active
+* #872 ^property[+].code = #niveau
+* #872 ^property[=].valueInteger = 4
+* #873 "Unité sanitaire en milieu pénitentiaire"
+* #873 ^designation.language = #fr-FR
+* #873 ^designation.use.system = "http://snomed.info/sct"
+* #873 ^designation.use = $sct#900000000000013009
+* #873 ^designation.value = "U.S.M.P."
+* #873 ^property[0].code = #parent
+* #873 ^property[=].valueCode = #0371
+* #873 ^property[+].code = #dateValid
+* #873 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #873 ^property[+].code = #dateMaj
+* #873 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #873 ^property[+].code = #status
+* #873 ^property[=].valueCode = #active
+* #873 ^property[+].code = #niveau
+* #873 ^property[=].valueInteger = 4
+* #874 "Hôpital de nuit"
+* #874 ^property[0].code = #parent
+* #874 ^property[=].valueCode = #0371
+* #874 ^property[+].code = #dateValid
+* #874 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #874 ^property[+].code = #dateMaj
+* #874 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #874 ^property[+].code = #status
+* #874 ^property[=].valueCode = #active
+* #874 ^property[+].code = #niveau
+* #874 ^property[=].valueInteger = 4
+* #875 "Centre de consultations"
+* #875 ^property[0].code = #parent
+* #875 ^property[=].valueCode = #0371
+* #875 ^property[+].code = #dateValid
+* #875 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #875 ^property[+].code = #dateMaj
+* #875 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #875 ^property[+].code = #status
+* #875 ^property[=].valueCode = #active
+* #875 ^property[+].code = #niveau
+* #875 ^property[=].valueInteger = 4
+* #876 "Unité d’hospitalisation complète"
+* #876 ^property[0].code = #parent
+* #876 ^property[=].valueCode = #0371
+* #876 ^property[+].code = #dateValid
+* #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #876 ^property[+].code = #dateMaj
+* #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #876 ^property[+].code = #status
+* #876 ^property[=].valueCode = #active
+* #876 ^property[+].code = #niveau
+* #876 ^property[=].valueInteger = 4
+* #877 "Centre d'accueil et de crise"
+* #877 ^designation.language = #fr-FR
+* #877 ^designation.use.system = "http://snomed.info/sct"
+* #877 ^designation.use = $sct#900000000000013009
+* #877 ^designation.value = "C.A.C."
+* #877 ^property[0].code = #parent
+* #877 ^property[=].valueCode = #0371
+* #877 ^property[+].code = #niveau
+* #877 ^property[=].valueInteger = 4
+* #877 ^property[+].code = #dateValid
+* #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #877 ^property[+].code = #dateMaj
+* #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #877 ^property[+].code = #status
+* #877 ^property[=].valueCode = #active
 * #023 "Stérilisation"
 * #023 ^property[0].code = #parent
 * #023 ^property[=].valueCode = #0661
@@ -3998,9 +4225,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #231 ^property[+].code = #dateValid
 * #231 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #231 ^property[+].code = #dateMaj
-* #231 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #231 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #231 ^property[+].code = #status
-* #231 ^property[=].valueCode = #active
+* #231 ^property[=].valueCode = #deprecated
+* #231 ^property[+].code = #deprecationDate
+* #231 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #231 ^property[+].code = #niveau
 * #231 ^property[=].valueInteger = 4
 * #232 "centre médico-psychologique infanto-juvénile"
@@ -4013,9 +4242,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #232 ^property[+].code = #dateValid
 * #232 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #232 ^property[+].code = #dateMaj
-* #232 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #232 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #232 ^property[+].code = #status
-* #232 ^property[=].valueCode = #active
+* #232 ^property[=].valueCode = #deprecated
+* #232 ^property[+].code = #deprecationDate
+* #232 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #232 ^property[+].code = #niveau
 * #232 ^property[=].valueInteger = 4
 * #233 "Centre d'accueil thérapeutique à temps partiel adulte"
@@ -4028,9 +4259,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #233 ^property[+].code = #dateValid
 * #233 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #233 ^property[+].code = #dateMaj
-* #233 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #233 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #233 ^property[+].code = #status
-* #233 ^property[=].valueCode = #active
+* #233 ^property[=].valueCode = #deprecated
+* #233 ^property[+].code = #deprecationDate
+* #233 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #233 ^property[+].code = #niveau
 * #233 ^property[=].valueInteger = 4
 * #234 "Centre d'accueil thérapeutique à temps partiel infanto-juv"
@@ -4043,9 +4276,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #234 ^property[+].code = #dateValid
 * #234 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #234 ^property[+].code = #dateMaj
-* #234 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #234 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #234 ^property[+].code = #status
-* #234 ^property[=].valueCode = #active
+* #234 ^property[=].valueCode = #deprecated
+* #234 ^property[+].code = #deprecationDate
+* #234 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #234 ^property[+].code = #niveau
 * #234 ^property[=].valueInteger = 4
 * #235 "soins intensifs de néonatologie"
@@ -4092,9 +4327,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #237 ^property[+].code = #dateValid
 * #237 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #237 ^property[+].code = #dateMaj
-* #237 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #237 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #237 ^property[+].code = #status
-* #237 ^property[=].valueCode = #active
+* #237 ^property[=].valueCode = #deprecated
+* #237 ^property[+].code = #deprecationDate
+* #237 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #237 ^property[+].code = #niveau
 * #237 ^property[=].valueInteger = 4
 * #238 "centre d'accueil permanent infanto-juvénile"
@@ -4107,9 +4344,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #238 ^property[+].code = #dateValid
 * #238 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #238 ^property[+].code = #dateMaj
-* #238 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #238 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #238 ^property[+].code = #status
-* #238 ^property[=].valueCode = #active
+* #238 ^property[=].valueCode = #deprecated
+* #238 ^property[+].code = #deprecationDate
+* #238 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #238 ^property[+].code = #niveau
 * #238 ^property[=].valueInteger = 4
 * #240 "POST-CURE POUR TOXICOMANES"
@@ -6577,9 +6816,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #806 ^property[+].code = #dateValid
 * #806 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #806 ^property[+].code = #dateMaj
-* #806 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #806 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #806 ^property[+].code = #status
-* #806 ^property[=].valueCode = #active
+* #806 ^property[=].valueCode = #deprecated
+* #806 ^property[+].code = #deprecationDate
+* #806 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #806 ^property[+].code = #niveau
 * #806 ^property[=].valueInteger = 4
 * #807 "atelier thérapeutique infanto-juvenile"
@@ -6592,9 +6833,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #807 ^property[+].code = #dateValid
 * #807 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
 * #807 ^property[+].code = #dateMaj
-* #807 ^property[=].valueDateTime = "2001-10-01T00:00:00+01:00"
+* #807 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #807 ^property[+].code = #status
-* #807 ^property[=].valueCode = #active
+* #807 ^property[=].valueCode = #deprecated
+* #807 ^property[+].code = #deprecationDate
+* #807 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #807 ^property[+].code = #niveau
 * #807 ^property[=].valueInteger = 4
 * #808 "Psychiatrie en Milieu Pénitentiaire"
@@ -6835,9 +7078,11 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #824 ^property[+].code = #dateValid
 * #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #824 ^property[+].code = #dateMaj
-* #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #824 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #824 ^property[+].code = #status
-* #824 ^property[=].valueCode = #active
+* #824 ^property[=].valueCode = #deprecated
+* #824 ^property[+].code = #deprecationDate
+* #824 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #824 ^property[+].code = #niveau
 * #824 ^property[=].valueInteger = 4
 * #828 "Cure Thermale Maladies Cardio-artérielles"
@@ -7051,6 +7296,66 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #854 ^property[=].valueCode = #active
 * #854 ^property[+].code = #niveau
 * #854 ^property[=].valueInteger = 4
+* #855 "Maison médicale de garde" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'une Maison Médicale de Garde"
+* #855 ^designation.language = #fr-FR
+* #855 ^designation.use.system = "http://snomed.info/sct"
+* #855 ^designation.use = $sct#900000000000013009
+* #855 ^designation.value = "M.M.G."
+* #855 ^property[0].code = #parent
+* #855 ^property[=].valueCode = #0343
+* #855 ^property[+].code = #dateValid
+* #855 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #855 ^property[+].code = #dateMaj
+* #855 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #855 ^property[+].code = #status
+* #855 ^property[=].valueCode = #active
+* #855 ^property[+].code = #niveau
+* #855 ^property[=].valueInteger = 4
+* #856 "Point fixe de garde" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de garde"
+* #856 ^designation.language = #fr-FR
+* #856 ^designation.use.system = "http://snomed.info/sct"
+* #856 ^designation.use = $sct#900000000000013009
+* #856 ^designation.value = "P.F.G."
+* #856 ^property[0].code = #parent
+* #856 ^property[=].valueCode = #0343
+* #856 ^property[+].code = #dateValid
+* #856 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #856 ^property[+].code = #dateMaj
+* #856 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #856 ^property[+].code = #status
+* #856 ^property[=].valueCode = #active
+* #856 ^property[+].code = #niveau
+* #856 ^property[=].valueInteger = 4
+* #857 "Point fixe de consultation" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de consultation"
+* #857 ^designation.language = #fr-FR
+* #857 ^designation.use.system = "http://snomed.info/sct"
+* #857 ^designation.use = $sct#900000000000013009
+* #857 ^designation.value = "P.F.C."
+* #857 ^property[0].code = #parent
+* #857 ^property[=].valueCode = #0343
+* #857 ^property[+].code = #dateValid
+* #857 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #857 ^property[+].code = #dateMaj
+* #857 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #857 ^property[+].code = #status
+* #857 ^property[=].valueCode = #active
+* #857 ^property[+].code = #niveau
+* #857 ^property[=].valueInteger = 4
+* #858 "Visite à domicile" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre de visites à domicile"
+* #858 ^designation.language = #fr-FR
+* #858 ^designation.use.system = "http://snomed.info/sct"
+* #858 ^designation.use = $sct#900000000000013009
+* #858 ^designation.value = "V.A.D."
+* #858 ^property[0].code = #parent
+* #858 ^property[=].valueCode = #0343
+* #858 ^property[+].code = #dateValid
+* #858 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #858 ^property[+].code = #dateMaj
+* #858 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #858 ^property[+].code = #status
+* #858 ^property[=].valueCode = #active
+* #858 ^property[+].code = #niveau
+* #858 ^property[=].valueInteger = 4
 * #949 "Recherche Chirurgicale ou Chirurgie Expérimentale"
 * #949 ^designation.language = #fr-FR
 * #949 ^designation.use.system = "http://snomed.info/sct"

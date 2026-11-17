@@ -1,8 +1,8 @@
 CodeSystem: TRE_R200_CanalCommunication
 Id: TRE-R200-CanalCommunication
 Description: "Canal de communication"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:11:51.238+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:12:42.567+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R332_GenreCapacite
 Id: TRE-R332-GenreCapacite
 Description: "Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-05-05T20:12:05.518+02:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:13:40.339+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

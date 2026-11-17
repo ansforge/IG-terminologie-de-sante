@@ -2,8 +2,8 @@ CodeSystem: TreR381ActiviteAmm
 Id: tre-r381-activite-amm
 Title: "Tre R381 Activite Amm"
 Description: "Nomenclature des activités de soin AMM"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:13+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:14:01+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

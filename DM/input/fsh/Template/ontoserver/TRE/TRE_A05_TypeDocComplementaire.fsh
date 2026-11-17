@@ -1,22 +1,23 @@
 CodeSystem: TRE_A05_TypeDocComplementaire
 Id: TRE-A05-TypeDocComplementaire
 Description: "Type de document en complément des nomenclatures internationales"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:11:24.782+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-11-02T10:27:56.550+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-05-19T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.12"
-* ^version = "20240329120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-03-29T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 40
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -418,3 +419,10 @@ Description: "Type de document en complément des nomenclatures internationales"
 * #EXPORT_DUI ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #EXPORT_DUI ^property[+].code = #status
 * #EXPORT_DUI ^property[=].valueCode = #active
+* #JUSTIF-PRESC-RENF "Justificatif de prescription renforcée" "Justificatif généré à partir du téléservice \"Accompagnement à la prescription renforcée\", pour certains médicaments uniquement, après saisie par le prescripteur de certaines informations permettant de vérifier si la prescription est conforme aux indications thérapeutiques remboursables (ITR) ou de celles de l'Autorisation de Mise sur le marché (AMM) du médicament."
+* #JUSTIF-PRESC-RENF ^property[0].code = #dateValid
+* #JUSTIF-PRESC-RENF ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #JUSTIF-PRESC-RENF ^property[+].code = #dateMaj
+* #JUSTIF-PRESC-RENF ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #JUSTIF-PRESC-RENF ^property[+].code = #status
+* #JUSTIF-PRESC-RENF ^property[=].valueCode = #active

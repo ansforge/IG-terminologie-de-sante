@@ -2,8 +2,8 @@ CodeSystem: TreR372TypeGroupeGco
 Id: tre-r372-type-groupe-gco
 Title: "Tre R372 Type Groupe Gco"
 Description: "Nomenclature des types de Groupement de Coopération Organique (GCO)"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:12+02:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2026-07-06T20:13:58+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

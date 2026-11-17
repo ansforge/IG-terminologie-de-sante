@@ -1,8 +1,8 @@
 ValueSet: JDV_J106_EnsembleProfession_RASS
 Id: JDV-J106-EnsembleProfession-RASS
 Description: "Ensemble des professions du RASS"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T19:02:34.720+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:04:46.389+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

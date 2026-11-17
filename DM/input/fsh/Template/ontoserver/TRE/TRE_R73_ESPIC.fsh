@@ -1,8 +1,8 @@
 CodeSystem: TRE_R73_ESPIC
 Id: TRE-R73-ESPIC
 Description: "Etablissement de santé privé d'intérêt collectif"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T20:12:28.443+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:14:49.288+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

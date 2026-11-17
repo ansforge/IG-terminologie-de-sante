@@ -1,8 +1,8 @@
 ValueSet: JDV_J148_ReferenceRangeAppliesTo_CISIS
 Id: JDV-J148-ReferenceRangeAppliesTo-CISIS
 Description: "JDV pour le champ d'application de l'intervalle de référence"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-12-18T16:47:38.914+01:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:05:13.438+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,7 +16,7 @@ Description: "JDV pour le champ d'application de l'intervalle de référence"
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R303-HL7v3AdministrativeGender#F "Féminin"
 * $TRE-R303-HL7v3AdministrativeGender#M "Masculin"
 * SNOMED_CT#77386006

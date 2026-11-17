@@ -1,8 +1,8 @@
 CodeSystem: TRE_R23_ModeExercice
 Id: TRE-R23-ModeExercice
 Description: "Mode d'exercice"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-02-03T15:41:55.313+01:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:12:58.237+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:43+01:00"

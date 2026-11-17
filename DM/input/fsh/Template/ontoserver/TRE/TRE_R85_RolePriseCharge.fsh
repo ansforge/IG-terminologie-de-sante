@@ -1,8 +1,8 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2026-05-05T20:12:30.743+02:00"
+* ^meta.versionId = "28"
+* ^meta.lastUpdated = "2026-11-02T10:29:39.726+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20260505120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -167,9 +167,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #312 ^property[0].code = #dateValid
 * #312 ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
 * #312 ^property[+].code = #dateMaj
-* #312 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
+* #312 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #312 ^property[+].code = #dateFin
+* #312 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #312 ^property[+].code = #retirementDate
+* #312 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #312 ^property[+].code = #status
-* #312 ^property[=].valueCode = #active
+* #312 ^property[=].valueCode = #retired
 * #313 "Aide-soignant" "Ref juridique : CSP Articles L4391-1 à L4391-6​ Source : https://cnp-aidesoignant.fr/metier/ L’aide-soignant(e), en tant que professionnel de santé, est habilité(e) à dispenser des soins de la vie quotidienne ou des soins aigus pour préserver et restaurer la continuité de la vie, le bien-être et l’autonomie de la personne. Il ou elle interagit en collaboration dans une équipe pluri professionnelle. Son rôle s’inscrit dans une approche globale de la personne soignée et prend en compte la dimension relationnelle des soins. Travaillant le plus souvent en milieu hospitalier ou extra hospitalier, l’aide-soignant(e) participe, aux soins infirmiers préventifs, curatifs ou palliatifs. Ces soins ont pour objet de promouvoir, protéger, maintenir et restaurer la santé de la personne dans le respect de ses droits et de sa dignité. L’aide-soignant(e) peut exercer dans de nombreux secteurs, en établissement ou à domicile, dans des services de soins ou réseaux de soins des structures sanitaires, médico-sociales ou sociales, et ainsi prendre en charge différents publics avec des missions variées."
 * #313 ^property[0].code = #dateValid
 * #313 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -383,9 +387,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #336 ^property[0].code = #dateValid
 * #336 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #336 ^property[+].code = #dateMaj
-* #336 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #336 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #336 ^property[+].code = #dateFin
+* #336 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #336 ^property[+].code = #retirementDate
+* #336 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #336 ^property[+].code = #status
-* #336 ^property[=].valueCode = #active
+* #336 ^property[=].valueCode = #retired
 * #337 "Autre professionnel intervenant dans la logistique"
 * #337 ^designation[0].language = #fr-FR
 * #337 ^designation[=].use.system = "http://snomed.info/sct"
@@ -394,9 +402,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #337 ^property[0].code = #dateValid
 * #337 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #337 ^property[+].code = #dateMaj
-* #337 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #337 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #337 ^property[+].code = #dateFin
+* #337 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #337 ^property[+].code = #retirementDate
+* #337 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #337 ^property[+].code = #status
-* #337 ^property[=].valueCode = #active
+* #337 ^property[=].valueCode = #retired
 * #338 "Autre professionnel intervenant dans l'hôtellerie et la restauration"
 * #338 ^designation[0].language = #fr-FR
 * #338 ^designation[=].use.system = "http://snomed.info/sct"
@@ -420,9 +432,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #339 ^property[0].code = #dateValid
 * #339 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #339 ^property[+].code = #dateMaj
-* #339 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #339 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #339 ^property[+].code = #dateFin
+* #339 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #339 ^property[+].code = #retirementDate
+* #339 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #339 ^property[+].code = #status
-* #339 ^property[=].valueCode = #active
+* #339 ^property[=].valueCode = #retired
 * #340 "Autre professionnel intervenant dans la direction des systèmes d'information"
 * #340 ^designation[0].language = #fr-FR
 * #340 ^designation[=].use.system = "http://snomed.info/sct"
@@ -442,9 +458,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #341 ^property[0].code = #dateValid
 * #341 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #341 ^property[+].code = #dateMaj
-* #341 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #341 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #341 ^property[+].code = #dateFin
+* #341 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #341 ^property[+].code = #retirementDate
+* #341 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #341 ^property[+].code = #status
-* #341 ^property[=].valueCode = #active
+* #341 ^property[=].valueCode = #retired
 * #342 "Autre professionnel intervenant dans la direction de la communication"
 * #342 ^designation[0].language = #fr-FR
 * #342 ^designation[=].use.system = "http://snomed.info/sct"
@@ -453,9 +473,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #342 ^property[0].code = #dateValid
 * #342 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #342 ^property[+].code = #dateMaj
-* #342 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #342 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #342 ^property[+].code = #dateFin
+* #342 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #342 ^property[+].code = #retirementDate
+* #342 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #342 ^property[+].code = #status
-* #342 ^property[=].valueCode = #active
+* #342 ^property[=].valueCode = #retired
 * #343 "Autre professionnel intervenant dans la direction des ressources humaines"
 * #343 ^designation[0].language = #fr-FR
 * #343 ^designation[=].use.system = "http://snomed.info/sct"
@@ -464,9 +488,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #343 ^property[0].code = #dateValid
 * #343 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #343 ^property[+].code = #dateMaj
-* #343 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #343 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #343 ^property[+].code = #dateFin
+* #343 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #343 ^property[+].code = #retirementDate
+* #343 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #343 ^property[+].code = #status
-* #343 ^property[=].valueCode = #active
+* #343 ^property[=].valueCode = #retired
 * #344 "Autre professionnel intervenant dans la direction des affaires médicales"
 * #344 ^designation[0].language = #fr-FR
 * #344 ^designation[=].use.system = "http://snomed.info/sct"
@@ -475,9 +503,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #344 ^property[0].code = #dateValid
 * #344 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #344 ^property[+].code = #dateMaj
-* #344 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #344 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #344 ^property[+].code = #dateFin
+* #344 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #344 ^property[+].code = #retirementDate
+* #344 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #344 ^property[+].code = #status
-* #344 ^property[=].valueCode = #active
+* #344 ^property[=].valueCode = #retired
 * #345 "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
 * #345 ^designation[0].language = #fr-FR
 * #345 ^designation[=].use.system = "http://snomed.info/sct"
@@ -486,9 +518,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #345 ^property[0].code = #dateValid
 * #345 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #345 ^property[+].code = #dateMaj
-* #345 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #345 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #345 ^property[+].code = #dateFin
+* #345 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #345 ^property[+].code = #retirementDate
+* #345 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #345 ^property[+].code = #status
-* #345 ^property[=].valueCode = #active
+* #345 ^property[=].valueCode = #retired
 * #346 "Etudiant - infirmier"
 * #346 ^property[0].code = #dateValid
 * #346 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
@@ -522,9 +558,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #349 ^property[0].code = #dateValid
 * #349 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #349 ^property[+].code = #dateMaj
-* #349 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #349 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #349 ^property[+].code = #dateFin
+* #349 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #349 ^property[+].code = #retirementDate
+* #349 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #349 ^property[+].code = #status
-* #349 ^property[=].valueCode = #active
+* #349 ^property[=].valueCode = #retired
 * #350 "Aide à domicile" "CSP Articles L1132-1 à L1132-7"
 * #350 ^property[0].code = #dateValid
 * #350 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
@@ -604,9 +644,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #359 ^property[0].code = #dateValid
 * #359 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #359 ^property[+].code = #dateMaj
-* #359 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #359 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #359 ^property[+].code = #dateFin
+* #359 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #359 ^property[+].code = #retirementDate
+* #359 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #359 ^property[+].code = #status
-* #359 ^property[=].valueCode = #active
+* #359 ^property[=].valueCode = #retired
 * #360 "Brancardier"
 * #360 ^property[0].code = #dateValid
 * #360 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
@@ -650,10 +694,14 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #364 ^designation[=].value = "PADHUE"
 * #364 ^property[0].code = #dateValid
 * #364 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #364 ^property[+].code = #dateFin
+* #364 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #364 ^property[+].code = #dateMaj
-* #364 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #364 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #364 ^property[+].code = #deprecationDate
+* #364 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #364 ^property[+].code = #status
-* #364 ^property[=].valueCode = #active
+* #364 ^property[=].valueCode = #deprecated
 * #365 "Gestionnaire admissions / frais de séjour / traitement externe"
 * #365 ^designation[0].language = #fr-FR
 * #365 ^designation[=].use.system = "http://snomed.info/sct"

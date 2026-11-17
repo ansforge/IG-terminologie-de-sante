@@ -1,8 +1,8 @@
 ValueSet: JDV_J91_TypeSavoirFaire_RASS
 Id: JDV-J91-TypeSavoirFaire-RASS
 Description: "Types de savoir-faire des professionnels du RASS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-11-04T19:02:09.071+01:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T19:07:03.428+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

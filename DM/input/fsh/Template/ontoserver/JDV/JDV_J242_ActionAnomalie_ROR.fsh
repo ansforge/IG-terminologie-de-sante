@@ -1,8 +1,8 @@
 ValueSet: JDV_J242_ActionAnomalie_ROR
 Id: JDV-J242-ActionAnomalie-ROR
 Description: "Action attendue dans le cadre de la gestion d'une anomalie de donnée dans le ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:06.216+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:12.272+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Action attendue dans le cadre de la gestion d'une anomalie de donn
 * ^experimental = false
 * ^date = "2023-03-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R349-ActionAnomalie#AJO "Ajout"
 * $TRE-R349-ActionAnomalie#COR "Correction"
 * $TRE-R349-ActionAnomalie#SUP "Suppression"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J136_DisciplineEquipementSocial_RASS
 Id: JDV-J136-DisciplineEquipementSocial-RASS
 Description: "Disciplines d'équipement pour le social dans le RASS"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T19:02:39.101+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T19:05:07.487+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

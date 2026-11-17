@@ -1,19 +1,19 @@
 ValueSet: JDV_J121_RolePriseCharge_ENREG
 Id: JDV-J121-RolePriseCharge-ENREG
 Description: "Code des rôles et fonctions pour l'application ENREG"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2026-05-05T19:02:36.500+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.versionId = "19"
+* ^meta.lastUpdated = "2026-11-02T10:32:53.730+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-06-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.200"
-* ^version = "20260505120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R85-RolePriseCharge#307 "Mandataire judiciaire à la protection des majeurs (MJPM)"
@@ -62,7 +62,6 @@ Description: "Code des rôles et fonctions pour l'application ENREG"
 * $TRE-R85-RolePriseCharge#361 "Educateur en activité physique adaptée"
 * $TRE-R85-RolePriseCharge#362 "Technicien d'informations médicales"
 * $TRE-R85-RolePriseCharge#363 "Attaché de recherche clinique"
-* $TRE-R85-RolePriseCharge#364 "Praticien A Diplôme Hors Union Européenne (PADHUE)"
 * $TRE-R85-RolePriseCharge#365 "Gestionnaire admissions / frais de séjour / traitement externe"
 * $TRE-R85-RolePriseCharge#366 "Archiviste"
 * $TRE-R85-RolePriseCharge#367 "Surveillant de nuit"

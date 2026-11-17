@@ -2,8 +2,8 @@ CodeSystem: TreR396Autorite
 Id: tre-r396-autorite
 Title: "Tre R396 Autorite"
 Description: "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2026-05-05T20:12:17.035+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-11-02T10:29:25.480+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

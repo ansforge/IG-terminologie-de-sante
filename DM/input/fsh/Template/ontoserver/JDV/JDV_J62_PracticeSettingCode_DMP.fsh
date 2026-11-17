@@ -1,8 +1,8 @@
 ValueSet: JDV_J62_PracticeSettingCode_DMP
 Id: JDV-J62-PracticeSettingCode-DMP
 Description: "Jeu de valeurs pour practiceSettingCode"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:41.558+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-11-02T10:33:06.206+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Jeu de valeurs pour practiceSettingCode"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J62-PracticeSettingCode-DMP/FHIR/JDV-J62-PracticeSettingCode-DMP"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.4"
-* ^version = "20230922120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-09-22T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-A00-ProducteurDocNonPS#SNR "Service numérique référencé"
 * $TRE-A01-CadreExercice#AMBULATOIRE "Ambulatoire"
@@ -27,3 +27,4 @@ Description: "Jeu de valeurs pour practiceSettingCode"
 * $TRE-A01-CadreExercice#PALLIATIF "Soins palliatifs"
 * $TRE-A01-CadreExercice#SAD "Soins à domicile"
 * $TRE-A01-CadreExercice#SAMU_SMUR "SAMU/SMUR"
+* $TRE-A01-CadreExercice#ESSMS "Etablissement ou Service Social ou Médico-Social"

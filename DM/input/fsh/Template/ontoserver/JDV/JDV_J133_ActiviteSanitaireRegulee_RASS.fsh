@@ -1,8 +1,8 @@
 ValueSet: JDV_J133_ActiviteSanitaireRegulee_RASS
 Id: JDV-J133-ActiviteSanitaireRegulee-RASS
 Description: "Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:00.537+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-08-27T15:18:03.430+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.219"
-* ^version = "20201127120000"
+* ^version = "20260827120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2020-11-27T12:00:00+01:00"
+* ^date = "2026-08-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R274-ActiviteSanitaireRegulee#01 "Médecine"
 * $TRE-R274-ActiviteSanitaireRegulee#02 "Chirurgie"
 * $TRE-R274-ActiviteSanitaireRegulee#03 "Gynécologie, obstétrique, néonatologie, réanimation néonatale"
@@ -82,3 +82,15 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * $TRE-R274-ActiviteSanitaireRegulee#T5 "SSRS - Lymphologie"
 * $TRE-R274-ActiviteSanitaireRegulee#T6 "SSRS - Néphrologie"
 * $TRE-R274-ActiviteSanitaireRegulee#T8 "SSRS - Viroses chroniques"
+* $TRE-R274-ActiviteSanitaireRegulee#A8 "Greffe de face ou de face inférieure"
+* $TRE-R274-ActiviteSanitaireRegulee#A9 "Greffe unilatérale ou bilatérale de main"
+* $TRE-R274-ActiviteSanitaireRegulee#B0 "Prélèvement de cellules mononuclées autologues"
+* $TRE-R274-ActiviteSanitaireRegulee#B1 "Prélèvement de cellules mononuclées allogéniques"
+* $TRE-R274-ActiviteSanitaireRegulee#C1 "Greffe unilatérale ou bilatérale d'avant-bras"
+* $TRE-R274-ActiviteSanitaireRegulee#C3 "Greffe unilatérale ou bilatérale de bras"
+* $TRE-R274-ActiviteSanitaireRegulee#D1 "Greffe de membre inférieur"
+* $TRE-R274-ActiviteSanitaireRegulee#F4 "Greffe de langue"
+* $TRE-R274-ActiviteSanitaireRegulee#F9 "Greffe de pénis"
+* $TRE-R274-ActiviteSanitaireRegulee#H2 "Greffe de paroi abdominale"
+* $TRE-R274-ActiviteSanitaireRegulee#H3 "Greffe de tissus cutanés conjonctifs et vasculo- nerveux"
+* $TRE-R274-ActiviteSanitaireRegulee#S8 "Maison de naissance"

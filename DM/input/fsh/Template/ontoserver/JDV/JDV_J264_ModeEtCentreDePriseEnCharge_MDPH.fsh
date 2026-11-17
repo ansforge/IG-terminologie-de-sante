@@ -1,8 +1,8 @@
 ValueSet: JDV_J264_ModeEtCentreDePriseEnCharge_MDPH
 Id: JDV-J264-ModeEtCentreDePriseEnCharge-MDPH
 Description: "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2025-07-02T17:06:17.550+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-11-02T10:33:01.228+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,13 +10,13 @@ Description: "Les modes de prise en charge en établissements ESMS qui sont poss
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.105"
-* ^version = "20240628120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-06-28T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* $TRE-R213-ModePriseEnCharge#46 "Hébergement (accueil jour et nuit)"
-* $TRE-R213-ModePriseEnCharge#47 "Accueil de jour"
-* $TRE-R213-ModePriseEnCharge#48 "Accueil de nuit"
-* $TRE-R66-CategorieEtablissement#238 "Centre d'Accueil Familial Spécialisé"
+* $TRE-R213-ModePriseEnCharge#46
+* $TRE-R213-ModePriseEnCharge#47
+* $TRE-R213-ModePriseEnCharge#48
+* $TRE-R213-ModePriseEnCharge#49

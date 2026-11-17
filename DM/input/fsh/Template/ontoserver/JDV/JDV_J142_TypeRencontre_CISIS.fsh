@@ -1,8 +1,8 @@
 ValueSet: JDV_J142_TypeRencontre_CISIS
 Id: JDV-J142-TypeRencontre-CISIS
 Description: "Type de prise en charge CI-SIS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:05.819+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:10.827+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Type de prise en charge CI-SIS"
 * ^experimental = false
 * ^date = "2021-03-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R304-HL7v3ActCode#IMP "Hospitalisation (établissement, y compris HAD)"
 * $TRE-R304-HL7v3ActCode#EMER "Passage aux urgences (établissement)"
 * $TRE-R304-HL7v3ActCode#AMB "Ambulatoire (hors établissement)"

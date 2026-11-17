@@ -1,8 +1,8 @@
 ValueSet: JDV_J198_FonctionLieu_ROR
 Id: JDV-J198-FonctionLieu-ROR
 Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offre."
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-12-18T16:47:45.966+01:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-07-06T19:05:48.786+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offr
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.30"
-* ^version = "20251222120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R343-FonctionLieu#001 "Hébergement MCO"
@@ -44,3 +44,4 @@ Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offr
 * $TRE-R343-FonctionLieu#026 "Local de cabinet de ville de pédiatrie"
 * $TRE-R343-FonctionLieu#027 "Local de cabinet de ville d’ophtalmologie"
 * $TRE-R343-FonctionLieu#028 "Local de cabinet de ville de pneumologie"
+* $TRE-R343-FonctionLieu#029 "Plateau de médecine nucléaire"

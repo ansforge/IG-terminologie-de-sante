@@ -1,8 +1,8 @@
 ValueSet: JDV_J71_ProfessionFonction_MSSante
 Id: JDV-J71-ProfessionFonction-MSSante
 Description: "Professions et fonctions MSSanté"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:45.415+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:52.686+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Professions et fonctions MSSanté"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J71-ProfessionFonction-MSSante/FHIR/JDV-J71-ProfessionFonction-MSSante"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.9.1.2"
-* ^version = "20231030120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-10-30T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
@@ -54,12 +54,10 @@ Description: "Professions et fonctions MSSanté"
 * $TRE-R85-RolePriseCharge#315 "Auxiliaire de puériculture"
 * $TRE-R85-RolePriseCharge#316 "Préparateur en pharmacie hospitalière"
 * $TRE-R85-RolePriseCharge#317 "Préparateur en pharmacie (officine)"
-* $TRE-R85-RolePriseCharge#318 "Auxiliaire de vie sociale"
 * $TRE-R85-RolePriseCharge#319 "Technicien de l'intervention sociale et familiale"
 * $TRE-R85-RolePriseCharge#320 "Conseiller en économie sociale et familiale"
 * $TRE-R85-RolePriseCharge#321 "Médiateur familial"
 * $TRE-R85-RolePriseCharge#322 "Assistant familial"
-* $TRE-R85-RolePriseCharge#323 "Aide médico-psychologique (AMP)"
 * $TRE-R85-RolePriseCharge#324 "Moniteur éducateur"
 * $TRE-R85-RolePriseCharge#325 "Educateur de jeunes enfants"
 * $TRE-R85-RolePriseCharge#326 "Educateur spécialisé"

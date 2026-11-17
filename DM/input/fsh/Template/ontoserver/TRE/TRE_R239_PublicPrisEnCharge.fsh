@@ -1,8 +1,8 @@
 CodeSystem: TRE_R239_PublicPrisEnCharge
 Id: TRE-R239-PublicPrisEnCharge
 Description: "Public pris en charge"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T20:11:57.717+02:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-29T08:03:37.116+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Public pris en charge"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.29"
-* ^version = "20260330120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 10
+* ^count = 11
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -43,7 +43,7 @@ Description: "Public pris en charge"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #01 "Personnes âgées en perte d'autonomie et aidants"
+* #01 "Personnes âgées en perte d'autonomie (PA) et aidants"
 * #01 ^designation[0].language = #fr-FR
 * #01 ^designation[=].use.system = "http://snomed.info/sct"
 * #01 ^designation[=].use = $sct#900000000000013009
@@ -51,14 +51,14 @@ Description: "Public pris en charge"
 * #01 ^designation[+].language = #fr-FR
 * #01 ^designation[=].use.system = "http://snomed.info/sct"
 * #01 ^designation[=].use = $sct#900000000000013009
-* #01 ^designation[=].value = "Personnes âgées en perte d'autonomie (PA) et aidants"
+* #01 ^designation[=].value = "Personnes âgées en perte d'autonomie et aidants"
 * #01 ^property[0].code = #dateValid
 * #01 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
-* #01 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #01 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
-* #02 "Personnes en situation de handicap et aidants"
+* #02 "Personnes en situation de handicap (PH) et aidants"
 * #02 ^designation[0].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
 * #02 ^designation[=].use = $sct#900000000000013009
@@ -66,11 +66,11 @@ Description: "Public pris en charge"
 * #02 ^designation[+].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
 * #02 ^designation[=].use = $sct#900000000000013009
-* #02 ^designation[=].value = "Personnes en situation de handicap (PH) et aidants"
+* #02 ^designation[=].value = "Personnes en situation de handicap et aidants"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
-* #02 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #02 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
 * #03 "Personnes âgées autonomes"
@@ -127,27 +127,30 @@ Description: "Public pris en charge"
 * #08 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
-* #09 "Personnes atteintes de pathologies chroniques ou présentant une ALD"
+* #09 "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
 * #09 ^designation[0].language = #fr-FR
-* #09 ^designation[=].use.system = "http://snomed.info/sct"
 * #09 ^designation[=].use = $sct#900000000000013009
 * #09 ^designation[=].value = "Pathologies chroniques ou ALD"
 * #09 ^designation[+].language = #fr-FR
 * #09 ^designation[=].use = $sct#900000000000013009
-* #09 ^designation[=].value = "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
+* #09 ^designation[=].value = "Personnes atteintes de pathologies chroniques ou présentant une ALD"
 * #09 ^property[0].code = #dateValid
 * #09 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #09 ^property[+].code = #dateMaj
-* #09 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #09 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
-* #10 "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
-* #10 ^designation[0].language = #fr-FR
-* #10 ^designation[=].use = $sct#900000000000013009
-* #10 ^designation[=].value = "Victime de violence"
+* #10 "Victime de violence"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
-* #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #10 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
+* #11 "Auteur de violence ou à risque de violence"
+* #11 ^property[0].code = #dateValid
+* #11 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #11 ^property[+].code = #dateMaj
+* #11 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #11 ^property[+].code = #status
+* #11 ^property[=].valueCode = #active

@@ -1,8 +1,8 @@
 ValueSet: JDV_J157_MomentGlucose_ENS
 Id: JDV-J157-MomentGlucose-ENS
 Description: "JDV pour caractériser le moment de la mesure de glucose"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-29T13:17:08.140+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T19:05:17.508+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "JDV pour caractériser le moment de la mesure de glucose"
 * ^experimental = false
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $loinc#16915-1 "Glucose [Masse/volume] Serum/Plasma --post prandial"
 * $loinc#53049-3 "Glucose [Masse/volume] Serum/Plasma --à jeun"
 * $loinc#88365-2 "Glucose [Masse/volume] dans le sang --avant repas"

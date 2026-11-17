@@ -1,8 +1,8 @@
 ValueSet: JDV_J195_AffectationTemporaire_ROR
 Id: JDV-J195-AffectationTemporaire-ROR
 Description: "Permet d'indiquer dans le ROR la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …)"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:40.825+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:47.610+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Permet d'indiquer dans le ROR la réservation de tout ou partie de
 * ^experimental = false
 * ^date = "2022-05-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R337-AffectationTemporaire#01 "Aucune"
 * $TRE-R337-AffectationTemporaire#02 "Covid+"
 * $TRE-R337-AffectationTemporaire#03 "Covid-"

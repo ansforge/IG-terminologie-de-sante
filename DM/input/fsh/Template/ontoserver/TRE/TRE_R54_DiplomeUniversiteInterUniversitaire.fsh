@@ -1,22 +1,23 @@
 CodeSystem: TRE_R54_DiplomeUniversiteInterUniversitaire
 Id: TRE-R54-DiplomeUniversiteInterUniversitaire
 Description: "Diplôme d'Université ou Inter-Universitaire"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-07-02T18:18:20.052+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-11-02T10:29:35.275+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-29T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.34"
-* ^version = "20240726120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 193
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -1984,3 +1985,38 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP416 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #DIP416 ^property[+].code = #status
 * #DIP416 ^property[=].valueCode = #active
+* #DIP417 "DU Plaies chroniques et cicatrisation"
+* #DIP417 ^property[0].code = #dateValid
+* #DIP417 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP417 ^property[+].code = #dateMaj
+* #DIP417 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP417 ^property[+].code = #status
+* #DIP417 ^property[=].valueCode = #active
+* #DIP418 "DU Appropriation des méthodologies de recherche clinique appliquées à la rééducation et la réadaptation"
+* #DIP418 ^property[0].code = #dateValid
+* #DIP418 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP418 ^property[+].code = #dateMaj
+* #DIP418 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP418 ^property[+].code = #status
+* #DIP418 ^property[=].valueCode = #active
+* #DIP419 "DIU Posture, équilibre, locomotion"
+* #DIP419 ^property[0].code = #dateValid
+* #DIP419 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP419 ^property[+].code = #dateMaj
+* #DIP419 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP419 ^property[+].code = #status
+* #DIP419 ^property[=].valueCode = #active
+* #DIP420 "DU Plaies, brûlures et cicatrisation"
+* #DIP420 ^property[0].code = #dateValid
+* #DIP420 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP420 ^property[+].code = #dateMaj
+* #DIP420 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP420 ^property[+].code = #status
+* #DIP420 ^property[=].valueCode = #active
+* #DIP421 "DIU Soigner les soignants : spécificités et ressources"
+* #DIP421 ^property[0].code = #dateValid
+* #DIP421 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP421 ^property[+].code = #dateMaj
+* #DIP421 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DIP421 ^property[+].code = #status
+* #DIP421 ^property[=].valueCode = #active

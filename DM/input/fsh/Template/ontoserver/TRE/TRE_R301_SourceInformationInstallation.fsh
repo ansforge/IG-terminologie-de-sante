@@ -1,8 +1,8 @@
 CodeSystem: TRE_R301_SourceInformationInstallation
 Id: TRE-R301-SourceInformationInstallation
 Description: "Sources d'information possible concernant l'installation de l'activité sociale"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:03.933+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:13:30.178+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-07-31T12:00:00+01:00"

@@ -1,22 +1,23 @@
 CodeSystem: TRE_R251_FonctionContact
 Id: TRE-R251-FonctionContact
 Description: "Un titre, une position, une fonction de la personne contact dans l'organisation"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:16:38.659+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-29T08:03:38.934+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-01-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.48"
-* ^version = "20250131120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-01-31T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 28
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -208,7 +209,7 @@ Description: "Un titre, une position, une fonction de la personne contact dans l
 * #22 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #22 ^property[+].code = #status
 * #22 ^property[=].valueCode = #active
-* #23 "Spécialiste en hygiène prévention contrôle des IAS"
+* #23 "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
 * #23 ^designation[0].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
 * #23 ^designation[=].use = $sct#900000000000013009
@@ -216,25 +217,25 @@ Description: "Un titre, une position, une fonction de la personne contact dans l
 * #23 ^designation[+].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
 * #23 ^designation[=].use = $sct#900000000000013009
-* #23 ^designation[=].value = "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
+* #23 ^designation[=].value = "Spécialiste en hygiène prévention contrôle des IAS"
 * #23 ^property[0].code = #dateValid
 * #23 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #23 ^property[+].code = #dateMaj
-* #23 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #23 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #23 ^property[+].code = #status
 * #23 ^property[=].valueCode = #active
-* #24 "Responsable du signalement des IAS"
+* #24 "Responsable du signalement des Infections Associées aux Soins (IAS)"
 * #24 ^designation[0].language = #fr-FR
 * #24 ^designation[=].use.system = "http://snomed.info/sct"
 * #24 ^designation[=].use = $sct#900000000000013009
 * #24 ^designation[=].value = "Resp du signalt des IAS"
 * #24 ^designation[+].language = #fr-FR
 * #24 ^designation[=].use = $sct#900000000000013009
-* #24 ^designation[=].value = "Responsable du signalement des Infections Associées aux Soins (IAS)"
+* #24 ^designation[=].value = "Responsable du signalement des IAS"
 * #24 ^property[0].code = #dateValid
 * #24 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #24 ^property[+].code = #dateMaj
-* #24 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #24 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #24 ^property[+].code = #status
 * #24 ^property[=].valueCode = #active
 * #25 "Référent en antibiothérapie"

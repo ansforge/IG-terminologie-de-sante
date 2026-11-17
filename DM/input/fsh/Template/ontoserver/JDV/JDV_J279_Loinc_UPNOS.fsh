@@ -1,8 +1,8 @@
 ValueSet: JDV_J279_Loinc_UPNOS
 Id: JDV-J279-Loinc-UPNOS
 Description: "Termes LOINC utilisés"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:06:20.612+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:06:27.756+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Termes LOINC utilisés"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $loinc#11369-6 "Historique des vaccinations"
 * $loinc#11488-4 "CR ou fiche de consultation ou de visite"
 * $loinc#11490-0 "Lettre de liaison à la sortie d'un établissement de soins"

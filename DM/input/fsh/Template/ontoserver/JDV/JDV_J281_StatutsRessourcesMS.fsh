@@ -1,8 +1,8 @@
 ValueSet: JDV_J281_StatutsRessourcesMS
 Id: JDV-J281-StatutsRessourcesMS
 Description: "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-05-05T19:02:49.314+02:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T19:06:28.524+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

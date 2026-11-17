@@ -1,8 +1,8 @@
 ValueSet: JDV_J251_MotifStatutPersonnePriseChargeESMS
 Id: JDV-J251-MotifStatutPersonnePriseChargeESMS
 Description: "Motif du statut de la personne prise en charge au sein d'un ESMS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:11.268+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:18.559+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Motif du statut de la personne prise en charge au sein d'un ESMS"
 * ^experimental = false
 * ^date = "2023-09-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R358-MotifStatutPersonnePriseCharge#86 "Le plateau technique n'est pas adapté à la prise en charge de l'usager"
 * $TRE-R358-MotifStatutPersonnePriseCharge#109 "Déménagement"
 * $TRE-R358-MotifStatutPersonnePriseCharge#112 "Erreur d'utilisation du logiciel"

@@ -1,22 +1,23 @@
 CodeSystem: TRE_R369_ProfilUtilisateurReferentielNational
 Id: TRE-R369-ProfilUtilisateurReferentielNational
 Description: "Profils utilisateur d'un référentiel national"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:17:59.592+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-09-28T10:28:03.913+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-10-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.255"
-* ^version = "20250328120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 11
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -59,11 +60,11 @@ Description: "Profils utilisateur d'un référentiel national"
 * #RESP_QA ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #RESP_QA ^property[+].code = #status
 * #RESP_QA ^property[=].valueCode = #active
-* #RESP_OFFRE_STRUCT "Responsable Offre de structure"
+* #RESP_OFFRE_STRUCT "Responsable de structure"
 * #RESP_OFFRE_STRUCT ^property[0].code = #dateValid
 * #RESP_OFFRE_STRUCT ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #RESP_OFFRE_STRUCT ^property[+].code = #dateMaj
-* #RESP_OFFRE_STRUCT ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #RESP_OFFRE_STRUCT ^property[=].valueDateTime = "2026-09-28T12:00:00+01:00"
 * #RESP_OFFRE_STRUCT ^property[+].code = #status
 * #RESP_OFFRE_STRUCT ^property[=].valueCode = #active
 * #RESP_DISPO_PLACE "Responsable Disponibilité en lit / place"

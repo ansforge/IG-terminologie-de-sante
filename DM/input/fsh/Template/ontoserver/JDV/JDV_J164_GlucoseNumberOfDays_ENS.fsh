@@ -1,8 +1,8 @@
 ValueSet: JDV_J164_GlucoseNumberOfDays_ENS
 Id: JDV-J164-GlucoseNumberOfDays-ENS
 Description: "Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-29T14:32:07.086+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-07-06T19:05:20.264+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Liste fermée des codes utilisables pour la mesure du taux de gluc
 * ^experimental = false
 * ^date = "2024-12-13T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $terminologie-cisis#GEN-275 "7j"
 * $terminologie-cisis#GEN-276 "14j"
 * $terminologie-cisis#GEN-277 "30j"

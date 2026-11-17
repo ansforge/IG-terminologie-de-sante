@@ -1,8 +1,8 @@
 CodeSystem: TRE_R243_CompetenceSpecifique
 Id: TRE-R243-CompetenceSpecifique
 Description: "Compétence spécifique"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:11:58.790+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-29T08:03:37.481+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Compétence spécifique"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.37"
-* ^version = "20260330120000"
+* ^version = "20260730120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-07-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 62
+* ^count = 63
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -365,7 +365,7 @@ Description: "Compétence spécifique"
 * #34 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #34 ^property[+].code = #status
 * #34 ^property[=].valueCode = #active
-* #35 "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)"
+* #35 "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)"
 * #35 ^designation[0].language = #fr-FR
 * #35 ^designation[=].use.system = "http://snomed.info/sct"
 * #35 ^designation[=].use = $sct#900000000000013009
@@ -373,14 +373,14 @@ Description: "Compétence spécifique"
 * #35 ^designation[+].language = #fr-FR
 * #35 ^designation[=].use.system = "http://snomed.info/sct"
 * #35 ^designation[=].use = $sct#900000000000013009
-* #35 ^designation[=].value = "Maîtrise des outils informatisés avec synthèse vocale à entrée orthographique ou pictographique (téléthèses, logiciels de communication)"
+* #35 ^designation[=].value = "Maît des out info avc synthèse voc à entrée ortho ou picto (téléth, log de com)"
 * #35 ^property[0].code = #dateValid
 * #35 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #35 ^property[+].code = #dateMaj
-* #35 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #35 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #35 ^property[+].code = #status
 * #35 ^property[=].valueCode = #active
-* #36 "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)"
+* #36 "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)"
 * #36 ^designation[0].language = #fr-FR
 * #36 ^designation[=].use.system = "http://snomed.info/sct"
 * #36 ^designation[=].use = $sct#900000000000013009
@@ -388,11 +388,11 @@ Description: "Compétence spécifique"
 * #36 ^designation[+].language = #fr-FR
 * #36 ^designation[=].use.system = "http://snomed.info/sct"
 * #36 ^designation[=].use = $sct#900000000000013009
-* #36 ^designation[=].value = "Maîtrise des logiciels d'aide à la transcription (retour vocal, prédicteur de mots)"
+* #36 ^designation[=].value = "Maîtrise des log d'aide à la transcription (retour voc, prédicteur de mots)"
 * #36 ^property[0].code = #dateValid
 * #36 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #36 ^property[+].code = #dateMaj
-* #36 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #36 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #36 ^property[+].code = #status
 * #36 ^property[=].valueCode = #active
 * #37 "Ostéopathe"
@@ -424,18 +424,18 @@ Description: "Compétence spécifique"
 * #39 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #39 ^property[+].code = #status
 * #39 ^property[=].valueCode = #active
-* #40 "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)"
+* #40 "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
 * #40 ^designation[0].language = #fr-FR
 * #40 ^designation[=].use.system = "http://snomed.info/sct"
 * #40 ^designation[=].use = $sct#900000000000013009
 * #40 ^designation[=].value = "Maîtrise de prog d'interv glob"
 * #40 ^designation[+].language = #fr-FR
 * #40 ^designation[=].use = $sct#900000000000013009
-* #40 ^designation[=].value = "Maîtrise de programmes d'intervention globaux à référence développementale (TEACCH, DENVER,...)"
+* #40 ^designation[=].value = "Maîtrise de prog d'interv globaux à réf développementale (TEACCH, DENVER,...)"
 * #40 ^property[0].code = #dateValid
 * #40 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #40 ^property[+].code = #dateMaj
-* #40 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #40 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
 * #40 ^property[+].code = #status
 * #40 ^property[=].valueCode = #active
 * #41 "Psychiatre"
@@ -627,3 +627,10 @@ Description: "Compétence spécifique"
 * #62 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #62 ^property[+].code = #status
 * #62 ^property[=].valueCode = #active
+* #63 "Maitrise des outils informatisés à commande oculaire"
+* #63 ^property[0].code = #dateValid
+* #63 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #63 ^property[+].code = #dateMaj
+* #63 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #63 ^property[+].code = #status
+* #63 ^property[=].valueCode = #active

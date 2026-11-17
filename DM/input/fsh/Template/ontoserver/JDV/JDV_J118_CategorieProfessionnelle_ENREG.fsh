@@ -1,8 +1,8 @@
 ValueSet: JDV_J118_CategorieProfessionnelle_ENREG
 Id: JDV-J118-CategorieProfessionnelle-ENREG
 Description: "Catégorie professionnelle pour ENREG"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-05-05T19:02:35.926+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T19:04:55.465+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R359_SurspecialiteTransversale
 Id: TRE-R359-SurspecialiteTransversale
 Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-12-22T10:46:45.929+01:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:13:52.702+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-10-30T12:00:00+01:00"

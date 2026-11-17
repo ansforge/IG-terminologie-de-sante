@@ -1,8 +1,8 @@
 CodeSystem: TRE_R227_ChampActivite
 Id: TRE-R227-ChampActivite
 Description: "Champ d'activité"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:11:57.249+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-07-06T20:12:57.437+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

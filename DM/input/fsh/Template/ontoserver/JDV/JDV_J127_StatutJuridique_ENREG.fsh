@@ -1,8 +1,8 @@
 ValueSet: JDV_J127_StatutJuridique_ENREG
 Id: JDV-J127-StatutJuridique-ENREG
 Description: "Jeu de valeur sur les statuts juridiques pour ENREG"
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2025-07-02T17:04:56.118+00:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2026-07-06T19:05:00.412+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Jeu de valeur sur les statuts juridiques pour ENREG"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R72-FinessStatutJuridique#000 "En cours de vérification"
 * $TRE-R72-FinessStatutJuridique#01 "Etat"
 * $TRE-R72-FinessStatutJuridique#02 "Département"

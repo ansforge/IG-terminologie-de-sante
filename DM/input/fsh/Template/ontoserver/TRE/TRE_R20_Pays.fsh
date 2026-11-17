@@ -1,8 +1,8 @@
 CodeSystem: TRE_R20_Pays
 Id: TRE-R20-Pays
 Description: "Référentiel des codes pays provenant du COG INSEE"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T18:13:41.429+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-07-06T20:12:42.107+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-09T00:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Référentiel des codes pays provenant du COG INSEE"
 * ^experimental = false
 * ^date = "2025-03-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid

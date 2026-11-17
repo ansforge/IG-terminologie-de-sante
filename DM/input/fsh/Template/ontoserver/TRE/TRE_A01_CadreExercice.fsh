@@ -1,8 +1,8 @@
 CodeSystem: TRE_A01_CadreExercice
 Id: TRE-A01-CadreExercice
 Description: "Cadre d'exercice"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-02-03T15:41:50.914+01:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:12:19.471+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

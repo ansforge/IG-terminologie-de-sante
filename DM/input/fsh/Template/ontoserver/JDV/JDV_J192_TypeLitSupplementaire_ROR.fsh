@@ -1,8 +1,8 @@
 ValueSet: JDV_J192_TypeLitSupplementaire_ROR
 Id: JDV-J192-TypeLitSupplementaire-ROR
 Description: "Permet d'indiquer dans le ROR le statut de lits supplémentaires, pour identifier le nombre de lits supplémentaires déjà mobilisés et, par typologie de mobilisation possible, le nombre de lits qui ne le sont pas encore"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:39.614+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:46.334+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Permet d'indiquer dans le ROR le statut de lits supplémentaires, 
 * ^experimental = false
 * ^date = "2022-05-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R334-TypeLitSupplementaire#01 "Mobilisé"
 * $TRE-R334-TypeLitSupplementaire#02 "Mobilisable sans ressources humaines"
 * $TRE-R334-TypeLitSupplementaire#03 "Mobilisable avec ressources humaines"

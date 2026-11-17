@@ -1,8 +1,8 @@
 ValueSet: JDV_J246_Titre_CISIS
 Id: JDV-J246-Titre-CISIS
 Description: "Civilités CI-SIS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:07.544+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-07-06T19:06:13.484+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Civilités CI-SIS"
 * ^experimental = false
 * ^date = "2024-01-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R11-CiviliteExercice#DR "Docteur"
 * $TRE-R11-CiviliteExercice#MC "Médecin chef"
 * $TRE-R11-CiviliteExercice#MG "Médecin général"

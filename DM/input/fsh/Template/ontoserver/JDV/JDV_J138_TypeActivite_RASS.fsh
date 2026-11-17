@@ -1,8 +1,8 @@
 ValueSet: JDV_J138_TypeActivite_RASS
 Id: JDV-J138-TypeActivite-RASS
 Description: "Type d'activité dans le RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:05:03.507+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-09-28T10:32:28.005+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Type d'activité dans le RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J138-TypeActivite-RASS/FHIR/JDV-J138-TypeActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.224"
-* ^version = "20240223120000"
+* ^version = "20260928120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-02-23T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R209-TypeActivite#01 "Administration"
@@ -56,5 +56,6 @@ Description: "Type d'activité dans le RASS"
 * $TRE-R209-TypeActivite#51 "Aide Judiciaire à la Gestion du Budget Familial"
 * $TRE-R209-TypeActivite#52 "Accompagnement Social Personnalisé"
 * $TRE-R209-TypeActivite#53 "Information des Tuteurs Familiaux"
+* $TRE-R209-TypeActivite#54 "Accueil familial"
 * $TRE-R209-TypeActivite#60 "Consultations et actes"
 * $TRE-R209-TypeActivite#97 "Type d'activité indifférencié"

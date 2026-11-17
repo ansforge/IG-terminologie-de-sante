@@ -9,24 +9,24 @@ Cette TRE possède des propriétés spécifiques :
 1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
 2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR
 3. Les relations nécessaires à la construction des JDV dynamiques associés"""
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-05-05T20:12:22.411+02:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-07-06T20:14:30.392+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.380"
-* ^version = "20260330120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00.000+00:00"
+* ^date = "2026-06-01T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 164
+* ^count = 165
 * ^property[0].code = #niveau
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
@@ -1395,6 +1395,23 @@ Cette TRE possède des propriétés spécifiques :
 * #569 ^property[=].valueCode = #4320
 * #569 ^property[+].code = #finess
 * #569 ^property[=].valueBoolean = true
+* #570 "Unités résidentielles pour cas complexes" "Ces unités ont le statut de MAS et sont adossées à des établissements médico-sociaux pour adultes handicapés existants mentionnés au 7° de l’article L.312-1 du CASF.\n\nLe fonctionnement et l’organisation des URTSA :\n\n- Ces unités ont une haute intensité de prise en charge des patients, avec des pathologies lourdes.\n\n- La création de ces unités nécessite des locaux spécifiques adaptés à l'accueil de ce public.\n\n- Le public ne peut pas être accueilli dans les locaux dans lesquels sont accueillis les autres publics car les personnes accueillies dans ces unités présentent des troubles majeurs du comportement et nécessitent un accompagnement spécifique, de très grande proximité, un écosystème sécurisé, une architecture adaptée et des professionnels experts notamment formés à la gestion de crise.\n\n- Ce sont généralement des très petites unités de vie avec deux unités de trois places ou trois unités de deux places au sein d'un unique bâtiment. Cette configuration permet d’avoir des espaces de vie collective et des espaces de prise en charge individuelle pour isoler les résidents du collectif.\n\n- L’accueil prévu est de 6 personnes."
+* #570 ^designation[0].language = #fr-FR
+* #570 ^designation[=].use.system = "http://snomed.info/sct"
+* #570 ^designation[=].use = $sct#900000000000013009
+* #570 ^designation[=].value = "URTSA"
+* #570 ^property[0].code = #dateValid
+* #570 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #570 ^property[+].code = #dateMaj
+* #570 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #570 ^property[+].code = #status
+* #570 ^property[=].valueCode = #active
+* #570 ^property[+].code = #niveau
+* #570 ^property[=].valueInteger = 4
+* #570 ^property[+].code = #parent
+* #570 ^property[=].valueCode = #4320
+* #570 ^property[+].code = #finess
+* #570 ^property[=].valueBoolean = true
 * #589 "Tutelle d'État"
 * #589 ^designation[0].language = #fr-FR
 * #589 ^designation[=].use.system = "http://snomed.info/sct"

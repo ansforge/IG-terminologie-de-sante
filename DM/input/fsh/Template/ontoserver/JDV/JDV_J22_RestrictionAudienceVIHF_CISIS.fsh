@@ -1,8 +1,8 @@
 ValueSet: JDV_J22_RestrictionAudienceVIHF_CISIS
 Id: JDV-J22-RestrictionAudienceVIHF-CISIS
 Description: "Restriction d'audience pour les traces des VIHF"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:59.906+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:05.006+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,5 +15,5 @@ Description: "Restriction d'audience pour les traces des VIHF"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A07-StatutVisibiliteDocument#INVISIBLE_REPRESENTANTS_LEGAUX "Non visible par les représentants légaux du patient"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R30_RegionOM
 Id: TRE-R30-RegionOM
 Description: "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2026-05-05T20:12:03.519+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-07-06T20:13:29.301+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

@@ -1,8 +1,8 @@
 CodeSystem: TRE_R66_CategorieEtablissement
 Id: TRE-R66-CategorieEtablissement
 Description: "Catégorie d'établissements"
-* ^meta.versionId = "25"
-* ^meta.lastUpdated = "2026-05-06T17:57:47.986+02:00"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-11-02T10:29:38.818+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Catégorie d'établissements"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.8"
-* ^version = "20260505120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -3174,15 +3174,11 @@ Description: "Catégorie d'établissements"
 * #405 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #deprecated
-* #411 "Intermédiaire de Placement Social"
-* #411 ^designation[0].language = #fr-FR
-* #411 ^designation[=].use.system = "http://snomed.info/sct"
-* #411 ^designation[=].use = $sct#900000000000013009
-* #411 ^designation[=].value = "Interméd.Pla.Social"
+* #411 "Services accompagnement TDC et ADB"
 * #411 ^property[0].code = #dateValid
 * #411 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #411 ^property[+].code = #dateMaj
-* #411 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #411 ^property[=].valueDateTime = "2026-11-02T00:00:00+01:00"
 * #411 ^property[+].code = #status
 * #411 ^property[=].valueCode = #active
 * #412 "Appartement Thérapeutique"

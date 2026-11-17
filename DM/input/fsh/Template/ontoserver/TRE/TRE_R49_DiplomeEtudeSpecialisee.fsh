@@ -1,22 +1,23 @@
 CodeSystem: TRE_R49_DiplomeEtudeSpecialisee
 Id: TRE-R49-DiplomeEtudeSpecialisee
 Description: "Diplôme d'Etudes Spécialisées"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:18:13.236+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-11-02T10:29:33.945+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.32"
-* ^version = "20240531120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-05-31T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 119
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -620,6 +621,13 @@ Description: "Diplôme d'Etudes Spécialisées"
 * #DSP12 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #DSP12 ^property[+].code = #status
 * #DSP12 ^property[=].valueCode = #active
+* #DSP13 "DES Innovation Pharmaceutique et Recherche"
+* #DSP13 ^property[0].code = #dateValid
+* #DSP13 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DSP13 ^property[+].code = #dateMaj
+* #DSP13 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #DSP13 ^property[+].code = #status
+* #DSP13 ^property[=].valueCode = #active
 * #DSM52 "DES Allergologie"
 * #DSM52 ^property[0].code = #dateValid
 * #DSM52 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"

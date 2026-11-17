@@ -1,8 +1,8 @@
 ValueSet: JDV_J24_ProfessionAuteurNote_CISIS
 Id: JDV-J24-ProfessionAuteurNote-CISIS
 Description: "Profession de l'auteur de la note du cahier de liaison - CI-SIS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:10.310+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:17.615+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Profession de l'auteur de la note du cahier de liaison - CI-SIS"
 * ^experimental = false
 * ^date = "2020-04-24T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"

@@ -1,8 +1,8 @@
 ValueSet: JDV_J211_CompetenceExclusive_ROR
 Id: JDV-J211-CompetenceExclusive-ROR
 Description: "Compétence exclusive"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:49.815+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:05:55.671+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Compétence exclusive"
 * ^experimental = false
 * ^date = "2022-08-26T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R40-CompetenceExclusive#CEX22 "Gynécologie médicale et Obstétrique (CEX)"
 * $TRE-R40-CompetenceExclusive#CEX24 "Gynécologie médicale (CEX)"
 * $TRE-R40-CompetenceExclusive#CEX26 "Obstétrique (CEX)"

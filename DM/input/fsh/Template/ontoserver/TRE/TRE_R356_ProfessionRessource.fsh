@@ -1,23 +1,23 @@
 CodeSystem: TRE_R356_ProfessionRessource
 Id: TRE-R356-ProfessionRessource
 Description: "Profession Ressource"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-10-02T20:13:53.106+02:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2026-11-02T10:28:27.922+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.246"
-* ^version = "20250918120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-18T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 99
+* ^count = 102
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -53,11 +53,11 @@ Description: "Profession Ressource"
 * #05 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
-* #08 "Médiateur de santé pair"
+* #08 "Médiateur de santé pair ou de santé communautaire"
 * #08 ^property[0].code = #dateValid
 * #08 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
-* #08 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #08 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
 * #10 "Socio-esthéticien"
@@ -791,3 +791,24 @@ Description: "Profession Ressource"
 * #131 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #131 ^property[+].code = #status
 * #131 ^property[=].valueCode = #active
+* #132 "Stomathérapeute"
+* #132 ^property[0].code = #dateValid
+* #132 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #132 ^property[+].code = #dateMaj
+* #132 ^property[=].valueDateTime = "2026-07-30T12:00:00+01:00"
+* #132 ^property[+].code = #status
+* #132 ^property[=].valueCode = #active
+* #133 "Infirmier expert en plaies et cicatrisation"
+* #133 ^property[0].code = #dateValid
+* #133 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #133 ^property[+].code = #dateMaj
+* #133 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #133 ^property[+].code = #status
+* #133 ^property[=].valueCode = #active
+* #134 "Sexologue"
+* #134 ^property[0].code = #dateValid
+* #134 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #134 ^property[+].code = #dateMaj
+* #134 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #134 ^property[+].code = #status
+* #134 ^property[=].valueCode = #active

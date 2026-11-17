@@ -1,22 +1,23 @@
 CodeSystem: TRE_A09_DICOMuidRegistry
 Id: TRE-A09-DICOMuidRegistry
 Description: "DICOM UID Registry"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:11:28.159+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-09-28T10:27:29.694+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.840.10008.2.6.1"
-* ^version = "20231215120000"
-* ^status = #active
+* ^version = "20260928120000"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2026-09-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 2
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime

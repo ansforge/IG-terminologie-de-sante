@@ -1,8 +1,8 @@
 ValueSet: JDV_J186_ProfessionRessource_ROR
 Id: JDV-J186-ProfessionRessource-ROR
 Description: "Profession Ressource des offres dans le ROR"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-07-25T09:32:12.221+00:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-11-02T10:32:58.882+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Profession Ressource des offres dans le ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.19"
-* ^version = "20250710120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-07-10T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
@@ -70,7 +70,7 @@ Description: "Profession Ressource des offres dans le ROR"
 * $TRE-R95-UsagerTitre#97 "Conseiller en génétique"
 * $TRE-R356-ProfessionRessource#04 "Art-thérapeute"
 * $TRE-R356-ProfessionRessource#05 "Neuropsychologue"
-* $TRE-R356-ProfessionRessource#08 "Médiateur de santé pair"
+* $TRE-R356-ProfessionRessource#08 "Médiateur de santé pair ou de santé communautaire"
 * $TRE-R356-ProfessionRessource#10 "Socio-esthéticien"
 * $TRE-R356-ProfessionRessource#11 "Enseignant du 1er degré"
 * $TRE-R356-ProfessionRessource#12 "Enseignant du 2nd degré"
@@ -165,3 +165,6 @@ Description: "Profession Ressource des offres dans le ROR"
 * $TRE-R356-ProfessionRessource#129 "Ergonome"
 * $TRE-R356-ProfessionRessource#130 "Psychologue du travail"
 * $TRE-R356-ProfessionRessource#131 "Intermédiateur"
+* $TRE-R356-ProfessionRessource#132 "Stomathérapeute"
+* $TRE-R356-ProfessionRessource#133 "Infirmier expert en plaies et cicatrisation"
+* $TRE-R356-ProfessionRessource#134 "Sexologue"

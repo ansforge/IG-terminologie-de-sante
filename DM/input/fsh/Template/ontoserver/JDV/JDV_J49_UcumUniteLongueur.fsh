@@ -1,8 +1,8 @@
 ValueSet: JDV_J49_UcumUniteLongueur
 Id: JDV-J49-UcumUniteLongueur
 Description: "Unités de longueurs utilisées et référencées dans UCUM"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:34.028+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-07-06T19:06:38.151+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,5 +15,5 @@ Description: "Unités de longueurs utilisées et référencées dans UCUM"
 * ^experimental = false
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $unitsofmeasure#m "mètre"

@@ -1,24 +1,24 @@
 CodeSystem: TRE_R21_Fonction
 Id: TRE-R21-Fonction
 Description: "Fonction"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2026-05-05T20:11:51.739+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-11-02T11:28:02.316+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.17"
-* ^version = "20260223120000"
+* ^version = "20261102120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-11-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 57
+* ^count = 58
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -569,6 +569,13 @@ Description: "Fonction"
 * #FON-63 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #FON-63 ^property[+].code = #status
 * #FON-63 ^property[=].valueCode = #active
+* #FON-65 "Remplaçant du titulaire d'officine (IE)"
+* #FON-65 ^property[0].code = #dateValid
+* #FON-65 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #FON-65 ^property[+].code = #dateMaj
+* #FON-65 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
+* #FON-65 ^property[+].code = #status
+* #FON-65 ^property[=].valueCode = #active
 * #FON-AU "Fonction non définie"
 * #FON-AU ^property[0].code = #dateValid
 * #FON-AU ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
