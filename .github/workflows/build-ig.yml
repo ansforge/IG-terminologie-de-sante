@@ -77,7 +77,7 @@ jobs:
 
       - name: Build and test with Rake        
         run: |
-          sudo apt-get install ruby-full graphviz
+          sudo apt-get install ruby-full
           sudo gem install jekyll
 
       - name: Run sushi 
@@ -158,11 +158,3 @@ jobs:
           exclude_assets: '**.zip,**.tgz,**.pack,**expansions.json,**expansions.xml,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'          
           commit_message: ' ${{ github.event.head_commit.message }}'
       
-      - name: Debug PlantUML
-        if: failure()
-        run: |
-          find igSource/input/images-source -name '*.plantuml' | while read f; do
-            echo "== $f"
-            java -jar igSource/template/scripts/plantuml.jar -nometadata -checkonly "$f" 2>&1 | tail -5
-            echo "exit=${PIPESTATUS[0]}"
-          done
