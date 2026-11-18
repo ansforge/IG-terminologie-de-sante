@@ -1,0 +1,58 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j303-finess-statut-juridique-niv3-finess",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2026-07-07T17:48:12.421+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j303-finess-statut-juridique-niv3-finess</b></p><a name=\"en-jdv-j303-finess-statut-juridique-niv3-finess\"> </a><a name=\"en-hcjdv-j303-finess-statut-juridique-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Last updated: 2026-07-07 17:48:12+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"CodeSystem-tre-r400-finess-statut-juridique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;20260629120000</span> where niveau  = 3</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from<a href=\"CodeSystem-tre-r400-finess-statut-juridique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;20260629120000</span> where specialisationRpps  = true</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-02-23T12:00:00.000+00:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.311"
+  }],
+  "version" : "20260223120000",
+  "name" : "JdvJ303FinessStatutJuridiqueNiv3Finess",
+  "title" : "Jdv J303 Finess Statut Juridique Niv3 Finess",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "3"
+      }]
+    }],
+    "exclude" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "filter" : [{
+        "property" : "specialisationRpps",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,93 @@
+# JDV UFCV Type Endoprothese CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV UFCV Type Endoprothese CISIS 
+
+ 
+JDV UFCV Type Endoprothese CISIS 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-ufcv-type-endoprothese-cisis",
+  "meta" : {
+    "versionId" : "18",
+    "lastUpdated" : "2026-09-28T15:44:23.988+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-endoprothese-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.20"
+  }],
+  "version" : "20260928134055",
+  "name" : "JdvUfcvTypeEndoprotheseCisis",
+  "title" : "JDV UFCV Type Endoprothese CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-28T13:40:55+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV UFCV Type Endoprothese CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "P07040201",
+        "display" : "STENTS CORONAIRES"
+      },
+      {
+        "code" : "P0704020201",
+        "display" : "STENTS VASCULAIRES PÉRIPHÉRIQUES NUS"
+      },
+      {
+        "code" : "P07040202",
+        "display" : "ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &quot;STENTS PÉRIPHÉRIQUES&quot;"
+      },
+      {
+        "code" : "P07040199",
+        "display" : "ENDOPROTHÈSES VASCULAIRES - AUTRES"
+      }]
+    }]
+  }
+}
+
+```

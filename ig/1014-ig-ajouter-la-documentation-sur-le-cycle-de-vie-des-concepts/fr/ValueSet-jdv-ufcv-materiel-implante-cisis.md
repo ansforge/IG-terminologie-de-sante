@@ -1,0 +1,105 @@
+# JDV UFCV Materiel Implente CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV UFCV Materiel Implente CISIS 
+
+ 
+JDV UFCV Materiel Implente CISIS 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-ufcv-materiel-implante-cisis",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2026-09-28T15:44:22.060+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-04-27T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-materiel-implante-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.1"
+  }],
+  "version" : "20260928134054",
+  "name" : "JdvUfcvMaterielImplanteCisis",
+  "title" : "JDV UFCV Materiel Implente CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-28T13:40:54+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV UFCV Materiel Implente CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "J0105",
+        "display" : "DÉFIBRILLATEURS IMPLANTABLES"
+      },
+      {
+        "code" : "P0703",
+        "display" : "VALVES CARDIAQUES"
+      },
+      {
+        "code" : "P0704",
+        "display" : "ENDOPROTHÈSES VASCULAIRES ET CARDIAQUES"
+      },
+      {
+        "code" : "J0101",
+        "display" : "STIMULATEURS CARDIAQUES IMPLANTABLES"
+      },
+      {
+        "code" : "J019001010101",
+        "display" : "SONDES DE STIMULATION CARDIAQUE AURICULAIRE À FIXATION PASSIVE"
+      },
+      {
+        "code" : "J01030101",
+        "display" : "DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE DROITE (RVAD)"
+      },
+      {
+        "code" : "J01030102",
+        "display" : "DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE GAUCHE (LVAD)"
+      }]
+    }]
+  }
+}
+
+```
