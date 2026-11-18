@@ -1,0 +1,22 @@
+@startuml cycle-de-vie-concepts
+left to right direction
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam ArrowColor #444444
+skinparam state {
+  BorderColor #444444
+  FontSize 14
+  ArrowFontSize 12
+}
+hide empty description
+
+state "active\n<size:11>validé, utilisable</size>" as active #D8F0D8
+state "deprecated\n<size:11>valide, usage déconseillé</size>" as deprecated #FFE0B3
+state "retired\n<size:11>retiré, ne plus utiliser</size>" as retired #E3E3E3
+
+[*] --> active :création
+active --> deprecated : usage\ndéconseillé
+active --> retired : retrait
+deprecated --> retired : retrait\ndéfinitif
+
+@enduml
