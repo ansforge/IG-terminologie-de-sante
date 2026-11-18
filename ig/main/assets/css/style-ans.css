@@ -125,6 +125,7 @@ video {
     -webkit-padding-before: 0;
     -webkit-padding-after: 0;
     border: 0;
+    /*font: inherit;*/
     margin: 0;
    /* padding: 0;*/
     vertical-align: baseline;
@@ -170,7 +171,6 @@ select {
 iframe {
     border: 0;
 }
-
 [class*="svg-icon"] {
     stroke-width: 0;
     stroke: currentColor;
@@ -233,7 +233,7 @@ h6 {
     margin-top: 0;
 }
 p {
-    margin:  0 0 10px;
+    margin:  0 0 5px;
 }
 abbr[data-original-title],
 abbr[title] {
@@ -2535,7 +2535,14 @@ textarea.form-control {
 .fade:not(.show) {
     opacity: 0;
 }
-
+.collapse:not(.show) {
+    display: none;
+}
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: none;
+}
 .collapsing,
 .dropdown,
 .dropleft,
@@ -3462,19 +3469,7 @@ textarea.form-control {
 							
  
 
-.navbar,
-.navbar .container,
-.navbar .container-fluid,
-.navbar .container-xs {
-    -ms-flex-align: center;
-    -ms-flex-pack: justify;
-    align-items: center;
-    display: -ms-flexbox;
-   display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* Bootstrap 4 flex navbar supprimé : incompatible avec le HTML Bootstrap 3 du template HL7 */
 
 .navbar-brand {
     display: inline-block;
@@ -3491,10 +3486,6 @@ textarea.form-control {
 }
 
 .navbar-nav {
-    display: -ms-flexbox;
-    display: flex; 
-    -ms-flex-direction: column;
-    flex-direction: column;
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
@@ -10183,29 +10174,3 @@ a[class*="border"]:hover {
     border-color: var(--gray-700) !important;
 }
 /*# sourceMappingURL=style-ans.css.map */
-.columns-3 {
-  -moz-column-count: 3;
-  -moz-column-gap: 10px;
-  -webkit-column-count: 3;
-  /* -webkit-column-gap: 10px; */
-  /* column-count: 3; */
-  /* column-gap: 10px; */
-}
- tr[visible='false'],
-.no-result{
-  display:none;
-}
-
- tr[visible='true']{
-  display:table-row;
-}
-
-.counter{
-  padding:8px; 
-  color:#ccc;
-}
-
-
-table.codes td {
-	font-size : 10px;
-} 
