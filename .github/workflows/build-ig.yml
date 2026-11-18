@@ -82,6 +82,14 @@ jobs:
 
       - name: Run sushi 
         run: sushi ./igSource
+
+      - name: Generate PlantUML diagrams
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y plantuml
+          mkdir -p ./igSource/input/includes
+          cd ./igSource/input/images-source
+          plantuml -tsvg -o ../includes *.plantuml
         
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Run IG Publisher
