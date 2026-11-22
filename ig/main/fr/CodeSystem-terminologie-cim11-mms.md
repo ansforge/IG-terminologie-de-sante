@@ -41,7 +41,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-21T12:01:56+00:00",
+  "date" : "2026-11-22T12:14:30+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [{
