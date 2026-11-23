@@ -9,15 +9,14 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.34"
-* ^version = "20261102120000"
+* ^version = "20261221120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-11-02T12:00:00+01:00"
+* ^date = "2026-12-21T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 193
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -2020,3 +2019,87 @@ Description: "Diplôme d'Université ou Inter-Universitaire"
 * #DIP421 ^property[=].valueDateTime = "2026-11-02T12:00:00+01:00"
 * #DIP421 ^property[+].code = #status
 * #DIP421 ^property[=].valueCode = #active
+* #DIP422 "DU Techniques diagnostiques et thérapeutiques endoveineuses en phlébologie interventionnelle"
+* #DIP422 ^property[0].code = #dateValid
+* #DIP422 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP422 ^property[+].code = #dateMaj
+* #DIP422 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP422 ^property[+].code = #status
+* #DIP422 ^property[=].valueCode = #active
+* #DIP423 "DIU Cardio-oncologie"
+* #DIP423 ^property[0].code = #dateValid
+* #DIP423 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP423 ^property[+].code = #dateMaj
+* #DIP423 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP423 ^property[+].code = #status
+* #DIP423 ^property[=].valueCode = #active
+* #DIP424 "DIU Santé de l'enfant option préventive"
+* #DIP424 ^property[0].code = #dateValid
+* #DIP424 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP424 ^property[+].code = #dateMaj
+* #DIP424 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP424 ^property[+].code = #status
+* #DIP424 ^property[=].valueCode = #active
+* #DIP425 "DIU Proctologie médico-chirurgicale"
+* #DIP425 ^property[0].code = #dateValid
+* #DIP425 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP425 ^property[+].code = #dateMaj
+* #DIP425 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP425 ^property[+].code = #status
+* #DIP425 ^property[=].valueCode = #active
+* #DIP426 "DIU Pathologies de l'éveil et du sommeil de l'enfant"
+* #DIP426 ^property[0].code = #dateValid
+* #DIP426 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP426 ^property[+].code = #dateMaj
+* #DIP426 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP426 ^property[+].code = #status
+* #DIP426 ^property[=].valueCode = #active
+* #DIP427 "DIU Urgences soins intensifs cardiologiques"
+* #DIP427 ^property[0].code = #dateValid
+* #DIP427 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP427 ^property[+].code = #dateMaj
+* #DIP427 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP427 ^property[+].code = #status
+* #DIP427 ^property[=].valueCode = #active
+* #DIP428 "DIU Neuro-urologie"
+* #DIP428 ^property[0].code = #dateValid
+* #DIP428 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP428 ^property[+].code = #dateMaj
+* #DIP428 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP428 ^property[+].code = #status
+* #DIP428 ^property[=].valueCode = #active
+* #DIP429 "DIU Médecine esthétique"
+* #DIP429 ^property[0].code = #dateValid
+* #DIP429 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP429 ^property[+].code = #dateMaj
+* #DIP429 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP429 ^property[+].code = #status
+* #DIP429 ^property[=].valueCode = #active
+* #DIP430 "DIU Orthopédie-dento-cranio-maxillo-faciale"
+* #DIP430 ^property[0].code = #dateValid
+* #DIP430 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP430 ^property[+].code = #dateMaj
+* #DIP430 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP430 ^property[+].code = #status
+* #DIP430 ^property[=].valueCode = #active
+* #DIP431 "DIU Approfondissement en insuffisance cardiaque et cardiomyopathies"
+* #DIP431 ^property[0].code = #dateValid
+* #DIP431 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP431 ^property[+].code = #dateMaj
+* #DIP431 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP431 ^property[+].code = #status
+* #DIP431 ^property[=].valueCode = #active
+* #DIP432 "DIU Médecine du sommeil et vieillissement"
+* #DIP432 ^property[0].code = #dateValid
+* #DIP432 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP432 ^property[+].code = #dateMaj
+* #DIP432 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP432 ^property[+].code = #status
+* #DIP432 ^property[=].valueCode = #active
+* #DIP433 "DIU Santé de l'enfant"
+* #DIP433 ^property[0].code = #dateValid
+* #DIP433 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP433 ^property[+].code = #dateMaj
+* #DIP433 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #DIP433 ^property[+].code = #status
+* #DIP433 ^property[=].valueCode = #active
