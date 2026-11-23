@@ -10,15 +10,14 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20261102120000"
+* ^version = "20261221120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-11-02T12:00:00+01:00"
+* ^date = "2026-12-21T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 80
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -821,3 +820,52 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #379 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #379 ^property[+].code = #status
 * #379 ^property[=].valueCode = #active
+* #380 "Autre professionnel intervenant dans les soins" "Professionnel participant directement ou indirectement à la prise en charge et aux soins des patients ou usagers, et dont la fonction ne correspond à aucun autre rôle identifié dans la nomenclature."
+* #380 ^property[0].code = #dateValid
+* #380 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #380 ^property[+].code = #dateMaj
+* #380 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #380 ^property[+].code = #status
+* #380 ^property[=].valueCode = #active
+* #381 "Agent de service hospitalier" "Professionnel assurant principalement l'entretien et l'hygiène des locaux au sein d'un établissement sanitaire ou médico-social et contribuant, dans le cadre de ses missions, au confort et à l'environnement des patients ou usagers."
+* #381 ^property[0].code = #dateValid
+* #381 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #381 ^property[+].code = #dateMaj
+* #381 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #381 ^property[+].code = #status
+* #381 ^property[=].valueCode = #active
+* #382 "Technicien biomédical" "Professionnel assurant l'installation, le contrôle, la maintenance et le suivi technique des équipements et dispositifs biomédicaux utilisés au sein d'une structure sanitaire ou médico-sociale."
+* #382 ^property[0].code = #dateValid
+* #382 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #382 ^property[+].code = #dateMaj
+* #382 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #382 ^property[+].code = #status
+* #382 ^property[=].valueCode = #active
+* #383 "Ingénieur biomédical" "Professionnel assurant la gestion et le pilotage des équipements et technologies biomédicales, notamment leur acquisition, leur déploiement, leur maintenance, leur sécurité et leur adéquation aux besoins des utilisateurs."
+* #383 ^property[0].code = #dateValid
+* #383 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #383 ^property[+].code = #dateMaj
+* #383 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #383 ^property[+].code = #status
+* #383 ^property[=].valueCode = #active
+* #384 "Autre professionnel intervenant dans la qualité et l'hygiène" "Professionnel exerçant des missions relatives à la qualité, à la gestion des risques ou à l'hygiène au sein d'une structure sanitaire ou médico-sociale, et dont la fonction ne correspond à aucun autre rôle identifié dans la nomenclature."
+* #384 ^property[0].code = #dateValid
+* #384 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #384 ^property[+].code = #dateMaj
+* #384 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #384 ^property[+].code = #status
+* #384 ^property[=].valueCode = #active
+* #385 "Agent d'accueil" "Professionnel assurant l'accueil, l'information et l'orientation des patients, usagers, accompagnants ou visiteurs au sein d'une structure sanitaire, médico-sociale ou sociale."
+* #385 ^property[0].code = #dateValid
+* #385 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #385 ^property[+].code = #dateMaj
+* #385 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #385 ^property[+].code = #status
+* #385 ^property[=].valueCode = #active
+* #386 "Directeur des soins" "Professionnel chargé de la coordination générale des activités de soins et participant à leur organisation, à leur qualité et à leur évaluation, ainsi qu'au management des professionnels concernés au sein d'un établissement de santé."
+* #386 ^property[0].code = #dateValid
+* #386 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #386 ^property[+].code = #dateMaj
+* #386 ^property[=].valueDateTime = "2026-12-21T12:00:00+01:00"
+* #386 ^property[+].code = #status
+* #386 ^property[=].valueCode = #active
