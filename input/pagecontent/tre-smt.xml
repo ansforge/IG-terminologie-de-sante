@@ -18,7 +18,7 @@
    {% sql {
   "query" : "select   name as Name,
                       Description,
-                      STRFTIME('%d/%m/%Y',date(date)) date_maj, 
+                      STRFTIME('%d/%m/%Y', SUBSTR(date, 1, 10)) date_maj, 
                       Status as Status,
                       Web 
             from      Resources 
