@@ -1,0 +1,340 @@
+# JDV_J121_RolePriseCharge_ENREG - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV_J121_RolePriseCharge_ENREG 
+
+ 
+Code des rôles et fonctions pour l'application ENREG 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "JDV-J121-RolePriseCharge-ENREG",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-02T10:32:53.730+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-06-26T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.200"
+  }],
+  "version" : "20261221120000",
+  "name" : "JDV_J121_RolePriseCharge_ENREG",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-12-21T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Code des rôles et fonctions pour l'application ENREG",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+      "concept" : [{
+        "code" : "307",
+        "display" : "Mandataire judiciaire à la protection des majeurs (MJPM)"
+      },
+      {
+        "code" : "312",
+        "display" : "Autre professionnel"
+      },
+      {
+        "code" : "313",
+        "display" : "Aide-soignant"
+      },
+      {
+        "code" : "314",
+        "display" : "Ambulancier"
+      },
+      {
+        "code" : "315",
+        "display" : "Auxiliaire de puériculture"
+      },
+      {
+        "code" : "316",
+        "display" : "Préparateur en pharmacie hospitalière"
+      },
+      {
+        "code" : "317",
+        "display" : "Préparateur en pharmacie"
+      },
+      {
+        "code" : "319",
+        "display" : "Technicien de l'intervention sociale et familiale"
+      },
+      {
+        "code" : "320",
+        "display" : "Conseiller en économie sociale et familiale"
+      },
+      {
+        "code" : "321",
+        "display" : "Médiateur familial"
+      },
+      {
+        "code" : "322",
+        "display" : "Assistant familial"
+      },
+      {
+        "code" : "324",
+        "display" : "Moniteur éducateur"
+      },
+      {
+        "code" : "325",
+        "display" : "Educateur de jeunes enfants"
+      },
+      {
+        "code" : "326",
+        "display" : "Educateur spécialisé"
+      },
+      {
+        "code" : "327",
+        "display" : "Educateur technique spécialisé"
+      },
+      {
+        "code" : "328",
+        "display" : "Accompagnant éducatif et social"
+      },
+      {
+        "code" : "329",
+        "display" : "Conseiller en génétique"
+      },
+      {
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
+        "code" : "331",
+        "display" : "Secrétaire assistante médico-administrative"
+      },
+      {
+        "code" : "332",
+        "display" : "Assistant médical"
+      },
+      {
+        "code" : "333",
+        "display" : "Responsable de secteur"
+      },
+      {
+        "code" : "334",
+        "display" : "Biologiste médical ni médecin ni pharmacien"
+      },
+      {
+        "code" : "335",
+        "display" : "Gestionnaire alertes et urgences sanitaires"
+      },
+      {
+        "code" : "336",
+        "display" : "Autre professionnel intervenant dans l'accueil et l'orientation des personnes"
+      },
+      {
+        "code" : "337",
+        "display" : "Autre professionnel intervenant dans la logistique"
+      },
+      {
+        "code" : "338",
+        "display" : "Autre professionnel intervenant dans l'hôtellerie et la restauration"
+      },
+      {
+        "code" : "339",
+        "display" : "Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement"
+      },
+      {
+        "code" : "340",
+        "display" : "Autre professionnel intervenant dans la direction des systèmes d'information"
+      },
+      {
+        "code" : "341",
+        "display" : "Autre professionnel intervenant dans la direction des finances et comptabilité"
+      },
+      {
+        "code" : "342",
+        "display" : "Autre professionnel intervenant dans la direction de la communication"
+      },
+      {
+        "code" : "343",
+        "display" : "Autre professionnel intervenant dans la direction des ressources humaines"
+      },
+      {
+        "code" : "344",
+        "display" : "Autre professionnel intervenant dans la direction des affaires médicales"
+      },
+      {
+        "code" : "345",
+        "display" : "Autre professionnel intervenant dans le social, éducatif, psychologie et culturel"
+      },
+      {
+        "code" : "347",
+        "display" : "Etudiant - aide-soignant"
+      },
+      {
+        "code" : "348",
+        "display" : "Etudiant - auxiliaire de puériculture"
+      },
+      {
+        "code" : "349",
+        "display" : "Etudiant - masseur-kinésithérapeute"
+      },
+      {
+        "code" : "354",
+        "display" : "Externe en médecine"
+      },
+      {
+        "code" : "355",
+        "display" : "Externe en odontologie"
+      },
+      {
+        "code" : "356",
+        "display" : "Externe en maïeutique"
+      },
+      {
+        "code" : "357",
+        "display" : "Externe en pharmacie"
+      },
+      {
+        "code" : "358",
+        "display" : "Autre étudiant"
+      },
+      {
+        "code" : "359",
+        "display" : "Directeur d'établissement"
+      },
+      {
+        "code" : "360",
+        "display" : "Brancardier"
+      },
+      {
+        "code" : "361",
+        "display" : "Educateur en activité physique adaptée"
+      },
+      {
+        "code" : "362",
+        "display" : "Technicien d'informations médicales"
+      },
+      {
+        "code" : "363",
+        "display" : "Attaché de recherche clinique"
+      },
+      {
+        "code" : "365",
+        "display" : "Gestionnaire admissions / frais de séjour / traitement externe"
+      },
+      {
+        "code" : "366",
+        "display" : "Archiviste"
+      },
+      {
+        "code" : "367",
+        "display" : "Surveillant de nuit"
+      },
+      {
+        "code" : "368",
+        "display" : "Animateur"
+      },
+      {
+        "code" : "370",
+        "display" : "Opérateur de Soins Non Programmés"
+      },
+      {
+        "code" : "371",
+        "display" : "Aide à domicile qualifié(e)"
+      },
+      {
+        "code" : "372",
+        "display" : "Aide à domicile"
+      },
+      {
+        "code" : "374",
+        "display" : "Agent d'autorité d'enregistrement"
+      },
+      {
+        "code" : "375",
+        "display" : "Conseiller conjugal et familial"
+      },
+      {
+        "code" : "376",
+        "display" : "PADHUE - Médecin"
+      },
+      {
+        "code" : "377",
+        "display" : "PADHUE - Pharmacien"
+      },
+      {
+        "code" : "378",
+        "display" : "PADHUE - Sage Femme"
+      },
+      {
+        "code" : "379",
+        "display" : "PADHUE - Chirurgien Dentiste"
+      },
+      {
+        "code" : "380",
+        "display" : "Autre professionnel intervenant dans les soins"
+      },
+      {
+        "code" : "381",
+        "display" : "Agent de service hospitalier"
+      },
+      {
+        "code" : "382",
+        "display" : "Technicien biomédical"
+      },
+      {
+        "code" : "383",
+        "display" : "Ingénieur biomédical"
+      },
+      {
+        "code" : "384",
+        "display" : "Autre professionnel intervenant dans la qualité et l'hygiène"
+      },
+      {
+        "code" : "385",
+        "display" : "Agent d'accueil"
+      },
+      {
+        "code" : "386",
+        "display" : "Directeur des soins"
+      }]
+    }]
+  }
+}
+
+```

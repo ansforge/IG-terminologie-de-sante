@@ -1,0 +1,77 @@
+# Jdv J368 Categorie Etablissement Cisis - Terminologies de Santé v1.15.0
+
+## ValueSet: Jdv J368 Categorie Etablissement Cisis 
+
+ 
+JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j368-categorie-etablissement-cisis",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2026-05-05T19:02:21.041+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-02-22T18:02:28.249+00:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.823"
+  }],
+  "version" : "20260505120000",
+  "name" : "JdvJ368CategorieEtablissementCisis",
+  "title" : "Jdv J368 Categorie Etablissement Cisis",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-05T12:00:00.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+    }]
+  }
+}
+
+```

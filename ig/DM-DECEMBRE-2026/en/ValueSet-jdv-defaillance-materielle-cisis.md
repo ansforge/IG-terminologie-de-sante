@@ -1,0 +1,134 @@
+# JDV Defaillance Materielle CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV Defaillance Materielle CISIS 
+
+ 
+JDV Defaillance Materielle CISIS 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+No Expansion for this valueset (Unknown Code System)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-defaillance-materielle-cisis",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-23T15:12:50.426+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-12-16T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.526"
+  }],
+  "version" : "20261120114400",
+  "name" : "JdvDefaillanceMaterielleCisis",
+  "title" : "JDV Defaillance Materielle CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-20T11:44:00+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Defaillance Materielle CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.imdrf.org",
+      "concept" : [{
+        "code" : "A0705",
+        "display" : "Problème de batterie"
+      },
+      {
+        "code" : "A13",
+        "display" : "Problème de communication ou de transmission"
+      },
+      {
+        "code" : "A14",
+        "display" : "Problème de perfusion ou de débit"
+      },
+      {
+        "code" : "A150203",
+        "display" : "Difficulté ou retard lors de la pose du dispositif"
+      },
+      {
+        "code" : "A150206",
+        "display" : "Problème lié à l'insertion du dispositif"
+      },
+      {
+        "code" : "A1909",
+        "display" : "Problème d'approvisionnement en gaz médicaux"
+      },
+      {
+        "code" : "A191002",
+        "display" : "Problème d'alimentation en énergie"
+      },
+      {
+        "code" : "A20",
+        "display" : "Problème d'installation du dispositif"
+      },
+      {
+        "code" : "A22",
+        "display" : "Problème d'utilisation du dispositif"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "Z1203010101",
+        "display" : "APPAREILS D’ANESTHÉSIE"
+      },
+      {
+        "code" : "Z120303",
+        "display" : "ÉQUIPEMENTS DE PERFUSION"
+      },
+      {
+        "code" : "Z1203",
+        "display" : "ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES"
+      },
+      {
+        "code" : "Z1203019001",
+        "display" : "ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE"
+      }]
+    }]
+  }
+}
+
+```
